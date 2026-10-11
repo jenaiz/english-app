@@ -1,13 +1,49 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight, RefreshCw } from 'lucide-react'
+import { useAuth } from '../../context/AuthContext'
+import { pagePath } from '../../lib/expressionPages'
+import { loadExpressions } from '../../lib/expressionsCatalog'
+import { todaySelection } from '../../lib/todayPicks'
+import { useLearnerLevel } from '../../lib/useLearnerLevel'
+import { useSavedExpressions } from '../../lib/useSavedExpressions'
+import type { ExpressionsCatalog } from '../../types'
 import SpeakButton from '../SpeakButton'
 
-const IDIOMS = [
+interface HomeIdiom {
+  id?: string
+  idiom: string
+  meaning: string
+  /** English definition, under the Spanish meaning. */
+  definition?: string
+  example: string
+}
+
+// Shown until the catalog loads (and if it can't).
+const FALLBACK_IDIOMS: HomeIdiom[] = [
   { idiom: 'break the ice', meaning: 'Romper el hielo: empezar a hablar para quitar la tensión.', example: 'He told a joke to break the ice.' },
   { idiom: 'a piece of cake', meaning: 'Pan comido: algo muy fácil.', example: "The exam was a piece of cake." },
   { idiom: 'call it a day', meaning: 'Dar algo por terminado por hoy.', example: "We're tired, let's call it a day." },
 ]
+
+/** The idioms of today's selection in Expresiones, the same the visitor will find there. */
+function useTodayIdioms(): HomeIdiom[] | null {
+  const { user } = useAuth()
+  const learnerLevel = useLearnerLevel(!!user)
+  const { addedBeforeToday } = useSavedExpressions(!!user)
+  const [catalog, setCatalog] = useState<ExpressionsCatalog | null>(null)
+  useEffect(() => {
+    loadExpressions()
+      .then(setCatalog)
+      .catch(() => {})
+  }, [])
+  if (!catalog || learnerLevel === undefined) return null
+  const idioms = todaySelection(catalog, learnerLevel, user?.id, addedBeforeToday).picks.filter((p) => p.kind === 'idiom')
+  if (idioms.length === 0) return null
+  return idioms.map((p) => ({ id: p.id, idiom: p.term, meaning: capitalize(p.translation), definition: p.definition, example: p.example }))
+}
+
+const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1)
 
 const PARTICLES = [
   { particle: 'up', meaning: 'buscar (en un diccionario, en internet)', example: 'Look it up online.' },
@@ -36,16 +72,18 @@ export default function BeyondGrammar() {
         to="/expresiones"
         className="mt-8 inline-flex items-center gap-2 rounded-full bg-indigo-50 px-5 py-2.5 font-semibold text-indigo-700 transition hover:bg-indigo-100"
       >
-        Ver todas las expresiones <ArrowRight className="h-4 w-4" />
+        Ver las expresiones de hoy <ArrowRight className="h-4 w-4" />
       </Link>
     </section>
   )
 }
 
 function IdiomCard() {
+  const today = useTodayIdioms()
+  const items = today ?? FALLBACK_IDIOMS
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
-  const item = IDIOMS[index]
+  const item = items[index % items.length]
 
   return (
     <div className="relative flex flex-col lg:col-span-5 lg:row-span-2">
@@ -53,7 +91,7 @@ function IdiomCard() {
         type="button"
         onClick={() => {
           setFlipped(false)
-          setIndex((i) => (i + 1) % IDIOMS.length)
+          setIndex((i) => (i + 1) % items.length)
         }}
         className={`absolute right-6 top-6 z-10 inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition ${
           flipped ? 'text-indigo-600 hover:bg-indigo-50' : 'text-white hover:bg-white/15'
@@ -80,7 +118,7 @@ function IdiomCard() {
         >
           <div aria-hidden={flipped} className="absolute inset-0 flex flex-col justify-between rounded-3xl bg-indigo-600 p-8 text-white backface-hidden">
             <span>
-              <span className="block text-lg font-semibold">Idioms</span>
+              <span className="block text-lg font-semibold">{today ? 'Idioms de hoy' : 'Idioms'}</span>
               <span className="text-sm text-indigo-200">¿Qué significa?</span>
             </span>
             <p className="font-display text-5xl font-extrabold leading-none tracking-tight md:text-6xl">{item.idiom}</p>
@@ -88,13 +126,28 @@ function IdiomCard() {
           </div>
           <div aria-hidden={!flipped} className="absolute inset-0 flex flex-col justify-between rounded-3xl border-2 border-indigo-600 bg-white p-8 rotate-y-180 backface-hidden">
             <span>
-              <span className="block text-lg font-semibold text-slate-900">Idioms</span>
+              <span className="block text-lg font-semibold text-slate-900">{today ? 'Idioms de hoy' : 'Idioms'}</span>
               <span className="font-display text-xl font-bold text-indigo-600">{item.idiom}</span>
             </span>
-            <p className="text-2xl font-semibold leading-snug text-slate-900">{item.meaning}</p>
-            <div className="flex items-center justify-between gap-3">
-              <p className="italic text-slate-600">“{item.example}”</p>
-              <SpeakButton text={item.example} />
+            <div>
+              <p className="text-2xl font-semibold leading-snug text-slate-900">{item.meaning}</p>
+              {item.definition && <p className="mt-2 text-slate-600">{item.definition}</p>}
+            </div>
+            <div>
+              <div className="flex items-center justify-between gap-3">
+                <p className="italic text-slate-600">“{item.example}”</p>
+                <SpeakButton text={item.example} />
+              </div>
+              {item.id && (
+                <Link
+                  to={pagePath('idiom', item.id)}
+                  onClick={(e) => e.stopPropagation()}
+                  tabIndex={flipped ? 0 : -1}
+                  className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-indigo-600 hover:text-indigo-800"
+                >
+                  Ver la ficha completa <ArrowRight className="h-3.5 w-3.5" />
+                </Link>
+              )}
             </div>
           </div>
         </div>

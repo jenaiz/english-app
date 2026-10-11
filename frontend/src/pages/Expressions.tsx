@@ -13,7 +13,7 @@ import { trackEvent } from '../lib/analytics'
 import { useSavedExpressions } from '../lib/useSavedExpressions'
 import { loadExpressions } from '../lib/expressionsCatalog'
 import { packProgress, packsForLevel } from '../lib/packs'
-import { localDate, pickToday } from '../lib/todayPicks'
+import { todaySelection } from '../lib/todayPicks'
 import { useLearnerLevel } from '../lib/useLearnerLevel'
 import type { ExpressionsCatalog } from '../types'
 
@@ -137,10 +137,10 @@ export default function Expressions() {
   }, [catalog, scope, tab, inLevel])
   const [allPacks, setAllPacks] = useState(false)
   const orderedPacks = useMemo(() => packsForLevel(catalog?.packs ?? [], level), [catalog, level])
-  // Same three all day: the seed changes with the date and the viewer.
-  const picks = useMemo(
-    () => (catalog ? pickToday(catalog, level, `${localDate()}|${user?.id ?? 'guest'}`, addedBeforeToday) : []),
-    [catalog, level, user?.id, addedBeforeToday],
+  // Hoy follows the level the learner is studying, not the filter, which is for exploring.
+  const today = useMemo(
+    () => (catalog && learnerLevel !== undefined ? todaySelection(catalog, learnerLevel, user?.id, addedBeforeToday) : null),
+    [catalog, learnerLevel, user?.id, addedBeforeToday],
   )
   const current = TABS.find((t) => t.id === tab)!
   const axis = params.get('vista') === 'particula' ? 'particula' : 'verbo'
@@ -150,7 +150,7 @@ export default function Expressions() {
       <h1 className="font-display text-4xl font-bold tracking-tight text-indigo-950 md:text-5xl">Expresiones</h1>
       <p className="mt-3 max-w-2xl text-lg text-slate-600">El inglés que no viene en los libros: lo que dicen los nativos a diario y casi nadie te explica.</p>
 
-      {catalog && <TodayPanel picks={picks} level={level} statusOf={statusOf} onAdd={add} onShowAll={() => chooseLevel('all')} />}
+      {today && <TodayPanel picks={today.picks} level={today.level} statusOf={statusOf} onAdd={add} />}
 
       {catalog && catalog.packs.length > 0 && (
         <section className="mt-12" aria-labelledby="packs-title">

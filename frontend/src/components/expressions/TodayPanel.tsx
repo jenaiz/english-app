@@ -14,8 +14,6 @@ interface Props {
   level: string
   statusOf: (kind: ExpressionKind, id: string) => ReviewStatus
   onAdd: (kind: ExpressionKind, id: string, source?: AddSource) => Promise<void>
-  /** Shows the whole catalog with every expression, for when the level has none left. */
-  onShowAll: () => void
 }
 
 const today = () => new Intl.DateTimeFormat('es-ES', { weekday: 'long', day: 'numeric', month: 'long' }).format(new Date())
@@ -24,7 +22,7 @@ const today = () => new Intl.DateTimeFormat('es-ES', { weekday: 'long', day: 'nu
  * The main way into Expresiones: a few expressions chosen for today. It decides for the learner,
  * takes a couple of minutes and ends ("Listo por hoy"), which gives a reason to come back tomorrow.
  */
-export default function TodayPanel({ picks, level, statusOf, onAdd, onShowAll }: Props) {
+export default function TodayPanel({ picks, level, statusOf, onAdd }: Props) {
   const { user } = useAuth()
   const [busy, setBusy] = useState(false)
   const pending = picks.filter((p) => statusOf(p.kind, p.id) === 'none')
@@ -93,10 +91,11 @@ export default function TodayPanel({ picks, level, statusOf, onAdd, onShowAll }:
 
       {picks.length === 0 ? (
         <p className="mt-5 rounded-2xl bg-white px-5 py-4 text-slate-600">
-          Ya tienes en tu repaso todas las expresiones de este nivel.{' '}
-          <button type="button" onClick={onShowAll} className="font-semibold text-indigo-600 hover:text-indigo-800">
-            Prueba con otro nivel
-          </button>
+          Ya tienes en tu repaso todas las expresiones. ¡Enhorabuena! Sigue con ellas en{' '}
+          <Link to="/review" className="font-semibold text-indigo-600 hover:text-indigo-800">
+            Repaso
+          </Link>
+          .
         </p>
       ) : (
         <div className="mt-5 grid gap-4 md:grid-cols-3">

@@ -98,3 +98,19 @@ export function pickToday(
   ).map((v) => phrasalSummary(v.root, v))
   return [...idioms, ...phrasal]
 }
+
+/**
+ * Today's selection as Expresiones shows it: for the level the learner is studying (A1 learners get A2,
+ * the first level with idioms; signed-out visitors B1), or any level when that one has none left.
+ */
+export function todaySelection(
+  catalog: ExpressionsCatalog,
+  learnerLevel: string | null,
+  userId: string | undefined,
+  exclude: (kind: ExpressionKind, id: string) => boolean,
+): { level: string; picks: ExpressionSummary[] } {
+  const level = learnerLevel ? (learnerLevel === 'A1' ? 'A2' : learnerLevel) : 'B1'
+  const seed = `${localDate()}|${userId ?? 'guest'}`
+  const picks = pickToday(catalog, level, seed, exclude)
+  return picks.length > 0 ? { level, picks } : { level: 'all', picks: pickToday(catalog, 'all', seed, exclude) }
+}
