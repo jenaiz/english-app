@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import { AlertCircle, Loader2 } from 'lucide-react'
+import { AlertCircle, ChevronDown, Loader2 } from 'lucide-react'
 import { api } from '../api/client'
 import HackCard from '../components/expressions/HackCard'
 import IdiomCard from '../components/expressions/IdiomCard'
@@ -153,42 +153,8 @@ export default function Expressions() {
       <h1 className="font-display text-4xl font-bold tracking-tight text-indigo-950 md:text-5xl">Expresiones</h1>
       <p className="mt-3 max-w-2xl text-lg text-slate-600">El inglés que no viene en los libros: lo que dicen los nativos a diario y casi nadie te explica.</p>
 
-      {catalog && (
-        <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3">
-          <div className="flex flex-wrap items-center gap-2" role="group" aria-label="Filtrar por nivel">
-            <span className="mr-1 text-sm font-medium text-slate-500">Nivel:</span>
-            {['all', ...levels].map((l) => (
-              <button
-                key={l}
-                type="button"
-                aria-pressed={level === l}
-                onClick={() => chooseLevel(l)}
-                className={`rounded-full px-4 py-1.5 text-sm font-semibold transition ${
-                  level === l ? 'bg-indigo-600 text-white' : 'bg-indigo-50 text-indigo-700 hover:bg-indigo-100'
-                }`}
-              >
-                {l === 'all' ? 'Todos' : l}
-                {l === learnerLevel && <span className={`ml-1.5 text-xs font-medium ${level === l ? 'text-indigo-200' : 'text-indigo-500'}`}>· tu nivel</span>}
-              </button>
-            ))}
-          </div>
-          <div className="inline-flex rounded-full border border-slate-200 bg-white p-1" role="group" aria-label="Cuánto mostrar">
-            {(['core', 'all'] as const).map((s) => (
-              <button
-                key={s}
-                type="button"
-                aria-pressed={scope === s}
-                onClick={() => chooseScope(s)}
-                className={`rounded-full px-4 py-1.5 text-sm font-semibold transition ${scope === s ? 'bg-slate-900 text-white' : 'text-slate-500 hover:text-slate-800'}`}
-              >
-                {s === 'core' ? 'Esenciales' : 'Todo'}
-              </button>
-            ))}
-          </div>
-        </div>
-      )}
-
-      <div className="mt-4 inline-flex max-w-full flex-wrap gap-1 rounded-2xl bg-slate-100 p-1" role="tablist" aria-label="Tipo de expresión">
+      {/* Primary navigation: what kind of expression. Filters below only refine the content. */}
+      <div className="mt-8 flex gap-6 overflow-x-auto border-b border-slate-200" role="tablist" aria-label="Tipo de expresión">
         {TABS.map((t) => (
           <button
             key={t.id}
@@ -196,20 +162,75 @@ export default function Expressions() {
             role="tab"
             aria-selected={t.id === tab}
             onClick={() => setParams(t.id === 'idioms' ? {} : { tab: t.id }, { replace: true })}
-            className={`rounded-xl px-4 py-2 font-semibold transition ${t.id === tab ? 'bg-white text-indigo-700 shadow-sm' : 'text-slate-500 hover:text-slate-800'}`}
+            className={`-mb-px shrink-0 border-b-2 pb-3 text-lg font-semibold transition ${
+              t.id === tab ? 'border-indigo-600 text-indigo-700' : 'border-transparent text-slate-500 hover:border-slate-300 hover:text-slate-800'
+            }`}
           >
             {t.label}
           </button>
         ))}
       </div>
-      <div className="mt-4 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
-        <p className="max-w-2xl text-slate-600">{current.intro}</p>
-        {catalog && (
-          <span className="text-sm text-slate-500 tabular-nums">
-            {count} {tab === 'idioms' ? 'idioms' : tab === 'phrasal' ? 'phrasal verbs' : 'hacks'}
-          </span>
-        )}
-      </div>
+      <p className="mt-4 max-w-2xl text-slate-600">{current.intro}</p>
+
+      {catalog && (
+        <div className="mt-5 flex flex-wrap items-center justify-between gap-x-6 gap-y-3">
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-3 text-sm">
+            <label className="relative inline-flex items-center">
+              <span className="sr-only">Nivel</span>
+              <select
+                id="expressions-level"
+                value={level}
+                onChange={(e) => chooseLevel(e.target.value)}
+                className="appearance-none rounded-full border border-slate-200 bg-white py-1.5 pr-9 pl-4 font-semibold text-slate-800 shadow-sm transition hover:border-slate-300 focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 focus:outline-none"
+              >
+                <option value="all">Todos los niveles</option>
+                {levels.map((l) => (
+                  <option key={l} value={l}>
+                    Nivel {l}
+                    {l === learnerLevel ? ' · tu nivel' : ''}
+                  </option>
+                ))}
+              </select>
+              <ChevronDown className="pointer-events-none absolute right-3 h-4 w-4 text-slate-400" />
+            </label>
+            {tab !== 'hacks' && (
+              <label className="inline-flex cursor-pointer items-center gap-2 font-medium text-slate-700">
+                <input
+                  id="expressions-core"
+                  type="checkbox"
+                  role="switch"
+                  checked={scope === 'core'}
+                  onChange={(e) => chooseScope(e.target.checked ? 'core' : 'all')}
+                  className="peer sr-only"
+                />
+                <span
+                  aria-hidden="true"
+                  className="relative h-5 w-9 rounded-full bg-slate-300 transition peer-checked:bg-indigo-600 peer-focus-visible:ring-2 peer-focus-visible:ring-indigo-300 after:absolute after:top-0.5 after:left-0.5 after:h-4 after:w-4 after:rounded-full after:bg-white after:shadow after:transition peer-checked:after:translate-x-4"
+                />
+                Solo esenciales
+              </label>
+            )}
+            <span className="text-slate-400 tabular-nums">
+              {count} {tab === 'idioms' ? 'idioms' : tab === 'phrasal' ? 'phrasal verbs' : 'hacks'}
+            </span>
+          </div>
+          {tab === 'phrasal' && (
+            <div className="inline-flex rounded-lg bg-slate-100 p-0.5 text-sm" role="group" aria-label="Ver phrasal verbs">
+              {(['verbo', 'particula'] as const).map((v) => (
+                <button
+                  key={v}
+                  type="button"
+                  aria-pressed={axis === v}
+                  onClick={() => setParams(v === 'verbo' ? { tab: 'phrasal' } : { tab: 'phrasal', vista: v }, { replace: true })}
+                  className={`rounded-md px-3 py-1 font-medium transition ${axis === v ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-500 hover:text-slate-800'}`}
+                >
+                  {v === 'verbo' ? 'Por verbo' : 'Por partícula'}
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
 
       {error && (
         <div className="mt-6 flex items-center gap-2 rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700">
@@ -239,7 +260,7 @@ export default function Expressions() {
       )}
 
       {catalog && count > 0 && (
-        <div className="mt-6">
+        <div className="mt-8">
           {tab === 'idioms' && (
             <>
               {showTopics && (
@@ -271,19 +292,6 @@ export default function Expressions() {
           {/* Keyed by level so the selected verb and particle reset when the filter changes the list. */}
           {tab === 'phrasal' && (
             <>
-              <div className="mb-6 inline-flex rounded-full border border-slate-200 bg-white p-1" role="group" aria-label="Explorar phrasal verbs">
-                {(['verbo', 'particula'] as const).map((v) => (
-                  <button
-                    key={v}
-                    type="button"
-                    aria-pressed={axis === v}
-                    onClick={() => setParams(v === 'verbo' ? { tab: 'phrasal' } : { tab: 'phrasal', vista: v }, { replace: true })}
-                    className={`rounded-full px-4 py-1.5 text-sm font-semibold transition ${axis === v ? 'bg-indigo-950 text-white' : 'text-slate-500 hover:text-slate-800'}`}
-                  >
-                    {v === 'verbo' ? 'Por verbo' : 'Por partícula'}
-                  </button>
-                ))}
-              </div>
               {/* Keyed so the selection resets when the level filter or a deep link changes the starting point. */}
               {axis === 'verbo' ? (
                 <PhrasalExplorer
