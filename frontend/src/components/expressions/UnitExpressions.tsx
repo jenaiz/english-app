@@ -44,7 +44,7 @@ export default function UnitExpressions({ unitId, excludeTerms = [] }: Props) {
   const addAll = async () => {
     setBusy(true)
     try {
-      for (const i of pending) await add(i.kind, i.id)
+      for (const i of pending) await add(i.kind, i.id, 'unit')
     } finally {
       setBusy(false)
     }
@@ -73,7 +73,7 @@ export default function UnitExpressions({ unitId, excludeTerms = [] }: Props) {
       </div>
       <div className={`mt-4 grid gap-4 ${items.length > 2 ? 'md:grid-cols-3' : 'sm:grid-cols-2'}`}>
         {items.map((i) => (
-          <ExpressionTile key={`${i.kind}:${i.id}`} item={i} status={statusOf(i.kind, i.id)} onAdd={add} />
+          <ExpressionTile key={`${i.kind}:${i.id}`} item={i} status={statusOf(i.kind, i.id)} onAdd={(kind, id) => add(kind, id, 'unit')} />
         ))}
       </div>
     </section>

@@ -8,6 +8,7 @@ import ParticleExplorer from '../components/expressions/ParticleExplorer'
 import PhrasalExplorer from '../components/expressions/PhrasalExplorer'
 import TodayPanel from '../components/expressions/TodayPanel'
 import { useAuth } from '../context/AuthContext'
+import { trackEvent } from '../lib/analytics'
 import { useSavedExpressions } from '../lib/useSavedExpressions'
 import { loadExpressions } from '../lib/expressionsCatalog'
 import { packProgress, packsForLevel } from '../lib/packs'
@@ -61,10 +62,12 @@ export default function Expressions() {
   const chooseLevel = (l: string) => {
     setPickedLevel(l)
     store(LEVEL_KEY, l)
+    trackEvent('expressions_filter', { filter: 'level', value: l, learner_level: learnerLevel ?? 'none' })
   }
   const chooseScope = (s: Scope) => {
     setScope(s)
     store(SCOPE_KEY, s)
+    trackEvent('expressions_filter', { filter: 'scope', value: s })
   }
 
   useEffect(() => {

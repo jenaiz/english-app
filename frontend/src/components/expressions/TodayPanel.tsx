@@ -1,7 +1,9 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { CheckCircle2, Loader2, Plus } from 'lucide-react'
 import { useAuth } from '../../context/AuthContext'
+import { trackEvent } from '../../lib/analytics'
+import type { AddSource } from '../../lib/useSavedExpressions'
 import type { ExpressionSummary } from '../../lib/todayPicks'
 import type { ExpressionKind } from '../../types'
 import { type ReviewStatus } from './AddToReview'
@@ -11,7 +13,7 @@ interface Props {
   picks: ExpressionSummary[]
   level: string
   statusOf: (kind: ExpressionKind, id: string) => ReviewStatus
-  onAdd: (kind: ExpressionKind, id: string) => Promise<void>
+  onAdd: (kind: ExpressionKind, id: string, source?: AddSource) => Promise<void>
   /** Shows the whole catalog with every expression, for when the level has none left. */
   onShowAll: () => void
 }
@@ -27,11 +29,25 @@ export default function TodayPanel({ picks, level, statusOf, onAdd, onShowAll }:
   const [busy, setBusy] = useState(false)
   const pending = picks.filter((p) => statusOf(p.kind, p.id) === 'none')
   const done = picks.length > 0 && pending.length === 0
+  // "Listo por hoy" reached by adding here, not just loading a day that was already done.
+  const addedHere = useRef(false)
+  const reported = useRef(false)
+  useEffect(() => {
+    if (done && addedHere.current && !reported.current) {
+      reported.current = true
+      trackEvent('today_completed', { level })
+    }
+  }, [done, level])
+
+  const addToday = (kind: ExpressionKind, id: string) => {
+    addedHere.current = true
+    return onAdd(kind, id, 'today')
+  }
 
   const addAll = async () => {
     setBusy(true)
     try {
-      for (const p of pending) await onAdd(p.kind, p.id)
+      for (const p of pending) await addToday(p.kind, p.id)
     } finally {
       setBusy(false)
     }
@@ -85,7 +101,7 @@ export default function TodayPanel({ picks, level, statusOf, onAdd, onShowAll }:
       ) : (
         <div className="mt-5 grid gap-4 md:grid-cols-3">
           {picks.map((p) => (
-            <ExpressionTile key={`${p.kind}:${p.id}`} item={p} status={statusOf(p.kind, p.id)} onAdd={onAdd} />
+            <ExpressionTile key={`${p.kind}:${p.id}`} item={p} status={statusOf(p.kind, p.id)} onAdd={addToday} />
           ))}
         </div>
       )}

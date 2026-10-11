@@ -56,3 +56,14 @@ export function trackPageView(path: string) {
   if (!loadedId || !window.gtag) return
   window.gtag('event', 'page_view', { page_path: path, page_location: location.href, page_title: document.title })
 }
+
+/**
+ * Product events (GA4). Sent only when the user has accepted analytics cookies; otherwise a no-op.
+ * Params hold ids and counts, never personal data.
+ */
+export function trackEvent(name: string, params: Record<string, string | number | boolean> = {}) {
+  // In development, show what would be sent, to check events without GA.
+  if (import.meta.env.DEV) console.debug('[analytics]', name, params)
+  if (!loadedId || !window.gtag) return
+  window.gtag('event', name, params)
+}

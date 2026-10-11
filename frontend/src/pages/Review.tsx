@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type FormEvent } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { AlertCircle, ArrowLeft, Brain, CheckCircle2, Ear, HelpCircle, Keyboard, Loader2, Mic, MicOff, Volume2, XCircle } from 'lucide-react'
 import { api } from '../api/client'
+import { trackEvent } from '../lib/analytics'
 import ChoiceExercise from '../components/review/ChoiceExercise'
 import ReviewHub, { DECKS, type Deck } from '../components/review/ReviewHub'
 import { bestSimilarity, isCorrect, matchesMeaning } from '../lib/answers'
@@ -86,11 +87,13 @@ function ReviewSession({ deck, onExit }: { deck: Deck; onExit: () => void }) {
 
   const load = () => {
     setLoading(true)
+    endReported.current = false
     api
       .srsDue(20, deck === 'all' ? undefined : deck)
       .then((c) => {
         setCards(c)
         setPos(0)
+        if (c.length > 0) trackEvent('review_session_start', { deck, cards: c.length })
       })
       .catch((e: Error) => setError(e.message))
       .finally(() => setLoading(false))
@@ -99,6 +102,14 @@ function ReviewSession({ deck, onExit }: { deck: Deck; onExit: () => void }) {
 
   const card = cards[pos]
   const choice = card?.choice
+
+  // The session ends when the learner runs out of cards after reviewing at least one.
+  const endReported = useRef(false)
+  useEffect(() => {
+    if (loading || card || reviewed.total === 0 || endReported.current) return
+    endReported.current = true
+    trackEvent('review_session_end', { deck, reviewed: reviewed.total, correct: reviewed.correct })
+  }, [loading, card, reviewed, deck])
   const direction = card ? directionFor(card, modePref) : 'listen'
   const useMic = direction === 'produce' && rec.supported && !typing
   const response = choice ? (picked ?? '') : useMic ? rec.transcript : answer
@@ -139,6 +150,7 @@ function ReviewSession({ deck, onExit }: { deck: Deck; onExit: () => void }) {
           ? bestSimilarity([response, ...rec.alternatives], card.term) >= SPEECH_PASS
           : isCorrect(response, [card.term])
     setOutcome(ok ? 'correct' : 'wrong')
+    reportAnswer(ok ? 'correct' : 'wrong')
     // After answering, always hear the right pronunciation.
     speak(card.term)
   }
@@ -146,7 +158,9 @@ function ReviewSession({ deck, onExit }: { deck: Deck; onExit: () => void }) {
   const choose = (option: string) => {
     if (!card?.choice || outcome) return
     setPicked(option)
-    setOutcome(option === card.choice.answer ? 'correct' : 'wrong')
+    const result = option === card.choice.answer ? 'correct' : 'wrong'
+    setOutcome(result)
+    reportAnswer(result)
     speak(card.term)
   }
 
@@ -154,7 +168,14 @@ function ReviewSession({ deck, onExit }: { deck: Deck; onExit: () => void }) {
     if (!card || outcome) return
     rec.stop()
     setOutcome('unknown')
+    reportAnswer('unknown')
     speak(card.term)
+  }
+
+  // Which exercises are too easy or too hard, per kind of card.
+  const reportAnswer = (result: Outcome) => {
+    if (!card) return
+    trackEvent('review_answer', { card_kind: card.kind, exercise: card.choice?.type ?? `recall_${direction}`, outcome: result })
   }
 
   const grade = async (g: Grade) => {

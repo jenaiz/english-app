@@ -1,8 +1,9 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { AlertCircle, ArrowLeft, CheckCircle2, Loader2, Plus } from 'lucide-react'
 import ExpressionTile from '../components/expressions/ExpressionTile'
 import { useAuth } from '../context/AuthContext'
+import { trackEvent } from '../lib/analytics'
 import { loadExpressions } from '../lib/expressionsCatalog'
 import { packProgress } from '../lib/packs'
 import { summaryOf, type ExpressionSummary } from '../lib/todayPicks'
@@ -25,6 +26,23 @@ export default function PackPage() {
   }, [])
 
   const pack = catalog?.packs.find((p) => p.id === packId)
+  const progress = pack ? packProgress(pack, repetitionsOf) : null
+  const complete = !!progress && progress.mastered === progress.total
+
+  // Completion happens in Repaso; it is reported the first time the learner sees the pack complete on this device.
+  const reported = useRef(false)
+  useEffect(() => {
+    if (!complete || !pack || reported.current) return
+    reported.current = true
+    const key = `pack-completed:${pack.id}`
+    try {
+      if (localStorage.getItem(key)) return
+      localStorage.setItem(key, '1')
+    } catch {
+      // storage unavailable: report anyway
+    }
+    trackEvent('pack_completed', { pack_id: pack.id })
+  }, [complete, pack])
   const items = useMemo(
     () => (catalog && pack ? pack.items.map((i) => summaryOf(catalog, i)).filter((x): x is ExpressionSummary => x !== null) : []),
     [catalog, pack],
@@ -57,14 +75,14 @@ export default function PackPage() {
     )
   }
 
-  const progress = packProgress(pack, repetitionsOf)
+  if (!progress) return null
   const pending = items.filter((i) => statusOf(i.kind, i.id) === 'none')
-  const complete = progress.mastered === progress.total
 
   const addAll = async () => {
     setBusy(true)
+    trackEvent('pack_added', { pack_id: pack.id, items: pending.length })
     try {
-      for (const i of pending) await add(i.kind, i.id)
+      for (const i of pending) await add(i.kind, i.id, 'pack')
     } finally {
       setBusy(false)
     }
@@ -130,7 +148,7 @@ export default function PackPage() {
 
       <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {items.map((i) => (
-          <ExpressionTile key={`${i.kind}:${i.id}`} item={i} status={statusOf(i.kind, i.id)} onAdd={add} />
+          <ExpressionTile key={`${i.kind}:${i.id}`} item={i} status={statusOf(i.kind, i.id)} onAdd={(kind, id) => add(kind, id, 'pack')} />
         ))}
       </div>
 
