@@ -222,12 +222,12 @@ Cada `speaker` de un `audio_context` debe estar en [`backend/data/voices.json`](
 
 ```bash
 cd backend
-AZURE_SPEECH_KEY=... AZURE_SPEECH_REGION=northeurope go run ./cmd/tts   # -dry-run para ver qué falta, -prune para borrar huérfanos
+go run ./cmd/tts -prune   # -dry-run para ver qué falta sin llamar a Azure
 ```
 
 Los MP3 van a `backend/data/audio/` y se sirven desde `/api/audio`. Si falta uno, la app usa la voz del navegador.
 
-- **Clave de Azure**: crea en [portal.azure.com](https://portal.azure.com) un recurso **Speech service** en el plan gratuito **F0** (500.000 caracteres al mes). En «Keys and Endpoint» copia **KEY 1** y la región (la nuestra es `northeurope`). Pasa la clave solo por la variable de entorno y no la guardes en el repo.
+- **Clave de Azure**: `cmd/tts` la lee del `.env` de la raíz (ignorado por git) con `AZURE_SPEECH_KEY_1` (o `_KEY_2`) y `AZURE_SPEECH_LOCATION` (la nuestra es `northeurope`). Las variables de entorno tienen prioridad, y también se aceptan los nombres `AZURE_SPEECH_KEY` y `AZURE_SPEECH_REGION`. `AZURE_SPEECH_ENDPOINT` no se usa, porque la URL de síntesis se construye a partir de la región. Para crear la clave: en [portal.azure.com](https://portal.azure.com), un recurso **Speech service** en el plan gratuito **F0** (500.000 caracteres al mes), y en «Keys and Endpoint» copias **KEY 1** y **Location/Region**.
 - **Coste**: todo el curso son unos 60.000 caracteres, así que regenerarlo entero cabe de sobra en el plan gratuito.
 - **Nombre de cada fichero**: es el `sha1(voz|texto)`. Si cambias una línea o la voz de un personaje, se genera un MP3 nuevo y `-prune` borra el antiguo. Si ninguna línea ha cambiado, el script no genera nada.
 - **Voces disponibles**: si un nombre de voz no existe en Azure, el script se detiene y lo indica. Hay que cambiarlo en `voices.json` y volver a ejecutarlo.

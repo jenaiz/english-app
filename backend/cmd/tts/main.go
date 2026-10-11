@@ -2,7 +2,10 @@
 // using the fixed voice of each speaker (data/voices.json). Existing files are kept,
 // so it only synthesises new or edited lines.
 //
-//	AZURE_SPEECH_KEY=... AZURE_SPEECH_REGION=westeurope go run ./cmd/tts [-dry-run] [-prune]
+//	go run ./cmd/tts [-dry-run] [-prune]
+//
+// The key and region come from the environment or, if unset there, from the repo's .env:
+// AZURE_SPEECH_KEY_1 (or AZURE_SPEECH_KEY) and AZURE_SPEECH_LOCATION (or AZURE_SPEECH_REGION).
 package main
 
 import (
@@ -27,6 +30,9 @@ func main() {
 	prune := flag.Bool("prune", false, "delete MP3s no longer used by any line")
 	flag.Parse()
 
+	for _, f := range []string{"../.env", ".env"} {
+		loadDotEnv(f)
+	}
 	cfg := config.Load()
 	catalog, err := content.Load(cfg.ContentDir)
 	if err != nil {
@@ -43,9 +49,10 @@ func main() {
 		log.Fatal(err)
 	}
 
-	key, region := os.Getenv("AZURE_SPEECH_KEY"), os.Getenv("AZURE_SPEECH_REGION")
+	key := firstEnv("AZURE_SPEECH_KEY", "AZURE_SPEECH_KEY_1", "AZURE_SPEECH_KEY_2")
+	region := firstEnv("AZURE_SPEECH_REGION", "AZURE_SPEECH_LOCATION")
 	if !*dryRun && (key == "" || region == "") {
-		log.Fatal("set AZURE_SPEECH_KEY and AZURE_SPEECH_REGION (or use -dry-run)")
+		log.Fatal("set AZURE_SPEECH_KEY_1 and AZURE_SPEECH_LOCATION in .env or the environment (or use -dry-run)")
 	}
 
 	used := map[string]bool{}
@@ -87,6 +94,37 @@ func main() {
 			}
 		}
 	}
+}
+
+// loadDotEnv sets the KEY=VALUE pairs of a .env file that are not already in the environment.
+// A missing file is ignored.
+func loadDotEnv(path string) {
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return
+	}
+	for _, line := range strings.Split(string(data), "\n") {
+		line = strings.TrimSpace(line)
+		k, v, ok := strings.Cut(line, "=")
+		if !ok || line == "" || strings.HasPrefix(line, "#") {
+			continue
+		}
+		k = strings.TrimSpace(strings.TrimPrefix(k, "export "))
+		v = strings.Trim(strings.TrimSpace(v), `"'`)
+		if _, set := os.LookupEnv(k); !set {
+			os.Setenv(k, v)
+		}
+	}
+}
+
+// firstEnv returns the first non-empty variable of names.
+func firstEnv(names ...string) string {
+	for _, n := range names {
+		if v := os.Getenv(n); v != "" {
+			return v
+		}
+	}
+	return ""
 }
 
 var client = &http.Client{Timeout: 30 * time.Second}
