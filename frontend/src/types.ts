@@ -250,9 +250,18 @@ export interface Particle {
   idea: string
   note?: string
 }
+/** A small themed set of expressions that a learner can complete. Items are "idiom:<id>" or "phrasal:<id>". */
+export interface Pack {
+  id: string
+  title: string
+  description: string
+  level: string
+  items: string[]
+}
 export interface ExpressionsCatalog {
   idioms: Idiom[]
   phrasal_verbs: PhrasalFamily[]
   hacks: Hack[]
   particles: Particle[]
+  packs: Pack[]
 }

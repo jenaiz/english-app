@@ -1,6 +1,7 @@
-import type { ExpressionKind, ExpressionsCatalog } from '../types'
+import type { ExpressionKind, ExpressionsCatalog, Idiom, PhrasalVerb } from '../types'
 
-export interface TodayPick {
+/** What a compact expression card needs, for idioms and phrasal verbs alike. */
+export interface ExpressionSummary {
   kind: ExpressionKind
   id: string
   term: string
@@ -9,6 +10,40 @@ export interface TodayPick {
   translation: string
   example: string
 }
+
+/** Looks up an item such as "idiom:break-the-ice" or "phrasal:look-up" in the catalog. */
+export function summaryOf(catalog: ExpressionsCatalog, item: string): ExpressionSummary | null {
+  const [kind, id] = item.split(':')
+  if (kind === 'idiom') {
+    const i = catalog.idioms.find((x) => x.id === id)
+    return i ? idiomSummary(i) : null
+  }
+  for (const f of catalog.phrasal_verbs) {
+    const v = f.items.find((x) => x.id === id)
+    if (v) return phrasalSummary(f.root, v)
+  }
+  return null
+}
+
+const idiomSummary = (i: Idiom): ExpressionSummary => ({
+  kind: 'idiom',
+  id: i.id,
+  term: i.term,
+  level: i.level,
+  definition: i.definition,
+  translation: i.equivalent_es,
+  example: i.examples[0] ?? '',
+})
+
+const phrasalSummary = (root: string, v: PhrasalVerb): ExpressionSummary => ({
+  kind: 'phrasal',
+  id: v.id,
+  term: `${root} ${v.particle}`,
+  level: v.level,
+  definition: v.meaning,
+  translation: v.translation,
+  example: v.example,
+})
 
 // Today's selection: two idioms and one phrasal verb.
 const IDIOMS_PER_DAY = 2
@@ -48,34 +83,18 @@ export function pickToday(
   level: string,
   seed: string,
   exclude: (kind: ExpressionKind, id: string) => boolean,
-): TodayPick[] {
+): ExpressionSummary[] {
   const inLevel = (l: string) => level === 'all' || l === level
   const idioms = pick(
     catalog.idioms.filter((i) => inLevel(i.level) && !exclude('idiom', i.id)),
     IDIOMS_PER_DAY,
     seed,
-  ).map<TodayPick>((i) => ({
-    kind: 'idiom',
-    id: i.id,
-    term: i.term,
-    level: i.level,
-    definition: i.definition,
-    translation: i.equivalent_es,
-    example: i.examples[0] ?? '',
-  }))
+  ).map(idiomSummary)
   const verbs = catalog.phrasal_verbs.flatMap((f) => f.items.map((v) => ({ ...v, root: f.root })))
   const phrasal = pick(
     verbs.filter((v) => inLevel(v.level) && !exclude('phrasal', v.id)),
     PHRASAL_PER_DAY,
     seed,
-  ).map<TodayPick>((v) => ({
-    kind: 'phrasal',
-    id: v.id,
-    term: `${v.root} ${v.particle}`,
-    level: v.level,
-    definition: v.meaning,
-    translation: v.translation,
-    example: v.example,
-  }))
+  ).map((v) => phrasalSummary(v.root, v))
   return [...idioms, ...phrasal]
 }

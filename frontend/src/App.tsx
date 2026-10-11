@@ -14,6 +14,7 @@ import LegalNotice from './pages/LegalNotice'
 import Levels from './pages/Levels'
 import Login from './pages/Login'
 import NotFound from './pages/NotFound'
+import PackPage from './pages/PackPage'
 import Privacy from './pages/Privacy'
 import Register from './pages/Register'
 import ResetPassword from './pages/ResetPassword'
@@ -44,6 +45,7 @@ export default function App() {
               <Route path="/terminos" element={<Terms />} />
               <Route path="/contacto" element={<Contact />} />
               <Route path="/expresiones" element={<Expressions />} />
+              <Route path="/expresiones/packs/:packId" element={<PackPage />} />
               <Route element={<ProtectedRoute />}>
                 <Route path="/levels" element={<Levels />} />
                 <Route path="/units/:unitId" element={<UnitView />} />

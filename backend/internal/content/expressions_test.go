@@ -51,6 +51,9 @@ func TestLoadBundledExpressions(t *testing.T) {
 			}
 		}
 	}
+	if len(e.Packs) < 10 {
+		t.Errorf("expected at least 10 packs, got %d", len(e.Packs))
+	}
 	if e.PhrasalVerbs[0].Items[0].ID == "" {
 		t.Error("phrasal verb IDs must be filled in for the API")
 	}
@@ -63,6 +66,7 @@ func TestLoadExpressionsRejectsBadContent(t *testing.T) {
 		os.WriteFile(filepath.Join(dir, "phrasal_verbs.json"), []byte(phrasal), 0o644)
 		os.WriteFile(filepath.Join(dir, "hacks.json"), []byte(`[]`), 0o644)
 		os.WriteFile(filepath.Join(dir, "particles.json"), []byte(`[]`), 0o644)
+		os.WriteFile(filepath.Join(dir, "packs.json"), []byte(`[]`), 0o644)
 		return dir
 	}
 	idiom := `{"id":"x","term":"x","level":"B1","definition":"d","equivalent_es":"e"}`

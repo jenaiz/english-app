@@ -16,6 +16,7 @@ type Expressions struct {
 	PhrasalVerbs []PhrasalFamily `json:"phrasal_verbs"`
 	Hacks        []Hack          `json:"hacks"`
 	Particles    []Particle      `json:"particles"`
+	Packs        []Pack          `json:"packs"`
 	idiomByID    map[string]*Idiom
 	phrasalByID  map[string]PhrasalRef
 }
@@ -76,6 +77,22 @@ type PhrasalRef struct {
 // Term is the full phrasal verb, e.g. "look after".
 func (r PhrasalRef) Term() string { return r.Root + " " + r.Verb.Particle }
 
+// Pack is a small themed set of expressions (6–10) that a learner can complete.
+// Items are "idiom:<id>" or "phrasal:<id>".
+type Pack struct {
+	ID          string   `json:"id"`
+	Title       string   `json:"title"`
+	Description string   `json:"description"`
+	Level       string   `json:"level"`
+	Items       []string `json:"items"`
+}
+
+// Pack sizes: small enough to finish, big enough to be worth it.
+const (
+	minPackItems = 6
+	maxPackItems = 10
+)
+
 // Particle explains the general idea a particle adds, for the "by particle" view of phrasal verbs.
 // Multi-word particles ("up with", "out of") are grouped under their first word.
 type Particle struct {
@@ -102,7 +119,7 @@ func slug(s string) string {
 // LoadExpressions reads idioms.json, phrasal_verbs.json and hacks.json from dir.
 func LoadExpressions(dir string) (*Expressions, error) {
 	e := &Expressions{idiomByID: map[string]*Idiom{}, phrasalByID: map[string]PhrasalRef{}}
-	for name, dst := range map[string]any{"idioms.json": &e.Idioms, "phrasal_verbs.json": &e.PhrasalVerbs, "hacks.json": &e.Hacks, "particles.json": &e.Particles} {
+	for name, dst := range map[string]any{"idioms.json": &e.Idioms, "phrasal_verbs.json": &e.PhrasalVerbs, "hacks.json": &e.Hacks, "particles.json": &e.Particles, "packs.json": &e.Packs} {
 		data, err := os.ReadFile(filepath.Join(dir, name))
 		if err != nil {
 			return nil, err
@@ -188,6 +205,37 @@ func (e *Expressions) index() error {
 			return fmt.Errorf("particles.json: duplicate particle %q", p.Particle)
 		}
 		particles[p.Particle] = true
+	}
+	packs := map[string]bool{}
+	for i, p := range e.Packs {
+		if p.ID == "" || p.Title == "" {
+			return fmt.Errorf("packs.json: pack %d needs id and title", i)
+		}
+		if packs[p.ID] {
+			return fmt.Errorf("packs.json: duplicate id %q", p.ID)
+		}
+		packs[p.ID] = true
+		if _, ok := levelOrder[p.Level]; !ok {
+			return fmt.Errorf("packs.json: %s has unknown level %q", p.ID, p.Level)
+		}
+		if len(p.Items) < minPackItems || len(p.Items) > maxPackItems {
+			return fmt.Errorf("packs.json: %s has %d items, want %d–%d", p.ID, len(p.Items), minPackItems, maxPackItems)
+		}
+		seen := map[string]bool{}
+		for _, item := range p.Items {
+			kind, id, _ := strings.Cut(item, ":")
+			var ok bool
+			switch kind {
+			case "idiom":
+				_, ok = e.idiomByID[id]
+			case "phrasal":
+				_, ok = e.phrasalByID[id]
+			}
+			if !ok || seen[item] {
+				return fmt.Errorf("packs.json: %s has an unknown or repeated item %q", p.ID, item)
+			}
+			seen[item] = true
+		}
 	}
 	ids := map[string]bool{}
 	for i, h := range e.Hacks {

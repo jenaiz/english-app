@@ -1,18 +1,19 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { AlertCircle, ChevronDown, Loader2 } from 'lucide-react'
-import { api } from '../api/client'
-import { type ReviewStatus } from '../components/expressions/AddToReview'
 import HackCard from '../components/expressions/HackCard'
 import IdiomCard from '../components/expressions/IdiomCard'
+import PackCard from '../components/expressions/PackCard'
 import ParticleExplorer from '../components/expressions/ParticleExplorer'
 import PhrasalExplorer from '../components/expressions/PhrasalExplorer'
 import TodayPanel from '../components/expressions/TodayPanel'
 import { useAuth } from '../context/AuthContext'
+import { useSavedExpressions } from '../lib/useSavedExpressions'
 import { loadExpressions } from '../lib/expressionsCatalog'
+import { packProgress, packsForLevel } from '../lib/packs'
 import { localDate, pickToday } from '../lib/todayPicks'
 import { useLearnerLevel } from '../lib/useLearnerLevel'
-import type { ExpressionKind, ExpressionsCatalog } from '../types'
+import type { ExpressionsCatalog } from '../types'
 
 const TABS = [
   { id: 'idioms', label: 'Idioms', intro: 'Frases hechas que no se entienden palabra por palabra. Intenta adivinar el significado y dale la vuelta a la tarjeta.' },
@@ -22,6 +23,9 @@ const TABS = [
 type TabId = (typeof TABS)[number]['id']
 
 const LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
+
+// Packs shown before "Ver los N packs": one row on wide screens.
+const PACKS_PREVIEW = 3
 
 // The viewer's own choices of level and scope are remembered on this device.
 const LEVEL_KEY = 'expressions-level'
@@ -41,59 +45,6 @@ function store(key: string, value: string) {
   } catch {
     // storage unavailable
   }
-}
-
-/** Expressions the user has added to Repaso (with their repetitions and whether they are queued), and a function to add more. */
-function useSavedExpressions(enabled: boolean) {
-  const [saved, setSaved] = useState<Map<string, number>>(new Map())
-  const [queued, setQueued] = useState<Set<string>>(new Set())
-  const [addedAt, setAddedAt] = useState<Map<string, number>>(new Map())
-
-  useEffect(() => {
-    if (!enabled) {
-      setSaved(new Map())
-      setQueued(new Set())
-      setAddedAt(new Map())
-      return
-    }
-    api
-      .savedExpressions()
-      .then((r) => {
-        const all = [...r.idiom.map((e) => ({ ...e, key: `idiom:${e.id}` })), ...r.phrasal.map((e) => ({ ...e, key: `phrasal:${e.id}` }))]
-        setSaved(new Map(all.map((e) => [e.key, e.repetitions])))
-        setQueued(new Set(all.filter((e) => e.queued).map((e) => e.key)))
-        setAddedAt(new Map(all.map((e) => [e.key, new Date(e.added_at).getTime()])))
-      })
-      .catch(() => {})
-  }, [enabled])
-
-  const isSaved = useCallback((kind: ExpressionKind, id: string) => saved.has(`${kind}:${id}`), [saved])
-  const isQueued = useCallback((kind: ExpressionKind, id: string) => queued.has(`${kind}:${id}`), [queued])
-  const repetitionsOf = useCallback((kind: ExpressionKind, id: string) => saved.get(`${kind}:${id}`), [saved])
-  const add = useCallback(async (kind: ExpressionKind, id: string) => {
-    const r = await api.addExpression(kind, id)
-    const key = `${kind}:${id}`
-    setSaved((s) => new Map(s).set(key, 0))
-    if (r.queued) setQueued((q) => new Set(q).add(key))
-    setAddedAt((a) => (a.has(key) ? a : new Map(a).set(key, Date.now())))
-    window.dispatchEvent(new Event('srs-changed'))
-  }, [])
-
-  const statusOf = useCallback(
-    (kind: ExpressionKind, id: string): ReviewStatus => (isQueued(kind, id) ? 'queued' : isSaved(kind, id) ? 'saved' : 'none'),
-    [isSaved, isQueued],
-  )
-
-  /** Added on an earlier day: those leave today's selection, the ones added today stay in it. */
-  const addedBeforeToday = useCallback(
-    (kind: ExpressionKind, id: string) => {
-      const t = addedAt.get(`${kind}:${id}`)
-      return t !== undefined && t < new Date().setHours(0, 0, 0, 0)
-    },
-    [addedAt],
-  )
-
-  return { statusOf, repetitionsOf, add, addedBeforeToday }
 }
 
 export default function Expressions() {
@@ -168,6 +119,8 @@ export default function Expressions() {
     if (tab === 'idioms') return catalog.idioms.filter((i) => inLevel(i.level) && !i.core).length
     return catalog.phrasal_verbs.reduce((n, f) => n + f.items.filter((v) => inLevel(v.level) && !v.core).length, 0)
   }, [catalog, scope, tab, inLevel])
+  const [allPacks, setAllPacks] = useState(false)
+  const orderedPacks = useMemo(() => packsForLevel(catalog?.packs ?? [], level), [catalog, level])
   // Same three all day: the seed changes with the date and the viewer.
   const picks = useMemo(
     () => (catalog ? pickToday(catalog, level, `${localDate()}|${user?.id ?? 'guest'}`, addedBeforeToday) : []),
@@ -182,6 +135,33 @@ export default function Expressions() {
       <p className="mt-3 max-w-2xl text-lg text-slate-600">El inglés que no viene en los libros: lo que dicen los nativos a diario y casi nadie te explica.</p>
 
       {catalog && <TodayPanel picks={picks} level={level} statusOf={statusOf} onAdd={add} onShowAll={() => chooseLevel('all')} />}
+
+      {catalog && catalog.packs.length > 0 && (
+        <section className="mt-12" aria-labelledby="packs-title">
+          <div className="flex flex-wrap items-end justify-between gap-2">
+            <div>
+              <h2 id="packs-title" className="font-display text-2xl font-bold text-indigo-950">
+                Packs
+              </h2>
+              <p className="mt-1 text-sm text-slate-600">Grupos pequeños por tema. Complétalos dominando todas sus expresiones.</p>
+            </div>
+            {catalog.packs.length > PACKS_PREVIEW && (
+              <button
+                type="button"
+                onClick={() => setAllPacks((v) => !v)}
+                className="text-sm font-semibold text-indigo-600 hover:text-indigo-800"
+              >
+                {allPacks ? 'Ver menos' : `Ver los ${catalog.packs.length} packs`}
+              </button>
+            )}
+          </div>
+          <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {(allPacks ? orderedPacks : orderedPacks.slice(0, PACKS_PREVIEW)).map((p) => (
+              <PackCard key={p.id} pack={p} progress={packProgress(p, repetitionsOf)} />
+            ))}
+          </div>
+        </section>
+      )}
 
       <h2 className="mt-12 font-display text-2xl font-bold text-indigo-950">Explorar todas</h2>
 
