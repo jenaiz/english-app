@@ -58,11 +58,16 @@ El dominio (`https://fluently.bukios.com`) tiene que estar en los **orígenes de
 
 ## Google Analytics
 
-Opcional. Solo se carga si el usuario acepta las cookies de analítica en el banner. Añade el ID de medición de GA4 y recrea el backend (el frontend lo lee de `/api/auth/config`):
+Solo se carga si el usuario acepta las cookies de analítica en el banner. El frontend lee el ID de `/api/auth/config`.
+
+- Proyecto Firebase **`fluently-learn`**, enlazado a la propiedad GA4 `fluently-learn` (ID 558459726) en la cuenta de Analytics «Fluently».
+- Flujo web «Fluently Web» → ID de medición **`G-609K1JBZR4`**, URL `https://fluently.bukios.com`.
+- Apps Android/iOS: añádelas en ese mismo proyecto Firebase (*Project settings → Your apps*); cada una crea su propio flujo en la misma propiedad GA4, así web y móvil se ven juntos.
+- Cambio de dominio: edita la URL del flujo web en GA (*Admin → Data streams*). El ID de medición no cambia. Si conviven los dos dominios, configura *Configure tag settings → Configure your domains* para la medición entre dominios.
 
 ```bash
 ssh -i ~/.ssh/bukios_deploy deploy@bukios.com \
-  "cd ~/fluently && echo 'GA_MEASUREMENT_ID=G-XXXXXXXXXX' >> .env && docker compose up -d backend"
+  "cd ~/fluently && echo 'GA_MEASUREMENT_ID=G-609K1JBZR4' >> .env && docker compose up -d backend"
 ```
 
 Los textos legales (`/aviso-legal`, `/privacidad`, `/cookies`, `/terminos`, `/contacto`) toman los datos del titular de `frontend/src/lib/site.ts` (el NIF está pendiente: `xxx`).
@@ -82,7 +87,8 @@ Logs: `ssh -i ~/.ssh/bukios_deploy deploy@bukios.com 'cd ~/fluently && docker co
 4. **Deploy**: actualizar el valor por defecto de `DOMAIN` en `deploy/deploy.sh` (o exportar `DEPLOY_DOMAIN`).
 5. **Sesiones**: la cookie `token` es host-only, así que los usuarios tendrán que volver a iniciar sesión en el dominio nuevo. Los datos no cambian.
 6. **Google**: añadir el dominio nuevo a los orígenes de JavaScript autorizados del cliente OAuth.
-7. Revisar menciones a `fluently.bukios.com` con `grep -rn fluently.bukios.com`.
+7. **Analytics**: cambiar la URL del flujo web «Fluently Web» en GA4 (el ID `G-609K1JBZR4` se mantiene). Mientras la redirección 301 esté activa no hace falta medición entre dominios. Actualizar `SITE.url` en `frontend/src/lib/site.ts`.
+8. Revisar menciones a `fluently.bukios.com` con `grep -rn fluently.bukios.com`.
 
 ## Mover a otro servidor
 
