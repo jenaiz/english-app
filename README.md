@@ -170,6 +170,24 @@ La facilidad nunca baja de 1,3.
 
 El temario está en [`docs/syllabus.md`](docs/syllabus.md) (12 unidades por nivel, siguiendo el Cambridge English Grammar/Vocabulary Profile) y todo el contexto sale de una historia continua: [`docs/story/bible.md`](docs/story/bible.md) (personajes, voces y reglas) y un libro por nivel (`docs/story/a1.md`…). Un test (`story_test.go`) comprueba que el diálogo de cada unidad coincide palabra por palabra con su capítulo, así que hay que cambiar los dos a la vez.
 
+### Estado del curso
+
+- **A1 a C1 completos**: 5 niveles × 12 unidades, en 4 temas de 3 unidades. Cada tema acaba con un checkpoint (`kind: "test"`) y la unidad 12 incluye además el test final del nivel.
+- **Una sola historia** cuenta todo el curso: Lucía, una diseñadora valenciana, llega a Bristol (A1) y termina con su propio estudio, Green Door Design, y una pedida de mano (C1). Todos los diálogos y ejemplos salen de ella.
+- **Audio en todas las líneas**: 811 MP3 en `backend/data/audio/` (unos 25 MB, versionados en git). Cada personaje tiene siempre la misma voz; Daniel y Maureen tienen acento irlandés.
+- **135 verbos irregulares** de A1 a C1 en `backend/data/expressions/irregular_verbs.json`, con la pestaña «Verbos irregulares» en Expresiones y su tipo de tarjeta en Repaso. Los ejemplos también salen de la historia.
+- `backend/data/expressions/unit_expressions.json` asocia a cada unidad unos cuantos idioms y phrasal verbs. Un test exige que esas unidades existan, así que si cambias un `unit_id` hay que actualizarlo también ahí.
+- **Pendiente**: recorrer en el navegador, con una cuenta, al menos un par de unidades y un checkpoint de cada nivel antes de publicar.
+
+### Cambiar o añadir diálogos
+
+1. Edita el capítulo en `docs/story/<nivel>.md` **y** el `audio_context` del JSON de la unidad. Si no coinciden, `go test ./internal/content` (`TestStoryMatchesLessons`) dice qué línea falla.
+   - Formato del capítulo: `## N. Título`, después `` `unit: <unit_id>` `` (o `` `unit: <unit_id>/<lesson_id>` `` si la unidad tiene varias lecciones), la escena en líneas `> …` (la lee el narrador) y las líneas `**Speaker:** texto`.
+2. Respeta las reglas de [`docs/story/bible.md`](docs/story/bible.md): solo gramática del nivel o anterior y continuidad con la línea temporal (actualízala si añades hechos).
+3. Si aparece un personaje nuevo, añádelo a `backend/data/voices.json` con una voz que **no use nadie más** (el loader rechaza las voces repetidas) y también a la tabla de personajes de la biblia.
+4. Genera el audio (ver «Voces de los diálogos») con `-prune` y commitea los MP3 junto con el contenido.
+5. `cd backend && go test ./...` y reinicia el backend.
+
 Cada nivel es una carpeta con un fichero por unidad: `backend/data/levels/a1/00_level.json` (nivel y orden de los temas) y `NN_<unit_id>.json`, que repite `level_id` e indica su `theme_id`. El backend junta los ficheros con el mismo `level_id`. Reinicia el backend después de editarlos. Estructura:
 
 ```
@@ -208,6 +226,12 @@ AZURE_SPEECH_KEY=... AZURE_SPEECH_REGION=northeurope go run ./cmd/tts   # -dry-r
 ```
 
 Los MP3 van a `backend/data/audio/` y se sirven desde `/api/audio`. Si falta uno, la app usa la voz del navegador.
+
+- **Clave de Azure**: crea en [portal.azure.com](https://portal.azure.com) un recurso **Speech service** en el plan gratuito **F0** (500.000 caracteres al mes). En «Keys and Endpoint» copia **KEY 1** y la región (la nuestra es `northeurope`). Pasa la clave solo por la variable de entorno y no la guardes en el repo.
+- **Coste**: todo el curso son unos 60.000 caracteres, así que regenerarlo entero cabe de sobra en el plan gratuito.
+- **Nombre de cada fichero**: es el `sha1(voz|texto)`. Si cambias una línea o la voz de un personaje, se genera un MP3 nuevo y `-prune` borra el antiguo. Si ninguna línea ha cambiado, el script no genera nada.
+- **Voces disponibles**: si un nombre de voz no existe en Azure, el script se detiene y lo indica. Hay que cambiarlo en `voices.json` y volver a ejecutarlo.
+- **Alternativas sin Azure**: AWS Polly no tiene ninguna voz irlandesa masculina (en-IE solo tiene a Niamh) y Google Cloud TTS no tiene en-IE. Por eso usamos Azure (`en-IE-ConnorNeural` para Daniel).
 
 ### Tipos de paso
 
