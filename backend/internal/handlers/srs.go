@@ -64,7 +64,16 @@ func (h *SRSHandler) Due(w http.ResponseWriter, r *http.Request) {
 		writeError(w, http.StatusBadRequest, "kind must be vocab, idiom, phrasal or verb")
 		return
 	}
-	cards, err := h.Store.DueCards(r.Context(), auth.UserID(r.Context()), kind, limit)
+	filter := store.DueFilter{Kind: kind}
+	if packID := r.URL.Query().Get("pack"); packID != "" {
+		pack, ok := h.Expressions.Pack(packID)
+		if !ok {
+			writeError(w, http.StatusNotFound, "pack not found")
+			return
+		}
+		filter.Items = pack.Items
+	}
+	cards, err := h.Store.DueCards(r.Context(), auth.UserID(r.Context()), filter, limit)
 	if err != nil {
 		h.internal(w, err)
 		return

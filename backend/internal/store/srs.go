@@ -66,6 +66,8 @@ type SavedExpression struct {
 	// Queued: added but waiting for a free slot in the daily limit of new expressions.
 	Queued  bool      `json:"queued"`
 	AddedAt time.Time `json:"added_at"`
+	// DueAt is when the card is next due; a new card that isn't queued is due today.
+	DueAt time.Time `json:"due_at"`
 }
 
 // ExpressionCards returns the expressions the user has added, grouped by kind.
@@ -74,7 +76,7 @@ func (s *Store) ExpressionCards(ctx context.Context, userID string) (map[string]
 	if err != nil {
 		return nil, err
 	}
-	rows, err := s.pool.Query(ctx, `SELECT id, kind, term, repetitions, created_at FROM srs_cards
+	rows, err := s.pool.Query(ctx, `SELECT id, kind, term, repetitions, created_at, due_at FROM srs_cards
 		WHERE user_id = $1 AND kind <> 'vocab'`, userID)
 	if err != nil {
 		return nil, err
@@ -84,7 +86,7 @@ func (s *Store) ExpressionCards(ctx context.Context, userID string) (map[string]
 	for rows.Next() {
 		var id, kind string
 		var e SavedExpression
-		if err := rows.Scan(&id, &kind, &e.ID, &e.Repetitions, &e.AddedAt); err != nil {
+		if err := rows.Scan(&id, &kind, &e.ID, &e.Repetitions, &e.AddedAt, &e.DueAt); err != nil {
 			return nil, err
 		}
 		e.Queued = q.queued[id]
@@ -162,12 +164,24 @@ func scanCard(row pgx.Row) (*Card, error) {
 	return c, err
 }
 
+// DueFilter narrows the due cards. The zero value returns every card.
+type DueFilter struct {
+	// Kind: vocab, idiom, phrasal or verb; empty for every kind.
+	Kind string
+	// Items, when not nil, keeps only these expressions, as "idiom:<id>" or "phrasal:<id>" (a pack).
+	Items []string
+}
+
+// inItems matches the expression cards listed in DueFilter.Items ($4); a NULL list matches every card.
+const inItems = `($4::text[] IS NULL OR kind || ':' || term = ANY($4))`
+
 // DueCards returns the cards due now, oldest first, followed by the new expression cards allowed
-// today (see srs.NewCardAllowance). An empty kind returns every kind.
-func (s *Store) DueCards(ctx context.Context, userID, kind string, limit int) ([]*Card, error) {
+// today (see srs.NewCardAllowance). Filtering doesn't change the daily limit: new cards of a pack
+// that are still queued stay out.
+func (s *Store) DueCards(ctx context.Context, userID string, f DueFilter, limit int) ([]*Card, error) {
 	out, err := s.queryCards(ctx, `SELECT `+cardColumns+` FROM srs_cards
-		WHERE user_id = $1 AND due_at <= NOW() AND ($2 = '' OR kind = $2) AND NOT (`+newExpression+`)
-		ORDER BY due_at LIMIT $3`, userID, kind, limit)
+		WHERE user_id = $1 AND due_at <= NOW() AND ($2 = '' OR kind = $2) AND NOT (`+newExpression+`) AND `+inItems+`
+		ORDER BY due_at LIMIT $3`, userID, f.Kind, limit, f.Items)
 	if err != nil || len(out) >= limit {
 		return out, err
 	}
@@ -177,7 +191,7 @@ func (s *Store) DueCards(ctx context.Context, userID, kind string, limit int) ([
 	}
 	var ids []string
 	for _, id := range q.today {
-		if kind == "" || q.kinds[id] == kind {
+		if f.Kind == "" || q.kinds[id] == f.Kind {
 			ids = append(ids, id)
 		}
 	}
@@ -185,7 +199,7 @@ func (s *Store) DueCards(ctx context.Context, userID, kind string, limit int) ([
 		return out, nil
 	}
 	fresh, err := s.queryCards(ctx, `SELECT `+cardColumns+` FROM srs_cards
-		WHERE user_id = $1 AND id = ANY($2) ORDER BY created_at, id LIMIT $3`, userID, ids, limit-len(out))
+		WHERE user_id = $1 AND id = ANY($2) AND `+inItems+` ORDER BY created_at, id LIMIT $3`, userID, ids, limit-len(out), f.Items)
 	return append(out, fresh...), err
 }
 

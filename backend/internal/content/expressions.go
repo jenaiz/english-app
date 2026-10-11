@@ -278,6 +278,16 @@ func (e *Expressions) checkItems(items []string) error {
 	return nil
 }
 
+// Pack returns the pack with this id.
+func (e *Expressions) Pack(id string) (*Pack, bool) {
+	for i := range e.Packs {
+		if e.Packs[i].ID == id {
+			return &e.Packs[i], true
+		}
+	}
+	return nil, false
+}
+
 func (e *Expressions) Idiom(id string) (*Idiom, bool) {
 	it, ok := e.idiomByID[id]
 	return it, ok
