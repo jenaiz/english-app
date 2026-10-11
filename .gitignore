@@ -16,3 +16,6 @@ backend/bin/
 
 # deploy
 db-backups/
+
+# Reference books (copyrighted, not part of the repo)
+assets/
