@@ -6,7 +6,7 @@ import type { ExpressionKind } from '../types'
 
 /** Expressions the user has added to Repaso (with their repetitions and whether they are queued), and a function to add more. */
 /** Where an expression was added to Repaso from. */
-export type AddSource = 'catalog' | 'today' | 'pack' | 'unit'
+export type AddSource = 'catalog' | 'today' | 'pack' | 'unit' | 'page'
 
 export function useSavedExpressions(enabled: boolean) {
   const [saved, setSaved] = useState<Map<string, number>>(new Map())
