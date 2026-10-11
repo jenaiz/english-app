@@ -47,6 +47,7 @@ func main() {
 
 	st := store.New(pool)
 	tokens := auth.NewTokenManager(cfg.JWTSecret, cfg.JWTTTL)
+	tokens.CookieSecure = cfg.CookieSecure
 	var mailer mail.Sender = mail.LogSender{}
 	if cfg.AWSAccessKeyID != "" && cfg.AWSSecretAccessKey != "" {
 		ses, err := mail.NewSESSender(ctx, cfg.MailFrom, cfg.AWSRegion, cfg.AWSAccessKeyID, cfg.AWSSecretAccessKey)

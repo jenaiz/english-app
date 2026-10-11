@@ -6,6 +6,8 @@ export interface Field {
   label: string
   type: string
   autoComplete?: string
+  /** Initial value, e.g. the last email used on this device. */
+  defaultValue?: string
 }
 
 interface Props {
@@ -23,7 +25,7 @@ interface Props {
 }
 
 export default function AuthForm({ title, subtitle, fields, submitLabel, validate, onSubmit, footer, alternative, notice }: Props) {
-  const [values, setValues] = useState<Record<string, string>>(() => Object.fromEntries(fields.map((f) => [f.name, ''])))
+  const [values, setValues] = useState<Record<string, string>>(() => Object.fromEntries(fields.map((f) => [f.name, f.defaultValue ?? ''])))
   const [errors, setErrors] = useState<Record<string, string>>({})
   const [serverError, setServerError] = useState('')
   const [submitting, setSubmitting] = useState(false)
@@ -65,8 +67,12 @@ export default function AuthForm({ title, subtitle, fields, submitLabel, validat
               </label>
               <input
                 id={f.name}
+                // name + autocomplete let the browser and password managers save and offer past emails.
+                name={f.name}
                 type={f.type}
                 autoComplete={f.autoComplete}
+                autoFocus={f.type === 'password' && !!fields.find((o) => o.type === 'email')?.defaultValue}
+                {...(f.type === 'email' ? { autoCapitalize: 'none', spellCheck: false } : {})}
                 value={values[f.name]}
                 onChange={(e) => setValues((v) => ({ ...v, [f.name]: e.target.value }))}
                 className={`w-full rounded-lg border px-3 py-2.5 outline-none transition focus:ring-2 ${

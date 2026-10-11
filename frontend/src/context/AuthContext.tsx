@@ -1,5 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
 import { api } from '../api/client'
+import { setLastEmail } from '../lib/lastEmail'
 import type { User } from '../types'
 
 interface AuthState {
@@ -29,6 +30,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       .catch(() => setUser(null))
       .finally(() => setLoading(false))
   }, [])
+
+  // Remember who signed in on this device to prefill the login form next time.
+  useEffect(() => {
+    if (user) setLastEmail(user.email)
+  }, [user])
 
   const login = useCallback(async (email: string, password: string) => {
     const { user } = await api.login(email, password)

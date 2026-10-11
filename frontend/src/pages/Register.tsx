@@ -28,7 +28,7 @@ export default function Register() {
       subtitle="Guarda tu progreso y avanza nivel a nivel."
       submitLabel="Crear cuenta"
       fields={[
-        { name: 'email', label: 'Email', type: 'email', autoComplete: 'email' },
+        { name: 'email', label: 'Email', type: 'email', autoComplete: 'username' },
         { name: 'password', label: 'Contraseña', type: 'password', autoComplete: 'new-password' },
         { name: 'confirm', label: 'Repite la contraseña', type: 'password', autoComplete: 'new-password' },
       ]}

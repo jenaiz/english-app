@@ -4,6 +4,7 @@ import { AlertCircle, CheckCircle2, Download, KeyRound, Loader2, Trash2 } from '
 import { api, ApiError } from '../api/client'
 import { useAuth } from '../context/AuthContext'
 import { useConsent } from '../context/ConsentContext'
+import { forgetLastEmail } from '../lib/lastEmail'
 import { displayName } from '../lib/user'
 
 const inputClass =
@@ -315,6 +316,7 @@ function DeleteSection() {
     setDeleting(true)
     try {
       await api.deleteAccount(user.has_password ? confirm : '')
+      forgetLastEmail()
       setUser(null)
       navigate('/', { replace: true })
     } catch (err) {

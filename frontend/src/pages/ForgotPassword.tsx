@@ -21,7 +21,7 @@ export default function ForgotPassword() {
       title="¿Olvidaste tu contraseña?"
       subtitle="Escribe tu email y te enviaremos un enlace para cambiarla."
       submitLabel="Enviar enlace"
-      fields={[{ name: 'email', label: 'Email', type: 'email', autoComplete: 'email' }]}
+      fields={[{ name: 'email', label: 'Email', type: 'email', autoComplete: 'username' }]}
       validate={validateEmail}
       onSubmit={async (v) => {
         await api.forgotPassword(v.email.trim())

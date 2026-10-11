@@ -45,7 +45,7 @@ func Load() Config {
 		DBName:             getEnv("DB_NAME", "english_app"),
 		DBSSLMode:          getEnv("DB_SSLMODE", "disable"),
 		JWTSecret:          getEnv("JWT_SECRET", ""),
-		JWTTTL:             72 * time.Hour,
+		JWTTTL:             30 * 24 * time.Hour, // renewed while the user keeps visiting (see auth.RefreshAfter)
 		ContentDir:         getEnv("CONTENT_DIR", "./data/levels"),
 		GoogleClientID:     getEnv("GOOGLE_CLIENT_ID", ""),
 		GAMeasurementID:    getEnv("GA_MEASUREMENT_ID", ""),

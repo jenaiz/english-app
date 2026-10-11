@@ -5,6 +5,7 @@ import AuthForm, { validateCredentials } from '../components/AuthForm'
 import { ResendButton } from '../components/EmailSent'
 import GoogleSignIn from '../components/GoogleSignIn'
 import { useAuth } from '../context/AuthContext'
+import { getLastEmail } from '../lib/lastEmail'
 
 export default function Login() {
   const { user, login, loginWithGoogle } = useAuth()
@@ -20,7 +21,7 @@ export default function Login() {
       subtitle="Inicia sesión para continuar donde lo dejaste."
       submitLabel="Iniciar sesión"
       fields={[
-        { name: 'email', label: 'Email', type: 'email', autoComplete: 'email' },
+        { name: 'email', label: 'Email', type: 'email', autoComplete: 'username', defaultValue: getLastEmail() },
         { name: 'password', label: 'Contraseña', type: 'password', autoComplete: 'current-password' },
       ]}
       validate={validateCredentials}

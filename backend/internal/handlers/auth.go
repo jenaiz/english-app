@@ -347,11 +347,7 @@ func (h *AuthHandler) setSession(w http.ResponseWriter, user *store.User) (strin
 	if err != nil {
 		return "", err
 	}
-	http.SetCookie(w, &http.Cookie{
-		Name: auth.CookieName, Value: token, Path: "/",
-		MaxAge:   int(h.Tokens.TTL().Seconds()),
-		HttpOnly: true, Secure: h.CookieSecure, SameSite: http.SameSiteLaxMode,
-	})
+	h.Tokens.SetCookie(w, token)
 	return token, nil
 }
 
