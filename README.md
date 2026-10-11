@@ -85,16 +85,29 @@ cd frontend && npm run build
 | `JWT_SECRET`    | *(inseguro en dev)*  | Clave HS256. **Obligatoria en producción.**    |
 | `COOKIE_SECURE` | `false`              | `true` si sirves por HTTPS                     |
 | `CONTENT_DIR`   | `./data/levels`      | Carpeta con los JSON de niveles                |
+| `GOOGLE_CLIENT_ID` | *(vacío)*         | Client ID OAuth (tipo "Aplicación web") para "Continuar con Google". Vacío = botón oculto. |
+
+### Login con Google
+
+El frontend usa Google Identity Services: el botón devuelve un ID token (JWT firmado por Google) y el backend lo verifica con las claves públicas de Google (`aud` = tu Client ID, emisor de Google, email verificado). No hace falta client secret.
+
+1. En [Google Cloud Console](https://console.cloud.google.com/apis/credentials), crea un **ID de cliente de OAuth** de tipo **Aplicación web** (antes configura la pantalla de consentimiento).
+2. En **Orígenes de JavaScript autorizados** añade `http://localhost:5173`, `http://localhost:3000` y el dominio de producción (`https://fluently.bukios.com`). No hacen falta URIs de redirección.
+3. Pon `GOOGLE_CLIENT_ID=<id>.apps.googleusercontent.com` en el `.env` de la raíz y reinicia el backend. El frontend lo obtiene de `GET /api/auth/config`, así que no hay que recompilarlo.
+
+La primera vez que alguien entra con Google se crea su cuenta sin contraseña. Si ya existía una cuenta con ese email, se vincula a Google y **se borra su contraseña**: la app nunca verificó ese email, así que quien la creó podría no ser el dueño. A partir de ahí esa cuenta entra solo con Google.
 
 ## API
 
-Todas las rutas salvo register, login, logout y health requieren autenticación. Se puede enviar la cookie `token` (la fija el login) o una cabecera `Authorization: Bearer <jwt>`.
+Todas las rutas salvo register, login, logout, `auth/config`, `auth/google` y health requieren autenticación. Se puede enviar la cookie `token` (la fija el login) o una cabecera `Authorization: Bearer <jwt>`.
 
 | Método | Ruta                                        | Descripción                                                                                    |
 | ------ | ------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | POST   | `/api/auth/register`                        | `{email, password}`: crea el usuario (bcrypt), fija la cookie y devuelve `{user, token}`. 409 si el email existe. |
 | POST   | `/api/auth/login`                           | `{email, password}`: fija la cookie y devuelve `{user, token}`. 401 si las credenciales son incorrectas. |
 | POST   | `/api/auth/logout`                          | Borra la cookie.                                                                               |
+| GET    | `/api/auth/config`                          | `{google_client_id}`: vacío si el login con Google no está configurado. Pública.               |
+| POST   | `/api/auth/google`                          | `{credential}` (ID token de Google): crea o vincula la cuenta, fija la cookie y devuelve `{user, token}`. 401 si el token no es válido; 404 si no está configurado. |
 | GET    | `/api/health`                               | `{status, version}`: comprueba la BD y devuelve la versión del build. Pública.                  |
 | GET    | `/api/auth/me`                              | Perfil del usuario autenticado.                                                                |
 | GET    | `/api/levels`                               | Resumen de niveles → temas → unidades (sin los pasos).                                         |
@@ -109,7 +122,7 @@ Todas las rutas salvo register, login, logout y health requieren autenticación.
 
 Las migraciones están en `backend/internal/db/migrations/*.sql`. Van embebidas en el binario y se aplican en orden al arrancar (tabla `schema_migrations`).
 
-- `users`: `id` (UUID), `email` (único), `password_hash`, `created_at`.
+- `users`: `id` (UUID), `email` (único), `password_hash` (nulo en cuentas de Google), `google_sub` (ID de la cuenta de Google, único), `created_at`.
 - `user_progress`: `id`, `user_id` (FK con borrado en cascada), `unit_id`, `lesson_id`, `status` (`not_started` | `in_progress` | `completed`), `score`, `updated_at`. Tiene `UNIQUE(user_id, lesson_id)`, así que completar una lección es un upsert que conserva la mejor puntuación.
 
 - `srs_cards`: una tarjeta por usuario y término de vocabulario (`UNIQUE(user_id, lesson_id, term)`), con los campos SM-2 `ease`, `interval_days`, `repetitions` y `due_at`. El texto de la tarjeta no se guarda; se lee del catálogo, así que editar el JSON actualiza las tarjetas.

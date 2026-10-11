@@ -33,6 +33,8 @@ services:
       DB_NAME: ${DB_NAME:-english_app}
       JWT_SECRET: ${JWT_SECRET:-dev-secret}
       CONTENT_DIR: /src/data/levels
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
+      GA_MEASUREMENT_ID: ${GA_MEASUREMENT_ID:-}
     volumes:
       - ./backend:/src
       - gomod:/go/pkg/mod

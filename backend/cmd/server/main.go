@@ -46,7 +46,10 @@ func main() {
 
 	st := store.New(pool)
 	tokens := auth.NewTokenManager(cfg.JWTSecret, cfg.JWTTTL)
-	authH := &handlers.AuthHandler{Store: st, Tokens: tokens, CookieSecure: cfg.CookieSecure}
+	authH := &handlers.AuthHandler{Store: st, Tokens: tokens, GoogleAuth: auth.NewGoogleVerifier(cfg.GoogleClientID), CookieSecure: cfg.CookieSecure, GAMeasurementID: cfg.GAMeasurementID}
+	if cfg.GoogleClientID == "" {
+		log.Println("GOOGLE_CLIENT_ID not set: Google sign-in disabled")
+	}
 	levelsH := &handlers.LevelsHandler{Catalog: catalog}
 	progressH := &handlers.ProgressHandler{Store: st, Catalog: catalog}
 	srsH := &handlers.SRSHandler{Store: st, Catalog: catalog}
@@ -78,6 +81,8 @@ func main() {
 		r.Post("/auth/register", authH.Register)
 		r.Post("/auth/login", authH.Login)
 		r.Post("/auth/logout", authH.Logout)
+		r.Get("/auth/config", authH.Config)
+		r.Post("/auth/google", authH.Google)
 
 		r.Group(func(r chi.Router) {
 			r.Use(tokens.Middleware)

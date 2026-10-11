@@ -16,9 +16,11 @@ interface Props {
   validate: (values: Record<string, string>) => Record<string, string>
   onSubmit: (values: Record<string, string>) => Promise<void>
   footer: ReactNode
+  /** Other sign-in methods, shown below the submit button. */
+  alternative?: ReactNode
 }
 
-export default function AuthForm({ title, subtitle, fields, submitLabel, validate, onSubmit, footer }: Props) {
+export default function AuthForm({ title, subtitle, fields, submitLabel, validate, onSubmit, footer, alternative }: Props) {
   const [values, setValues] = useState<Record<string, string>>(() => Object.fromEntries(fields.map((f) => [f.name, ''])))
   const [errors, setErrors] = useState<Record<string, string>>({})
   const [serverError, setServerError] = useState('')
@@ -81,6 +83,7 @@ export default function AuthForm({ title, subtitle, fields, submitLabel, validat
           {submitting && <Loader2 className="h-4 w-4 animate-spin" />}
           {submitLabel}
         </button>
+        {alternative}
         <p className="mt-6 text-center text-sm text-slate-500">{footer}</p>
       </form>
     </div>

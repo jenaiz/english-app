@@ -14,7 +14,10 @@ import (
 type AuthHandler struct {
 	Store        *store.Store
 	Tokens       *auth.TokenManager
+	GoogleAuth   *auth.GoogleVerifier
 	CookieSecure bool
+	// GAMeasurementID is passed to the frontend, which loads Analytics only after consent.
+	GAMeasurementID string
 }
 
 type credentials struct {
@@ -76,8 +79,58 @@ func (h *AuthHandler) Login(w http.ResponseWriter, r *http.Request) {
 		h.internal(w, err)
 		return
 	}
+	if user != nil && user.PasswordHash == "" && user.HasGoogle {
+		writeError(w, http.StatusUnauthorized, "this account uses Google sign-in")
+		return
+	}
 	if user == nil || !auth.CheckPassword(user.PasswordHash, in.Password) {
 		writeError(w, http.StatusUnauthorized, "invalid email or password")
+		return
+	}
+	token, err := h.setSession(w, user)
+	if err != nil {
+		h.internal(w, err)
+		return
+	}
+	writeJSON(w, http.StatusOK, map[string]any{"user": user, "token": token})
+}
+
+// Config tells the frontend which sign-in methods and analytics are available.
+func (h *AuthHandler) Config(w http.ResponseWriter, r *http.Request) {
+	clientID := ""
+	if h.GoogleAuth.Enabled() {
+		clientID = h.GoogleAuth.ClientID
+	}
+	writeJSON(w, http.StatusOK, map[string]any{"google_client_id": clientID, "ga_measurement_id": h.GAMeasurementID})
+}
+
+// Google signs in with an ID token from Google Identity Services, creating the
+// account on first use.
+func (h *AuthHandler) Google(w http.ResponseWriter, r *http.Request) {
+	if !h.GoogleAuth.Enabled() {
+		writeError(w, http.StatusNotFound, "google sign-in is not configured")
+		return
+	}
+	var in struct {
+		Credential string `json:"credential"`
+	}
+	if err := decodeJSON(r, &in); err != nil || in.Credential == "" {
+		writeError(w, http.StatusBadRequest, "invalid request body")
+		return
+	}
+	id, err := h.GoogleAuth.Verify(r.Context(), in.Credential)
+	if err != nil {
+		log.Printf("google sign-in rejected: %v", err)
+		writeError(w, http.StatusUnauthorized, "invalid google credential")
+		return
+	}
+	user, err := h.Store.GoogleUser(r.Context(), id.Subject, strings.ToLower(id.Email))
+	if errors.Is(err, store.ErrEmailTaken) {
+		writeError(w, http.StatusConflict, "email already linked to another google account")
+		return
+	}
+	if err != nil {
+		h.internal(w, err)
 		return
 	}
 	token, err := h.setSession(w, user)

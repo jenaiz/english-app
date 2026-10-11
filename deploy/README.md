@@ -45,6 +45,28 @@ Fluently corre en el VPS de app de bukios, detrás del nginx compartido de bukio
 
 Las migraciones SQL se aplican solas cuando arranca el backend.
 
+## Login con Google
+
+Opcional. Añade el Client ID al `.env` del VPS y recrea el backend:
+
+```bash
+ssh -i ~/.ssh/bukios_deploy deploy@bukios.com \
+  "cd ~/fluently && echo 'GOOGLE_CLIENT_ID=<id>.apps.googleusercontent.com' >> .env && docker compose up -d backend"
+```
+
+El dominio (`https://fluently.bukios.com`) tiene que estar en los **orígenes de JavaScript autorizados** del cliente OAuth. Si cambias de dominio, añade también el nuevo. Detalles en el README principal.
+
+## Google Analytics
+
+Opcional. Solo se carga si el usuario acepta las cookies de analítica en el banner. Añade el ID de medición de GA4 y recrea el backend (el frontend lo lee de `/api/auth/config`):
+
+```bash
+ssh -i ~/.ssh/bukios_deploy deploy@bukios.com \
+  "cd ~/fluently && echo 'GA_MEASUREMENT_ID=G-XXXXXXXXXX' >> .env && docker compose up -d backend"
+```
+
+Los textos legales (`/aviso-legal`, `/privacidad`, `/cookies`, `/terminos`, `/contacto`) toman los datos del titular de `frontend/src/lib/site.ts` (el NIF está pendiente: `xxx`).
+
 Logs: `ssh -i ~/.ssh/bukios_deploy deploy@bukios.com 'cd ~/fluently && docker compose logs -f --tail 100'`
 
 ## Cambiar de dominio (al publicar)
@@ -59,7 +81,8 @@ Logs: `ssh -i ~/.ssh/bukios_deploy deploy@bukios.com 'cd ~/fluently && docker co
    - dejar `fluently.bukios.com` con un `return 301 https://<dominio>$request_uri;` durante un tiempo.
 4. **Deploy**: actualizar el valor por defecto de `DOMAIN` en `deploy/deploy.sh` (o exportar `DEPLOY_DOMAIN`).
 5. **Sesiones**: la cookie `token` es host-only, así que los usuarios tendrán que volver a iniciar sesión en el dominio nuevo. Los datos no cambian.
-6. Revisar menciones a `fluently.bukios.com` con `grep -rn fluently.bukios.com`.
+6. **Google**: añadir el dominio nuevo a los orígenes de JavaScript autorizados del cliente OAuth.
+7. Revisar menciones a `fluently.bukios.com` con `grep -rn fluently.bukios.com`.
 
 ## Mover a otro servidor
 

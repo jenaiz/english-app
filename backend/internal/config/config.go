@@ -20,20 +20,26 @@ type Config struct {
 	JWTTTL       time.Duration
 	CookieSecure bool
 	ContentDir   string
+	// GoogleClientID enables "Sign in with Google" when set (OAuth web client ID).
+	GoogleClientID string
+	// GAMeasurementID enables Google Analytics (loaded only after cookie consent).
+	GAMeasurementID string
 }
 
 func Load() Config {
 	cfg := Config{
-		Port:       getEnv("PORT", "8080"),
-		DBHost:     getEnv("DB_HOST", "localhost"),
-		DBPort:     getEnv("DB_PORT", "5432"),
-		DBUser:     getEnv("DB_USER", "english"),
-		DBPassword: getEnv("DB_PASSWORD", "english"),
-		DBName:     getEnv("DB_NAME", "english_app"),
-		DBSSLMode:  getEnv("DB_SSLMODE", "disable"),
-		JWTSecret:  getEnv("JWT_SECRET", ""),
-		JWTTTL:     72 * time.Hour,
-		ContentDir: getEnv("CONTENT_DIR", "./data/levels"),
+		Port:            getEnv("PORT", "8080"),
+		DBHost:          getEnv("DB_HOST", "localhost"),
+		DBPort:          getEnv("DB_PORT", "5432"),
+		DBUser:          getEnv("DB_USER", "english"),
+		DBPassword:      getEnv("DB_PASSWORD", "english"),
+		DBName:          getEnv("DB_NAME", "english_app"),
+		DBSSLMode:       getEnv("DB_SSLMODE", "disable"),
+		JWTSecret:       getEnv("JWT_SECRET", ""),
+		JWTTTL:          72 * time.Hour,
+		ContentDir:      getEnv("CONTENT_DIR", "./data/levels"),
+		GoogleClientID:  getEnv("GOOGLE_CLIENT_ID", ""),
+		GAMeasurementID: getEnv("GA_MEASUREMENT_ID", ""),
 	}
 	cfg.CookieSecure, _ = strconv.ParseBool(getEnv("COOKIE_SECURE", "false"))
 	if cfg.JWTSecret == "" {

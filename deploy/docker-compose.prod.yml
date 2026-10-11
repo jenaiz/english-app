@@ -43,6 +43,9 @@ services:
       DB_NAME: english_app
       JWT_SECRET: ${JWT_SECRET:?JWT_SECRET missing in .env}
       COOKIE_SECURE: "true"
+      # Optional: enables "Sign in with Google". Add it to the VPS .env.
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
+      GA_MEASUREMENT_ID: ${GA_MEASUREMENT_ID:-}
     mem_limit: 128m
     memswap_limit: 192m
     depends_on:

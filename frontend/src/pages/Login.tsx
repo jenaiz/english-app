@@ -1,9 +1,10 @@
 import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom'
 import AuthForm, { validateCredentials } from '../components/AuthForm'
+import GoogleSignIn from '../components/GoogleSignIn'
 import { useAuth } from '../context/AuthContext'
 
 export default function Login() {
-  const { user, login } = useAuth()
+  const { user, login, loginWithGoogle } = useAuth()
   const navigate = useNavigate()
   const from = (useLocation().state as { from?: string } | null)?.from ?? '/levels'
 
@@ -23,6 +24,15 @@ export default function Login() {
         await login(v.email.trim(), v.password)
         navigate(from, { replace: true })
       }}
+      alternative={
+        <GoogleSignIn
+          text="signin_with"
+          onCredential={async (credential) => {
+            await loginWithGoogle(credential)
+            navigate(from, { replace: true })
+          }}
+        />
+      }
       footer={
         <>
           ¿No tienes cuenta?{' '}
