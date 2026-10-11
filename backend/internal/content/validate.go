@@ -19,8 +19,22 @@ var phaseIndex = func() map[string]int {
 
 const blankMarker = "___"
 
+// gradedTypes are the step types that score the learner; a test needs at least one.
+var gradedTypes = map[string]bool{
+	"multiple_choice": true, "speed_quiz": true, "match_pairs": true, "fill_blanks": true,
+	"word_order": true, "transformation": true, "translation": true, "dictation": true,
+}
+
 // validateLesson checks phase order/completeness and the content of each known step type.
+// Tests (Kind == KindTest) skip the phase sequence but must contain graded exercises.
 func validateLesson(l *Lesson) error {
+	switch l.Kind {
+	case "":
+	case KindTest:
+		return validateTest(l)
+	default:
+		return fmt.Errorf("unknown kind %q", l.Kind)
+	}
 	seen := make([]bool, len(Phases))
 	last := -1
 	for i, s := range l.Steps {
@@ -45,6 +59,26 @@ func validateLesson(l *Lesson) error {
 	}
 	if len(missing) > 0 {
 		return fmt.Errorf("missing phases: %s", strings.Join(missing, ", "))
+	}
+	return nil
+}
+
+func validateTest(l *Lesson) error {
+	graded := 0
+	for i, s := range l.Steps {
+		where := fmt.Sprintf("step %d (%s)", i+1, s.Type)
+		if _, ok := phaseIndex[s.Phase]; !ok {
+			return fmt.Errorf("%s: unknown phase %q", where, s.Phase)
+		}
+		if err := validateStep(s); err != nil {
+			return fmt.Errorf("%s: %w", where, err)
+		}
+		if gradedTypes[s.Type] {
+			graded++
+		}
+	}
+	if graded == 0 {
+		return fmt.Errorf("test needs at least one graded step")
 	}
 	return nil
 }

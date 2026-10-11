@@ -3,6 +3,7 @@ package content
 import (
 	"encoding/json"
 	"fmt"
+	"io/fs"
 	"os"
 	"path/filepath"
 	"sort"
@@ -19,58 +20,93 @@ type Catalog struct {
 	lessonByID map[string]LessonRef
 }
 
-// Load parses every *.json file in dir and validates IDs.
+// Load parses every *.json file under dir (recursively, in path order) and validates IDs.
+// Files sharing a level_id are merged, so a level can be split into one file per unit:
+// themes are matched by theme_id (in order of first appearance) and their units appended.
 func Load(dir string) (*Catalog, error) {
-	files, err := filepath.Glob(filepath.Join(dir, "*.json"))
+	var files []string
+	err := filepath.WalkDir(dir, func(path string, d fs.DirEntry, err error) error {
+		if err == nil && !d.IsDir() && strings.HasSuffix(path, ".json") {
+			files = append(files, path)
+		}
+		return err
+	})
 	if err != nil {
 		return nil, err
 	}
 	if len(files) == 0 {
 		return nil, fmt.Errorf("no level files found in %s", dir)
 	}
+	sort.Strings(files)
 
 	c := &Catalog{levelByID: map[string]*Level{}, unitByID: map[string]UnitRef{}, lessonByID: map[string]LessonRef{}}
+	// Source file of each unit, for error messages.
+	unitFile := map[string]string{}
 
 	for _, f := range files {
+		name, _ := filepath.Rel(dir, f)
 		data, err := os.ReadFile(f)
 		if err != nil {
 			return nil, err
 		}
-		var lvl Level
-		if err := json.Unmarshal(data, &lvl); err != nil {
-			return nil, fmt.Errorf("%s: %w", filepath.Base(f), err)
+		var frag Level
+		if err := json.Unmarshal(data, &frag); err != nil {
+			return nil, fmt.Errorf("%s: %w", name, err)
 		}
-		if lvl.LevelID == "" {
-			return nil, fmt.Errorf("%s: missing level_id", filepath.Base(f))
+		if frag.LevelID == "" {
+			return nil, fmt.Errorf("%s: missing level_id", name)
 		}
-		if _, dup := c.levelByID[lvl.LevelID]; dup {
-			return nil, fmt.Errorf("%s: duplicate level_id %q", filepath.Base(f), lvl.LevelID)
+		l, ok := c.levelByID[frag.LevelID]
+		if !ok {
+			l = &Level{LevelID: frag.LevelID}
+			c.levels = append(c.levels, l)
+			c.levelByID[l.LevelID] = l
 		}
-		l := &lvl
-		c.levels = append(c.levels, l)
-		c.levelByID[l.LevelID] = l
+		if l.Title == "" {
+			l.Title = frag.Title
+		}
+		if l.Description == "" {
+			l.Description = frag.Description
+		}
+		for _, th := range frag.Themes {
+			if th.ThemeID == "" {
+				return nil, fmt.Errorf("%s: theme without theme_id", name)
+			}
+			dst := themeOf(l, th.ThemeID)
+			if dst.Title == "" {
+				dst.Title = th.Title
+			}
+			for _, u := range th.Units {
+				unitFile[u.UnitID] = name
+			}
+			dst.Units = append(dst.Units, th.Units...)
+		}
+	}
 
+	// Index only after merging: appends above may move the slices.
+	for _, l := range c.levels {
 		for ti := range l.Themes {
 			th := &l.Themes[ti]
 			for ui := range th.Units {
 				u := &th.Units[ui]
+				name := unitFile[u.UnitID]
 				if u.UnitID == "" {
-					return nil, fmt.Errorf("%s: unit without unit_id in theme %q", filepath.Base(f), th.ThemeID)
+					return nil, fmt.Errorf("%s: unit without unit_id in theme %q", l.LevelID, th.ThemeID)
 				}
 				if _, dup := c.unitByID[u.UnitID]; dup {
-					return nil, fmt.Errorf("%s: duplicate unit_id %q", filepath.Base(f), u.UnitID)
+					return nil, fmt.Errorf("%s: duplicate unit_id %q", name, u.UnitID)
 				}
 				c.unitByID[u.UnitID] = UnitRef{LevelID: l.LevelID, ThemeID: th.ThemeID, Unit: u}
 				for li := range u.Lessons {
 					ls := &u.Lessons[li]
 					if ls.LessonID == "" {
-						return nil, fmt.Errorf("%s: lesson without lesson_id in unit %q", filepath.Base(f), u.UnitID)
+						return nil, fmt.Errorf("%s: lesson without lesson_id in unit %q", name, u.UnitID)
 					}
 					if prev, dup := c.lessonByID[ls.LessonID]; dup {
-						return nil, fmt.Errorf("%s: duplicate lesson_id %q (also in unit %q)", filepath.Base(f), ls.LessonID, prev.Unit.UnitID)
+						return nil, fmt.Errorf("%s: duplicate lesson_id %q (also in unit %q)", name, ls.LessonID, prev.Unit.UnitID)
 					}
 					if err := validateLesson(ls); err != nil {
-						return nil, fmt.Errorf("%s: unit %s / lesson %s / %w", filepath.Base(f), u.UnitID, ls.LessonID, err)
+						return nil, fmt.Errorf("%s: unit %s / lesson %s / %w", name, u.UnitID, ls.LessonID, err)
 					}
 					c.lessonByID[ls.LessonID] = LessonRef{LevelID: l.LevelID, Unit: u, Lesson: ls}
 				}
@@ -82,6 +118,17 @@ func Load(dir string) (*Catalog, error) {
 		return rank(c.levels[i].LevelID) < rank(c.levels[j].LevelID)
 	})
 	return c, nil
+}
+
+// themeOf returns the level's theme with the given id, appending an empty one if missing.
+func themeOf(l *Level, id string) *Theme {
+	for i := range l.Themes {
+		if l.Themes[i].ThemeID == id {
+			return &l.Themes[i]
+		}
+	}
+	l.Themes = append(l.Themes, Theme{ThemeID: id})
+	return &l.Themes[len(l.Themes)-1]
 }
 
 func rank(id string) int {
@@ -162,7 +209,7 @@ func (c *Catalog) Vocabulary(lessonID string) []VocabItem {
 func lessonSummaries(u Unit) []LessonSummary {
 	out := make([]LessonSummary, 0, len(u.Lessons))
 	for _, l := range u.Lessons {
-		ls := LessonSummary{LessonID: l.LessonID, Title: l.Title, Grammar: []string{}}
+		ls := LessonSummary{LessonID: l.LessonID, Title: l.Title, Kind: l.Kind, Grammar: []string{}}
 		for _, s := range l.Steps {
 			if s.Type != "grammar_rule" {
 				continue

@@ -1,0 +1,278 @@
+{
+  "level_id": "A2",
+  "themes": [
+    {
+      "theme_id": "shopping",
+      "units": [
+        {
+          "unit_id": "at_the_shop",
+          "title": "At the Shop",
+          "description": "Pregunta precios y tallas usando this/these y can.",
+          "lessons": [
+            {
+              "lesson_id": "shop_prices",
+              "title": "How much is it?",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "dialogue": [
+                      {
+                        "speaker": "Customer",
+                        "text": "Excuse me, how much is this jacket?"
+                      },
+                      {
+                        "speaker": "Assistant",
+                        "text": "It's forty-five pounds. Would you like to try it on?"
+                      },
+                      {
+                        "speaker": "Customer",
+                        "text": "Yes, please. Do you have it in a medium?"
+                      },
+                      {
+                        "speaker": "Assistant",
+                        "text": "Here you are. And these shoes are on sale today."
+                      },
+                      {
+                        "speaker": "Customer",
+                        "text": "How much are they?"
+                      },
+                      {
+                        "speaker": "Assistant",
+                        "text": "They're twenty pounds. You can pay by card or in cash."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en cómo se pregunta el precio.",
+                    "items": [
+                      {
+                        "question": "\"How much ___ these shoes?\"",
+                        "options": [
+                          "is",
+                          "are"
+                        ],
+                        "answer": 1,
+                        "explanation": "Shoes es plural → are."
+                      },
+                      {
+                        "question": "\"Try it on\" means…",
+                        "options": [
+                          "Probárselo",
+                          "Comprarlo",
+                          "Devolverlo"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "We use 'these' for…",
+                        "options": [
+                          "one thing near you",
+                          "several things near you",
+                          "things far away"
+                        ],
+                        "answer": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "This / These / That / Those + How much",
+                    "explanation": "This (singular) y these (plural) para cosas cercanas; that y those para cosas lejanas. Para preguntar el precio: How much is + singular / How much are + plural.",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Cerca",
+                        "Lejos"
+                      ],
+                      "rows": [
+                        [
+                          "Singular",
+                          "this jacket",
+                          "that jacket"
+                        ],
+                        [
+                          "Plural",
+                          "these shoes",
+                          "those shoes"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "How much is this T-shirt?",
+                      "How much are those jeans?"
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con is o are.",
+                    "items": [
+                      {
+                        "sentence": "How much ___ this hat?",
+                        "answers": [
+                          [
+                            "is"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "How much ___ these socks?",
+                        "answers": [
+                          [
+                            "are"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ shoes over there are cheap.",
+                        "answers": [
+                          [
+                            "Those"
+                          ]
+                        ],
+                        "hint": "Plural y lejos"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena la pregunta.",
+                    "items": [
+                      {
+                        "answer": "Can I try it on?"
+                      },
+                      {
+                        "answer": "How much are these shoes?"
+                      },
+                      {
+                        "answer": "Do you have it in a medium?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Pide en voz alta en la tienda.",
+                    "items": [
+                      {
+                        "text": "How much is this jacket?"
+                      },
+                      {
+                        "text": "Can I pay by card?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "¿Cuánto cuestan esos vaqueros?",
+                        "answers": [
+                          "How much are those jeans?"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "Try on",
+                        "definition": "Put on clothes to see if they fit",
+                        "translation": "Probarse",
+                        "example": "Can I try on these shoes?"
+                      },
+                      {
+                        "term": "Receipt",
+                        "definition": "Paper that proves you paid",
+                        "translation": "Ticket / recibo",
+                        "example": "Keep the receipt."
+                      },
+                      {
+                        "term": "On sale",
+                        "definition": "Cheaper than usual",
+                        "translation": "De rebajas",
+                        "example": "These shoes are on sale."
+                      },
+                      {
+                        "term": "Pay by card",
+                        "definition": "Use a bank card to pay",
+                        "translation": "Pagar con tarjeta",
+                        "example": "Can I pay by card?"
+                      },
+                      {
+                        "term": "Size",
+                        "definition": "How big or small something is",
+                        "translation": "Talla",
+                        "example": "What size are you?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Contrarreloj!",
+                    "time_limit_seconds": 35,
+                    "items": [
+                      {
+                        "question": "How much ___ those trousers?",
+                        "options": [
+                          "is",
+                          "are"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "\"Rebajas\" =",
+                        "options": [
+                          "receipt",
+                          "on sale",
+                          "size"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "___ book here is mine.",
+                        "options": [
+                          "These",
+                          "This",
+                          "Those"
+                        ],
+                        "answer": 1
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

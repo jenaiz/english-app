@@ -1,0 +1,306 @@
+{
+  "level_id": "A2",
+  "themes": [
+    {
+      "theme_id": "daily_life",
+      "units": [
+        {
+          "unit_id": "daily_routine",
+          "title": "My Daily Routine",
+          "description": "Describe tu día con present simple y adverbios de frecuencia.",
+          "lessons": [
+            {
+              "lesson_id": "routine_present_simple",
+              "title": "Present Simple & Frequency",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "dialogue": [
+                      {
+                        "speaker": "Lucy",
+                        "text": "What time do you usually get up?"
+                      },
+                      {
+                        "speaker": "Mark",
+                        "text": "I always get up at seven. Then I have breakfast and take the bus to work."
+                      },
+                      {
+                        "speaker": "Lucy",
+                        "text": "Does your sister work with you?"
+                      },
+                      {
+                        "speaker": "Mark",
+                        "text": "No, she works from home. She never takes the bus! What about you?"
+                      },
+                      {
+                        "speaker": "Lucy",
+                        "text": "I'm a night person. I sometimes sleep until ten on Sundays."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Observa los verbos del diálogo.",
+                    "items": [
+                      {
+                        "question": "\"She ___ from home.\" What did Mark say?",
+                        "options": [
+                          "work",
+                          "works",
+                          "working"
+                        ],
+                        "answer": 1,
+                        "explanation": "Con he / she / it el verbo lleva -s: she works."
+                      },
+                      {
+                        "question": "Where is 'always' in \"I always get up at seven\"?",
+                        "options": [
+                          "Before the main verb",
+                          "After the main verb",
+                          "At the end"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Which word means 'nunca'?",
+                        "options": [
+                          "sometimes",
+                          "usually",
+                          "never"
+                        ],
+                        "answer": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Present simple + adverbs of frequency",
+                    "explanation": "El present simple expresa hábitos y rutinas. Con he/she/it añadimos -s (-es tras -sh, -ch, -o, -x). Las preguntas y negativas usan do / does. Los adverbios de frecuencia van ANTES del verbo principal, pero DESPUÉS de 'to be'.",
+                    "table": {
+                      "headers": [
+                        "",
+                        "I / you / we / they",
+                        "he / she / it"
+                      ],
+                      "rows": [
+                        [
+                          "Afirmativa",
+                          "I work",
+                          "She works"
+                        ],
+                        [
+                          "Negativa",
+                          "I don't work",
+                          "She doesn't work"
+                        ],
+                        [
+                          "Pregunta",
+                          "Do you work?",
+                          "Does she work?"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I usually have breakfast at 8.",
+                      "She is never late.",
+                      "He watches TV every night."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Escribe el verbo entre paréntesis en present simple.",
+                    "items": [
+                      {
+                        "sentence": "She ___ (take) the bus every day.",
+                        "answers": [
+                          [
+                            "takes"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "My brother ___ (watch) TV at night.",
+                        "answers": [
+                          [
+                            "watches"
+                          ]
+                        ],
+                        "explanation": "Verbos terminados en -ch añaden -es."
+                      },
+                      {
+                        "sentence": "We ___ (not / work) on Sundays.",
+                        "answers": [
+                          [
+                            "don't work",
+                            "do not work"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ your sister work from home?",
+                        "answers": [
+                          [
+                            "Does"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena la frase colocando bien el adverbio.",
+                    "items": [
+                      {
+                        "answer": "I always get up at seven"
+                      },
+                      {
+                        "answer": "She is never late"
+                      },
+                      {
+                        "answer": "We sometimes eat out on Fridays"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Normalmente desayuno a las ocho.",
+                        "answers": [
+                          "I usually have breakfast at eight",
+                          "I usually have breakfast at 8",
+                          "I normally have breakfast at eight",
+                          "I normally have breakfast at 8"
+                        ]
+                      },
+                      {
+                        "source": "Ella nunca coge el autobús.",
+                        "answers": [
+                          "She never takes the bus"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "dictation",
+                  "content": {
+                    "instructions": "Escucha y escribe.",
+                    "items": [
+                      {
+                        "text": "He usually gets up at seven."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "Get up",
+                        "definition": "Leave your bed after sleeping",
+                        "translation": "Levantarse",
+                        "example": "I get up at seven."
+                      },
+                      {
+                        "term": "Have breakfast",
+                        "definition": "Eat the first meal of the day",
+                        "translation": "Desayunar",
+                        "example": "We have breakfast together."
+                      },
+                      {
+                        "term": "Take the bus",
+                        "definition": "Travel by bus",
+                        "translation": "Coger el autobús",
+                        "example": "I take the bus to work."
+                      },
+                      {
+                        "term": "Usually",
+                        "definition": "In most cases",
+                        "translation": "Normalmente",
+                        "example": "I usually walk to school."
+                      },
+                      {
+                        "term": "Never",
+                        "definition": "At no time",
+                        "translation": "Nunca",
+                        "example": "She's never late."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Contrarreloj!",
+                    "time_limit_seconds": 40,
+                    "items": [
+                      {
+                        "question": "He ___ coffee every morning.",
+                        "options": [
+                          "drink",
+                          "drinks",
+                          "drinking"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "___ they live in Madrid?",
+                        "options": [
+                          "Does",
+                          "Do",
+                          "Are"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Correct order:",
+                        "options": [
+                          "I go always to bed late",
+                          "I always go to bed late",
+                          "Always I go to bed late"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "She ___ like fish.",
+                        "options": [
+                          "don't",
+                          "doesn't",
+                          "isn't"
+                        ],
+                        "answer": 1
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

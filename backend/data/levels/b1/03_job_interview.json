@@ -1,0 +1,316 @@
+{
+  "level_id": "B1",
+  "themes": [
+    {
+      "theme_id": "work_life",
+      "units": [
+        {
+          "unit_id": "job_interview",
+          "title": "Job Interviews",
+          "description": "Habla de tu experiencia usando present perfect y past simple.",
+          "lessons": [
+            {
+              "lesson_id": "interview_experience",
+              "title": "Talking About Experience",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "dialogue": [
+                      {
+                        "speaker": "Interviewer",
+                        "text": "Tell me about your experience."
+                      },
+                      {
+                        "speaker": "Candidate",
+                        "text": "I've worked in customer service for five years. In my last job, I managed a team of six."
+                      },
+                      {
+                        "speaker": "Interviewer",
+                        "text": "Have you ever worked abroad?"
+                      },
+                      {
+                        "speaker": "Candidate",
+                        "text": "Yes, I have. I worked in Dublin in 2019 for about a year."
+                      },
+                      {
+                        "speaker": "Interviewer",
+                        "text": "And have you led any projects recently?"
+                      },
+                      {
+                        "speaker": "Candidate",
+                        "text": "I've just finished a project to improve our customer response times."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en los tiempos verbales del candidato.",
+                    "items": [
+                      {
+                        "question": "\"I worked in Dublin in 2019.\" Why past simple?",
+                        "options": [
+                          "It's a finished action at a specific time",
+                          "It's still happening",
+                          "It's a future plan"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I've worked in customer service for five years.\" Does the candidate still work there?",
+                        "options": [
+                          "Yes, probably",
+                          "No, definitely not",
+                          "We can't know"
+                        ],
+                        "answer": 0,
+                        "explanation": "Present perfect + for → la acción continúa hasta hoy."
+                      },
+                      {
+                        "question": "Which question did the interviewer use for life experience?",
+                        "options": [
+                          "Did you ever work abroad?",
+                          "Have you ever worked abroad?",
+                          "Do you ever work abroad?"
+                        ],
+                        "answer": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Present Perfect vs Past Simple",
+                    "explanation": "El present perfect (have/has + participio) habla de experiencias sin tiempo concreto, acciones que continúan hasta hoy o resultados recientes. El past simple habla de acciones terminadas en un momento concreto del pasado.",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Present perfect",
+                        "Past simple"
+                      ],
+                      "rows": [
+                        [
+                          "Uso",
+                          "Experiencia / hasta ahora",
+                          "Momento terminado"
+                        ],
+                        [
+                          "Marcadores",
+                          "ever, never, just, yet, for, since",
+                          "yesterday, in 2019, last year, ago"
+                        ],
+                        [
+                          "Ejemplo",
+                          "I've worked here for 5 years.",
+                          "I worked there in 2019."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Have you ever been to London?",
+                      "I went to London last year.",
+                      "She's just finished the report."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Elige present perfect o past simple.",
+                    "items": [
+                      {
+                        "sentence": "I ___ (work) in Dublin in 2019.",
+                        "answers": [
+                          [
+                            "worked"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "She ___ (be) a manager since 2020.",
+                        "answers": [
+                          [
+                            "has been",
+                            "'s been"
+                          ]
+                        ],
+                        "explanation": "Since → present perfect."
+                      },
+                      {
+                        "sentence": "___ you ever ___ (lead) a team?",
+                        "answers": [
+                          [
+                            "Have"
+                          ],
+                          [
+                            "led"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We ___ (finish) the project two weeks ago.",
+                        "answers": [
+                          [
+                            "finished"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena la frase de la entrevista.",
+                    "items": [
+                      {
+                        "answer": "I have worked here for five years",
+                        "distractors": [
+                          "since"
+                        ]
+                      },
+                      {
+                        "answer": "Have you ever worked abroad?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "He trabajado en ventas durante tres años.",
+                        "answers": [
+                          "I've worked in sales for three years",
+                          "I have worked in sales for three years",
+                          "I've been working in sales for three years",
+                          "I have been working in sales for three years"
+                        ]
+                      },
+                      {
+                        "source": "Viví en Londres en 2018.",
+                        "answers": [
+                          "I lived in London in 2018"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Responde en voz alta como en una entrevista.",
+                    "items": [
+                      {
+                        "text": "I've worked in customer service for five years."
+                      },
+                      {
+                        "text": "I've just finished an important project."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "Experience",
+                        "definition": "Knowledge from doing a job",
+                        "translation": "Experiencia",
+                        "example": "I have five years of experience."
+                      },
+                      {
+                        "term": "Manage a team",
+                        "definition": "Be responsible for a group of workers",
+                        "translation": "Dirigir un equipo",
+                        "example": "I managed a team of six."
+                      },
+                      {
+                        "term": "Abroad",
+                        "definition": "In another country",
+                        "translation": "En el extranjero",
+                        "example": "Have you ever worked abroad?"
+                      },
+                      {
+                        "term": "Skills",
+                        "definition": "Abilities you have",
+                        "translation": "Habilidades",
+                        "example": "My communication skills are strong."
+                      },
+                      {
+                        "term": "Strengths",
+                        "definition": "Your best qualities",
+                        "translation": "Puntos fuertes",
+                        "example": "What are your main strengths?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Contrarreloj!",
+                    "time_limit_seconds": 40,
+                    "items": [
+                      {
+                        "question": "I ___ here since 2021.",
+                        "options": [
+                          "worked",
+                          "have worked",
+                          "work"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "She ___ the company last year.",
+                        "options": [
+                          "joined",
+                          "has joined",
+                          "joins"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"En el extranjero\" =",
+                        "options": [
+                          "abroad",
+                          "away",
+                          "outside"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ you ever been to Japan?",
+                        "options": [
+                          "Did",
+                          "Have",
+                          "Are"
+                        ],
+                        "answer": 1
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

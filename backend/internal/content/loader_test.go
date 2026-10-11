@@ -43,3 +43,37 @@ func TestLoadRejectsDuplicateUnits(t *testing.T) {
 		t.Fatal("expected duplicate unit_id error")
 	}
 }
+
+func TestLoadMergesLevelFragments(t *testing.T) {
+	dir := t.TempDir()
+	os.MkdirAll(filepath.Join(dir, "a1"), 0o755)
+	files := map[string]string{
+		"a1/00_level.json": `{"level_id":"A1","title":"A1 Beginner","themes":[{"theme_id":"t1","title":"First"},{"theme_id":"t2","title":"Second"}]}`,
+		"a1/02_u2.json":    `{"level_id":"A1","themes":[{"theme_id":"t2","units":[{"unit_id":"u2","title":"U2","lessons":[]}]}]}`,
+		"a1/01_u1.json":    `{"level_id":"A1","themes":[{"theme_id":"t1","units":[{"unit_id":"u1","title":"U1","lessons":[]}]}]}`,
+		"a1/03_u3.json":    `{"level_id":"A1","themes":[{"theme_id":"t1","units":[{"unit_id":"u3","title":"U3","lessons":[]}]}]}`,
+	}
+	for name, doc := range files {
+		os.WriteFile(filepath.Join(dir, name), []byte(doc), 0o644)
+	}
+	c, err := Load(dir)
+	if err != nil {
+		t.Fatalf("load: %v", err)
+	}
+	sums := c.Summaries()
+	if len(sums) != 1 || sums[0].Title != "A1 Beginner" || len(sums[0].Themes) != 2 {
+		t.Fatalf("unexpected merge: %+v", sums)
+	}
+	var got []string
+	for _, th := range sums[0].Themes {
+		for _, u := range th.Units {
+			got = append(got, th.ThemeID+"/"+u.UnitID)
+		}
+	}
+	if fmt.Sprint(got) != "[t1/u1 t1/u3 t2/u2]" {
+		t.Errorf("units out of order: %v", got)
+	}
+	if ref, ok := c.Unit("A1", "u3"); !ok || ref.ThemeID != "t1" {
+		t.Errorf("u3 not indexed under t1: %+v", ref)
+	}
+}

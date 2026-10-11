@@ -1,0 +1,243 @@
+{
+  "level_id": "A1",
+  "themes": [
+    {
+      "theme_id": "everyday_basics",
+      "units": [
+        {
+          "unit_id": "numbers_colors",
+          "title": "Numbers & Colours",
+          "description": "Describe objetos por su color y aprende dónde va el adjetivo.",
+          "lessons": [
+            {
+              "lesson_id": "colors_intro",
+              "title": "Colours & Adjectives",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "My room",
+                    "passage": "My room is small but nice. I have a blue bed and two white chairs. My favourite thing is a big red lamp. The walls are green and the door is brown."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "match_pairs",
+                  "content": {
+                    "instructions": "Empareja cada color con su traducción.",
+                    "pairs": [
+                      {
+                        "left": "Red",
+                        "right": "Rojo"
+                      },
+                      {
+                        "left": "Blue",
+                        "right": "Azul"
+                      },
+                      {
+                        "left": "Green",
+                        "right": "Verde"
+                      },
+                      {
+                        "left": "White",
+                        "right": "Blanco"
+                      },
+                      {
+                        "left": "Brown",
+                        "right": "Marrón"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Adjective position",
+                    "explanation": "En inglés el adjetivo va ANTES del sustantivo y nunca cambia en plural. Si hay tamaño y color, el tamaño va primero.",
+                    "table": {
+                      "headers": [
+                        "Español",
+                        "Inglés"
+                      ],
+                      "rows": [
+                        [
+                          "un coche rojo",
+                          "a red car"
+                        ],
+                        [
+                          "dos sillas blancas",
+                          "two white chairs"
+                        ],
+                        [
+                          "una lámpara roja grande",
+                          "a big red lamp"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I have a blue bed.",
+                      "The walls are green."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "I have a blue bed"
+                      },
+                      {
+                        "answer": "two white chairs",
+                        "distractors": [
+                          "whites"
+                        ]
+                      },
+                      {
+                        "answer": "a big red lamp"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Convierte la frase al plural.",
+                    "items": [
+                      {
+                        "prompt": "Plural (two)",
+                        "source": "a green chair",
+                        "answers": [
+                          "two green chairs"
+                        ]
+                      },
+                      {
+                        "prompt": "Plural (three)",
+                        "source": "a small red car",
+                        "answers": [
+                          "three small red cars"
+                        ],
+                        "explanation": "El adjetivo no cambia: small red cars."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "dictation",
+                  "content": {
+                    "instructions": "Escucha y escribe lo que oyes.",
+                    "items": [
+                      {
+                        "text": "The door is brown."
+                      },
+                      {
+                        "text": "I have a big red lamp."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Tengo un coche azul.",
+                        "answers": [
+                          "I have a blue car",
+                          "I've got a blue car"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "Red",
+                        "definition": "The colour of blood",
+                        "translation": "Rojo",
+                        "example": "I have a red car."
+                      },
+                      {
+                        "term": "Blue",
+                        "definition": "The colour of the sky",
+                        "translation": "Azul",
+                        "example": "The sky is blue."
+                      },
+                      {
+                        "term": "Green",
+                        "definition": "The colour of grass",
+                        "translation": "Verde",
+                        "example": "Green is my favourite colour."
+                      },
+                      {
+                        "term": "White",
+                        "definition": "The colour of snow",
+                        "translation": "Blanco",
+                        "example": "Two white chairs."
+                      },
+                      {
+                        "term": "Brown",
+                        "definition": "The colour of chocolate",
+                        "translation": "Marrón",
+                        "example": "The door is brown."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Contrarreloj!",
+                    "time_limit_seconds": 30,
+                    "items": [
+                      {
+                        "question": "\"Coches rojos\" =",
+                        "options": [
+                          "reds cars",
+                          "red cars",
+                          "cars red"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "\"Verde\" =",
+                        "options": [
+                          "Green",
+                          "Grey",
+                          "Brown"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Correct order:",
+                        "options": [
+                          "a red big lamp",
+                          "a big red lamp",
+                          "a lamp big red"
+                        ],
+                        "answer": 1
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

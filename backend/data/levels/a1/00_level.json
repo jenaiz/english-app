@@ -1,0 +1,15 @@
+{
+  "level_id": "A1",
+  "title": "A1 Beginner",
+  "description": "Primeros pasos: saludos, presentaciones y vocabulario básico",
+  "themes": [
+    {
+      "theme_id": "greetings",
+      "title": "Greetings & Introductions"
+    },
+    {
+      "theme_id": "everyday_basics",
+      "title": "Everyday Basics"
+    }
+  ]
+}

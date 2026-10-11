@@ -63,7 +63,8 @@ type SavedExpression struct {
 	ID          string `json:"id"`
 	Repetitions int    `json:"repetitions"`
 	// Queued: added but waiting for a free slot in the daily limit of new expressions.
-	Queued bool `json:"queued"`
+	Queued  bool      `json:"queued"`
+	AddedAt time.Time `json:"added_at"`
 }
 
 // ExpressionCards returns the expressions the user has added, grouped by kind.
@@ -72,7 +73,7 @@ func (s *Store) ExpressionCards(ctx context.Context, userID string) (map[string]
 	if err != nil {
 		return nil, err
 	}
-	rows, err := s.pool.Query(ctx, `SELECT id, kind, term, repetitions FROM srs_cards
+	rows, err := s.pool.Query(ctx, `SELECT id, kind, term, repetitions, created_at FROM srs_cards
 		WHERE user_id = $1 AND kind IN ('idiom', 'phrasal')`, userID)
 	if err != nil {
 		return nil, err
@@ -82,7 +83,7 @@ func (s *Store) ExpressionCards(ctx context.Context, userID string) (map[string]
 	for rows.Next() {
 		var id, kind string
 		var e SavedExpression
-		if err := rows.Scan(&id, &kind, &e.ID, &e.Repetitions); err != nil {
+		if err := rows.Scan(&id, &kind, &e.ID, &e.Repetitions, &e.AddedAt); err != nil {
 			return nil, err
 		}
 		e.Queued = q.queued[id]

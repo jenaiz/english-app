@@ -9,9 +9,13 @@ export interface User {
   created_at: string
 }
 
+/** 'test' marks a checkpoint: graded exercises only, no 7-phase flow. */
+export type LessonKind = 'test'
+
 export interface LessonOverview {
   lesson_id: string
   title: string
+  kind?: LessonKind
   grammar: string[]
 }
 
@@ -45,6 +49,7 @@ export interface Step<T = unknown> {
 export interface Lesson {
   lesson_id: string
   title: string
+  kind?: LessonKind
   steps: Step[]
 }
 
@@ -193,6 +198,7 @@ export interface SavedExpression {
   id: string
   repetitions: number
   queued: boolean
+  added_at: string
 }
 
 // ---- Expresiones ----

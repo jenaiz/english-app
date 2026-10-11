@@ -25,8 +25,13 @@ type Unit struct {
 type Lesson struct {
 	LessonID string `json:"lesson_id"`
 	Title    string `json:"title"`
-	Steps    []Step `json:"steps"`
+	// Kind is empty for a regular 7-phase lesson or KindTest for a checkpoint test.
+	Kind  string `json:"kind,omitempty"`
+	Steps []Step `json:"steps"`
 }
+
+// KindTest marks a checkpoint test: graded exercises only, no phase sequence.
+const KindTest = "test"
 
 // Step content is kept raw so new step types need no backend changes.
 type Step struct {
@@ -70,6 +75,7 @@ type UnitSummary struct {
 type LessonSummary struct {
 	LessonID string   `json:"lesson_id"`
 	Title    string   `json:"title"`
+	Kind     string   `json:"kind,omitempty"`
 	Grammar  []string `json:"grammar"`
 }
 

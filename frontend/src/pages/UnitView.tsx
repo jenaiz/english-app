@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
-import { AlertCircle, ArrowLeft, ArrowRight, Brain, CheckCircle2, Loader2, PartyPopper } from 'lucide-react'
+import { AlertCircle, ArrowLeft, ArrowRight, Brain, CheckCircle2, ClipboardCheck, Loader2, PartyPopper } from 'lucide-react'
 import { api } from '../api/client'
 import StepRenderer, { EXERCISE_TYPES } from '../components/steps/StepRenderer'
 import { PHASES } from '../lib/phases'
@@ -11,6 +11,7 @@ interface FlatStep {
   lessonId: string
   lessonTitle: string
   lessonIndex: number
+  isTest: boolean
   isLastInLesson: boolean
 }
 
@@ -35,6 +36,7 @@ interface LessonSummary {
   correct: number
   total: number
   cardsAdded: number
+  isTest: boolean
   isLastLesson: boolean
 }
 
@@ -87,6 +89,7 @@ export default function UnitView() {
         lessonId: lesson.lesson_id,
         lessonTitle: lesson.title,
         lessonIndex: li,
+        isTest: lesson.kind === 'test',
         isLastInLesson: si === lesson.steps.length - 1,
       })),
     )
@@ -172,6 +175,7 @@ export default function UnitView() {
       correct,
       total,
       cardsAdded: res.cards_added,
+      isTest: current.isTest,
       isLastLesson: index === steps.length - 1,
     })
   }
@@ -209,8 +213,8 @@ export default function UnitView() {
         </h1>
       </div>
 
-      {/* 7-phase stepper */}
-      <ol className="mt-6 grid grid-cols-7 gap-1">
+      {/* 7-phase stepper (tests have no phases) */}
+      {!current.isTest && <ol className="mt-6 grid grid-cols-7 gap-1">
         {PHASES.map((p, pi) => {
           const target = phaseFirstStep(p.id)
           const reachable = target !== undefined && target <= furthest
@@ -246,7 +250,7 @@ export default function UnitView() {
             </li>
           )
         })}
-      </ol>
+      </ol>}
 
       <div className="mt-4 flex items-center gap-3">
         <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-slate-200">
@@ -262,9 +266,15 @@ export default function UnitView() {
 
       <article className="mt-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
         <div className="mb-5 flex items-center gap-2">
-          <span className="rounded-full bg-indigo-50 px-2.5 py-0.5 text-xs font-semibold text-indigo-700">
-            {currentPhase + 1}. {PHASES[currentPhase]?.label}
-          </span>
+          {current.isTest ? (
+            <span className="inline-flex items-center gap-1 rounded-full bg-amber-50 px-2.5 py-0.5 text-xs font-semibold text-amber-700">
+              <ClipboardCheck className="h-3.5 w-3.5" /> Test
+            </span>
+          ) : (
+            <span className="rounded-full bg-indigo-50 px-2.5 py-0.5 text-xs font-semibold text-indigo-700">
+              {currentPhase + 1}. {PHASES[currentPhase]?.label}
+            </span>
+          )}
           <span className="text-xs font-medium text-slate-400">{stepLabels[current.step.type] ?? current.step.type}</span>
         </div>
         <StepRenderer key={index} step={current.step} onComplete={recordResult} />
@@ -295,7 +305,7 @@ export default function UnitView() {
           {saving && <Loader2 className="h-4 w-4 animate-spin" />}
           {current.isLastInLesson ? (
             <>
-              Terminar lección <CheckCircle2 className="h-4 w-4" />
+              {current.isTest ? 'Terminar test' : 'Terminar lección'} <CheckCircle2 className="h-4 w-4" />
             </>
           ) : (
             <>
@@ -329,10 +339,17 @@ function LessonComplete({
       <div className={`mx-auto grid h-20 w-20 place-items-center rounded-full ${good ? 'bg-emerald-100 text-emerald-600' : 'bg-amber-100 text-amber-600'}`}>
         <PartyPopper className="h-10 w-10" />
       </div>
-      <h1 className="mt-6 text-3xl font-bold text-slate-900">{summary.isLastLesson ? '¡Unidad completada!' : '¡Lección completada!'}</h1>
+      <h1 className="mt-6 text-3xl font-bold text-slate-900">
+        {summary.isTest ? '¡Test completado!' : summary.isLastLesson ? '¡Unidad completada!' : '¡Lección completada!'}
+      </h1>
       <p className="mt-2 text-slate-500">
         {summary.isLastLesson ? unitTitle : summary.title}. Tu progreso se ha guardado.
       </p>
+      {summary.isTest && (
+        <p className={`mt-3 font-medium ${good ? 'text-emerald-700' : 'text-amber-700'}`}>
+          {good ? 'Aprobado: dominas lo visto hasta aquí.' : 'Te conviene repasar las unidades anteriores antes de seguir.'}
+        </p>
+      )}
 
       <div className="mt-8 grid grid-cols-2 gap-3">
         <div className="rounded-2xl border border-slate-200 bg-white p-5">

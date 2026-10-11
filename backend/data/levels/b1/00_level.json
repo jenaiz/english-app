@@ -1,0 +1,15 @@
+{
+  "level_id": "B1",
+  "title": "B1 Intermediate",
+  "description": "Nivel intermedio de consolidación y fluidez",
+  "themes": [
+    {
+      "theme_id": "travel_accommodation",
+      "title": "Travel & Accommodations"
+    },
+    {
+      "theme_id": "work_life",
+      "title": "Work & Professional Life"
+    }
+  ]
+}

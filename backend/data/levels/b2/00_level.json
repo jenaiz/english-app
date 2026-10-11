@@ -1,0 +1,11 @@
+{
+  "level_id": "B2",
+  "title": "B2 Upper Intermediate",
+  "description": "Argumentar, matizar y debatir con naturalidad",
+  "themes": [
+    {
+      "theme_id": "opinions_debate",
+      "title": "Opinions & Debate"
+    }
+  ]
+}

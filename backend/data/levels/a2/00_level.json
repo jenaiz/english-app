@@ -1,0 +1,15 @@
+{
+  "level_id": "A2",
+  "title": "A2 Elementary",
+  "description": "Situaciones cotidianas: compras, rutinas y presente simple",
+  "themes": [
+    {
+      "theme_id": "daily_life",
+      "title": "Daily Life"
+    },
+    {
+      "theme_id": "shopping",
+      "title": "Shopping"
+    }
+  ]
+}

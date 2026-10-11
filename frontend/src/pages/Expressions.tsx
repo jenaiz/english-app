@@ -7,8 +7,10 @@ import HackCard from '../components/expressions/HackCard'
 import IdiomCard from '../components/expressions/IdiomCard'
 import ParticleExplorer from '../components/expressions/ParticleExplorer'
 import PhrasalExplorer from '../components/expressions/PhrasalExplorer'
+import TodayPanel from '../components/expressions/TodayPanel'
 import { useAuth } from '../context/AuthContext'
 import { loadExpressions } from '../lib/expressionsCatalog'
+import { localDate, pickToday } from '../lib/todayPicks'
 import { useLearnerLevel } from '../lib/useLearnerLevel'
 import type { ExpressionKind, ExpressionsCatalog } from '../types'
 
@@ -45,11 +47,13 @@ function store(key: string, value: string) {
 function useSavedExpressions(enabled: boolean) {
   const [saved, setSaved] = useState<Map<string, number>>(new Map())
   const [queued, setQueued] = useState<Set<string>>(new Set())
+  const [addedAt, setAddedAt] = useState<Map<string, number>>(new Map())
 
   useEffect(() => {
     if (!enabled) {
       setSaved(new Map())
       setQueued(new Set())
+      setAddedAt(new Map())
       return
     }
     api
@@ -58,6 +62,7 @@ function useSavedExpressions(enabled: boolean) {
         const all = [...r.idiom.map((e) => ({ ...e, key: `idiom:${e.id}` })), ...r.phrasal.map((e) => ({ ...e, key: `phrasal:${e.id}` }))]
         setSaved(new Map(all.map((e) => [e.key, e.repetitions])))
         setQueued(new Set(all.filter((e) => e.queued).map((e) => e.key)))
+        setAddedAt(new Map(all.map((e) => [e.key, new Date(e.added_at).getTime()])))
       })
       .catch(() => {})
   }, [enabled])
@@ -70,6 +75,7 @@ function useSavedExpressions(enabled: boolean) {
     const key = `${kind}:${id}`
     setSaved((s) => new Map(s).set(key, 0))
     if (r.queued) setQueued((q) => new Set(q).add(key))
+    setAddedAt((a) => (a.has(key) ? a : new Map(a).set(key, Date.now())))
     window.dispatchEvent(new Event('srs-changed'))
   }, [])
 
@@ -78,7 +84,16 @@ function useSavedExpressions(enabled: boolean) {
     [isSaved, isQueued],
   )
 
-  return { statusOf, repetitionsOf, add }
+  /** Added on an earlier day: those leave today's selection, the ones added today stay in it. */
+  const addedBeforeToday = useCallback(
+    (kind: ExpressionKind, id: string) => {
+      const t = addedAt.get(`${kind}:${id}`)
+      return t !== undefined && t < new Date().setHours(0, 0, 0, 0)
+    },
+    [addedAt],
+  )
+
+  return { statusOf, repetitionsOf, add, addedBeforeToday }
 }
 
 export default function Expressions() {
@@ -87,7 +102,7 @@ export default function Expressions() {
   const tab: TabId = TABS.some((t) => t.id === params.get('tab')) ? (params.get('tab') as TabId) : 'idioms'
   const [catalog, setCatalog] = useState<ExpressionsCatalog | null>(null)
   const [error, setError] = useState('')
-  const { statusOf, repetitionsOf, add } = useSavedExpressions(!!user)
+  const { statusOf, repetitionsOf, add, addedBeforeToday } = useSavedExpressions(!!user)
   const learnerLevel = useLearnerLevel(!!user)
   // null until the viewer picks a level; until then the default follows what they are studying.
   const [pickedLevel, setPickedLevel] = useState<string | null>(() => readStored(LEVEL_KEY))
@@ -153,6 +168,11 @@ export default function Expressions() {
     if (tab === 'idioms') return catalog.idioms.filter((i) => inLevel(i.level) && !i.core).length
     return catalog.phrasal_verbs.reduce((n, f) => n + f.items.filter((v) => inLevel(v.level) && !v.core).length, 0)
   }, [catalog, scope, tab, inLevel])
+  // Same three all day: the seed changes with the date and the viewer.
+  const picks = useMemo(
+    () => (catalog ? pickToday(catalog, level, `${localDate()}|${user?.id ?? 'guest'}`, addedBeforeToday) : []),
+    [catalog, level, user?.id, addedBeforeToday],
+  )
   const current = TABS.find((t) => t.id === tab)!
   const axis = params.get('vista') === 'particula' ? 'particula' : 'verbo'
 
@@ -161,8 +181,12 @@ export default function Expressions() {
       <h1 className="font-display text-4xl font-bold tracking-tight text-indigo-950 md:text-5xl">Expresiones</h1>
       <p className="mt-3 max-w-2xl text-lg text-slate-600">El inglés que no viene en los libros: lo que dicen los nativos a diario y casi nadie te explica.</p>
 
+      {catalog && <TodayPanel picks={picks} level={level} statusOf={statusOf} onAdd={add} onShowAll={() => chooseLevel('all')} />}
+
+      <h2 className="mt-12 font-display text-2xl font-bold text-indigo-950">Explorar todas</h2>
+
       {/* Primary navigation: what kind of expression. Filters below only refine the content. */}
-      <div className="mt-8 flex gap-6 overflow-x-auto border-b border-slate-200" role="tablist" aria-label="Tipo de expresión">
+      <div className="mt-4 flex gap-6 overflow-x-auto border-b border-slate-200" role="tablist" aria-label="Tipo de expresión">
         {TABS.map((t) => (
           <button
             key={t.id}

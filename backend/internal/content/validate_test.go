@@ -60,6 +60,23 @@ func TestValidateLesson(t *testing.T) {
 	}
 }
 
+func TestValidateTest(t *testing.T) {
+	ok := &Lesson{LessonID: "t", Kind: KindTest, Steps: []Step{
+		step("review", "multiple_choice", `{"items":[{"question":"q","options":["a","b"],"answer":1}]}`),
+		step("practice", "fill_blanks", `{"items":[{"sentence":"I ___ here","answers":[["am"]]}]}`),
+	}}
+	if err := validateLesson(ok); err != nil {
+		t.Fatalf("valid test rejected: %v", err)
+	}
+	ungraded := &Lesson{LessonID: "t", Kind: KindTest, Steps: []Step{step("context", "audio_context", `{"passage":"Hi"}`)}}
+	if err := validateLesson(ungraded); err == nil || !strings.Contains(err.Error(), "graded") {
+		t.Fatalf("got %v, want graded-step error", err)
+	}
+	if err := validateLesson(&Lesson{LessonID: "x", Kind: "quiz"}); err == nil {
+		t.Fatal("expected unknown kind error")
+	}
+}
+
 func TestVocabulary(t *testing.T) {
 	c, err := Load("../../data/levels")
 	if err != nil {

@@ -381,6 +381,9 @@ function UnitCard({
                 {done && <Check className="h-3 w-3" strokeWidth={3} />}
               </span>
               <span className={`flex-1 truncate ${done ? 'text-slate-700' : 'text-slate-500'}`}>{l.title}</span>
+              {l.kind === 'test' && (
+                <span className="rounded-full bg-amber-50 px-2 py-0.5 text-[11px] font-semibold text-amber-700">Test</span>
+              )}
               {done && <span className="text-xs font-semibold text-slate-400 tabular-nums">{p.score}%</span>}
             </li>
           )
