@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import { Check } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { ArrowRight, Check } from 'lucide-react'
+import { pagePath } from '../../lib/expressionPages'
 import type { ExpressionKind, PhrasalFamily } from '../../types'
 import SpeakButton from '../SpeakButton'
 import AddToReview, { type ReviewStatus } from './AddToReview'
@@ -112,8 +114,11 @@ export default function PhrasalExplorer({ families, initialRoot, initialParticle
               </>
             )}
           </p>
-          <div>
+          <div className="flex flex-wrap items-center justify-between gap-2">
             <AddToReview kind="phrasal" id={item.id} status={statusOf('phrasal', item.id)} onAdd={onAdd} />
+            <Link to={pagePath('phrasal', item.id)} className="inline-flex items-center gap-1 text-sm font-medium text-indigo-600 hover:text-indigo-800">
+              Ver la ficha de {family.root} {item.particle} <ArrowRight className="h-3.5 w-3.5" />
+            </Link>
           </div>
         </div>
       </div>

@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
+import { pagePath } from '../../lib/expressionPages'
 import type { ExpressionKind, Idiom } from '../../types'
 import SpeakButton from '../SpeakButton'
 import AddToReview, { type ReviewStatus } from './AddToReview'
@@ -91,18 +93,28 @@ export default function IdiomCard({ idiom, status, onAdd }: Props) {
           )}
           <div className="mt-auto flex flex-wrap items-center justify-between gap-2 pt-1">
             <AddToReview kind="idiom" id={idiom.id} status={status} onAdd={onAdd} />
-            {hasDetails && (
-              <button
-                type="button"
-                onClick={(e) => {
-                  e.stopPropagation()
-                  setShowDetails((d) => !d)
-                }}
+            <div className="flex items-center gap-3">
+              {hasDetails && (
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    setShowDetails((d) => !d)
+                  }}
+                  className="text-sm font-medium text-indigo-600 hover:text-indigo-800"
+                >
+                  {showDetails ? 'Menos detalles' : 'Más detalles'}
+                </button>
+              )}
+              <Link
+                to={pagePath('idiom', idiom.id)}
+                onClick={(e) => e.stopPropagation()}
+                tabIndex={flipped ? 0 : -1}
                 className="text-sm font-medium text-indigo-600 hover:text-indigo-800"
               >
-                {showDetails ? 'Menos detalles' : 'Más detalles'}
-              </button>
-            )}
+                Ver ficha
+              </Link>
+            </div>
           </div>
         </div>
       </div>

@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
+import { ArrowRight } from 'lucide-react'
+import { pagePath } from '../../lib/expressionPages'
 import type { ExpressionSummary } from '../../lib/todayPicks'
 import type { ExpressionKind } from '../../types'
 import SpeakButton from '../SpeakButton'
@@ -28,6 +31,11 @@ export default function ExpressionTile({ item: pick, status, onAdd }: Props) {
           <p className="font-medium text-slate-900">{pick.definition}</p>
           <p className="text-slate-600">En español: {pick.translation}</p>
           {pick.example && <p className="text-slate-500 italic">“{pick.example}”</p>}
+          {(pick.kind === 'idiom' || pick.kind === 'phrasal') && (
+            <Link to={pagePath(pick.kind, pick.id)} className="inline-flex items-center gap-1 text-sm font-medium text-indigo-600 hover:text-indigo-800">
+              Ver la ficha completa <ArrowRight className="h-3.5 w-3.5" />
+            </Link>
+          )}
         </div>
       ) : (
         <button type="button" onClick={() => setOpen(true)} className="mt-3 self-start text-sm font-semibold text-indigo-600 hover:text-indigo-800">

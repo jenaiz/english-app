@@ -1,5 +1,7 @@
 import { useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { ArrowRight, Check } from 'lucide-react'
+import { pagePath } from '../../lib/expressionPages'
 import type { ExpressionKind, Particle, PhrasalFamily, PhrasalVerb } from '../../types'
 import SpeakButton from '../SpeakButton'
 import AddToReview, { type ReviewStatus } from './AddToReview'
@@ -98,7 +100,9 @@ export default function ParticleExplorer({ families, particles, initialParticle,
               <div className="flex items-start justify-between gap-3">
                 <div className="min-w-0">
                   <p className="flex items-center gap-1.5 font-display text-2xl font-bold text-slate-900">
-                    {root} {verb.particle}
+                    <Link to={pagePath('phrasal', verb.id)} className="hover:text-indigo-700 hover:underline">
+                      {root} {verb.particle}
+                    </Link>
                     {p === 'mastered' && <Check className="h-5 w-5 text-emerald-600" aria-label="Dominado" />}
                   </p>
                   <p className="text-slate-600">{verb.translation}</p>
