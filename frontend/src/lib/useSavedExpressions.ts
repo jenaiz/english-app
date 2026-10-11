@@ -12,12 +12,14 @@ export function useSavedExpressions(enabled: boolean) {
   const [saved, setSaved] = useState<Map<string, number>>(new Map())
   const [queued, setQueued] = useState<Set<string>>(new Set())
   const [addedAt, setAddedAt] = useState<Map<string, number>>(new Map())
+  const [dueAt, setDueAt] = useState<Map<string, number>>(new Map())
 
   useEffect(() => {
     if (!enabled) {
       setSaved(new Map())
       setQueued(new Set())
       setAddedAt(new Map())
+      setDueAt(new Map())
       return
     }
     api
@@ -27,6 +29,7 @@ export function useSavedExpressions(enabled: boolean) {
         setSaved(new Map(all.map((e) => [e.key, e.repetitions])))
         setQueued(new Set(all.filter((e) => e.queued).map((e) => e.key)))
         setAddedAt(new Map(all.map((e) => [e.key, new Date(e.added_at).getTime()])))
+        setDueAt(new Map(all.map((e) => [e.key, new Date(e.due_at).getTime()])))
       })
       .catch(() => {})
   }, [enabled])
@@ -41,6 +44,7 @@ export function useSavedExpressions(enabled: boolean) {
     setSaved((s) => new Map(s).set(key, 0))
     if (r.queued) setQueued((q) => new Set(q).add(key))
     setAddedAt((a) => (a.has(key) ? a : new Map(a).set(key, Date.now())))
+    setDueAt((d) => (d.has(key) ? d : new Map(d).set(key, Date.now())))
     window.dispatchEvent(new Event('srs-changed'))
     if (r.added) trackEvent('add_to_review', { expression_kind: kind, expression_id: id, source, queued: r.queued })
   }, [])
@@ -59,5 +63,8 @@ export function useSavedExpressions(enabled: boolean) {
     [addedAt],
   )
 
-  return { statusOf, repetitionsOf, add, addedBeforeToday }
+  /** When the card is next due (ms), or undefined if it isn't in Repaso. */
+  const dueAtOf = useCallback((kind: ExpressionKind, id: string) => dueAt.get(`${kind}:${id}`), [dueAt])
+
+  return { statusOf, repetitionsOf, add, addedBeforeToday, dueAtOf }
 }

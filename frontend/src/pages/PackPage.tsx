@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { AlertCircle, ArrowLeft, CheckCircle2, Loader2, Plus } from 'lucide-react'
+import { AlertCircle, ArrowLeft, Brain, CheckCircle2, Clock, Loader2, Plus } from 'lucide-react'
 import ExpressionTile from '../components/expressions/ExpressionTile'
 import { useAuth } from '../context/AuthContext'
 import { trackEvent } from '../lib/analytics'
 import { loadExpressions } from '../lib/expressionsCatalog'
-import { packProgress } from '../lib/packs'
+import { packProgress, packReview } from '../lib/packs'
 import { summaryOf, type ExpressionSummary } from '../lib/todayPicks'
 import { useSavedExpressions } from '../lib/useSavedExpressions'
 import type { ExpressionsCatalog } from '../types'
@@ -17,7 +17,7 @@ export default function PackPage() {
   const [catalog, setCatalog] = useState<ExpressionsCatalog | null>(null)
   const [error, setError] = useState('')
   const [busy, setBusy] = useState(false)
-  const { statusOf, repetitionsOf, add } = useSavedExpressions(!!user)
+  const { statusOf, repetitionsOf, add, dueAtOf } = useSavedExpressions(!!user)
 
   useEffect(() => {
     loadExpressions()
@@ -77,6 +77,7 @@ export default function PackPage() {
 
   if (!progress) return null
   const pending = items.filter((i) => statusOf(i.kind, i.id) === 'none')
+  const review = packReview(pack, statusOf, dueAtOf)
 
   const addAll = async () => {
     setBusy(true)
@@ -144,6 +145,27 @@ export default function PackPage() {
             </div>
           </>
         )}
+        {user && (review.due > 0 || review.nextDue !== undefined) && (
+          <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-slate-200 pt-4">
+            {review.due > 0 ? (
+              <>
+                <p className="text-sm text-slate-600">
+                  Tienes {review.due === 1 ? '1 expresión' : `${review.due} expresiones`} de este pack para repasar hoy.
+                </p>
+                <Link
+                  to={`/review?pack=${encodeURIComponent(pack.id)}`}
+                  className="inline-flex items-center gap-1.5 rounded-xl bg-indigo-950 px-4 py-2 text-sm font-semibold text-white transition hover:bg-indigo-800"
+                >
+                  <Brain className="h-4 w-4" /> Repasar este pack
+                </Link>
+              </>
+            ) : (
+              <p className="flex items-center gap-2 text-sm text-slate-600">
+                <Clock className="h-4 w-4 text-slate-400" /> Al día. Próximo repaso de este pack: {formatNext(review.nextDue!)}.
+              </p>
+            )}
+          </div>
+        )}
       </div>
 
       <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -159,4 +181,14 @@ export default function PackPage() {
       )}
     </div>
   )
+}
+
+/** "hoy a las 18:30", "mañana" or "el jueves 15 de octubre". */
+function formatNext(at: number): string {
+  const d = new Date(at)
+  const today = new Date()
+  const days = Math.round((new Date(d).setHours(0, 0, 0, 0) - new Date(today).setHours(0, 0, 0, 0)) / 86_400_000)
+  if (days <= 0) return `hoy a las ${d.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' })}`
+  if (days === 1) return 'mañana'
+  return `el ${new Intl.DateTimeFormat('es-ES', { weekday: 'long', day: 'numeric', month: 'long' }).format(d)}`
 }

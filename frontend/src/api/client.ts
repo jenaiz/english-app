@@ -65,7 +65,9 @@ export const api = {
       ...(score !== undefined ? { score } : {}),
     }),
   srsSummary: () => request<SrsSummary>('/srs/summary'),
-  srsDue: (limit = 20, kind?: CardKind) => request<ReviewCard[]>(`/srs/due?limit=${limit}${kind ? `&kind=${kind}` : ''}`),
+  /** pack keeps only the due cards of that pack. */
+  srsDue: (limit = 20, kind?: CardKind, pack?: string) =>
+    request<ReviewCard[]>(`/srs/due?limit=${limit}${kind ? `&kind=${kind}` : ''}${pack ? `&pack=${encodeURIComponent(pack)}` : ''}`),
   srsReview: (cardId: string, grade: Grade) =>
     post<{ due_at: string; interval_days: number }>('/srs/review', { card_id: cardId, grade }),
   expressions: () => request<ExpressionsCatalog>('/expressions'),

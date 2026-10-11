@@ -199,6 +199,8 @@ export interface SavedExpression {
   repetitions: number
   queued: boolean
   added_at: string
+  /** When the card is next due; a new card that isn't queued is due today. */
+  due_at: string
 }
 
 // ---- Expresiones ----

@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState, type FormEvent } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { useNavigate, useSearchParams } from 'react-router-dom'
 import { AlertCircle, ArrowLeft, Brain, CheckCircle2, Ear, HelpCircle, Keyboard, Loader2, Mic, MicOff, Volume2, XCircle } from 'lucide-react'
 import { api } from '../api/client'
 import { trackEvent } from '../lib/analytics'
+import { loadExpressions } from '../lib/expressionsCatalog'
 import ChoiceExercise from '../components/review/ChoiceExercise'
 import ReviewHub, { DECKS, type Deck } from '../components/review/ReviewHub'
 import { bestSimilarity, isCorrect, matchesMeaning } from '../lib/answers'
@@ -63,12 +64,30 @@ function loadModePref(): ModePref {
 
 export default function Review() {
   const [params, setParams] = useSearchParams()
+  const navigate = useNavigate()
+  // ?pack=<id>: the due cards of one pack, from its page ("Repasar este pack").
+  const packId = params.get('pack')
+  if (packId) {
+    return <ReviewSession key={`pack:${packId}`} deck="all" packId={packId} onExit={() => navigate(`/expresiones/packs/${packId}`)} />
+  }
   const deck = DECKS.find((d) => d.id === params.get('mazo'))
   if (!deck) return <ReviewHub onStart={(d) => setParams({ mazo: d })} />
   return <ReviewSession key={deck.id} deck={deck.id} onExit={() => setParams({})} />
 }
 
-function ReviewSession({ deck, onExit }: { deck: Deck; onExit: () => void }) {
+function ReviewSession({ deck, packId, onExit }: { deck: Deck; packId?: string; onExit: () => void }) {
+  const [packTitle, setPackTitle] = useState('')
+  useEffect(() => {
+    if (!packId) return
+    loadExpressions()
+      .then((c) => setPackTitle(c.packs.find((p) => p.id === packId)?.title ?? ''))
+      .catch(() => {})
+  }, [packId])
+  const title = packId ? `Pack${packTitle ? `: ${packTitle}` : ''}` : DECKS.find((d) => d.id === deck)?.label
+  const exitLabel = packId ? 'Volver al pack' : 'Volver a Repaso'
+  // Pack sessions are reported as their own deck, with the pack.
+  const sessionInfo: Record<string, string> = packId ? { deck: 'pack', pack_id: packId } : { deck }
+
   const [cards, setCards] = useState<ReviewCard[]>([])
   const [pos, setPos] = useState(0)
   const [loading, setLoading] = useState(true)
@@ -89,11 +108,11 @@ function ReviewSession({ deck, onExit }: { deck: Deck; onExit: () => void }) {
     setLoading(true)
     endReported.current = false
     api
-      .srsDue(20, deck === 'all' ? undefined : deck)
+      .srsDue(20, deck === 'all' ? undefined : deck, packId)
       .then((c) => {
         setCards(c)
         setPos(0)
-        if (c.length > 0) trackEvent('review_session_start', { deck, cards: c.length })
+        if (c.length > 0) trackEvent('review_session_start', { ...sessionInfo, cards: c.length })
       })
       .catch((e: Error) => setError(e.message))
       .finally(() => setLoading(false))
@@ -108,8 +127,8 @@ function ReviewSession({ deck, onExit }: { deck: Deck; onExit: () => void }) {
   useEffect(() => {
     if (loading || card || reviewed.total === 0 || endReported.current) return
     endReported.current = true
-    trackEvent('review_session_end', { deck, reviewed: reviewed.total, correct: reviewed.correct })
-  }, [loading, card, reviewed, deck])
+    trackEvent('review_session_end', { ...sessionInfo, reviewed: reviewed.total, correct: reviewed.correct })
+  }, [loading, card, reviewed, deck, packId])
   const direction = card ? directionFor(card, modePref) : 'listen'
   const useMic = direction === 'produce' && rec.supported && !typing
   const response = choice ? (picked ?? '') : useMic ? rec.transcript : answer
@@ -234,7 +253,7 @@ function ReviewSession({ deck, onExit }: { deck: Deck; onExit: () => void }) {
         <p className="mt-2 text-slate-500">
           {reviewed.total > 0
             ? `Has repasado ${reviewed.total} tarjeta${reviewed.total === 1 ? '' : 's'} (${reviewed.correct} acertadas a la primera). Vuelve más tarde para las siguientes.`
-            : 'No tienes tarjetas pendientes en este mazo.'}
+            : `No tienes tarjetas pendientes en este ${packId ? 'pack' : 'mazo'}.`}
         </p>
         <div className="mt-6 flex justify-center gap-3">
           {reviewed.total > 0 && (
@@ -243,7 +262,7 @@ function ReviewSession({ deck, onExit }: { deck: Deck; onExit: () => void }) {
             </button>
           )}
           <button onClick={onExit} className="rounded-lg bg-indigo-600 px-5 py-2.5 font-semibold text-white hover:bg-indigo-700">
-            Volver a Repaso
+            {exitLabel}
           </button>
         </div>
       </div>
@@ -256,15 +275,15 @@ function ReviewSession({ deck, onExit }: { deck: Deck; onExit: () => void }) {
     <div className="mx-auto max-w-xl px-4 py-10">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center gap-2">
-          <button onClick={onExit} className="rounded-lg p-1.5 text-slate-500 hover:bg-slate-100 hover:text-slate-800" aria-label="Volver a Repaso">
+          <button onClick={onExit} className="rounded-lg p-1.5 text-slate-500 hover:bg-slate-100 hover:text-slate-800" aria-label={exitLabel}>
             <ArrowLeft className="h-5 w-5" />
           </button>
           <h1 className="flex items-center gap-2 text-2xl font-bold text-slate-900">
-            <Brain className="h-6 w-6 text-indigo-600" /> {DECKS.find((d) => d.id === deck)?.label}
+            <Brain className="h-6 w-6 text-indigo-600" /> {title}
           </h1>
         </div>
         <span className="rounded-full bg-slate-100 px-3 py-1 text-sm font-medium text-slate-600 tabular-nums">
-          {cards.length - pos} pendientes
+          {cards.length - pos} {cards.length - pos === 1 ? 'pendiente' : 'pendientes'}
         </span>
       </div>
 
