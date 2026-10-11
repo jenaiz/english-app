@@ -62,12 +62,12 @@ export default function Expressions() {
   const chooseLevel = (l: string) => {
     setPickedLevel(l)
     store(LEVEL_KEY, l)
-    trackEvent('expressions_filter', { filter: 'level', value: l, learner_level: learnerLevel ?? 'none' })
+    trackEvent('expressions_filter', { filter: 'level', filter_value: l, learner_level: learnerLevel ?? 'none' })
   }
   const chooseScope = (s: Scope) => {
     setScope(s)
     store(SCOPE_KEY, s)
-    trackEvent('expressions_filter', { filter: 'scope', value: s })
+    trackEvent('expressions_filter', { filter: 'scope', filter_value: s })
   }
 
   useEffect(() => {

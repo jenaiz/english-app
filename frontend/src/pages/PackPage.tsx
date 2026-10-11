@@ -80,7 +80,7 @@ export default function PackPage() {
 
   const addAll = async () => {
     setBusy(true)
-    trackEvent('pack_added', { pack_id: pack.id, items: pending.length })
+    trackEvent('pack_added', { pack_id: pack.id, item_count: pending.length })
     try {
       for (const i of pending) await add(i.kind, i.id, 'pack')
     } finally {
