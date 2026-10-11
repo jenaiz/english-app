@@ -1,0 +1,669 @@
+{
+  "level_id": "C1",
+  "themes": [
+    {
+      "theme_id": "new_york",
+      "units": [
+        {
+          "unit_id": "jet_lag",
+          "title": "Jet Lag",
+          "description": "Planes que cambiaron: el futuro visto desde el pasado (was going to, was about to, would, was to).",
+          "lessons": [
+            {
+              "lesson_id": "jet_lag_lesson",
+              "title": "The future in the past",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Jet lag",
+                    "dialogue": [
+                      {
+                        "speaker": "Javi",
+                        "text": "So? You were going to call me on Tuesday!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I know, sorry. I was about to call you when Mark's assistant rang about the contract."
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "And? Was it good news?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "It was. We were supposed to have a short meeting, but it lasted four hours."
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "Four hours! Did you know it would go so well?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Not at all. I was sure Mark would say no."
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "And now? What happens next?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "The Madrid office was going to open next year, but now it'll open in October."
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "Madrid! So you'll be living in Spain again?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Half the time. When I left Valencia, I had no idea I was to come back as a business owner."
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "Mum is going to cry. You were only going to stay in England for one year, remember?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I remember. Three years later, here I am."
+                      }
+                    ],
+                    "passage": "Back in Bristol, still jet-lagged, Lucía calls Javi in Dublin to tell him everything."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"You were going to call me on Tuesday!\" This is…",
+                        "options": [
+                          "a past plan that didn't happen",
+                          "a future plan"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I was about to call you when…\" = …",
+                        "options": [
+                          "estaba a punto de llamarte",
+                          "iba a ir a verte"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Did you know it would go so well?\" Would here is…",
+                        "options": [
+                          "the future seen from the past",
+                          "a polite request"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I had no idea I was to come back as a business owner.\" Was to expresses…",
+                        "options": [
+                          "lo que el destino tenía preparado",
+                          "una obligación"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "The future in the past",
+                    "explanation": "Para hablar del futuro desde un punto del pasado:\n• was / were going to: plan del pasado, a menudo no cumplido. You were going to call me on Tuesday!\n• was about to: a punto de. I was about to call you when…\n• would: futuro visto desde el pasado. I was sure Mark would say no.\n• was / were supposed to: lo previsto, que no se cumplió. We were supposed to have a short meeting.\n• was to (narrativo y formal): lo que iba a ocurrir después, como si fuera el destino. I had no idea I was to come back as a business owner.\n• was due to: estaba programado.",
+                    "table": {
+                      "headers": [
+                        "Forma",
+                        "Uso",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "was / were going to",
+                          "plan que no se cumplió",
+                          "You were going to call me on Tuesday!"
+                        ],
+                        [
+                          "was about to",
+                          "a punto de",
+                          "I was about to call you when…"
+                        ],
+                        [
+                          "would",
+                          "futuro visto desde el pasado",
+                          "I was sure Mark would say no."
+                        ],
+                        [
+                          "was / were supposed to",
+                          "lo previsto (y no fue así)",
+                          "We were supposed to have a short meeting."
+                        ],
+                        [
+                          "was to (narrativo)",
+                          "lo que el destino tenía preparado",
+                          "I had no idea I was to come back as a business owner."
+                        ],
+                        [
+                          "was due to",
+                          "estaba programado",
+                          "The office was due to open next year."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "You were going to call me on Tuesday!",
+                      "I was about to call you when Mark's assistant rang.",
+                      "We were supposed to have a short meeting, but it lasted four hours.",
+                      "You were only going to stay in England for one year."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la forma de futuro en pasado.",
+                    "items": [
+                      {
+                        "sentence": "You were going ___ call me on Tuesday!",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I was ___ to call you when Mark's assistant rang.",
+                        "answers": [
+                          [
+                            "about"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We were ___ to have a short meeting.",
+                        "answers": [
+                          [
+                            "supposed"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Did you know it ___ go so well?",
+                        "answers": [
+                          [
+                            "would"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I was sure Mark ___ say no.",
+                        "answers": [
+                          [
+                            "would"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The Madrid office ___ going to open next year.",
+                        "answers": [
+                          [
+                            "was"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I had no idea I ___ to come back as a business owner.",
+                        "answers": [
+                          [
+                            "was"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You ___ only going to stay for one year.",
+                        "answers": [
+                          [
+                            "were"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Reescribe con la estructura indicada.",
+                    "items": [
+                      {
+                        "source": "I planned to call you, but I didn't. (I was going…)",
+                        "answers": [
+                          "I was going to call you"
+                        ]
+                      },
+                      {
+                        "source": "I was just going to leave when he arrived. (about to)",
+                        "answers": [
+                          "I was about to leave when he arrived"
+                        ]
+                      },
+                      {
+                        "source": "The meeting should have been short. (supposed to)",
+                        "answers": [
+                          "The meeting was supposed to be short"
+                        ]
+                      },
+                      {
+                        "source": "I thought: 'He will say no.' (I thought he…)",
+                        "answers": [
+                          "I thought he would say no",
+                          "I thought he'd say no"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Ibas a llamarme el martes.",
+                        "answers": [
+                          "You were going to call me on Tuesday"
+                        ]
+                      },
+                      {
+                        "source": "Estaba a punto de llamarte.",
+                        "answers": [
+                          "I was about to call you"
+                        ]
+                      },
+                      {
+                        "source": "Se suponía que era una reunión corta.",
+                        "answers": [
+                          "It was supposed to be a short meeting",
+                          "We were supposed to have a short meeting",
+                          "The meeting was supposed to be short"
+                        ]
+                      },
+                      {
+                        "source": "Estaba segura de que diría que no.",
+                        "answers": [
+                          "I was sure he would say no",
+                          "I was sure that he would say no",
+                          "I was sure he'd say no"
+                        ]
+                      },
+                      {
+                        "source": "Solo ibas a quedarte un año.",
+                        "answers": [
+                          "You were only going to stay for one year",
+                          "You were only going to stay one year",
+                          "You were only going to stay for a year"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "I was about to call you when the phone rang."
+                      },
+                      {
+                        "text": "We were supposed to have a short meeting."
+                      },
+                      {
+                        "text": "You were only going to stay for one year."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "jet-lagged",
+                        "definition": "Tired after flying across time zones",
+                        "translation": "con jet lag",
+                        "example": "still jet-lagged"
+                      },
+                      {
+                        "term": "assistant",
+                        "definition": "A person who helps someone in their work",
+                        "translation": "asistente",
+                        "example": "Mark's assistant rang."
+                      },
+                      {
+                        "term": "ring",
+                        "definition": "Phone (rang, rung)",
+                        "translation": "llamar (por teléfono)",
+                        "example": "The assistant rang about the contract."
+                      },
+                      {
+                        "term": "last",
+                        "definition": "Continue for a time",
+                        "translation": "durar",
+                        "example": "It lasted four hours."
+                      },
+                      {
+                        "term": "go well",
+                        "definition": "Be successful",
+                        "translation": "salir bien",
+                        "example": "Did you know it would go so well?"
+                      },
+                      {
+                        "term": "business owner",
+                        "definition": "A person who owns a company",
+                        "translation": "empresaria/o",
+                        "example": "as a business owner"
+                      },
+                      {
+                        "term": "half the time",
+                        "definition": "50% of the time",
+                        "translation": "la mitad del tiempo",
+                        "example": "Half the time."
+                      },
+                      {
+                        "term": "I had no idea",
+                        "definition": "I didn't know at all",
+                        "translation": "no tenía ni idea",
+                        "example": "I had no idea I was to come back."
+                      },
+                      {
+                        "term": "be about to",
+                        "definition": "Be going to do something very soon",
+                        "translation": "estar a punto de",
+                        "example": "I was about to call you."
+                      },
+                      {
+                        "term": "be supposed to",
+                        "definition": "Be expected or planned to",
+                        "translation": "se suponía que",
+                        "example": "We were supposed to have a short meeting."
+                      },
+                      {
+                        "term": "be going to (past)",
+                        "definition": "A plan in the past",
+                        "translation": "iba a…",
+                        "example": "You were going to call me!"
+                      },
+                      {
+                        "term": "Here I am",
+                        "definition": "This is where I am now",
+                        "translation": "aquí estoy",
+                        "example": "Three years later, here I am."
+                      },
+                      {
+                        "term": "not at all",
+                        "definition": "Absolutely not",
+                        "translation": "en absoluto",
+                        "example": "Not at all."
+                      },
+                      {
+                        "term": "what happens next",
+                        "definition": "The next step",
+                        "translation": "qué pasa ahora",
+                        "example": "What happens next?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "I ___ going to phone you, but I forgot.",
+                        "options": [
+                          "was",
+                          "am"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "We were ___ to leave when it started to snow.",
+                        "options": [
+                          "about",
+                          "going"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She knew she ___ be late.",
+                        "options": [
+                          "would",
+                          "will"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The train was ___ to arrive at six, but it was late.",
+                        "options": [
+                          "supposed",
+                          "about"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Little did they know they ___ to meet again.",
+                        "options": [
+                          "were",
+                          "would"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "How long did the meeting last?",
+                        "options": [
+                          "four hours",
+                          "one hour",
+                          "all day"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "c1_checkpoint_3",
+              "title": "Checkpoint 3: New York",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "decide → ___",
+                        "options": [
+                          "decision",
+                          "decidement"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "There was a significant increase ___ bookings.",
+                        "options": [
+                          "in",
+                          "of"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Improved usability led ___ more sales.",
+                        "options": [
+                          "to",
+                          "in"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I ___ know that market well.",
+                        "options": [
+                          "do",
+                          "am"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "It was ___ an interesting day.",
+                        "options": [
+                          "such",
+                          "so"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "So impressive ___ the results that they signed.",
+                        "options": [
+                          "were",
+                          "did"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I was ___ to call you when you rang.",
+                        "options": [
+                          "about",
+                          "going"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I was sure she ___ say yes.",
+                        "options": [
+                          "would",
+                          "will"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "Our ___ is to expand. (intend)",
+                        "answers": [
+                          [
+                            "intention"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The studio experienced rapid ___. (grow)",
+                        "answers": [
+                          [
+                            "growth"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We ___ prepare carefully. (did enfático)",
+                        "answers": [
+                          [
+                            "did"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I've heard ___ good things about her.",
+                        "answers": [
+                          [
+                            "such"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We were ___ to have a short meeting.",
+                        "answers": [
+                          [
+                            "supposed"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You were going ___ call me!",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Hubo un aumento significativo de las reservas.",
+                        "answers": [
+                          "There was a significant increase in bookings"
+                        ]
+                      },
+                      {
+                        "source": "Sí que conozco bien ese mercado.",
+                        "answers": [
+                          "I do know that market well",
+                          "I do know that market very well"
+                        ]
+                      },
+                      {
+                        "source": "Estaba a punto de llamarte.",
+                        "answers": [
+                          "I was about to call you"
+                        ]
+                      },
+                      {
+                        "source": "Estaba segura de que diría que no.",
+                        "answers": [
+                          "I was sure he would say no",
+                          "I was sure that he would say no",
+                          "I was sure he'd say no"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+{
+  "level_id": "C1",
+  "themes": [
+    {
+      "theme_id": "building",
+      "units": [
+        {
+          "unit_id": "first_hire",
+          "title": "The First Hire",
+          "description": "Matices de necesidad y preferencia: needn't have, didn't need to, would rather, had better.",
+          "lessons": [
+            {
+              "lesson_id": "first_hire_lesson",
+              "title": "needn't have, would rather, had better",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "The first hire",
+                    "dialogue": [
+                      {
+                        "speaker": "Daniel",
+                        "text": "We needn't have advertised, you know. Helen sent us three excellent CVs yesterday."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I know. And I didn't need to pay for that expensive job advert either. Lesson learned."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Who would you rather hire, the illustrator or the junior developer?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I'd rather we hired a designer first. We've got more design work than code."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Fair enough. But we'd better decide soon. Grace wants the full project by May."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Then we'd better not waste any time. Let's interview both tomorrow."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "You needn't come to the interviews if you're busy. I can do them."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I'd rather be there. It's our first hire; it has to feel right."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Should we have asked Priya? She knows half of Bristol."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "She'd have told us to hire someone who cooks, like Ollie."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "We'd better not tell her we've got a coffee machine, or she'll apply herself."
+                      }
+                    ],
+                    "passage": "March. The pilot was a success, and Green Door Design needs its first employee. Lucía and Daniel are reading applications in the office."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"We needn't have advertised.\" Did they advertise?",
+                        "options": [
+                          "Yes, but it wasn't necessary",
+                          "No"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I'd rather we hired a designer first.\" After would rather + another subject, the verb is in…",
+                        "options": [
+                          "the past simple",
+                          "the present"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"We'd better decide soon.\" 'd better = …",
+                        "options": [
+                          "had better (advertencia o consejo fuerte)",
+                          "would better"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Who sent them three CVs?",
+                        "options": [
+                          "Helen",
+                          "Grace",
+                          "Priya"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "needn't have, would rather, had better",
+                    "explanation": "• needn't have + participio: hicimos algo que no era necesario. We needn't have advertised.\n• didn't need to + verbo: no era necesario (y normalmente no lo hicimos). We didn't need to advertise, so we didn't.\n• needn't + verbo: no hace falta (presente). You needn't come to the interviews.\n• would rather + verbo: preferir. I'd rather be there.\n• would rather + otro sujeto + pasado: preferir que otro… I'd rather we hired a designer.\n• had better (not) + verbo: más vale que…, consejo con advertencia. We'd better decide soon.",
+                    "table": {
+                      "headers": [
+                        "Estructura",
+                        "Significado",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "needn't have + participio",
+                          "lo hicimos, pero no hacía falta",
+                          "We needn't have advertised."
+                        ],
+                        [
+                          "didn't need to + verbo",
+                          "no hacía falta (y normalmente no se hizo)",
+                          "We didn't need to advertise, so we didn't."
+                        ],
+                        [
+                          "needn't + verbo",
+                          "no hace falta (presente)",
+                          "You needn't come to the interviews."
+                        ],
+                        [
+                          "would rather + verbo",
+                          "preferir (yo)",
+                          "I'd rather be there."
+                        ],
+                        [
+                          "would rather + sujeto + pasado",
+                          "preferir que otro…",
+                          "I'd rather we hired a designer first."
+                        ],
+                        [
+                          "had better (not) + verbo",
+                          "más vale que…",
+                          "We'd better decide soon."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "We needn't have advertised. Helen sent us three excellent CVs.",
+                      "I'd rather we hired a designer first.",
+                      "We'd better not waste any time.",
+                      "I'd rather be there. It's our first hire."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la estructura correcta.",
+                    "items": [
+                      {
+                        "sentence": "We ___ have advertised. Helen sent us CVs.",
+                        "answers": [
+                          [
+                            "needn't",
+                            "need not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Who would you ___ hire?",
+                        "answers": [
+                          [
+                            "rather"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'd rather we ___ a designer first. (hire)",
+                        "answers": [
+                          [
+                            "hired"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We'd ___ decide soon.",
+                        "answers": [
+                          [
+                            "better"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We'd better ___ waste any time.",
+                        "answers": [
+                          [
+                            "not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You needn't ___ to the interviews. (come)",
+                        "answers": [
+                          [
+                            "come"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'd rather ___ there. (be)",
+                        "answers": [
+                          [
+                            "be"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We didn't ___ to buy a new printer, so we didn't.",
+                        "answers": [
+                          [
+                            "need"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Reescribe con la estructura indicada.",
+                    "items": [
+                      {
+                        "source": "It wasn't necessary to bring food, but we did. (needn't have)",
+                        "answers": [
+                          "We needn't have brought food",
+                          "We need not have brought food"
+                        ]
+                      },
+                      {
+                        "source": "I prefer to stay at home. (would rather)",
+                        "answers": [
+                          "I'd rather stay at home",
+                          "I would rather stay at home"
+                        ]
+                      },
+                      {
+                        "source": "I'd prefer you not to tell Priya. (would rather)",
+                        "answers": [
+                          "I'd rather you didn't tell Priya",
+                          "I would rather you didn't tell Priya"
+                        ]
+                      },
+                      {
+                        "source": "It's a good idea to leave now, or we'll miss the train. (had better)",
+                        "answers": [
+                          "We'd better leave now",
+                          "We had better leave now"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "No hacía falta que trajeras vino.",
+                        "answers": [
+                          "You needn't have brought wine",
+                          "You didn't need to bring wine"
+                        ]
+                      },
+                      {
+                        "source": "Prefiero estar allí.",
+                        "answers": [
+                          "I'd rather be there",
+                          "I would rather be there"
+                        ]
+                      },
+                      {
+                        "source": "Preferiría que no se lo dijeras.",
+                        "answers": [
+                          "I'd rather you didn't tell her",
+                          "I'd rather you didn't tell him",
+                          "I would rather you didn't tell her"
+                        ]
+                      },
+                      {
+                        "source": "Más vale que decidamos pronto.",
+                        "answers": [
+                          "We'd better decide soon",
+                          "We had better decide soon"
+                        ]
+                      },
+                      {
+                        "source": "Más vale que no perdamos tiempo.",
+                        "answers": [
+                          "We'd better not waste time",
+                          "We had better not waste time",
+                          "We'd better not waste any time"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "We needn't have advertised."
+                      },
+                      {
+                        "text": "I'd rather we hired a designer first."
+                      },
+                      {
+                        "text": "We'd better decide soon."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "hire",
+                        "definition": "Give someone a job",
+                        "translation": "contratar",
+                        "example": "Who would you rather hire?"
+                      },
+                      {
+                        "term": "employee",
+                        "definition": "A person who works for a company",
+                        "translation": "empleado/a",
+                        "example": "its first employee"
+                      },
+                      {
+                        "term": "application",
+                        "definition": "A formal request for a job",
+                        "translation": "solicitud, candidatura",
+                        "example": "reading applications"
+                      },
+                      {
+                        "term": "CV",
+                        "definition": "A document about your education and work",
+                        "translation": "currículum",
+                        "example": "three excellent CVs"
+                      },
+                      {
+                        "term": "advertise",
+                        "definition": "Tell people about a job or product publicly",
+                        "translation": "anunciar, publicar un anuncio",
+                        "example": "We needn't have advertised."
+                      },
+                      {
+                        "term": "illustrator",
+                        "definition": "A person who draws pictures",
+                        "translation": "ilustrador/a",
+                        "example": "the illustrator"
+                      },
+                      {
+                        "term": "fair enough",
+                        "definition": "That is reasonable",
+                        "translation": "me parece justo, vale",
+                        "example": "Fair enough."
+                      },
+                      {
+                        "term": "waste time",
+                        "definition": "Use time badly",
+                        "translation": "perder el tiempo",
+                        "example": "We'd better not waste any time."
+                      },
+                      {
+                        "term": "lesson learned",
+                        "definition": "I won't make that mistake again",
+                        "translation": "lección aprendida",
+                        "example": "Lesson learned."
+                      },
+                      {
+                        "term": "feel right",
+                        "definition": "Seem correct",
+                        "translation": "parecer lo correcto",
+                        "example": "It has to feel right."
+                      },
+                      {
+                        "term": "apply",
+                        "definition": "Ask formally for a job",
+                        "translation": "presentarse (a un puesto)",
+                        "example": "She'll apply herself."
+                      },
+                      {
+                        "term": "needn't have",
+                        "definition": "It was not necessary but it happened",
+                        "translation": "no hacía falta (pero se hizo)",
+                        "example": "We needn't have advertised."
+                      },
+                      {
+                        "term": "would rather",
+                        "definition": "Would prefer",
+                        "translation": "preferiría",
+                        "example": "I'd rather be there."
+                      },
+                      {
+                        "term": "had better",
+                        "definition": "Should (or there will be a problem)",
+                        "translation": "más vale que",
+                        "example": "We'd better decide soon."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "You ___ have cooked. We'd already eaten.",
+                        "options": [
+                          "needn't",
+                          "mustn't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'd rather ___ at home tonight.",
+                        "options": [
+                          "stay",
+                          "to stay",
+                          "staying"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'd rather you ___ smoke here.",
+                        "options": [
+                          "didn't",
+                          "don't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "We'd ___ hurry, or we'll be late.",
+                        "options": [
+                          "better",
+                          "rather"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "You'd better ___ tell anyone.",
+                        "options": [
+                          "not",
+                          "don't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "When does Grace want the full project?",
+                        "options": [
+                          "by May",
+                          "by March",
+                          "next year"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

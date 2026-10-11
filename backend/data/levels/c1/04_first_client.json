@@ -1,0 +1,504 @@
+{
+  "level_id": "C1",
+  "themes": [
+    {
+      "theme_id": "building",
+      "units": [
+        {
+          "unit_id": "first_client",
+          "title": "The First Client",
+          "description": "Negocia con cautela: hedging y lenguaje atenuado (It would appear that…, tend to, arguably).",
+          "lessons": [
+            {
+              "lesson_id": "first_client_lesson",
+              "title": "Hedging and softening",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "The first client",
+                    "dialogue": [
+                      {
+                        "speaker": "Grace",
+                        "text": "I'll be honest with you. It would appear that your prices are rather higher than your competitors'."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "That may well be the case. However, our designs tend to bring in considerably more bookings."
+                      },
+                      {
+                        "speaker": "Grace",
+                        "text": "Arguably, that depends on the market. Our guests are mostly students."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "To some extent, yes. But there seems to be a clear link between good design and trust, even among younger travellers."
+                      },
+                      {
+                        "speaker": "Grace",
+                        "text": "I'm not entirely convinced. Do you have any evidence?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "We'd suggest a small pilot. It might be worth testing one hostel first."
+                      },
+                      {
+                        "speaker": "Grace",
+                        "text": "That sounds reasonable, I suppose. What would that cost?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Roughly a quarter of the full project. If the results are good, we'd continue."
+                      },
+                      {
+                        "speaker": "Grace",
+                        "text": "It seems to me that you're quite confident."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Cautiously confident, let's say."
+                      },
+                      {
+                        "speaker": "Grace",
+                        "text": "I like that. Let's give it a go."
+                      }
+                    ],
+                    "passage": "February. Green Door Design has its first meeting with a potential client: Grace Walker, an Australian businesswoman who runs a chain of eco-friendly hostels."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"It would appear that your prices are rather higher…\" Grace is being…",
+                        "options": [
+                          "cautious and polite",
+                          "rude"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"That may well be the case.\" means…",
+                        "options": [
+                          "puede que sea así",
+                          "seguro que no"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Our designs tend to bring in more bookings.\" Tend to = …",
+                        "options": [
+                          "suelen",
+                          "intentan"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What does Lucía suggest?",
+                        "options": [
+                          "a small pilot with one hostel",
+                          "a discount",
+                          "a free website"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Hedging and softening",
+                    "explanation": "Hedging es suavizar lo que decimos para sonar prudente, educado y menos categórico. Es clave en negociaciones, en el mundo académico y en los correos formales. Recursos:\n• Frases introductorias: It would appear that…, It seems to me that…, There seems to be…\n• Modales: may well, might, could. That may well be the case.\n• Tend to + verbo: Our designs tend to bring in more bookings.\n• Adverbios: arguably, to some extent, roughly, rather, somewhat.\n• Negaciones suaves: I'm not entirely convinced, I'm not sure that…\n\nEn lugar de «You're wrong», mejor «I'm not entirely sure that's the case».",
+                    "table": {
+                      "headers": [
+                        "Recurso",
+                        "Ejemplo",
+                        "Más directo"
+                      ],
+                      "rows": [
+                        [
+                          "It would appear that…",
+                          "It would appear that your prices are higher.",
+                          "Your prices are higher."
+                        ],
+                        [
+                          "There seems to be…",
+                          "There seems to be a clear link.",
+                          "There is a clear link."
+                        ],
+                        [
+                          "may well / might",
+                          "That may well be the case.",
+                          "That's true."
+                        ],
+                        [
+                          "tend to",
+                          "Our designs tend to bring in more bookings.",
+                          "Our designs bring in more bookings."
+                        ],
+                        [
+                          "arguably / to some extent",
+                          "Arguably, that depends on the market.",
+                          "That depends on the market."
+                        ],
+                        [
+                          "rather / roughly / somewhat",
+                          "roughly a quarter; rather higher",
+                          "a quarter; higher"
+                        ],
+                        [
+                          "not entirely…",
+                          "I'm not entirely convinced.",
+                          "I'm not convinced."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "It would appear that your prices are rather higher than your competitors'.",
+                      "That may well be the case.",
+                      "There seems to be a clear link between good design and trust.",
+                      "I'm not entirely convinced."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la expresión atenuada.",
+                    "items": [
+                      {
+                        "sentence": "It would ___ that your prices are higher.",
+                        "answers": [
+                          [
+                            "appear"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "That may ___ be the case.",
+                        "answers": [
+                          [
+                            "well"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Our designs ___ to bring in more bookings.",
+                        "answers": [
+                          [
+                            "tend"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___, that depends on the market.",
+                        "answers": [
+                          [
+                            "Arguably"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "To some ___, yes.",
+                        "answers": [
+                          [
+                            "extent"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "There ___ to be a clear link between design and trust.",
+                        "answers": [
+                          [
+                            "seems"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm not ___ convinced.",
+                        "answers": [
+                          [
+                            "entirely"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It ___ be worth testing one hostel first.",
+                        "answers": [
+                          [
+                            "might",
+                            "may",
+                            "could"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Suaviza la frase.",
+                    "items": [
+                      {
+                        "source": "Your prices are too high. (It would appear…)",
+                        "answers": [
+                          "It would appear that your prices are too high",
+                          "It would appear your prices are too high"
+                        ]
+                      },
+                      {
+                        "source": "This plan won't work. (I'm not entirely…)",
+                        "answers": [
+                          "I'm not entirely sure this plan will work",
+                          "I'm not entirely convinced this plan will work",
+                          "I am not entirely sure this plan will work"
+                        ]
+                      },
+                      {
+                        "source": "There's a problem with the budget. (There seems…)",
+                        "answers": [
+                          "There seems to be a problem with the budget"
+                        ]
+                      },
+                      {
+                        "source": "Students prefer cheap hostels. (tend to)",
+                        "answers": [
+                          "Students tend to prefer cheap hostels"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Al parecer, sus precios son algo más altos.",
+                        "answers": [
+                          "It would appear that your prices are rather higher",
+                          "It would appear that your prices are somewhat higher",
+                          "Apparently, your prices are rather higher",
+                          "It would appear your prices are rather higher"
+                        ]
+                      },
+                      {
+                        "source": "Puede que sea así.",
+                        "answers": [
+                          "That may well be the case",
+                          "That may be the case",
+                          "That might be the case"
+                        ]
+                      },
+                      {
+                        "source": "No estoy del todo convencida.",
+                        "answers": [
+                          "I'm not entirely convinced",
+                          "I am not entirely convinced"
+                        ]
+                      },
+                      {
+                        "source": "Parece haber una relación clara.",
+                        "answers": [
+                          "There seems to be a clear link",
+                          "There seems to be a clear relationship"
+                        ]
+                      },
+                      {
+                        "source": "Más o menos una cuarta parte del proyecto.",
+                        "answers": [
+                          "Roughly a quarter of the project",
+                          "About a quarter of the project"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta. Negocia con cautela.",
+                    "items": [
+                      {
+                        "text": "That may well be the case."
+                      },
+                      {
+                        "text": "There seems to be a clear link between good design and trust."
+                      },
+                      {
+                        "text": "It might be worth testing one hostel first."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "potential client",
+                        "definition": "A person who might become a client",
+                        "translation": "posible cliente",
+                        "example": "a potential client"
+                      },
+                      {
+                        "term": "eco-friendly",
+                        "definition": "Not harmful to the environment",
+                        "translation": "ecológico/a",
+                        "example": "eco-friendly hostels"
+                      },
+                      {
+                        "term": "hostel",
+                        "definition": "A cheap place to stay, often for young travellers",
+                        "translation": "albergue",
+                        "example": "a chain of hostels"
+                      },
+                      {
+                        "term": "competitors",
+                        "definition": "Companies that sell the same thing",
+                        "translation": "competencia",
+                        "example": "your competitors' prices"
+                      },
+                      {
+                        "term": "bring in",
+                        "definition": "Produce money or customers",
+                        "translation": "generar, atraer",
+                        "example": "Our designs bring in more bookings."
+                      },
+                      {
+                        "term": "considerably",
+                        "definition": "Much; a lot",
+                        "translation": "considerablemente",
+                        "example": "considerably more bookings"
+                      },
+                      {
+                        "term": "arguably",
+                        "definition": "It can be argued that",
+                        "translation": "podría decirse que",
+                        "example": "Arguably, that depends on the market."
+                      },
+                      {
+                        "term": "to some extent",
+                        "definition": "Partly",
+                        "translation": "hasta cierto punto",
+                        "example": "To some extent, yes."
+                      },
+                      {
+                        "term": "trust",
+                        "definition": "Belief that someone is honest or reliable",
+                        "translation": "confianza",
+                        "example": "a link between good design and trust"
+                      },
+                      {
+                        "term": "evidence",
+                        "definition": "Facts that show something is true",
+                        "translation": "pruebas, datos",
+                        "example": "Do you have any evidence?"
+                      },
+                      {
+                        "term": "pilot",
+                        "definition": "A small test before a big project",
+                        "translation": "prueba piloto",
+                        "example": "We'd suggest a small pilot."
+                      },
+                      {
+                        "term": "roughly",
+                        "definition": "Approximately",
+                        "translation": "aproximadamente",
+                        "example": "roughly a quarter"
+                      },
+                      {
+                        "term": "cautiously",
+                        "definition": "Carefully, avoiding risks",
+                        "translation": "con cautela",
+                        "example": "Cautiously confident."
+                      },
+                      {
+                        "term": "give it a go",
+                        "definition": "Try it",
+                        "translation": "intentarlo, probar",
+                        "example": "Let's give it a go."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "It would ___ that the report is wrong.",
+                        "options": [
+                          "appear",
+                          "seem to"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Young people ___ to prefer mobile apps.",
+                        "options": [
+                          "tend",
+                          "are tend"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'm not ___ sure that's true.",
+                        "options": [
+                          "entirely",
+                          "entire"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "There ___ to be a misunderstanding.",
+                        "options": [
+                          "seems",
+                          "appears that"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "That may ___ be true.",
+                        "options": [
+                          "well",
+                          "good"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What kind of business does Grace run?",
+                        "options": [
+                          "eco-friendly hostels",
+                          "luxury hotels",
+                          "a design studio"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

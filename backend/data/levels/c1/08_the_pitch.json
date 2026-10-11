@@ -1,0 +1,493 @@
+{
+  "level_id": "C1",
+  "themes": [
+    {
+      "theme_id": "new_york",
+      "units": [
+        {
+          "unit_id": "the_pitch",
+          "title": "The Pitch",
+          "description": "Da énfasis como un nativo: do / did enfático, such / so y anteposición.",
+          "lessons": [
+            {
+              "lesson_id": "the_pitch_lesson",
+              "title": "Emphasis: do, such, so and fronting",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "The pitch",
+                    "dialogue": [
+                      {
+                        "speaker": "Mark",
+                        "text": "I do have to say, that was impressive."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Thank you. We did prepare quite carefully."
+                      },
+                      {
+                        "speaker": "Mark",
+                        "text": "Such a small studio, and yet such ambitious plans. What surprises me is the Madrid office."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Madrid is where I started my career. I do know that market very well."
+                      },
+                      {
+                        "speaker": "Mark",
+                        "text": "So convincing were your numbers that my finance director stopped taking notes."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "The numbers are real, Mark. Every single one."
+                      },
+                      {
+                        "speaker": "Mark",
+                        "text": "Oh, I don't doubt it. What I'm proposing is simple: we invest, and you design all our European hotels."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "That's a very generous offer. It does come with conditions, I assume?"
+                      },
+                      {
+                        "speaker": "Mark",
+                        "text": "Just one. Grace Walker stays on board. I've heard such good things about her."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "That we can promise. Grace is the reason we're here."
+                      },
+                      {
+                        "speaker": "Mark",
+                        "text": "Then it's a deal. And Lucía? Helen was right about you."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Helen usually is."
+                      }
+                    ],
+                    "passage": "The next morning, in Reed Hotels' boardroom, forty floors above Manhattan. Lucía has just finished presenting. Mark leans back in his chair."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"I do have to say, that was impressive.\" Do adds…",
+                        "options": [
+                          "emphasis",
+                          "a negative meaning"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Such a small studio, and yet such ambitious plans.\" Such + …",
+                        "options": [
+                          "(a/an) + adjective + noun",
+                          "adjective alone"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"So convincing were your numbers that…\" This is…",
+                        "options": [
+                          "inversion after so + adjective (formal)",
+                          "a question"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What condition does Mark set?",
+                        "options": [
+                          "Grace stays on board.",
+                          "They move to New York.",
+                          "Lucía closes the Madrid office."
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Emphasis: do, such, so and fronting",
+                    "explanation": "Recursos para dar énfasis:\n• do / does / did + verbo en afirmativa, para insistir o contrastar: I do know that market very well. We did prepare carefully.\n• such (a/an) + adjetivo + nombre: such a small studio, such ambitious plans.\n• so + adjetivo / adverbio: so convincing. Con resultado: so/such… that…\n• Inversión formal: So + adjetivo + be + sujeto + that: So convincing were your numbers that…\n• Anteposición (fronting): poner delante lo que queremos destacar: That we can promise. Madrid is where I started.",
+                    "table": {
+                      "headers": [
+                        "Recurso",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "do / does / did enfático",
+                          "I do have to say, that was impressive."
+                        ],
+                        [
+                          "such (a) + adjetivo + nombre",
+                          "such a small studio, such ambitious plans"
+                        ],
+                        [
+                          "so + adjetivo",
+                          "The plan is so ambitious."
+                        ],
+                        [
+                          "so / such… that",
+                          "The numbers were so convincing that he stopped taking notes."
+                        ],
+                        [
+                          "So + adjetivo + verbo + sujeto (formal)",
+                          "So convincing were your numbers that…"
+                        ],
+                        [
+                          "anteposición (fronting)",
+                          "That we can promise."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I do have to say, that was impressive.",
+                      "Such a small studio, and yet such ambitious plans.",
+                      "So convincing were your numbers that my finance director stopped taking notes.",
+                      "That we can promise."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con do/did, such o so.",
+                    "items": [
+                      {
+                        "sentence": "I ___ have to say, that was impressive.",
+                        "answers": [
+                          [
+                            "do"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We ___ prepare quite carefully.",
+                        "answers": [
+                          [
+                            "did"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ a small studio, and yet such ambitious plans.",
+                        "answers": [
+                          [
+                            "Such"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ know that market very well.",
+                        "answers": [
+                          [
+                            "do"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "So convincing ___ your numbers that he stopped taking notes.",
+                        "answers": [
+                          [
+                            "were"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It ___ come with conditions, I assume?",
+                        "answers": [
+                          [
+                            "does"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I've heard ___ good things about her.",
+                        "answers": [
+                          [
+                            "such"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The pitch was ___ good that they signed immediately.",
+                        "answers": [
+                          [
+                            "so"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Reescribe con énfasis.",
+                    "items": [
+                      {
+                        "source": "I know that market very well. (do enfático)",
+                        "answers": [
+                          "I do know that market very well"
+                        ]
+                      },
+                      {
+                        "source": "We prepared carefully. (did enfático)",
+                        "answers": [
+                          "We did prepare carefully"
+                        ]
+                      },
+                      {
+                        "source": "The numbers were very convincing, so he stopped taking notes. (So convincing…)",
+                        "answers": [
+                          "So convincing were the numbers that he stopped taking notes"
+                        ]
+                      },
+                      {
+                        "source": "It's a very small studio. (such)",
+                        "answers": [
+                          "It's such a small studio",
+                          "It is such a small studio"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Tengo que decir que fue impresionante.",
+                        "answers": [
+                          "I do have to say that it was impressive",
+                          "I do have to say, that was impressive",
+                          "I do have to say it was impressive",
+                          "I have to say that it was impressive"
+                        ]
+                      },
+                      {
+                        "source": "Sí que conozco bien ese mercado.",
+                        "answers": [
+                          "I do know that market well",
+                          "I do know that market very well"
+                        ]
+                      },
+                      {
+                        "source": "Es un estudio tan pequeño…",
+                        "answers": [
+                          "It's such a small studio",
+                          "It is such a small studio",
+                          "Such a small studio"
+                        ]
+                      },
+                      {
+                        "source": "Eso sí lo podemos prometer.",
+                        "answers": [
+                          "That we can promise",
+                          "We can promise that"
+                        ]
+                      },
+                      {
+                        "source": "Sus cifras eran tan convincentes que dejó de tomar notas.",
+                        "answers": [
+                          "Your numbers were so convincing that he stopped taking notes",
+                          "So convincing were your numbers that he stopped taking notes",
+                          "Your figures were so convincing that he stopped taking notes"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "I do have to say, that was impressive."
+                      },
+                      {
+                        "text": "Such a small studio, and yet such ambitious plans."
+                      },
+                      {
+                        "text": "That we can promise."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "lean back",
+                        "definition": "Move your body backwards in a chair",
+                        "translation": "recostarse",
+                        "example": "Mark leans back in his chair."
+                      },
+                      {
+                        "term": "impressive",
+                        "definition": "Causing admiration",
+                        "translation": "impresionante",
+                        "example": "That was impressive."
+                      },
+                      {
+                        "term": "ambitious",
+                        "definition": "Wanting to achieve a lot",
+                        "translation": "ambicioso/a",
+                        "example": "such ambitious plans"
+                      },
+                      {
+                        "term": "and yet",
+                        "definition": "But at the same time",
+                        "translation": "y aun así",
+                        "example": "Such a small studio, and yet such ambitious plans."
+                      },
+                      {
+                        "term": "career",
+                        "definition": "The jobs you do during your working life",
+                        "translation": "carrera profesional",
+                        "example": "where I started my career"
+                      },
+                      {
+                        "term": "convincing",
+                        "definition": "Making you believe something",
+                        "translation": "convincente",
+                        "example": "So convincing were your numbers…"
+                      },
+                      {
+                        "term": "finance director",
+                        "definition": "The person in charge of a company's money",
+                        "translation": "director/a financiero/a",
+                        "example": "my finance director"
+                      },
+                      {
+                        "term": "take notes",
+                        "definition": "Write down information",
+                        "translation": "tomar notas",
+                        "example": "He stopped taking notes."
+                      },
+                      {
+                        "term": "doubt",
+                        "definition": "Feel uncertain about",
+                        "translation": "dudar",
+                        "example": "I don't doubt it."
+                      },
+                      {
+                        "term": "generous",
+                        "definition": "Giving a lot",
+                        "translation": "generoso/a",
+                        "example": "a very generous offer"
+                      },
+                      {
+                        "term": "assume",
+                        "definition": "Think something is true without proof",
+                        "translation": "suponer",
+                        "example": "I assume?"
+                      },
+                      {
+                        "term": "stay on board",
+                        "definition": "Continue to be involved",
+                        "translation": "seguir a bordo, seguir en el proyecto",
+                        "example": "Grace Walker stays on board."
+                      },
+                      {
+                        "term": "such",
+                        "definition": "Used for emphasis before (a) + adjective + noun",
+                        "translation": "tan, semejante",
+                        "example": "such good things"
+                      },
+                      {
+                        "term": "do (emphatic)",
+                        "definition": "Used to make a positive statement stronger",
+                        "translation": "sí que…, de verdad",
+                        "example": "I do know that market."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "It was ___ a long day.",
+                        "options": [
+                          "such",
+                          "so"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The film was ___ boring that I left.",
+                        "options": [
+                          "so",
+                          "such"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I ___ like your idea. Really!",
+                        "options": [
+                          "do",
+                          "am"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She ___ call. She just forgot to leave a message.",
+                        "options": [
+                          "did",
+                          "was"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "So tired ___ he that he fell asleep.",
+                        "options": [
+                          "was",
+                          "did"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What will Green Door Design do for Mark?",
+                        "options": [
+                          "design all his European hotels",
+                          "buy his hotels",
+                          "open an office in New York"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "level_id": "C1",
+  "themes": [
+    {
+      "theme_id": "coming_home",
+      "units": [
+        {
+          "unit_id": "radio_interview",
+          "title": "On the Radio",
+          "description": "Habla de probabilidades y planes como en una entrevista: bound to, likely to, set to, due to, on the verge of.",
+          "lessons": [
+            {
+              "lesson_id": "radio_interview_lesson",
+              "title": "Talking about likelihood",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "On the radio",
+                    "dialogue": [
+                      {
+                        "speaker": "Interviewer",
+                        "text": "Green Door Design is barely a year old, and yet you're about to open an office in Madrid. How did that happen?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Partly luck, partly hard work. We were lucky to find the right partners early on."
+                      },
+                      {
+                        "speaker": "Interviewer",
+                        "text": "The Madrid office is due to open in October. Is it on schedule?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "It is. We're set to hire four designers there by the end of the year."
+                      },
+                      {
+                        "speaker": "Interviewer",
+                        "text": "Are you likely to move to Madrid yourself?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I'm unlikely to move permanently. Bristol is home now. But I'm bound to spend a lot of time on planes."
+                      },
+                      {
+                        "speaker": "Interviewer",
+                        "text": "Some say small studios are on the verge of disappearing because of AI tools. Do you agree?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I don't think so. Good design is bound to need people who listen. Tools can help, but they don't understand a client's fears."
+                      },
+                      {
+                        "speaker": "Interviewer",
+                        "text": "What are your chances of winning the Bristol Business Award this year?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "We stand a fairly good chance, I'm told. But honestly, I'd be just as happy without it."
+                      },
+                      {
+                        "speaker": "Interviewer",
+                        "text": "Finally, any advice for someone arriving in a new city, as you did three years ago?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Say yes to everything, carry an umbrella, and never keep your keys in the fridge."
+                      }
+                    ],
+                    "passage": "August. Lucía is being interviewed on a Bristol radio programme about small businesses."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en la entrevista y responde.",
+                    "items": [
+                      {
+                        "question": "\"The Madrid office is due to open in October.\" means…",
+                        "options": [
+                          "it's scheduled for October",
+                          "it's because of October"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I'm bound to spend a lot of time on planes.\" = …",
+                        "options": [
+                          "it's almost certain",
+                          "I'm obliged to"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"on the verge of disappearing\" = …",
+                        "options": [
+                          "a punto de desaparecer",
+                          "lejos de desaparecer"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What is NOT part of Lucía's advice?",
+                        "options": [
+                          "work every weekend",
+                          "say yes to everything",
+                          "carry an umbrella"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Talking about likelihood",
+                    "explanation": "Estructuras para hablar de probabilidad y de lo previsto, muy habituales en entrevistas y noticias:\n• be bound to: es casi seguro. I'm bound to spend a lot of time on planes.\n• be (un)likely to / it's (un)likely that: probable / poco probable. I'm unlikely to move permanently.\n• be set to: está previsto (muy típico de la prensa). We're set to hire four designers.\n• be due to: está programado para una fecha. The office is due to open in October.\n• be on the verge / brink of + -ing: estar a punto de (algo importante).\n• stand a (good) chance (of + -ing): tener (buenas) posibilidades.\n• be about to: estar a punto de (inminente).",
+                    "table": {
+                      "headers": [
+                        "Expresión",
+                        "Significado",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "be bound to",
+                          "es casi seguro",
+                          "I'm bound to spend a lot of time on planes."
+                        ],
+                        [
+                          "be likely / unlikely to",
+                          "probable / poco probable",
+                          "I'm unlikely to move permanently."
+                        ],
+                        [
+                          "be set to",
+                          "está previsto",
+                          "We're set to hire four designers."
+                        ],
+                        [
+                          "be due to",
+                          "está programado",
+                          "The office is due to open in October."
+                        ],
+                        [
+                          "be on the verge of + -ing",
+                          "a punto de",
+                          "on the verge of disappearing"
+                        ],
+                        [
+                          "stand a good chance (of)",
+                          "tener buenas posibilidades",
+                          "We stand a fairly good chance."
+                        ],
+                        [
+                          "be about to",
+                          "estar a punto de",
+                          "You're about to open an office in Madrid."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "The Madrid office is due to open in October.",
+                      "We're set to hire four designers there by the end of the year.",
+                      "I'm unlikely to move permanently.",
+                      "We stand a fairly good chance, I'm told."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la expresión de probabilidad.",
+                    "items": [
+                      {
+                        "sentence": "The Madrid office is ___ to open in October.",
+                        "answers": [
+                          [
+                            "due"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We're ___ to hire four designers by the end of the year.",
+                        "answers": [
+                          [
+                            "set"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Are you ___ to move to Madrid yourself?",
+                        "answers": [
+                          [
+                            "likely"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm ___ to move permanently. (poco probable)",
+                        "answers": [
+                          [
+                            "unlikely"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm ___ to spend a lot of time on planes. (casi seguro)",
+                        "answers": [
+                          [
+                            "bound"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Small studios are on the ___ of disappearing.",
+                        "answers": [
+                          [
+                            "verge"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We stand a fairly good ___.",
+                        "answers": [
+                          [
+                            "chance"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You're ___ to open an office in Madrid. (a punto de)",
+                        "answers": [
+                          [
+                            "about"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Reescribe con la expresión indicada.",
+                    "items": [
+                      {
+                        "source": "It's almost certain that it will rain. (bound to)",
+                        "answers": [
+                          "It's bound to rain",
+                          "It is bound to rain"
+                        ]
+                      },
+                      {
+                        "source": "The train will probably be late. (likely to)",
+                        "answers": [
+                          "The train is likely to be late",
+                          "The train's likely to be late"
+                        ]
+                      },
+                      {
+                        "source": "The concert is scheduled to start at eight. (due to)",
+                        "answers": [
+                          "The concert is due to start at eight"
+                        ]
+                      },
+                      {
+                        "source": "The company is very close to closing. (on the verge of)",
+                        "answers": [
+                          "The company is on the verge of closing"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "La oficina abrirá en octubre, según lo previsto.",
+                        "answers": [
+                          "The office is due to open in October",
+                          "The office is set to open in October"
+                        ]
+                      },
+                      {
+                        "source": "Es casi seguro que llueva.",
+                        "answers": [
+                          "It's bound to rain",
+                          "It is bound to rain"
+                        ]
+                      },
+                      {
+                        "source": "Es poco probable que me mude.",
+                        "answers": [
+                          "I'm unlikely to move",
+                          "I am unlikely to move",
+                          "It's unlikely that I'll move"
+                        ]
+                      },
+                      {
+                        "source": "Están a punto de cerrar.",
+                        "answers": [
+                          "They're on the verge of closing",
+                          "They are about to close",
+                          "They're about to close",
+                          "They are on the verge of closing"
+                        ]
+                      },
+                      {
+                        "source": "Tenemos bastantes posibilidades.",
+                        "answers": [
+                          "We stand a fairly good chance",
+                          "We have a fairly good chance",
+                          "We stand a good chance"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta, como en la radio.",
+                    "items": [
+                      {
+                        "text": "The Madrid office is due to open in October."
+                      },
+                      {
+                        "text": "I'm bound to spend a lot of time on planes."
+                      },
+                      {
+                        "text": "Say yes to everything, carry an umbrella, and never keep your keys in the fridge."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "barely",
+                        "definition": "Only just",
+                        "translation": "apenas",
+                        "example": "barely a year old"
+                      },
+                      {
+                        "term": "on schedule",
+                        "definition": "At the planned time",
+                        "translation": "según lo previsto",
+                        "example": "Is it on schedule?"
+                      },
+                      {
+                        "term": "early on",
+                        "definition": "At an early stage",
+                        "translation": "desde el principio",
+                        "example": "the right partners early on"
+                      },
+                      {
+                        "term": "permanently",
+                        "definition": "For ever",
+                        "translation": "de forma permanente",
+                        "example": "I'm unlikely to move permanently."
+                      },
+                      {
+                        "term": "be bound to",
+                        "definition": "Be almost certain to",
+                        "translation": "ser casi seguro que",
+                        "example": "I'm bound to spend time on planes."
+                      },
+                      {
+                        "term": "be set to",
+                        "definition": "Be planned or expected to",
+                        "translation": "estar previsto",
+                        "example": "We're set to hire four designers."
+                      },
+                      {
+                        "term": "be due to",
+                        "definition": "Be scheduled to",
+                        "translation": "estar programado para",
+                        "example": "The office is due to open in October."
+                      },
+                      {
+                        "term": "on the verge of",
+                        "definition": "Very close to",
+                        "translation": "a punto de",
+                        "example": "on the verge of disappearing"
+                      },
+                      {
+                        "term": "stand a chance",
+                        "definition": "Have a possibility of success",
+                        "translation": "tener posibilidades",
+                        "example": "We stand a fairly good chance."
+                      },
+                      {
+                        "term": "likely",
+                        "definition": "Probable",
+                        "translation": "probable",
+                        "example": "Are you likely to move?"
+                      },
+                      {
+                        "term": "award",
+                        "definition": "A prize",
+                        "translation": "premio",
+                        "example": "the Bristol Business Award"
+                      },
+                      {
+                        "term": "AI tools",
+                        "definition": "Software that uses artificial intelligence",
+                        "translation": "herramientas de IA",
+                        "example": "because of AI tools"
+                      },
+                      {
+                        "term": "fears",
+                        "definition": "Things people are afraid of",
+                        "translation": "miedos",
+                        "example": "a client's fears"
+                      },
+                      {
+                        "term": "advice",
+                        "definition": "Suggestions about what to do (uncountable)",
+                        "translation": "consejo(s)",
+                        "example": "any advice?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "Prices are ___ to rise next year. (previsto)",
+                        "options": [
+                          "set",
+                          "bound by"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The plane is ___ to land at 10.30.",
+                        "options": [
+                          "due",
+                          "about"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She's very talented. She's ___ to succeed.",
+                        "options": [
+                          "bound",
+                          "due"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "It's ___ to snow in July in Spain.",
+                        "options": [
+                          "unlikely",
+                          "likely"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The company was on the verge of ___.",
+                        "options": [
+                          "closing",
+                          "close"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "How many designers are they going to hire in Madrid?",
+                        "options": [
+                          "four",
+                          "ten",
+                          "two"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -110,7 +110,7 @@ func parseChapters(t *testing.T, path string) map[string][]Line {
 }
 
 // completeLevels are the levels already rewritten around the story: 12 units each.
-var completeLevels = []string{"A1", "A2", "B1", "B2"}
+var completeLevels = []string{"A1", "A2", "B1", "B2", "C1"}
 
 func TestLevelsAreComplete(t *testing.T) {
 	c, err := Load("../../data/levels")

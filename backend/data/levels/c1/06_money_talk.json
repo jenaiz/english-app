@@ -1,0 +1,683 @@
+{
+  "level_id": "C1",
+  "themes": [
+    {
+      "theme_id": "building",
+      "units": [
+        {
+          "unit_id": "money_talk",
+          "title": "Terms and Conditions",
+          "description": "Negocia condiciones: provided that, as long as, unless, but for, otherwise y condicionales con inversión.",
+          "lessons": [
+            {
+              "lesson_id": "money_talk_lesson",
+              "title": "Conditionals without if",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Terms and conditions",
+                    "dialogue": [
+                      {
+                        "speaker": "Grace",
+                        "text": "I'm prepared to invest, provided that I get a seat on the board."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "As long as we keep creative control, that seems fair."
+                      },
+                      {
+                        "speaker": "Grace",
+                        "text": "You'll keep it, on condition that the studio grows by thirty percent next year."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Supposing we don't reach thirty percent, what happens then?"
+                      },
+                      {
+                        "speaker": "Grace",
+                        "text": "Then we'd sit down and talk. Unless something drastic happened, I wouldn't pull out."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "But for your pilot project, we'd never have got this far."
+                      },
+                      {
+                        "speaker": "Grace",
+                        "text": "And but for your designs, my bookings wouldn't have doubled."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "There's one more thing. Mark Reed has invited us to pitch in New York in May."
+                      },
+                      {
+                        "speaker": "Grace",
+                        "text": "Go. Otherwise, you'll always wonder. Should he make an offer, though, tell me first."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Of course. Assuming everything goes well, we'll be back with good news."
+                      },
+                      {
+                        "speaker": "Grace",
+                        "text": "In that case, I'll draw up the contract."
+                      }
+                    ],
+                    "passage": "April. Grace is so happy with the results that she wants to invest in Green Door Design. Lucía and Daniel meet her to discuss the terms."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"provided that I get a seat on the board\" Provided that = …",
+                        "options": [
+                          "siempre que",
+                          "a pesar de que"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"But for your pilot project, we'd never have got this far.\" = …",
+                        "options": [
+                          "If it hadn't been for your pilot project…",
+                          "Except your pilot project…"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Should he make an offer, tell me first.\" = …",
+                        "options": [
+                          "If he makes an offer…",
+                          "He should make an offer."
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What does Grace want in exchange for investing?",
+                        "options": [
+                          "a seat on the board",
+                          "half of the company",
+                          "a free website"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Conditionals without if",
+                    "explanation": "En negociaciones y textos formales se usan alternativas a if:\n• provided (that) / providing / as long as: siempre que.\n• on condition that: con la condición de que.\n• unless: a menos que.\n• supposing / assuming: suponiendo que.\n• otherwise: si no, de lo contrario.\n• but for + nombre: de no ser por. But for your pilot, we'd never have got this far.\n\nCondicionales con inversión (más formales, sin if): Should he make an offer… (= If he makes an offer). Were I in your position… (= If I were…). Had I known… (= If I had known…).",
+                    "table": {
+                      "headers": [
+                        "Expresión",
+                        "Significado",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "provided (that) / as long as",
+                          "siempre que",
+                          "I'll invest, provided that I get a seat on the board."
+                        ],
+                        [
+                          "on condition that",
+                          "con la condición de que",
+                          "…on condition that the studio grows by thirty percent."
+                        ],
+                        [
+                          "unless",
+                          "a menos que",
+                          "Unless something drastic happened, I wouldn't pull out."
+                        ],
+                        [
+                          "supposing / assuming",
+                          "suponiendo que",
+                          "Supposing we don't reach thirty percent?"
+                        ],
+                        [
+                          "otherwise",
+                          "si no, de lo contrario",
+                          "Go. Otherwise, you'll always wonder."
+                        ],
+                        [
+                          "but for + nombre",
+                          "de no ser por",
+                          "But for your pilot, we'd never have got this far."
+                        ],
+                        [
+                          "Should / Were / Had + sujeto",
+                          "condicional formal con inversión",
+                          "Should he make an offer, tell me first."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I'm prepared to invest, provided that I get a seat on the board.",
+                      "As long as we keep creative control, that seems fair.",
+                      "But for your pilot project, we'd never have got this far.",
+                      "Should he make an offer, though, tell me first."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa la expresión condicional.",
+                    "items": [
+                      {
+                        "sentence": "I'm prepared to invest, ___ that I get a seat on the board.",
+                        "answers": [
+                          [
+                            "provided",
+                            "providing"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "As ___ as we keep creative control, that's fair.",
+                        "answers": [
+                          [
+                            "long"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "…on ___ that the studio grows by thirty percent.",
+                        "answers": [
+                          [
+                            "condition"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ we don't reach thirty percent, what happens?",
+                        "answers": [
+                          [
+                            "Supposing",
+                            "Suppose",
+                            "Assuming"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ something drastic happened, I wouldn't pull out.",
+                        "answers": [
+                          [
+                            "Unless"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "But ___ your pilot project, we'd never have got this far.",
+                        "answers": [
+                          [
+                            "for"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Go. ___, you'll always wonder.",
+                        "answers": [
+                          [
+                            "Otherwise"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ he make an offer, tell me first.",
+                        "answers": [
+                          [
+                            "Should"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Reescribe sin if.",
+                    "items": [
+                      {
+                        "source": "If he makes an offer, call me. (Should…)",
+                        "answers": [
+                          "Should he make an offer, call me"
+                        ]
+                      },
+                      {
+                        "source": "If it hadn't been for your help, we would have failed. (But for…)",
+                        "answers": [
+                          "But for your help, we would have failed",
+                          "But for your help we would have failed",
+                          "But for your help, we'd have failed"
+                        ]
+                      },
+                      {
+                        "source": "You can borrow it if you return it on Monday. (as long as)",
+                        "answers": [
+                          "You can borrow it as long as you return it on Monday"
+                        ]
+                      },
+                      {
+                        "source": "If I had known, I would have come. (Had…)",
+                        "answers": [
+                          "Had I known, I would have come",
+                          "Had I known I would have come",
+                          "Had I known, I'd have come"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Invertiré siempre que tenga un puesto en el consejo.",
+                        "answers": [
+                          "I'll invest provided that I get a seat on the board",
+                          "I'll invest as long as I get a seat on the board",
+                          "I will invest provided that I get a seat on the board",
+                          "I'll invest, provided that I get a seat on the board"
+                        ]
+                      },
+                      {
+                        "source": "Suponiendo que no lleguemos, ¿qué pasa?",
+                        "answers": [
+                          "Supposing we don't reach it, what happens",
+                          "Supposing we don't make it, what happens"
+                        ]
+                      },
+                      {
+                        "source": "De no ser por ti, no habríamos llegado tan lejos.",
+                        "answers": [
+                          "But for you, we would never have got this far",
+                          "But for you, we wouldn't have got this far",
+                          "If it hadn't been for you, we wouldn't have got this far",
+                          "But for you we wouldn't have got this far"
+                        ]
+                      },
+                      {
+                        "source": "Ve; si no, siempre te lo preguntarás.",
+                        "answers": [
+                          "Go, otherwise you'll always wonder",
+                          "Go. Otherwise, you'll always wonder",
+                          "Go, otherwise you will always wonder"
+                        ]
+                      },
+                      {
+                        "source": "Si hiciera una oferta, avísame primero.",
+                        "answers": [
+                          "Should he make an offer, tell me first",
+                          "If he makes an offer, tell me first"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta. Negocia las condiciones.",
+                    "items": [
+                      {
+                        "text": "I'm prepared to invest, provided that I get a seat on the board."
+                      },
+                      {
+                        "text": "As long as we keep creative control, that seems fair."
+                      },
+                      {
+                        "text": "Should he make an offer, tell me first."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "invest",
+                        "definition": "Put money into a business to make a profit",
+                        "translation": "invertir",
+                        "example": "She wants to invest in Green Door Design."
+                      },
+                      {
+                        "term": "board",
+                        "definition": "The group of people who direct a company",
+                        "translation": "consejo de administración",
+                        "example": "a seat on the board"
+                      },
+                      {
+                        "term": "creative control",
+                        "definition": "The power to decide on the design",
+                        "translation": "control creativo",
+                        "example": "As long as we keep creative control…"
+                      },
+                      {
+                        "term": "grow by",
+                        "definition": "Increase by an amount",
+                        "translation": "crecer un…",
+                        "example": "grow by thirty percent"
+                      },
+                      {
+                        "term": "drastic",
+                        "definition": "Extreme and sudden",
+                        "translation": "drástico/a",
+                        "example": "Unless something drastic happened…"
+                      },
+                      {
+                        "term": "pull out",
+                        "definition": "Stop being involved",
+                        "translation": "retirarse",
+                        "example": "I wouldn't pull out."
+                      },
+                      {
+                        "term": "pitch",
+                        "definition": "Present an idea to try to win business",
+                        "translation": "presentar (un proyecto)",
+                        "example": "pitch in New York"
+                      },
+                      {
+                        "term": "draw up",
+                        "definition": "Prepare a written document",
+                        "translation": "redactar",
+                        "example": "I'll draw up the contract."
+                      },
+                      {
+                        "term": "provided that",
+                        "definition": "Only if",
+                        "translation": "siempre que",
+                        "example": "provided that I get a seat"
+                      },
+                      {
+                        "term": "on condition that",
+                        "definition": "Only if this condition is met",
+                        "translation": "con la condición de que",
+                        "example": "on condition that the studio grows"
+                      },
+                      {
+                        "term": "supposing",
+                        "definition": "Imagine that",
+                        "translation": "suponiendo que",
+                        "example": "Supposing we don't reach thirty percent?"
+                      },
+                      {
+                        "term": "but for",
+                        "definition": "If it were not for",
+                        "translation": "de no ser por",
+                        "example": "But for your pilot project…"
+                      },
+                      {
+                        "term": "otherwise",
+                        "definition": "If not",
+                        "translation": "de lo contrario, si no",
+                        "example": "Otherwise, you'll always wonder."
+                      },
+                      {
+                        "term": "In that case",
+                        "definition": "If that is true",
+                        "translation": "en ese caso",
+                        "example": "In that case, I'll draw up the contract."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "I'll lend you the car ___ you drive carefully.",
+                        "options": [
+                          "as long as",
+                          "unless"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "We'll go ___ it rains.",
+                        "options": [
+                          "unless",
+                          "provided"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ the rain, we would have won.",
+                        "options": [
+                          "But for",
+                          "Unless"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ you need anything, call me.",
+                        "options": [
+                          "Should",
+                          "Would"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Hurry up, ___ we'll miss the train.",
+                        "options": [
+                          "otherwise",
+                          "unless"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Where has Mark invited them to pitch?",
+                        "options": [
+                          "New York",
+                          "London",
+                          "Madrid"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "c1_checkpoint_2",
+              "title": "Checkpoint 2: Building",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "It would ___ that there has been a mistake.",
+                        "options": [
+                          "appear",
+                          "seem"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Students ___ to prefer cheaper options.",
+                        "options": [
+                          "tend",
+                          "are tending"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'm not ___ convinced.",
+                        "options": [
+                          "entirely",
+                          "entire"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "You ___ have bought a cake. We had one.",
+                        "options": [
+                          "needn't",
+                          "mustn't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'd rather you ___ tell anyone.",
+                        "options": [
+                          "didn't",
+                          "don't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "We'd ___ leave now.",
+                        "options": [
+                          "better",
+                          "rather"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'll sign, ___ that you keep the price.",
+                        "options": [
+                          "provided",
+                          "unless"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ your help, we would have failed.",
+                        "options": [
+                          "But for",
+                          "Unless"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "That may ___ be the case.",
+                        "answers": [
+                          [
+                            "well"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "There ___ to be a problem.",
+                        "answers": [
+                          [
+                            "seems"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'd rather ___ there. (be)",
+                        "answers": [
+                          [
+                            "be"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We'd better ___ waste time.",
+                        "answers": [
+                          [
+                            "not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "As ___ as we keep control, it's fine.",
+                        "answers": [
+                          [
+                            "long"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ he call, tell him I'm out.",
+                        "answers": [
+                          [
+                            "Should"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "No estoy del todo convencida.",
+                        "answers": [
+                          "I'm not entirely convinced",
+                          "I am not entirely convinced"
+                        ]
+                      },
+                      {
+                        "source": "Más vale que decidamos pronto.",
+                        "answers": [
+                          "We'd better decide soon",
+                          "We had better decide soon"
+                        ]
+                      },
+                      {
+                        "source": "No hacía falta que vinieras.",
+                        "answers": [
+                          "You needn't have come",
+                          "You didn't need to come"
+                        ]
+                      },
+                      {
+                        "source": "De no ser por ti, no habríamos llegado tan lejos.",
+                        "answers": [
+                          "But for you, we would never have got this far",
+                          "But for you, we wouldn't have got this far",
+                          "If it hadn't been for you, we wouldn't have got this far"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

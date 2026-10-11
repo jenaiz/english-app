@@ -1,0 +1,938 @@
+{
+  "level_id": "C1",
+  "themes": [
+    {
+      "theme_id": "coming_home",
+      "units": [
+        {
+          "unit_id": "looking_back",
+          "title": "Home",
+          "description": "Mira atrás y cuenta tu historia: past perfect continuous, would y used to. Incluye el test final de C1.",
+          "lessons": [
+            {
+              "lesson_id": "looking_back_lesson",
+              "title": "Narrative tenses: had been doing, would and used to",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Home",
+                    "dialogue": [
+                      {
+                        "speaker": "Lucía",
+                        "text": "Three years ago, I arrived on Clifton Road with a suitcase, a Spanish fan and very little English."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I had been studying English for months, but I couldn't understand a word the bus driver said."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Mrs Green, who's here tonight, gave me a key and told me I'd be fine. She was right."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "In those first weeks, I would get lost every Saturday, and Daniel would give me directions. I used to think \"craic\" was a kind of bread."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Sam lent me his grandmother's lamp and an umbrella, which the wind destroyed a month later."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Priya taught me that tea solves almost everything, and Ollie proved that good soup solves the rest."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "And Helen, who had been running Harbour Studio for twenty years, gave a nervous Spanish designer her first real chance."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Little did I know that this city would become my home. Thank you, Bristol."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "That was perfect. Come outside for a minute. I've been waiting all night to ask you something."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Daniel… what's in your hand?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Lucía Martín, will you marry me?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes! Of course I will!"
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "I knew it! I told Mum two years ago!"
+                      }
+                    ],
+                    "passage": "October. Green Door Design has just won the Bristol Business Award. Everyone is there: Daniel, Priya, Sam, Ollie, Mrs Green, Helen, and Javi, who has flown in from Dublin. Lucía walks up to the stage."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el discurso y responde.",
+                    "items": [
+                      {
+                        "question": "\"I had been studying English for months\" describes…",
+                        "options": [
+                          "an activity that continued up to a past moment",
+                          "a single finished action"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I would get lost every Saturday.\" Would here is…",
+                        "options": [
+                          "a repeated past habit",
+                          "a conditional"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I used to think 'craic' was a kind of bread.\" Could we say \"I would think\" here?",
+                        "options": [
+                          "No, would isn't used for past states",
+                          "Yes, it means the same"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What does Daniel ask Lucía?",
+                        "options": [
+                          "Will you marry me?",
+                          "Will you move to Madrid?",
+                          "Will you dance with me?"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Narrative tenses: had been doing, would and used to",
+                    "explanation": "Para contar una historia con matices:\n• past perfect continuous (had been + -ing): una actividad que duraba hasta un momento del pasado. I had been studying English for months, but I couldn't understand the bus driver.\n• would + verbo: acciones repetidas en el pasado, típico de la narración nostálgica. I would get lost every Saturday. Solo sirve para acciones, no para estados.\n• used to + verbo: hábitos y también estados del pasado. I used to think 'craic' was a kind of bread.\n• past perfect simple: acción terminada antes de otra.\n• past simple: los hechos principales.",
+                    "table": {
+                      "headers": [
+                        "Forma",
+                        "Uso",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "had been + -ing",
+                          "actividad que duraba hasta un momento del pasado",
+                          "I had been studying English for months."
+                        ],
+                        [
+                          "would + verbo",
+                          "acción repetida en el pasado (no estados)",
+                          "I would get lost every Saturday."
+                        ],
+                        [
+                          "used to + verbo",
+                          "hábitos y estados del pasado",
+                          "I used to think 'craic' was a kind of bread."
+                        ],
+                        [
+                          "had + participio",
+                          "acción terminada antes",
+                          "Helen had already given me a chance."
+                        ],
+                        [
+                          "past simple",
+                          "hechos principales",
+                          "I arrived on Clifton Road with a suitcase."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I had been studying English for months, but I couldn't understand a word the bus driver said.",
+                      "In those first weeks, I would get lost every Saturday, and Daniel would give me directions.",
+                      "I used to think \"craic\" was a kind of bread.",
+                      "Little did I know that this city would become my home."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la forma narrativa correcta.",
+                    "items": [
+                      {
+                        "sentence": "I had been ___ English for months. (study)",
+                        "answers": [
+                          [
+                            "studying"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ get lost every Saturday. (hábito)",
+                        "answers": [
+                          [
+                            "would"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel would ___ me directions. (give)",
+                        "answers": [
+                          [
+                            "give"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I used to ___ 'craic' was a kind of bread. (think)",
+                        "answers": [
+                          [
+                            "think"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Helen, who had been ___ the studio for twenty years… (run)",
+                        "answers": [
+                          [
+                            "running"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam ___ me his grandmother's lamp. (lend)",
+                        "answers": [
+                          [
+                            "lent"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Mrs Green told me I ___ be fine.",
+                        "answers": [
+                          [
+                            "would"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ been waiting all night to ask you something.",
+                        "answers": [
+                          [
+                            "have",
+                            "'ve"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Reescribe con la estructura indicada.",
+                    "items": [
+                      {
+                        "source": "I studied English for months before I arrived. (had been…)",
+                        "answers": [
+                          "I had been studying English for months before I arrived",
+                          "I'd been studying English for months before I arrived"
+                        ]
+                      },
+                      {
+                        "source": "Every Saturday I got lost. (would)",
+                        "answers": [
+                          "Every Saturday I would get lost",
+                          "I would get lost every Saturday"
+                        ]
+                      },
+                      {
+                        "source": "I thought 'craic' was a kind of bread, but not any more. (used to)",
+                        "answers": [
+                          "I used to think craic was a kind of bread",
+                          "I used to think 'craic' was a kind of bread"
+                        ]
+                      },
+                      {
+                        "source": "He was tired because he worked all day. (had been working)",
+                        "answers": [
+                          "He was tired because he had been working all day",
+                          "He was tired because he'd been working all day"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Llevaba meses estudiando inglés.",
+                        "answers": [
+                          "I had been studying English for months",
+                          "I'd been studying English for months"
+                        ]
+                      },
+                      {
+                        "source": "Todos los sábados me perdía.",
+                        "answers": [
+                          "I would get lost every Saturday",
+                          "Every Saturday I would get lost",
+                          "I used to get lost every Saturday"
+                        ]
+                      },
+                      {
+                        "source": "Antes pensaba que era un tipo de pan.",
+                        "answers": [
+                          "I used to think it was a kind of bread",
+                          "I used to think that it was a kind of bread"
+                        ]
+                      },
+                      {
+                        "source": "Poco sabía yo que esta ciudad se convertiría en mi casa.",
+                        "answers": [
+                          "Little did I know that this city would become my home",
+                          "Little did I know this city would become my home"
+                        ]
+                      },
+                      {
+                        "source": "¿Quieres casarte conmigo?",
+                        "answers": [
+                          "Will you marry me"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta el final de la historia.",
+                    "items": [
+                      {
+                        "text": "Three years ago, I arrived on Clifton Road with a suitcase, a Spanish fan and very little English."
+                      },
+                      {
+                        "text": "In those first weeks, I would get lost every Saturday."
+                      },
+                      {
+                        "text": "Little did I know that this city would become my home."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "award",
+                        "definition": "A prize for something good",
+                        "translation": "premio",
+                        "example": "the Bristol Business Award"
+                      },
+                      {
+                        "term": "stage",
+                        "definition": "The raised area where people speak or perform",
+                        "translation": "escenario",
+                        "example": "Lucía walks up to the stage."
+                      },
+                      {
+                        "term": "fly in",
+                        "definition": "Arrive by plane",
+                        "translation": "venir en avión",
+                        "example": "Javi has flown in from Dublin."
+                      },
+                      {
+                        "term": "lend",
+                        "definition": "Give something for a short time (lent)",
+                        "translation": "prestar",
+                        "example": "Sam lent me his lamp."
+                      },
+                      {
+                        "term": "destroy",
+                        "definition": "Damage completely",
+                        "translation": "destrozar",
+                        "example": "The wind destroyed it."
+                      },
+                      {
+                        "term": "solve",
+                        "definition": "Find an answer to a problem",
+                        "translation": "resolver",
+                        "example": "Tea solves almost everything."
+                      },
+                      {
+                        "term": "prove",
+                        "definition": "Show that something is true",
+                        "translation": "demostrar",
+                        "example": "Ollie proved that good soup solves the rest."
+                      },
+                      {
+                        "term": "chance",
+                        "definition": "An opportunity",
+                        "translation": "oportunidad",
+                        "example": "her first real chance"
+                      },
+                      {
+                        "term": "would (past habit)",
+                        "definition": "Used for repeated past actions",
+                        "translation": "solía (acciones)",
+                        "example": "I would get lost every Saturday."
+                      },
+                      {
+                        "term": "used to",
+                        "definition": "Past habits and states",
+                        "translation": "solía, antes…",
+                        "example": "I used to think…"
+                      },
+                      {
+                        "term": "had been doing",
+                        "definition": "An activity continuing up to a past moment",
+                        "translation": "llevaba haciendo",
+                        "example": "I had been studying for months."
+                      },
+                      {
+                        "term": "marry",
+                        "definition": "Become someone's husband or wife",
+                        "translation": "casarse con",
+                        "example": "Will you marry me?"
+                      },
+                      {
+                        "term": "nervous",
+                        "definition": "Worried and a bit afraid",
+                        "translation": "nervioso/a",
+                        "example": "a nervous Spanish designer"
+                      },
+                      {
+                        "term": "home",
+                        "definition": "The place where you belong",
+                        "translation": "hogar, casa",
+                        "example": "This city would become my home."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "She was tired because she had been ___ all day.",
+                        "options": [
+                          "working",
+                          "worked"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "When I was a child, we ___ go to the beach every summer.",
+                        "options": [
+                          "would",
+                          "had"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I ___ to have long hair.",
+                        "options": [
+                          "used",
+                          "would"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "He had been ___ for an hour when the bus finally came.",
+                        "options": [
+                          "waiting",
+                          "waited"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Which sentence is correct?",
+                        "options": [
+                          "I used to live in Madrid.",
+                          "I would live in Madrid."
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What did Lucía use to think \"craic\" was?",
+                        "options": [
+                          "a kind of bread",
+                          "a drink",
+                          "a city"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "c1_checkpoint_4",
+              "title": "Checkpoint 4: Coming Home",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "Is she coming? — I hope ___.",
+                        "options": [
+                          "so",
+                          "yes"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'd love to go. — So ___ I.",
+                        "options": [
+                          "would",
+                          "do"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I haven't seen it. — Neither ___ I.",
+                        "options": [
+                          "have",
+                          "do"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The film is ___ to start at nine.",
+                        "options": [
+                          "due",
+                          "bound"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She's so good she's ___ to win.",
+                        "options": [
+                          "bound",
+                          "due"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "He had been ___ for hours when she arrived.",
+                        "options": [
+                          "waiting",
+                          "waited"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Every summer we ___ visit my grandparents.",
+                        "options": [
+                          "would",
+                          "had"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I ___ to think London was always foggy.",
+                        "options": [
+                          "used",
+                          "would"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "My mum wants a big wedding. I'd rather ___.",
+                        "answers": [
+                          [
+                            "not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If you'd like ___.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We're ___ to hire four people. (previsto)",
+                        "answers": [
+                          [
+                            "set"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "They're on the ___ of closing.",
+                        "answers": [
+                          [
+                            "verge"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I had been ___ English for months. (study)",
+                        "answers": [
+                          [
+                            "studying"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ get lost every Saturday. (hábito)",
+                        "answers": [
+                          [
+                            "would"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Espero que no.",
+                        "answers": [
+                          "I hope not"
+                        ]
+                      },
+                      {
+                        "source": "Es casi seguro que llueva.",
+                        "answers": [
+                          "It's bound to rain",
+                          "It is bound to rain"
+                        ]
+                      },
+                      {
+                        "source": "Llevaba meses estudiando.",
+                        "answers": [
+                          "I had been studying for months",
+                          "I'd been studying for months"
+                        ]
+                      },
+                      {
+                        "source": "Antes pensaba que era fácil.",
+                        "answers": [
+                          "I used to think it was easy",
+                          "I used to think that it was easy"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "c1_level_test",
+              "title": "Test final C1",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "___ I really need is a holiday.",
+                        "options": [
+                          "What",
+                          "That"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "It was Helen ___ gave me my first chance.",
+                        "options": [
+                          "who",
+                          "which"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Never ___ such a beautiful sunset.",
+                        "options": [
+                          "have I seen",
+                          "I have seen"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Not only ___ late, but he also forgot the tickets.",
+                        "options": [
+                          "was he",
+                          "he was"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ the report, she sent it to the board.",
+                        "options": [
+                          "Having finished",
+                          "Finished"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "It would ___ that the figures are wrong.",
+                        "options": [
+                          "appear",
+                          "seem"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "You ___ have cooked. We'd already eaten.",
+                        "options": [
+                          "needn't",
+                          "mustn't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'd rather you ___ tell anyone.",
+                        "options": [
+                          "didn't",
+                          "don't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ the rain, we would have won.",
+                        "options": [
+                          "But for",
+                          "Unless"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "There was a significant ___ in sales.",
+                        "options": [
+                          "increase",
+                          "increasing"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I ___ appreciate your help. Really.",
+                        "options": [
+                          "do",
+                          "am"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I was ___ to leave when the phone rang.",
+                        "options": [
+                          "about",
+                          "going"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Would you like to come? — I'd love ___.",
+                        "options": [
+                          "to",
+                          "it"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The minister is ___ to resign. Everyone expects it.",
+                        "options": [
+                          "bound",
+                          "due"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "As a child, I ___ spend hours drawing.",
+                        "options": [
+                          "would",
+                          "had"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "All I want ___ some sleep.",
+                        "answers": [
+                          [
+                            "is"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Little ___ I know how far it would go.",
+                        "answers": [
+                          [
+                            "did"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ in 1890, the building is beautiful. (build)",
+                        "answers": [
+                          [
+                            "Built"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm not ___ convinced.",
+                        "answers": [
+                          [
+                            "entirely"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We'd ___ not waste time.",
+                        "answers": [
+                          [
+                            "better"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ he make an offer, tell me first.",
+                        "answers": [
+                          [
+                            "Should"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We were ___ to have a short meeting.",
+                        "answers": [
+                          [
+                            "supposed"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Did he propose? — I hope ___!",
+                        "answers": [
+                          [
+                            "so"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "What scares me most is the money"
+                      },
+                      {
+                        "answer": "Never have I worked with such a team"
+                      },
+                      {
+                        "answer": "Having seen six offices I chose this one"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Fuiste tú quien salvó el proyecto.",
+                        "answers": [
+                          "It was you who saved the project",
+                          "It was you that saved the project"
+                        ]
+                      },
+                      {
+                        "source": "Poco sabía yo que esta ciudad se convertiría en mi casa.",
+                        "answers": [
+                          "Little did I know that this city would become my home",
+                          "Little did I know this city would become my home"
+                        ]
+                      },
+                      {
+                        "source": "Invertiré siempre que tenga un puesto en el consejo.",
+                        "answers": [
+                          "I'll invest provided that I get a seat on the board",
+                          "I'll invest as long as I get a seat on the board",
+                          "I will invest provided that I get a seat on the board",
+                          "I'll invest, provided that I get a seat on the board"
+                        ]
+                      },
+                      {
+                        "source": "La oficina abrirá en octubre, según lo previsto.",
+                        "answers": [
+                          "The office is due to open in October",
+                          "The office is set to open in October"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

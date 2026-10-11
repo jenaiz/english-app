@@ -1,0 +1,510 @@
+{
+  "level_id": "C1",
+  "themes": [
+    {
+      "theme_id": "coming_home",
+      "units": [
+        {
+          "unit_id": "the_engagement",
+          "title": "The Engagement Party",
+          "description": "Habla como un nativo sin repetir: elipsis y sustitución (I hope so, So would I, If you want me to).",
+          "lessons": [
+            {
+              "lesson_id": "the_engagement_lesson",
+              "title": "Ellipsis and substitution",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "The engagement party",
+                    "dialogue": [
+                      {
+                        "speaker": "Sam",
+                        "text": "Priya! Congratulations! Did you know he was going to propose?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "I hoped so, but I didn't expect it to happen in the middle of the hospital."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "In the hospital? I'd have loved to see that."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "So would half the nurses. They all came out to watch."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Are you having a big wedding?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "I think so. My mum wants five hundred guests. I'd rather not."
+                      },
+                      {
+                        "speaker": "Ollie",
+                        "text": "Who's cooking? Me, I hope."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "If you'd like to."
+                      },
+                      {
+                        "speaker": "Ollie",
+                        "text": "I would. Indian and Spanish fusion, like this house."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "And the band could play, if you want us to."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Of course I want you to! Lucía, you'll be my bridesmaid, won't you?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Of course I will. Have you chosen a date?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Not yet. Next summer, probably. Have you and Daniel?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Have we what?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Chosen a date!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "We're not engaged, Priya! Are we, Daniel?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Not yet."
+                      }
+                    ],
+                    "passage": "June. Priya has just got engaged to Arjun, a doctor from her hospital, and there's a party at Clifton Road. Sam is back from his European tour."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"I hoped so.\" So replaces…",
+                        "options": [
+                          "that he was going to propose",
+                          "the hospital"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"So would half the nurses.\" means…",
+                        "options": [
+                          "Half the nurses would also have loved to see it.",
+                          "Half the nurses would come."
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I'd rather not.\" means…",
+                        "options": [
+                          "I'd rather not have a big wedding.",
+                          "I'd rather not cook."
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Have you and Daniel?\" means…",
+                        "options": [
+                          "Have you and Daniel chosen a date?",
+                          "Have you and Daniel moved?"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Ellipsis and substitution",
+                    "explanation": "En la conversación los nativos evitan repetir lo que ya está claro:\n• so / not sustituyen una frase entera: I hope so. I think so. I'd rather not. I hope not.\n• El auxiliar solo: Would you like to cook? — I would. You'll be my bridesmaid? — Of course I will.\n• to sin verbo: If you'd like to. I'd have loved to. if you want us to.\n• So / Neither + auxiliar + sujeto: So would half the nurses. Neither have I.\n• Preguntas cortas: Have you and Daniel? (chosen a date)\n\nResponder con la frase completa («Yes, I would like to cook») suena muy poco natural.",
+                    "table": {
+                      "headers": [
+                        "Recurso",
+                        "Ejemplo",
+                        "Frase completa"
+                      ],
+                      "rows": [
+                        [
+                          "so / not",
+                          "I hoped so. / I'd rather not.",
+                          "I hoped he'd propose. / I'd rather not have a big wedding."
+                        ],
+                        [
+                          "auxiliar solo",
+                          "I would. / Of course I will.",
+                          "I would like to cook. / I will be your bridesmaid."
+                        ],
+                        [
+                          "to sin verbo",
+                          "If you'd like to. / I'd have loved to.",
+                          "If you'd like to cook. / I'd have loved to see that."
+                        ],
+                        [
+                          "So / Neither + auxiliar + sujeto",
+                          "So would half the nurses.",
+                          "Half the nurses would also have loved to see it."
+                        ],
+                        [
+                          "pregunta corta",
+                          "Have you and Daniel?",
+                          "Have you and Daniel chosen a date?"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I hoped so.",
+                      "So would half the nurses.",
+                      "I think so. My mum wants five hundred guests. I'd rather not.",
+                      "Of course I will."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la palabra que evita repetir.",
+                    "items": [
+                      {
+                        "sentence": "Did you know he was going to propose? — I hoped ___.",
+                        "answers": [
+                          [
+                            "so"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'd have loved to see that. — ___ would half the nurses.",
+                        "answers": [
+                          [
+                            "So"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Are you having a big wedding? — I think ___.",
+                        "answers": [
+                          [
+                            "so"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "My mum wants 500 guests. I'd rather ___.",
+                        "answers": [
+                          [
+                            "not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Who's cooking? — If you'd like ___.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The band could play, if you want us ___.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You'll be my bridesmaid, won't you? — Of course I ___.",
+                        "answers": [
+                          [
+                            "will"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I haven't chosen a date. — Neither ___ I.",
+                        "answers": [
+                          [
+                            "have"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Responde de forma natural, sin repetir.",
+                    "items": [
+                      {
+                        "source": "Do you think it will rain? — I think it won't rain. (not / so)",
+                        "answers": [
+                          "I think not",
+                          "I don't think so"
+                        ]
+                      },
+                      {
+                        "source": "I'd love to come. — I would love to come too. (So…)",
+                        "answers": [
+                          "So would I"
+                        ]
+                      },
+                      {
+                        "source": "Can you help me? — I'd like to help you, but I can't. (to)",
+                        "answers": [
+                          "I'd like to, but I can't",
+                          "I'd like to but I can't",
+                          "I would like to, but I can't"
+                        ]
+                      },
+                      {
+                        "source": "I don't like coffee. — I don't like coffee either. (Neither…)",
+                        "answers": [
+                          "Neither do I"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Eso espero.",
+                        "answers": [
+                          "I hope so"
+                        ]
+                      },
+                      {
+                        "source": "Espero que no.",
+                        "answers": [
+                          "I hope not"
+                        ]
+                      },
+                      {
+                        "source": "Yo también. (respuesta a «I'd love to see it»)",
+                        "answers": [
+                          "So would I"
+                        ]
+                      },
+                      {
+                        "source": "Si quieres. (respuesta a «¿Cocino yo?»)",
+                        "answers": [
+                          "If you'd like to",
+                          "If you want to",
+                          "If you want"
+                        ]
+                      },
+                      {
+                        "source": "Yo tampoco. (respuesta a «I haven't been there»)",
+                        "answers": [
+                          "Neither have I",
+                          "Nor have I"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "I hoped so."
+                      },
+                      {
+                        "text": "I think so, but I'd rather not."
+                      },
+                      {
+                        "text": "Of course I will!"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "engaged",
+                        "definition": "Having agreed to marry",
+                        "translation": "prometido/a",
+                        "example": "Priya has just got engaged."
+                      },
+                      {
+                        "term": "propose",
+                        "definition": "Ask someone to marry you",
+                        "translation": "pedir matrimonio",
+                        "example": "Did you know he was going to propose?"
+                      },
+                      {
+                        "term": "expect",
+                        "definition": "Think something will happen",
+                        "translation": "esperar (que pase)",
+                        "example": "I didn't expect it to happen there."
+                      },
+                      {
+                        "term": "guests",
+                        "definition": "People invited to an event",
+                        "translation": "invitados",
+                        "example": "five hundred guests"
+                      },
+                      {
+                        "term": "bridesmaid",
+                        "definition": "A woman who helps the bride at a wedding",
+                        "translation": "dama de honor",
+                        "example": "You'll be my bridesmaid, won't you?"
+                      },
+                      {
+                        "term": "fusion",
+                        "definition": "A mix of styles",
+                        "translation": "fusión",
+                        "example": "Indian and Spanish fusion"
+                      },
+                      {
+                        "term": "tour",
+                        "definition": "A series of concerts in different places",
+                        "translation": "gira",
+                        "example": "back from his European tour"
+                      },
+                      {
+                        "term": "date",
+                        "definition": "A particular day",
+                        "translation": "fecha",
+                        "example": "Have you chosen a date?"
+                      },
+                      {
+                        "term": "I hope so",
+                        "definition": "I hope that is true",
+                        "translation": "eso espero",
+                        "example": "I hope so."
+                      },
+                      {
+                        "term": "I'd rather not",
+                        "definition": "I'd prefer not to",
+                        "translation": "prefiero que no",
+                        "example": "I'd rather not."
+                      },
+                      {
+                        "term": "So would I",
+                        "definition": "I would too",
+                        "translation": "yo también",
+                        "example": "So would I."
+                      },
+                      {
+                        "term": "Neither have I",
+                        "definition": "I haven't either",
+                        "translation": "yo tampoco",
+                        "example": "Neither have I."
+                      },
+                      {
+                        "term": "Not yet",
+                        "definition": "Not until now, but maybe soon",
+                        "translation": "todavía no",
+                        "example": "Not yet."
+                      },
+                      {
+                        "term": "come out to watch",
+                        "definition": "Come outside to see something",
+                        "translation": "salir a mirar",
+                        "example": "They all came out to watch."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "Will it rain tomorrow? — I hope ___.",
+                        "options": [
+                          "not",
+                          "no"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'd love a holiday. — So ___ I.",
+                        "options": [
+                          "would",
+                          "do"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I can't swim. — Neither ___ I.",
+                        "options": [
+                          "can",
+                          "do"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Would you like to join us? — I'd love ___.",
+                        "options": [
+                          "to",
+                          "it"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Is she coming? — I think ___.",
+                        "options": [
+                          "so",
+                          "yes"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Who is Priya marrying?",
+                        "options": [
+                          "Arjun, a doctor",
+                          "Sam",
+                          "Ollie"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

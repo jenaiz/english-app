@@ -33,6 +33,8 @@ Las voces son fijas. Un personaje suena siempre igual en todas las lecciones. El
 | **Maureen O'Brien** (F), madre de Daniel, en Galway | B1+ | `en-IE-EmilyNeural` |
 | **Mark Reed** (M), cliente estadounidense | B2–C1 | `en-US-GuyNeural` |
 | **Ollie** (M, 26), sobrino de Mrs Green, chef en un restaurante español; sustituye a Sam en Clifton Road | B1+ | `en-GB-OliverNeural` |
+| **Grace Walker** (F), empresaria australiana con una cadena de albergues ecológicos; primera clienta e inversora de Green Door Design | C1 | `en-AU-NatashaNeural` |
+| **Arjun** (M), médico del hospital de Priya y su prometido (no habla en los diálogos) | C1 | — |
 
 ### Roles genéricos (voces fijas por rol)
 
@@ -128,3 +130,15 @@ Para camareros, recepcionistas, etc. se usan siempre estos `speaker`. Ninguna vo
 - **B2 u10** (abril): en el puerto, Daniel pide a Lucía que se vaya a vivir con él (su contrato de alquiler acaba en junio). Ella acepta.
 - **B2 u11** (mayo): Javi visita Bristol por primera vez. En el puente colgante, Lucía le cuenta que piensa montar su propio estudio.
 - **B2 u12** (junio): Helen anuncia que se jubila a final de año. Mark Reed quiere comprar el estudio, pero Helen prefiere que Lucía se quede con parte de los clientes en su propio estudio.
+- **C1 u1** (julio, año 3): Lucía y Daniel se mudan a un piso junto al puerto. Ella duda si montar su estudio y Daniel se ofrece como socio.
+- **C1 u2** (diciembre): despedida de Helen con discurso. Rechazó la oferta de Mark y se jubila para navegar por Grecia.
+- **C1 u3** (enero, año 4): alquilan una oficina encima de la librería de Park Street, la calle donde Lucía se perdió en A1. Nace Green Door Design, en honor a la puerta de Mrs Green.
+- **C1 u4** (febrero): primera clienta, Grace Walker (albergues ecológicos). Acuerdan una prueba piloto con un albergue.
+- **C1 u5** (marzo): el piloto sale bien y buscan a su primer empleado. Helen les manda currículos.
+- **C1 u6** (abril): Grace invierte a cambio de un puesto en el consejo y de un crecimiento del 30%. Mark les invita a presentar en Nueva York.
+- **C1 u7** (mayo): en Nueva York, la noche antes de la presentación, pasan las diapositivas a registro formal.
+- **C1 u8**: presentación en Reed Hotels. Mark invierte y les encarga sus hoteles europeos, con la condición de que Grace siga en el proyecto.
+- **C1 u9**: de vuelta, Lucía se lo cuenta a Javi. La oficina de Madrid abrirá en octubre.
+- **C1 u10** (junio): fiesta de compromiso de Priya y Arjun en Clifton Road. Sam vuelve de la gira, Ollie cocina y Lucía será dama de honor. Daniel: "Not yet."
+- **C1 u11** (agosto): entrevista de radio a Lucía sobre Green Door Design.
+- **C1 u12** (octubre, año 4): Green Door Design gana el Bristol Business Award. En su discurso, Lucía repasa su llegada a Bristol. Después, Daniel le pide matrimonio y ella acepta.

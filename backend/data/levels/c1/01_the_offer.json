@@ -1,0 +1,512 @@
+{
+  "level_id": "C1",
+  "themes": [
+    {
+      "theme_id": "endings",
+      "units": [
+        {
+          "unit_id": "the_offer",
+          "title": "What Keeps Me Awake",
+          "description": "Pon el foco donde quieres: cleft sentences (What I need is…, It was you who…).",
+          "lessons": [
+            {
+              "lesson_id": "the_offer_lesson",
+              "title": "Cleft sentences",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "What keeps me awake",
+                    "dialogue": [
+                      {
+                        "speaker": "Daniel",
+                        "text": "You've been staring at that ceiling for an hour. What's on your mind?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "What I keep asking myself is whether I'm ready."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Ready for what, exactly? Running a studio, or saying no to Mark?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "It's not Mark I'm worried about. It's the clients. What if they follow Helen's name, not mine?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "The thing is, they already ask for you. It was you who saved the museum project, not Helen."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "It was both of us. What Helen gave me was the chance."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "And what you did with it was impressive. All I'm saying is, don't let fear decide for you."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "What scares me most is the money. I'd be risking everything we've saved."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "The reason I'm not worried is that you never do anything without a plan."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "That's true. Where I'd really need help is the technical side."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Then it's me you need. I'm not going anywhere."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Are you offering to leave Harbour Studio?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "What I'm offering is a partner. If you'll have me."
+                      }
+                    ],
+                    "passage": "July, year three. Lucía and Daniel have just moved into a flat near the harbour. There are boxes everywhere, and Lucía hasn't slept properly since Helen's offer."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"What I keep asking myself is whether I'm ready.\" The emphasis is on…",
+                        "options": [
+                          "whether I'm ready",
+                          "myself"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"It was you who saved the museum project.\" This emphasises…",
+                        "options": [
+                          "who saved it (you, not Helen)",
+                          "what was saved"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"All I'm saying is…\" means…",
+                        "options": [
+                          "lo único que digo es…",
+                          "todo lo que digo es mentira"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What is Daniel offering?",
+                        "options": [
+                          "to be her business partner",
+                          "money",
+                          "to find clients"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Cleft sentences",
+                    "explanation": "Las cleft sentences dividen una frase en dos para poner el foco en la información importante o en un contraste:\n• What-cleft: What + oración + be + foco. What scares me most is the money.\n• It-cleft: It + be + foco + who/that + resto. It was you who saved the project (no fue Helen).\n• All-cleft: All + oración + be + foco = lo único. All I'm saying is, don't let fear decide.\n• Otras: The reason (why)… is that… / Where… is… / The thing is…\n\nSon muy comunes en conversación y en presentaciones: ordenan el discurso y destacan lo nuevo.",
+                    "table": {
+                      "headers": [
+                        "Tipo",
+                        "Estructura",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "What-cleft",
+                          "What + sujeto + verbo + be + foco",
+                          "What scares me most is the money."
+                        ],
+                        [
+                          "It-cleft",
+                          "It + be + foco + who/that…",
+                          "It was you who saved the museum project."
+                        ],
+                        [
+                          "All-cleft",
+                          "All + sujeto + verbo + be…",
+                          "All I'm saying is, don't let fear decide."
+                        ],
+                        [
+                          "The reason…",
+                          "The reason (why)… is that…",
+                          "The reason I'm not worried is that you always have a plan."
+                        ],
+                        [
+                          "Lugar / persona",
+                          "Where… is / It's… that",
+                          "Where I'd need help is the technical side."
+                        ],
+                        [
+                          "The thing is…",
+                          "introducir el problema",
+                          "The thing is, they already ask for you."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "What I keep asking myself is whether I'm ready.",
+                      "It's not Mark I'm worried about.",
+                      "It was you who saved the museum project, not Helen.",
+                      "What I'm offering is a partner."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa la cleft sentence.",
+                    "items": [
+                      {
+                        "sentence": "___ I keep asking myself is whether I'm ready.",
+                        "answers": [
+                          [
+                            "What"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It ___ you who saved the museum project.",
+                        "answers": [
+                          [
+                            "was"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It's not Mark ___ I'm worried about.",
+                        "answers": [
+                          [
+                            "that",
+                            "who"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "What Helen gave me ___ the chance.",
+                        "answers": [
+                          [
+                            "was"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ I'm saying is, don't let fear decide.",
+                        "answers": [
+                          [
+                            "All"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The reason I'm not worried is ___ you always have a plan.",
+                        "answers": [
+                          [
+                            "that"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ I'd really need help is the technical side.",
+                        "answers": [
+                          [
+                            "Where"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "What I'm offering ___ a partner.",
+                        "answers": [
+                          [
+                            "is"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Reescribe para dar énfasis.",
+                    "items": [
+                      {
+                        "source": "The money scares me most. (What…)",
+                        "answers": [
+                          "What scares me most is the money"
+                        ]
+                      },
+                      {
+                        "source": "You saved the project. (It was…)",
+                        "answers": [
+                          "It was you who saved the project",
+                          "It was you that saved the project"
+                        ]
+                      },
+                      {
+                        "source": "I need a holiday. (What…)",
+                        "answers": [
+                          "What I need is a holiday"
+                        ]
+                      },
+                      {
+                        "source": "I only want some sleep. (All…)",
+                        "answers": [
+                          "All I want is some sleep"
+                        ]
+                      },
+                      {
+                        "source": "I'm worried because of the money. (The reason…)",
+                        "answers": [
+                          "The reason I'm worried is the money",
+                          "The reason why I'm worried is the money"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Lo que me da miedo es el dinero.",
+                        "answers": [
+                          "What scares me is the money",
+                          "What frightens me is the money"
+                        ]
+                      },
+                      {
+                        "source": "Fuiste tú quien salvó el proyecto.",
+                        "answers": [
+                          "It was you who saved the project",
+                          "It was you that saved the project"
+                        ]
+                      },
+                      {
+                        "source": "Lo único que digo es que no decida el miedo.",
+                        "answers": [
+                          "All I'm saying is, don't let fear decide",
+                          "All I'm saying is don't let fear decide",
+                          "All I am saying is, don't let fear decide"
+                        ]
+                      },
+                      {
+                        "source": "Lo que necesito es un socio.",
+                        "answers": [
+                          "What I need is a partner"
+                        ]
+                      },
+                      {
+                        "source": "La razón por la que no estoy preocupado es que siempre tienes un plan.",
+                        "answers": [
+                          "The reason I'm not worried is that you always have a plan",
+                          "The reason why I'm not worried is that you always have a plan",
+                          "The reason I'm not worried is you always have a plan"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "What I keep asking myself is whether I'm ready."
+                      },
+                      {
+                        "text": "It was you who saved the museum project."
+                      },
+                      {
+                        "text": "What I'm offering is a partner."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "stare at",
+                        "definition": "Look at something for a long time",
+                        "translation": "mirar fijamente",
+                        "example": "You've been staring at that ceiling."
+                      },
+                      {
+                        "term": "on your mind",
+                        "definition": "Worrying you",
+                        "translation": "en la cabeza, preocupándote",
+                        "example": "What's on your mind?"
+                      },
+                      {
+                        "term": "run (a business)",
+                        "definition": "Manage a company",
+                        "translation": "dirigir",
+                        "example": "Running a studio."
+                      },
+                      {
+                        "term": "chance",
+                        "definition": "An opportunity",
+                        "translation": "oportunidad",
+                        "example": "What Helen gave me was the chance."
+                      },
+                      {
+                        "term": "impressive",
+                        "definition": "Making people admire you",
+                        "translation": "impresionante",
+                        "example": "What you did with it was impressive."
+                      },
+                      {
+                        "term": "fear",
+                        "definition": "The feeling of being afraid",
+                        "translation": "miedo",
+                        "example": "Don't let fear decide."
+                      },
+                      {
+                        "term": "risk",
+                        "definition": "Put something in danger",
+                        "translation": "arriesgar",
+                        "example": "I'd be risking everything."
+                      },
+                      {
+                        "term": "savings",
+                        "definition": "Money you have kept",
+                        "translation": "ahorros",
+                        "example": "everything we've saved"
+                      },
+                      {
+                        "term": "partner",
+                        "definition": "A person who owns a business with you",
+                        "translation": "socio/a",
+                        "example": "What I'm offering is a partner."
+                      },
+                      {
+                        "term": "If you'll have me",
+                        "definition": "If you accept me",
+                        "translation": "si me aceptas",
+                        "example": "If you'll have me."
+                      },
+                      {
+                        "term": "The thing is…",
+                        "definition": "Used to introduce the important point",
+                        "translation": "la cuestión es que…",
+                        "example": "The thing is, they already ask for you."
+                      },
+                      {
+                        "term": "exactly",
+                        "definition": "Precisely",
+                        "translation": "exactamente",
+                        "example": "Ready for what, exactly?"
+                      },
+                      {
+                        "term": "technical side",
+                        "definition": "The part related to technology",
+                        "translation": "parte técnica",
+                        "example": "the technical side"
+                      },
+                      {
+                        "term": "properly",
+                        "definition": "Well, correctly",
+                        "translation": "bien, como es debido",
+                        "example": "Lucía hasn't slept properly."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "___ I need is a coffee.",
+                        "options": [
+                          "What",
+                          "That",
+                          "Which"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "It was Helen ___ gave me the chance.",
+                        "options": [
+                          "who",
+                          "which",
+                          "what"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "All I want ___ some peace and quiet.",
+                        "options": [
+                          "is",
+                          "are",
+                          "was being"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The reason I left is ___ I was bored.",
+                        "options": [
+                          "that",
+                          "because of"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "It's not the money ___ I care about.",
+                        "options": [
+                          "that",
+                          "what"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Where have Lucía and Daniel just moved to?",
+                        "options": [
+                          "a flat near the harbour",
+                          "Clifton Road",
+                          "Madrid"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

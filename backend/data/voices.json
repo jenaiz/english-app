@@ -83,5 +83,10 @@
     "voice": "en-GB-OliverNeural",
     "lang": "en-GB",
     "gender": "male"
+  },
+  "Grace": {
+    "voice": "en-AU-NatashaNeural",
+    "lang": "en-AU",
+    "gender": "female"
   }
 }

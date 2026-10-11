@@ -1,0 +1,497 @@
+{
+  "level_id": "C1",
+  "themes": [
+    {
+      "theme_id": "new_york",
+      "units": [
+        {
+          "unit_id": "pitch_prep",
+          "title": "The Night Before",
+          "description": "Convierte un inglés coloquial en formal: nominalización y registro de negocios.",
+          "lessons": [
+            {
+              "lesson_id": "pitch_prep_lesson",
+              "title": "Nominalisation and formal register",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "The night before",
+                    "dialogue": [
+                      {
+                        "speaker": "Daniel",
+                        "text": "Slide four says: \"We grew really fast last year.\" Too casual?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Much too casual. Let's say: \"The studio experienced rapid growth last year.\""
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Fine. Slide five: \"Clients booked more rooms because the sites were easier to use.\""
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "\"Improved usability led to a significant increase in bookings.\""
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "You sound like Helen. Slide six: \"We want to open an office in Madrid.\""
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "\"Our intention is to expand into the Spanish market.\" Mark loves the word \"expand\"."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "And this one: \"We decided to work with Grace because she understood us.\""
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "\"Our decision to partner with Grace was based on a shared vision.\""
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Do people really talk like this?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "In boardrooms they do. Tomorrow we speak their language. Tonight, we speak ours."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "In that case, my proposal is the immediate acquisition of a pizza."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Proposal accepted."
+                      }
+                    ],
+                    "passage": "May. New York, the night before the pitch. Lucía and Daniel are in their hotel room, rewriting the presentation for Mark Reed's board."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"The studio experienced rapid growth\" vs \"We grew really fast\". The formal version uses…",
+                        "options": [
+                          "a noun (growth)",
+                          "a verb (grew)"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"…led to a significant increase in bookings.\" Here increase is…",
+                        "options": [
+                          "a noun",
+                          "a verb"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Our intention is to expand…\" = …",
+                        "options": [
+                          "We intend to expand…",
+                          "We are expanding now…"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What does Daniel propose at the end?",
+                        "options": [
+                          "ordering a pizza",
+                          "cancelling the pitch",
+                          "going to bed"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Nominalisation and formal register",
+                    "explanation": "En informes, presentaciones y textos académicos el inglés formal convierte verbos y adjetivos en nombres. A eso se le llama nominalización, y hace el texto más objetivo y denso:\ngrow → growth · decide → decision · intend → intention · improve → improvement · fail → failure · increase → an increase.\n\nPatrones típicos: the + nombre + of (the failure of the old site), a + adjetivo + nombre (a significant increase), lead to / result in (provocar).\n\nCompara: We grew really fast (coloquial) → The studio experienced rapid growth (formal).",
+                    "table": {
+                      "headers": [
+                        "Coloquial",
+                        "Formal (nombre)",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "grow fast",
+                          "rapid growth",
+                          "The studio experienced rapid growth."
+                        ],
+                        [
+                          "decide",
+                          "decision",
+                          "Our decision to partner with Grace…"
+                        ],
+                        [
+                          "intend",
+                          "intention",
+                          "Our intention is to expand."
+                        ],
+                        [
+                          "increase",
+                          "an increase in",
+                          "a significant increase in bookings"
+                        ],
+                        [
+                          "improve",
+                          "improvement",
+                          "a clear improvement in speed"
+                        ],
+                        [
+                          "easy to use",
+                          "usability",
+                          "Improved usability led to more bookings."
+                        ],
+                        [
+                          "fail",
+                          "failure",
+                          "The failure of the old site…"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "The studio experienced rapid growth last year.",
+                      "Improved usability led to a significant increase in bookings.",
+                      "Our intention is to expand into the Spanish market.",
+                      "Our decision to partner with Grace was based on a shared vision."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el nombre o la preposición.",
+                    "items": [
+                      {
+                        "sentence": "The studio experienced rapid ___ last year. (grow)",
+                        "answers": [
+                          [
+                            "growth"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Our ___ to partner with Grace was based on a shared vision. (decide)",
+                        "answers": [
+                          [
+                            "decision"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Our ___ is to expand into the Spanish market. (intend)",
+                        "answers": [
+                          [
+                            "intention"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Improved usability led ___ a significant increase in bookings.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "There was a significant ___ in bookings. (increase)",
+                        "answers": [
+                          [
+                            "increase"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The ___ of the old website cost us clients. (fail)",
+                        "answers": [
+                          [
+                            "failure"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We noticed a clear ___ in speed. (improve)",
+                        "answers": [
+                          [
+                            "improvement"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The new design resulted ___ more bookings.",
+                        "answers": [
+                          [
+                            "in"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Reescribe en registro formal.",
+                    "items": [
+                      {
+                        "source": "We grew really fast last year. (The studio experienced…)",
+                        "answers": [
+                          "The studio experienced rapid growth last year"
+                        ]
+                      },
+                      {
+                        "source": "Bookings went up a lot. (There was a significant…)",
+                        "answers": [
+                          "There was a significant increase in bookings"
+                        ]
+                      },
+                      {
+                        "source": "We want to expand into Spain. (Our intention…)",
+                        "answers": [
+                          "Our intention is to expand into Spain"
+                        ]
+                      },
+                      {
+                        "source": "The site got much faster. (There was a significant improvement…)",
+                        "answers": [
+                          "There was a significant improvement in speed",
+                          "There was a significant improvement in the speed of the site"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "El estudio experimentó un rápido crecimiento.",
+                        "answers": [
+                          "The studio experienced rapid growth"
+                        ]
+                      },
+                      {
+                        "source": "Nuestra intención es expandirnos.",
+                        "answers": [
+                          "Our intention is to expand"
+                        ]
+                      },
+                      {
+                        "source": "Hubo un aumento significativo de las reservas.",
+                        "answers": [
+                          "There was a significant increase in bookings"
+                        ]
+                      },
+                      {
+                        "source": "La decisión se basó en una visión compartida.",
+                        "answers": [
+                          "The decision was based on a shared vision"
+                        ]
+                      },
+                      {
+                        "source": "La mejora de la usabilidad provocó más reservas.",
+                        "answers": [
+                          "Improved usability led to more bookings",
+                          "The improvement in usability led to more bookings"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta, como en una presentación.",
+                    "items": [
+                      {
+                        "text": "The studio experienced rapid growth last year."
+                      },
+                      {
+                        "text": "Improved usability led to a significant increase in bookings."
+                      },
+                      {
+                        "text": "Our intention is to expand into the Spanish market."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "pitch",
+                        "definition": "A presentation to win business",
+                        "translation": "presentación (para vender una idea)",
+                        "example": "the night before the pitch"
+                      },
+                      {
+                        "term": "casual",
+                        "definition": "Informal",
+                        "translation": "informal, coloquial",
+                        "example": "Too casual?"
+                      },
+                      {
+                        "term": "rapid growth",
+                        "definition": "Fast increase in size",
+                        "translation": "crecimiento rápido",
+                        "example": "The studio experienced rapid growth."
+                      },
+                      {
+                        "term": "usability",
+                        "definition": "How easy something is to use",
+                        "translation": "usabilidad",
+                        "example": "Improved usability…"
+                      },
+                      {
+                        "term": "lead to",
+                        "definition": "Cause",
+                        "translation": "provocar, conducir a",
+                        "example": "led to a significant increase"
+                      },
+                      {
+                        "term": "significant",
+                        "definition": "Large or important",
+                        "translation": "significativo/a",
+                        "example": "a significant increase"
+                      },
+                      {
+                        "term": "increase",
+                        "definition": "A rise in amount",
+                        "translation": "aumento",
+                        "example": "an increase in bookings"
+                      },
+                      {
+                        "term": "expand into",
+                        "definition": "Grow into a new market",
+                        "translation": "expandirse a",
+                        "example": "expand into the Spanish market"
+                      },
+                      {
+                        "term": "intention",
+                        "definition": "What you plan to do",
+                        "translation": "intención",
+                        "example": "Our intention is to expand."
+                      },
+                      {
+                        "term": "partner with",
+                        "definition": "Work together with",
+                        "translation": "asociarse con",
+                        "example": "our decision to partner with Grace"
+                      },
+                      {
+                        "term": "shared vision",
+                        "definition": "The same idea of the future",
+                        "translation": "visión compartida",
+                        "example": "based on a shared vision"
+                      },
+                      {
+                        "term": "boardroom",
+                        "definition": "The room where a company board meets",
+                        "translation": "sala de juntas",
+                        "example": "In boardrooms they do."
+                      },
+                      {
+                        "term": "acquisition",
+                        "definition": "Buying something (often a company)",
+                        "translation": "adquisición",
+                        "example": "the immediate acquisition of a pizza"
+                      },
+                      {
+                        "term": "proposal",
+                        "definition": "A plan or suggestion",
+                        "translation": "propuesta",
+                        "example": "Proposal accepted."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "decide → ___",
+                        "options": [
+                          "decision",
+                          "decidement"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "grow → ___",
+                        "options": [
+                          "growth",
+                          "growing"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "There was an increase ___ sales.",
+                        "options": [
+                          "in",
+                          "of"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The changes ___ to better results.",
+                        "options": [
+                          "led",
+                          "resulted"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Which is more formal?",
+                        "options": [
+                          "Our intention is to expand.",
+                          "We want to get bigger."
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Where are Lucía and Daniel?",
+                        "options": [
+                          "in a hotel room in New York",
+                          "in the office in Bristol",
+                          "on a plane"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

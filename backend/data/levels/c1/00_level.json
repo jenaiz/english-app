@@ -1,11 +1,23 @@
 {
   "level_id": "C1",
   "title": "C1 Advanced",
-  "description": "Precisión, registro formal y estructuras avanzadas",
+  "description": "Lucía funda su propio estudio: énfasis, inversión, registro formal, hedging y matices avanzados.",
   "themes": [
     {
-      "theme_id": "academic_professional",
-      "title": "Academic & Professional English"
+      "theme_id": "endings",
+      "title": "Endings and Beginnings"
+    },
+    {
+      "theme_id": "building",
+      "title": "Building a Business"
+    },
+    {
+      "theme_id": "new_york",
+      "title": "New York"
+    },
+    {
+      "theme_id": "coming_home",
+      "title": "Coming Home"
     }
   ]
 }

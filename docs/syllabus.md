@@ -104,8 +104,25 @@ Corresponde al nivel de Empower B2 / English File Upper-Intermediate. Capítulos
 | 11 | `what_if` | condicionales mixtos | decisiones vitales | reflexionar sobre el pasado | En el puente |
 | 12 | `big_news` | oraciones de relativo explicativas; which (frase), whose, most of whom | empresa, jubilación | dar noticias formales | Grandes noticias · **Checkpoint 4 + Test B2** |
 
-## C1 Advanced: *Her own studio* (borrador)
+## C1 Advanced: *Her own studio*
 
-Temas: Farewells · Starting up · Pitching in New York · Looking back.
-Gramática: inversión enfática; cleft sentences; participle clauses; hedging y lenguaje impersonal; nominalización; modales avanzados (*needn't have*, *might well*); colocaciones y registro formal frente a informal.
-Integra `inversion_emphasis` (el discurso de despedida de Helen).
+Corresponde al nivel de Empower C1 / English File Advanced. Capítulos en [story/c1.md](story/c1.md).
+
+| # | unit_id | Gramática | Vocabulario y expresiones | Función | Capítulo |
+|---|---|---|---|---|---|
+| **Tema 1: Endings and Beginnings** |
+| 1 | `the_offer` | cleft sentences (What…, It was… who, All…, The reason…) | decisiones, emprendimiento | enfatizar, ordenar ideas | Lo que me quita el sueño |
+| 2 | `inversion_emphasis` | inversión negativa (Never have I…, Little did I…, Not only…) | discursos; *the elephant in the room*, *a blessing in disguise*, *take it with a pinch of salt* | discurso formal | La despedida de Helen |
+| 3 | `starting_up` | participle clauses (-ing, participio, having + participio) | inmuebles, contratos | escribir de forma concisa | Encima de la librería · **Checkpoint 1** |
+| **Tema 2: Building a Business** |
+| 4 | `first_client` | hedging (It would appear, tend to, arguably, to some extent) | negociación, clientes | negociar con cautela | La primera clienta |
+| 5 | `first_hire` | needn't have / didn't need to; would rather; had better | contratación | matizar necesidad y preferencia | La primera contratación |
+| 6 | `money_talk` | condicionales sin if: provided that, as long as, but for, otherwise; Should/Had + sujeto | inversión, condiciones | fijar condiciones | Términos y condiciones · **Checkpoint 2** |
+| **Tema 3: New York** |
+| 7 | `pitch_prep` | nominalización y registro formal | presentaciones de negocio | pasar de coloquial a formal | La noche antes |
+| 8 | `the_pitch` | énfasis: do/did, such/so, inversión con so, anteposición | finanzas, acuerdos | persuadir | La presentación |
+| 9 | `jet_lag` | el futuro en el pasado: was going to, was about to, would, was to | viajes, planes que cambian | contar cambios de planes | Jet lag · **Checkpoint 3** |
+| **Tema 4: Coming Home** |
+| 10 | `the_engagement` | elipsis y sustitución (so/not, So would I, if you want to) | bodas, celebraciones | conversar con naturalidad | La fiesta de compromiso |
+| 11 | `radio_interview` | probabilidad: bound to, likely to, set to, due to, on the verge of | empresa, medios | hacer previsiones | En la radio |
+| 12 | `looking_back` | tiempos narrativos: had been doing, would, used to | recuerdos | contar una historia personal | Hogar · **Checkpoint 4 + Test C1** |

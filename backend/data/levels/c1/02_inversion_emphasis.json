@@ -1,0 +1,507 @@
+{
+  "level_id": "C1",
+  "themes": [
+    {
+      "theme_id": "endings",
+      "units": [
+        {
+          "unit_id": "inversion_emphasis",
+          "title": "Helen's Farewell",
+          "description": "El discurso de despedida de Helen: inversión enfática para un registro formal.",
+          "lessons": [
+            {
+              "lesson_id": "negative_inversion",
+              "title": "Negative inversion",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Helen's farewell",
+                    "dialogue": [
+                      {
+                        "speaker": "Helen",
+                        "text": "Twenty years ago, I started this studio at my kitchen table. Little did I know how far it would go."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Never have I worked with a team as talented, or as stubborn, as this one."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Not only did you make our clients happy, but you also made me laugh every single day."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Rarely does a boss get to say that, so I'll say it twice. Thank you."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Now, let's address the elephant in the room. Yes, Mark Reed offered to buy us. And no, I didn't accept."
+                      },
+                      {
+                        "speaker": "Mark",
+                        "text": "And I'm still disappointed, Helen!"
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Only when I saw what Lucía could do did I understand what the future of this studio should look like."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Losing a few clients to her new studio will be a blessing in disguise. They'll be in excellent hands."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Helen, you're going to make me cry."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Under no circumstances are you to cry, Lucía. Not tonight."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "And if anyone tells you I'm retiring because I'm tired, take it with a pinch of salt. I'm retiring because I want to sail around Greece."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "No sooner had I booked the boat than my husband bought a captain's hat. Please, raise your glasses. To Harbour Studio!"
+                      }
+                    ],
+                    "passage": "December. Harbour Studio's farewell party for Helen. The office is full of former clients, colleagues and friends. Helen taps her glass, and the room goes quiet."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el discurso y responde.",
+                    "items": [
+                      {
+                        "question": "\"Never have I worked with a team as talented…\" The word order is…",
+                        "options": [
+                          "auxiliary + subject (like a question)",
+                          "subject + auxiliary"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Little did I know how far it would go.\" means…",
+                        "options": [
+                          "No tenía ni idea de lo lejos que llegaría.",
+                          "Sabía un poco."
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Not only did you make our clients happy, but you also…\" Where is the inversion?",
+                        "options": [
+                          "only in the first part",
+                          "in both parts"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"the elephant in the room\" means…",
+                        "options": [
+                          "un problema evidente del que nadie habla",
+                          "un regalo enorme"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Negative inversion",
+                    "explanation": "Cuando una frase empieza con una expresión negativa o restrictiva, el auxiliar va delante del sujeto, como en una pregunta: Never have I worked with such a team.\n\nSi no hay auxiliar, se usa do / does / did: Rarely does a boss get to say that. Little did I know…\n\nLas expresiones más frecuentes son never, rarely, seldom, little, not only… but also, only when / only after, under no circumstances, no sooner… than, hardly… when y at no time.\n\nEs propia de discursos, escritos formales y de la narración, y da un tono solemne o dramático.",
+                    "table": {
+                      "headers": [
+                        "Expresión",
+                        "Ejemplo",
+                        "Equivale a"
+                      ],
+                      "rows": [
+                        [
+                          "Never",
+                          "Never have I worked with such a team.",
+                          "I have never worked with such a team."
+                        ],
+                        [
+                          "Rarely / Seldom",
+                          "Rarely does a boss get to say that.",
+                          "A boss rarely gets to say that."
+                        ],
+                        [
+                          "Little",
+                          "Little did I know how far it would go.",
+                          "I had no idea how far it would go."
+                        ],
+                        [
+                          "Not only… but also",
+                          "Not only did you make them happy, but you also made me laugh.",
+                          "You made them happy and you also made me laugh."
+                        ],
+                        [
+                          "Only when",
+                          "Only when I saw her work did I understand.",
+                          "I only understood when I saw her work."
+                        ],
+                        [
+                          "Under no circumstances",
+                          "Under no circumstances are you to cry.",
+                          "You must not cry in any situation."
+                        ],
+                        [
+                          "No sooner… than",
+                          "No sooner had I booked the boat than he bought a hat.",
+                          "As soon as I booked the boat, he bought a hat."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Never have I worked with a team as talented, or as stubborn, as this one.",
+                      "Little did I know how far it would go.",
+                      "Only when I saw what Lucía could do did I understand.",
+                      "Under no circumstances are you to cry, Lucía."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el auxiliar o la palabra que falta.",
+                    "items": [
+                      {
+                        "sentence": "Never ___ I worked with such a talented team.",
+                        "answers": [
+                          [
+                            "have"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Little ___ I know how far it would go.",
+                        "answers": [
+                          [
+                            "did"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Not only ___ you make our clients happy, but…",
+                        "answers": [
+                          [
+                            "did"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Rarely ___ a boss get to say that.",
+                        "answers": [
+                          [
+                            "does"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Only when I saw her work ___ I understand.",
+                        "answers": [
+                          [
+                            "did"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Under no circumstances ___ you to cry.",
+                        "answers": [
+                          [
+                            "are"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "No sooner had I booked the boat ___ my husband bought a hat.",
+                        "answers": [
+                          [
+                            "than"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Hardly ___ we arrived when it started to rain.",
+                        "answers": [
+                          [
+                            "had"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Reescribe con inversión.",
+                    "items": [
+                      {
+                        "source": "I have never seen such a mess. (Never…)",
+                        "answers": [
+                          "Never have I seen such a mess"
+                        ]
+                      },
+                      {
+                        "source": "I didn't know she was leaving. (Little…)",
+                        "answers": [
+                          "Little did I know she was leaving",
+                          "Little did I know that she was leaving"
+                        ]
+                      },
+                      {
+                        "source": "We rarely get such good news. (Rarely…)",
+                        "answers": [
+                          "Rarely do we get such good news"
+                        ]
+                      },
+                      {
+                        "source": "She speaks French and she also speaks Arabic. (Not only…)",
+                        "answers": [
+                          "Not only does she speak French, but she also speaks Arabic",
+                          "Not only does she speak French but she also speaks Arabic",
+                          "Not only does she speak French, she also speaks Arabic"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Nunca he trabajado con un equipo tan bueno.",
+                        "answers": [
+                          "Never have I worked with such a good team",
+                          "I have never worked with such a good team"
+                        ]
+                      },
+                      {
+                        "source": "Poco sabía yo lo lejos que llegaría.",
+                        "answers": [
+                          "Little did I know how far it would go"
+                        ]
+                      },
+                      {
+                        "source": "No solo nos hiciste felices, sino que también nos hiciste reír.",
+                        "answers": [
+                          "Not only did you make us happy, but you also made us laugh",
+                          "Not only did you make us happy but you also made us laugh",
+                          "Not only did you make us happy, you also made us laugh"
+                        ]
+                      },
+                      {
+                        "source": "Bajo ninguna circunstancia debes llorar.",
+                        "answers": [
+                          "Under no circumstances are you to cry",
+                          "Under no circumstances should you cry"
+                        ]
+                      },
+                      {
+                        "source": "En cuanto reservé el barco, compró un sombrero.",
+                        "answers": [
+                          "No sooner had I booked the boat than he bought a hat",
+                          "As soon as I booked the boat, he bought a hat"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta, como en un discurso.",
+                    "items": [
+                      {
+                        "text": "Never have I worked with a team as talented as this one."
+                      },
+                      {
+                        "text": "Little did I know how far it would go."
+                      },
+                      {
+                        "text": "Not only did you make our clients happy, but you also made me laugh."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "farewell",
+                        "definition": "Saying goodbye, especially formally",
+                        "translation": "despedida",
+                        "example": "Helen's farewell party"
+                      },
+                      {
+                        "term": "former",
+                        "definition": "From before; not now",
+                        "translation": "antiguo/a, ex-",
+                        "example": "former clients"
+                      },
+                      {
+                        "term": "talented",
+                        "definition": "With natural ability",
+                        "translation": "con talento",
+                        "example": "a team as talented as this one"
+                      },
+                      {
+                        "term": "stubborn",
+                        "definition": "Not willing to change your mind",
+                        "translation": "terco/a, cabezota",
+                        "example": "as stubborn as this one"
+                      },
+                      {
+                        "term": "address (a problem)",
+                        "definition": "Start to deal with something",
+                        "translation": "abordar",
+                        "example": "Let's address the elephant in the room."
+                      },
+                      {
+                        "term": "the elephant in the room",
+                        "definition": "An obvious problem nobody talks about",
+                        "translation": "el tema que nadie se atreve a mencionar",
+                        "example": "Let's address the elephant in the room."
+                      },
+                      {
+                        "term": "a blessing in disguise",
+                        "definition": "Something bad that turns out to be good",
+                        "translation": "no hay mal que por bien no venga",
+                        "example": "It will be a blessing in disguise."
+                      },
+                      {
+                        "term": "take it with a pinch of salt",
+                        "definition": "Don't believe it completely",
+                        "translation": "no tomárselo al pie de la letra",
+                        "example": "Take it with a pinch of salt."
+                      },
+                      {
+                        "term": "disappointed",
+                        "definition": "Sad because something was not as hoped",
+                        "translation": "decepcionado/a",
+                        "example": "I'm still disappointed!"
+                      },
+                      {
+                        "term": "sail",
+                        "definition": "Travel by boat",
+                        "translation": "navegar",
+                        "example": "I want to sail around Greece."
+                      },
+                      {
+                        "term": "raise your glasses",
+                        "definition": "Lift your glasses to make a toast",
+                        "translation": "alzar las copas",
+                        "example": "Please, raise your glasses."
+                      },
+                      {
+                        "term": "little did I know",
+                        "definition": "I had no idea",
+                        "translation": "poco sabía yo",
+                        "example": "Little did I know…"
+                      },
+                      {
+                        "term": "under no circumstances",
+                        "definition": "Never, in any situation",
+                        "translation": "bajo ninguna circunstancia",
+                        "example": "Under no circumstances are you to cry."
+                      },
+                      {
+                        "term": "no sooner… than",
+                        "definition": "Immediately after",
+                        "translation": "nada más… / en cuanto…",
+                        "example": "No sooner had I booked the boat than…"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "Never ___ I seen such a beautiful view.",
+                        "options": [
+                          "have",
+                          "I have",
+                          "did"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Rarely ___ he arrive on time.",
+                        "options": [
+                          "does",
+                          "do",
+                          "is"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Little ___ they know what was coming.",
+                        "options": [
+                          "did",
+                          "had",
+                          "were"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Not only ___ she sing, but she also plays the piano.",
+                        "options": [
+                          "does",
+                          "is",
+                          "can she"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "No sooner had we sat down ___ the phone rang.",
+                        "options": [
+                          "than",
+                          "when",
+                          "that"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Why is Helen really retiring?",
+                        "options": [
+                          "to sail around Greece",
+                          "because she is tired",
+                          "to work for Mark"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

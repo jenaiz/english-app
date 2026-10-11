@@ -1,0 +1,676 @@
+{
+  "level_id": "C1",
+  "themes": [
+    {
+      "theme_id": "endings",
+      "units": [
+        {
+          "unit_id": "starting_up",
+          "title": "Above the Bookshop",
+          "description": "Condensa la información como en un texto formal: participle clauses.",
+          "lessons": [
+            {
+              "lesson_id": "starting_up_lesson",
+              "title": "Participle clauses",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Above the bookshop",
+                    "dialogue": [
+                      {
+                        "speaker": "Agent",
+                        "text": "Built in 1890, the building has been completely renovated. Having been empty for six months, the office is available immediately."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "It's lovely. Looking out of this window, I can see the street where I got lost on my first Saturday in Bristol."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Next to the café, opposite the cinema. I gave you directions, remember?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "How could I forget?"
+                      },
+                      {
+                        "speaker": "Agent",
+                        "text": "If signed today, the contract would allow you to move in on Monday."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Having seen six other offices, I'd say this is the best by far."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Agreed. Not being an expert in property, though, I'd like to read the contract carefully first."
+                      },
+                      {
+                        "speaker": "Agent",
+                        "text": "Of course. Taken as a whole, the terms are very reasonable."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I'll call you this afternoon, having read every word."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "So, what are we calling the company?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Inspired by the first person who welcomed me to Bristol… Green Door Design."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "After Mrs Green's front door? She'll be thrilled."
+                      },
+                      {
+                        "speaker": "Agent",
+                        "text": "I'll leave you two to talk. Congratulations, by the way."
+                      }
+                    ],
+                    "passage": "January, year four. Lucía and Daniel are standing in an empty office above a bookshop on Park Street, with an estate agent."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"Built in 1890, the building has been completely renovated.\" This means…",
+                        "options": [
+                          "The building, which was built in 1890, …",
+                          "Someone built in 1890."
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Having seen six other offices, I'd say…\" means…",
+                        "options": [
+                          "after seeing six offices",
+                          "while seeing six offices"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Looking out of this window, I can see the street.\" Who is looking?",
+                        "options": [
+                          "Lucía",
+                          "the window"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What will the company be called?",
+                        "options": [
+                          "Green Door Design",
+                          "Harbour Studio",
+                          "Martín Design"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Participle clauses",
+                    "explanation": "Las participle clauses sustituyen a oraciones de relativo o adverbiales y hacen el texto más compacto y formal:\n• -ing: sentido activo, al mismo tiempo o como motivo. Looking out of this window, I can see the street. Not being an expert, I'd like to read the contract.\n• participio pasado: sentido pasivo. Built in 1890, the building… Inspired by Mrs Green, …\n• having + participio: acción anterior. Having seen six offices, I'd say this is the best.\n\nCuidado: el sujeto de la participle clause tiene que ser el mismo que el de la oración principal. «Walking to work, the rain started» está mal, porque la lluvia no camina.",
+                    "table": {
+                      "headers": [
+                        "Tipo",
+                        "Significado",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "-ing",
+                          "activo, al mismo tiempo o motivo",
+                          "Looking out of this window, I can see the street."
+                        ],
+                        [
+                          "not + -ing",
+                          "motivo negativo",
+                          "Not being an expert, I'd like to read the contract."
+                        ],
+                        [
+                          "participio pasado",
+                          "pasivo",
+                          "Built in 1890, the building has been renovated."
+                        ],
+                        [
+                          "having + participio",
+                          "acción anterior",
+                          "Having seen six offices, I'd say this is the best."
+                        ],
+                        [
+                          "having been + participio",
+                          "anterior y pasiva",
+                          "Having been empty for months, it is available now."
+                        ],
+                        [
+                          "¡Cuidado!",
+                          "mismo sujeto",
+                          "✗ Walking to work, the rain started."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Built in 1890, the building has been completely renovated.",
+                      "Having seen six other offices, I'd say this is the best by far.",
+                      "Not being an expert in property, I'd like to read the contract carefully.",
+                      "Inspired by the first person who welcomed me…"
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la forma participial.",
+                    "items": [
+                      {
+                        "sentence": "___ in 1890, the building has been renovated. (build)",
+                        "answers": [
+                          [
+                            "Built"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ seen six other offices, I'd say this is the best.",
+                        "answers": [
+                          [
+                            "Having"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ out of the window, I can see the street. (look)",
+                        "answers": [
+                          [
+                            "Looking"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Not ___ an expert, I'd like to read the contract. (be)",
+                        "answers": [
+                          [
+                            "being"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ as a whole, the terms are reasonable. (take)",
+                        "answers": [
+                          [
+                            "Taken"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ by Mrs Green, we chose the name. (inspire)",
+                        "answers": [
+                          [
+                            "Inspired"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Having ___ empty for six months, it's available now.",
+                        "answers": [
+                          [
+                            "been"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'll call you, having ___ every word. (read)",
+                        "answers": [
+                          [
+                            "read"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Reescribe con una participle clause.",
+                    "items": [
+                      {
+                        "source": "After I had read the contract, I signed it. (Having…)",
+                        "answers": [
+                          "Having read the contract, I signed it",
+                          "Having read the contract I signed it"
+                        ]
+                      },
+                      {
+                        "source": "The building was designed by a famous architect. It's very beautiful. (Designed…)",
+                        "answers": [
+                          "Designed by a famous architect, the building is very beautiful",
+                          "Designed by a famous architect the building is very beautiful"
+                        ]
+                      },
+                      {
+                        "source": "Because I didn't know the area, I got lost. (Not knowing…)",
+                        "answers": [
+                          "Not knowing the area, I got lost",
+                          "Not knowing the area I got lost"
+                        ]
+                      },
+                      {
+                        "source": "While she was walking home, she saw Daniel. (Walking…)",
+                        "answers": [
+                          "Walking home, she saw Daniel",
+                          "Walking home she saw Daniel"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Construido en 1890, el edificio ha sido reformado.",
+                        "answers": [
+                          "Built in 1890, the building has been renovated",
+                          "Built in 1890 the building has been renovated"
+                        ]
+                      },
+                      {
+                        "source": "Después de ver seis oficinas, diría que esta es la mejor.",
+                        "answers": [
+                          "Having seen six offices, I'd say this is the best",
+                          "Having seen six offices, I would say this is the best",
+                          "Having seen six offices I'd say this is the best"
+                        ]
+                      },
+                      {
+                        "source": "Al no conocer la zona, me perdí.",
+                        "answers": [
+                          "Not knowing the area, I got lost",
+                          "Not knowing the area I got lost"
+                        ]
+                      },
+                      {
+                        "source": "Inspirada por su casera, eligió el nombre.",
+                        "answers": [
+                          "Inspired by her landlady, she chose the name",
+                          "Inspired by her landlady she chose the name"
+                        ]
+                      },
+                      {
+                        "source": "Mirando por la ventana, vi el café.",
+                        "answers": [
+                          "Looking out of the window, I saw the café",
+                          "Looking out of the window I saw the café"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "Built in 1890, the building has been completely renovated."
+                      },
+                      {
+                        "text": "Having seen six other offices, I'd say this is the best."
+                      },
+                      {
+                        "text": "Inspired by the first person who welcomed me to Bristol…"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "estate agent",
+                        "definition": "A person who sells or rents buildings",
+                        "translation": "agente inmobiliario",
+                        "example": "Lucía and Daniel are with an estate agent."
+                      },
+                      {
+                        "term": "renovate",
+                        "definition": "Repair and improve an old building",
+                        "translation": "reformar, rehabilitar",
+                        "example": "The building has been completely renovated."
+                      },
+                      {
+                        "term": "available",
+                        "definition": "Free to be used",
+                        "translation": "disponible",
+                        "example": "available immediately"
+                      },
+                      {
+                        "term": "immediately",
+                        "definition": "Now, without delay",
+                        "translation": "inmediatamente",
+                        "example": "available immediately"
+                      },
+                      {
+                        "term": "property",
+                        "definition": "Buildings and land",
+                        "translation": "propiedad inmobiliaria",
+                        "example": "an expert in property"
+                      },
+                      {
+                        "term": "terms",
+                        "definition": "The conditions of a contract",
+                        "translation": "condiciones",
+                        "example": "The terms are very reasonable."
+                      },
+                      {
+                        "term": "reasonable",
+                        "definition": "Fair, not too expensive",
+                        "translation": "razonable",
+                        "example": "very reasonable terms"
+                      },
+                      {
+                        "term": "by far",
+                        "definition": "By a great amount",
+                        "translation": "con diferencia",
+                        "example": "the best by far"
+                      },
+                      {
+                        "term": "as a whole",
+                        "definition": "Considering all the parts",
+                        "translation": "en conjunto",
+                        "example": "Taken as a whole…"
+                      },
+                      {
+                        "term": "inspired by",
+                        "definition": "Getting an idea from",
+                        "translation": "inspirado/a en",
+                        "example": "Inspired by Mrs Green…"
+                      },
+                      {
+                        "term": "welcome",
+                        "definition": "Greet someone in a friendly way",
+                        "translation": "dar la bienvenida",
+                        "example": "the first person who welcomed me"
+                      },
+                      {
+                        "term": "thrilled",
+                        "definition": "Very happy and excited",
+                        "translation": "encantado/a",
+                        "example": "She'll be thrilled."
+                      },
+                      {
+                        "term": "front door",
+                        "definition": "The main door of a house",
+                        "translation": "puerta principal",
+                        "example": "Mrs Green's front door"
+                      },
+                      {
+                        "term": "Congratulations",
+                        "definition": "Said when someone has done something good",
+                        "translation": "enhorabuena",
+                        "example": "Congratulations, by the way."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "___ the news, she called her mother.",
+                        "options": [
+                          "Having heard",
+                          "Heard"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ in 1850, the bridge is still in use.",
+                        "options": [
+                          "Built",
+                          "Building"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ tired, I went to bed early.",
+                        "options": [
+                          "Feeling",
+                          "Felt"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Not ___ what to say, he kept quiet.",
+                        "options": [
+                          "knowing",
+                          "known"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Which sentence is correct?",
+                        "options": [
+                          "Walking home, I saw an accident.",
+                          "Walking home, an accident happened."
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Where is the new office?",
+                        "options": [
+                          "above a bookshop on Park Street",
+                          "next to Harbour Studio",
+                          "in Clifton Road"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "c1_checkpoint_1",
+              "title": "Checkpoint 1: Endings",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "___ I need is more time.",
+                        "options": [
+                          "What",
+                          "That"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "It was Daniel ___ found the office.",
+                        "options": [
+                          "who",
+                          "which"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "All I want ___ a quiet weekend.",
+                        "options": [
+                          "is",
+                          "are"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Never ___ seen such a talented team.",
+                        "options": [
+                          "have I",
+                          "I have"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Rarely ___ she complain.",
+                        "options": [
+                          "does",
+                          "do"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "No sooner had we arrived ___ it started to rain.",
+                        "options": [
+                          "than",
+                          "when"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ the contract, she called the agent.",
+                        "options": [
+                          "Having read",
+                          "Read"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ in 1890, the building is beautiful.",
+                        "options": [
+                          "Built",
+                          "Building"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "What Helen gave me ___ the chance.",
+                        "answers": [
+                          [
+                            "was"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The reason I'm calm is ___ you have a plan.",
+                        "answers": [
+                          [
+                            "that"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Little ___ I know how far it would go.",
+                        "answers": [
+                          [
+                            "did"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Under no circumstances ___ you to cry.",
+                        "answers": [
+                          [
+                            "are"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Not ___ an expert, I'd like to read it. (be)",
+                        "answers": [
+                          [
+                            "being"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ by Mrs Green, we chose the name. (inspire)",
+                        "answers": [
+                          [
+                            "Inspired"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Lo que necesito es un socio.",
+                        "answers": [
+                          "What I need is a partner"
+                        ]
+                      },
+                      {
+                        "source": "Nunca he trabajado con un equipo tan bueno.",
+                        "answers": [
+                          "Never have I worked with such a good team",
+                          "I have never worked with such a good team"
+                        ]
+                      },
+                      {
+                        "source": "Poco sabía yo lo lejos que llegaría.",
+                        "answers": [
+                          "Little did I know how far it would go"
+                        ]
+                      },
+                      {
+                        "source": "Después de ver seis oficinas, elegimos esta.",
+                        "answers": [
+                          "Having seen six offices, we chose this one",
+                          "Having seen six offices we chose this one"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
