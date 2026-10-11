@@ -360,9 +360,18 @@ function UnitCard({
       : status === 'in_progress'
         ? { label: 'Continuar', Icon: Play, href: `${base}?level=${levelId}&lesson=${nextLesson?.lesson_id ?? ''}` }
         : { label: 'Empezar', Icon: Play, href: `${base}?level=${levelId}` }
+  // Visual weight follows what is left to do: "Continuar" is the main action of the page, "Empezar" a strong one,
+  // and a finished unit only offers a secondary "Repetir".
+  const ctaCls = {
+    in_progress: 'bg-indigo-600 text-white shadow-sm shadow-indigo-200 hover:bg-indigo-700 focus-visible:ring-indigo-300',
+    pending: 'bg-slate-900 text-white hover:bg-slate-700 focus-visible:ring-indigo-300',
+    completed: 'border-2 border-emerald-500 bg-white text-emerald-700 hover:bg-emerald-50 focus-visible:ring-emerald-200',
+  }[status]
 
   return (
-    <article className="flex flex-col rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+    <article
+      className={`flex flex-col rounded-2xl border bg-white p-5 shadow-sm ${status === 'completed' ? 'border-emerald-200' : 'border-slate-200'}`}
+    >
       <div className="flex items-start justify-between gap-3">
         <p className={`text-sm font-medium ${c.text}`}>{themeTitle}</p>
         <span className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-semibold ${STATUS[status].cls}`}>{STATUS[status].label}</span>
@@ -400,7 +409,7 @@ function UnitCard({
       <div className="mt-auto grid grid-cols-2 gap-2 pt-5">
         <Link
           to={cta.href}
-          className="col-span-2 inline-flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-slate-700 focus-visible:ring-4 focus-visible:ring-indigo-300 focus-visible:outline-none"
+          className={`col-span-2 inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition focus-visible:ring-4 focus-visible:outline-none ${ctaCls}`}
         >
           <cta.Icon className="h-4 w-4" /> {cta.label}
         </Link>
