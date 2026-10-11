@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"errors"
+	"fmt"
 	"log"
 	"net/http"
 	"os/signal"
@@ -19,6 +20,9 @@ import (
 	"github.com/jenaiz/english-app/backend/internal/handlers"
 	"github.com/jenaiz/english-app/backend/internal/store"
 )
+
+// version is set at build time (-ldflags "-X main.version=...").
+var version = "dev"
 
 func main() {
 	cfg := config.Load()
@@ -60,6 +64,17 @@ func main() {
 	})
 
 	r.Route("/api", func(r chi.Router) {
+		// Public health check with the build version, used by deploy/deploy.sh.
+		r.Get("/health", func(w http.ResponseWriter, r *http.Request) {
+			w.Header().Set("Content-Type", "application/json")
+			if err := pool.Ping(r.Context()); err != nil {
+				w.WriteHeader(http.StatusServiceUnavailable)
+				fmt.Fprintf(w, `{"status":"db unavailable","version":%q}`, version)
+				return
+			}
+			fmt.Fprintf(w, `{"status":"ok","version":%q}`, version)
+		})
+
 		r.Post("/auth/register", authH.Register)
 		r.Post("/auth/login", authH.Login)
 		r.Post("/auth/logout", authH.Logout)

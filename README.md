@@ -88,13 +88,14 @@ cd frontend && npm run build
 
 ## API
 
-Todas las rutas salvo register, login y logout requieren autenticación. Se puede enviar la cookie `token` (la fija el login) o una cabecera `Authorization: Bearer <jwt>`.
+Todas las rutas salvo register, login, logout y health requieren autenticación. Se puede enviar la cookie `token` (la fija el login) o una cabecera `Authorization: Bearer <jwt>`.
 
 | Método | Ruta                                        | Descripción                                                                                    |
 | ------ | ------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | POST   | `/api/auth/register`                        | `{email, password}`: crea el usuario (bcrypt), fija la cookie y devuelve `{user, token}`. 409 si el email existe. |
 | POST   | `/api/auth/login`                           | `{email, password}`: fija la cookie y devuelve `{user, token}`. 401 si las credenciales son incorrectas. |
 | POST   | `/api/auth/logout`                          | Borra la cookie.                                                                               |
+| GET    | `/api/health`                               | `{status, version}`: comprueba la BD y devuelve la versión del build. Pública.                  |
 | GET    | `/api/auth/me`                              | Perfil del usuario autenticado.                                                                |
 | GET    | `/api/levels`                               | Resumen de niveles → temas → unidades (sin los pasos).                                         |
 | GET    | `/api/levels/{level_id}/units/{unit_id}`    | Unidad completa con lecciones y pasos. Si `level_id` es `-`, se busca en todos los niveles.    |
@@ -199,6 +200,10 @@ Si algo falla, el backend no arranca y el error indica dónde está el problema,
 3. Opcional: añade la validación en `validate.go`. Los tipos desconocidos se aceptan y se muestran como JSON.
 
 ## Despliegue en un VPS
+
+Producción actual: VPS de bukios en Hetzner, en `fluently.bukios.com` (temporal), con `./deploy/deploy.sh`. Ver [`deploy/README.md`](deploy/README.md).
+
+Despliegue genérico en un VPS propio:
 
 ```bash
 git clone <repo> && cd english-app

@@ -1,0 +1,71 @@
+# Production compose for the bukios app VPS (~/fluently/docker-compose.yml).
+# deploy.sh copies this file to the server on every deploy.
+#
+# Only the web container (nginx + SPA) joins the bukios nginx network
+# (bukios-app_app), so the shared bukios nginx can proxy the public domain to
+# it. Backend and Postgres stay on this project's private network.
+#
+# Service names matter on the shared network: Docker registers the service name
+# as a DNS alias there, and bukios already uses `frontend`, `django`, `nginx`
+# and zuri uses `web`. Hence `fluently-web`, never a generic name.
+name: fluently
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: fluently-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: english
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?DB_PASSWORD missing in .env}
+      POSTGRES_DB: english_app
+    # The VPS is shared with bukios: keep Postgres small.
+    command: postgres -c shared_buffers=64MB -c max_connections=30
+    mem_limit: 256m
+    memswap_limit: 384m
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U english -d english_app"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  backend:
+    image: fluently-backend:${TAG:-latest}
+    container_name: fluently-api
+    restart: unless-stopped
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_USER: english
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_NAME: english_app
+      JWT_SECRET: ${JWT_SECRET:?JWT_SECRET missing in .env}
+      COOKIE_SECURE: "true"
+    mem_limit: 128m
+    memswap_limit: 192m
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  fluently-web:
+    image: fluently-web:${TAG:-latest}
+    container_name: fluently-web
+    restart: unless-stopped
+    mem_limit: 64m
+    memswap_limit: 96m
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - default
+      - bukios
+
+volumes:
+  pgdata:
+
+networks:
+  bukios:
+    external: true
+    name: bukios-app_app

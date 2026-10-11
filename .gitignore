@@ -13,3 +13,6 @@ backend/bin/
 # misc
 .DS_Store
 *.log
+
+# deploy
+db-backups/
