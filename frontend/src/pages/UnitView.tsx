@@ -1,24 +1,9 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
-import {
-  AlertCircle,
-  ArrowLeft,
-  ArrowRight,
-  BookA,
-  Brain,
-  CheckCircle2,
-  Headphones,
-  Lightbulb,
-  Loader2,
-  Mic,
-  PartyPopper,
-  PencilLine,
-  Search,
-  Zap,
-  type LucideIcon,
-} from 'lucide-react'
+import { AlertCircle, ArrowLeft, ArrowRight, Brain, CheckCircle2, Loader2, PartyPopper } from 'lucide-react'
 import { api } from '../api/client'
 import StepRenderer, { EXERCISE_TYPES } from '../components/steps/StepRenderer'
+import { PHASES } from '../lib/phases'
 import type { ExerciseResult, Phase, Step, UnitResponse } from '../types'
 
 interface FlatStep {
@@ -28,16 +13,6 @@ interface FlatStep {
   lessonIndex: number
   isLastInLesson: boolean
 }
-
-const PHASES: { id: Phase; label: string; Icon: LucideIcon }[] = [
-  { id: 'context', label: 'Contexto', Icon: Headphones },
-  { id: 'discovery', label: 'Descubre', Icon: Search },
-  { id: 'grammar', label: 'Gramática', Icon: Lightbulb },
-  { id: 'practice', label: 'Práctica', Icon: PencilLine },
-  { id: 'production', label: 'Producción', Icon: Mic },
-  { id: 'vocabulary', label: 'Vocabulario', Icon: BookA },
-  { id: 'review', label: 'Repaso', Icon: Zap },
-]
 
 const stepLabels: Record<string, string> = {
   audio_context: 'Contexto',

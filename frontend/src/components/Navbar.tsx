@@ -59,13 +59,13 @@ export default function Navbar() {
             </div>
           </>
         ) : (
-          <div className="col-start-3 flex items-center gap-2 justify-self-end text-sm">
-            <Link to="/login" className="rounded-lg px-3 py-2 font-medium text-slate-600 hover:bg-slate-100">
+          <div className="col-span-2 col-start-2 flex items-center gap-1 justify-self-end text-sm sm:gap-2">
+            <Link to="/login" className="whitespace-nowrap rounded-lg px-2 py-2 font-medium sm:px-3 text-slate-600 hover:bg-slate-100">
               Iniciar sesión
             </Link>
             <Link
               to="/register"
-              className="rounded-lg bg-indigo-600 px-4 py-2 font-medium text-white shadow-sm transition hover:bg-indigo-700"
+              className="whitespace-nowrap rounded-lg bg-indigo-600 px-3 py-2 font-medium text-white sm:px-4 shadow-sm transition hover:bg-indigo-700"
             >
               Crear cuenta
             </Link>

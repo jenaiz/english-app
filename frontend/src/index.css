@@ -20,3 +20,14 @@ body { @apply bg-slate-50 text-slate-800 antialiased; }
 .legal-body table { @apply w-full border-collapse text-left text-sm; }
 .legal-body th { @apply border-b border-slate-200 bg-slate-100 px-3 py-2 font-semibold text-slate-800; }
 .legal-body td { @apply border-b border-slate-100 px-3 py-2 align-top; }
+
+/* Home: the answer dropping into the headline's blank, and a wrong option shaking. */
+@keyframes fill-in {
+  from { opacity: 0; transform: translateY(-0.4em) scale(0.9); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
