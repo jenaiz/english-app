@@ -156,6 +156,7 @@ export interface ExerciseResult {
 export type Grade = 'again' | 'hard' | 'good' | 'easy'
 export interface ReviewCard {
   id: string
+  kind: CardKind
   term: string
   definition: string
   translation: string
@@ -166,8 +167,78 @@ export interface ReviewCard {
   repetitions: number
   due_at: string
   preview: Record<Grade, number>
+  choice?: ReviewChoice
 }
+export type CardKind = 'vocab' | ExpressionKind
 export interface SrsSummary {
   due: number
   total: number
+  by_kind: Record<CardKind, { due: number; total: number }>
+}
+/** Multiple-choice exercise for young idiom and phrasal verb cards. */
+export interface ReviewChoice {
+  type: 'context' | 'particle' | 'phrasal' | 'meaning' | 'idiom' | 'situation' | 'complete'
+  prompt: string
+  /** Expression the question is about, when the prompt is a sentence. */
+  focus?: string
+  hint?: string
+  options: string[]
+  answer: string
+}
+export interface SavedExpression {
+  id: string
+  repetitions: number
+}
+
+// ---- Expresiones ----
+export type ExpressionKind = 'idiom' | 'phrasal'
+export interface Idiom {
+  id: string
+  term: string
+  level: string
+  topic: string
+  register: string
+  definition: string
+  equivalent_es: string
+  literal_es?: string
+  note?: string
+  similar?: string[]
+  examples: string[]
+  image?: string
+  situation?: string
+  gap?: { word: string; wrong: string[] }
+}
+export interface PhrasalVerb {
+  id: string
+  particle: string
+  meaning: string
+  translation: string
+  level: string
+  separable: boolean
+  example: string
+  also?: string[]
+  similar?: string[]
+}
+export interface PhrasalFamily {
+  root: string
+  items: PhrasalVerb[]
+}
+export interface Hack {
+  id: string
+  level: string
+  title: string
+  formula: string
+  explanation: string
+  examples: string[]
+}
+export interface Particle {
+  particle: string
+  idea: string
+  note?: string
+}
+export interface ExpressionsCatalog {
+  idioms: Idiom[]
+  phrasal_verbs: PhrasalFamily[]
+  hacks: Hack[]
+  particles: Particle[]
 }

@@ -1,4 +1,4 @@
-import type { Grade, LevelSummary, ProgressResponse, ReviewCard, SrsSummary, UnitResponse, User } from '../types'
+import type { CardKind, ExpressionKind, ExpressionsCatalog, Grade, LevelSummary, ProgressResponse, ReviewCard, SavedExpression, SrsSummary, UnitResponse, User } from '../types'
 
 export class ApiError extends Error {
   constructor(
@@ -65,7 +65,11 @@ export const api = {
       ...(score !== undefined ? { score } : {}),
     }),
   srsSummary: () => request<SrsSummary>('/srs/summary'),
-  srsDue: (limit = 20) => request<ReviewCard[]>(`/srs/due?limit=${limit}`),
+  srsDue: (limit = 20, kind?: CardKind) => request<ReviewCard[]>(`/srs/due?limit=${limit}${kind ? `&kind=${kind}` : ''}`),
   srsReview: (cardId: string, grade: Grade) =>
     post<{ due_at: string; interval_days: number }>('/srs/review', { card_id: cardId, grade }),
+  expressions: () => request<ExpressionsCatalog>('/expressions'),
+  savedExpressions: () => request<Record<ExpressionKind, SavedExpression[]>>('/srs/expressions'),
+  addExpression: (kind: ExpressionKind, id: string) =>
+    post<{ kind: ExpressionKind; id: string; added: boolean }>('/srs/expressions', { kind, id }),
 }

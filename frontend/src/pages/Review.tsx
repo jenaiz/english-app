@@ -1,13 +1,17 @@
 import { useEffect, useRef, useState, type FormEvent } from 'react'
-import { Link } from 'react-router-dom'
-import { AlertCircle, Brain, CheckCircle2, Ear, HelpCircle, Keyboard, Loader2, Mic, MicOff, Volume2, XCircle } from 'lucide-react'
+import { useSearchParams } from 'react-router-dom'
+import { AlertCircle, ArrowLeft, Brain, CheckCircle2, Ear, HelpCircle, Keyboard, Loader2, Mic, MicOff, Volume2, XCircle } from 'lucide-react'
 import { api } from '../api/client'
+import ChoiceExercise from '../components/review/ChoiceExercise'
+import ReviewHub, { DECKS, type Deck } from '../components/review/ReviewHub'
 import { bestSimilarity, isCorrect, matchesMeaning } from '../lib/answers'
 import { canSpeak, speak, useSpeechRecognition } from '../lib/speech'
 import type { Grade, ReviewCard } from '../types'
 
 /**
- * Active recall: the learner must answer before seeing the card.
+ * Repaso: a hub with today's cards by kind, then a session for the chosen deck.
+ * Young idiom and phrasal verb cards come with a multiple-choice exercise (card.choice); every
+ * other card uses active recall, where the learner must answer before seeing the card:
  * - listen: hears the English term (hidden) and types its Spanish meaning.
  * - produce: sees the Spanish + definition and says or types the English term.
  */
@@ -57,6 +61,13 @@ function loadModePref(): ModePref {
 }
 
 export default function Review() {
+  const [params, setParams] = useSearchParams()
+  const deck = DECKS.find((d) => d.id === params.get('mazo'))
+  if (!deck) return <ReviewHub onStart={(d) => setParams({ mazo: d })} />
+  return <ReviewSession key={deck.id} deck={deck.id} onExit={() => setParams({})} />
+}
+
+function ReviewSession({ deck, onExit }: { deck: Deck; onExit: () => void }) {
   const [cards, setCards] = useState<ReviewCard[]>([])
   const [pos, setPos] = useState(0)
   const [loading, setLoading] = useState(true)
@@ -66,6 +77,7 @@ export default function Review() {
   const [modePref, setModePref] = useState<ModePref>(loadModePref)
 
   const [answer, setAnswer] = useState('')
+  const [picked, setPicked] = useState<string | null>(null)
   const [outcome, setOutcome] = useState<Outcome | null>(null)
   const [typing, setTyping] = useState(false)
   const [notice, setNotice] = useState('')
@@ -75,7 +87,7 @@ export default function Review() {
   const load = () => {
     setLoading(true)
     api
-      .srsDue(20)
+      .srsDue(20, deck === 'all' ? undefined : deck)
       .then((c) => {
         setCards(c)
         setPos(0)
@@ -86,17 +98,19 @@ export default function Review() {
   useEffect(load, [])
 
   const card = cards[pos]
+  const choice = card?.choice
   const direction = card ? directionFor(card, modePref) : 'listen'
   const useMic = direction === 'produce' && rec.supported && !typing
-  const response = useMic ? rec.transcript : answer
+  const response = choice ? (picked ?? '') : useMic ? rec.transcript : answer
 
   // New card: reset the answer and, in listening mode, play the word.
   useEffect(() => {
     setAnswer('')
+    setPicked(null)
     setOutcome(null)
     setNotice('')
     rec.reset()
-    if (card && direction === 'listen') speak(card.term)
+    if (card && !card.choice && direction === 'listen') speak(card.term)
     setTimeout(() => inputRef.current?.focus(), 50)
   }, [card?.id, pos, direction])
 
@@ -129,6 +143,13 @@ export default function Review() {
     speak(card.term)
   }
 
+  const choose = (option: string) => {
+    if (!card?.choice || outcome) return
+    setPicked(option)
+    setOutcome(option === card.choice.answer ? 'correct' : 'wrong')
+    speak(card.term)
+  }
+
   const giveUp = () => {
     if (!card || outcome) return
     rec.stop()
@@ -155,6 +176,11 @@ export default function Review() {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      if (!outcome && choice) {
+        const option = choice.options[Number(e.key) - 1]
+        if (option) choose(option)
+        return
+      }
       if (!outcome) return
       if (outcome !== 'correct' && (e.key === 'Enter' || e.key === ' ')) {
         e.preventDefault()
@@ -187,7 +213,7 @@ export default function Review() {
         <p className="mt-2 text-slate-500">
           {reviewed.total > 0
             ? `Has repasado ${reviewed.total} tarjeta${reviewed.total === 1 ? '' : 's'} (${reviewed.correct} acertadas a la primera). Vuelve más tarde para las siguientes.`
-            : 'No tienes tarjetas pendientes. Completa lecciones para añadir vocabulario a tu repaso.'}
+            : 'No tienes tarjetas pendientes en este mazo.'}
         </p>
         <div className="mt-6 flex justify-center gap-3">
           {reviewed.total > 0 && (
@@ -195,9 +221,9 @@ export default function Review() {
               Buscar más
             </button>
           )}
-          <Link to="/levels" className="rounded-lg bg-indigo-600 px-5 py-2.5 font-semibold text-white hover:bg-indigo-700">
-            Ir a niveles
-          </Link>
+          <button onClick={onExit} className="rounded-lg bg-indigo-600 px-5 py-2.5 font-semibold text-white hover:bg-indigo-700">
+            Volver a Repaso
+          </button>
         </div>
       </div>
     )
@@ -208,15 +234,20 @@ export default function Review() {
   return (
     <div className="mx-auto max-w-xl px-4 py-10">
       <div className="flex flex-wrap items-center justify-between gap-3">
-        <h1 className="flex items-center gap-2 text-2xl font-bold text-slate-900">
-          <Brain className="h-6 w-6 text-indigo-600" /> Repaso
-        </h1>
+        <div className="flex items-center gap-2">
+          <button onClick={onExit} className="rounded-lg p-1.5 text-slate-500 hover:bg-slate-100 hover:text-slate-800" aria-label="Volver a Repaso">
+            <ArrowLeft className="h-5 w-5" />
+          </button>
+          <h1 className="flex items-center gap-2 text-2xl font-bold text-slate-900">
+            <Brain className="h-6 w-6 text-indigo-600" /> {DECKS.find((d) => d.id === deck)?.label}
+          </h1>
+        </div>
         <span className="rounded-full bg-slate-100 px-3 py-1 text-sm font-medium text-slate-600 tabular-nums">
           {cards.length - pos} pendientes
         </span>
       </div>
 
-      <div className="mt-4 inline-flex rounded-lg bg-slate-100 p-1 text-sm">
+      <div className={`mt-4 inline-flex rounded-lg bg-slate-100 p-1 text-sm ${choice ? 'invisible' : ''}`}>
         {MODES.map((m) => (
           <button
             key={m.id}
@@ -241,7 +272,9 @@ export default function Review() {
           </p>
 
           {/* Prompt */}
-          {direction === 'listen' ? (
+          {choice ? (
+            <ChoiceExercise choice={choice} picked={picked} onPick={choose} />
+          ) : direction === 'listen' ? (
             <div className="mt-5 flex flex-col items-center">
               <p className="flex items-center gap-1.5 text-sm font-medium text-indigo-600">
                 <Ear className="h-4 w-4" /> Escucha y escribe qué significa <strong>en español</strong>
@@ -271,7 +304,7 @@ export default function Review() {
           )}
 
           {/* Answer input */}
-          {!answered && (
+          {!answered && !choice && (
             <form onSubmit={check} className="mt-6">
               {useMic ? (
                 <div className="flex flex-col items-center">
@@ -346,7 +379,7 @@ export default function Review() {
                 {outcome === 'correct' ? <CheckCircle2 className="h-5 w-5" /> : outcome === 'wrong' ? <XCircle className="h-5 w-5" /> : <HelpCircle className="h-5 w-5" />}
                 {outcome === 'correct' ? '¡Correcto!' : outcome === 'wrong' ? 'No es correcto' : 'Esta era la respuesta'}
               </div>
-              {outcome !== 'unknown' && response && (
+              {outcome !== 'unknown' && response && !choice && (
                 <p className="mt-2 text-sm text-slate-500">
                   Tu respuesta: <span className={`font-medium ${outcome === 'correct' ? 'text-emerald-700' : 'text-red-600 line-through'}`}>{response}</span>
                 </p>
@@ -405,7 +438,9 @@ export default function Review() {
           ? outcome === 'correct'
             ? 'Atajos: 1 difícil · 2 bien · 3 fácil · Enter = bien'
             : 'Atajo: Enter para continuar'
-          : 'Atajo: Enter para comprobar'}
+          : choice
+            ? `Atajo: pulsa ${choice.options.map((_, i) => i + 1).join(', ').replace(/, (\d)$/, ' o $1')} para elegir`
+            : 'Atajo: Enter para comprobar'}
       </p>
     </div>
   )

@@ -7,6 +7,7 @@ import { AuthProvider } from './context/AuthContext'
 import { ConsentProvider } from './context/ConsentContext'
 import Contact from './pages/Contact'
 import Cookies from './pages/Cookies'
+import Expressions from './pages/Expressions'
 import ForgotPassword from './pages/ForgotPassword'
 import Home from './pages/Home'
 import LegalNotice from './pages/LegalNotice'
@@ -42,6 +43,7 @@ export default function App() {
               <Route path="/cookies" element={<Cookies />} />
               <Route path="/terminos" element={<Terms />} />
               <Route path="/contacto" element={<Contact />} />
+              <Route path="/expresiones" element={<Expressions />} />
               <Route element={<ProtectedRoute />}>
                 <Route path="/levels" element={<Levels />} />
                 <Route path="/units/:unitId" element={<UnitView />} />

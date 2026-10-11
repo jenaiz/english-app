@@ -1,5 +1,6 @@
 import { BookA, Volume2 } from 'lucide-react'
 import { canSpeak, speak } from '../../lib/speech'
+import PhrasalFamilyLinks from '../expressions/PhrasalFamilyLinks'
 import type { VocabularyTableContent } from '../../types'
 
 export default function VocabularyTableStep({ content }: { content: VocabularyTableContent }) {
@@ -53,6 +54,8 @@ export default function VocabularyTableStep({ content }: { content: VocabularyTa
           </div>
         ))}
       </div>
+
+      <PhrasalFamilyLinks terms={content.items.map((it) => it.term)} newTab />
     </div>
   )
 }

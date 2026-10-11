@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"path/filepath"
 	"strconv"
 	"strings"
 	"time"
@@ -21,6 +22,8 @@ type Config struct {
 	JWTTTL       time.Duration
 	CookieSecure bool
 	ContentDir   string
+	// ExpressionsDir holds the Expresiones content; defaults to a sibling of ContentDir.
+	ExpressionsDir string
 	// GoogleClientID enables "Sign in with Google" when set (OAuth web client ID).
 	GoogleClientID string
 	// GAMeasurementID enables Google Analytics (loaded only after cookie consent).
@@ -55,6 +58,7 @@ func Load() Config {
 		AWSAccessKeyID:     getEnv("AWS_ACCESS_KEY_ID", ""),
 		AWSSecretAccessKey: getEnv("AWS_SECRET_ACCESS_KEY", ""),
 	}
+	cfg.ExpressionsDir = getEnv("EXPRESSIONS_DIR", filepath.Join(filepath.Dir(cfg.ContentDir), "expressions"))
 	cfg.CookieSecure, _ = strconv.ParseBool(getEnv("COOKIE_SECURE", "false"))
 	if cfg.JWTSecret == "" {
 		log.Println("WARNING: JWT_SECRET not set, using an insecure development secret")

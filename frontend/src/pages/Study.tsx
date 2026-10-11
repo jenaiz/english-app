@@ -4,6 +4,7 @@ import { AlertCircle, ArrowLeft, BookA, Brain, Lightbulb, Loader2, Play, Volume2
 import { api } from '../api/client'
 import GrammarRuleStep from '../components/steps/GrammarRuleStep'
 import { canSpeak, speak } from '../lib/speech'
+import PhrasalFamilyLinks from '../components/expressions/PhrasalFamilyLinks'
 import type { GrammarRuleContent, UnitResponse, VocabularyItem, VocabularyTableContent } from '../types'
 
 type Tab = 'grammar' | 'vocabulary'
@@ -116,6 +117,7 @@ export default function Study() {
               </div>
             </section>
           ))}
+          <PhrasalFamilyLinks terms={perLesson.flatMap((l) => l.vocab.map((it) => it.term))} />
           <Link
             to="/review"
             className="flex items-center gap-4 rounded-2xl border-2 border-dashed border-indigo-200 p-5 text-indigo-700 transition hover:border-indigo-400 hover:bg-indigo-50"

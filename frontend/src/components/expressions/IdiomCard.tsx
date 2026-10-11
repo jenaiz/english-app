@@ -1,0 +1,87 @@
+import { useState } from 'react'
+import type { ExpressionKind, Idiom } from '../../types'
+import SpeakButton from '../SpeakButton'
+import AddToReview from './AddToReview'
+
+interface Props {
+  idiom: Idiom
+  saved: boolean
+  onAdd: (kind: ExpressionKind, id: string) => Promise<void>
+}
+
+/** Flip card: the idiom on the front; English definition, examples and the Spanish equivalent on the back. */
+export default function IdiomCard({ idiom, saved, onAdd }: Props) {
+  const [flipped, setFlipped] = useState(false)
+  const [showSpanish, setShowSpanish] = useState(false)
+
+  return (
+    // A div, not a button: the back face holds its own buttons.
+    <div
+      role="button"
+      tabIndex={0}
+      onClick={() => setFlipped((f) => !f)}
+      onKeyDown={(e) => {
+        if (e.target !== e.currentTarget) return
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault()
+          setFlipped((f) => !f)
+        }
+      }}
+      aria-pressed={flipped}
+      aria-label={`Idiom: ${idiom.term}. Pulsa para darle la vuelta`}
+      className="group h-[26rem] cursor-pointer rounded-3xl text-left perspective-[1200px] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-indigo-200"
+    >
+      <div className={`relative h-full rounded-3xl transition-transform duration-500 transform-3d motion-reduce:transition-none ${flipped ? 'rotate-y-180' : ''}`}>
+        <div aria-hidden={flipped} className="absolute inset-0 flex flex-col justify-between rounded-3xl bg-indigo-600 p-7 text-white backface-hidden">
+          <div className="flex items-start justify-between gap-3">
+            <div className="flex flex-wrap gap-2 text-xs font-semibold">
+              <span className="rounded-full bg-yellow-300 px-2.5 py-1 text-slate-900">{idiom.level}</span>
+              <span className="rounded-full bg-white/15 px-2.5 py-1">{idiom.topic}</span>
+            </div>
+            {!flipped && <SpeakButton text={idiom.term} dark />}
+          </div>
+          <p className="font-display text-4xl leading-none font-extrabold tracking-tight text-balance">{idiom.term}</p>
+          <span className="text-sm text-indigo-200 group-hover:text-white">¿Qué crees que significa? Toca para darle la vuelta</span>
+        </div>
+
+        <div
+          aria-hidden={!flipped}
+          className="absolute inset-0 flex flex-col gap-3 overflow-y-auto rounded-3xl border-2 border-indigo-600 bg-white p-6 rotate-y-180 backface-hidden"
+        >
+          <div className="flex items-start justify-between gap-3">
+            <span className="font-display text-xl font-bold text-indigo-600">{idiom.term}</span>
+            <span className="shrink-0 rounded-full bg-indigo-50 px-2.5 py-1 text-xs font-semibold text-indigo-700">{idiom.register}</span>
+          </div>
+          <p className="text-lg leading-snug font-semibold text-slate-900">{idiom.definition}</p>
+          <ul className="space-y-1.5">
+            {idiom.examples.map((ex) => (
+              <li key={ex} className="flex items-center justify-between gap-2 text-sm text-slate-600 italic">
+                “{ex}”
+                {flipped && <SpeakButton text={ex} />}
+              </li>
+            ))}
+          </ul>
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation()
+              setShowSpanish(true)
+            }}
+            className="rounded-xl border border-dashed border-slate-300 bg-slate-50 px-3 py-2 text-left text-sm text-slate-700"
+          >
+            <span className="font-semibold">En español: </span>
+            <span className={showSpanish ? '' : 'blur-sm select-none'}>{idiom.equivalent_es}</span>
+            {!showSpanish && <span className="block text-xs text-slate-500">Toca para verlo</span>}
+            {showSpanish && idiom.literal_es && (
+              <span className="block text-xs text-slate-500">Literalmente: «{idiom.literal_es}». No se traduce palabra por palabra.</span>
+            )}
+          </button>
+          {idiom.note && <p className="text-xs text-slate-500">{idiom.note}</p>}
+          <div className="mt-auto pt-1">
+            <AddToReview kind="idiom" id={idiom.id} saved={saved} onAdd={onAdd} />
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}

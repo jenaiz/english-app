@@ -35,6 +35,11 @@ func main() {
 		log.Fatalf("load content: %v", err)
 	}
 	log.Printf("loaded %d levels, %d units from %s", len(catalog.Summaries()), len(catalog.Units()), cfg.ContentDir)
+	expressions, err := content.LoadExpressions(cfg.ExpressionsDir)
+	if err != nil {
+		log.Fatalf("load expressions: %v", err)
+	}
+	log.Printf("loaded %d idioms, %d phrasal verb families, %d hacks from %s", len(expressions.Idioms), len(expressions.PhrasalVerbs), len(expressions.Hacks), cfg.ExpressionsDir)
 
 	pool, err := db.Connect(ctx, cfg.DatabaseURL())
 	if err != nil {
@@ -64,7 +69,8 @@ func main() {
 	}
 	levelsH := &handlers.LevelsHandler{Catalog: catalog}
 	progressH := &handlers.ProgressHandler{Store: st, Catalog: catalog}
-	srsH := &handlers.SRSHandler{Store: st, Catalog: catalog}
+	srsH := &handlers.SRSHandler{Store: st, Catalog: catalog, Expressions: expressions}
+	expressionsH := &handlers.ExpressionsHandler{Expressions: expressions}
 
 	r := chi.NewRouter()
 	r.Use(middleware.RequestID, middleware.RealIP, middleware.Logger, middleware.Recoverer)
@@ -99,6 +105,7 @@ func main() {
 		r.Post("/auth/resend-verification", authH.ResendVerification)
 		r.Post("/auth/forgot-password", authH.ForgotPassword)
 		r.Post("/auth/reset-password", authH.ResetPassword)
+		r.Get("/expressions", expressionsH.List)
 
 		r.Group(func(r chi.Router) {
 			r.Use(tokens.Middleware)
@@ -114,6 +121,8 @@ func main() {
 			r.Get("/srs/summary", srsH.Summary)
 			r.Get("/srs/due", srsH.Due)
 			r.Post("/srs/review", srsH.Review)
+			r.Get("/srs/expressions", srsH.SavedExpressions)
+			r.Post("/srs/expressions", srsH.AddExpression)
 		})
 	})
 

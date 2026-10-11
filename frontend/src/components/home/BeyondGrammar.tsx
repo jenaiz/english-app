@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import { RefreshCw, Volume2 } from 'lucide-react'
-import { canSpeak, speak } from '../../lib/speech'
+import { Link } from 'react-router-dom'
+import { ArrowRight, RefreshCw } from 'lucide-react'
+import SpeakButton from '../SpeakButton'
 
 const IDIOMS = [
   { idiom: 'break the ice', meaning: 'Romper el hielo: empezar a hablar para quitar la tensión.', example: 'He told a joke to break the ice.' },
@@ -14,25 +15,6 @@ const PARTICLES = [
   { particle: 'forward to', meaning: 'tener ganas de algo', example: "I'm looking forward to the trip." },
   { particle: 'into', meaning: 'investigar, estudiar un asunto', example: "We'll look into the problem." },
 ]
-
-function SpeakButton({ text, dark }: { text: string; dark?: boolean }) {
-  if (!canSpeak) return null
-  return (
-    <button
-      type="button"
-      onClick={(e) => {
-        e.stopPropagation()
-        speak(text)
-      }}
-      aria-label={`Escuchar: ${text}`}
-      className={`grid h-9 w-9 shrink-0 place-items-center rounded-full transition ${
-        dark ? 'bg-white/15 text-white hover:bg-white/25' : 'bg-slate-900/5 text-slate-700 hover:bg-slate-900/10'
-      }`}
-    >
-      <Volume2 className="h-4 w-4" />
-    </button>
-  )
-}
 
 export default function BeyondGrammar() {
   return (
@@ -49,6 +31,13 @@ export default function BeyondGrammar() {
         <PhrasalVerbs />
         <EnglishHack />
       </div>
+
+      <Link
+        to="/expresiones"
+        className="mt-8 inline-flex items-center gap-2 rounded-full bg-indigo-50 px-5 py-2.5 font-semibold text-indigo-700 transition hover:bg-indigo-100"
+      >
+        Ver todas las expresiones <ArrowRight className="h-4 w-4" />
+      </Link>
     </section>
   )
 }

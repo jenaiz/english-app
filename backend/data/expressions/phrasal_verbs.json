@@ -1,0 +1,199 @@
+[
+  {"root": "look", "items": [
+    {"particle": "up", "meaning": "to search for information in a dictionary, online, etc.", "translation": "buscar (información)", "level": "A2", "separable": true, "example": "If you don't know a word, look it up."},
+    {"particle": "for", "meaning": "to try to find something or someone", "translation": "buscar", "level": "A1", "separable": false, "example": "I'm looking for my keys. Have you seen them?"},
+    {"particle": "after", "meaning": "to take care of someone or something", "translation": "cuidar de", "level": "A2", "separable": false, "example": "Can you look after my dog this weekend?"},
+    {"particle": "forward to", "meaning": "to feel happy and excited about something that is going to happen", "translation": "tener ganas de", "level": "B1", "separable": false, "example": "I'm really looking forward to the summer holidays."},
+    {"particle": "out", "meaning": "to be careful (often used as a warning)", "translation": "¡cuidado! / tener cuidado", "level": "A2", "separable": false, "example": "Look out! There's a car coming."},
+    {"particle": "into", "meaning": "to investigate or examine a problem", "translation": "investigar / estudiar", "level": "B1", "separable": false, "example": "The manager promised to look into my complaint.", "similar": ["go-over"]},
+    {"particle": "over", "meaning": "to check something quickly", "translation": "revisar / echar un vistazo", "level": "B1", "separable": true, "example": "Could you look over my CV before I send it?", "similar": ["go-over"]},
+    {"particle": "down on", "meaning": "to think you are better than someone", "translation": "menospreciar", "level": "B2", "separable": false, "example": "Don't look down on people who earn less than you.", "similar": ["put-down"]}
+  ]},
+  {"root": "get", "items": [
+    {"particle": "up", "meaning": "to get out of bed", "translation": "levantarse", "level": "A1", "separable": false, "example": "I get up at seven every day."},
+    {"particle": "back", "meaning": "to return to a place", "translation": "volver", "level": "A2", "separable": false, "example": "What time did you get back last night?", "similar": ["come-back", "go-back"]},
+    {"particle": "on with", "meaning": "to have a friendly relationship with someone", "translation": "llevarse bien con", "level": "B1", "separable": false, "example": "Do you get on with your neighbours?"},
+    {"particle": "over", "meaning": "to recover from an illness or a bad experience", "translation": "superar / recuperarse de", "level": "B1", "separable": false, "example": "It took her months to get over the break-up."},
+    {"particle": "together", "meaning": "to meet socially", "translation": "quedar / reunirse", "level": "B1", "separable": false, "example": "Let's get together for dinner next week."},
+    {"particle": "through", "meaning": "to manage to deal with a difficult period; to reach someone by phone", "translation": "superar (un mal momento) / contactar por teléfono", "level": "B2", "separable": false, "example": "I tried to call the bank, but I couldn't get through."},
+    {"particle": "out of", "meaning": "to avoid doing something you don't want to do", "translation": "librarse de", "level": "B2", "separable": false, "example": "He always gets out of washing the dishes."},
+    {"particle": "by", "meaning": "to have just enough money or knowledge to live or do something", "translation": "apañárselas", "level": "B2", "separable": false, "example": "My Italian isn't great, but I can get by."},
+    {"particle": "away with", "meaning": "to do something wrong without being punished", "translation": "salirse con la suya", "level": "C1", "separable": false, "example": "He cheated in the exam and got away with it."}
+  ]},
+  {"root": "take", "items": [
+    {"particle": "off", "meaning": "to remove a piece of clothing; (a plane) to leave the ground", "translation": "quitarse (ropa) / despegar", "level": "A2", "separable": true, "example": "Take your shoes off, please."},
+    {"particle": "up", "meaning": "to start doing a new hobby or activity", "translation": "empezar (una afición)", "level": "B1", "separable": true, "example": "She took up yoga last year."},
+    {"particle": "after", "meaning": "to look or behave like an older family member", "translation": "parecerse a (un familiar)", "level": "B1", "separable": false, "example": "He takes after his father: they both love football."},
+    {"particle": "out", "meaning": "to invite someone to a restaurant, cinema, etc. and pay", "translation": "invitar a salir", "level": "B1", "separable": true, "example": "He took her out for dinner on her birthday."},
+    {"particle": "back", "meaning": "to admit that something you said was wrong; to return something to a shop", "translation": "retirar (lo dicho) / devolver", "level": "B1", "separable": true, "example": "I'm sorry, I take it back.", "similar": ["bring-back", "give-back"]},
+    {"particle": "over", "meaning": "to take control of something", "translation": "hacerse con / tomar el control", "level": "B2", "separable": true, "example": "A big company took over the business."},
+    {"particle": "on", "meaning": "to accept work or responsibility; to employ someone", "translation": "asumir / contratar", "level": "B2", "separable": true, "example": "The shop is taking on new staff for Christmas."},
+    {"particle": "in", "meaning": "to deceive someone; to understand something", "translation": "engañar / asimilar", "level": "C1", "separable": true, "example": "Don't be taken in by their cheap offers.", "similar": ["fall-for"]}
+  ]},
+  {"root": "give", "items": [
+    {"particle": "up", "meaning": "to stop doing something", "translation": "dejar de / rendirse", "level": "B1", "separable": true, "example": "My grandfather gave up smoking ten years ago."},
+    {"particle": "back", "meaning": "to return something to its owner", "translation": "devolver", "level": "A2", "separable": true, "example": "Can you give me back my pen?", "similar": ["bring-back", "take-back"]},
+    {"particle": "away", "meaning": "to give something for free; to tell a secret", "translation": "regalar / desvelar", "level": "B1", "separable": true, "example": "Don't give away the ending of the film!"},
+    {"particle": "out", "meaning": "to give something to many people", "translation": "repartir", "level": "B1", "separable": true, "example": "The teacher gave out the exams."},
+    {"particle": "in", "meaning": "to finally agree to something after refusing", "translation": "ceder", "level": "B2", "separable": false, "example": "The kids kept asking until their parents gave in."}
+  ]},
+  {"root": "turn", "items": [
+    {"particle": "on", "meaning": "to start a machine or a light", "translation": "encender", "level": "A1", "separable": true, "example": "Can you turn on the light?"},
+    {"particle": "off", "meaning": "to stop a machine or a light", "translation": "apagar", "level": "A1", "separable": true, "example": "Turn it off before you leave."},
+    {"particle": "up", "meaning": "to increase the volume or temperature; to arrive", "translation": "subir (volumen) / aparecer", "level": "A2", "separable": true, "example": "Turn up the music, I love this song!", "similar": ["show-up"]},
+    {"particle": "down", "meaning": "to refuse an offer; to reduce the volume", "translation": "rechazar / bajar (volumen)", "level": "B1", "separable": true, "example": "She turned down the job offer."},
+    {"particle": "around", "meaning": "to move so you face the opposite direction; to make something improve", "translation": "darse la vuelta / dar un giro", "level": "B1", "separable": false, "example": "Turn around and look at the camera."},
+    {"particle": "into", "meaning": "to change and become something different", "translation": "convertirse en", "level": "B1", "separable": false, "example": "The small café turned into a famous restaurant."},
+    {"particle": "out", "meaning": "to happen or end in a particular way", "translation": "resultar", "level": "B2", "separable": false, "example": "The party turned out to be really fun."}
+  ]},
+  {"root": "put", "items": [
+    {"particle": "on", "meaning": "to dress yourself in a piece of clothing", "translation": "ponerse (ropa)", "level": "A1", "separable": true, "example": "Put on your coat, it's cold."},
+    {"particle": "away", "meaning": "to put something in the place where it is usually kept", "translation": "guardar / recoger", "level": "A2", "separable": true, "example": "Put your toys away, please."},
+    {"particle": "off", "meaning": "to delay something until later", "translation": "posponer / aplazar", "level": "B1", "separable": true, "example": "Stop putting off your homework!"},
+    {"particle": "out", "meaning": "to stop a fire or a cigarette from burning", "translation": "apagar (fuego)", "level": "B1", "separable": true, "example": "The firefighters put out the fire quickly."},
+    {"particle": "up", "meaning": "to build or raise something; to let someone stay in your home", "translation": "montar / alojar", "level": "B1", "separable": true, "example": "We put up the tent before it got dark."},
+    {"particle": "down", "meaning": "to write something; to criticise someone", "translation": "apuntar / menospreciar", "level": "B2", "separable": true, "example": "He always puts his sister down in front of others.", "similar": ["look-down-on"]},
+    {"particle": "through", "meaning": "to connect someone on the phone", "translation": "pasar (una llamada)", "level": "B2", "separable": true, "example": "Please hold, I'll put you through to the manager."},
+    {"particle": "up with", "meaning": "to accept an annoying situation or person", "translation": "aguantar / soportar", "level": "B2", "separable": false, "example": "I can't put up with this noise any more."}
+  ]},
+  {"root": "come", "items": [
+    {"particle": "in", "meaning": "to enter a room or building", "translation": "entrar / pasar", "level": "A1", "separable": false, "example": "Come in and sit down.", "also": ["over"]},
+    {"particle": "back", "meaning": "to return to a place", "translation": "volver", "level": "A1", "separable": false, "example": "Come back soon!", "similar": ["get-back", "go-back"]},
+    {"particle": "over", "meaning": "to visit someone at their home", "translation": "pasarse (por casa)", "level": "A2", "separable": false, "example": "Why don't you come over for coffee?", "similar": ["drop-by"]},
+    {"particle": "up", "meaning": "to be mentioned or discussed; to happen unexpectedly", "translation": "surgir", "level": "B1", "separable": false, "example": "Your name came up in the meeting."},
+    {"particle": "up with", "meaning": "to think of an idea or a plan", "translation": "ocurrírsele / idear", "level": "B1", "separable": false, "example": "She came up with a great idea for the party."},
+    {"particle": "across", "meaning": "to find something or meet someone by chance", "translation": "toparse con / encontrar por casualidad", "level": "B2", "separable": false, "example": "I came across some old photos in the attic.", "similar": ["run-into"]},
+    {"particle": "down with", "meaning": "to start to have an illness", "translation": "pillar (una enfermedad)", "level": "B2", "separable": false, "example": "I think I'm coming down with a cold."}
+  ]},
+  {"root": "go", "items": [
+    {"particle": "out", "meaning": "to leave home to enjoy yourself; (a light or fire) to stop burning", "translation": "salir (de fiesta) / apagarse", "level": "A1", "separable": false, "example": "Do you want to go out tonight?"},
+    {"particle": "back", "meaning": "to return to a place", "translation": "volver", "level": "A2", "separable": false, "example": "I'd love to go back to Rome one day.", "similar": ["come-back", "get-back"]},
+    {"particle": "on", "meaning": "to continue", "translation": "continuar / seguir", "level": "B1", "separable": false, "example": "The meeting went on for three hours.", "similar": ["carry-on", "keep-on"]},
+    {"particle": "up", "meaning": "to increase", "translation": "subir / aumentar", "level": "B1", "separable": false, "example": "The price of petrol went up again."},
+    {"particle": "down", "meaning": "to decrease", "translation": "bajar / disminuir", "level": "B1", "separable": false, "example": "The number of tourists went down last year."},
+    {"particle": "off", "meaning": "(an alarm) to ring; (food) to become bad; (a bomb) to explode", "translation": "sonar / estropearse / explotar", "level": "B1", "separable": false, "example": "My alarm went off at six."},
+    {"particle": "ahead", "meaning": "to start or continue doing something", "translation": "adelante / seguir adelante", "level": "B1", "separable": false, "example": "We finally got permission to go ahead with the new building.", "also": ["on"]},
+    {"particle": "over", "meaning": "to check or review something carefully", "translation": "repasar", "level": "B1", "separable": false, "example": "Let's go over the plan one more time.", "also": ["through"], "similar": ["go-through", "look-into", "look-over"]},
+    {"particle": "through", "meaning": "to experience something difficult", "translation": "pasar por", "level": "B2", "separable": false, "example": "She went through a hard time after losing her job.", "also": ["over"], "similar": ["go-over"]},
+    {"particle": "with", "meaning": "to look good together; to match", "translation": "pegar / combinar con", "level": "B1", "separable": false, "example": "Does this tie go with my shirt?"}
+  ]},
+  {"root": "run", "items": [
+    {"particle": "away", "meaning": "to escape from a place or person", "translation": "escaparse / huir", "level": "A2", "separable": false, "example": "The dog ran away when it heard the fireworks."},
+    {"particle": "out of", "meaning": "to have no more of something", "translation": "quedarse sin", "level": "A2", "separable": false, "example": "We've run out of milk."},
+    {"particle": "into", "meaning": "to meet someone by chance", "translation": "encontrarse con (por casualidad)", "level": "B1", "separable": false, "example": "I ran into an old friend at the supermarket.", "similar": ["come-across"]},
+    {"particle": "over", "meaning": "to hit someone or something with a vehicle", "translation": "atropellar", "level": "B2", "separable": true, "example": "Be careful not to run over the cat."}
+  ]},
+  {"root": "pick", "items": [
+    {"particle": "up", "meaning": "to lift something; to collect someone in a car", "translation": "recoger / coger", "level": "A2", "separable": true, "example": "I'll pick you up at the station at six."},
+    {"particle": "out", "meaning": "to choose something or someone from a group", "translation": "elegir / escoger", "level": "B1", "separable": true, "example": "Pick out the dress you like best."},
+    {"particle": "on", "meaning": "to criticise or tease someone unfairly", "translation": "meterse con", "level": "B2", "separable": false, "example": "Stop picking on your little brother!"}
+  ]},
+  {"root": "break", "items": [
+    {"particle": "down", "meaning": "to stop working (a machine or a car); to start crying", "translation": "averiarse / derrumbarse", "level": "A2", "separable": false, "example": "Our car broke down on the motorway."},
+    {"particle": "up", "meaning": "to end a romantic relationship", "translation": "romper / cortar (una relación)", "level": "B1", "separable": false, "example": "They broke up after five years together.", "similar": ["break-off", "fall-out"]},
+    {"particle": "into", "meaning": "to enter a building illegally, usually to steal", "translation": "entrar a robar", "level": "B1", "separable": false, "example": "Someone broke into our house last night."},
+    {"particle": "out", "meaning": "to start suddenly (a fire, a war, a disease)", "translation": "estallar / declararse", "level": "B2", "separable": false, "example": "A fire broke out in the kitchen."},
+    {"particle": "off", "meaning": "to end something suddenly, such as a relationship or a conversation", "translation": "romper / interrumpir", "level": "B2", "separable": true, "example": "They broke off their engagement a month before the wedding.", "similar": ["break-up"]}
+  ]},
+  {"root": "bring", "items": [
+    {"particle": "up", "meaning": "to raise a child; to start talking about a subject", "translation": "criar / sacar (un tema)", "level": "B1", "separable": true, "example": "She was brought up by her grandparents."},
+    {"particle": "back", "meaning": "to return something; to make you remember something", "translation": "devolver / traer recuerdos", "level": "B1", "separable": true, "example": "This song brings back so many memories.", "similar": ["give-back", "take-back"]},
+    {"particle": "about", "meaning": "to cause something to happen", "translation": "provocar / ocasionar", "level": "B2", "separable": true, "example": "The internet brought about huge changes in our lives."},
+    {"particle": "down", "meaning": "to reduce something; to make a government lose power", "translation": "bajar / derrocar", "level": "B2", "separable": true, "example": "The new law should bring down prices."},
+    {"particle": "forward", "meaning": "to move an event to an earlier date or time", "translation": "adelantar", "level": "B2", "separable": true, "example": "The meeting has been brought forward to Monday."},
+    {"particle": "in", "meaning": "to introduce a new law or system", "translation": "introducir / implantar", "level": "B2", "separable": true, "example": "The government brought in a new tax on sugar."}
+  ]},
+  {"root": "set", "items": [
+    {"particle": "up", "meaning": "to start a business or organisation; to arrange something", "translation": "montar / organizar", "level": "B1", "separable": true, "example": "She set up her own company at 25."},
+    {"particle": "off", "meaning": "to start a journey", "translation": "salir / ponerse en camino", "level": "B1", "separable": false, "example": "We set off early to avoid the traffic."},
+    {"particle": "back", "meaning": "to delay something or make it slower", "translation": "retrasar", "level": "B2", "separable": true, "example": "The bad weather set the project back by two weeks.", "similar": ["hold-up"]},
+    {"particle": "aside", "meaning": "to keep something, especially money or time, for a special purpose", "translation": "apartar / reservar", "level": "B2", "separable": true, "example": "I set aside some money every month for holidays."}
+  ]},
+  {"root": "make", "items": [
+    {"particle": "up", "meaning": "to invent a story or excuse; to become friends again after an argument", "translation": "inventar / hacer las paces", "level": "B1", "separable": true, "example": "He made up an excuse for being late."},
+    {"particle": "up for", "meaning": "to do something good to correct something bad you did before", "translation": "compensar", "level": "B2", "separable": false, "example": "I bought her flowers to make up for forgetting her birthday."},
+    {"particle": "out", "meaning": "to see, hear or understand something with difficulty", "translation": "distinguir / entender", "level": "B2", "separable": true, "example": "I couldn't make out what he was saying."}
+  ]},
+  {"root": "cut", "items": [
+    {"particle": "down on", "meaning": "to do or eat less of something", "translation": "reducir (el consumo de)", "level": "B1", "separable": false, "example": "I'm trying to cut down on sugar."},
+    {"particle": "off", "meaning": "to stop the supply of something; to interrupt a phone call", "translation": "cortar (un suministro o una llamada)", "level": "B2", "separable": true, "example": "They cut off our electricity because we didn't pay."},
+    {"particle": "out", "meaning": "to stop eating or doing something completely; to remove something", "translation": "dejar (por completo) / recortar", "level": "B2", "separable": true, "example": "The doctor told him to cut out alcohol."},
+    {"particle": "in", "meaning": "to interrupt someone who is speaking", "translation": "interrumpir", "level": "B2", "separable": false, "example": "Sorry to cut in, but we need to leave."}
+  ]},
+  {"root": "fall", "items": [
+    {"particle": "down", "meaning": "to fall to the ground", "translation": "caerse", "level": "A2", "separable": false, "example": "The little boy fell down and started crying."},
+    {"particle": "behind", "meaning": "to fail to do something as fast as other people or as planned", "translation": "quedarse atrás / retrasarse", "level": "B1", "separable": false, "example": "I was ill for two weeks and fell behind at school."},
+    {"particle": "out", "meaning": "to stop being friends with someone after an argument", "translation": "pelearse / enfadarse con alguien", "level": "B2", "separable": false, "example": "She fell out with her best friend over money.", "similar": ["break-up"]},
+    {"particle": "apart", "meaning": "to break into pieces; to stop working well", "translation": "caerse a pedazos / venirse abajo", "level": "B2", "separable": false, "example": "My old shoes are falling apart."},
+    {"particle": "for", "meaning": "to believe a trick or a lie; to fall in love with someone", "translation": "tragarse (un engaño) / enamorarse de", "level": "B2", "separable": false, "example": "I can't believe you fell for that old trick!", "similar": ["take-in"]},
+    {"particle": "through", "meaning": "(a plan or deal) to fail to happen", "translation": "venirse abajo / fracasar", "level": "B2", "separable": false, "example": "Our plans for the trip fell through."}
+  ]},
+  {"root": "carry", "items": [
+    {"particle": "on", "meaning": "to continue doing something", "translation": "continuar / seguir", "level": "B1", "separable": false, "example": "Carry on with your work while I'm out.", "similar": ["go-on", "keep-on"]},
+    {"particle": "out", "meaning": "to do a task, test or plan", "translation": "llevar a cabo / realizar", "level": "B2", "separable": true, "example": "The scientists carried out an experiment."}
+  ]},
+  {"root": "keep", "items": [
+    {"particle": "on", "meaning": "to continue doing something, often in an annoying way", "translation": "seguir (sin parar)", "level": "B1", "separable": false, "example": "He keeps on asking the same question.", "similar": ["carry-on", "go-on"]},
+    {"particle": "up with", "meaning": "to stay at the same level or speed as someone or something", "translation": "seguir el ritmo de / estar al día", "level": "B1", "separable": false, "example": "I can't keep up with all the new apps."}
+  ]},
+  {"root": "hold", "items": [
+    {"particle": "on", "meaning": "to wait for a short time (often on the phone)", "translation": "esperar / un momento", "level": "A2", "separable": false, "example": "Hold on, I'll get a pen.", "also": ["up"], "similar": ["hang-on"]},
+    {"particle": "up", "meaning": "to delay someone or something", "translation": "retrasar / entretener", "level": "B2", "separable": true, "example": "Sorry I'm late, I was held up in traffic.", "similar": ["set-back"]}
+  ]},
+  {"root": "call", "items": [
+    {"particle": "back", "meaning": "to phone someone again or phone someone who called you", "translation": "devolver la llamada", "level": "A2", "separable": true, "example": "I'm busy now, can I call you back?", "also": ["up"]},
+    {"particle": "off", "meaning": "to cancel an event or plan", "translation": "cancelar / suspender", "level": "B1", "separable": true, "example": "They called off the match because of the rain."},
+    {"particle": "for", "meaning": "to need or demand something", "translation": "requerir / pedir", "level": "C1", "separable": false, "example": "This situation calls for quick action."}
+  ]},
+  {"root": "check", "items": [
+    {"particle": "in", "meaning": "to arrive and register at a hotel or airport", "translation": "registrarse / facturar", "level": "A2", "separable": false, "example": "We checked in at the hotel at three."},
+    {"particle": "out", "meaning": "to pay and leave a hotel", "translation": "dejar el hotel / hacer el check-out", "level": "A2", "separable": false, "example": "We have to check out before eleven."}
+  ]},
+  {"root": "fill", "items": [
+    {"particle": "in", "meaning": "to complete a form with information", "translation": "rellenar (un formulario)", "level": "A2", "separable": true, "example": "Please fill in this form."},
+    {"particle": "up", "meaning": "to make something completely full", "translation": "llenar", "level": "A2", "separable": true, "example": "Fill up the tank before the trip."}
+  ]},
+  {"root": "find", "items": [
+    {"particle": "out", "meaning": "to discover information or a fact", "translation": "averiguar / enterarse", "level": "A2", "separable": true, "example": "I need to find out what time the train leaves."}
+  ]},
+  {"root": "work", "items": [
+    {"particle": "out", "meaning": "to exercise; to find the answer to a problem", "translation": "hacer ejercicio / resolver", "level": "B1", "separable": true, "example": "Don't worry, we'll work it out together."},
+    {"particle": "on", "meaning": "to spend time improving or doing something", "translation": "trabajar en / mejorar", "level": "B1", "separable": false, "example": "I need to work on my pronunciation."}
+  ]},
+  {"root": "throw", "items": [
+    {"particle": "away", "meaning": "to put something in the rubbish", "translation": "tirar (a la basura)", "level": "A2", "separable": true, "example": "Don't throw away those boxes, I need them.", "also": ["out"]},
+    {"particle": "up", "meaning": "to vomit", "translation": "vomitar", "level": "B1", "separable": false, "example": "I felt so sick that I threw up."}
+  ]},
+  {"root": "show", "items": [
+    {"particle": "up", "meaning": "to arrive, especially late or unexpectedly", "translation": "aparecer / presentarse", "level": "B1", "separable": false, "example": "He showed up an hour late.", "similar": ["turn-up"]},
+    {"particle": "off", "meaning": "to try to impress people with what you have or can do", "translation": "presumir / fardar", "level": "B1", "separable": false, "example": "Stop showing off with your new car!"}
+  ]},
+  {"root": "grow", "items": [
+    {"particle": "up", "meaning": "to change from a child into an adult", "translation": "crecer / hacerse mayor", "level": "A2", "separable": false, "example": "I grew up in a small village."},
+    {"particle": "out of", "meaning": "to become too big for clothes; to stop doing something as you get older", "translation": "quedarse pequeño (ropa) / dejar atrás", "level": "B2", "separable": false, "example": "My son has grown out of all his shoes."}
+  ]},
+  {"root": "hang", "items": [
+    {"particle": "out", "meaning": "to spend time somewhere or with someone, relaxing", "translation": "pasar el rato", "level": "B1", "separable": false, "example": "We usually hang out at the park after school."},
+    {"particle": "up", "meaning": "to end a phone call", "translation": "colgar (el teléfono)", "level": "A2", "separable": false, "example": "She was so angry that she hung up on me."},
+    {"particle": "on", "meaning": "to wait for a short time", "translation": "esperar / aguantar", "level": "B1", "separable": false, "example": "Hang on a minute, I'm almost ready.", "also": ["up"], "similar": ["hold-on"]}
+  ]},
+  {"root": "try", "items": [
+    {"particle": "on", "meaning": "to put on clothes to see if they fit", "translation": "probarse (ropa)", "level": "A2", "separable": true, "example": "Can I try on these jeans?"},
+    {"particle": "out", "meaning": "to test something to see if it works or if you like it", "translation": "probar", "level": "B1", "separable": true, "example": "I want to try out the new pizza place."}
+  ]},
+  {"root": "let", "items": [
+    {"particle": "in", "meaning": "to allow someone to enter", "translation": "dejar entrar", "level": "A2", "separable": true, "example": "Who let you in? The door was locked."},
+    {"particle": "down", "meaning": "to disappoint someone by not doing what you promised", "translation": "decepcionar / fallar", "level": "B1", "separable": true, "example": "I promised to help and I won't let you down."},
+    {"particle": "off", "meaning": "to not punish someone, or give them a light punishment", "translation": "perdonar / dejar ir sin castigo", "level": "B2", "separable": true, "example": "The police officer let him off with a warning."}
+  ]},
+  {"root": "pass", "items": [
+    {"particle": "away", "meaning": "to die (a polite way of saying it)", "translation": "fallecer", "level": "B1", "separable": false, "example": "His grandfather passed away last year."},
+    {"particle": "on", "meaning": "to give a message or object to another person", "translation": "transmitir / pasar", "level": "B1", "separable": true, "example": "Can you pass on the message to Sarah?"},
+    {"particle": "out", "meaning": "to become unconscious", "translation": "desmayarse", "level": "B2", "separable": false, "example": "It was so hot that two people passed out."}
+  ]},
+  {"root": "drop", "items": [
+    {"particle": "off", "meaning": "to take someone or something to a place and leave them there; to fall asleep", "translation": "dejar (a alguien en un sitio) / quedarse dormido", "level": "A2", "separable": true, "example": "I'll drop you off at school on my way to work."},
+    {"particle": "by", "meaning": "to visit someone briefly, without planning", "translation": "pasarse (un momento)", "level": "B1", "separable": false, "example": "Drop by the office tomorrow and pick up the keys.", "also": ["in"], "similar": ["come-over"]},
+    {"particle": "out", "meaning": "to leave school or a course before finishing it", "translation": "dejar los estudios / abandonar", "level": "B1", "separable": false, "example": "He dropped out of university after one year."}
+  ]}
+]
