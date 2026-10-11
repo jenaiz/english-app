@@ -12,7 +12,20 @@ interface Row {
 }
 
 const necessary: Row[] = [
-  { name: 'token', provider: SITE.name, purpose: 'Mantener tu sesión iniciada', duration: '3 días', kind: 'Cookie técnica' },
+  {
+    name: 'token',
+    provider: SITE.name,
+    purpose: 'Mantener tu sesión iniciada',
+    duration: '30 días desde tu última visita',
+    kind: 'Cookie técnica',
+  },
+  {
+    name: 'fluently.lastEmail',
+    provider: SITE.name,
+    purpose: 'Rellenar el email en el inicio de sesión con el último que usaste en este dispositivo',
+    duration: 'Hasta que borres los datos del navegador o tu cuenta',
+    kind: 'Almacenamiento local',
+  },
   {
     name: 'cookie-consent',
     provider: SITE.name,
