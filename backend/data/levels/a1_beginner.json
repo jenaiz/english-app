@@ -1,0 +1,271 @@
+{
+  "level_id": "A1",
+  "title": "A1 Beginner",
+  "description": "Primeros pasos: saludos, presentaciones y vocabulario básico",
+  "themes": [
+    {
+      "theme_id": "greetings",
+      "title": "Greetings & Introductions",
+      "units": [
+        {
+          "unit_id": "saying_hello",
+          "title": "Saying Hello",
+          "description": "Saluda y preséntate con el verbo 'to be'.",
+          "lessons": [
+            {
+              "lesson_id": "hello_basics",
+              "title": "Hello, I'm...",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "dialogue": [
+                      {"speaker": "Anna", "text": "Hello! I'm Anna. What's your name?"},
+                      {"speaker": "Tom", "text": "Hi Anna, I'm Tom. Nice to meet you."},
+                      {"speaker": "Anna", "text": "Nice to meet you too! Where are you from?"},
+                      {"speaker": "Tom", "text": "I'm from Spain. I'm a student. And you?"},
+                      {"speaker": "Anna", "text": "I'm from Canada. My brother is a student too."}
+                    ]
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y elige la respuesta correcta.",
+                    "items": [
+                      {"question": "Where is Tom from?", "options": ["Canada", "Spain", "England"], "answer": 1},
+                      {"question": "In \"I'm Anna\", what does 'm stand for?", "options": ["am", "is", "are"], "answer": 0, "explanation": "I'm = I am. Con 'I' siempre usamos 'am'."},
+                      {"question": "\"My brother ___ a student.\" Which form did Anna use?", "options": ["am", "are", "is"], "answer": 2, "explanation": "Con he / she / it (my brother = he) usamos 'is'."}
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "The verb 'to be' (present)",
+                    "explanation": "'To be' significa 'ser' o 'estar'. Tiene tres formas en presente: am, is, are. En la conversación casi siempre se contrae: I'm, you're, he's, she's, it's, we're, they're.",
+                    "table": {
+                      "headers": ["Sujeto", "Forma completa", "Contracción", "Negativa"],
+                      "rows": [
+                        ["I", "I am", "I'm", "I'm not"],
+                        ["You", "You are", "You're", "You aren't"],
+                        ["He / She / It", "He is", "He's", "He isn't"],
+                        ["We / They", "We are", "We're", "We aren't"]
+                      ]
+                    },
+                    "examples": ["I'm Spanish.", "She is a teacher.", "They aren't at home."]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con am, is o are.",
+                    "items": [
+                      {"sentence": "I ___ from Spain.", "answers": [["am"]]},
+                      {"sentence": "Anna ___ from Canada.", "answers": [["is"]]},
+                      {"sentence": "We ___ students.", "answers": [["are"]]},
+                      {"sentence": "My friends ___ in London.", "answers": [["are"]], "explanation": "My friends = they → are."}
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras para formar la frase.",
+                    "items": [
+                      {"answer": "Nice to meet you"},
+                      {"answer": "Where are you from?"},
+                      {"answer": "My brother is a student", "distractors": ["am"]}
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {"source": "Soy de España.", "answers": ["I'm from Spain", "I am from Spain"]},
+                      {"source": "Ella es profesora.", "answers": ["She's a teacher", "She is a teacher"]}
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee la frase en voz alta.",
+                    "items": [
+                      {"text": "Hello, I'm Tom. Nice to meet you."},
+                      {"text": "Where are you from?"}
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {"term": "Hello", "definition": "A greeting", "translation": "Hola", "example": "Hello, how are you?"},
+                      {"term": "Goodbye", "definition": "Said when leaving", "translation": "Adiós", "example": "Goodbye, see you tomorrow!"},
+                      {"term": "Nice to meet you", "definition": "Said when meeting someone new", "translation": "Encantado/a", "example": "Nice to meet you, Tom."},
+                      {"term": "Where are you from?", "definition": "Question about someone's origin", "translation": "¿De dónde eres?", "example": "Where are you from? I'm from Spain."},
+                      {"term": "Student", "definition": "A person who studies", "translation": "Estudiante", "example": "I'm a student."}
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Responde antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 40,
+                    "items": [
+                      {"question": "They ___ my friends.", "options": ["is", "are", "am"], "answer": 1},
+                      {"question": "\"Encantado\" in English is…", "options": ["Goodbye", "Nice to meet you", "See you"], "answer": 1},
+                      {"question": "He ___ from Italy.", "options": ["is", "are", "am"], "answer": 0},
+                      {"question": "Negative of \"I am\":", "options": ["I amn't", "I'm not", "I not am"], "answer": 1}
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme_id": "everyday_basics",
+      "title": "Everyday Basics",
+      "units": [
+        {
+          "unit_id": "numbers_colors",
+          "title": "Numbers & Colours",
+          "description": "Describe objetos por su color y aprende dónde va el adjetivo.",
+          "lessons": [
+            {
+              "lesson_id": "colors_intro",
+              "title": "Colours & Adjectives",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "My room",
+                    "passage": "My room is small but nice. I have a blue bed and two white chairs. My favourite thing is a big red lamp. The walls are green and the door is brown."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "match_pairs",
+                  "content": {
+                    "instructions": "Empareja cada color con su traducción.",
+                    "pairs": [
+                      {"left": "Red", "right": "Rojo"},
+                      {"left": "Blue", "right": "Azul"},
+                      {"left": "Green", "right": "Verde"},
+                      {"left": "White", "right": "Blanco"},
+                      {"left": "Brown", "right": "Marrón"}
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Adjective position",
+                    "explanation": "En inglés el adjetivo va ANTES del sustantivo y nunca cambia en plural. Si hay tamaño y color, el tamaño va primero.",
+                    "table": {
+                      "headers": ["Español", "Inglés"],
+                      "rows": [
+                        ["un coche rojo", "a red car"],
+                        ["dos sillas blancas", "two white chairs"],
+                        ["una lámpara roja grande", "a big red lamp"]
+                      ]
+                    },
+                    "examples": ["I have a blue bed.", "The walls are green."]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {"answer": "I have a blue bed"},
+                      {"answer": "two white chairs", "distractors": ["whites"]},
+                      {"answer": "a big red lamp"}
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Convierte la frase al plural.",
+                    "items": [
+                      {"prompt": "Plural (two)", "source": "a green chair", "answers": ["two green chairs"]},
+                      {"prompt": "Plural (three)", "source": "a small red car", "answers": ["three small red cars"], "explanation": "El adjetivo no cambia: small red cars."}
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "dictation",
+                  "content": {
+                    "instructions": "Escucha y escribe lo que oyes.",
+                    "items": [
+                      {"text": "The door is brown."},
+                      {"text": "I have a big red lamp."}
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {"source": "Tengo un coche azul.", "answers": ["I have a blue car", "I've got a blue car"]}
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {"term": "Red", "definition": "The colour of blood", "translation": "Rojo", "example": "I have a red car."},
+                      {"term": "Blue", "definition": "The colour of the sky", "translation": "Azul", "example": "The sky is blue."},
+                      {"term": "Green", "definition": "The colour of grass", "translation": "Verde", "example": "Green is my favourite colour."},
+                      {"term": "White", "definition": "The colour of snow", "translation": "Blanco", "example": "Two white chairs."},
+                      {"term": "Brown", "definition": "The colour of chocolate", "translation": "Marrón", "example": "The door is brown."}
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Contrarreloj!",
+                    "time_limit_seconds": 30,
+                    "items": [
+                      {"question": "\"Coches rojos\" =", "options": ["reds cars", "red cars", "cars red"], "answer": 1},
+                      {"question": "\"Verde\" =", "options": ["Green", "Grey", "Brown"], "answer": 0},
+                      {"question": "Correct order:", "options": ["a red big lamp", "a big red lamp", "a lamp big red"], "answer": 1}
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

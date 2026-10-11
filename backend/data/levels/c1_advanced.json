@@ -1,0 +1,135 @@
+{
+  "level_id": "C1",
+  "title": "C1 Advanced",
+  "description": "Precisión, registro formal y estructuras avanzadas",
+  "themes": [
+    {
+      "theme_id": "academic_professional",
+      "title": "Academic & Professional English",
+      "units": [
+        {
+          "unit_id": "inversion_emphasis",
+          "title": "Inversion for Emphasis",
+          "description": "Usa la inversión negativa para un registro formal y enfático.",
+          "lessons": [
+            {
+              "lesson_id": "negative_inversion",
+              "title": "Negative Inversion",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "CEO's farewell speech",
+                    "passage": "Never have I worked with such a dedicated team. Not only did we double our revenue, but we also opened three new offices. Rarely does a company grow this fast without losing its culture. No sooner had we launched the product than orders started pouring in. Under no circumstances should we forget how we got here."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Analiza el orden de las palabras en el discurso.",
+                    "items": [
+                      {"question": "In \"Never have I worked…\", what comes right after 'Never'?", "options": ["The subject (I)", "The auxiliary (have)", "The main verb (worked)"], "answer": 1},
+                      {"question": "\"Not only did we double…\" — why 'did'?", "options": ["Past simple needs the auxiliary 'did' to invert", "It's a mistake", "It adds future meaning"], "answer": 0, "explanation": "Si no hay auxiliar, usamos do/does/did para invertir."},
+                      {"question": "What is the effect of this structure?", "options": ["Informal and casual", "Formal and emphatic", "Question form"], "answer": 1}
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Negative adverbials + inversion",
+                    "explanation": "Cuando una expresión negativa o restrictiva abre la frase, el auxiliar va delante del sujeto (como en una pregunta). Si no hay auxiliar, se usa do/does/did. Es propio del registro formal, escrito o de discursos.",
+                    "table": {
+                      "headers": ["Expresión", "Estructura", "Ejemplo"],
+                      "rows": [
+                        ["Never / Rarely / Seldom", "+ aux + sujeto + verbo", "Rarely do we see such talent."],
+                        ["Not only … but also", "Not only + aux + sujeto…", "Not only did she win, but she also broke the record."],
+                        ["No sooner … than", "No sooner had + sujeto + participio", "No sooner had I sat down than the phone rang."],
+                        ["Under no circumstances", "+ modal + sujeto + verbo", "Under no circumstances should you open it."]
+                      ]
+                    },
+                    "examples": ["Never have I seen such a beautiful view.", "Seldom does he make mistakes."]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el auxiliar y el sujeto correctos.",
+                    "items": [
+                      {"sentence": "Rarely ___ she arrive late.", "answers": [["does"]]},
+                      {"sentence": "Never ___ I heard such nonsense.", "answers": [["have"]]},
+                      {"sentence": "No sooner ___ we left than it started to rain.", "answers": [["had"]]},
+                      {"sentence": "Under no circumstances ___ you tell anyone.", "answers": [["should", "must"]]}
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Reescribe empezando con la expresión dada.",
+                    "items": [
+                      {"prompt": "Empieza con 'Never'", "source": "I have never seen such a mess.", "answers": ["Never have I seen such a mess"]},
+                      {"prompt": "Empieza con 'Not only'", "source": "She sings and she also plays the piano.", "answers": ["Not only does she sing, but she also plays the piano", "Not only does she sing but she also plays the piano", "Not only does she sing, she also plays the piano"]},
+                      {"prompt": "Empieza con 'Seldom'", "source": "We seldom get such good news.", "answers": ["Seldom do we get such good news"]}
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce usando inversión.",
+                    "items": [
+                      {"source": "Nunca había visto algo así.", "answers": ["Never had I seen anything like that", "Never had I seen anything like it", "Never had I seen something like that"]},
+                      {"source": "Bajo ninguna circunstancia debes firmar ese contrato.", "answers": ["Under no circumstances should you sign that contract", "Under no circumstances must you sign that contract"]}
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "dictation",
+                  "content": {
+                    "instructions": "Escucha y escribe.",
+                    "items": [{"text": "Not only did we double our revenue, but we also opened three new offices."}]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {"term": "No sooner... than", "definition": "Immediately after", "translation": "Nada más... / En cuanto...", "example": "No sooner had we arrived than it started to rain."},
+                      {"term": "Seldom", "definition": "Rarely, not often", "translation": "Rara vez", "example": "Seldom do we see such dedication."},
+                      {"term": "Pour in", "definition": "Arrive in large quantities", "translation": "Llegar en avalancha", "example": "Orders started pouring in."},
+                      {"term": "Under no circumstances", "definition": "Never, in no situation", "translation": "Bajo ninguna circunstancia", "example": "Under no circumstances should you leave."},
+                      {"term": "Dedicated", "definition": "Committed and hard-working", "translation": "Entregado / comprometido", "example": "A dedicated team."}
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Contrarreloj!",
+                    "time_limit_seconds": 40,
+                    "items": [
+                      {"question": "Never ___ such a great film.", "options": ["I have seen", "have I seen", "I saw"], "answer": 1},
+                      {"question": "Rarely ___ he complain.", "options": ["does", "do", "is"], "answer": 0},
+                      {"question": "No sooner ___ than the lights went out.", "options": ["I had arrived", "had I arrived", "did I arrived"], "answer": 1},
+                      {"question": "\"Rara vez\" =", "options": ["seldom", "sooner", "never"], "answer": 0}
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

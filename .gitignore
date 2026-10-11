@@ -1,0 +1,15 @@
+# env
+.env
+
+# frontend
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# backend
+backend/server
+backend/bin/
+
+# misc
+.DS_Store
+*.log
