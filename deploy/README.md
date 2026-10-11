@@ -105,8 +105,15 @@ Logs: `ssh -i ~/.ssh/bukios_deploy deploy@bukios.com 'cd ~/fluently && docker co
 5. **Sesiones**: la cookie `token` es host-only, así que los usuarios tendrán que volver a iniciar sesión en el dominio nuevo. Los datos no cambian.
 6. **Google**: añadir el dominio nuevo a los orígenes de JavaScript autorizados del cliente OAuth.
 7. **Emails**: verificar el dominio nuevo en Amazon SES (DKIM/SPF) y poner `APP_URL=https://<dominio>` y `MAIL_FROM=Fluently <no-reply@<dominio>>` en el `.env` del VPS. Los enlaces enviados antes del cambio siguen apuntando a `fluently.bukios.com`, que redirige al dominio nuevo.
-7. **Analytics**: cambiar la URL del flujo web «Fluently Web» en GA4 (el ID `G-609K1JBZR4` se mantiene). Mientras la redirección 301 esté activa no hace falta medición entre dominios. Actualizar `SITE.url` en `frontend/src/lib/site.ts`.
-8. Revisar menciones a `fluently.bukios.com` con `grep -rn fluently.bukios.com`.
+8. **Analytics**: cambiar la URL del flujo web «Fluently Web» en GA4 (el ID `G-609K1JBZR4` se mantiene). Mientras la redirección 301 esté activa no hace falta medición entre dominios. Actualizar `SITE.url` en `frontend/src/lib/site.ts`.
+9. **SEO**: `SITE.url` es también el dominio de las URL canónicas, del `sitemap.xml` y del `robots.txt` que genera el build (ver «Páginas para buscadores»), así que tras cambiarlo hay que desplegar. En Google Search Console, dar de alta el dominio nuevo, enviar su sitemap y usar «Cambio de dirección» desde `fluently.bukios.com`.
+10. Revisar menciones a `fluently.bukios.com` con `grep -rn fluently.bukios.com`.
+
+## Páginas para buscadores
+
+Cada idiom y cada phrasal verb tiene una página pública (`/expresiones/idioms/<id>`, `/expresiones/phrasal-verbs/<id>`). El build del frontend las genera como HTML estático (`npm run build` → `scripts/prerender.mjs`) a partir de `backend/data/expressions/`, junto con `sitemap.xml` y `robots.txt`. Por eso `deploy.sh` pasa ese directorio a `docker build` con `--build-context content=…`. nginx sirve `break-the-ice.html` para `/expresiones/idioms/break-the-ice` y, para el resto de rutas, la SPA.
+
+Una vez desplegado, dar de alta el dominio en [Google Search Console](https://search.google.com/search-console) y enviar `https://<dominio>/sitemap.xml`.
 
 ## Mover a otro servidor
 

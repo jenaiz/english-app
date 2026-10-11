@@ -79,7 +79,7 @@ fi
 echo "🐳 Building fluently-backend:$version and fluently-web:$version (linux/amd64) …"
 docker build --platform linux/amd64 --build-arg VERSION="$version" \
   -t "fluently-backend:$version" -t fluently-backend:latest backend
-docker build --platform linux/amd64 \
+docker build --platform linux/amd64 --build-context content=backend/data/expressions \
   -t "fluently-web:$version" -t fluently-web:latest frontend
 
 # --- 3) Ship compose file + images to the VPS (no registry) ---

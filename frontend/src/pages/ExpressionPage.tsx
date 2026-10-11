@@ -4,7 +4,7 @@ import { AlertCircle, ArrowLeft, ArrowRight, Layers, Loader2 } from 'lucide-reac
 import AddToReview from '../components/expressions/AddToReview'
 import SpeakButton from '../components/SpeakButton'
 import { useAuth } from '../context/AuthContext'
-import { buildPage, initialPageData, kindFromSegment, pageMeta, type ExpressionPageData, type PageLink } from '../lib/expressionPages'
+import { buildPage, DEFAULT_META, initialPageData, kindFromSegment, pageMeta, type ExpressionPageData, type PageLink } from '../lib/expressionPages'
 import { loadExpressions } from '../lib/expressionsCatalog'
 import { useSavedExpressions } from '../lib/useSavedExpressions'
 import NotFound from './NotFound'
@@ -37,9 +37,15 @@ export default function ExpressionPage() {
   useEffect(() => {
     if (!page) return
     const meta = pageMeta(page)
+    const description = document.querySelector('meta[name="description"]')
     document.title = meta.title
-    document.querySelector('meta[name="description"]')?.setAttribute('content', meta.description)
+    description?.setAttribute('content', meta.description)
     window.scrollTo(0, 0)
+    // Other pages don't set their own, so leave the defaults behind (even when this page was the entry point).
+    return () => {
+      document.title = DEFAULT_META.title
+      description?.setAttribute('content', DEFAULT_META.description)
+    }
   }, [page])
 
   if (state === 'missing') return <NotFound />

@@ -113,6 +113,12 @@ export function allPages(catalog: ExpressionsCatalog): { kind: PageKind; id: str
 
 const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1)
 
+/** The site's title and description, as in index.html. */
+export const DEFAULT_META = {
+  title: 'Fluently · Learn English',
+  description: 'Aprende inglés del A1 al C1 con lecciones cortas, idioms, phrasal verbs y repaso espaciado. Gratis.',
+}
+
 export interface PageMeta {
   title: string
   description: string
