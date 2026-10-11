@@ -15,6 +15,23 @@ func TestLoadBundledExpressions(t *testing.T) {
 	if len(e.Idioms) < 100 || len(e.PhrasalVerbs) < 30 || len(e.Hacks) == 0 {
 		t.Errorf("unexpected sizes: %d idioms, %d families, %d hacks", len(e.Idioms), len(e.PhrasalVerbs), len(e.Hacks))
 	}
+	// The essentials shown by default stay a small part of the catalog.
+	coreIdioms, corePhrasal := 0, 0
+	for _, it := range e.Idioms {
+		if it.Core {
+			coreIdioms++
+		}
+	}
+	for _, f := range e.PhrasalVerbs {
+		for _, v := range f.Items {
+			if v.Core {
+				corePhrasal++
+			}
+		}
+	}
+	if coreIdioms < 30 || coreIdioms > 60 || corePhrasal < 30 || corePhrasal > 60 {
+		t.Errorf("core sizes out of range: %d idioms, %d phrasal verbs", coreIdioms, corePhrasal)
+	}
 	if it, ok := e.Idiom("break-the-ice"); !ok || it.Term != "break the ice" {
 		t.Error("break-the-ice not found")
 	}

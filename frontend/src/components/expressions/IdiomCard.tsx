@@ -13,6 +13,10 @@ interface Props {
 export default function IdiomCard({ idiom, saved, onAdd }: Props) {
   const [flipped, setFlipped] = useState(false)
   const [showSpanish, setShowSpanish] = useState(false)
+  // The back shows the essentials; the rest waits behind "Más detalles" so the card stays light.
+  const [showDetails, setShowDetails] = useState(false)
+  const [firstExample, ...moreExamples] = idiom.examples
+  const hasDetails = moreExamples.length > 0 || !!idiom.literal_es || !!idiom.note
 
   return (
     // A div, not a button: the back face holds its own buttons.
@@ -53,14 +57,12 @@ export default function IdiomCard({ idiom, saved, onAdd }: Props) {
             <span className="shrink-0 rounded-full bg-indigo-50 px-2.5 py-1 text-xs font-semibold text-indigo-700">{idiom.register}</span>
           </div>
           <p className="text-lg leading-snug font-semibold text-slate-900">{idiom.definition}</p>
-          <ul className="space-y-1.5">
-            {idiom.examples.map((ex) => (
-              <li key={ex} className="flex items-center justify-between gap-2 text-sm text-slate-600 italic">
-                “{ex}”
-                {flipped && <SpeakButton text={ex} />}
-              </li>
-            ))}
-          </ul>
+          {firstExample && (
+            <p className="flex items-center justify-between gap-2 text-sm text-slate-600 italic">
+              “{firstExample}”
+              {flipped && <SpeakButton text={firstExample} />}
+            </p>
+          )}
           <button
             type="button"
             onClick={(e) => {
@@ -72,13 +74,35 @@ export default function IdiomCard({ idiom, saved, onAdd }: Props) {
             <span className="font-semibold">En español: </span>
             <span className={showSpanish ? '' : 'blur-sm select-none'}>{idiom.equivalent_es}</span>
             {!showSpanish && <span className="block text-xs text-slate-500">Toca para verlo</span>}
-            {showSpanish && idiom.literal_es && (
-              <span className="block text-xs text-slate-500">Literalmente: «{idiom.literal_es}». No se traduce palabra por palabra.</span>
-            )}
           </button>
-          {idiom.note && <p className="text-xs text-slate-500">{idiom.note}</p>}
-          <div className="mt-auto pt-1">
+          {showDetails && (
+            <div className="space-y-2 border-t border-slate-100 pt-3 text-sm">
+              {moreExamples.map((ex) => (
+                <p key={ex} className="flex items-center justify-between gap-2 text-slate-600 italic">
+                  “{ex}”
+                  {flipped && <SpeakButton text={ex} />}
+                </p>
+              ))}
+              {idiom.literal_es && (
+                <p className="text-slate-500">Literalmente: «{idiom.literal_es}». No se traduce palabra por palabra.</p>
+              )}
+              {idiom.note && <p className="text-slate-500">{idiom.note}</p>}
+            </div>
+          )}
+          <div className="mt-auto flex flex-wrap items-center justify-between gap-2 pt-1">
             <AddToReview kind="idiom" id={idiom.id} saved={saved} onAdd={onAdd} />
+            {hasDetails && (
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation()
+                  setShowDetails((d) => !d)
+                }}
+                className="text-sm font-medium text-indigo-600 hover:text-indigo-800"
+              >
+                {showDetails ? 'Menos detalles' : 'Más detalles'}
+              </button>
+            )}
           </div>
         </div>
       </div>

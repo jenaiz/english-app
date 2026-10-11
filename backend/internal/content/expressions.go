@@ -21,11 +21,13 @@ type Expressions struct {
 }
 
 type Idiom struct {
-	ID           string `json:"id"`
-	Term         string `json:"term"`
-	Level        string `json:"level"`
-	Topic        string `json:"topic"`
-	Register     string `json:"register"`
+	ID       string `json:"id"`
+	Term     string `json:"term"`
+	Level    string `json:"level"`
+	Topic    string `json:"topic"`
+	Register string `json:"register"`
+	// Core marks the essential expressions, shown by default; the rest are shown on demand.
+	Core         bool   `json:"core,omitempty"`
 	Definition   string `json:"definition"`
 	EquivalentES string `json:"equivalent_es"`
 	LiteralES    string `json:"literal_es,omitempty"`
@@ -58,6 +60,7 @@ type PhrasalVerb struct {
 	Translation string `json:"translation"`
 	Level       string `json:"level"`
 	Separable   bool   `json:"separable"`
+	Core        bool   `json:"core,omitempty"`
 	Example     string `json:"example"`
 	// Also lists other particles that would also be correct in the example, never offered as wrong options.
 	Also []string `json:"also,omitempty"`

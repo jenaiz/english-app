@@ -198,6 +198,8 @@ export interface Idiom {
   level: string
   topic: string
   register: string
+  /** Essential expression, shown by default. */
+  core?: boolean
   definition: string
   equivalent_es: string
   literal_es?: string
@@ -215,6 +217,7 @@ export interface PhrasalVerb {
   translation: string
   level: string
   separable: boolean
+  core?: boolean
   example: string
   also?: string[]
   similar?: string[]
