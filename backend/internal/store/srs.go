@@ -85,3 +85,21 @@ func (s *Store) UpdateCard(ctx context.Context, userID, cardID string, st srs.St
 		WHERE id = $1 AND user_id = $2`, cardID, userID, st.Ease, st.IntervalDays, st.Repetitions, st.DueAt)
 	return err
 }
+
+// AllCards returns every SRS card of the user, for the data export.
+func (s *Store) AllCards(ctx context.Context, userID string) ([]*Card, error) {
+	rows, err := s.pool.Query(ctx, `SELECT `+cardColumns+` FROM srs_cards WHERE user_id = $1 ORDER BY created_at`, userID)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+	out := []*Card{}
+	for rows.Next() {
+		c, err := scanCard(rows)
+		if err != nil {
+			return nil, err
+		}
+		out = append(out, c)
+	}
+	return out, rows.Err()
+}

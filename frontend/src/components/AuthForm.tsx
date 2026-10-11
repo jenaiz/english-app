@@ -18,9 +18,11 @@ interface Props {
   footer: ReactNode
   /** Other sign-in methods, shown below the submit button. */
   alternative?: ReactNode
+  /** Extra content shown under the error message (e.g. a "resend email" button). */
+  notice?: ReactNode
 }
 
-export default function AuthForm({ title, subtitle, fields, submitLabel, validate, onSubmit, footer, alternative }: Props) {
+export default function AuthForm({ title, subtitle, fields, submitLabel, validate, onSubmit, footer, alternative, notice }: Props) {
   const [values, setValues] = useState<Record<string, string>>(() => Object.fromEntries(fields.map((f) => [f.name, ''])))
   const [errors, setErrors] = useState<Record<string, string>>({})
   const [serverError, setServerError] = useState('')
@@ -53,6 +55,7 @@ export default function AuthForm({ title, subtitle, fields, submitLabel, validat
             <AlertCircle className="h-4 w-4 shrink-0" /> {serverError}
           </div>
         )}
+        {notice}
 
         <div className="mt-6 space-y-4">
           {fields.map((f) => (
@@ -92,9 +95,19 @@ export default function AuthForm({ title, subtitle, fields, submitLabel, validat
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 
-export function validateCredentials(values: Record<string, string>) {
+export function validateEmail(values: Record<string, string>) {
   const errs: Record<string, string> = {}
   if (!EMAIL_RE.test(values.email.trim())) errs.email = 'Introduce un email válido'
-  if (values.password.length < 8) errs.password = 'Mínimo 8 caracteres'
   return errs
+}
+
+export function validatePassword(values: Record<string, string>) {
+  const errs: Record<string, string> = {}
+  if (values.password.length < 8) errs.password = 'Mínimo 8 caracteres'
+  if ('confirm' in values && values.password !== values.confirm) errs.confirm = 'Las contraseñas no coinciden'
+  return errs
+}
+
+export function validateCredentials(values: Record<string, string>) {
+  return { ...validateEmail(values), ...validatePassword(values) }
 }

@@ -56,6 +56,23 @@ ssh -i ~/.ssh/bukios_deploy deploy@bukios.com \
 
 El dominio (`https://fluently.bukios.com`) tiene que estar en los **orígenes de JavaScript autorizados** del cliente OAuth. Si cambias de dominio, añade también el nuevo. Detalles en el README principal.
 
+## Emails (Amazon SES)
+
+Los emails de verificación y de cambio de contraseña salen por la misma cuenta de **Amazon SES** que bukios, desde `no-reply@bukios.com` (dominio ya verificado en SES). Copia las credenciales del `.env` de bukios en el VPS al `.env` de Fluently y recrea el backend:
+
+```bash
+ssh -i ~/.ssh/bukios_deploy deploy@bukios.com
+cd ~/fluently
+cat >> .env <<'ENV'
+AWS_ACCESS_KEY_ID=<la de bukios>
+AWS_SECRET_ACCESS_KEY=<la de bukios>
+AWS_REGION=eu-west-1
+ENV
+docker compose up -d backend
+```
+
+`APP_URL` (enlaces de los emails) vale por defecto `https://fluently.bukios.com` y `MAIL_FROM` vale `Fluently <no-reply@bukios.com>`. Sin credenciales, el backend arranca igual pero los emails solo se escriben en el log, así que **nadie podría verificar su cuenta**: comprueba que en el arranque no aparece `AWS credentials not set`.
+
 ## Google Analytics
 
 Solo se carga si el usuario acepta las cookies de analítica en el banner. El frontend lee el ID de `/api/auth/config`.
@@ -87,6 +104,7 @@ Logs: `ssh -i ~/.ssh/bukios_deploy deploy@bukios.com 'cd ~/fluently && docker co
 4. **Deploy**: actualizar el valor por defecto de `DOMAIN` en `deploy/deploy.sh` (o exportar `DEPLOY_DOMAIN`).
 5. **Sesiones**: la cookie `token` es host-only, así que los usuarios tendrán que volver a iniciar sesión en el dominio nuevo. Los datos no cambian.
 6. **Google**: añadir el dominio nuevo a los orígenes de JavaScript autorizados del cliente OAuth.
+7. **Emails**: verificar el dominio nuevo en Amazon SES (DKIM/SPF) y poner `APP_URL=https://<dominio>` y `MAIL_FROM=Fluently <no-reply@<dominio>>` en el `.env` del VPS. Los enlaces enviados antes del cambio siguen apuntando a `fluently.bukios.com`, que redirige al dominio nuevo.
 7. **Analytics**: cambiar la URL del flujo web «Fluently Web» en GA4 (el ID `G-609K1JBZR4` se mantiene). Mientras la redirección 301 esté activa no hace falta medición entre dominios. Actualizar `SITE.url` en `frontend/src/lib/site.ts`.
 8. Revisar menciones a `fluently.bukios.com` con `grep -rn fluently.bukios.com`.
 

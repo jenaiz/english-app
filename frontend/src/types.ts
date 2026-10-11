@@ -1,6 +1,11 @@
 export interface User {
   id: string
   email: string
+  /** Display name chosen in Settings ("" if not set). */
+  name: string
+  has_password: boolean
+  has_google: boolean
+  email_verified: boolean
   created_at: string
 }
 

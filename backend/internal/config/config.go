@@ -5,6 +5,7 @@ import (
 	"log"
 	"os"
 	"strconv"
+	"strings"
 	"time"
 )
 
@@ -24,22 +25,35 @@ type Config struct {
 	GoogleClientID string
 	// GAMeasurementID enables Google Analytics (loaded only after cookie consent).
 	GAMeasurementID string
+	// AppURL is the public URL of the frontend, used for links in emails.
+	AppURL string
+	// Email is sent through Amazon SES (same account as bukios). Without AWS
+	// credentials emails are only written to the log.
+	MailFrom           string
+	AWSRegion          string
+	AWSAccessKeyID     string
+	AWSSecretAccessKey string
 }
 
 func Load() Config {
 	cfg := Config{
-		Port:            getEnv("PORT", "8080"),
-		DBHost:          getEnv("DB_HOST", "localhost"),
-		DBPort:          getEnv("DB_PORT", "5432"),
-		DBUser:          getEnv("DB_USER", "english"),
-		DBPassword:      getEnv("DB_PASSWORD", "english"),
-		DBName:          getEnv("DB_NAME", "english_app"),
-		DBSSLMode:       getEnv("DB_SSLMODE", "disable"),
-		JWTSecret:       getEnv("JWT_SECRET", ""),
-		JWTTTL:          72 * time.Hour,
-		ContentDir:      getEnv("CONTENT_DIR", "./data/levels"),
-		GoogleClientID:  getEnv("GOOGLE_CLIENT_ID", ""),
-		GAMeasurementID: getEnv("GA_MEASUREMENT_ID", ""),
+		Port:               getEnv("PORT", "8080"),
+		DBHost:             getEnv("DB_HOST", "localhost"),
+		DBPort:             getEnv("DB_PORT", "5432"),
+		DBUser:             getEnv("DB_USER", "english"),
+		DBPassword:         getEnv("DB_PASSWORD", "english"),
+		DBName:             getEnv("DB_NAME", "english_app"),
+		DBSSLMode:          getEnv("DB_SSLMODE", "disable"),
+		JWTSecret:          getEnv("JWT_SECRET", ""),
+		JWTTTL:             72 * time.Hour,
+		ContentDir:         getEnv("CONTENT_DIR", "./data/levels"),
+		GoogleClientID:     getEnv("GOOGLE_CLIENT_ID", ""),
+		GAMeasurementID:    getEnv("GA_MEASUREMENT_ID", ""),
+		AppURL:             strings.TrimRight(getEnv("APP_URL", "http://localhost:3000"), "/"),
+		MailFrom:           getEnv("MAIL_FROM", "Fluently <no-reply@bukios.com>"),
+		AWSRegion:          getEnv("AWS_REGION", "eu-west-1"),
+		AWSAccessKeyID:     getEnv("AWS_ACCESS_KEY_ID", ""),
+		AWSSecretAccessKey: getEnv("AWS_SECRET_ACCESS_KEY", ""),
 	}
 	cfg.CookieSecure, _ = strconv.ParseBool(getEnv("COOKIE_SECURE", "false"))
 	if cfg.JWTSecret == "" {

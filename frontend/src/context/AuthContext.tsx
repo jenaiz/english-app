@@ -6,9 +6,14 @@ interface AuthState {
   user: User | null
   loading: boolean
   login: (email: string, password: string) => Promise<void>
+  /** Creates the account; the user must confirm their email before signing in. */
   register: (email: string, password: string) => Promise<void>
-  loginWithGoogle: (credential: string) => Promise<void>
+  loginWithGoogle: (credential: string, link?: boolean) => Promise<void>
+  verifyEmail: (token: string) => Promise<void>
+  resetPassword: (token: string, password: string) => Promise<void>
   logout: () => Promise<void>
+  /** Replaces the signed-in user after a settings change. */
+  setUser: (user: User | null) => void
 }
 
 const AuthContext = createContext<AuthState | null>(null)
@@ -31,12 +36,21 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [])
 
   const register = useCallback(async (email: string, password: string) => {
-    const { user } = await api.register(email, password)
+    await api.register(email, password)
+  }, [])
+
+  const loginWithGoogle = useCallback(async (credential: string, link = false) => {
+    const { user } = await api.google(credential, link)
     setUser(user)
   }, [])
 
-  const loginWithGoogle = useCallback(async (credential: string) => {
-    const { user } = await api.google(credential)
+  const verifyEmail = useCallback(async (token: string) => {
+    const { user } = await api.verifyEmail(token)
+    setUser(user)
+  }, [])
+
+  const resetPassword = useCallback(async (token: string, password: string) => {
+    const { user } = await api.resetPassword(token, password)
     setUser(user)
   }, [])
 
@@ -46,8 +60,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [])
 
   const value = useMemo(
-    () => ({ user, loading, login, register, loginWithGoogle, logout }),
-    [user, loading, login, register, loginWithGoogle, logout],
+    () => ({ user, loading, login, register, loginWithGoogle, verifyEmail, resetPassword, logout, setUser }),
+    [user, loading, login, register, loginWithGoogle, verifyEmail, resetPassword, logout],
   )
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
 }

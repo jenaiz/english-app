@@ -18,6 +18,7 @@ import (
 	"github.com/jenaiz/english-app/backend/internal/content"
 	"github.com/jenaiz/english-app/backend/internal/db"
 	"github.com/jenaiz/english-app/backend/internal/handlers"
+	"github.com/jenaiz/english-app/backend/internal/mail"
 	"github.com/jenaiz/english-app/backend/internal/store"
 )
 
@@ -46,7 +47,17 @@ func main() {
 
 	st := store.New(pool)
 	tokens := auth.NewTokenManager(cfg.JWTSecret, cfg.JWTTTL)
-	authH := &handlers.AuthHandler{Store: st, Tokens: tokens, GoogleAuth: auth.NewGoogleVerifier(cfg.GoogleClientID), CookieSecure: cfg.CookieSecure, GAMeasurementID: cfg.GAMeasurementID}
+	var mailer mail.Sender = mail.LogSender{}
+	if cfg.AWSAccessKeyID != "" && cfg.AWSSecretAccessKey != "" {
+		ses, err := mail.NewSESSender(ctx, cfg.MailFrom, cfg.AWSRegion, cfg.AWSAccessKeyID, cfg.AWSSecretAccessKey)
+		if err != nil {
+			log.Fatalf("mail: %v", err)
+		}
+		mailer = ses
+	} else {
+		log.Println("AWS credentials not set: emails are written to the log instead of sent")
+	}
+	authH := &handlers.AuthHandler{Store: st, Tokens: tokens, GoogleAuth: auth.NewGoogleVerifier(cfg.GoogleClientID), CookieSecure: cfg.CookieSecure, GAMeasurementID: cfg.GAMeasurementID, Mail: mailer, AppURL: cfg.AppURL}
 	if cfg.GoogleClientID == "" {
 		log.Println("GOOGLE_CLIENT_ID not set: Google sign-in disabled")
 	}
@@ -83,10 +94,18 @@ func main() {
 		r.Post("/auth/logout", authH.Logout)
 		r.Get("/auth/config", authH.Config)
 		r.Post("/auth/google", authH.Google)
+		r.Post("/auth/verify-email", authH.VerifyEmail)
+		r.Post("/auth/resend-verification", authH.ResendVerification)
+		r.Post("/auth/forgot-password", authH.ForgotPassword)
+		r.Post("/auth/reset-password", authH.ResetPassword)
 
 		r.Group(func(r chi.Router) {
 			r.Use(tokens.Middleware)
 			r.Get("/auth/me", authH.Me)
+			r.Patch("/account", authH.UpdateAccount)
+			r.Post("/account/password", authH.ChangePassword)
+			r.Get("/account/export", authH.ExportAccount)
+			r.Delete("/account", authH.DeleteAccount)
 			r.Get("/levels", levelsH.List)
 			r.Get("/levels/{levelID}/units/{unitID}", levelsH.Unit)
 			r.Get("/progress", progressH.Get)

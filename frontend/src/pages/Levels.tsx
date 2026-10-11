@@ -4,6 +4,7 @@ import { AlertCircle, BookA, Brain, Check, CheckCircle2, Lightbulb, Loader2, Pla
 import { api } from '../api/client'
 import { useAuth } from '../context/AuthContext'
 import { useSrsSummary } from '../lib/useSrsSummary'
+import { firstName } from '../lib/user'
 import type { LessonProgress, LevelSummary, ProgressResponse, UnitSummary } from '../types'
 
 // Each CEFR level keeps its own colour: it identifies the level everywhere on the page.
@@ -115,7 +116,7 @@ export default function Levels() {
   }
   const lessonsDone = progress.lessons.filter((l) => l.status === 'completed').length
   const current = levels.find((l) => l.level_id === selected)
-  const firstName = user?.email.split('@')[0].split(/[.\-_]/)[0] ?? ''
+  const greetName = user ? firstName(user) : ''
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
@@ -123,7 +124,7 @@ export default function Levels() {
       <header className="flex flex-wrap items-end justify-between gap-4">
         <div>
           <h1 className="font-display text-4xl font-extrabold tracking-tight text-slate-900">
-            Hola{firstName && <span className="capitalize">, {firstName}</span>}
+            Hola{greetName && `, ${greetName}`}
           </h1>
           <p className="mt-1 text-slate-500">
             {lessonsDone === 0 ? 'Empieza tu primera lección cuando quieras.' : `Llevas ${lessonsDone} ${lessonsDone === 1 ? 'lección completada' : 'lecciones completadas'}.`}

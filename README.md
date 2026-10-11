@@ -86,6 +86,18 @@ cd frontend && npm run build
 | `COOKIE_SECURE` | `false`              | `true` si sirves por HTTPS                     |
 | `CONTENT_DIR`   | `./data/levels`      | Carpeta con los JSON de niveles                |
 | `GOOGLE_CLIENT_ID` | *(vacío)*         | Client ID OAuth (tipo "Aplicación web") para "Continuar con Google". Vacío = botón oculto. |
+| `APP_URL`       | `http://localhost:3000` | URL pública del frontend, para los enlaces de los emails. |
+| `MAIL_FROM`     | `Fluently <no-reply@bukios.com>` | Remitente de los emails (tiene que estar verificado en SES). |
+| `AWS_REGION`    | `eu-west-1`          | Región de Amazon SES.                          |
+| `AWS_ACCESS_KEY_ID` / `AWS_SECRET_ACCESS_KEY` | *(vacío)* | Credenciales de SES. Vacías = los emails se escriben en el log del backend (desarrollo). |
+
+### Emails: verificación y contraseña
+
+- Al registrarse con email se envía un enlace de confirmación (`/verificar-email?token=…`, válido 48 h) y **no se inicia sesión** hasta abrirlo. El login de una cuenta sin verificar devuelve 403 `email_not_verified`, y el usuario puede pedir que se reenvíe.
+- «¿Olvidaste tu contraseña?» envía un enlace a `/restablecer-contrasena?token=…` (válido 1 h). Restablecer la contraseña también verifica el email. Sirve para que una cuenta creada con Google añada contraseña.
+- Los tokens son de un solo uso y en la BD solo se guarda su SHA-256 (tabla `email_tokens`). Cada tipo de email se envía como mucho una vez por minuto a la misma cuenta.
+- Las cuentas que existían antes de esta función se marcaron como verificadas en la migración `004`.
+- En desarrollo, sin credenciales de AWS, el enlace aparece en `docker compose logs backend`.
 
 ### Login con Google
 
@@ -95,19 +107,26 @@ El frontend usa Google Identity Services: el botón devuelve un ID token (JWT fi
 2. En **Orígenes de JavaScript autorizados** añade `http://localhost:5173`, `http://localhost:3000` y el dominio de producción (`https://fluently.bukios.com`). No hacen falta URIs de redirección.
 3. Pon `GOOGLE_CLIENT_ID=<id>.apps.googleusercontent.com` en el `.env` de la raíz y reinicia el backend. El frontend lo obtiene de `GET /api/auth/config`, así que no hay que recompilarlo.
 
-La primera vez que alguien entra con Google se crea su cuenta sin contraseña. Si ya existía una cuenta con ese email, se vincula a Google y **se borra su contraseña**: la app nunca verificó ese email, así que quien la creó podría no ser el dueño. A partir de ahí esa cuenta entra solo con Google.
+La primera vez que alguien entra con Google se crea su cuenta sin contraseña y ya verificada. Si ya existía una cuenta con ese email, el backend responde 409 `link_required` y el frontend pregunta al usuario si quiere vincular las cuentas. Si acepta, repite la llamada con `link: true`:
+
+- Si la cuenta estaba verificada, conserva su contraseña y se puede entrar de las dos formas.
+- Si no lo estaba, queda verificada (Google demuestra que el email es suyo), pero **se borra su contraseña**: quien la creó podría no ser el dueño del email. Se puede crear otra con «¿Olvidaste tu contraseña?».
 
 ## API
 
-Todas las rutas salvo register, login, logout, `auth/config`, `auth/google` y health requieren autenticación. Se puede enviar la cookie `token` (la fija el login) o una cabecera `Authorization: Bearer <jwt>`.
+Todas las rutas salvo register, login, logout, `auth/config`, `auth/google`, las de verificación y contraseña y health requieren autenticación. Se puede enviar la cookie `token` (la fija el login) o una cabecera `Authorization: Bearer <jwt>`.
 
 | Método | Ruta                                        | Descripción                                                                                    |
 | ------ | ------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| POST   | `/api/auth/register`                        | `{email, password}`: crea el usuario (bcrypt), fija la cookie y devuelve `{user, token}`. 409 si el email existe. |
-| POST   | `/api/auth/login`                           | `{email, password}`: fija la cookie y devuelve `{user, token}`. 401 si las credenciales son incorrectas. |
+| POST   | `/api/auth/register`                        | `{email, password}`: crea el usuario (bcrypt) sin verificar y envía el email de confirmación. Devuelve 201 `{verification_sent, email}`, sin sesión. 409 si el email existe. |
+| POST   | `/api/auth/login`                           | `{email, password}`: fija la cookie y devuelve `{user, token}`. 401 si las credenciales son incorrectas; 403 `{code: "email_not_verified"}` si falta confirmar el email. |
+| POST   | `/api/auth/verify-email`                    | `{token}`: confirma el email e inicia sesión (`{user, token}`). 400 `invalid_token` si ha caducado o ya se usó. |
+| POST   | `/api/auth/resend-verification`             | `{email}`: reenvía la confirmación si la cuenta existe y no está verificada. Siempre 204. |
+| POST   | `/api/auth/forgot-password`                 | `{email}`: envía el enlace para restablecer la contraseña si la cuenta existe. Siempre 204. |
+| POST   | `/api/auth/reset-password`                  | `{token, password}`: cambia la contraseña, verifica el email e inicia sesión. 400 `invalid_token` si no vale. |
 | POST   | `/api/auth/logout`                          | Borra la cookie.                                                                               |
 | GET    | `/api/auth/config`                          | `{google_client_id}`: vacío si el login con Google no está configurado. Pública.               |
-| POST   | `/api/auth/google`                          | `{credential}` (ID token de Google): crea o vincula la cuenta, fija la cookie y devuelve `{user, token}`. 401 si el token no es válido; 404 si no está configurado. |
+| POST   | `/api/auth/google`                          | `{credential, link?}` (ID token de Google): crea la cuenta o inicia sesión, fija la cookie y devuelve `{user, token}`. 409 `{code: "link_required", email, keeps_password}` si el email ya tiene cuenta y `link` no es `true`. 401 si el token no es válido; 404 si no está configurado. |
 | GET    | `/api/health`                               | `{status, version}`: comprueba la BD y devuelve la versión del build. Pública.                  |
 | GET    | `/api/auth/me`                              | Perfil del usuario autenticado.                                                                |
 | GET    | `/api/levels`                               | Resumen de niveles → temas → unidades (sin los pasos).                                         |

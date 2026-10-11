@@ -1,13 +1,26 @@
+import { useState } from 'react'
 import { Link, Navigate, useNavigate } from 'react-router-dom'
+import { api } from '../api/client'
 import AuthForm, { validateCredentials } from '../components/AuthForm'
+import EmailSent from '../components/EmailSent'
 import GoogleSignIn from '../components/GoogleSignIn'
 import { useAuth } from '../context/AuthContext'
 
 export default function Register() {
   const { user, register, loginWithGoogle } = useAuth()
   const navigate = useNavigate()
+  const [sentTo, setSentTo] = useState('')
 
   if (user) return <Navigate to="/levels" replace />
+
+  if (sentTo) {
+    return (
+      <EmailSent title="Confirma tu email" onResend={() => api.resendVerification(sentTo)}>
+        Te hemos enviado un email a <strong className="text-slate-900">{sentTo}</strong>. Abre el enlace para activar
+        tu cuenta y empezar a aprender.
+      </EmailSent>
+    )
+  }
 
   return (
     <AuthForm
@@ -19,20 +32,16 @@ export default function Register() {
         { name: 'password', label: 'Contraseña', type: 'password', autoComplete: 'new-password' },
         { name: 'confirm', label: 'Repite la contraseña', type: 'password', autoComplete: 'new-password' },
       ]}
-      validate={(v) => {
-        const errs = validateCredentials(v)
-        if (v.password !== v.confirm) errs.confirm = 'Las contraseñas no coinciden'
-        return errs
-      }}
+      validate={validateCredentials}
       onSubmit={async (v) => {
         await register(v.email.trim(), v.password)
-        navigate('/levels', { replace: true })
+        setSentTo(v.email.trim())
       }}
       alternative={
         <GoogleSignIn
           text="signup_with"
-          onCredential={async (credential) => {
-            await loginWithGoogle(credential)
+          onCredential={async (credential, link) => {
+            await loginWithGoogle(credential, link)
             navigate('/levels', { replace: true })
           }}
         />
