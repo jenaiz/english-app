@@ -70,7 +70,7 @@ ssh -i ~/.ssh/bukios_deploy deploy@bukios.com \
   "cd ~/fluently && echo 'GA_MEASUREMENT_ID=G-609K1JBZR4' >> .env && docker compose up -d backend"
 ```
 
-Los textos legales (`/aviso-legal`, `/privacidad`, `/cookies`, `/terminos`, `/contacto`) toman los datos del titular de `frontend/src/lib/site.ts` (el NIF está pendiente: `xxx`).
+Los textos legales (`/aviso-legal`, `/privacidad`, `/cookies`, `/terminos`, `/contacto`) toman los datos del titular de `frontend/src/lib/site.ts` (el NIF está vacío a propósito: si `taxId` es `''` no se muestra).
 
 Logs: `ssh -i ~/.ssh/bukios_deploy deploy@bukios.com 'cd ~/fluently && docker compose logs -f --tail 100'`
 

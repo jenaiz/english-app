@@ -122,7 +122,7 @@ export default function Cookies() {
             <>
               <p>
                 Solo se instalan si las aceptas. Usamos Google Analytics 4 para obtener estadísticas agregadas (páginas
-                visitadas, duración de las visitas, tipo de dispositivo) con la IP anonimizada y sin señales de
+                visitadas, duración de las visitas, tipo de dispositivo) sin guardar tu dirección IP y sin señales de
                 publicidad. La información la trata Google Ireland Ltd.; consulta su{' '}
                 <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
                   política de privacidad

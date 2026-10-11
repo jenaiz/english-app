@@ -23,8 +23,8 @@ export function enableAnalytics(id: string) {
     window.dataLayer!.push(arguments)
   }
   window.gtag('js', new Date())
+  // GA4 never stores IP addresses, so there is no anonymize_ip option to set.
   window.gtag('config', id, {
-    anonymize_ip: true,
     allow_google_signals: false,
     allow_ad_personalization_signals: false,
     // Page views are sent by trackPageView on route changes.

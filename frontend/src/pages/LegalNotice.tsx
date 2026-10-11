@@ -21,9 +21,11 @@ export default function LegalNotice() {
               <li>
                 <strong>Titular:</strong> {SITE.owner}
               </li>
-              <li>
-                <strong>NIF:</strong> {SITE.taxId}
-              </li>
+              {SITE.taxId && (
+                <li>
+                  <strong>NIF:</strong> {SITE.taxId}
+                </li>
+              )}
               <li>
                 <strong>Domicilio:</strong> {SITE.address}
               </li>
