@@ -16,12 +16,15 @@ type Expressions struct {
 	PhrasalVerbs []PhrasalFamily `json:"phrasal_verbs"`
 	Hacks        []Hack          `json:"hacks"`
 	Particles    []Particle      `json:"particles"`
-	Packs        []Pack          `json:"packs"`
+	// IrregularVerbs is the irregular verbs table, loaded from irregular_verbs.json.
+	IrregularVerbs []IrregularVerb `json:"irregular_verbs"`
+	Packs          []Pack          `json:"packs"`
 	// UnitExpressions lists, per unit id, a few expressions that fit the unit's topic. It lives
 	// apart from the level files so lessons and expressions can be written independently.
 	UnitExpressions map[string][]string `json:"unit_expressions"`
 	idiomByID       map[string]*Idiom
 	phrasalByID     map[string]PhrasalRef
+	verbByID        map[string]*IrregularVerb
 }
 
 type Idiom struct {
@@ -133,6 +136,15 @@ func LoadExpressions(dir string) (*Expressions, error) {
 	}
 	if err := e.index(); err != nil {
 		return nil, err
+	}
+	verbs, err := LoadIrregularVerbs(dir)
+	if err != nil {
+		return nil, err
+	}
+	e.IrregularVerbs = verbs
+	e.verbByID = map[string]*IrregularVerb{}
+	for i := range e.IrregularVerbs {
+		e.verbByID[e.IrregularVerbs[i].ID] = &e.IrregularVerbs[i]
 	}
 	return e, nil
 }

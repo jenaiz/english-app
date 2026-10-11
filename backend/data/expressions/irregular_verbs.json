@@ -1,0 +1,1217 @@
+[
+  {
+    "id": "be",
+    "base": "be",
+    "past": "was/were",
+    "participle": "been",
+    "translation": "ser, estar",
+    "level": "A1",
+    "example": "Lucía was tired after the flight."
+  },
+  {
+    "id": "have",
+    "base": "have",
+    "past": "had",
+    "participle": "had",
+    "translation": "tener",
+    "level": "A1",
+    "example": "Sam had a guitar lesson on Monday."
+  },
+  {
+    "id": "do",
+    "base": "do",
+    "past": "did",
+    "participle": "done",
+    "translation": "hacer",
+    "level": "A1",
+    "example": "Priya did the shopping yesterday."
+  },
+  {
+    "id": "go",
+    "base": "go",
+    "past": "went",
+    "participle": "gone",
+    "translation": "ir",
+    "level": "A1",
+    "example": "We went to a pub near the river."
+  },
+  {
+    "id": "get",
+    "base": "get",
+    "past": "got",
+    "participle": "got",
+    "translation": "conseguir, llegar",
+    "level": "A1",
+    "example": "Lucía got a new phone in Bristol."
+  },
+  {
+    "id": "make",
+    "base": "make",
+    "past": "made",
+    "participle": "made",
+    "translation": "hacer, fabricar",
+    "level": "A1",
+    "example": "Sam made pasta for everyone."
+  },
+  {
+    "id": "see",
+    "base": "see",
+    "past": "saw",
+    "participle": "seen",
+    "translation": "ver",
+    "level": "A1",
+    "example": "Lucía saw the bridge from the bus."
+  },
+  {
+    "id": "come",
+    "base": "come",
+    "past": "came",
+    "participle": "come",
+    "translation": "venir",
+    "level": "A1",
+    "example": "Daniel came to the party late."
+  },
+  {
+    "id": "eat",
+    "base": "eat",
+    "past": "ate",
+    "participle": "eaten",
+    "translation": "comer",
+    "level": "A1",
+    "example": "They ate fish and chips on Friday."
+  },
+  {
+    "id": "drink",
+    "base": "drink",
+    "past": "drank",
+    "participle": "drunk",
+    "translation": "beber",
+    "level": "A1",
+    "example": "Priya drank a cup of tea."
+  },
+  {
+    "id": "buy",
+    "base": "buy",
+    "past": "bought",
+    "participle": "bought",
+    "translation": "comprar",
+    "level": "A1",
+    "example": "Lucía bought a coat for the rain."
+  },
+  {
+    "id": "read",
+    "base": "read",
+    "past": "read",
+    "participle": "read",
+    "translation": "leer",
+    "level": "A1",
+    "example": "Sam read the message twice."
+  },
+  {
+    "id": "write",
+    "base": "write",
+    "past": "wrote",
+    "participle": "written",
+    "translation": "escribir",
+    "level": "A1",
+    "example": "Lucía wrote a postcard to Javi."
+  },
+  {
+    "id": "say",
+    "base": "say",
+    "past": "said",
+    "participle": "said",
+    "translation": "decir",
+    "level": "A1",
+    "example": "Daniel said hello to everyone."
+  },
+  {
+    "id": "take",
+    "base": "take",
+    "past": "took",
+    "participle": "taken",
+    "translation": "tomar, llevar",
+    "level": "A1",
+    "example": "Priya took the bus to the hospital."
+  },
+  {
+    "id": "know",
+    "base": "know",
+    "past": "knew",
+    "participle": "known",
+    "translation": "saber, conocer",
+    "level": "A1",
+    "example": "Sam knew the name of the band."
+  },
+  {
+    "id": "think",
+    "base": "think",
+    "past": "thought",
+    "participle": "thought",
+    "translation": "pensar",
+    "level": "A1",
+    "example": "Lucía thought the house was beautiful."
+  },
+  {
+    "id": "give",
+    "base": "give",
+    "past": "gave",
+    "participle": "given",
+    "translation": "dar",
+    "level": "A1",
+    "example": "Javi gave Lucía a book before she left."
+  },
+  {
+    "id": "meet",
+    "base": "meet",
+    "past": "met",
+    "participle": "met",
+    "translation": "conocer, quedar",
+    "level": "A1",
+    "example": "Lucía met Sam and Priya on Sunday."
+  },
+  {
+    "id": "sleep",
+    "base": "sleep",
+    "past": "slept",
+    "participle": "slept",
+    "translation": "dormir",
+    "level": "A1",
+    "example": "Lucía slept ten hours the first night."
+  },
+  {
+    "id": "begin",
+    "base": "begin",
+    "past": "began",
+    "participle": "begun",
+    "translation": "empezar",
+    "level": "A2",
+    "example": "The concert began at nine."
+  },
+  {
+    "id": "bring",
+    "base": "bring",
+    "past": "brought",
+    "participle": "brought",
+    "translation": "traer",
+    "level": "A2",
+    "example": "Daniel brought cakes to the office."
+  },
+  {
+    "id": "build",
+    "base": "build",
+    "past": "built",
+    "participle": "built",
+    "translation": "construir",
+    "level": "A2",
+    "example": "They built the bridge in 1864."
+  },
+  {
+    "id": "choose",
+    "base": "choose",
+    "past": "chose",
+    "participle": "chosen",
+    "translation": "elegir",
+    "level": "A2",
+    "example": "Priya chose the red sofa."
+  },
+  {
+    "id": "cost",
+    "base": "cost",
+    "past": "cost",
+    "participle": "cost",
+    "translation": "costar",
+    "level": "A2",
+    "example": "The tickets cost twenty pounds."
+  },
+  {
+    "id": "cut",
+    "base": "cut",
+    "past": "cut",
+    "participle": "cut",
+    "translation": "cortar",
+    "level": "A2",
+    "example": "Sam cut the bread for breakfast."
+  },
+  {
+    "id": "drive",
+    "base": "drive",
+    "past": "drove",
+    "participle": "driven",
+    "translation": "conducir",
+    "level": "A2",
+    "example": "Daniel drove to Bath on Saturday."
+  },
+  {
+    "id": "fall",
+    "base": "fall",
+    "past": "fell",
+    "participle": "fallen",
+    "translation": "caer",
+    "level": "A2",
+    "example": "Lucía fell on the wet street."
+  },
+  {
+    "id": "feel",
+    "base": "feel",
+    "past": "felt",
+    "participle": "felt",
+    "translation": "sentir",
+    "level": "A2",
+    "example": "Lucía felt a bit homesick."
+  },
+  {
+    "id": "find",
+    "base": "find",
+    "past": "found",
+    "participle": "found",
+    "translation": "encontrar",
+    "level": "A2",
+    "example": "Priya found her keys in the fridge."
+  },
+  {
+    "id": "fly",
+    "base": "fly",
+    "past": "flew",
+    "participle": "flown",
+    "translation": "volar",
+    "level": "A2",
+    "example": "Lucía flew from Valencia to Bristol."
+  },
+  {
+    "id": "forget",
+    "base": "forget",
+    "past": "forgot",
+    "participle": "forgotten",
+    "translation": "olvidar",
+    "level": "A2",
+    "example": "Sam forgot his umbrella again."
+  },
+  {
+    "id": "hear",
+    "base": "hear",
+    "past": "heard",
+    "participle": "heard",
+    "translation": "oír",
+    "level": "A2",
+    "example": "We heard music from Sam's room."
+  },
+  {
+    "id": "keep",
+    "base": "keep",
+    "past": "kept",
+    "participle": "kept",
+    "translation": "guardar, mantener",
+    "level": "A2",
+    "example": "Lucía kept the ticket as a souvenir."
+  },
+  {
+    "id": "leave",
+    "base": "leave",
+    "past": "left",
+    "participle": "left",
+    "translation": "salir, dejar",
+    "level": "A2",
+    "example": "Priya left the house at six."
+  },
+  {
+    "id": "lose",
+    "base": "lose",
+    "past": "lost",
+    "participle": "lost",
+    "translation": "perder",
+    "level": "A2",
+    "example": "Daniel lost his wallet at the station."
+  },
+  {
+    "id": "pay",
+    "base": "pay",
+    "past": "paid",
+    "participle": "paid",
+    "translation": "pagar",
+    "level": "A2",
+    "example": "Lucía paid for the coffees."
+  },
+  {
+    "id": "put",
+    "base": "put",
+    "past": "put",
+    "participle": "put",
+    "translation": "poner",
+    "level": "A2",
+    "example": "Sam put the milk in the fridge."
+  },
+  {
+    "id": "ride",
+    "base": "ride",
+    "past": "rode",
+    "participle": "ridden",
+    "translation": "montar (en bici, a caballo)",
+    "level": "A2",
+    "example": "They rode their bikes along the river."
+  },
+  {
+    "id": "run",
+    "base": "run",
+    "past": "ran",
+    "participle": "run",
+    "translation": "correr",
+    "level": "A2",
+    "example": "Priya ran to catch the bus."
+  },
+  {
+    "id": "sell",
+    "base": "sell",
+    "past": "sold",
+    "participle": "sold",
+    "translation": "vender",
+    "level": "A2",
+    "example": "Sam sold his old guitar."
+  },
+  {
+    "id": "send",
+    "base": "send",
+    "past": "sent",
+    "participle": "sent",
+    "translation": "enviar",
+    "level": "A2",
+    "example": "Lucía sent Javi a photo of the harbour."
+  },
+  {
+    "id": "sing",
+    "base": "sing",
+    "past": "sang",
+    "participle": "sung",
+    "translation": "cantar",
+    "level": "A2",
+    "example": "Sam sang in a small bar."
+  },
+  {
+    "id": "sit",
+    "base": "sit",
+    "past": "sat",
+    "participle": "sat",
+    "translation": "sentarse",
+    "level": "A2",
+    "example": "Daniel sat next to Lucía at the meeting."
+  },
+  {
+    "id": "speak",
+    "base": "speak",
+    "past": "spoke",
+    "participle": "spoken",
+    "translation": "hablar",
+    "level": "A2",
+    "example": "Lucía spoke English all day."
+  },
+  {
+    "id": "spend",
+    "base": "spend",
+    "past": "spent",
+    "participle": "spent",
+    "translation": "gastar, pasar (tiempo)",
+    "level": "A2",
+    "example": "They spent the weekend in London."
+  },
+  {
+    "id": "stand",
+    "base": "stand",
+    "past": "stood",
+    "participle": "stood",
+    "translation": "estar de pie",
+    "level": "A2",
+    "example": "We stood in the queue for an hour."
+  },
+  {
+    "id": "swim",
+    "base": "swim",
+    "past": "swam",
+    "participle": "swum",
+    "translation": "nadar",
+    "level": "A2",
+    "example": "Priya swam in the sea in Cornwall."
+  },
+  {
+    "id": "teach",
+    "base": "teach",
+    "past": "taught",
+    "participle": "taught",
+    "translation": "enseñar",
+    "level": "A2",
+    "example": "Daniel taught Lucía some Irish words."
+  },
+  {
+    "id": "tell",
+    "base": "tell",
+    "past": "told",
+    "participle": "told",
+    "translation": "contar, decir",
+    "level": "A2",
+    "example": "Javi told Lucía the news."
+  },
+  {
+    "id": "understand",
+    "base": "understand",
+    "past": "understood",
+    "participle": "understood",
+    "translation": "entender",
+    "level": "A2",
+    "example": "Lucía understood the joke the second time."
+  },
+  {
+    "id": "wear",
+    "base": "wear",
+    "past": "wore",
+    "participle": "worn",
+    "translation": "llevar (ropa)",
+    "level": "A2",
+    "example": "Sam wore a funny hat to the party."
+  },
+  {
+    "id": "win",
+    "base": "win",
+    "past": "won",
+    "participle": "won",
+    "translation": "ganar",
+    "level": "A2",
+    "example": "Daniel's team won the quiz."
+  },
+  {
+    "id": "wake",
+    "base": "wake",
+    "past": "woke",
+    "participle": "woken",
+    "translation": "despertar(se)",
+    "level": "A2",
+    "example": "Lucía woke up at seven."
+  },
+  {
+    "id": "break",
+    "base": "break",
+    "past": "broke",
+    "participle": "broken",
+    "translation": "romper",
+    "level": "A2",
+    "example": "Sam broke a glass in the kitchen."
+  },
+  {
+    "id": "catch",
+    "base": "catch",
+    "past": "caught",
+    "participle": "caught",
+    "translation": "coger, atrapar",
+    "level": "A2",
+    "example": "Priya caught the last train home."
+  },
+  {
+    "id": "learn",
+    "base": "learn",
+    "past": "learnt/learned",
+    "participle": "learnt/learned",
+    "translation": "aprender",
+    "level": "A2",
+    "example": "Lucía learnt a lot in her first month."
+  },
+  {
+    "id": "let",
+    "base": "let",
+    "past": "let",
+    "participle": "let",
+    "translation": "dejar, permitir",
+    "level": "A2",
+    "example": "Priya let Lucía use her bike."
+  },
+  {
+    "id": "lend",
+    "base": "lend",
+    "past": "lent",
+    "participle": "lent",
+    "translation": "prestar",
+    "level": "A2",
+    "example": "Sam lent Lucía an umbrella."
+  },
+  {
+    "id": "hold",
+    "base": "hold",
+    "past": "held",
+    "participle": "held",
+    "translation": "sostener",
+    "level": "A2",
+    "example": "Daniel held the door for her."
+  },
+  {
+    "id": "hurt",
+    "base": "hurt",
+    "past": "hurt",
+    "participle": "hurt",
+    "translation": "doler, herir",
+    "level": "A2",
+    "example": "Lucía hurt her foot in the park."
+  },
+  {
+    "id": "grow",
+    "base": "grow",
+    "past": "grew",
+    "participle": "grown",
+    "translation": "crecer, cultivar",
+    "level": "A2",
+    "example": "Priya grew tomatoes in the garden."
+  },
+  {
+    "id": "draw",
+    "base": "draw",
+    "past": "drew",
+    "participle": "drawn",
+    "translation": "dibujar",
+    "level": "A2",
+    "example": "Sam drew a map to the pub."
+  },
+  {
+    "id": "become",
+    "base": "become",
+    "past": "became",
+    "participle": "become",
+    "translation": "convertirse en",
+    "level": "A2",
+    "example": "Daniel became a manager last year."
+  },
+  {
+    "id": "throw",
+    "base": "throw",
+    "past": "threw",
+    "participle": "thrown",
+    "translation": "lanzar",
+    "level": "A2",
+    "example": "Sam threw the ball to Daniel."
+  },
+  {
+    "id": "show",
+    "base": "show",
+    "past": "showed",
+    "participle": "shown",
+    "translation": "mostrar",
+    "level": "A2",
+    "example": "Priya showed Lucía the city centre."
+  },
+  {
+    "id": "mean",
+    "base": "mean",
+    "past": "meant",
+    "participle": "meant",
+    "translation": "significar, querer decir",
+    "level": "B1",
+    "example": "Sorry, I meant Tuesday, not Thursday."
+  },
+  {
+    "id": "bite",
+    "base": "bite",
+    "past": "bit",
+    "participle": "bitten",
+    "translation": "morder",
+    "level": "B1",
+    "example": "A dog bit Sam on the leg."
+  },
+  {
+    "id": "blow",
+    "base": "blow",
+    "past": "blew",
+    "participle": "blown",
+    "translation": "soplar",
+    "level": "B1",
+    "example": "The wind blew Lucía's umbrella away."
+  },
+  {
+    "id": "burn",
+    "base": "burn",
+    "past": "burnt/burned",
+    "participle": "burnt/burned",
+    "translation": "quemar",
+    "level": "B1",
+    "example": "Sam burnt the toast again."
+  },
+  {
+    "id": "dream",
+    "base": "dream",
+    "past": "dreamt/dreamed",
+    "participle": "dreamt/dreamed",
+    "translation": "soñar",
+    "level": "B1",
+    "example": "Lucía dreamt about her old flat in Valencia."
+  },
+  {
+    "id": "feed",
+    "base": "feed",
+    "past": "fed",
+    "participle": "fed",
+    "translation": "alimentar",
+    "level": "B1",
+    "example": "Priya fed the neighbour's cat."
+  },
+  {
+    "id": "fight",
+    "base": "fight",
+    "past": "fought",
+    "participle": "fought",
+    "translation": "pelear",
+    "level": "B1",
+    "example": "Sam and Priya fought about the dishes."
+  },
+  {
+    "id": "forgive",
+    "base": "forgive",
+    "past": "forgave",
+    "participle": "forgiven",
+    "translation": "perdonar",
+    "level": "B1",
+    "example": "Priya forgave Sam the next day."
+  },
+  {
+    "id": "freeze",
+    "base": "freeze",
+    "past": "froze",
+    "participle": "frozen",
+    "translation": "congelar(se)",
+    "level": "B1",
+    "example": "The pipes froze in January."
+  },
+  {
+    "id": "hang",
+    "base": "hang",
+    "past": "hung",
+    "participle": "hung",
+    "translation": "colgar",
+    "level": "B1",
+    "example": "Lucía hung the photos on the wall."
+  },
+  {
+    "id": "hide",
+    "base": "hide",
+    "past": "hid",
+    "participle": "hidden",
+    "translation": "esconder",
+    "level": "B1",
+    "example": "Sam hid the present under the bed."
+  },
+  {
+    "id": "lead",
+    "base": "lead",
+    "past": "led",
+    "participle": "led",
+    "translation": "guiar, dirigir",
+    "level": "B1",
+    "example": "Daniel led the project in Dublin."
+  },
+  {
+    "id": "lie",
+    "base": "lie",
+    "past": "lay",
+    "participle": "lain",
+    "translation": "estar tumbado",
+    "level": "B1",
+    "example": "Lucía lay on the grass all afternoon."
+  },
+  {
+    "id": "light",
+    "base": "light",
+    "past": "lit",
+    "participle": "lit",
+    "translation": "encender",
+    "level": "B1",
+    "example": "Priya lit the candles on the cake."
+  },
+  {
+    "id": "shake",
+    "base": "shake",
+    "past": "shook",
+    "participle": "shaken",
+    "translation": "agitar, temblar",
+    "level": "B1",
+    "example": "Daniel shook hands with the client."
+  },
+  {
+    "id": "shine",
+    "base": "shine",
+    "past": "shone",
+    "participle": "shone",
+    "translation": "brillar",
+    "level": "B1",
+    "example": "The sun shone all weekend in Galway."
+  },
+  {
+    "id": "shoot",
+    "base": "shoot",
+    "past": "shot",
+    "participle": "shot",
+    "translation": "disparar, rodar",
+    "level": "B1",
+    "example": "They shot the film in Bristol."
+  },
+  {
+    "id": "shut",
+    "base": "shut",
+    "past": "shut",
+    "participle": "shut",
+    "translation": "cerrar",
+    "level": "B1",
+    "example": "Sam shut the window because of the noise."
+  },
+  {
+    "id": "smell",
+    "base": "smell",
+    "past": "smelt/smelled",
+    "participle": "smelt/smelled",
+    "translation": "oler",
+    "level": "B1",
+    "example": "The kitchen smelt of curry."
+  },
+  {
+    "id": "spell",
+    "base": "spell",
+    "past": "spelt/spelled",
+    "participle": "spelt/spelled",
+    "translation": "deletrear",
+    "level": "B1",
+    "example": "The receptionist spelt Lucía's name wrong."
+  },
+  {
+    "id": "steal",
+    "base": "steal",
+    "past": "stole",
+    "participle": "stolen",
+    "translation": "robar",
+    "level": "B1",
+    "example": "Someone stole Daniel's bike."
+  },
+  {
+    "id": "stick",
+    "base": "stick",
+    "past": "stuck",
+    "participle": "stuck",
+    "translation": "pegar",
+    "level": "B1",
+    "example": "Lucía stuck a note on the fridge."
+  },
+  {
+    "id": "swing",
+    "base": "swing",
+    "past": "swung",
+    "participle": "swung",
+    "translation": "balancear(se)",
+    "level": "B1",
+    "example": "The door swung open in the wind."
+  },
+  {
+    "id": "tear",
+    "base": "tear",
+    "past": "tore",
+    "participle": "torn",
+    "translation": "rasgar",
+    "level": "B1",
+    "example": "Sam tore his jeans on the fence."
+  },
+  {
+    "id": "upset",
+    "base": "upset",
+    "past": "upset",
+    "participle": "upset",
+    "translation": "disgustar",
+    "level": "B1",
+    "example": "The news upset Priya a lot."
+  },
+  {
+    "id": "bend",
+    "base": "bend",
+    "past": "bent",
+    "participle": "bent",
+    "translation": "doblar",
+    "level": "B1",
+    "example": "Daniel bent down to tie his shoe."
+  },
+  {
+    "id": "bet",
+    "base": "bet",
+    "past": "bet",
+    "participle": "bet",
+    "translation": "apostar",
+    "level": "B1",
+    "example": "Sam bet ten pounds on the match."
+  },
+  {
+    "id": "bleed",
+    "base": "bleed",
+    "past": "bled",
+    "participle": "bled",
+    "translation": "sangrar",
+    "level": "B1",
+    "example": "Lucía's finger bled a little."
+  },
+  {
+    "id": "dig",
+    "base": "dig",
+    "past": "dug",
+    "participle": "dug",
+    "translation": "cavar",
+    "level": "B1",
+    "example": "Priya dug a hole for the new plant."
+  },
+  {
+    "id": "beat",
+    "base": "beat",
+    "past": "beat",
+    "participle": "beaten",
+    "translation": "vencer, golpear",
+    "level": "B1",
+    "example": "Ireland beat England in the rugby."
+  },
+  {
+    "id": "deal",
+    "base": "deal",
+    "past": "dealt",
+    "participle": "dealt",
+    "translation": "tratar, ocuparse",
+    "level": "B1",
+    "example": "Daniel dealt with the angry client."
+  },
+  {
+    "id": "seek",
+    "base": "seek",
+    "past": "sought",
+    "participle": "sought",
+    "translation": "buscar",
+    "level": "B2",
+    "example": "Lucía sought advice from a lawyer."
+  },
+  {
+    "id": "arise",
+    "base": "arise",
+    "past": "arose",
+    "participle": "arisen",
+    "translation": "surgir",
+    "level": "B2",
+    "example": "A problem arose during the meeting."
+  },
+  {
+    "id": "bind",
+    "base": "bind",
+    "past": "bound",
+    "participle": "bound",
+    "translation": "atar, vincular",
+    "level": "B2",
+    "example": "The contract bound them for two years."
+  },
+  {
+    "id": "breed",
+    "base": "breed",
+    "past": "bred",
+    "participle": "bred",
+    "translation": "criar",
+    "level": "B2",
+    "example": "Daniel's uncle bred horses in Kerry."
+  },
+  {
+    "id": "cling",
+    "base": "cling",
+    "past": "clung",
+    "participle": "clung",
+    "translation": "aferrarse",
+    "level": "B2",
+    "example": "Priya clung to the hope of a new job."
+  },
+  {
+    "id": "creep",
+    "base": "creep",
+    "past": "crept",
+    "participle": "crept",
+    "translation": "moverse sigilosamente",
+    "level": "B2",
+    "example": "Sam crept in at three in the morning."
+  },
+  {
+    "id": "flee",
+    "base": "flee",
+    "past": "fled",
+    "participle": "fled",
+    "translation": "huir",
+    "level": "B2",
+    "example": "The thief fled before the police arrived."
+  },
+  {
+    "id": "forbid",
+    "base": "forbid",
+    "past": "forbade",
+    "participle": "forbidden",
+    "translation": "prohibir",
+    "level": "B2",
+    "example": "The landlord forbade pets in the flat."
+  },
+  {
+    "id": "foresee",
+    "base": "foresee",
+    "past": "foresaw",
+    "participle": "foreseen",
+    "translation": "prever",
+    "level": "B2",
+    "example": "Nobody foresaw the company's problems."
+  },
+  {
+    "id": "grind",
+    "base": "grind",
+    "past": "ground",
+    "participle": "ground",
+    "translation": "moler",
+    "level": "B2",
+    "example": "Lucía ground the coffee by hand."
+  },
+  {
+    "id": "kneel",
+    "base": "kneel",
+    "past": "knelt",
+    "participle": "knelt",
+    "translation": "arrodillarse",
+    "level": "B2",
+    "example": "Daniel knelt to pick up the papers."
+  },
+  {
+    "id": "leap",
+    "base": "leap",
+    "past": "leapt/leaped",
+    "participle": "leapt/leaped",
+    "translation": "saltar",
+    "level": "B2",
+    "example": "Sam leapt at the chance to play live."
+  },
+  {
+    "id": "mislead",
+    "base": "mislead",
+    "past": "misled",
+    "participle": "misled",
+    "translation": "engañar, confundir",
+    "level": "B2",
+    "example": "The advert misled a lot of customers."
+  },
+  {
+    "id": "overcome",
+    "base": "overcome",
+    "past": "overcame",
+    "participle": "overcome",
+    "translation": "superar",
+    "level": "B2",
+    "example": "Lucía overcame her fear of public speaking."
+  },
+  {
+    "id": "sew",
+    "base": "sew",
+    "past": "sewed",
+    "participle": "sewn",
+    "translation": "coser",
+    "level": "B2",
+    "example": "Priya sewed a button on Sam's shirt."
+  },
+  {
+    "id": "slide",
+    "base": "slide",
+    "past": "slid",
+    "participle": "slid",
+    "translation": "deslizar(se)",
+    "level": "B2",
+    "example": "The car slid on the ice."
+  },
+  {
+    "id": "spin",
+    "base": "spin",
+    "past": "spun",
+    "participle": "spun",
+    "translation": "girar",
+    "level": "B2",
+    "example": "The dancer spun across the stage."
+  },
+  {
+    "id": "spit",
+    "base": "spit",
+    "past": "spat",
+    "participle": "spat",
+    "translation": "escupir",
+    "level": "B2",
+    "example": "The baby spat out the medicine."
+  },
+  {
+    "id": "split",
+    "base": "split",
+    "past": "split",
+    "participle": "split",
+    "translation": "dividir",
+    "level": "B2",
+    "example": "They split the bill four ways."
+  },
+  {
+    "id": "spread",
+    "base": "spread",
+    "past": "spread",
+    "participle": "spread",
+    "translation": "extender, difundir",
+    "level": "B2",
+    "example": "The news spread quickly around the office."
+  },
+  {
+    "id": "sting",
+    "base": "sting",
+    "past": "stung",
+    "participle": "stung",
+    "translation": "picar (insecto)",
+    "level": "B2",
+    "example": "A bee stung Lucía in the garden."
+  },
+  {
+    "id": "swear",
+    "base": "swear",
+    "past": "swore",
+    "participle": "sworn",
+    "translation": "jurar, decir palabrotas",
+    "level": "B2",
+    "example": "Sam swore he hadn't eaten the cake."
+  },
+  {
+    "id": "sweep",
+    "base": "sweep",
+    "past": "swept",
+    "participle": "swept",
+    "translation": "barrer",
+    "level": "B2",
+    "example": "Priya swept the kitchen floor."
+  },
+  {
+    "id": "undertake",
+    "base": "undertake",
+    "past": "undertook",
+    "participle": "undertaken",
+    "translation": "emprender",
+    "level": "B2",
+    "example": "Lucía undertook a huge project."
+  },
+  {
+    "id": "weep",
+    "base": "weep",
+    "past": "wept",
+    "participle": "wept",
+    "translation": "llorar",
+    "level": "B2",
+    "example": "Javi wept at his sister's wedding."
+  },
+  {
+    "id": "withdraw",
+    "base": "withdraw",
+    "past": "withdrew",
+    "participle": "withdrawn",
+    "translation": "retirar",
+    "level": "B2",
+    "example": "Daniel withdrew some cash at the airport."
+  },
+  {
+    "id": "wind",
+    "base": "wind",
+    "past": "wound",
+    "participle": "wound",
+    "translation": "enrollar, serpentear",
+    "level": "B2",
+    "example": "The road wound through the hills."
+  },
+  {
+    "id": "bear",
+    "base": "bear",
+    "past": "bore",
+    "participle": "borne",
+    "translation": "soportar",
+    "level": "C1",
+    "example": "She bore the criticism with great dignity."
+  },
+  {
+    "id": "cast",
+    "base": "cast",
+    "past": "cast",
+    "participle": "cast",
+    "translation": "lanzar, proyectar",
+    "level": "C1",
+    "example": "The scandal cast doubt on the whole deal."
+  },
+  {
+    "id": "forsake",
+    "base": "forsake",
+    "past": "forsook",
+    "participle": "forsaken",
+    "translation": "abandonar",
+    "level": "C1",
+    "example": "She never forsook her principles."
+  },
+  {
+    "id": "shed",
+    "base": "shed",
+    "past": "shed",
+    "participle": "shed",
+    "translation": "desprenderse de",
+    "level": "C1",
+    "example": "The company shed two hundred jobs."
+  },
+  {
+    "id": "stride",
+    "base": "stride",
+    "past": "strode",
+    "participle": "stridden",
+    "translation": "caminar a zancadas",
+    "level": "C1",
+    "example": "Lucía strode into the boardroom."
+  },
+  {
+    "id": "strive",
+    "base": "strive",
+    "past": "strove/strived",
+    "participle": "striven/strived",
+    "translation": "esforzarse",
+    "level": "C1",
+    "example": "They strove to keep every client happy."
+  },
+  {
+    "id": "thrust",
+    "base": "thrust",
+    "past": "thrust",
+    "participle": "thrust",
+    "translation": "empujar con fuerza",
+    "level": "C1",
+    "example": "He thrust the contract into her hands."
+  },
+  {
+    "id": "tread",
+    "base": "tread",
+    "past": "trod",
+    "participle": "trodden",
+    "translation": "pisar",
+    "level": "C1",
+    "example": "She trod carefully in the negotiations."
+  },
+  {
+    "id": "wring",
+    "base": "wring",
+    "past": "wrung",
+    "participle": "wrung",
+    "translation": "retorcer, escurrir",
+    "level": "C1",
+    "example": "He wrung every last concession from them."
+  },
+  {
+    "id": "overtake",
+    "base": "overtake",
+    "past": "overtook",
+    "participle": "overtaken",
+    "translation": "adelantar, superar",
+    "level": "C1",
+    "example": "Their sales overtook ours in March."
+  },
+  {
+    "id": "withstand",
+    "base": "withstand",
+    "past": "withstood",
+    "participle": "withstood",
+    "translation": "resistir",
+    "level": "C1",
+    "example": "The brand withstood the crisis."
+  }
+]

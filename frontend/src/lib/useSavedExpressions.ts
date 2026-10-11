@@ -23,7 +23,7 @@ export function useSavedExpressions(enabled: boolean) {
     api
       .savedExpressions()
       .then((r) => {
-        const all = [...r.idiom.map((e) => ({ ...e, key: `idiom:${e.id}` })), ...r.phrasal.map((e) => ({ ...e, key: `phrasal:${e.id}` }))]
+        const all = (['idiom', 'phrasal', 'verb'] as const).flatMap((kind) => (r[kind] ?? []).map((e) => ({ ...e, key: `${kind}:${e.id}` })))
         setSaved(new Map(all.map((e) => [e.key, e.repetitions])))
         setQueued(new Set(all.filter((e) => e.queued).map((e) => e.key)))
         setAddedAt(new Map(all.map((e) => [e.key, new Date(e.added_at).getTime()])))

@@ -7,6 +7,7 @@ import PackCard from '../components/expressions/PackCard'
 import ParticleExplorer from '../components/expressions/ParticleExplorer'
 import PhrasalExplorer from '../components/expressions/PhrasalExplorer'
 import TodayPanel from '../components/expressions/TodayPanel'
+import VerbsTable from '../components/expressions/VerbsTable'
 import { useAuth } from '../context/AuthContext'
 import { trackEvent } from '../lib/analytics'
 import { useSavedExpressions } from '../lib/useSavedExpressions'
@@ -20,6 +21,7 @@ const TABS = [
   { id: 'idioms', label: 'Idioms', intro: 'Frases hechas que no se entienden palabra por palabra. Intenta adivinar el significado y dale la vuelta a la tarjeta.' },
   { id: 'phrasal', label: 'Phrasal verbs', intro: 'Un verbo, muchas partículas y significados que no se adivinan. Explóralos por verbo o descubre qué idea suele aportar cada partícula.' },
   { id: 'hacks', label: 'English hacks', intro: 'Trucos de gramática funcional que suenan natural y te sirven para casi todo.' },
+  { id: 'verbs', label: 'Verbos irregulares', intro: 'Los verbos que no forman el pasado con -ed. Cada ejemplo sale de la historia de Lucía. Toca uno para escucharlo y añadirlo a tu repaso.' },
 ] as const
 type TabId = (typeof TABS)[number]['id']
 
@@ -76,18 +78,20 @@ export default function Expressions() {
       .catch((e: Error) => setError(e.message))
   }, [])
 
-  // The level filter applies to the three tabs, so its options come from all the content.
+  // The level filter applies to every tab, so its options come from all the content.
   const levels = useMemo(() => {
     if (!catalog) return []
     const present = new Set([
       ...catalog.idioms.map((i) => i.level),
       ...catalog.phrasal_verbs.flatMap((f) => f.items.map((v) => v.level)),
       ...catalog.hacks.map((h) => h.level),
+      ...catalog.irregular_verbs.map((v) => v.level),
     ])
     return LEVEL_ORDER.filter((l) => present.has(l))
   }, [catalog])
-  // Default: the level the user is studying (A1 learners start at A2, the first level with idioms), else B1.
-  const defaultLevel = learnerLevel ? (learnerLevel === 'A1' ? 'A2' : learnerLevel) : 'B1'
+  // Default: the level the user is studying, else B1. A1 learners see A2 idioms and phrasal verbs (there are none
+  // at A1) but A1 irregular verbs.
+  const defaultLevel = learnerLevel ? (learnerLevel === 'A1' && tab !== 'verbs' ? 'A2' : learnerLevel) : 'B1'
   const level = pickedLevel && (pickedLevel === 'all' || levels.includes(pickedLevel)) ? pickedLevel : defaultLevel
   const inLevel = useCallback((l: string) => level === 'all' || l === level, [level])
   const matches = useCallback((l: string, core?: boolean) => inLevel(l) && (scope === 'all' || !!core), [inLevel, scope])
@@ -115,10 +119,19 @@ export default function Expressions() {
   )
   // Hacks are few and all essential, so the scope doesn't apply to them.
   const hacks = useMemo(() => (catalog?.hacks ?? []).filter((h) => inLevel(h.level)), [catalog, inLevel])
-  const count = tab === 'idioms' ? idioms.length : tab === 'phrasal' ? families.reduce((n, f) => n + f.items.length, 0) : hacks.length
+  // Irregular verbs have no "essentials" split either: every one of a level is worth knowing.
+  const verbs = useMemo(() => (catalog?.irregular_verbs ?? []).filter((v) => inLevel(v.level)), [catalog, inLevel])
+  const count =
+    tab === 'idioms'
+      ? idioms.length
+      : tab === 'phrasal'
+        ? families.reduce((n, f) => n + f.items.length, 0)
+        : tab === 'verbs'
+          ? verbs.length
+          : hacks.length
   // How many more the "Todo" scope would show in this tab and level, for the "Ver N más" link.
   const hiddenCount = useMemo(() => {
-    if (!catalog || scope === 'all' || tab === 'hacks') return 0
+    if (!catalog || scope === 'all' || tab === 'hacks' || tab === 'verbs') return 0
     if (tab === 'idioms') return catalog.idioms.filter((i) => inLevel(i.level) && !i.core).length
     return catalog.phrasal_verbs.reduce((n, f) => n + f.items.filter((v) => inLevel(v.level) && !v.core).length, 0)
   }, [catalog, scope, tab, inLevel])
@@ -208,7 +221,7 @@ export default function Expressions() {
               </select>
               <ChevronDown className="pointer-events-none absolute right-3 h-4 w-4 text-slate-400" />
             </label>
-            {tab !== 'hacks' && (
+            {tab !== 'hacks' && tab !== 'verbs' && (
               <label className="inline-flex cursor-pointer items-center gap-2 font-medium text-slate-700">
                 <input
                   id="expressions-core"
@@ -226,7 +239,7 @@ export default function Expressions() {
               </label>
             )}
             <span className="text-slate-400 tabular-nums">
-              {count} {tab === 'idioms' ? 'idioms' : tab === 'phrasal' ? 'phrasal verbs' : 'hacks'}
+              {count} {tab === 'idioms' ? 'idioms' : tab === 'phrasal' ? 'phrasal verbs' : tab === 'verbs' ? 'verbos' : 'hacks'}
             </span>
           </div>
           {tab === 'phrasal' && (
@@ -335,6 +348,8 @@ export default function Expressions() {
               )}
             </>
           )}
+
+          {tab === 'verbs' && <VerbsTable key={level} verbs={verbs} statusOf={statusOf} onAdd={add} />}
 
           {tab === 'hacks' && (
             <div className="grid gap-5 md:grid-cols-2">

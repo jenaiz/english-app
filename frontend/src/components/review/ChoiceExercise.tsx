@@ -8,6 +8,9 @@ const INSTRUCTIONS: Record<ReviewChoice['type'], string> = {
   idiom: '¿Qué idiom significa esto?',
   situation: '¿Qué idiom usarías en esta situación?',
   complete: 'Completa el idiom',
+  verb_past: '¿Cuál es el past simple?',
+  verb_gap: 'Completa con el verbo en pasado',
+  verb_participle: '¿Cuál es el participio?',
 }
 
 interface Props {
@@ -16,11 +19,11 @@ interface Props {
   onPick: (option: string) => void
 }
 
-/** Multiple-choice prompt for young idiom and phrasal verb cards. After picking, it marks the right answer. */
+/** Multiple-choice prompt for young idiom, phrasal and irregular verb cards. After picking, it marks the right answer. */
 export default function ChoiceExercise({ choice, picked, onPick }: Props) {
   const answered = picked !== null
   const long = choice.type === 'meaning' || choice.type === 'context' // options are whole definitions
-  const hasGap = choice.type === 'particle' || choice.type === 'complete'
+  const hasGap = choice.type === 'particle' || choice.type === 'complete' || choice.type === 'verb_gap'
 
   return (
     <div className="mt-5">

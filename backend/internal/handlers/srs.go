@@ -60,8 +60,8 @@ func (h *SRSHandler) Due(w http.ResponseWriter, r *http.Request) {
 		limit = 20
 	}
 	kind := r.URL.Query().Get("kind")
-	if kind != "" && kind != store.KindVocab && kind != store.KindIdiom && kind != store.KindPhrasal {
-		writeError(w, http.StatusBadRequest, "kind must be vocab, idiom or phrasal")
+	if kind != "" && kind != store.KindVocab && kind != store.KindIdiom && kind != store.KindPhrasal && kind != store.KindVerb {
+		writeError(w, http.StatusBadRequest, "kind must be vocab, idiom, phrasal or verb")
 		return
 	}
 	cards, err := h.Store.DueCards(r.Context(), auth.UserID(r.Context()), kind, limit)
@@ -110,6 +110,14 @@ func (h *SRSHandler) resolve(c *store.Card) (reviewCard, bool) {
 		return reviewCard{Term: ref.Term(), Definition: ref.Verb.Meaning, Translation: ref.Verb.Translation, Example: ref.Verb.Example,
 			LevelID: ref.Verb.Level, UnitTitle: "Expresiones", LessonTitle: "Phrasal verbs",
 			Choice: h.Expressions.PhrasalChoice(ref.Verb.ID, c.Repetitions, c.ID)}, true
+	case store.KindVerb:
+		v, ok := h.Expressions.Verb(c.Term)
+		if !ok {
+			return reviewCard{}, false
+		}
+		return reviewCard{Term: v.Term(), Definition: "Past simple: " + v.Past + " · Past participle: " + v.Participle,
+			Translation: v.Translation, Example: v.Example, LevelID: v.Level, UnitTitle: "Expresiones", LessonTitle: "Verbos irregulares",
+			Choice: h.Expressions.VerbChoice(v.ID, c.Repetitions, c.ID)}, true
 	default:
 		ref, ok := h.Catalog.Lesson(c.LessonID)
 		if !ok {
@@ -135,7 +143,7 @@ func (h *SRSHandler) SavedExpressions(w http.ResponseWriter, r *http.Request) {
 	writeJSON(w, http.StatusOK, ids)
 }
 
-// AddExpression adds an idiom or phrasal verb from Expresiones to the user's review.
+// AddExpression adds an idiom, phrasal verb or irregular verb from Expresiones to the user's review.
 func (h *SRSHandler) AddExpression(w http.ResponseWriter, r *http.Request) {
 	var in struct {
 		Kind string `json:"kind"`
@@ -151,8 +159,10 @@ func (h *SRSHandler) AddExpression(w http.ResponseWriter, r *http.Request) {
 		_, exists = h.Expressions.Idiom(in.ID)
 	case store.KindPhrasal:
 		_, exists = h.Expressions.Phrasal(in.ID)
+	case store.KindVerb:
+		_, exists = h.Expressions.Verb(in.ID)
 	default:
-		writeError(w, http.StatusBadRequest, "kind must be idiom or phrasal")
+		writeError(w, http.StatusBadRequest, "kind must be idiom, phrasal or verb")
 		return
 	}
 	if !exists {

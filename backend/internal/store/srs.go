@@ -40,14 +40,15 @@ func (s *Store) AddCards(ctx context.Context, userID, lessonID string, terms []s
 	return added, nil
 }
 
-// Card kinds. Expression cards (idiom, phrasal) have an empty lesson_id and the expression id as term.
+// Card kinds. Expression cards (every kind but vocab) have an empty lesson_id and the expression id as term.
 const (
 	KindVocab   = "vocab"
 	KindIdiom   = "idiom"
 	KindPhrasal = "phrasal"
+	KindVerb    = "verb"
 )
 
-// AddExpressionCard adds an idiom or phrasal verb to the user's review. It reports false if it was already there.
+// AddExpressionCard adds an idiom, phrasal verb or irregular verb to the user's review. It reports false if it was already there.
 func (s *Store) AddExpressionCard(ctx context.Context, userID, kind, id string) (bool, error) {
 	tag, err := s.pool.Exec(ctx, `
 		INSERT INTO srs_cards (user_id, kind, lesson_id, term) VALUES ($1, $2, '', $3)
@@ -74,12 +75,12 @@ func (s *Store) ExpressionCards(ctx context.Context, userID string) (map[string]
 		return nil, err
 	}
 	rows, err := s.pool.Query(ctx, `SELECT id, kind, term, repetitions, created_at FROM srs_cards
-		WHERE user_id = $1 AND kind IN ('idiom', 'phrasal')`, userID)
+		WHERE user_id = $1 AND kind <> 'vocab'`, userID)
 	if err != nil {
 		return nil, err
 	}
 	defer rows.Close()
-	out := map[string][]SavedExpression{KindIdiom: {}, KindPhrasal: {}}
+	out := map[string][]SavedExpression{KindIdiom: {}, KindPhrasal: {}, KindVerb: {}}
 	for rows.Next() {
 		var id, kind string
 		var e SavedExpression
@@ -107,8 +108,8 @@ func (s *Store) IsQueued(ctx context.Context, userID, kind, id string) (bool, er
 	return q.queued[cardID], nil
 }
 
-// newExpression is a never-reviewed expression card: an idiom or phrasal verb the user added but hasn't seen in Repaso.
-const newExpression = `kind IN ('idiom', 'phrasal') AND first_reviewed_at IS NULL`
+// newExpression is a never-reviewed expression card: an idiom, phrasal or irregular verb the user added but hasn't seen in Repaso.
+const newExpression = `kind <> 'vocab' AND first_reviewed_at IS NULL`
 
 // queue splits the user's new expression cards, oldest first, into the ones that can be shown today
 // and the ones that wait, according to the daily limit.
@@ -122,7 +123,7 @@ func (s *Store) expressionQueue(ctx context.Context, userID string) (*queue, err
 	var reviewsDue, introducedToday int
 	err := s.pool.QueryRow(ctx, `SELECT
 			COUNT(*) FILTER (WHERE due_at <= NOW() AND NOT (`+newExpression+`)),
-			COUNT(*) FILTER (WHERE kind IN ('idiom', 'phrasal') AND first_reviewed_at >= $2)
+			COUNT(*) FILTER (WHERE kind <> 'vocab' AND first_reviewed_at >= $2)
 		FROM srs_cards WHERE user_id = $1`, userID, srs.StartOfDay(time.Now())).Scan(&reviewsDue, &introducedToday)
 	if err != nil {
 		return nil, err
@@ -215,7 +216,7 @@ type KindCount struct {
 // CardSummary returns the due and total cards, overall and per kind. New expression cards count as due
 // only while they fit in today's limit; the rest are queued.
 func (s *Store) CardSummary(ctx context.Context, userID string) (due, total int, byKind map[string]KindCount, err error) {
-	byKind = map[string]KindCount{KindVocab: {}, KindIdiom: {}, KindPhrasal: {}}
+	byKind = map[string]KindCount{KindVocab: {}, KindIdiom: {}, KindPhrasal: {}, KindVerb: {}}
 	rows, err := s.pool.Query(ctx, `SELECT kind, COUNT(*) FILTER (WHERE due_at <= NOW() AND NOT (`+newExpression+`)), COUNT(*)
 		FROM srs_cards WHERE user_id = $1 GROUP BY kind`, userID)
 	if err != nil {

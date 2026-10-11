@@ -186,7 +186,7 @@ export interface SrsSummary {
 }
 /** Multiple-choice exercise for young idiom and phrasal verb cards. */
 export interface ReviewChoice {
-  type: 'context' | 'particle' | 'phrasal' | 'meaning' | 'idiom' | 'situation' | 'complete'
+  type: 'context' | 'particle' | 'phrasal' | 'meaning' | 'idiom' | 'situation' | 'complete' | 'verb_past' | 'verb_gap' | 'verb_participle'
   prompt: string
   /** Expression the question is about, when the prompt is a sentence. */
   focus?: string
@@ -202,7 +202,7 @@ export interface SavedExpression {
 }
 
 // ---- Expresiones ----
-export type ExpressionKind = 'idiom' | 'phrasal'
+export type ExpressionKind = 'idiom' | 'phrasal' | 'verb'
 export interface Idiom {
   id: string
   term: string
@@ -258,6 +258,18 @@ export interface Pack {
   level: string
   items: string[]
 }
+/** One row of the irregular verbs table. Past and participle may list variants: "learnt/learned". */
+export interface IrregularVerb {
+  id: string
+  base: string
+  past: string
+  participle: string
+  translation: string
+  level: string
+  /** Past simple sentence from the course story. */
+  example: string
+}
+
 export interface ExpressionsCatalog {
   idioms: Idiom[]
   phrasal_verbs: PhrasalFamily[]
@@ -266,4 +278,5 @@ export interface ExpressionsCatalog {
   packs: Pack[]
   /** A few expressions per unit id that fit the unit's topic. */
   unit_expressions: Record<string, string[]>
+  irregular_verbs: IrregularVerb[]
 }

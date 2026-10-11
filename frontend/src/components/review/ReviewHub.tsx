@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { AlertCircle, BookA, Brain, Check, ChevronRight, Clock, Loader2, Plus, Quote, Sparkles } from 'lucide-react'
+import { AlertCircle, BookA, Brain, Check, ChevronRight, Clock, History, Loader2, Plus, Quote, Sparkles } from 'lucide-react'
 import { api } from '../../api/client'
 import type { CardKind, SrsSummary } from '../../types'
 
@@ -11,6 +11,7 @@ export const DECKS: { id: Deck; label: string }[] = [
   { id: 'vocab', label: 'Vocabulario' },
   { id: 'phrasal', label: 'Phrasal verbs' },
   { id: 'idiom', label: 'Idioms' },
+  { id: 'verb', label: 'Verbos irregulares' },
 ]
 
 const KINDS: { id: CardKind; label: string; detail: string; icon: typeof BookA; tone: string; bar: string; empty: string }[] = [
@@ -39,6 +40,15 @@ const KINDS: { id: CardKind; label: string; detail: string; icon: typeof BookA; 
     icon: Quote,
     tone: 'bg-emerald-100 text-emerald-700',
     bar: 'bg-emerald-300',
+    empty: 'Añádelos desde Expresiones',
+  },
+  {
+    id: 'verb',
+    label: 'Verbos irregulares',
+    detail: 'Pasado, completar la frase, participio, decirlo',
+    icon: History,
+    tone: 'bg-rose-100 text-rose-700',
+    bar: 'bg-rose-200',
     empty: 'Añádelos desde Expresiones',
   },
 ]
@@ -168,7 +178,7 @@ export default function ReviewHub({ onStart }: { onStart: (deck: Deck) => void }
               )
             }
             if (state === 'empty') {
-              const to = k.id === 'vocab' ? '/levels' : `/expresiones${k.id === 'phrasal' ? '?tab=phrasal' : ''}`
+              const to = k.id === 'vocab' ? '/levels' : `/expresiones${k.id === 'phrasal' ? '?tab=phrasal' : k.id === 'verb' ? '?tab=verbs' : ''}`
               return (
                 <Link key={k.id} to={to} className={`${cls} border-dashed border-slate-300 transition hover:border-indigo-300`}>
                   {body}
