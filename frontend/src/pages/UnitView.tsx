@@ -2,9 +2,10 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { AlertCircle, ArrowLeft, ArrowRight, Brain, CheckCircle2, ClipboardCheck, Loader2, PartyPopper } from 'lucide-react'
 import { api } from '../api/client'
+import UnitExpressions from '../components/expressions/UnitExpressions'
 import StepRenderer, { EXERCISE_TYPES } from '../components/steps/StepRenderer'
 import { PHASES } from '../lib/phases'
-import type { ExerciseResult, Phase, Step, UnitResponse } from '../types'
+import type { ExerciseResult, Phase, Step, UnitResponse, VocabularyTableContent } from '../types'
 
 interface FlatStep {
   step: Step
@@ -279,6 +280,10 @@ export default function UnitView() {
         </div>
         <StepRenderer key={index} step={current.step} onComplete={recordResult} />
       </article>
+
+      {current.step.type === 'vocabulary_table' && (
+        <UnitExpressions unitId={unitId} excludeTerms={(current.step.content as VocabularyTableContent).items.map((it) => it.term)} />
+      )}
 
       {saveError && (
         <div className="mt-4 flex items-center gap-2 rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700">

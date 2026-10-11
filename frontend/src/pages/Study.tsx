@@ -5,6 +5,7 @@ import { api } from '../api/client'
 import GrammarRuleStep from '../components/steps/GrammarRuleStep'
 import { canSpeak, speak } from '../lib/speech'
 import PhrasalFamilyLinks from '../components/expressions/PhrasalFamilyLinks'
+import UnitExpressions from '../components/expressions/UnitExpressions'
 import type { GrammarRuleContent, UnitResponse, VocabularyItem, VocabularyTableContent } from '../types'
 
 type Tab = 'grammar' | 'vocabulary'
@@ -117,6 +118,7 @@ export default function Study() {
               </div>
             </section>
           ))}
+          <UnitExpressions unitId={unitId} excludeTerms={perLesson.flatMap((l) => l.vocab.map((it) => it.term))} />
           <PhrasalFamilyLinks terms={perLesson.flatMap((l) => l.vocab.map((it) => it.term))} />
           <Link
             to="/review"

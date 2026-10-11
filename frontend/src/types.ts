@@ -264,4 +264,6 @@ export interface ExpressionsCatalog {
   hacks: Hack[]
   particles: Particle[]
   packs: Pack[]
+  /** A few expressions per unit id that fit the unit's topic. */
+  unit_expressions: Record<string, string[]>
 }

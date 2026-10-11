@@ -1,0 +1,11 @@
+{
+  "saying_hello": ["phrasal:come-in", "phrasal:hold-on"],
+  "numbers_colors": ["phrasal:put-away", "phrasal:throw-away", "phrasal:pick-up"],
+  "daily_routine": ["phrasal:get-up", "phrasal:put-on", "idiom:hit-the-sack"],
+  "at_the_shop": ["phrasal:try-on", "phrasal:run-out-of", "idiom:cost-an-arm-and-a-leg"],
+  "hotel_checkin": ["phrasal:put-up-with", "idiom:the-last-straw", "phrasal:drop-off"],
+  "airport_travel": ["phrasal:set-off", "phrasal:look-forward-to", "idiom:in-the-nick-of-time"],
+  "job_interview": ["idiom:learn-the-ropes", "idiom:go-the-extra-mile", "phrasal:take-on"],
+  "expressing_opinions": ["idiom:see-eye-to-eye", "idiom:sit-on-the-fence", "idiom:hit-the-nail-on-the-head"],
+  "inversion_emphasis": ["idiom:a-blessing-in-disguise", "idiom:the-elephant-in-the-room", "idiom:take-it-with-a-pinch-of-salt"]
+}

@@ -67,6 +67,7 @@ func TestLoadExpressionsRejectsBadContent(t *testing.T) {
 		os.WriteFile(filepath.Join(dir, "hacks.json"), []byte(`[]`), 0o644)
 		os.WriteFile(filepath.Join(dir, "particles.json"), []byte(`[]`), 0o644)
 		os.WriteFile(filepath.Join(dir, "packs.json"), []byte(`[]`), 0o644)
+		os.WriteFile(filepath.Join(dir, "unit_expressions.json"), []byte(`{}`), 0o644)
 		return dir
 	}
 	idiom := `{"id":"x","term":"x","level":"B1","definition":"d","equivalent_es":"e"}`
@@ -82,6 +83,23 @@ func TestLoadExpressionsRejectsBadContent(t *testing.T) {
 		_, err := LoadExpressions(write(c.idioms, c.phrasal))
 		if err == nil || !strings.Contains(err.Error(), c.want) {
 			t.Errorf("%s: got %v, want error containing %q", name, err, c.want)
+		}
+	}
+}
+
+// Every unit listed in unit_expressions.json exists, so a renamed unit doesn't silently lose its expressions.
+func TestUnitExpressionsMatchUnits(t *testing.T) {
+	e, err := LoadExpressions("../../data/expressions")
+	if err != nil {
+		t.Fatal(err)
+	}
+	c, err := Load("../../data/levels")
+	if err != nil {
+		t.Fatal(err)
+	}
+	for unit := range e.UnitExpressions {
+		if _, ok := c.Unit("", unit); !ok {
+			t.Errorf("unit_expressions.json lists unknown unit %q", unit)
 		}
 	}
 }

@@ -17,8 +17,11 @@ type Expressions struct {
 	Hacks        []Hack          `json:"hacks"`
 	Particles    []Particle      `json:"particles"`
 	Packs        []Pack          `json:"packs"`
-	idiomByID    map[string]*Idiom
-	phrasalByID  map[string]PhrasalRef
+	// UnitExpressions lists, per unit id, a few expressions that fit the unit's topic. It lives
+	// apart from the level files so lessons and expressions can be written independently.
+	UnitExpressions map[string][]string `json:"unit_expressions"`
+	idiomByID       map[string]*Idiom
+	phrasalByID     map[string]PhrasalRef
 }
 
 type Idiom struct {
@@ -119,7 +122,7 @@ func slug(s string) string {
 // LoadExpressions reads idioms.json, phrasal_verbs.json and hacks.json from dir.
 func LoadExpressions(dir string) (*Expressions, error) {
 	e := &Expressions{idiomByID: map[string]*Idiom{}, phrasalByID: map[string]PhrasalRef{}}
-	for name, dst := range map[string]any{"idioms.json": &e.Idioms, "phrasal_verbs.json": &e.PhrasalVerbs, "hacks.json": &e.Hacks, "particles.json": &e.Particles, "packs.json": &e.Packs} {
+	for name, dst := range map[string]any{"idioms.json": &e.Idioms, "phrasal_verbs.json": &e.PhrasalVerbs, "hacks.json": &e.Hacks, "particles.json": &e.Particles, "packs.json": &e.Packs, "unit_expressions.json": &e.UnitExpressions} {
 		data, err := os.ReadFile(filepath.Join(dir, name))
 		if err != nil {
 			return nil, err
@@ -221,20 +224,13 @@ func (e *Expressions) index() error {
 		if len(p.Items) < minPackItems || len(p.Items) > maxPackItems {
 			return fmt.Errorf("packs.json: %s has %d items, want %d–%d", p.ID, len(p.Items), minPackItems, maxPackItems)
 		}
-		seen := map[string]bool{}
-		for _, item := range p.Items {
-			kind, id, _ := strings.Cut(item, ":")
-			var ok bool
-			switch kind {
-			case "idiom":
-				_, ok = e.idiomByID[id]
-			case "phrasal":
-				_, ok = e.phrasalByID[id]
-			}
-			if !ok || seen[item] {
-				return fmt.Errorf("packs.json: %s has an unknown or repeated item %q", p.ID, item)
-			}
-			seen[item] = true
+		if err := e.checkItems(p.Items); err != nil {
+			return fmt.Errorf("packs.json: %s: %w", p.ID, err)
+		}
+	}
+	for unit, items := range e.UnitExpressions {
+		if err := e.checkItems(items); err != nil {
+			return fmt.Errorf("unit_expressions.json: %s: %w", unit, err)
 		}
 	}
 	ids := map[string]bool{}
@@ -246,6 +242,26 @@ func (e *Expressions) index() error {
 			return fmt.Errorf("hacks.json: duplicate id %q", h.ID)
 		}
 		ids[h.ID] = true
+	}
+	return nil
+}
+
+// checkItems verifies that every "idiom:<id>" or "phrasal:<id>" exists and appears once.
+func (e *Expressions) checkItems(items []string) error {
+	seen := map[string]bool{}
+	for _, item := range items {
+		kind, id, _ := strings.Cut(item, ":")
+		var ok bool
+		switch kind {
+		case "idiom":
+			_, ok = e.idiomByID[id]
+		case "phrasal":
+			_, ok = e.phrasalByID[id]
+		}
+		if !ok || seen[item] {
+			return fmt.Errorf("unknown or repeated item %q", item)
+		}
+		seen[item] = true
 	}
 	return nil
 }
