@@ -1,0 +1,87 @@
+{
+  "Lucía": {
+    "voice": "en-GB-LibbyNeural",
+    "lang": "en-GB",
+    "gender": "female"
+  },
+  "Sam": {
+    "voice": "en-GB-RyanNeural",
+    "lang": "en-GB",
+    "gender": "male"
+  },
+  "Priya": {
+    "voice": "en-GB-SoniaNeural",
+    "lang": "en-GB",
+    "gender": "female"
+  },
+  "Daniel": {
+    "voice": "en-IE-ConnorNeural",
+    "lang": "en-IE",
+    "gender": "male"
+  },
+  "Javi": {
+    "voice": "en-GB-ThomasNeural",
+    "lang": "en-GB",
+    "gender": "male"
+  },
+  "Helen": {
+    "voice": "en-GB-AbbiNeural",
+    "lang": "en-GB",
+    "gender": "female"
+  },
+  "Mrs Green": {
+    "voice": "en-GB-HollieNeural",
+    "lang": "en-GB",
+    "gender": "female"
+  },
+  "Maureen": {
+    "voice": "en-IE-EmilyNeural",
+    "lang": "en-IE",
+    "gender": "female"
+  },
+  "Mark": {
+    "voice": "en-US-GuyNeural",
+    "lang": "en-US",
+    "gender": "male"
+  },
+  "Waiter": {
+    "voice": "en-GB-ElliotNeural",
+    "lang": "en-GB",
+    "gender": "male"
+  },
+  "Shop assistant": {
+    "voice": "en-GB-BellaNeural",
+    "lang": "en-GB",
+    "gender": "female"
+  },
+  "Receptionist": {
+    "voice": "en-GB-OliviaNeural",
+    "lang": "en-GB",
+    "gender": "female"
+  },
+  "Agent": {
+    "voice": "en-GB-NoahNeural",
+    "lang": "en-GB",
+    "gender": "male"
+  },
+  "Interviewer": {
+    "voice": "en-GB-AlfieNeural",
+    "lang": "en-GB",
+    "gender": "male"
+  },
+  "Narrator": {
+    "voice": "en-GB-OllieMultilingualNeural",
+    "lang": "en-GB",
+    "gender": "male"
+  },
+  "Quizmaster": {
+    "voice": "en-GB-EthanNeural",
+    "lang": "en-GB",
+    "gender": "male"
+  },
+  "Ollie": {
+    "voice": "en-GB-OliverNeural",
+    "lang": "en-GB",
+    "gender": "male"
+  }
+}

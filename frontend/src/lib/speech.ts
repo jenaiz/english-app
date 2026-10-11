@@ -22,7 +22,86 @@ export function speak(texts: string | string[], rate = 0.95): Promise<void> {
 }
 
 export function stopSpeaking() {
+  playback++
+  currentAudio?.pause()
+  currentAudio = null
   if (canSpeak) window.speechSynthesis.cancel()
+}
+
+// --- Story dialogues: each speaker has a fixed voice (backend/data/voices.json) ---
+
+export interface DialogueLine {
+  speaker: string
+  text: string
+}
+
+interface VoiceInfo {
+  voice: string
+  lang: string
+  gender: 'male' | 'female'
+}
+
+/** Bumped by stopSpeaking so a running playLines stops before its next line. */
+let playback = 0
+let currentAudio: HTMLAudioElement | null = null
+let voiceMap: Promise<Record<string, VoiceInfo>> | null = null
+
+function voices() {
+  voiceMap ??= fetch('/api/voices')
+    .then((r) => (r.ok ? r.json() : {}))
+    .catch(() => ({}))
+  return voiceMap
+}
+
+/**
+ * Play dialogue lines in order with each speaker's pre-generated MP3. If a file is
+ * missing (not generated yet) the line falls back to a browser voice of the same
+ * accent and gender. Resolves when done or when stopSpeaking is called.
+ */
+export async function playLines(lines: DialogueLine[]): Promise<void> {
+  stopSpeaking()
+  const run = playback
+  const map = await voices()
+  for (const line of lines) {
+    if (run !== playback) return
+    const ok = await playMp3(line, run)
+    if (!ok && run === playback) await speakAs(line, map[line.speaker])
+  }
+}
+
+function playMp3({ speaker, text }: DialogueLine, run: number): Promise<boolean> {
+  return new Promise((resolve) => {
+    const audio = new Audio(`/api/audio?${new URLSearchParams({ speaker, text })}`)
+    currentAudio = audio
+    audio.onended = () => resolve(true)
+    audio.onpause = () => resolve(true)
+    audio.onerror = () => resolve(false)
+    if (run !== playback) return resolve(true)
+    audio.play().catch(() => resolve(false))
+  })
+}
+
+// Browser voice names hinting at gender; voices carry no gender field.
+const MALE = /\b(male|daniel|arthur|oliver|rishi|fred|alex|tom|george|ryan|thomas|aaron|guy|david|mark|james)\b/i
+const FEMALE = /\b(female|moira|karen|samantha|serena|kate|tessa|fiona|martha|sonia|libby|susan|hazel|zira|emily)\b/i
+
+function speakAs({ text }: DialogueLine, info?: VoiceInfo): Promise<void> {
+  if (!canSpeak) return Promise.resolve()
+  const all = window.speechSynthesis.getVoices()
+  const lang = info?.lang ?? 'en-GB'
+  const sameLang = all.filter((v) => v.lang.replace('_', '-') === lang)
+  const english = all.filter((v) => v.lang.startsWith('en'))
+  const pool = sameLang.length ? sameLang : english
+  const byGender = pool.filter((v) => (info?.gender === 'male' ? MALE : FEMALE).test(v.name))
+  return new Promise((resolve) => {
+    const u = new SpeechSynthesisUtterance(text)
+    u.lang = lang
+    u.voice = byGender[0] ?? pool[0] ?? null
+    u.rate = 0.95
+    u.onend = () => resolve()
+    u.onerror = () => resolve()
+    window.speechSynthesis.speak(u)
+  })
 }
 
 // Minimal typing for the Web Speech recognition API (not in lib.dom for all browsers).

@@ -24,6 +24,10 @@ type Config struct {
 	ContentDir   string
 	// ExpressionsDir holds the Expresiones content; defaults to a sibling of ContentDir.
 	ExpressionsDir string
+	// VoicesFile maps dialogue speakers to TTS voices; AudioDir holds the pre-generated MP3s.
+	// Both default to siblings of ContentDir.
+	VoicesFile string
+	AudioDir   string
 	// GoogleClientID enables "Sign in with Google" when set (OAuth web client ID).
 	GoogleClientID string
 	// GAMeasurementID enables Google Analytics (loaded only after cookie consent).
@@ -59,6 +63,8 @@ func Load() Config {
 		AWSSecretAccessKey: getEnv("AWS_SECRET_ACCESS_KEY", ""),
 	}
 	cfg.ExpressionsDir = getEnv("EXPRESSIONS_DIR", filepath.Join(filepath.Dir(cfg.ContentDir), "expressions"))
+	cfg.VoicesFile = getEnv("VOICES_FILE", filepath.Join(filepath.Dir(cfg.ContentDir), "voices.json"))
+	cfg.AudioDir = getEnv("AUDIO_DIR", filepath.Join(filepath.Dir(cfg.ContentDir), "audio"))
 	cfg.CookieSecure, _ = strconv.ParseBool(getEnv("COOKIE_SECURE", "false"))
 	if cfg.JWTSecret == "" {
 		log.Println("WARNING: JWT_SECRET not set, using an insecure development secret")

@@ -40,6 +40,13 @@ func main() {
 		log.Fatalf("load expressions: %v", err)
 	}
 	log.Printf("loaded %d idioms, %d phrasal verb families, %d hacks from %s", len(expressions.Idioms), len(expressions.PhrasalVerbs), len(expressions.Hacks), cfg.ExpressionsDir)
+	voices, err := content.LoadVoices(cfg.VoicesFile)
+	if err != nil {
+		log.Fatalf("load voices: %v", err)
+	}
+	if err := catalog.CheckSpeakers(voices); err != nil {
+		log.Fatalf("content: %v", err)
+	}
 
 	pool, err := db.Connect(ctx, cfg.DatabaseURL())
 	if err != nil {
@@ -71,6 +78,7 @@ func main() {
 	progressH := &handlers.ProgressHandler{Store: st, Catalog: catalog}
 	srsH := &handlers.SRSHandler{Store: st, Catalog: catalog, Expressions: expressions}
 	expressionsH := &handlers.ExpressionsHandler{Expressions: expressions}
+	audioH := &handlers.AudioHandler{Voices: voices, Dir: cfg.AudioDir}
 
 	r := chi.NewRouter()
 	r.Use(middleware.RequestID, middleware.RealIP, middleware.Logger, middleware.Recoverer)
@@ -106,6 +114,8 @@ func main() {
 		r.Post("/auth/forgot-password", authH.ForgotPassword)
 		r.Post("/auth/reset-password", authH.ResetPassword)
 		r.Get("/expressions", expressionsH.List)
+		r.Get("/voices", audioH.VoiceMap)
+		r.Get("/audio", audioH.Line)
 
 		r.Group(func(r chi.Router) {
 			r.Use(tokens.Middleware)

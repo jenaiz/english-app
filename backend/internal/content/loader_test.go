@@ -77,3 +77,22 @@ func TestLoadMergesLevelFragments(t *testing.T) {
 		t.Errorf("u3 not indexed under t1: %+v", ref)
 	}
 }
+
+func TestBundledSpeakersHaveVoices(t *testing.T) {
+	c, err := Load("../../data/levels")
+	if err != nil {
+		t.Fatal(err)
+	}
+	v, err := LoadVoices("../../data/voices.json")
+	if err != nil {
+		t.Fatal(err)
+	}
+	if err := c.CheckSpeakers(v); err != nil {
+		t.Fatal(err)
+	}
+	a, _ := v.AudioFile("Daniel", " Hi! ")
+	b, _ := v.AudioFile("Daniel", "Hi!")
+	if c, _ := v.AudioFile("Sam", "Hi!"); a != b || a == c {
+		t.Errorf("audio file names: %s %s %s", a, b, c)
+	}
+}
