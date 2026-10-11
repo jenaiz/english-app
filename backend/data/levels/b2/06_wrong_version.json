@@ -1,0 +1,663 @@
+{
+  "level_id": "B2",
+  "themes": [
+    {
+      "theme_id": "difficult_client",
+      "units": [
+        {
+          "unit_id": "wrong_version",
+          "title": "The Wrong Version",
+          "description": "Lo que habría pasado si…: tercer condicional y wish + past perfect.",
+          "lessons": [
+            {
+              "lesson_id": "wrong_version_lesson",
+              "title": "Third conditional and regrets",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "The wrong version",
+                    "dialogue": [
+                      {
+                        "speaker": "Daniel",
+                        "text": "I can't believe it. We uploaded the old version."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "If we had checked the files, this wouldn't have happened."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "If I hadn't been so tired last night, I would have noticed."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "It's not the end of the world. If Mark had seen it, he would have called us already."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I wish I had stayed later yesterday."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "And I wish I hadn't uploaded it in such a hurry."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Stop it, both of you. Fix it now, and nobody will know."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Done. The right version is live."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "That was close. If you hadn't spotted it this morning, Helen, we'd have been in real trouble."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Twenty years in this business, Lucía. You learn to check everything twice."
+                      },
+                      {
+                        "speaker": "Mark",
+                        "text": "Hi, team! The site looks amazing. Did I miss anything?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Nothing at all, Mark. Everything's fine."
+                      }
+                    ],
+                    "passage": "December. The morning of the launch, Helen opens the new website and sees something strange: it's the old version."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"If we had checked the files, this wouldn't have happened.\" Did they check the files?",
+                        "options": [
+                          "No",
+                          "Yes"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The structure is…",
+                        "options": [
+                          "If + had + participle, would have + participle",
+                          "If + past simple, would + verb"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I wish I had stayed later.\" This expresses…",
+                        "options": [
+                          "regret about the past",
+                          "a wish for the future"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Who spotted the problem?",
+                        "options": [
+                          "Helen",
+                          "Daniel",
+                          "Mark"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Third conditional and regrets",
+                    "explanation": "El tercer condicional imagina un pasado diferente y su consecuencia, que tampoco pasó: If + past perfect, would have + participio. If we had checked the files, this wouldn't have happened.\n\nEn la consecuencia también podemos usar could have o might have: If you'd told me, I could have helped.\n\nPara lamentar algo del pasado: wish + past perfect: I wish I had stayed later. I wish I hadn't uploaded it in such a hurry.\n\nCuidado con la contracción 'd: en la parte del if es had (If we'd known) y en la consecuencia es would (we'd have stayed).",
+                    "table": {
+                      "headers": [
+                        "Estructura",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "If + had + participio, would have + participio",
+                          "If we had checked the files, this wouldn't have happened."
+                        ],
+                        [
+                          "Negativa",
+                          "If I hadn't been so tired, I would have noticed."
+                        ],
+                        [
+                          "con could / might",
+                          "If you'd told me, I could have helped."
+                        ],
+                        [
+                          "wish + past perfect",
+                          "I wish I had stayed later."
+                        ],
+                        [
+                          "'d = had / would",
+                          "If we'd known, we'd have stayed."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "If we had checked the files, this wouldn't have happened.",
+                      "If I hadn't been so tired last night, I would have noticed.",
+                      "I wish I had stayed later yesterday.",
+                      "If you hadn't spotted it, we'd have been in real trouble."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el tercer condicional o wish.",
+                    "items": [
+                      {
+                        "sentence": "If we had ___ the files, this wouldn't have happened. (check)",
+                        "answers": [
+                          [
+                            "checked"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If I hadn't been so tired, I ___ have noticed.",
+                        "answers": [
+                          [
+                            "would"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If Mark had seen it, he would ___ called us.",
+                        "answers": [
+                          [
+                            "have"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I wish I ___ stayed later yesterday.",
+                        "answers": [
+                          [
+                            "had"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I wish I ___ uploaded it in such a hurry.",
+                        "answers": [
+                          [
+                            "hadn't",
+                            "had not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If you ___ spotted it, we'd have been in trouble.",
+                        "answers": [
+                          [
+                            "hadn't",
+                            "had not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If I had known, I ___ have helped you. (podría)",
+                        "answers": [
+                          [
+                            "could"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If she had left earlier, she ___ have missed the train.",
+                        "answers": [
+                          [
+                            "wouldn't",
+                            "would not"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "If we had checked the files"
+                      },
+                      {
+                        "answer": "I would have noticed"
+                      },
+                      {
+                        "answer": "I wish I had stayed later"
+                      },
+                      {
+                        "answer": "It wouldn't have happened"
+                      },
+                      {
+                        "answer": "We would have been in trouble"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Si lo hubiéramos revisado, no habría pasado.",
+                        "answers": [
+                          "If we had checked it, it wouldn't have happened",
+                          "If we had checked it it wouldn't have happened",
+                          "If we'd checked it, it wouldn't have happened",
+                          "If we had checked it, it would not have happened"
+                        ]
+                      },
+                      {
+                        "source": "Ojalá me hubiera quedado.",
+                        "answers": [
+                          "I wish I had stayed",
+                          "I wish I'd stayed"
+                        ]
+                      },
+                      {
+                        "source": "Si me lo hubieras dicho, te habría ayudado.",
+                        "answers": [
+                          "If you had told me, I would have helped you",
+                          "If you had told me I would have helped you",
+                          "If you'd told me, I'd have helped you",
+                          "If you'd told me, I would have helped you"
+                        ]
+                      },
+                      {
+                        "source": "Habríamos tenido problemas.",
+                        "answers": [
+                          "We would have been in trouble",
+                          "We'd have been in trouble",
+                          "We would have had problems"
+                        ]
+                      },
+                      {
+                        "source": "Ojalá no lo hubiera subido.",
+                        "answers": [
+                          "I wish I hadn't uploaded it",
+                          "I wish I had not uploaded it"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "If we had checked the files, this wouldn't have happened."
+                      },
+                      {
+                        "text": "I wish I had stayed later yesterday."
+                      },
+                      {
+                        "text": "That was close!"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "upload",
+                        "definition": "Put a file on the internet",
+                        "translation": "subir (un archivo)",
+                        "example": "We uploaded the old version."
+                      },
+                      {
+                        "term": "go live",
+                        "definition": "Become available online",
+                        "translation": "publicarse, ponerse en marcha",
+                        "example": "The right version is live."
+                      },
+                      {
+                        "term": "notice",
+                        "definition": "See or realise something",
+                        "translation": "darse cuenta",
+                        "example": "I would have noticed."
+                      },
+                      {
+                        "term": "in a hurry",
+                        "definition": "Quickly, without enough time",
+                        "translation": "con prisas",
+                        "example": "I uploaded it in such a hurry."
+                      },
+                      {
+                        "term": "spot",
+                        "definition": "See or notice",
+                        "translation": "detectar",
+                        "example": "If you hadn't spotted it…"
+                      },
+                      {
+                        "term": "That was close",
+                        "definition": "Something bad almost happened",
+                        "translation": "por poco",
+                        "example": "That was close."
+                      },
+                      {
+                        "term": "in trouble",
+                        "definition": "In a difficult situation",
+                        "translation": "en apuros, en un lío",
+                        "example": "We'd have been in real trouble."
+                      },
+                      {
+                        "term": "the end of the world",
+                        "definition": "A disaster (usually negative: not…)",
+                        "translation": "el fin del mundo",
+                        "example": "It's not the end of the world."
+                      },
+                      {
+                        "term": "fix",
+                        "definition": "Repair",
+                        "translation": "arreglar",
+                        "example": "Fix it now."
+                      },
+                      {
+                        "term": "wish",
+                        "definition": "Want something different from reality",
+                        "translation": "desear, ojalá",
+                        "example": "I wish I had stayed later."
+                      },
+                      {
+                        "term": "regret",
+                        "definition": "Feel sorry about something you did",
+                        "translation": "arrepentirse, lamentar",
+                        "example": "Do you regret it?"
+                      },
+                      {
+                        "term": "twice",
+                        "definition": "Two times",
+                        "translation": "dos veces",
+                        "example": "You learn to check everything twice."
+                      },
+                      {
+                        "term": "Stop it",
+                        "definition": "Stop doing that",
+                        "translation": "basta ya",
+                        "example": "Stop it, both of you."
+                      },
+                      {
+                        "term": "Did I miss anything?",
+                        "definition": "Did something happen without me?",
+                        "translation": "¿Me he perdido algo?",
+                        "example": "Did I miss anything?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "If I ___ the bus, I wouldn't have been late.",
+                        "options": [
+                          "had caught",
+                          "caught"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If she had asked, I ___ helped.",
+                        "options": [
+                          "would have",
+                          "would"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I wish I ___ that.",
+                        "options": [
+                          "hadn't said",
+                          "didn't say"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If we'd left earlier, we ___ missed the flight.",
+                        "options": [
+                          "wouldn't have",
+                          "won't have"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If you ___ told me, I could have come.",
+                        "options": [
+                          "had",
+                          "have"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What was wrong with the website?",
+                        "options": [
+                          "It was the old version.",
+                          "It was too slow.",
+                          "It didn't have videos."
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "b2_checkpoint_2",
+              "title": "Checkpoint 2: A Difficult Client",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "___ it was raining, we went for a walk.",
+                        "options": [
+                          "Although",
+                          "Despite"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ the cost, they bought it.",
+                        "options": [
+                          "Despite",
+                          "Although"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "It's simple. ___, it works.",
+                        "options": [
+                          "However",
+                          "Whereas"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "He suggested ___ a break.",
+                        "options": [
+                          "taking",
+                          "to take"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She refused ___ the contract.",
+                        "options": [
+                          "to sign",
+                          "signing"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "They apologised ___ being late.",
+                        "options": [
+                          "for",
+                          "to"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If I'd known, I ___ have come.",
+                        "options": [
+                          "would",
+                          "will"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I wish I ___ more careful.",
+                        "options": [
+                          "had been",
+                          "was"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "In spite ___ being simple, it works.",
+                        "answers": [
+                          [
+                            "of"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I agree, even ___ it's expensive.",
+                        "answers": [
+                          [
+                            "though"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He insisted ___ paying.",
+                        "answers": [
+                          [
+                            "on"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He promised ___ call.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If we had ___ the files, it wouldn't have happened. (check)",
+                        "answers": [
+                          [
+                            "checked"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I wish I ___ uploaded it.",
+                        "answers": [
+                          [
+                            "hadn't",
+                            "had not"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "A pesar de la lluvia, salimos.",
+                        "answers": [
+                          "Despite the rain, we went out",
+                          "Despite the rain we went out",
+                          "In spite of the rain, we went out",
+                          "We went out despite the rain"
+                        ]
+                      },
+                      {
+                        "source": "Sugirió probar las dos versiones.",
+                        "answers": [
+                          "He suggested testing both versions",
+                          "She suggested testing both versions",
+                          "He suggested trying both versions"
+                        ]
+                      },
+                      {
+                        "source": "Si me lo hubieras dicho, te habría ayudado.",
+                        "answers": [
+                          "If you had told me, I would have helped you",
+                          "If you had told me I would have helped you",
+                          "If you'd told me, I'd have helped you",
+                          "If you'd told me, I would have helped you"
+                        ]
+                      },
+                      {
+                        "source": "Ojalá me hubiera quedado.",
+                        "answers": [
+                          "I wish I had stayed",
+                          "I wish I'd stayed"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

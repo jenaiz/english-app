@@ -1,0 +1,497 @@
+{
+  "level_id": "B1",
+  "themes": [
+    {
+      "theme_id": "back_in_bristol",
+      "units": [
+        {
+          "unit_id": "since_january",
+          "title": "Since January",
+          "description": "Cuánto tiempo llevas haciendo algo: present perfect continuous con for y since.",
+          "lessons": [
+            {
+              "lesson_id": "since_january_lesson",
+              "title": "Present perfect continuous: for and since",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Since January",
+                    "dialogue": [
+                      {
+                        "speaker": "Lucía",
+                        "text": "Priya, wake up! How long have you been studying?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Since six o'clock this morning. I've been preparing for my exam for weeks."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "What exam is it?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "It's to become a senior nurse. I've wanted this job for years."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "And I've been practising this song since lunchtime. Listen!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "It sounds great, but you've been playing it all week!"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "That's because we've got a big gig on Saturday. A music producer is coming."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "A producer? That's amazing!"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "And you, Lucía? You look happy. Have you been seeing a certain Irishman?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "We've been out three times since January."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Three times! Is it serious?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Maybe. He's been teaching me Irish words. \"Grand\", \"craic\", \"eejit\"…"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "\"Eejit\"? That's what we call Sam!"
+                      }
+                    ],
+                    "passage": "February. Everyone at Clifton Road seems tired. Lucía comes home from work and finds Priya asleep on her books and Sam playing the guitar in the kitchen."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"How long have you been studying?\" asks about…",
+                        "options": [
+                          "how long until now",
+                          "a finished action"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"since six o'clock\": since + …",
+                        "options": [
+                          "a point in time",
+                          "a period of time"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"for weeks\": for + …",
+                        "options": [
+                          "a period of time",
+                          "a point in time"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"We've been out three times.\" Why not \"have been going out three times\"?",
+                        "options": [
+                          "It counts how many times.",
+                          "It is about duration."
+                        ],
+                        "answer": 0,
+                        "explanation": "Cuando contamos veces o cantidades usamos el present perfect simple."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Present perfect continuous: for and since",
+                    "explanation": "Have / has been + -ing describe una actividad que empezó en el pasado y continúa ahora, o que acaba de terminar y se nota: I've been studying since six. You look tired, have you been running?\n\nPara preguntar cuánto tiempo: How long have you been studying?\n\nFor + periodo (for weeks, for two hours, for years). Since + momento de inicio (since six o'clock, since January, since 2020).\n\nUsamos el present perfect simple cuando contamos (We've been out three times) y con verbos de estado (I've wanted this job for years, I've known him since September).",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Afirmativa",
+                          "I've been studying since six."
+                        ],
+                        [
+                          "Negativa",
+                          "She hasn't been sleeping well."
+                        ],
+                        [
+                          "Pregunta",
+                          "How long have you been studying?"
+                        ],
+                        [
+                          "for + periodo",
+                          "for weeks, for two hours, for years"
+                        ],
+                        [
+                          "since + momento",
+                          "since six o'clock, since January, since 2020"
+                        ],
+                        [
+                          "Cantidad → simple",
+                          "We've been out three times."
+                        ],
+                        [
+                          "Verbo de estado → simple",
+                          "I've wanted this job for years."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I've been preparing for my exam for weeks.",
+                      "I've been practising this song since lunchtime.",
+                      "You've been playing it all week!",
+                      "We've been out three times since January."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con been, for, since o la forma correcta.",
+                    "items": [
+                      {
+                        "sentence": "How long have you ___ studying?",
+                        "answers": [
+                          [
+                            "been"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I've been preparing for my exam ___ weeks.",
+                        "answers": [
+                          [
+                            "for"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam has been practising ___ lunchtime.",
+                        "answers": [
+                          [
+                            "since"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He's been ___ the same song all week. (play)",
+                        "answers": [
+                          [
+                            "playing"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I've ___ this job for years. (want)",
+                        "answers": [
+                          [
+                            "wanted"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We've been out three ___.",
+                        "answers": [
+                          [
+                            "times"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "She ___ been sleeping well.",
+                        "answers": [
+                          [
+                            "hasn't",
+                            "has not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I've known Daniel ___ September.",
+                        "answers": [
+                          [
+                            "since"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "match_pairs",
+                  "content": {
+                    "instructions": "Une cada expresión con su traducción.",
+                    "pairs": [
+                      {
+                        "left": "since January",
+                        "right": "desde enero"
+                      },
+                      {
+                        "left": "for weeks",
+                        "right": "durante semanas"
+                      },
+                      {
+                        "left": "since six o'clock",
+                        "right": "desde las seis"
+                      },
+                      {
+                        "left": "for years",
+                        "right": "desde hace años"
+                      },
+                      {
+                        "left": "for two hours",
+                        "right": "durante dos horas"
+                      },
+                      {
+                        "left": "How long…?",
+                        "right": "¿Cuánto tiempo…?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "¿Cuánto tiempo llevas estudiando?",
+                        "answers": [
+                          "How long have you been studying"
+                        ]
+                      },
+                      {
+                        "source": "Llevo dos horas esperando.",
+                        "answers": [
+                          "I've been waiting for two hours",
+                          "I have been waiting for two hours"
+                        ]
+                      },
+                      {
+                        "source": "Ha estado lloviendo desde el lunes.",
+                        "answers": [
+                          "It's been raining since Monday",
+                          "It has been raining since Monday"
+                        ]
+                      },
+                      {
+                        "source": "Conozco a Daniel desde septiembre.",
+                        "answers": [
+                          "I've known Daniel since September",
+                          "I have known Daniel since September"
+                        ]
+                      },
+                      {
+                        "source": "Hemos salido tres veces.",
+                        "answers": [
+                          "We've been out three times",
+                          "We have been out three times"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "How long have you been studying?"
+                      },
+                      {
+                        "text": "I've been practising this song since lunchtime."
+                      },
+                      {
+                        "text": "We've been out three times since January."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "asleep",
+                        "definition": "Sleeping",
+                        "translation": "dormido/a",
+                        "example": "Priya is asleep on her books."
+                      },
+                      {
+                        "term": "prepare for",
+                        "definition": "Get ready for something",
+                        "translation": "prepararse para",
+                        "example": "I've been preparing for my exam."
+                      },
+                      {
+                        "term": "exam",
+                        "definition": "An important test",
+                        "translation": "examen",
+                        "example": "What exam is it?"
+                      },
+                      {
+                        "term": "senior nurse",
+                        "definition": "An experienced nurse with more responsibility",
+                        "translation": "enfermera jefe",
+                        "example": "It's to become a senior nurse."
+                      },
+                      {
+                        "term": "practise",
+                        "definition": "Do something again to improve",
+                        "translation": "practicar, ensayar",
+                        "example": "I've been practising this song."
+                      },
+                      {
+                        "term": "gig",
+                        "definition": "A live music performance",
+                        "translation": "actuación, concierto",
+                        "example": "We've got a big gig on Saturday."
+                      },
+                      {
+                        "term": "producer",
+                        "definition": "A person who makes records",
+                        "translation": "productor/a",
+                        "example": "A music producer is coming."
+                      },
+                      {
+                        "term": "amazing",
+                        "definition": "Very surprising and good",
+                        "translation": "increíble",
+                        "example": "That's amazing!"
+                      },
+                      {
+                        "term": "How long…?",
+                        "definition": "Question about time",
+                        "translation": "¿Cuánto tiempo…?",
+                        "example": "How long have you been studying?"
+                      },
+                      {
+                        "term": "since",
+                        "definition": "From a point in time until now",
+                        "translation": "desde",
+                        "example": "since six o'clock"
+                      },
+                      {
+                        "term": "for",
+                        "definition": "During a period of time",
+                        "translation": "durante, desde hace",
+                        "example": "for weeks"
+                      },
+                      {
+                        "term": "go out (with)",
+                        "definition": "Have a romantic relationship",
+                        "translation": "salir (con alguien)",
+                        "example": "We've been out three times."
+                      },
+                      {
+                        "term": "serious",
+                        "definition": "Important, not a joke",
+                        "translation": "serio/a, en serio",
+                        "example": "Is it serious?"
+                      },
+                      {
+                        "term": "eejit",
+                        "definition": "An Irish word for a silly person",
+                        "translation": "tonto/a (irlandés)",
+                        "example": "\"Eejit\"? That's what we call Sam!"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "I've been waiting ___ two hours.",
+                        "options": [
+                          "for",
+                          "since"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She's been working here ___ 2022.",
+                        "options": [
+                          "for",
+                          "since"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "How long have you ___ learning English?",
+                        "options": [
+                          "been",
+                          "be",
+                          "being"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I've ___ him for years.",
+                        "options": [
+                          "known",
+                          "been knowing"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I've read three books ___ January.",
+                        "options": [
+                          "since",
+                          "for"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Who is coming to the gig on Saturday?",
+                        "options": [
+                          "a music producer",
+                          "Lucía's parents",
+                          "Helen"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

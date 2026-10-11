@@ -1,0 +1,484 @@
+{
+  "level_id": "A2",
+  "themes": [
+    {
+      "theme_id": "christmas",
+      "units": [
+        {
+          "unit_id": "feeling_ill",
+          "title": "Feeling Ill",
+          "description": "Da consejos y habla de obligaciones con should y have to.",
+          "lessons": [
+            {
+              "lesson_id": "feeling_ill_lesson",
+              "title": "should and have to",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Feeling ill",
+                    "dialogue": [
+                      {
+                        "speaker": "Priya",
+                        "text": "You look terrible! What's wrong?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I've got a cold, I think. My throat hurts and I've got a headache."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "You should go back to bed. And you shouldn't go to work today."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "But I have to finish the designs for the new client."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "You don't have to finish them today. Helen will understand."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Should I take something?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Take some paracetamol and drink a lot of water. Hot tea with honey and lemon is good too."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Do I have to see a doctor?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "No, you don't. It's just a cold. But you have to rest."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "I'm going to make you my grandma's chicken soup. It's the best medicine in Bristol!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Thank you both. You're the best flatmates in the world."
+                      }
+                    ],
+                    "passage": "December. Lucía wakes up with a sore throat and a headache. Priya comes home after a night shift at the hospital."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"You should go back to bed.\" Should expresses…",
+                        "options": [
+                          "advice (consejo)",
+                          "obligation (obligación)"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I have to finish the designs.\" Have to expresses…",
+                        "options": [
+                          "obligation",
+                          "advice"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"You don't have to finish them today.\" means…",
+                        "options": [
+                          "no es necesario",
+                          "está prohibido"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What should Lucía drink?",
+                        "options": [
+                          "hot tea with honey and lemon",
+                          "coffee",
+                          "cider"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "should and have to",
+                    "explanation": "Should / shouldn't + verbo en forma base sirve para dar consejos: You should go back to bed. You shouldn't go to work today. Para pedir consejo: Should I take something?\n\nHave to / has to + verbo expresa obligación: I have to finish the designs. Priya has to work tonight.\n\nDon't have to significa que algo no es necesario: You don't have to see a doctor. Ojo: no significa «no debes». La prohibición es mustn't.\n\nPregunta: Do I have to see a doctor? — No, you don't.",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Significado",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "should",
+                          "consejo",
+                          "You should go back to bed."
+                        ],
+                        [
+                          "shouldn't",
+                          "consejo negativo",
+                          "You shouldn't go to work today."
+                        ],
+                        [
+                          "have to / has to",
+                          "obligación",
+                          "I have to finish the designs."
+                        ],
+                        [
+                          "don't have to",
+                          "no es necesario",
+                          "You don't have to see a doctor."
+                        ],
+                        [
+                          "Should I…?",
+                          "pedir consejo",
+                          "Should I take something?"
+                        ],
+                        [
+                          "Do I have to…?",
+                          "preguntar por una obligación",
+                          "Do I have to see a doctor?"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "You should go back to bed.",
+                      "I have to finish the designs for the new client.",
+                      "You don't have to finish them today.",
+                      "Should I take something?"
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con should, have to o sus negativas.",
+                    "items": [
+                      {
+                        "sentence": "You ___ go back to bed. (consejo)",
+                        "answers": [
+                          [
+                            "should"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You ___ go to work today. (consejo negativo)",
+                        "answers": [
+                          [
+                            "shouldn't",
+                            "should not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ to finish the designs.",
+                        "answers": [
+                          [
+                            "have"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Priya ___ to work tonight.",
+                        "answers": [
+                          [
+                            "has"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You don't ___ to see a doctor.",
+                        "answers": [
+                          [
+                            "have"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ I take some paracetamol?",
+                        "answers": [
+                          [
+                            "Should"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Do I ___ to stay in bed?",
+                        "answers": [
+                          [
+                            "have"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Helen ___ have to know today. (no es necesario)",
+                        "answers": [
+                          [
+                            "doesn't",
+                            "does not"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "You should go back to bed"
+                      },
+                      {
+                        "answer": "I have to finish the designs"
+                      },
+                      {
+                        "answer": "You don't have to see a doctor"
+                      },
+                      {
+                        "answer": "Should I take something"
+                      },
+                      {
+                        "answer": "My throat hurts"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Deberías beber mucha agua.",
+                        "answers": [
+                          "You should drink a lot of water",
+                          "You should drink lots of water"
+                        ]
+                      },
+                      {
+                        "source": "Tengo que trabajar mañana.",
+                        "answers": [
+                          "I have to work tomorrow"
+                        ]
+                      },
+                      {
+                        "source": "No tienes que venir.",
+                        "answers": [
+                          "You don't have to come",
+                          "You do not have to come"
+                        ]
+                      },
+                      {
+                        "source": "Me duele la cabeza.",
+                        "answers": [
+                          "I've got a headache",
+                          "I have a headache",
+                          "My head hurts"
+                        ]
+                      },
+                      {
+                        "source": "¿Debería ir al médico?",
+                        "answers": [
+                          "Should I go to the doctor",
+                          "Should I see a doctor"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "I've got a cold and my throat hurts."
+                      },
+                      {
+                        "text": "You should go back to bed."
+                      },
+                      {
+                        "text": "Do I have to see a doctor?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "cold",
+                        "definition": "A common illness with a runny nose",
+                        "translation": "resfriado",
+                        "example": "I've got a cold."
+                      },
+                      {
+                        "term": "headache",
+                        "definition": "A pain in your head",
+                        "translation": "dolor de cabeza",
+                        "example": "I've got a headache."
+                      },
+                      {
+                        "term": "sore throat",
+                        "definition": "A pain in your throat",
+                        "translation": "dolor de garganta",
+                        "example": "She wakes up with a sore throat."
+                      },
+                      {
+                        "term": "throat",
+                        "definition": "The inside of your neck",
+                        "translation": "garganta",
+                        "example": "My throat hurts."
+                      },
+                      {
+                        "term": "ill",
+                        "definition": "Not well",
+                        "translation": "enfermo/a",
+                        "example": "Lucía is ill."
+                      },
+                      {
+                        "term": "medicine",
+                        "definition": "Something you take to get better",
+                        "translation": "medicina",
+                        "example": "the best medicine in Bristol"
+                      },
+                      {
+                        "term": "honey",
+                        "definition": "A sweet food made by bees",
+                        "translation": "miel",
+                        "example": "tea with honey and lemon"
+                      },
+                      {
+                        "term": "soup",
+                        "definition": "Hot liquid food",
+                        "translation": "sopa",
+                        "example": "my grandma's chicken soup"
+                      },
+                      {
+                        "term": "rest",
+                        "definition": "Relax and not work",
+                        "translation": "descansar",
+                        "example": "You have to rest."
+                      },
+                      {
+                        "term": "night shift",
+                        "definition": "Work during the night",
+                        "translation": "turno de noche",
+                        "example": "Priya comes home after a night shift."
+                      },
+                      {
+                        "term": "look terrible",
+                        "definition": "Seem very ill or tired",
+                        "translation": "tener muy mala cara",
+                        "example": "You look terrible!"
+                      },
+                      {
+                        "term": "wake up",
+                        "definition": "Stop sleeping",
+                        "translation": "despertarse",
+                        "example": "Lucía wakes up with a headache."
+                      },
+                      {
+                        "term": "should",
+                        "definition": "Used to give advice",
+                        "translation": "deberías (consejo)",
+                        "example": "You should go back to bed."
+                      },
+                      {
+                        "term": "have to",
+                        "definition": "Used for obligation",
+                        "translation": "tener que",
+                        "example": "I have to finish the designs."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "You ___ drink more water. (consejo)",
+                        "options": [
+                          "should",
+                          "have"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I ___ to work tomorrow.",
+                        "options": [
+                          "have",
+                          "should"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She ___ to wear a uniform.",
+                        "options": [
+                          "has",
+                          "have"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "You ___ have to come. It's optional.",
+                        "options": [
+                          "don't",
+                          "shouldn't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ I see a doctor?",
+                        "options": [
+                          "Should",
+                          "Have"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What does Sam make for Lucía?",
+                        "options": [
+                          "chicken soup",
+                          "tea with honey",
+                          "toast"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

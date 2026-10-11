@@ -1,0 +1,686 @@
+{
+  "level_id": "B1",
+  "themes": [
+    {
+      "theme_id": "changes",
+      "units": [
+        {
+          "unit_id": "new_flatmate",
+          "title": "The New Flatmate",
+          "description": "Describe personas, cosas y lugares con oraciones de relativo: who, which, that, where, whose.",
+          "lessons": [
+            {
+              "lesson_id": "new_flatmate_lesson",
+              "title": "Relative clauses",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "The new flatmate",
+                    "dialogue": [
+                      {
+                        "speaker": "Ollie",
+                        "text": "Hi! I'm Ollie, Mrs Green's nephew."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Welcome, Ollie. This is the kitchen, where we spend most of our time."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "And this is the garden that Priya looks after. Those are her famous tomatoes."
+                      },
+                      {
+                        "speaker": "Ollie",
+                        "text": "Wow. And who's the guy who's singing upstairs?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "That's Sam, the flatmate who's leaving. His room is the one you'd have."
+                      },
+                      {
+                        "speaker": "Ollie",
+                        "text": "Is it the room which looks over the garden?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes, that's it. It's the best room in the house."
+                      },
+                      {
+                        "speaker": "Ollie",
+                        "text": "What's the area like? Is there a place where I can go running?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Brandon Hill is five minutes away. It's the park where we play football."
+                      },
+                      {
+                        "speaker": "Ollie",
+                        "text": "Perfect. By the way, I work at a restaurant that serves Spanish food."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Spanish food? Then you're the flatmate we've been looking for!"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "When can you move in?"
+                      },
+                      {
+                        "speaker": "Ollie",
+                        "text": "At the beginning of August, when Sam leaves."
+                      }
+                    ],
+                    "passage": "A week later, Ollie comes to see the room. He's twenty-six, he's from Manchester, and he works in a restaurant which opened last year in Bristol."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"the flatmate who's leaving\": we use who for…",
+                        "options": [
+                          "people",
+                          "things",
+                          "places"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"the room which looks over the garden\": we use which for…",
+                        "options": [
+                          "things",
+                          "people"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"the park where we play football\": we use where for…",
+                        "options": [
+                          "places",
+                          "people"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"the flatmate we've been looking for\" has no who. Why?",
+                        "options": [
+                          "It's the object of the verb.",
+                          "It's the subject of the verb."
+                        ],
+                        "answer": 0,
+                        "explanation": "Podemos omitir who/which/that cuando no son el sujeto de la oración de relativo."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Relative clauses",
+                    "explanation": "Las oraciones de relativo especifican de qué persona, cosa o lugar hablamos:\n• who → personas: Sam is the flatmate who's leaving.\n• which → cosas: It's the room which looks over the garden.\n• that → personas o cosas (más informal): the garden that Priya looks after.\n• where → lugares: the park where we play football.\n• whose → posesión: Ollie is the man whose aunt is Mrs Green.\n\nSi el pronombre es el objeto de la oración (no el sujeto), se puede omitir: the flatmate (who) we've been looking for. Si es el sujeto, no: the flatmate who's leaving.",
+                    "table": {
+                      "headers": [
+                        "Pronombre",
+                        "Para",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "who",
+                          "personas",
+                          "Sam is the flatmate who's leaving."
+                        ],
+                        [
+                          "which",
+                          "cosas",
+                          "It's the room which looks over the garden."
+                        ],
+                        [
+                          "that",
+                          "personas o cosas",
+                          "the garden that Priya looks after"
+                        ],
+                        [
+                          "where",
+                          "lugares",
+                          "the park where we play football"
+                        ],
+                        [
+                          "whose",
+                          "posesión",
+                          "Ollie is the man whose aunt is Mrs Green."
+                        ],
+                        [
+                          "(omitido)",
+                          "cuando es objeto",
+                          "the flatmate (who) we've been looking for"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "This is the kitchen, where we spend most of our time.",
+                      "And this is the garden that Priya looks after.",
+                      "That's Sam, the flatmate who's leaving.",
+                      "Then you're the flatmate we've been looking for!"
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con who, which, that, where o whose.",
+                    "items": [
+                      {
+                        "sentence": "Sam is the flatmate ___ is leaving.",
+                        "answers": [
+                          [
+                            "who",
+                            "that"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It's the room ___ looks over the garden.",
+                        "answers": [
+                          [
+                            "which",
+                            "that"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Brandon Hill is the park ___ we play football.",
+                        "answers": [
+                          [
+                            "where"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "This is the kitchen ___ we spend most of our time.",
+                        "answers": [
+                          [
+                            "where"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Ollie works at a restaurant ___ serves Spanish food.",
+                        "answers": [
+                          [
+                            "that",
+                            "which"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Ollie is the man ___ aunt is Mrs Green.",
+                        "answers": [
+                          [
+                            "whose"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Priya is the nurse ___ grows tomatoes.",
+                        "answers": [
+                          [
+                            "who",
+                            "that"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The garden ___ Priya looks after is beautiful.",
+                        "answers": [
+                          [
+                            "that",
+                            "which"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "Sam is the flatmate who is leaving"
+                      },
+                      {
+                        "answer": "It's the room which looks over the garden"
+                      },
+                      {
+                        "answer": "Brandon Hill is the park where we play football"
+                      },
+                      {
+                        "answer": "He works at a restaurant that serves Spanish food"
+                      },
+                      {
+                        "answer": "You're the flatmate we've been looking for"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Es la chica que vive arriba.",
+                        "answers": [
+                          "She's the girl who lives upstairs",
+                          "She is the girl who lives upstairs",
+                          "She's the girl that lives upstairs"
+                        ]
+                      },
+                      {
+                        "source": "Es el parque donde jugamos al fútbol.",
+                        "answers": [
+                          "It's the park where we play football",
+                          "It is the park where we play football"
+                        ]
+                      },
+                      {
+                        "source": "El restaurante que abrió el año pasado es español.",
+                        "answers": [
+                          "The restaurant that opened last year is Spanish",
+                          "The restaurant which opened last year is Spanish"
+                        ]
+                      },
+                      {
+                        "source": "Ese es el hombre cuyo perro es enorme.",
+                        "answers": [
+                          "That's the man whose dog is huge",
+                          "That is the man whose dog is huge"
+                        ]
+                      },
+                      {
+                        "source": "Es la habitación que da al jardín.",
+                        "answers": [
+                          "It's the room which looks over the garden",
+                          "It's the room that looks over the garden",
+                          "It is the room which looks over the garden",
+                          "It is the room that looks over the garden"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "This is the kitchen, where we spend most of our time."
+                      },
+                      {
+                        "text": "Who's the guy who's singing upstairs?"
+                      },
+                      {
+                        "text": "You're the flatmate we've been looking for!"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "move in",
+                        "definition": "Start living in a new home",
+                        "translation": "mudarse (a una casa)",
+                        "example": "When can you move in?"
+                      },
+                      {
+                        "term": "upstairs",
+                        "definition": "On a higher floor",
+                        "translation": "arriba, en el piso de arriba",
+                        "example": "Who's the guy who's singing upstairs?"
+                      },
+                      {
+                        "term": "look over",
+                        "definition": "Have a view of",
+                        "translation": "dar a",
+                        "example": "the room which looks over the garden"
+                      },
+                      {
+                        "term": "area",
+                        "definition": "A part of a town",
+                        "translation": "zona, barrio",
+                        "example": "What's the area like?"
+                      },
+                      {
+                        "term": "go running",
+                        "definition": "Run for exercise",
+                        "translation": "salir a correr",
+                        "example": "Is there a place where I can go running?"
+                      },
+                      {
+                        "term": "serve",
+                        "definition": "Give food to customers",
+                        "translation": "servir",
+                        "example": "a restaurant that serves Spanish food"
+                      },
+                      {
+                        "term": "by the way",
+                        "definition": "Used to add new information",
+                        "translation": "por cierto",
+                        "example": "By the way, I work at a restaurant."
+                      },
+                      {
+                        "term": "spend time",
+                        "definition": "Use time doing something",
+                        "translation": "pasar tiempo",
+                        "example": "where we spend most of our time"
+                      },
+                      {
+                        "term": "look for",
+                        "definition": "Try to find",
+                        "translation": "buscar",
+                        "example": "the flatmate we've been looking for"
+                      },
+                      {
+                        "term": "who",
+                        "definition": "Relative pronoun for people",
+                        "translation": "que, quien",
+                        "example": "the flatmate who's leaving"
+                      },
+                      {
+                        "term": "which",
+                        "definition": "Relative pronoun for things",
+                        "translation": "que, el cual",
+                        "example": "the room which looks over the garden"
+                      },
+                      {
+                        "term": "where",
+                        "definition": "Relative word for places",
+                        "translation": "donde",
+                        "example": "the park where we play football"
+                      },
+                      {
+                        "term": "whose",
+                        "definition": "Relative word for possession",
+                        "translation": "cuyo/a",
+                        "example": "the man whose aunt is Mrs Green"
+                      },
+                      {
+                        "term": "the one",
+                        "definition": "Used instead of repeating a noun",
+                        "translation": "el/la que",
+                        "example": "His room is the one you'd have."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "The woman ___ lives upstairs is a nurse.",
+                        "options": [
+                          "who",
+                          "which",
+                          "where"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The book ___ I bought is great.",
+                        "options": [
+                          "which",
+                          "who",
+                          "where"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "That's the café ___ we met.",
+                        "options": [
+                          "where",
+                          "which",
+                          "who"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "He's the man ___ car was stolen.",
+                        "options": [
+                          "whose",
+                          "who",
+                          "who's"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Which sentence is correct?",
+                        "options": [
+                          "She's the friend I told you about.",
+                          "She's the friend I told you about her."
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Where is Ollie from?",
+                        "options": [
+                          "Manchester",
+                          "London",
+                          "Bristol"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "b1_checkpoint_3",
+              "title": "Checkpoint 3: Changes",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "If I ___ you, I'd go.",
+                        "options": [
+                          "were",
+                          "am",
+                          "will be"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If I had more time, I ___ learn Italian.",
+                        "options": [
+                          "would",
+                          "will"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What would you do if you ___ a million pounds?",
+                        "options": [
+                          "won",
+                          "win"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "You ___ smoke here. (prohibido)",
+                        "options": [
+                          "mustn't",
+                          "don't have to"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "You ___ bring anything. (no es necesario)",
+                        "options": [
+                          "don't need to",
+                          "mustn't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Yesterday I ___ to stay late.",
+                        "options": [
+                          "had",
+                          "must"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The man ___ lives next door is a chef.",
+                        "options": [
+                          "who",
+                          "which",
+                          "where"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "That's the restaurant ___ we had dinner.",
+                        "options": [
+                          "where",
+                          "which",
+                          "who"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "If it didn't work, you ___ come back.",
+                        "answers": [
+                          [
+                            "would",
+                            "'d"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If I ___ the lottery, I'd travel. (win)",
+                        "answers": [
+                          [
+                            "won"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Everyone ___ to pay a deposit.",
+                        "answers": [
+                          [
+                            "has"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ we have a cat? (permiso)",
+                        "answers": [
+                          [
+                            "Can"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It's the room ___ looks over the garden.",
+                        "answers": [
+                          [
+                            "which",
+                            "that"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He's the man ___ aunt is Mrs Green.",
+                        "answers": [
+                          [
+                            "whose"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Si yo fuera tú, iría.",
+                        "answers": [
+                          "If I were you, I'd go",
+                          "If I were you I'd go",
+                          "If I were you, I would go",
+                          "If I were you I would go"
+                        ]
+                      },
+                      {
+                        "source": "No hace falta que vengas.",
+                        "answers": [
+                          "You don't need to come",
+                          "You don't have to come",
+                          "You do not need to come",
+                          "You do not have to come"
+                        ]
+                      },
+                      {
+                        "source": "Es el parque donde jugamos al fútbol.",
+                        "answers": [
+                          "It's the park where we play football",
+                          "It is the park where we play football"
+                        ]
+                      },
+                      {
+                        "source": "Te echaríamos de menos.",
+                        "answers": [
+                          "We would miss you",
+                          "We'd miss you"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

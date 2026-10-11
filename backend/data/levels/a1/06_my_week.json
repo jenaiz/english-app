@@ -1,0 +1,684 @@
+{
+  "level_id": "A1",
+  "themes": [
+    {
+      "theme_id": "new_life",
+      "units": [
+        {
+          "unit_id": "my_week",
+          "title": "Video Call with Javi",
+          "description": "Cuenta tu rutina con el present simple (I, you, we, they).",
+          "lessons": [
+            {
+              "lesson_id": "my_week_lesson",
+              "title": "Present simple: I, you, we, they",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Video call with Javi",
+                    "dialogue": [
+                      {
+                        "speaker": "Javi",
+                        "text": "¡Hola, Lucía!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "No, Javi. English only, remember?"
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "OK, OK! Hello! How's your new job?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I love it. I get up at seven and I go to work by bus."
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "By bus? You don't walk?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "No, I don't. The office is far. I start at nine and I finish at half past five."
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "And your flatmates? Do you eat together?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes, we do. We have dinner together on Fridays."
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "What do you do in the evenings?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I study English and I watch TV with Sam and Priya. And you?"
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "I don't study. I play video games!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Javi! Your exam is in December!"
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "I know, I know…"
+                      }
+                    ],
+                    "passage": "Sunday evening. Lucía is in her room. Her brother Javi is on a video call from Valencia. He's a student, and his English exam is in December."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"I get up at seven.\" This is something Lucía…",
+                        "options": [
+                          "does every day",
+                          "is doing now",
+                          "did yesterday"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"You don't walk?\" don't = …",
+                        "options": [
+                          "do not",
+                          "does not",
+                          "did not"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Do you eat together?\" — …",
+                        "options": [
+                          "Yes, we do.",
+                          "Yes, we eat.",
+                          "Yes, we are."
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "How does Lucía go to work?",
+                        "options": [
+                          "by bus",
+                          "on foot",
+                          "by car"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Present simple: I, you, we, they",
+                    "explanation": "El present simple describe rutinas, hábitos y cosas que son verdad en general: I get up at seven. Con I, you, we y they el verbo no cambia.\n\nNegativa: don't (do not) + verbo: I don't study. Pregunta: Do + sujeto + verbo: Do you eat together? Respuestas cortas: Yes, we do / No, we don't.\n\nCon palabras interrogativas: What do you do in the evenings?",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Afirmativa",
+                        "Negativa",
+                        "Pregunta"
+                      ],
+                      "rows": [
+                        [
+                          "I",
+                          "I work",
+                          "I don't work",
+                          "Do I work?"
+                        ],
+                        [
+                          "you",
+                          "you work",
+                          "you don't work",
+                          "Do you work?"
+                        ],
+                        [
+                          "we",
+                          "we work",
+                          "we don't work",
+                          "Do we work?"
+                        ],
+                        [
+                          "they",
+                          "they work",
+                          "they don't work",
+                          "Do they work?"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I get up at seven and I go to work by bus.",
+                      "We have dinner together on Fridays.",
+                      "I don't study. I play video games!",
+                      "What do you do in the evenings?"
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el verbo correcto.",
+                    "items": [
+                      {
+                        "sentence": "I ___ up at seven. (get)",
+                        "answers": [
+                          [
+                            "get"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We ___ dinner together on Fridays. (have)",
+                        "answers": [
+                          [
+                            "have"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ walk to work. I go by bus.",
+                        "answers": [
+                          [
+                            "don't",
+                            "do not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ you eat together? — Yes, we do.",
+                        "answers": [
+                          [
+                            "Do"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "What ___ you do in the evenings?",
+                        "answers": [
+                          [
+                            "do"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "They ___ TV in the evening. (watch)",
+                        "answers": [
+                          [
+                            "watch"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Javi, you ___ study!",
+                        "answers": [
+                          [
+                            "don't",
+                            "do not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Do you like Bristol? — Yes, I ___.",
+                        "answers": [
+                          [
+                            "do"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "I go to work by bus"
+                      },
+                      {
+                        "answer": "We have dinner together on Fridays"
+                      },
+                      {
+                        "answer": "Do you eat together"
+                      },
+                      {
+                        "answer": "What do you do in the evenings"
+                      },
+                      {
+                        "answer": "I don't play video games"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Me levanto a las siete.",
+                        "answers": [
+                          "I get up at seven",
+                          "I get up at seven o'clock"
+                        ]
+                      },
+                      {
+                        "source": "No voy andando al trabajo.",
+                        "answers": [
+                          "I don't walk to work",
+                          "I do not walk to work"
+                        ]
+                      },
+                      {
+                        "source": "¿Cenáis juntos?",
+                        "answers": [
+                          "Do you have dinner together",
+                          "Do you eat together"
+                        ]
+                      },
+                      {
+                        "source": "Empiezo a las nueve.",
+                        "answers": [
+                          "I start at nine",
+                          "I start at nine o'clock"
+                        ]
+                      },
+                      {
+                        "source": "Vemos la tele por la noche.",
+                        "answers": [
+                          "We watch TV in the evening",
+                          "We watch TV in the evenings",
+                          "We watch TV at night"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta. Cuenta tu rutina.",
+                    "items": [
+                      {
+                        "text": "I get up at seven."
+                      },
+                      {
+                        "text": "I go to work by bus."
+                      },
+                      {
+                        "text": "What do you do in the evenings?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "get up",
+                        "definition": "Leave your bed in the morning",
+                        "translation": "levantarse",
+                        "example": "I get up at seven."
+                      },
+                      {
+                        "term": "go to work",
+                        "definition": "Travel to your job",
+                        "translation": "ir al trabajo",
+                        "example": "I go to work by bus."
+                      },
+                      {
+                        "term": "by bus",
+                        "definition": "Using a bus to travel",
+                        "translation": "en autobús",
+                        "example": "Lucía goes to work by bus."
+                      },
+                      {
+                        "term": "walk",
+                        "definition": "Move on foot",
+                        "translation": "andar, caminar",
+                        "example": "You don't walk?"
+                      },
+                      {
+                        "term": "start",
+                        "definition": "Begin",
+                        "translation": "empezar",
+                        "example": "I start at nine."
+                      },
+                      {
+                        "term": "finish",
+                        "definition": "End",
+                        "translation": "terminar",
+                        "example": "I finish at half past five."
+                      },
+                      {
+                        "term": "study",
+                        "definition": "Learn something",
+                        "translation": "estudiar",
+                        "example": "I study English in the evenings."
+                      },
+                      {
+                        "term": "watch TV",
+                        "definition": "Look at programmes on television",
+                        "translation": "ver la tele",
+                        "example": "We watch TV together."
+                      },
+                      {
+                        "term": "have breakfast",
+                        "definition": "Eat the morning meal",
+                        "translation": "desayunar",
+                        "example": "I have breakfast at half past seven."
+                      },
+                      {
+                        "term": "have dinner",
+                        "definition": "Eat the evening meal",
+                        "translation": "cenar",
+                        "example": "We have dinner together on Fridays."
+                      },
+                      {
+                        "term": "play video games",
+                        "definition": "Play games on a computer or console",
+                        "translation": "jugar a videojuegos",
+                        "example": "Javi plays video games."
+                      },
+                      {
+                        "term": "together",
+                        "definition": "With other people",
+                        "translation": "juntos/as",
+                        "example": "Do you eat together?"
+                      },
+                      {
+                        "term": "evening",
+                        "definition": "The time between afternoon and night",
+                        "translation": "tarde-noche",
+                        "example": "What do you do in the evenings?"
+                      },
+                      {
+                        "term": "exam",
+                        "definition": "A test at school or university",
+                        "translation": "examen",
+                        "example": "Your exam is in December!"
+                      },
+                      {
+                        "term": "far",
+                        "definition": "Not near",
+                        "translation": "lejos",
+                        "example": "The office is far."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "I ___ at nine.",
+                        "options": [
+                          "start",
+                          "starts",
+                          "starting"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "We ___ eat meat.",
+                        "options": [
+                          "doesn't",
+                          "don't",
+                          "not"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "___ you study English?",
+                        "options": [
+                          "Are",
+                          "Does",
+                          "Do"
+                        ],
+                        "answer": 2
+                      },
+                      {
+                        "question": "What time do you get up? — I ___ up at seven.",
+                        "options": [
+                          "get",
+                          "gets",
+                          "am get"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "They ___ TV every evening.",
+                        "options": [
+                          "watch",
+                          "watches",
+                          "are watch"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "When is Javi's exam?",
+                        "options": [
+                          "in December",
+                          "in September",
+                          "on Friday"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "a1_checkpoint_2",
+              "title": "Checkpoint 2: A New Life",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "___ is your name?",
+                        "options": [
+                          "Where",
+                          "What",
+                          "How"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "10:30 → It's ___ ten.",
+                        "options": [
+                          "half past",
+                          "quarter past",
+                          "half to"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The meeting is ___ nine o'clock.",
+                        "options": [
+                          "in",
+                          "on",
+                          "at"
+                        ],
+                        "answer": 2
+                      },
+                      {
+                        "question": "___ there any milk?",
+                        "options": [
+                          "Is",
+                          "Are",
+                          "Do"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "There are ___ burgers.",
+                        "options": [
+                          "any",
+                          "some",
+                          "a"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Do you work on Saturdays? — No, I ___.",
+                        "options": [
+                          "don't",
+                          "doesn't",
+                          "am not"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "We ___ breakfast at eight.",
+                        "options": [
+                          "has",
+                          "have",
+                          "having"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Have you got a laptop? — Yes, I ___.",
+                        "options": [
+                          "got",
+                          "have",
+                          "do"
+                        ],
+                        "answer": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "___ old is Javi?",
+                        "answers": [
+                          [
+                            "How"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ a café near the office.",
+                        "answers": [
+                          [
+                            "There's",
+                            "There is"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Is there ___ wine?",
+                        "answers": [
+                          [
+                            "any"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ to work by bus.",
+                        "answers": [
+                          [
+                            "go"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ you eat together on Fridays?",
+                        "answers": [
+                          [
+                            "Do"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ study on Sundays.",
+                        "answers": [
+                          [
+                            "don't",
+                            "do not"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "¿A qué hora es la comida?",
+                        "answers": [
+                          "What time is lunch"
+                        ]
+                      },
+                      {
+                        "source": "No hay pan.",
+                        "answers": [
+                          "There isn't any bread",
+                          "There is no bread",
+                          "There's no bread"
+                        ]
+                      },
+                      {
+                        "source": "Termino a las cinco y media.",
+                        "answers": [
+                          "I finish at half past five"
+                        ]
+                      },
+                      {
+                        "source": "¿Dónde trabajas?",
+                        "answers": [
+                          "Where do you work"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

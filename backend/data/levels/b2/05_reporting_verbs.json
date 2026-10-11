@@ -1,0 +1,498 @@
+{
+  "level_id": "B2",
+  "themes": [
+    {
+      "theme_id": "difficult_client",
+      "units": [
+        {
+          "unit_id": "reporting_verbs",
+          "title": "The Phone Call",
+          "description": "Resume conversaciones con verbos como suggest, insist, refuse, promise o apologise.",
+          "lessons": [
+            {
+              "lesson_id": "reporting_verbs_lesson",
+              "title": "Reporting verbs",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "The phone call",
+                    "dialogue": [
+                      {
+                        "speaker": "Helen",
+                        "text": "Well? What did he say?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "He admitted that the simple version was better."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Really? That's a first."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "But he insisted on adding a video to every page."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Every page? Did you warn him that it would slow the site down?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes, I warned him about it. He refused to listen at first."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Typical. What happened then?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Daniel suggested testing both versions with real guests."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Good idea. Did Mark agree?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Eventually. He promised to send us the results by Friday. And he invited us to go to New York for the launch."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "New York! Did he offer to pay for the flights?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "He offered to pay for everything. He even apologised for being so difficult."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Mark Reed apologised? I don't believe it."
+                      }
+                    ],
+                    "passage": "A week later, Mark calls Lucía. Afterwards, she goes to Helen's office to tell her about the conversation."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"He insisted on adding a video.\" Insist on + …",
+                        "options": [
+                          "-ing",
+                          "to + verb"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"He refused to listen.\" Refuse + …",
+                        "options": [
+                          "to + verb",
+                          "-ing"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Daniel suggested testing both versions.\" Suggest + …",
+                        "options": [
+                          "-ing",
+                          "to + verb"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"He apologised for being so difficult.\" Apologise for + …",
+                        "options": [
+                          "-ing",
+                          "to + verb"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Reporting verbs",
+                    "explanation": "En lugar de repetir said una y otra vez, resumimos con verbos más precisos. Cada uno tiene su patrón:\n• verbo + to: agree, refuse, promise, offer\n• verbo + persona + to: warn, invite, ask, tell, advise\n• verbo + -ing: suggest, admit, deny, recommend\n• verbo + preposición + -ing: insist on, apologise for, accuse someone of\n• verbo + that: admit, warn, explain, promise\n\nOjo: suggest nunca va con persona + to («he suggested me to…» es incorrecto): He suggested testing… / He suggested that we test…",
+                    "table": {
+                      "headers": [
+                        "Patrón",
+                        "Verbos",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "verbo + to",
+                          "agree, refuse, promise, offer",
+                          "He refused to listen."
+                        ],
+                        [
+                          "verbo + persona + to",
+                          "warn, invite, ask, tell, advise",
+                          "He invited us to go to New York."
+                        ],
+                        [
+                          "verbo + -ing",
+                          "suggest, admit, deny, recommend",
+                          "Daniel suggested testing both versions."
+                        ],
+                        [
+                          "verbo + preposición + -ing",
+                          "insist on, apologise for, accuse of",
+                          "He insisted on adding a video."
+                        ],
+                        [
+                          "verbo + that",
+                          "admit, warn, explain, promise",
+                          "He admitted that the simple version was better."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "He admitted that the simple version was better.",
+                      "He insisted on adding a video to every page.",
+                      "He promised to send us the results by Friday.",
+                      "He even apologised for being so difficult."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la forma correcta.",
+                    "items": [
+                      {
+                        "sentence": "He insisted on ___ a video to every page. (add)",
+                        "answers": [
+                          [
+                            "adding"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He refused ___ listen at first.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel suggested ___ both versions. (test)",
+                        "answers": [
+                          [
+                            "testing"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He promised ___ send us the results.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He invited us ___ go to New York.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He offered ___ pay for everything.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He apologised ___ being so difficult.",
+                        "answers": [
+                          [
+                            "for"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Did you warn him ___ it would slow the site down?",
+                        "answers": [
+                          [
+                            "that"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Resume con el verbo indicado.",
+                    "items": [
+                      {
+                        "source": "Mark: \"OK, the simple version is better.\" (admit)",
+                        "answers": [
+                          "Mark admitted that the simple version was better",
+                          "Mark admitted the simple version was better"
+                        ]
+                      },
+                      {
+                        "source": "Daniel: \"Let's test both versions.\" (suggest)",
+                        "answers": [
+                          "Daniel suggested testing both versions"
+                        ]
+                      },
+                      {
+                        "source": "Mark: \"I'll send the results by Friday.\" (promise)",
+                        "answers": [
+                          "Mark promised to send the results by Friday"
+                        ]
+                      },
+                      {
+                        "source": "Mark: \"I'm sorry I was so difficult.\" (apologise)",
+                        "answers": [
+                          "Mark apologised for being so difficult",
+                          "Mark apologized for being so difficult"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Se negó a escuchar.",
+                        "answers": [
+                          "He refused to listen",
+                          "She refused to listen"
+                        ]
+                      },
+                      {
+                        "source": "Sugirió probar las dos versiones.",
+                        "answers": [
+                          "He suggested testing both versions",
+                          "She suggested testing both versions",
+                          "He suggested trying both versions"
+                        ]
+                      },
+                      {
+                        "source": "Prometió enviarnos los resultados.",
+                        "answers": [
+                          "He promised to send us the results",
+                          "She promised to send us the results"
+                        ]
+                      },
+                      {
+                        "source": "Nos invitó a ir a Nueva York.",
+                        "answers": [
+                          "He invited us to go to New York",
+                          "She invited us to go to New York"
+                        ]
+                      },
+                      {
+                        "source": "Se disculpó por llegar tarde.",
+                        "answers": [
+                          "He apologised for being late",
+                          "She apologised for being late",
+                          "He apologized for being late",
+                          "She apologized for being late"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "He admitted that the simple version was better."
+                      },
+                      {
+                        "text": "Daniel suggested testing both versions."
+                      },
+                      {
+                        "text": "He apologised for being so difficult."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "admit",
+                        "definition": "Agree that something is true, often unwillingly",
+                        "translation": "admitir, reconocer",
+                        "example": "He admitted that the simple version was better."
+                      },
+                      {
+                        "term": "insist on",
+                        "definition": "Demand something firmly (+ -ing)",
+                        "translation": "insistir en",
+                        "example": "He insisted on adding a video."
+                      },
+                      {
+                        "term": "warn",
+                        "definition": "Tell someone about a danger",
+                        "translation": "advertir",
+                        "example": "Did you warn him?"
+                      },
+                      {
+                        "term": "refuse",
+                        "definition": "Say you will not do something",
+                        "translation": "negarse a",
+                        "example": "He refused to listen."
+                      },
+                      {
+                        "term": "suggest",
+                        "definition": "Give an idea (+ -ing)",
+                        "translation": "sugerir",
+                        "example": "Daniel suggested testing both versions."
+                      },
+                      {
+                        "term": "promise",
+                        "definition": "Say you will certainly do something",
+                        "translation": "prometer",
+                        "example": "He promised to send the results."
+                      },
+                      {
+                        "term": "invite",
+                        "definition": "Ask someone to come",
+                        "translation": "invitar",
+                        "example": "He invited us to go to New York."
+                      },
+                      {
+                        "term": "offer",
+                        "definition": "Say you are willing to do or give something",
+                        "translation": "ofrecerse a",
+                        "example": "He offered to pay for everything."
+                      },
+                      {
+                        "term": "apologise",
+                        "definition": "Say sorry",
+                        "translation": "disculparse",
+                        "example": "He apologised for being so difficult."
+                      },
+                      {
+                        "term": "slow down",
+                        "definition": "Make something slower",
+                        "translation": "ralentizar",
+                        "example": "It would slow the site down."
+                      },
+                      {
+                        "term": "eventually",
+                        "definition": "In the end, after some time",
+                        "translation": "al final, finalmente",
+                        "example": "Eventually, he agreed."
+                      },
+                      {
+                        "term": "launch",
+                        "definition": "The start of a new product or website",
+                        "translation": "lanzamiento",
+                        "example": "the launch in New York"
+                      },
+                      {
+                        "term": "results",
+                        "definition": "What you find out from a test",
+                        "translation": "resultados",
+                        "example": "the results by Friday"
+                      },
+                      {
+                        "term": "That's a first",
+                        "definition": "This has never happened before",
+                        "translation": "es la primera vez",
+                        "example": "Really? That's a first."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "She suggested ___ a taxi.",
+                        "options": [
+                          "taking",
+                          "to take"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "He refused ___ the bill.",
+                        "options": [
+                          "to pay",
+                          "paying"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "They apologised ___ the delay.",
+                        "options": [
+                          "for",
+                          "of"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She insisted ___ paying.",
+                        "options": [
+                          "on",
+                          "to"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "He warned me ___ touch it.",
+                        "options": [
+                          "not to",
+                          "don't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Where is the launch?",
+                        "options": [
+                          "New York",
+                          "Bristol",
+                          "Edinburgh"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

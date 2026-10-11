@@ -1,0 +1,671 @@
+{
+  "level_id": "A2",
+  "themes": [
+    {
+      "theme_id": "autumn",
+      "units": [
+        {
+          "unit_id": "the_best_pub",
+          "title": "Quiz Night",
+          "description": "El mejor, el más grande, el más bonito: los superlativos.",
+          "lessons": [
+            {
+              "lesson_id": "the_best_pub_lesson",
+              "title": "Superlatives",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Quiz night",
+                    "dialogue": [
+                      {
+                        "speaker": "Quizmaster",
+                        "text": "Question five. What is the longest river in the world?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "The Nile, I think. Or is it the Amazon?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "The Nile. Write it down!"
+                      },
+                      {
+                        "speaker": "Quizmaster",
+                        "text": "Question six. Which is the biggest city in Ireland?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Easy! Dublin. It's the biggest and the most expensive."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "And Galway is the best, right?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Of course. It's the most beautiful place in the world!"
+                      },
+                      {
+                        "speaker": "Quizmaster",
+                        "text": "Question seven. What is the most popular hot drink in Britain?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Tea! Priya drinks the most tea in the house."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "That's not true. Sam drinks the most coffee!"
+                      },
+                      {
+                        "speaker": "Quizmaster",
+                        "text": "And the winners tonight are… The Clifton Brains!"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Yes! This is the best night of the year!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "And I won something in English for the first time!"
+                      }
+                    ],
+                    "passage": "It's Thursday, quiz night at The Old Duke. Lucía, Sam, Priya and Daniel are a team. Their name is \"The Clifton Brains\"."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"the longest river\": the structure is…",
+                        "options": [
+                          "the + adjective-est",
+                          "more + adjective"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"the most beautiful place\": we use the most with…",
+                        "options": [
+                          "long adjectives",
+                          "short adjectives"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"the best night of the year\": best is the superlative of…",
+                        "options": [
+                          "good",
+                          "bad"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Who won the quiz?",
+                        "options": [
+                          "The Clifton Brains",
+                          "Daniel alone",
+                          "another team"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Superlatives",
+                    "explanation": "El superlativo dice que algo es el más… de un grupo: The Nile is the longest river in the world.\n\nAdjetivos cortos: the + -est (long → the longest, big → the biggest, funny → the funniest). Adjetivos largos: the most + adjetivo (the most beautiful, the most popular).\n\nIrregulares: good → the best, bad → the worst, far → the furthest.\n\nDetrás del superlativo solemos usar in con lugares y grupos (the biggest city in Ireland) y of con periodos (the best night of the year).",
+                    "table": {
+                      "headers": [
+                        "Adjetivo",
+                        "Comparativo",
+                        "Superlativo"
+                      ],
+                      "rows": [
+                        [
+                          "long",
+                          "longer",
+                          "the longest"
+                        ],
+                        [
+                          "big",
+                          "bigger",
+                          "the biggest"
+                        ],
+                        [
+                          "funny",
+                          "funnier",
+                          "the funniest"
+                        ],
+                        [
+                          "popular",
+                          "more popular",
+                          "the most popular"
+                        ],
+                        [
+                          "good",
+                          "better",
+                          "the best"
+                        ],
+                        [
+                          "bad",
+                          "worse",
+                          "the worst"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "The Nile is the longest river in the world.",
+                      "Dublin is the biggest city in Ireland.",
+                      "Galway is the most beautiful place in the world!",
+                      "This is the best night of the year!"
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el superlativo.",
+                    "items": [
+                      {
+                        "sentence": "The Nile is the ___ river in the world. (long)",
+                        "answers": [
+                          [
+                            "longest"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Dublin is the ___ city in Ireland. (big)",
+                        "answers": [
+                          [
+                            "biggest"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Galway is the ___ beautiful place in the world!",
+                        "answers": [
+                          [
+                            "most"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Tea is the most ___ hot drink in Britain.",
+                        "answers": [
+                          [
+                            "popular"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "This is the ___ night of the year! (good)",
+                        "answers": [
+                          [
+                            "best"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It was the ___ day of my life. (bad)",
+                        "answers": [
+                          [
+                            "worst"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam is the ___ person in the house. (funny)",
+                        "answers": [
+                          [
+                            "funniest"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Which is the ___ expensive city in Europe?",
+                        "answers": [
+                          [
+                            "most"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "The Nile is the longest river"
+                      },
+                      {
+                        "answer": "Dublin is the biggest city in Ireland"
+                      },
+                      {
+                        "answer": "This is the best night of the year"
+                      },
+                      {
+                        "answer": "Tea is the most popular drink"
+                      },
+                      {
+                        "answer": "Who is the funniest person here"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Es el mejor pub de Bristol.",
+                        "answers": [
+                          "It's the best pub in Bristol",
+                          "It is the best pub in Bristol"
+                        ]
+                      },
+                      {
+                        "source": "¿Cuál es la ciudad más grande de Irlanda?",
+                        "answers": [
+                          "What is the biggest city in Ireland",
+                          "Which is the biggest city in Ireland",
+                          "What's the biggest city in Ireland"
+                        ]
+                      },
+                      {
+                        "source": "Fue el peor día de mi vida.",
+                        "answers": [
+                          "It was the worst day of my life"
+                        ]
+                      },
+                      {
+                        "source": "Galway es el lugar más bonito.",
+                        "answers": [
+                          "Galway is the most beautiful place"
+                        ]
+                      },
+                      {
+                        "source": "Sam es el más divertido.",
+                        "answers": [
+                          "Sam's the funniest",
+                          "Sam is the funniest"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "The Nile is the longest river in the world."
+                      },
+                      {
+                        "text": "Galway is the most beautiful place in the world!"
+                      },
+                      {
+                        "text": "This is the best night of the year!"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "quiz",
+                        "definition": "A game with questions",
+                        "translation": "concurso de preguntas",
+                        "example": "It's quiz night at The Old Duke."
+                      },
+                      {
+                        "term": "team",
+                        "definition": "A group that plays together",
+                        "translation": "equipo",
+                        "example": "They are a team."
+                      },
+                      {
+                        "term": "question",
+                        "definition": "Something you ask",
+                        "translation": "pregunta",
+                        "example": "Question five."
+                      },
+                      {
+                        "term": "answer",
+                        "definition": "What you say to a question",
+                        "translation": "respuesta",
+                        "example": "Write the answer down."
+                      },
+                      {
+                        "term": "write down",
+                        "definition": "Write something on paper so you remember it",
+                        "translation": "apuntar",
+                        "example": "Write it down!"
+                      },
+                      {
+                        "term": "winner",
+                        "definition": "The person or team that wins",
+                        "translation": "ganador/a",
+                        "example": "And the winners are…"
+                      },
+                      {
+                        "term": "win",
+                        "definition": "Be the best in a game (won)",
+                        "translation": "ganar",
+                        "example": "I won something in English!"
+                      },
+                      {
+                        "term": "river",
+                        "definition": "Water that moves through the land",
+                        "translation": "río",
+                        "example": "the longest river in the world"
+                      },
+                      {
+                        "term": "world",
+                        "definition": "The Earth and all its countries",
+                        "translation": "mundo",
+                        "example": "the most beautiful place in the world"
+                      },
+                      {
+                        "term": "popular",
+                        "definition": "Liked by a lot of people",
+                        "translation": "popular",
+                        "example": "Tea is the most popular drink."
+                      },
+                      {
+                        "term": "the best",
+                        "definition": "Superlative of good",
+                        "translation": "el/la mejor",
+                        "example": "the best night of the year"
+                      },
+                      {
+                        "term": "the worst",
+                        "definition": "Superlative of bad",
+                        "translation": "el/la peor",
+                        "example": "the worst day of my life"
+                      },
+                      {
+                        "term": "easy",
+                        "definition": "Not difficult",
+                        "translation": "fácil",
+                        "example": "Easy! Dublin."
+                      },
+                      {
+                        "term": "for the first time",
+                        "definition": "Never before this",
+                        "translation": "por primera vez",
+                        "example": "I won something for the first time!"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "The Nile is the ___ river.",
+                        "options": [
+                          "longest",
+                          "most long",
+                          "longer"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Dublin is the ___ city in Ireland.",
+                        "options": [
+                          "bigest",
+                          "biggest",
+                          "most big"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "It's the ___ beautiful place.",
+                        "options": [
+                          "more",
+                          "most",
+                          "best"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "It's the ___ pub in Bristol!",
+                        "options": [
+                          "goodest",
+                          "best",
+                          "better"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "the best night ___ the year",
+                        "options": [
+                          "in",
+                          "of",
+                          "at"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "What's the name of their team?",
+                        "options": [
+                          "The Clifton Brains",
+                          "The Clifton Cats",
+                          "The Old Dukes"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "a2_checkpoint_2",
+              "title": "Checkpoint 2: Autumn",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "I ___ walking home when it started to rain.",
+                        "options": [
+                          "was",
+                          "were",
+                          "did"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What ___ you doing at nine?",
+                        "options": [
+                          "was",
+                          "were",
+                          "did"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "While I was opening the door, the phone ___.",
+                        "options": [
+                          "rang",
+                          "was ringing"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Valencia is ___ than Bristol.",
+                        "options": [
+                          "sunnier",
+                          "more sunny",
+                          "sunnyer"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Bristol is ___ expensive than Valencia.",
+                        "options": [
+                          "more",
+                          "much",
+                          "most"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The weather is ___ here.",
+                        "options": [
+                          "worse",
+                          "badder",
+                          "worst"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Dublin is the ___ city in Ireland.",
+                        "options": [
+                          "biggest",
+                          "bigger",
+                          "most big"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "It's the ___ night of the year!",
+                        "options": [
+                          "best",
+                          "better",
+                          "goodest"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "She ___ talking to a client all morning.",
+                        "answers": [
+                          [
+                            "was"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "A man ___ into me. (run)",
+                        "answers": [
+                          [
+                            "ran"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel is ___ than Javi. (funny)",
+                        "answers": [
+                          [
+                            "funnier"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Bristol isn't as sunny ___ Valencia.",
+                        "answers": [
+                          [
+                            "as"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The Nile is the ___ river in the world. (long)",
+                        "answers": [
+                          [
+                            "longest"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Galway is the ___ beautiful place.",
+                        "answers": [
+                          [
+                            "most"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "¿Qué estabas haciendo?",
+                        "answers": [
+                          "What were you doing"
+                        ]
+                      },
+                      {
+                        "source": "Valencia es más grande que Bristol.",
+                        "answers": [
+                          "Valencia is bigger than Bristol"
+                        ]
+                      },
+                      {
+                        "source": "Fue el peor día de mi vida.",
+                        "answers": [
+                          "It was the worst day of my life"
+                        ]
+                      },
+                      {
+                        "source": "Estaba esperando el autobús.",
+                        "answers": [
+                          "I was waiting for the bus"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

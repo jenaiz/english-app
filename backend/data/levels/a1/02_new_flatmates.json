@@ -1,0 +1,525 @@
+{
+  "level_id": "A1",
+  "themes": [
+    {
+      "theme_id": "hello_bristol",
+      "units": [
+        {
+          "unit_id": "new_flatmates",
+          "title": "The Flatmates",
+          "description": "Conoce a Sam y Priya: to be con he, she y they, y los posesivos.",
+          "lessons": [
+            {
+              "lesson_id": "flatmates_lesson",
+              "title": "To be: he, she, they + possessives",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "The flatmates",
+                    "dialogue": [
+                      {
+                        "speaker": "Sam",
+                        "text": "Hiya! You're Lucía, right? I'm Sam."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Hi, Sam. Nice to meet you."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "And this is Priya. She's a nurse."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Hello, Lucía. Welcome to the house!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Thanks! Are you a nurse too, Sam?"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "No, I'm not. I'm a musician. And a waiter!"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "His band is really good. They're called The Clifton Cats."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Cool! Is your family in Bristol, Priya?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "No, they aren't. My parents are in Leicester. Is your family in Spain?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes, they are. My parents are in Valencia, and my brother, Javi."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Is he a student?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes, he is. He's twenty-five, and he's very funny."
+                      }
+                    ],
+                    "passage": "Lucía is in the kitchen. A man and a woman are at the table. They're her new flatmates."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"She's a nurse.\" She's = …",
+                        "options": [
+                          "She is",
+                          "She has",
+                          "She are"
+                        ],
+                        "answer": 0,
+                        "explanation": "Aquí 's = is."
+                      },
+                      {
+                        "question": "\"Is he a student?\" — \"Yes, he ___.\"",
+                        "options": [
+                          "is",
+                          "are",
+                          "he's"
+                        ],
+                        "answer": 0,
+                        "explanation": "Respuesta corta: Yes, he is."
+                      },
+                      {
+                        "question": "\"His band is really good.\" Whose band?",
+                        "options": [
+                          "Sam's",
+                          "Priya's",
+                          "Lucía's"
+                        ],
+                        "answer": 0,
+                        "explanation": "His = de él (Sam)."
+                      },
+                      {
+                        "question": "Who says \"My parents are in Leicester\"?",
+                        "options": [
+                          "Lucía",
+                          "Priya",
+                          "Sam"
+                        ],
+                        "answer": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "To be: he, she, it, they + possessive adjectives",
+                    "explanation": "Con he (él), she (ella) e it (cosa o animal) el verbo es is. Con they (ellos/ellas) es are.\n\nNegativa: isn't / aren't. Pregunta: el verbo va delante: «Is he a student? — Yes, he is / No, he isn't».\n\nLos posesivos van antes del nombre y no cambian en plural: my parents, his band, her family. Ojo: his = de él; her = de ella.",
+                    "table": {
+                      "headers": [
+                        "Sujeto",
+                        "Afirmativa",
+                        "Negativa",
+                        "Pregunta",
+                        "Posesivo"
+                      ],
+                      "rows": [
+                        [
+                          "I",
+                          "I'm",
+                          "I'm not",
+                          "Am I…?",
+                          "my"
+                        ],
+                        [
+                          "you",
+                          "you're",
+                          "you aren't",
+                          "Are you…?",
+                          "your"
+                        ],
+                        [
+                          "he",
+                          "he's",
+                          "he isn't",
+                          "Is he…?",
+                          "his"
+                        ],
+                        [
+                          "she",
+                          "she's",
+                          "she isn't",
+                          "Is she…?",
+                          "her"
+                        ],
+                        [
+                          "it",
+                          "it's",
+                          "it isn't",
+                          "Is it…?",
+                          "its"
+                        ],
+                        [
+                          "we",
+                          "we're",
+                          "we aren't",
+                          "Are we…?",
+                          "our"
+                        ],
+                        [
+                          "they",
+                          "they're",
+                          "they aren't",
+                          "Are they…?",
+                          "their"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Priya is a nurse. She isn't a doctor.",
+                      "Sam is a musician. His band is The Clifton Cats.",
+                      "Lucía's parents are in Valencia. Their house is near the sea.",
+                      "Is Javi a student? — Yes, he is."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con is, are, isn't o un posesivo (his, her, their).",
+                    "items": [
+                      {
+                        "sentence": "Priya ___ a nurse.",
+                        "answers": [
+                          [
+                            "is"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam and Priya ___ my flatmates.",
+                        "answers": [
+                          [
+                            "are"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam ___ a doctor. He's a musician.",
+                        "answers": [
+                          [
+                            "isn't",
+                            "is not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ Javi a student? — Yes, he is.",
+                        "answers": [
+                          [
+                            "Is"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Priya's parents are in Leicester. ___ house is big.",
+                        "answers": [
+                          [
+                            "Their"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam is a musician. ___ band is great.",
+                        "answers": [
+                          [
+                            "His"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Priya is a nurse. ___ hospital is in Bristol.",
+                        "answers": [
+                          [
+                            "Her"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "My parents ___ in Spain. They aren't in Bristol.",
+                        "answers": [
+                          [
+                            "are"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "She is a nurse"
+                      },
+                      {
+                        "answer": "Is he a student"
+                      },
+                      {
+                        "answer": "His band is really good"
+                      },
+                      {
+                        "answer": "They aren't in Bristol"
+                      },
+                      {
+                        "answer": "My brother is twenty-five"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Ella es enfermera.",
+                        "answers": [
+                          "She's a nurse",
+                          "She is a nurse"
+                        ]
+                      },
+                      {
+                        "source": "Él no es médico.",
+                        "answers": [
+                          "He isn't a doctor",
+                          "He's not a doctor",
+                          "He is not a doctor"
+                        ]
+                      },
+                      {
+                        "source": "¿Es estudiante tu hermano?",
+                        "answers": [
+                          "Is your brother a student"
+                        ]
+                      },
+                      {
+                        "source": "Mis padres están en Valencia.",
+                        "answers": [
+                          "My parents are in Valencia"
+                        ]
+                      },
+                      {
+                        "source": "Su grupo (de Sam) es muy bueno.",
+                        "answers": [
+                          "His band is very good",
+                          "His band is really good"
+                        ]
+                      },
+                      {
+                        "source": "Son mis compañeros de piso.",
+                        "answers": [
+                          "They're my flatmates",
+                          "They are my flatmates"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "This is Priya. She's a nurse."
+                      },
+                      {
+                        "text": "My brother is a student."
+                      },
+                      {
+                        "text": "Is your family in Spain?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "flatmate",
+                        "definition": "A person who lives in the same flat or house",
+                        "translation": "compañero/a de piso",
+                        "example": "Sam and Priya are my flatmates."
+                      },
+                      {
+                        "term": "nurse",
+                        "definition": "A person who looks after people in a hospital",
+                        "translation": "enfermero/a",
+                        "example": "Priya is a nurse."
+                      },
+                      {
+                        "term": "musician",
+                        "definition": "A person who plays music",
+                        "translation": "músico/a",
+                        "example": "Sam is a musician."
+                      },
+                      {
+                        "term": "waiter",
+                        "definition": "A person who serves food and drinks",
+                        "translation": "camarero",
+                        "example": "Sam is a waiter too."
+                      },
+                      {
+                        "term": "student",
+                        "definition": "A person who studies",
+                        "translation": "estudiante",
+                        "example": "Javi is a student."
+                      },
+                      {
+                        "term": "doctor",
+                        "definition": "A person who helps sick people",
+                        "translation": "médico/a",
+                        "example": "Priya isn't a doctor."
+                      },
+                      {
+                        "term": "family",
+                        "definition": "Parents, children, brothers and sisters",
+                        "translation": "familia",
+                        "example": "Is your family in Spain?"
+                      },
+                      {
+                        "term": "parents",
+                        "definition": "Your mother and father",
+                        "translation": "padres",
+                        "example": "My parents are in Valencia."
+                      },
+                      {
+                        "term": "mother",
+                        "definition": "Your female parent",
+                        "translation": "madre",
+                        "example": "Lucía's mother is in Valencia."
+                      },
+                      {
+                        "term": "father",
+                        "definition": "Your male parent",
+                        "translation": "padre",
+                        "example": "Priya's father is in Leicester."
+                      },
+                      {
+                        "term": "brother",
+                        "definition": "A boy or man with the same parents as you",
+                        "translation": "hermano",
+                        "example": "Javi is my brother."
+                      },
+                      {
+                        "term": "sister",
+                        "definition": "A girl or woman with the same parents as you",
+                        "translation": "hermana",
+                        "example": "Lucía is Javi's sister."
+                      },
+                      {
+                        "term": "band",
+                        "definition": "A group of musicians",
+                        "translation": "grupo (de música)",
+                        "example": "His band is really good."
+                      },
+                      {
+                        "term": "funny",
+                        "definition": "Making people laugh",
+                        "translation": "gracioso/a",
+                        "example": "Javi is very funny."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "Priya ___ a nurse.",
+                        "options": [
+                          "are",
+                          "is",
+                          "am"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "They ___ my flatmates.",
+                        "options": [
+                          "is",
+                          "are",
+                          "be"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Sam is a musician. ___ band is good.",
+                        "options": [
+                          "Her",
+                          "His",
+                          "Their"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Priya is from Leicester. ___ parents are there.",
+                        "options": [
+                          "His",
+                          "Her",
+                          "Its"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Is Javi a student? — Yes, he ___.",
+                        "options": [
+                          "is",
+                          "are",
+                          "it"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Your mother and father are your ___.",
+                        "options": [
+                          "parents",
+                          "brothers",
+                          "flatmates"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

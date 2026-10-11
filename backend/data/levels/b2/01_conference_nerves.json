@@ -1,0 +1,487 @@
+{
+  "level_id": "B2",
+  "themes": [
+    {
+      "theme_id": "edinburgh",
+      "units": [
+        {
+          "unit_id": "conference_nerves",
+          "title": "The Night Train",
+          "description": "Lo que estarás haciendo y lo que ya habrás hecho: future continuous y future perfect.",
+          "lessons": [
+            {
+              "lesson_id": "conference_nerves_lesson",
+              "title": "Future continuous and future perfect",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "The night train",
+                    "dialogue": [
+                      {
+                        "speaker": "Daniel",
+                        "text": "Will you put that laptop away? You've read those slides about fifty times."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I can't help it. This time tomorrow, I'll be standing in front of four hundred designers."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "And by eleven o'clock, you'll have finished, and we'll be having a pint to celebrate."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Unless I've forgotten everything by then."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "You won't. What time will we be arriving, anyway?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "The train gets in at six. By the time we check in, it'll be dark."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Grand. I'll have sent the demo to the organisers by then, so that's one less thing to worry about."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Will you be sitting in the front row tomorrow?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "I'll be sitting at the back, controlling the screen. If anything goes wrong, I'll be there."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Thank you. I'd be lost without you, you know."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "I know. Now, are you going to eat something, or are you too nervous?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Too nervous. But I'll be starving by the time we get there."
+                      }
+                    ],
+                    "passage": "October, year two. Lucía and Daniel are on the train to Edinburgh. Her talk at the European Design Forum is tomorrow morning, and she hasn't stopped checking her slides since they left Bristol."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"This time tomorrow, I'll be standing in front of four hundred designers.\" This describes…",
+                        "options": [
+                          "an action in progress at a future time",
+                          "a finished action"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"By eleven o'clock, you'll have finished.\" The talk will…",
+                        "options": [
+                          "be over before eleven",
+                          "be in progress at eleven"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"By the time we check in, it'll be dark.\" After by the time we use…",
+                        "options": [
+                          "the present simple",
+                          "will"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Where will Daniel be sitting during the talk?",
+                        "options": [
+                          "at the back",
+                          "in the front row",
+                          "next to Lucía"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Future continuous and future perfect",
+                    "explanation": "Future continuous (will be + -ing): una acción que estará en curso en un momento del futuro. This time tomorrow, I'll be standing on stage. También sirve para preguntar por planes de forma educada: Will you be sitting in the front row?\n\nFuture perfect (will have + participio): una acción que ya estará terminada antes de un momento del futuro. By eleven o'clock, you'll have finished.\n\nBy + momento = para, antes de (by Friday, by then). By the time + presente = para cuando: By the time we check in, it'll be dark.",
+                    "table": {
+                      "headers": [
+                        "Forma",
+                        "Uso",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "will be + -ing",
+                          "en curso en un momento futuro",
+                          "This time tomorrow I'll be standing on stage."
+                        ],
+                        [
+                          "will be + -ing (pregunta)",
+                          "preguntar por planes con educación",
+                          "Will you be sitting in the front row?"
+                        ],
+                        [
+                          "will have + participio",
+                          "terminado antes de un momento futuro",
+                          "By eleven, you'll have finished."
+                        ],
+                        [
+                          "by + momento",
+                          "para, antes de",
+                          "by eleven, by Friday, by then"
+                        ],
+                        [
+                          "by the time + presente",
+                          "para cuando",
+                          "By the time we check in, it'll be dark."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "This time tomorrow, I'll be standing in front of four hundred designers.",
+                      "By eleven o'clock, you'll have finished.",
+                      "I'll have sent the demo to the organisers by then.",
+                      "I'll be sitting at the back, controlling the screen."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con future continuous o future perfect.",
+                    "items": [
+                      {
+                        "sentence": "This time tomorrow, I'll ___ standing in front of 400 designers.",
+                        "answers": [
+                          [
+                            "be"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "By eleven o'clock, you'll have ___. (finish)",
+                        "answers": [
+                          [
+                            "finished"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We'll be ___ a pint to celebrate. (have)",
+                        "answers": [
+                          [
+                            "having"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'll have ___ the demo by then. (send)",
+                        "answers": [
+                          [
+                            "sent"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ the time we check in, it'll be dark.",
+                        "answers": [
+                          [
+                            "By"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "What time will we ___ arriving?",
+                        "answers": [
+                          [
+                            "be"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "By Friday, I ___ have written the report.",
+                        "answers": [
+                          [
+                            "will"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Will you be ___ in the front row? (sit)",
+                        "answers": [
+                          [
+                            "sitting"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "This time tomorrow I'll be standing on stage"
+                      },
+                      {
+                        "answer": "By eleven you'll have finished"
+                      },
+                      {
+                        "answer": "Will you be sitting in the front row"
+                      },
+                      {
+                        "answer": "I'll have sent the demo by then"
+                      },
+                      {
+                        "answer": "By the time we arrive it'll be dark"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Mañana a esta hora estaré dando mi charla.",
+                        "answers": [
+                          "This time tomorrow I'll be giving my talk",
+                          "This time tomorrow, I'll be giving my talk",
+                          "This time tomorrow I will be giving my talk"
+                        ]
+                      },
+                      {
+                        "source": "Para las once habré terminado.",
+                        "answers": [
+                          "By eleven I'll have finished",
+                          "By eleven, I'll have finished",
+                          "I'll have finished by eleven",
+                          "By eleven I will have finished"
+                        ]
+                      },
+                      {
+                        "source": "Para cuando lleguemos, será de noche.",
+                        "answers": [
+                          "By the time we arrive, it'll be dark",
+                          "By the time we arrive it'll be dark",
+                          "By the time we get there, it'll be dark",
+                          "By the time we arrive, it will be dark"
+                        ]
+                      },
+                      {
+                        "source": "¿Estarás en la oficina mañana?",
+                        "answers": [
+                          "Will you be in the office tomorrow",
+                          "Will you be at the office tomorrow"
+                        ]
+                      },
+                      {
+                        "source": "Habremos acabado el proyecto para junio.",
+                        "answers": [
+                          "We'll have finished the project by June",
+                          "We will have finished the project by June"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "This time tomorrow, I'll be standing in front of four hundred designers."
+                      },
+                      {
+                        "text": "By eleven o'clock, you'll have finished."
+                      },
+                      {
+                        "text": "I'd be lost without you."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "talk",
+                        "definition": "A speech to an audience",
+                        "translation": "charla, ponencia",
+                        "example": "Her talk is tomorrow morning."
+                      },
+                      {
+                        "term": "slides",
+                        "definition": "Pages shown on a screen in a presentation",
+                        "translation": "diapositivas",
+                        "example": "You've read those slides fifty times."
+                      },
+                      {
+                        "term": "put away",
+                        "definition": "Put something back in its place",
+                        "translation": "guardar",
+                        "example": "Will you put that laptop away?"
+                      },
+                      {
+                        "term": "I can't help it",
+                        "definition": "I can't stop myself",
+                        "translation": "no lo puedo evitar",
+                        "example": "I can't help it."
+                      },
+                      {
+                        "term": "organisers",
+                        "definition": "People who plan an event",
+                        "translation": "organizadores",
+                        "example": "I'll have sent the demo to the organisers."
+                      },
+                      {
+                        "term": "front row",
+                        "definition": "The first line of seats",
+                        "translation": "primera fila",
+                        "example": "Will you be sitting in the front row?"
+                      },
+                      {
+                        "term": "at the back",
+                        "definition": "In the last part of a room",
+                        "translation": "al fondo",
+                        "example": "I'll be sitting at the back."
+                      },
+                      {
+                        "term": "screen",
+                        "definition": "The surface where images are shown",
+                        "translation": "pantalla",
+                        "example": "controlling the screen"
+                      },
+                      {
+                        "term": "go wrong",
+                        "definition": "Not work as planned",
+                        "translation": "salir mal",
+                        "example": "If anything goes wrong, I'll be there."
+                      },
+                      {
+                        "term": "get in",
+                        "definition": "Arrive (a train, a plane)",
+                        "translation": "llegar",
+                        "example": "The train gets in at six."
+                      },
+                      {
+                        "term": "by then",
+                        "definition": "Before that time",
+                        "translation": "para entonces",
+                        "example": "I'll have sent it by then."
+                      },
+                      {
+                        "term": "by the time",
+                        "definition": "At or before the moment when",
+                        "translation": "para cuando",
+                        "example": "By the time we check in, it'll be dark."
+                      },
+                      {
+                        "term": "starving",
+                        "definition": "Very hungry",
+                        "translation": "muerto/a de hambre",
+                        "example": "I'll be starving."
+                      },
+                      {
+                        "term": "I'd be lost without you",
+                        "definition": "I need you very much",
+                        "translation": "no sé qué haría sin ti",
+                        "example": "I'd be lost without you."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "This time next week, I'll ___ on a beach.",
+                        "options": [
+                          "be lying",
+                          "have lain",
+                          "lie"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "By 2030, they ___ the new bridge.",
+                        "options": [
+                          "'ll have built",
+                          "'ll be building"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "By the time you ___, we'll have eaten.",
+                        "options": [
+                          "arrive",
+                          "'ll arrive"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Don't call at eight. I'll ___ dinner.",
+                        "options": [
+                          "be having",
+                          "have had"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I will have ___ the slides by tonight.",
+                        "options": [
+                          "finished",
+                          "finishing"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What time does the train get to Edinburgh?",
+                        "options": [
+                          "at six",
+                          "at eleven",
+                          "at nine"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

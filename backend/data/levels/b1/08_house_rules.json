@@ -1,0 +1,510 @@
+{
+  "level_id": "B1",
+  "themes": [
+    {
+      "theme_id": "changes",
+      "units": [
+        {
+          "unit_id": "house_rules",
+          "title": "House Rules",
+          "description": "Normas, prohibiciones y lo que no hace falta: must, mustn't, have to, don't need to, can.",
+          "lessons": [
+            {
+              "lesson_id": "house_rules_lesson",
+              "title": "must, mustn't, have to, don't need to, can",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "House rules",
+                    "dialogue": [
+                      {
+                        "speaker": "Mrs Green",
+                        "text": "Now, the new flatmate must be clean and quiet. That's the first rule."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Of course. They'll have to share the kitchen with us."
+                      },
+                      {
+                        "speaker": "Mrs Green",
+                        "text": "And they mustn't smoke in the house. Nobody smokes in my houses."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Can they have a pet? I'd love a cat."
+                      },
+                      {
+                        "speaker": "Mrs Green",
+                        "text": "No, I'm afraid you can't have pets. The neighbours are allergic."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Do they have to pay a deposit?"
+                      },
+                      {
+                        "speaker": "Mrs Green",
+                        "text": "Yes. Everyone has to pay one month's rent as a deposit. You did too, Sam!"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "And can they play music?"
+                      },
+                      {
+                        "speaker": "Mrs Green",
+                        "text": "Not after eleven o'clock. You know that better than anyone!"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Do we need to put an advert online?"
+                      },
+                      {
+                        "speaker": "Mrs Green",
+                        "text": "You don't need to. My nephew Ollie is looking for a room. He's a chef."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "A chef? Then he must cook for us!"
+                      },
+                      {
+                        "speaker": "Mrs Green",
+                        "text": "Ha! Well, you can ask him."
+                      }
+                    ],
+                    "passage": "June. Mrs Green comes to Clifton Road to talk about finding a new flatmate before Sam leaves."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"They mustn't smoke in the house.\" means…",
+                        "options": [
+                          "está prohibido",
+                          "no es necesario"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"You don't need to.\" means…",
+                        "options": [
+                          "no hace falta",
+                          "está prohibido"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"You can't have pets.\" Here can't means…",
+                        "options": [
+                          "no está permitido",
+                          "no saben"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Who is Ollie?",
+                        "options": [
+                          "Mrs Green's nephew",
+                          "Sam's friend",
+                          "Priya's brother"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "must, mustn't, have to, don't need to, can",
+                    "explanation": "Must expresa obligación, sobre todo en normas o cuando la impone quien habla: The new flatmate must be clean and quiet. Have to también expresa obligación (a menudo externa) y en pasado se convierte en had to.\n\nAtención a la gran diferencia:\n• mustn't = está prohibido: They mustn't smoke in the house.\n• don't have to / don't need to = no es necesario: You don't need to put an advert online.\n\nCan / can't expresan permiso: Can they have a pet? — No, you can't have pets.",
+                    "table": {
+                      "headers": [
+                        "Modal",
+                        "Significado",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "must",
+                          "obligación (norma)",
+                          "The new flatmate must be clean and quiet."
+                        ],
+                        [
+                          "have to / has to",
+                          "obligación",
+                          "Everyone has to pay a deposit."
+                        ],
+                        [
+                          "mustn't",
+                          "prohibición",
+                          "They mustn't smoke in the house."
+                        ],
+                        [
+                          "don't have to / don't need to",
+                          "no es necesario",
+                          "You don't need to put an advert online."
+                        ],
+                        [
+                          "can",
+                          "permiso",
+                          "You can ask him."
+                        ],
+                        [
+                          "can't",
+                          "no está permitido",
+                          "You can't have pets."
+                        ],
+                        [
+                          "had to",
+                          "obligación en pasado",
+                          "You had to pay one too, Sam!"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "The new flatmate must be clean and quiet.",
+                      "They mustn't smoke in the house.",
+                      "Everyone has to pay a deposit.",
+                      "You don't need to put an advert online."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el modal correcto.",
+                    "items": [
+                      {
+                        "sentence": "The new flatmate ___ be clean and quiet.",
+                        "answers": [
+                          [
+                            "must"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "They ___ smoke in the house.",
+                        "answers": [
+                          [
+                            "mustn't",
+                            "must not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You ___ have pets. (no está permitido)",
+                        "answers": [
+                          [
+                            "can't",
+                            "cannot"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Everyone ___ to pay a deposit.",
+                        "answers": [
+                          [
+                            "has"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You don't ___ to put an advert online.",
+                        "answers": [
+                          [
+                            "need"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ they play music? — Not after eleven.",
+                        "answers": [
+                          [
+                            "Can"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Last year Sam ___ to pay a deposit too.",
+                        "answers": [
+                          [
+                            "had"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You ___ come if you're busy. (no es necesario)",
+                        "answers": [
+                          [
+                            "don't have to",
+                            "don't need to",
+                            "do not have to",
+                            "do not need to"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "match_pairs",
+                  "content": {
+                    "instructions": "Une cada modal con su significado.",
+                    "pairs": [
+                      {
+                        "left": "must",
+                        "right": "obligación"
+                      },
+                      {
+                        "left": "mustn't",
+                        "right": "prohibición"
+                      },
+                      {
+                        "left": "don't have to",
+                        "right": "no es necesario"
+                      },
+                      {
+                        "left": "can",
+                        "right": "permiso"
+                      },
+                      {
+                        "left": "can't",
+                        "right": "no está permitido"
+                      },
+                      {
+                        "left": "had to",
+                        "right": "obligación en el pasado"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "No se puede fumar en la casa.",
+                        "answers": [
+                          "You can't smoke in the house",
+                          "You mustn't smoke in the house",
+                          "You cannot smoke in the house"
+                        ]
+                      },
+                      {
+                        "source": "No hace falta que pongas un anuncio.",
+                        "answers": [
+                          "You don't need to put an advert",
+                          "You don't have to put an advert",
+                          "You don't need to put an ad",
+                          "You don't have to put an ad"
+                        ]
+                      },
+                      {
+                        "source": "Todo el mundo tiene que pagar una fianza.",
+                        "answers": [
+                          "Everyone has to pay a deposit",
+                          "Everybody has to pay a deposit"
+                        ]
+                      },
+                      {
+                        "source": "¿Podemos tener un gato?",
+                        "answers": [
+                          "Can we have a cat"
+                        ]
+                      },
+                      {
+                        "source": "Tuve que trabajar el sábado.",
+                        "answers": [
+                          "I had to work on Saturday"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "You mustn't smoke in the house."
+                      },
+                      {
+                        "text": "You don't need to put an advert online."
+                      },
+                      {
+                        "text": "Can we have a cat?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "rule",
+                        "definition": "Something you must or mustn't do",
+                        "translation": "norma",
+                        "example": "That's the first rule."
+                      },
+                      {
+                        "term": "landlady",
+                        "definition": "A woman who rents a house to people",
+                        "translation": "casera",
+                        "example": "Mrs Green is their landlady."
+                      },
+                      {
+                        "term": "share",
+                        "definition": "Use something with other people",
+                        "translation": "compartir",
+                        "example": "They'll have to share the kitchen."
+                      },
+                      {
+                        "term": "smoke",
+                        "definition": "Breathe in cigarette smoke",
+                        "translation": "fumar",
+                        "example": "They mustn't smoke in the house."
+                      },
+                      {
+                        "term": "pet",
+                        "definition": "An animal you keep at home",
+                        "translation": "mascota",
+                        "example": "You can't have pets."
+                      },
+                      {
+                        "term": "neighbour",
+                        "definition": "A person who lives next to you",
+                        "translation": "vecino/a",
+                        "example": "The neighbours are allergic."
+                      },
+                      {
+                        "term": "allergic",
+                        "definition": "Becoming ill because of something",
+                        "translation": "alérgico/a",
+                        "example": "The neighbours are allergic."
+                      },
+                      {
+                        "term": "deposit",
+                        "definition": "Money you pay before you rent a place",
+                        "translation": "fianza",
+                        "example": "Everyone has to pay a deposit."
+                      },
+                      {
+                        "term": "rent",
+                        "definition": "Money you pay to live in a place",
+                        "translation": "alquiler",
+                        "example": "one month's rent"
+                      },
+                      {
+                        "term": "advert",
+                        "definition": "A notice that tells people about something",
+                        "translation": "anuncio",
+                        "example": "Do we need to put an advert online?"
+                      },
+                      {
+                        "term": "nephew",
+                        "definition": "The son of your brother or sister",
+                        "translation": "sobrino",
+                        "example": "My nephew Ollie is looking for a room."
+                      },
+                      {
+                        "term": "chef",
+                        "definition": "A professional cook",
+                        "translation": "chef, cocinero/a",
+                        "example": "He's a chef."
+                      },
+                      {
+                        "term": "mustn't",
+                        "definition": "It is not allowed",
+                        "translation": "no se puede, está prohibido",
+                        "example": "They mustn't smoke."
+                      },
+                      {
+                        "term": "don't need to",
+                        "definition": "It is not necessary",
+                        "translation": "no hace falta",
+                        "example": "You don't need to."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "You ___ smoke here. (prohibido)",
+                        "options": [
+                          "mustn't",
+                          "don't have to"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "You ___ bring food. We've got lots. (no hace falta)",
+                        "options": [
+                          "don't need to",
+                          "mustn't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Yesterday I ___ to work late.",
+                        "options": [
+                          "had",
+                          "must"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ I use your bike? (permiso)",
+                        "options": [
+                          "Can",
+                          "Must"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She ___ to pay a deposit.",
+                        "options": [
+                          "has",
+                          "must"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Why can't they have pets?",
+                        "options": [
+                          "The neighbours are allergic.",
+                          "Mrs Green hates cats.",
+                          "The house is too small."
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

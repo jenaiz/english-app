@@ -1,0 +1,658 @@
+{
+  "level_id": "A1",
+  "themes": [
+    {
+      "theme_id": "hello_bristol",
+      "units": [
+        {
+          "unit_id": "numbers_colors",
+          "title": "Unpacking",
+          "description": "Objetos y colores: a/an, plurales, this/that/these/those y el lugar del adjetivo.",
+          "lessons": [
+            {
+              "lesson_id": "colors_intro",
+              "title": "a/an, plurals, this/that",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Unpacking",
+                    "dialogue": [
+                      {
+                        "speaker": "Sam",
+                        "text": "Knock, knock! Is this a good time?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes, come in!"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "These are for you. Two towels and a lamp."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Oh, thank you! Is that an old lamp?"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Yes, it's my grandma's lamp. It's a bit ugly!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "No, it's a nice green lamp."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "And what are those?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "These? They're photos of my family. And this is a fan, a Spanish fan for hot days."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Hot days? In Bristol? Ha! You need an umbrella, not a fan!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Is that an umbrella?"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Yes. It's a big black umbrella. And it's for you!"
+                      }
+                    ],
+                    "passage": "Lucía's room is small, but it's nice. Her suitcase is open on the bed. There's a knock at the door."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"These are for you.\" We use these for…",
+                        "options": [
+                          "one thing near",
+                          "many things near",
+                          "many things far"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "\"Is that an old lamp?\" Why an and not a?",
+                        "options": [
+                          "old starts with a vowel sound",
+                          "lamp is plural",
+                          "it's a question"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"a nice green lamp\": in English, adjectives go…",
+                        "options": [
+                          "before the noun",
+                          "after the noun"
+                        ],
+                        "answer": 0,
+                        "explanation": "El adjetivo va antes: a green lamp."
+                      },
+                      {
+                        "question": "\"Two towels\": the plural adds…",
+                        "options": [
+                          "-s",
+                          "-es",
+                          "nothing"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "a/an, plurals and this/that/these/those",
+                    "explanation": "A y an significan un/una. Usamos a antes de sonido consonante (a lamp, a big umbrella) y an antes de sonido vocálico (an umbrella, an old lamp).\n\nEl plural se forma normalmente con -s (towels), con -es después de s, sh, ch o x (boxes) y hay irregulares: person → people, child → children.\n\nThis (este/esta) y these (estos/estas) indican cerca; that (ese/aquel) y those (esos/aquellos), lejos.\n\nEl adjetivo va antes del nombre y no cambia en plural: a green lamp, two green lamps (nunca «a lamp green» ni «greens lamps»).",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Cerca",
+                        "Lejos"
+                      ],
+                      "rows": [
+                        [
+                          "Singular",
+                          "this lamp",
+                          "that lamp"
+                        ],
+                        [
+                          "Plural",
+                          "these towels",
+                          "those photos"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "This is a fan.",
+                      "These are photos of my family.",
+                      "Is that an umbrella?",
+                      "It's a big black umbrella."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa la frase.",
+                    "items": [
+                      {
+                        "sentence": "It's ___ umbrella.",
+                        "answers": [
+                          [
+                            "an"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It's ___ big umbrella.",
+                        "answers": [
+                          [
+                            "a"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Is that ___ old lamp?",
+                        "answers": [
+                          [
+                            "an"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "These are two ___. (towel)",
+                        "answers": [
+                          [
+                            "towels"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Those are my ___. (box)",
+                        "answers": [
+                          [
+                            "boxes"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ are photos of my family. (cerca)",
+                        "answers": [
+                          [
+                            "These"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Is ___ your suitcase over there? (lejos)",
+                        "answers": [
+                          [
+                            "that"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Look at ___ people in the street! (lejos)",
+                        "answers": [
+                          [
+                            "those"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "It's a big black umbrella"
+                      },
+                      {
+                        "answer": "These are my photos"
+                      },
+                      {
+                        "answer": "Is that an old lamp"
+                      },
+                      {
+                        "answer": "That is a red chair"
+                      },
+                      {
+                        "answer": "It's a nice green lamp"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Esto es un abanico.",
+                        "answers": [
+                          "This is a fan"
+                        ]
+                      },
+                      {
+                        "source": "Esas son mis fotos.",
+                        "answers": [
+                          "Those are my photos"
+                        ]
+                      },
+                      {
+                        "source": "Es un paraguas negro.",
+                        "answers": [
+                          "It's a black umbrella",
+                          "It is a black umbrella"
+                        ]
+                      },
+                      {
+                        "source": "¿Es eso una lámpara?",
+                        "answers": [
+                          "Is that a lamp"
+                        ]
+                      },
+                      {
+                        "source": "Estas toallas son para ti.",
+                        "answers": [
+                          "These towels are for you"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "It's a nice green lamp."
+                      },
+                      {
+                        "text": "These are photos of my family."
+                      },
+                      {
+                        "text": "Is that an umbrella?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "lamp",
+                        "definition": "A thing that gives light",
+                        "translation": "lámpara",
+                        "example": "It's a nice green lamp."
+                      },
+                      {
+                        "term": "towel",
+                        "definition": "A cloth to dry your body",
+                        "translation": "toalla",
+                        "example": "These towels are for you."
+                      },
+                      {
+                        "term": "umbrella",
+                        "definition": "You open it when it rains",
+                        "translation": "paraguas",
+                        "example": "It's a big black umbrella."
+                      },
+                      {
+                        "term": "suitcase",
+                        "definition": "A big bag for travelling",
+                        "translation": "maleta",
+                        "example": "Her suitcase is on the bed."
+                      },
+                      {
+                        "term": "bed",
+                        "definition": "You sleep in it",
+                        "translation": "cama",
+                        "example": "The suitcase is on the bed."
+                      },
+                      {
+                        "term": "room",
+                        "definition": "A part of a house, like a bedroom",
+                        "translation": "habitación",
+                        "example": "Lucía's room is small."
+                      },
+                      {
+                        "term": "photo",
+                        "definition": "A picture from a camera",
+                        "translation": "foto",
+                        "example": "These are photos of my family."
+                      },
+                      {
+                        "term": "fan",
+                        "definition": "A thing to move air on hot days",
+                        "translation": "abanico / ventilador",
+                        "example": "This is a Spanish fan."
+                      },
+                      {
+                        "term": "black",
+                        "definition": "The colour of the night",
+                        "translation": "negro",
+                        "example": "A big black umbrella."
+                      },
+                      {
+                        "term": "green",
+                        "definition": "The colour of grass",
+                        "translation": "verde",
+                        "example": "A green lamp."
+                      },
+                      {
+                        "term": "red",
+                        "definition": "The colour of tomatoes",
+                        "translation": "rojo",
+                        "example": "A red chair."
+                      },
+                      {
+                        "term": "blue",
+                        "definition": "The colour of the sky",
+                        "translation": "azul",
+                        "example": "A blue towel."
+                      },
+                      {
+                        "term": "white",
+                        "definition": "The colour of milk",
+                        "translation": "blanco",
+                        "example": "White wine."
+                      },
+                      {
+                        "term": "old",
+                        "definition": "Not new",
+                        "translation": "viejo/a, antiguo/a",
+                        "example": "Is that an old lamp?"
+                      },
+                      {
+                        "term": "ugly",
+                        "definition": "Not nice to look at",
+                        "translation": "feo/a",
+                        "example": "It's a bit ugly!"
+                      },
+                      {
+                        "term": "small",
+                        "definition": "Not big",
+                        "translation": "pequeño/a",
+                        "example": "Lucía's room is small."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "___ umbrella",
+                        "options": [
+                          "a",
+                          "an"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "one box, two ___",
+                        "options": [
+                          "boxs",
+                          "boxes",
+                          "box"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "one person, two ___",
+                        "options": [
+                          "persons",
+                          "people",
+                          "peoples"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "(lejos, plural) ___ are my photos.",
+                        "options": [
+                          "These",
+                          "Those",
+                          "That"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Which is correct?",
+                        "options": [
+                          "a lamp green",
+                          "a green lamp",
+                          "a greens lamp"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "What colour is Sam's grandma's lamp?",
+                        "options": [
+                          "green",
+                          "blue",
+                          "red"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "a1_checkpoint_1",
+              "title": "Checkpoint 1: Hello, Bristol",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "___ you from Spain?",
+                        "options": [
+                          "Is",
+                          "Are",
+                          "Am"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Priya ___ a nurse.",
+                        "options": [
+                          "is",
+                          "are",
+                          "am"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Sam and Priya ___ friends.",
+                        "options": [
+                          "is",
+                          "are",
+                          "be"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Lucía is from Valencia. ___ parents are there.",
+                        "options": [
+                          "His",
+                          "Her",
+                          "Their"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Sam ___ a doctor.",
+                        "options": [
+                          "isn't",
+                          "aren't",
+                          "not"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "It's ___ umbrella.",
+                        "options": [
+                          "a",
+                          "an"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "(cerca) ___ are my towels.",
+                        "options": [
+                          "This",
+                          "These",
+                          "Those"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "I'm from Ireland. I'm ___.",
+                        "options": [
+                          "Ireland",
+                          "Irish",
+                          "Irishes"
+                        ],
+                        "answer": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "Hello, I ___ Lucía.",
+                        "answers": [
+                          [
+                            "am"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We ___ not tired.",
+                        "answers": [
+                          [
+                            "are"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ Javi a student?",
+                        "answers": [
+                          [
+                            "Is"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam is a musician. ___ band is great.",
+                        "answers": [
+                          [
+                            "His"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "These are two ___. (photo)",
+                        "answers": [
+                          [
+                            "photos"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It's ___ old lamp.",
+                        "answers": [
+                          [
+                            "an"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Soy española.",
+                        "answers": [
+                          "I'm Spanish",
+                          "I am Spanish"
+                        ]
+                      },
+                      {
+                        "source": "Ellos son mis padres.",
+                        "answers": [
+                          "They're my parents",
+                          "They are my parents"
+                        ]
+                      },
+                      {
+                        "source": "¿Es ese tu paraguas?",
+                        "answers": [
+                          "Is that your umbrella"
+                        ]
+                      },
+                      {
+                        "source": "Ella no es médica.",
+                        "answers": [
+                          "She isn't a doctor",
+                          "She's not a doctor",
+                          "She is not a doctor"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

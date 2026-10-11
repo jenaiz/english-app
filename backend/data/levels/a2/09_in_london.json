@@ -1,0 +1,666 @@
+{
+  "level_id": "A2",
+  "themes": [
+    {
+      "theme_id": "london_trip",
+      "units": [
+        {
+          "unit_id": "in_london",
+          "title": "A Day in London",
+          "description": "Habla de tus experiencias con el present perfect: ever, never, been.",
+          "lessons": [
+            {
+              "lesson_id": "in_london_lesson",
+              "title": "Present perfect: experiences",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "A day in London",
+                    "dialogue": [
+                      {
+                        "speaker": "Daniel",
+                        "text": "Have you ever been to London before, Lucía?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "No, never. I've seen it in films, but I've never been here."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "I've been here many times. My aunt lives in Wembley."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Have you ever tried pie and mash?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "No, I haven't. What is it?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "It's a very old London dish. I've eaten it once. I didn't like it!"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Have you seen the Tower of London? It's just there."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Wow! It's beautiful. I've taken a hundred photos today."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Javi will want all of them!"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Have you two ever been on the London Eye?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "I have. I went on it last year, with my mam."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I haven't. Can we go?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Of course. Let's go!"
+                      }
+                    ],
+                    "passage": "Saturday afternoon in London. The three friends are walking along the river near Tower Bridge."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"Have you ever been to London?\" Ever means…",
+                        "options": [
+                          "alguna vez",
+                          "nunca"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I've never been here.\" The structure is…",
+                        "options": [
+                          "have + past participle",
+                          "have + past simple"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I've eaten it once. I didn't like it!\" Why is the second sentence in the past simple?",
+                        "options": [
+                          "habla de una ocasión concreta",
+                          "habla de hoy"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Who has been on the London Eye?",
+                        "options": [
+                          "Daniel",
+                          "Lucía"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Present perfect: experiences",
+                    "explanation": "El present perfect (have/has + participio) habla de experiencias de la vida sin decir cuándo: I've been to London. I've never tried pie and mash.\n\nCon ever preguntamos si algo ha pasado alguna vez: Have you ever been to London? — Yes, I have / No, I haven't. Never = nunca: I've never been here.\n\nEl participio de los regulares acaba en -ed (tried, visited). Los irregulares tienen forma propia: be → been, see → seen, eat → eaten, take → taken.\n\nSi decimos cuándo pasó, usamos el past simple: I went on the London Eye last year.",
+                    "table": {
+                      "headers": [
+                        "Sujeto",
+                        "Afirmativa",
+                        "Negativa",
+                        "Pregunta"
+                      ],
+                      "rows": [
+                        [
+                          "I / you / we / they",
+                          "I've seen it",
+                          "I haven't seen it",
+                          "Have you seen it?"
+                        ],
+                        [
+                          "he / she / it",
+                          "she's been there",
+                          "she hasn't been there",
+                          "Has she been there?"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Have you ever been to London before?",
+                      "I've seen it in films, but I've never been here.",
+                      "I've taken a hundred photos today.",
+                      "I went on it last year."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el present perfect o el past simple.",
+                    "items": [
+                      {
+                        "sentence": "Have you ever ___ to London? (be)",
+                        "answers": [
+                          [
+                            "been"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I've never ___ pie and mash. (try)",
+                        "answers": [
+                          [
+                            "tried"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Priya ___ been here many times.",
+                        "answers": [
+                          [
+                            "has"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I've ___ a hundred photos. (take)",
+                        "answers": [
+                          [
+                            "taken"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ you seen the Tower of London?",
+                        "answers": [
+                          [
+                            "Have"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Have you ever been on the London Eye? — No, I ___.",
+                        "answers": [
+                          [
+                            "haven't",
+                            "have not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I've ___ it in films. (see)",
+                        "answers": [
+                          [
+                            "seen"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Last year Daniel ___ on the London Eye. (go)",
+                        "answers": [
+                          [
+                            "went"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "match_pairs",
+                  "content": {
+                    "instructions": "Une cada verbo con su participio.",
+                    "pairs": [
+                      {
+                        "left": "be",
+                        "right": "been"
+                      },
+                      {
+                        "left": "see",
+                        "right": "seen"
+                      },
+                      {
+                        "left": "eat",
+                        "right": "eaten"
+                      },
+                      {
+                        "left": "take",
+                        "right": "taken"
+                      },
+                      {
+                        "left": "go",
+                        "right": "gone"
+                      },
+                      {
+                        "left": "write",
+                        "right": "written"
+                      },
+                      {
+                        "left": "buy",
+                        "right": "bought"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "¿Has estado alguna vez en Londres?",
+                        "answers": [
+                          "Have you ever been to London"
+                        ]
+                      },
+                      {
+                        "source": "Nunca he probado el pie and mash.",
+                        "answers": [
+                          "I've never tried pie and mash",
+                          "I have never tried pie and mash"
+                        ]
+                      },
+                      {
+                        "source": "He hecho cien fotos.",
+                        "answers": [
+                          "I've taken a hundred photos",
+                          "I have taken a hundred photos",
+                          "I've taken one hundred photos"
+                        ]
+                      },
+                      {
+                        "source": "Ella ha estado aquí muchas veces.",
+                        "answers": [
+                          "She's been here many times",
+                          "She has been here many times"
+                        ]
+                      },
+                      {
+                        "source": "El año pasado fui a Londres.",
+                        "answers": [
+                          "Last year I went to London",
+                          "I went to London last year"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "Have you ever been to London?"
+                      },
+                      {
+                        "text": "I've never tried pie and mash."
+                      },
+                      {
+                        "text": "I've taken a hundred photos today."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "ever",
+                        "definition": "At any time",
+                        "translation": "alguna vez",
+                        "example": "Have you ever been to London?"
+                      },
+                      {
+                        "term": "never",
+                        "definition": "At no time",
+                        "translation": "nunca",
+                        "example": "I've never been here."
+                      },
+                      {
+                        "term": "been",
+                        "definition": "Past participle of be",
+                        "translation": "estado / ido",
+                        "example": "I've been here many times."
+                      },
+                      {
+                        "term": "seen",
+                        "definition": "Past participle of see",
+                        "translation": "visto",
+                        "example": "I've seen it in films."
+                      },
+                      {
+                        "term": "tried",
+                        "definition": "Past participle of try",
+                        "translation": "probado",
+                        "example": "Have you ever tried pie and mash?"
+                      },
+                      {
+                        "term": "taken",
+                        "definition": "Past participle of take",
+                        "translation": "tomado, hecho (fotos)",
+                        "example": "I've taken a hundred photos."
+                      },
+                      {
+                        "term": "once",
+                        "definition": "One time",
+                        "translation": "una vez",
+                        "example": "I've eaten it once."
+                      },
+                      {
+                        "term": "twice",
+                        "definition": "Two times",
+                        "translation": "dos veces",
+                        "example": "I've been there twice."
+                      },
+                      {
+                        "term": "many times",
+                        "definition": "A lot of times",
+                        "translation": "muchas veces",
+                        "example": "I've been here many times."
+                      },
+                      {
+                        "term": "aunt",
+                        "definition": "The sister of your mother or father",
+                        "translation": "tía",
+                        "example": "My aunt lives in Wembley."
+                      },
+                      {
+                        "term": "dish",
+                        "definition": "A type of food",
+                        "translation": "plato",
+                        "example": "a very old London dish"
+                      },
+                      {
+                        "term": "tower",
+                        "definition": "A tall narrow building",
+                        "translation": "torre",
+                        "example": "the Tower of London"
+                      },
+                      {
+                        "term": "sightseeing",
+                        "definition": "Visiting famous places",
+                        "translation": "hacer turismo",
+                        "example": "We're going sightseeing."
+                      },
+                      {
+                        "term": "film",
+                        "definition": "A movie",
+                        "translation": "película",
+                        "example": "I've seen it in films."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "Have you ever ___ to Paris?",
+                        "options": [
+                          "been",
+                          "went",
+                          "gone"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I've never ___ sushi.",
+                        "options": [
+                          "eaten",
+                          "ate",
+                          "eat"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ she seen the Tower?",
+                        "options": [
+                          "Has",
+                          "Have",
+                          "Did"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I ___ to London last year.",
+                        "options": [
+                          "went",
+                          "have been"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I've ___ a lot of photos.",
+                        "options": [
+                          "taken",
+                          "took",
+                          "take"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Where does Priya's aunt live?",
+                        "options": [
+                          "in Wembley",
+                          "in Camden",
+                          "in Bristol"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "a2_checkpoint_3",
+              "title": "Checkpoint 3: The London Trip",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "I'm going ___ visit the museum.",
+                        "options": [
+                          "to",
+                          "for",
+                          "-"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ Sam going to come?",
+                        "options": [
+                          "Is",
+                          "Does",
+                          "Will"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I'm thirsty.\" — \"I ___ get you some water.\"",
+                        "options": [
+                          "'ll",
+                          "'m going to"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I think it ___ be busy.",
+                        "options": [
+                          "will",
+                          "is"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "We ___ find a seat.",
+                        "options": [
+                          "won't",
+                          "don't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Have you ever ___ to London?",
+                        "options": [
+                          "been",
+                          "went"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I've never ___ pie and mash.",
+                        "options": [
+                          "tried",
+                          "try"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I ___ on the London Eye last year.",
+                        "options": [
+                          "went",
+                          "have been"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "Where ___ we going to stay?",
+                        "answers": [
+                          [
+                            "are"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Look at those clouds! It's going to ___.",
+                        "answers": [
+                          [
+                            "rain"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ pay. It was my mistake.",
+                        "answers": [
+                          [
+                            "will",
+                            "'ll"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ it be cold tomorrow?",
+                        "answers": [
+                          [
+                            "Will"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Priya ___ been here many times.",
+                        "answers": [
+                          [
+                            "has"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I've ___ a hundred photos. (take)",
+                        "answers": [
+                          [
+                            "taken"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Voy a reservar los billetes esta noche.",
+                        "answers": [
+                          "I'm going to book the tickets tonight",
+                          "I am going to book the tickets tonight"
+                        ]
+                      },
+                      {
+                        "source": "Yo pago.",
+                        "answers": [
+                          "I'll pay",
+                          "I will pay"
+                        ]
+                      },
+                      {
+                        "source": "¿Has estado alguna vez en Londres?",
+                        "answers": [
+                          "Have you ever been to London"
+                        ]
+                      },
+                      {
+                        "source": "Nunca he estado aquí.",
+                        "answers": [
+                          "I've never been here",
+                          "I have never been here"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

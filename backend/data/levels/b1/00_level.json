@@ -1,15 +1,23 @@
 {
   "level_id": "B1",
   "title": "B1 Intermediate",
-  "description": "Nivel intermedio de consolidación y fluidez",
+  "description": "El viaje a Irlanda y un año de cambios: present perfect, pasiva, condicionales, relativos y estilo indirecto.",
   "themes": [
     {
-      "theme_id": "travel_accommodation",
-      "title": "Travel & Accommodations"
+      "theme_id": "back_in_bristol",
+      "title": "Back in Bristol"
     },
     {
-      "theme_id": "work_life",
-      "title": "Work & Professional Life"
+      "theme_id": "ireland",
+      "title": "Ireland"
+    },
+    {
+      "theme_id": "changes",
+      "title": "Changes"
+    },
+    {
+      "theme_id": "summer",
+      "title": "Summer"
     }
   ]
 }

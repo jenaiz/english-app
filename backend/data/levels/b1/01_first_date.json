@@ -1,0 +1,485 @@
+{
+  "level_id": "B1",
+  "themes": [
+    {
+      "theme_id": "back_in_bristol",
+      "units": [
+        {
+          "unit_id": "first_date",
+          "title": "A First Date",
+          "description": "Habla de cómo eras y lo que hacías antes con used to.",
+          "lessons": [
+            {
+              "lesson_id": "first_date_lesson",
+              "title": "used to",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "A first date",
+                    "dialogue": [
+                      {
+                        "speaker": "Daniel",
+                        "text": "You look great. How was Valencia?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Wonderful. I ate too much and slept a lot. My mum still thinks I'm twelve!"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Ha! Mine too. When I go home, she makes me eat three dinners."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "So tell me, what were you like as a child?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Oh, I used to be very shy. I didn't use to talk to anyone at school."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "You? Shy? I don't believe it!"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "It's true. I used to hide in my room and read books about computers. What about you?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I used to dance flamenco… badly! And I used to want to be a pilot."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "A pilot? Why did you change your mind?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I used to get sick on planes. I still do, actually!"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Well, I'm glad you flew to Bristol anyway."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Me too. This is the best restaurant I've been to here."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Then we'll have to come again."
+                      }
+                    ],
+                    "passage": "January, year two. Lucía is back from Valencia with a suntan and a suitcase full of turrón. On Friday night, she meets Daniel at a small Irish restaurant near the harbour."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"I used to be very shy.\" Is Daniel shy now?",
+                        "options": [
+                          "No, not any more.",
+                          "Yes, he still is."
+                        ],
+                        "answer": 0,
+                        "explanation": "Used to habla de algo que era verdad antes y ya no lo es."
+                      },
+                      {
+                        "question": "Which negative is correct?",
+                        "options": [
+                          "I didn't use to talk to anyone.",
+                          "I didn't used to talk to anyone."
+                        ],
+                        "answer": 0,
+                        "explanation": "Después de did / didn't va la forma base: use to."
+                      },
+                      {
+                        "question": "After used to, the verb is…",
+                        "options": [
+                          "in the base form (be, dance)",
+                          "in the -ing form"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What did Lucía want to be as a child?",
+                        "options": [
+                          "a pilot",
+                          "a dancer",
+                          "a designer"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "used to",
+                    "explanation": "Used to + verbo en forma base habla de hábitos o situaciones del pasado que ya no son verdad: I used to be very shy (ahora no lo soy).\n\nNegativa: didn't use to (sin -d): I didn't use to talk to anyone. Pregunta: Did you use to dance? — Yes, I did / No, I didn't.\n\nPara una acción que ocurrió una sola vez usamos el past simple: I flew to Bristol in September. Para decir que algo no ha cambiado, still: I still get sick on planes.\n\nNo lo confundas con be used to + -ing (estar acostumbrado a): I'm used to the rain.",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Afirmativa",
+                          "I used to be very shy."
+                        ],
+                        [
+                          "Negativa",
+                          "I didn't use to talk to anyone."
+                        ],
+                        [
+                          "Pregunta",
+                          "Did you use to dance flamenco?"
+                        ],
+                        [
+                          "Respuesta corta",
+                          "Yes, I did. / No, I didn't."
+                        ],
+                        [
+                          "Una sola vez (past simple)",
+                          "I flew to Bristol in September."
+                        ],
+                        [
+                          "Sigue igual (still)",
+                          "I still get sick on planes."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I used to hide in my room and read books about computers.",
+                      "I used to want to be a pilot.",
+                      "I didn't use to talk to anyone at school.",
+                      "I used to get sick on planes. I still do!"
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con used to / use to o el past simple.",
+                    "items": [
+                      {
+                        "sentence": "Daniel ___ to be very shy.",
+                        "answers": [
+                          [
+                            "used"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I didn't ___ to talk to anyone.",
+                        "answers": [
+                          [
+                            "use"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ you use to dance flamenco?",
+                        "answers": [
+                          [
+                            "Did"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Lucía used to ___ to be a pilot. (want)",
+                        "answers": [
+                          [
+                            "want"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ use to like vegetables.",
+                        "answers": [
+                          [
+                            "didn't",
+                            "did not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam used to ___ in a pub. (work)",
+                        "answers": [
+                          [
+                            "work"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I used to get sick on planes, and I ___ do.",
+                        "answers": [
+                          [
+                            "still"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Last year I ___ to Dublin. (go, una vez)",
+                        "answers": [
+                          [
+                            "went"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "I used to be very shy"
+                      },
+                      {
+                        "answer": "Did you use to dance"
+                      },
+                      {
+                        "answer": "I didn't use to talk to anyone"
+                      },
+                      {
+                        "answer": "She used to want to be a pilot"
+                      },
+                      {
+                        "answer": "I still get sick on planes"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Antes era muy tímido.",
+                        "answers": [
+                          "I used to be very shy"
+                        ]
+                      },
+                      {
+                        "source": "¿Antes bailabas flamenco?",
+                        "answers": [
+                          "Did you use to dance flamenco"
+                        ]
+                      },
+                      {
+                        "source": "No solía hablar con nadie.",
+                        "answers": [
+                          "I didn't use to talk to anyone",
+                          "I did not use to talk to anyone"
+                        ]
+                      },
+                      {
+                        "source": "Antes vivía en Madrid.",
+                        "answers": [
+                          "I used to live in Madrid"
+                        ]
+                      },
+                      {
+                        "source": "Todavía me mareo en los aviones.",
+                        "answers": [
+                          "I still get sick on planes"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "I used to be very shy."
+                      },
+                      {
+                        "text": "What were you like as a child?"
+                      },
+                      {
+                        "text": "Why did you change your mind?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "date",
+                        "definition": "A romantic meeting",
+                        "translation": "cita",
+                        "example": "Lucía and Daniel go on a first date."
+                      },
+                      {
+                        "term": "suntan",
+                        "definition": "Brown skin from the sun",
+                        "translation": "bronceado",
+                        "example": "She is back with a suntan."
+                      },
+                      {
+                        "term": "used to",
+                        "definition": "Did regularly in the past, not now",
+                        "translation": "solía, antes…",
+                        "example": "I used to be very shy."
+                      },
+                      {
+                        "term": "shy",
+                        "definition": "Nervous with other people",
+                        "translation": "tímido/a",
+                        "example": "I used to be very shy."
+                      },
+                      {
+                        "term": "hide",
+                        "definition": "Go where people cannot see you (hid)",
+                        "translation": "esconderse",
+                        "example": "I used to hide in my room."
+                      },
+                      {
+                        "term": "pilot",
+                        "definition": "A person who flies a plane",
+                        "translation": "piloto",
+                        "example": "I used to want to be a pilot."
+                      },
+                      {
+                        "term": "change your mind",
+                        "definition": "Decide something different",
+                        "translation": "cambiar de opinión",
+                        "example": "Why did you change your mind?"
+                      },
+                      {
+                        "term": "get sick",
+                        "definition": "Feel ill (on a plane, boat…)",
+                        "translation": "marearse, ponerse malo",
+                        "example": "I used to get sick on planes."
+                      },
+                      {
+                        "term": "badly",
+                        "definition": "Not well",
+                        "translation": "mal",
+                        "example": "I used to dance flamenco… badly!"
+                      },
+                      {
+                        "term": "believe",
+                        "definition": "Think something is true",
+                        "translation": "creer",
+                        "example": "I don't believe it!"
+                      },
+                      {
+                        "term": "still",
+                        "definition": "Continuing until now",
+                        "translation": "todavía, aún",
+                        "example": "I still do!"
+                      },
+                      {
+                        "term": "actually",
+                        "definition": "In fact",
+                        "translation": "en realidad",
+                        "example": "I still do, actually!"
+                      },
+                      {
+                        "term": "glad",
+                        "definition": "Happy about something",
+                        "translation": "contento/a",
+                        "example": "I'm glad you flew to Bristol."
+                      },
+                      {
+                        "term": "anyway",
+                        "definition": "Despite that",
+                        "translation": "de todos modos",
+                        "example": "I'm glad you flew to Bristol anyway."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "I ___ to be shy.",
+                        "options": [
+                          "used",
+                          "use",
+                          "using"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I didn't ___ to like coffee.",
+                        "options": [
+                          "used",
+                          "use"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Did you use ___ dance?",
+                        "options": [
+                          "to",
+                          "-",
+                          "for"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She used to ___ in Madrid.",
+                        "options": [
+                          "live",
+                          "living",
+                          "lived"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'm 30, but I ___ love cartoons.",
+                        "options": [
+                          "still",
+                          "used to"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What did Daniel use to read?",
+                        "options": [
+                          "books about computers",
+                          "comics",
+                          "novels"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

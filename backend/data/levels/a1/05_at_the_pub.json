@@ -1,0 +1,486 @@
+{
+  "level_id": "A1",
+  "themes": [
+    {
+      "theme_id": "new_life",
+      "units": [
+        {
+          "unit_id": "at_the_pub",
+          "title": "Dinner at The Old Duke",
+          "description": "Pide comida y bebida en un pub con there is/are, some/any y Can I have…?",
+          "lessons": [
+            {
+              "lesson_id": "pub_lesson",
+              "title": "There is / there are, some / any",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Dinner at The Old Duke",
+                    "dialogue": [
+                      {
+                        "speaker": "Waiter",
+                        "text": "Hi there! What can I get you?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Can I have a lemonade, please?"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "A cider for me, please."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Is there any wine?"
+                      },
+                      {
+                        "speaker": "Waiter",
+                        "text": "Yes, there is. There's red wine and white wine."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "A glass of red wine, please."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Are there any vegetarian dishes? Priya's vegetarian."
+                      },
+                      {
+                        "speaker": "Waiter",
+                        "text": "Yes, there are some. There's a vegetable curry, and there are some great veggie burgers."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "The curry, please."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "And can I have fish and chips?"
+                      },
+                      {
+                        "speaker": "Waiter",
+                        "text": "Of course. Anything else?"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Some bread for the table, please!"
+                      },
+                      {
+                        "speaker": "Waiter",
+                        "text": "Lovely. That's thirty-two pounds fifty, please."
+                      }
+                    ],
+                    "passage": "It's Friday evening. Lucía, Sam and Priya are at The Old Duke, a pub near the harbour. It's busy and there's music."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"There's red wine and white wine.\" There's = …",
+                        "options": [
+                          "There is",
+                          "There has",
+                          "They are"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Are there any vegetarian dishes?\" Why any?",
+                        "options": [
+                          "It's a question",
+                          "It's singular",
+                          "It's a drink"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"there are some great veggie burgers\": some is for…",
+                        "options": [
+                          "affirmative sentences",
+                          "negative sentences",
+                          "questions"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Who is vegetarian?",
+                        "options": [
+                          "Sam",
+                          "Priya",
+                          "Lucía"
+                        ],
+                        "answer": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "There is / there are, some / any",
+                    "explanation": "There is (there's) y there are significan hay. Usa there is con singular o incontables (there's red wine) y there are con plurales (there are some burgers).\n\nSome (algunos, algo de) va en frases afirmativas; any, en negativas y preguntas: Is there any wine?, There aren't any chips. Para pedir u ofrecer usamos some también en preguntas: Can I have some bread?\n\nPara pedir educadamente: Can I have…, please? o … for me, please.",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Singular / incontable",
+                        "Plural"
+                      ],
+                      "rows": [
+                        [
+                          "Afirmativa",
+                          "There's some wine.",
+                          "There are some burgers."
+                        ],
+                        [
+                          "Negativa",
+                          "There isn't any wine.",
+                          "There aren't any burgers."
+                        ],
+                        [
+                          "Pregunta",
+                          "Is there any wine?",
+                          "Are there any burgers?"
+                        ],
+                        [
+                          "Respuesta corta",
+                          "Yes, there is. / No, there isn't.",
+                          "Yes, there are. / No, there aren't."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "There's a vegetable curry.",
+                      "Are there any vegetarian dishes? — Yes, there are some.",
+                      "Can I have a lemonade, please?",
+                      "Some bread for the table, please!"
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa la frase.",
+                    "items": [
+                      {
+                        "sentence": "___ a vegetable curry on the menu.",
+                        "answers": [
+                          [
+                            "There's",
+                            "There is"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ some great burgers.",
+                        "answers": [
+                          [
+                            "There are"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Is there ___ wine?",
+                        "answers": [
+                          [
+                            "any"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "There aren't ___ chips. Sorry!",
+                        "answers": [
+                          [
+                            "any"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Can I have ___ bread, please?",
+                        "answers": [
+                          [
+                            "some"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ there any vegetarian dishes?",
+                        "answers": [
+                          [
+                            "Are"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Is there any lemonade? — Yes, there ___.",
+                        "answers": [
+                          [
+                            "is"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "There ___ any fish today. Sorry.",
+                        "answers": [
+                          [
+                            "isn't",
+                            "is not"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "A glass of red wine for me"
+                      },
+                      {
+                        "answer": "Are there any vegetarian dishes"
+                      },
+                      {
+                        "answer": "There is some bread on the table"
+                      },
+                      {
+                        "answer": "Is there any wine"
+                      },
+                      {
+                        "answer": "Can I have fish and chips"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "¿Hay vino?",
+                        "answers": [
+                          "Is there any wine",
+                          "Is there wine"
+                        ]
+                      },
+                      {
+                        "source": "Hay unas hamburguesas vegetarianas.",
+                        "answers": [
+                          "There are some veggie burgers",
+                          "There are some vegetarian burgers"
+                        ]
+                      },
+                      {
+                        "source": "No hay patatas fritas.",
+                        "answers": [
+                          "There aren't any chips",
+                          "There are no chips",
+                          "There aren't any fries"
+                        ]
+                      },
+                      {
+                        "source": "¿Me pone una limonada, por favor?",
+                        "answers": [
+                          "Can I have a lemonade please",
+                          "Can I have a lemonade"
+                        ]
+                      },
+                      {
+                        "source": "Una sidra para mí, por favor.",
+                        "answers": [
+                          "A cider for me please",
+                          "A cider for me"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta. Pide en el pub.",
+                    "items": [
+                      {
+                        "text": "Can I have a glass of red wine, please?"
+                      },
+                      {
+                        "text": "Is there any vegetarian food?"
+                      },
+                      {
+                        "text": "That's thirty-two pounds fifty."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "pub",
+                        "definition": "A British bar where people drink and eat",
+                        "translation": "pub, bar",
+                        "example": "The Old Duke is a pub near the harbour."
+                      },
+                      {
+                        "term": "menu",
+                        "definition": "A list of the food in a restaurant",
+                        "translation": "carta, menú",
+                        "example": "There's a curry on the menu."
+                      },
+                      {
+                        "term": "wine",
+                        "definition": "An alcoholic drink made from grapes",
+                        "translation": "vino",
+                        "example": "A glass of red wine, please."
+                      },
+                      {
+                        "term": "cider",
+                        "definition": "An alcoholic drink made from apples",
+                        "translation": "sidra",
+                        "example": "A cider for me, please."
+                      },
+                      {
+                        "term": "beer",
+                        "definition": "An alcoholic drink, often in a pint",
+                        "translation": "cerveza",
+                        "example": "Is there any beer?"
+                      },
+                      {
+                        "term": "lemonade",
+                        "definition": "A sweet drink with lemon",
+                        "translation": "limonada",
+                        "example": "Can I have a lemonade?"
+                      },
+                      {
+                        "term": "water",
+                        "definition": "The drink that comes from the tap",
+                        "translation": "agua",
+                        "example": "Can I have some water?"
+                      },
+                      {
+                        "term": "bread",
+                        "definition": "Food made from flour, baked",
+                        "translation": "pan",
+                        "example": "Some bread for the table!"
+                      },
+                      {
+                        "term": "fish and chips",
+                        "definition": "Fried fish with fried potatoes",
+                        "translation": "pescado con patatas fritas",
+                        "example": "Can I have fish and chips?"
+                      },
+                      {
+                        "term": "chips",
+                        "definition": "Fried potato sticks (UK)",
+                        "translation": "patatas fritas",
+                        "example": "There aren't any chips."
+                      },
+                      {
+                        "term": "vegetarian",
+                        "definition": "A person who doesn't eat meat",
+                        "translation": "vegetariano/a",
+                        "example": "Priya's vegetarian."
+                      },
+                      {
+                        "term": "dish",
+                        "definition": "Food prepared as part of a meal",
+                        "translation": "plato",
+                        "example": "Are there any vegetarian dishes?"
+                      },
+                      {
+                        "term": "glass",
+                        "definition": "A container for drinks; also the material",
+                        "translation": "vaso, copa",
+                        "example": "A glass of red wine."
+                      },
+                      {
+                        "term": "pound",
+                        "definition": "The money of the UK (£)",
+                        "translation": "libra",
+                        "example": "That's thirty-two pounds fifty."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "___ some bread on the table.",
+                        "options": [
+                          "There is",
+                          "There are"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ some burgers.",
+                        "options": [
+                          "There's",
+                          "There are"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Is there ___ wine?",
+                        "options": [
+                          "some",
+                          "any"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Can I have ___ water, please?",
+                        "options": [
+                          "any",
+                          "some"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "There aren't ___ chips.",
+                        "options": [
+                          "some",
+                          "any"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "What does Priya order?",
+                        "options": [
+                          "the curry",
+                          "fish and chips",
+                          "a burger"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

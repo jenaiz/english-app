@@ -1,0 +1,500 @@
+{
+  "level_id": "B2",
+  "themes": [
+    {
+      "theme_id": "moving_forward",
+      "units": [
+        {
+          "unit_id": "what_if",
+          "title": "On the Bridge",
+          "description": "Cuando el pasado cambia el presente: condicionales mixtos.",
+          "lessons": [
+            {
+              "lesson_id": "what_if_lesson",
+              "title": "Mixed conditionals",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "On the bridge",
+                    "dialogue": [
+                      {
+                        "speaker": "Javi",
+                        "text": "I can't believe you've lived here for almost three years."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Me neither. If I hadn't taken that job, I wouldn't be here now."
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "And you wouldn't be moving in with Daniel!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "True. And if you hadn't passed your exam, you wouldn't be working in Dublin."
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "If I weren't so lazy, I would have passed it the first time!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Do you ever wonder what would have happened if I'd stayed in Madrid?"
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "You'd be bored, and you'd still speak terrible English."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Thanks a lot!"
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "Seriously, if you weren't so brave, you would never have left Spain."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I don't feel brave. I just wanted an adventure."
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "And now? What's the next adventure?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Actually… I've been thinking about starting my own design studio."
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "Your own studio? Does Helen know?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Not yet. That's the next difficult conversation."
+                      }
+                    ],
+                    "passage": "May. Javi is visiting Bristol from Dublin for the first time. He and Lucía are standing on the Clifton Suspension Bridge, looking down at the river."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"If I hadn't taken that job, I wouldn't be here now.\" The condition is about… and the result is about…",
+                        "options": [
+                          "the past / the present",
+                          "the present / the past"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"If I weren't so lazy, I would have passed it the first time.\" The condition is…",
+                        "options": [
+                          "a general quality now",
+                          "a past action"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"what would have happened if I'd stayed\" — here 'd = …",
+                        "options": [
+                          "had",
+                          "would"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What is Lucía thinking about?",
+                        "options": [
+                          "starting her own design studio",
+                          "moving to Dublin",
+                          "going back to Madrid"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Mixed conditionals",
+                    "explanation": "Los condicionales mixtos combinan tiempos cuando la causa y la consecuencia están en momentos distintos:\n• Pasado → presente: If + past perfect, would + verbo. If I hadn't taken that job, I wouldn't be here now.\n• Presente (rasgo general) → pasado: If + past simple, would have + participio. If I weren't so lazy, I would have passed the first time.\n\nRecuerda los tipos puros para compararlos: el segundo condicional va de presente a presente y el tercero de pasado a pasado.",
+                    "table": {
+                      "headers": [
+                        "Tipo",
+                        "Estructura",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Pasado → presente",
+                          "If + had + participio, would + verbo",
+                          "If I hadn't taken that job, I wouldn't be here now."
+                        ],
+                        [
+                          "Presente → pasado",
+                          "If + pasado, would have + participio",
+                          "If I weren't so lazy, I would have passed the first time."
+                        ],
+                        [
+                          "3.er condicional (pasado → pasado)",
+                          "If + had + participio, would have + participio",
+                          "If I'd stayed in Madrid, I would have been bored."
+                        ],
+                        [
+                          "2.º condicional (presente → presente)",
+                          "If + pasado, would + verbo",
+                          "If I had more time, I'd travel more."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "If I hadn't taken that job, I wouldn't be here now.",
+                      "If you hadn't passed your exam, you wouldn't be working in Dublin.",
+                      "If I weren't so lazy, I would have passed it the first time.",
+                      "If you weren't so brave, you would never have left Spain."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el condicional mixto.",
+                    "items": [
+                      {
+                        "sentence": "If I hadn't taken that job, I ___ be here now.",
+                        "answers": [
+                          [
+                            "wouldn't",
+                            "would not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If you hadn't passed your exam, you wouldn't ___ working in Dublin.",
+                        "answers": [
+                          [
+                            "be"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If I ___ so lazy, I would have passed it.",
+                        "answers": [
+                          [
+                            "weren't",
+                            "wasn't"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If you weren't so brave, you would never ___ left Spain.",
+                        "answers": [
+                          [
+                            "have"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If I ___ stayed in Madrid, I'd be bored now.",
+                        "answers": [
+                          [
+                            "had",
+                            "'d"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If she spoke Spanish, she ___ have understood the joke.",
+                        "answers": [
+                          [
+                            "would"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If we hadn't met, I ___ be so happy now.",
+                        "answers": [
+                          [
+                            "wouldn't",
+                            "would not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Do you ever wonder what would ___ happened?",
+                        "answers": [
+                          [
+                            "have"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Reescribe con un condicional mixto.",
+                    "items": [
+                      {
+                        "source": "I took the job, so I'm here now. (If I hadn't…)",
+                        "answers": [
+                          "If I hadn't taken the job, I wouldn't be here now",
+                          "If I hadn't taken the job I wouldn't be here now",
+                          "If I had not taken the job, I would not be here now"
+                        ]
+                      },
+                      {
+                        "source": "He's not organised, so he missed the deadline. (If he were…)",
+                        "answers": [
+                          "If he were organised, he wouldn't have missed the deadline",
+                          "If he was organised, he wouldn't have missed the deadline",
+                          "If he were organised he wouldn't have missed the deadline"
+                        ]
+                      },
+                      {
+                        "source": "I didn't study medicine, so I'm not a doctor now. (If I had…)",
+                        "answers": [
+                          "If I had studied medicine, I would be a doctor now",
+                          "If I had studied medicine, I'd be a doctor now",
+                          "If I'd studied medicine, I'd be a doctor now"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Si no hubiera aceptado ese trabajo, no estaría aquí.",
+                        "answers": [
+                          "If I hadn't taken that job, I wouldn't be here",
+                          "If I hadn't accepted that job, I wouldn't be here",
+                          "If I had not taken that job, I would not be here",
+                          "If I hadn't taken that job I wouldn't be here"
+                        ]
+                      },
+                      {
+                        "source": "Si no fuera tan vago, habría aprobado.",
+                        "answers": [
+                          "If I weren't so lazy, I would have passed",
+                          "If I wasn't so lazy, I would have passed",
+                          "If I weren't so lazy, I'd have passed"
+                        ]
+                      },
+                      {
+                        "source": "Si me hubiera quedado en Madrid, ahora estaría aburrida.",
+                        "answers": [
+                          "If I had stayed in Madrid, I would be bored now",
+                          "If I'd stayed in Madrid, I'd be bored now",
+                          "If I had stayed in Madrid, I'd be bored now"
+                        ]
+                      },
+                      {
+                        "source": "Si fueras más valiente, lo habrías hecho.",
+                        "answers": [
+                          "If you were braver, you would have done it",
+                          "If you were braver, you'd have done it"
+                        ]
+                      },
+                      {
+                        "source": "¿Qué habría pasado?",
+                        "answers": [
+                          "What would have happened"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "If I hadn't taken that job, I wouldn't be here now."
+                      },
+                      {
+                        "text": "If you weren't so brave, you would never have left Spain."
+                      },
+                      {
+                        "text": "I've been thinking about starting my own design studio."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "brave",
+                        "definition": "Not afraid to do difficult things",
+                        "translation": "valiente",
+                        "example": "If you weren't so brave…"
+                      },
+                      {
+                        "term": "lazy",
+                        "definition": "Not wanting to work",
+                        "translation": "vago/a",
+                        "example": "If I weren't so lazy…"
+                      },
+                      {
+                        "term": "wonder",
+                        "definition": "Think about something with curiosity",
+                        "translation": "preguntarse",
+                        "example": "Do you ever wonder…?"
+                      },
+                      {
+                        "term": "take a job",
+                        "definition": "Accept a job",
+                        "translation": "aceptar un trabajo",
+                        "example": "If I hadn't taken that job…"
+                      },
+                      {
+                        "term": "bored",
+                        "definition": "Not interested; with nothing to do",
+                        "translation": "aburrido/a",
+                        "example": "You'd be bored."
+                      },
+                      {
+                        "term": "Me neither",
+                        "definition": "I also don't",
+                        "translation": "yo tampoco",
+                        "example": "Me neither."
+                      },
+                      {
+                        "term": "Thanks a lot!",
+                        "definition": "Ironic thanks",
+                        "translation": "¡muchas gracias! (irónico)",
+                        "example": "Thanks a lot!"
+                      },
+                      {
+                        "term": "seriously",
+                        "definition": "Now I am not joking",
+                        "translation": "en serio",
+                        "example": "Seriously, you are brave."
+                      },
+                      {
+                        "term": "almost",
+                        "definition": "Nearly",
+                        "translation": "casi",
+                        "example": "almost three years"
+                      },
+                      {
+                        "term": "look down",
+                        "definition": "Look to a lower place",
+                        "translation": "mirar hacia abajo",
+                        "example": "looking down at the river"
+                      },
+                      {
+                        "term": "suspension bridge",
+                        "definition": "A bridge that hangs from cables",
+                        "translation": "puente colgante",
+                        "example": "the Clifton Suspension Bridge"
+                      },
+                      {
+                        "term": "start a business",
+                        "definition": "Create a company",
+                        "translation": "montar un negocio",
+                        "example": "I've been thinking about starting my own studio."
+                      },
+                      {
+                        "term": "design studio",
+                        "definition": "A company that creates designs",
+                        "translation": "estudio de diseño",
+                        "example": "my own design studio"
+                      },
+                      {
+                        "term": "difficult conversation",
+                        "definition": "A talk that is hard to have",
+                        "translation": "conversación difícil",
+                        "example": "That's the next difficult conversation."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "If I hadn't missed the train, I ___ be at home now.",
+                        "options": [
+                          "would",
+                          "would have"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If she were more careful, she ___ the accident.",
+                        "options": [
+                          "wouldn't have had",
+                          "wouldn't have"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If I'd studied harder, I ___ a better job now.",
+                        "options": [
+                          "'d have",
+                          "'d have had"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If he ___ so shy, he would have asked her out.",
+                        "options": [
+                          "weren't",
+                          "hadn't been"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If we hadn't met, we ___ married now.",
+                        "options": [
+                          "wouldn't be",
+                          "wouldn't have been"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Where does Javi live now?",
+                        "options": [
+                          "Dublin",
+                          "Valencia",
+                          "Bristol"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "level_id": "B1",
+  "themes": [
+    {
+      "theme_id": "summer",
+      "units": [
+        {
+          "unit_id": "farewell_gig",
+          "title": "The Farewell Gig",
+          "description": "Cuenta una historia con orden: past simple, past continuous y past perfect.",
+          "lessons": [
+            {
+              "lesson_id": "farewell_gig_lesson",
+              "title": "Past perfect and narrative tenses",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "The farewell gig",
+                    "dialogue": [
+                      {
+                        "speaker": "Priya",
+                        "text": "So, how was it? I'm so sorry I missed it."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "It was crazy! When we arrived, the band had already started."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Already? Why were you late?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Daniel had left the tickets at home, so we had to go back."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Typical! And how was Sam?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Nervous at first. He had never played in front of so many people."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Was the producer there?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes, he had come from London to see them. And in the middle of the concert, the electricity went off!"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "No! What did they do?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Luckily, Sam had brought his old guitar, so he played without electricity. Everyone was singing!"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "That's so Sam. Did he cry?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "A bit. He said it was the best night of his life."
+                      }
+                    ],
+                    "passage": "Saturday night was Sam's farewell gig at The Old Duke. Priya missed it because she was working, so on Sunday morning Lucía tells her everything."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"When we arrived, the band had already started.\" What happened first?",
+                        "options": [
+                          "the band started",
+                          "we arrived"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"had started\" is…",
+                        "options": [
+                          "had + past participle",
+                          "have + past participle"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"He had never played in front of so many people.\" This means…",
+                        "options": [
+                          "nunca antes de esa noche",
+                          "nunca hasta hoy"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What happened in the middle of the concert?",
+                        "options": [
+                          "The electricity went off.",
+                          "Sam broke his guitar.",
+                          "The producer left."
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Past perfect and narrative tenses",
+                    "explanation": "El past perfect (had + participio) cuenta algo que pasó antes de otro momento del pasado: When we arrived, the band had already started (primero empezó el grupo, luego llegamos).\n\nPara contar historias combinamos tres tiempos:\n• past simple para los hechos principales: We arrived late.\n• past continuous para la situación de fondo: Everyone was singing.\n• past perfect para lo que pasó antes: Daniel had left the tickets at home.\n\nPalabras frecuentes: already, never… before, by the time, because.",
+                    "table": {
+                      "headers": [
+                        "Tiempo",
+                        "Uso",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Past simple",
+                          "hechos principales",
+                          "We arrived at nine."
+                        ],
+                        [
+                          "Past continuous",
+                          "situación de fondo",
+                          "Everyone was singing."
+                        ],
+                        [
+                          "Past perfect",
+                          "algo anterior",
+                          "The band had already started."
+                        ],
+                        [
+                          "Pregunta",
+                          "Had + sujeto + participio",
+                          "Had they started?"
+                        ],
+                        [
+                          "Negativa",
+                          "hadn't",
+                          "He hadn't played there before."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "When we arrived, the band had already started.",
+                      "Daniel had left the tickets at home, so we had to go back.",
+                      "He had never played in front of so many people.",
+                      "Luckily, Sam had brought his old guitar."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el past perfect u otro tiempo pasado.",
+                    "items": [
+                      {
+                        "sentence": "When we arrived, the band ___ already started.",
+                        "answers": [
+                          [
+                            "had"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel had ___ the tickets at home. (leave)",
+                        "answers": [
+                          [
+                            "left"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He had never ___ in front of so many people. (play)",
+                        "answers": [
+                          [
+                            "played"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The producer had ___ from London. (come)",
+                        "answers": [
+                          [
+                            "come"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam had ___ his old guitar. (bring)",
+                        "answers": [
+                          [
+                            "brought"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "When I got home, Priya ___ gone to bed.",
+                        "answers": [
+                          [
+                            "had"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ seen him so happy before.",
+                        "answers": [
+                          [
+                            "had never",
+                            "'d never"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Everyone ___ singing when the lights went off.",
+                        "answers": [
+                          [
+                            "was"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "The band had already started"
+                      },
+                      {
+                        "answer": "Daniel had left the tickets at home"
+                      },
+                      {
+                        "answer": "He had never played there before"
+                      },
+                      {
+                        "answer": "Everyone was singing"
+                      },
+                      {
+                        "answer": "The electricity went off"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Cuando llegamos, el concierto ya había empezado.",
+                        "answers": [
+                          "When we arrived, the concert had already started",
+                          "When we arrived the concert had already started",
+                          "When we arrived, the gig had already started"
+                        ]
+                      },
+                      {
+                        "source": "Había olvidado las entradas.",
+                        "answers": [
+                          "He had forgotten the tickets",
+                          "I had forgotten the tickets",
+                          "He'd forgotten the tickets",
+                          "I'd forgotten the tickets"
+                        ]
+                      },
+                      {
+                        "source": "Nunca había visto tanta gente.",
+                        "answers": [
+                          "I had never seen so many people",
+                          "I'd never seen so many people"
+                        ]
+                      },
+                      {
+                        "source": "Se fue la luz.",
+                        "answers": [
+                          "The electricity went off",
+                          "The lights went off",
+                          "The power went off"
+                        ]
+                      },
+                      {
+                        "source": "Todo el mundo estaba cantando.",
+                        "answers": [
+                          "Everyone was singing",
+                          "Everybody was singing"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "When we arrived, the band had already started."
+                      },
+                      {
+                        "text": "He had never played in front of so many people."
+                      },
+                      {
+                        "text": "He said it was the best night of his life."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "farewell",
+                        "definition": "Saying goodbye",
+                        "translation": "despedida",
+                        "example": "Sam's farewell gig"
+                      },
+                      {
+                        "term": "miss",
+                        "definition": "Not be at an event",
+                        "translation": "perderse",
+                        "example": "I'm so sorry I missed it."
+                      },
+                      {
+                        "term": "crazy",
+                        "definition": "Wild, surprising",
+                        "translation": "una locura",
+                        "example": "It was crazy!"
+                      },
+                      {
+                        "term": "already",
+                        "definition": "Before the time expected",
+                        "translation": "ya",
+                        "example": "The band had already started."
+                      },
+                      {
+                        "term": "typical",
+                        "definition": "What someone usually does",
+                        "translation": "típico",
+                        "example": "Typical!"
+                      },
+                      {
+                        "term": "at first",
+                        "definition": "At the beginning",
+                        "translation": "al principio",
+                        "example": "Nervous at first."
+                      },
+                      {
+                        "term": "in front of",
+                        "definition": "Facing, before an audience",
+                        "translation": "delante de",
+                        "example": "in front of so many people"
+                      },
+                      {
+                        "term": "electricity",
+                        "definition": "Power for lights and machines",
+                        "translation": "electricidad, luz",
+                        "example": "The electricity went off!"
+                      },
+                      {
+                        "term": "go off",
+                        "definition": "Stop working (lights, power)",
+                        "translation": "irse, apagarse",
+                        "example": "The electricity went off."
+                      },
+                      {
+                        "term": "luckily",
+                        "definition": "Fortunately",
+                        "translation": "por suerte",
+                        "example": "Luckily, Sam had brought his old guitar."
+                      },
+                      {
+                        "term": "bring",
+                        "definition": "Take something with you (brought)",
+                        "translation": "traer",
+                        "example": "Sam had brought his guitar."
+                      },
+                      {
+                        "term": "cry",
+                        "definition": "Have tears in your eyes",
+                        "translation": "llorar",
+                        "example": "Did he cry?"
+                      },
+                      {
+                        "term": "in the middle of",
+                        "definition": "During",
+                        "translation": "en medio de",
+                        "example": "in the middle of the concert"
+                      },
+                      {
+                        "term": "That's so Sam",
+                        "definition": "Very typical of Sam",
+                        "translation": "muy de Sam",
+                        "example": "That's so Sam."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "When I arrived, they ___ left.",
+                        "options": [
+                          "had already",
+                          "have already"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She ___ never seen snow before.",
+                        "options": [
+                          "had",
+                          "has"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "He was tired because he ___ all day.",
+                        "options": [
+                          "had worked",
+                          "has worked"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "We ___ dinner when the lights went off.",
+                        "options": [
+                          "were having",
+                          "had had"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Had you ___ him before?",
+                        "options": [
+                          "met",
+                          "meet"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Why were Lucía and Daniel late?",
+                        "options": [
+                          "Daniel had left the tickets at home.",
+                          "The bus was late.",
+                          "Lucía was ill."
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

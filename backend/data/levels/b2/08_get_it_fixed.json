@@ -1,0 +1,491 @@
+{
+  "level_id": "B2",
+  "themes": [
+    {
+      "theme_id": "home_truths",
+      "units": [
+        {
+          "unit_id": "get_it_fixed",
+          "title": "The Boiler",
+          "description": "Encarga que te hagan cosas: have / get something done.",
+          "lessons": [
+            {
+              "lesson_id": "get_it_fixed_lesson",
+              "title": "Causative have and get",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "The boiler",
+                    "dialogue": [
+                      {
+                        "speaker": "Mrs Green",
+                        "text": "I'm having the boiler repaired on Thursday. The engineer can't come any earlier."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Thursday? We haven't had hot water since Sunday!"
+                      },
+                      {
+                        "speaker": "Mrs Green",
+                        "text": "I know, dear. And while I'm at it, I'm getting the kitchen repainted next month."
+                      },
+                      {
+                        "speaker": "Ollie",
+                        "text": "Could you have the oven checked too? It's been making a strange noise."
+                      },
+                      {
+                        "speaker": "Mrs Green",
+                        "text": "Fine. I'll get someone to look at it."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Meanwhile, I'm going to shower at the gym. I might get my hair cut while I'm there."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Good plan. I had my car serviced last week, so at least the heating in the car works."
+                      },
+                      {
+                        "speaker": "Mrs Green",
+                        "text": "You young people. In my day, we had the chimney swept and lit a fire."
+                      },
+                      {
+                        "speaker": "Ollie",
+                        "text": "Shall I make some soup to keep us warm?"
+                      },
+                      {
+                        "speaker": "Mrs Green",
+                        "text": "Now that's the best idea I've heard all day."
+                      }
+                    ],
+                    "passage": "February. The boiler at Clifton Road breaks down during the coldest week of the year. Mrs Green comes round."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"I'm having the boiler repaired.\" Who repairs it?",
+                        "options": [
+                          "an engineer",
+                          "Mrs Green"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The structure is…",
+                        "options": [
+                          "have + object + past participle",
+                          "have + past participle + object"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I'll get someone to look at it.\" get + person + …",
+                        "options": [
+                          "to + verb",
+                          "-ing"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Why can't the boiler be repaired earlier?",
+                        "options": [
+                          "The engineer can't come any earlier.",
+                          "It's too expensive.",
+                          "Mrs Green is away."
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Causative have and get",
+                    "explanation": "Have / get + objeto + participio indica que otra persona hace algo por nosotros, normalmente un servicio: I'm having the boiler repaired (no lo arreglo yo). Get es más informal.\n\nSe usa en cualquier tiempo: I had my car serviced last week. I'm getting the kitchen repainted. Could you have the oven checked?\n\nPara decir a quién le encargas algo: get + persona + to + verbo (I'll get someone to look at it) o have + persona + verbo (I'll have the engineer call you).\n\nEn español solemos decir «me voy a cortar el pelo», pero en inglés es I'm going to get my hair cut, porque te lo corta otra persona.",
+                    "table": {
+                      "headers": [
+                        "Estructura",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "have + objeto + participio",
+                          "I'm having the boiler repaired."
+                        ],
+                        [
+                          "get + objeto + participio",
+                          "I'm getting the kitchen repainted."
+                        ],
+                        [
+                          "pasado",
+                          "I had my car serviced last week."
+                        ],
+                        [
+                          "con modal",
+                          "Could you have the oven checked?"
+                        ],
+                        [
+                          "get + persona + to + verbo",
+                          "I'll get someone to look at it."
+                        ],
+                        [
+                          "have + persona + verbo",
+                          "I'll have the engineer call you."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I'm having the boiler repaired on Thursday.",
+                      "I'm getting the kitchen repainted next month.",
+                      "Could you have the oven checked too?",
+                      "I might get my hair cut while I'm there."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la forma causativa.",
+                    "items": [
+                      {
+                        "sentence": "I'm having the boiler ___. (repair)",
+                        "answers": [
+                          [
+                            "repaired"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm getting the kitchen ___ next month. (repaint)",
+                        "answers": [
+                          [
+                            "repainted"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Could you have the oven ___ too? (check)",
+                        "answers": [
+                          [
+                            "checked"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'll get someone ___ look at it.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I might get my hair ___. (cut)",
+                        "answers": [
+                          [
+                            "cut"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I had my car ___ last week. (service)",
+                        "answers": [
+                          [
+                            "serviced"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We had the chimney ___. (sweep)",
+                        "answers": [
+                          [
+                            "swept"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Where do you ___ your hair cut?",
+                        "answers": [
+                          [
+                            "have",
+                            "get"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Reescribe con have / get something done.",
+                    "items": [
+                      {
+                        "source": "A mechanic serviced my car. (I had…)",
+                        "answers": [
+                          "I had my car serviced"
+                        ]
+                      },
+                      {
+                        "source": "Someone is going to paint our kitchen. (We're having…)",
+                        "answers": [
+                          "We're having our kitchen painted",
+                          "We are having our kitchen painted",
+                          "We're having the kitchen painted"
+                        ]
+                      },
+                      {
+                        "source": "A hairdresser cut my hair yesterday. (I got…)",
+                        "answers": [
+                          "I got my hair cut yesterday",
+                          "Yesterday I got my hair cut"
+                        ]
+                      },
+                      {
+                        "source": "An engineer will check the oven. (We'll get…)",
+                        "answers": [
+                          "We'll get the oven checked",
+                          "We will get the oven checked"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Me voy a cortar el pelo (en la peluquería).",
+                        "answers": [
+                          "I'm going to get my hair cut",
+                          "I'm going to have my hair cut",
+                          "I am going to get my hair cut"
+                        ]
+                      },
+                      {
+                        "source": "Nos van a arreglar la caldera.",
+                        "answers": [
+                          "We're having the boiler repaired",
+                          "We're getting the boiler repaired",
+                          "We are having the boiler repaired",
+                          "We're going to have the boiler repaired"
+                        ]
+                      },
+                      {
+                        "source": "La semana pasada llevé el coche a revisar.",
+                        "answers": [
+                          "I had my car serviced last week",
+                          "I got my car serviced last week",
+                          "Last week I had my car serviced"
+                        ]
+                      },
+                      {
+                        "source": "Pediré a alguien que lo mire.",
+                        "answers": [
+                          "I'll get someone to look at it",
+                          "I will get someone to look at it",
+                          "I'll ask someone to look at it"
+                        ]
+                      },
+                      {
+                        "source": "¿Dónde te cortas el pelo?",
+                        "answers": [
+                          "Where do you have your hair cut",
+                          "Where do you get your hair cut"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "I'm having the boiler repaired on Thursday."
+                      },
+                      {
+                        "text": "Could you have the oven checked too?"
+                      },
+                      {
+                        "text": "I'll get someone to look at it."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "boiler",
+                        "definition": "A machine that heats water",
+                        "translation": "caldera",
+                        "example": "The boiler breaks down."
+                      },
+                      {
+                        "term": "break down",
+                        "definition": "Stop working (a machine)",
+                        "translation": "averiarse",
+                        "example": "The boiler breaks down."
+                      },
+                      {
+                        "term": "engineer",
+                        "definition": "A person who repairs machines",
+                        "translation": "técnico/a",
+                        "example": "The engineer can't come any earlier."
+                      },
+                      {
+                        "term": "repair",
+                        "definition": "Fix",
+                        "translation": "reparar",
+                        "example": "I'm having the boiler repaired."
+                      },
+                      {
+                        "term": "repaint",
+                        "definition": "Paint again",
+                        "translation": "volver a pintar",
+                        "example": "I'm getting the kitchen repainted."
+                      },
+                      {
+                        "term": "while I'm at it",
+                        "definition": "Since I am already doing this",
+                        "translation": "ya puestos",
+                        "example": "And while I'm at it…"
+                      },
+                      {
+                        "term": "oven",
+                        "definition": "A box for cooking with heat",
+                        "translation": "horno",
+                        "example": "Could you have the oven checked?"
+                      },
+                      {
+                        "term": "strange",
+                        "definition": "Unusual",
+                        "translation": "extraño/a, raro/a",
+                        "example": "a strange noise"
+                      },
+                      {
+                        "term": "meanwhile",
+                        "definition": "At the same time; until then",
+                        "translation": "mientras tanto",
+                        "example": "Meanwhile, I'm going to shower at the gym."
+                      },
+                      {
+                        "term": "get your hair cut",
+                        "definition": "Have a hairdresser cut your hair",
+                        "translation": "cortarse el pelo",
+                        "example": "I might get my hair cut."
+                      },
+                      {
+                        "term": "service (a car)",
+                        "definition": "Check and repair a car regularly",
+                        "translation": "hacer la revisión",
+                        "example": "I had my car serviced."
+                      },
+                      {
+                        "term": "heating",
+                        "definition": "The system that keeps a place warm",
+                        "translation": "calefacción",
+                        "example": "the heating in the car works"
+                      },
+                      {
+                        "term": "chimney",
+                        "definition": "A pipe that takes smoke out of a house",
+                        "translation": "chimenea",
+                        "example": "We had the chimney swept."
+                      },
+                      {
+                        "term": "come round",
+                        "definition": "Visit someone at home",
+                        "translation": "pasarse (por casa)",
+                        "example": "Mrs Green comes round."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "I'm ___ my hair cut tomorrow.",
+                        "options": [
+                          "having",
+                          "cutting"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She had her car ___.",
+                        "options": [
+                          "repaired",
+                          "repair",
+                          "repairing"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "We'll get someone ___ fix it.",
+                        "options": [
+                          "to",
+                          "-"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I need to get my eyes ___.",
+                        "options": [
+                          "tested",
+                          "test"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "They had the house ___ last year.",
+                        "options": [
+                          "painted",
+                          "to paint"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "When is the boiler going to be repaired?",
+                        "options": [
+                          "on Thursday",
+                          "on Sunday",
+                          "next month"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,671 @@
+{
+  "level_id": "A1",
+  "themes": [
+    {
+      "theme_id": "people_places",
+      "units": [
+        {
+          "unit_id": "free_time",
+          "title": "Friday Night Music",
+          "description": "Habla de gustos y aficiones con like/love/hate + -ing y los pronombres objeto.",
+          "lessons": [
+            {
+              "lesson_id": "free_time_lesson",
+              "title": "like + -ing and object pronouns",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Friday night music",
+                    "dialogue": [
+                      {
+                        "speaker": "Daniel",
+                        "text": "This place is great! Do you like live music, Lucía?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I love it! And I love dancing too."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "I don't like dancing. I like watching!"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "What do you do in your free time, Priya?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "I love cooking, and I like gardening. Our tomatoes are fantastic."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "And you, Daniel?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "I like running, and I love reading. But I hate shopping!"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Hi, everyone! Do you like the band?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "We love it! You're brilliant, Sam!"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Thanks! Daniel, nice to meet you. Lucía talks about you a lot."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Really? Well, she talks about you too. And about your big black umbrella!"
+                      }
+                    ],
+                    "passage": "Friday night at The Old Duke. Sam's band plays here every Friday. Tonight Lucía is with Priya and Daniel."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"I love dancing.\" After love/like/hate, the verb…",
+                        "options": [
+                          "takes -ing",
+                          "takes -s",
+                          "doesn't change"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"She talks about you.\" She talks about Sam → She talks about ___.",
+                        "options": [
+                          "he",
+                          "him",
+                          "his"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Who hates shopping?",
+                        "options": [
+                          "Daniel",
+                          "Priya",
+                          "Lucía"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Who says \"I don't like dancing. I like watching!\"?",
+                        "options": [
+                          "Priya",
+                          "Lucía",
+                          "Sam"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "like / love / hate + -ing and object pronouns",
+                    "explanation": "Para hablar de gustos: love (encantar), like (gustar), don't like (no gustar), hate (odiar). Si detrás viene una actividad, el verbo va en -ing: I love dancing, He hates shopping.\n\nOrtografía del -ing: dance → dancing (pierde la -e), run → running y shop → shopping (doblan la consonante).\n\nLos pronombres objeto van detrás del verbo o de una preposición: I love it, She talks about you, Come with me. Nunca «I love she»: se dice I love her.",
+                    "table": {
+                      "headers": [
+                        "Sujeto",
+                        "Objeto",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "I",
+                          "me",
+                          "Come with me!"
+                        ],
+                        [
+                          "you",
+                          "you",
+                          "She talks about you."
+                        ],
+                        [
+                          "he",
+                          "him",
+                          "Do you like him?"
+                        ],
+                        [
+                          "she",
+                          "her",
+                          "I like her."
+                        ],
+                        [
+                          "it",
+                          "it",
+                          "We love it!"
+                        ],
+                        [
+                          "we",
+                          "us",
+                          "Sam plays for us."
+                        ],
+                        [
+                          "they",
+                          "them",
+                          "I love them."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I love dancing.",
+                      "Priya likes gardening.",
+                      "Daniel hates shopping.",
+                      "Do you like the band? — We love it!"
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la forma -ing o un pronombre objeto.",
+                    "items": [
+                      {
+                        "sentence": "I love ___. (dance)",
+                        "answers": [
+                          [
+                            "dancing"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel likes ___. (run)",
+                        "answers": [
+                          [
+                            "running"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Priya loves ___. (cook)",
+                        "answers": [
+                          [
+                            "cooking"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He hates ___. (shop)",
+                        "answers": [
+                          [
+                            "shopping"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam is brilliant. I like ___.",
+                        "answers": [
+                          [
+                            "him"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Priya is very kind. We love ___.",
+                        "answers": [
+                          [
+                            "her"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The band? We love ___!",
+                        "answers": [
+                          [
+                            "it"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Lucía talks about Daniel and Sam. She talks about ___ a lot.",
+                        "answers": [
+                          [
+                            "them"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "I love dancing"
+                      },
+                      {
+                        "answer": "Do you like live music"
+                      },
+                      {
+                        "answer": "She talks about you a lot"
+                      },
+                      {
+                        "answer": "Priya doesn't like dancing"
+                      },
+                      {
+                        "answer": "Come with me"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Me encanta bailar.",
+                        "answers": [
+                          "I love dancing",
+                          "I love to dance"
+                        ]
+                      },
+                      {
+                        "source": "Odio ir de compras.",
+                        "answers": [
+                          "I hate shopping",
+                          "I hate going shopping"
+                        ]
+                      },
+                      {
+                        "source": "¿Te gusta la música en directo?",
+                        "answers": [
+                          "Do you like live music"
+                        ]
+                      },
+                      {
+                        "source": "A Priya le gusta cocinar.",
+                        "answers": [
+                          "Priya likes cooking",
+                          "Priya likes to cook"
+                        ]
+                      },
+                      {
+                        "source": "Ella habla de él.",
+                        "answers": [
+                          "She talks about him"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "I love dancing."
+                      },
+                      {
+                        "text": "Do you like live music?"
+                      },
+                      {
+                        "text": "What do you do in your free time?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "free time",
+                        "definition": "Time when you are not working",
+                        "translation": "tiempo libre",
+                        "example": "What do you do in your free time?"
+                      },
+                      {
+                        "term": "live music",
+                        "definition": "Music played in front of people",
+                        "translation": "música en directo",
+                        "example": "Do you like live music?"
+                      },
+                      {
+                        "term": "dancing",
+                        "definition": "Moving your body to music",
+                        "translation": "bailar",
+                        "example": "I love dancing."
+                      },
+                      {
+                        "term": "cooking",
+                        "definition": "Making food",
+                        "translation": "cocinar",
+                        "example": "Priya loves cooking."
+                      },
+                      {
+                        "term": "gardening",
+                        "definition": "Working with plants in a garden",
+                        "translation": "jardinería",
+                        "example": "She likes gardening."
+                      },
+                      {
+                        "term": "running",
+                        "definition": "Moving fast on foot as exercise",
+                        "translation": "correr",
+                        "example": "Daniel likes running."
+                      },
+                      {
+                        "term": "reading",
+                        "definition": "Looking at and understanding books",
+                        "translation": "leer",
+                        "example": "He loves reading."
+                      },
+                      {
+                        "term": "shopping",
+                        "definition": "Going to shops to buy things",
+                        "translation": "ir de compras",
+                        "example": "Daniel hates shopping."
+                      },
+                      {
+                        "term": "love",
+                        "definition": "Like something very much",
+                        "translation": "encantar, querer",
+                        "example": "We love it!"
+                      },
+                      {
+                        "term": "like",
+                        "definition": "Think something is nice",
+                        "translation": "gustar",
+                        "example": "I like watching."
+                      },
+                      {
+                        "term": "hate",
+                        "definition": "Really not like something",
+                        "translation": "odiar",
+                        "example": "I hate shopping!"
+                      },
+                      {
+                        "term": "brilliant",
+                        "definition": "Very, very good",
+                        "translation": "genial",
+                        "example": "You're brilliant, Sam!"
+                      },
+                      {
+                        "term": "fantastic",
+                        "definition": "Extremely good",
+                        "translation": "fantástico/a",
+                        "example": "Our tomatoes are fantastic."
+                      },
+                      {
+                        "term": "a lot",
+                        "definition": "Very much; many times",
+                        "translation": "mucho",
+                        "example": "Lucía talks about you a lot."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "I like ___.",
+                        "options": [
+                          "dance",
+                          "dancing",
+                          "dances"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "He hates ___.",
+                        "options": [
+                          "shoping",
+                          "shopping",
+                          "shops"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Sam is my friend. I like ___.",
+                        "options": [
+                          "he",
+                          "his",
+                          "him"
+                        ],
+                        "answer": 2
+                      },
+                      {
+                        "question": "Priya? I love ___.",
+                        "options": [
+                          "her",
+                          "she",
+                          "hers"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The music? We love ___.",
+                        "options": [
+                          "them",
+                          "it",
+                          "him"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "What does Priya grow?",
+                        "options": [
+                          "tomatoes",
+                          "potatoes",
+                          "flowers"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "a1_checkpoint_3",
+              "title": "Checkpoint 3: People & Places",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "Priya ___ at the hospital.",
+                        "options": [
+                          "work",
+                          "works",
+                          "working"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "___ Sam get up early?",
+                        "options": [
+                          "Do",
+                          "Does",
+                          "Is"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Sam ___ gets up before ten. (0%)",
+                        "options": [
+                          "always",
+                          "never",
+                          "often"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "The café is ___ the bank. (al lado)",
+                        "options": [
+                          "next to",
+                          "between",
+                          "opposite"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ left at the bank.",
+                        "options": [
+                          "Turn",
+                          "Turns",
+                          "Turning"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Daniel likes ___.",
+                        "options": [
+                          "run",
+                          "running",
+                          "runs"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Lucía talks about Daniel. She talks about ___.",
+                        "options": [
+                          "he",
+                          "him",
+                          "his"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "'Bookshop' = …",
+                        "options": [
+                          "librería",
+                          "biblioteca"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "She ___ to work by bike. (go)",
+                        "answers": [
+                          [
+                            "goes"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He doesn't ___ on Mondays. (work)",
+                        "answers": [
+                          [
+                            "work"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It's ___ the post office and the bookshop.",
+                        "answers": [
+                          [
+                            "between"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ straight on.",
+                        "answers": [
+                          [
+                            "Go"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I hate ___. (shop)",
+                        "answers": [
+                          [
+                            "shopping"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Do you like Priya? — Yes, I like ___ a lot.",
+                        "answers": [
+                          [
+                            "her"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Él nunca se levanta temprano.",
+                        "answers": [
+                          "He never gets up early"
+                        ]
+                      },
+                      {
+                        "source": "¿Hay un banco cerca de aquí?",
+                        "answers": [
+                          "Is there a bank near here"
+                        ]
+                      },
+                      {
+                        "source": "Me encanta cocinar.",
+                        "answers": [
+                          "I love cooking",
+                          "I love to cook"
+                        ]
+                      },
+                      {
+                        "source": "¿Trabaja Sam los viernes?",
+                        "answers": [
+                          "Does Sam work on Fridays"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

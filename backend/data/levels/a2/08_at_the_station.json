@@ -1,0 +1,488 @@
+{
+  "level_id": "A2",
+  "themes": [
+    {
+      "theme_id": "london_trip",
+      "units": [
+        {
+          "unit_id": "at_the_station",
+          "title": "At the Station",
+          "description": "Decisiones rápidas, ofrecimientos y predicciones con will.",
+          "lessons": [
+            {
+              "lesson_id": "at_the_station_lesson",
+              "title": "will for decisions, offers and predictions",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "At the station",
+                    "dialogue": [
+                      {
+                        "speaker": "Lucía",
+                        "text": "Oh no! The tickets are for next Saturday, not today!"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "What? OK, don't panic. I'll go and ask at the ticket office."
+                      },
+                      {
+                        "speaker": "Agent",
+                        "text": "Good morning. How can I help?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "We've got tickets for the wrong day. Can we change them?"
+                      },
+                      {
+                        "speaker": "Agent",
+                        "text": "Let me see… Yes, you can, but it will cost ten pounds each."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "That's fine. I'll pay. It was my mistake."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Then I'll pay for the coffees."
+                      },
+                      {
+                        "speaker": "Agent",
+                        "text": "The next train to London leaves at nine fifteen from platform five."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Will it be busy?"
+                      },
+                      {
+                        "speaker": "Agent",
+                        "text": "I think it will be quite busy. It's Saturday."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "We won't find three seats together, then."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Never mind. I'll stand. I'm too happy to sit down!"
+                      }
+                    ],
+                    "passage": "Saturday morning at Bristol Temple Meads station. Lucía has the tickets on her phone, but there's a problem."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"I'll go and ask at the ticket office.\" Priya decides this…",
+                        "options": [
+                          "now, at that moment",
+                          "before, as a plan"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I'll pay.\" This is…",
+                        "options": [
+                          "an offer",
+                          "a plan made before"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I think it will be quite busy.\" This is…",
+                        "options": [
+                          "a prediction",
+                          "a habit"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What is the problem with the tickets?",
+                        "options": [
+                          "They're for the wrong day.",
+                          "They're for the wrong city.",
+                          "They're too expensive."
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "will: decisions, offers and predictions",
+                    "explanation": "Will ('ll) + verbo en forma base se usa para:\n• decisiones que tomamos en el momento: I'll go and ask.\n• ofrecimientos: I'll pay for the coffees.\n• promesas: I won't forget the tickets again!\n• predicciones u opiniones sobre el futuro: I think it will be busy.\n\nNegativa: won't (will not). Pregunta: Will it be busy?\n\nCompáralo con be going to, que expresa un plan ya decidido: I'm going to book the tickets tonight (lo pensé antes) / I'll pay (lo decido ahora).",
+                    "table": {
+                      "headers": [
+                        "Uso",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Decisión en el momento",
+                          "I'll go and ask at the ticket office."
+                        ],
+                        [
+                          "Ofrecimiento",
+                          "I'll pay for the coffees."
+                        ],
+                        [
+                          "Promesa",
+                          "I won't forget the tickets again!"
+                        ],
+                        [
+                          "Predicción",
+                          "I think it will be quite busy."
+                        ],
+                        [
+                          "Negativa",
+                          "We won't find three seats together."
+                        ],
+                        [
+                          "Pregunta",
+                          "Will it be busy?"
+                        ],
+                        [
+                          "Plan decidido (going to)",
+                          "I'm going to book the tickets tonight."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Don't panic. I'll go and ask.",
+                      "It will cost ten pounds each.",
+                      "I'll pay. It was my mistake.",
+                      "We won't find three seats together."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con will, won't o going.",
+                    "items": [
+                      {
+                        "sentence": "Don't panic. I ___ ask at the ticket office.",
+                        "answers": [
+                          [
+                            "will",
+                            "'ll"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It ___ cost ten pounds each.",
+                        "answers": [
+                          [
+                            "will"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I think it ___ be quite busy.",
+                        "answers": [
+                          [
+                            "will"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We ___ find three seats together.",
+                        "answers": [
+                          [
+                            "won't",
+                            "will not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ it be cold in London?",
+                        "answers": [
+                          [
+                            "Will"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'll ___ for the coffees. (pay)",
+                        "answers": [
+                          [
+                            "pay"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Thanks! I ___ forget. (promesa)",
+                        "answers": [
+                          [
+                            "won't",
+                            "will not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We booked the hotel last week. We're ___ to stay two nights. (plan)",
+                        "answers": [
+                          [
+                            "going"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "I'll go and ask"
+                      },
+                      {
+                        "answer": "It will cost ten pounds"
+                      },
+                      {
+                        "answer": "Will it be busy"
+                      },
+                      {
+                        "answer": "We won't find three seats"
+                      },
+                      {
+                        "answer": "I think it will rain"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Yo pago.",
+                        "answers": [
+                          "I'll pay",
+                          "I will pay"
+                        ]
+                      },
+                      {
+                        "source": "Creo que habrá mucha gente.",
+                        "answers": [
+                          "I think it will be busy",
+                          "I think it'll be busy"
+                        ]
+                      },
+                      {
+                        "source": "No lo olvidaré.",
+                        "answers": [
+                          "I won't forget",
+                          "I will not forget",
+                          "I won't forget it"
+                        ]
+                      },
+                      {
+                        "source": "¿Estará lleno el tren?",
+                        "answers": [
+                          "Will the train be full",
+                          "Will the train be busy"
+                        ]
+                      },
+                      {
+                        "source": "Te ayudo con la maleta.",
+                        "answers": [
+                          "I'll help you with your suitcase",
+                          "I'll help you with the suitcase",
+                          "I will help you with your suitcase"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "Don't panic. I'll go and ask."
+                      },
+                      {
+                        "text": "Will it be busy?"
+                      },
+                      {
+                        "text": "Never mind. I'll stand."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "station",
+                        "definition": "A place where trains stop",
+                        "translation": "estación",
+                        "example": "Bristol Temple Meads station"
+                      },
+                      {
+                        "term": "ticket office",
+                        "definition": "Where you buy tickets",
+                        "translation": "taquilla",
+                        "example": "I'll go and ask at the ticket office."
+                      },
+                      {
+                        "term": "platform",
+                        "definition": "Where you get on a train",
+                        "translation": "andén",
+                        "example": "from platform five"
+                      },
+                      {
+                        "term": "seat",
+                        "definition": "A place to sit",
+                        "translation": "asiento",
+                        "example": "We won't find three seats."
+                      },
+                      {
+                        "term": "change",
+                        "definition": "Make something different",
+                        "translation": "cambiar",
+                        "example": "Can we change them?"
+                      },
+                      {
+                        "term": "mistake",
+                        "definition": "Something wrong you do",
+                        "translation": "error",
+                        "example": "It was my mistake."
+                      },
+                      {
+                        "term": "wrong",
+                        "definition": "Not correct",
+                        "translation": "equivocado/a",
+                        "example": "tickets for the wrong day"
+                      },
+                      {
+                        "term": "each",
+                        "definition": "For every one",
+                        "translation": "cada uno",
+                        "example": "ten pounds each"
+                      },
+                      {
+                        "term": "leave",
+                        "definition": "Go away from a place (a train leaves)",
+                        "translation": "salir",
+                        "example": "The next train leaves at nine fifteen."
+                      },
+                      {
+                        "term": "panic",
+                        "definition": "Feel very afraid and not think clearly",
+                        "translation": "entrar en pánico",
+                        "example": "Don't panic!"
+                      },
+                      {
+                        "term": "never mind",
+                        "definition": "Said when something isn't important",
+                        "translation": "no importa",
+                        "example": "Never mind. I'll stand."
+                      },
+                      {
+                        "term": "stand",
+                        "definition": "Be on your feet",
+                        "translation": "estar de pie",
+                        "example": "I'll stand."
+                      },
+                      {
+                        "term": "return ticket",
+                        "definition": "A ticket to go and come back",
+                        "translation": "billete de ida y vuelta",
+                        "example": "Two return tickets to London, please."
+                      },
+                      {
+                        "term": "quite",
+                        "definition": "A little; fairly",
+                        "translation": "bastante",
+                        "example": "It will be quite busy."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "\"The phone is ringing.\" — \"I ___ answer it.\"",
+                        "options": [
+                          "will",
+                          "'m going to"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I think it ___ rain tomorrow.",
+                        "options": [
+                          "will",
+                          "is"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "We ___ find three seats.",
+                        "options": [
+                          "won't",
+                          "don't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ it be busy?",
+                        "options": [
+                          "Will",
+                          "Does"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I bought the tickets yesterday. I ___ go to London.",
+                        "options": [
+                          "'m going to",
+                          "'ll"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "How much does it cost to change each ticket?",
+                        "options": [
+                          "ten pounds",
+                          "five pounds",
+                          "nothing"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

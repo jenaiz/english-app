@@ -1,0 +1,480 @@
+{
+  "level_id": "A2",
+  "themes": [
+    {
+      "theme_id": "christmas",
+      "units": [
+        {
+          "unit_id": "christmas_party",
+          "title": "The Christmas Party",
+          "description": "Invita, ofrece y di lo que quieres: would like, want y decide + to.",
+          "lessons": [
+            {
+              "lesson_id": "christmas_party_lesson",
+              "title": "would like and verb + to",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "The Christmas party",
+                    "dialogue": [
+                      {
+                        "speaker": "Helen",
+                        "text": "Thank you all for a fantastic year. I'd like to welcome our newest designer, Lucía. Her work is excellent."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Thank you, Helen. I'm very happy to be here."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Would you like a drink, Lucía?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes, I'd like a glass of wine, please."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "So, are you going home for Christmas?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes. I decided to fly on the twentieth. I want to see my family, and I need some sun!"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "I'm going to Galway. My mam wants to know everything about Bristol."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Lucía, would you like to have dinner with me after Christmas? Just the two of us."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I'd love to."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Really? Grand! I'd like to take you to a little Irish restaurant I know."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "And now, do you want to dance?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "I can't dance… but I'd like to try!"
+                      }
+                    ],
+                    "passage": "Friday, the office Christmas party. Harbour Studio is full of lights and music, and Helen is making a short speech."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"I'd like a glass of wine.\" I'd = …",
+                        "options": [
+                          "I would",
+                          "I had"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Would you like to have dinner with me?\" This is…",
+                        "options": [
+                          "an invitation",
+                          "an order"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I decided to fly on the twentieth.\" After decide we use…",
+                        "options": [
+                          "to + verb",
+                          "verb + -ing"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What does Daniel answer when Lucía asks him to dance?",
+                        "options": [
+                          "I can't dance… but I'd like to try!",
+                          "No, thanks.",
+                          "Yes, I love dancing."
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "would like and verb + to",
+                    "explanation": "Would like es una forma educada de want. Va con un nombre (I'd like a glass of wine) o con to + verbo (I'd like to take you to a restaurant).\n\nWould you like…? sirve para ofrecer e invitar. Respuestas: Yes, please / I'd love to / No, thank you.\n\nOtros verbos también van seguidos de to + verbo: want, need, decide, hope, try, learn. Por ejemplo, I decided to fly on the twentieth.\n\nOjo con la diferencia: I like dancing (me gusta en general) / I'd like to dance (me apetece ahora).",
+                    "table": {
+                      "headers": [
+                        "Estructura",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "would like + nombre",
+                          "I'd like a glass of wine."
+                        ],
+                        [
+                          "would like + to + verbo",
+                          "I'd like to take you to a restaurant."
+                        ],
+                        [
+                          "Would you like…?",
+                          "Would you like a drink?"
+                        ],
+                        [
+                          "Responder",
+                          "I'd love to. / Yes, please. / No, thank you."
+                        ],
+                        [
+                          "want / need / decide + to",
+                          "I decided to fly on the twentieth."
+                        ],
+                        [
+                          "like + -ing (en general)",
+                          "I like dancing. ≠ I'd like to dance (ahora)."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I'd like to welcome our newest designer, Lucía.",
+                      "Would you like to have dinner with me?",
+                      "I'd love to.",
+                      "I want to see my family."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa la frase.",
+                    "items": [
+                      {
+                        "sentence": "Would you ___ a drink?",
+                        "answers": [
+                          [
+                            "like"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'd like ___ welcome our new designer.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I decided ___ fly on the twentieth.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I want ___ see my family.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Would you like to have dinner with me? — I'd love ___.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'd ___ a glass of wine, please.",
+                        "answers": [
+                          [
+                            "like"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I need ___ buy some presents.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Do you want ___ dance?",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "Would you like a drink"
+                      },
+                      {
+                        "answer": "I'd like to take you to dinner"
+                      },
+                      {
+                        "answer": "I decided to fly home"
+                      },
+                      {
+                        "answer": "Do you want to dance"
+                      },
+                      {
+                        "answer": "I'd love to"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "¿Quieres algo de beber?",
+                        "answers": [
+                          "Would you like a drink",
+                          "Would you like something to drink",
+                          "Do you want a drink",
+                          "Do you want something to drink"
+                        ]
+                      },
+                      {
+                        "source": "Me gustaría cenar contigo.",
+                        "answers": [
+                          "I'd like to have dinner with you",
+                          "I would like to have dinner with you"
+                        ]
+                      },
+                      {
+                        "source": "Decidí volar el día veinte.",
+                        "answers": [
+                          "I decided to fly on the twentieth",
+                          "I decided to fly on the 20th"
+                        ]
+                      },
+                      {
+                        "source": "Me encantaría.",
+                        "answers": [
+                          "I'd love to",
+                          "I would love to"
+                        ]
+                      },
+                      {
+                        "source": "Quiero ver a mi familia.",
+                        "answers": [
+                          "I want to see my family"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "Would you like a drink?"
+                      },
+                      {
+                        "text": "Would you like to have dinner with me?"
+                      },
+                      {
+                        "text": "I'd love to."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "party",
+                        "definition": "An event with music, food and friends",
+                        "translation": "fiesta",
+                        "example": "the office Christmas party"
+                      },
+                      {
+                        "term": "Christmas",
+                        "definition": "The holiday on 25th December",
+                        "translation": "Navidad",
+                        "example": "Are you going home for Christmas?"
+                      },
+                      {
+                        "term": "speech",
+                        "definition": "A talk to a group of people",
+                        "translation": "discurso",
+                        "example": "Helen is making a short speech."
+                      },
+                      {
+                        "term": "lights",
+                        "definition": "Things that make light",
+                        "translation": "luces",
+                        "example": "full of lights and music"
+                      },
+                      {
+                        "term": "welcome",
+                        "definition": "Say you are happy someone is here",
+                        "translation": "dar la bienvenida",
+                        "example": "I'd like to welcome Lucía."
+                      },
+                      {
+                        "term": "excellent",
+                        "definition": "Very, very good",
+                        "translation": "excelente",
+                        "example": "Her work is excellent."
+                      },
+                      {
+                        "term": "decide",
+                        "definition": "Choose what to do",
+                        "translation": "decidir",
+                        "example": "I decided to fly on the twentieth."
+                      },
+                      {
+                        "term": "fly",
+                        "definition": "Travel by plane (flew)",
+                        "translation": "volar, ir en avión",
+                        "example": "I decided to fly home."
+                      },
+                      {
+                        "term": "present",
+                        "definition": "Something you give someone",
+                        "translation": "regalo",
+                        "example": "I need to buy some presents."
+                      },
+                      {
+                        "term": "would like",
+                        "definition": "A polite way to say want",
+                        "translation": "me gustaría, quisiera",
+                        "example": "I'd like a glass of wine."
+                      },
+                      {
+                        "term": "I'd love to",
+                        "definition": "A happy yes to an invitation",
+                        "translation": "me encantaría",
+                        "example": "I'd love to."
+                      },
+                      {
+                        "term": "invite",
+                        "definition": "Ask someone to come to something",
+                        "translation": "invitar",
+                        "example": "Daniel invites Lucía to dinner."
+                      },
+                      {
+                        "term": "just the two of us",
+                        "definition": "Only you and me",
+                        "translation": "solos tú y yo",
+                        "example": "Just the two of us."
+                      },
+                      {
+                        "term": "try",
+                        "definition": "Make an effort to do something",
+                        "translation": "intentar",
+                        "example": "I'd like to try!"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "I'd ___ a coffee, please.",
+                        "options": [
+                          "like",
+                          "love to"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Would you like ___ dance?",
+                        "options": [
+                          "to",
+                          "-"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I decided ___ stay at home.",
+                        "options": [
+                          "to",
+                          "staying"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Would you like to come? — I'd love ___.",
+                        "options": [
+                          "to",
+                          "it"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I like ___. (en general)",
+                        "options": [
+                          "dancing",
+                          "to dancing"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Where does Daniel want to take Lucía?",
+                        "options": [
+                          "a little Irish restaurant",
+                          "the pub",
+                          "Galway"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

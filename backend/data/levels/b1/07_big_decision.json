@@ -1,0 +1,493 @@
+{
+  "level_id": "B1",
+  "themes": [
+    {
+      "theme_id": "changes",
+      "units": [
+        {
+          "unit_id": "big_decision",
+          "title": "A Big Decision",
+          "description": "Situaciones imaginarias y consejos: el segundo condicional.",
+          "lessons": [
+            {
+              "lesson_id": "big_decision_lesson",
+              "title": "Second conditional",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "A big decision",
+                    "dialogue": [
+                      {
+                        "speaker": "Sam",
+                        "text": "They want us in London for six months. Six months!"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Sam, that's amazing! So why do you look so worried?"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "If I went, I'd have to leave the pub, and the house. And you two."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "If I were you, I'd go. It's your dream."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "But what would I do if it didn't work?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "If it didn't work, you'd come back. Mrs Green would give you your room again."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Would you miss me?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Miss you? If you left, the kitchen would be much tidier!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "We'd miss you a lot. Who would make chicken soup when I'm ill?"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "OK. If you promise to visit me, I'll go."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Of course we'll visit!"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "But we'll need a new flatmate…"
+                      }
+                    ],
+                    "passage": "May. Sam comes home with big news. The music producer from February wants his band to record an album in London."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"If I went, I'd have to leave the pub.\" Has Sam decided to go?",
+                        "options": [
+                          "No, he is imagining it.",
+                          "Yes, he has."
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"If I were you, I'd go.\" This is…",
+                        "options": [
+                          "advice (un consejo)",
+                          "a past fact"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I'd go\": I'd = …",
+                        "options": [
+                          "I would",
+                          "I had"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Who makes chicken soup when Lucía is ill?",
+                        "options": [
+                          "Sam",
+                          "Priya",
+                          "Daniel"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Second conditional",
+                    "explanation": "El segundo condicional habla de situaciones imaginarias o poco probables, en el presente o en el futuro: If + past simple, would + verbo. If I went, I'd have to leave the pub.\n\nAunque el verbo está en pasado, no hablamos del pasado: «si fuera», «si tuviera».\n\nPara dar consejos: If I were you, I'd… (were sirve para todas las personas).\n\nCompáralo con el primer condicional, que habla de algo posible y real: If you promise to visit me, I'll go.",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Estructura",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "1.er condicional (posible)",
+                          "If + presente, will",
+                          "If you promise to visit me, I'll go."
+                        ],
+                        [
+                          "2.º condicional (imaginario)",
+                          "If + pasado, would",
+                          "If I went, I'd have to leave the pub."
+                        ],
+                        [
+                          "Consejo",
+                          "If I were you, I'd…",
+                          "If I were you, I'd go."
+                        ],
+                        [
+                          "Pregunta",
+                          "What would you do if…?",
+                          "What would you do if it didn't work?"
+                        ],
+                        [
+                          "Negativa",
+                          "wouldn't",
+                          "If you left, I wouldn't be happy."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "If I were you, I'd go. It's your dream.",
+                      "What would I do if it didn't work?",
+                      "If it didn't work, you'd come back.",
+                      "If you left, the kitchen would be much tidier!"
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el segundo condicional.",
+                    "items": [
+                      {
+                        "sentence": "If I ___, I'd have to leave the pub. (go)",
+                        "answers": [
+                          [
+                            "went"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If I ___ you, I'd go.",
+                        "answers": [
+                          [
+                            "were"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "What ___ I do if it didn't work?",
+                        "answers": [
+                          [
+                            "would"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If it didn't work, you ___ come back.",
+                        "answers": [
+                          [
+                            "would",
+                            "'d"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If you left, the kitchen ___ be much tidier.",
+                        "answers": [
+                          [
+                            "would"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We ___ miss you a lot.",
+                        "answers": [
+                          [
+                            "would",
+                            "'d"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If I had more money, I ___ buy a car.",
+                        "answers": [
+                          [
+                            "would",
+                            "'d"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If you promise to visit me, I ___ go. (real)",
+                        "answers": [
+                          [
+                            "will",
+                            "'ll"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "If I were you I'd go"
+                      },
+                      {
+                        "answer": "What would you do"
+                      },
+                      {
+                        "answer": "We would miss you a lot"
+                      },
+                      {
+                        "answer": "The kitchen would be much tidier"
+                      },
+                      {
+                        "answer": "If I won the lottery I would travel"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Si yo fuera tú, iría.",
+                        "answers": [
+                          "If I were you, I'd go",
+                          "If I were you I'd go",
+                          "If I were you, I would go",
+                          "If I were you I would go"
+                        ]
+                      },
+                      {
+                        "source": "¿Qué harías si no funcionara?",
+                        "answers": [
+                          "What would you do if it didn't work",
+                          "What would you do if it did not work"
+                        ]
+                      },
+                      {
+                        "source": "Si ganara la lotería, viajaría.",
+                        "answers": [
+                          "If I won the lottery, I'd travel",
+                          "If I won the lottery I would travel",
+                          "If I won the lottery, I would travel",
+                          "If I won the lottery I'd travel"
+                        ]
+                      },
+                      {
+                        "source": "Te echaríamos de menos.",
+                        "answers": [
+                          "We would miss you",
+                          "We'd miss you"
+                        ]
+                      },
+                      {
+                        "source": "Si tuviera tiempo, te ayudaría.",
+                        "answers": [
+                          "If I had time, I'd help you",
+                          "If I had time I would help you",
+                          "If I had time, I would help you",
+                          "If I had time I'd help you"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "If I were you, I'd go."
+                      },
+                      {
+                        "text": "What would you do if it didn't work?"
+                      },
+                      {
+                        "text": "We'd miss you a lot."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "record",
+                        "definition": "Put music or sound on a disc or file",
+                        "translation": "grabar",
+                        "example": "They want his band to record an album."
+                      },
+                      {
+                        "term": "album",
+                        "definition": "A collection of songs",
+                        "translation": "álbum, disco",
+                        "example": "record an album in London"
+                      },
+                      {
+                        "term": "dream",
+                        "definition": "Something you really want",
+                        "translation": "sueño",
+                        "example": "It's your dream."
+                      },
+                      {
+                        "term": "worried",
+                        "definition": "Thinking about problems",
+                        "translation": "preocupado/a",
+                        "example": "Why do you look so worried?"
+                      },
+                      {
+                        "term": "miss",
+                        "definition": "Feel sad because someone is not there",
+                        "translation": "echar de menos",
+                        "example": "Would you miss me?"
+                      },
+                      {
+                        "term": "tidy",
+                        "definition": "Clean and in order",
+                        "translation": "ordenado/a",
+                        "example": "The kitchen would be much tidier!"
+                      },
+                      {
+                        "term": "promise",
+                        "definition": "Say you will certainly do something",
+                        "translation": "prometer",
+                        "example": "If you promise to visit me…"
+                      },
+                      {
+                        "term": "work (out)",
+                        "definition": "Be successful",
+                        "translation": "salir bien, funcionar",
+                        "example": "What if it didn't work?"
+                      },
+                      {
+                        "term": "decision",
+                        "definition": "A choice you make",
+                        "translation": "decisión",
+                        "example": "a big decision"
+                      },
+                      {
+                        "term": "If I were you",
+                        "definition": "Used to give advice",
+                        "translation": "yo que tú, si yo fuera tú",
+                        "example": "If I were you, I'd go."
+                      },
+                      {
+                        "term": "would",
+                        "definition": "Used for imaginary situations",
+                        "translation": "condicional (-ría)",
+                        "example": "We would miss you."
+                      },
+                      {
+                        "term": "lottery",
+                        "definition": "A game where you can win a lot of money",
+                        "translation": "lotería",
+                        "example": "If I won the lottery…"
+                      },
+                      {
+                        "term": "leave",
+                        "definition": "Go away from a place or job",
+                        "translation": "dejar, irse de",
+                        "example": "I'd have to leave the pub."
+                      },
+                      {
+                        "term": "visit",
+                        "definition": "Go to see someone",
+                        "translation": "visitar",
+                        "example": "Of course we'll visit!"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "If I ___ rich, I'd buy a house.",
+                        "options": [
+                          "were",
+                          "am",
+                          "will be"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If she had time, she ___ help.",
+                        "options": [
+                          "would",
+                          "will"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If I were you, I ___ go.",
+                        "options": [
+                          "'d",
+                          "'ll"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What would you do if you ___ the lottery?",
+                        "options": [
+                          "won",
+                          "win",
+                          "would win"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If it rains tomorrow, we ___ stay at home. (real)",
+                        "options": [
+                          "'ll",
+                          "'d"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "How long would Sam be in London?",
+                        "options": [
+                          "six months",
+                          "six weeks",
+                          "a year"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

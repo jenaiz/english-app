@@ -1,0 +1,504 @@
+{
+  "level_id": "B2",
+  "themes": [
+    {
+      "theme_id": "home_truths",
+      "units": [
+        {
+          "unit_id": "house_tensions",
+          "title": "Night Shifts",
+          "description": "Quéjate de lo que te molesta y lamenta lo que no puedes cambiar: wish e if only.",
+          "lessons": [
+            {
+              "lesson_id": "house_tensions_lesson",
+              "title": "wish and if only",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Night shifts",
+                    "dialogue": [
+                      {
+                        "speaker": "Priya",
+                        "text": "I wish Ollie wouldn't cook at two in the morning. I could hear the pans from my room."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I know. And I wish he'd clean up afterwards. The kitchen was a disaster this morning."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "To be fair, the food he leaves is amazing."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "True. I wish I could cook like him."
+                      },
+                      {
+                        "speaker": "Ollie",
+                        "text": "Morning, both. Is something wrong? You look tired."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Ollie, we need to talk. I wish you'd be a bit quieter at night."
+                      },
+                      {
+                        "speaker": "Ollie",
+                        "text": "Oh no. Have I been waking you up? I'm so sorry."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "And the kitchen…"
+                      },
+                      {
+                        "speaker": "Ollie",
+                        "text": "I wish I'd known earlier! Why didn't you say something?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "We didn't want to upset you."
+                      },
+                      {
+                        "speaker": "Ollie",
+                        "text": "You wouldn't have upset me. From now on, I'll cook quietly and clean everything. Promise."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "But you can still leave us the leftovers."
+                      },
+                      {
+                        "speaker": "Ollie",
+                        "text": "Deal. If only all problems were this easy."
+                      }
+                    ],
+                    "passage": "January, year three. Ollie has been working late at the restaurant, and life at Clifton Road has changed."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"I wish Ollie wouldn't cook at two in the morning.\" This expresses…",
+                        "options": [
+                          "annoyance about a habit",
+                          "regret about the past"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I wish I could cook like him.\" This is about…",
+                        "options": [
+                          "an ability she doesn't have now",
+                          "the past"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I wish I'd known earlier!\" This is about…",
+                        "options": [
+                          "the past",
+                          "the future"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What does Ollie promise?",
+                        "options": [
+                          "to cook quietly and clean everything",
+                          "to move out",
+                          "to stop cooking"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "wish and if only",
+                    "explanation": "Wish expresa que algo fuera distinto. El tiempo verbal da un paso atrás:\n• wish + past simple: una situación presente que nos gustaría cambiar: I wish I had more time.\n• wish + could: una habilidad que no tenemos: I wish I could cook like him.\n• wish + would: un hábito de otra persona que nos molesta: I wish he wouldn't cook at two a.m. (no se usa con I).\n• wish + past perfect: arrepentimiento por el pasado: I wish I'd known earlier.\n\nIf only funciona igual, pero es más enfático: If only all problems were this easy.",
+                    "table": {
+                      "headers": [
+                        "Estructura",
+                        "Para",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "wish + pasado",
+                          "situación presente que te gustaría cambiar",
+                          "I wish I had more time."
+                        ],
+                        [
+                          "wish + could",
+                          "habilidad que no tienes",
+                          "I wish I could cook like him."
+                        ],
+                        [
+                          "wish + would",
+                          "hábitos molestos de otros",
+                          "I wish he wouldn't cook at two a.m."
+                        ],
+                        [
+                          "wish + past perfect",
+                          "arrepentimiento del pasado",
+                          "I wish I'd known earlier."
+                        ],
+                        [
+                          "if only",
+                          "igual, pero más enfático",
+                          "If only all problems were this easy."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I wish Ollie wouldn't cook at two in the morning.",
+                      "I wish I could cook like him.",
+                      "I wish I'd known earlier!",
+                      "If only all problems were this easy."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la forma correcta.",
+                    "items": [
+                      {
+                        "sentence": "I wish Ollie ___ cook at two in the morning.",
+                        "answers": [
+                          [
+                            "wouldn't",
+                            "would not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I wish he ___ clean up afterwards.",
+                        "answers": [
+                          [
+                            "would",
+                            "'d"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I wish I ___ cook like him.",
+                        "answers": [
+                          [
+                            "could"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I wish I ___ known earlier!",
+                        "answers": [
+                          [
+                            "had",
+                            "'d"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If ___ all problems were this easy.",
+                        "answers": [
+                          [
+                            "only"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I wish I ___ more time. (have)",
+                        "answers": [
+                          [
+                            "had"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I wish it ___ so cold. (be, negativa)",
+                        "answers": [
+                          [
+                            "wasn't",
+                            "weren't",
+                            "was not",
+                            "were not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I wish you'd ___ a bit quieter.",
+                        "answers": [
+                          [
+                            "be"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Reescribe con wish.",
+                    "items": [
+                      {
+                        "source": "I can't cook like Ollie.",
+                        "answers": [
+                          "I wish I could cook like Ollie"
+                        ]
+                      },
+                      {
+                        "source": "He always leaves the kitchen dirty. (wish… wouldn't)",
+                        "answers": [
+                          "I wish he wouldn't leave the kitchen dirty",
+                          "I wish he would not leave the kitchen dirty"
+                        ]
+                      },
+                      {
+                        "source": "I didn't know earlier.",
+                        "answers": [
+                          "I wish I had known earlier",
+                          "I wish I'd known earlier"
+                        ]
+                      },
+                      {
+                        "source": "I don't have a car.",
+                        "answers": [
+                          "I wish I had a car"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Ojalá supiera cocinar como él.",
+                        "answers": [
+                          "I wish I could cook like him"
+                        ]
+                      },
+                      {
+                        "source": "Ojalá no hiciera tanto ruido.",
+                        "answers": [
+                          "I wish he wouldn't make so much noise",
+                          "I wish he didn't make so much noise"
+                        ]
+                      },
+                      {
+                        "source": "Ojalá lo hubiera sabido antes.",
+                        "answers": [
+                          "I wish I had known earlier",
+                          "I wish I'd known earlier",
+                          "I wish I had known before",
+                          "I wish I'd known before"
+                        ]
+                      },
+                      {
+                        "source": "Ojalá tuviera más tiempo.",
+                        "answers": [
+                          "I wish I had more time",
+                          "If only I had more time"
+                        ]
+                      },
+                      {
+                        "source": "Si al menos fuera fácil.",
+                        "answers": [
+                          "If only it were easy",
+                          "If only it was easy"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "I wish he wouldn't cook at two in the morning."
+                      },
+                      {
+                        "text": "I wish I could cook like him."
+                      },
+                      {
+                        "text": "If only all problems were this easy."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "pans",
+                        "definition": "Metal containers for cooking",
+                        "translation": "sartenes, cazos",
+                        "example": "I could hear the pans."
+                      },
+                      {
+                        "term": "clean up",
+                        "definition": "Make a place clean and tidy",
+                        "translation": "recoger, limpiar",
+                        "example": "I wish he'd clean up afterwards."
+                      },
+                      {
+                        "term": "afterwards",
+                        "definition": "Later, after something",
+                        "translation": "después",
+                        "example": "clean up afterwards"
+                      },
+                      {
+                        "term": "disaster",
+                        "definition": "Something very bad",
+                        "translation": "desastre",
+                        "example": "The kitchen was a disaster."
+                      },
+                      {
+                        "term": "to be fair",
+                        "definition": "Used before saying something positive",
+                        "translation": "para ser justos",
+                        "example": "To be fair, the food is amazing."
+                      },
+                      {
+                        "term": "leftovers",
+                        "definition": "Food that is not eaten",
+                        "translation": "sobras",
+                        "example": "You can still leave us the leftovers."
+                      },
+                      {
+                        "term": "upset",
+                        "definition": "Make someone sad or angry",
+                        "translation": "disgustar, molestar",
+                        "example": "We didn't want to upset you."
+                      },
+                      {
+                        "term": "wake up (someone)",
+                        "definition": "Make someone stop sleeping",
+                        "translation": "despertar (a alguien)",
+                        "example": "Have I been waking you up?"
+                      },
+                      {
+                        "term": "quietly",
+                        "definition": "Without much noise",
+                        "translation": "sin hacer ruido",
+                        "example": "I'll cook quietly."
+                      },
+                      {
+                        "term": "from now on",
+                        "definition": "Starting now",
+                        "translation": "a partir de ahora",
+                        "example": "From now on, I'll clean everything."
+                      },
+                      {
+                        "term": "late shift",
+                        "definition": "Work that finishes late at night",
+                        "translation": "turno de noche",
+                        "example": "Ollie has been working late shifts."
+                      },
+                      {
+                        "term": "wish",
+                        "definition": "Want something to be different",
+                        "translation": "desear, ojalá",
+                        "example": "I wish I could cook."
+                      },
+                      {
+                        "term": "if only",
+                        "definition": "A strong wish",
+                        "translation": "si al menos, ojalá",
+                        "example": "If only it were easy."
+                      },
+                      {
+                        "term": "Deal",
+                        "definition": "I agree",
+                        "translation": "trato hecho",
+                        "example": "Deal."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "I wish I ___ taller.",
+                        "options": [
+                          "were",
+                          "am",
+                          "would be"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I wish you ___ interrupting me!",
+                        "options": [
+                          "wouldn't keep",
+                          "don't keep"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I wish I ___ speak Japanese.",
+                        "options": [
+                          "could",
+                          "can"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I wish I ___ that cake. I feel sick.",
+                        "options": [
+                          "hadn't eaten",
+                          "didn't eat"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If ___ I had more money!",
+                        "options": [
+                          "only",
+                          "wish"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What time does Ollie cook?",
+                        "options": [
+                          "at two in the morning",
+                          "at six in the evening",
+                          "at noon"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

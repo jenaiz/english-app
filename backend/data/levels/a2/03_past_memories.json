@@ -1,0 +1,663 @@
+{
+  "level_id": "A2",
+  "themes": [
+    {
+      "theme_id": "settling_in",
+      "units": [
+        {
+          "unit_id": "past_memories",
+          "title": "Old Photos",
+          "description": "Habla de tu infancia: past simple en negativa y en preguntas.",
+          "lessons": [
+            {
+              "lesson_id": "past_memories_lesson",
+              "title": "Past simple: negatives and questions",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Old photos",
+                    "dialogue": [
+                      {
+                        "speaker": "Sam",
+                        "text": "Who's that little girl with the big ice cream?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "That's me! I was six. We went to the beach every summer."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Did you live near the sea?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes, we did. Our flat was ten minutes from the beach."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Lucky you! I grew up in Bristol, so I didn't see the sea very often."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Did you play music when you were a child?"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Yes. My dad gave me a guitar when I was eight. I didn't practise much, but I loved it."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "And did you go to university?"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "No, I didn't. I started working in a pub when I was eighteen. What about you?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I studied design in Valencia. Then I worked in Madrid for three years."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Why did you leave Spain?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I wanted a new adventure. And my English was terrible!"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Well, it isn't terrible now."
+                      }
+                    ],
+                    "passage": "One rainy Sunday evening, Sam finds Lucía on the sofa with some old photos from Valencia."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"Did you live near the sea?\" — …",
+                        "options": [
+                          "Yes, we did.",
+                          "Yes, we lived.",
+                          "Yes, we were."
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I didn't practise much\": after didn't, the verb is…",
+                        "options": [
+                          "in the base form (practise)",
+                          "in the past (practised)"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I grew up in Bristol.\" Grew is the past of…",
+                        "options": [
+                          "grow",
+                          "give",
+                          "go"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Who studied design in Valencia?",
+                        "options": [
+                          "Lucía",
+                          "Sam"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Past simple: negatives and questions",
+                    "explanation": "En negativa usamos didn't + verbo en forma base: I didn't go to university (nunca «I didn't went»).\n\nEn preguntas: Did + sujeto + verbo en forma base: Did you live near the sea? — Yes, I did / No, I didn't. Con palabras interrogativas: Why did you leave Spain?\n\nRecuerda los irregulares de esta unidad: grow → grew, give → gave, leave → left, go → went.\n\nExpresiones útiles: when I was six, three years ago, last summer, in 2015.",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Afirmativa",
+                          "I studied design. My dad gave me a guitar."
+                        ],
+                        [
+                          "Negativa",
+                          "I didn't go to university."
+                        ],
+                        [
+                          "Pregunta",
+                          "Did you live near the sea?"
+                        ],
+                        [
+                          "Respuesta corta",
+                          "Yes, I did. / No, I didn't."
+                        ],
+                        [
+                          "Pregunta con Wh-",
+                          "Why did you leave Spain?"
+                        ],
+                        [
+                          "Cuándo",
+                          "when I was six, ten years ago, last summer"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "We went to the beach every summer.",
+                      "I didn't see the sea very often.",
+                      "Did you play music when you were a child?",
+                      "Why did you leave Spain?"
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el verbo en past simple.",
+                    "items": [
+                      {
+                        "sentence": "We ___ to the beach every summer. (go)",
+                        "answers": [
+                          [
+                            "went"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ see the sea very often.",
+                        "answers": [
+                          [
+                            "didn't",
+                            "did not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ you live near the sea?",
+                        "answers": [
+                          [
+                            "Did"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "My dad ___ me a guitar. (give)",
+                        "answers": [
+                          [
+                            "gave"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Why did you ___ Spain? (leave)",
+                        "answers": [
+                          [
+                            "leave"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ in Madrid for three years. (work)",
+                        "answers": [
+                          [
+                            "worked"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Did Sam go to university? — No, he ___.",
+                        "answers": [
+                          [
+                            "didn't",
+                            "did not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Where ___ you grow up?",
+                        "answers": [
+                          [
+                            "did"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "Did you live near the sea"
+                      },
+                      {
+                        "answer": "I didn't practise much"
+                      },
+                      {
+                        "answer": "Why did you leave Spain"
+                      },
+                      {
+                        "answer": "My dad gave me a guitar"
+                      },
+                      {
+                        "answer": "We went to the beach every summer"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "No fui a la universidad.",
+                        "answers": [
+                          "I didn't go to university",
+                          "I did not go to university"
+                        ]
+                      },
+                      {
+                        "source": "¿Dónde creciste?",
+                        "answers": [
+                          "Where did you grow up"
+                        ]
+                      },
+                      {
+                        "source": "Viví en Madrid tres años.",
+                        "answers": [
+                          "I lived in Madrid for three years",
+                          "I lived in Madrid three years"
+                        ]
+                      },
+                      {
+                        "source": "¿Por qué te fuiste de España?",
+                        "answers": [
+                          "Why did you leave Spain"
+                        ]
+                      },
+                      {
+                        "source": "Cuando tenía seis años, fui a Londres.",
+                        "answers": [
+                          "When I was six, I went to London",
+                          "When I was six I went to London",
+                          "I went to London when I was six"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "Did you play music when you were a child?"
+                      },
+                      {
+                        "text": "I grew up in Valencia."
+                      },
+                      {
+                        "text": "Why did you leave Spain?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "grow up",
+                        "definition": "Change from a child to an adult",
+                        "translation": "crecer, criarse",
+                        "example": "I grew up in Bristol."
+                      },
+                      {
+                        "term": "child",
+                        "definition": "A young boy or girl",
+                        "translation": "niño/a",
+                        "example": "Did you play music when you were a child?"
+                      },
+                      {
+                        "term": "ice cream",
+                        "definition": "A cold sweet food",
+                        "translation": "helado",
+                        "example": "A little girl with a big ice cream."
+                      },
+                      {
+                        "term": "beach",
+                        "definition": "Sand next to the sea",
+                        "translation": "playa",
+                        "example": "We went to the beach every summer."
+                      },
+                      {
+                        "term": "sea",
+                        "definition": "The big area of salt water",
+                        "translation": "mar",
+                        "example": "Did you live near the sea?"
+                      },
+                      {
+                        "term": "summer",
+                        "definition": "The hottest season",
+                        "translation": "verano",
+                        "example": "every summer"
+                      },
+                      {
+                        "term": "practise",
+                        "definition": "Do something again and again to get better",
+                        "translation": "practicar",
+                        "example": "I didn't practise much."
+                      },
+                      {
+                        "term": "university",
+                        "definition": "A place to study after school",
+                        "translation": "universidad",
+                        "example": "Did you go to university?"
+                      },
+                      {
+                        "term": "design",
+                        "definition": "Planning how things look",
+                        "translation": "diseño",
+                        "example": "I studied design in Valencia."
+                      },
+                      {
+                        "term": "adventure",
+                        "definition": "An exciting new experience",
+                        "translation": "aventura",
+                        "example": "I wanted a new adventure."
+                      },
+                      {
+                        "term": "terrible",
+                        "definition": "Very bad",
+                        "translation": "horrible, fatal",
+                        "example": "My English was terrible!"
+                      },
+                      {
+                        "term": "ago",
+                        "definition": "Before now",
+                        "translation": "hace (tiempo)",
+                        "example": "I left Spain two months ago."
+                      },
+                      {
+                        "term": "lucky",
+                        "definition": "Having good things happen to you",
+                        "translation": "afortunado/a",
+                        "example": "Lucky you!"
+                      },
+                      {
+                        "term": "gave",
+                        "definition": "Past of give",
+                        "translation": "dio / di",
+                        "example": "My dad gave me a guitar."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "I ___ go to university.",
+                        "options": [
+                          "didn't",
+                          "don't",
+                          "wasn't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Did you ___ near the sea?",
+                        "options": [
+                          "live",
+                          "lived",
+                          "living"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Where did Sam ___ up?",
+                        "options": [
+                          "grew",
+                          "grow",
+                          "grown"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "My dad ___ me a guitar.",
+                        "options": [
+                          "gived",
+                          "gave",
+                          "give"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "I left Spain two months ___.",
+                        "options": [
+                          "ago",
+                          "before",
+                          "past"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "How old was Sam when he got his guitar?",
+                        "options": [
+                          "eight",
+                          "six",
+                          "eighteen"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "a2_checkpoint_1",
+              "title": "Checkpoint 1: Settling In",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "Look! Sam ___ toast.",
+                        "options": [
+                          "makes",
+                          "is making"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Priya usually ___ at six.",
+                        "options": [
+                          "gets up",
+                          "is getting up"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I ___ more sleep.",
+                        "options": [
+                          "need",
+                          "am needing"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "How ___ money do you want to spend?",
+                        "options": [
+                          "much",
+                          "many"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "How much ___ these jeans?",
+                        "options": [
+                          "is",
+                          "are"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "It's ___ big for me.",
+                        "options": [
+                          "too",
+                          "very"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I ___ go to university.",
+                        "options": [
+                          "didn't",
+                          "wasn't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Why did you ___ Spain?",
+                        "options": [
+                          "left",
+                          "leave"
+                        ],
+                        "answer": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "This week I ___ starting at eight.",
+                        "answers": [
+                          [
+                            "am"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "How ___ coats are there?",
+                        "answers": [
+                          [
+                            "many"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "There are a ___ of coats in the sale.",
+                        "answers": [
+                          [
+                            "lot"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Can I try it ___?",
+                        "answers": [
+                          [
+                            "on"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ you live near the sea?",
+                        "answers": [
+                          [
+                            "Did"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "My dad ___ me a guitar. (give)",
+                        "answers": [
+                          [
+                            "gave"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Estoy buscando mis llaves.",
+                        "answers": [
+                          "I'm looking for my keys",
+                          "I am looking for my keys"
+                        ]
+                      },
+                      {
+                        "source": "¿Cuánto cuesta este abrigo?",
+                        "answers": [
+                          "How much is this coat",
+                          "How much does this coat cost"
+                        ]
+                      },
+                      {
+                        "source": "No vi el mar.",
+                        "answers": [
+                          "I didn't see the sea",
+                          "I did not see the sea"
+                        ]
+                      },
+                      {
+                        "source": "¿Dónde creciste?",
+                        "answers": [
+                          "Where did you grow up"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

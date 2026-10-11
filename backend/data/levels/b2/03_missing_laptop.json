@@ -1,0 +1,685 @@
+{
+  "level_id": "B2",
+  "themes": [
+    {
+      "theme_id": "edinburgh",
+      "units": [
+        {
+          "unit_id": "missing_laptop",
+          "title": "The Missing Laptop",
+          "description": "Deducciones sobre el pasado y críticas: must have, can't have, might have, should have.",
+          "lessons": [
+            {
+              "lesson_id": "missing_laptop_lesson",
+              "title": "Modals of deduction: past",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "The missing laptop",
+                    "dialogue": [
+                      {
+                        "speaker": "Daniel",
+                        "text": "It's gone. My laptop's gone."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "It can't have disappeared. You must have left it somewhere."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "I had it at the conference. I must have put it down when we were talking to Mark."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Or you might have left it in the taxi."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "No, I can't have left it in the taxi. I remember holding it when we got out."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Then someone at the conference must have picked it up by mistake."
+                      },
+                      {
+                        "speaker": "Receptionist",
+                        "text": "Excuse me, Mr O'Brien? Somebody from the conference centre has just dropped this off for you."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "My laptop! Where did they find it?"
+                      },
+                      {
+                        "speaker": "Receptionist",
+                        "text": "Apparently it was under a chair in the main hall."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "So you must have left it there after all."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "I could have lost the whole demo. Thank goodness for honest people."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "You should have kept it in your bag."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "I know, I know. You don't have to say it."
+                      }
+                    ],
+                    "passage": "That evening, back at the hotel, Daniel can't find his laptop. It has the demo for Mark's project on it."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"You must have left it somewhere.\" This is about…",
+                        "options": [
+                          "the past",
+                          "the present"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I can't have left it in the taxi.\" Daniel is…",
+                        "options": [
+                          "sure he didn't",
+                          "sure he did"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"You should have kept it in your bag.\" This is…",
+                        "options": [
+                          "a criticism of a past action",
+                          "advice for the future"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Where was the laptop?",
+                        "options": [
+                          "under a chair in the main hall",
+                          "in the taxi",
+                          "in the hotel room"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Modals of deduction: past",
+                    "explanation": "Para deducir qué pasó usamos modal + have + participio:\n• must have = seguro que pasó: You must have left it somewhere.\n• can't have = seguro que no pasó: I can't have left it in the taxi.\n• might / may / could have = quizá pasó: You might have left it in the taxi.\n\nOtros usos muy frecuentes:\n• could have = era posible, pero no pasó: I could have lost the whole demo.\n• should have / shouldn't have = crítica o arrepentimiento: You should have kept it in your bag.",
+                    "table": {
+                      "headers": [
+                        "Modal",
+                        "Significado",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "must have + participio",
+                          "seguro que pasó",
+                          "You must have left it somewhere."
+                        ],
+                        [
+                          "can't have + participio",
+                          "seguro que no pasó",
+                          "I can't have left it in the taxi."
+                        ],
+                        [
+                          "might / may have",
+                          "quizá pasó",
+                          "You might have left it in the taxi."
+                        ],
+                        [
+                          "could have",
+                          "era posible (pero no pasó)",
+                          "I could have lost the whole demo."
+                        ],
+                        [
+                          "should have",
+                          "debería haber… (crítica)",
+                          "You should have kept it in your bag."
+                        ],
+                        [
+                          "shouldn't have",
+                          "no debería haber…",
+                          "I shouldn't have put it down."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "It can't have disappeared. You must have left it somewhere.",
+                      "Someone at the conference must have picked it up by mistake.",
+                      "I could have lost the whole demo.",
+                      "You should have kept it in your bag."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el modal + have correcto.",
+                    "items": [
+                      {
+                        "sentence": "You must have ___ it somewhere. (leave)",
+                        "answers": [
+                          [
+                            "left"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ have left it in the taxi. I remember holding it.",
+                        "answers": [
+                          [
+                            "can't",
+                            "cannot"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You ___ have left it in the taxi. (quizá)",
+                        "answers": [
+                          [
+                            "might",
+                            "may",
+                            "could"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Someone must have ___ it up by mistake. (pick)",
+                        "answers": [
+                          [
+                            "picked"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You ___ have kept it in your bag. (crítica)",
+                        "answers": [
+                          [
+                            "should"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I could have ___ the whole demo. (lose)",
+                        "answers": [
+                          [
+                            "lost"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He's not answering. He must have ___ asleep. (fall)",
+                        "answers": [
+                          [
+                            "fallen"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ have eaten so much. I feel sick.",
+                        "answers": [
+                          [
+                            "shouldn't",
+                            "should not"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Reescribe con un modal + have.",
+                    "items": [
+                      {
+                        "source": "I'm sure you left it at the conference.",
+                        "answers": [
+                          "You must have left it at the conference"
+                        ]
+                      },
+                      {
+                        "source": "It's impossible that he took it.",
+                        "answers": [
+                          "He can't have taken it",
+                          "He cannot have taken it"
+                        ]
+                      },
+                      {
+                        "source": "Maybe she forgot.",
+                        "answers": [
+                          "She might have forgotten",
+                          "She may have forgotten",
+                          "She could have forgotten"
+                        ]
+                      },
+                      {
+                        "source": "It was a mistake not to keep it in your bag.",
+                        "answers": [
+                          "You should have kept it in your bag"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Debes de haberlo dejado en algún sitio.",
+                        "answers": [
+                          "You must have left it somewhere"
+                        ]
+                      },
+                      {
+                        "source": "No puede haber desaparecido.",
+                        "answers": [
+                          "It can't have disappeared",
+                          "It cannot have disappeared"
+                        ]
+                      },
+                      {
+                        "source": "Puede que se lo haya llevado alguien.",
+                        "answers": [
+                          "Someone might have taken it",
+                          "Somebody might have taken it",
+                          "Someone may have taken it",
+                          "Someone could have taken it"
+                        ]
+                      },
+                      {
+                        "source": "Deberías haberme llamado.",
+                        "answers": [
+                          "You should have called me",
+                          "You should have phoned me",
+                          "You should've called me"
+                        ]
+                      },
+                      {
+                        "source": "Podría haberlo perdido todo.",
+                        "answers": [
+                          "I could have lost everything",
+                          "I could've lost everything"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "You must have left it somewhere."
+                      },
+                      {
+                        "text": "I can't have left it in the taxi."
+                      },
+                      {
+                        "text": "You should have kept it in your bag."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "disappear",
+                        "definition": "Stop being visible; be lost",
+                        "translation": "desaparecer",
+                        "example": "It can't have disappeared."
+                      },
+                      {
+                        "term": "put down",
+                        "definition": "Place something on a surface",
+                        "translation": "dejar, soltar",
+                        "example": "I must have put it down."
+                      },
+                      {
+                        "term": "by mistake",
+                        "definition": "Without wanting to",
+                        "translation": "por error",
+                        "example": "Someone picked it up by mistake."
+                      },
+                      {
+                        "term": "remember + -ing",
+                        "definition": "Have a memory of doing something",
+                        "translation": "recordar haber…",
+                        "example": "I remember holding it."
+                      },
+                      {
+                        "term": "main hall",
+                        "definition": "The biggest room of a building",
+                        "translation": "sala principal",
+                        "example": "under a chair in the main hall"
+                      },
+                      {
+                        "term": "apparently",
+                        "definition": "According to what people say",
+                        "translation": "al parecer",
+                        "example": "Apparently it was under a chair."
+                      },
+                      {
+                        "term": "after all",
+                        "definition": "In spite of what you thought",
+                        "translation": "al final, después de todo",
+                        "example": "So you left it there after all."
+                      },
+                      {
+                        "term": "honest",
+                        "definition": "Telling the truth; not stealing",
+                        "translation": "honrado/a",
+                        "example": "Thank goodness for honest people."
+                      },
+                      {
+                        "term": "Thank goodness",
+                        "definition": "Said when you feel relief",
+                        "translation": "menos mal, gracias a Dios",
+                        "example": "Thank goodness for honest people."
+                      },
+                      {
+                        "term": "must have",
+                        "definition": "Almost certainly did",
+                        "translation": "seguro que…, debe de haber",
+                        "example": "You must have left it there."
+                      },
+                      {
+                        "term": "can't have",
+                        "definition": "Almost certainly did not",
+                        "translation": "no puede haber…",
+                        "example": "I can't have left it in the taxi."
+                      },
+                      {
+                        "term": "should have",
+                        "definition": "It was a mistake not to",
+                        "translation": "debería haber",
+                        "example": "You should have kept it in your bag."
+                      },
+                      {
+                        "term": "could have",
+                        "definition": "It was possible but did not happen",
+                        "translation": "podría haber",
+                        "example": "I could have lost the whole demo."
+                      },
+                      {
+                        "term": "drop off",
+                        "definition": "Leave something for someone",
+                        "translation": "dejar, entregar",
+                        "example": "Somebody has just dropped this off."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "The floor is wet. It ___ have rained.",
+                        "options": [
+                          "must",
+                          "can't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She ___ have seen us. She was in London.",
+                        "options": [
+                          "can't",
+                          "must"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'm not sure. He ___ have missed the bus.",
+                        "options": [
+                          "might",
+                          "must"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "You ___ have told me! I would have helped.",
+                        "options": [
+                          "should",
+                          "must"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "They must have ___ the wrong train.",
+                        "options": [
+                          "taken",
+                          "took",
+                          "take"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Who returned the laptop?",
+                        "options": [
+                          "someone from the conference centre",
+                          "Mark Reed",
+                          "the taxi driver"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "b2_checkpoint_1",
+              "title": "Checkpoint 1: Edinburgh",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "This time tomorrow, I'll ___ on the train.",
+                        "options": [
+                          "be sitting",
+                          "have sat"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "By Friday, we'll ___ the project.",
+                        "options": [
+                          "have finished",
+                          "be finishing"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "By the time you ___, I'll have left.",
+                        "options": [
+                          "arrive",
+                          "'ll arrive"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "He ___ be the boss. He's too young.",
+                        "options": [
+                          "can't",
+                          "mustn't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She's not answering. She ___ be in a meeting.",
+                        "options": [
+                          "might",
+                          "can't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "You ___ have left it on the bus. (seguro)",
+                        "options": [
+                          "must",
+                          "should"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I ___ have told you earlier. Sorry.",
+                        "options": [
+                          "should",
+                          "must"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "He ___ have taken it. He wasn't there.",
+                        "options": [
+                          "can't",
+                          "must"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "Will you be ___ in the front row? (sit)",
+                        "answers": [
+                          [
+                            "sitting"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'll have ___ the demo by then. (send)",
+                        "answers": [
+                          [
+                            "sent"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He must ___ important.",
+                        "answers": [
+                          [
+                            "be"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "She must be ___ for news. (wait)",
+                        "answers": [
+                          [
+                            "waiting"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Someone must have ___ it up. (pick)",
+                        "answers": [
+                          [
+                            "picked"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I could have ___ everything. (lose)",
+                        "answers": [
+                          [
+                            "lost"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Mañana a esta hora estaré volando.",
+                        "answers": [
+                          "This time tomorrow I'll be flying",
+                          "This time tomorrow, I'll be flying",
+                          "This time tomorrow I will be flying"
+                        ]
+                      },
+                      {
+                        "source": "No puede ser verdad.",
+                        "answers": [
+                          "It can't be true",
+                          "That can't be true",
+                          "It cannot be true"
+                        ]
+                      },
+                      {
+                        "source": "Debes de haberlo dejado en el taxi.",
+                        "answers": [
+                          "You must have left it in the taxi"
+                        ]
+                      },
+                      {
+                        "source": "Deberías haberme llamado.",
+                        "answers": [
+                          "You should have called me",
+                          "You should have phoned me",
+                          "You should've called me"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

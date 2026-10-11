@@ -1,0 +1,480 @@
+{
+  "level_id": "A2",
+  "themes": [
+    {
+      "theme_id": "london_trip",
+      "units": [
+        {
+          "unit_id": "london_plans",
+          "title": "A Plan for London",
+          "description": "Haz planes para el fin de semana con be going to.",
+          "lessons": [
+            {
+              "lesson_id": "london_plans_lesson",
+              "title": "be going to",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "A plan for London",
+                    "dialogue": [
+                      {
+                        "speaker": "Daniel",
+                        "text": "So, are we going to London next weekend or not?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes! I'm going to book the train tickets tonight."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Where are we going to stay?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "My friend Ciarán has a flat in Camden. We're going to sleep there. It's small, but it's free!"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Perfect. What are we going to do on Saturday?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I'm going to visit the British Museum. I really want to see it."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "And I'm going to take you to a great market in Camden."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "I'm not going to walk all day. My feet always hurt after work!"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Don't worry, we're going to use the Tube."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Is Sam going to come?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "No, he isn't. His band is going to play at a wedding."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Then it's the three of us. London, here we come!"
+                      }
+                    ],
+                    "passage": "November. Priya has some free days, and Daniel has a friend in London. At lunch in a café near the harbour, they make a plan."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"I'm going to book the train tickets tonight.\" This is…",
+                        "options": [
+                          "a plan",
+                          "a habit"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Where are we going to stay?\" The structure is…",
+                        "options": [
+                          "be + going to + verb",
+                          "do + going to + verb"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Which negative is correct?",
+                        "options": [
+                          "I'm not going to walk all day.",
+                          "I don't going to walk all day."
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Why isn't Sam going to London?",
+                        "options": [
+                          "His band is going to play at a wedding.",
+                          "He's working at the pub.",
+                          "He's ill."
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "be going to",
+                    "explanation": "Be going to + verbo expresa planes e intenciones que ya hemos decidido: I'm going to book the tickets tonight.\n\nTambién sirve para predicciones cuando vemos una prueba: Look at those clouds! It's going to rain.\n\nNegativa: I'm not going to walk all day. Pregunta: Are we going to stay at Ciarán's flat? — Yes, we are / No, we aren't.\n\nExpresiones de futuro: tonight, tomorrow, next weekend, on Saturday.",
+                    "table": {
+                      "headers": [
+                        "Sujeto",
+                        "Afirmativa",
+                        "Negativa",
+                        "Pregunta"
+                      ],
+                      "rows": [
+                        [
+                          "I",
+                          "I'm going to book",
+                          "I'm not going to book",
+                          "Am I going to book?"
+                        ],
+                        [
+                          "you / we / they",
+                          "we're going to stay",
+                          "we aren't going to stay",
+                          "Are we going to stay?"
+                        ],
+                        [
+                          "he / she / it",
+                          "he's going to play",
+                          "he isn't going to play",
+                          "Is he going to play?"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I'm going to book the train tickets tonight.",
+                      "Where are we going to stay?",
+                      "I'm not going to walk all day.",
+                      "Look at those clouds! It's going to rain."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con be going to.",
+                    "items": [
+                      {
+                        "sentence": "I'm going ___ book the tickets tonight.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Where ___ we going to stay?",
+                        "answers": [
+                          [
+                            "are"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We're going to ___ at Ciarán's flat. (sleep)",
+                        "answers": [
+                          [
+                            "sleep"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Priya ___ going to walk all day.",
+                        "answers": [
+                          [
+                            "isn't",
+                            "is not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ Sam going to come?",
+                        "answers": [
+                          [
+                            "Is"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "His band is going to ___ at a wedding. (play)",
+                        "answers": [
+                          [
+                            "play"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "What are you going to ___ on Saturday?",
+                        "answers": [
+                          [
+                            "do"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Look at those clouds! It's going to ___.",
+                        "answers": [
+                          [
+                            "rain"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "I'm going to book the tickets tonight"
+                      },
+                      {
+                        "answer": "Where are we going to stay"
+                      },
+                      {
+                        "answer": "We're going to use the Tube"
+                      },
+                      {
+                        "answer": "Is Sam going to come"
+                      },
+                      {
+                        "answer": "It's going to rain"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Voy a reservar los billetes.",
+                        "answers": [
+                          "I'm going to book the tickets",
+                          "I am going to book the tickets"
+                        ]
+                      },
+                      {
+                        "source": "¿Qué vais a hacer el sábado?",
+                        "answers": [
+                          "What are you going to do on Saturday"
+                        ]
+                      },
+                      {
+                        "source": "No voy a caminar todo el día.",
+                        "answers": [
+                          "I'm not going to walk all day",
+                          "I am not going to walk all day"
+                        ]
+                      },
+                      {
+                        "source": "Vamos a dormir en casa de un amigo.",
+                        "answers": [
+                          "We're going to sleep at a friend's flat",
+                          "We're going to sleep at a friend's house",
+                          "We are going to sleep at a friend's flat",
+                          "We are going to sleep at a friend's house"
+                        ]
+                      },
+                      {
+                        "source": "Va a llover.",
+                        "answers": [
+                          "It's going to rain",
+                          "It is going to rain"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "I'm going to book the train tickets tonight."
+                      },
+                      {
+                        "text": "What are we going to do on Saturday?"
+                      },
+                      {
+                        "text": "London, here we come!"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "plan",
+                        "definition": "Something you decide to do",
+                        "translation": "plan",
+                        "example": "At lunch, they make a plan."
+                      },
+                      {
+                        "term": "book",
+                        "definition": "Reserve tickets or a room",
+                        "translation": "reservar",
+                        "example": "I'm going to book the tickets."
+                      },
+                      {
+                        "term": "ticket",
+                        "definition": "A paper or code to travel or enter",
+                        "translation": "billete, entrada",
+                        "example": "train tickets"
+                      },
+                      {
+                        "term": "stay",
+                        "definition": "Live somewhere for a short time",
+                        "translation": "quedarse, alojarse",
+                        "example": "Where are we going to stay?"
+                      },
+                      {
+                        "term": "free",
+                        "definition": "Costing no money; also not busy",
+                        "translation": "gratis; libre",
+                        "example": "It's small, but it's free!"
+                      },
+                      {
+                        "term": "museum",
+                        "definition": "A building with old or important things to see",
+                        "translation": "museo",
+                        "example": "the British Museum"
+                      },
+                      {
+                        "term": "market",
+                        "definition": "A place with stalls selling things",
+                        "translation": "mercado",
+                        "example": "a great market in Camden"
+                      },
+                      {
+                        "term": "the Tube",
+                        "definition": "The London underground train",
+                        "translation": "el metro de Londres",
+                        "example": "We're going to use the Tube."
+                      },
+                      {
+                        "term": "wedding",
+                        "definition": "A ceremony when two people marry",
+                        "translation": "boda",
+                        "example": "His band is going to play at a wedding."
+                      },
+                      {
+                        "term": "next weekend",
+                        "definition": "The weekend after this one",
+                        "translation": "el fin de semana que viene",
+                        "example": "Are we going to London next weekend?"
+                      },
+                      {
+                        "term": "tonight",
+                        "definition": "This evening or night",
+                        "translation": "esta noche",
+                        "example": "I'm going to book them tonight."
+                      },
+                      {
+                        "term": "trip",
+                        "definition": "A journey to a place and back",
+                        "translation": "viaje",
+                        "example": "a trip to London"
+                      },
+                      {
+                        "term": "hurt",
+                        "definition": "Feel pain",
+                        "translation": "doler",
+                        "example": "My feet always hurt."
+                      },
+                      {
+                        "term": "here we come!",
+                        "definition": "Said when you are excited to go somewhere",
+                        "translation": "¡allá vamos!",
+                        "example": "London, here we come!"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "I'm going ___ book the tickets.",
+                        "options": [
+                          "to",
+                          "for",
+                          "-"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ you going to come?",
+                        "options": [
+                          "Do",
+                          "Are",
+                          "Will"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "She ___ going to walk all day.",
+                        "options": [
+                          "isn't",
+                          "doesn't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Look at the sky! It's going ___ rain.",
+                        "options": [
+                          "to",
+                          "for"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "We are going to ___ the Tube.",
+                        "options": [
+                          "use",
+                          "using",
+                          "used"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Where are they going to sleep?",
+                        "options": [
+                          "at Ciarán's flat",
+                          "in a hotel",
+                          "at Priya's aunt's house"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

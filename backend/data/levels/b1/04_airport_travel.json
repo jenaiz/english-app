@@ -1,0 +1,479 @@
+{
+  "level_id": "B1",
+  "themes": [
+    {
+      "theme_id": "ireland",
+      "units": [
+        {
+          "unit_id": "airport_travel",
+          "title": "Flight to Dublin",
+          "description": "Entiende avisos y normas del aeropuerto con la voz pasiva.",
+          "lessons": [
+            {
+              "lesson_id": "airport_checkin",
+              "title": "The passive",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Flight to Dublin",
+                    "dialogue": [
+                      {
+                        "speaker": "Daniel",
+                        "text": "We've made it! Just in the nick of time."
+                      },
+                      {
+                        "speaker": "Agent",
+                        "text": "Good morning. Passports, please. Are you checking in any bags?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes, one suitcase."
+                      },
+                      {
+                        "speaker": "Agent",
+                        "text": "Your bag will be sent directly to Dublin. Did you pack it yourself?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes, I did."
+                      },
+                      {
+                        "speaker": "Agent",
+                        "text": "I'm afraid it's too heavy. Bags over twenty-three kilos are charged an extra fee."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "How much is it?"
+                      },
+                      {
+                        "speaker": "Agent",
+                        "text": "Thirty pounds. Your boarding passes have been sent to your phones. Boarding will begin at gate seven at ten forty."
+                      },
+                      {
+                        "speaker": "Agent",
+                        "text": "Attention, please. Flight EI six five three to Dublin has been delayed by thirty minutes. Passengers are asked to wait in the departure lounge."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Delayed? After all that running!"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Never mind. I'm really looking forward to showing you Dublin."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "And I'm looking forward to meeting your mam. I'm a bit nervous, too!"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Don't be. She's been asking about you since Christmas."
+                      }
+                    ],
+                    "passage": "April, Easter holidays. Lucía got the senior job, and she and Daniel are flying to Dublin to celebrate. But they set off late, and the traffic to the airport is terrible."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"Your bag will be sent directly to Dublin.\" Who sends it?",
+                        "options": [
+                          "It isn't important (the airline)",
+                          "Lucía"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Bags over twenty-three kilos are charged an extra fee.\" The structure is…",
+                        "options": [
+                          "be + past participle",
+                          "have + past participle"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"The flight has been delayed.\" Which tense is it?",
+                        "options": [
+                          "present perfect passive",
+                          "past simple passive"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"They set off late.\" Set off means…",
+                        "options": [
+                          "salir, ponerse en camino",
+                          "apagar"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "The passive",
+                    "explanation": "La pasiva (be + participio) pone el foco en la acción o en lo que la recibe, no en quién la hace. Es muy habitual en avisos, normas y noticias: The flight has been delayed. Passengers are asked to wait.\n\nEl verbo be cambia de tiempo y el participio no: is charged, was built, has been delayed, will be sent.\n\nSi queremos decir quién hace la acción, usamos by: The airport was designed by a famous architect.",
+                    "table": {
+                      "headers": [
+                        "Tiempo",
+                        "Activa",
+                        "Pasiva"
+                      ],
+                      "rows": [
+                        [
+                          "Presente",
+                          "They charge a fee.",
+                          "A fee is charged."
+                        ],
+                        [
+                          "Pasado",
+                          "They built the airport in 1957.",
+                          "The airport was built in 1957."
+                        ],
+                        [
+                          "Present perfect",
+                          "They have delayed the flight.",
+                          "The flight has been delayed."
+                        ],
+                        [
+                          "Futuro",
+                          "They will send your bag.",
+                          "Your bag will be sent."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Your bag will be sent directly to Dublin.",
+                      "Bags over twenty-three kilos are charged an extra fee.",
+                      "Your boarding passes have been sent to your phones.",
+                      "Passengers are asked to wait in the departure lounge."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la pasiva.",
+                    "items": [
+                      {
+                        "sentence": "Your bag will ___ sent directly to Dublin.",
+                        "answers": [
+                          [
+                            "be"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Bags over 23 kilos ___ charged an extra fee.",
+                        "answers": [
+                          [
+                            "are"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The flight has ___ delayed.",
+                        "answers": [
+                          [
+                            "been"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Passengers are ___ to wait in the lounge. (ask)",
+                        "answers": [
+                          [
+                            "asked"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Your boarding passes have been ___ to your phones. (send)",
+                        "answers": [
+                          [
+                            "sent"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Breakfast ___ served from seven.",
+                        "answers": [
+                          [
+                            "is"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The airport ___ built in 1957.",
+                        "answers": [
+                          [
+                            "was"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The gate ___ be announced soon.",
+                        "answers": [
+                          [
+                            "will"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "Your bag will be sent to Dublin"
+                      },
+                      {
+                        "answer": "The flight has been delayed"
+                      },
+                      {
+                        "answer": "Passengers are asked to wait"
+                      },
+                      {
+                        "answer": "Breakfast is served from seven"
+                      },
+                      {
+                        "answer": "We set off late"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "El vuelo se ha retrasado.",
+                        "answers": [
+                          "The flight has been delayed",
+                          "The flight's been delayed"
+                        ]
+                      },
+                      {
+                        "source": "Las tarjetas de embarque se envían por email.",
+                        "answers": [
+                          "Boarding passes are sent by email",
+                          "The boarding passes are sent by email"
+                        ]
+                      },
+                      {
+                        "source": "Tu maleta será enviada a Dublín.",
+                        "answers": [
+                          "Your bag will be sent to Dublin",
+                          "Your suitcase will be sent to Dublin"
+                        ]
+                      },
+                      {
+                        "source": "Este aeropuerto se construyó en 1957.",
+                        "answers": [
+                          "This airport was built in 1957"
+                        ]
+                      },
+                      {
+                        "source": "Tengo muchas ganas de verte.",
+                        "answers": [
+                          "I'm looking forward to seeing you",
+                          "I am looking forward to seeing you"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta como si fueras la megafonía.",
+                    "items": [
+                      {
+                        "text": "Flight six five three to Dublin has been delayed by thirty minutes."
+                      },
+                      {
+                        "text": "Passengers are asked to wait in the departure lounge."
+                      },
+                      {
+                        "text": "Boarding will begin at gate seven."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "set off",
+                        "definition": "Start a journey",
+                        "translation": "salir, ponerse en camino",
+                        "example": "They set off late."
+                      },
+                      {
+                        "term": "in the nick of time",
+                        "definition": "Just before it is too late",
+                        "translation": "justo a tiempo",
+                        "example": "We made it, just in the nick of time."
+                      },
+                      {
+                        "term": "check in (a bag)",
+                        "definition": "Give your bag to the airline",
+                        "translation": "facturar",
+                        "example": "Are you checking in any bags?"
+                      },
+                      {
+                        "term": "boarding pass",
+                        "definition": "The ticket to get on the plane",
+                        "translation": "tarjeta de embarque",
+                        "example": "Your boarding passes have been sent to your phones."
+                      },
+                      {
+                        "term": "gate",
+                        "definition": "Where you get on the plane",
+                        "translation": "puerta de embarque",
+                        "example": "Boarding will begin at gate seven."
+                      },
+                      {
+                        "term": "boarding",
+                        "definition": "Getting on a plane",
+                        "translation": "embarque",
+                        "example": "Boarding will begin at ten forty."
+                      },
+                      {
+                        "term": "delayed",
+                        "definition": "Late",
+                        "translation": "retrasado/a",
+                        "example": "The flight has been delayed."
+                      },
+                      {
+                        "term": "departure lounge",
+                        "definition": "Where you wait before your flight",
+                        "translation": "sala de embarque",
+                        "example": "Wait in the departure lounge."
+                      },
+                      {
+                        "term": "fee",
+                        "definition": "Money you pay for a service",
+                        "translation": "tasa, cargo",
+                        "example": "an extra fee"
+                      },
+                      {
+                        "term": "heavy",
+                        "definition": "Weighing a lot",
+                        "translation": "pesado/a",
+                        "example": "Your bag is too heavy."
+                      },
+                      {
+                        "term": "directly",
+                        "definition": "Without stopping",
+                        "translation": "directamente",
+                        "example": "Your bag will be sent directly to Dublin."
+                      },
+                      {
+                        "term": "look forward to",
+                        "definition": "Feel happy about something in the future (+ -ing)",
+                        "translation": "tener ganas de",
+                        "example": "I'm looking forward to showing you Dublin."
+                      },
+                      {
+                        "term": "nervous",
+                        "definition": "A bit worried",
+                        "translation": "nervioso/a",
+                        "example": "I'm a bit nervous."
+                      },
+                      {
+                        "term": "make it",
+                        "definition": "Arrive in time",
+                        "translation": "llegar a tiempo, conseguirlo",
+                        "example": "We've made it!"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "The flight ___ delayed.",
+                        "options": [
+                          "has been",
+                          "has"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Your bag ___ be sent to Dublin.",
+                        "options": [
+                          "will",
+                          "is"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "English ___ spoken here.",
+                        "options": [
+                          "is",
+                          "are"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The bridge was ___ in 1864.",
+                        "options": [
+                          "built",
+                          "build",
+                          "building"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'm looking forward to ___ you.",
+                        "options": [
+                          "seeing",
+                          "see"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "How much do they pay for the heavy bag?",
+                        "options": [
+                          "thirty pounds",
+                          "twenty-three pounds",
+                          "nothing"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

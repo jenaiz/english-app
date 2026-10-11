@@ -1,0 +1,503 @@
+{
+  "level_id": "B1",
+  "themes": [
+    {
+      "theme_id": "summer",
+      "units": [
+        {
+          "unit_id": "good_news",
+          "title": "Good News",
+          "description": "Cuenta lo que dijo otra persona con el estilo indirecto: said, told, asked.",
+          "lessons": [
+            {
+              "lesson_id": "good_news_lesson",
+              "title": "Reported speech",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Good news",
+                    "dialogue": [
+                      {
+                        "speaker": "Daniel",
+                        "text": "You look excited. What did Helen want?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "She said that the museum loved our website!"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Brilliant! What else did she say?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "She told me that she wanted me to speak at a design conference in Edinburgh in October."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Speak? In front of hundreds of people?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I know! I told her I was nervous, but she said I would be great."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "She's right. You'll be grand."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "She also asked if you could come and help with the technical part."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Me? In Edinburgh? Sounds good to me."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "And there's more news. Javi called this morning. He said he had passed his English exam!"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Fair play to him! What's he going to do now?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "He told me he had got a job at a hotel in Dublin. He starts in September."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Dublin! My mam will want to feed him every Sunday."
+                      }
+                    ],
+                    "passage": "July. Lucía runs into Daniel's office after a meeting with Helen."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"She said that the museum loved our website.\" What did Helen actually say?",
+                        "options": [
+                          "\"The museum loves your website.\"",
+                          "\"The museum loved my website.\""
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"She told me that…\" After told we need…",
+                        "options": [
+                          "a person (me, him…)",
+                          "nothing"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"She asked if you could come.\" Helen's question was…",
+                        "options": [
+                          "\"Can Daniel come?\"",
+                          "\"Could Daniel came?\""
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"He said he had passed his exam.\" Javi's words were…",
+                        "options": [
+                          "\"I've passed my exam!\"",
+                          "\"I pass my exam.\""
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Reported speech",
+                    "explanation": "Para contar lo que alguien dijo usamos say (that) o tell + persona (that): She said that… / She told me that…\n\nNormalmente el verbo da un paso atrás en el pasado:\n• presente → pasado (loves → loved)\n• will → would\n• can → could\n• present perfect / past simple → past perfect (have passed → had passed)\n\nLas preguntas de sí o no se cuentan con asked if / whether y orden de frase afirmativa: She asked if you could come (no «if could you come»).\n\nCambian también los pronombres y posesivos: \"your website\" → our website.",
+                    "table": {
+                      "headers": [
+                        "Lo que dijo",
+                        "Estilo indirecto"
+                      ],
+                      "rows": [
+                        [
+                          "\"The museum loves your website.\"",
+                          "She said (that) the museum loved our website."
+                        ],
+                        [
+                          "\"I want you to speak in Edinburgh.\"",
+                          "She told me (that) she wanted me to speak in Edinburgh."
+                        ],
+                        [
+                          "\"You'll be great.\"",
+                          "She said I would be great."
+                        ],
+                        [
+                          "\"Can Daniel come?\"",
+                          "She asked if Daniel could come."
+                        ],
+                        [
+                          "\"I've passed my exam!\"",
+                          "He said he had passed his exam."
+                        ],
+                        [
+                          "\"I'm nervous.\"",
+                          "I told her I was nervous."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "She said that the museum loved our website!",
+                      "I told her I was nervous, but she said I would be great.",
+                      "She asked if you could come.",
+                      "He told me he had got a job at a hotel in Dublin."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el estilo indirecto.",
+                    "items": [
+                      {
+                        "sentence": "She said that the museum ___ our website. (love)",
+                        "answers": [
+                          [
+                            "loved"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "She ___ me that she wanted me to speak. (tell)",
+                        "answers": [
+                          [
+                            "told"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I told her I ___ nervous.",
+                        "answers": [
+                          [
+                            "was"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "She said I ___ be great.",
+                        "answers": [
+                          [
+                            "would"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "She asked ___ you could come.",
+                        "answers": [
+                          [
+                            "if",
+                            "whether"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He said he ___ passed his exam.",
+                        "answers": [
+                          [
+                            "had"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He told me he had ___ a job in Dublin. (get)",
+                        "answers": [
+                          [
+                            "got"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Helen ___ that I was ready. (say)",
+                        "answers": [
+                          [
+                            "said"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Pásalo a estilo indirecto.",
+                    "items": [
+                      {
+                        "source": "Helen: \"I'm very happy with your work.\"",
+                        "answers": [
+                          "Helen said she was very happy with my work",
+                          "Helen said that she was very happy with my work"
+                        ]
+                      },
+                      {
+                        "source": "Javi: \"I start in September.\"",
+                        "answers": [
+                          "Javi said he started in September",
+                          "Javi said that he started in September"
+                        ]
+                      },
+                      {
+                        "source": "Daniel: \"I'll help you.\"",
+                        "answers": [
+                          "Daniel said he would help me",
+                          "Daniel said that he would help me",
+                          "Daniel said he'd help me"
+                        ]
+                      },
+                      {
+                        "source": "Priya: \"Can you buy some milk?\"",
+                        "answers": [
+                          "Priya asked if I could buy some milk",
+                          "Priya asked whether I could buy some milk",
+                          "Priya asked me if I could buy some milk"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Dijo que estaba cansada.",
+                        "answers": [
+                          "She said she was tired",
+                          "She said that she was tired"
+                        ]
+                      },
+                      {
+                        "source": "Me dijo que había aprobado.",
+                        "answers": [
+                          "He told me he had passed",
+                          "He told me that he had passed"
+                        ]
+                      },
+                      {
+                        "source": "Le dije que estaba nerviosa.",
+                        "answers": [
+                          "I told her I was nervous",
+                          "I told her that I was nervous"
+                        ]
+                      },
+                      {
+                        "source": "Preguntó si podías venir.",
+                        "answers": [
+                          "She asked if you could come",
+                          "He asked if you could come",
+                          "She asked whether you could come",
+                          "He asked whether you could come"
+                        ]
+                      },
+                      {
+                        "source": "Dijo que llamaría mañana.",
+                        "answers": [
+                          "He said he would call tomorrow",
+                          "She said she would call tomorrow",
+                          "He said he'd call tomorrow",
+                          "She said she'd call tomorrow"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "She said that the museum loved our website!"
+                      },
+                      {
+                        "text": "I told her I was nervous."
+                      },
+                      {
+                        "text": "He said he had passed his English exam."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "said (say)",
+                        "definition": "Reported words, without a person after it",
+                        "translation": "dijo",
+                        "example": "She said that the museum loved our website."
+                      },
+                      {
+                        "term": "told (tell)",
+                        "definition": "Reported words, with a person after it",
+                        "translation": "dijo a, contó",
+                        "example": "She told me that…"
+                      },
+                      {
+                        "term": "asked if",
+                        "definition": "Reports a yes/no question",
+                        "translation": "preguntó si",
+                        "example": "She asked if you could come."
+                      },
+                      {
+                        "term": "conference",
+                        "definition": "A big meeting with talks",
+                        "translation": "congreso, conferencia",
+                        "example": "a design conference in Edinburgh"
+                      },
+                      {
+                        "term": "in front of",
+                        "definition": "Facing",
+                        "translation": "delante de",
+                        "example": "in front of hundreds of people"
+                      },
+                      {
+                        "term": "hundreds",
+                        "definition": "Many hundreds",
+                        "translation": "cientos",
+                        "example": "hundreds of people"
+                      },
+                      {
+                        "term": "technical",
+                        "definition": "About machines or computers",
+                        "translation": "técnico/a",
+                        "example": "the technical part"
+                      },
+                      {
+                        "term": "pass (an exam)",
+                        "definition": "Be successful in an exam",
+                        "translation": "aprobar",
+                        "example": "He had passed his exam."
+                      },
+                      {
+                        "term": "get a job",
+                        "definition": "Find work",
+                        "translation": "conseguir un trabajo",
+                        "example": "He had got a job in Dublin."
+                      },
+                      {
+                        "term": "Fair play to him!",
+                        "definition": "Irish: well done to him",
+                        "translation": "¡bien por él!",
+                        "example": "Fair play to him!"
+                      },
+                      {
+                        "term": "excited",
+                        "definition": "Very happy about something",
+                        "translation": "emocionado/a",
+                        "example": "You look excited."
+                      },
+                      {
+                        "term": "feed",
+                        "definition": "Give food to someone",
+                        "translation": "dar de comer",
+                        "example": "My mam will want to feed him."
+                      },
+                      {
+                        "term": "news",
+                        "definition": "New information (uncountable)",
+                        "translation": "noticias",
+                        "example": "There's more news."
+                      },
+                      {
+                        "term": "Sounds good",
+                        "definition": "That is a good idea",
+                        "translation": "suena bien",
+                        "example": "Sounds good to me."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "She ___ me she was tired.",
+                        "options": [
+                          "told",
+                          "said"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "He ___ that he was busy.",
+                        "options": [
+                          "said",
+                          "told"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I like it.\" → She said she ___ it.",
+                        "options": [
+                          "liked",
+                          "likes"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I will call.\" → He said he ___ call.",
+                        "options": [
+                          "would",
+                          "will"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Are you OK?\" → She asked if I ___ OK.",
+                        "options": [
+                          "was",
+                          "am",
+                          "were I"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Where is Javi going to work?",
+                        "options": [
+                          "at a hotel in Dublin",
+                          "at Harbour Studio",
+                          "in Valencia"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

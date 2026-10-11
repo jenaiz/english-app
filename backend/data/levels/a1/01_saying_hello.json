@@ -2,79 +2,112 @@
   "level_id": "A1",
   "themes": [
     {
-      "theme_id": "greetings",
+      "theme_id": "hello_bristol",
       "units": [
         {
           "unit_id": "saying_hello",
-          "title": "Saying Hello",
-          "description": "Saluda y preséntate con el verbo 'to be'.",
+          "title": "Hello, Bristol",
+          "description": "Lucía llega a Bristol. Preséntate y di de dónde eres con el verbo to be (I, you, we).",
           "lessons": [
             {
               "lesson_id": "hello_basics",
-              "title": "Hello, I'm...",
+              "title": "To be: I'm Lucía",
               "steps": [
                 {
                   "phase": "context",
                   "type": "audio_context",
                   "content": {
+                    "title": "Hello, Bristol",
                     "dialogue": [
                       {
-                        "speaker": "Anna",
-                        "text": "Hello! I'm Anna. What's your name?"
+                        "speaker": "Mrs Green",
+                        "text": "Hello! Are you Lucía?"
                       },
                       {
-                        "speaker": "Tom",
-                        "text": "Hi Anna, I'm Tom. Nice to meet you."
+                        "speaker": "Lucía",
+                        "text": "Yes, I am. Hello!"
                       },
                       {
-                        "speaker": "Anna",
-                        "text": "Nice to meet you too! Where are you from?"
+                        "speaker": "Mrs Green",
+                        "text": "I'm Mrs Green. Welcome to Bristol!"
                       },
                       {
-                        "speaker": "Tom",
-                        "text": "I'm from Spain. I'm a student. And you?"
+                        "speaker": "Lucía",
+                        "text": "Thank you. Nice to meet you."
                       },
                       {
-                        "speaker": "Anna",
-                        "text": "I'm from Canada. My brother is a student too."
+                        "speaker": "Mrs Green",
+                        "text": "Nice to meet you too. Where are you from, Lucía?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I'm from Spain. I'm from Valencia."
+                      },
+                      {
+                        "speaker": "Mrs Green",
+                        "text": "Oh, lovely! Are you tired?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes, I am. I'm very tired!"
+                      },
+                      {
+                        "speaker": "Mrs Green",
+                        "text": "Come in, come in. We're all friends here. Here's your key."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Thank you, Mrs Green!"
                       }
-                    ]
+                    ],
+                    "passage": "It's Saturday evening. This is Clifton Road, in Bristol. Lucía is at number fourteen with a big suitcase. She's from Spain and she's very tired."
                   }
                 },
                 {
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
-                    "instructions": "Fíjate en el diálogo y elige la respuesta correcta.",
+                    "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
-                        "question": "Where is Tom from?",
-                        "options": [
-                          "Canada",
-                          "Spain",
-                          "England"
-                        ],
-                        "answer": 1
-                      },
-                      {
-                        "question": "In \"I'm Anna\", what does 'm stand for?",
+                        "question": "In \"I'm Lucía\", what does 'm mean?",
                         "options": [
                           "am",
                           "is",
                           "are"
                         ],
                         "answer": 0,
-                        "explanation": "I'm = I am. Con 'I' siempre usamos 'am'."
+                        "explanation": "I'm = I am. La contracción es lo normal al hablar."
                       },
                       {
-                        "question": "\"My brother ___ a student.\" Which form did Anna use?",
+                        "question": "Mrs Green says \"We're all friends here.\" We're = …",
                         "options": [
-                          "am",
-                          "are",
-                          "is"
+                          "We is",
+                          "We are",
+                          "We am"
                         ],
-                        "answer": 2,
-                        "explanation": "Con he / she / it (my brother = he) usamos 'is'."
+                        "answer": 1,
+                        "explanation": "We're = we are."
+                      },
+                      {
+                        "question": "\"Where are you from?\" What does Lucía answer?",
+                        "options": [
+                          "I'm from Spain.",
+                          "I from Spain.",
+                          "I'm Spain from."
+                        ],
+                        "answer": 0,
+                        "explanation": "En inglés el sujeto y el verbo siempre aparecen: I + am."
+                      },
+                      {
+                        "question": "\"Are you tired?\" Which short answer is correct?",
+                        "options": [
+                          "Yes, I'm.",
+                          "Yes, I am.",
+                          "Yes, I are."
+                        ],
+                        "answer": 1,
+                        "explanation": "En las respuestas cortas afirmativas no se contrae: Yes, I am."
                       }
                     ]
                   }
@@ -83,46 +116,52 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
-                    "title": "The verb 'to be' (present)",
-                    "explanation": "'To be' significa 'ser' o 'estar'. Tiene tres formas en presente: am, is, are. En la conversación casi siempre se contrae: I'm, you're, he's, she's, it's, we're, they're.",
+                    "title": "The verb 'to be': I, you, we",
+                    "explanation": "To be significa ser o estar. En inglés siempre hay que poner el sujeto: no se dice «Am from Spain», sino «I'm from Spain».\n\nAl hablar usamos casi siempre contracciones (I'm, you're, we're). En las respuestas cortas afirmativas no se contrae: «Are you tired? — Yes, I am» (nunca «Yes, I'm»).\n\nPara preguntar, el verbo va delante del sujeto: «Are you Lucía?». Con it (para cosas, el día o la hora) la forma es is: «It's Saturday».",
                     "table": {
                       "headers": [
                         "Sujeto",
                         "Forma completa",
                         "Contracción",
-                        "Negativa"
+                        "Negativa",
+                        "Pregunta"
                       ],
                       "rows": [
                         [
                           "I",
                           "I am",
                           "I'm",
-                          "I'm not"
+                          "I'm not",
+                          "Am I…?"
                         ],
                         [
-                          "You",
-                          "You are",
-                          "You're",
-                          "You aren't"
+                          "you",
+                          "you are",
+                          "you're",
+                          "you aren't",
+                          "Are you…?"
                         ],
                         [
-                          "He / She / It",
-                          "He is",
-                          "He's",
-                          "He isn't"
+                          "we",
+                          "we are",
+                          "we're",
+                          "we aren't",
+                          "Are we…?"
                         ],
                         [
-                          "We / They",
-                          "We are",
-                          "We're",
-                          "We aren't"
+                          "it",
+                          "it is",
+                          "it's",
+                          "it isn't",
+                          "Is it…?"
                         ]
                       ]
                     },
                     "examples": [
-                      "I'm Spanish.",
-                      "She is a teacher.",
-                      "They aren't at home."
+                      "I'm Lucía. I'm from Spain.",
+                      "Are you Lucía? — Yes, I am.",
+                      "We're all friends here.",
+                      "I'm not English. I'm Spanish."
                     ]
                   }
                 },
@@ -130,10 +169,10 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con am, is o are.",
+                    "instructions": "Completa con am o are.",
                     "items": [
                       {
-                        "sentence": "I ___ from Spain.",
+                        "sentence": "I ___ from Valencia.",
                         "answers": [
                           [
                             "am"
@@ -141,15 +180,15 @@
                         ]
                       },
                       {
-                        "sentence": "Anna ___ from Canada.",
+                        "sentence": "___ you tired?",
                         "answers": [
                           [
-                            "is"
+                            "Are"
                           ]
                         ]
                       },
                       {
-                        "sentence": "We ___ students.",
+                        "sentence": "We ___ in Bristol.",
                         "answers": [
                           [
                             "are"
@@ -157,34 +196,77 @@
                         ]
                       },
                       {
-                        "sentence": "My friends ___ in London.",
+                        "sentence": "I ___ not English.",
+                        "answers": [
+                          [
+                            "am"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You ___ my new neighbour.",
                         "answers": [
                           [
                             "are"
                           ]
-                        ],
-                        "explanation": "My friends = they → are."
+                        ]
+                      },
+                      {
+                        "sentence": "Are you Lucía? — Yes, I ___.",
+                        "answers": [
+                          [
+                            "am"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ we late?",
+                        "answers": [
+                          [
+                            "Are"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Where ___ you from?",
+                        "answers": [
+                          [
+                            "are"
+                          ]
+                        ]
                       }
                     ]
                   }
                 },
                 {
                   "phase": "practice",
-                  "type": "word_order",
+                  "type": "match_pairs",
                   "content": {
-                    "instructions": "Ordena las palabras para formar la frase.",
-                    "items": [
+                    "instructions": "Une cada país con su nacionalidad.",
+                    "pairs": [
                       {
-                        "answer": "Nice to meet you"
+                        "left": "Spain",
+                        "right": "Spanish"
                       },
                       {
-                        "answer": "Where are you from?"
+                        "left": "England",
+                        "right": "English"
                       },
                       {
-                        "answer": "My brother is a student",
-                        "distractors": [
-                          "am"
-                        ]
+                        "left": "Ireland",
+                        "right": "Irish"
+                      },
+                      {
+                        "left": "France",
+                        "right": "French"
+                      },
+                      {
+                        "left": "Italy",
+                        "right": "Italian"
+                      },
+                      {
+                        "left": "Germany",
+                        "right": "German"
                       }
                     ]
                   }
@@ -203,10 +285,37 @@
                         ]
                       },
                       {
-                        "source": "Ella es profesora.",
+                        "source": "¿Eres Lucía?",
                         "answers": [
-                          "She's a teacher",
-                          "She is a teacher"
+                          "Are you Lucía",
+                          "Are you Lucia"
+                        ]
+                      },
+                      {
+                        "source": "No estoy cansada.",
+                        "answers": [
+                          "I'm not tired",
+                          "I am not tired"
+                        ]
+                      },
+                      {
+                        "source": "Encantada de conocerte.",
+                        "answers": [
+                          "Nice to meet you",
+                          "Pleased to meet you"
+                        ]
+                      },
+                      {
+                        "source": "Somos amigos.",
+                        "answers": [
+                          "We're friends",
+                          "We are friends"
+                        ]
+                      },
+                      {
+                        "source": "¿De dónde eres?",
+                        "answers": [
+                          "Where are you from"
                         ]
                       }
                     ]
@@ -216,10 +325,13 @@
                   "phase": "production",
                   "type": "speaking",
                   "content": {
-                    "instructions": "Lee la frase en voz alta.",
+                    "instructions": "Lee en voz alta. Preséntate como Lucía.",
                     "items": [
                       {
-                        "text": "Hello, I'm Tom. Nice to meet you."
+                        "text": "Hello! I'm Lucía. I'm from Spain."
+                      },
+                      {
+                        "text": "Nice to meet you."
                       },
                       {
                         "text": "Where are you from?"
@@ -234,33 +346,93 @@
                     "items": [
                       {
                         "term": "Hello",
-                        "definition": "A greeting",
+                        "definition": "A word you say when you meet someone",
                         "translation": "Hola",
-                        "example": "Hello, how are you?"
+                        "example": "Hello! Are you Lucía?"
+                      },
+                      {
+                        "term": "Hi",
+                        "definition": "An informal way to say hello",
+                        "translation": "Hola (informal)",
+                        "example": "Hi, Sam!"
                       },
                       {
                         "term": "Goodbye",
-                        "definition": "Said when leaving",
+                        "definition": "A word you say when you leave",
                         "translation": "Adiós",
-                        "example": "Goodbye, see you tomorrow!"
+                        "example": "Goodbye, Mrs Green!"
+                      },
+                      {
+                        "term": "Welcome",
+                        "definition": "A word to greet someone who arrives",
+                        "translation": "Bienvenido/a",
+                        "example": "Welcome to Bristol!"
                       },
                       {
                         "term": "Nice to meet you",
-                        "definition": "Said when meeting someone new",
-                        "translation": "Encantado/a",
-                        "example": "Nice to meet you, Tom."
+                        "definition": "A polite phrase when you meet someone new",
+                        "translation": "Encantado/a de conocerte",
+                        "example": "Nice to meet you, Lucía."
+                      },
+                      {
+                        "term": "Thank you",
+                        "definition": "Words to show you are happy for something",
+                        "translation": "Gracias",
+                        "example": "Thank you, Mrs Green!"
+                      },
+                      {
+                        "term": "tired",
+                        "definition": "Needing rest or sleep",
+                        "translation": "cansado/a",
+                        "example": "I'm very tired!"
+                      },
+                      {
+                        "term": "key",
+                        "definition": "A small metal object to open a door",
+                        "translation": "llave",
+                        "example": "Here's your key."
+                      },
+                      {
+                        "term": "friend",
+                        "definition": "A person you know and like",
+                        "translation": "amigo/a",
+                        "example": "We're all friends here."
+                      },
+                      {
+                        "term": "Spain",
+                        "definition": "A country in the south of Europe",
+                        "translation": "España",
+                        "example": "I'm from Spain."
+                      },
+                      {
+                        "term": "Spanish",
+                        "definition": "From Spain",
+                        "translation": "español/a",
+                        "example": "Lucía is Spanish."
+                      },
+                      {
+                        "term": "English",
+                        "definition": "From England; also the language",
+                        "translation": "inglés/inglesa",
+                        "example": "I'm not English."
+                      },
+                      {
+                        "term": "Ireland",
+                        "definition": "A country west of Great Britain",
+                        "translation": "Irlanda",
+                        "example": "Daniel is from Ireland."
+                      },
+                      {
+                        "term": "Irish",
+                        "definition": "From Ireland",
+                        "translation": "irlandés/irlandesa",
+                        "example": "Daniel is Irish."
                       },
                       {
                         "term": "Where are you from?",
-                        "definition": "Question about someone's origin",
+                        "definition": "A question about your country or city",
                         "translation": "¿De dónde eres?",
-                        "example": "Where are you from? I'm from Spain."
-                      },
-                      {
-                        "term": "Student",
-                        "definition": "A person who studies",
-                        "translation": "Estudiante",
-                        "example": "I'm a student."
+                        "example": "Where are you from, Lucía?"
                       }
                     ]
                   }
@@ -269,44 +441,62 @@
                   "phase": "review",
                   "type": "speed_quiz",
                   "content": {
-                    "instructions": "¡Rápido! Responde antes de que se acabe el tiempo.",
-                    "time_limit_seconds": 40,
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
                     "items": [
                       {
-                        "question": "They ___ my friends.",
+                        "question": "I ___ from Spain.",
                         "options": [
+                          "am",
                           "is",
-                          "are",
-                          "am"
-                        ],
-                        "answer": 1
-                      },
-                      {
-                        "question": "\"Encantado\" in English is…",
-                        "options": [
-                          "Goodbye",
-                          "Nice to meet you",
-                          "See you"
-                        ],
-                        "answer": 1
-                      },
-                      {
-                        "question": "He ___ from Italy.",
-                        "options": [
-                          "is",
-                          "are",
-                          "am"
+                          "are"
                         ],
                         "answer": 0
                       },
                       {
-                        "question": "Negative of \"I am\":",
+                        "question": "We ___ friends.",
                         "options": [
-                          "I amn't",
-                          "I'm not",
-                          "I not am"
+                          "am",
+                          "are",
+                          "is"
                         ],
                         "answer": 1
+                      },
+                      {
+                        "question": "___ you tired?",
+                        "options": [
+                          "Am",
+                          "Is",
+                          "Are"
+                        ],
+                        "answer": 2
+                      },
+                      {
+                        "question": "Lucía is from ___.",
+                        "options": [
+                          "Spain",
+                          "Spanish",
+                          "Spains"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'm from Ireland. I'm ___.",
+                        "options": [
+                          "Ireland",
+                          "Irish",
+                          "Irishes"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Nice to ___ you.",
+                        "options": [
+                          "meet",
+                          "see",
+                          "know"
+                        ],
+                        "answer": 0
                       }
                     ]
                   }

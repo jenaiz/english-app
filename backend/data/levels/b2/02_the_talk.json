@@ -1,0 +1,494 @@
+{
+  "level_id": "B2",
+  "themes": [
+    {
+      "theme_id": "edinburgh",
+      "units": [
+        {
+          "unit_id": "the_talk",
+          "title": "After the Talk",
+          "description": "Deduce lo que es seguro, posible o imposible: must, might, could y can't.",
+          "lessons": [
+            {
+              "lesson_id": "the_talk_lesson",
+              "title": "Modals of deduction: present",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "After the talk",
+                    "dialogue": [
+                      {
+                        "speaker": "Mark",
+                        "text": "Ms Martín? Mark Reed, Reed Hotels. That was a terrific talk."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Thank you, Mr Reed. Nice to meet you."
+                      },
+                      {
+                        "speaker": "Mark",
+                        "text": "Call me Mark. I'd like Harbour Studio to redesign our websites. All forty-two hotels."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Forty-two? That's… a very big project."
+                      },
+                      {
+                        "speaker": "Mark",
+                        "text": "Here's my card. Let's talk next week."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Who was that? He must be important. Did you see his watch?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "He owns a hotel chain. He must have a lot of money."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Reed Hotels? That can't be the company from the TV adverts. They're enormous."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "It might be. He said forty-two hotels."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Then this could be the biggest contract Harbour Studio has ever had."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Helen will be delighted. Or terrified. It could be either."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "She must be waiting for news. Call her now!"
+                      }
+                    ],
+                    "passage": "The next morning, Lucía's talk goes well. Afterwards, an American man in an expensive suit is waiting for her near the stage."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"He must be important.\" Daniel is…",
+                        "options": [
+                          "almost sure it is true",
+                          "almost sure it is false",
+                          "not sure at all"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"That can't be the company from the TV adverts.\" Daniel thinks it is…",
+                        "options": [
+                          "impossible",
+                          "possible"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"It might be.\" means…",
+                        "options": [
+                          "quizá",
+                          "seguro"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "How many hotels does Mark Reed have?",
+                        "options": [
+                          "forty-two",
+                          "twenty-four",
+                          "four"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Modals of deduction: present",
+                    "explanation": "Usamos modales para hacer deducciones sobre el presente:\n• must + verbo = estamos casi seguros de que es verdad (= debe de): He must be important.\n• can't + verbo = estamos casi seguros de que no es verdad: That can't be the same company.\n• might / may / could + verbo = es posible: It might be.\n\nOjo: para la deducción negativa se usa can't, no mustn't (que significa prohibición).\n\nCon acciones en curso: must be + -ing: She must be waiting for news.",
+                    "table": {
+                      "headers": [
+                        "Modal",
+                        "Certeza",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "must",
+                          "casi seguro que sí",
+                          "He must be important."
+                        ],
+                        [
+                          "might / may / could",
+                          "posible",
+                          "It might be the same company."
+                        ],
+                        [
+                          "can't",
+                          "casi seguro que no",
+                          "That can't be the same company."
+                        ],
+                        [
+                          "must be + -ing",
+                          "deducción sobre algo en curso",
+                          "She must be waiting for news."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "He must be important. Did you see his watch?",
+                      "That can't be the company from the TV adverts.",
+                      "This could be the biggest contract Harbour Studio has ever had.",
+                      "She must be waiting for news."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con must, might/could o can't.",
+                    "items": [
+                      {
+                        "sentence": "He ___ be important. Look at his watch!",
+                        "answers": [
+                          [
+                            "must"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "That ___ be the same company. They're enormous.",
+                        "answers": [
+                          [
+                            "can't",
+                            "cannot"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It ___ be. He said forty-two hotels.",
+                        "answers": [
+                          [
+                            "might",
+                            "may",
+                            "could"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "She must be ___ for news. (wait)",
+                        "answers": [
+                          [
+                            "waiting"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "This ___ be the biggest contract we've ever had.",
+                        "answers": [
+                          [
+                            "could",
+                            "might",
+                            "may"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You've been travelling all day. You ___ be exhausted.",
+                        "answers": [
+                          [
+                            "must"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He ___ be at home. I've just seen him at the office.",
+                        "answers": [
+                          [
+                            "can't",
+                            "cannot"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm not sure where Daniel is. He ___ be in the kitchen.",
+                        "answers": [
+                          [
+                            "might",
+                            "may",
+                            "could"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "match_pairs",
+                  "content": {
+                    "instructions": "Une cada frase con su significado.",
+                    "pairs": [
+                      {
+                        "left": "He must be rich.",
+                        "right": "Estoy casi seguro de que es rico."
+                      },
+                      {
+                        "left": "He can't be rich.",
+                        "right": "Estoy casi seguro de que no es rico."
+                      },
+                      {
+                        "left": "He might be rich.",
+                        "right": "Puede que sea rico."
+                      },
+                      {
+                        "left": "She must be waiting.",
+                        "right": "Seguro que está esperando."
+                      },
+                      {
+                        "left": "It could be either.",
+                        "right": "Podría ser cualquiera de las dos cosas."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Debe de ser importante.",
+                        "answers": [
+                          "He must be important",
+                          "She must be important"
+                        ]
+                      },
+                      {
+                        "source": "No puede ser verdad.",
+                        "answers": [
+                          "It can't be true",
+                          "That can't be true",
+                          "It cannot be true"
+                        ]
+                      },
+                      {
+                        "source": "Puede que esté en casa.",
+                        "answers": [
+                          "He might be at home",
+                          "She might be at home",
+                          "He may be at home",
+                          "She may be at home",
+                          "He could be at home",
+                          "She could be at home"
+                        ]
+                      },
+                      {
+                        "source": "Debe de estar esperando noticias.",
+                        "answers": [
+                          "She must be waiting for news",
+                          "He must be waiting for news"
+                        ]
+                      },
+                      {
+                        "source": "Debes de estar cansada.",
+                        "answers": [
+                          "You must be tired"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "He must be important."
+                      },
+                      {
+                        "text": "That can't be the same company."
+                      },
+                      {
+                        "text": "It might be. He said forty-two hotels."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "terrific",
+                        "definition": "Excellent",
+                        "translation": "estupendo/a",
+                        "example": "That was a terrific talk."
+                      },
+                      {
+                        "term": "suit",
+                        "definition": "A jacket and trousers that match",
+                        "translation": "traje",
+                        "example": "an expensive suit"
+                      },
+                      {
+                        "term": "stage",
+                        "definition": "The raised area where speakers stand",
+                        "translation": "escenario",
+                        "example": "He is waiting near the stage."
+                      },
+                      {
+                        "term": "redesign",
+                        "definition": "Design again",
+                        "translation": "rediseñar",
+                        "example": "I'd like you to redesign our websites."
+                      },
+                      {
+                        "term": "hotel chain",
+                        "definition": "A group of hotels with the same owner",
+                        "translation": "cadena hotelera",
+                        "example": "He owns a hotel chain."
+                      },
+                      {
+                        "term": "own",
+                        "definition": "Have something as your property",
+                        "translation": "ser dueño de",
+                        "example": "He owns a hotel chain."
+                      },
+                      {
+                        "term": "card",
+                        "definition": "A small card with your name and job",
+                        "translation": "tarjeta (de visita)",
+                        "example": "Here's my card."
+                      },
+                      {
+                        "term": "enormous",
+                        "definition": "Very big",
+                        "translation": "enorme",
+                        "example": "They're enormous."
+                      },
+                      {
+                        "term": "contract",
+                        "definition": "A written legal agreement",
+                        "translation": "contrato",
+                        "example": "the biggest contract we've ever had"
+                      },
+                      {
+                        "term": "delighted",
+                        "definition": "Very pleased",
+                        "translation": "encantado/a",
+                        "example": "Helen will be delighted."
+                      },
+                      {
+                        "term": "terrified",
+                        "definition": "Very frightened",
+                        "translation": "aterrorizado/a",
+                        "example": "Or terrified."
+                      },
+                      {
+                        "term": "must (deduction)",
+                        "definition": "Almost certainly",
+                        "translation": "deber de",
+                        "example": "He must be important."
+                      },
+                      {
+                        "term": "can't (deduction)",
+                        "definition": "Almost certainly not",
+                        "translation": "no poder ser",
+                        "example": "That can't be true."
+                      },
+                      {
+                        "term": "either",
+                        "definition": "One or the other",
+                        "translation": "cualquiera de los dos",
+                        "example": "It could be either."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "He's been working for ten hours. He ___ be tired.",
+                        "options": [
+                          "must",
+                          "can't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She ___ be in Paris. I saw her here an hour ago.",
+                        "options": [
+                          "can't",
+                          "mustn't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I don't know where Sam is. He ___ be at the gym.",
+                        "options": [
+                          "might",
+                          "must"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "They must ___ for us. Let's hurry.",
+                        "options": [
+                          "be waiting",
+                          "wait"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "That ___ be Mark's car. It's a Ferrari!",
+                        "options": [
+                          "must",
+                          "can't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What does Mark want Harbour Studio to do?",
+                        "options": [
+                          "redesign his hotel websites",
+                          "organise a conference",
+                          "buy his company"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

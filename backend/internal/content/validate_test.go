@@ -82,7 +82,7 @@ func TestVocabulary(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if v := c.Vocabulary("phrasal_verbs_hotel"); len(v) == 0 || v[0].Term != "Check in" {
+	if v := c.Vocabulary("phrasal_verbs_hotel"); len(v) == 0 || v[0].Term != "check in" {
 		t.Fatalf("unexpected vocabulary: %+v", v)
 	}
 }

@@ -1,0 +1,505 @@
+{
+  "level_id": "A2",
+  "themes": [
+    {
+      "theme_id": "autumn",
+      "units": [
+        {
+          "unit_id": "comparing_cities",
+          "title": "Bristol or Valencia?",
+          "description": "Compara ciudades, comida y personas con los comparativos.",
+          "lessons": [
+            {
+              "lesson_id": "comparing_cities_lesson",
+              "title": "Comparatives",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Bristol or Valencia?",
+                    "dialogue": [
+                      {
+                        "speaker": "Javi",
+                        "text": "So, which city is better, Bristol or Valencia?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "That's a difficult question! Valencia is bigger and sunnier, of course."
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "And the food?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "The food in Valencia is better. But Bristol is more interesting than I thought. There's a lot of music and art."
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "Is it more expensive?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes, much more expensive. My rent here is higher than in Madrid."
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "And the people? Are they friendlier than in Spain?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "They're quieter, but they're very kind. And they say \"sorry\" more often than we do!"
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "Ha! And the weather is worse, right?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Much worse. It's colder and wetter. But Bristol isn't as grey as people say."
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "Good friends make it better… like the Irish guy?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Javi! Daniel is just a friend. And he's funnier than you!"
+                      }
+                    ],
+                    "passage": "Javi calls on Sunday. He wants to practise his English for his exam, and he has a lot of questions about Bristol."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"Valencia is bigger.\" The comparative of big is…",
+                        "options": [
+                          "bigger",
+                          "more big"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"more interesting than\": with long adjectives we use…",
+                        "options": [
+                          "more + adjective",
+                          "adjective + -er"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"The food in Valencia is better.\" Better is the comparative of…",
+                        "options": [
+                          "good",
+                          "bad"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "For Lucía, which city is more expensive?",
+                        "options": [
+                          "Bristol",
+                          "Valencia"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Comparatives",
+                    "explanation": "Para comparar usamos el comparativo + than: Valencia is bigger than Bristol.\n\nAdjetivos cortos: + -er (small → smaller, cold → colder). Si acaban en vocal + consonante, la consonante se dobla: big → bigger, wet → wetter. Si acaban en -y: sunny → sunnier, funny → funnier, friendly → friendlier.\n\nAdjetivos largos: more / less + adjetivo: more expensive, more interesting.\n\nIrregulares: good → better, bad → worse, far → further.\n\nPara reforzar: much bigger, much more expensive. Para decir que no son iguales: Bristol isn't as sunny as Valencia.",
+                    "table": {
+                      "headers": [
+                        "Adjetivo",
+                        "Comparativo",
+                        "Regla"
+                      ],
+                      "rows": [
+                        [
+                          "small",
+                          "smaller",
+                          "+ -er"
+                        ],
+                        [
+                          "big",
+                          "bigger",
+                          "dobla la consonante"
+                        ],
+                        [
+                          "sunny",
+                          "sunnier",
+                          "-y → -ier"
+                        ],
+                        [
+                          "expensive",
+                          "more expensive",
+                          "more + adjetivo largo"
+                        ],
+                        [
+                          "good",
+                          "better",
+                          "irregular"
+                        ],
+                        [
+                          "bad",
+                          "worse",
+                          "irregular"
+                        ],
+                        [
+                          "far",
+                          "further",
+                          "irregular"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Valencia is bigger and sunnier.",
+                      "Bristol is much more expensive.",
+                      "The weather is worse here.",
+                      "Bristol isn't as grey as people say."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el comparativo.",
+                    "items": [
+                      {
+                        "sentence": "Valencia is ___ than Bristol. (big)",
+                        "answers": [
+                          [
+                            "bigger"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Bristol is ___ than Valencia. (wet)",
+                        "answers": [
+                          [
+                            "wetter"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The food in Valencia is ___. (good)",
+                        "answers": [
+                          [
+                            "better"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The weather in Bristol is ___. (bad)",
+                        "answers": [
+                          [
+                            "worse"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Bristol is ___ expensive than Madrid.",
+                        "answers": [
+                          [
+                            "more"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel is ___ than Javi. (funny)",
+                        "answers": [
+                          [
+                            "funnier"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "British people are ___ than Spanish people. (quiet)",
+                        "answers": [
+                          [
+                            "quieter"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Bristol isn't as sunny ___ Valencia.",
+                        "answers": [
+                          [
+                            "as"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "match_pairs",
+                  "content": {
+                    "instructions": "Une cada adjetivo con su comparativo.",
+                    "pairs": [
+                      {
+                        "left": "hot",
+                        "right": "hotter"
+                      },
+                      {
+                        "left": "happy",
+                        "right": "happier"
+                      },
+                      {
+                        "left": "cheap",
+                        "right": "cheaper"
+                      },
+                      {
+                        "left": "beautiful",
+                        "right": "more beautiful"
+                      },
+                      {
+                        "left": "good",
+                        "right": "better"
+                      },
+                      {
+                        "left": "bad",
+                        "right": "worse"
+                      },
+                      {
+                        "left": "far",
+                        "right": "further"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Valencia es más grande que Bristol.",
+                        "answers": [
+                          "Valencia is bigger than Bristol"
+                        ]
+                      },
+                      {
+                        "source": "Aquí la comida es peor.",
+                        "answers": [
+                          "The food is worse here",
+                          "Here the food is worse"
+                        ]
+                      },
+                      {
+                        "source": "Bristol es mucho más caro.",
+                        "answers": [
+                          "Bristol is much more expensive"
+                        ]
+                      },
+                      {
+                        "source": "Él es más divertido que tú.",
+                        "answers": [
+                          "He's funnier than you",
+                          "He is funnier than you"
+                        ]
+                      },
+                      {
+                        "source": "Bristol no es tan soleado como Valencia.",
+                        "answers": [
+                          "Bristol isn't as sunny as Valencia",
+                          "Bristol is not as sunny as Valencia"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "Valencia is bigger and sunnier."
+                      },
+                      {
+                        "text": "Bristol is more interesting than I thought."
+                      },
+                      {
+                        "text": "The weather here is much worse."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "city",
+                        "definition": "A big town",
+                        "translation": "ciudad",
+                        "example": "Which city is better?"
+                      },
+                      {
+                        "term": "sunny",
+                        "definition": "With a lot of sun",
+                        "translation": "soleado",
+                        "example": "Valencia is sunnier."
+                      },
+                      {
+                        "term": "expensive",
+                        "definition": "Costing a lot",
+                        "translation": "caro",
+                        "example": "Bristol is more expensive."
+                      },
+                      {
+                        "term": "rent",
+                        "definition": "Money you pay to live in a flat",
+                        "translation": "alquiler",
+                        "example": "My rent is higher here."
+                      },
+                      {
+                        "term": "high",
+                        "definition": "Big in number or position",
+                        "translation": "alto/a",
+                        "example": "The rent is higher than in Madrid."
+                      },
+                      {
+                        "term": "friendly",
+                        "definition": "Kind and nice to people",
+                        "translation": "simpático/a, amable",
+                        "example": "Are they friendlier?"
+                      },
+                      {
+                        "term": "quiet",
+                        "definition": "Not loud; not talking much",
+                        "translation": "tranquilo/a, callado/a",
+                        "example": "They're quieter."
+                      },
+                      {
+                        "term": "kind",
+                        "definition": "Nice and helpful",
+                        "translation": "amable",
+                        "example": "They're very kind."
+                      },
+                      {
+                        "term": "art",
+                        "definition": "Paintings, drawings, sculptures",
+                        "translation": "arte",
+                        "example": "There's a lot of music and art."
+                      },
+                      {
+                        "term": "weather",
+                        "definition": "Sun, rain, wind…",
+                        "translation": "tiempo (atmosférico)",
+                        "example": "The weather is worse."
+                      },
+                      {
+                        "term": "better",
+                        "definition": "Comparative of good",
+                        "translation": "mejor",
+                        "example": "The food is better."
+                      },
+                      {
+                        "term": "worse",
+                        "definition": "Comparative of bad",
+                        "translation": "peor",
+                        "example": "The weather is worse."
+                      },
+                      {
+                        "term": "than",
+                        "definition": "Word used in comparisons",
+                        "translation": "que (en comparaciones)",
+                        "example": "bigger than Bristol"
+                      },
+                      {
+                        "term": "difficult",
+                        "definition": "Not easy",
+                        "translation": "difícil",
+                        "example": "That's a difficult question!"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "Valencia is ___ than Bristol.",
+                        "options": [
+                          "hotter",
+                          "more hot",
+                          "hoter"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "London is ___ than Bristol.",
+                        "options": [
+                          "more big",
+                          "bigger",
+                          "biger"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Bristol is more ___ than Valencia.",
+                        "options": [
+                          "expensive",
+                          "expensiver"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The weather is ___ in Bristol.",
+                        "options": [
+                          "badder",
+                          "worse",
+                          "more bad"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Bristol isn't ___ sunny as Valencia.",
+                        "options": [
+                          "so",
+                          "as",
+                          "than"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Who does Lucía say is funnier than Javi?",
+                        "options": [
+                          "Daniel",
+                          "Sam",
+                          "Helen"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

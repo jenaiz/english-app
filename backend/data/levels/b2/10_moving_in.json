@@ -1,0 +1,493 @@
+{
+  "level_id": "B2",
+  "themes": [
+    {
+      "theme_id": "moving_forward",
+      "units": [
+        {
+          "unit_id": "moving_in",
+          "title": "A Question at the Harbour",
+          "description": "Verbos seguidos de -ing o de to: remember, stop, try, regret y otros que cambian de significado.",
+          "lessons": [
+            {
+              "lesson_id": "moving_in_lesson",
+              "title": "Verb patterns: -ing or to-infinitive",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "A question at the harbour",
+                    "dialogue": [
+                      {
+                        "speaker": "Daniel",
+                        "text": "Lucía, I've been meaning to ask you something."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "That sounds serious. Go on."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Would you consider moving in with me? My contract ends in June."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Oh! I'd love to… but I'd miss living with Priya."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "I remember you saying that the house was the best thing about Bristol."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "It was, at the beginning. But now I can't imagine not seeing you every day."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "So is that a yes?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "It's a yes. But you'll have to stop leaving your socks everywhere."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "I'll try to be tidier. I promise."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "And I need to tell Priya. I regret not telling her that we were thinking about it."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "She'll be happy for you. She suggested looking for flats together last month, remember?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "That's true! I'd forgotten about that."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Shall we stop to get a coffee and start looking online?"
+                      }
+                    ],
+                    "passage": "April. Lucía and Daniel are walking along the harbour on a Sunday afternoon."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"Would you consider moving in with me?\" Consider + …",
+                        "options": [
+                          "-ing",
+                          "to + verb"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I remember you saying that…\" Remember + -ing refers to…",
+                        "options": [
+                          "a memory of the past",
+                          "something to do later"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"You'll have to stop leaving your socks everywhere.\" means…",
+                        "options": [
+                          "dejar de dejar los calcetines",
+                          "pararse para dejar los calcetines"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Shall we stop to get a coffee?\" means…",
+                        "options": [
+                          "pararnos a tomar un café",
+                          "dejar de tomar café"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Verb patterns: -ing or to-infinitive",
+                    "explanation": "Algunos verbos van seguidos de -ing (consider, imagine, miss, suggest, enjoy, avoid, mind) y otros de to + verbo (agree, decide, promise, need, hope, mean).\n\nUnos pocos cambian de significado según la forma:\n• remember / forget + -ing = recordar/olvidar algo que pasó · + to = acordarse/olvidarse de hacer algo\n• stop + -ing = dejar de · + to = pararse para\n• try + to = intentar · + -ing = probar a\n• regret + -ing = arrepentirse de · + to = lamentar (comunicar algo)",
+                    "table": {
+                      "headers": [
+                        "Verbo",
+                        "+ -ing",
+                        "+ to + verbo"
+                      ],
+                      "rows": [
+                        [
+                          "remember",
+                          "recordar algo pasado: I remember you saying that.",
+                          "acordarse de hacer algo: Remember to call Priya."
+                        ],
+                        [
+                          "forget",
+                          "olvidar algo pasado: I'll never forget meeting you.",
+                          "olvidarse de hacer algo: Don't forget to pay the deposit."
+                        ],
+                        [
+                          "stop",
+                          "dejar de: Stop leaving your socks everywhere.",
+                          "pararse para: Let's stop to get a coffee."
+                        ],
+                        [
+                          "try",
+                          "probar: Try opening the window.",
+                          "intentar: I'll try to be tidier."
+                        ],
+                        [
+                          "regret",
+                          "arrepentirse: I regret not telling her.",
+                          "lamentar (formal): We regret to inform you…"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Would you consider moving in with me?",
+                      "I remember you saying that the house was the best thing about Bristol.",
+                      "You'll have to stop leaving your socks everywhere.",
+                      "Shall we stop to get a coffee?"
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con -ing o to + verbo.",
+                    "items": [
+                      {
+                        "sentence": "Would you consider ___ in with me? (move)",
+                        "answers": [
+                          [
+                            "moving"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'd miss ___ with Priya. (live)",
+                        "answers": [
+                          [
+                            "living"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I remember you ___ the house was the best thing. (say)",
+                        "answers": [
+                          [
+                            "saying"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You'll have to stop ___ your socks everywhere. (leave)",
+                        "answers": [
+                          [
+                            "leaving"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'll try ___ be tidier.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I regret not ___ her. (tell)",
+                        "answers": [
+                          [
+                            "telling"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "She suggested ___ for flats together. (look)",
+                        "answers": [
+                          [
+                            "looking"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Shall we stop ___ get a coffee?",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "match_pairs",
+                  "content": {
+                    "instructions": "Une cada expresión con su significado.",
+                    "pairs": [
+                      {
+                        "left": "stop smoking",
+                        "right": "dejar de fumar"
+                      },
+                      {
+                        "left": "stop to smoke",
+                        "right": "pararse a fumar"
+                      },
+                      {
+                        "left": "remember to call",
+                        "right": "acordarse de llamar"
+                      },
+                      {
+                        "left": "remember calling",
+                        "right": "recordar haber llamado"
+                      },
+                      {
+                        "left": "try to sleep",
+                        "right": "intentar dormir"
+                      },
+                      {
+                        "left": "try sleeping",
+                        "right": "probar a dormir"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "¿Te plantearías vivir conmigo?",
+                        "answers": [
+                          "Would you consider living with me",
+                          "Would you consider moving in with me"
+                        ]
+                      },
+                      {
+                        "source": "Recuerdo haberlo dicho.",
+                        "answers": [
+                          "I remember saying it",
+                          "I remember saying that"
+                        ]
+                      },
+                      {
+                        "source": "Acuérdate de llamar a Priya.",
+                        "answers": [
+                          "Remember to call Priya",
+                          "Remember to phone Priya"
+                        ]
+                      },
+                      {
+                        "source": "Deja de dejar los calcetines por todas partes.",
+                        "answers": [
+                          "Stop leaving your socks everywhere"
+                        ]
+                      },
+                      {
+                        "source": "Me arrepiento de no habérselo dicho.",
+                        "answers": [
+                          "I regret not telling her",
+                          "I regret not telling him",
+                          "I regret not having told her"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "Would you consider moving in with me?"
+                      },
+                      {
+                        "text": "You'll have to stop leaving your socks everywhere."
+                      },
+                      {
+                        "text": "I'll try to be tidier. I promise."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "mean to",
+                        "definition": "Intend to",
+                        "translation": "tener intención de",
+                        "example": "I've been meaning to ask you something."
+                      },
+                      {
+                        "term": "consider",
+                        "definition": "Think about doing something",
+                        "translation": "plantearse, considerar",
+                        "example": "Would you consider moving in with me?"
+                      },
+                      {
+                        "term": "move in with",
+                        "definition": "Start living with someone",
+                        "translation": "irse a vivir con",
+                        "example": "moving in with me"
+                      },
+                      {
+                        "term": "contract",
+                        "definition": "A written agreement (e.g. for renting)",
+                        "translation": "contrato",
+                        "example": "My contract ends in June."
+                      },
+                      {
+                        "term": "miss",
+                        "definition": "Feel sad without something",
+                        "translation": "echar de menos",
+                        "example": "I'd miss living with Priya."
+                      },
+                      {
+                        "term": "imagine",
+                        "definition": "Form a picture in your mind",
+                        "translation": "imaginar(se)",
+                        "example": "I can't imagine not seeing you."
+                      },
+                      {
+                        "term": "remember",
+                        "definition": "Have in your memory",
+                        "translation": "recordar, acordarse",
+                        "example": "I remember you saying that."
+                      },
+                      {
+                        "term": "stop",
+                        "definition": "Not continue (+ -ing) / pause to do (+ to)",
+                        "translation": "dejar de / pararse a",
+                        "example": "Stop leaving your socks everywhere."
+                      },
+                      {
+                        "term": "try",
+                        "definition": "Make an effort (+ to) / experiment (+ -ing)",
+                        "translation": "intentar / probar",
+                        "example": "I'll try to be tidier."
+                      },
+                      {
+                        "term": "regret",
+                        "definition": "Feel sorry about something you did",
+                        "translation": "arrepentirse de",
+                        "example": "I regret not telling her."
+                      },
+                      {
+                        "term": "suggest",
+                        "definition": "Give an idea (+ -ing)",
+                        "translation": "sugerir",
+                        "example": "She suggested looking for flats."
+                      },
+                      {
+                        "term": "tidy",
+                        "definition": "Neat and in order",
+                        "translation": "ordenado/a",
+                        "example": "I'll try to be tidier."
+                      },
+                      {
+                        "term": "Go on",
+                        "definition": "Continue, tell me",
+                        "translation": "adelante, sigue",
+                        "example": "Go on."
+                      },
+                      {
+                        "term": "Shall we…?",
+                        "definition": "A suggestion",
+                        "translation": "¿Qué tal si…?",
+                        "example": "Shall we stop to get a coffee?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "I really enjoy ___ by the sea.",
+                        "options": [
+                          "walking",
+                          "to walk"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Don't forget ___ the door!",
+                        "options": [
+                          "to lock",
+                          "locking"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I remember ___ him at a party years ago.",
+                        "options": [
+                          "meeting",
+                          "to meet"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "He stopped ___ when he was 30. (dejó de)",
+                        "options": [
+                          "smoking",
+                          "to smoke"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'll try ___ earlier tomorrow.",
+                        "options": [
+                          "to arrive",
+                          "arriving"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What does Lucía ask Daniel to stop doing?",
+                        "options": [
+                          "leaving his socks everywhere",
+                          "working late",
+                          "drinking coffee"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

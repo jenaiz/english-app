@@ -1,0 +1,523 @@
+{
+  "level_id": "A1",
+  "themes": [
+    {
+      "theme_id": "new_life",
+      "units": [
+        {
+          "unit_id": "first_day",
+          "title": "The First Day",
+          "description": "Primer día en Harbour Studio: preguntas con Wh-, la hora y have got.",
+          "lessons": [
+            {
+              "lesson_id": "first_day_lesson",
+              "title": "Wh- questions and the time",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "The first day",
+                    "dialogue": [
+                      {
+                        "speaker": "Helen",
+                        "text": "Good morning! You're Lucía Martín, right? I'm Helen Carter."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Good morning, Helen. Nice to meet you."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "And this is Daniel. He's a developer. He's from Ireland."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Hi, Lucía! How are you?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I'm fine, thanks. Where in Ireland are you from?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Galway. It's a grand place on the west coast."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Have you got your laptop, Lucía?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes, I have. What's my desk number?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "It's fourteen. It's next to my desk."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Fourteen? My house number is fourteen too!"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Ha! That's lucky. What time is the meeting, Helen?"
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "It's at half past nine. And lunch is at one o'clock."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "And Friday is pizza day!"
+                      }
+                    ],
+                    "passage": "It's Monday morning. It's half past eight. This is Harbour Studio, an office near the harbour. Lucía is the new designer."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"What time is the meeting?\" — …",
+                        "options": [
+                          "It's at half past nine.",
+                          "It's half nine past.",
+                          "At nine half."
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Where is Daniel from?",
+                        "options": [
+                          "Galway",
+                          "Dublin",
+                          "Bristol"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Have you got your laptop?\" — …",
+                        "options": [
+                          "Yes, I have.",
+                          "Yes, I got.",
+                          "Yes, I've."
+                        ],
+                        "answer": 0,
+                        "explanation": "Respuesta corta de have got: Yes, I have / No, I haven't."
+                      },
+                      {
+                        "question": "\"half past eight\" is…",
+                        "options": [
+                          "8:30",
+                          "7:30",
+                          "8:15"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Wh- questions, the time and have got",
+                    "explanation": "Las preguntas con what, where, who, when o how van seguidas del verbo be: What's your name?, Where are you from?, How are you?\n\nLa hora: It's nine o'clock (9:00), It's half past nine (9:30), It's quarter past ten (10:15), It's quarter to ten (9:45), It's ten past nine (9:10). Para decir a qué hora es algo usamos at: The meeting is at half past nine. Con los días usamos on: on Friday.\n\nHave got expresa posesión en inglés británico: Have you got a laptop? — Yes, I have / No, I haven't. Con he/she: has got.",
+                    "table": {
+                      "headers": [
+                        "Palabra",
+                        "Significado",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "What",
+                          "qué / cuál",
+                          "What's your desk number?"
+                        ],
+                        [
+                          "Where",
+                          "dónde",
+                          "Where are you from?"
+                        ],
+                        [
+                          "Who",
+                          "quién",
+                          "Who is Daniel?"
+                        ],
+                        [
+                          "When",
+                          "cuándo",
+                          "When is pizza day?"
+                        ],
+                        [
+                          "What time",
+                          "a qué hora",
+                          "What time is lunch?"
+                        ],
+                        [
+                          "How",
+                          "cómo",
+                          "How are you?"
+                        ],
+                        [
+                          "How old",
+                          "qué edad",
+                          "How old is Javi?"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "What time is it? — It's half past eight.",
+                      "The meeting is at half past nine.",
+                      "Have you got your laptop? — Yes, I have.",
+                      "Friday is pizza day!"
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la palabra correcta.",
+                    "items": [
+                      {
+                        "sentence": "___ are you from? — Galway.",
+                        "answers": [
+                          [
+                            "Where"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ is your name? — Lucía.",
+                        "answers": [
+                          [
+                            "What"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ is Helen? — She's the director.",
+                        "answers": [
+                          [
+                            "Who"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ are you? — I'm fine, thanks.",
+                        "answers": [
+                          [
+                            "How"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ old is Javi? — He's twenty-five.",
+                        "answers": [
+                          [
+                            "How"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "What time is lunch? — It's ___ one o'clock.",
+                        "answers": [
+                          [
+                            "at"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The meeting is ___ Monday.",
+                        "answers": [
+                          [
+                            "on"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ you got a laptop? — Yes, I have.",
+                        "answers": [
+                          [
+                            "Have"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "match_pairs",
+                  "content": {
+                    "instructions": "Une cada hora o número con su forma en inglés.",
+                    "pairs": [
+                      {
+                        "left": "8:30",
+                        "right": "half past eight"
+                      },
+                      {
+                        "left": "9:00",
+                        "right": "nine o'clock"
+                      },
+                      {
+                        "left": "10:15",
+                        "right": "quarter past ten"
+                      },
+                      {
+                        "left": "5:45",
+                        "right": "quarter to six"
+                      },
+                      {
+                        "left": "1:10",
+                        "right": "ten past one"
+                      },
+                      {
+                        "left": "14",
+                        "right": "fourteen"
+                      },
+                      {
+                        "left": "40",
+                        "right": "forty"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "¿Qué hora es?",
+                        "answers": [
+                          "What time is it",
+                          "What's the time"
+                        ]
+                      },
+                      {
+                        "source": "Son las nueve y media.",
+                        "answers": [
+                          "It's half past nine",
+                          "It is half past nine"
+                        ]
+                      },
+                      {
+                        "source": "La reunión es a las diez.",
+                        "answers": [
+                          "The meeting is at ten",
+                          "The meeting is at ten o'clock"
+                        ]
+                      },
+                      {
+                        "source": "¿Dónde está mi mesa?",
+                        "answers": [
+                          "Where is my desk",
+                          "Where's my desk"
+                        ]
+                      },
+                      {
+                        "source": "¿Tienes tu portátil?",
+                        "answers": [
+                          "Have you got your laptop",
+                          "Do you have your laptop"
+                        ]
+                      },
+                      {
+                        "source": "El viernes es el día de la pizza.",
+                        "answers": [
+                          "Friday is pizza day"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "What time is the meeting?"
+                      },
+                      {
+                        "text": "It's half past nine."
+                      },
+                      {
+                        "text": "Have you got a laptop?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "office",
+                        "definition": "A place where people work at desks",
+                        "translation": "oficina",
+                        "example": "Harbour Studio is an office near the harbour."
+                      },
+                      {
+                        "term": "desk",
+                        "definition": "A table where you work",
+                        "translation": "mesa (de trabajo)",
+                        "example": "My desk is number fourteen."
+                      },
+                      {
+                        "term": "meeting",
+                        "definition": "When people meet to talk about work",
+                        "translation": "reunión",
+                        "example": "The meeting is at half past nine."
+                      },
+                      {
+                        "term": "laptop",
+                        "definition": "A small computer you can carry",
+                        "translation": "portátil",
+                        "example": "Have you got your laptop?"
+                      },
+                      {
+                        "term": "lunch",
+                        "definition": "The meal in the middle of the day",
+                        "translation": "comida (de mediodía)",
+                        "example": "Lunch is at one o'clock."
+                      },
+                      {
+                        "term": "morning",
+                        "definition": "The early part of the day",
+                        "translation": "mañana",
+                        "example": "Good morning, Helen!"
+                      },
+                      {
+                        "term": "developer",
+                        "definition": "A person who writes computer programs",
+                        "translation": "desarrollador/a",
+                        "example": "Daniel is a developer."
+                      },
+                      {
+                        "term": "o'clock",
+                        "definition": "Used for exact hours",
+                        "translation": "en punto",
+                        "example": "It's nine o'clock."
+                      },
+                      {
+                        "term": "half past",
+                        "definition": "Thirty minutes after the hour",
+                        "translation": "y media",
+                        "example": "It's half past eight."
+                      },
+                      {
+                        "term": "quarter past",
+                        "definition": "Fifteen minutes after the hour",
+                        "translation": "y cuarto",
+                        "example": "It's quarter past ten."
+                      },
+                      {
+                        "term": "quarter to",
+                        "definition": "Fifteen minutes before the hour",
+                        "translation": "menos cuarto",
+                        "example": "It's quarter to six."
+                      },
+                      {
+                        "term": "Monday",
+                        "definition": "The first day of the working week",
+                        "translation": "lunes",
+                        "example": "It's Monday morning."
+                      },
+                      {
+                        "term": "Friday",
+                        "definition": "The last day of the working week",
+                        "translation": "viernes",
+                        "example": "Friday is pizza day!"
+                      },
+                      {
+                        "term": "lucky",
+                        "definition": "When good things happen to you",
+                        "translation": "afortunado/a, de suerte",
+                        "example": "That's lucky!"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "9:30 = It's ___ nine.",
+                        "options": [
+                          "half past",
+                          "half to",
+                          "past half"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ is your name?",
+                        "options": [
+                          "Where",
+                          "What",
+                          "Who"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "___ are you from?",
+                        "options": [
+                          "What",
+                          "How",
+                          "Where"
+                        ],
+                        "answer": 2
+                      },
+                      {
+                        "question": "The meeting is ___ ten o'clock.",
+                        "options": [
+                          "on",
+                          "at",
+                          "in"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Pizza day is ___ Friday.",
+                        "options": [
+                          "at",
+                          "in",
+                          "on"
+                        ],
+                        "answer": 2
+                      },
+                      {
+                        "question": "Daniel is from ___.",
+                        "options": [
+                          "Dublin",
+                          "Galway",
+                          "Bristol"
+                        ],
+                        "answer": 1
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

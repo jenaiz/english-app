@@ -168,7 +168,9 @@ La facilidad nunca baja de 1,3.
 
 ## Añadir contenido
 
-Crea o edita un archivo en `backend/data/levels/` y reinicia el backend. Estructura:
+El temario está en [`docs/syllabus.md`](docs/syllabus.md) (12 unidades por nivel, siguiendo el Cambridge English Grammar/Vocabulary Profile) y todo el contexto sale de una historia continua: [`docs/story/bible.md`](docs/story/bible.md) (personajes, voces y reglas) y un libro por nivel (`docs/story/a1.md`…). Un test (`story_test.go`) comprueba que el diálogo de cada unidad coincide palabra por palabra con su capítulo, así que hay que cambiar los dos a la vez.
+
+Cada nivel es una carpeta con un fichero por unidad: `backend/data/levels/a1/00_level.json` (nivel y orden de los temas) y `NN_<unit_id>.json`, que repite `level_id` e indica su `theme_id`. El backend junta los ficheros con el mismo `level_id`. Reinicia el backend después de editarlos. Estructura:
 
 ```
 level (level_id, title, description)
@@ -191,6 +193,21 @@ Cada lección debe recorrer estas fases **en orden**. Una fase puede tener vario
 | 5 | `production` | Producir: hablar, dictado, traducción            | `speaking`, `dictation`, `translation`             |
 | 6 | `vocabulary` | Ficha resumen con audio                          | `vocabulary_table`                                 |
 | 7 | `review`     | Consolidar                                       | `speed_quiz` (y SRS automático del vocabulario)    |
+
+### Tests (checkpoints)
+
+Una lección con `"kind": "test"` no sigue las 7 fases: es una lista de ejercicios puntuados (al menos uno), normalmente con `phase: "review"`. Cada nivel tiene un checkpoint cada 3 unidades y un test final en la unidad 12.
+
+### Voces de los diálogos
+
+Cada `speaker` de un `audio_context` debe estar en [`backend/data/voices.json`](backend/data/voices.json), que le asigna una voz fija (el `passage` lo lee `Narrator`). Si falta alguno, el backend no arranca. Los audios se generan aparte con Azure Speech: solo se generan las líneas nuevas o cambiadas.
+
+```bash
+cd backend
+AZURE_SPEECH_KEY=... AZURE_SPEECH_REGION=northeurope go run ./cmd/tts   # -dry-run para ver qué falta, -prune para borrar huérfanos
+```
+
+Los MP3 van a `backend/data/audio/` y se sirven desde `/api/audio`. Si falta uno, la app usa la voz del navegador.
 
 ### Tipos de paso
 

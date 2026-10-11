@@ -1,0 +1,508 @@
+{
+  "level_id": "A1",
+  "themes": [
+    {
+      "theme_id": "weekends",
+      "units": [
+        {
+          "unit_id": "rainy_day",
+          "title": "A Rainy Saturday",
+          "description": "Describe lo que pasa ahora mismo con el present continuous; ropa y tiempo.",
+          "lessons": [
+            {
+              "lesson_id": "rainy_day_lesson",
+              "title": "Present continuous",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "A rainy Saturday",
+                    "dialogue": [
+                      {
+                        "speaker": "Javi",
+                        "text": "Hi, Lucía! What are you doing?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I'm looking at the rain! It's raining again."
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "It's sunny here. I'm wearing shorts and a T-shirt!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Lucky you! I'm wearing a jumper, jeans and thick socks."
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "Where are Sam and Priya?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Priya is working today. And Sam is sleeping, of course. He always sleeps on Saturday mornings."
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "And Daniel? The Irish guy?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Javi! I don't know. He usually goes running on Saturdays… in the rain!"
+                      },
+                      {
+                        "speaker": "Javi",
+                        "text": "Are you smiling, Lucía?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "No, I'm not! Oh, wait. Sam is coming into the kitchen. He's carrying his guitar."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Morning! Who are you talking to?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "My brother. Say hello!"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Hiya, Javi! Bring the sun to Bristol, please!"
+                      }
+                    ],
+                    "passage": "It's Saturday morning and it's raining. It's cold and grey. Lucía is in the kitchen with a coffee. Javi is on the phone."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"It's raining again.\" This is happening…",
+                        "options": [
+                          "now",
+                          "every day",
+                          "yesterday"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I'm wearing a jumper.\" The form is…",
+                        "options": [
+                          "be + verb-ing",
+                          "do + verb",
+                          "verb + s"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Which sentence is about a habit?",
+                        "options": [
+                          "He always sleeps on Saturday mornings.",
+                          "Sam is sleeping."
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What is Sam carrying?",
+                        "options": [
+                          "his guitar",
+                          "an umbrella",
+                          "a coffee"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Present continuous",
+                    "explanation": "El present continuous describe lo que está pasando ahora: It's raining, I'm wearing a jumper. Se forma con am / is / are + verbo en -ing.\n\nNegativa: I'm not smiling! Pregunta: What are you doing? Are you smiling?\n\nCompáralo con el present simple, que es para rutinas: Sam always sleeps on Saturdays (rutina) / Sam is sleeping now (ahora). Pistas: now, right now, at the moment, Look! → continuous; always, usually, every day → simple.",
+                    "table": {
+                      "headers": [
+                        "Sujeto",
+                        "Afirmativa",
+                        "Negativa",
+                        "Pregunta"
+                      ],
+                      "rows": [
+                        [
+                          "I",
+                          "I'm working",
+                          "I'm not working",
+                          "Am I working?"
+                        ],
+                        [
+                          "you / we / they",
+                          "you're working",
+                          "you aren't working",
+                          "Are you working?"
+                        ],
+                        [
+                          "he / she / it",
+                          "she's working",
+                          "she isn't working",
+                          "Is she working?"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "It's raining again.",
+                      "Priya is working today.",
+                      "What are you doing? — I'm looking at the rain.",
+                      "Sam always sleeps on Saturdays, and he's sleeping now."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el present continuous o el present simple.",
+                    "items": [
+                      {
+                        "sentence": "It ___ raining.",
+                        "answers": [
+                          [
+                            "is"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm ___ a jumper. (wear)",
+                        "answers": [
+                          [
+                            "wearing"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "What ___ you doing?",
+                        "answers": [
+                          [
+                            "are"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam is ___. (sleep)",
+                        "answers": [
+                          [
+                            "sleeping"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Javi is ___ in the sun. (sit)",
+                        "answers": [
+                          [
+                            "sitting"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Priya ___ working today.",
+                        "answers": [
+                          [
+                            "is"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ not smiling!",
+                        "answers": [
+                          [
+                            "am"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam usually ___ on Saturday mornings. (sleep)",
+                        "answers": [
+                          [
+                            "sleeps"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "match_pairs",
+                  "content": {
+                    "instructions": "Une cada palabra con su traducción.",
+                    "pairs": [
+                      {
+                        "left": "raining",
+                        "right": "lloviendo"
+                      },
+                      {
+                        "left": "sunny",
+                        "right": "soleado"
+                      },
+                      {
+                        "left": "cold",
+                        "right": "frío"
+                      },
+                      {
+                        "left": "hot",
+                        "right": "calor"
+                      },
+                      {
+                        "left": "jumper",
+                        "right": "jersey"
+                      },
+                      {
+                        "left": "jeans",
+                        "right": "vaqueros"
+                      },
+                      {
+                        "left": "shorts",
+                        "right": "pantalones cortos"
+                      },
+                      {
+                        "left": "socks",
+                        "right": "calcetines"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Está lloviendo.",
+                        "answers": [
+                          "It's raining",
+                          "It is raining"
+                        ]
+                      },
+                      {
+                        "source": "¿Qué estás haciendo?",
+                        "answers": [
+                          "What are you doing"
+                        ]
+                      },
+                      {
+                        "source": "Llevo vaqueros y un jersey.",
+                        "answers": [
+                          "I'm wearing jeans and a jumper",
+                          "I am wearing jeans and a jumper"
+                        ]
+                      },
+                      {
+                        "source": "Priya está trabajando hoy.",
+                        "answers": [
+                          "Priya is working today",
+                          "Priya's working today"
+                        ]
+                      },
+                      {
+                        "source": "Sam está durmiendo.",
+                        "answers": [
+                          "Sam is sleeping",
+                          "Sam's sleeping"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "It's raining again!"
+                      },
+                      {
+                        "text": "What are you doing?"
+                      },
+                      {
+                        "text": "I'm wearing a jumper and jeans."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "rain",
+                        "definition": "Water that falls from the sky",
+                        "translation": "lluvia / llover",
+                        "example": "It's raining again."
+                      },
+                      {
+                        "term": "weather",
+                        "definition": "Rain, sun, wind…",
+                        "translation": "tiempo (atmosférico)",
+                        "example": "The weather is cold and grey."
+                      },
+                      {
+                        "term": "sunny",
+                        "definition": "With a lot of sun",
+                        "translation": "soleado",
+                        "example": "It's sunny here."
+                      },
+                      {
+                        "term": "cold",
+                        "definition": "Not warm",
+                        "translation": "frío",
+                        "example": "It's cold and grey."
+                      },
+                      {
+                        "term": "hot",
+                        "definition": "Very warm",
+                        "translation": "caluroso, calor",
+                        "example": "It's hot in Valencia."
+                      },
+                      {
+                        "term": "grey",
+                        "definition": "The colour of rain clouds",
+                        "translation": "gris",
+                        "example": "It's cold and grey."
+                      },
+                      {
+                        "term": "jumper",
+                        "definition": "A warm piece of clothing for the top of your body",
+                        "translation": "jersey",
+                        "example": "I'm wearing a jumper."
+                      },
+                      {
+                        "term": "jeans",
+                        "definition": "Trousers made of blue cotton",
+                        "translation": "vaqueros",
+                        "example": "I'm wearing jeans."
+                      },
+                      {
+                        "term": "T-shirt",
+                        "definition": "A light shirt with short sleeves",
+                        "translation": "camiseta",
+                        "example": "I'm wearing a T-shirt!"
+                      },
+                      {
+                        "term": "shorts",
+                        "definition": "Short trousers",
+                        "translation": "pantalones cortos",
+                        "example": "I'm wearing shorts."
+                      },
+                      {
+                        "term": "socks",
+                        "definition": "You wear them on your feet",
+                        "translation": "calcetines",
+                        "example": "Thick socks."
+                      },
+                      {
+                        "term": "coat",
+                        "definition": "Warm clothes you wear outside",
+                        "translation": "abrigo",
+                        "example": "Lucía needs a coat."
+                      },
+                      {
+                        "term": "wear",
+                        "definition": "Have clothes on your body",
+                        "translation": "llevar puesto",
+                        "example": "I'm wearing a jumper."
+                      },
+                      {
+                        "term": "carry",
+                        "definition": "Hold something and take it with you",
+                        "translation": "llevar (en la mano)",
+                        "example": "He's carrying his guitar."
+                      },
+                      {
+                        "term": "smile",
+                        "definition": "Make a happy face",
+                        "translation": "sonreír",
+                        "example": "Are you smiling, Lucía?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "Look! It ___.",
+                        "options": [
+                          "rains",
+                          "is raining",
+                          "raining"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "What ___ you doing?",
+                        "options": [
+                          "do",
+                          "are",
+                          "is"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Sam ___ now.",
+                        "options": [
+                          "sleeps",
+                          "is sleeping",
+                          "sleep"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Priya always ___ up early.",
+                        "options": [
+                          "gets",
+                          "is getting",
+                          "get"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'm ___ jeans.",
+                        "options": [
+                          "wearing",
+                          "carrying",
+                          "wear"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What's the weather like in Valencia?",
+                        "options": [
+                          "sunny",
+                          "rainy",
+                          "cold"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

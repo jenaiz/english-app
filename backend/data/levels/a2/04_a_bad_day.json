@@ -1,0 +1,468 @@
+{
+  "level_id": "A2",
+  "themes": [
+    {
+      "theme_id": "autumn",
+      "units": [
+        {
+          "unit_id": "a_bad_day",
+          "title": "What a Morning!",
+          "description": "Cuenta qué estabas haciendo cuando pasó algo: past continuous y past simple.",
+          "lessons": [
+            {
+              "lesson_id": "a_bad_day_lesson",
+              "title": "Past continuous vs past simple",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "What a morning!",
+                    "dialogue": [
+                      {
+                        "speaker": "Daniel",
+                        "text": "Lucía! Are you OK? What happened?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "What a morning! I was walking to the bus stop when it started to rain."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Oh no. Didn't you have your umbrella?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes, but while I was opening it, the wind broke it!"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Sam's famous black umbrella? Not again!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Then, when I was getting on the bus, a man ran into me and my coffee went everywhere."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "That's terrible. And what were you doing when Helen called? She was looking for you at nine."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I was sitting on the bus. I couldn't hear my phone."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Don't worry. She wasn't angry. She was talking to a client all morning."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Thank goodness. Is there any coffee in the kitchen?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Sit down. I can make you one."
+                      }
+                    ],
+                    "passage": "Monday morning, late October. Lucía arrives at Harbour Studio twenty minutes late. Her hair is wet and there's coffee on her new coat."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"I was walking to the bus stop when it started to rain.\" Which action was longer?",
+                        "options": [
+                          "was walking",
+                          "started"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"was walking\" is…",
+                        "options": [
+                          "was/were + -ing",
+                          "did + verb"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"While I was opening it, the wind broke it.\" After while we usually use…",
+                        "options": [
+                          "the past continuous",
+                          "the past simple"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What broke Lucía's umbrella?",
+                        "options": [
+                          "the wind",
+                          "a man on the bus",
+                          "Sam"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Past continuous vs past simple",
+                    "explanation": "El past continuous (was/were + -ing) describe una acción que estaba en curso en un momento del pasado: At nine I was sitting on the bus.\n\nLo combinamos con el past simple para contar que algo interrumpió esa acción: I was walking to the bus stop when it started to rain. La acción larga va en continuous y la corta, en simple.\n\nCon while solemos usar el continuous: While I was opening it, the wind broke it.\n\nPregunta típica: What were you doing when Helen called?",
+                    "table": {
+                      "headers": [
+                        "Sujeto",
+                        "Afirmativa",
+                        "Negativa",
+                        "Pregunta"
+                      ],
+                      "rows": [
+                        [
+                          "I / he / she / it",
+                          "was walking",
+                          "wasn't walking",
+                          "Was she walking?"
+                        ],
+                        [
+                          "you / we / they",
+                          "were walking",
+                          "weren't walking",
+                          "Were they walking?"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I was walking to the bus stop when it started to rain.",
+                      "While I was opening it, the wind broke it.",
+                      "What were you doing when Helen called?",
+                      "She wasn't angry. She was talking to a client."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con past continuous o past simple.",
+                    "items": [
+                      {
+                        "sentence": "I ___ walking to the bus stop when it started to rain.",
+                        "answers": [
+                          [
+                            "was"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "While I was ___ my umbrella, the wind broke it. (open)",
+                        "answers": [
+                          [
+                            "opening"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "When I was getting on the bus, a man ___ into me. (run)",
+                        "answers": [
+                          [
+                            "ran"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "What ___ you doing when Helen called?",
+                        "answers": [
+                          [
+                            "were"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Helen ___ talking to a client all morning.",
+                        "answers": [
+                          [
+                            "was"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "They ___ working when I arrived.",
+                        "answers": [
+                          [
+                            "weren't",
+                            "were not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It was ___ when I left home. (rain)",
+                        "answers": [
+                          [
+                            "raining"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "My coffee ___ everywhere. (go)",
+                        "answers": [
+                          [
+                            "went"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "I was walking to the bus stop"
+                      },
+                      {
+                        "answer": "What were you doing at nine"
+                      },
+                      {
+                        "answer": "She was talking to a client"
+                      },
+                      {
+                        "answer": "It started to rain"
+                      },
+                      {
+                        "answer": "The wind broke my umbrella"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Estaba esperando el autobús cuando empezó a llover.",
+                        "answers": [
+                          "I was waiting for the bus when it started to rain",
+                          "I was waiting for the bus when it started raining"
+                        ]
+                      },
+                      {
+                        "source": "¿Qué estabas haciendo?",
+                        "answers": [
+                          "What were you doing"
+                        ]
+                      },
+                      {
+                        "source": "Ella no estaba enfadada.",
+                        "answers": [
+                          "She wasn't angry",
+                          "She was not angry"
+                        ]
+                      },
+                      {
+                        "source": "Mientras yo cocinaba, Sam llegó a casa.",
+                        "answers": [
+                          "While I was cooking, Sam arrived home",
+                          "While I was cooking Sam arrived home",
+                          "While I was cooking, Sam came home",
+                          "While I was cooking Sam came home",
+                          "While I was cooking, Sam got home"
+                        ]
+                      },
+                      {
+                        "source": "El viento rompió mi paraguas.",
+                        "answers": [
+                          "The wind broke my umbrella"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "I was walking to the bus stop when it started to rain."
+                      },
+                      {
+                        "text": "What were you doing when Helen called?"
+                      },
+                      {
+                        "text": "What a morning!"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "late",
+                        "definition": "After the right time",
+                        "translation": "tarde",
+                        "example": "Lucía arrives twenty minutes late."
+                      },
+                      {
+                        "term": "wet",
+                        "definition": "Covered in water",
+                        "translation": "mojado/a",
+                        "example": "Her hair is wet."
+                      },
+                      {
+                        "term": "happen",
+                        "definition": "Take place",
+                        "translation": "pasar, ocurrir",
+                        "example": "What happened?"
+                      },
+                      {
+                        "term": "wind",
+                        "definition": "Air that moves fast",
+                        "translation": "viento",
+                        "example": "The wind broke it!"
+                      },
+                      {
+                        "term": "break",
+                        "definition": "Damage something into pieces (broke)",
+                        "translation": "romper",
+                        "example": "The wind broke my umbrella."
+                      },
+                      {
+                        "term": "get on",
+                        "definition": "Enter a bus or train",
+                        "translation": "subir (al autobús)",
+                        "example": "I was getting on the bus."
+                      },
+                      {
+                        "term": "run into",
+                        "definition": "Hit someone by accident",
+                        "translation": "chocar con",
+                        "example": "A man ran into me."
+                      },
+                      {
+                        "term": "everywhere",
+                        "definition": "In all places",
+                        "translation": "por todas partes",
+                        "example": "My coffee went everywhere."
+                      },
+                      {
+                        "term": "bus stop",
+                        "definition": "Where you wait for the bus",
+                        "translation": "parada de autobús",
+                        "example": "I was walking to the bus stop."
+                      },
+                      {
+                        "term": "hear",
+                        "definition": "Notice sounds with your ears (heard)",
+                        "translation": "oír",
+                        "example": "I couldn't hear my phone."
+                      },
+                      {
+                        "term": "angry",
+                        "definition": "Not happy because of something bad",
+                        "translation": "enfadado/a",
+                        "example": "She wasn't angry."
+                      },
+                      {
+                        "term": "while",
+                        "definition": "During the time that",
+                        "translation": "mientras",
+                        "example": "While I was opening it…"
+                      },
+                      {
+                        "term": "Thank goodness",
+                        "definition": "Said when you feel happy that something bad did not happen",
+                        "translation": "menos mal",
+                        "example": "Thank goodness!"
+                      },
+                      {
+                        "term": "What a morning!",
+                        "definition": "Said after a bad or busy morning",
+                        "translation": "¡Vaya mañana!",
+                        "example": "What a morning!"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "I ___ walking when it started to rain.",
+                        "options": [
+                          "was",
+                          "were",
+                          "did"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "They ___ watching TV at nine.",
+                        "options": [
+                          "was",
+                          "were"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "While I ___ cooking, the phone rang.",
+                        "options": [
+                          "was",
+                          "did"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "When I arrived, she ___ a coffee.",
+                        "options": [
+                          "was having",
+                          "has"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "A man ___ into me.",
+                        "options": [
+                          "ran",
+                          "was running"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Why was Lucía late?",
+                        "options": [
+                          "rain, wind and a coffee accident",
+                          "she was ill",
+                          "she missed the train"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

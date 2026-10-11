@@ -1,0 +1,515 @@
+{
+  "level_id": "A1",
+  "themes": [
+    {
+      "theme_id": "people_places",
+      "units": [
+        {
+          "unit_id": "around_town",
+          "title": "Where's the Supermarket?",
+          "description": "Pregunta y da direcciones con preposiciones de lugar e imperativos.",
+          "lessons": [
+            {
+              "lesson_id": "around_town_lesson",
+              "title": "Prepositions of place and directions",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Where's the supermarket?",
+                    "dialogue": [
+                      {
+                        "speaker": "Daniel",
+                        "text": "Lucía! Hi! What's the craic?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Sorry? The… craic?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Ha, sorry. It's Irish. It means \"How are you?\""
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Oh! I'm fine. But I'm lost. Is there a supermarket near here?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Yes, there's one on Park Street. Go straight on, then turn left at the bank."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Straight on, then left at the bank…"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "That's it. The supermarket is next to a café, opposite the cinema."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Is there a chemist's near here too?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Yes. It's between the post office and the bookshop."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Thanks, Daniel. You're very kind."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Ah, sure it's no bother. Come with me. I want a coffee from that café!"
+                      }
+                    ],
+                    "passage": "Saturday morning. Lucía needs some food, but where is the supermarket? She walks near the harbour and she sees a friendly face."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"It's between the post office and the bookshop.\" Between = …",
+                        "options": [
+                          "entre",
+                          "enfrente de",
+                          "al lado de"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"opposite the cinema\" = …",
+                        "options": [
+                          "enfrente del cine",
+                          "detrás del cine",
+                          "dentro del cine"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Turn left at the bank.\" This is…",
+                        "options": [
+                          "an instruction",
+                          "a question",
+                          "a past action"
+                        ],
+                        "answer": 0,
+                        "explanation": "Es un imperativo: el verbo sin sujeto."
+                      },
+                      {
+                        "question": "\"What's the craic?\" means…",
+                        "options": [
+                          "How are you?",
+                          "What time is it?",
+                          "Where are you?"
+                        ],
+                        "answer": 0,
+                        "explanation": "Expresión irlandesa muy coloquial."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Prepositions of place and the imperative",
+                    "explanation": "Las preposiciones de lugar dicen dónde está algo: The supermarket is next to a café. Con calles se usa on: on Park Street.\n\nPara dar indicaciones usamos el imperativo, es decir, el verbo sin sujeto: Go straight on. Turn left. Take the second right. En negativo, con don't: Don't turn right.\n\nPara preguntar: Is there a … near here? o Excuse me, where's the …?\n\nOjo con un falso amigo: bookshop = librería; library = biblioteca.",
+                    "table": {
+                      "headers": [
+                        "Preposición",
+                        "Significado",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "next to",
+                          "al lado de",
+                          "The supermarket is next to a café."
+                        ],
+                        [
+                          "opposite",
+                          "enfrente de",
+                          "It's opposite the cinema."
+                        ],
+                        [
+                          "between",
+                          "entre",
+                          "The chemist's is between the post office and the bookshop."
+                        ],
+                        [
+                          "behind",
+                          "detrás de",
+                          "The garden is behind the house."
+                        ],
+                        [
+                          "in front of",
+                          "delante de",
+                          "The bus stop is in front of the bank."
+                        ],
+                        [
+                          "near",
+                          "cerca de",
+                          "There's a supermarket near here."
+                        ],
+                        [
+                          "on",
+                          "en (una calle)",
+                          "It's on Park Street."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Go straight on, then turn left at the bank.",
+                      "The supermarket is next to a café, opposite the cinema.",
+                      "Is there a chemist's near here?",
+                      "Don't turn right!"
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa la frase.",
+                    "items": [
+                      {
+                        "sentence": "The supermarket is ___ to a café.",
+                        "answers": [
+                          [
+                            "next"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It's ___ the cinema. (enfrente)",
+                        "answers": [
+                          [
+                            "opposite"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The chemist's is ___ the post office and the bookshop.",
+                        "answers": [
+                          [
+                            "between"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "There's a supermarket ___ Park Street.",
+                        "answers": [
+                          [
+                            "on"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ straight on.",
+                        "answers": [
+                          [
+                            "Go"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ left at the bank.",
+                        "answers": [
+                          [
+                            "Turn"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Is there a bank ___ here?",
+                        "answers": [
+                          [
+                            "near"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ turn right! (negativo)",
+                        "answers": [
+                          [
+                            "Don't",
+                            "Do not"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "match_pairs",
+                  "content": {
+                    "instructions": "Une cada lugar con su traducción.",
+                    "pairs": [
+                      {
+                        "left": "chemist's",
+                        "right": "farmacia"
+                      },
+                      {
+                        "left": "post office",
+                        "right": "oficina de correos"
+                      },
+                      {
+                        "left": "bookshop",
+                        "right": "librería"
+                      },
+                      {
+                        "left": "library",
+                        "right": "biblioteca"
+                      },
+                      {
+                        "left": "bank",
+                        "right": "banco"
+                      },
+                      {
+                        "left": "cinema",
+                        "right": "cine"
+                      },
+                      {
+                        "left": "bus stop",
+                        "right": "parada de autobús"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "¿Hay un supermercado cerca de aquí?",
+                        "answers": [
+                          "Is there a supermarket near here"
+                        ]
+                      },
+                      {
+                        "source": "Gira a la izquierda en el banco.",
+                        "answers": [
+                          "Turn left at the bank"
+                        ]
+                      },
+                      {
+                        "source": "Sigue recto.",
+                        "answers": [
+                          "Go straight on",
+                          "Go straight ahead"
+                        ]
+                      },
+                      {
+                        "source": "Está al lado de la librería.",
+                        "answers": [
+                          "It's next to the bookshop",
+                          "It is next to the bookshop"
+                        ]
+                      },
+                      {
+                        "source": "Está enfrente del cine.",
+                        "answers": [
+                          "It's opposite the cinema",
+                          "It is opposite the cinema"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "Excuse me, is there a chemist's near here?"
+                      },
+                      {
+                        "text": "Go straight on, then turn left."
+                      },
+                      {
+                        "text": "It's next to the café."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "supermarket",
+                        "definition": "A big shop that sells food",
+                        "translation": "supermercado",
+                        "example": "Is there a supermarket near here?"
+                      },
+                      {
+                        "term": "chemist's",
+                        "definition": "A shop that sells medicine",
+                        "translation": "farmacia",
+                        "example": "Is there a chemist's near here?"
+                      },
+                      {
+                        "term": "post office",
+                        "definition": "A place to send letters",
+                        "translation": "oficina de correos",
+                        "example": "It's next to the post office."
+                      },
+                      {
+                        "term": "bookshop",
+                        "definition": "A shop that sells books",
+                        "translation": "librería",
+                        "example": "It's between the post office and the bookshop."
+                      },
+                      {
+                        "term": "bank",
+                        "definition": "A place to keep your money",
+                        "translation": "banco",
+                        "example": "Turn left at the bank."
+                      },
+                      {
+                        "term": "cinema",
+                        "definition": "A place to watch films",
+                        "translation": "cine",
+                        "example": "It's opposite the cinema."
+                      },
+                      {
+                        "term": "café",
+                        "definition": "A small place to have coffee",
+                        "translation": "cafetería",
+                        "example": "I want a coffee from that café!"
+                      },
+                      {
+                        "term": "street",
+                        "definition": "A road in a town",
+                        "translation": "calle",
+                        "example": "There's one on Park Street."
+                      },
+                      {
+                        "term": "lost",
+                        "definition": "Not knowing where you are",
+                        "translation": "perdido/a",
+                        "example": "I'm lost."
+                      },
+                      {
+                        "term": "turn left",
+                        "definition": "Go to the left",
+                        "translation": "girar a la izquierda",
+                        "example": "Turn left at the bank."
+                      },
+                      {
+                        "term": "turn right",
+                        "definition": "Go to the right",
+                        "translation": "girar a la derecha",
+                        "example": "Don't turn right."
+                      },
+                      {
+                        "term": "go straight on",
+                        "definition": "Continue, don't turn",
+                        "translation": "seguir recto",
+                        "example": "Go straight on."
+                      },
+                      {
+                        "term": "next to",
+                        "definition": "Very near, at the side of",
+                        "translation": "al lado de",
+                        "example": "It's next to a café."
+                      },
+                      {
+                        "term": "opposite",
+                        "definition": "On the other side, facing",
+                        "translation": "enfrente de",
+                        "example": "It's opposite the cinema."
+                      },
+                      {
+                        "term": "between",
+                        "definition": "In the middle of two things",
+                        "translation": "entre",
+                        "example": "It's between the bank and the café."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "The bank is ___ the café and the cinema.",
+                        "options": [
+                          "between",
+                          "next",
+                          "opposite"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "It's ___ Park Street.",
+                        "options": [
+                          "in",
+                          "on",
+                          "at"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "___ left at the bank.",
+                        "options": [
+                          "Turns",
+                          "Turn",
+                          "Turning"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Librería = ___",
+                        "options": [
+                          "library",
+                          "bookshop",
+                          "bookstand"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "It's next ___ a café.",
+                        "options": [
+                          "of",
+                          "to",
+                          "at"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Who helps Lucía?",
+                        "options": [
+                          "Daniel",
+                          "Sam",
+                          "Helen"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,666 @@
+{
+  "level_id": "B2",
+  "themes": [
+    {
+      "theme_id": "home_truths",
+      "units": [
+        {
+          "unit_id": "the_reviews",
+          "title": "The Reviews",
+          "description": "Habla como la prensa: it is said that…, he is believed to…, they are expected to…",
+          "lessons": [
+            {
+              "lesson_id": "the_reviews_lesson",
+              "title": "Passive reporting structures",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "The reviews",
+                    "dialogue": [
+                      {
+                        "speaker": "Priya",
+                        "text": "Listen to this: \"The Clifton Cats' first album is said to be the surprise of the year.\""
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "The surprise of the year! Sam must be over the moon."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "There's more. \"The band is believed to have signed a deal for a European tour.\""
+                      },
+                      {
+                        "speaker": "Ollie",
+                        "text": "A European tour? Is it true?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "It's being reported everywhere. Apparently they're expected to play in Madrid in June."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Madrid! We have to go. Javi could fly from Dublin."
+                      },
+                      {
+                        "speaker": "Ollie",
+                        "text": "What else does it say?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "\"The singer, Sam Turner, is thought to have written most of the songs in a small house in Bristol.\""
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "That's our house! Our kitchen is famous."
+                      },
+                      {
+                        "speaker": "Ollie",
+                        "text": "It's also well known that he never cleaned it."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Ha! It says the album was recorded in just six weeks."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Let's call him. He's supposed to be in London this week."
+                      }
+                    ],
+                    "passage": "March. Sam's album is out, and Priya is reading the reviews aloud in the kitchen."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"The album is said to be the surprise of the year.\" means…",
+                        "options": [
+                          "people say it is",
+                          "the album says it"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"The band is believed to have signed a deal.\" To have signed refers to…",
+                        "options": [
+                          "the past",
+                          "the future"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"It's being reported everywhere.\" The tense is…",
+                        "options": [
+                          "present continuous passive",
+                          "present perfect passive"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Where are they expected to play in June?",
+                        "options": [
+                          "Madrid",
+                          "Bristol",
+                          "Dublin"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Passive reporting structures",
+                    "explanation": "En noticias y textos formales contamos lo que dice la gente sin decir quién:\n• It is said / believed / thought / expected that + frase: It is said that the album is the surprise of the year.\n• Sujeto + is said / believed / thought / expected + to + verbo: The album is said to be the surprise of the year.\n• Si se refiere al pasado, to have + participio: The band is believed to have signed a deal.\n\nBe supposed to significa «se supone que»: He's supposed to be in London this week.",
+                    "table": {
+                      "headers": [
+                        "Estructura",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "It is said that…",
+                          "It is said that the album is the surprise of the year."
+                        ],
+                        [
+                          "Sujeto + is said to + verbo",
+                          "The album is said to be the surprise of the year."
+                        ],
+                        [
+                          "Sujeto + is believed to have + participio (pasado)",
+                          "The band is believed to have signed a deal."
+                        ],
+                        [
+                          "be expected to",
+                          "They're expected to play in Madrid."
+                        ],
+                        [
+                          "be supposed to",
+                          "He's supposed to be in London this week."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "The Clifton Cats' first album is said to be the surprise of the year.",
+                      "The band is believed to have signed a deal for a European tour.",
+                      "Apparently they're expected to play in Madrid in June.",
+                      "He's supposed to be in London this week."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa la estructura impersonal.",
+                    "items": [
+                      {
+                        "sentence": "The album is said ___ be the surprise of the year.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The band is believed to ___ signed a deal.",
+                        "answers": [
+                          [
+                            "have"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It's ___ reported everywhere.",
+                        "answers": [
+                          [
+                            "being"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "They're ___ to play in Madrid in June. (expect)",
+                        "answers": [
+                          [
+                            "expected"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam is thought to have ___ most of the songs. (write)",
+                        "answers": [
+                          [
+                            "written"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It ___ said that he never cleaned the kitchen.",
+                        "answers": [
+                          [
+                            "is"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He's ___ to be in London this week.",
+                        "answers": [
+                          [
+                            "supposed"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The album ___ recorded in just six weeks.",
+                        "answers": [
+                          [
+                            "was"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Reescribe empezando por el sujeto indicado.",
+                    "items": [
+                      {
+                        "source": "People say the album is brilliant. (The album…)",
+                        "answers": [
+                          "The album is said to be brilliant"
+                        ]
+                      },
+                      {
+                        "source": "People believe the band signed a deal. (The band…)",
+                        "answers": [
+                          "The band is believed to have signed a deal"
+                        ]
+                      },
+                      {
+                        "source": "Experts expect the tour to be a success. (The tour…)",
+                        "answers": [
+                          "The tour is expected to be a success"
+                        ]
+                      },
+                      {
+                        "source": "People think Sam wrote the songs. (Sam…)",
+                        "answers": [
+                          "Sam is thought to have written the songs"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Se dice que es el mejor disco del año.",
+                        "answers": [
+                          "It is said to be the best album of the year",
+                          "It's said to be the best album of the year",
+                          "It is said that it is the best album of the year"
+                        ]
+                      },
+                      {
+                        "source": "Se cree que firmaron un contrato.",
+                        "answers": [
+                          "They are believed to have signed a contract",
+                          "They are believed to have signed a deal",
+                          "It is believed that they signed a contract",
+                          "It is believed that they signed a deal"
+                        ]
+                      },
+                      {
+                        "source": "Se espera que toquen en Madrid.",
+                        "answers": [
+                          "They are expected to play in Madrid",
+                          "They're expected to play in Madrid"
+                        ]
+                      },
+                      {
+                        "source": "Se supone que está en Londres.",
+                        "answers": [
+                          "He's supposed to be in London",
+                          "He is supposed to be in London"
+                        ]
+                      },
+                      {
+                        "source": "Se está informando en todas partes.",
+                        "answers": [
+                          "It's being reported everywhere",
+                          "It is being reported everywhere"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta como si fueras periodista.",
+                    "items": [
+                      {
+                        "text": "The album is said to be the surprise of the year."
+                      },
+                      {
+                        "text": "The band is believed to have signed a deal for a European tour."
+                      },
+                      {
+                        "text": "They're expected to play in Madrid in June."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "review",
+                        "definition": "An article giving an opinion about a film, book or album",
+                        "translation": "crítica, reseña",
+                        "example": "Priya is reading the reviews."
+                      },
+                      {
+                        "term": "aloud",
+                        "definition": "So that others can hear",
+                        "translation": "en voz alta",
+                        "example": "She reads the reviews aloud."
+                      },
+                      {
+                        "term": "over the moon",
+                        "definition": "Extremely happy",
+                        "translation": "en el séptimo cielo",
+                        "example": "Sam must be over the moon."
+                      },
+                      {
+                        "term": "deal",
+                        "definition": "An agreement, often in business",
+                        "translation": "acuerdo, contrato",
+                        "example": "signed a deal"
+                      },
+                      {
+                        "term": "sign",
+                        "definition": "Write your name on a document",
+                        "translation": "firmar",
+                        "example": "The band is believed to have signed a deal."
+                      },
+                      {
+                        "term": "tour",
+                        "definition": "A series of concerts in different places",
+                        "translation": "gira",
+                        "example": "a European tour"
+                      },
+                      {
+                        "term": "it is said that",
+                        "definition": "People say that",
+                        "translation": "se dice que",
+                        "example": "It is said that…"
+                      },
+                      {
+                        "term": "be believed to",
+                        "definition": "People believe that",
+                        "translation": "se cree que",
+                        "example": "is believed to have signed"
+                      },
+                      {
+                        "term": "be expected to",
+                        "definition": "People expect that",
+                        "translation": "se espera que",
+                        "example": "They're expected to play in Madrid."
+                      },
+                      {
+                        "term": "be thought to",
+                        "definition": "People think that",
+                        "translation": "se piensa que",
+                        "example": "is thought to have written the songs"
+                      },
+                      {
+                        "term": "be supposed to",
+                        "definition": "Should be (according to plans)",
+                        "translation": "se supone que",
+                        "example": "He's supposed to be in London."
+                      },
+                      {
+                        "term": "well known",
+                        "definition": "Known by many people",
+                        "translation": "conocido/a, sabido",
+                        "example": "It's well known that he never cleaned it."
+                      },
+                      {
+                        "term": "singer",
+                        "definition": "A person who sings",
+                        "translation": "cantante",
+                        "example": "The singer, Sam Turner…"
+                      },
+                      {
+                        "term": "surprise",
+                        "definition": "Something unexpected",
+                        "translation": "sorpresa",
+                        "example": "the surprise of the year"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "The singer is said ___ very shy.",
+                        "options": [
+                          "to be",
+                          "being"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "It ___ that the company will close.",
+                        "options": [
+                          "is believed",
+                          "believes"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "He is thought to ___ the money.",
+                        "options": [
+                          "have stolen",
+                          "stolen"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The tour is ___ to start in May.",
+                        "options": [
+                          "expected",
+                          "expecting"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "We're ___ to be there at eight.",
+                        "options": [
+                          "supposed",
+                          "suppose"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "How long did it take to record the album?",
+                        "options": [
+                          "six weeks",
+                          "six months",
+                          "a year"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "b2_checkpoint_3",
+              "title": "Checkpoint 3: Home Truths",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "I wish I ___ more free time.",
+                        "options": [
+                          "had",
+                          "have"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I wish he ___ leaving the door open!",
+                        "options": [
+                          "wouldn't keep",
+                          "doesn't keep"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I wish I ___ that email. It was a mistake.",
+                        "options": [
+                          "hadn't sent",
+                          "didn't send"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'm having my hair ___ tomorrow.",
+                        "options": [
+                          "cut",
+                          "cutting"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'll get the engineer ___ it.",
+                        "options": [
+                          "to check",
+                          "checking"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She had her car ___ last week.",
+                        "options": [
+                          "serviced",
+                          "service"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The film is said ___ excellent.",
+                        "options": [
+                          "to be",
+                          "being"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "He is believed to ___ the country.",
+                        "options": [
+                          "have left",
+                          "left"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "I wish I ___ cook like him.",
+                        "answers": [
+                          [
+                            "could"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If ___ it were easy!",
+                        "answers": [
+                          [
+                            "only"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Could you have the oven ___? (check)",
+                        "answers": [
+                          [
+                            "checked"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm getting the kitchen ___. (paint)",
+                        "answers": [
+                          [
+                            "painted"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "They're ___ to play in Madrid. (expect)",
+                        "answers": [
+                          [
+                            "expected"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He's ___ to be in London.",
+                        "answers": [
+                          [
+                            "supposed"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Ojalá lo hubiera sabido antes.",
+                        "answers": [
+                          "I wish I had known earlier",
+                          "I wish I'd known earlier",
+                          "I wish I had known before",
+                          "I wish I'd known before"
+                        ]
+                      },
+                      {
+                        "source": "Me voy a cortar el pelo.",
+                        "answers": [
+                          "I'm going to get my hair cut",
+                          "I'm going to have my hair cut",
+                          "I am going to get my hair cut"
+                        ]
+                      },
+                      {
+                        "source": "Se dice que es muy bueno.",
+                        "answers": [
+                          "It's said to be very good",
+                          "It is said to be very good",
+                          "It is said that it is very good",
+                          "It's said that it's very good"
+                        ]
+                      },
+                      {
+                        "source": "Se supone que está en Londres.",
+                        "answers": [
+                          "He's supposed to be in London",
+                          "He is supposed to be in London"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

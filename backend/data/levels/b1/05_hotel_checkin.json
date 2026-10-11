@@ -1,0 +1,967 @@
+{
+  "level_id": "B1",
+  "themes": [
+    {
+      "theme_id": "ireland",
+      "units": [
+        {
+          "unit_id": "hotel_checkin",
+          "title": "A Hotel in Dublin",
+          "description": "Phrasal verbs del hotel y cómo quejarte con educación.",
+          "lessons": [
+            {
+              "lesson_id": "phrasal_verbs_hotel",
+              "title": "Phrasal verbs: separable and inseparable",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "The Liffey House Hotel",
+                    "dialogue": [
+                      {
+                        "speaker": "Receptionist",
+                        "text": "Good evening, welcome to the Liffey House Hotel. Are you checking in?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Yes, we have a reservation under O'Brien."
+                      },
+                      {
+                        "speaker": "Receptionist",
+                        "text": "Lovely. Could you fill in this form, please? And I'll need to see your passports."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Of course. Here you are."
+                      },
+                      {
+                        "speaker": "Receptionist",
+                        "text": "Thank you. Breakfast is served from seven till ten, and check-out is at eleven."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Can we drop off our bags here tomorrow after we check out? Our train to Galway is at three."
+                      },
+                      {
+                        "speaker": "Receptionist",
+                        "text": "No problem, we'll look after them. Just pick them up before you leave."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Is the room quiet? I'm a light sleeper."
+                      },
+                      {
+                        "speaker": "Receptionist",
+                        "text": "Well, it faces the street, so it can be a bit noisy at weekends."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Don't worry, we can put up with a bit of noise."
+                      },
+                      {
+                        "speaker": "Receptionist",
+                        "text": "Room two one four, second floor. The lift is on your left. Enjoy your stay!"
+                      }
+                    ],
+                    "passage": "That evening they arrive at a small hotel in the centre of Dublin, near the River Liffey."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"Could you fill in this form?\" Fill in means…",
+                        "options": [
+                          "rellenar",
+                          "llenar de agua"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Just pick them up before you leave.\" Where does them go?",
+                        "options": [
+                          "between the verb and the particle",
+                          "after the particle"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"We can put up with a bit of noise.\" Put up with means…",
+                        "options": [
+                          "aguantar, soportar",
+                          "montar"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What time is check-out?",
+                        "options": [
+                          "at eleven",
+                          "at ten",
+                          "at three"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Phrasal verbs: separable and inseparable",
+                    "explanation": "Un phrasal verb es un verbo + partícula con un significado nuevo: fill in (rellenar), look after (cuidar), put up with (aguantar).\n\nSeparables: el objeto puede ir en medio o detrás (fill in the form / fill the form in). Si el objeto es un pronombre, tiene que ir en medio: pick them up (nunca «pick up them»).\n\nInseparables: el objeto siempre va detrás: we'll look after them, we can put up with the noise.\n\nAlgunos no llevan objeto: check in, set off.",
+                    "table": {
+                      "headers": [
+                        "Phrasal verb",
+                        "Tipo",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "fill in",
+                          "separable",
+                          "Fill in the form. / Fill it in."
+                        ],
+                        [
+                          "pick up",
+                          "separable",
+                          "Pick up the bags. / Pick them up."
+                        ],
+                        [
+                          "drop off",
+                          "separable",
+                          "Drop off your bags. / Drop them off."
+                        ],
+                        [
+                          "look after",
+                          "inseparable",
+                          "We'll look after them."
+                        ],
+                        [
+                          "put up with",
+                          "inseparable",
+                          "We can put up with the noise."
+                        ],
+                        [
+                          "check in / check out",
+                          "sin objeto",
+                          "We're checking in. / We check out at eleven."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Could you fill in this form, please?",
+                      "Can we drop off our bags here tomorrow?",
+                      "No problem, we'll look after them.",
+                      "Just pick them up before you leave."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la partícula o el pronombre correcto.",
+                    "items": [
+                      {
+                        "sentence": "Could you fill ___ this form?",
+                        "answers": [
+                          [
+                            "in"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Can we drop ___ our bags?",
+                        "answers": [
+                          [
+                            "off"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We'll look ___ them.",
+                        "answers": [
+                          [
+                            "after"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Pick them ___ before you leave.",
+                        "answers": [
+                          [
+                            "up"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We can put up ___ a bit of noise.",
+                        "answers": [
+                          [
+                            "with"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Are you checking ___?",
+                        "answers": [
+                          [
+                            "in"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We have to check ___ at eleven.",
+                        "answers": [
+                          [
+                            "out"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Your bags? Don't worry, we'll look after ___.",
+                        "answers": [
+                          [
+                            "them"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "Could you fill in this form"
+                      },
+                      {
+                        "answer": "Pick them up before you leave"
+                      },
+                      {
+                        "answer": "We'll look after your bags"
+                      },
+                      {
+                        "answer": "We can put up with the noise"
+                      },
+                      {
+                        "answer": "Can we drop off our bags"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "¿Puede rellenar este formulario?",
+                        "answers": [
+                          "Could you fill in this form",
+                          "Can you fill in this form",
+                          "Could you fill this form in",
+                          "Can you fill this form in"
+                        ]
+                      },
+                      {
+                        "source": "Recógelas antes de irte.",
+                        "answers": [
+                          "Pick them up before you leave"
+                        ]
+                      },
+                      {
+                        "source": "Cuidaremos de vuestras maletas.",
+                        "answers": [
+                          "We'll look after your bags",
+                          "We will look after your bags",
+                          "We'll look after your suitcases"
+                        ]
+                      },
+                      {
+                        "source": "No soporto el ruido.",
+                        "answers": [
+                          "I can't put up with the noise",
+                          "I can't stand the noise",
+                          "I cannot put up with the noise"
+                        ]
+                      },
+                      {
+                        "source": "Dejamos el hotel a las once.",
+                        "answers": [
+                          "We check out at eleven",
+                          "We're checking out at eleven"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "We have a reservation under Martín."
+                      },
+                      {
+                        "text": "Can we drop off our bags here?"
+                      },
+                      {
+                        "text": "We can put up with a bit of noise."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "check in",
+                        "definition": "Arrive and register at a hotel or airport",
+                        "translation": "registrarse, hacer el check-in",
+                        "example": "Are you checking in?"
+                      },
+                      {
+                        "term": "check out",
+                        "definition": "Pay and leave a hotel",
+                        "translation": "dejar el hotel",
+                        "example": "Check-out is at eleven."
+                      },
+                      {
+                        "term": "fill in",
+                        "definition": "Write information in a form",
+                        "translation": "rellenar",
+                        "example": "Could you fill in this form?"
+                      },
+                      {
+                        "term": "drop off",
+                        "definition": "Leave something or someone somewhere",
+                        "translation": "dejar",
+                        "example": "Can we drop off our bags?"
+                      },
+                      {
+                        "term": "pick up",
+                        "definition": "Collect something or someone",
+                        "translation": "recoger",
+                        "example": "Pick them up before you leave."
+                      },
+                      {
+                        "term": "look after",
+                        "definition": "Take care of",
+                        "translation": "cuidar",
+                        "example": "We'll look after them."
+                      },
+                      {
+                        "term": "put up with",
+                        "definition": "Accept something unpleasant",
+                        "translation": "aguantar, soportar",
+                        "example": "We can put up with a bit of noise."
+                      },
+                      {
+                        "term": "reservation",
+                        "definition": "A room or table you have booked",
+                        "translation": "reserva",
+                        "example": "a reservation under O'Brien"
+                      },
+                      {
+                        "term": "form",
+                        "definition": "A paper with spaces to write information",
+                        "translation": "formulario",
+                        "example": "Could you fill in this form?"
+                      },
+                      {
+                        "term": "lift",
+                        "definition": "A machine that takes you up and down (US: elevator)",
+                        "translation": "ascensor",
+                        "example": "The lift is on your left."
+                      },
+                      {
+                        "term": "floor",
+                        "definition": "A level of a building",
+                        "translation": "planta, piso",
+                        "example": "second floor"
+                      },
+                      {
+                        "term": "light sleeper",
+                        "definition": "A person who wakes up easily",
+                        "translation": "persona de sueño ligero",
+                        "example": "I'm a light sleeper."
+                      },
+                      {
+                        "term": "noisy",
+                        "definition": "With a lot of noise",
+                        "translation": "ruidoso/a",
+                        "example": "It can be a bit noisy."
+                      },
+                      {
+                        "term": "face",
+                        "definition": "Look towards",
+                        "translation": "dar a",
+                        "example": "It faces the street."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "Fill ___ the form, please.",
+                        "options": [
+                          "in",
+                          "on",
+                          "up"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Your keys? Pick ___ up at reception.",
+                        "options": [
+                          "them",
+                          "it them"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I can't put up ___ this noise.",
+                        "options": [
+                          "with",
+                          "for"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Who will look ___ the children?",
+                        "options": [
+                          "after",
+                          "for"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "We have to check ___ at eleven.",
+                        "options": [
+                          "out",
+                          "off"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Why might the room be noisy?",
+                        "options": [
+                          "It faces the street.",
+                          "It's next to the lift.",
+                          "There's a party."
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "hotel_complaints",
+              "title": "Polite complaints and requests",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "A polite complaint",
+                    "dialogue": [
+                      {
+                        "speaker": "Lucía",
+                        "text": "Good morning. I'm sorry to bother you, but I'm afraid there's a problem with our room."
+                      },
+                      {
+                        "speaker": "Receptionist",
+                        "text": "Oh dear. What seems to be the problem?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Well, the street was very noisy until three. Then this morning the shower didn't work."
+                      },
+                      {
+                        "speaker": "Receptionist",
+                        "text": "I'm so sorry about that."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "There was no hot water at all. Honestly, that was the last straw."
+                      },
+                      {
+                        "speaker": "Receptionist",
+                        "text": "I completely understand. Would you like to move to a quieter room?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "We're leaving today, actually. But would you mind sending someone to look at the shower?"
+                      },
+                      {
+                        "speaker": "Receptionist",
+                        "text": "Not at all. And let me take ten percent off your bill."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "That's very kind of you. Thank you."
+                      },
+                      {
+                        "speaker": "Receptionist",
+                        "text": "Could I offer you a free breakfast too?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Oh, that would be lovely. Daniel will be very happy about that!"
+                      }
+                    ],
+                    "passage": "The next morning, Lucía goes down to reception. She hasn't slept much."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"I'm sorry to bother you, but…\" is used to…",
+                        "options": [
+                          "start a request politely",
+                          "end a conversation"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Would you mind sending someone?\" After would you mind we use…",
+                        "options": [
+                          "-ing",
+                          "to + verb"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I'm afraid there's a problem.\" I'm afraid here means…",
+                        "options": [
+                          "lo siento, pero…; me temo que…",
+                          "tengo miedo"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"That was the last straw.\" means…",
+                        "options": [
+                          "fue la gota que colmó el vaso",
+                          "fue la última pajita"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Polite complaints and requests",
+                    "explanation": "En inglés las quejas suenan más educadas si las suavizamos. Unas cuantas fórmulas:\n\n• Para empezar: I'm sorry to bother you, but…\n• Para dar una mala noticia: I'm afraid… (me temo que…)\n• Para pedir algo: Could you…? / Would you mind + -ing? (¿le importaría…?)\n\nOjo con Would you mind…?: si quieres decir que no te importa, respondes Not at all (= no, en absoluto).\n\nPara agradecer: That's very kind of you.",
+                    "table": {
+                      "headers": [
+                        "Función",
+                        "Expresión",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Empezar",
+                          "I'm sorry to bother you, but…",
+                          "I'm sorry to bother you, but there's a problem."
+                        ],
+                        [
+                          "Mala noticia",
+                          "I'm afraid…",
+                          "I'm afraid the shower doesn't work."
+                        ],
+                        [
+                          "Pedir",
+                          "Could you…?",
+                          "Could you send someone?"
+                        ],
+                        [
+                          "Pedir (muy educado)",
+                          "Would you mind + -ing?",
+                          "Would you mind sending someone?"
+                        ],
+                        [
+                          "Aceptar",
+                          "Not at all. / Of course.",
+                          "Not at all."
+                        ],
+                        [
+                          "Disculparse",
+                          "I'm so sorry about that.",
+                          "I'm so sorry about that."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I'm sorry to bother you, but I'm afraid there's a problem with our room.",
+                      "Would you mind sending someone to look at the shower?",
+                      "Not at all.",
+                      "That's very kind of you."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la expresión educada.",
+                    "items": [
+                      {
+                        "sentence": "I'm sorry to ___ you, but there's a problem.",
+                        "answers": [
+                          [
+                            "bother"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm ___ the shower doesn't work.",
+                        "answers": [
+                          [
+                            "afraid"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Would you mind ___ someone? (send)",
+                        "answers": [
+                          [
+                            "sending"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ you change our room, please?",
+                        "answers": [
+                          [
+                            "Could"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Would you mind? — Not at ___.",
+                        "answers": [
+                          [
+                            "all"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm so sorry ___ that.",
+                        "answers": [
+                          [
+                            "about"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "No hot water? That was the last ___.",
+                        "answers": [
+                          [
+                            "straw"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Would you mind ___ the window? (open)",
+                        "answers": [
+                          [
+                            "opening"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Hazlo más educado.",
+                    "items": [
+                      {
+                        "source": "Change our room.",
+                        "answers": [
+                          "Would you mind changing our room",
+                          "Could you change our room"
+                        ]
+                      },
+                      {
+                        "source": "The shower doesn't work. (I'm afraid…)",
+                        "answers": [
+                          "I'm afraid the shower doesn't work",
+                          "I'm afraid the shower does not work"
+                        ]
+                      },
+                      {
+                        "source": "Give us a quieter room.",
+                        "answers": [
+                          "Could you give us a quieter room",
+                          "Would you mind giving us a quieter room"
+                        ]
+                      },
+                      {
+                        "source": "Fix the shower.",
+                        "answers": [
+                          "Could you fix the shower",
+                          "Would you mind fixing the shower"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Siento molestarle, pero hay un problema.",
+                        "answers": [
+                          "I'm sorry to bother you, but there's a problem",
+                          "I'm sorry to bother you but there's a problem",
+                          "I'm sorry to bother you, but there is a problem",
+                          "I'm sorry to bother you but there is a problem"
+                        ]
+                      },
+                      {
+                        "source": "Me temo que no hay agua caliente.",
+                        "answers": [
+                          "I'm afraid there's no hot water",
+                          "I'm afraid there is no hot water"
+                        ]
+                      },
+                      {
+                        "source": "¿Le importaría cambiarnos de habitación?",
+                        "answers": [
+                          "Would you mind changing our room",
+                          "Would you mind moving us to another room"
+                        ]
+                      },
+                      {
+                        "source": "Es muy amable por su parte.",
+                        "answers": [
+                          "That's very kind of you",
+                          "That is very kind of you",
+                          "It's very kind of you"
+                        ]
+                      },
+                      {
+                        "source": "Fue la gota que colmó el vaso.",
+                        "answers": [
+                          "It was the last straw",
+                          "That was the last straw"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta. Quéjate con educación.",
+                    "items": [
+                      {
+                        "text": "I'm sorry to bother you, but I'm afraid there's a problem with our room."
+                      },
+                      {
+                        "text": "Would you mind sending someone to look at the shower?"
+                      },
+                      {
+                        "text": "That's very kind of you."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "complaint",
+                        "definition": "When you say something is wrong",
+                        "translation": "queja, reclamación",
+                        "example": "a polite complaint"
+                      },
+                      {
+                        "term": "bother",
+                        "definition": "Disturb someone",
+                        "translation": "molestar",
+                        "example": "I'm sorry to bother you."
+                      },
+                      {
+                        "term": "I'm afraid…",
+                        "definition": "A polite way to give bad news",
+                        "translation": "me temo que…",
+                        "example": "I'm afraid there's a problem."
+                      },
+                      {
+                        "term": "shower",
+                        "definition": "You wash under it",
+                        "translation": "ducha",
+                        "example": "The shower didn't work."
+                      },
+                      {
+                        "term": "hot water",
+                        "definition": "Water that is hot",
+                        "translation": "agua caliente",
+                        "example": "There was no hot water."
+                      },
+                      {
+                        "term": "the last straw",
+                        "definition": "The final problem that makes you lose patience",
+                        "translation": "la gota que colma el vaso",
+                        "example": "That was the last straw."
+                      },
+                      {
+                        "term": "Would you mind…?",
+                        "definition": "A very polite request (+ -ing)",
+                        "translation": "¿le importaría…?",
+                        "example": "Would you mind sending someone?"
+                      },
+                      {
+                        "term": "Not at all",
+                        "definition": "A polite answer: no, it isn't a problem",
+                        "translation": "en absoluto, para nada",
+                        "example": "Not at all."
+                      },
+                      {
+                        "term": "bill",
+                        "definition": "The paper that says how much to pay",
+                        "translation": "cuenta, factura",
+                        "example": "ten percent off your bill"
+                      },
+                      {
+                        "term": "take off",
+                        "definition": "Remove an amount from a price",
+                        "translation": "descontar",
+                        "example": "Let me take ten percent off."
+                      },
+                      {
+                        "term": "offer",
+                        "definition": "Say you will give something",
+                        "translation": "ofrecer",
+                        "example": "Could I offer you a free breakfast?"
+                      },
+                      {
+                        "term": "kind",
+                        "definition": "Nice and helpful",
+                        "translation": "amable",
+                        "example": "That's very kind of you."
+                      },
+                      {
+                        "term": "honestly",
+                        "definition": "Said when you speak sincerely",
+                        "translation": "sinceramente, de verdad",
+                        "example": "Honestly, that was the last straw."
+                      },
+                      {
+                        "term": "What seems to be the problem?",
+                        "definition": "A polite way to ask what is wrong",
+                        "translation": "¿Cuál es el problema?",
+                        "example": "Oh dear. What seems to be the problem?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "Would you mind ___ the door?",
+                        "options": [
+                          "closing",
+                          "to close",
+                          "close"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'm ___ the room is not ready.",
+                        "options": [
+                          "afraid",
+                          "sorry to"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Would you mind waiting? — Not at ___.",
+                        "options": [
+                          "all",
+                          "mind"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'm sorry to ___ you, but…",
+                        "options": [
+                          "bother",
+                          "mind"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "That's very kind ___ you.",
+                        "options": [
+                          "of",
+                          "for"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What does the receptionist take off the bill?",
+                        "options": [
+                          "ten percent",
+                          "thirty pounds",
+                          "the breakfast"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

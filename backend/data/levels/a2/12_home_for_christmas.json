@@ -1,0 +1,930 @@
+{
+  "level_id": "A2",
+  "themes": [
+    {
+      "theme_id": "christmas",
+      "units": [
+        {
+          "unit_id": "home_for_christmas",
+          "title": "Home for Christmas",
+          "description": "Lo que acabas de hacer, lo que ya has hecho y lo que aún no: just, already, yet. Incluye el test final de A2.",
+          "lessons": [
+            {
+              "lesson_id": "home_for_christmas_lesson",
+              "title": "Present perfect: just, already, yet",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Home for Christmas",
+                    "dialogue": [
+                      {
+                        "speaker": "Priya",
+                        "text": "Have you packed yet?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes, I've already packed my clothes. But I haven't found my passport yet!"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Have you looked in the fridge? Your keys were there in October!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Very funny, Sam. Oh, here it is! It was in my coat."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Have you checked in online?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes, I've just done it. And I've already ordered a taxi."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "We've got something for you. Open it!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "A new umbrella! A red one! Thank you!"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Now you've got your own umbrella. No more broken black ones!"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Has Daniel called you today?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "He's just sent me a message. He wants a photo of the sea!"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "The taxi has just arrived. Go! Merry Christmas!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Merry Christmas! See you in January!"
+                      }
+                    ],
+                    "passage": "It's the twentieth of December. Lucía's flight to Valencia leaves at two o'clock, and it's already eleven."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"Have you packed yet?\" We use yet in…",
+                        "options": [
+                          "questions and negatives",
+                          "affirmative sentences"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I've already packed my clothes.\" Already = …",
+                        "options": [
+                          "ya",
+                          "todavía no"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I've just done it.\" Just = …",
+                        "options": [
+                          "acabo de",
+                          "solo"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What do Sam and Priya give Lucía?",
+                        "options": [
+                          "a red umbrella",
+                          "a coat",
+                          "a book"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Present perfect: just, already, yet",
+                    "explanation": "El present perfect también habla de acciones recientes que importan ahora. Tres palabras muy útiles:\n\n• just = acabar de. Va entre have y el participio: The taxi has just arrived.\n• already = ya (antes de lo esperado). Va entre have y el participio: I've already packed my clothes.\n• yet = ya (en preguntas) o todavía (en negativas). Va al final: Have you packed yet? I haven't found my passport yet.",
+                    "table": {
+                      "headers": [
+                        "Palabra",
+                        "Significado",
+                        "Posición",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "just",
+                          "acabar de",
+                          "entre have y el participio",
+                          "I've just checked in."
+                        ],
+                        [
+                          "already",
+                          "ya",
+                          "entre have y el participio",
+                          "I've already packed my clothes."
+                        ],
+                        [
+                          "yet (?)",
+                          "ya (en preguntas)",
+                          "al final",
+                          "Have you packed yet?"
+                        ],
+                        [
+                          "yet (–)",
+                          "todavía no",
+                          "al final",
+                          "I haven't found my passport yet."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Have you packed yet?",
+                      "I've already packed my clothes.",
+                      "I haven't found my passport yet!",
+                      "The taxi has just arrived."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con just, already, yet o el participio.",
+                    "items": [
+                      {
+                        "sentence": "Have you packed ___?",
+                        "answers": [
+                          [
+                            "yet"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I've ___ packed my clothes. (ya)",
+                        "answers": [
+                          [
+                            "already"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I haven't found my passport ___.",
+                        "answers": [
+                          [
+                            "yet"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The taxi has ___ arrived. (acaba de)",
+                        "answers": [
+                          [
+                            "just"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I've just ___ in online. (check)",
+                        "answers": [
+                          [
+                            "checked"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He's just ___ me a message. (send)",
+                        "answers": [
+                          [
+                            "sent"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ Daniel called you today?",
+                        "answers": [
+                          [
+                            "Has"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I've already ___ a taxi. (order)",
+                        "answers": [
+                          [
+                            "ordered"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "Have you packed yet"
+                      },
+                      {
+                        "answer": "I've already packed my clothes"
+                      },
+                      {
+                        "answer": "I haven't found my passport yet"
+                      },
+                      {
+                        "answer": "The taxi has just arrived"
+                      },
+                      {
+                        "answer": "He's just sent me a message"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "¿Ya has hecho la maleta?",
+                        "answers": [
+                          "Have you packed yet",
+                          "Have you packed your suitcase yet"
+                        ]
+                      },
+                      {
+                        "source": "Ya he pedido un taxi.",
+                        "answers": [
+                          "I've already ordered a taxi",
+                          "I have already ordered a taxi",
+                          "I've already booked a taxi",
+                          "I have already booked a taxi"
+                        ]
+                      },
+                      {
+                        "source": "Todavía no he encontrado mi pasaporte.",
+                        "answers": [
+                          "I haven't found my passport yet",
+                          "I have not found my passport yet"
+                        ]
+                      },
+                      {
+                        "source": "El taxi acaba de llegar.",
+                        "answers": [
+                          "The taxi has just arrived",
+                          "The taxi's just arrived"
+                        ]
+                      },
+                      {
+                        "source": "¡Feliz Navidad!",
+                        "answers": [
+                          "Merry Christmas",
+                          "Happy Christmas"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "Have you packed yet?"
+                      },
+                      {
+                        "text": "I've already ordered a taxi."
+                      },
+                      {
+                        "text": "Merry Christmas! See you in January!"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "flight",
+                        "definition": "A journey by plane",
+                        "translation": "vuelo",
+                        "example": "Lucía's flight leaves at two o'clock."
+                      },
+                      {
+                        "term": "passport",
+                        "definition": "An official document to travel",
+                        "translation": "pasaporte",
+                        "example": "I haven't found my passport yet!"
+                      },
+                      {
+                        "term": "pack",
+                        "definition": "Put things in a suitcase",
+                        "translation": "hacer la maleta",
+                        "example": "Have you packed yet?"
+                      },
+                      {
+                        "term": "check in",
+                        "definition": "Tell the airline you are flying",
+                        "translation": "facturar, hacer el check-in",
+                        "example": "I've just checked in online."
+                      },
+                      {
+                        "term": "online",
+                        "definition": "On the internet",
+                        "translation": "por internet",
+                        "example": "Have you checked in online?"
+                      },
+                      {
+                        "term": "order",
+                        "definition": "Ask for something to be brought",
+                        "translation": "pedir, encargar",
+                        "example": "I've already ordered a taxi."
+                      },
+                      {
+                        "term": "arrive",
+                        "definition": "Get to a place",
+                        "translation": "llegar",
+                        "example": "The taxi has just arrived."
+                      },
+                      {
+                        "term": "message",
+                        "definition": "A short text you send",
+                        "translation": "mensaje",
+                        "example": "He's just sent me a message."
+                      },
+                      {
+                        "term": "just",
+                        "definition": "A very short time ago",
+                        "translation": "acabar de",
+                        "example": "I've just done it."
+                      },
+                      {
+                        "term": "already",
+                        "definition": "Before now, sooner than expected",
+                        "translation": "ya",
+                        "example": "I've already packed."
+                      },
+                      {
+                        "term": "yet",
+                        "definition": "Until now (questions and negatives)",
+                        "translation": "ya / todavía",
+                        "example": "Have you packed yet?"
+                      },
+                      {
+                        "term": "own",
+                        "definition": "Belonging to you",
+                        "translation": "propio/a",
+                        "example": "Now you've got your own umbrella."
+                      },
+                      {
+                        "term": "Merry Christmas",
+                        "definition": "A greeting for Christmas",
+                        "translation": "Feliz Navidad",
+                        "example": "Merry Christmas!"
+                      },
+                      {
+                        "term": "See you in January!",
+                        "definition": "Goodbye until January",
+                        "translation": "¡Nos vemos en enero!",
+                        "example": "See you in January!"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "Have you finished ___?",
+                        "options": [
+                          "yet",
+                          "already",
+                          "just"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I've ___ had lunch. I'm not hungry.",
+                        "options": [
+                          "already",
+                          "yet"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The taxi has ___ arrived.",
+                        "options": [
+                          "just",
+                          "yet"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I haven't packed ___.",
+                        "options": [
+                          "yet",
+                          "already"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She's just ___ a message.",
+                        "options": [
+                          "sent",
+                          "send",
+                          "sended"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Where was Lucía's passport?",
+                        "options": [
+                          "in her coat",
+                          "in the fridge",
+                          "in her bag"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "a2_checkpoint_4",
+              "title": "Checkpoint 4: Christmas",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "You ___ go to bed. (consejo)",
+                        "options": [
+                          "should",
+                          "have"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I ___ to work on Saturday.",
+                        "options": [
+                          "have",
+                          "should"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "You ___ have to come. It's not necessary.",
+                        "options": [
+                          "don't",
+                          "shouldn't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'd ___ a glass of water, please.",
+                        "options": [
+                          "like",
+                          "love to"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I decided ___ fly home.",
+                        "options": [
+                          "to",
+                          "flying"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Would you like to come? — I'd love ___.",
+                        "options": [
+                          "to",
+                          "it"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I haven't finished ___.",
+                        "options": [
+                          "yet",
+                          "already"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The taxi has ___ arrived.",
+                        "options": [
+                          "just",
+                          "yet"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "___ I take something?",
+                        "answers": [
+                          [
+                            "Should"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Priya ___ to work tonight.",
+                        "answers": [
+                          [
+                            "has"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Would you ___ a drink?",
+                        "answers": [
+                          [
+                            "like"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I want ___ see my family.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I've ___ packed my clothes. (ya)",
+                        "answers": [
+                          [
+                            "already"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Have you checked in ___?",
+                        "answers": [
+                          [
+                            "yet"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Deberías descansar.",
+                        "answers": [
+                          "You should rest"
+                        ]
+                      },
+                      {
+                        "source": "Me gustaría cenar contigo.",
+                        "answers": [
+                          "I'd like to have dinner with you",
+                          "I would like to have dinner with you"
+                        ]
+                      },
+                      {
+                        "source": "El taxi acaba de llegar.",
+                        "answers": [
+                          "The taxi has just arrived",
+                          "The taxi's just arrived"
+                        ]
+                      },
+                      {
+                        "source": "Todavía no he hecho la maleta.",
+                        "answers": [
+                          "I haven't packed yet",
+                          "I have not packed yet"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "a2_level_test",
+              "title": "Test final A2",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "Look! Sam ___ toast.",
+                        "options": [
+                          "makes",
+                          "is making"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "How ___ money have you got?",
+                        "options": [
+                          "much",
+                          "many"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "It's ___ big for me.",
+                        "options": [
+                          "too",
+                          "very"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Did you ___ near the sea?",
+                        "options": [
+                          "live",
+                          "lived"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I was walking home when it ___ to rain.",
+                        "options": [
+                          "started",
+                          "was starting"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What ___ you doing at nine?",
+                        "options": [
+                          "were",
+                          "was",
+                          "did"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Valencia is ___ than Bristol.",
+                        "options": [
+                          "sunnier",
+                          "more sunny"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "It's the ___ pub in Bristol.",
+                        "options": [
+                          "best",
+                          "better",
+                          "goodest"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'm going ___ book the tickets.",
+                        "options": [
+                          "to",
+                          "for"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"The phone is ringing.\" — \"I ___ get it.\"",
+                        "options": [
+                          "'ll",
+                          "'m going to"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Have you ever ___ to London?",
+                        "options": [
+                          "been",
+                          "went"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I ___ to Paris last year.",
+                        "options": [
+                          "went",
+                          "have been"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "You ___ see a doctor. (consejo)",
+                        "options": [
+                          "should",
+                          "have"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Would you like ___ come?",
+                        "options": [
+                          "to",
+                          "-"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I haven't found my passport ___.",
+                        "options": [
+                          "yet",
+                          "already"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "We ___ on a big project this week. (work)",
+                        "answers": [
+                          [
+                            "are working",
+                            "'re working"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I don't have ___ money. (much/many)",
+                        "answers": [
+                          [
+                            "much"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Why did you ___ Spain? (leave)",
+                        "answers": [
+                          [
+                            "leave"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "While I was ___ the door, the wind broke my umbrella. (open)",
+                        "answers": [
+                          [
+                            "opening"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Bristol isn't as sunny ___ Valencia.",
+                        "answers": [
+                          [
+                            "as"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Is Sam going ___ come?",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You don't ___ to finish it today.",
+                        "answers": [
+                          [
+                            "have"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The taxi has ___ arrived. (acaba de)",
+                        "answers": [
+                          [
+                            "just"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "Have you ever been to London"
+                      },
+                      {
+                        "answer": "I was walking to the bus stop"
+                      },
+                      {
+                        "answer": "Would you like to have dinner with me"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "¿Cuánto cuesta este abrigo?",
+                        "answers": [
+                          "How much is this coat",
+                          "How much does this coat cost"
+                        ]
+                      },
+                      {
+                        "source": "Bristol es más caro que Valencia.",
+                        "answers": [
+                          "Bristol is more expensive than Valencia"
+                        ]
+                      },
+                      {
+                        "source": "Voy a visitar el museo.",
+                        "answers": [
+                          "I'm going to visit the museum",
+                          "I am going to visit the museum"
+                        ]
+                      },
+                      {
+                        "source": "Ya he hecho la maleta.",
+                        "answers": [
+                          "I've already packed",
+                          "I have already packed",
+                          "I've already packed my suitcase",
+                          "I have already packed my suitcase"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

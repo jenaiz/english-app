@@ -1,15 +1,23 @@
 {
   "level_id": "A2",
   "title": "A2 Elementary",
-  "description": "Situaciones cotidianas: compras, rutinas y presente simple",
+  "description": "Lucía se asienta en Bristol: pasado, comparativos, planes de futuro, experiencias y consejos.",
   "themes": [
     {
-      "theme_id": "daily_life",
-      "title": "Daily Life"
+      "theme_id": "settling_in",
+      "title": "Settling In"
     },
     {
-      "theme_id": "shopping",
-      "title": "Shopping"
+      "theme_id": "autumn",
+      "title": "Autumn in Bristol"
+    },
+    {
+      "theme_id": "london_trip",
+      "title": "The London Trip"
+    },
+    {
+      "theme_id": "christmas",
+      "title": "Christmas"
     }
   ]
 }

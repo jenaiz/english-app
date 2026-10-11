@@ -2,78 +2,110 @@
   "level_id": "A2",
   "themes": [
     {
-      "theme_id": "daily_life",
+      "theme_id": "settling_in",
       "units": [
         {
           "unit_id": "daily_routine",
-          "title": "My Daily Routine",
-          "description": "Describe tu día con present simple y adverbios de frecuencia.",
+          "title": "A Busy Week",
+          "description": "Rutinas frente a lo que pasa ahora: present simple y present continuous.",
           "lessons": [
             {
               "lesson_id": "routine_present_simple",
-              "title": "Present Simple & Frequency",
+              "title": "Present simple vs present continuous",
               "steps": [
                 {
                   "phase": "context",
                   "type": "audio_context",
                   "content": {
+                    "title": "A busy week",
                     "dialogue": [
                       {
-                        "speaker": "Lucy",
-                        "text": "What time do you usually get up?"
+                        "speaker": "Priya",
+                        "text": "Lucía, what are you doing? You're wearing my slippers!"
                       },
                       {
-                        "speaker": "Mark",
-                        "text": "I always get up at seven. Then I have breakfast and take the bus to work."
+                        "speaker": "Lucía",
+                        "text": "Oh no, sorry! I'm looking for my keys, and I can't find my shoes."
                       },
                       {
-                        "speaker": "Lucy",
-                        "text": "Does your sister work with you?"
+                        "speaker": "Priya",
+                        "text": "You usually leave your keys on the table by the door."
                       },
                       {
-                        "speaker": "Mark",
-                        "text": "No, she works from home. She never takes the bus! What about you?"
+                        "speaker": "Lucía",
+                        "text": "I know, but they aren't there today. Is Sam using them?"
                       },
                       {
-                        "speaker": "Lucy",
-                        "text": "I'm a night person. I sometimes sleep until ten on Sundays."
+                        "speaker": "Sam",
+                        "text": "Nope. I'm making toast. I never touch other people's keys!"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Well, you usually take my milk…"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "That's different! Anyway, why are you running around? You don't start work until nine."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "This week I'm starting at eight. We're working on a big project for a new client."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Here they are! Your keys are in the fridge."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "In the fridge? I need more sleep!"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "You need a coffee. Here, take this one. I'm not drinking it."
                       }
-                    ]
+                    ],
+                    "passage": "It's Tuesday morning, early October. The kitchen at Clifton Road is very busy today."
                   }
                 },
                 {
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
-                    "instructions": "Observa los verbos del diálogo.",
+                    "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
-                        "question": "\"She ___ from home.\" What did Mark say?",
+                        "question": "\"I'm making toast.\" This is happening…",
                         "options": [
-                          "work",
-                          "works",
-                          "working"
-                        ],
-                        "answer": 1,
-                        "explanation": "Con he / she / it el verbo lleva -s: she works."
-                      },
-                      {
-                        "question": "Where is 'always' in \"I always get up at seven\"?",
-                        "options": [
-                          "Before the main verb",
-                          "After the main verb",
-                          "At the end"
+                          "now",
+                          "every day"
                         ],
                         "answer": 0
                       },
                       {
-                        "question": "Which word means 'nunca'?",
+                        "question": "\"You usually leave your keys on the table.\" This is…",
                         "options": [
-                          "sometimes",
-                          "usually",
-                          "never"
+                          "a habit",
+                          "happening now"
                         ],
-                        "answer": 2
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"This week I'm starting at eight.\" This situation is…",
+                        "options": [
+                          "temporary (solo esta semana)",
+                          "always true"
+                        ],
+                        "answer": 0,
+                        "explanation": "El present continuous también sirve para situaciones temporales: this week, at the moment."
+                      },
+                      {
+                        "question": "Where are Lucía's keys?",
+                        "options": [
+                          "in the fridge",
+                          "on the table",
+                          "in Sam's room"
+                        ],
+                        "answer": 0
                       }
                     ]
                   }
@@ -82,36 +114,42 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
-                    "title": "Present simple + adverbs of frequency",
-                    "explanation": "El present simple expresa hábitos y rutinas. Con he/she/it añadimos -s (-es tras -sh, -ch, -o, -x). Las preguntas y negativas usan do / does. Los adverbios de frecuencia van ANTES del verbo principal, pero DESPUÉS de 'to be'.",
+                    "title": "Present simple vs present continuous",
+                    "explanation": "El present simple habla de hábitos, rutinas y cosas que siempre son verdad: You usually leave your keys on the table. Priya works at the hospital.\n\nEl present continuous habla de lo que pasa ahora mismo (I'm making toast) y de situaciones temporales (This week I'm starting at eight).\n\nAlgunos verbos casi nunca van en continuous porque expresan estados, no acciones: need, want, like, love, know, understand. Se dice «I need a coffee», no «I'm needing a coffee».",
                     "table": {
                       "headers": [
                         "",
-                        "I / you / we / they",
-                        "he / she / it"
+                        "Present simple",
+                        "Present continuous"
                       ],
                       "rows": [
                         [
-                          "Afirmativa",
-                          "I work",
-                          "She works"
+                          "Uso",
+                          "hábitos, rutinas, verdades",
+                          "ahora, situaciones temporales"
+                        ],
+                        [
+                          "Pistas",
+                          "always, usually, every day, on Mondays",
+                          "now, at the moment, today, this week"
+                        ],
+                        [
+                          "Ejemplo",
+                          "You usually leave your keys here.",
+                          "I'm looking for my keys."
                         ],
                         [
                           "Negativa",
-                          "I don't work",
-                          "She doesn't work"
-                        ],
-                        [
-                          "Pregunta",
-                          "Do you work?",
-                          "Does she work?"
+                          "You don't start until nine.",
+                          "I'm not drinking it."
                         ]
                       ]
                     },
                     "examples": [
-                      "I usually have breakfast at 8.",
-                      "She is never late.",
-                      "He watches TV every night."
+                      "Sam usually takes Priya's milk.",
+                      "Look! Sam's making toast.",
+                      "This week we're working on a big project.",
+                      "I need more sleep!"
                     ]
                   }
                 },
@@ -119,39 +157,72 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Escribe el verbo entre paréntesis en present simple.",
+                    "instructions": "Elige entre present simple y present continuous.",
                     "items": [
                       {
-                        "sentence": "She ___ (take) the bus every day.",
+                        "sentence": "Sam usually ___ toast for breakfast. (make)",
                         "answers": [
                           [
-                            "takes"
+                            "makes"
                           ]
                         ]
                       },
                       {
-                        "sentence": "My brother ___ (watch) TV at night.",
+                        "sentence": "Look! Sam ___ toast. (make)",
                         "answers": [
                           [
-                            "watches"
-                          ]
-                        ],
-                        "explanation": "Verbos terminados en -ch añaden -es."
-                      },
-                      {
-                        "sentence": "We ___ (not / work) on Sundays.",
-                        "answers": [
-                          [
-                            "don't work",
-                            "do not work"
+                            "is making",
+                            "'s making"
                           ]
                         ]
                       },
                       {
-                        "sentence": "___ your sister work from home?",
+                        "sentence": "Priya ___ at the hospital. (work)",
                         "answers": [
                           [
-                            "Does"
+                            "works"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "This week Lucía ___ at eight. (start)",
+                        "answers": [
+                          [
+                            "is starting",
+                            "'s starting"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ a coffee. (need)",
+                        "answers": [
+                          [
+                            "need"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "What ___ you doing? — I'm looking for my keys.",
+                        "answers": [
+                          [
+                            "are"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel ___ the answer. (know)",
+                        "answers": [
+                          [
+                            "knows"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We ___ on a big project at the moment. (work)",
+                        "answers": [
+                          [
+                            "are working",
+                            "'re working"
                           ]
                         ]
                       }
@@ -162,16 +233,22 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
-                    "instructions": "Ordena la frase colocando bien el adverbio.",
+                    "instructions": "Ordena las palabras.",
                     "items": [
                       {
-                        "answer": "I always get up at seven"
+                        "answer": "I'm looking for my keys"
                       },
                       {
-                        "answer": "She is never late"
+                        "answer": "You usually leave your keys on the table"
                       },
                       {
-                        "answer": "We sometimes eat out on Fridays"
+                        "answer": "This week I'm starting at eight"
+                      },
+                      {
+                        "answer": "What are you doing"
+                      },
+                      {
+                        "answer": "I need more sleep"
                       }
                     ]
                   }
@@ -183,18 +260,39 @@
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
-                        "source": "Normalmente desayuno a las ocho.",
+                        "source": "Normalmente me levanto a las siete.",
                         "answers": [
-                          "I usually have breakfast at eight",
-                          "I usually have breakfast at 8",
-                          "I normally have breakfast at eight",
-                          "I normally have breakfast at 8"
+                          "I usually get up at seven",
+                          "I usually get up at seven o'clock"
                         ]
                       },
                       {
-                        "source": "Ella nunca coge el autobús.",
+                        "source": "Ahora estoy buscando mis llaves.",
                         "answers": [
-                          "She never takes the bus"
+                          "I'm looking for my keys now",
+                          "Now I'm looking for my keys",
+                          "I am looking for my keys now"
+                        ]
+                      },
+                      {
+                        "source": "Esta semana estoy trabajando en un proyecto grande.",
+                        "answers": [
+                          "This week I'm working on a big project",
+                          "I'm working on a big project this week",
+                          "This week I am working on a big project"
+                        ]
+                      },
+                      {
+                        "source": "No entiendo.",
+                        "answers": [
+                          "I don't understand",
+                          "I do not understand"
+                        ]
+                      },
+                      {
+                        "source": "¿Qué estás haciendo?",
+                        "answers": [
+                          "What are you doing"
                         ]
                       }
                     ]
@@ -202,12 +300,18 @@
                 },
                 {
                   "phase": "production",
-                  "type": "dictation",
+                  "type": "speaking",
                   "content": {
-                    "instructions": "Escucha y escribe.",
+                    "instructions": "Lee en voz alta.",
                     "items": [
                       {
-                        "text": "He usually gets up at seven."
+                        "text": "I usually leave my keys on the table."
+                      },
+                      {
+                        "text": "This week I'm starting at eight."
+                      },
+                      {
+                        "text": "I need more sleep!"
                       }
                     ]
                   }
@@ -218,34 +322,88 @@
                   "content": {
                     "items": [
                       {
-                        "term": "Get up",
-                        "definition": "Leave your bed after sleeping",
-                        "translation": "Levantarse",
-                        "example": "I get up at seven."
+                        "term": "slippers",
+                        "definition": "Soft shoes you wear at home",
+                        "translation": "zapatillas de casa",
+                        "example": "You're wearing my slippers!"
                       },
                       {
-                        "term": "Have breakfast",
-                        "definition": "Eat the first meal of the day",
-                        "translation": "Desayunar",
-                        "example": "We have breakfast together."
+                        "term": "toast",
+                        "definition": "Bread made hot and brown",
+                        "translation": "tostada",
+                        "example": "I'm making toast."
                       },
                       {
-                        "term": "Take the bus",
-                        "definition": "Travel by bus",
-                        "translation": "Coger el autobús",
-                        "example": "I take the bus to work."
+                        "term": "fridge",
+                        "definition": "A cold cupboard for food",
+                        "translation": "nevera, frigorífico",
+                        "example": "Your keys are in the fridge."
                       },
                       {
-                        "term": "Usually",
-                        "definition": "In most cases",
-                        "translation": "Normalmente",
-                        "example": "I usually walk to school."
+                        "term": "look for",
+                        "definition": "Try to find something",
+                        "translation": "buscar",
+                        "example": "I'm looking for my keys."
                       },
                       {
-                        "term": "Never",
-                        "definition": "At no time",
-                        "translation": "Nunca",
-                        "example": "She's never late."
+                        "term": "find",
+                        "definition": "See something you were looking for",
+                        "translation": "encontrar",
+                        "example": "I can't find my shoes."
+                      },
+                      {
+                        "term": "leave",
+                        "definition": "Put something in a place and go",
+                        "translation": "dejar",
+                        "example": "You usually leave your keys on the table."
+                      },
+                      {
+                        "term": "touch",
+                        "definition": "Put your hand on something",
+                        "translation": "tocar",
+                        "example": "I never touch other people's keys!"
+                      },
+                      {
+                        "term": "run around",
+                        "definition": "Move quickly from place to place",
+                        "translation": "ir de un lado a otro",
+                        "example": "Why are you running around?"
+                      },
+                      {
+                        "term": "project",
+                        "definition": "A big piece of planned work",
+                        "translation": "proyecto",
+                        "example": "We're working on a big project."
+                      },
+                      {
+                        "term": "client",
+                        "definition": "A person or company that pays for a service",
+                        "translation": "cliente",
+                        "example": "A big project for a new client."
+                      },
+                      {
+                        "term": "until",
+                        "definition": "Up to a time",
+                        "translation": "hasta",
+                        "example": "You don't start work until nine."
+                      },
+                      {
+                        "term": "at the moment",
+                        "definition": "Now",
+                        "translation": "en este momento",
+                        "example": "I'm busy at the moment."
+                      },
+                      {
+                        "term": "need",
+                        "definition": "Must have something",
+                        "translation": "necesitar",
+                        "example": "I need more sleep!"
+                      },
+                      {
+                        "term": "busy",
+                        "definition": "With a lot of people or things to do",
+                        "translation": "ajetreado, ocupado",
+                        "example": "The kitchen is very busy today."
                       }
                     ]
                   }
@@ -254,44 +412,57 @@
                   "phase": "review",
                   "type": "speed_quiz",
                   "content": {
-                    "instructions": "¡Contrarreloj!",
-                    "time_limit_seconds": 40,
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
                     "items": [
                       {
-                        "question": "He ___ coffee every morning.",
+                        "question": "Sam usually ___ toast.",
                         "options": [
-                          "drink",
-                          "drinks",
-                          "drinking"
+                          "makes",
+                          "is making"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Look! It ___.",
+                        "options": [
+                          "snows",
+                          "is snowing"
                         ],
                         "answer": 1
                       },
                       {
-                        "question": "___ they live in Madrid?",
+                        "question": "I ___ a coffee.",
                         "options": [
-                          "Does",
-                          "Do",
-                          "Are"
+                          "need",
+                          "am needing"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "This week we ___ on a big project.",
+                        "options": [
+                          "work",
+                          "are working"
                         ],
                         "answer": 1
                       },
                       {
-                        "question": "Correct order:",
+                        "question": "Do you ___ the answer?",
                         "options": [
-                          "I go always to bed late",
-                          "I always go to bed late",
-                          "Always I go to bed late"
+                          "know",
+                          "knowing"
                         ],
-                        "answer": 1
+                        "answer": 0
                       },
                       {
-                        "question": "She ___ like fish.",
+                        "question": "Where were Lucía's keys?",
                         "options": [
-                          "don't",
-                          "doesn't",
-                          "isn't"
+                          "in the fridge",
+                          "on the table",
+                          "in her bag"
                         ],
-                        "answer": 1
+                        "answer": 0
                       }
                     ]
                   }

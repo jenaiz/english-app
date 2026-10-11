@@ -1,0 +1,947 @@
+{
+  "level_id": "B2",
+  "themes": [
+    {
+      "theme_id": "moving_forward",
+      "units": [
+        {
+          "unit_id": "big_news",
+          "title": "Big News",
+          "description": "Añade información con oraciones de relativo explicativas: which, who, whose, most of whom. Incluye el test final de B2.",
+          "lessons": [
+            {
+              "lesson_id": "big_news_lesson",
+              "title": "Non-defining relative clauses",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Big news",
+                    "dialogue": [
+                      {
+                        "speaker": "Helen",
+                        "text": "I have some news. Harbour Studio, which I started twenty years ago in my kitchen, is going to change."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Change how?"
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "I'm retiring at the end of the year. My husband, who has been very patient, wants us to travel."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Helen, that's wonderful. But what will happen to the studio?"
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "That's the question. I've had an offer from Mark Reed, whose company wants to buy us."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Mark Reed? Our Mark?"
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Yes. But there's another option, which I prefer. Lucía, can I speak to you after the meeting?"
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Daniel tells me you've been thinking about starting your own studio, which doesn't surprise me at all."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "He told you? Oh no… I was going to tell you myself."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Don't worry. I'd like you to take over some of our clients, most of whom already ask for you by name."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Me? Take over your clients?"
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Think about it. You'd have your own studio, and the work I care about would be in good hands."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I… I don't know what to say."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Say you'll think about it. That's all I ask."
+                      }
+                    ],
+                    "passage": "June. Helen calls the whole team into the meeting room. She looks emotional."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"Harbour Studio, which I started twenty years ago, is going to change.\" The part between commas…",
+                        "options": [
+                          "adds extra information",
+                          "tells us which studio"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"My husband, who has been very patient…\" Could we use that instead of who?",
+                        "options": [
+                          "No, not between commas",
+                          "Yes"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Mark Reed, whose company wants to buy us…\" Whose = …",
+                        "options": [
+                          "cuyo/a",
+                          "quien"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"most of whom already ask for you\" Whom refers to…",
+                        "options": [
+                          "the clients",
+                          "Lucía"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Non-defining relative clauses",
+                    "explanation": "Las oraciones de relativo explicativas añaden información extra sobre algo que ya está identificado. Van entre comas y:\n• no admiten that: Harbour Studio, which I started… (nunca «, that I started»)\n• no se puede omitir el pronombre.\n\nWhich puede referirse a toda la frase anterior: You want your own studio, which doesn't surprise me (= lo cual).\n\nCon cuantificadores: most of whom (personas), some of which (cosas): our clients, most of whom ask for you by name.\n\nSon muy frecuentes en registro formal y escrito.",
+                    "table": {
+                      "headers": [
+                        "Uso",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "who (personas)",
+                          "My husband, who has been very patient, wants to travel."
+                        ],
+                        [
+                          "which (cosas)",
+                          "Harbour Studio, which I started in my kitchen, is going to change."
+                        ],
+                        [
+                          "whose (posesión)",
+                          "Mark Reed, whose company wants to buy us, made an offer."
+                        ],
+                        [
+                          "which (toda la frase anterior)",
+                          "You want your own studio, which doesn't surprise me."
+                        ],
+                        [
+                          "most of whom / some of which",
+                          "our clients, most of whom ask for you by name"
+                        ],
+                        [
+                          "¡Nunca that ni omisión!",
+                          "✗ Harbour Studio, that I started…"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Harbour Studio, which I started twenty years ago in my kitchen, is going to change.",
+                      "My husband, who has been very patient, wants us to travel.",
+                      "I've had an offer from Mark Reed, whose company wants to buy us.",
+                      "I'd like you to take over some of our clients, most of whom already ask for you by name."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con who, which, whose o whom.",
+                    "items": [
+                      {
+                        "sentence": "Harbour Studio, ___ I started twenty years ago, is going to change.",
+                        "answers": [
+                          [
+                            "which"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "My husband, ___ has been very patient, wants to travel.",
+                        "answers": [
+                          [
+                            "who"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Mark Reed, ___ company wants to buy us, made an offer.",
+                        "answers": [
+                          [
+                            "whose"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "There's another option, ___ I prefer.",
+                        "answers": [
+                          [
+                            "which"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You've been thinking about your own studio, ___ doesn't surprise me.",
+                        "answers": [
+                          [
+                            "which"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "our clients, most of ___ already ask for you",
+                        "answers": [
+                          [
+                            "whom"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Bristol, ___ is in the south-west of England, is a great city.",
+                        "answers": [
+                          [
+                            "which"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel, ___ is from Galway, works with Lucía.",
+                        "answers": [
+                          [
+                            "who"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Une las frases con una oración explicativa.",
+                    "items": [
+                      {
+                        "source": "Helen started the studio. She is retiring. (who)",
+                        "answers": [
+                          "Helen, who started the studio, is retiring"
+                        ]
+                      },
+                      {
+                        "source": "Mark Reed made an offer. His company is huge. (whose)",
+                        "answers": [
+                          "Mark Reed, whose company is huge, made an offer"
+                        ]
+                      },
+                      {
+                        "source": "Lucía wants her own studio. This doesn't surprise Helen. (which)",
+                        "answers": [
+                          "Lucía wants her own studio, which doesn't surprise Helen",
+                          "Lucía wants her own studio, which does not surprise Helen"
+                        ]
+                      },
+                      {
+                        "source": "We have twenty clients. Most of them know Lucía. (most of whom)",
+                        "answers": [
+                          "We have twenty clients, most of whom know Lucía"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Mi marido, que ha sido muy paciente, quiere viajar.",
+                        "answers": [
+                          "My husband, who has been very patient, wants to travel"
+                        ]
+                      },
+                      {
+                        "source": "El estudio, que fundé hace veinte años, va a cambiar.",
+                        "answers": [
+                          "The studio, which I founded twenty years ago, is going to change",
+                          "The studio, which I started twenty years ago, is going to change"
+                        ]
+                      },
+                      {
+                        "source": "Mark, cuya empresa quiere comprarnos, ha hecho una oferta.",
+                        "answers": [
+                          "Mark, whose company wants to buy us, has made an offer",
+                          "Mark, whose company wants to buy us, made an offer"
+                        ]
+                      },
+                      {
+                        "source": "Quiere su propio estudio, lo cual no me sorprende.",
+                        "answers": [
+                          "She wants her own studio, which doesn't surprise me",
+                          "She wants her own studio, which does not surprise me"
+                        ]
+                      },
+                      {
+                        "source": "Tenemos muchos clientes, la mayoría de los cuales te conocen.",
+                        "answers": [
+                          "We have a lot of clients, most of whom know you",
+                          "We have many clients, most of whom know you"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "Harbour Studio, which I started twenty years ago, is going to change."
+                      },
+                      {
+                        "text": "I've had an offer from Mark Reed, whose company wants to buy us."
+                      },
+                      {
+                        "text": "Say you'll think about it."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "retire",
+                        "definition": "Stop working because of age",
+                        "translation": "jubilarse",
+                        "example": "I'm retiring at the end of the year."
+                      },
+                      {
+                        "term": "emotional",
+                        "definition": "Showing strong feelings",
+                        "translation": "emocionado/a",
+                        "example": "She looks emotional."
+                      },
+                      {
+                        "term": "found",
+                        "definition": "Start a company or organisation",
+                        "translation": "fundar",
+                        "example": "the studio I founded"
+                      },
+                      {
+                        "term": "patient",
+                        "definition": "Able to wait calmly",
+                        "translation": "paciente",
+                        "example": "My husband has been very patient."
+                      },
+                      {
+                        "term": "offer",
+                        "definition": "Something someone proposes to give or pay",
+                        "translation": "oferta",
+                        "example": "I've had an offer from Mark Reed."
+                      },
+                      {
+                        "term": "option",
+                        "definition": "A possible choice",
+                        "translation": "opción",
+                        "example": "There's another option."
+                      },
+                      {
+                        "term": "take over",
+                        "definition": "Become responsible for something",
+                        "translation": "hacerse cargo de",
+                        "example": "take over some of our clients"
+                      },
+                      {
+                        "term": "by name",
+                        "definition": "Using a person's name",
+                        "translation": "por su nombre",
+                        "example": "They ask for you by name."
+                      },
+                      {
+                        "term": "in good hands",
+                        "definition": "Looked after by a capable person",
+                        "translation": "en buenas manos",
+                        "example": "The work would be in good hands."
+                      },
+                      {
+                        "term": "care about",
+                        "definition": "Think something is important",
+                        "translation": "importar (a alguien)",
+                        "example": "the work I care about"
+                      },
+                      {
+                        "term": "which",
+                        "definition": "Used for extra information about things or a whole idea",
+                        "translation": "que, lo cual",
+                        "example": "…which doesn't surprise me."
+                      },
+                      {
+                        "term": "whose",
+                        "definition": "Of whom",
+                        "translation": "cuyo/a",
+                        "example": "Mark Reed, whose company…"
+                      },
+                      {
+                        "term": "most of whom",
+                        "definition": "The majority of those people",
+                        "translation": "la mayoría de los cuales",
+                        "example": "most of whom ask for you"
+                      },
+                      {
+                        "term": "That's all I ask",
+                        "definition": "I only want this",
+                        "translation": "es lo único que te pido",
+                        "example": "That's all I ask."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "My sister, ___ lives in Rome, is a doctor.",
+                        "options": [
+                          "who",
+                          "that",
+                          "which"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The Thames, ___ flows through London, is very long.",
+                        "options": [
+                          "which",
+                          "that",
+                          "who"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "He failed the exam, ___ surprised everyone.",
+                        "options": [
+                          "which",
+                          "what",
+                          "that"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Our neighbours, ___ dog barks all night, are moving.",
+                        "options": [
+                          "whose",
+                          "who",
+                          "who's"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I have three brothers, all of ___ are tall.",
+                        "options": [
+                          "whom",
+                          "who",
+                          "them"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What is Helen going to do?",
+                        "options": [
+                          "retire at the end of the year",
+                          "sell the studio to Mark",
+                          "move to New York"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "b2_checkpoint_4",
+              "title": "Checkpoint 4: Moving Forward",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "Would you consider ___ abroad?",
+                        "options": [
+                          "working",
+                          "to work"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Don't forget ___ the lights.",
+                        "options": [
+                          "to turn off",
+                          "turning off"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I regret not ___ harder at school.",
+                        "options": [
+                          "studying",
+                          "to study"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "We stopped ___ a photo of the view. (para)",
+                        "options": [
+                          "to take",
+                          "taking"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If I hadn't missed the bus, I ___ be here now.",
+                        "options": [
+                          "wouldn't",
+                          "wouldn't have"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If he weren't so shy, he ___ asked her out.",
+                        "options": [
+                          "would have",
+                          "would"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "My boss, ___ is from Leeds, is very funny.",
+                        "options": [
+                          "who",
+                          "that"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "He lost his keys, ___ was a disaster.",
+                        "options": [
+                          "which",
+                          "what"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "I remember ___ you at the party. (meet)",
+                        "answers": [
+                          [
+                            "meeting"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'll try ___ be on time.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If I hadn't taken that job, I wouldn't ___ here.",
+                        "answers": [
+                          [
+                            "be"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If I ___ so lazy, I would have passed. (be, negativa)",
+                        "answers": [
+                          [
+                            "weren't",
+                            "wasn't"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Mark, ___ company is huge, made an offer.",
+                        "answers": [
+                          [
+                            "whose"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "our clients, most of ___ know you",
+                        "answers": [
+                          [
+                            "whom"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Deja de dejar los calcetines por todas partes.",
+                        "answers": [
+                          "Stop leaving your socks everywhere"
+                        ]
+                      },
+                      {
+                        "source": "Si no hubiera aceptado ese trabajo, no estaría aquí.",
+                        "answers": [
+                          "If I hadn't taken that job, I wouldn't be here",
+                          "If I hadn't accepted that job, I wouldn't be here",
+                          "If I had not taken that job, I would not be here",
+                          "If I hadn't taken that job I wouldn't be here"
+                        ]
+                      },
+                      {
+                        "source": "Mi marido, que es muy paciente, quiere viajar.",
+                        "answers": [
+                          "My husband, who is very patient, wants to travel"
+                        ]
+                      },
+                      {
+                        "source": "Quiere su propio estudio, lo cual no me sorprende.",
+                        "answers": [
+                          "She wants her own studio, which doesn't surprise me",
+                          "She wants her own studio, which does not surprise me"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "b2_level_test",
+              "title": "Test final B2",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "This time next year, I'll ___ in Japan.",
+                        "options": [
+                          "be living",
+                          "have lived"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "By June, we'll ___ the project.",
+                        "options": [
+                          "have finished",
+                          "be finishing"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "He ___ be at home. The lights are off.",
+                        "options": [
+                          "can't",
+                          "mustn't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "You ___ have left it on the train. (seguro)",
+                        "options": [
+                          "must",
+                          "should"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ it was cold, we swam in the sea.",
+                        "options": [
+                          "Although",
+                          "Despite"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She suggested ___ the meeting.",
+                        "options": [
+                          "postponing",
+                          "to postpone"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If I'd known, I ___ have come.",
+                        "options": [
+                          "would",
+                          "will"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I wish you ___ so much noise!",
+                        "options": [
+                          "wouldn't make",
+                          "don't make"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "We had the roof ___ last year.",
+                        "options": [
+                          "repaired",
+                          "repair"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The minister is said ___ resigned.",
+                        "options": [
+                          "to have",
+                          "to be"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I remember ___ her for the first time.",
+                        "options": [
+                          "seeing",
+                          "to see"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If I hadn't moved here, I ___ married now.",
+                        "options": [
+                          "wouldn't be",
+                          "wouldn't have been"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Paris, ___ I visited last year, is beautiful.",
+                        "options": [
+                          "which",
+                          "that"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "He insisted ___ paying the bill.",
+                        "options": [
+                          "on",
+                          "to"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The tour is ___ to start in May.",
+                        "options": [
+                          "expected",
+                          "expecting"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "I'll have ___ the report by Friday. (write)",
+                        "answers": [
+                          [
+                            "written"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "That ___ be true. It's impossible.",
+                        "answers": [
+                          [
+                            "can't",
+                            "cannot"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "In spite ___ the rain, we enjoyed the day.",
+                        "answers": [
+                          [
+                            "of"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He apologised ___ being late.",
+                        "answers": [
+                          [
+                            "for"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I wish I ___ cook like him.",
+                        "answers": [
+                          [
+                            "could"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm having the boiler ___. (repair)",
+                        "answers": [
+                          [
+                            "repaired"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Shall we stop ___ get a coffee?",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Mark, ___ company wants to buy us, called.",
+                        "answers": [
+                          [
+                            "whose"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "You must have left it somewhere"
+                      },
+                      {
+                        "answer": "I wish I had known earlier"
+                      },
+                      {
+                        "answer": "The album is said to be brilliant"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Para cuando lleguemos, será de noche.",
+                        "answers": [
+                          "By the time we arrive, it'll be dark",
+                          "By the time we arrive it'll be dark",
+                          "By the time we get there, it'll be dark",
+                          "By the time we arrive, it will be dark"
+                        ]
+                      },
+                      {
+                        "source": "Deberías haberme llamado.",
+                        "answers": [
+                          "You should have called me",
+                          "You should have phoned me",
+                          "You should've called me"
+                        ]
+                      },
+                      {
+                        "source": "A pesar de la lluvia, salimos.",
+                        "answers": [
+                          "Despite the rain, we went out",
+                          "Despite the rain we went out",
+                          "In spite of the rain, we went out",
+                          "We went out despite the rain"
+                        ]
+                      },
+                      {
+                        "source": "Si me lo hubieras dicho, te habría ayudado.",
+                        "answers": [
+                          "If you had told me, I would have helped you",
+                          "If you had told me I would have helped you",
+                          "If you'd told me, I'd have helped you",
+                          "If you'd told me, I would have helped you"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

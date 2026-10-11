@@ -1,0 +1,962 @@
+{
+  "level_id": "A1",
+  "themes": [
+    {
+      "theme_id": "weekends",
+      "units": [
+        {
+          "unit_id": "last_weekend",
+          "title": "How Was Your Weekend?",
+          "description": "Cuenta lo que hiciste con was/were y el past simple. Incluye el test final de A1.",
+          "lessons": [
+            {
+              "lesson_id": "last_weekend_lesson",
+              "title": "was / were and the past simple",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "How was your weekend?",
+                    "dialogue": [
+                      {
+                        "speaker": "Daniel",
+                        "text": "Morning, Lucía! How was your weekend?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "It was great, thanks. On Saturday I went to the market with Priya."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "The market by the harbour? What did you buy?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I bought some cheese and some flowers. Then we cooked a big lunch."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Lovely. And on Sunday?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "On Sunday I visited the Clifton Suspension Bridge. It was beautiful, but it was very windy!"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Were you there alone?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "No, I wasn't. Sam was with me. We walked for three hours. And you? What did you do?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "I watched the rugby with my friends, and I phoned my mam in Galway. She asked about you!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "About me?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Well… I talked about my new colleague from Spain. That's all!"
+                      }
+                    ],
+                    "passage": "Monday morning. Lucía is at the office. It's her third week in Bristol, and her English is better every day."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"How was your weekend?\" Was is the past of…",
+                        "options": [
+                          "is",
+                          "are",
+                          "has"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"We walked for three hours.\" Regular verbs in the past end in…",
+                        "options": [
+                          "-ed",
+                          "-ing",
+                          "-s"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I went to the market.\" Went is the past of…",
+                        "options": [
+                          "go",
+                          "want",
+                          "wait"
+                        ],
+                        "answer": 0,
+                        "explanation": "Go es irregular: go → went."
+                      },
+                      {
+                        "question": "Who was with Lucía on Sunday?",
+                        "options": [
+                          "Sam",
+                          "Priya",
+                          "Daniel"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Past simple: was / were and past verbs",
+                    "explanation": "Para hablar del pasado usamos el past simple. El verbo be tiene dos formas: was (I, he, she, it) y were (you, we, they). Negativa: wasn't / weren't. Pregunta: Were you there alone? — No, I wasn't.\n\nLos verbos regulares añaden -ed y la forma es igual para todas las personas: visit → visited, walk → walked, cook → cooked, phone → phoned.\n\nMuchos verbos frecuentes son irregulares y hay que aprenderlos: go → went, buy → bought, have → had, see → saw, eat → ate, meet → met. Los tienes todos en la lista de verbos irregulares.\n\nPara preguntar: What did you do? (did + verbo en forma base).",
+                    "table": {
+                      "headers": [
+                        "Base",
+                        "Pasado",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "be",
+                          "was / were",
+                          "It was great."
+                        ],
+                        [
+                          "go",
+                          "went",
+                          "I went to the market."
+                        ],
+                        [
+                          "buy",
+                          "bought",
+                          "I bought some cheese."
+                        ],
+                        [
+                          "have",
+                          "had",
+                          "We had a big lunch."
+                        ],
+                        [
+                          "see",
+                          "saw",
+                          "I saw the bridge."
+                        ],
+                        [
+                          "visit",
+                          "visited",
+                          "I visited the bridge."
+                        ],
+                        [
+                          "walk",
+                          "walked",
+                          "We walked for three hours."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "How was your weekend? — It was great!",
+                      "On Saturday I went to the market with Priya.",
+                      "We walked for three hours.",
+                      "Were you there alone? — No, I wasn't."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el verbo en pasado.",
+                    "items": [
+                      {
+                        "sentence": "My weekend ___ great. (be)",
+                        "answers": [
+                          [
+                            "was"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We ___ very tired. (be)",
+                        "answers": [
+                          [
+                            "were"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "On Saturday I ___ to the market. (go)",
+                        "answers": [
+                          [
+                            "went"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ some flowers. (buy)",
+                        "answers": [
+                          [
+                            "bought"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We ___ for three hours. (walk)",
+                        "answers": [
+                          [
+                            "walked"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel ___ the rugby. (watch)",
+                        "answers": [
+                          [
+                            "watched"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ you there alone? — No, I wasn't.",
+                        "answers": [
+                          [
+                            "Were"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It ___ very windy. (be)",
+                        "answers": [
+                          [
+                            "was"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "How was your weekend"
+                      },
+                      {
+                        "answer": "I went to the market with Priya"
+                      },
+                      {
+                        "answer": "We cooked a big lunch"
+                      },
+                      {
+                        "answer": "It was very windy"
+                      },
+                      {
+                        "answer": "What did you do"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Fue genial.",
+                        "answers": [
+                          "It was great"
+                        ]
+                      },
+                      {
+                        "source": "El sábado fui al mercado.",
+                        "answers": [
+                          "On Saturday I went to the market",
+                          "I went to the market on Saturday"
+                        ]
+                      },
+                      {
+                        "source": "Compré queso.",
+                        "answers": [
+                          "I bought some cheese",
+                          "I bought cheese"
+                        ]
+                      },
+                      {
+                        "source": "Caminamos tres horas.",
+                        "answers": [
+                          "We walked for three hours",
+                          "We walked three hours"
+                        ]
+                      },
+                      {
+                        "source": "¿Qué tal tu fin de semana?",
+                        "answers": [
+                          "How was your weekend"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta. Cuenta tu fin de semana.",
+                    "items": [
+                      {
+                        "text": "How was your weekend?"
+                      },
+                      {
+                        "text": "On Saturday I went to the market."
+                      },
+                      {
+                        "text": "It was beautiful, but it was very windy."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "weekend",
+                        "definition": "Saturday and Sunday",
+                        "translation": "fin de semana",
+                        "example": "How was your weekend?"
+                      },
+                      {
+                        "term": "last weekend",
+                        "definition": "The weekend before this one",
+                        "translation": "el fin de semana pasado",
+                        "example": "What did you do last weekend?"
+                      },
+                      {
+                        "term": "yesterday",
+                        "definition": "The day before today",
+                        "translation": "ayer",
+                        "example": "Yesterday was Sunday."
+                      },
+                      {
+                        "term": "market",
+                        "definition": "A place with stalls that sell food and things",
+                        "translation": "mercado",
+                        "example": "I went to the market with Priya."
+                      },
+                      {
+                        "term": "cheese",
+                        "definition": "Food made from milk",
+                        "translation": "queso",
+                        "example": "I bought some cheese."
+                      },
+                      {
+                        "term": "flowers",
+                        "definition": "The colourful parts of plants",
+                        "translation": "flores",
+                        "example": "I bought some flowers."
+                      },
+                      {
+                        "term": "bridge",
+                        "definition": "A road over a river",
+                        "translation": "puente",
+                        "example": "I visited the Clifton Suspension Bridge."
+                      },
+                      {
+                        "term": "windy",
+                        "definition": "With a lot of wind",
+                        "translation": "ventoso (hace viento)",
+                        "example": "It was very windy!"
+                      },
+                      {
+                        "term": "beautiful",
+                        "definition": "Very nice to look at",
+                        "translation": "precioso/a",
+                        "example": "It was beautiful."
+                      },
+                      {
+                        "term": "alone",
+                        "definition": "Without other people",
+                        "translation": "solo/a",
+                        "example": "Were you there alone?"
+                      },
+                      {
+                        "term": "colleague",
+                        "definition": "A person you work with",
+                        "translation": "compañero/a de trabajo",
+                        "example": "My new colleague from Spain."
+                      },
+                      {
+                        "term": "went",
+                        "definition": "Past of go",
+                        "translation": "fue / fui (ir)",
+                        "example": "I went to the market."
+                      },
+                      {
+                        "term": "bought",
+                        "definition": "Past of buy",
+                        "translation": "compró / compré",
+                        "example": "I bought some cheese."
+                      },
+                      {
+                        "term": "was / were",
+                        "definition": "Past of be",
+                        "translation": "fue, estuvo / fueron, estuvieron",
+                        "example": "It was great."
+                      },
+                      {
+                        "term": "visited",
+                        "definition": "Past of visit",
+                        "translation": "visitó / visité",
+                        "example": "I visited the bridge."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "I ___ tired yesterday.",
+                        "options": [
+                          "am",
+                          "was",
+                          "were"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "We ___ at the market.",
+                        "options": [
+                          "was",
+                          "were",
+                          "are"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Yesterday I ___ to the park.",
+                        "options": [
+                          "go",
+                          "went",
+                          "goed"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "She ___ some cheese.",
+                        "options": [
+                          "buyed",
+                          "bought",
+                          "buys"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "They ___ for hours. (walk)",
+                        "options": [
+                          "walk",
+                          "walked",
+                          "walking"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Where did Lucía go on Sunday?",
+                        "options": [
+                          "to the Clifton Suspension Bridge",
+                          "to the market",
+                          "to the pub"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "a1_checkpoint_4",
+              "title": "Checkpoint 4: Weekends",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "Lucía ___ play football.",
+                        "options": [
+                          "can",
+                          "cans",
+                          "can to"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Can you swim? — No, I ___.",
+                        "options": [
+                          "don't",
+                          "can't",
+                          "isn't"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Look! It ___.",
+                        "options": [
+                          "snows",
+                          "is snowing",
+                          "snow"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "What ___ you doing?",
+                        "options": [
+                          "are",
+                          "do",
+                          "is"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Sam always ___ on Saturdays.",
+                        "options": [
+                          "sleeps",
+                          "is sleeping",
+                          "sleep"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "It ___ very windy yesterday.",
+                        "options": [
+                          "is",
+                          "was",
+                          "were"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "I ___ to the market on Saturday.",
+                        "options": [
+                          "go",
+                          "went",
+                          "goes"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "___ you at home yesterday?",
+                        "options": [
+                          "Was",
+                          "Were",
+                          "Did"
+                        ],
+                        "answer": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "___ you help me?",
+                        "answers": [
+                          [
+                            "Can"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm ___ a coat. (wear)",
+                        "answers": [
+                          [
+                            "wearing"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Priya ___ working today.",
+                        "answers": [
+                          [
+                            "is"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We ___ a big lunch. (cook)",
+                        "answers": [
+                          [
+                            "cooked"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ some flowers. (buy)",
+                        "answers": [
+                          [
+                            "bought"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel ___ his mam. (phone)",
+                        "answers": [
+                          [
+                            "phoned"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "No puedo correr rápido.",
+                        "answers": [
+                          "I can't run fast",
+                          "I cannot run fast",
+                          "I can't run very fast"
+                        ]
+                      },
+                      {
+                        "source": "Está lloviendo otra vez.",
+                        "answers": [
+                          "It's raining again",
+                          "It is raining again"
+                        ]
+                      },
+                      {
+                        "source": "¿Qué hiciste?",
+                        "answers": [
+                          "What did you do"
+                        ]
+                      },
+                      {
+                        "source": "Fue precioso.",
+                        "answers": [
+                          "It was beautiful"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "a1_level_test",
+              "title": "Test final A1",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "I ___ from Spain.",
+                        "options": [
+                          "am",
+                          "is",
+                          "are"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Priya and Sam ___ my flatmates.",
+                        "options": [
+                          "is",
+                          "are",
+                          "am"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Sam is a musician. ___ band is great.",
+                        "options": [
+                          "Her",
+                          "His",
+                          "Its"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "It's ___ umbrella.",
+                        "options": [
+                          "a",
+                          "an"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "(cerca, plural) ___ are my photos.",
+                        "options": [
+                          "This",
+                          "These",
+                          "Those"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "___ is your name?",
+                        "options": [
+                          "Where",
+                          "What",
+                          "Who"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "The meeting is ___ half past nine.",
+                        "options": [
+                          "on",
+                          "at",
+                          "in"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Is there ___ milk?",
+                        "options": [
+                          "some",
+                          "any"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "We ___ dinner together on Fridays.",
+                        "options": [
+                          "has",
+                          "have",
+                          "having"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Priya ___ at the hospital.",
+                        "options": [
+                          "work",
+                          "works",
+                          "is work"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Sam ___ gets up early.",
+                        "options": [
+                          "never",
+                          "don't",
+                          "isn't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Daniel loves ___.",
+                        "options": [
+                          "read",
+                          "reading",
+                          "reads"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Lucía can ___ football.",
+                        "options": [
+                          "play",
+                          "plays",
+                          "to play"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Look! Sam ___ his guitar.",
+                        "options": [
+                          "carries",
+                          "is carrying",
+                          "carry"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Last weekend I ___ the bridge.",
+                        "options": [
+                          "visit",
+                          "visited",
+                          "visiting"
+                        ],
+                        "answer": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "We ___ all friends here.",
+                        "answers": [
+                          [
+                            "are"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ Javi a student?",
+                        "answers": [
+                          [
+                            "Is"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ a café opposite the cinema.",
+                        "answers": [
+                          [
+                            "There's",
+                            "There is"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Does he work on Mondays? — No, he ___.",
+                        "answers": [
+                          [
+                            "doesn't",
+                            "does not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The chemist's is ___ the bank and the bookshop.",
+                        "answers": [
+                          [
+                            "between"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Lucía talks about Daniel. She likes ___.",
+                        "answers": [
+                          [
+                            "him"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "What are you ___? (do)",
+                        "answers": [
+                          [
+                            "doing"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "How ___ your weekend?",
+                        "answers": [
+                          [
+                            "was"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "Where are you from"
+                      },
+                      {
+                        "answer": "Priya always gets up early"
+                      },
+                      {
+                        "answer": "I went to the market with Priya"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Ella es enfermera y trabaja en un hospital.",
+                        "answers": [
+                          "She's a nurse and she works in a hospital",
+                          "She is a nurse and she works in a hospital",
+                          "She's a nurse and she works at a hospital",
+                          "She is a nurse and she works at a hospital"
+                        ]
+                      },
+                      {
+                        "source": "Mi hermano no habla inglés.",
+                        "answers": [
+                          "My brother doesn't speak English",
+                          "My brother does not speak English"
+                        ]
+                      },
+                      {
+                        "source": "Sam está tocando la guitarra.",
+                        "answers": [
+                          "Sam is playing the guitar",
+                          "Sam's playing the guitar"
+                        ]
+                      },
+                      {
+                        "source": "El sábado fuimos al pub.",
+                        "answers": [
+                          "On Saturday we went to the pub",
+                          "We went to the pub on Saturday"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

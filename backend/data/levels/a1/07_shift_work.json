@@ -1,0 +1,495 @@
+{
+  "level_id": "A1",
+  "themes": [
+    {
+      "theme_id": "people_places",
+      "units": [
+        {
+          "unit_id": "shift_work",
+          "title": "Priya's Shifts",
+          "description": "Rutinas de otras personas: present simple con he/she y adverbios de frecuencia.",
+          "lessons": [
+            {
+              "lesson_id": "shift_work_lesson",
+              "title": "Present simple: he, she + frequency",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Priya's shifts",
+                    "dialogue": [
+                      {
+                        "speaker": "Lucía",
+                        "text": "Good morning, Priya! You're up early!"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "I always get up at half past five. I work at the hospital today."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Do you work every day?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "No. I usually work four days a week. Sometimes I work at night."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "At night? That's hard."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Yes, it is. When I work at night, I sleep in the day."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "And Sam? Does he get up early?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Sam? Never! He never gets up before ten. He works at the pub, and he finishes at midnight."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Does he work at the pub every day?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "No, he doesn't. He works there on Thursdays, Fridays and Saturdays. He often plays with his band on Fridays."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "And what does he do on Mondays?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "He sleeps!"
+                      }
+                    ],
+                    "passage": "It's six o'clock in the morning. Lucía is awake, and there's a light in the kitchen. Priya is there with a cup of tea."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"He never gets up before ten.\" With he/she, the verb…",
+                        "options": [
+                          "adds -s",
+                          "doesn't change",
+                          "adds -ing"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Does he work every day?\" — \"No, he ___.\"",
+                        "options": [
+                          "doesn't",
+                          "don't",
+                          "isn't"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I always get up at half past five.\" Always goes…",
+                        "options": [
+                          "before the verb",
+                          "after the verb",
+                          "at the end"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "When does Sam work at the pub?",
+                        "options": [
+                          "Thursdays, Fridays and Saturdays",
+                          "every day",
+                          "on Mondays"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Present simple: he, she, it + adverbs of frequency",
+                    "explanation": "Con he, she e it el verbo lleva -s: she works, he sleeps. Algunos llevan -es (goes, does, watches, finishes) y los que acaban en consonante + y cambian a -ies (study → studies). Have es irregular: has.\n\nNegativa y pregunta con does / doesn't, y el verbo vuelve a su forma base: He doesn't work on Mondays. Does he get up early? (nunca «Does he gets»).\n\nLos adverbios de frecuencia van antes del verbo principal pero después de be: She always gets up early. Sam is never early.",
+                    "table": {
+                      "headers": [
+                        "Adverbio",
+                        "Frecuencia",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "always",
+                          "100%",
+                          "Priya always gets up at half past five."
+                        ],
+                        [
+                          "usually",
+                          "80%",
+                          "She usually works four days a week."
+                        ],
+                        [
+                          "often",
+                          "60%",
+                          "Sam often plays on Fridays."
+                        ],
+                        [
+                          "sometimes",
+                          "40%",
+                          "Priya sometimes works at night."
+                        ],
+                        [
+                          "never",
+                          "0%",
+                          "Sam never gets up before ten."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Priya works at the hospital.",
+                      "Sam doesn't work on Mondays.",
+                      "Does Sam get up early? — No, he doesn't.",
+                      "He finishes at midnight."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la forma correcta.",
+                    "items": [
+                      {
+                        "sentence": "Priya ___ at the hospital. (work)",
+                        "answers": [
+                          [
+                            "works"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam ___ at midnight. (finish)",
+                        "answers": [
+                          [
+                            "finishes"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Javi never ___ English. (study)",
+                        "answers": [
+                          [
+                            "studies"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ Priya work at night? — Sometimes.",
+                        "answers": [
+                          [
+                            "Does"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam ___ get up early.",
+                        "answers": [
+                          [
+                            "doesn't",
+                            "does not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Lucía ___ a coffee every morning. (have)",
+                        "answers": [
+                          [
+                            "has"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Priya ___ to work by bike. (go)",
+                        "answers": [
+                          [
+                            "goes"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Does he work on Mondays? — No, he ___.",
+                        "answers": [
+                          [
+                            "doesn't",
+                            "does not"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "Priya always gets up early"
+                      },
+                      {
+                        "answer": "Sam never gets up before ten"
+                      },
+                      {
+                        "answer": "She usually works four days a week"
+                      },
+                      {
+                        "answer": "Does he work every day"
+                      },
+                      {
+                        "answer": "Sam is never early"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Priya trabaja en el hospital.",
+                        "answers": [
+                          "Priya works at the hospital",
+                          "Priya works in the hospital"
+                        ]
+                      },
+                      {
+                        "source": "Sam nunca se levanta temprano.",
+                        "answers": [
+                          "Sam never gets up early"
+                        ]
+                      },
+                      {
+                        "source": "¿Trabaja ella por la noche?",
+                        "answers": [
+                          "Does she work at night"
+                        ]
+                      },
+                      {
+                        "source": "A veces trabajo los sábados.",
+                        "answers": [
+                          "I sometimes work on Saturdays",
+                          "Sometimes I work on Saturdays"
+                        ]
+                      },
+                      {
+                        "source": "Él no trabaja los lunes.",
+                        "answers": [
+                          "He doesn't work on Mondays",
+                          "He does not work on Mondays"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "Priya always gets up at half past five."
+                      },
+                      {
+                        "text": "Sam doesn't work on Mondays."
+                      },
+                      {
+                        "text": "Does she work at night?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "hospital",
+                        "definition": "A place where sick people get help",
+                        "translation": "hospital",
+                        "example": "Priya works at the hospital."
+                      },
+                      {
+                        "term": "shift",
+                        "definition": "A period of time at work",
+                        "translation": "turno",
+                        "example": "Priya works long shifts."
+                      },
+                      {
+                        "term": "at night",
+                        "definition": "In the dark hours",
+                        "translation": "por la noche",
+                        "example": "Sometimes I work at night."
+                      },
+                      {
+                        "term": "early",
+                        "definition": "Before the usual time",
+                        "translation": "temprano",
+                        "example": "You're up early!"
+                      },
+                      {
+                        "term": "late",
+                        "definition": "After the usual time",
+                        "translation": "tarde",
+                        "example": "Sam finishes late."
+                      },
+                      {
+                        "term": "always",
+                        "definition": "Every time",
+                        "translation": "siempre",
+                        "example": "I always get up at half past five."
+                      },
+                      {
+                        "term": "usually",
+                        "definition": "Most of the time",
+                        "translation": "normalmente",
+                        "example": "I usually work four days a week."
+                      },
+                      {
+                        "term": "often",
+                        "definition": "Many times",
+                        "translation": "a menudo",
+                        "example": "He often plays with his band."
+                      },
+                      {
+                        "term": "sometimes",
+                        "definition": "Some of the time",
+                        "translation": "a veces",
+                        "example": "Sometimes I work at night."
+                      },
+                      {
+                        "term": "never",
+                        "definition": "At no time",
+                        "translation": "nunca",
+                        "example": "He never gets up before ten."
+                      },
+                      {
+                        "term": "every day",
+                        "definition": "Each day",
+                        "translation": "todos los días",
+                        "example": "Do you work every day?"
+                      },
+                      {
+                        "term": "midnight",
+                        "definition": "12 o'clock at night",
+                        "translation": "medianoche",
+                        "example": "He finishes at midnight."
+                      },
+                      {
+                        "term": "cup of tea",
+                        "definition": "Tea in a cup",
+                        "translation": "taza de té",
+                        "example": "Priya is in the kitchen with a cup of tea."
+                      },
+                      {
+                        "term": "sleep",
+                        "definition": "Rest with your eyes closed",
+                        "translation": "dormir",
+                        "example": "He sleeps on Mondays!"
+                      },
+                      {
+                        "term": "awake",
+                        "definition": "Not sleeping",
+                        "translation": "despierto/a",
+                        "example": "Lucía is awake at six."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "She ___ at the hospital.",
+                        "options": [
+                          "work",
+                          "works",
+                          "working"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "He ___ at midnight.",
+                        "options": [
+                          "finishs",
+                          "finishes",
+                          "finish"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "___ Sam get up early?",
+                        "options": [
+                          "Do",
+                          "Is",
+                          "Does"
+                        ],
+                        "answer": 2
+                      },
+                      {
+                        "question": "Sam doesn't ___ on Mondays.",
+                        "options": [
+                          "works",
+                          "work",
+                          "working"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Priya ___ gets up early. (100%)",
+                        "options": [
+                          "never",
+                          "always",
+                          "sometimes"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Javi ___ English. (study)",
+                        "options": [
+                          "studys",
+                          "studies",
+                          "studyes"
+                        ],
+                        "answer": 1
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

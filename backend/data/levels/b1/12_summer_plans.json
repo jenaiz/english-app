@@ -1,0 +1,938 @@
+{
+  "level_id": "B1",
+  "themes": [
+    {
+      "theme_id": "summer",
+      "units": [
+        {
+          "unit_id": "summer_plans",
+          "title": "Summer Plans",
+          "description": "Planes, citas, promesas y posibilidades: present continuous, going to, will y might. Incluye el test final de B1.",
+          "lessons": [
+            {
+              "lesson_id": "summer_plans_lesson",
+              "title": "Future forms and might",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Summer plans",
+                    "dialogue": [
+                      {
+                        "speaker": "Sam",
+                        "text": "Right, that's the last box. The van's leaving at twelve."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "What time are you meeting the band in London?"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "We're meeting at the studio at five. We're starting the recording on Monday."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Are you going to visit us at Christmas?"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Definitely. And I'll be back for Priya's birthday too, I promise."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "And what about you two? Any summer plans, Priya?"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "I'm working most of August. But I might go to Cornwall for a few days."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "And we're flying to Valencia on the fifteenth. Daniel is meeting my parents!"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Ha! Is he nervous?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Nervous? Me? Maybe a bit. I think they'll like me. I might cook them an Irish stew."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "In August? In Valencia? You might die of heat!"
+                      },
+                      {
+                        "speaker": "Ollie",
+                        "text": "Hi, everyone! I'm moving in a bit early. Is that OK?"
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Perfect timing. Look after my room, mate. And look after these two."
+                      },
+                      {
+                        "speaker": "Ollie",
+                        "text": "I will. Good luck in London!"
+                      }
+                    ],
+                    "passage": "August. It's Sam's last day at Clifton Road. There's a van outside, and everyone is helping him to carry boxes."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"We're meeting at the studio at five.\" This is…",
+                        "options": [
+                          "an arrangement with a time",
+                          "a prediction"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I might go to Cornwall.\" Might means…",
+                        "options": [
+                          "quizá, puede que",
+                          "seguro"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I'll be back for Priya's birthday, I promise.\" Will here is for…",
+                        "options": [
+                          "a promise",
+                          "an arrangement"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "When are Lucía and Daniel flying to Valencia?",
+                        "options": [
+                          "on the fifteenth",
+                          "at Christmas",
+                          "on Monday"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Future forms and might",
+                    "explanation": "En inglés hay varias formas de hablar del futuro según lo que queramos expresar:\n• present continuous para planes ya fijados, con hora o lugar: We're meeting at the studio at five.\n• going to para intenciones: Are you going to visit us at Christmas?\n• will para promesas, decisiones en el momento y predicciones: I'll be back, I promise. I think they'll like me.\n• might + verbo para posibilidades: I might go to Cornwall.\n• present simple para horarios: The van leaves at twelve.",
+                    "table": {
+                      "headers": [
+                        "Forma",
+                        "Uso",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Present continuous",
+                          "planes fijados (hora, lugar)",
+                          "We're meeting at the studio at five."
+                        ],
+                        [
+                          "going to",
+                          "intenciones",
+                          "Are you going to visit us at Christmas?"
+                        ],
+                        [
+                          "will",
+                          "promesas, decisiones, predicciones",
+                          "I'll be back for Priya's birthday, I promise."
+                        ],
+                        [
+                          "might",
+                          "posibilidad",
+                          "I might go to Cornwall."
+                        ],
+                        [
+                          "Present simple",
+                          "horarios",
+                          "The van leaves at twelve."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "We're starting the recording on Monday.",
+                      "I'll be back for Priya's birthday, I promise.",
+                      "I might cook them an Irish stew.",
+                      "We're flying to Valencia on the fifteenth."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la forma de futuro adecuada.",
+                    "items": [
+                      {
+                        "sentence": "We ___ meeting at the studio at five.",
+                        "answers": [
+                          [
+                            "are"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We're flying to Valencia ___ the fifteenth.",
+                        "answers": [
+                          [
+                            "on"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ go to Cornwall. (quizá)",
+                        "answers": [
+                          [
+                            "might"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'll be back, I ___.",
+                        "answers": [
+                          [
+                            "promise"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I think they ___ like me.",
+                        "answers": [
+                          [
+                            "will",
+                            "'ll"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Are you going ___ visit us at Christmas?",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The train ___ at nine fifteen. (horario: leave)",
+                        "answers": [
+                          [
+                            "leaves"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You ___ die of heat! (posibilidad)",
+                        "answers": [
+                          [
+                            "might"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "We're flying to Valencia on the fifteenth"
+                      },
+                      {
+                        "answer": "I might cook an Irish stew"
+                      },
+                      {
+                        "answer": "Are you going to visit us"
+                      },
+                      {
+                        "answer": "I'll be back for your birthday"
+                      },
+                      {
+                        "answer": "What time are you meeting the band"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Mañana a las cinco quedo con el grupo.",
+                        "answers": [
+                          "I'm meeting the band tomorrow at five",
+                          "I'm meeting the band at five tomorrow",
+                          "I am meeting the band tomorrow at five",
+                          "Tomorrow I'm meeting the band at five"
+                        ]
+                      },
+                      {
+                        "source": "Puede que vaya a Cornualles.",
+                        "answers": [
+                          "I might go to Cornwall",
+                          "I may go to Cornwall"
+                        ]
+                      },
+                      {
+                        "source": "Te prometo que volveré.",
+                        "answers": [
+                          "I promise I'll come back",
+                          "I promise I'll be back",
+                          "I promise I will come back",
+                          "I promise I will be back"
+                        ]
+                      },
+                      {
+                        "source": "¿Vas a visitarnos?",
+                        "answers": [
+                          "Are you going to visit us"
+                        ]
+                      },
+                      {
+                        "source": "Creo que les gustarás.",
+                        "answers": [
+                          "I think they'll like you",
+                          "I think they will like you"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "We're flying to Valencia on the fifteenth."
+                      },
+                      {
+                        "text": "I might go to Cornwall for a few days."
+                      },
+                      {
+                        "text": "I'll be back, I promise."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "van",
+                        "definition": "A small truck",
+                        "translation": "furgoneta",
+                        "example": "The van is leaving at twelve."
+                      },
+                      {
+                        "term": "box",
+                        "definition": "A container for things",
+                        "translation": "caja",
+                        "example": "That's the last box."
+                      },
+                      {
+                        "term": "carry",
+                        "definition": "Hold and move something",
+                        "translation": "llevar, cargar",
+                        "example": "Everyone is helping him to carry boxes."
+                      },
+                      {
+                        "term": "recording",
+                        "definition": "Making a record",
+                        "translation": "grabación",
+                        "example": "We're starting the recording on Monday."
+                      },
+                      {
+                        "term": "studio",
+                        "definition": "A room where music is recorded",
+                        "translation": "estudio",
+                        "example": "We're meeting at the studio."
+                      },
+                      {
+                        "term": "definitely",
+                        "definition": "Certainly",
+                        "translation": "sin duda, seguro",
+                        "example": "Definitely."
+                      },
+                      {
+                        "term": "might",
+                        "definition": "Possibly will",
+                        "translation": "puede que, quizá",
+                        "example": "I might go to Cornwall."
+                      },
+                      {
+                        "term": "stew",
+                        "definition": "Meat and vegetables cooked slowly",
+                        "translation": "guiso, estofado",
+                        "example": "an Irish stew"
+                      },
+                      {
+                        "term": "heat",
+                        "definition": "Hot weather",
+                        "translation": "calor",
+                        "example": "You might die of heat!"
+                      },
+                      {
+                        "term": "move in",
+                        "definition": "Start living in a home",
+                        "translation": "mudarse",
+                        "example": "I'm moving in a bit early."
+                      },
+                      {
+                        "term": "perfect timing",
+                        "definition": "Arriving at exactly the right moment",
+                        "translation": "en el momento justo",
+                        "example": "Perfect timing."
+                      },
+                      {
+                        "term": "mate",
+                        "definition": "Friend (informal UK)",
+                        "translation": "colega",
+                        "example": "Look after my room, mate."
+                      },
+                      {
+                        "term": "Good luck!",
+                        "definition": "I hope things go well for you",
+                        "translation": "¡Buena suerte!",
+                        "example": "Good luck in London!"
+                      },
+                      {
+                        "term": "a few days",
+                        "definition": "Some days",
+                        "translation": "unos días",
+                        "example": "for a few days"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "I ___ my parents on Sunday. It's all arranged.",
+                        "options": [
+                          "'m visiting",
+                          "might visit"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "It ___ rain later. Take an umbrella just in case.",
+                        "options": [
+                          "might",
+                          "is"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'll call you, I ___.",
+                        "options": [
+                          "promise",
+                          "might"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The film ___ at eight. (horario)",
+                        "options": [
+                          "starts",
+                          "is starting"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What are you ___ to do this summer?",
+                        "options": [
+                          "going",
+                          "will"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What might Daniel cook for Lucía's parents?",
+                        "options": [
+                          "an Irish stew",
+                          "paella",
+                          "chicken soup"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "b1_checkpoint_4",
+              "title": "Checkpoint 4: Summer",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "She ___ me that she was tired.",
+                        "options": [
+                          "told",
+                          "said"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"I can help.\" → He said he ___ help.",
+                        "options": [
+                          "could",
+                          "can"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She asked if I ___ ready.",
+                        "options": [
+                          "was",
+                          "am"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "When we arrived, the film ___ started.",
+                        "options": [
+                          "had already",
+                          "has already"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I ___ never been there before that day.",
+                        "options": [
+                          "had",
+                          "have"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "We ___ at seven tomorrow. It's arranged.",
+                        "options": [
+                          "'re meeting",
+                          "might meet"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I ___ go out tonight. I'm not sure.",
+                        "options": [
+                          "might",
+                          "am going to"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'll be there, I ___.",
+                        "options": [
+                          "promise",
+                          "might"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "He said he ___ passed his exam.",
+                        "answers": [
+                          [
+                            "had"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "She ___ that she was happy. (say)",
+                        "answers": [
+                          [
+                            "said"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel had ___ the tickets at home. (leave)",
+                        "answers": [
+                          [
+                            "left"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Everyone ___ singing. (past continuous)",
+                        "answers": [
+                          [
+                            "was"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We're flying ___ the fifteenth.",
+                        "answers": [
+                          [
+                            "on"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ go to Cornwall. (quizá)",
+                        "answers": [
+                          [
+                            "might"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Me dijo que estaba nerviosa.",
+                        "answers": [
+                          "She told me she was nervous",
+                          "She told me that she was nervous"
+                        ]
+                      },
+                      {
+                        "source": "El concierto ya había empezado.",
+                        "answers": [
+                          "The concert had already started",
+                          "The gig had already started"
+                        ]
+                      },
+                      {
+                        "source": "Puede que vaya a Cornualles.",
+                        "answers": [
+                          "I might go to Cornwall",
+                          "I may go to Cornwall"
+                        ]
+                      },
+                      {
+                        "source": "Volamos a Valencia el día quince.",
+                        "answers": [
+                          "We're flying to Valencia on the fifteenth",
+                          "We are flying to Valencia on the fifteenth",
+                          "We're flying to Valencia on the 15th"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "b1_level_test",
+              "title": "Test final B1",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "I ___ to be shy, but now I'm not.",
+                        "options": [
+                          "used",
+                          "use"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I've been waiting ___ an hour.",
+                        "options": [
+                          "for",
+                          "since"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "When ___ you start this job?",
+                        "options": [
+                          "did",
+                          "have"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I ___ here since 2023.",
+                        "options": [
+                          "'ve lived",
+                          "lived"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The museum ___ built in 1890.",
+                        "options": [
+                          "was",
+                          "has"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Pick ___ up, please.",
+                        "options": [
+                          "them",
+                          "up them"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Would you mind ___ the door?",
+                        "options": [
+                          "closing",
+                          "to close"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If it ___, we'll stay at home.",
+                        "options": [
+                          "rains",
+                          "will rain"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If I ___ you, I'd take the job.",
+                        "options": [
+                          "were",
+                          "am"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "You ___ smoke here. (prohibido)",
+                        "options": [
+                          "mustn't",
+                          "don't have to"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "The girl ___ lives next door is a chef.",
+                        "options": [
+                          "who",
+                          "which"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "She ___ me she was tired.",
+                        "options": [
+                          "told",
+                          "said"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "When we arrived, the party ___ finished.",
+                        "options": [
+                          "had already",
+                          "has already"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "It ___ snow tonight. Maybe.",
+                        "options": [
+                          "might",
+                          "is"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'm looking forward to ___ you.",
+                        "options": [
+                          "seeing",
+                          "see"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "Did you use ___ play the guitar?",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "How long have you ___ learning English?",
+                        "answers": [
+                          [
+                            "been"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The flight has ___ delayed.",
+                        "answers": [
+                          [
+                            "been"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We can put up ___ the noise.",
+                        "answers": [
+                          [
+                            "with"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "As soon as we ___ home, I'll call you. (get)",
+                        "answers": [
+                          [
+                            "get"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It's the park ___ we play football.",
+                        "answers": [
+                          [
+                            "where"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "He said he ___ call me. (will)",
+                        "answers": [
+                          [
+                            "would"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam had ___ his old guitar. (bring)",
+                        "answers": [
+                          [
+                            "brought"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "If I were you I would go"
+                      },
+                      {
+                        "answer": "The flight has been delayed"
+                      },
+                      {
+                        "answer": "She asked if you could come"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Llevo seis meses trabajando aquí.",
+                        "answers": [
+                          "I've been working here for six months",
+                          "I've worked here for six months",
+                          "I have been working here for six months",
+                          "I have worked here for six months"
+                        ]
+                      },
+                      {
+                        "source": "Si llueve, nos mojaremos.",
+                        "answers": [
+                          "If it rains, we'll get wet",
+                          "If it rains we'll get wet",
+                          "If it rains, we will get wet",
+                          "We'll get wet if it rains"
+                        ]
+                      },
+                      {
+                        "source": "No hace falta que vengas.",
+                        "answers": [
+                          "You don't need to come",
+                          "You don't have to come",
+                          "You do not need to come",
+                          "You do not have to come"
+                        ]
+                      },
+                      {
+                        "source": "Me dijo que había aprobado.",
+                        "answers": [
+                          "He told me he had passed",
+                          "He told me that he had passed"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

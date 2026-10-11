@@ -1,0 +1,666 @@
+{
+  "level_id": "B1",
+  "themes": [
+    {
+      "theme_id": "ireland",
+      "units": [
+        {
+          "unit_id": "galway_family",
+          "title": "Dinner in Galway",
+          "description": "Habla de lo que pasará si…: primer condicional, when, as soon as y unless.",
+          "lessons": [
+            {
+              "lesson_id": "galway_family_lesson",
+              "title": "First conditional and time clauses",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Dinner in Galway",
+                    "dialogue": [
+                      {
+                        "speaker": "Maureen",
+                        "text": "Lucía, love, have some more potatoes. If you don't eat, I'll be offended!"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Thank you, Maureen. If I eat any more, I won't be able to move!"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Mam, leave her alone. So, what are we doing tomorrow?"
+                      },
+                      {
+                        "speaker": "Maureen",
+                        "text": "If the weather's good, you should take her to the Cliffs of Moher."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "And if it rains?"
+                      },
+                      {
+                        "speaker": "Maureen",
+                        "text": "If it rains, you'll get wet! This is Ireland, Daniel."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I don't mind the rain. I've got my red umbrella."
+                      },
+                      {
+                        "speaker": "Maureen",
+                        "text": "Good girl. And when you come back, I'll make my famous apple tart."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "As soon as we get back, I'll put the kettle on."
+                      },
+                      {
+                        "speaker": "Maureen",
+                        "text": "Lucía, will you come again in the summer?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I'd love to. If Daniel invites me!"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Unless she gets tired of me first."
+                      },
+                      {
+                        "speaker": "Maureen",
+                        "text": "Sure, she won't get tired of you. You're a grand lad."
+                      }
+                    ],
+                    "passage": "Two days later, in Galway. Daniel's mother, Maureen, has made a huge dinner. Outside, the rain is hitting the windows."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"If you don't eat, I'll be offended!\" After if we use…",
+                        "options": [
+                          "the present simple",
+                          "will"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"If it rains, you'll get wet.\" The result uses…",
+                        "options": [
+                          "will + verb",
+                          "the present simple"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Which is correct?",
+                        "options": [
+                          "As soon as we get back, I'll put the kettle on.",
+                          "As soon as we'll get back, I'll put the kettle on."
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Unless she gets tired of me\" — unless means…",
+                        "options": [
+                          "a menos que",
+                          "si"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "First conditional and time clauses",
+                    "explanation": "El primer condicional habla de situaciones reales o probables en el futuro: If + presente, will + verbo. If it rains, you'll get wet.\n\nLas dos partes pueden cambiar de orden (sin coma si if va en medio): You'll get wet if it rains.\n\nDetrás de when, as soon as, before, after y until también usamos presente, aunque hablemos del futuro: As soon as we get back, I'll put the kettle on (nunca «as soon as we will get back»).\n\nUnless = if not (a menos que): Unless she gets tired of me…",
+                    "table": {
+                      "headers": [
+                        "Estructura",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "If + presente, will + verbo",
+                          "If it rains, you'll get wet."
+                        ],
+                        [
+                          "will + verbo + if + presente",
+                          "You'll get wet if it rains."
+                        ],
+                        [
+                          "Negativa",
+                          "If you don't eat, I'll be offended."
+                        ],
+                        [
+                          "when / as soon as + presente",
+                          "As soon as we get back, I'll put the kettle on."
+                        ],
+                        [
+                          "unless (= if not)",
+                          "I'll go unless it rains."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "If you don't eat, I'll be offended!",
+                      "If I eat any more, I won't be able to move!",
+                      "When you come back, I'll make my famous apple tart.",
+                      "Unless she gets tired of me first."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el primer condicional.",
+                    "items": [
+                      {
+                        "sentence": "If it ___, you'll get wet. (rain)",
+                        "answers": [
+                          [
+                            "rains"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If you don't eat, I ___ be offended.",
+                        "answers": [
+                          [
+                            "will",
+                            "'ll"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If the weather's good, we ___ go to the cliffs.",
+                        "answers": [
+                          [
+                            "will",
+                            "'ll"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If I eat any more, I ___ be able to move.",
+                        "answers": [
+                          [
+                            "won't",
+                            "will not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "As soon as we ___ back, I'll put the kettle on. (get)",
+                        "answers": [
+                          [
+                            "get"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "When you ___ back, I'll make an apple tart. (come)",
+                        "answers": [
+                          [
+                            "come"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ she gets tired of me…",
+                        "answers": [
+                          [
+                            "Unless"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'll call you when I ___ in Galway. (arrive)",
+                        "answers": [
+                          [
+                            "arrive"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "You'll get wet if it rains"
+                      },
+                      {
+                        "answer": "I'll make a tart when you come back"
+                      },
+                      {
+                        "answer": "We'll go to the cliffs if the weather is good"
+                      },
+                      {
+                        "answer": "I won't be able to move"
+                      },
+                      {
+                        "answer": "Unless she gets tired of me"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Si llueve, nos mojaremos.",
+                        "answers": [
+                          "If it rains, we'll get wet",
+                          "If it rains we'll get wet",
+                          "If it rains, we will get wet",
+                          "We'll get wet if it rains"
+                        ]
+                      },
+                      {
+                        "source": "Cuando volváis, haré una tarta.",
+                        "answers": [
+                          "When you come back, I'll make a tart",
+                          "When you come back I'll make a tart",
+                          "When you come back, I'll make a cake",
+                          "I'll make a tart when you come back"
+                        ]
+                      },
+                      {
+                        "source": "En cuanto lleguemos, te llamo.",
+                        "answers": [
+                          "As soon as we arrive, I'll call you",
+                          "As soon as we arrive I'll call you",
+                          "As soon as we get there, I'll call you",
+                          "I'll call you as soon as we arrive"
+                        ]
+                      },
+                      {
+                        "source": "Si no comes, me enfadaré.",
+                        "answers": [
+                          "If you don't eat, I'll be angry",
+                          "If you don't eat I'll be angry",
+                          "If you don't eat, I'll be offended"
+                        ]
+                      },
+                      {
+                        "source": "No iremos a menos que haga sol.",
+                        "answers": [
+                          "We won't go unless it's sunny",
+                          "We will not go unless it is sunny",
+                          "We won't go unless it is sunny"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "If it rains, we'll get wet."
+                      },
+                      {
+                        "text": "As soon as we get back, I'll put the kettle on."
+                      },
+                      {
+                        "text": "I'll come again if you invite me."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "huge",
+                        "definition": "Very big",
+                        "translation": "enorme",
+                        "example": "a huge dinner"
+                      },
+                      {
+                        "term": "love",
+                        "definition": "A friendly way to talk to someone (UK, Ireland)",
+                        "translation": "cariño",
+                        "example": "Lucía, love, have some more potatoes."
+                      },
+                      {
+                        "term": "offended",
+                        "definition": "Upset because of something someone did",
+                        "translation": "ofendido/a",
+                        "example": "I'll be offended!"
+                      },
+                      {
+                        "term": "leave someone alone",
+                        "definition": "Stop annoying someone",
+                        "translation": "dejar en paz",
+                        "example": "Mam, leave her alone."
+                      },
+                      {
+                        "term": "cliffs",
+                        "definition": "High rocks next to the sea",
+                        "translation": "acantilados",
+                        "example": "the Cliffs of Moher"
+                      },
+                      {
+                        "term": "get wet",
+                        "definition": "Become covered in water",
+                        "translation": "mojarse",
+                        "example": "You'll get wet!"
+                      },
+                      {
+                        "term": "I don't mind",
+                        "definition": "It isn't a problem for me",
+                        "translation": "no me importa",
+                        "example": "I don't mind the rain."
+                      },
+                      {
+                        "term": "apple tart",
+                        "definition": "A sweet dish of apples and pastry",
+                        "translation": "tarta de manzana",
+                        "example": "my famous apple tart"
+                      },
+                      {
+                        "term": "put the kettle on",
+                        "definition": "Start boiling water for tea",
+                        "translation": "poner agua a hervir (para el té)",
+                        "example": "I'll put the kettle on."
+                      },
+                      {
+                        "term": "as soon as",
+                        "definition": "Immediately when",
+                        "translation": "en cuanto",
+                        "example": "As soon as we get back…"
+                      },
+                      {
+                        "term": "unless",
+                        "definition": "If not",
+                        "translation": "a menos que",
+                        "example": "Unless she gets tired of me."
+                      },
+                      {
+                        "term": "get tired of",
+                        "definition": "Stop enjoying something or someone",
+                        "translation": "cansarse de",
+                        "example": "She won't get tired of you."
+                      },
+                      {
+                        "term": "lad",
+                        "definition": "A boy or young man (informal)",
+                        "translation": "chaval",
+                        "example": "You're a grand lad."
+                      },
+                      {
+                        "term": "grand",
+                        "definition": "Great, fine (Irish English)",
+                        "translation": "estupendo (irlandés)",
+                        "example": "a grand lad"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "If it ___, we'll stay at home.",
+                        "options": [
+                          "rains",
+                          "will rain"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If you study, you ___ pass.",
+                        "options": [
+                          "'ll",
+                          "'d"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I'll call you when I ___.",
+                        "options": [
+                          "arrive",
+                          "will arrive"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "We'll go ___ it rains. (a menos que)",
+                        "options": [
+                          "unless",
+                          "if"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "As soon as she ___ home, we'll eat.",
+                        "options": [
+                          "gets",
+                          "'ll get"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "What will Maureen make when they come back?",
+                        "options": [
+                          "an apple tart",
+                          "Irish stew",
+                          "potatoes"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "b1_checkpoint_2",
+              "title": "Checkpoint 2: Ireland",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Elige la opción correcta.",
+                    "items": [
+                      {
+                        "question": "The flight ___ delayed.",
+                        "options": [
+                          "has been",
+                          "has"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Your bags ___ be sent to Dublin.",
+                        "options": [
+                          "will",
+                          "are"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Breakfast is ___ from seven.",
+                        "options": [
+                          "served",
+                          "serving"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Pick ___ up before you leave.",
+                        "options": [
+                          "them",
+                          "up them"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "We'll look ___ your bags.",
+                        "options": [
+                          "after",
+                          "for"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Would you mind ___ the window?",
+                        "options": [
+                          "opening",
+                          "to open"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "If it ___, we'll stay inside.",
+                        "options": [
+                          "rains",
+                          "will rain"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "As soon as we ___ back, I'll call you.",
+                        "options": [
+                          "get",
+                          "'ll get"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa.",
+                    "items": [
+                      {
+                        "sentence": "Passengers are ___ to wait. (ask)",
+                        "answers": [
+                          [
+                            "asked"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Could you fill ___ this form?",
+                        "answers": [
+                          [
+                            "in"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We can put up ___ the noise.",
+                        "answers": [
+                          [
+                            "with"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm ___ the shower doesn't work.",
+                        "answers": [
+                          [
+                            "afraid"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If you don't eat, I ___ be offended.",
+                        "answers": [
+                          [
+                            "will",
+                            "'ll"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We'll go ___ it rains. (a menos que)",
+                        "answers": [
+                          [
+                            "unless"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "El vuelo se ha retrasado.",
+                        "answers": [
+                          "The flight has been delayed",
+                          "The flight's been delayed"
+                        ]
+                      },
+                      {
+                        "source": "¿Le importaría cambiarnos de habitación?",
+                        "answers": [
+                          "Would you mind changing our room",
+                          "Would you mind moving us to another room"
+                        ]
+                      },
+                      {
+                        "source": "Si llueve, nos mojaremos.",
+                        "answers": [
+                          "If it rains, we'll get wet",
+                          "If it rains we'll get wet",
+                          "If it rains, we will get wet",
+                          "We'll get wet if it rains"
+                        ]
+                      },
+                      {
+                        "source": "Tengo muchas ganas de verte.",
+                        "answers": [
+                          "I'm looking forward to seeing you",
+                          "I am looking forward to seeing you"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

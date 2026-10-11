@@ -1,0 +1,483 @@
+{
+  "level_id": "A1",
+  "themes": [
+    {
+      "theme_id": "weekends",
+      "units": [
+        {
+          "unit_id": "in_the_park",
+          "title": "Football in the Park",
+          "description": "Habla de habilidades y pide permiso con can / can't.",
+          "lessons": [
+            {
+              "lesson_id": "in_the_park_lesson",
+              "title": "can / can't",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "Football in the park",
+                    "dialogue": [
+                      {
+                        "speaker": "Daniel",
+                        "text": "Can you play football, Lucía?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes, I can! I can't run very fast, but I can play."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Lucía, you're on my team. Daniel, you're on Sam's team."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Can I be the goalkeeper? I can't kick the ball very well!"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Of course you can."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Goal!"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "Wow! You can play really well."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I play every week in Valencia with my friends."
+                      },
+                      {
+                        "speaker": "Sam",
+                        "text": "Helen, can we stop now? I can't breathe!"
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "Ha! OK, five minutes. Who can bring some water?"
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "I can. Lucía, can you help me?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Yes, of course."
+                      }
+                    ],
+                    "passage": "Sunday afternoon in Brandon Hill park. People from Harbour Studio play football here every month. Today Sam is with them too."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"I can't run very fast.\" can't = …",
+                        "options": [
+                          "can not",
+                          "could not",
+                          "can be"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Can I be the goalkeeper?\" Sam asks for…",
+                        "options": [
+                          "permission (permiso)",
+                          "ability (habilidad)"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"You can play really well.\" After can, the verb…",
+                        "options": [
+                          "has no -s and no 'to'",
+                          "takes -s",
+                          "takes to"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Who says \"I can't breathe!\"?",
+                        "options": [
+                          "Sam",
+                          "Helen",
+                          "Daniel"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "can / can't",
+                    "explanation": "Can expresa habilidad (I can play football = sé jugar al fútbol) y también permiso o petición (Can I be the goalkeeper? = ¿puedo…?).\n\nEs igual para todas las personas (he can, nunca «he cans») y va seguido del verbo sin to: She can swim (no «She can to swim»).\n\nNegativa: can't (cannot). Pregunta: Can you…? — Yes, I can / No, I can't.\n\nPronunciación: en afirmativa can suena débil, /kən/; can't suena fuerte, /kɑːnt/.",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Afirmativa",
+                          "Lucía can play football."
+                        ],
+                        [
+                          "Negativa",
+                          "Sam can't kick the ball very well."
+                        ],
+                        [
+                          "Pregunta",
+                          "Can you play football?"
+                        ],
+                        [
+                          "Respuesta corta",
+                          "Yes, I can. / No, I can't."
+                        ],
+                        [
+                          "Permiso",
+                          "Can we stop now?"
+                        ],
+                        [
+                          "Petición",
+                          "Can you help me?"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Can you play football, Lucía? — Yes, I can!",
+                      "I can't run very fast.",
+                      "Can I be the goalkeeper?",
+                      "Who can bring some water? — I can."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con can o can't.",
+                    "items": [
+                      {
+                        "sentence": "Lucía ___ play football. (sí)",
+                        "answers": [
+                          [
+                            "can"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam ___ kick the ball very well. (no)",
+                        "answers": [
+                          [
+                            "can't",
+                            "cannot"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ you swim? — Yes, I can.",
+                        "answers": [
+                          [
+                            "Can"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Can Daniel run fast? — Yes, he ___.",
+                        "answers": [
+                          [
+                            "can"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Can Priya play the guitar? — No, she ___.",
+                        "answers": [
+                          [
+                            "can't",
+                            "cannot"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ I open the window? (permiso)",
+                        "answers": [
+                          [
+                            "Can"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "She can ___ very well. (dance)",
+                        "answers": [
+                          [
+                            "dance"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "Ordena las palabras.",
+                    "items": [
+                      {
+                        "answer": "Can you play football"
+                      },
+                      {
+                        "answer": "I can't run very fast"
+                      },
+                      {
+                        "answer": "Can I be the goalkeeper"
+                      },
+                      {
+                        "answer": "She can play really well"
+                      },
+                      {
+                        "answer": "Can you help me"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "¿Sabes jugar al fútbol?",
+                        "answers": [
+                          "Can you play football"
+                        ]
+                      },
+                      {
+                        "source": "No sé nadar.",
+                        "answers": [
+                          "I can't swim",
+                          "I cannot swim"
+                        ]
+                      },
+                      {
+                        "source": "¿Puedo ser el portero?",
+                        "answers": [
+                          "Can I be the goalkeeper"
+                        ]
+                      },
+                      {
+                        "source": "¿Me puedes ayudar?",
+                        "answers": [
+                          "Can you help me"
+                        ]
+                      },
+                      {
+                        "source": "Ella sabe cocinar muy bien.",
+                        "answers": [
+                          "She can cook very well",
+                          "She can cook really well"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta.",
+                    "items": [
+                      {
+                        "text": "I can play football, but I can't run very fast."
+                      },
+                      {
+                        "text": "Can you help me?"
+                      },
+                      {
+                        "text": "Can we stop now?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "park",
+                        "definition": "A green public place in a town",
+                        "translation": "parque",
+                        "example": "We play football in the park."
+                      },
+                      {
+                        "term": "football",
+                        "definition": "A game with a ball and two teams",
+                        "translation": "fútbol",
+                        "example": "Can you play football?"
+                      },
+                      {
+                        "term": "team",
+                        "definition": "A group of people who play together",
+                        "translation": "equipo",
+                        "example": "You're on my team."
+                      },
+                      {
+                        "term": "goalkeeper",
+                        "definition": "The player who stops the ball",
+                        "translation": "portero/a",
+                        "example": "Can I be the goalkeeper?"
+                      },
+                      {
+                        "term": "ball",
+                        "definition": "A round object for games",
+                        "translation": "pelota, balón",
+                        "example": "I can't kick the ball."
+                      },
+                      {
+                        "term": "kick",
+                        "definition": "Hit with your foot",
+                        "translation": "dar una patada, chutar",
+                        "example": "Kick the ball!"
+                      },
+                      {
+                        "term": "goal",
+                        "definition": "A point in football",
+                        "translation": "gol",
+                        "example": "Goal!"
+                      },
+                      {
+                        "term": "run",
+                        "definition": "Move very fast on your legs",
+                        "translation": "correr",
+                        "example": "I can't run very fast."
+                      },
+                      {
+                        "term": "swim",
+                        "definition": "Move in water",
+                        "translation": "nadar",
+                        "example": "Can you swim?"
+                      },
+                      {
+                        "term": "ride a bike",
+                        "definition": "Travel on a bicycle",
+                        "translation": "montar en bici",
+                        "example": "I can ride a bike."
+                      },
+                      {
+                        "term": "play the guitar",
+                        "definition": "Make music with a guitar",
+                        "translation": "tocar la guitarra",
+                        "example": "Sam can play the guitar."
+                      },
+                      {
+                        "term": "fast",
+                        "definition": "Quick",
+                        "translation": "rápido",
+                        "example": "Daniel can run fast."
+                      },
+                      {
+                        "term": "well",
+                        "definition": "In a good way",
+                        "translation": "bien",
+                        "example": "You can play really well."
+                      },
+                      {
+                        "term": "breathe",
+                        "definition": "Take air into your body",
+                        "translation": "respirar",
+                        "example": "I can't breathe!"
+                      },
+                      {
+                        "term": "help",
+                        "definition": "Do something for someone",
+                        "translation": "ayudar",
+                        "example": "Can you help me?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "She ___ swim.",
+                        "options": [
+                          "cans",
+                          "can",
+                          "can to"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Can you play tennis? — No, I ___.",
+                        "options": [
+                          "don't",
+                          "can't",
+                          "not"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "I can ___ the guitar.",
+                        "options": [
+                          "play",
+                          "to play",
+                          "plays"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ I open the window?",
+                        "options": [
+                          "Do",
+                          "Can",
+                          "Am"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "Portero = ___",
+                        "options": [
+                          "goalkeeper",
+                          "doorman",
+                          "keeper goal"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "Who scores the goal?",
+                        "options": [
+                          "Lucía",
+                          "Daniel",
+                          "Sam"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

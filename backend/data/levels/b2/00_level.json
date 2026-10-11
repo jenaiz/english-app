@@ -1,11 +1,23 @@
 {
   "level_id": "B2",
   "title": "B2 Upper Intermediate",
-  "description": "Argumentar, matizar y debatir con naturalidad",
+  "description": "Congresos, clientes difíciles y grandes decisiones: deducción, condicionales, wish, causativa y estilo formal.",
   "themes": [
     {
-      "theme_id": "opinions_debate",
-      "title": "Opinions & Debate"
+      "theme_id": "edinburgh",
+      "title": "Edinburgh"
+    },
+    {
+      "theme_id": "difficult_client",
+      "title": "A Difficult Client"
+    },
+    {
+      "theme_id": "home_truths",
+      "title": "Home Truths"
+    },
+    {
+      "theme_id": "moving_forward",
+      "title": "Moving Forward"
     }
   ]
 }

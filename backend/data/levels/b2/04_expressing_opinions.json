@@ -1,0 +1,502 @@
+{
+  "level_id": "B2",
+  "themes": [
+    {
+      "theme_id": "difficult_client",
+      "units": [
+        {
+          "unit_id": "expressing_opinions",
+          "title": "The First Meeting",
+          "description": "Defiende tu opinión con conectores de contraste: although, despite, however, whereas.",
+          "lessons": [
+            {
+              "lesson_id": "opinion_linkers",
+              "title": "Linkers of contrast",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "The first meeting",
+                    "dialogue": [
+                      {
+                        "speaker": "Mark",
+                        "text": "Although I like the colours, the homepage feels too simple."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "I understand. However, our research shows that guests want to book quickly."
+                      },
+                      {
+                        "speaker": "Mark",
+                        "text": "Despite that, I think luxury needs more photos and more text."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "If I may, Lucía has hit the nail on the head. Simple sells."
+                      },
+                      {
+                        "speaker": "Mark",
+                        "text": "Well, it seems we don't see eye to eye on this."
+                      },
+                      {
+                        "speaker": "Daniel",
+                        "text": "In spite of being simple, the design is much faster. Your current site takes ten seconds to load, whereas this one takes two."
+                      },
+                      {
+                        "speaker": "Mark",
+                        "text": "Two seconds? That's interesting. Helen, what's your opinion? You can't sit on the fence forever."
+                      },
+                      {
+                        "speaker": "Helen",
+                        "text": "I'm not sitting on the fence. I agree with Lucía, even though you're paying the bill."
+                      },
+                      {
+                        "speaker": "Mark",
+                        "text": "Ha! I like honesty. Nevertheless, I need to see two versions."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "That's fair. We'll prepare a simple version and a richer one."
+                      },
+                      {
+                        "speaker": "Mark",
+                        "text": "Deal."
+                      }
+                    ],
+                    "passage": "November. Mark Reed is in Bristol for the first meeting with Harbour Studio. He isn't sure about Lucía's designs."
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Fíjate en el diálogo y responde.",
+                    "items": [
+                      {
+                        "question": "\"Although I like the colours, the homepage feels too simple.\" After although we use…",
+                        "options": [
+                          "subject + verb",
+                          "a noun only"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"Despite that…\" After despite we use…",
+                        "options": [
+                          "a noun or -ing",
+                          "subject + verb"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"However, our research shows…\" However usually…",
+                        "options": [
+                          "starts a new sentence, with a comma",
+                          "joins two clauses without punctuation"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "\"We don't see eye to eye.\" means…",
+                        "options": [
+                          "no estamos de acuerdo",
+                          "nos miramos a los ojos"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Linkers of contrast",
+                    "explanation": "Para contraponer ideas:\n• although / even though + sujeto + verbo: Although I like the colours, it feels too simple. (Even though es más enfático.)\n• despite / in spite of + nombre o -ing: In spite of being simple, it's faster. Despite that, …\n• however / nevertheless empiezan una frase nueva y van seguidos de coma: However, our research shows… (Nevertheless es más formal.)\n• whereas contrasta dos hechos: Your site takes ten seconds, whereas this one takes two.\n\nPara opinar en una reunión: If I may…, I agree with…, I'm not sure about…, We don't see eye to eye, Don't sit on the fence.",
+                    "table": {
+                      "headers": [
+                        "Conector",
+                        "Va seguido de",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "although / even though",
+                          "sujeto + verbo",
+                          "Although I like the colours, it feels too simple."
+                        ],
+                        [
+                          "despite / in spite of",
+                          "nombre o -ing",
+                          "In spite of being simple, it's faster."
+                        ],
+                        [
+                          "however",
+                          "nueva frase + coma",
+                          "However, our research shows…"
+                        ],
+                        [
+                          "nevertheless",
+                          "nueva frase (más formal)",
+                          "Nevertheless, I need two versions."
+                        ],
+                        [
+                          "whereas",
+                          "contraste entre dos hechos",
+                          "Yours takes ten seconds, whereas ours takes two."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Although I like the colours, the homepage feels too simple.",
+                      "Despite that, I think luxury needs more photos.",
+                      "I agree with Lucía, even though you're paying the bill.",
+                      "Nevertheless, I need to see two versions."
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el conector correcto.",
+                    "items": [
+                      {
+                        "sentence": "___ I like the colours, the homepage feels too simple.",
+                        "answers": [
+                          [
+                            "Although",
+                            "Even though"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ that, I think luxury needs more photos.",
+                        "answers": [
+                          [
+                            "Despite",
+                            "In spite of"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "In spite ___ being simple, the design is faster.",
+                        "answers": [
+                          [
+                            "of"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I understand. ___, our research shows that guests want to book quickly.",
+                        "answers": [
+                          [
+                            "However",
+                            "Nevertheless"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Your site takes ten seconds, ___ this one takes two.",
+                        "answers": [
+                          [
+                            "whereas"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I agree with Lucía, even ___ you're paying the bill.",
+                        "answers": [
+                          [
+                            "though"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Despite ___ tired, she finished the slides. (be)",
+                        "answers": [
+                          [
+                            "being"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We don't see eye to ___ on this.",
+                        "answers": [
+                          [
+                            "eye"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "Une las frases con el conector indicado.",
+                    "items": [
+                      {
+                        "source": "I like the colours. The homepage is too simple. (although)",
+                        "answers": [
+                          "Although I like the colours, the homepage is too simple",
+                          "Although I like the colours the homepage is too simple",
+                          "The homepage is too simple, although I like the colours",
+                          "The homepage is too simple although I like the colours"
+                        ]
+                      },
+                      {
+                        "source": "It's simple. It's faster. (in spite of)",
+                        "answers": [
+                          "In spite of being simple, it's faster",
+                          "In spite of being simple it's faster",
+                          "It's faster in spite of being simple"
+                        ]
+                      },
+                      {
+                        "source": "It was raining. We went out. (despite)",
+                        "answers": [
+                          "Despite the rain, we went out",
+                          "Despite the rain we went out",
+                          "We went out despite the rain"
+                        ]
+                      },
+                      {
+                        "source": "Our site is slow. Theirs is fast. (whereas)",
+                        "answers": [
+                          "Our site is slow, whereas theirs is fast",
+                          "Our site is slow whereas theirs is fast"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "Traduce al inglés.",
+                    "items": [
+                      {
+                        "source": "Aunque me gustan los colores, es demasiado simple.",
+                        "answers": [
+                          "Although I like the colours, it's too simple",
+                          "Although I like the colours it's too simple",
+                          "Even though I like the colours, it's too simple",
+                          "Although I like the colors, it's too simple"
+                        ]
+                      },
+                      {
+                        "source": "A pesar de la lluvia, salimos.",
+                        "answers": [
+                          "Despite the rain, we went out",
+                          "Despite the rain we went out",
+                          "In spite of the rain, we went out",
+                          "We went out despite the rain"
+                        ]
+                      },
+                      {
+                        "source": "Sin embargo, necesito dos versiones.",
+                        "answers": [
+                          "However, I need two versions",
+                          "However I need two versions",
+                          "Nevertheless, I need two versions"
+                        ]
+                      },
+                      {
+                        "source": "No estamos de acuerdo.",
+                        "answers": [
+                          "We don't see eye to eye",
+                          "We don't agree",
+                          "We disagree"
+                        ]
+                      },
+                      {
+                        "source": "Has dado en el clavo.",
+                        "answers": [
+                          "You've hit the nail on the head",
+                          "You have hit the nail on the head"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta. Defiende tu opinión.",
+                    "items": [
+                      {
+                        "text": "Although I like the colours, the homepage feels too simple."
+                      },
+                      {
+                        "text": "However, our research shows that guests want to book quickly."
+                      },
+                      {
+                        "text": "I'm not sitting on the fence."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      {
+                        "term": "although",
+                        "definition": "In spite of the fact that",
+                        "translation": "aunque",
+                        "example": "Although I like the colours…"
+                      },
+                      {
+                        "term": "even though",
+                        "definition": "A stronger although",
+                        "translation": "aun cuando, aunque",
+                        "example": "even though you're paying the bill"
+                      },
+                      {
+                        "term": "despite",
+                        "definition": "Without being stopped by (+ noun / -ing)",
+                        "translation": "a pesar de",
+                        "example": "Despite that…"
+                      },
+                      {
+                        "term": "in spite of",
+                        "definition": "The same as despite",
+                        "translation": "a pesar de",
+                        "example": "In spite of being simple…"
+                      },
+                      {
+                        "term": "however",
+                        "definition": "But (starts a sentence)",
+                        "translation": "sin embargo",
+                        "example": "However, our research shows…"
+                      },
+                      {
+                        "term": "nevertheless",
+                        "definition": "However (formal)",
+                        "translation": "no obstante",
+                        "example": "Nevertheless, I need two versions."
+                      },
+                      {
+                        "term": "whereas",
+                        "definition": "While, by contrast",
+                        "translation": "mientras que",
+                        "example": "whereas this one takes two"
+                      },
+                      {
+                        "term": "research",
+                        "definition": "Careful study to find facts",
+                        "translation": "investigación, estudio",
+                        "example": "our research shows…"
+                      },
+                      {
+                        "term": "luxury",
+                        "definition": "Very expensive and comfortable",
+                        "translation": "lujo",
+                        "example": "luxury needs more photos"
+                      },
+                      {
+                        "term": "load",
+                        "definition": "Appear on screen (a website)",
+                        "translation": "cargar",
+                        "example": "Your site takes ten seconds to load."
+                      },
+                      {
+                        "term": "see eye to eye",
+                        "definition": "Agree with someone",
+                        "translation": "estar de acuerdo",
+                        "example": "We don't see eye to eye."
+                      },
+                      {
+                        "term": "sit on the fence",
+                        "definition": "Avoid choosing a side",
+                        "translation": "no mojarse",
+                        "example": "You can't sit on the fence forever."
+                      },
+                      {
+                        "term": "hit the nail on the head",
+                        "definition": "Say exactly the right thing",
+                        "translation": "dar en el clavo",
+                        "example": "Lucía has hit the nail on the head."
+                      },
+                      {
+                        "term": "Deal",
+                        "definition": "I agree to this arrangement",
+                        "translation": "trato hecho",
+                        "example": "Deal."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
+                    "items": [
+                      {
+                        "question": "___ it was late, we kept working.",
+                        "options": [
+                          "Although",
+                          "Despite"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "___ the rain, the event was a success.",
+                        "options": [
+                          "Despite",
+                          "Although"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "It's expensive. ___, it's worth it.",
+                        "options": [
+                          "However",
+                          "Although"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "In spite of ___ tired, he came.",
+                        "options": [
+                          "being",
+                          "he was"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "I like tea, ___ my sister prefers coffee.",
+                        "options": [
+                          "whereas",
+                          "despite"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "How long does the new design take to load?",
+                        "options": [
+                          "two seconds",
+                          "ten seconds",
+                          "twenty seconds"
+                        ],
+                        "answer": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

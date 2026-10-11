@@ -2,81 +2,119 @@
   "level_id": "A2",
   "themes": [
     {
-      "theme_id": "shopping",
+      "theme_id": "settling_in",
       "units": [
         {
           "unit_id": "at_the_shop",
-          "title": "At the Shop",
-          "description": "Pregunta precios y tallas usando this/these y can.",
+          "title": "A Coat for the Winter",
+          "description": "De compras: contables e incontables, how much / how many, a lot of y too.",
           "lessons": [
             {
               "lesson_id": "shop_prices",
-              "title": "How much is it?",
+              "title": "How much? How many? A lot of, too",
               "steps": [
                 {
                   "phase": "context",
                   "type": "audio_context",
                   "content": {
+                    "title": "A coat for the winter",
                     "dialogue": [
                       {
-                        "speaker": "Customer",
-                        "text": "Excuse me, how much is this jacket?"
+                        "speaker": "Priya",
+                        "text": "How much money do you want to spend?"
                       },
                       {
-                        "speaker": "Assistant",
-                        "text": "It's forty-five pounds. Would you like to try it on?"
+                        "speaker": "Lucía",
+                        "text": "Not much! I don't have a lot of money this month."
                       },
                       {
-                        "speaker": "Customer",
-                        "text": "Yes, please. Do you have it in a medium?"
+                        "speaker": "Shop assistant",
+                        "text": "Hello! Can I help you?"
                       },
                       {
-                        "speaker": "Assistant",
-                        "text": "Here you are. And these shoes are on sale today."
+                        "speaker": "Lucía",
+                        "text": "Yes, please. I'm looking for a winter coat. How much is this blue one?"
                       },
                       {
-                        "speaker": "Customer",
-                        "text": "How much are they?"
+                        "speaker": "Shop assistant",
+                        "text": "It's eighty-five pounds. But there are a lot of coats in the sale over there."
                       },
                       {
-                        "speaker": "Assistant",
-                        "text": "They're twenty pounds. You can pay by card or in cash."
+                        "speaker": "Lucía",
+                        "text": "Can I try this one on?"
+                      },
+                      {
+                        "speaker": "Shop assistant",
+                        "text": "Of course. What size are you?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Medium, I think."
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "How many coats do you want to try?"
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Just two or three! Oh, it's too big. Have you got it in a small?"
+                      },
+                      {
+                        "speaker": "Shop assistant",
+                        "text": "Let me check… Yes, here you are."
+                      },
+                      {
+                        "speaker": "Lucía",
+                        "text": "Perfect. And it's only forty pounds in the sale!"
+                      },
+                      {
+                        "speaker": "Priya",
+                        "text": "Great. Now we've got some money for a hot chocolate."
                       }
-                    ]
+                    ],
+                    "passage": "On Saturday, Lucía and Priya go to Cabot Circus, a big shopping centre in the city. Lucía needs a warm coat for the winter."
                   }
                 },
                 {
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
-                    "instructions": "Fíjate en cómo se pregunta el precio.",
+                    "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
-                        "question": "\"How much ___ these shoes?\"",
+                        "question": "\"How much money do you want to spend?\" Money is…",
                         "options": [
-                          "is",
-                          "are"
+                          "uncountable",
+                          "countable"
                         ],
-                        "answer": 1,
-                        "explanation": "Shoes es plural → are."
+                        "answer": 0,
+                        "explanation": "Money no tiene plural: «moneys» no existe."
                       },
                       {
-                        "question": "\"Try it on\" means…",
+                        "question": "\"a lot of coats\" / \"a lot of money\": a lot of works with…",
                         "options": [
-                          "Probárselo",
-                          "Comprarlo",
-                          "Devolverlo"
+                          "countable and uncountable nouns",
+                          "only uncountable nouns"
                         ],
                         "answer": 0
                       },
                       {
-                        "question": "We use 'these' for…",
+                        "question": "\"It's too big.\" means…",
                         "options": [
-                          "one thing near you",
-                          "several things near you",
-                          "things far away"
+                          "es demasiado grande",
+                          "es muy grande",
+                          "es bastante grande"
                         ],
-                        "answer": 1
+                        "answer": 0
+                      },
+                      {
+                        "question": "How much is the coat in the sale?",
+                        "options": [
+                          "£40",
+                          "£85",
+                          "£14"
+                        ],
+                        "answer": 0
                       }
                     ]
                   }
@@ -85,30 +123,47 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
-                    "title": "This / These / That / Those + How much",
-                    "explanation": "This (singular) y these (plural) para cosas cercanas; that y those para cosas lejanas. Para preguntar el precio: How much is + singular / How much are + plural.",
+                    "title": "Countable and uncountable: how much, how many, a lot of, too",
+                    "explanation": "Los nombres contables se pueden contar y tienen plural (a coat, two coats). Los incontables no tienen plural (money, milk, bread, time, information).\n\nHow many + plural (How many coats?). How much + incontable (How much money?). How much también pregunta el precio: How much is this coat? / How much are these shoes?\n\nA lot of sirve para los dos en frases afirmativas. En negativas y preguntas se usan mucho much y many: I don't have much money.\n\nToo + adjetivo significa demasiado: It's too big. Para pedir otra talla: Have you got it in a small?",
                     "table": {
                       "headers": [
                         "",
-                        "Cerca",
-                        "Lejos"
+                        "Contables",
+                        "Incontables"
                       ],
                       "rows": [
                         [
-                          "Singular",
-                          "this jacket",
-                          "that jacket"
+                          "Ejemplos",
+                          "coat, pound, shop",
+                          "money, milk, bread, time"
                         ],
                         [
-                          "Plural",
-                          "these shoes",
-                          "those shoes"
+                          "Pregunta",
+                          "How many coats?",
+                          "How much money?"
+                        ],
+                        [
+                          "Afirmativa",
+                          "a lot of coats",
+                          "a lot of money"
+                        ],
+                        [
+                          "Negativa",
+                          "not many coats",
+                          "not much money"
+                        ],
+                        [
+                          "Precio",
+                          "How much are these jeans?",
+                          "How much is this coat?"
                         ]
                       ]
                     },
                     "examples": [
-                      "How much is this T-shirt?",
-                      "How much are those jeans?"
+                      "I don't have a lot of money this month.",
+                      "How many coats do you want to try?",
+                      "How much is this blue one?",
+                      "It's too big. Have you got it in a small?"
                     ]
                   }
                 },
@@ -116,10 +171,42 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con is o are.",
+                    "instructions": "Completa la frase.",
                     "items": [
                       {
-                        "sentence": "How much ___ this hat?",
+                        "sentence": "How ___ money do you want to spend?",
+                        "answers": [
+                          [
+                            "much"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "How ___ coats do you want to try?",
+                        "answers": [
+                          [
+                            "many"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I don't have ___ money this month.",
+                        "answers": [
+                          [
+                            "much"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "There are a ___ of coats in the sale.",
+                        "answers": [
+                          [
+                            "lot"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "How much ___ this coat?",
                         "answers": [
                           [
                             "is"
@@ -127,7 +214,7 @@
                         ]
                       },
                       {
-                        "sentence": "How much ___ these socks?",
+                        "sentence": "How much ___ these jeans?",
                         "answers": [
                           [
                             "are"
@@ -135,46 +222,57 @@
                         ]
                       },
                       {
-                        "sentence": "___ shoes over there are cheap.",
+                        "sentence": "This coat is ___ big. I need a small.",
                         "answers": [
                           [
-                            "Those"
+                            "too"
                           ]
-                        ],
-                        "hint": "Plural y lejos"
+                        ]
+                      },
+                      {
+                        "sentence": "Can I try it ___?",
+                        "answers": [
+                          [
+                            "on"
+                          ]
+                        ]
                       }
                     ]
                   }
                 },
                 {
                   "phase": "practice",
-                  "type": "word_order",
+                  "type": "match_pairs",
                   "content": {
-                    "instructions": "Ordena la pregunta.",
-                    "items": [
+                    "instructions": "Une cada palabra con su traducción.",
+                    "pairs": [
                       {
-                        "answer": "Can I try it on?"
+                        "left": "size",
+                        "right": "talla"
                       },
                       {
-                        "answer": "How much are these shoes?"
+                        "left": "try on",
+                        "right": "probarse"
                       },
                       {
-                        "answer": "Do you have it in a medium?"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "phase": "production",
-                  "type": "speaking",
-                  "content": {
-                    "instructions": "Pide en voz alta en la tienda.",
-                    "items": [
-                      {
-                        "text": "How much is this jacket?"
+                        "left": "sale",
+                        "right": "rebajas"
                       },
                       {
-                        "text": "Can I pay by card?"
+                        "left": "changing room",
+                        "right": "probador"
+                      },
+                      {
+                        "left": "receipt",
+                        "right": "tique, recibo"
+                      },
+                      {
+                        "left": "cash",
+                        "right": "efectivo"
+                      },
+                      {
+                        "left": "expensive",
+                        "right": "caro"
                       }
                     ]
                   }
@@ -186,10 +284,56 @@
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
-                        "source": "¿Cuánto cuestan esos vaqueros?",
+                        "source": "¿Cuánto cuesta este abrigo?",
                         "answers": [
-                          "How much are those jeans?"
+                          "How much is this coat",
+                          "How much does this coat cost"
                         ]
+                      },
+                      {
+                        "source": "¿Me lo puedo probar?",
+                        "answers": [
+                          "Can I try it on"
+                        ]
+                      },
+                      {
+                        "source": "Es demasiado grande.",
+                        "answers": [
+                          "It's too big",
+                          "It is too big"
+                        ]
+                      },
+                      {
+                        "source": "No tengo mucho dinero.",
+                        "answers": [
+                          "I don't have much money",
+                          "I haven't got much money",
+                          "I do not have much money"
+                        ]
+                      },
+                      {
+                        "source": "¿Cuántas tiendas hay?",
+                        "answers": [
+                          "How many shops are there"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "Lee en voz alta. Estás en una tienda.",
+                    "items": [
+                      {
+                        "text": "How much is this blue coat?"
+                      },
+                      {
+                        "text": "Can I try it on?"
+                      },
+                      {
+                        "text": "Have you got it in a small?"
                       }
                     ]
                   }
@@ -200,34 +344,88 @@
                   "content": {
                     "items": [
                       {
-                        "term": "Try on",
-                        "definition": "Put on clothes to see if they fit",
-                        "translation": "Probarse",
-                        "example": "Can I try on these shoes?"
+                        "term": "shopping centre",
+                        "definition": "A big building with a lot of shops",
+                        "translation": "centro comercial",
+                        "example": "Cabot Circus is a big shopping centre."
                       },
                       {
-                        "term": "Receipt",
-                        "definition": "Paper that proves you paid",
-                        "translation": "Ticket / recibo",
-                        "example": "Keep the receipt."
+                        "term": "coat",
+                        "definition": "Warm clothes you wear outside",
+                        "translation": "abrigo",
+                        "example": "I need a warm coat."
                       },
                       {
-                        "term": "On sale",
-                        "definition": "Cheaper than usual",
-                        "translation": "De rebajas",
-                        "example": "These shoes are on sale."
+                        "term": "warm",
+                        "definition": "A little hot; good for cold weather",
+                        "translation": "cálido, abrigado",
+                        "example": "A warm coat for the winter."
                       },
                       {
-                        "term": "Pay by card",
-                        "definition": "Use a bank card to pay",
-                        "translation": "Pagar con tarjeta",
-                        "example": "Can I pay by card?"
+                        "term": "winter",
+                        "definition": "The coldest season",
+                        "translation": "invierno",
+                        "example": "I need a coat for the winter."
                       },
                       {
-                        "term": "Size",
-                        "definition": "How big or small something is",
-                        "translation": "Talla",
+                        "term": "spend",
+                        "definition": "Use money to buy things",
+                        "translation": "gastar",
+                        "example": "How much do you want to spend?"
+                      },
+                      {
+                        "term": "money",
+                        "definition": "Coins and notes you use to buy things",
+                        "translation": "dinero",
+                        "example": "I don't have a lot of money."
+                      },
+                      {
+                        "term": "sale",
+                        "definition": "When shops sell things for less money",
+                        "translation": "rebajas",
+                        "example": "There are a lot of coats in the sale."
+                      },
+                      {
+                        "term": "size",
+                        "definition": "How big clothes are",
+                        "translation": "talla",
                         "example": "What size are you?"
+                      },
+                      {
+                        "term": "small / medium / large",
+                        "definition": "Clothes sizes",
+                        "translation": "pequeña / mediana / grande",
+                        "example": "Have you got it in a small?"
+                      },
+                      {
+                        "term": "try on",
+                        "definition": "Put on clothes to see if they are good",
+                        "translation": "probarse",
+                        "example": "Can I try this one on?"
+                      },
+                      {
+                        "term": "changing room",
+                        "definition": "A small room in a shop to try on clothes",
+                        "translation": "probador",
+                        "example": "The changing rooms are over there."
+                      },
+                      {
+                        "term": "cheap",
+                        "definition": "Not expensive",
+                        "translation": "barato",
+                        "example": "It's cheap in the sale."
+                      },
+                      {
+                        "term": "expensive",
+                        "definition": "Costing a lot of money",
+                        "translation": "caro",
+                        "example": "Eighty-five pounds is expensive!"
+                      },
+                      {
+                        "term": "too",
+                        "definition": "More than is good",
+                        "translation": "demasiado",
+                        "example": "It's too big."
                       }
                     ]
                   }
@@ -236,11 +434,27 @@
                   "phase": "review",
                   "type": "speed_quiz",
                   "content": {
-                    "instructions": "¡Contrarreloj!",
-                    "time_limit_seconds": 35,
+                    "instructions": "¡Rápido! Elige la respuesta correcta antes de que se acabe el tiempo.",
+                    "time_limit_seconds": 45,
                     "items": [
                       {
-                        "question": "How much ___ those trousers?",
+                        "question": "How ___ money have you got?",
+                        "options": [
+                          "much",
+                          "many"
+                        ],
+                        "answer": 0
+                      },
+                      {
+                        "question": "How ___ shops are there?",
+                        "options": [
+                          "much",
+                          "many"
+                        ],
+                        "answer": 1
+                      },
+                      {
+                        "question": "How much ___ these shoes?",
                         "options": [
                           "is",
                           "are"
@@ -248,22 +462,29 @@
                         "answer": 1
                       },
                       {
-                        "question": "\"Rebajas\" =",
+                        "question": "I don't have ___ time.",
                         "options": [
-                          "receipt",
-                          "on sale",
-                          "size"
+                          "many",
+                          "much"
                         ],
                         "answer": 1
                       },
                       {
-                        "question": "___ book here is mine.",
+                        "question": "It's ___ small. I need a medium.",
                         "options": [
-                          "These",
-                          "This",
-                          "Those"
+                          "too",
+                          "very"
                         ],
-                        "answer": 1
+                        "answer": 0
+                      },
+                      {
+                        "question": "What does Lucía buy?",
+                        "options": [
+                          "a coat",
+                          "a jumper",
+                          "shoes"
+                        ],
+                        "answer": 0
                       }
                     ]
                   }

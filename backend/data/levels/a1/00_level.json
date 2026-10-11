@@ -1,15 +1,23 @@
 {
   "level_id": "A1",
   "title": "A1 Beginner",
-  "description": "Primeros pasos: saludos, presentaciones y vocabulario básico",
+  "description": "Lucía llega a Bristol: to be, present simple, there is, can, present continuous y tus primeras frases en pasado.",
   "themes": [
     {
-      "theme_id": "greetings",
-      "title": "Greetings & Introductions"
+      "theme_id": "hello_bristol",
+      "title": "Hello, Bristol"
     },
     {
-      "theme_id": "everyday_basics",
-      "title": "Everyday Basics"
+      "theme_id": "new_life",
+      "title": "A New Life"
+    },
+    {
+      "theme_id": "people_places",
+      "title": "People & Places"
+    },
+    {
+      "theme_id": "weekends",
+      "title": "Weekends"
     }
   ]
 }
