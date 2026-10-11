@@ -35,7 +35,7 @@ export default function AddToReview({ kind, id, status, onAdd }: Props) {
   if (status === 'queued') {
     return (
       <span
-        className="inline-flex items-center gap-1.5 rounded-xl bg-amber-50 px-4 py-2 text-sm font-semibold text-amber-700"
+        className="inline-flex items-center gap-1.5 rounded-xl border border-dashed border-slate-400 px-4 py-2 text-sm font-semibold text-slate-600"
         title="Entran como mucho 5 expresiones nuevas al día en tu repaso. Esta entrará en los próximos días."
       >
         <Clock className="h-4 w-4" /> En cola para tu repaso

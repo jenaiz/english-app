@@ -26,6 +26,7 @@ interface Entry {
 
 const CARD: Record<Progress, string> = {
   new: 'border-slate-200',
+  queued: 'border-dashed border-slate-400',
   learning: 'border-amber-300',
   mastered: 'border-emerald-300',
 }
@@ -94,7 +95,7 @@ export default function ParticleExplorer({ families, particles, initialParticle,
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {group.entries.map(({ root, verb }) => {
           const reps = repetitionsOf('phrasal', verb.id)
-          const p = progressOf(reps)
+          const p = progressOf(reps, statusOf('phrasal', verb.id) === 'queued')
           return (
             <article key={verb.id} className={`flex flex-col gap-3 rounded-2xl border-2 bg-white p-5 ${CARD[p]}`}>
               <div className="flex items-start justify-between gap-3">

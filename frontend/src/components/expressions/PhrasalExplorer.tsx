@@ -28,7 +28,7 @@ export default function PhrasalExplorer({ families, initialRoot, initialParticle
   const family = families[rootIndex]
   if (!family) return null
   const item = family.items[selected] ?? family.items[0]
-  const progress = family.items.map((v) => progressOf(repetitionsOf('phrasal', v.id)))
+  const progress = family.items.map((v) => progressOf(repetitionsOf('phrasal', v.id), statusOf('phrasal', v.id) === 'queued'))
   const mastered = progress.filter((p) => p === 'mastered').length
   const learning = progress.filter((p) => p === 'learning').length
 
