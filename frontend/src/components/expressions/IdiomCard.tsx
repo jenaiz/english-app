@@ -1,16 +1,16 @@
 import { useState } from 'react'
 import type { ExpressionKind, Idiom } from '../../types'
 import SpeakButton from '../SpeakButton'
-import AddToReview from './AddToReview'
+import AddToReview, { type ReviewStatus } from './AddToReview'
 
 interface Props {
   idiom: Idiom
-  saved: boolean
+  status: ReviewStatus
   onAdd: (kind: ExpressionKind, id: string) => Promise<void>
 }
 
 /** Flip card: the idiom on the front; English definition, examples and the Spanish equivalent on the back. */
-export default function IdiomCard({ idiom, saved, onAdd }: Props) {
+export default function IdiomCard({ idiom, status, onAdd }: Props) {
   const [flipped, setFlipped] = useState(false)
   const [showSpanish, setShowSpanish] = useState(false)
   // The back shows the essentials; the rest waits behind "Más detalles" so the card stays light.
@@ -90,7 +90,7 @@ export default function IdiomCard({ idiom, saved, onAdd }: Props) {
             </div>
           )}
           <div className="mt-auto flex flex-wrap items-center justify-between gap-2 pt-1">
-            <AddToReview kind="idiom" id={idiom.id} saved={saved} onAdd={onAdd} />
+            <AddToReview kind="idiom" id={idiom.id} status={status} onAdd={onAdd} />
             {hasDetails && (
               <button
                 type="button"

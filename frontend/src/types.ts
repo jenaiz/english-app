@@ -173,7 +173,11 @@ export type CardKind = 'vocab' | ExpressionKind
 export interface SrsSummary {
   due: number
   total: number
-  by_kind: Record<CardKind, { due: number; total: number }>
+  /** New idioms and phrasal verbs waiting for a free slot in the daily limit. */
+  queued: number
+  by_kind: Record<CardKind, { due: number; queued: number; total: number }>
+  new_per_day: number
+  backlog_limit: number
 }
 /** Multiple-choice exercise for young idiom and phrasal verb cards. */
 export interface ReviewChoice {
@@ -188,6 +192,7 @@ export interface ReviewChoice {
 export interface SavedExpression {
   id: string
   repetitions: number
+  queued: boolean
 }
 
 // ---- Expresiones ----

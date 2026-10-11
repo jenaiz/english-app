@@ -44,7 +44,14 @@ func (h *SRSHandler) Summary(w http.ResponseWriter, r *http.Request) {
 		h.internal(w, err)
 		return
 	}
-	writeJSON(w, http.StatusOK, map[string]any{"due": due, "total": total, "by_kind": byKind})
+	queued := 0
+	for _, c := range byKind {
+		queued += c.Queued
+	}
+	writeJSON(w, http.StatusOK, map[string]any{
+		"due": due, "total": total, "queued": queued, "by_kind": byKind,
+		"new_per_day": srs.NewExpressionsPerDay, "backlog_limit": srs.BacklogLimit,
+	})
 }
 
 func (h *SRSHandler) Due(w http.ResponseWriter, r *http.Request) {
@@ -157,7 +164,12 @@ func (h *SRSHandler) AddExpression(w http.ResponseWriter, r *http.Request) {
 		h.internal(w, err)
 		return
 	}
-	writeJSON(w, http.StatusOK, map[string]any{"kind": in.Kind, "id": in.ID, "added": added})
+	queued, err := h.Store.IsQueued(r.Context(), auth.UserID(r.Context()), in.Kind, in.ID)
+	if err != nil {
+		h.internal(w, err)
+		return
+	}
+	writeJSON(w, http.StatusOK, map[string]any{"kind": in.Kind, "id": in.ID, "added": added, "queued": queued})
 }
 
 func (h *SRSHandler) Review(w http.ResponseWriter, r *http.Request) {

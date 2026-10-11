@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Check } from 'lucide-react'
 import type { ExpressionKind, PhrasalFamily } from '../../types'
 import SpeakButton from '../SpeakButton'
-import AddToReview from './AddToReview'
+import AddToReview, { type ReviewStatus } from './AddToReview'
 import ProgressLegend from './ProgressLegend'
 import { PROGRESS_CHIP, progressOf } from './progress'
 
@@ -13,11 +13,12 @@ interface Props {
   initialParticle?: string
   /** Repetitions of the card in Repaso, or undefined if the user hasn't added it. */
   repetitionsOf: (kind: ExpressionKind, id: string) => number | undefined
+  statusOf: (kind: ExpressionKind, id: string) => ReviewStatus
   onAdd: (kind: ExpressionKind, id: string) => Promise<void>
 }
 
 /** One root verb, many particles: pick a verb, then a particle to see what the combination means. */
-export default function PhrasalExplorer({ families, initialRoot, initialParticle, repetitionsOf, onAdd }: Props) {
+export default function PhrasalExplorer({ families, initialRoot, initialParticle, repetitionsOf, statusOf, onAdd }: Props) {
   const [rootIndex, setRootIndex] = useState(() => Math.max(0, families.findIndex((f) => f.root === initialRoot)))
   const [selected, setSelected] = useState(() =>
     Math.max(0, families[rootIndex]?.items.findIndex((v) => v.particle === initialParticle) ?? 0),
@@ -112,7 +113,7 @@ export default function PhrasalExplorer({ families, initialRoot, initialParticle
             )}
           </p>
           <div>
-            <AddToReview kind="phrasal" id={item.id} saved={repetitionsOf('phrasal', item.id) !== undefined} onAdd={onAdd} />
+            <AddToReview kind="phrasal" id={item.id} status={statusOf('phrasal', item.id)} onAdd={onAdd} />
           </div>
         </div>
       </div>

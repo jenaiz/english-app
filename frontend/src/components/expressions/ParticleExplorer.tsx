@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import { ArrowRight, Check } from 'lucide-react'
 import type { ExpressionKind, Particle, PhrasalFamily, PhrasalVerb } from '../../types'
 import SpeakButton from '../SpeakButton'
-import AddToReview from './AddToReview'
+import AddToReview, { type ReviewStatus } from './AddToReview'
 import ProgressLegend from './ProgressLegend'
 import { progressOf, type Progress } from './progress'
 
@@ -11,6 +11,7 @@ interface Props {
   particles: Particle[]
   initialParticle?: string
   repetitionsOf: (kind: ExpressionKind, id: string) => number | undefined
+  statusOf: (kind: ExpressionKind, id: string) => ReviewStatus
   onAdd: (kind: ExpressionKind, id: string) => Promise<void>
   /** Opens the "by verb" view on this verb and particle. */
   onOpenVerb: (root: string, particle: string) => void
@@ -31,7 +32,7 @@ const CARD: Record<Progress, string> = {
 const mainParticle = (particle: string) => particle.split(' ')[0]
 
 /** The other axis of the phrasal verb matrix: one particle, many verbs, and the idea the particle usually adds. */
-export default function ParticleExplorer({ families, particles, initialParticle, repetitionsOf, onAdd, onOpenVerb }: Props) {
+export default function ParticleExplorer({ families, particles, initialParticle, repetitionsOf, statusOf, onAdd, onOpenVerb }: Props) {
   const groups = useMemo(() => {
     const byParticle = new Map<string, Entry[]>()
     for (const f of families)
@@ -109,7 +110,7 @@ export default function ParticleExplorer({ families, particles, initialParticle,
                 <SpeakButton text={verb.example} />
               </div>
               <div className="mt-auto flex flex-wrap items-center justify-between gap-2">
-                <AddToReview kind="phrasal" id={verb.id} saved={reps !== undefined} onAdd={onAdd} />
+                <AddToReview kind="phrasal" id={verb.id} status={statusOf('phrasal', verb.id)} onAdd={onAdd} />
                 <button
                   type="button"
                   onClick={() => onOpenVerb(root, verb.particle)}

@@ -71,5 +71,5 @@ export const api = {
   expressions: () => request<ExpressionsCatalog>('/expressions'),
   savedExpressions: () => request<Record<ExpressionKind, SavedExpression[]>>('/srs/expressions'),
   addExpression: (kind: ExpressionKind, id: string) =>
-    post<{ kind: ExpressionKind; id: string; added: boolean }>('/srs/expressions', { kind, id }),
+    post<{ kind: ExpressionKind; id: string; added: boolean; queued: boolean }>('/srs/expressions', { kind, id }),
 }

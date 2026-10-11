@@ -1,18 +1,21 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Check, Loader2, Plus } from 'lucide-react'
+import { Check, Clock, Loader2, Plus } from 'lucide-react'
 import { useAuth } from '../../context/AuthContext'
 import type { ExpressionKind } from '../../types'
+
+/** none: not added · saved: in Repaso · queued: added, waiting for the daily limit of new expressions. */
+export type ReviewStatus = 'none' | 'saved' | 'queued'
 
 interface Props {
   kind: ExpressionKind
   id: string
-  saved: boolean
+  status: ReviewStatus
   onAdd: (kind: ExpressionKind, id: string) => Promise<void>
 }
 
 /** "Añadir a mi repaso". Signed-out visitors get an invitation to create an account instead. */
-export default function AddToReview({ kind, id, saved, onAdd }: Props) {
+export default function AddToReview({ kind, id, status, onAdd }: Props) {
   const { user } = useAuth()
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState(false)
@@ -29,7 +32,18 @@ export default function AddToReview({ kind, id, saved, onAdd }: Props) {
     )
   }
 
-  if (saved) {
+  if (status === 'queued') {
+    return (
+      <span
+        className="inline-flex items-center gap-1.5 rounded-xl bg-amber-50 px-4 py-2 text-sm font-semibold text-amber-700"
+        title="Entran como mucho 5 expresiones nuevas al día en tu repaso. Esta entrará en los próximos días."
+      >
+        <Clock className="h-4 w-4" /> En cola para tu repaso
+      </span>
+    )
+  }
+
+  if (status === 'saved') {
     return (
       <span className="inline-flex items-center gap-1.5 rounded-xl bg-emerald-50 px-4 py-2 text-sm font-semibold text-emerald-700">
         <Check className="h-4 w-4" /> En tu repaso

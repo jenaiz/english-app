@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { AlertCircle, BookA, Brain, Check, ChevronRight, Loader2, Plus, Quote, Sparkles } from 'lucide-react'
+import { AlertCircle, BookA, Brain, Check, ChevronRight, Clock, Loader2, Plus, Quote, Sparkles } from 'lucide-react'
 import { api } from '../../api/client'
 import type { CardKind, SrsSummary } from '../../types'
 
@@ -137,6 +137,7 @@ export default function ReviewHub({ onStart }: { onStart: (deck: Deck) => void }
                   <span className="block font-semibold text-slate-900">{k.label}</span>
                   <span className="block text-sm text-slate-500">
                     {state === 'empty' ? k.empty : state === 'done' ? 'Al día · vuelve más tarde' : k.detail}
+                    {c.queued > 0 && <span className="text-amber-600"> · {c.queued} en cola</span>}
                   </span>
                 </span>
                 <span className="text-right tabular-nums">
@@ -182,6 +183,16 @@ export default function ReviewHub({ onStart }: { onStart: (deck: Deck) => void }
           })}
         </section>
       </div>
+
+      {summary.queued > 0 && (
+        <p className="mt-5 flex items-start gap-2 rounded-2xl bg-amber-50 px-4 py-3 text-sm text-amber-800">
+          <Clock className="mt-0.5 h-4 w-4 shrink-0" />
+          <span>
+            Tienes {summary.queued} {summary.queued === 1 ? 'expresión' : 'expresiones'} en cola. Para que el repaso no se te acumule, entran como
+            mucho {summary.new_per_day} nuevas al día, y solo cuando tienes menos de {summary.backlog_limit} repasos pendientes.
+          </span>
+        </p>
+      )}
     </div>
   )
 }

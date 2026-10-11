@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { AlertCircle, ChevronDown, Loader2 } from 'lucide-react'
 import { api } from '../api/client'
+import { type ReviewStatus } from '../components/expressions/AddToReview'
 import HackCard from '../components/expressions/HackCard'
 import IdiomCard from '../components/expressions/IdiomCard'
 import ParticleExplorer from '../components/expressions/ParticleExplorer'
@@ -40,37 +41,44 @@ function store(key: string, value: string) {
   }
 }
 
-/** Expressions the user has added to Repaso (with their repetitions), and a function to add more. */
+/** Expressions the user has added to Repaso (with their repetitions and whether they are queued), and a function to add more. */
 function useSavedExpressions(enabled: boolean) {
   const [saved, setSaved] = useState<Map<string, number>>(new Map())
+  const [queued, setQueued] = useState<Set<string>>(new Set())
 
   useEffect(() => {
     if (!enabled) {
       setSaved(new Map())
+      setQueued(new Set())
       return
     }
     api
       .savedExpressions()
-      .then((r) =>
-        setSaved(
-          new Map([
-            ...r.idiom.map((e) => [`idiom:${e.id}`, e.repetitions] as const),
-            ...r.phrasal.map((e) => [`phrasal:${e.id}`, e.repetitions] as const),
-          ]),
-        ),
-      )
+      .then((r) => {
+        const all = [...r.idiom.map((e) => ({ ...e, key: `idiom:${e.id}` })), ...r.phrasal.map((e) => ({ ...e, key: `phrasal:${e.id}` }))]
+        setSaved(new Map(all.map((e) => [e.key, e.repetitions])))
+        setQueued(new Set(all.filter((e) => e.queued).map((e) => e.key)))
+      })
       .catch(() => {})
   }, [enabled])
 
   const isSaved = useCallback((kind: ExpressionKind, id: string) => saved.has(`${kind}:${id}`), [saved])
+  const isQueued = useCallback((kind: ExpressionKind, id: string) => queued.has(`${kind}:${id}`), [queued])
   const repetitionsOf = useCallback((kind: ExpressionKind, id: string) => saved.get(`${kind}:${id}`), [saved])
   const add = useCallback(async (kind: ExpressionKind, id: string) => {
-    await api.addExpression(kind, id)
-    setSaved((s) => new Map(s).set(`${kind}:${id}`, 0))
+    const r = await api.addExpression(kind, id)
+    const key = `${kind}:${id}`
+    setSaved((s) => new Map(s).set(key, 0))
+    if (r.queued) setQueued((q) => new Set(q).add(key))
     window.dispatchEvent(new Event('srs-changed'))
   }, [])
 
-  return { isSaved, repetitionsOf, add }
+  const statusOf = useCallback(
+    (kind: ExpressionKind, id: string): ReviewStatus => (isQueued(kind, id) ? 'queued' : isSaved(kind, id) ? 'saved' : 'none'),
+    [isSaved, isQueued],
+  )
+
+  return { statusOf, repetitionsOf, add }
 }
 
 export default function Expressions() {
@@ -79,7 +87,7 @@ export default function Expressions() {
   const tab: TabId = TABS.some((t) => t.id === params.get('tab')) ? (params.get('tab') as TabId) : 'idioms'
   const [catalog, setCatalog] = useState<ExpressionsCatalog | null>(null)
   const [error, setError] = useState('')
-  const { isSaved, repetitionsOf, add } = useSavedExpressions(!!user)
+  const { statusOf, repetitionsOf, add } = useSavedExpressions(!!user)
   const learnerLevel = useLearnerLevel(!!user)
   // null until the viewer picks a level; until then the default follows what they are studying.
   const [pickedLevel, setPickedLevel] = useState<string | null>(() => readStored(LEVEL_KEY))
@@ -283,7 +291,7 @@ export default function Expressions() {
               )}
               <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
                 {idioms.map((i) => (
-                  <IdiomCard key={i.id} idiom={i} saved={isSaved('idiom', i.id)} onAdd={add} />
+                  <IdiomCard key={i.id} idiom={i} status={statusOf('idiom', i.id)} onAdd={add} />
                 ))}
               </div>
             </>
@@ -300,6 +308,7 @@ export default function Expressions() {
                   initialRoot={params.get('verbo') ?? undefined}
                   initialParticle={params.get('particula') ?? undefined}
                   repetitionsOf={repetitionsOf}
+                  statusOf={statusOf}
                   onAdd={add}
                 />
               ) : (
@@ -309,6 +318,7 @@ export default function Expressions() {
                   particles={catalog.particles}
                   initialParticle={params.get('particula') ?? undefined}
                   repetitionsOf={repetitionsOf}
+                  statusOf={statusOf}
                   onAdd={add}
                   onOpenVerb={(root, particle) => {
                     setParams({ tab: 'phrasal', verbo: root, particula: particle })
