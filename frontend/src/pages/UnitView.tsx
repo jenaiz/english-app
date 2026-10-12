@@ -1,12 +1,12 @@
-import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
-import { AlertCircle, ArrowLeft, ArrowRight, Brain, CheckCircle2, ClipboardCheck, Home, Loader2, PartyPopper, RotateCcw, type LucideIcon } from 'lucide-react'
+import { AlertCircle, ArrowLeft, ArrowRight, Brain, CheckCircle2, ClipboardCheck, History, Home, Loader2, PartyPopper, RotateCcw, type LucideIcon } from 'lucide-react'
 import { api } from '../api/client'
 import UnitExpressions from '../components/expressions/UnitExpressions'
 import StepRenderer, { EXERCISE_TYPES } from '../components/steps/StepRenderer'
 import { flattenUnits, type UnitEntry } from '../lib/levels'
 import { PHASES } from '../lib/phases'
-import type { ExerciseResult, Phase, Step, UnitResponse, VocabularyTableContent } from '../types'
+import type { ExerciseResult, Phase, Step, Unit, UnitResponse, UnitSummary, VocabularyTableContent } from '../types'
 
 interface FlatStep {
   step: Step
@@ -39,7 +39,49 @@ interface LessonSummary {
   total: number
   cardsAdded: number
   isTest: boolean
-  isLastLesson: boolean
+  /** Every lesson of the unit is completed (not just this one, which may be the last). */
+  unitDone: boolean
+  /** The next lesson not completed yet, in course order; null when the whole course is done. */
+  next: NextLesson | null
+}
+
+interface NextLesson {
+  unitId: string
+  levelId: string
+  unitTitle: string
+  lessonId: string
+  lessonTitle: string
+  /** It opens its unit: the first lesson of a unit not started. */
+  firstOfUnit: boolean
+}
+
+const summaryOf = (u: Unit): UnitSummary => ({
+  unit_id: u.unit_id,
+  title: u.title,
+  description: u.description,
+  lesson_ids: u.lessons.map((l) => l.lesson_id),
+  lessons: u.lessons.map((l) => ({ lesson_id: l.lesson_id, title: l.title, kind: l.kind, grammar: [] })),
+})
+
+/**
+ * The first lesson not completed after `lessonId` in course order, wrapping around to the
+ * lessons skipped earlier. A learner who jumped ahead and came back is not sent to a lesson
+ * they already did.
+ */
+function nextIncomplete(course: UnitEntry[], lessonId: string, completed: Set<string>): NextLesson | null {
+  const all = course.flatMap((e) =>
+    e.unit.lessons.map((l, i) => ({
+      unitId: e.unit.unit_id,
+      levelId: e.levelId,
+      unitTitle: e.unit.title,
+      lessonId: l.lesson_id,
+      lessonTitle: l.title,
+      firstOfUnit: i === 0,
+    })),
+  )
+  const at = all.findIndex((l) => l.lessonId === lessonId)
+  const ordered = [...all.slice(at + 1), ...all.slice(0, Math.max(at, 0))]
+  return ordered.find((l) => !completed.has(l.lessonId)) ?? null
 }
 
 export default function UnitView() {
@@ -55,62 +97,80 @@ export default function UnitView() {
   const [saving, setSaving] = useState(false)
   const [results, setResults] = useState<Record<number, ExerciseResult>>({})
   const [summary, setSummary] = useState<LessonSummary | null>(null)
-  const [nextUnit, setNextUnit] = useState<UnitEntry | null>(null)
+  const [course, setCourse] = useState<UnitEntry[]>([])
 
+  /** The step was restored from where the learner left the unit, to say so. */
+  const [resumed, setResumed] = useState(false)
+
+  // Load the unit and decide where to start: ?step=N, else the saved position (when it is in
+  // the ?lesson= asked for, if any), else ?lesson=, else the first lesson not completed.
   useEffect(() => {
     setData(null)
     setIndex(0)
     setFurthest(0)
     setResults({})
     setSummary(null)
-    api
-      .unit(params.get('level'), unitId)
-      .then(setData)
-      .catch((e: Error) => setLoadError(e.message))
+    setResumed(false)
+    let cancelled = false
+    Promise.all([
+      api.unit(params.get('level'), unitId),
+      api.position(unitId).then((r) => r.position, () => null),
+      api.progress().catch(() => null),
+    ])
+      .then(([res, pos, progress]) => {
+        if (cancelled) return
+        const lessons = res.unit.lessons
+        const total = lessons.reduce((n, l) => n + l.steps.length, 0)
+        const startOf = (lessonId: string) => {
+          let i = 0
+          for (const l of lessons) {
+            if (l.lesson_id === lessonId) return i
+            i += l.steps.length
+          }
+          return -1
+        }
+        const askedStep = Number(params.get('step'))
+        const askedLesson = params.get('lesson')
+        let i = 0
+        let restored: Record<number, ExerciseResult> = {}
+        if (askedStep) {
+          i = Math.min(Math.max(askedStep, 1), total) - 1
+        } else if (pos && startOf(pos.lesson_id) >= 0 && (!askedLesson || askedLesson === pos.lesson_id)) {
+          const base = startOf(pos.lesson_id)
+          const length = lessons.find((l) => l.lesson_id === pos.lesson_id)!.steps.length
+          i = base + Math.min(pos.step, length - 1)
+          for (const [k, r] of Object.entries(pos.results)) if (Number(k) < length) restored[base + Number(k)] = r
+          setResumed(pos.step > 0)
+        } else if (askedLesson && startOf(askedLesson) >= 0) {
+          i = startOf(askedLesson)
+        } else {
+          const done = new Set(progress?.lessons.filter((l) => l.status === 'completed').map((l) => l.lesson_id))
+          const todo = lessons.find((l) => !done.has(l.lesson_id))
+          i = todo ? startOf(todo.lesson_id) : 0
+        }
+        resultsRef.current = restored
+        setResults(restored)
+        setIndex(i)
+        setFurthest(i)
+        setData(res)
+      })
+      .catch((e: Error) => !cancelled && setLoadError(e.message))
+    return () => {
+      cancelled = true
+    }
   }, [unitId, params])
 
-  // The unit that follows this one in the course, for the "Siguiente unidad" button.
+  // The whole course, to find the next lesson to do when this one ends.
   useEffect(() => {
-    setNextUnit(null)
     let cancelled = false
     api
       .levels()
-      .then((levels) => {
-        const all = flattenUnits(levels)
-        const i = all.findIndex((e) => e.unit.unit_id === unitId)
-        if (!cancelled) setNextUnit(i >= 0 ? (all[i + 1] ?? null) : null)
-      })
+      .then((levels) => !cancelled && setCourse(flattenUnits(levels)))
       .catch(() => {})
     return () => {
       cancelled = true
     }
-  }, [unitId])
-
-  // Start at the lesson given in ?lesson= (used by "Continuar").
-  const startLesson = params.get('lesson')
-  useEffect(() => {
-    if (!data || !startLesson) return
-    let i = 0
-    for (const l of data.unit.lessons) {
-      if (l.lesson_id === startLesson) {
-        setIndex(i)
-        setFurthest(i)
-        return
-      }
-      i += l.steps.length
-    }
-  }, [data, startLesson])
-
-  // ?step=N (1-based, across the whole unit) opens one step directly, e.g. to review an
-  // exercise type in the dev-only lab unit.
-  const startStep = Number(params.get('step'))
-  useEffect(() => {
-    if (!data || !startStep) return
-    const total = data.unit.lessons.reduce((n, l) => n + l.steps.length, 0)
-    const i = Math.min(Math.max(startStep, 1), total) - 1
-    setIndex(i)
-    setFurthest(i)
-  }, [data, startStep])
+  }, [])
 
   const steps = useMemo<FlatStep[]>(() => {
     if (!data) return []
@@ -142,15 +202,40 @@ export default function UnitView() {
   }, [])
   advanceRef.current = null
 
-  // Keep the first result if the learner goes back and redoes an exercise.
-  const recordResult = useCallback(
-    (r: ExerciseResult) => setResults((prev) => (prev[index] ? prev : { ...prev, [index]: r })),
-    [index],
-  )
+  // Save on the server where the learner is (step and the lesson's graded exercises), so
+  // leaving the unit half done never means starting over. Saves go out one after another so
+  // a slow one can't overwrite a newer position.
+  const resultsRef = useRef<Record<number, ExerciseResult>>({})
+  const saveChain = useRef(Promise.resolve())
+  const savePosition = (i: number, res: Record<number, ExerciseResult>) => {
+    const target = steps[i]
+    if (!target) return
+    const first = steps.findIndex((s) => s.lessonId === target.lessonId)
+    const lessonResults: Record<string, ExerciseResult> = {}
+    for (const [k, r] of Object.entries(res)) {
+      const j = Number(k)
+      if (steps[j]?.lessonId === target.lessonId) lessonResults[j - first] = r
+    }
+    const position = { lesson_id: target.lessonId, step: i - first, results: lessonResults }
+    saveChain.current = saveChain.current.then(() => api.savePosition(unitId, position)).catch(() => {})
+  }
 
-  const goTo = (i: number) => {
+  // Keep the first result if the learner goes back and redoes an exercise.
+  const recordResult = (r: ExerciseResult) => {
+    if (resultsRef.current[index]) return
+    const res = { ...resultsRef.current, [index]: r }
+    resultsRef.current = res
+    setResults(res)
+    savePosition(index, res)
+  }
+
+  const goTo = (i: number, res = resultsRef.current) => {
+    resultsRef.current = res
+    setResults(res)
     setIndex(i)
     setFurthest((f) => Math.max(f, i))
+    setResumed(false)
+    savePosition(i, res)
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
@@ -181,15 +266,19 @@ export default function UnitView() {
       <LessonComplete
         summary={summary}
         unitTitle={unit.title}
-        nextUnit={nextUnit}
-        onNext={() => {
+        sameUnit={summary.next?.unitId === unit.unit_id}
+        onNext={(target) => {
           setSummary(null)
-          goTo(index + 1)
+          if (target.unitId !== unit.unit_id) {
+            navigate(`/units/${target.unitId}?level=${target.levelId}&lesson=${target.lessonId}`)
+            return
+          }
+          const i = steps.findIndex((s) => s.lessonId === target.lessonId)
+          goTo(i >= 0 ? i : index + 1)
         }}
         onRestart={() => {
           setSummary(null)
-          setResults({})
-          goTo(0)
+          goTo(0, {})
         }}
         onLevels={() => navigate('/levels')}
         onReview={() => navigate('/review')}
@@ -217,6 +306,14 @@ export default function UnitView() {
     const score = total ? Math.round((correct / total) * 100) : 100
     const res = await api.complete(unit.unit_id, current.lessonId, score)
     if (res.cards_added > 0) window.dispatchEvent(new Event('srs-changed'))
+    // Lessons completed in the whole course, to skip them when proposing the next one.
+    const completed = new Set(res.completed_lessons)
+    try {
+      for (const l of (await api.progress()).lessons) if (l.status === 'completed') completed.add(l.lesson_id)
+    } catch {
+      // Without the full progress, at least this unit's lessons are known.
+    }
+    completed.add(current.lessonId)
     setSummary({
       title: current.lessonTitle,
       score,
@@ -224,7 +321,9 @@ export default function UnitView() {
       total,
       cardsAdded: res.cards_added,
       isTest: current.isTest,
-      isLastLesson: index === steps.length - 1,
+      unitDone: unit.lessons.every((l) => completed.has(l.lesson_id)),
+      // If the course list failed to load, at least look in this unit.
+      next: nextIncomplete(course.length ? course : [{ unit: summaryOf(unit), levelId: data.level_id, themeTitle: '' }], current.lessonId, completed),
     })
   }
 
@@ -314,6 +413,21 @@ export default function UnitView() {
         </span>
       </div>
 
+      {resumed && (
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-x-4 gap-y-1 rounded-xl bg-indigo-50 px-4 py-2.5 text-sm text-indigo-800">
+          <span className="flex items-center gap-2 font-medium">
+            <History className="h-4 w-4" /> Seguimos donde lo dejaste
+          </span>
+          <button
+            type="button"
+            onClick={() => goTo(lessonSteps[0].i, Object.fromEntries(Object.entries(results).filter(([k]) => steps[Number(k)]?.lessonIndex !== current.lessonIndex)))}
+            className="font-medium text-indigo-600 underline-offset-2 hover:underline"
+          >
+            Empezar la lección desde el principio
+          </button>
+        </div>
+      )}
+
       <article className="mt-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
         <div className="mb-5 flex items-center gap-2">
           {current.isTest ? (
@@ -378,7 +492,7 @@ export default function UnitView() {
 function LessonComplete({
   summary,
   unitTitle,
-  nextUnit,
+  sameUnit,
   onNext,
   onRestart,
   onLevels,
@@ -386,23 +500,25 @@ function LessonComplete({
 }: {
   summary: LessonSummary
   unitTitle: string
-  nextUnit: UnitEntry | null
-  onNext: () => void
+  /** The next lesson is in this same unit. */
+  sameUnit: boolean
+  onNext: (target: NextLesson) => void
   onRestart: () => void
   onLevels: () => void
   onReview: () => void
 }) {
   const good = summary.score >= 70
+  const { next } = summary
   return (
     <div className="mx-auto max-w-lg px-4 py-16 text-center">
       <div className={`mx-auto grid h-20 w-20 place-items-center rounded-full ${good ? 'bg-emerald-100 text-emerald-600' : 'bg-amber-100 text-amber-600'}`}>
         <PartyPopper className="h-10 w-10" />
       </div>
       <h1 className="mt-6 text-3xl font-bold text-slate-900">
-        {summary.isTest ? '¡Test completado!' : summary.isLastLesson ? '¡Unidad completada!' : '¡Lección completada!'}
+        {summary.isTest ? '¡Test completado!' : summary.unitDone ? '¡Unidad completada!' : '¡Lección completada!'}
       </h1>
       <p className="mt-2 text-slate-500">
-        {summary.isLastLesson ? unitTitle : summary.title}. Tu progreso se ha guardado.
+        {summary.unitDone ? unitTitle : summary.title}. Tu progreso se ha guardado.
       </p>
       {summary.isTest && (
         <p className={`mt-3 font-medium ${good ? 'text-emerald-700' : 'text-amber-700'}`}>
@@ -426,15 +542,17 @@ function LessonComplete({
       </div>
 
       <div className="mt-8 space-y-3">
-        {summary.isLastLesson && nextUnit ? (
-          <PrimaryAction to={`/units/${nextUnit.unit.unit_id}?level=${nextUnit.levelId}`} label="Siguiente unidad" title={nextUnit.unit.title} />
-        ) : summary.isLastLesson ? (
-          <PrimaryAction onClick={onLevels} label="Has terminado el curso" title="Volver a Inicio" />
+        {next ? (
+          <PrimaryAction
+            onClick={() => onNext(next)}
+            label={sameUnit ? 'Siguiente lección' : next.firstOfUnit ? 'Siguiente unidad' : 'Lección pendiente'}
+            title={sameUnit ? next.lessonTitle : next.firstOfUnit ? next.unitTitle : `${next.unitTitle} · ${next.lessonTitle}`}
+          />
         ) : (
-          <PrimaryAction onClick={onNext} label="Siguiente lección" title="Continuar la unidad" />
+          <PrimaryAction onClick={onLevels} label="Has terminado el curso" title="Volver a Inicio" />
         )}
-        <div className={`grid gap-3 ${summary.isLastLesson && nextUnit ? 'grid-cols-3' : 'grid-cols-2'}`}>
-          {summary.isLastLesson && (
+        <div className={`grid gap-3 ${summary.unitDone && next ? 'grid-cols-3' : 'grid-cols-2'}`}>
+          {summary.unitDone && (
             <SecondaryAction onClick={onRestart} Icon={RotateCcw}>
               Repetir unidad
             </SecondaryAction>
@@ -442,7 +560,7 @@ function LessonComplete({
           <SecondaryAction onClick={onReview} Icon={Brain}>
             Ir a repaso
           </SecondaryAction>
-          {!(summary.isLastLesson && !nextUnit) && (
+          {next && (
             <SecondaryAction onClick={onLevels} Icon={Home}>
               Volver a Inicio
             </SecondaryAction>

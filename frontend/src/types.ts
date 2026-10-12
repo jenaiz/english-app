@@ -88,6 +88,15 @@ export interface LessonProgress {
   updated_at: string
 }
 
+/** Where a learner left a unit: a step of one lesson, with that lesson's exercises already graded. */
+export interface UnitPosition {
+  lesson_id: string
+  /** Step index within the lesson. */
+  step: number
+  /** Results of the lesson's graded steps, keyed by step index within the lesson. */
+  results: Record<string, ExerciseResult>
+}
+
 export interface ProgressResponse {
   lessons: LessonProgress[]
   completed_units: string[]

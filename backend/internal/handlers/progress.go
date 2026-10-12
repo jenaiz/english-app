@@ -3,6 +3,9 @@ package handlers
 import (
 	"log"
 	"net/http"
+	"strconv"
+
+	"github.com/go-chi/chi/v5"
 
 	"github.com/jenaiz/english-app/backend/internal/auth"
 	"github.com/jenaiz/english-app/backend/internal/content"
@@ -91,6 +94,10 @@ func (h *ProgressHandler) Complete(w http.ResponseWriter, r *http.Request) {
 		writeError(w, http.StatusInternalServerError, "internal error")
 		return
 	}
+	// A finished lesson has no half-done position left to resume.
+	if err := h.Store.ClearPosition(r.Context(), auth.UserID(r.Context()), in.UnitID, lessonIDs); err != nil {
+		log.Printf("clear position: %v", err)
+	}
 	// Seed spaced-repetition cards with the vocabulary of the completed lessons.
 	cardsAdded := 0
 	for _, id := range lessonIDs {
@@ -109,4 +116,60 @@ func (h *ProgressHandler) Complete(w http.ResponseWriter, r *http.Request) {
 	writeJSON(w, http.StatusOK, map[string]any{
 		"unit_id": in.UnitID, "completed_lessons": lessonIDs, "cards_added": cardsAdded,
 	})
+}
+
+// GetPosition returns where the learner left a unit ({"position": null} if nowhere).
+func (h *ProgressHandler) GetPosition(w http.ResponseWriter, r *http.Request) {
+	unitID := chi.URLParam(r, "unitID")
+	if _, ok := h.Catalog.Unit("", unitID); !ok {
+		writeError(w, http.StatusNotFound, "unit not found")
+		return
+	}
+	p, err := h.Store.GetPosition(r.Context(), auth.UserID(r.Context()), unitID)
+	if err != nil {
+		log.Printf("get position: %v", err)
+		writeError(w, http.StatusInternalServerError, "internal error")
+		return
+	}
+	writeJSON(w, http.StatusOK, map[string]any{"position": p})
+}
+
+type positionRequest struct {
+	UnitID   string                      `json:"unit_id"`
+	LessonID string                      `json:"lesson_id"`
+	Step     int                         `json:"step"`
+	Results  map[string]store.StepResult `json:"results"`
+}
+
+// SavePosition remembers the step the learner is on, so leaving mid-unit never means starting over.
+func (h *ProgressHandler) SavePosition(w http.ResponseWriter, r *http.Request) {
+	var in positionRequest
+	if err := decodeJSON(r, &in); err != nil {
+		writeError(w, http.StatusBadRequest, "invalid request body")
+		return
+	}
+	ref, ok := h.Catalog.Lesson(in.LessonID)
+	if !ok || ref.Unit.UnitID != in.UnitID {
+		writeError(w, http.StatusNotFound, "lesson not found in unit")
+		return
+	}
+	steps := len(ref.Lesson.Steps)
+	if in.Step < 0 || in.Step >= steps {
+		writeError(w, http.StatusBadRequest, "step out of range")
+		return
+	}
+	for k, res := range in.Results {
+		i, err := strconv.Atoi(k)
+		if err != nil || i < 0 || i >= steps || res.Correct < 0 || res.Total < res.Correct {
+			writeError(w, http.StatusBadRequest, "invalid results")
+			return
+		}
+	}
+	p := store.Position{LessonID: in.LessonID, Step: in.Step, Results: in.Results}
+	if err := h.Store.SavePosition(r.Context(), auth.UserID(r.Context()), in.UnitID, p); err != nil {
+		log.Printf("save position: %v", err)
+		writeError(w, http.StatusInternalServerError, "internal error")
+		return
+	}
+	w.WriteHeader(http.StatusNoContent)
 }

@@ -134,6 +134,8 @@ func main() {
 			r.Get("/levels/{levelID}/study", levelsH.Study)
 			r.Get("/progress", progressH.Get)
 			r.Post("/progress/complete", progressH.Complete)
+			r.Get("/progress/position/{unitID}", progressH.GetPosition)
+			r.Put("/progress/position", progressH.SavePosition)
 			r.Get("/srs/summary", srsH.Summary)
 			r.Get("/srs/due", srsH.Due)
 			r.Post("/srs/review", srsH.Review)

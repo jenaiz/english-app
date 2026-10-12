@@ -40,7 +40,8 @@ export default function Levels() {
 
   const statusOf = (u: UnitSummary): UnitStatus => {
     if (completedUnits.has(u.unit_id)) return 'completed'
-    if (u.lesson_ids.some((id) => lessonById.get(id)?.status === 'completed')) return 'in_progress'
+    // Started: a lesson completed or left half done.
+    if (u.lesson_ids.some((id) => lessonById.has(id))) return 'in_progress'
     return 'pending'
   }
 
@@ -421,12 +422,20 @@ function UnitCard({
         {unit.lessons.map((l) => {
           const p = lessonById.get(l.lesson_id)
           const done = p?.status === 'completed'
+          const started = p?.status === 'in_progress'
           return (
             <li key={l.lesson_id} className="flex items-center gap-2 text-sm">
-              <span className={`grid h-5 w-5 shrink-0 place-items-center rounded-full ${done ? `${c.solid} text-white` : 'border-2 border-slate-200'}`}>
+              <span
+                className={`grid h-5 w-5 shrink-0 place-items-center rounded-full ${
+                  done ? `${c.solid} text-white` : started ? 'border-2 border-amber-400' : 'border-2 border-slate-200'
+                }`}
+                title={started ? 'A medias' : undefined}
+              >
                 {done && <Check className="h-3 w-3" strokeWidth={3} />}
+                {started && <span className="h-2 w-2 rounded-full bg-amber-400" />}
               </span>
-              <span className={`flex-1 truncate ${done ? 'text-slate-700' : 'text-slate-500'}`}>{l.title}</span>
+              <span className={`flex-1 truncate ${done ? 'text-slate-700' : started ? 'text-slate-700' : 'text-slate-500'}`}>{l.title}</span>
+              {started && <span className="text-xs font-semibold text-amber-600">A medias</span>}
               {l.kind === 'test' && (
                 <span className="rounded-full bg-amber-50 px-2 py-0.5 text-[11px] font-semibold text-amber-700">Test</span>
               )}
