@@ -49,7 +49,10 @@ export default function ClubActivity() {
       )
   }, [activityId])
 
-  useEffect(() => window.scrollTo(0, 0), [activityId, finished])
+  // Braces matter: Chrome's scrollTo returns a Promise, and an effect may only return a cleanup.
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [activityId, finished])
 
   if (error) {
     return (

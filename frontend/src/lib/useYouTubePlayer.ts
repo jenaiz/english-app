@@ -16,7 +16,7 @@ interface YTNamespace {
       host?: string
       videoId: string
       playerVars?: Record<string, string | number>
-      events?: { onReady?: () => void; onStateChange?: (e: { data: number }) => void }
+      events?: { onReady?: () => void; onStateChange?: (e: { data: number }) => void; onError?: (e: { data: number }) => void }
     },
   ) => YTPlayer
 }
@@ -46,7 +46,7 @@ function loadApi(): Promise<YTNamespace> {
       script.async = true
       script.onerror = () => {
         apiPromise = null
-        reject(new Error('No se pudo cargar YouTube'))
+        reject(new Error('YouTube API failed to load'))
       }
       document.head.appendChild(script)
     })
@@ -96,10 +96,11 @@ export function useYouTubePlayer({ videoId, start, onTime }: Options) {
               playerRef.current?.playVideo()
             },
             onStateChange: (e) => setPlaying(e.data === PLAYING),
+            onError: (e) => setError(playerError(e.data)),
           },
         })
       })
-      .catch((e) => setError(e instanceof Error ? e.message : 'No se pudo cargar YouTube'))
+      .catch(() => setError('No se pudo cargar YouTube: revisa tu conexión o si un bloqueador lo impide'))
     return () => {
       cancelled = true
       playerRef.current?.destroy()
@@ -132,6 +133,19 @@ export function useYouTubePlayer({ videoId, start, onTime }: Options) {
   const time = useCallback(() => playerRef.current?.getCurrentTime() ?? 0, [])
 
   return { mountRef, load: () => setRequested(true), requested, ready, playing, error, play, pause, seek, setRate, time }
+}
+
+/** What a YouTube player error code means for the learner. */
+function playerError(code: number): string {
+  switch (code) {
+    case 100:
+      return 'Este vídeo ya no está disponible en YouTube'
+    case 101:
+    case 150:
+      return 'El autor de este vídeo no permite verlo fuera de YouTube'
+    default:
+      return `YouTube no ha podido reproducir el vídeo (error ${code})`
+  }
 }
 
 /** Index of the line being played at time t: the last one that has started. */

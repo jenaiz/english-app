@@ -27,8 +27,17 @@ export default function VideoFrame({ player, videoId, label }: { player: ReturnT
         </div>
       )}
       {player.error && (
-        <div className="absolute inset-0 flex items-center justify-center gap-2 p-4 text-center text-sm text-red-200">
-          <AlertCircle className="h-5 w-5 shrink-0" /> {player.error}. Comprueba tu conexión o si un bloqueador impide YouTube.
+        <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-slate-900 p-4 text-center text-sm text-red-200">
+          <AlertCircle className="h-6 w-6" />
+          <p>{player.error}.</p>
+          <a
+            href={`https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold text-white underline"
+          >
+            Ver en YouTube
+          </a>
         </div>
       )}
     </div>
