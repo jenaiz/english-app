@@ -6,6 +6,7 @@ import type { ExpressionSummary } from '../../lib/todayPicks'
 import type { ExpressionKind } from '../../types'
 import SpeakButton from '../SpeakButton'
 import AddToReview, { type ReviewStatus } from './AddToReview'
+import LevelBadge from '../ui/LevelBadge'
 
 interface Props {
   item: ExpressionSummary
@@ -28,7 +29,7 @@ export default function ExpressionTile({ item: pick, status, onAdd }: Props) {
     >
       <div className="flex items-center justify-between gap-2 text-xs font-semibold">
         <span className="tracking-wide text-slate-500 uppercase">{pick.kind === 'idiom' ? 'Idiom' : 'Phrasal verb'}</span>
-        <span className="rounded-full bg-yellow-300 px-2 py-0.5 text-slate-900">{pick.level}</span>
+        <LevelBadge level={pick.level} />
       </div>
       <div className="mt-3 flex items-start justify-between gap-2">
         <p className="font-display text-2xl leading-tight font-bold text-indigo-950">{pick.term}</p>

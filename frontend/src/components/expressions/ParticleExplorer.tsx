@@ -66,7 +66,7 @@ export default function ParticleExplorer({ families, particles, initialParticle,
               aria-pressed={g.particle === group.particle}
               onClick={() => setSelected(g.particle)}
               className={`rounded-xl px-4 py-2 font-display text-lg font-bold transition ${
-                g.particle === group.particle ? 'bg-indigo-950 text-white' : 'bg-white text-indigo-950 ring-1 ring-slate-200 hover:ring-indigo-300'
+                g.particle === group.particle ? 'bg-indigo-600 text-white shadow-sm' : 'bg-white text-indigo-950 ring-1 ring-slate-200 hover:ring-indigo-300'
               }`}
             >
               {g.particle} <span className={`text-sm font-semibold ${g.particle === group.particle ? 'text-indigo-200' : 'text-slate-400'}`}>{g.entries.length}</span>

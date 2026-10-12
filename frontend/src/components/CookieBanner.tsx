@@ -1,14 +1,14 @@
-import { useEffect, useRef, useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Cookie, X } from 'lucide-react'
 import { useConsent } from '../context/ConsentContext'
+import Dialog from './ui/Dialog'
+import { buttonClass } from './ui/Button'
 
 // Accept and reject share the same style on purpose: EU guidance (AEPD/EDPB)
 // requires rejecting to be as easy and as visible as accepting.
-const choiceBtn =
-  'rounded-lg border border-indigo-600 bg-indigo-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-indigo-700'
-const secondaryBtn =
-  'rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:bg-slate-50'
+const choiceBtn = buttonClass({ size: 'sm' })
+const secondaryBtn = buttonClass({ variant: 'secondary', size: 'sm' })
 
 /** First-visit consent bar plus the preferences dialog (also opened from the footer). */
 export default function CookieBanner() {
@@ -55,102 +55,61 @@ export default function CookieBanner() {
 function PreferencesDialog() {
   const { consent, gaMeasurementId, save, acceptAll, rejectAll, closePreferences } = useConsent()
   const [analytics, setAnalytics] = useState(consent?.analytics ?? false)
-  const dialogRef = useRef<HTMLDivElement>(null)
-
-  // Focus the dialog, keep Tab inside it, close on Escape and restore focus afterwards.
-  useEffect(() => {
-    const previous = document.activeElement as HTMLElement | null
-    const dialog = dialogRef.current
-    dialog?.querySelector<HTMLElement>('button, input')?.focus()
-
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') {
-        closePreferences()
-        return
-      }
-      if (e.key !== 'Tab' || !dialog) return
-      const focusable = dialog.querySelectorAll<HTMLElement>('a[href], button:not([disabled]), input:not([disabled])')
-      const first = focusable[0]
-      const last = focusable[focusable.length - 1]
-      if (e.shiftKey && document.activeElement === first) {
-        e.preventDefault()
-        last.focus()
-      } else if (!e.shiftKey && document.activeElement === last) {
-        e.preventDefault()
-        first.focus()
-      }
-    }
-    document.addEventListener('keydown', onKey)
-    return () => {
-      document.removeEventListener('keydown', onKey)
-      previous?.focus()
-    }
-  }, [closePreferences])
-
   return (
-    <div className="fixed inset-0 z-50 flex items-end justify-center bg-slate-900/40 p-4 sm:items-center" onClick={closePreferences}>
-      <div
-        ref={dialogRef}
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="cookie-prefs-title"
-        onClick={(e) => e.stopPropagation()}
-        className="max-h-[90vh] w-full max-w-lg overflow-y-auto rounded-2xl bg-white p-6 shadow-xl"
-      >
-        <div className="flex items-start justify-between gap-4">
-          <h2 id="cookie-prefs-title" className="font-display text-xl font-bold text-slate-900">
-            Preferencias de cookies
-          </h2>
-          <button
-            type="button"
-            onClick={closePreferences}
-            aria-label="Cerrar"
-            className="rounded-lg p-1 text-slate-400 transition hover:bg-slate-100 hover:text-slate-600"
-          >
-            <X className="h-5 w-5" />
-          </button>
-        </div>
-        <p className="mt-2 text-sm text-slate-600">
-          Elige qué cookies permites. Las necesarias no se pueden desactivar porque sin ellas la web no funciona. Más
-          detalles en la{' '}
-          <Link to="/cookies" onClick={closePreferences} className="font-medium text-indigo-600 hover:underline">
-            política de cookies
-          </Link>
-          .
-        </p>
-
-        <div className="mt-5 space-y-3">
-          <Category
-            id="cookies-necessary"
-            title="Necesarias"
-            description="Mantienen tu sesión iniciada, recuerdan tus preferencias de estudio y esta elección de cookies."
-            checked
-            disabled
-          />
-          {gaMeasurementId && (
-            <Category
-              id="cookies-analytics"
-              title="Analítica"
-              description="Google Analytics: estadísticas anónimas de uso (páginas visitadas, tiempo de uso) para mejorar Fluently. No se usan para publicidad."
-              checked={analytics}
-              onChange={setAnalytics}
-            />
-          )}
-        </div>
-
-        <div className="mt-6 flex flex-col-reverse gap-2 sm:flex-row sm:justify-end">
-          <button type="button" onClick={() => save({ analytics })} className={secondaryBtn}>
-            Guardar selección
-          </button>
-          <button type="button" onClick={rejectAll} className={choiceBtn}>
-            Rechazar todas
-          </button>
-          <button type="button" onClick={acceptAll} className={choiceBtn}>
-            Aceptar todas
-          </button>
-        </div>
+    <Dialog labelledBy="cookie-prefs-title" onClose={closePreferences} className="max-w-lg">
+      <div className="flex items-start justify-between gap-4">
+        <h2 id="cookie-prefs-title" className="font-display text-xl font-bold text-slate-900">
+          Preferencias de cookies
+        </h2>
+        <button
+          type="button"
+          onClick={closePreferences}
+          aria-label="Cerrar"
+          className="rounded-lg p-1 text-slate-400 transition hover:bg-slate-100 hover:text-slate-600"
+        >
+          <X className="h-5 w-5" />
+        </button>
       </div>
-    </div>
+      <p className="mt-2 text-sm text-slate-600">
+        Elige qué cookies permites. Las necesarias no se pueden desactivar porque sin ellas la web no funciona. Más
+        detalles en la{' '}
+        <Link to="/cookies" onClick={closePreferences} className="font-medium text-indigo-600 hover:underline">
+          política de cookies
+        </Link>
+        .
+      </p>
+
+      <div className="mt-5 space-y-3">
+        <Category
+          id="cookies-necessary"
+          title="Necesarias"
+          description="Mantienen tu sesión iniciada, recuerdan tus preferencias de estudio y esta elección de cookies."
+          checked
+          disabled
+        />
+        {gaMeasurementId && (
+          <Category
+            id="cookies-analytics"
+            title="Analítica"
+            description="Google Analytics: estadísticas anónimas de uso (páginas visitadas, tiempo de uso) para mejorar Fluently. No se usan para publicidad."
+            checked={analytics}
+            onChange={setAnalytics}
+          />
+        )}
+      </div>
+
+      <div className="mt-6 flex flex-col-reverse gap-2 sm:flex-row sm:justify-end">
+        <button type="button" onClick={() => save({ analytics })} className={secondaryBtn}>
+          Guardar selección
+        </button>
+        <button type="button" onClick={rejectAll} className={choiceBtn}>
+          Rechazar todas
+        </button>
+        <button type="button" onClick={acceptAll} className={choiceBtn}>
+          Aceptar todas
+        </button>
+      </div>
+    </Dialog>
   )
 }
 

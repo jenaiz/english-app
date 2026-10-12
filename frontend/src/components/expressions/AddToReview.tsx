@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Check, Clock, Loader2, Plus } from 'lucide-react'
 import { useAuth } from '../../context/AuthContext'
 import type { ExpressionKind } from '../../types'
+import { buttonClass } from '../ui/Button'
 
 /** none: not added · saved: in Repaso · queued: added, waiting for the daily limit of new expressions. */
 export type ReviewStatus = 'none' | 'saved' | 'queued'
@@ -67,7 +68,7 @@ export default function AddToReview({ kind, id, status, onAdd }: Props) {
           setBusy(false)
         }
       }}
-      className="inline-flex items-center gap-1.5 rounded-xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-indigo-700 disabled:opacity-60"
+      className={buttonClass({ size: 'sm' })}
     >
       {busy ? <Loader2 className="h-4 w-4 animate-spin" /> : <Plus className="h-4 w-4" />}
       {error ? 'No se pudo añadir. Reintentar' : 'Añadir a mi repaso'}

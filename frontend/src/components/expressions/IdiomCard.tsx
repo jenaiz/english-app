@@ -4,6 +4,7 @@ import { pagePath } from '../../lib/expressionPages'
 import type { ExpressionKind, Idiom } from '../../types'
 import SpeakButton from '../SpeakButton'
 import AddToReview, { type ReviewStatus } from './AddToReview'
+import LevelBadge from '../ui/LevelBadge'
 
 interface Props {
   idiom: Idiom
@@ -41,7 +42,7 @@ export default function IdiomCard({ idiom, status, onAdd }: Props) {
         <div aria-hidden={flipped} className="absolute inset-0 flex flex-col justify-between rounded-3xl bg-indigo-600 p-7 text-white backface-hidden">
           <div className="flex items-start justify-between gap-3">
             <div className="flex flex-wrap gap-2 text-xs font-semibold">
-              <span className="rounded-full bg-yellow-300 px-2.5 py-1 text-slate-900">{idiom.level}</span>
+              <LevelBadge level={idiom.level} className="py-1" />
               <span className="rounded-full bg-white/15 px-2.5 py-1">{idiom.topic}</span>
             </div>
             {!flipped && <SpeakButton text={idiom.term} dark />}

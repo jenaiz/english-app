@@ -6,6 +6,7 @@ import { summaryOf, type ExpressionSummary } from '../../lib/todayPicks'
 import { useSavedExpressions, type AddSource } from '../../lib/useSavedExpressions'
 import type { ExpressionsCatalog } from '../../types'
 import ExpressionTile from './ExpressionTile'
+import { buttonClass } from '../ui/Button'
 
 interface Props {
   unitId: string
@@ -92,7 +93,7 @@ export function ExpressionsBlock({ id, items: itemsOf, itemsKey, excludeTerms = 
             type="button"
             onClick={addAll}
             disabled={busy}
-            className="inline-flex items-center gap-1.5 rounded-xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-indigo-700 disabled:opacity-60"
+            className={buttonClass({ size: 'sm' })}
           >
             {busy ? <Loader2 className="h-4 w-4 animate-spin" /> : <Plus className="h-4 w-4" />}
             Añadir {pending.length === items.length ? `las ${items.length}` : `las ${pending.length} que faltan`}

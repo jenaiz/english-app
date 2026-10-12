@@ -4,7 +4,9 @@ import { roomOf } from '../../lib/club'
 import type { Activity, ActivityExtras, ExerciseResult } from '../../types'
 import TopicReview, { weakest } from '../exam/TopicReview'
 import SpeakButton from '../SpeakButton'
+import CompletionHeader from '../ui/CompletionHeader'
 import { ExpressionsBlock } from '../expressions/UnitExpressions'
+import { buttonClass } from '../ui/Button'
 
 interface Props {
   activity: Activity
@@ -31,27 +33,23 @@ export default function ActivityEnd({ activity, score, correct, total, bestScore
 
   return (
     <div className="mx-auto max-w-3xl">
-      <div className="text-center">
-        <div className={`mx-auto grid h-20 w-20 place-items-center rounded-full ${good ? 'bg-emerald-100 text-emerald-600' : 'bg-amber-100 text-amber-600'}`}>
-          <Trophy className="h-10 w-10" />
-        </div>
-        <h2 className="mt-5 font-display text-3xl font-bold text-slate-900">{good ? '¡Muy bien!' : '¡Terminado!'}</h2>
-        <p className="mt-1 text-slate-500">{activity.title}</p>
-      </div>
+      <CompletionHeader Icon={good ? Trophy : RotateCcw} good={good} title={good ? '¡Muy bien!' : 'Terminado'} subtitle={activity.title} />
 
-      <div className="mt-8 grid grid-cols-2 gap-3">
+      <div className={`mx-auto mt-8 grid gap-3 ${album ? 'grid-cols-2' : 'max-w-xs grid-cols-1'}`}>
         <div className="rounded-2xl border border-slate-200 bg-white p-5 text-center">
           <p className={`text-4xl font-extrabold ${good ? 'text-emerald-600' : 'text-amber-600'}`}>{score}%</p>
           <p className="mt-1 text-sm text-slate-500">
             {correct}/{total} aciertos{bestScore > score ? ` · tu mejor: ${bestScore}%` : ''}
           </p>
         </div>
-        <div className="rounded-2xl border border-slate-200 bg-white p-5 text-center">
-          <p className={`flex items-center justify-center gap-2 text-4xl font-extrabold ${room.accent}`}>
-            <room.Icon className="h-8 w-8" /> {album ? `${album.open}/${album.total}` : '✓'}
-          </p>
-          <p className="mt-1 text-sm text-slate-500">{room.plural} en tu álbum</p>
-        </div>
+        {album && (
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 text-center">
+            <p className={`flex items-center justify-center gap-2 text-4xl font-extrabold ${room.accent}`}>
+              <room.Icon className="h-8 w-8" /> {album.open}/{album.total}
+            </p>
+            <p className="mt-1 text-sm text-slate-500">{room.plural} en tu álbum</p>
+          </div>
+        )}
       </div>
 
       {topics.length > 0 && (
@@ -101,13 +99,13 @@ export default function ActivityEnd({ activity, score, correct, total, bestScore
         <button
           type="button"
           onClick={onRestart}
-          className="flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-2.5 font-semibold text-slate-700 transition hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-700"
+          className={buttonClass({ variant: 'secondary' })}
         >
           <RotateCcw className="h-4 w-4" /> Repetir
         </button>
         <Link
           to={`/club?room=${activity.room}`}
-          className="rounded-xl bg-indigo-600 px-5 py-2.5 font-semibold text-white shadow-sm transition hover:bg-indigo-700"
+          className={buttonClass()}
         >
           Volver al Club
         </Link>

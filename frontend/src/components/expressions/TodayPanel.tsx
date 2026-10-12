@@ -8,6 +8,7 @@ import type { ExpressionSummary } from '../../lib/todayPicks'
 import type { ExpressionKind } from '../../types'
 import { type ReviewStatus } from './AddToReview'
 import ExpressionTile from './ExpressionTile'
+import { buttonClass } from '../ui/Button'
 
 interface Props {
   picks: ExpressionSummary[]
@@ -56,7 +57,7 @@ export default function TodayPanel({ picks, level, statusOf, onAdd }: Props) {
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
           <p className="text-sm font-semibold text-indigo-600 first-letter:uppercase">{today()}</p>
-          <h2 id="today-title" className="mt-1 font-display text-2xl font-bold text-indigo-950">
+          <h2 id="today-title" className="h-section mt-1">
             {done ? 'Listo por hoy' : picks.length > 0 ? `Tus ${picks.length} expresiones de hoy` : 'Expresiones de hoy'}
           </h2>
           <p className="mt-1 text-sm text-slate-600">
@@ -76,14 +77,14 @@ export default function TodayPanel({ picks, level, statusOf, onAdd }: Props) {
                 type="button"
                 onClick={addAll}
                 disabled={busy}
-                className="inline-flex items-center gap-1.5 rounded-xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-indigo-700 disabled:opacity-60"
+                className={buttonClass({ size: 'sm' })}
               >
                 {busy ? <Loader2 className="h-4 w-4 animate-spin" /> : <Plus className="h-4 w-4" />}
                 Añadir {pending.length === picks.length ? `las ${picks.length}` : `las ${pending.length} que faltan`} a mi repaso
               </button>
             )
           ) : (
-            <Link to="/register" className="inline-flex items-center gap-1.5 rounded-xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-indigo-700">
+            <Link to="/register" className={buttonClass({ size: 'sm' })}>
               Crea una cuenta gratis para guardarlas
             </Link>
           ))}

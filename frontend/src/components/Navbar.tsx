@@ -4,6 +4,7 @@ import { useAuth } from '../context/AuthContext'
 import { useClubSummary } from '../lib/club'
 import { useSrsSummary } from '../lib/useSrsSummary'
 import UserMenu from './UserMenu'
+import { buttonClass } from './ui/Button'
 
 export default function Navbar() {
   const { user } = useAuth()
@@ -94,7 +95,7 @@ export default function Navbar() {
             </Link>
             <Link
               to="/register"
-              className="whitespace-nowrap rounded-lg bg-indigo-600 px-3 py-2 font-medium text-white sm:px-4 shadow-sm transition hover:bg-indigo-700"
+              className={buttonClass({ size: 'sm', className: 'whitespace-nowrap' })}
             >
               Crear cuenta
             </Link>

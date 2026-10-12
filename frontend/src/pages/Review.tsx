@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, type FormEvent } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
-import { AlertCircle, ArrowLeft, Brain, CheckCircle2, Ear, HelpCircle, Keyboard, Loader2, Mic, MicOff, Volume2, XCircle } from 'lucide-react'
+import { AlertCircle, ArrowLeft, CheckCircle2, Ear, HelpCircle, Keyboard, Loader2, Mic, MicOff, Volume2, XCircle } from 'lucide-react'
 import { api } from '../api/client'
 import { trackEvent } from '../lib/analytics'
 import { loadExpressions } from '../lib/expressionsCatalog'
@@ -9,6 +9,9 @@ import ReviewHub, { DECKS, type Deck } from '../components/review/ReviewHub'
 import { bestSimilarity, isCorrect, matchesMeaning } from '../lib/answers'
 import { canSpeak, speak, useSpeechRecognition } from '../lib/speech'
 import type { Grade, ReviewCard } from '../types'
+import CompletionHeader from '../components/ui/CompletionHeader'
+import { inputClass, segmentClass } from '../components/ui/styles'
+import { buttonClass } from '../components/ui/Button'
 
 /**
  * Repaso: a hub with today's cards by kind, then a session for the chosen deck.
@@ -246,22 +249,22 @@ function ReviewSession({ deck, packId, onExit }: { deck: Deck; packId?: string; 
   if (!card) {
     return (
       <div className="mx-auto max-w-md px-4 py-20 text-center">
-        <div className="mx-auto grid h-20 w-20 place-items-center rounded-full bg-emerald-100 text-emerald-600">
-          <CheckCircle2 className="h-10 w-10" />
-        </div>
-        <h1 className="mt-6 text-2xl font-bold text-slate-900">¡Todo al día!</h1>
-        <p className="mt-2 text-slate-500">
-          {reviewed.total > 0
-            ? `Has repasado ${reviewed.total} tarjeta${reviewed.total === 1 ? '' : 's'} (${reviewed.correct} acertadas a la primera). Vuelve más tarde para las siguientes.`
-            : `No tienes tarjetas pendientes en este ${packId ? 'pack' : 'mazo'}.`}
-        </p>
+        <CompletionHeader
+          Icon={CheckCircle2}
+          title="¡Todo al día!"
+          subtitle={
+            reviewed.total > 0
+              ? `Has repasado ${reviewed.total} tarjeta${reviewed.total === 1 ? '' : 's'} (${reviewed.correct} acertadas a la primera). Vuelve más tarde para las siguientes.`
+              : `No tienes tarjetas pendientes en este ${packId ? 'pack' : 'mazo'}.`
+          }
+        />
         <div className="mt-6 flex justify-center gap-3">
           {reviewed.total > 0 && (
-            <button onClick={load} className="rounded-lg border border-slate-300 px-5 py-2.5 font-medium text-slate-700 hover:bg-slate-50">
+            <button onClick={load} className={buttonClass({ variant: 'secondary' })}>
               Buscar más
             </button>
           )}
-          <button onClick={onExit} className="rounded-lg bg-indigo-600 px-5 py-2.5 font-semibold text-white hover:bg-indigo-700">
+          <button onClick={onExit} className={buttonClass()}>
             {exitLabel}
           </button>
         </div>
@@ -278,8 +281,7 @@ function ReviewSession({ deck, packId, onExit }: { deck: Deck; packId?: string; 
           <button onClick={onExit} className="rounded-lg p-1.5 text-slate-500 hover:bg-slate-100 hover:text-slate-800" aria-label={exitLabel}>
             <ArrowLeft className="h-5 w-5" />
           </button>
-          <h1 className="flex items-center gap-2 text-2xl font-bold text-slate-900">
-            <Brain className="h-6 w-6 text-indigo-600" /> {title}
+          <h1 className="h-section">{title}
           </h1>
         </div>
         <span className="rounded-full bg-slate-100 px-3 py-1 text-sm font-medium text-slate-600 tabular-nums">
@@ -292,7 +294,7 @@ function ReviewSession({ deck, packId, onExit }: { deck: Deck; packId?: string; 
           <button
             key={m.id}
             onClick={() => changeMode(m.id)}
-            className={`rounded-md px-3 py-1.5 font-medium transition ${modePref === m.id ? 'bg-white text-indigo-700 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+            className={segmentClass(modePref === m.id)}
           >
             {m.label}
           </button>
@@ -372,7 +374,7 @@ function ReviewSession({ deck, packId, onExit }: { deck: Deck; packId?: string; 
                   autoComplete="off"
                   spellCheck={false}
                   placeholder={direction === 'listen' ? 'Significado en español…' : 'Escribe en inglés…'}
-                  className="w-full rounded-xl border border-slate-300 px-4 py-3 text-center text-lg outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100"
+                  className={`${inputClass()} py-3 text-center text-lg`}
                 />
               )}
 
@@ -389,7 +391,7 @@ function ReviewSession({ deck, packId, onExit }: { deck: Deck; packId?: string; 
                 <button
                   type="submit"
                   disabled={!response.trim() || rec.listening}
-                  className="rounded-lg bg-indigo-600 px-6 py-2.5 font-semibold text-white shadow-sm hover:bg-indigo-700 disabled:opacity-40"
+                  className={buttonClass({ size: 'lg' })}
                 >
                   Comprobar
                 </button>
@@ -464,7 +466,7 @@ function ReviewSession({ deck, packId, onExit }: { deck: Deck; packId?: string; 
               <button
                 disabled={busy}
                 onClick={() => grade('again')}
-                className="w-full rounded-xl bg-slate-700 py-3 font-semibold text-white transition hover:bg-slate-800 disabled:opacity-50"
+                className={buttonClass({ full: true })}
               >
                 Continuar · volverá en {formatInterval(card.preview.again)}
               </button>

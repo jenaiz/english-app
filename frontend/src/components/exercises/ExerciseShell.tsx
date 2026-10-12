@@ -1,6 +1,8 @@
 import { useEffect, useRef, type FormEvent, type ReactNode } from 'react'
 import { CheckCircle2, Lightbulb, Trophy, XCircle } from 'lucide-react'
 import type { ItemStatus } from './useExerciseItems'
+import { buttonClass } from '../ui/Button'
+import { inputClass } from '../ui/styles'
 
 interface Props {
   instructions?: string
@@ -100,9 +102,7 @@ export default function ExerciseShell({
           ref={buttonRef}
           type="submit"
           disabled={!answered && !canCheck}
-          className={`rounded-lg px-5 py-2.5 font-semibold text-white shadow-sm transition disabled:cursor-not-allowed disabled:opacity-40 ${
-            answered ? (status === 'correct' ? 'bg-emerald-600 hover:bg-emerald-700' : 'bg-slate-700 hover:bg-slate-800') : 'bg-indigo-600 hover:bg-indigo-700'
-          }`}
+          className={buttonClass({ variant: answered && status === 'correct' ? 'success' : 'primary' })}
         >
           {!answered ? 'Comprobar' : isLast ? 'Terminar ejercicio' : 'Continuar'}
         </button>
@@ -126,5 +126,4 @@ export function ExerciseDone({ correct, total }: { correct: number; total: numbe
   )
 }
 
-export const inputCls =
-  'w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-lg outline-none transition focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100 disabled:bg-slate-50'
+export const inputCls = `${inputClass()} text-lg`

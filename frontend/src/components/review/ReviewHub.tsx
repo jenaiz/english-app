@@ -1,8 +1,11 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { AlertCircle, BookA, Brain, Check, ChevronRight, Clock, History, Loader2, Plus, Quote, Sparkles } from 'lucide-react'
+import { BookA, Check, ChevronRight, Clock, History, Loader2, Plus, Quote, Sparkles } from 'lucide-react'
 import { api } from '../../api/client'
 import type { CardKind, SrsSummary } from '../../types'
+import ErrorState from '../ui/ErrorState'
+import { KIND_COLOR } from '../../lib/kinds'
+import { buttonClass } from '../ui/Button'
 
 export type Deck = 'all' | CardKind
 
@@ -20,8 +23,7 @@ const KINDS: { id: CardKind; label: string; detail: string; icon: typeof BookA; 
     label: 'Vocabulario',
     detail: 'De tus lecciones · escuchar o decirlo en inglés',
     icon: BookA,
-    tone: 'bg-yellow-100 text-yellow-700',
-    bar: 'bg-yellow-300',
+    ...KIND_COLOR.vocab,
     empty: 'Se llena al completar lecciones',
   },
   {
@@ -29,8 +31,7 @@ const KINDS: { id: CardKind; label: string; detail: string; icon: typeof BookA; 
     label: 'Phrasal verbs',
     detail: 'Significado en una frase, partícula, phrasal verb, decirlo',
     icon: Sparkles,
-    tone: 'bg-indigo-100 text-indigo-700',
-    bar: 'bg-indigo-200',
+    ...KIND_COLOR.phrasal,
     empty: 'Añádelos desde Expresiones',
   },
   {
@@ -38,8 +39,7 @@ const KINDS: { id: CardKind; label: string; detail: string; icon: typeof BookA; 
     label: 'Idioms',
     detail: 'Significado, situación, completar, decirlo',
     icon: Quote,
-    tone: 'bg-emerald-100 text-emerald-700',
-    bar: 'bg-emerald-300',
+    ...KIND_COLOR.idiom,
     empty: 'Añádelos desde Expresiones',
   },
   {
@@ -47,8 +47,7 @@ const KINDS: { id: CardKind; label: string; detail: string; icon: typeof BookA; 
     label: 'Verbos irregulares',
     detail: 'Pasado, completar la frase, participio, decirlo',
     icon: History,
-    tone: 'bg-rose-100 text-rose-700',
-    bar: 'bg-rose-200',
+    ...KIND_COLOR.verb,
     empty: 'Añádelos desde Expresiones',
   },
 ]
@@ -70,11 +69,7 @@ export default function ReviewHub({ onStart }: { onStart: (deck: Deck) => void }
 
   if (error) {
     return (
-      <div className="mx-auto max-w-3xl px-4 py-10">
-        <div className="flex items-center gap-2 rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700">
-          <AlertCircle className="h-4 w-4" /> {error}
-        </div>
-      </div>
+      <ErrorState />
     )
   }
   if (!summary) {
@@ -89,8 +84,7 @@ export default function ReviewHub({ onStart }: { onStart: (deck: Deck) => void }
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-10">
-      <h1 className="flex items-center gap-2 text-2xl font-bold text-slate-900">
-        <Brain className="h-6 w-6 text-indigo-600" /> Repaso
+      <h1 className="h-page">Repaso
       </h1>
 
       <div className="mt-6 grid gap-5 md:grid-cols-[minmax(0,1fr)_minmax(0,1.25fr)]">
@@ -117,7 +111,7 @@ export default function ReviewHub({ onStart }: { onStart: (deck: Deck) => void }
               <p className="text-sm text-indigo-200">Unos {minutes} min</p>
               <button
                 onClick={() => onStart('all')}
-                className="mt-auto self-start rounded-xl bg-white px-5 py-2.5 font-semibold text-indigo-700 shadow-sm transition hover:bg-indigo-50"
+                className={buttonClass({ variant: 'inverse', className: 'mt-auto self-start' })}
               >
                 Empezar repaso mixto
               </button>

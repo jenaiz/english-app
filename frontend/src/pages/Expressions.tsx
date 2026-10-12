@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import { AlertCircle, ChevronDown, Loader2 } from 'lucide-react'
+import { ChevronDown } from 'lucide-react'
 import HackCard from '../components/expressions/HackCard'
 import IdiomCard from '../components/expressions/IdiomCard'
 import PackCard from '../components/expressions/PackCard'
@@ -17,6 +17,9 @@ import { packProgress, packsForLevel } from '../lib/packs'
 import { todaySelection } from '../lib/todayPicks'
 import { useLearnerLevel } from '../lib/useLearnerLevel'
 import type { ExpressionsCatalog } from '../types'
+import ErrorState from '../components/ui/ErrorState'
+import { Skeleton } from '../components/ui/Skeleton'
+import { pillClass, pillCountClass, segmentClass } from '../components/ui/styles'
 
 const TABS = [
   { id: 'idioms', label: 'Idioms', intro: 'Frases hechas que no se entienden palabra por palabra. Intenta adivinar el significado y dale la vuelta a la tarjeta.' },
@@ -148,7 +151,7 @@ export default function Expressions() {
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 md:py-14">
-      <h1 className="font-display text-4xl font-bold tracking-tight text-indigo-950 md:text-5xl">Expresiones</h1>
+      <h1 className="h-page">Expresiones</h1>
       <p className="mt-3 max-w-2xl text-lg text-slate-600">El inglés que no viene en los libros: lo que dicen los nativos a diario y casi nadie te explica.</p>
 
       {today && <TodayPanel picks={today.picks} level={today.level} statusOf={statusOf} onAdd={add} />}
@@ -157,7 +160,7 @@ export default function Expressions() {
         <section className="mt-12" aria-labelledby="packs-title">
           <div className="flex flex-wrap items-end justify-between gap-2">
             <div>
-              <h2 id="packs-title" className="font-display text-2xl font-bold text-indigo-950">
+              <h2 id="packs-title" className="h-section">
                 Packs
               </h2>
               <p className="mt-1 text-sm text-slate-600">Grupos pequeños por tema. Complétalos dominando todas sus expresiones.</p>
@@ -181,7 +184,7 @@ export default function Expressions() {
       )}
 
       <div className="mt-12 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
-        <h2 className="font-display text-2xl font-bold text-indigo-950">Explorar todas</h2>
+        <h2 className="h-section">Explorar todas</h2>
         <p className="text-sm text-slate-500">
           Lista completa:{' '}
           <Link to={indexPath('idiom')} className="font-semibold text-indigo-600 hover:text-indigo-800">
@@ -263,7 +266,7 @@ export default function Expressions() {
                   type="button"
                   aria-pressed={axis === v}
                   onClick={() => setParams(v === 'verbo' ? { tab: 'phrasal' } : { tab: 'phrasal', vista: v }, { replace: true })}
-                  className={`rounded-md px-3 py-1 font-medium transition ${axis === v ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-500 hover:text-slate-800'}`}
+                  className={segmentClass(axis === v)}
                 >
                   {v === 'verbo' ? 'Por verbo' : 'Por partícula'}
                 </button>
@@ -274,14 +277,14 @@ export default function Expressions() {
       )}
 
       {error && (
-        <div className="mt-6 flex items-center gap-2 rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700">
-          <AlertCircle className="h-4 w-4" /> No se han podido cargar las expresiones: {error}
-        </div>
+        <ErrorState message="No se han podido cargar las expresiones. Revisa tu conexión y vuelve a intentarlo." />
       )}
 
       {!catalog && !error && (
-        <div className="flex justify-center py-24 text-indigo-500">
-          <Loader2 className="h-8 w-8 animate-spin" />
+        <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3" role="status" aria-label="Cargando">
+          {Array.from({ length: 6 }, (_, i) => (
+            <Skeleton key={i} className="h-72 rounded-3xl" />
+          ))}
         </div>
       )}
 
@@ -313,11 +316,9 @@ export default function Expressions() {
                       type="button"
                       aria-pressed={activeTopic === t}
                       onClick={() => setTopic(t)}
-                      className={`rounded-full px-3 py-1 text-sm font-medium transition ${
-                        activeTopic === t ? 'bg-slate-900 text-white' : 'bg-white text-slate-600 ring-1 ring-slate-200 hover:ring-slate-300'
-                      }`}
+                      className={pillClass(activeTopic === t)}
                     >
-                      {t === 'all' ? 'Todos' : t} <span className={activeTopic === t ? 'text-slate-300' : 'text-slate-400'}>{n}</span>
+                      {t === 'all' ? 'Todos' : t} <span className={pillCountClass(activeTopic === t)}>{n}</span>
                     </button>
                   ))}
                 </div>

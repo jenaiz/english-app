@@ -1,5 +1,7 @@
 import { useState, type FormEvent, type ReactNode } from 'react'
 import { AlertCircle, Loader2 } from 'lucide-react'
+import { buttonClass } from './ui/Button'
+import { inputClass } from './ui/styles'
 
 export interface Field {
   name: string
@@ -49,7 +51,7 @@ export default function AuthForm({ title, subtitle, fields, submitLabel, validat
   return (
     <div className="flex min-h-[calc(100vh-4rem)] items-center justify-center px-4 py-12">
       <form onSubmit={handleSubmit} noValidate className="w-full max-w-md rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
-        <h1 className="text-2xl font-bold text-slate-900">{title}</h1>
+        <h1 className="h-section">{title}</h1>
         <p className="mt-1 text-sm text-slate-500">{subtitle}</p>
 
         {serverError && (
@@ -75,11 +77,15 @@ export default function AuthForm({ title, subtitle, fields, submitLabel, validat
                 {...(f.type === 'email' ? { autoCapitalize: 'none', spellCheck: false } : {})}
                 value={values[f.name]}
                 onChange={(e) => setValues((v) => ({ ...v, [f.name]: e.target.value }))}
-                className={`w-full rounded-lg border px-3 py-2.5 outline-none transition focus:ring-2 ${
-                  errors[f.name] ? 'border-red-400 focus:ring-red-200' : 'border-slate-300 focus:border-indigo-500 focus:ring-indigo-100'
-                }`}
+                aria-invalid={!!errors[f.name]}
+                aria-describedby={errors[f.name] ? `${f.name}-error` : undefined}
+                className={inputClass({ error: !!errors[f.name] })}
               />
-              {errors[f.name] && <p className="mt-1 text-xs text-red-600">{errors[f.name]}</p>}
+              {errors[f.name] && (
+                <p id={`${f.name}-error`} className="mt-1 text-sm text-red-600">
+                  {errors[f.name]}
+                </p>
+              )}
             </div>
           ))}
         </div>
@@ -87,7 +93,7 @@ export default function AuthForm({ title, subtitle, fields, submitLabel, validat
         <button
           type="submit"
           disabled={submitting}
-          className="mt-6 flex w-full items-center justify-center gap-2 rounded-lg bg-indigo-600 py-2.5 font-semibold text-white transition hover:bg-indigo-700 disabled:opacity-60"
+          className={buttonClass({ full: true, className: 'mt-6 justify-center' })}
         >
           {submitting && <Loader2 className="h-4 w-4 animate-spin" />}
           {submitLabel}

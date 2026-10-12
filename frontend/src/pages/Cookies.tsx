@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import LegalPage from '../components/LegalPage'
 import { useConsent } from '../context/ConsentContext'
 import { SITE } from '../lib/site'
+import { buttonClass } from '../components/ui/Button'
 
 interface Row {
   name: string
@@ -174,7 +175,7 @@ export default function Cookies() {
                 <button
                   type="button"
                   onClick={openPreferences}
-                  className="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-indigo-700"
+                  className={buttonClass({ size: 'sm' })}
                 >
                   Configurar cookies
                 </button>

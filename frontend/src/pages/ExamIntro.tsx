@@ -1,11 +1,14 @@
 import { useEffect, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import { AlertCircle, Award, Clock, Headphones, ListChecks, Loader2, Lock, Play, RotateCcw, ShieldCheck } from 'lucide-react'
+import { Award, Clock, Headphones, ListChecks, Loader2, Lock, Play, RotateCcw, ShieldCheck } from 'lucide-react'
 import { api, ApiError } from '../api/client'
 import { trackEvent } from '../lib/analytics'
 import { colorOf } from '../lib/levels'
 import { AttemptHistory, ToReview } from '../components/exam/AttemptHistory'
 import type { ExamAttemptSummary, ExamSummary } from '../types'
+import ErrorState from '../components/ui/ErrorState'
+import BackLink from '../components/ui/BackLink'
+import { buttonClass } from '../components/ui/Button'
 
 const fmtDate = (iso: string) => new Date(iso).toLocaleString('es-ES', { day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' })
 
@@ -61,9 +64,7 @@ export default function ExamIntro() {
   }
   if (error || !exam) {
     return (
-      <div className="mx-auto mt-12 flex max-w-md items-center gap-2 rounded-lg bg-red-50 p-4 text-red-700">
-        <AlertCircle className="h-5 w-5" /> {error}
-      </div>
+      <ErrorState />
     )
   }
 
@@ -75,9 +76,7 @@ export default function ExamIntro() {
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
-      <Link to="/levels" className="text-sm font-medium text-slate-500 hover:text-indigo-700">
-        ← Volver a tus niveles
-      </Link>
+      <BackLink to="/levels">Inicio</BackLink>
 
       <header className="relative mt-4 overflow-hidden rounded-3xl bg-slate-900 p-6 text-white sm:p-8">
         <span className={`absolute inset-y-0 left-0 w-2 ${c.solid}`} aria-hidden />
@@ -183,7 +182,7 @@ export default function ExamIntro() {
               type="button"
               onClick={start}
               disabled={starting}
-              className="mt-4 inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-6 py-3 font-semibold text-white hover:bg-indigo-700 disabled:opacity-60"
+              className={buttonClass({ size: 'lg', className: 'mt-4' })}
             >
               <Play className="h-4 w-4 fill-current" /> Continuar el examen
             </button>
@@ -204,7 +203,7 @@ export default function ExamIntro() {
               type="button"
               onClick={start}
               disabled={!ready || starting}
-              className="mt-4 inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-6 py-3 font-semibold text-white transition hover:bg-indigo-700 focus-visible:ring-4 focus-visible:ring-indigo-300 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+              className={buttonClass({ size: 'lg', className: 'mt-4' })}
             >
               {starting ? <Loader2 className="h-4 w-4 animate-spin" /> : <Play className="h-4 w-4 fill-current" />}
               {st.attempts > 0 ? 'Empezar un nuevo intento' : 'Empezar el examen'}

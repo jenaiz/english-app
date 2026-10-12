@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { CheckCircle2, Clock, Lock } from 'lucide-react'
 import { roomOf, youtubeThumb } from '../../lib/club'
 import type { ActivityCard } from '../../types'
+import LevelBadge from '../ui/LevelBadge'
 
 /** Cover of an unlocked activity: the video thumbnail, or the room's colour and icon. */
 export function ActivityCover({ card, className = '' }: { card: Pick<ActivityCard, 'room' | 'youtube_id'>; className?: string }) {
@@ -63,7 +64,7 @@ export default function ActivityCardView({ card }: { card: ActivityCard }) {
         <h3 className="mt-1.5 line-clamp-2 font-display text-lg leading-tight font-bold text-slate-900 group-hover:text-indigo-700">{card.title}</h3>
         {card.subtitle && <p className="mt-1 line-clamp-1 text-sm text-slate-500">{card.subtitle}</p>}
         <div className="mt-auto flex items-center gap-2 pt-3 text-xs text-slate-500">
-          <span className="rounded-md bg-slate-100 px-1.5 py-0.5 font-semibold text-slate-600">{card.level}</span>
+          <LevelBadge level={card.level} />
           <span className="flex items-center gap-1">
             <Clock className="h-3.5 w-3.5" /> {card.minutes} min
           </span>

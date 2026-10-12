@@ -4,6 +4,10 @@ import { api, ApiError } from '../../api/client'
 import type { ExamAttempt, Paper } from '../../types'
 import ListeningClip from './ListeningClip'
 import Question from './Questions'
+import Button from '../ui/Button'
+import Dialog from '../ui/Dialog'
+import { pillClass, pillCountClass } from '../ui/styles'
+import { buttonClass } from '../ui/Button'
 
 const AUTOSAVE_MS = 1500
 
@@ -127,7 +131,7 @@ export default function ExamRunner({ attempt, onDone }: { attempt: ExamAttempt; 
           <button
             type="button"
             onClick={() => setConfirming(true)}
-            className="inline-flex items-center gap-1.5 rounded-lg bg-indigo-600 px-3 py-1.5 text-sm font-semibold text-white hover:bg-indigo-700 focus-visible:ring-4 focus-visible:ring-indigo-300 focus-visible:outline-none"
+            className={buttonClass({ size: 'sm' })}
           >
             <Send className="h-4 w-4" /> Entregar
           </button>
@@ -139,13 +143,11 @@ export default function ExamRunner({ attempt, onDone }: { attempt: ExamAttempt; 
               type="button"
               onClick={() => go(i)}
               aria-current={i === section ? 'step' : undefined}
-              className={`inline-flex shrink-0 items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium transition ${
-                i === section ? 'bg-slate-900 text-white' : 'text-slate-600 hover:bg-slate-100'
-              }`}
+              className={pillClass(i === section)}
             >
               {counts[i].done === counts[i].total && <Check className="h-3.5 w-3.5" strokeWidth={3} />}
               {s.title}
-              <span className={`tabular-nums ${i === section ? 'text-slate-300' : 'text-slate-400'}`}>
+              <span className={pillCountClass(i === section)}>
                 {counts[i].done}/{counts[i].total}
               </span>
             </button>
@@ -185,79 +187,60 @@ export default function ExamRunner({ attempt, onDone }: { attempt: ExamAttempt; 
         </div>
 
         <div className="mt-10 flex items-center justify-between gap-3 border-t border-slate-200 pt-6">
-          <button
-            type="button"
-            onClick={() => go(section - 1)}
-            disabled={section === 0}
-            className="inline-flex items-center gap-2 rounded-xl border border-slate-300 bg-white px-4 py-2.5 font-semibold text-slate-700 hover:bg-slate-50 disabled:invisible"
-          >
+          <Button variant="secondary" onClick={() => go(section - 1)} disabled={section === 0} className="disabled:invisible">
             <ArrowLeft className="h-4 w-4" /> Anterior
-          </button>
+          </Button>
           {last ? (
-            <button
-              type="button"
-              onClick={() => setConfirming(true)}
-              className="inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-5 py-2.5 font-semibold text-white hover:bg-indigo-700 focus-visible:ring-4 focus-visible:ring-indigo-300 focus-visible:outline-none"
-            >
+            <Button onClick={() => setConfirming(true)}>
               <Send className="h-4 w-4" /> Entregar el examen
-            </button>
+            </Button>
           ) : (
-            <button
-              type="button"
-              onClick={() => go(section + 1)}
-              className="inline-flex items-center gap-2 rounded-xl bg-slate-900 px-5 py-2.5 font-semibold text-white hover:bg-slate-800 focus-visible:ring-4 focus-visible:ring-slate-300 focus-visible:outline-none"
-            >
+            <Button onClick={() => go(section + 1)}>
               {paper.sections[section + 1].title} <ArrowRight className="h-4 w-4" />
-            </button>
+            </Button>
           )}
         </div>
       </main>
 
       {(confirming || submitting) && (
-        <div className="fixed inset-0 z-50 grid place-items-center bg-slate-900/50 p-4" role="dialog" aria-modal="true" aria-labelledby="submit-title">
-          <div className="w-full max-w-md rounded-2xl bg-white p-6 shadow-xl">
-            {submitting ? (
-              <p className="flex items-center gap-3 font-semibold text-slate-800">
-                <Loader2 className="h-5 w-5 animate-spin text-indigo-600" /> {timeUp ? 'Se ha acabado el tiempo. Corrigiendo…' : 'Corrigiendo tu examen…'}
+        // While correcting there is nothing to cancel: no onClose.
+        <Dialog labelledBy="submit-title" onClose={submitting ? undefined : () => setConfirming(false)}>
+          {submitting ? (
+            <p id="submit-title" className="flex items-center gap-3 font-semibold text-slate-800">
+              <Loader2 className="h-5 w-5 animate-spin text-indigo-600" /> {timeUp ? 'Se ha acabado el tiempo. Corrigiendo…' : 'Corrigiendo tu examen…'}
+            </p>
+          ) : (
+            <>
+              <h2 id="submit-title" className="font-display text-xl font-bold text-slate-900">
+                ¿Entregar el examen?
+              </h2>
+              <p className="mt-2 text-slate-600">
+                {done === total
+                  ? 'Has respondido todas las preguntas.'
+                  : `Te quedan ${total - done} ${total - done === 1 ? 'pregunta' : 'preguntas'} sin responder; contarán como fallos.`}{' '}
+                Una vez entregado no podrás cambiar nada.
               </p>
-            ) : (
-              <>
-                <h2 id="submit-title" className="font-display text-xl font-bold text-slate-900">
-                  ¿Entregar el examen?
-                </h2>
-                <p className="mt-2 text-slate-600">
-                  {done === total
-                    ? 'Has respondido todas las preguntas.'
-                    : `Te quedan ${total - done} ${total - done === 1 ? 'pregunta' : 'preguntas'} sin responder; contarán como fallos.`}{' '}
-                  Una vez entregado no podrás cambiar nada.
-                </p>
-                <ul className="mt-4 space-y-1 text-sm">
-                  {paper.sections.map((s, i) => (
-                    <li key={s.section_id} className="flex justify-between">
-                      <span className="text-slate-600">{s.title}</span>
-                      <span className={`font-semibold tabular-nums ${counts[i].done === counts[i].total ? 'text-emerald-700' : 'text-amber-700'}`}>
-                        {counts[i].done}/{counts[i].total}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-                <div className="mt-6 flex justify-end gap-2">
-                  <button type="button" onClick={() => setConfirming(false)} className="rounded-xl px-4 py-2.5 font-semibold text-slate-700 hover:bg-slate-100">
-                    Seguir revisando
-                  </button>
-                  <button
-                    type="button"
-                    onClick={submit}
-                    autoFocus
-                    className="rounded-xl bg-indigo-600 px-5 py-2.5 font-semibold text-white hover:bg-indigo-700 focus-visible:ring-4 focus-visible:ring-indigo-300 focus-visible:outline-none"
-                  >
-                    Entregar
-                  </button>
-                </div>
-              </>
-            )}
-          </div>
-        </div>
+              <ul className="mt-4 space-y-1 text-sm">
+                {paper.sections.map((s, i) => (
+                  <li key={s.section_id} className="flex justify-between">
+                    <span className="text-slate-600">{s.title}</span>
+                    <span className={`font-semibold tabular-nums ${counts[i].done === counts[i].total ? 'text-emerald-700' : 'text-amber-700'}`}>
+                      {counts[i].done}/{counts[i].total}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+              <div className="mt-6 flex justify-end gap-2">
+                <Button variant="ghost" onClick={() => setConfirming(false)}>
+                  Seguir revisando
+                </Button>
+                <Button onClick={submit} autoFocus>
+                  Entregar
+                </Button>
+              </div>
+            </>
+          )}
+        </Dialog>
       )}
     </div>
   )

@@ -1,12 +1,14 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
-import { AlertCircle, ArrowLeft, BookA, Brain, Layers, Lightbulb, Loader2, Play } from 'lucide-react'
+import { BookA, Brain, Layers, Lightbulb, Loader2, Play } from 'lucide-react'
 import { api } from '../api/client'
 import GrammarRuleStep from '../components/steps/GrammarRuleStep'
 import PhrasalFamilyLinks from '../components/expressions/PhrasalFamilyLinks'
 import UnitExpressions from '../components/expressions/UnitExpressions'
 import WordCard from '../components/WordCard'
 import type { GrammarRuleContent, UnitResponse, VocabularyTableContent } from '../types'
+import ErrorState from '../components/ui/ErrorState'
+import BackLink from '../components/ui/BackLink'
 
 type Tab = 'grammar' | 'vocabulary'
 
@@ -28,9 +30,7 @@ export default function Study() {
 
   if (error) {
     return (
-      <div className="mx-auto mt-12 flex max-w-md items-center gap-2 rounded-lg bg-red-50 p-4 text-red-700">
-        <AlertCircle className="h-5 w-5" /> {error}
-      </div>
+      <ErrorState />
     )
   }
   if (!data) {
@@ -59,9 +59,7 @@ export default function Study() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-8">
       <div className="flex flex-wrap items-center justify-between gap-2">
-        <Link to="/levels" className="inline-flex items-center gap-1 text-sm text-slate-500 hover:text-indigo-600">
-          <ArrowLeft className="h-4 w-4" /> Inicio
-        </Link>
+        <BackLink to="/levels">Inicio</BackLink>
         <Link
           to={`/levels/${level_id}/study?tab=${tab}#${unit.unit_id}`}
           className="inline-flex items-center gap-1.5 text-sm font-medium text-indigo-600 hover:text-indigo-800 hover:underline"
@@ -73,7 +71,7 @@ export default function Study() {
       <header className="mt-4 flex flex-wrap items-end justify-between gap-4">
         <div>
           <p className="text-sm text-slate-500">Ficha de estudio de {level_id}</p>
-          <h1 className="font-display text-3xl font-extrabold tracking-tight text-slate-900">{unit.title}</h1>
+          <h1 className="h-page">{unit.title}</h1>
         </div>
         <Link
           to={`/units/${unit.unit_id}?level=${level_id}`}

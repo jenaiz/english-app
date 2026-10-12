@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { AlertCircle, ArrowLeft, ArrowRight, Loader2 } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Loader2 } from 'lucide-react'
 import { buildIndex, indexMeta, indexPath, initialIndexData, type ExpressionIndexData, type PageKind } from '../lib/expressionPages'
 import { loadExpressions } from '../lib/expressionsCatalog'
 import { usePageMeta } from '../lib/usePageMeta'
+import ErrorState from '../components/ui/ErrorState'
 
 const COPY: Record<PageKind, { title: string; intro: string; jump: string; other: string }> = {
   idiom: {
@@ -41,9 +42,7 @@ export default function ExpressionIndexPage({ kind }: { kind: PageKind }) {
   if (failed) {
     return (
       <div className="mx-auto max-w-3xl px-4 py-10">
-        <p className="flex items-center gap-2 rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700">
-          <AlertCircle className="h-4 w-4" /> No se ha podido cargar la lista.
-        </p>
+        <ErrorState />
       </div>
     )
   }
@@ -67,7 +66,7 @@ export default function ExpressionIndexPage({ kind }: { kind: PageKind }) {
       </nav>
 
       <header className="mt-6 max-w-3xl">
-        <h1 className="font-display text-4xl font-extrabold tracking-tight text-indigo-950 md:text-5xl">{copy.title}</h1>
+        <h1 className="h-page">{copy.title}</h1>
         <p className="mt-2 text-lg font-semibold text-indigo-600">
           {data.total} {kind === 'idiom' ? 'expresiones' : 'phrasal verbs'} con su significado en español
         </p>
@@ -88,7 +87,7 @@ export default function ExpressionIndexPage({ kind }: { kind: PageKind }) {
 
       {data.groups.map((g) => (
         <section key={g.id} id={g.id} className="mt-10 scroll-mt-24">
-          <h2 className="font-display text-2xl font-bold text-indigo-950">
+          <h2 className="h-section">
             {g.title} <span className="text-base font-medium text-slate-400 tabular-nums">· {g.links.length}</span>
           </h2>
           <ul className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">

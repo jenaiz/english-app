@@ -1,12 +1,14 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { AlertCircle, Award, BookA, Brain, Check, CheckCircle2, Clock, GraduationCap, Lightbulb, Loader2, Play, RotateCcw } from 'lucide-react'
+import { Award, BookA, Brain, Check, CheckCircle2, Clock, GraduationCap, Lightbulb, Play, RotateCcw } from 'lucide-react'
 import { api } from '../api/client'
 import { useAuth } from '../context/AuthContext'
 import { useSrsSummary } from '../lib/useSrsSummary'
 import { colorOf, flattenUnits, type UnitEntry } from '../lib/levels'
 import { firstName } from '../lib/user'
 import type { ExamSummary, LessonProgress, LevelSummary, ProgressResponse, UnitSummary } from '../types'
+import ErrorState from '../components/ui/ErrorState'
+import { PageSkeleton } from '../components/ui/Skeleton'
 
 type UnitStatus = 'completed' | 'in_progress' | 'pending'
 
@@ -85,16 +87,12 @@ export default function Levels() {
 
   if (loading) {
     return (
-      <div className="flex justify-center py-24 text-indigo-500">
-        <Loader2 className="h-8 w-8 animate-spin" />
-      </div>
+      <PageSkeleton />
     )
   }
   if (error) {
     return (
-      <div className="mx-auto mt-12 flex max-w-md items-center gap-2 rounded-lg bg-red-50 p-4 text-red-700">
-        <AlertCircle className="h-5 w-5" /> {error}
-      </div>
+      <ErrorState />
     )
   }
 
@@ -111,7 +109,7 @@ export default function Levels() {
       {/* Greeting + headline numbers */}
       <header className="flex flex-wrap items-end justify-between gap-4">
         <div>
-          <h1 className="font-display text-4xl font-extrabold tracking-tight text-slate-900">
+          <h1 className="h-page">
             Hola{greetName && `, ${greetName}`}
           </h1>
           <p className="mt-1 text-slate-500">

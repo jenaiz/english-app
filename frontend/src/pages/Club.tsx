@@ -1,10 +1,14 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import { AlertCircle, Gift, Loader2 } from 'lucide-react'
+import { Gift } from 'lucide-react'
 import { api } from '../api/client'
 import ActivityCardView from '../components/club/ActivityCardView'
 import { ROOMS } from '../lib/club'
 import type { ActivityCard, ClubRoom } from '../types'
+import ErrorState from '../components/ui/ErrorState'
+import { PageSkeleton } from '../components/ui/Skeleton'
+import { pillClass, pillCountClass } from '../components/ui/styles'
+import { buttonClass } from '../components/ui/Button'
 
 const LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
 
@@ -37,18 +41,12 @@ export default function Club() {
 
   if (error) {
     return (
-      <div className="mx-auto mt-12 max-w-md px-4">
-        <div className="flex items-center gap-2 rounded-lg bg-red-50 p-4 text-red-700">
-          <AlertCircle className="h-5 w-5" /> {error}
-        </div>
-      </div>
+      <ErrorState />
     )
   }
   if (!cards) {
     return (
-      <div className="flex justify-center py-24 text-indigo-500">
-        <Loader2 className="h-8 w-8 animate-spin" />
-      </div>
+      <PageSkeleton />
     )
   }
 
@@ -63,16 +61,12 @@ export default function Club() {
   const totalOpen = cards.filter((c) => c.state !== 'locked').length
   const info = ROOMS.find((r) => r.id === room)
 
-  const tabCls = (active: boolean) =>
-    `flex shrink-0 items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold transition ${
-      active ? 'bg-slate-900 text-white shadow-sm' : 'bg-white text-slate-600 ring-1 ring-slate-200 hover:bg-slate-50'
-    }`
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8 md:py-12">
       <header className="flex flex-wrap items-end justify-between gap-6">
         <div className="max-w-2xl">
-          <h1 className="flex items-center gap-3 font-display text-4xl font-bold text-slate-900">
+          <h1 className="h-page flex items-center gap-3">
             <Gift className="h-9 w-9 text-amber-500" /> Club
           </h1>
           <p className="mt-2 text-slate-600">
@@ -96,13 +90,13 @@ export default function Club() {
       </header>
 
       <nav className="-mx-4 mt-8 flex gap-2 overflow-x-auto px-4 pb-1" aria-label="Salas del Club">
-        <button type="button" className={tabCls(!room)} onClick={() => setParams({}, { replace: true })}>
+        <button type="button" className={pillClass(!room)} onClick={() => setParams({}, { replace: true })}>
           Todo
         </button>
         {ROOMS.map((r) => (
-          <button key={r.id} type="button" className={tabCls(room === r.id)} onClick={() => setParams({ room: r.id }, { replace: true })}>
+          <button key={r.id} type="button" className={pillClass(room === r.id)} onClick={() => setParams({ room: r.id }, { replace: true })}>
             <r.Icon className="h-4 w-4" /> {r.label}
-            <span className={`text-xs tabular-nums ${room === r.id ? 'text-slate-300' : 'text-slate-400'}`}>
+            <span className={pillCountClass(room === r.id)}>
               {counts[r.id].open}/{counts[r.id].total}
             </span>
           </button>
@@ -128,7 +122,7 @@ export default function Club() {
           <p className="mx-auto mt-1 max-w-md text-amber-900/80">
             Termina una unidad del curso y se abrirá una actividad del Club. Cuantas más unidades hagas, más completo estará tu álbum.
           </p>
-          <Link to="/levels" className="mt-5 inline-block rounded-xl bg-indigo-600 px-5 py-2.5 font-semibold text-white shadow-sm transition hover:bg-indigo-700">
+          <Link to="/levels" className={buttonClass({ className: 'mt-5' })}>
             Seguir con el curso
           </Link>
         </div>

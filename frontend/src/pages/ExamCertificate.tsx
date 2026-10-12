@@ -1,12 +1,15 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { AlertCircle, Award, Loader2, Printer } from 'lucide-react'
+import { Award, Loader2, Printer } from 'lucide-react'
 import { api } from '../api/client'
 import { useAuth } from '../context/AuthContext'
 import { colorOf } from '../lib/levels'
 import { SITE } from '../lib/site'
 import { displayName } from '../lib/user'
 import type { ExamAttempt } from '../types'
+import ErrorState from '../components/ui/ErrorState'
+import BackLink from '../components/ui/BackLink'
+import { buttonClass } from '../components/ui/Button'
 
 const LEVEL_NAME: Record<string, string> = { A1: 'Acceso', A2: 'Plataforma', B1: 'Umbral', B2: 'Avanzado', C1: 'Dominio operativo eficaz', C2: 'Maestría' }
 
@@ -29,9 +32,7 @@ export default function ExamCertificate() {
 
   if (error) {
     return (
-      <div className="mx-auto mt-12 flex max-w-md items-center gap-2 rounded-lg bg-red-50 p-4 text-red-700">
-        <AlertCircle className="h-5 w-5" /> {error}
-      </div>
+      <ErrorState />
     )
   }
   if (!attempt || !user) {
@@ -50,13 +51,11 @@ export default function ExamCertificate() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-10 print:max-w-none print:p-0">
       <div className="mb-6 flex flex-wrap items-center justify-between gap-3 print:hidden">
-        <Link to={`/examen/${attempt.level_id}/intento/${attempt.attempt_id}`} className="text-sm font-medium text-slate-500 hover:text-indigo-700">
-          ← Volver a los resultados
-        </Link>
+        <BackLink to={`/examen/${attempt.level_id}/intento/${attempt.attempt_id}`}>Resultados</BackLink>
         <button
           type="button"
           onClick={() => window.print()}
-          className="inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-4 py-2.5 font-semibold text-white hover:bg-indigo-700 focus-visible:ring-4 focus-visible:ring-indigo-300 focus-visible:outline-none"
+          className={buttonClass()}
         >
           <Printer className="h-4 w-4" /> Imprimir o guardar en PDF
         </button>

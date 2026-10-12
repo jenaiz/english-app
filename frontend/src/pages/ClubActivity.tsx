@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { AlertCircle, ArrowLeft, Clock, Loader2, Lock } from 'lucide-react'
+import { AlertCircle, Clock, Loader2, Lock } from 'lucide-react'
 import { api, ApiError } from '../api/client'
 import ActivityEnd from '../components/club/ActivityEnd'
 import ReadingPlayer from '../components/club/ReadingPlayer'
@@ -10,6 +10,9 @@ import VerbCloze from '../components/exercises/VerbCloze'
 import { trackEvent } from '../lib/analytics'
 import { roomOf } from '../lib/club'
 import type { Activity, ActivityCard, ExerciseResult, ReadingContent, SongContent, VerbClozeContent, VideoContent } from '../types'
+import ErrorState from '../components/ui/ErrorState'
+import LevelBadge from '../components/ui/LevelBadge'
+import BackLink from '../components/ui/BackLink'
 
 interface Finished extends ExerciseResult {
   score: number
@@ -64,9 +67,7 @@ export default function ClubActivity() {
             <p className="mt-1 text-sm text-slate-500">Sigue con el curso para desbloquearla.</p>
           </div>
         ) : (
-          <div className="flex items-center gap-2 rounded-lg bg-red-50 p-4 text-red-700">
-            <AlertCircle className="h-5 w-5" /> {error.message}
-          </div>
+          <ErrorState className="mt-0" />
         )}
         <Link to="/club" className="mt-4 inline-block text-indigo-600 hover:underline">
           ← Volver al Club
@@ -128,9 +129,7 @@ export default function ClubActivity() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-6 md:py-10">
-      <Link to={`/club?room=${activity.room}`} className="inline-flex items-center gap-1.5 text-sm font-medium text-slate-500 hover:text-indigo-600">
-        <ArrowLeft className="h-4 w-4" /> Club · {room.label}
-      </Link>
+      <BackLink to={`/club?room=${activity.room}`}>Club · {room.label}</BackLink>
 
       {finished ? (
         <div className="mt-6">
@@ -154,10 +153,10 @@ export default function ClubActivity() {
             <p className={`flex items-center gap-1.5 text-xs font-semibold tracking-wide uppercase ${room.accent}`}>
               <room.Icon className="h-4 w-4" /> {room.label}
             </p>
-            <h1 className="mt-1 font-display text-3xl font-bold text-slate-900 md:text-4xl">{activity.title}</h1>
+            <h1 className="h-page mt-1">{activity.title}</h1>
             <p className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-slate-500">
               {activity.subtitle && <span className="font-medium text-slate-600">{activity.subtitle}</span>}
-              <span className="rounded-md bg-slate-100 px-1.5 py-0.5 text-xs font-semibold text-slate-600">{activity.level}</span>
+              <LevelBadge level={activity.level} />
               <span className="flex items-center gap-1">
                 <Clock className="h-3.5 w-3.5" /> {activity.minutes} min
               </span>

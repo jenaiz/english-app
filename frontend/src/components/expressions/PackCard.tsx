@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { CheckCircle2 } from 'lucide-react'
 import type { PackProgress } from '../../lib/packs'
 import type { Pack } from '../../types'
+import LevelBadge from '../ui/LevelBadge'
 
 /** A pack in a list: title, level, size and progress (mastered items). */
 export default function PackCard({ pack, progress }: { pack: Pack; progress: PackProgress }) {
@@ -14,7 +15,7 @@ export default function PackCard({ pack, progress }: { pack: Pack; progress: Pac
     >
       <div className="flex items-center justify-between gap-2 text-xs font-semibold">
         <span className="text-slate-500">{progress.total} expresiones</span>
-        <span className="rounded-full bg-yellow-300 px-2 py-0.5 text-slate-900">{pack.level}</span>
+        <LevelBadge level={pack.level} />
       </div>
       <h3 className="mt-3 font-display text-lg leading-snug font-bold text-indigo-950 group-hover:text-indigo-700">{pack.title}</h3>
       <p className="mt-1 text-sm text-slate-600">{pack.description}</p>

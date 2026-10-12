@@ -1,6 +1,7 @@
 import { useState, type ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import { CheckCircle2, Loader2, MailCheck } from 'lucide-react'
+import { buttonClass } from './ui/Button'
 
 interface Props {
   title: string
@@ -17,7 +18,7 @@ export default function EmailSent({ title, children, onResend }: Props) {
         <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-indigo-50 text-indigo-600">
           <MailCheck className="h-6 w-6" />
         </div>
-        <h1 className="mt-4 text-2xl font-bold text-slate-900">{title}</h1>
+        <h1 className="h-section mt-4">{title}</h1>
         <div className="mt-2 text-sm leading-relaxed text-slate-600">{children}</div>
         <p className="mt-4 text-xs text-slate-400">Si no lo ves en unos minutos, revisa la carpeta de spam.</p>
         {onResend && <ResendButton onResend={onResend} className="mt-6" />}
@@ -55,7 +56,7 @@ export function ResendButton({ onResend, className = '' }: { onResend: () => Pro
         type="button"
         onClick={resend}
         disabled={state === 'sending'}
-        className="inline-flex items-center gap-2 rounded-lg border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700 transition hover:bg-slate-50 disabled:opacity-60"
+        className={buttonClass({ variant: 'secondary', size: 'sm' })}
       >
         {state === 'sending' && <Loader2 className="h-4 w-4 animate-spin" />}
         Reenviar email

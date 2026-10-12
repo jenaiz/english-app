@@ -6,13 +6,12 @@ import { useAuth } from '../context/AuthContext'
 import { useConsent } from '../context/ConsentContext'
 import { forgetLastEmail } from '../lib/lastEmail'
 import { displayName } from '../lib/user'
+import { buttonClass } from '../components/ui/Button'
+import { inputClass } from '../components/ui/styles'
 
-const inputClass =
-  'w-full rounded-lg border border-slate-300 px-3 py-2.5 outline-none transition focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100'
-const primaryButton =
-  'inline-flex items-center justify-center gap-2 rounded-lg bg-indigo-600 px-4 py-2.5 font-medium text-white shadow-sm transition hover:bg-indigo-700 disabled:opacity-60'
-const secondaryButton =
-  'inline-flex items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-4 py-2.5 font-medium text-slate-700 transition hover:bg-slate-50 disabled:opacity-60'
+const fieldClass = inputClass()
+const primaryButton = buttonClass()
+const secondaryButton = buttonClass({ variant: 'secondary' })
 
 function errorMessage(err: unknown) {
   if (err instanceof ApiError && err.code === 'wrong_password') return 'La contraseña no es correcta'
@@ -26,7 +25,7 @@ export default function Settings() {
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-10">
-      <h1 className="text-3xl font-bold text-slate-900">Ajustes</h1>
+      <h1 className="h-page">Ajustes</h1>
       <p className="mt-1 text-slate-500">Tu perfil, tu forma de entrar y tus datos.</p>
 
       <div className="mt-8 space-y-6">
@@ -35,7 +34,7 @@ export default function Settings() {
         <PrivacySection />
         <DeleteSection />
       </div>
-      <p className="mt-8 text-center text-xs text-slate-400">
+      <p className="mt-8 text-center text-xs text-slate-500">
         Cuenta creada el {new Date(user.created_at).toLocaleDateString('es-ES', { dateStyle: 'long' })}
       </p>
     </div>
@@ -112,7 +111,7 @@ function ProfileSection() {
               setName(e.target.value)
               setSuccess('')
             }}
-            className={inputClass}
+            className={fieldClass}
           />
           <button type="submit" disabled={saving || !changed} className={primaryButton}>
             {saving && <Loader2 className="h-4 w-4 animate-spin" />} Guardar
@@ -204,13 +203,13 @@ function ChangePasswordForm() {
         <label htmlFor="current-password" className="mb-1 block text-sm font-medium text-slate-700">
           Contraseña actual
         </label>
-        <input id="current-password" type="password" autoComplete="current-password" value={current} onChange={(e) => setCurrent(e.target.value)} className={inputClass} />
+        <input id="current-password" type="password" autoComplete="current-password" value={current} onChange={(e) => setCurrent(e.target.value)} className={fieldClass} />
       </div>
       <div>
         <label htmlFor="new-password" className="mb-1 block text-sm font-medium text-slate-700">
           Nueva contraseña
         </label>
-        <input id="new-password" type="password" autoComplete="new-password" value={next} onChange={(e) => setNext(e.target.value)} className={inputClass} />
+        <input id="new-password" type="password" autoComplete="new-password" value={next} onChange={(e) => setNext(e.target.value)} className={fieldClass} />
         <p className="mt-1 text-xs text-slate-500">Entre 8 y 72 caracteres.</p>
       </div>
       <Feedback error={error} />
@@ -335,7 +334,7 @@ function DeleteSection() {
         <button
           type="button"
           onClick={() => setOpen(true)}
-          className="inline-flex items-center gap-2 rounded-lg border border-red-300 px-4 py-2.5 font-medium text-red-700 transition hover:bg-red-50"
+          className={buttonClass({ variant: 'danger-outline' })}
         >
           <Trash2 className="h-4 w-4" /> Borrar mi cuenta
         </button>
@@ -351,7 +350,7 @@ function DeleteSection() {
               autoComplete={user.has_password ? 'current-password' : 'off'}
               value={confirm}
               onChange={(e) => setConfirm(e.target.value)}
-              className="w-full rounded-lg border border-slate-300 px-3 py-2.5 outline-none transition focus:border-red-500 focus:ring-2 focus:ring-red-100"
+              className={inputClass({ tone: 'danger' })}
             />
           </div>
           <Feedback error={error} />
@@ -359,7 +358,7 @@ function DeleteSection() {
             <button
               type="submit"
               disabled={!ready || deleting}
-              className="inline-flex items-center gap-2 rounded-lg bg-red-600 px-4 py-2.5 font-medium text-white shadow-sm transition hover:bg-red-700 disabled:opacity-60"
+              className={buttonClass({ variant: 'danger' })}
             >
               {deleting && <Loader2 className="h-4 w-4 animate-spin" />} Borrar definitivamente
             </button>

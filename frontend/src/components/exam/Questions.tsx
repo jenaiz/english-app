@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import type { PaperItem } from '../../types'
+import { buttonClass } from '../ui/Button'
 
 /**
  * Level-exam questions. Unlike lesson exercises they never say whether an answer is right:
@@ -93,7 +94,7 @@ function Order({ item, value, onChange }: Props) {
             key={i}
             type="button"
             onClick={() => set(picked.filter((x) => x !== i))}
-            className="rounded-lg bg-indigo-600 px-3 py-1.5 font-medium text-white shadow-sm hover:bg-indigo-700 focus-visible:ring-4 focus-visible:ring-indigo-200 focus-visible:outline-none"
+            className={buttonClass({ size: 'sm' })}
           >
             {words[i]}
           </button>

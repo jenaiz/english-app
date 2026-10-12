@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
-import { AlertCircle, ArrowLeft, ArrowRight, Brain, CheckCircle2, ClipboardCheck, History, Home, Loader2, PartyPopper, RotateCcw, type LucideIcon } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Brain, CheckCircle2, ClipboardCheck, History, Home, Loader2, PartyPopper, RotateCcw, type LucideIcon } from 'lucide-react'
 import { api } from '../api/client'
 import UnlockReveal from '../components/club/UnlockReveal'
 import UnitExpressions from '../components/expressions/UnitExpressions'
@@ -8,6 +8,10 @@ import StepRenderer, { EXERCISE_TYPES } from '../components/steps/StepRenderer'
 import { flattenUnits, type UnitEntry } from '../lib/levels'
 import { PHASES } from '../lib/phases'
 import type { ExerciseResult, Phase, Step, Unit, UnitResponse, UnitSummary, UnlockedActivity, VocabularyTableContent } from '../types'
+import CompletionHeader from '../components/ui/CompletionHeader'
+import ErrorState from '../components/ui/ErrorState'
+import BackLink from '../components/ui/BackLink'
+import { buttonClass } from '../components/ui/Button'
 
 interface FlatStep {
   step: Step
@@ -245,9 +249,7 @@ export default function UnitView() {
   if (loadError) {
     return (
       <div className="mx-auto mt-12 max-w-md px-4">
-        <div className="flex items-center gap-2 rounded-lg bg-red-50 p-4 text-red-700">
-          <AlertCircle className="h-5 w-5" /> {loadError}
-        </div>
+        <ErrorState className="mt-0" />
         <Link to="/levels" className="mt-4 inline-block text-indigo-600 hover:underline">
           ← Volver a Inicio
         </Link>
@@ -353,9 +355,7 @@ export default function UnitView() {
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-8">
-      <Link to="/levels" className="inline-flex items-center gap-1 text-sm text-slate-500 hover:text-indigo-600">
-        <ArrowLeft className="h-4 w-4" /> Inicio
-      </Link>
+      <BackLink to="/levels">Inicio</BackLink>
 
       <div className="mt-4">
         <p className="text-xs font-semibold tracking-wide text-indigo-600 uppercase">
@@ -457,16 +457,14 @@ export default function UnitView() {
       )}
 
       {saveError && (
-        <div className="mt-4 flex items-center gap-2 rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700">
-          <AlertCircle className="h-4 w-4" /> {saveError}
-        </div>
+        <ErrorState inline message="No se ha podido guardar tu progreso." onRetry={next} className="mt-4" />
       )}
 
       <div className="mt-6 flex items-center justify-between">
         <button
           onClick={() => goTo(Math.max(0, index - 1))}
           disabled={index === 0}
-          className="inline-flex items-center gap-2 rounded-lg border border-slate-300 bg-white px-4 py-2.5 font-medium text-slate-700 transition hover:bg-slate-50 disabled:opacity-40"
+          className={buttonClass({ variant: 'secondary' })}
         >
           <ArrowLeft className="h-4 w-4" /> Anterior
         </button>
@@ -474,9 +472,7 @@ export default function UnitView() {
           onClick={next}
           disabled={saving || !canAdvance}
           aria-describedby={canAdvance ? undefined : 'advance-hint'}
-          className={`inline-flex items-center gap-2 rounded-lg px-5 py-2.5 font-semibold text-white shadow-sm transition disabled:cursor-not-allowed disabled:opacity-40 ${
-            current.isLastInLesson ? 'bg-emerald-600 hover:bg-emerald-700' : 'bg-indigo-600 hover:bg-indigo-700'
-          }`}
+          className={buttonClass({ variant: current.isLastInLesson ? 'success' : 'primary' })}
         >
           {saving && <Loader2 className="h-4 w-4 animate-spin" />}
           {current.isLastInLesson ? (
@@ -522,15 +518,13 @@ function LessonComplete({
   const { next } = summary
   return (
     <div className="mx-auto max-w-lg px-4 py-16 text-center">
-      <div className={`mx-auto grid h-20 w-20 place-items-center rounded-full ${good ? 'bg-emerald-100 text-emerald-600' : 'bg-amber-100 text-amber-600'}`}>
-        <PartyPopper className="h-10 w-10" />
-      </div>
-      <h1 className="mt-6 text-3xl font-bold text-slate-900">
-        {summary.isTest ? '¡Test completado!' : summary.unitDone ? '¡Unidad completada!' : '¡Lección completada!'}
-      </h1>
-      <p className="mt-2 text-slate-500">
-        {summary.unitDone ? unitTitle : summary.title}. Tu progreso se ha guardado.
-      </p>
+      {/* A failed test is no party: neutral icon and title, and the advice below says what to do. */}
+      <CompletionHeader
+        Icon={summary.isTest && !good ? RotateCcw : PartyPopper}
+        good={good}
+        title={summary.isTest ? (good ? '¡Test superado!' : 'Test terminado') : summary.unitDone ? '¡Unidad completada!' : '¡Lección completada!'}
+        subtitle={`${summary.unitDone ? unitTitle : summary.title}. Tu progreso se ha guardado.`}
+      />
       {summary.isTest && (
         <p className={`mt-3 font-medium ${good ? 'text-emerald-700' : 'text-amber-700'}`}>
           {good ? 'Aprobado: dominas lo visto hasta aquí.' : 'Te conviene repasar las unidades anteriores antes de seguir.'}

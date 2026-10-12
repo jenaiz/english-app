@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { AlertCircle, ArrowLeft, ArrowRight, Layers, Loader2 } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Layers, Loader2 } from 'lucide-react'
 import AddToReview from '../components/expressions/AddToReview'
 import SpeakButton from '../components/SpeakButton'
 import { useAuth } from '../context/AuthContext'
@@ -9,6 +9,8 @@ import { loadExpressions } from '../lib/expressionsCatalog'
 import { usePageMeta } from '../lib/usePageMeta'
 import { useSavedExpressions } from '../lib/useSavedExpressions'
 import NotFound from './NotFound'
+import ErrorState from '../components/ui/ErrorState'
+import LevelBadge from '../components/ui/LevelBadge'
 
 /** Public page of one idiom or phrasal verb. Prerendered at build time for search engines. */
 export default function ExpressionPage() {
@@ -41,9 +43,7 @@ export default function ExpressionPage() {
   if (state === 'error') {
     return (
       <div className="mx-auto max-w-3xl px-4 py-10">
-        <p className="flex items-center gap-2 rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700">
-          <AlertCircle className="h-4 w-4" /> No se ha podido cargar la expresión.
-        </p>
+        <ErrorState />
       </div>
     )
   }
@@ -74,7 +74,7 @@ export default function ExpressionPage() {
 
       <header className="mt-6">
         <div className="flex flex-wrap gap-2 text-xs font-semibold">
-          <span className="rounded-full bg-yellow-300 px-2.5 py-1 text-slate-900">{page.level}</span>
+          <LevelBadge level={page.level} className="py-1" />
           <span className="rounded-full bg-indigo-50 px-2.5 py-1 text-indigo-700">{isIdiom ? 'Idiom' : 'Phrasal verb'}</span>
           {isIdiom && <span className="rounded-full bg-slate-100 px-2.5 py-1 text-slate-700">{page.idiom.topic}</span>}
           {isIdiom && <span className="rounded-full bg-slate-100 px-2.5 py-1 text-slate-700">{page.idiom.register}</span>}

@@ -47,7 +47,7 @@ export default function PhrasalExplorer({ families, initialRoot, initialParticle
                 setSelected(0)
               }}
               className={`rounded-xl px-4 py-2 font-display text-lg font-bold transition ${
-                i === rootIndex ? 'bg-indigo-950 text-white' : 'bg-white text-indigo-950 ring-1 ring-slate-200 hover:ring-indigo-300'
+                i === rootIndex ? 'bg-indigo-600 text-white shadow-sm' : 'bg-white text-indigo-950 ring-1 ring-slate-200 hover:ring-indigo-300'
               }`}
             >
               {f.root}

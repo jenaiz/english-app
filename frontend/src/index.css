@@ -8,6 +8,21 @@
 html, body, #root { min-height: 100%; }
 body { @apply bg-slate-50 text-slate-800 antialiased; }
 
+/* Keyboard focus for every control that doesn't style its own. In the base layer so any
+   focus-visible:* utility overrides it (unlayered CSS would beat every utility). */
+@layer base {
+  :where(a, button, summary, [role="button"], [role="tab"]):focus-visible {
+    outline: 2px solid var(--color-indigo-500);
+    outline-offset: 2px;
+  }
+}
+
+/* Heading scale: page title, section title. Cards use plain text-lg font-semibold. */
+@layer components {
+  .h-page { @apply font-display text-3xl font-extrabold tracking-tight text-slate-900 md:text-4xl; }
+  .h-section { @apply font-display text-2xl font-bold text-slate-900; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
 }

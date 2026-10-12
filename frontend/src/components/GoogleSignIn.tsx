@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { AlertCircle, Link2, Loader2 } from 'lucide-react'
 import { ApiError } from '../api/client'
 import { publicConfig } from '../lib/publicConfig'
+import { buttonClass } from './ui/Button'
 
 // Minimal typing for the parts of Google Identity Services we use.
 interface GoogleId {
@@ -195,7 +196,7 @@ function LinkAccountsDialog({
             type="button"
             onClick={confirm}
             disabled={busy}
-            className="flex items-center justify-center gap-2 rounded-lg bg-indigo-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-indigo-700 disabled:opacity-60"
+            className={buttonClass({ size: 'sm', className: 'justify-center' })}
           >
             {busy && <Loader2 className="h-4 w-4 animate-spin" />}
             Vincular cuentas

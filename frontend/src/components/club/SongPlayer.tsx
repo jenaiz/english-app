@@ -6,6 +6,7 @@ import type { Activity, ExerciseResult, SongContent } from '../../types'
 import MultipleChoice from '../exercises/MultipleChoice'
 import Attribution from './Attribution'
 import VideoFrame from './VideoFrame'
+import { buttonClass } from '../ui/Button'
 
 interface Props {
   activity: Activity
@@ -277,7 +278,7 @@ export default function SongPlayer({ activity, content, onFinish }: Props) {
                     <button
                       type="button"
                       onClick={() => setAsking(true)}
-                      className="flex items-center gap-1.5 rounded-lg bg-indigo-600 px-5 py-2.5 font-semibold text-white shadow-sm transition hover:bg-indigo-700"
+                      className={buttonClass()}
                     >
                       <ListChecks className="h-4 w-4" /> Preguntas sobre la letra
                     </button>
@@ -286,7 +287,7 @@ export default function SongPlayer({ activity, content, onFinish }: Props) {
                   <button
                     type="button"
                     onClick={() => onFinish({ correct, total: blanks.length })}
-                    className="rounded-lg bg-indigo-600 px-5 py-2.5 font-semibold text-white shadow-sm transition hover:bg-indigo-700"
+                    className={buttonClass()}
                   >
                     Ver resultado
                   </button>

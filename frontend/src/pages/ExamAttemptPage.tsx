@@ -1,11 +1,12 @@
 import { useCallback, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { AlertCircle, Loader2 } from 'lucide-react'
+import { Loader2 } from 'lucide-react'
 import { api } from '../api/client'
 import ExamResults from '../components/exam/ExamResults'
 import ExamRunner from '../components/exam/ExamRunner'
 import { trackEvent } from '../lib/analytics'
 import type { ExamAttempt } from '../types'
+import ErrorState from '../components/ui/ErrorState'
 
 /** An attempt: the paper while it is open, its results once handed in. */
 export default function ExamAttemptPage() {
@@ -31,9 +32,7 @@ export default function ExamAttemptPage() {
 
   if (error) {
     return (
-      <div className="mx-auto mt-12 flex max-w-md items-center gap-2 rounded-lg bg-red-50 p-4 text-red-700">
-        <AlertCircle className="h-5 w-5" /> {error}
-      </div>
+      <ErrorState />
     )
   }
   if (!attempt) {

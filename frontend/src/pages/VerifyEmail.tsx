@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { AlertCircle, Loader2 } from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
+import { buttonClass } from '../components/ui/Button'
 
 // Tokens are single-use, so keep one request per token even if the effect runs twice
 // (React StrictMode in development).
@@ -37,14 +38,14 @@ export default function VerifyEmail() {
             <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-red-50 text-red-600">
               <AlertCircle className="h-6 w-6" />
             </div>
-            <h1 className="mt-4 text-2xl font-bold text-slate-900">Enlace no válido</h1>
+            <h1 className="h-section mt-4">Enlace no válido</h1>
             <p className="mt-2 text-sm leading-relaxed text-slate-600">
               El enlace ha caducado o ya se ha usado. Si tu cuenta ya está confirmada, inicia sesión. Si no, intenta
               iniciar sesión y pide que te reenviemos el email.
             </p>
             <Link
               to="/login"
-              className="mt-6 inline-block rounded-lg bg-indigo-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-indigo-700"
+              className={buttonClass({ size: 'sm', className: 'mt-6' })}
             >
               Ir a iniciar sesión
             </Link>
