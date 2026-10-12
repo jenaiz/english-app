@@ -8,6 +8,7 @@ import (
 	"path/filepath"
 	"sort"
 	"strings"
+	"sync"
 )
 
 var levelOrder = map[string]int{"A1": 1, "A2": 2, "B1": 3, "B2": 4, "C1": 5, "C2": 6}
@@ -18,6 +19,9 @@ type Catalog struct {
 	levelByID  map[string]*Level
 	unitByID   map[string]UnitRef
 	lessonByID map[string]LessonRef
+	// Vocabulary terms taught by the course, built on first use (see taughtTerms).
+	taughtOnce sync.Once
+	taught     map[string]string
 }
 
 // Load parses every *.json file under the given dirs (recursively, in path order, dir by dir)

@@ -45,7 +45,7 @@ func main() {
 		log.Fatalf("load expressions: %v", err)
 	}
 	log.Printf("loaded %d idioms, %d phrasal verb families, %d hacks from %s", len(expressions.Idioms), len(expressions.PhrasalVerbs), len(expressions.Hacks), cfg.ExpressionsDir)
-	club, err := content.LoadClub(cfg.ClubDir, catalog, expressions)
+	club, err := content.LoadClub(cfg.ClubDir, cfg.LabClubDir, catalog, expressions)
 	if err != nil {
 		log.Fatalf("load club: %v", err)
 	}

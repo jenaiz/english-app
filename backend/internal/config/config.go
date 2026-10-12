@@ -28,7 +28,9 @@ type Config struct {
 	// ExpressionsDir holds the Expresiones content; defaults to a sibling of ContentDir.
 	ExpressionsDir string
 	// ClubDir holds the Club activities (songs, readings, videos…); defaults to a sibling of ContentDir.
-	ClubDir string
+	// LabClubDir holds dev-only showcase activities, always open. Empty in production.
+	ClubDir    string
+	LabClubDir string
 	// VoicesFile maps dialogue speakers to TTS voices; AudioDir holds the pre-generated MP3s.
 	// Both default to siblings of ContentDir.
 	VoicesFile string
@@ -60,6 +62,7 @@ func Load() Config {
 		JWTTTL:             30 * 24 * time.Hour, // renewed while the user keeps visiting (see auth.RefreshAfter)
 		ContentDir:         getEnv("CONTENT_DIR", "./data/levels"),
 		LabDir:             getEnv("LAB_CONTENT_DIR", ""),
+		LabClubDir:         getEnv("LAB_CLUB_DIR", ""),
 		GoogleClientID:     getEnv("GOOGLE_CLIENT_ID", ""),
 		GAMeasurementID:    getEnv("GA_MEASUREMENT_ID", ""),
 		AppURL:             strings.TrimRight(getEnv("APP_URL", "http://localhost:3000"), "/"),

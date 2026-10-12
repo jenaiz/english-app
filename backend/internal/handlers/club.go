@@ -137,6 +137,12 @@ func (h *ClubHandler) Complete(w http.ResponseWriter, r *http.Request) {
 	if !ok {
 		return
 	}
+	if a.Lab {
+		// A lab activity has no record until it is first completed.
+		if _, err := h.Store.UnlockActivity(r.Context(), auth.UserID(r.Context()), a.ID, "lab"); err != nil {
+			log.Printf("unlock lab activity: %v", err)
+		}
+	}
 	if err := h.Store.CompleteActivity(r.Context(), auth.UserID(r.Context()), a.ID, in.Score); err != nil {
 		log.Printf("complete activity: %v", err)
 		writeError(w, http.StatusInternalServerError, "internal error")
@@ -171,6 +177,7 @@ func (h *ClubHandler) unlocked(w http.ResponseWriter, r *http.Request) (*content
 }
 
 // states returns the learner's unlocked activities by id, skipping any no longer in the catalog.
+// Lab activities count as unlocked.
 func (h *ClubHandler) states(ctx context.Context, userID string) (map[string]*store.ActivityState, error) {
 	list, err := h.Store.ListActivities(ctx, userID)
 	if err != nil {
@@ -180,6 +187,13 @@ func (h *ClubHandler) states(ctx context.Context, userID string) (map[string]*st
 	for i := range list {
 		if _, ok := h.Club.Activity(list[i].ActivityID); ok {
 			out[list[i].ActivityID] = &list[i]
+		}
+	}
+	// Lab activities are always open, whether they have a record yet or not.
+	for _, a := range h.Club.Activities {
+		if a.Lab && out[a.ID] == nil {
+			now := time.Now()
+			out[a.ID] = &store.ActivityState{ActivityID: a.ID, Milestone: "lab", UnlockedAt: now, SeenAt: &now}
 		}
 	}
 	return out, nil

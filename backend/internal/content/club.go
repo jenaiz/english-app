@@ -53,6 +53,8 @@ type Activity struct {
 	// AfterUnit, if set, makes finishing that unit unlock this activity first (a theme match).
 	AfterUnit string          `json:"after_unit,omitempty"`
 	Content   json.RawMessage `json:"content"`
+	// Lab activities are dev-only showcases (LAB_CLUB_DIR): always open, never picked by a milestone.
+	Lab bool `json:"lab,omitempty"`
 }
 
 // Club is the catalog of activities, sorted by level and id.
@@ -62,40 +64,17 @@ type Club struct {
 }
 
 // LoadClub reads one activity per *.json file under dir (recursively); a missing dir is an
-// empty Club. Units named in
-// after_unit must exist in the catalog and expressions referenced by an activity in exprs.
-func LoadClub(dir string, catalog *Catalog, exprs *Expressions) (*Club, error) {
-	var paths []string
-	err := filepath.WalkDir(dir, func(path string, d fs.DirEntry, err error) error {
-		if err == nil && !d.IsDir() && strings.HasSuffix(path, ".json") {
-			paths = append(paths, path)
-		}
-		return err
-	})
-	if err != nil && !errors.Is(err, fs.ErrNotExist) {
-		return nil, err
-	}
-	sort.Strings(paths)
-
+// empty Club. Units named in after_unit must exist in the catalog and expressions referenced
+// by an activity in exprs. Activities under labDir (if set) are marked as Lab.
+func LoadClub(dir, labDir string, catalog *Catalog, exprs *Expressions) (*Club, error) {
 	c := &Club{byID: map[string]*Activity{}}
-	for _, p := range paths {
-		name, _ := filepath.Rel(dir, p)
-		data, err := os.ReadFile(p)
-		if err != nil {
+	if labDir != "" {
+		if err := c.load(labDir, true, catalog, exprs); err != nil {
 			return nil, err
 		}
-		var a Activity
-		if err := json.Unmarshal(data, &a); err != nil {
-			return nil, fmt.Errorf("%s: %w", name, err)
-		}
-		if err := a.validate(catalog, exprs); err != nil {
-			return nil, fmt.Errorf("%s: %s: %w", name, a.ID, err)
-		}
-		if _, dup := c.byID[a.ID]; dup {
-			return nil, fmt.Errorf("%s: duplicate activity id %q", name, a.ID)
-		}
-		c.Activities = append(c.Activities, a)
-		c.byID[a.ID] = &c.Activities[len(c.Activities)-1]
+	}
+	if err := c.load(dir, false, catalog, exprs); err != nil {
+		return nil, err
 	}
 	sort.SliceStable(c.Activities, func(i, j int) bool {
 		a, b := c.Activities[i], c.Activities[j]
@@ -104,11 +83,47 @@ func LoadClub(dir string, catalog *Catalog, exprs *Expressions) (*Club, error) {
 		}
 		return a.ID < b.ID
 	})
-	// Re-index: sorting moved the activities.
+	// Index after sorting, which moves the activities.
 	for i := range c.Activities {
 		c.byID[c.Activities[i].ID] = &c.Activities[i]
 	}
 	return c, nil
+}
+
+func (c *Club) load(dir string, lab bool, catalog *Catalog, exprs *Expressions) error {
+	var paths []string
+	err := filepath.WalkDir(dir, func(path string, d fs.DirEntry, err error) error {
+		if err == nil && !d.IsDir() && strings.HasSuffix(path, ".json") {
+			paths = append(paths, path)
+		}
+		return err
+	})
+	if err != nil && !errors.Is(err, fs.ErrNotExist) {
+		return err
+	}
+	sort.Strings(paths)
+
+	for _, p := range paths {
+		name, _ := filepath.Rel(dir, p)
+		data, err := os.ReadFile(p)
+		if err != nil {
+			return err
+		}
+		var a Activity
+		if err := json.Unmarshal(data, &a); err != nil {
+			return fmt.Errorf("%s: %w", name, err)
+		}
+		if err := a.validate(catalog, exprs); err != nil {
+			return fmt.Errorf("%s: %s: %w", name, a.ID, err)
+		}
+		if _, dup := c.byID[a.ID]; dup {
+			return fmt.Errorf("%s: duplicate activity id %q", name, a.ID)
+		}
+		a.Lab = lab
+		c.Activities = append(c.Activities, a)
+		c.byID[a.ID] = &c.Activities[len(c.Activities)-1]
+	}
+	return nil
 }
 
 // Activity returns the activity with this id.
@@ -155,9 +170,14 @@ func (a *Activity) validate(catalog *Catalog, exprs *Expressions) error {
 	if err := json.Unmarshal(a.Content, &extras); err != nil {
 		return err
 	}
+	// Activities exist to widen vocabulary: their word list only has words the units don't teach.
+	taught := catalog.taughtTerms()
 	for i, v := range extras.Vocabulary {
 		if v.Term == "" || v.Translation == "" {
 			return fmt.Errorf("vocabulary %d needs term and translation", i+1)
+		}
+		if unit, ok := taught[strings.ToLower(v.Term)]; ok {
+			return fmt.Errorf("vocabulary %q is already taught in unit %s: use a word the course doesn't teach", v.Term, unit)
 		}
 	}
 	if err := exprs.checkItems(extras.Expressions); err != nil {
@@ -337,6 +357,19 @@ func checkQuestions(qs []choiceItem, min int) error {
 	return nil
 }
 
+// taughtTerms maps every term of a vocabulary_table in the course (lowercase) to its unit.
+func (c *Catalog) taughtTerms() map[string]string {
+	c.taughtOnce.Do(func() {
+		c.taught = map[string]string{}
+		for id := range c.lessonByID {
+			for _, v := range c.Vocabulary(id) {
+				c.taught[strings.ToLower(v.Term)] = c.lessonByID[id].Unit.UnitID
+			}
+		}
+	})
+	return c.taught
+}
+
 // Milestone is a step of the course that unlocks Club activities.
 type Milestone struct {
 	// Key identifies it per user: "unit:<unit_id>" or "checkpoint:<lesson_id>".
@@ -379,7 +412,7 @@ func (c *Catalog) Milestones(done map[string]bool) []Milestone {
 func (c *Club) Pick(userID string, m Milestone, unlocked map[string]bool) string {
 	best, bestTier := []string{}, 5
 	for _, a := range c.Activities {
-		if unlocked[a.ID] || rank(a.Level) > rank(m.Level) {
+		if a.Lab || unlocked[a.ID] || rank(a.Level) > rank(m.Level) {
 			continue
 		}
 		// Activities tied to another unit wait for it, unless nothing else is left.

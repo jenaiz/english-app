@@ -2,3 +2,4 @@ Dockerfile
 .dockerignore
 *.log
 data/lab
+data/lab_club

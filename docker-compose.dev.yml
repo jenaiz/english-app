@@ -35,6 +35,8 @@ services:
       CONTENT_DIR: /src/data/levels
       # Dev-only "Laboratorio" unit with every exercise type. Never set in production.
       LAB_CONTENT_DIR: /src/data/lab
+      # Dev-only Club activities (one of each type), always open.
+      LAB_CLUB_DIR: /src/data/lab_club
       GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
       GA_MEASUREMENT_ID: ${GA_MEASUREMENT_ID:-}
       # Links in emails open the Vite dev server.

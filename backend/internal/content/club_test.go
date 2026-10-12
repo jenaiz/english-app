@@ -23,7 +23,7 @@ func loadBundled(t *testing.T) (*Catalog, *Expressions) {
 
 func TestLoadBundledClub(t *testing.T) {
 	c, e := loadBundled(t)
-	club, err := LoadClub("../../data/club", c, e)
+	club, err := LoadClub("../../data/club", "../../data/lab_club", c, e)
 	if err != nil {
 		t.Fatalf("load club: %v", err)
 	}
@@ -36,7 +36,7 @@ func TestLoadBundledClub(t *testing.T) {
 
 func TestLoadClubMissingDirIsEmpty(t *testing.T) {
 	c, e := loadBundled(t)
-	club, err := LoadClub(filepath.Join(t.TempDir(), "nope"), c, e)
+	club, err := LoadClub(filepath.Join(t.TempDir(), "nope"), "", c, e)
 	if err != nil || len(club.Activities) != 0 {
 		t.Fatalf("got %v, %v", club, err)
 	}
@@ -64,6 +64,7 @@ func TestClubValidation(t *testing.T) {
 		{"video ok", `{"id":"v","type":"video","level":"B1","title":"V","minutes":12,"milestone":"checkpoint","youtube_id":"x","content":{"license":"CC","source_url":"u","transcript":[{"t":0,"text":"hi"}],"checkpoints":[{"t":10,"questions":` + q + `}]}}`, ""},
 		{"verb cloze ok", `{"id":"g","type":"verb_cloze","level":"A2","title":"G","minutes":5,"milestone":"unit","content":{"items":[{"text":"She ___ (go) home.","answers":[["went"]]}]}}`, ""},
 		{"bad milestone", `{"id":"g","type":"verb_cloze","level":"A2","title":"G","minutes":5,"milestone":"lesson","content":{"items":[{"text":"She ___ (go) home.","answers":[["went"]]}]}}`, "milestone"},
+		{"vocabulary already taught", `{"id":"g","type":"verb_cloze","level":"A2","title":"G","minutes":5,"milestone":"unit","content":{"items":[{"text":"x ___","answers":[["y"]]}],"vocabulary":[{"term":"Umbrella","translation":"paraguas"}]}}`, "already taught"},
 		{"after unknown unit", `{"id":"g","type":"verb_cloze","level":"A2","title":"G","minutes":5,"milestone":"unit","after_unit":"nope","content":{"items":[{"text":"x ___","answers":[["y"]]}]}}`, "after_unit"},
 	}
 	for _, tc := range cases {
@@ -72,7 +73,7 @@ func TestClubValidation(t *testing.T) {
 			if err := os.WriteFile(filepath.Join(dir, "a.json"), []byte(tc.doc), 0o644); err != nil {
 				t.Fatal(err)
 			}
-			_, err := LoadClub(dir, c, e)
+			_, err := LoadClub(dir, "", c, e)
 			if tc.wantErr == "" && err != nil {
 				t.Fatalf("unexpected error: %v", err)
 			}
@@ -130,6 +131,7 @@ func TestPick(t *testing.T) {
 		Activity{ID: "a1-cafe", Level: "A1", Milestone: MilestoneUnit, AfterUnit: "cafe"},
 		Activity{ID: "a1-video", Level: "A1", Milestone: MilestoneCheckpoint},
 		Activity{ID: "a2-song", Level: "A2", Milestone: MilestoneUnit},
+		Activity{ID: "lab-song", Level: "A1", Milestone: MilestoneUnit, Lab: true},
 	)
 	unit := Milestone{Key: "unit:home", Kind: MilestoneUnit, Level: "A1", UnitID: "home"}
 	none := map[string]bool{}
