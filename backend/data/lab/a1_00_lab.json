@@ -1,0 +1,226 @@
+{
+  "level_id": "A1",
+  "themes": [
+    {
+      "theme_id": "lab",
+      "title": "Laboratorio (solo dev)",
+      "units": [
+        {
+          "unit_id": "lab_showcase",
+          "title": "Laboratorio: todos los ejercicios",
+          "description": "Unidad 0, solo en desarrollo: un ejemplo de cada tipo de paso y ejercicio para revisar usabilidad y acabado.",
+          "lessons": [
+            {
+              "lesson_id": "lab_all_steps",
+              "title": "Un paso de cada tipo",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "audio_context: escena + diálogo",
+                    "passage": "It's Saturday evening. This is Clifton Road, in Bristol. Lucía is at number fourteen with a big suitcase. She's from Spain and she's very tired.",
+                    "dialogue": [
+                      { "speaker": "Mrs Green", "text": "Hello! Are you Lucía?" },
+                      { "speaker": "Lucía", "text": "Yes, I am. Hello!" },
+                      { "speaker": "Mrs Green", "text": "I'm Mrs Green. Welcome to Bristol!" },
+                      { "speaker": "Lucía", "text": "Thank you. Nice to meet you." },
+                      { "speaker": "Mrs Green", "text": "Nice to meet you too. Where are you from, Lucía?" },
+                      { "speaker": "Lucía", "text": "I'm from Spain. I'm from Valencia." }
+                    ]
+                  }
+                },
+                {
+                  "phase": "discovery",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "multiple_choice: opciones cortas, una larga y una pregunta con pista.",
+                    "items": [
+                      {
+                        "question": "In \"I'm Lucía\", what does 'm mean?",
+                        "options": ["am", "is", "are"],
+                        "answer": 0,
+                        "explanation": "I'm = I am. La contracción es lo normal al hablar."
+                      },
+                      {
+                        "question": "Where is Lucía from?",
+                        "options": ["Bristol, in England", "Valencia, in Spain", "Clifton Road, number fourteen", "We don't know: she doesn't say it in the dialogue"],
+                        "answer": 1,
+                        "hint": "Escucha la última frase de Lucía.",
+                        "explanation": "\"I'm from Spain. I'm from Valencia.\""
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "grammar_rule: to be (I, you, we)",
+                    "explanation": "Usamos **to be** para decir quién somos, de dónde somos y cómo estamos.\n\nEn inglés hablado casi siempre usamos la **contracción**: I'm, you're, we're.",
+                    "table": {
+                      "headers": ["Sujeto", "Forma larga", "Contracción", "Ejemplo"],
+                      "rows": [
+                        ["I", "I am", "I'm", "I'm Lucía."],
+                        ["you", "you are", "you're", "You're very kind."],
+                        ["we", "we are", "we're", "We're all friends here."]
+                      ]
+                    },
+                    "examples": ["I'm from Spain.", "Are you tired? Yes, I am.", "We're in Bristol."]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "fill_blanks: un hueco, dos huecos y un hueco con varias respuestas válidas.",
+                    "items": [
+                      { "sentence": "I ___ from Spain.", "answers": [["am", "'m"]], "explanation": "I + am." },
+                      { "sentence": "___ you tired? Yes, I ___.", "answers": [["Are"], ["am"]], "hint": "En respuestas cortas no se contrae: Yes, I am." },
+                      { "sentence": "We ___ all friends here.", "answers": [["are", "'re"]] }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "match_pairs",
+                  "content": {
+                    "instructions": "match_pairs: une cada forma larga con su contracción.",
+                    "pairs": [
+                      { "left": "I am", "right": "I'm" },
+                      { "left": "you are", "right": "you're" },
+                      { "left": "we are", "right": "we're" },
+                      { "left": "it is", "right": "it's" },
+                      { "left": "she is", "right": "she's" }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "word_order",
+                  "content": {
+                    "instructions": "word_order: sin distractores y con distractores.",
+                    "items": [
+                      { "answer": "I'm from Valencia.", "explanation": "Sujeto + verbo + from + lugar." },
+                      { "answer": "Are you from Spain?", "distractors": ["is", "am"], "hint": "En las preguntas el verbo va primero." }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "transformation",
+                  "content": {
+                    "instructions": "transformation: cambia la frase según la etiqueta.",
+                    "items": [
+                      { "prompt": "Pregunta", "source": "You are tired.", "answers": ["Are you tired?"] },
+                      { "prompt": "Contracción", "source": "We are from Bristol.", "answers": ["We're from Bristol."] }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "translation",
+                  "content": {
+                    "instructions": "translation: traduce al inglés.",
+                    "items": [
+                      { "source": "Soy de Valencia.", "answers": ["I'm from Valencia.", "I am from Valencia."] },
+                      { "source": "Encantada de conocerte.", "answers": ["Nice to meet you."], "hint": "Lo dice Lucía en el diálogo." }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "dictation",
+                  "content": {
+                    "instructions": "dictation: escucha y escribe lo que oyes.",
+                    "items": [
+                      { "text": "Welcome to Bristol!" },
+                      { "text": "We're all friends here." }
+                    ]
+                  }
+                },
+                {
+                  "phase": "production",
+                  "type": "speaking",
+                  "content": {
+                    "instructions": "speaking: lee la frase en voz alta (o escríbela).",
+                    "items": [
+                      { "text": "Nice to meet you." },
+                      { "text": "I'm from Spain." }
+                    ]
+                  }
+                },
+                {
+                  "phase": "vocabulary",
+                  "type": "vocabulary_table",
+                  "content": {
+                    "items": [
+                      { "term": "tired", "definition": "needing rest or sleep", "translation": "cansado/a", "example": "I'm very tired!" },
+                      { "term": "suitcase", "definition": "a bag for clothes when you travel", "translation": "maleta", "example": "Lucía has a big suitcase." },
+                      { "term": "key", "definition": "it opens a door", "translation": "llave", "example": "Here's your key." }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "speed_quiz",
+                  "content": {
+                    "instructions": "speed_quiz: contrarreloj",
+                    "time_limit_seconds": 30,
+                    "items": [
+                      { "question": "I ___ Lucía.", "options": ["am", "is", "are", "be"], "answer": 0 },
+                      { "question": "We ___ friends.", "options": ["am", "is", "are", "be"], "answer": 2 },
+                      { "question": "you are =", "options": ["you'm", "you're", "you's", "your"], "answer": 1 },
+                      { "question": "maleta =", "options": ["key", "suitcase", "street", "bag"], "answer": 1 },
+                      { "question": "___ you tired?", "options": ["Am", "Is", "Are", "Be"], "answer": 2 }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "lesson_id": "lab_checkpoint",
+              "title": "Test de control (kind: test)",
+              "kind": "test",
+              "steps": [
+                {
+                  "phase": "context",
+                  "type": "audio_context",
+                  "content": {
+                    "title": "audio_context: solo texto (sin diálogo)",
+                    "passage": "It's Saturday evening. This is Clifton Road, in Bristol. Lucía is at number fourteen with a big suitcase. She's from Spain and she's very tired."
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "multiple_choice",
+                  "content": {
+                    "instructions": "Un test no tiene fases: solo ejercicios puntuados.",
+                    "items": [
+                      { "question": "Lucía is ___.", "options": ["tired", "happy", "late"], "answer": 0 },
+                      { "question": "The street is…", "options": ["Clifton Road", "Bristol Road", "Valencia Street"], "answer": 0 }
+                    ]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "fill_blanks",
+                  "content": {
+                    "items": [{ "sentence": "She ___ from Spain.", "answers": [["is", "'s"]] }]
+                  }
+                },
+                {
+                  "phase": "review",
+                  "type": "word_order",
+                  "content": {
+                    "items": [{ "answer": "She's very tired.", "distractors": ["are"] }]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

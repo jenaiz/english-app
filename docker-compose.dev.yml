@@ -33,6 +33,8 @@ services:
       DB_NAME: ${DB_NAME:-english_app}
       JWT_SECRET: ${JWT_SECRET:-dev-secret}
       CONTENT_DIR: /src/data/levels
+      # Dev-only "Laboratorio" unit with every exercise type. Never set in production.
+      LAB_CONTENT_DIR: /src/data/lab
       GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
       GA_MEASUREMENT_ID: ${GA_MEASUREMENT_ID:-}
       # Links in emails open the Vite dev server.

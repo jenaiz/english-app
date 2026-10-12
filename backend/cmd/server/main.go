@@ -30,7 +30,12 @@ func main() {
 	ctx, stop := signal.NotifyContext(context.Background(), syscall.SIGINT, syscall.SIGTERM)
 	defer stop()
 
-	catalog, err := content.Load(cfg.ContentDir)
+	contentDirs := []string{cfg.ContentDir}
+	if cfg.LabDir != "" {
+		contentDirs = []string{cfg.LabDir, cfg.ContentDir}
+		log.Printf("LAB_CONTENT_DIR set: loading dev-only lab content from %s", cfg.LabDir)
+	}
+	catalog, err := content.Load(contentDirs...)
 	if err != nil {
 		log.Fatalf("load content: %v", err)
 	}

@@ -96,3 +96,27 @@ func TestBundledSpeakersHaveVoices(t *testing.T) {
 		t.Errorf("audio file names: %s %s %s", a, b, c)
 	}
 }
+
+// The dev-only lab unit loads before the course, so it is the first theme of A1,
+// and is absent when only the course dir is loaded (as in production).
+func TestLoadLabContent(t *testing.T) {
+	c, err := Load("../../data/lab", "../../data/levels")
+	if err != nil {
+		t.Fatalf("load: %v", err)
+	}
+	a1 := c.Summaries()[0]
+	if a1.Title == "" || a1.Themes[0].ThemeID != "lab" {
+		t.Errorf("want lab as first A1 theme with the level title kept, got title=%q theme=%q", a1.Title, a1.Themes[0].ThemeID)
+	}
+	if _, ok := c.Unit("A1", "lab_showcase"); !ok {
+		t.Error("lab_showcase not found")
+	}
+
+	prod, err := Load("../../data/levels")
+	if err != nil {
+		t.Fatalf("load: %v", err)
+	}
+	if _, ok := prod.Unit("", "lab_showcase"); ok {
+		t.Error("lab unit must not load from the course dir")
+	}
+}

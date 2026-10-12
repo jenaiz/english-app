@@ -20,32 +20,40 @@ type Catalog struct {
 	lessonByID map[string]LessonRef
 }
 
-// Load parses every *.json file under dir (recursively, in path order) and validates IDs.
-// Files sharing a level_id are merged, so a level can be split into one file per unit:
-// themes are matched by theme_id (in order of first appearance) and their units appended.
-func Load(dir string) (*Catalog, error) {
-	var files []string
-	err := filepath.WalkDir(dir, func(path string, d fs.DirEntry, err error) error {
-		if err == nil && !d.IsDir() && strings.HasSuffix(path, ".json") {
-			files = append(files, path)
+// Load parses every *.json file under the given dirs (recursively, in path order, dir by dir)
+// and validates IDs. Files sharing a level_id are merged, so a level can be split into one file
+// per unit: themes are matched by theme_id (in order of first appearance) and their units appended.
+func Load(dirs ...string) (*Catalog, error) {
+	type file struct{ path, name string }
+	var files []file
+	for _, dir := range dirs {
+		var paths []string
+		err := filepath.WalkDir(dir, func(path string, d fs.DirEntry, err error) error {
+			if err == nil && !d.IsDir() && strings.HasSuffix(path, ".json") {
+				paths = append(paths, path)
+			}
+			return err
+		})
+		if err != nil {
+			return nil, err
 		}
-		return err
-	})
-	if err != nil {
-		return nil, err
+		sort.Strings(paths)
+		for _, p := range paths {
+			name, _ := filepath.Rel(dir, p)
+			files = append(files, file{p, name})
+		}
 	}
 	if len(files) == 0 {
-		return nil, fmt.Errorf("no level files found in %s", dir)
+		return nil, fmt.Errorf("no level files found in %s", strings.Join(dirs, ", "))
 	}
-	sort.Strings(files)
 
 	c := &Catalog{levelByID: map[string]*Level{}, unitByID: map[string]UnitRef{}, lessonByID: map[string]LessonRef{}}
 	// Source file of each unit, for error messages.
 	unitFile := map[string]string{}
 
 	for _, f := range files {
-		name, _ := filepath.Rel(dir, f)
-		data, err := os.ReadFile(f)
+		name := f.name
+		data, err := os.ReadFile(f.path)
 		if err != nil {
 			return nil, err
 		}

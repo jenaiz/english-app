@@ -13,6 +13,18 @@ export default function SpeedQuiz({ content, onComplete }: { content: SpeedQuizC
   const [picked, setPicked] = useState<number | null>(null)
   const [result, setResult] = useState<ExerciseResult | null>(null)
   const correctRef = useRef(0)
+  // Keys 1-9 answer, like a tap. Set during render once the question is known.
+  const chooseRef = useRef<((i: number) => void) | null>(null)
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.metaKey || e.ctrlKey || e.altKey) return
+      const n = Number(e.key)
+      if (n >= 1) chooseRef.current?.(n - 1)
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [])
+  chooseRef.current = null
 
   const finish = () => {
     if (result) return
@@ -68,6 +80,7 @@ export default function SpeedQuiz({ content, onComplete }: { content: SpeedQuizC
       else setIndex(index + 1)
     }, 700)
   }
+  chooseRef.current = (i) => i < item.options.length && choose(i)
   const pct = (left / limit) * 100
 
   return (
@@ -91,7 +104,7 @@ export default function SpeedQuiz({ content, onComplete }: { content: SpeedQuizC
           <button
             key={opt}
             onClick={() => choose(i)}
-            className={`rounded-xl border-2 px-4 py-3 text-left font-medium transition ${
+            className={`flex items-center gap-3 rounded-xl border-2 px-4 py-3 text-left font-medium transition ${
               picked === null
                 ? 'border-slate-200 hover:border-amber-400 hover:bg-amber-50'
                 : i === item.answer
@@ -101,6 +114,7 @@ export default function SpeedQuiz({ content, onComplete }: { content: SpeedQuizC
                     : 'border-slate-200 opacity-50'
             }`}
           >
+            <kbd className="hidden h-6 w-6 shrink-0 place-items-center rounded-md border border-current/25 font-sans text-xs opacity-60 sm:grid">{i + 1}</kbd>
             {opt}
           </button>
         ))}

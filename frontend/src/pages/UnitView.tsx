@@ -101,6 +101,17 @@ export default function UnitView() {
     }
   }, [data, startLesson])
 
+  // ?step=N (1-based, across the whole unit) opens one step directly, e.g. to review an
+  // exercise type in the dev-only lab unit.
+  const startStep = Number(params.get('step'))
+  useEffect(() => {
+    if (!data || !startStep) return
+    const total = data.unit.lessons.reduce((n, l) => n + l.steps.length, 0)
+    const i = Math.min(Math.max(startStep, 1), total) - 1
+    setIndex(i)
+    setFurthest(i)
+  }, [data, startStep])
+
   const steps = useMemo<FlatStep[]>(() => {
     if (!data) return []
     return data.unit.lessons.flatMap((lesson, li) =>

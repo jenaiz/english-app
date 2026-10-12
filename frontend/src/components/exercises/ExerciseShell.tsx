@@ -14,6 +14,12 @@ interface Props {
   correctAnswer?: ReactNode
   explanation?: string
   hint?: string
+  /**
+   * For answers given by tapping (options, chips): whenever this value changes and the answer
+   * can be checked, focus "Comprobar" so Enter checks. A tapped button keeps the focus
+   * otherwise, and Enter would just press it again.
+   */
+  focusCheckOn?: unknown
   children: ReactNode
 }
 
@@ -30,6 +36,7 @@ export default function ExerciseShell({
   correctAnswer,
   explanation,
   hint,
+  focusCheckOn,
   children,
 }: Props) {
   const answered = status !== 'answering'
@@ -39,6 +46,9 @@ export default function ExerciseShell({
   useEffect(() => {
     if (answered) buttonRef.current?.focus()
   }, [answered])
+  useEffect(() => {
+    if (focusCheckOn !== undefined && canCheck && !answered) buttonRef.current?.focus()
+  }, [focusCheckOn])
 
   const submit = (e: FormEvent) => {
     e.preventDefault()

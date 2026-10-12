@@ -22,6 +22,9 @@ type Config struct {
 	JWTTTL       time.Duration
 	CookieSecure bool
 	ContentDir   string
+	// LabDir holds dev-only showcase content (every exercise type), loaded before ContentDir
+	// so it comes first. Empty in production.
+	LabDir string
 	// ExpressionsDir holds the Expresiones content; defaults to a sibling of ContentDir.
 	ExpressionsDir string
 	// VoicesFile maps dialogue speakers to TTS voices; AudioDir holds the pre-generated MP3s.
@@ -54,6 +57,7 @@ func Load() Config {
 		JWTSecret:          getEnv("JWT_SECRET", ""),
 		JWTTTL:             30 * 24 * time.Hour, // renewed while the user keeps visiting (see auth.RefreshAfter)
 		ContentDir:         getEnv("CONTENT_DIR", "./data/levels"),
+		LabDir:             getEnv("LAB_CONTENT_DIR", ""),
 		GoogleClientID:     getEnv("GOOGLE_CLIENT_ID", ""),
 		GAMeasurementID:    getEnv("GA_MEASUREMENT_ID", ""),
 		AppURL:             strings.TrimRight(getEnv("APP_URL", "http://localhost:3000"), "/"),
