@@ -23,8 +23,8 @@ export function speak(texts: string | string[], rate = 0.95): Promise<void> {
 
 export function stopSpeaking() {
   playback++
-  currentAudio?.pause()
-  currentAudio = null
+  player?.pause()
+  settle?.('stopped')
   if (canSpeak) window.speechSynthesis.cancel()
 }
 
@@ -43,8 +43,14 @@ interface VoiceInfo {
 
 /** Bumped by stopSpeaking so a running playLines stops before its next line. */
 let playback = 0
-let currentAudio: HTMLAudioElement | null = null
+// One audio element for every line: mobile browsers (iOS Safari) only let an element play
+// without a fresh tap once it has played from one, so a new Audio() per line gets blocked.
+let player: HTMLAudioElement | null = null
+/** Resolves the line that is playing now; stopSpeaking calls it. */
+let settle: ((r: LineResult) => void) | null = null
 let voiceMap: Promise<Record<string, VoiceInfo>> | null = null
+
+type LineResult = 'ok' | 'missing' | 'blocked' | 'stopped'
 
 function voices() {
   voiceMap ??= fetch('/api/voices')
@@ -54,30 +60,43 @@ function voices() {
 }
 
 /**
- * Play dialogue lines in order with each speaker's pre-generated MP3. If a file is
- * missing (not generated yet) the line falls back to a browser voice of the same
- * accent and gender. Resolves when done or when stopSpeaking is called.
+ * Play dialogue lines in order with each speaker's pre-generated MP3. Only when a file is
+ * missing (not generated yet) does the line fall back to a browser voice of the same accent
+ * and gender; if the browser blocks playback we stop rather than switch to another voice.
+ * Resolves when done or when stopSpeaking is called.
  */
 export async function playLines(lines: DialogueLine[]): Promise<void> {
   stopSpeaking()
   const run = playback
-  const map = await voices()
   for (const line of lines) {
     if (run !== playback) return
-    const ok = await playMp3(line, run)
-    if (!ok && run === playback) await speakAs(line, map[line.speaker])
+    // The first play() runs synchronously inside the tap, before any await.
+    const result = await playMp3(line)
+    if (run !== playback || result === 'stopped') return
+    if (result === 'blocked') {
+      stopSpeaking()
+      return
+    }
+    if (result === 'missing') await speakAs(line, (await voices())[line.speaker])
   }
 }
 
-function playMp3({ speaker, text }: DialogueLine, run: number): Promise<boolean> {
+function playMp3({ speaker, text }: DialogueLine): Promise<LineResult> {
+  player ??= new Audio()
+  const audio = player
   return new Promise((resolve) => {
-    const audio = new Audio(`/api/audio?${new URLSearchParams({ speaker, text })}`)
-    currentAudio = audio
-    audio.onended = () => resolve(true)
-    audio.onpause = () => resolve(true)
-    audio.onerror = () => resolve(false)
-    if (run !== playback) return resolve(true)
-    audio.play().catch(() => resolve(false))
+    const done = (r: LineResult) => {
+      if (settle === done) settle = null
+      resolve(r)
+    }
+    settle = done
+    audio.onended = () => done('ok')
+    audio.onerror = () => done('missing')
+    audio.src = `/api/audio?${new URLSearchParams({ speaker, text })}`
+    audio.play().catch((e: DOMException) => {
+      // AbortError: another line replaced this one before it started.
+      done(e.name === 'NotAllowedError' ? 'blocked' : e.name === 'AbortError' ? 'stopped' : 'missing')
+    })
   })
 }
 
@@ -92,7 +111,9 @@ function speakAs({ text }: DialogueLine, info?: VoiceInfo): Promise<void> {
   const sameLang = all.filter((v) => v.lang.replace('_', '-') === lang)
   const english = all.filter((v) => v.lang.startsWith('en'))
   const pool = sameLang.length ? sameLang : english
-  const byGender = pool.filter((v) => (info?.gender === 'male' ? MALE : FEMALE).test(v.name))
+  const gender = info?.gender === 'male' ? MALE : FEMALE
+  // Keep the gender even if that means another accent: a man's line in a woman's voice is worse.
+  const byGender = pool.filter((v) => gender.test(v.name)).concat(english.filter((v) => gender.test(v.name)))
   return new Promise((resolve) => {
     const u = new SpeechSynthesisUtterance(text)
     u.lang = lang

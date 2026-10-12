@@ -1,4 +1,4 @@
-import type { FormEvent, ReactNode } from 'react'
+import { useEffect, useRef, type FormEvent, type ReactNode } from 'react'
 import { CheckCircle2, Lightbulb, Trophy, XCircle } from 'lucide-react'
 import type { ItemStatus } from './useExerciseItems'
 
@@ -33,6 +33,12 @@ export default function ExerciseShell({
   children,
 }: Props) {
   const answered = status !== 'answering'
+  // Checking disables the inputs, which drops the focus; move it to "Continuar" so the
+  // next Enter advances.
+  const buttonRef = useRef<HTMLButtonElement>(null)
+  useEffect(() => {
+    if (answered) buttonRef.current?.focus()
+  }, [answered])
 
   const submit = (e: FormEvent) => {
     e.preventDefault()
@@ -81,6 +87,7 @@ export default function ExerciseShell({
 
       <div className="mt-5 flex justify-end">
         <button
+          ref={buttonRef}
           type="submit"
           disabled={!answered && !canCheck}
           className={`rounded-lg px-5 py-2.5 font-semibold text-white shadow-sm transition disabled:cursor-not-allowed disabled:opacity-40 ${

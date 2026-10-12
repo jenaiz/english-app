@@ -1,6 +1,6 @@
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
-import { AlertCircle, ArrowLeft, ArrowRight, Brain, CheckCircle2, ClipboardCheck, Loader2, PartyPopper } from 'lucide-react'
+import { AlertCircle, ArrowLeft, ArrowRight, Brain, CheckCircle2, ClipboardCheck, Home, Loader2, PartyPopper, RotateCcw, type LucideIcon } from 'lucide-react'
 import { api } from '../api/client'
 import UnitExpressions from '../components/expressions/UnitExpressions'
 import StepRenderer, { EXERCISE_TYPES } from '../components/steps/StepRenderer'
@@ -115,6 +115,22 @@ export default function UnitView() {
     )
   }, [data])
 
+  // Enter on the page (not in a field or on a button) presses "Siguiente", e.g. right after
+  // an exercise's last item. Set during render once the step is known.
+  const advanceRef = useRef<(() => void) | null>(null)
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== 'Enter' || e.isComposing || e.repeat) return
+      if (e.target instanceof Element && e.target.closest('input, textarea, select, button, a, [role="button"]')) return
+      if (!advanceRef.current) return
+      e.preventDefault()
+      advanceRef.current()
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [])
+  advanceRef.current = null
+
   // Keep the first result if the learner goes back and redoes an exercise.
   const recordResult = useCallback(
     (r: ExerciseResult) => setResults((prev) => (prev[index] ? prev : { ...prev, [index]: r })),
@@ -213,6 +229,8 @@ export default function UnitView() {
       setSaving(false)
     }
   }
+
+  if (canAdvance && !saving) advanceRef.current = next
 
   const currentPhase = PHASES.findIndex((p) => p.id === current.step.phase)
   const phaseFirstStep = (phase: Phase) => lessonSteps.find((s) => s.step.phase === phase)?.i
@@ -396,39 +414,70 @@ function LessonComplete({
         </div>
       </div>
 
-      <div className="mt-8 flex flex-wrap justify-center gap-3">
-        {summary.isLastLesson ? (
-          <>
-            <button onClick={onRestart} className="rounded-lg border border-slate-300 px-5 py-2.5 font-medium text-slate-700 hover:bg-slate-50">
-              Repetir unidad
-            </button>
-            <button onClick={onReview} className="rounded-lg border border-indigo-300 px-5 py-2.5 font-medium text-indigo-700 hover:bg-indigo-50">
-              Ir a repaso
-            </button>
-            {nextUnit ? (
-              <>
-                <button onClick={onLevels} className="rounded-lg border border-slate-300 px-5 py-2.5 font-medium text-slate-700 hover:bg-slate-50">
-                  Volver a Inicio
-                </button>
-                <Link
-                  to={`/units/${nextUnit.unit.unit_id}?level=${nextUnit.levelId}`}
-                  className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-indigo-600 px-6 py-3 font-semibold text-white hover:bg-indigo-700 order-first sm:w-auto"
-                >
-                  Siguiente unidad: {nextUnit.unit.title} <ArrowRight className="h-4 w-4" />
-                </Link>
-              </>
-            ) : (
-              <button onClick={onLevels} className="rounded-lg bg-indigo-600 px-5 py-2.5 font-semibold text-white hover:bg-indigo-700">
-                Volver a Inicio
-              </button>
-            )}
-          </>
+      <div className="mt-8 space-y-3">
+        {summary.isLastLesson && nextUnit ? (
+          <PrimaryAction to={`/units/${nextUnit.unit.unit_id}?level=${nextUnit.levelId}`} label="Siguiente unidad" title={nextUnit.unit.title} />
+        ) : summary.isLastLesson ? (
+          <PrimaryAction onClick={onLevels} label="Has terminado el curso" title="Volver a Inicio" />
         ) : (
-          <button onClick={onNext} className="inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-6 py-2.5 font-semibold text-white hover:bg-indigo-700">
-            Siguiente lección <ArrowRight className="h-4 w-4" />
-          </button>
+          <PrimaryAction onClick={onNext} label="Siguiente lección" title="Continuar la unidad" />
         )}
+        <div className={`grid gap-3 ${summary.isLastLesson && nextUnit ? 'grid-cols-3' : 'grid-cols-2'}`}>
+          {summary.isLastLesson && (
+            <SecondaryAction onClick={onRestart} Icon={RotateCcw}>
+              Repetir unidad
+            </SecondaryAction>
+          )}
+          <SecondaryAction onClick={onReview} Icon={Brain}>
+            Ir a repaso
+          </SecondaryAction>
+          {!(summary.isLastLesson && !nextUnit) && (
+            <SecondaryAction onClick={onLevels} Icon={Home}>
+              Volver a Inicio
+            </SecondaryAction>
+          )}
+        </div>
       </div>
     </div>
+  )
+}
+
+/** The one thing to do next: big, full width and focused so Enter takes it. */
+function PrimaryAction({ to, onClick, label, title }: { to?: string; onClick?: () => void; label: string; title: string }) {
+  // React only autofocuses form controls, so focus the link by hand.
+  const ref = useRef<HTMLAnchorElement & HTMLButtonElement>(null)
+  useEffect(() => ref.current?.focus(), [])
+  const cls =
+    'group flex w-full items-center justify-between gap-4 rounded-2xl bg-indigo-600 px-6 py-4 text-left text-white shadow-lg shadow-indigo-200 transition hover:bg-indigo-700 focus-visible:ring-4 focus-visible:ring-indigo-200 focus-visible:outline-none'
+  const body = (
+    <>
+      <span className="min-w-0">
+        <span className="block text-xs font-semibold tracking-wide text-indigo-200 uppercase">{label}</span>
+        <span className="mt-0.5 block truncate text-lg font-bold">{title}</span>
+      </span>
+      <ArrowRight className="h-5 w-5 shrink-0 transition group-hover:translate-x-0.5" />
+    </>
+  )
+  return to ? (
+    <Link ref={ref} to={to} className={cls}>
+      {body}
+    </Link>
+  ) : (
+    <button ref={ref} type="button" onClick={onClick} className={cls}>
+      {body}
+    </button>
+  )
+}
+
+function SecondaryAction({ onClick, Icon, children }: { onClick: () => void; Icon: LucideIcon; children: ReactNode }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className="flex flex-col items-center gap-1.5 rounded-xl border border-slate-200 bg-white px-2 py-3 text-sm font-medium text-slate-700 transition hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-700"
+    >
+      <Icon className="h-5 w-5 text-slate-400" />
+      {children}
+    </button>
   )
 }
