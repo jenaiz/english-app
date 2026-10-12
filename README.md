@@ -233,7 +233,7 @@ El examen que certifica un nivel no es una lección: vive en `backend/data/exams
 - **Después:** la página del examen muestra «Qué te toca repasar» (los temas con fallos del último intento, enlazados a sus unidades) y el historial de intentos; cada uno abre su resultado completo.
 - **API:** `GET /api/exams`, `GET /api/exams/{id}/attempts` (historial con notas y temas por repasar), `POST /api/exams/{id}/attempts`, `GET /api/exams/attempts/{id}`, `PUT …/answers` y `POST …/submit`. El audio se sirve con `GET /api/audio/{fichero}`, sin el texto.
 
-Cómo se alinea cada nivel con el MCER y cómo añadir un examen: [`docs/levels/README.md`](docs/levels/README.md).
+Cómo se alinea cada nivel con el MCER y cómo añadir un examen: [`docs/levels/README.md`](docs/levels/README.md). Pendientes del proyecto: [`docs/BACKLOG.md`](docs/BACKLOG.md).
 
 ### Voces de los diálogos
 
@@ -286,6 +286,8 @@ El Club (`/club`) reúne actividades de academia repartidas en salas: 🎵 Músi
 3. Cualquiera del nivel.
 4. Una de un nivel inferior.
 
+Una actividad con `after_unit` nunca sale antes de esa unidad, aunque no quede otra cosa que dar. Aprobar el examen de nivel cuenta como un checkpoint.
+
 Entre las candidatas se elige con un sorteo fijo por usuario e hito: cada alumno recibe sorpresas distintas, pero siempre las mismas. Un hito que no encuentra actividad queda pendiente, así que el contenido que se añada después llega también a los alumnos que van por delante.
 
 Campos comunes:
@@ -300,7 +302,14 @@ Campos comunes:
 | `song` | `{ "artist", "channel", "start"?, "end", "lines": [{ "t", "text": "I ___ you", "answers"?: [["love"]] }], "distractors"?: [..], "mode"?: "bank" \| "type", "questions"?: [ítems de multiple_choice] }`. `channel` es el canal oficial de YouTube (artista o discográfica): solo vídeos oficiales. Solo un fragmento (máx. 16 líneas) por derechos de autor. Hasta A2 los huecos se rellenan con un banco de palabras. `questions` pregunta por la letra tras comprobar los huecos. Se muestra siempre «Canción: "…" de …. Solo con fines educativos.» |
 | `reading` | `{ "kind"?, "paragraphs": [..], "glossary"?: { "palabra": "traducción" }, "questions": [ítems de multiple_choice], "source"? }`. Longitud por nivel: A1 500-800 palabras, A2 700-1200, B1 1000-1800, B2 1500-2500, C1 2000-3000 |
 | `video` | `{ "speaker"?, "channel", "license", "source_url", "start"?, "end"?, "checkpoints"?: [{ "t", "questions": [..] }], "questions"?: [..] }`. `start`/`end` eligen un tramo de una clase larga. **Sin transcripción**: las charlas (TED incluido) no permiten publicarla, y el backend la rechaza. El vídeo se para en cada `t` y pregunta; `questions` salen al terminar |
-| `verb_cloze` | `{ "instructions"?, "items": [{ "text": "She ___ (go) home.", "answers": [["went"]] }] }`. También vale como paso de una lección |
+| `verb_cloze` | `{ "instructions"?, "items": [{ "text": "She ___ (go) home.", "answers": [["went"]], "tags": ["past_simple"] }] }`. Es un juego de repaso para el examen de nivel (ver abajo). También vale como paso de una lección, y ahí `tags` es opcional |
+
+**Juegos: repaso para el examen.** Los juegos (`verb_cloze`) son textos largos con huecos, en el formato de la parte «Escribe la palabra que falta» de los exámenes. El backend no arranca si un juego no cumple esto:
+- Tiene al menos 5 párrafos y 24 huecos en A1, y 6 párrafos y 30 huecos en A2 (32 de B1 a C1).
+- Cada hueco lleva en `tags` un tema del `syllabus` del examen de su nivel (`backend/data/exams/<nivel>.json`).
+- Tiene `after_unit`, y todos sus temas se enseñan en esa unidad o antes. Así el juego solo pregunta lo que el alumno ya ha estudiado.
+
+Al terminar, el juego muestra «Qué repasar para el examen»: los temas con fallos, enlazados a sus unidades, como en el resultado del examen.
 
 **Vocabulario nuevo.** Las actividades sirven para ampliar vocabulario: un término de `vocabulary` no puede estar en el `vocabulary_table` de ninguna unidad. Si lo está, el backend no arranca y dice en qué unidad aparece.
 

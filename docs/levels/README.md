@@ -37,6 +37,8 @@ Los textos y diálogos son originales, inspirados en el formato de Cambridge, nu
 
 ## Pendiente
 
+La lista completa de pendientes del proyecto está en [docs/BACKLOG.md](../BACKLOG.md). De los exámenes:
+
 - **Revisión humana del contenido nuevo.** Las reglas de gramática añadidas a las unidades y las preguntas de los cinco exámenes las escribió Claude en octubre de 2026 y hay que leerlas antes de publicarlas:
   - **Unidades:** 50 reglas con su ejercicio. A1 9, A2 14, B1 11, B2 11 y C1 5.
   - **Exámenes:** unas 700 preguntas entre las dos versiones de los cinco. Están en `backend/data/exams/`; los scripts que las generaron no se guardaron, así que el JSON es la fuente.
