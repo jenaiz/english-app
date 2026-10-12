@@ -87,6 +87,33 @@ func dedupeRolling(cues []Line) []Line {
 	return out
 }
 
+var (
+	notLyric    = regexp.MustCompile(`^[\[(].*[\])]$`) // "[Music]", "(upbeat music)"
+	standAloneI = regexp.MustCompile(`\bi\b`)
+)
+
+// cleanLyrics tidies song subtitles: no ♪ marks, no "[Music]"-style cues, no line repeated
+// right after itself, and lines written in capitals turned into normal case.
+func cleanLyrics(cues []Line) []Line {
+	var out []Line
+	for _, c := range cues {
+		text := strings.TrimSpace(strings.ReplaceAll(c.Text, "♪", ""))
+		if text == "" || notLyric.MatchString(text) {
+			continue
+		}
+		if strings.ToUpper(text) == text && strings.ToLower(text) != text {
+			text = strings.ToLower(text)
+			text = standAloneI.ReplaceAllString(text, "I")
+			text = strings.ToUpper(text[:1]) + text[1:]
+		}
+		if n := len(out); n > 0 && out[n-1].Text == text {
+			continue
+		}
+		out = append(out, Line{T: c.T, Text: text})
+	}
+	return out
+}
+
 // mergeSentences joins cues until a sentence ends (or the line gets too long), so a talk
 // reads as sentences instead of screen-sized fragments.
 func mergeSentences(cues []Line, max int) []Line {

@@ -1,0 +1,136 @@
+{
+  "id": "a1_song_three_little_birds",
+  "type": "song",
+  "level": "A1",
+  "title": "Three Little Birds",
+  "subtitle": "Bob Marley & The Wailers",
+  "minutes": 4,
+  "youtube_id": "HNBCVM4KbUM",
+  "milestone": "unit",
+  "content": {
+    "artist": "Bob Marley & The Wailers",
+    "start": 36,
+    "end": 78.4,
+    "lines": [
+      {
+        "t": 39.3,
+        "text": "Rise up this ___",
+        "answers": [
+          [
+            "morning"
+          ]
+        ]
+      },
+      {
+        "t": 42.4,
+        "text": "Smile with the rising ___",
+        "answers": [
+          [
+            "sun"
+          ]
+        ]
+      },
+      {
+        "t": 45.7,
+        "text": "___ little birds",
+        "answers": [
+          [
+            "three"
+          ]
+        ]
+      },
+      {
+        "t": 48.7,
+        "text": "Pitch by my doorstep"
+      },
+      {
+        "t": 52.2,
+        "text": "Singin' ___ songs",
+        "answers": [
+          [
+            "sweet"
+          ]
+        ]
+      },
+      {
+        "t": 55.3,
+        "text": "Of melodies pure and ___",
+        "answers": [
+          [
+            "true"
+          ]
+        ]
+      },
+      {
+        "t": 59,
+        "text": "Sayin', \"This is my message to ___\"",
+        "answers": [
+          [
+            "you"
+          ]
+        ]
+      },
+      {
+        "t": 65.3,
+        "text": "Singin', \"Don't ___ about a thing",
+        "answers": [
+          [
+            "worry"
+          ]
+        ]
+      },
+      {
+        "t": 72,
+        "text": "'Cause every little ___ gonna be all right\"",
+        "answers": [
+          [
+            "thing"
+          ]
+        ]
+      }
+    ],
+    "distractors": [
+      "evening",
+      "moon",
+      "two",
+      "sad",
+      "me",
+      "cry"
+    ],
+    "vocabulary": [
+      {
+        "term": "worry",
+        "translation": "preocuparse",
+        "definition": "to think a lot about problems or bad things that can happen"
+      },
+      {
+        "term": "rise",
+        "translation": "levantarse, salir (el sol)",
+        "definition": "to get up, or to go up"
+      },
+      {
+        "term": "doorstep",
+        "translation": "umbral, escalón de la puerta",
+        "definition": "the step in front of the door of a house"
+      },
+      {
+        "term": "sweet",
+        "translation": "dulce",
+        "definition": "with a taste like sugar; also nice and kind"
+      },
+      {
+        "term": "melody",
+        "translation": "melodía",
+        "definition": "the music of a song that you can sing"
+      },
+      {
+        "term": "pure",
+        "translation": "puro/a",
+        "definition": "clean, with nothing else mixed in"
+      }
+    ],
+    "expressions": [
+      "phrasal:get-up"
+    ]
+  }
+}

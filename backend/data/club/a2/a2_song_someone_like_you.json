@@ -1,0 +1,149 @@
+{
+  "id": "a2_song_someone_like_you",
+  "type": "song",
+  "level": "A2",
+  "title": "Someone Like You",
+  "subtitle": "Adele",
+  "minutes": 5,
+  "youtube_id": "hLQl3WQQoQ0",
+  "milestone": "unit",
+  "content": {
+    "artist": "Adele",
+    "start": 12,
+    "end": 74.3,
+    "lines": [
+      {
+        "t": 14.6,
+        "text": "I ___ that you're settled down",
+        "answers": [
+          [
+            "heard"
+          ]
+        ]
+      },
+      {
+        "t": 21.6,
+        "text": "That you ___ a girl",
+        "answers": [
+          [
+            "found"
+          ]
+        ]
+      },
+      {
+        "t": 25,
+        "text": "And you're ___ now",
+        "answers": [
+          [
+            "married"
+          ]
+        ]
+      },
+      {
+        "t": 30.3,
+        "text": "I heard that your dreams ___ true",
+        "answers": [
+          [
+            "came"
+          ]
+        ]
+      },
+      {
+        "t": 36.1,
+        "text": "Guess she ___ you things",
+        "answers": [
+          [
+            "gave"
+          ]
+        ]
+      },
+      {
+        "t": 39.7,
+        "text": "I didn't ___ to you",
+        "answers": [
+          [
+            "give"
+          ]
+        ]
+      },
+      {
+        "t": 43.6,
+        "text": "Old friend, why are you so shy?"
+      },
+      {
+        "t": 50.1,
+        "text": "Ain't like you to hold back"
+      },
+      {
+        "t": 53.9,
+        "text": "Or hide from the light"
+      },
+      {
+        "t": 58,
+        "text": "I hate to turn up out of the blue, uninvited"
+      },
+      {
+        "t": 61.2,
+        "text": "But I ___ stay away",
+        "answers": [
+          [
+            "couldn't"
+          ]
+        ]
+      },
+      {
+        "t": 63.7,
+        "text": "I couldn't fight it"
+      },
+      {
+        "t": 64.8,
+        "text": "I had hoped you'd see my face"
+      },
+      {
+        "t": 66.5,
+        "text": "And that you'd be reminded"
+      },
+      {
+        "t": 68.2,
+        "text": "That for me it isn't over"
+      }
+    ],
+    "distractors": [
+      "hear",
+      "find",
+      "come",
+      "gives",
+      "didn't"
+    ],
+    "vocabulary": [
+      {
+        "term": "settle down",
+        "translation": "sentar la cabeza",
+        "definition": "to start a quiet life, often with a partner and a home"
+      },
+      {
+        "term": "married",
+        "translation": "casado/a",
+        "definition": "having a husband or a wife"
+      },
+      {
+        "term": "hold back",
+        "translation": "contenerse",
+        "definition": "to not show your feelings or not do something"
+      },
+      {
+        "term": "out of the blue",
+        "translation": "de repente, sin avisar",
+        "definition": "suddenly, when nobody expects it"
+      },
+      {
+        "term": "uninvited",
+        "translation": "sin ser invitado/a",
+        "definition": "when nobody asked you to come"
+      }
+    ],
+    "expressions": [
+      "idiom:time-flies"
+    ]
+  }
+}

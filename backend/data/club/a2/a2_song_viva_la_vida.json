@@ -1,0 +1,121 @@
+{
+  "id": "a2_song_viva_la_vida",
+  "type": "song",
+  "level": "A2",
+  "title": "Viva la Vida",
+  "subtitle": "Coldplay",
+  "minutes": 5,
+  "youtube_id": "dvgZkm1xWPE",
+  "milestone": "checkpoint",
+  "content": {
+    "artist": "Coldplay",
+    "start": 12,
+    "end": 69.7,
+    "lines": [
+      {
+        "t": 14.5,
+        "text": "I used to ___ the world / Seas would rise when I ___ the word",
+        "answers": [
+          [
+            "rule"
+          ],
+          [
+            "gave"
+          ]
+        ]
+      },
+      {
+        "t": 20,
+        "text": "Now in the morning I ___ alone / Sweep the streets I used to ___",
+        "answers": [
+          [
+            "sleep"
+          ],
+          [
+            "own"
+          ]
+        ]
+      },
+      {
+        "t": 40.9,
+        "text": "I used to roll the ___ / Feel the fear in my enemy's eyes",
+        "answers": [
+          [
+            "dice"
+          ]
+        ]
+      },
+      {
+        "t": 48.4,
+        "text": "Listened as the crowd would ___ / Now the old king is dead, long live the king",
+        "answers": [
+          [
+            "sing"
+          ]
+        ]
+      },
+      {
+        "t": 55.3,
+        "text": "One minute I ___ the key / Next the walls were closed on me",
+        "answers": [
+          [
+            "held"
+          ]
+        ]
+      },
+      {
+        "t": 62.2,
+        "text": "And I ___ that my castles stand / Upon pillars of salt and pillars of sand",
+        "answers": [
+          [
+            "discovered"
+          ]
+        ]
+      }
+    ],
+    "distractors": [
+      "ruled",
+      "give",
+      "slept",
+      "cards",
+      "hold"
+    ],
+    "vocabulary": [
+      {
+        "term": "sweep",
+        "translation": "barrer",
+        "definition": "to clean the floor or the street with a brush"
+      },
+      {
+        "term": "dice",
+        "translation": "dados",
+        "definition": "small cubes with numbers that you use in games"
+      },
+      {
+        "term": "enemy",
+        "translation": "enemigo/a",
+        "definition": "a person who wants to hurt you or fight you"
+      },
+      {
+        "term": "crowd",
+        "translation": "multitud",
+        "definition": "a lot of people together in one place"
+      },
+      {
+        "term": "castle",
+        "translation": "castillo",
+        "definition": "a big old building with strong walls where kings lived"
+      },
+      {
+        "term": "pillar",
+        "translation": "pilar, columna",
+        "definition": "a tall strong post that holds up a building"
+      },
+      {
+        "term": "sand",
+        "translation": "arena",
+        "definition": "what you find on the beach"
+      }
+    ]
+  }
+}

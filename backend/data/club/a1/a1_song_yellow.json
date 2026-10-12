@@ -1,0 +1,90 @@
+{
+  "id": "a1_song_yellow",
+  "type": "song",
+  "level": "A1",
+  "title": "Yellow",
+  "subtitle": "Coldplay",
+  "minutes": 4,
+  "youtube_id": "yKNxeF4KMsY",
+  "milestone": "unit",
+  "after_unit": "numbers_colors",
+  "content": {
+    "artist": "Coldplay",
+    "start": 33,
+    "end": 71.4,
+    "lines": [
+      {
+        "t": 35.7,
+        "text": "Look at the ___",
+        "answers": [
+          [
+            "stars"
+          ]
+        ]
+      },
+      {
+        "t": 38.4,
+        "text": "Look how they ___ for you / And everything you do",
+        "answers": [
+          [
+            "shine"
+          ]
+        ]
+      },
+      {
+        "t": 49.5,
+        "text": "Yeah, they were all ___",
+        "answers": [
+          [
+            "yellow"
+          ]
+        ]
+      },
+      {
+        "t": 52.2,
+        "text": "I came along / I ___ a ___ for you",
+        "answers": [
+          [
+            "wrote"
+          ],
+          [
+            "song"
+          ]
+        ]
+      },
+      {
+        "t": 60.6,
+        "text": "And all the things you ___ / And it was called yellow",
+        "answers": [
+          [
+            "do"
+          ]
+        ]
+      }
+    ],
+    "distractors": [
+      "moon",
+      "blue",
+      "sing",
+      "read",
+      "see"
+    ],
+    "vocabulary": [
+      {
+        "term": "star",
+        "translation": "estrella",
+        "definition": "a small bright light in the sky at night"
+      },
+      {
+        "term": "shine",
+        "translation": "brillar",
+        "definition": "to give light"
+      },
+      {
+        "term": "come along",
+        "translation": "aparecer, llegar",
+        "definition": "to arrive or appear"
+      }
+    ]
+  }
+}

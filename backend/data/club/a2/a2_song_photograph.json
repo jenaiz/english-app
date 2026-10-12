@@ -1,0 +1,145 @@
+{
+  "id": "a2_song_photograph",
+  "type": "song",
+  "level": "A2",
+  "title": "Photograph",
+  "subtitle": "Ed Sheeran",
+  "minutes": 5,
+  "youtube_id": "nSDgHBxUbVQ",
+  "milestone": "unit",
+  "after_unit": "past_memories",
+  "content": {
+    "artist": "Ed Sheeran",
+    "start": 52,
+    "end": 93.3,
+    "lines": [
+      {
+        "t": 54.9,
+        "text": "We keep this love in a ___",
+        "answers": [
+          [
+            "photograph"
+          ]
+        ]
+      },
+      {
+        "t": 59.2,
+        "text": "We ___ these memories for ourselves",
+        "answers": [
+          [
+            "made"
+          ]
+        ]
+      },
+      {
+        "t": 62.9,
+        "text": "Where our eyes are never ___",
+        "answers": [
+          [
+            "closing"
+          ]
+        ]
+      },
+      {
+        "t": 65.5,
+        "text": "Hearts are never ___",
+        "answers": [
+          [
+            "broken"
+          ]
+        ]
+      },
+      {
+        "t": 67.9,
+        "text": "And time's forever frozen still"
+      },
+      {
+        "t": 71.4,
+        "text": "So you can ___ me",
+        "answers": [
+          [
+            "keep"
+          ]
+        ]
+      },
+      {
+        "t": 74.7,
+        "text": "Inside the ___",
+        "answers": [
+          [
+            "pocket"
+          ]
+        ]
+      },
+      {
+        "t": 76.2,
+        "text": "Of your ripped jeans"
+      },
+      {
+        "t": 79,
+        "text": "Holdin' me closer"
+      },
+      {
+        "t": 80.8,
+        "text": "Till our eyes ___",
+        "answers": [
+          [
+            "meet"
+          ]
+        ]
+      },
+      {
+        "t": 83.4,
+        "text": "You won't ___ be alone",
+        "answers": [
+          [
+            "ever"
+          ]
+        ]
+      },
+      {
+        "t": 88,
+        "text": "Wait for me to come ___",
+        "answers": [
+          [
+            "home"
+          ]
+        ]
+      }
+    ],
+    "distractors": [
+      "picture",
+      "opening",
+      "wallet",
+      "leave",
+      "never"
+    ],
+    "vocabulary": [
+      {
+        "term": "photograph",
+        "translation": "fotografía",
+        "definition": "a picture made with a camera"
+      },
+      {
+        "term": "memories",
+        "translation": "recuerdos",
+        "definition": "things you remember from the past"
+      },
+      {
+        "term": "frozen",
+        "translation": "congelado/a",
+        "definition": "so cold that it is ice; also not moving"
+      },
+      {
+        "term": "pocket",
+        "translation": "bolsillo",
+        "definition": "a small bag in your clothes for keys or money"
+      },
+      {
+        "term": "ripped",
+        "translation": "roto/a, rasgado/a",
+        "definition": "with a hole or a long cut in it"
+      }
+    ]
+  }
+}

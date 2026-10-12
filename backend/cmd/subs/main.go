@@ -63,7 +63,9 @@ func main() {
 		cues = dedupeRolling(cues)
 		log.Println("only automatic subtitles: review every line before using them")
 	}
-	if !*song {
+	if *song {
+		cues = cleanLyrics(cues)
+	} else {
 		cues = mergeSentences(cues, 160)
 	}
 

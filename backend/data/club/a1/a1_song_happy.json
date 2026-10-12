@@ -1,0 +1,107 @@
+{
+  "id": "a1_song_happy",
+  "type": "song",
+  "level": "A1",
+  "title": "Happy",
+  "subtitle": "Pharrell Williams",
+  "minutes": 4,
+  "youtube_id": "ZbZSe6N_BXs",
+  "milestone": "unit",
+  "after_unit": "free_time",
+  "content": {
+    "artist": "Pharrell Williams",
+    "start": 27,
+    "end": 55.4,
+    "lines": [
+      {
+        "t": 29.9,
+        "text": "Because I'm ___",
+        "answers": [
+          [
+            "happy"
+          ]
+        ]
+      },
+      {
+        "t": 31.2,
+        "text": "___ along if you feel like a room without a ___",
+        "answers": [
+          [
+            "clap"
+          ],
+          [
+            "roof"
+          ]
+        ]
+      },
+      {
+        "t": 36,
+        "text": "Because I'm happy"
+      },
+      {
+        "t": 37.2,
+        "text": "Clap along if you feel like happiness is the ___",
+        "answers": [
+          [
+            "truth"
+          ]
+        ]
+      },
+      {
+        "t": 41.9,
+        "text": "Because I'm happy"
+      },
+      {
+        "t": 43.2,
+        "text": "Clap along if you ___ what happiness is to you",
+        "answers": [
+          [
+            "know"
+          ]
+        ]
+      },
+      {
+        "t": 47.9,
+        "text": "Because I'm happy"
+      },
+      {
+        "t": 49.2,
+        "text": "Clap along if you feel like that's what you wanna ___",
+        "answers": [
+          [
+            "do"
+          ]
+        ]
+      }
+    ],
+    "distractors": [
+      "sad",
+      "door",
+      "sing",
+      "see",
+      "go"
+    ],
+    "vocabulary": [
+      {
+        "term": "clap along",
+        "translation": "dar palmas (al ritmo)",
+        "definition": "to hit your hands together with the music"
+      },
+      {
+        "term": "roof",
+        "translation": "tejado",
+        "definition": "the top part of a building"
+      },
+      {
+        "term": "happiness",
+        "translation": "felicidad",
+        "definition": "the feeling of being happy"
+      },
+      {
+        "term": "truth",
+        "translation": "verdad",
+        "definition": "what is real and true"
+      }
+    ]
+  }
+}

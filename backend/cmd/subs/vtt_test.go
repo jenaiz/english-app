@@ -54,3 +54,12 @@ func TestVideoID(t *testing.T) {
 		}
 	}
 }
+
+func TestCleanLyrics(t *testing.T) {
+	cues := []Line{{1, "(upbeat music)"}, {2, "♪ DON'T WORRY ABOUT A THING ♪"}, {3, "[Music]"}, {4, "if i fall"}, {5, "if i fall"}, {6, "♪ Because I'm happy ♪"}}
+	got := cleanLyrics(cues)
+	want := []Line{{2, "Don't worry about a thing"}, {4, "if i fall"}, {6, "Because I'm happy"}}
+	if !reflect.DeepEqual(got, want) {
+		t.Fatalf("got %+v", got)
+	}
+}
