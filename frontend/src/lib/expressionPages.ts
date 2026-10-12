@@ -47,6 +47,8 @@ const SEGMENT: Record<PageKind, string> = { idiom: 'idioms', phrasal: 'phrasal-v
 const RELATED_LIMIT = 6
 
 export const pagePath = (kind: PageKind, id: string) => `/expresiones/${SEGMENT[kind]}/${id}`
+/** The page that lists every idiom or every phrasal verb. */
+export const indexPath = (kind: PageKind) => `/expresiones/${SEGMENT[kind]}`
 
 export const kindFromSegment = (segment: string | undefined): PageKind | null =>
   segment === 'idioms' ? 'idiom' : segment === 'phrasal-verbs' ? 'phrasal' : null
@@ -111,6 +113,41 @@ export function allPages(catalog: ExpressionsCatalog): { kind: PageKind; id: str
   ]
 }
 
+export interface IndexGroup {
+  id: string
+  title: string
+  links: PageLink[]
+}
+
+/** The list of every idiom (by level) or every phrasal verb (by root verb). */
+export interface ExpressionIndexData {
+  index: true
+  kind: PageKind
+  total: number
+  groups: IndexGroup[]
+}
+
+const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1']
+const byTerm = (a: PageLink, b: PageLink) => a.term.localeCompare(b.term, 'en')
+
+export function buildIndex(catalog: ExpressionsCatalog, kind: PageKind): ExpressionIndexData {
+  if (kind === 'idiom') {
+    const groups = LEVELS.map((level) => ({
+      id: level.toLowerCase(),
+      title: `Nivel ${level}`,
+      links: catalog.idioms
+        .filter((i) => i.level === level)
+        .map(idiomLink)
+        .sort(byTerm),
+    })).filter((g) => g.links.length > 0)
+    return { index: true, kind, total: catalog.idioms.length, groups }
+  }
+  const groups = [...catalog.phrasal_verbs]
+    .sort((a, b) => a.root.localeCompare(b.root, 'en'))
+    .map((f) => ({ id: f.root, title: f.root, links: f.items.map((v) => phrasalLink(f.root, v)) }))
+  return { index: true, kind, total: groups.reduce((n, g) => n + g.links.length, 0), groups }
+}
+
 const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1)
 
 /** The site's title and description, as in index.html. */
@@ -157,8 +194,34 @@ export function pageMeta(page: ExpressionPageData): PageMeta {
       inDefinedTermSet: {
         '@type': 'DefinedTermSet',
         name: page.kind === 'idiom' ? 'Idioms en inglés' : 'Phrasal verbs en inglés',
-        url: `${SITE.url}/expresiones`,
+        url: SITE.url + indexPath(page.kind),
       },
+    },
+  }
+}
+
+/** Title, description and structured data of a list page: "idioms en inglés", "lista de phrasal verbs". */
+export function indexMeta(data: ExpressionIndexData): PageMeta {
+  const canonical = SITE.url + indexPath(data.kind)
+  const idiom = data.kind === 'idiom'
+  const title = idiom
+    ? `Idioms en inglés: ${data.total} expresiones con su significado en español`
+    : `Lista de phrasal verbs en inglés con su significado en español`
+  const description = idiom
+    ? `Los ${data.total} idioms en inglés más útiles, ordenados por nivel del A2 al C1, con su equivalente en español, ejemplos y audio.`
+    : `${data.total} phrasal verbs en inglés agrupados por verbo (get, take, look, put…), con su significado en español, un ejemplo y audio.`
+  return {
+    title: `${title} | ${SITE.name}`,
+    description,
+    canonical,
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'DefinedTermSet',
+      name: idiom ? 'Idioms en inglés' : 'Phrasal verbs en inglés',
+      description,
+      inLanguage: 'en',
+      url: canonical,
+      hasDefinedTerm: data.groups.flatMap((g) => g.links).map((l) => ({ '@type': 'DefinedTerm', name: l.term, url: SITE.url + l.path })),
     },
   }
 }
@@ -166,23 +229,32 @@ export function pageMeta(page: ExpressionPageData): PageMeta {
 // The prerendered HTML carries the page's data, so the SPA can take over without fetching the catalog
 // and without flashing a spinner over content that is already on screen.
 export const PAGE_DATA_ID = 'expression-page-data'
-let primed: ExpressionPageData | null = null
+let primed: ExpressionPageData | ExpressionIndexData | null = null
 
 /** Used by the prerender, which has no DOM, before rendering a page. */
-export function primePageData(page: ExpressionPageData | null) {
-  primed = page
+export function primePageData(data: ExpressionPageData | ExpressionIndexData | null) {
+  primed = data
+}
+
+function prerendered(): ExpressionPageData | ExpressionIndexData | null {
+  if (primed) return primed
+  if (typeof document === 'undefined') return null
+  try {
+    const el = document.getElementById(PAGE_DATA_ID)
+    return el?.textContent ? JSON.parse(el.textContent) : null
+  } catch {
+    return null
+  }
 }
 
 /** The data the page was prerendered with, if it is this expression's page. */
 export function initialPageData(kind: PageKind | null, id: string | undefined): ExpressionPageData | null {
-  let page = primed
-  if (!page && typeof document !== 'undefined') {
-    try {
-      const el = document.getElementById(PAGE_DATA_ID)
-      page = el?.textContent ? (JSON.parse(el.textContent) as ExpressionPageData) : null
-    } catch {
-      page = null
-    }
-  }
-  return page && page.kind === kind && page.id === id ? page : null
+  const data = prerendered()
+  return data && !('index' in data) && data.kind === kind && data.id === id ? data : null
+}
+
+/** The data the list page was prerendered with, if it is this kind's list. */
+export function initialIndexData(kind: PageKind): ExpressionIndexData | null {
+  const data = prerendered()
+  return data && 'index' in data && data.kind === kind ? data : null
 }

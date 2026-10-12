@@ -7,6 +7,7 @@ import { AuthProvider } from './context/AuthContext'
 import { ConsentProvider } from './context/ConsentContext'
 import Contact from './pages/Contact'
 import Cookies from './pages/Cookies'
+import ExpressionIndexPage from './pages/ExpressionIndexPage'
 import ExpressionPage from './pages/ExpressionPage'
 import Expressions from './pages/Expressions'
 import ForgotPassword from './pages/ForgotPassword'
@@ -48,6 +49,8 @@ export default function App() {
               <Route path="/contacto" element={<Contact />} />
               <Route path="/expresiones" element={<Expressions />} />
               <Route path="/expresiones/packs/:packId" element={<PackPage />} />
+              <Route path="/expresiones/idioms" element={<ExpressionIndexPage kind="idiom" />} />
+              <Route path="/expresiones/phrasal-verbs" element={<ExpressionIndexPage kind="phrasal" />} />
               <Route path="/expresiones/:segment/:id" element={<ExpressionPage />} />
               <Route element={<ProtectedRoute />}>
                 <Route path="/levels" element={<Levels />} />

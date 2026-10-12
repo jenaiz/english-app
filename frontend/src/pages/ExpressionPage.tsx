@@ -4,8 +4,9 @@ import { AlertCircle, ArrowLeft, ArrowRight, Layers, Loader2 } from 'lucide-reac
 import AddToReview from '../components/expressions/AddToReview'
 import SpeakButton from '../components/SpeakButton'
 import { useAuth } from '../context/AuthContext'
-import { buildPage, DEFAULT_META, initialPageData, kindFromSegment, pageMeta, type ExpressionPageData, type PageLink } from '../lib/expressionPages'
+import { buildPage, indexPath, initialPageData, kindFromSegment, pageMeta, type ExpressionPageData, type PageLink } from '../lib/expressionPages'
 import { loadExpressions } from '../lib/expressionsCatalog'
+import { usePageMeta } from '../lib/usePageMeta'
 import { useSavedExpressions } from '../lib/useSavedExpressions'
 import NotFound from './NotFound'
 
@@ -34,19 +35,7 @@ export default function ExpressionPage() {
       .catch(() => setState('error'))
   }, [kind, id, page])
 
-  useEffect(() => {
-    if (!page) return
-    const meta = pageMeta(page)
-    const description = document.querySelector('meta[name="description"]')
-    document.title = meta.title
-    description?.setAttribute('content', meta.description)
-    window.scrollTo(0, 0)
-    // Other pages don't set their own, so leave the defaults behind (even when this page was the entry point).
-    return () => {
-      document.title = DEFAULT_META.title
-      description?.setAttribute('content', DEFAULT_META.description)
-    }
-  }, [page])
+  usePageMeta(page ? pageMeta(page) : null)
 
   if (state === 'missing') return <NotFound />
   if (state === 'error') {
@@ -78,7 +67,7 @@ export default function ExpressionPage() {
           <ArrowLeft className="h-4 w-4" /> Expresiones
         </Link>
         <span aria-hidden="true">·</span>
-        <Link to={isIdiom ? '/expresiones' : '/expresiones?tab=phrasal'} className="hover:text-slate-800">
+        <Link to={indexPath(page.kind)} className="hover:text-slate-800">
           {isIdiom ? 'Idioms' : 'Phrasal verbs'}
         </Link>
       </nav>
@@ -191,8 +180,8 @@ export default function ExpressionPage() {
       )}
 
       <p className="mt-12">
-        <Link to="/expresiones" className="inline-flex items-center gap-1.5 font-semibold text-indigo-600 hover:text-indigo-800">
-          Ver todas las expresiones <ArrowRight className="h-4 w-4" />
+        <Link to={indexPath(page.kind)} className="inline-flex items-center gap-1.5 font-semibold text-indigo-600 hover:text-indigo-800">
+          {isIdiom ? 'Ver todos los idioms' : 'Ver todos los phrasal verbs'} <ArrowRight className="h-4 w-4" />
         </Link>
       </p>
     </article>

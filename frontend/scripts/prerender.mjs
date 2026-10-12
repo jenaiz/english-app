@@ -31,8 +31,7 @@ const escapeHTML = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace
 // JSON inside <script>: "<" can't close the tag once escaped.
 const scriptJSON = (v) => JSON.stringify(v).replace(/</g, '\\u003c')
 
-function pageHTML(url, page) {
-  const meta = ssr.pageMeta(page)
+function pageHTML(url, data, meta) {
   const head = [
     `<title>${escapeHTML(meta.title)}</title>`,
     `<link rel="canonical" href="${escapeHTML(meta.canonical)}" />`,
@@ -49,7 +48,7 @@ function pageHTML(url, page) {
     .replace(/<meta name="description" content="[^"]*"\s*\/?>/, `<meta name="description" content="${escapeHTML(meta.description)}" />`)
     .replace(
       '<div id="root"></div>',
-      `<div id="root">${ssr.render(url, page)}</div>\n    <script type="application/json" id="${ssr.PAGE_DATA_ID}">${scriptJSON(page)}</script>`,
+      `<div id="root">${ssr.render(url, data)}</div>\n    <script type="application/json" id="${ssr.PAGE_DATA_ID}">${scriptJSON(data)}</script>`,
     )
 }
 
@@ -61,10 +60,28 @@ for (const { kind, id } of pages) {
   // to the URL with a trailing slash. nginx.conf serves it with try_files $uri.html.
   const file = path.join(dist, `${url}.html`)
   await mkdir(path.dirname(file), { recursive: true })
-  await writeFile(file, pageHTML(url, page))
+  await writeFile(file, pageHTML(url, page, ssr.pageMeta(page)))
 }
 
-const urls = ['/', '/expresiones', ...catalog.packs.map((p) => `/expresiones/packs/${p.id}`), ...pages.map((p) => ssr.pagePath(p.kind, p.id))]
+// The lists of every idiom and every phrasal verb (idioms.html, next to the idioms/ directory).
+const indexes = []
+for (const kind of ['idiom', 'phrasal']) {
+  const url = ssr.indexPath(kind)
+  const data = ssr.buildIndex(catalog, kind)
+  await writeFile(path.join(dist, `${url}.html`), pageHTML(url, data, ssr.indexMeta(data)))
+  indexes.push(url)
+}
+
+// Served by nginx with a real 404 status for expression pages that don't exist (see nginx.conf).
+// The SPA renders its "not found" page there, so only the markup and the robots tag matter.
+await writeFile(
+  path.join(dist, '404.html'),
+  template
+    .replace(/<title>.*<\/title>/, `<title>Página no encontrada | ${escapeHTML(SITE.name)}</title>\n    <meta name="robots" content="noindex" />`)
+    .replace('<div id="root"></div>', `<div id="root">${ssr.render('/404', null)}</div>`),
+)
+
+const urls = ['/', '/expresiones', ...indexes, ...catalog.packs.map((p) => `/expresiones/packs/${p.id}`), ...pages.map((p) => ssr.pagePath(p.kind, p.id))]
 await writeFile(
   path.join(dist, 'sitemap.xml'),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls
@@ -73,4 +90,4 @@ await writeFile(
 )
 await writeFile(path.join(dist, 'robots.txt'), `User-agent: *\nDisallow: /api/\n\nSitemap: ${SITE.url}/sitemap.xml\n`)
 
-console.log(`prerender: ${pages.length} expression pages, sitemap with ${urls.length} URLs`)
+console.log(`prerender: ${pages.length} expression pages, ${indexes.length} lists, sitemap with ${urls.length} URLs`)

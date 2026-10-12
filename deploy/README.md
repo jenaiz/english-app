@@ -111,7 +111,7 @@ Logs: `ssh -i ~/.ssh/bukios_deploy deploy@bukios.com 'cd ~/fluently && docker co
 
 ## Páginas para buscadores
 
-Cada idiom y cada phrasal verb tiene una página pública (`/expresiones/idioms/<id>`, `/expresiones/phrasal-verbs/<id>`). El build del frontend las genera como HTML estático (`npm run build` → `scripts/prerender.mjs`) a partir de `backend/data/expressions/`, junto con `sitemap.xml` y `robots.txt`. Por eso `deploy.sh` pasa ese directorio a `docker build` con `--build-context content=…`. nginx sirve `break-the-ice.html` para `/expresiones/idioms/break-the-ice` y, para el resto de rutas, la SPA.
+Cada idiom y cada phrasal verb tiene una página pública (`/expresiones/idioms/<id>`, `/expresiones/phrasal-verbs/<id>`), y hay dos listas que las enlazan todas (`/expresiones/idioms`, `/expresiones/phrasal-verbs`). El build del frontend las genera como HTML estático (`npm run build` → `scripts/prerender.mjs`) a partir de `backend/data/expressions/`, junto con `sitemap.xml` y `robots.txt`. Por eso `deploy.sh` pasa ese directorio a `docker build` con `--build-context content=…`. nginx sirve `break-the-ice.html` para `/expresiones/idioms/break-the-ice` y, para el resto de rutas, la SPA. Una ficha que no existe responde con un 404 de verdad (`404.html`, con `noindex`), para que Google no la tome por una página.
 
 Una vez desplegado, dar de alta el dominio en [Google Search Console](https://search.google.com/search-console) y enviar `https://<dominio>/sitemap.xml`.
 

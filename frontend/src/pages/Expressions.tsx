@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { AlertCircle, ChevronDown, Loader2 } from 'lucide-react'
 import HackCard from '../components/expressions/HackCard'
 import IdiomCard from '../components/expressions/IdiomCard'
@@ -10,6 +10,7 @@ import TodayPanel from '../components/expressions/TodayPanel'
 import VerbsTable from '../components/expressions/VerbsTable'
 import { useAuth } from '../context/AuthContext'
 import { trackEvent } from '../lib/analytics'
+import { indexPath } from '../lib/expressionPages'
 import { useSavedExpressions } from '../lib/useSavedExpressions'
 import { loadExpressions } from '../lib/expressionsCatalog'
 import { packProgress, packsForLevel } from '../lib/packs'
@@ -179,7 +180,19 @@ export default function Expressions() {
         </section>
       )}
 
-      <h2 className="mt-12 font-display text-2xl font-bold text-indigo-950">Explorar todas</h2>
+      <div className="mt-12 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
+        <h2 className="font-display text-2xl font-bold text-indigo-950">Explorar todas</h2>
+        <p className="text-sm text-slate-500">
+          Lista completa:{' '}
+          <Link to={indexPath('idiom')} className="font-semibold text-indigo-600 hover:text-indigo-800">
+            idioms
+          </Link>{' '}
+          ·{' '}
+          <Link to={indexPath('phrasal')} className="font-semibold text-indigo-600 hover:text-indigo-800">
+            phrasal verbs
+          </Link>
+        </p>
+      </div>
 
       {/* Primary navigation: what kind of expression. Filters below only refine the content. */}
       <div className="mt-4 flex gap-6 overflow-x-auto border-b border-slate-200" role="tablist" aria-label="Tipo de expresión">

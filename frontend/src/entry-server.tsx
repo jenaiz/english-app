@@ -3,15 +3,15 @@ import { StrictMode } from 'react'
 import { renderToString } from 'react-dom/server'
 import { StaticRouter } from 'react-router-dom/server'
 import App from './App'
-import { primePageData, type ExpressionPageData } from './lib/expressionPages'
+import { primePageData, type ExpressionIndexData, type ExpressionPageData } from './lib/expressionPages'
 import type { ExpressionsCatalog, Idiom, Pack, Particle, PhrasalFamily } from './types'
 
-export { allPages, buildPage, PAGE_DATA_ID, pageMeta, pagePath } from './lib/expressionPages'
+export { allPages, buildIndex, buildPage, indexMeta, indexPath, PAGE_DATA_ID, pageMeta, pagePath } from './lib/expressionPages'
 export { SITE } from './lib/site'
 
-/** The app's markup at url, with the expression page's data ready so it renders without fetching. */
-export function render(url: string, page: ExpressionPageData | null): string {
-  primePageData(page)
+/** The app's markup at url, with the page's data ready so it renders without fetching. */
+export function render(url: string, data: ExpressionPageData | ExpressionIndexData | null): string {
+  primePageData(data)
   try {
     return renderToString(
       <StrictMode>
