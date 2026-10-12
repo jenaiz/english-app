@@ -23,6 +23,7 @@ const blankMarker = "___"
 var gradedTypes = map[string]bool{
 	"multiple_choice": true, "speed_quiz": true, "match_pairs": true, "fill_blanks": true,
 	"word_order": true, "transformation": true, "translation": true, "dictation": true,
+	"verb_cloze": true,
 }
 
 // validateLesson checks phase order/completeness and the content of each known step type.
@@ -199,6 +200,8 @@ func validateStep(s Step) error {
 			}
 			return nil
 		})
+	case "verb_cloze":
+		return validateVerbCloze(s.Content)
 	case "word_order":
 		return eachItem(s.Content, func(it struct {
 			Answer string `json:"answer"`

@@ -45,6 +45,11 @@ func main() {
 		log.Fatalf("load expressions: %v", err)
 	}
 	log.Printf("loaded %d idioms, %d phrasal verb families, %d hacks from %s", len(expressions.Idioms), len(expressions.PhrasalVerbs), len(expressions.Hacks), cfg.ExpressionsDir)
+	club, err := content.LoadClub(cfg.ClubDir, catalog, expressions)
+	if err != nil {
+		log.Fatalf("load club: %v", err)
+	}
+	log.Printf("loaded %d club activities from %s", len(club.Activities), cfg.ClubDir)
 	voices, err := content.LoadVoices(cfg.VoicesFile)
 	if err != nil {
 		log.Fatalf("load voices: %v", err)
@@ -80,7 +85,8 @@ func main() {
 		log.Println("GOOGLE_CLIENT_ID not set: Google sign-in disabled")
 	}
 	levelsH := &handlers.LevelsHandler{Catalog: catalog}
-	progressH := &handlers.ProgressHandler{Store: st, Catalog: catalog}
+	progressH := &handlers.ProgressHandler{Store: st, Catalog: catalog, Club: club}
+	clubH := &handlers.ClubHandler{Store: st, Catalog: catalog, Club: club}
 	srsH := &handlers.SRSHandler{Store: st, Catalog: catalog, Expressions: expressions}
 	expressionsH := &handlers.ExpressionsHandler{Expressions: expressions}
 	audioH := &handlers.AudioHandler{Voices: voices, Dir: cfg.AudioDir}
@@ -136,6 +142,10 @@ func main() {
 			r.Post("/progress/complete", progressH.Complete)
 			r.Get("/progress/position/{unitID}", progressH.GetPosition)
 			r.Put("/progress/position", progressH.SavePosition)
+			r.Get("/club", clubH.List)
+			r.Get("/club/summary", clubH.Summary)
+			r.Get("/club/{activityID}", clubH.Get)
+			r.Post("/club/{activityID}/complete", clubH.Complete)
 			r.Get("/srs/summary", srsH.Summary)
 			r.Get("/srs/due", srsH.Due)
 			r.Post("/srs/review", srsH.Review)

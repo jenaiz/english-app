@@ -27,6 +27,8 @@ type Config struct {
 	LabDir string
 	// ExpressionsDir holds the Expresiones content; defaults to a sibling of ContentDir.
 	ExpressionsDir string
+	// ClubDir holds the Club activities (songs, readings, videos…); defaults to a sibling of ContentDir.
+	ClubDir string
 	// VoicesFile maps dialogue speakers to TTS voices; AudioDir holds the pre-generated MP3s.
 	// Both default to siblings of ContentDir.
 	VoicesFile string
@@ -67,6 +69,7 @@ func Load() Config {
 		AWSSecretAccessKey: getEnv("AWS_SECRET_ACCESS_KEY", ""),
 	}
 	cfg.ExpressionsDir = getEnv("EXPRESSIONS_DIR", filepath.Join(filepath.Dir(cfg.ContentDir), "expressions"))
+	cfg.ClubDir = getEnv("CLUB_DIR", filepath.Join(filepath.Dir(cfg.ContentDir), "club"))
 	cfg.VoicesFile = getEnv("VOICES_FILE", filepath.Join(filepath.Dir(cfg.ContentDir), "voices.json"))
 	cfg.AudioDir = getEnv("AUDIO_DIR", filepath.Join(filepath.Dir(cfg.ContentDir), "audio"))
 	cfg.CookieSecure, _ = strconv.ParseBool(getEnv("COOKIE_SECURE", "false"))

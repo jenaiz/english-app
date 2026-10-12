@@ -85,6 +85,7 @@ cd frontend && npm run build
 | `JWT_SECRET`    | *(inseguro en dev)*  | Clave HS256. **Obligatoria en producción.**    |
 | `COOKIE_SECURE` | `false`              | `true` si sirves por HTTPS                     |
 | `CONTENT_DIR`   | `./data/levels`      | Carpeta con los JSON de niveles                |
+| `CLUB_DIR`      | `./data/club`        | Actividades del Club (una por JSON). Si no existe, el Club está vacío. |
 | `GOOGLE_CLIENT_ID` | *(vacío)*         | Client ID OAuth (tipo "Aplicación web") para "Continuar con Google". Vacío = botón oculto. |
 | `APP_URL`       | `http://localhost:3000` | URL pública del frontend, para los enlaces de los emails. |
 | `MAIL_FROM`     | `Fluently <no-reply@bukios.com>` | Remitente de los emails (tiene que estar verificado en SES). |
@@ -132,7 +133,11 @@ Todas las rutas salvo register, login, logout, `auth/config`, `auth/google`, las
 | GET    | `/api/levels`                               | Resumen de niveles → temas → unidades (sin los pasos).                                         |
 | GET    | `/api/levels/{level_id}/units/{unit_id}`    | Unidad completa con lecciones y pasos. Si `level_id` es `-`, se busca en todos los niveles.    |
 | GET    | `/api/progress`                             | `{lessons: [...], completed_units: [...]}`                                                     |
-| POST   | `/api/progress/complete`                    | `{unit_id, lesson_id?, score?}`. Sin `lesson_id` marca todas las lecciones de la unidad. Crea las tarjetas SRS del vocabulario y devuelve `cards_added`. |
+| POST   | `/api/progress/complete`                    | `{unit_id, lesson_id?, score?}`. Sin `lesson_id` marca todas las lecciones de la unidad. Crea las tarjetas SRS del vocabulario y devuelve `cards_added` y `unlocked_activities` (actividades del Club desbloqueadas). |
+| GET    | `/api/club`                                 | `{activities: [...]}`: todas las actividades con su `state` (`locked` \| `new` \| `unlocked` \| `done`). Antes desbloquea los hitos pendientes. Las bloqueadas solo traen sala, nivel y `hint`. |
+| GET    | `/api/club/summary`                         | `{new, unlocked, total}`, para el aviso de la barra de navegación.                             |
+| GET    | `/api/club/{id}`                            | `{activity, card}`: la actividad con su contenido; la marca como vista. `403 locked` si no está desbloqueada. |
+| POST   | `/api/club/{id}/complete`                   | `{score}` (0-100). Guarda la mejor puntuación y devuelve `best_score`.                          |
 | GET    | `/api/srs/summary`                          | `{due, total}`: tarjetas pendientes y totales del usuario.                                    |
 | GET    | `/api/srs/due?limit=20`                     | Tarjetas pendientes con término, traducción, definición, ejemplo y la previsión de intervalo para cada nota. |
 | POST   | `/api/srs/review`                           | `{card_id, grade}` con `grade` = `again` \| `hard` \| `good` \| `easy`. Devuelve el nuevo `due_at` e `interval_days`. |
@@ -145,6 +150,8 @@ Las migraciones están en `backend/internal/db/migrations/*.sql`. Van embebidas 
 - `user_progress`: `id`, `user_id` (FK con borrado en cascada), `unit_id`, `lesson_id`, `status` (`not_started` | `in_progress` | `completed`), `score`, `updated_at`. Tiene `UNIQUE(user_id, lesson_id)`, así que completar una lección es un upsert que conserva la mejor puntuación.
 
 - `srs_cards`: una tarjeta por usuario y término de vocabulario (`UNIQUE(user_id, lesson_id, term)`), con los campos SM-2 `ease`, `interval_days`, `repetitions` y `due_at`. El texto de la tarjeta no se guarda; se lee del catálogo, así que editar el JSON actualiza las tarjetas.
+
+- `user_activity`: actividades del Club desbloqueadas por cada usuario (`PRIMARY KEY(user_id, activity_id)`), con el hito que las desbloqueó (`unit:<id>` o `checkpoint:<lesson_id>`), `seen_at`, `completed_at` y `best_score`.
 
 Una unidad se considera completada cuando todas sus lecciones lo están.
 

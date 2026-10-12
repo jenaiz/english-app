@@ -15,6 +15,7 @@ import (
 type ProgressHandler struct {
 	Store   *store.Store
 	Catalog *content.Catalog
+	Club    *content.Club
 }
 
 func (h *ProgressHandler) Get(w http.ResponseWriter, r *http.Request) {
@@ -113,8 +114,15 @@ func (h *ProgressHandler) Complete(w http.ResponseWriter, r *http.Request) {
 		}
 		cardsAdded += n
 	}
+	// Finishing a unit or passing a checkpoint unlocks Club activities: the end-of-lesson surprise.
+	unlocked, err := syncClub(r.Context(), h.Store, h.Catalog, h.Club, auth.UserID(r.Context()))
+	if err != nil {
+		log.Printf("sync club: %v", err)
+		unlocked = []unlockedActivity{}
+	}
 	writeJSON(w, http.StatusOK, map[string]any{
 		"unit_id": in.UnitID, "completed_lessons": lessonIDs, "cards_added": cardsAdded,
+		"unlocked_activities": unlocked,
 	})
 }
 
