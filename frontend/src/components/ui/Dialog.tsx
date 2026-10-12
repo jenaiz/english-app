@@ -10,7 +10,7 @@ interface Props {
 }
 
 /**
- * Modal dialog: focuses its first control, keeps Tab inside, closes on Escape and gives the
+ * Modal dialog: focuses its data-autofocus control (or the first one), keeps Tab inside, closes on Escape and gives the
  * focus back to where it was.
  */
 export default function Dialog({ labelledBy, onClose, className = 'max-w-md', children }: Props) {
@@ -19,11 +19,16 @@ export default function Dialog({ labelledBy, onClose, className = 'max-w-md', ch
   const close = useRef(onClose)
   close.current = onClose
 
+  // Where the focus was before opening, read on the first render: by the time effects run,
+  // React's autoFocus may already have moved it inside the dialog.
+  const previous = useRef<HTMLElement | null | undefined>(undefined)
+  if (previous.current === undefined && typeof document !== 'undefined') previous.current = document.activeElement as HTMLElement | null
+
   useEffect(() => {
-    const previous = document.activeElement as HTMLElement | null
     const dialog = ref.current
-    const autofocus = dialog?.querySelector<HTMLElement>('[autofocus]')
-    ;(autofocus ?? dialog?.querySelector<HTMLElement>('button, input'))?.focus()
+    // The control marked data-autofocus, else the first one. (Not React's autoFocus: StrictMode
+    // runs this effect twice in development and the cleanup in between takes the focus out.)
+    ;(dialog?.querySelector<HTMLElement>('[data-autofocus]') ?? dialog?.querySelector<HTMLElement>('button, input'))?.focus()
 
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
@@ -46,7 +51,7 @@ export default function Dialog({ labelledBy, onClose, className = 'max-w-md', ch
     document.addEventListener('keydown', onKey)
     return () => {
       document.removeEventListener('keydown', onKey)
-      previous?.focus()
+      previous.current?.focus()
     }
   }, [])
 

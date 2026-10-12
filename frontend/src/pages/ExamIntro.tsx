@@ -76,7 +76,7 @@ export default function ExamIntro() {
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
-      <BackLink to="/levels">Inicio</BackLink>
+      <BackLink to="/niveles">Inicio</BackLink>
 
       <header className="relative mt-4 overflow-hidden rounded-3xl bg-slate-900 p-6 text-white sm:p-8">
         <span className={`absolute inset-y-0 left-0 w-2 ${c.solid}`} aria-hidden />

@@ -102,6 +102,7 @@ export default function Levels() {
   }
   const lessonsDone = progress.lessons.filter((l) => l.status === 'completed').length
   const current = levels.find((l) => l.level_id === selected)
+  const levelExam = exams.find((e) => e.level_id === current?.level_id)
   const greetName = user ? firstName(user) : ''
 
   return (
@@ -163,7 +164,7 @@ export default function Levels() {
           <div className={`rounded-2xl px-5 py-4 ${colorOf(current.level_id).soft}`}>
             <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
               <h3 className={`font-display text-xl font-bold ${colorOf(current.level_id).text}`}>{current.title}</h3>
-              {exams.find((e) => e.level_id === current.level_id)?.status.passed && (
+              {levelExam?.status.passed && (
                 <span className="inline-flex items-center gap-1 rounded-full bg-white px-2.5 py-1 text-xs font-bold text-emerald-700 shadow-sm">
                   <Award className="h-3.5 w-3.5" /> Examen aprobado
                 </span>
@@ -172,12 +173,23 @@ export default function Levels() {
             <p className="mt-1 text-sm text-slate-600">{current.description}</p>
             <div className="mt-4 flex flex-wrap items-center justify-between gap-x-6 gap-y-3">
               <LevelProgress {...levelStats(current)} levelId={current.level_id} />
-              <Link
-                to={`/levels/${current.level_id}/study`}
-                className="inline-flex shrink-0 items-center gap-1.5 rounded-lg bg-white px-3 py-1.5 text-sm font-medium text-slate-700 shadow-sm transition hover:text-indigo-700"
-              >
-                <Lightbulb className="h-4 w-4 text-amber-500" /> Estudiar el nivel
-              </Link>
+              <div className="flex flex-wrap gap-2">
+                <Link
+                  to={`/niveles/${current.level_id}/estudiar`}
+                  className="inline-flex shrink-0 items-center gap-1.5 rounded-lg bg-white px-3 py-1.5 text-sm font-medium text-slate-700 shadow-sm transition hover:text-indigo-700"
+                >
+                  <Lightbulb className="h-4 w-4 text-amber-500" /> Estudiar el nivel
+                </Link>
+                {/* The exam is also at the end of the level; this is the shortcut for whoever wants to test themselves now. */}
+                {levelExam && (
+                  <Link
+                    to={`/examen/${levelExam.level_id}`}
+                    className="inline-flex shrink-0 items-center gap-1.5 rounded-lg bg-white px-3 py-1.5 text-sm font-medium text-slate-700 shadow-sm transition hover:text-indigo-700"
+                  >
+                    <GraduationCap className="h-4 w-4 text-indigo-600" /> Examen {levelExam.level_id} · {levelExam.duration_minutes} min
+                  </Link>
+                )}
+              </div>
             </div>
           </div>
 
@@ -204,7 +216,7 @@ export default function Levels() {
                         {done}/{theme.units.length} unidades
                       </span>
                       <Link
-                        to={`/levels/${current.level_id}/study#${theme.theme_id}`}
+                        to={`/niveles/${current.level_id}/estudiar#${theme.theme_id}`}
                         className="font-medium text-indigo-600 hover:text-indigo-800 hover:underline"
                       >
                         Estudiar el tema
@@ -336,7 +348,7 @@ function ContinueCard({ entry }: { entry: UnitEntry & { lesson: UnitSummary['les
           </p>
         </div>
         <Link
-          to={`/units/${entry.unit.unit_id}?level=${entry.levelId}&lesson=${entry.lesson.lesson_id}`}
+          to={`/unidades/${entry.unit.unit_id}?level=${entry.levelId}&lesson=${entry.lesson.lesson_id}`}
           className="inline-flex items-center gap-2 rounded-xl bg-white px-6 py-3 font-semibold text-slate-900 transition hover:bg-indigo-50 focus-visible:ring-4 focus-visible:ring-indigo-300 focus-visible:outline-none"
         >
           <Play className="h-4 w-4 fill-current" />
@@ -351,7 +363,7 @@ function ReviewCard({ due, total }: { due: number; total: number }) {
   const has = due > 0
   return (
     <Link
-      to="/review"
+      to="/repaso"
       className={`group flex flex-col justify-between rounded-3xl border-2 p-6 transition focus-visible:ring-4 focus-visible:ring-indigo-300 focus-visible:outline-none ${
         has ? 'border-indigo-600 bg-indigo-600 text-white hover:bg-indigo-700' : 'border-slate-200 bg-white text-slate-700 hover:border-indigo-300'
       }`}
@@ -484,7 +496,7 @@ function UnitCard({
   lessonById: Map<string, LessonProgress>
 }) {
   const c = colorOf(levelId)
-  const base = `/units/${unit.unit_id}`
+  const base = `/unidades/${unit.unit_id}`
   const nextLesson = unit.lessons.find((l) => lessonById.get(l.lesson_id)?.status !== 'completed')
   // Grammar topics, minus those that just repeat a lesson title.
   const norm = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()
@@ -562,14 +574,14 @@ function UnitCard({
           <cta.Icon className="h-4 w-4" /> {cta.label}
         </Link>
         <Link
-          to={`${base}/study?level=${levelId}&tab=grammar`}
+          to={`${base}/estudiar?level=${levelId}&tab=grammar`}
           title="Ver la gramática de la unidad"
           className="inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-200 px-3 py-2 text-sm font-medium text-slate-700 transition hover:border-amber-300 hover:bg-amber-50 focus-visible:ring-4 focus-visible:ring-amber-200 focus-visible:outline-none"
         >
           <Lightbulb className="h-4 w-4 text-amber-500" /> Gramática
         </Link>
         <Link
-          to={`${base}/study?level=${levelId}&tab=vocabulary`}
+          to={`${base}/estudiar?level=${levelId}&tab=vocabulary`}
           title="Ver el vocabulario de la unidad"
           className="inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-200 px-3 py-2 text-sm font-medium text-slate-700 transition hover:border-emerald-300 hover:bg-emerald-50 focus-visible:ring-4 focus-visible:ring-emerald-200 focus-visible:outline-none"
         >

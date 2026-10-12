@@ -10,7 +10,7 @@ import { getLastEmail } from '../lib/lastEmail'
 export default function Login() {
   const { user, login, loginWithGoogle } = useAuth()
   const navigate = useNavigate()
-  const from = (useLocation().state as { from?: string } | null)?.from ?? '/levels'
+  const from = (useLocation().state as { from?: string } | null)?.from ?? '/niveles'
   const [unverifiedEmail, setUnverifiedEmail] = useState('')
 
   if (user) return <Navigate to={from} replace />
@@ -22,7 +22,17 @@ export default function Login() {
       submitLabel="Iniciar sesión"
       fields={[
         { name: 'email', label: 'Email', type: 'email', autoComplete: 'username', defaultValue: getLastEmail() },
-        { name: 'password', label: 'Contraseña', type: 'password', autoComplete: 'current-password' },
+        {
+          name: 'password',
+          label: 'Contraseña',
+          type: 'password',
+          autoComplete: 'current-password',
+          aside: (
+            <Link to="/olvide-contrasena" className="text-sm font-medium text-indigo-600 hover:underline">
+              ¿La has olvidado?
+            </Link>
+          ),
+        },
       ]}
       validate={validateCredentials}
       onSubmit={async (v) => {
@@ -58,9 +68,6 @@ export default function Login() {
       }
       footer={
         <>
-          <Link to="/olvide-contrasena" className="mb-3 block font-medium text-indigo-600 hover:underline">
-            ¿Olvidaste tu contraseña?
-          </Link>
           ¿No tienes cuenta?{' '}
           <Link to="/register" className="font-medium text-indigo-600 hover:underline">
             Regístrate

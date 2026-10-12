@@ -4,6 +4,7 @@ import { ArrowLeft, ArrowRight, Brain, CheckCircle2, ClipboardCheck, History, Ho
 import { api } from '../api/client'
 import UnlockReveal from '../components/club/UnlockReveal'
 import UnitExpressions from '../components/expressions/UnitExpressions'
+import { LessonFlowContext } from '../components/exercises/LessonFlow'
 import StepRenderer, { EXERCISE_TYPES } from '../components/steps/StepRenderer'
 import { flattenUnits, type UnitEntry } from '../lib/levels'
 import { PHASES } from '../lib/phases'
@@ -250,7 +251,7 @@ export default function UnitView() {
     return (
       <div className="mx-auto mt-12 max-w-md px-4">
         <ErrorState className="mt-0" />
-        <Link to="/levels" className="mt-4 inline-block text-indigo-600 hover:underline">
+        <Link to="/niveles" className="mt-4 inline-block text-indigo-600 hover:underline">
           ← Volver a Inicio
         </Link>
       </div>
@@ -275,7 +276,7 @@ export default function UnitView() {
         onNext={(target) => {
           setSummary(null)
           if (target.unitId !== unit.unit_id) {
-            navigate(`/units/${target.unitId}?level=${target.levelId}&lesson=${target.lessonId}`)
+            navigate(`/unidades/${target.unitId}?level=${target.levelId}&lesson=${target.lessonId}`)
             return
           }
           const i = steps.findIndex((s) => s.lessonId === target.lessonId)
@@ -285,8 +286,8 @@ export default function UnitView() {
           setSummary(null)
           goTo(0, {})
         }}
-        onLevels={() => navigate('/levels')}
-        onReview={() => navigate('/review')}
+        onLevels={() => navigate('/niveles')}
+        onReview={() => navigate('/repaso')}
       />
     )
   }
@@ -301,8 +302,9 @@ export default function UnitView() {
   const finishLesson = async () => {
     let correct = 0
     let total = 0
+    // From the ref: the last exercise may have reported its result in this same click.
     for (const s of lessonSteps) {
-      const r = results[s.i]
+      const r = resultsRef.current[s.i]
       if (r) {
         correct += r.correct
         total += r.total
@@ -348,6 +350,7 @@ export default function UnitView() {
   }
 
   if (canAdvance && !saving) advanceRef.current = next
+  const nextLabel = current.isLastInLesson ? (current.isTest ? 'Terminar test' : 'Terminar lección') : 'Siguiente'
 
   const currentPhase = PHASES.findIndex((p) => p.id === current.step.phase)
   const phaseFirstStep = (phase: Phase) => lessonSteps.find((s) => s.step.phase === phase)?.i
@@ -355,16 +358,14 @@ export default function UnitView() {
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-8">
-      <BackLink to="/levels">Inicio</BackLink>
+      <BackLink to="/niveles">Inicio</BackLink>
 
       <div className="mt-4">
         <p className="text-xs font-semibold tracking-wide text-indigo-600 uppercase">
           {data.level_id} · {unit.title}
+          {unit.lessons.length > 1 && ` · Lección ${current.lessonIndex + 1} de ${unit.lessons.length}`}
         </p>
-        <h1 className="mt-1 text-2xl font-bold text-slate-900">
-          {unit.lessons.length > 1 && <span className="text-slate-400">Lección {current.lessonIndex + 1}/{unit.lessons.length} · </span>}
-          {current.lessonTitle}
-        </h1>
+        <h1 className="mt-1 font-display text-2xl font-extrabold tracking-tight text-slate-900 md:text-3xl">{current.lessonTitle}</h1>
       </div>
 
       {/* 7-phase stepper (tests have no phases) */}
@@ -449,7 +450,9 @@ export default function UnitView() {
             <span className="text-xs font-medium text-slate-400">{stepLabels[current.step.type] ?? current.step.type}</span>
           )}
         </div>
-        <StepRenderer key={index} step={current.step} onComplete={recordResult} />
+        <LessonFlowContext.Provider value={{ advance: next, nextLabel }}>
+          <StepRenderer key={index} step={current.step} onComplete={recordResult} />
+        </LessonFlowContext.Provider>
       </article>
 
       {current.step.type === 'vocabulary_table' && (
@@ -468,30 +471,16 @@ export default function UnitView() {
         >
           <ArrowLeft className="h-4 w-4" /> Anterior
         </button>
-        <button
-          onClick={next}
-          disabled={saving || !canAdvance}
-          aria-describedby={canAdvance ? undefined : 'advance-hint'}
-          className={buttonClass({ variant: current.isLastInLesson ? 'success' : 'primary' })}
-        >
-          {saving && <Loader2 className="h-4 w-4 animate-spin" />}
-          {current.isLastInLesson ? (
-            <>
-              {current.isTest ? 'Terminar test' : 'Terminar lección'} <CheckCircle2 className="h-4 w-4" />
-            </>
-          ) : (
-            <>
-              Siguiente <ArrowRight className="h-4 w-4" />
-            </>
-          )}
-        </button>
+        {/* While an exercise is being answered its own button moves the lesson on: no second one here. */}
+        {canAdvance ? (
+          <button onClick={next} disabled={saving} className={buttonClass({ variant: current.isLastInLesson ? 'success' : 'primary' })}>
+            {saving && <Loader2 className="h-4 w-4 animate-spin" />}
+            {nextLabel} {current.isLastInLesson ? <CheckCircle2 className="h-4 w-4" /> : <ArrowRight className="h-4 w-4" />}
+          </button>
+        ) : (
+          <p className="text-sm text-slate-500">Responde para seguir</p>
+        )}
       </div>
-      {/* Visible on touch screens too, where a title tooltip never shows. */}
-      {!canAdvance && (
-        <p id="advance-hint" className="mt-2 text-right text-sm text-slate-500">
-          Termina el ejercicio para seguir
-        </p>
-      )}
     </div>
   )
 }

@@ -157,7 +157,7 @@ Una unidad se considera completada cuando todas sus lecciones lo están.
 
 ### Repaso espaciado (SRS)
 
-Al completar una lección, cada término de su `vocabulary_table` se convierte en una tarjeta. En `/review` el repaso es activo: hay que responder antes de ver la tarjeta, en una de dos direcciones. En modo "Mixto" se alternan por tarjeta, y también se puede fijar una.
+Al completar una lección, cada término de su `vocabulary_table` se convierte en una tarjeta. En `/repaso` el repaso es activo: hay que responder antes de ver la tarjeta, en una de dos direcciones. En modo "Mixto" se alternan por tarjeta, y también se puede fijar una.
 
 - **Escuchar → ES**: suena el término en inglés, sin mostrarlo, y se escribe su significado. La comprobación ignora tildes y artículos, acepta las variantes separadas por `/` y la forma `-o/a`, y tolera erratas pequeñas.
 - **ES → Inglés**: se muestran la traducción y la definición, y se dice el término por micrófono (≥ 75 % de coincidencia) o se escribe.

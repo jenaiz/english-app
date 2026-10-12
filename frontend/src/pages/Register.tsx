@@ -11,7 +11,7 @@ export default function Register() {
   const navigate = useNavigate()
   const [sentTo, setSentTo] = useState('')
 
-  if (user) return <Navigate to="/levels" replace />
+  if (user) return <Navigate to="/niveles" replace />
 
   if (sentTo) {
     return (
@@ -29,7 +29,7 @@ export default function Register() {
       submitLabel="Crear cuenta"
       fields={[
         { name: 'email', label: 'Email', type: 'email', autoComplete: 'username' },
-        { name: 'password', label: 'Contraseña', type: 'password', autoComplete: 'new-password' },
+        { name: 'password', label: 'Contraseña', type: 'password', autoComplete: 'new-password', hint: 'Mínimo 8 caracteres.' },
         { name: 'confirm', label: 'Repite la contraseña', type: 'password', autoComplete: 'new-password' },
       ]}
       validate={validateCredentials}
@@ -42,7 +42,7 @@ export default function Register() {
           text="signup_with"
           onCredential={async (credential, link) => {
             await loginWithGoogle(credential, link)
-            navigate('/levels', { replace: true })
+            navigate('/niveles', { replace: true })
           }}
         />
       }
@@ -52,7 +52,7 @@ export default function Register() {
           <Link to="/login" className="font-medium text-indigo-600 hover:underline">
             Inicia sesión
           </Link>
-          <span className="mt-4 block text-xs text-slate-400">
+          <span className="mt-4 block text-xs text-slate-500">
             Al crear una cuenta aceptas los{' '}
             <Link to="/terminos" className="underline hover:text-indigo-600">
               términos y condiciones

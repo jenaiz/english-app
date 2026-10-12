@@ -5,6 +5,7 @@ import { api } from '../api/client'
 import { trackEvent } from '../lib/analytics'
 import { loadExpressions } from '../lib/expressionsCatalog'
 import ChoiceExercise from '../components/review/ChoiceExercise'
+import GradeButtons, { PASS_GRADES, formatInterval } from '../components/review/GradeButtons'
 import ReviewHub, { DECKS, type Deck } from '../components/review/ReviewHub'
 import { bestSimilarity, isCorrect, matchesMeaning } from '../lib/answers'
 import { canSpeak, speak, useSpeechRecognition } from '../lib/speech'
@@ -30,22 +31,9 @@ const MODES: { id: ModePref; label: string }[] = [
   { id: 'produce', label: 'Español → inglés' },
 ]
 
-const PASS_GRADES: { grade: Grade; label: string; cls: string; key: string }[] = [
-  { grade: 'hard', label: 'Difícil', cls: 'bg-amber-700 hover:bg-amber-800', key: '1' },
-  { grade: 'good', label: 'Bien', cls: 'bg-emerald-700 hover:bg-emerald-800', key: '2' },
-  { grade: 'easy', label: 'Fácil', cls: 'bg-sky-700 hover:bg-sky-800', key: '3' },
-]
-
 // Speech recognition is imperfect: accept when most of the words match.
 const SPEECH_PASS = 0.75
 const MODE_KEY = 'review-mode'
-
-function formatInterval(days: number) {
-  if (days < 1 / 24) return `${Math.max(1, Math.round(days * 24 * 60))} min`
-  if (days < 1) return `${Math.round(days * 24)} h`
-  if (days < 30) return `${Math.round(days * 10) / 10} d`
-  return `${Math.round(days / 30)} mes`
-}
 
 // Alternate direction per card and per repetition so each word is practised both ways.
 function directionFor(card: ReviewCard, pref: ModePref): Direction {
@@ -447,20 +435,15 @@ function ReviewSession({ deck, packId, onExit }: { deck: Deck; packId?: string; 
           <div className="border-t border-slate-100 bg-slate-50 p-3">
             {outcome === 'correct' ? (
               <>
-                <p className="mb-2 text-center text-xs text-slate-500">¿Qué tal te ha costado?</p>
-                <div className="grid grid-cols-3 gap-2">
-                  {PASS_GRADES.map((g) => (
-                    <button
-                      key={g.grade}
-                      disabled={busy}
-                      onClick={() => grade(g.grade)}
-                      className={`flex flex-col items-center rounded-xl px-2 py-2.5 font-semibold text-white transition disabled:opacity-50 ${g.cls}`}
-                    >
-                      <span className="text-sm">{g.label}</span>
-                      <span className="text-xs font-medium opacity-80">{formatInterval(card.preview[g.grade])}</span>
-                    </button>
-                  ))}
-                </div>
+                <GradeButtons
+                  disabled={busy}
+                  onGrade={grade}
+                  intervals={{
+                    hard: formatInterval(card.preview.hard),
+                    good: formatInterval(card.preview.good),
+                    easy: formatInterval(card.preview.easy),
+                  }}
+                />
               </>
             ) : (
               <button

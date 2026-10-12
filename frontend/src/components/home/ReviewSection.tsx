@@ -1,11 +1,10 @@
 import { useState } from 'react'
+import GradeButtons, { type PassGrade } from '../review/GradeButtons'
+import { buttonClass } from '../ui/Button'
 
-const GRADES = [
-  { label: 'Otra vez', when: 'en unos minutos', className: 'bg-red-50 text-red-700 hover:bg-red-100' },
-  { label: 'Difícil', when: 'mañana', className: 'bg-amber-50 text-amber-700 hover:bg-amber-100' },
-  { label: 'Bien', when: 'en unos días', className: 'bg-emerald-50 text-emerald-700 hover:bg-emerald-100' },
-  { label: 'Fácil', when: 'más adelante', className: 'bg-sky-50 text-sky-700 hover:bg-sky-100' },
-]
+// The same buttons as in Repaso, with the intervals a new card would get.
+const INTERVALS: Record<PassGrade, string> = { hard: '1 d', good: '3 d', easy: '7 d' }
+const WHEN: Record<PassGrade, string> = { hard: 'mañana', good: 'en 3 días', easy: 'en una semana' }
 
 // Gaps between reviews grow each time you remember a word.
 const TIMELINE = [
@@ -18,7 +17,7 @@ const TIMELINE = [
 
 export default function ReviewSection() {
   const [revealed, setRevealed] = useState(false)
-  const [graded, setGraded] = useState<number | null>(null)
+  const [graded, setGraded] = useState<PassGrade | null>(null)
 
   return (
     <section className="overflow-hidden border-y border-slate-200 bg-white">
@@ -63,31 +62,20 @@ export default function ReviewSection() {
                 <button
                   type="button"
                   onClick={() => setRevealed(true)}
-                  className="rounded-xl bg-indigo-600 px-5 py-2.5 font-semibold text-white transition hover:bg-indigo-700"
+                  className={buttonClass()}
                 >
                   Mostrar respuesta
                 </button>
               )}
             </div>
             {revealed && (
-              <div className="mt-6 grid grid-cols-4 gap-2">
-                {GRADES.map((g, i) => (
-                  <button
-                    key={g.label}
-                    type="button"
-                    onClick={() => setGraded(i)}
-                    className={`rounded-xl px-1 py-2 text-sm font-semibold transition ${g.className} ${
-                      graded === i ? 'ring-2 ring-current' : ''
-                    }`}
-                  >
-                    {g.label}
-                  </button>
-                ))}
+              <div className="mt-6">
+                <GradeButtons intervals={INTERVALS} onGrade={setGraded} selected={graded} />
               </div>
             )}
             {graded !== null && (
               <p className="mt-3 text-center text-sm text-slate-500">
-                La volverás a ver <strong className="text-slate-800">{GRADES[graded].when}</strong>.
+                La volverás a ver <strong className="text-slate-800">{WHEN[graded]}</strong>.
               </p>
             )}
           </div>

@@ -48,7 +48,7 @@ export const ROOMS: RoomInfo[] = [
     id: 'games',
     label: 'Juegos',
     plural: 'juegos',
-    intro: 'Ejercicios de academia: párrafos enteros para conjugar verbos y phrasal verbs.',
+    intro: 'Párrafos enteros para conjugar verbos y usar phrasal verbs: práctica para el examen de tu nivel.',
     Icon: Dices,
     bg: 'from-amber-500 to-yellow-400',
     accent: 'text-amber-600',

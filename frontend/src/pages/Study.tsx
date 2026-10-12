@@ -59,9 +59,9 @@ export default function Study() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-8">
       <div className="flex flex-wrap items-center justify-between gap-2">
-        <BackLink to="/levels">Inicio</BackLink>
+        <BackLink to="/niveles">Inicio</BackLink>
         <Link
-          to={`/levels/${level_id}/study?tab=${tab}#${unit.unit_id}`}
+          to={`/niveles/${level_id}/estudiar?tab=${tab}#${unit.unit_id}`}
           className="inline-flex items-center gap-1.5 text-sm font-medium text-indigo-600 hover:text-indigo-800 hover:underline"
         >
           <Layers className="h-4 w-4" /> Ver todo {level_id}
@@ -74,7 +74,7 @@ export default function Study() {
           <h1 className="h-page">{unit.title}</h1>
         </div>
         <Link
-          to={`/units/${unit.unit_id}?level=${level_id}`}
+          to={`/unidades/${unit.unit_id}?level=${level_id}`}
           className="inline-flex items-center gap-2 rounded-xl bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white hover:bg-slate-700"
         >
           <Play className="h-4 w-4" /> Hacer la unidad
@@ -128,7 +128,7 @@ export default function Study() {
           <UnitExpressions unitId={unitId} excludeTerms={perLesson.flatMap((l) => l.vocab.map((it) => it.term))} />
           <PhrasalFamilyLinks terms={perLesson.flatMap((l) => l.vocab.map((it) => it.term))} />
           <Link
-            to="/review"
+            to="/repaso"
             className="flex items-center gap-4 rounded-2xl border-2 border-dashed border-indigo-200 p-5 text-indigo-700 transition hover:border-indigo-400 hover:bg-indigo-50"
           >
             <Brain className="h-6 w-6 shrink-0" />

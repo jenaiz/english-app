@@ -1,5 +1,6 @@
 import { useEffect, useRef, type FormEvent, type ReactNode } from 'react'
 import { CheckCircle2, Lightbulb, Trophy, XCircle } from 'lucide-react'
+import { useLessonFlow } from './LessonFlow'
 import type { ItemStatus } from './useExerciseItems'
 import { buttonClass } from '../ui/Button'
 import { inputClass } from '../ui/styles'
@@ -42,6 +43,12 @@ export default function ExerciseShell({
   children,
 }: Props) {
   const answered = status !== 'answering'
+  const flow = useLessonFlow()
+  // In a lesson the last item's button also moves the lesson on (see LessonFlow).
+  const finish = () => {
+    onNext()
+    if (isLast && flow) flow.advance()
+  }
   // Checking disables the inputs, which drops the focus; move it to "Continuar" so the
   // next Enter advances.
   const buttonRef = useRef<HTMLButtonElement>(null)
@@ -54,7 +61,7 @@ export default function ExerciseShell({
 
   const submit = (e: FormEvent) => {
     e.preventDefault()
-    if (answered) onNext()
+    if (answered) finish()
     else if (canCheck) onCheck()
   }
 
@@ -104,7 +111,7 @@ export default function ExerciseShell({
           disabled={!answered && !canCheck}
           className={buttonClass({ variant: answered && status === 'correct' ? 'success' : 'primary' })}
         >
-          {!answered ? 'Comprobar' : isLast ? 'Terminar ejercicio' : 'Continuar'}
+          {!answered ? 'Comprobar' : isLast ? (flow?.nextLabel ?? 'Terminar ejercicio') : 'Continuar'}
         </button>
       </div>
     </form>
@@ -121,7 +128,7 @@ export function ExerciseDone({ correct, total }: { correct: number; total: numbe
       <p className="mt-3 text-lg font-bold text-slate-900">
         {correct} / {total} correctas
       </p>
-      <p className="text-sm text-slate-500">{pct >= 70 ? '¡Muy bien! Pulsa Siguiente para continuar.' : 'Sigue practicando. Pulsa Siguiente para continuar.'}</p>
+      <p className="text-sm text-slate-500">{pct >= 70 ? '¡Muy bien!' : 'Sigue practicando: la próxima vez saldrá mejor.'}</p>
     </div>
   )
 }

@@ -68,7 +68,7 @@ export default function TodayPanel({ picks, level, statusOf, onAdd }: Props) {
         </div>
         {picks.length > 0 &&
           (done ? (
-            <Link to="/review" className="inline-flex items-center gap-1.5 rounded-xl bg-white px-4 py-2 text-sm font-semibold text-indigo-700 shadow-sm transition hover:bg-indigo-100">
+            <Link to="/repaso" className="inline-flex items-center gap-1.5 rounded-xl bg-white px-4 py-2 text-sm font-semibold text-indigo-700 shadow-sm transition hover:bg-indigo-100">
               <CheckCircle2 className="h-4 w-4 text-emerald-600" /> Ir a Repaso
             </Link>
           ) : user ? (
@@ -93,7 +93,7 @@ export default function TodayPanel({ picks, level, statusOf, onAdd }: Props) {
       {picks.length === 0 ? (
         <p className="mt-5 rounded-2xl bg-white px-5 py-4 text-slate-600">
           Ya tienes en tu repaso todas las expresiones. ¡Enhorabuena! Sigue con ellas en{' '}
-          <Link to="/review" className="font-semibold text-indigo-600 hover:text-indigo-800">
+          <Link to="/repaso" className="font-semibold text-indigo-600 hover:text-indigo-800">
             Repaso
           </Link>
           .

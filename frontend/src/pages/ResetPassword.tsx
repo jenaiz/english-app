@@ -14,7 +14,7 @@ export default function ResetPassword() {
       subtitle="Después entrarás directamente en tu cuenta."
       submitLabel="Guardar contraseña"
       fields={[
-        { name: 'password', label: 'Contraseña nueva', type: 'password', autoComplete: 'new-password' },
+        { name: 'password', label: 'Contraseña nueva', type: 'password', autoComplete: 'new-password', hint: 'Mínimo 8 caracteres.' },
         { name: 'confirm', label: 'Repite la contraseña', type: 'password', autoComplete: 'new-password' },
       ]}
       validate={validatePassword}
@@ -27,7 +27,7 @@ export default function ResetPassword() {
           }
           throw err
         }
-        navigate('/levels', { replace: true })
+        navigate('/niveles', { replace: true })
       }}
       footer={
         <Link to="/olvide-contrasena" className="font-medium text-indigo-600 hover:underline">

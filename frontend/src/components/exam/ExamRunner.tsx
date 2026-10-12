@@ -4,10 +4,9 @@ import { api, ApiError } from '../../api/client'
 import type { ExamAttempt, Paper } from '../../types'
 import ListeningClip from './ListeningClip'
 import Question from './Questions'
-import Button from '../ui/Button'
+import Button, { buttonClass } from '../ui/Button'
 import Dialog from '../ui/Dialog'
 import { pillClass, pillCountClass } from '../ui/styles'
-import { buttonClass } from '../ui/Button'
 
 const AUTOSAVE_MS = 1500
 
@@ -88,6 +87,17 @@ export default function ExamRunner({ attempt, onDone }: { attempt: ExamAttempt; 
     if (timeUp && !submitting) submit()
   }, [timeUp, submitting, submit])
 
+  // Closing or reloading the tab doesn't stop the clock: ask first.
+  useEffect(() => {
+    if (submitting) return
+    const onBeforeUnload = (e: BeforeUnloadEvent) => e.preventDefault()
+    window.addEventListener('beforeunload', onBeforeUnload)
+    return () => window.removeEventListener('beforeunload', onBeforeUnload)
+  }, [submitting])
+
+  // Someone reading a long text doesn't watch the clock: tell them at 5 minutes and at 1.
+  const warning = timeUp ? null : left <= 60_000 ? 'last' : left <= 5 * 60_000 ? 'soon' : null
+
   // Global question numbers, and how many each section has answered.
   const numbered = useMemo(() => {
     let n = 0
@@ -111,7 +121,7 @@ export default function ExamRunner({ attempt, onDone }: { attempt: ExamAttempt; 
   const lowTime = left < 5 * 60 * 1000
 
   return (
-    <div id="exam-scroll" className="fixed inset-0 z-40 overflow-y-auto bg-slate-50">
+    <div id="exam-scroll" className="fixed inset-0 z-[45] overflow-y-auto bg-slate-50">
       {/* Top bar: sections, answered count and time */}
       <header className="sticky top-0 z-10 border-b border-slate-200 bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-3xl flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3">
@@ -153,6 +163,18 @@ export default function ExamRunner({ attempt, onDone }: { attempt: ExamAttempt; 
             </button>
           ))}
         </nav>
+        {warning && (
+          <p
+            role="status"
+            className={`border-t px-4 py-2 text-center text-sm font-semibold ${
+              warning === 'last' ? 'border-red-200 bg-red-50 text-red-800' : 'border-amber-200 bg-amber-50 text-amber-900'
+            }`}
+          >
+            {warning === 'last'
+              ? 'Queda menos de 1 minuto. Al acabar el tiempo se entrega lo que hayas respondido.'
+              : 'Quedan menos de 5 minutos. Repasa las preguntas sin responder.'}
+          </p>
+        )}
       </header>
 
       <main className="mx-auto max-w-3xl px-4 py-8">
@@ -234,7 +256,7 @@ export default function ExamRunner({ attempt, onDone }: { attempt: ExamAttempt; 
                 <Button variant="ghost" onClick={() => setConfirming(false)}>
                   Seguir revisando
                 </Button>
-                <Button onClick={submit} autoFocus>
+                <Button onClick={submit} data-autofocus>
                   Entregar
                 </Button>
               </div>

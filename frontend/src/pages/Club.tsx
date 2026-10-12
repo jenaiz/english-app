@@ -122,7 +122,7 @@ export default function Club() {
           <p className="mx-auto mt-1 max-w-md text-amber-900/80">
             Termina una unidad del curso y se abrirá una actividad del Club. Cuantas más unidades hagas, más completo estará tu álbum.
           </p>
-          <Link to="/levels" className={buttonClass({ className: 'mt-5' })}>
+          <Link to="/niveles" className={buttonClass({ className: 'mt-5' })}>
             Seguir con el curso
           </Link>
         </div>

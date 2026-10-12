@@ -108,11 +108,8 @@ export default function GoogleSignIn({ onCredential, text = 'continue_with' }: P
 
   return (
     <div className="mt-6">
-      <div className="flex items-center gap-3 text-xs text-slate-400">
-        <span className="h-px flex-1 bg-slate-200" />o<span className="h-px flex-1 bg-slate-200" />
-      </div>
       {/* Google renders its own button (an iframe) inside this element. */}
-      <div ref={ref} className="mt-6 flex min-h-[44px] w-full justify-center" />
+      <div ref={ref} className="flex min-h-[44px] w-full justify-center" />
       {error && (
         <div className="mt-3 flex items-center gap-2 rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700">
           <AlertCircle className="h-4 w-4 shrink-0" /> {error}
@@ -128,6 +125,9 @@ export default function GoogleSignIn({ onCredential, text = 'continue_with' }: P
           }}
         />
       )}
+      <div className="mt-6 flex items-center gap-3 text-xs text-slate-500">
+        <span className="h-px flex-1 bg-slate-200" />o con tu email<span className="h-px flex-1 bg-slate-200" />
+      </div>
     </div>
   )
 }

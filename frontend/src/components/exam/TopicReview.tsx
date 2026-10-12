@@ -17,7 +17,7 @@ export default function TopicReview({ topics }: { topics: TopicScore[] }) {
               {t.units.map((u) => (
                 <Link
                   key={u.unit_id}
-                  to={`/units/${u.unit_id}/study?level=${u.level_id}&tab=grammar`}
+                  to={`/unidades/${u.unit_id}/estudiar?level=${u.level_id}&tab=grammar`}
                   className="inline-flex items-center gap-1 rounded-md bg-slate-100 px-2 py-0.5 font-medium text-slate-700 hover:bg-indigo-50 hover:text-indigo-700"
                 >
                   <BookOpen className="h-3.5 w-3.5" /> {u.title}

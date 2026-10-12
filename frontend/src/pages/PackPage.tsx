@@ -152,7 +152,7 @@ export default function PackPage() {
                   Tienes {review.due === 1 ? '1 expresión' : `${review.due} expresiones`} de este pack para repasar hoy.
                 </p>
                 <Link
-                  to={`/review?pack=${encodeURIComponent(pack.id)}`}
+                  to={`/repaso?pack=${encodeURIComponent(pack.id)}`}
                   className="inline-flex items-center gap-1.5 rounded-xl bg-indigo-950 px-4 py-2 text-sm font-semibold text-white transition hover:bg-indigo-800"
                 >
                   <Brain className="h-4 w-4" /> Repasar este pack

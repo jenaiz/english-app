@@ -17,7 +17,7 @@ export default function ExamResults({ attempt }: { attempt: ExamAttempt }) {
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
-      <BackLink to="/levels">Inicio</BackLink>
+      <BackLink to="/niveles">Inicio</BackLink>
 
       <header className={`mt-4 rounded-3xl p-6 sm:p-8 ${r.passed ? 'bg-emerald-600 text-white' : 'bg-slate-900 text-white'}`}>
         <p className="text-sm font-semibold tracking-wide uppercase opacity-80">{attempt.title}</p>
@@ -140,7 +140,7 @@ export default function ExamResults({ attempt }: { attempt: ExamAttempt }) {
         <Link to={`/examen/${attempt.level_id}`} className={buttonClass({ variant: 'secondary' })}>
           <RotateCcw className="h-4 w-4" /> Volver al examen
         </Link>
-        <Link to={`/levels/${attempt.level_id}/study`} className={buttonClass()}>
+        <Link to={`/niveles/${attempt.level_id}/estudiar`} className={buttonClass()}>
           <BookOpen className="h-4 w-4" /> Estudiar el nivel {attempt.level_id}
         </Link>
       </div>

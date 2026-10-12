@@ -172,7 +172,7 @@ export default function ReviewHub({ onStart }: { onStart: (deck: Deck) => void }
               )
             }
             if (state === 'empty') {
-              const to = k.id === 'vocab' ? '/levels' : `/expresiones${k.id === 'phrasal' ? '?tab=phrasal' : k.id === 'verb' ? '?tab=verbs' : ''}`
+              const to = k.id === 'vocab' ? '/niveles' : `/expresiones${k.id === 'phrasal' ? '?tab=phrasal' : k.id === 'verb' ? '?tab=verbs' : ''}`
               return (
                 <Link key={k.id} to={to} className={`${cls} border-dashed border-slate-300 transition hover:border-indigo-300`}>
                   {body}

@@ -82,7 +82,7 @@ export default function LevelStudyPage() {
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8">
-      <BackLink to="/levels">Inicio</BackLink>
+      <BackLink to="/niveles">Inicio</BackLink>
 
       <header className="mt-4">
         <p className="text-sm text-slate-500">Ficha de estudio del nivel</p>
@@ -137,7 +137,7 @@ export default function LevelStudyPage() {
                     <div className="mb-3 flex flex-wrap items-baseline justify-between gap-2">
                       <h3 className="font-display text-lg font-bold text-slate-800">{u.title}</h3>
                       <Link
-                        to={`/units/${u.unit_id}/study?level=${data.level_id}&tab=${tab}`}
+                        to={`/unidades/${u.unit_id}/estudiar?level=${data.level_id}&tab=${tab}`}
                         className="text-sm font-medium text-indigo-600 hover:text-indigo-800 hover:underline"
                       >
                         Ficha de la unidad

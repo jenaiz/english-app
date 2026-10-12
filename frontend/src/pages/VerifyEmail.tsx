@@ -23,7 +23,7 @@ export default function VerifyEmail() {
       inFlight.set(token, request)
     }
     request
-      .then(() => alive && navigate('/levels', { replace: true }))
+      .then(() => alive && navigate('/niveles', { replace: true }))
       .catch(() => alive && setFailed(true))
     return () => {
       alive = false
