@@ -1,12 +1,14 @@
 import { Link, NavLink, useLocation } from 'react-router-dom'
-import { Brain, Layers, Sparkles } from 'lucide-react'
+import { Brain, Gift, Layers, Sparkles } from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
+import { useClubSummary } from '../lib/club'
 import { useSrsSummary } from '../lib/useSrsSummary'
 import UserMenu from './UserMenu'
 
 export default function Navbar() {
   const { user } = useAuth()
   const srs = useSrsSummary(!!user)
+  const club = useClubSummary(!!user)
   // Units and their study sheets belong to Inicio too.
   const inCourse = useLocation().pathname.startsWith('/units/')
 
@@ -47,6 +49,22 @@ export default function Navbar() {
                 }
               >
                 <Sparkles className="h-4 w-4" /> <span className="hidden sm:inline">Expresiones</span>
+              </NavLink>
+              <NavLink
+                to="/club"
+                aria-label={club?.new ? `Club, ${club.new} sorpresas nuevas` : 'Club'}
+                className={({ isActive }) =>
+                  `relative flex items-center gap-1.5 rounded-lg px-3 py-2 font-medium transition ${
+                    isActive ? 'bg-indigo-50 text-indigo-700' : 'text-slate-600 hover:bg-slate-100'
+                  }`
+                }
+              >
+                <Gift className="h-4 w-4" /> <span className="hidden sm:inline">Club</span>
+                {!!club?.new && (
+                  <span className="grid h-5 min-w-5 place-items-center rounded-full bg-amber-400 px-1.5 text-xs font-bold text-amber-950">
+                    {club.new}
+                  </span>
+                )}
               </NavLink>
               <NavLink
                 to="/review"

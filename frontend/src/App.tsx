@@ -5,6 +5,9 @@ import Navbar from './components/Navbar'
 import ProtectedRoute from './components/ProtectedRoute'
 import { AuthProvider } from './context/AuthContext'
 import { ConsentProvider } from './context/ConsentContext'
+import Club from './pages/Club'
+import ClubActivity from './pages/ClubActivity'
+import ClubTiming from './pages/ClubTiming'
 import Contact from './pages/Contact'
 import Cookies from './pages/Cookies'
 import ExpressionIndexPage from './pages/ExpressionIndexPage'
@@ -57,6 +60,10 @@ export default function App() {
                 <Route path="/levels/:levelId/study" element={<LevelStudyPage />} />
                 <Route path="/units/:unitId" element={<UnitView />} />
                 <Route path="/units/:unitId/study" element={<Study />} />
+                <Route path="/club" element={<Club />} />
+                {/* Dev-only: time song lines by hand (see backend/cmd/subs). */}
+                {import.meta.env.DEV && <Route path="/club/dev/timing" element={<ClubTiming />} />}
+                <Route path="/club/:activityId" element={<ClubActivity />} />
                 <Route path="/review" element={<Review />} />
                 <Route path="/ajustes" element={<Settings />} />
               </Route>

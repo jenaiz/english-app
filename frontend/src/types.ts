@@ -303,3 +303,107 @@ export interface ExpressionsCatalog {
   unit_expressions: Record<string, string[]>
   irregular_verbs: IrregularVerb[]
 }
+
+// ---- Club ----
+export type ActivityType = 'song' | 'reading' | 'video' | 'verb_cloze'
+export type ClubRoom = 'music' | 'library' | 'cinema' | 'games'
+/** new: unlocked but never opened (still a surprise). */
+export type ActivityState = 'locked' | 'new' | 'unlocked' | 'done'
+
+/** An activity in the Club catalog. Locked ones only carry room, level, minutes and hint. */
+export interface ActivityCard {
+  id: string
+  type: ActivityType
+  room: ClubRoom
+  level: string
+  minutes: number
+  state: ActivityState
+  title?: string
+  subtitle?: string
+  youtube_id?: string
+  hint?: string
+  best_score?: number
+  unlocked_at?: string
+}
+
+/** An activity a lesson has just unlocked, for the end-of-lesson surprise. */
+export interface UnlockedActivity {
+  id: string
+  type: ActivityType
+  room: ClubRoom
+  title: string
+  subtitle?: string
+  youtube_id?: string
+}
+
+export interface ClubSummary {
+  new: number
+  unlocked: number
+  total: number
+}
+
+/** Extras shared by every activity: vocabulary and expressions shown at the end. */
+export interface ActivityExtras {
+  vocabulary?: VocabularyItem[]
+  /** "phrasal:<id>" or "idiom:<id>" */
+  expressions?: string[]
+}
+
+export interface TimedLine {
+  /** Seconds from the start of the video. */
+  t: number
+  text: string
+}
+
+/** A song fragment: lines with ___ blanks, played between start and end. */
+export interface SongContent extends ActivityExtras {
+  artist?: string
+  start?: number
+  end: number
+  lines: (TimedLine & { answers?: string[][] })[]
+  /** Wrong words mixed into the word bank (levels where blanks are chosen, not typed). */
+  distractors?: string[]
+  /** "bank" (tap a word) or "type"; by default bank up to A2. */
+  mode?: 'bank' | 'type'
+}
+
+export interface ReadingContent extends ActivityExtras {
+  /** e.g. "Del diario de Lucía", "Artículo" */
+  kind?: string
+  paragraphs: string[]
+  /** Words or phrases of the text with their Spanish meaning. */
+  glossary?: Record<string, string>
+  questions: ChoiceItem[]
+  source?: string
+}
+
+export interface VideoContent extends ActivityExtras {
+  speaker?: string
+  license: string
+  source_url: string
+  start?: number
+  transcript: TimedLine[]
+  /** The video pauses at t and asks these questions. */
+  checkpoints: { t: number; questions: ChoiceItem[] }[]
+}
+
+export interface VerbClozeItem extends ItemBase {
+  /** Paragraph with ___ blanks, each followed by the base verb in brackets: "She ___ (go) home." */
+  text: string
+  answers: string[][]
+}
+export type VerbClozeContent = ItemsContent<VerbClozeItem> & ActivityExtras
+
+export interface Activity {
+  id: string
+  type: ActivityType
+  room: ClubRoom
+  level: string
+  title: string
+  subtitle?: string
+  minutes: number
+  youtube_id?: string
+  milestone: 'unit' | 'checkpoint'
+  after_unit?: string
+  content: SongContent | ReadingContent | VideoContent | VerbClozeContent
+}

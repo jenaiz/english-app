@@ -2,11 +2,12 @@ import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { AlertCircle, ArrowLeft, ArrowRight, Brain, CheckCircle2, ClipboardCheck, History, Home, Loader2, PartyPopper, RotateCcw, type LucideIcon } from 'lucide-react'
 import { api } from '../api/client'
+import UnlockReveal from '../components/club/UnlockReveal'
 import UnitExpressions from '../components/expressions/UnitExpressions'
 import StepRenderer, { EXERCISE_TYPES } from '../components/steps/StepRenderer'
 import { flattenUnits, type UnitEntry } from '../lib/levels'
 import { PHASES } from '../lib/phases'
-import type { ExerciseResult, Phase, Step, Unit, UnitResponse, UnitSummary, VocabularyTableContent } from '../types'
+import type { ExerciseResult, Phase, Step, Unit, UnitResponse, UnitSummary, UnlockedActivity, VocabularyTableContent } from '../types'
 
 interface FlatStep {
   step: Step
@@ -38,6 +39,8 @@ interface LessonSummary {
   correct: number
   total: number
   cardsAdded: number
+  /** Club activities this lesson unlocked (finishing a unit or passing a checkpoint). */
+  unlocked: UnlockedActivity[]
   isTest: boolean
   /** Every lesson of the unit is completed (not just this one, which may be the last). */
   unitDone: boolean
@@ -306,6 +309,7 @@ export default function UnitView() {
     const score = total ? Math.round((correct / total) * 100) : 100
     const res = await api.complete(unit.unit_id, current.lessonId, score)
     if (res.cards_added > 0) window.dispatchEvent(new Event('srs-changed'))
+    if (res.unlocked_activities?.length) window.dispatchEvent(new Event('club-changed'))
     // Lessons completed in the whole course, to skip them when proposing the next one.
     const completed = new Set(res.completed_lessons)
     try {
@@ -320,6 +324,7 @@ export default function UnitView() {
       correct,
       total,
       cardsAdded: res.cards_added,
+      unlocked: res.unlocked_activities ?? [],
       isTest: current.isTest,
       unitDone: unit.lessons.every((l) => completed.has(l.lesson_id)),
       // If the course list failed to load, at least look in this unit.
@@ -540,6 +545,8 @@ function LessonComplete({
           <p className="mt-1 text-sm text-slate-500">tarjetas nuevas para repasar</p>
         </div>
       </div>
+
+      <UnlockReveal activities={summary.unlocked} />
 
       <div className="mt-8 space-y-3">
         {next ? (

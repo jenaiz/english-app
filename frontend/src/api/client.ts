@@ -1,4 +1,4 @@
-import type { CardKind, ExpressionKind, ExpressionsCatalog, Grade, LevelStudy, LevelSummary, ProgressResponse, ReviewCard, UnitPosition, SavedExpression, SrsSummary, UnitResponse, User } from '../types'
+import type { Activity, ActivityCard, CardKind, ClubSummary, UnlockedActivity, ExpressionKind, ExpressionsCatalog, Grade, LevelStudy, LevelSummary, ProgressResponse, ReviewCard, UnitPosition, SavedExpression, SrsSummary, UnitResponse, User } from '../types'
 
 export class ApiError extends Error {
   constructor(
@@ -60,7 +60,7 @@ export const api = {
     request<UnitResponse>(`/levels/${encodeURIComponent(levelId || '-')}/units/${encodeURIComponent(unitId)}`),
   progress: () => request<ProgressResponse>('/progress'),
   complete: (unitId: string, lessonId?: string, score?: number) =>
-    post<{ unit_id: string; completed_lessons: string[]; cards_added: number }>('/progress/complete', {
+    post<{ unit_id: string; completed_lessons: string[]; cards_added: number; unlocked_activities?: UnlockedActivity[] }>('/progress/complete', {
       unit_id: unitId,
       ...(lessonId ? { lesson_id: lessonId } : {}),
       ...(score !== undefined ? { score } : {}),
@@ -69,6 +69,11 @@ export const api = {
   position: (unitId: string) => request<{ position: UnitPosition | null }>(`/progress/position/${encodeURIComponent(unitId)}`),
   savePosition: (unitId: string, p: UnitPosition) =>
     request<void>('/progress/position', { method: 'PUT', body: JSON.stringify({ unit_id: unitId, ...p }) }),
+  club: () => request<{ activities: ActivityCard[] }>('/club'),
+  clubSummary: () => request<ClubSummary>('/club/summary'),
+  /** Opening an activity marks it as seen. 403 "locked" if it isn't unlocked yet. */
+  activity: (id: string) => request<{ activity: Activity; card: ActivityCard }>(`/club/${encodeURIComponent(id)}`),
+  completeActivity: (id: string, score: number) => post<{ best_score: number }>(`/club/${encodeURIComponent(id)}/complete`, { score }),
   srsSummary: () => request<SrsSummary>('/srs/summary'),
   /** pack keeps only the due cards of that pack. */
   srsDue: (limit = 20, kind?: CardKind, pack?: string) =>

@@ -3,7 +3,7 @@ import { Loader2, Plus, Sparkles } from 'lucide-react'
 import { useAuth } from '../../context/AuthContext'
 import { loadExpressions } from '../../lib/expressionsCatalog'
 import { summaryOf, type ExpressionSummary } from '../../lib/todayPicks'
-import { useSavedExpressions } from '../../lib/useSavedExpressions'
+import { useSavedExpressions, type AddSource } from '../../lib/useSavedExpressions'
 import type { ExpressionsCatalog } from '../../types'
 import ExpressionTile from './ExpressionTile'
 
@@ -18,6 +18,33 @@ interface Props {
  * in context. Renders nothing for units without any.
  */
 export default function UnitExpressions({ unitId, excludeTerms = [] }: Props) {
+  return (
+    <ExpressionsBlock
+      id={`unit-expressions-${unitId}`}
+      items={(catalog) => catalog.unit_expressions[unitId] ?? []}
+      itemsKey={unitId}
+      excludeTerms={excludeTerms}
+      source="unit"
+      title="Expresiones para esta situación"
+      intro="Lo que diría un nativo aquí. Añádelas a tu repaso si quieres practicarlas."
+    />
+  )
+}
+
+interface BlockProps {
+  id: string
+  /** The "idiom:<id>" / "phrasal:<id>" items to show, read from the catalog. */
+  items: (catalog: ExpressionsCatalog) => string[]
+  /** Changes whenever items would return something else. */
+  itemsKey: string
+  excludeTerms?: string[]
+  source: AddSource
+  title: string
+  intro: string
+}
+
+/** A set of idioms and phrasal verbs as tiles the learner can add to review. Renders nothing if empty. */
+export function ExpressionsBlock({ id, items: itemsOf, itemsKey, excludeTerms = [], source, title, intro }: BlockProps) {
   const { user } = useAuth()
   const [catalog, setCatalog] = useState<ExpressionsCatalog | null>(null)
   const [busy, setBusy] = useState(false)
@@ -33,10 +60,11 @@ export default function UnitExpressions({ unitId, excludeTerms = [] }: Props) {
   const items = useMemo(() => {
     if (!catalog) return []
     const exclude = new Set(excludeKey.split('|').map((t) => t.trim()))
-    return (catalog.unit_expressions[unitId] ?? [])
+    return itemsOf(catalog)
       .map((i) => summaryOf(catalog, i))
       .filter((x): x is ExpressionSummary => x !== null && !exclude.has(x.term.toLowerCase()))
-  }, [catalog, unitId, excludeKey])
+    // itemsKey stands for itemsOf, which is a new function on every render.
+  }, [catalog, itemsKey, excludeKey])
 
   if (items.length === 0) return null
   const pending = items.filter((i) => statusOf(i.kind, i.id) === 'none')
@@ -44,20 +72,20 @@ export default function UnitExpressions({ unitId, excludeTerms = [] }: Props) {
   const addAll = async () => {
     setBusy(true)
     try {
-      for (const i of pending) await add(i.kind, i.id, 'unit')
+      for (const i of pending) await add(i.kind, i.id, source)
     } finally {
       setBusy(false)
     }
   }
 
   return (
-    <section className="mt-6 rounded-3xl bg-indigo-50 p-5 md:p-6" aria-labelledby={`unit-expressions-${unitId}`}>
+    <section className="mt-6 rounded-3xl bg-indigo-50 p-5 md:p-6" aria-labelledby={id}>
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
-          <h2 id={`unit-expressions-${unitId}`} className="flex items-center gap-2 font-display text-lg font-bold text-indigo-950">
-            <Sparkles className="h-5 w-5 text-indigo-600" /> Expresiones para esta situación
+          <h2 id={id} className="flex items-center gap-2 font-display text-lg font-bold text-indigo-950">
+            <Sparkles className="h-5 w-5 text-indigo-600" /> {title}
           </h2>
-          <p className="mt-1 text-sm text-slate-600">Lo que diría un nativo aquí. Añádelas a tu repaso si quieres practicarlas.</p>
+          <p className="mt-1 text-sm text-slate-600">{intro}</p>
         </div>
         {user && pending.length > 1 && (
           <button
@@ -73,7 +101,7 @@ export default function UnitExpressions({ unitId, excludeTerms = [] }: Props) {
       </div>
       <div className={`mt-4 grid gap-4 ${items.length > 2 ? 'md:grid-cols-3' : 'sm:grid-cols-2'}`}>
         {items.map((i) => (
-          <ExpressionTile key={`${i.kind}:${i.id}`} item={i} status={statusOf(i.kind, i.id)} onAdd={(kind, id) => add(kind, id, 'unit')} />
+          <ExpressionTile key={`${i.kind}:${i.id}`} item={i} status={statusOf(i.kind, i.id)} onAdd={(kind, id) => add(kind, id, source)} />
         ))}
       </div>
     </section>

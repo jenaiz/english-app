@@ -10,6 +10,7 @@ import type {
   Step,
   TextItem,
   TransformationItem,
+  VerbClozeContent,
   VocabularyTableContent,
   WordOrderItem,
 } from '../../types'
@@ -21,6 +22,7 @@ import Speaking from '../exercises/Speaking'
 import SpeedQuiz from '../exercises/SpeedQuiz'
 import Transformation from '../exercises/Transformation'
 import Translation from '../exercises/Translation'
+import VerbCloze from '../exercises/VerbCloze'
 import WordOrder from '../exercises/WordOrder'
 import AudioContextStep from './AudioContextStep'
 import GrammarRuleStep from './GrammarRuleStep'
@@ -29,6 +31,7 @@ import VocabularyTableStep from './VocabularyTableStep'
 
 /** Step types that require the learner to answer before moving on. */
 export const EXERCISE_TYPES = new Set([
+  'verb_cloze',
   'multiple_choice',
   'match_pairs',
   'fill_blanks',
@@ -56,6 +59,8 @@ export default function StepRenderer({ step, onComplete }: { step: Step; onCompl
       return <MatchPairs content={c as MatchPairsContent} onComplete={onComplete} />
     case 'fill_blanks':
       return <FillBlanks content={c as ItemsContent<FillBlanksItem>} onComplete={onComplete} />
+    case 'verb_cloze':
+      return <VerbCloze content={c as VerbClozeContent} onComplete={onComplete} />
     case 'word_order':
       return <WordOrder content={c as ItemsContent<WordOrderItem>} onComplete={onComplete} />
     case 'transformation':
