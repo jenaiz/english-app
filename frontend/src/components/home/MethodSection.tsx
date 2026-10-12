@@ -12,7 +12,7 @@ const PHASE_TEXT: Record<Phase, string> = {
   discovery: 'Deduces la regla antes de que te la cuenten.',
   grammar: 'La regla, clara y en español.',
   practice: 'Huecos, ordenar frases, transformar.',
-  production: 'Traduces, escribes al dictado y hablas.',
+  production: 'Traduces, ordenas frases y hablas.',
   vocabulary: 'Las palabras clave, con su audio.',
   review: 'Quiz contrarreloj y tarjetas de repaso.',
 }

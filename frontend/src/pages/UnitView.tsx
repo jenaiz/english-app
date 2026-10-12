@@ -4,6 +4,7 @@ import { AlertCircle, ArrowLeft, ArrowRight, Brain, CheckCircle2, ClipboardCheck
 import { api } from '../api/client'
 import UnitExpressions from '../components/expressions/UnitExpressions'
 import StepRenderer, { EXERCISE_TYPES } from '../components/steps/StepRenderer'
+import { flattenUnits, type UnitEntry } from '../lib/levels'
 import { PHASES } from '../lib/phases'
 import type { ExerciseResult, Phase, Step, UnitResponse, VocabularyTableContent } from '../types'
 
@@ -54,6 +55,7 @@ export default function UnitView() {
   const [saving, setSaving] = useState(false)
   const [results, setResults] = useState<Record<number, ExerciseResult>>({})
   const [summary, setSummary] = useState<LessonSummary | null>(null)
+  const [nextUnit, setNextUnit] = useState<UnitEntry | null>(null)
 
   useEffect(() => {
     setData(null)
@@ -66,6 +68,23 @@ export default function UnitView() {
       .then(setData)
       .catch((e: Error) => setLoadError(e.message))
   }, [unitId, params])
+
+  // The unit that follows this one in the course, for the "Siguiente unidad" button.
+  useEffect(() => {
+    setNextUnit(null)
+    let cancelled = false
+    api
+      .levels()
+      .then((levels) => {
+        const all = flattenUnits(levels)
+        const i = all.findIndex((e) => e.unit.unit_id === unitId)
+        if (!cancelled) setNextUnit(i >= 0 ? (all[i + 1] ?? null) : null)
+      })
+      .catch(() => {})
+    return () => {
+      cancelled = true
+    }
+  }, [unitId])
 
   // Start at the lesson given in ?lesson= (used by "Continuar").
   const startLesson = params.get('lesson')
@@ -115,7 +134,7 @@ export default function UnitView() {
           <AlertCircle className="h-5 w-5" /> {loadError}
         </div>
         <Link to="/levels" className="mt-4 inline-block text-indigo-600 hover:underline">
-          ← Volver a niveles
+          ← Volver a Inicio
         </Link>
       </div>
     )
@@ -135,6 +154,7 @@ export default function UnitView() {
       <LessonComplete
         summary={summary}
         unitTitle={unit.title}
+        nextUnit={nextUnit}
         onNext={() => {
           setSummary(null)
           goTo(index + 1)
@@ -276,7 +296,10 @@ export default function UnitView() {
               {currentPhase + 1}. {PHASES[currentPhase]?.label}
             </span>
           )}
-          <span className="text-xs font-medium text-slate-400">{stepLabels[current.step.type] ?? current.step.type}</span>
+          {/* The step type, unless the phase badge already says it ("Contexto · Contexto"). */}
+          {(stepLabels[current.step.type] ?? current.step.type) !== (current.isTest ? 'Test' : PHASES[currentPhase]?.label) && (
+            <span className="text-xs font-medium text-slate-400">{stepLabels[current.step.type] ?? current.step.type}</span>
+          )}
         </div>
         <StepRenderer key={index} step={current.step} onComplete={recordResult} />
       </article>
@@ -326,6 +349,7 @@ export default function UnitView() {
 function LessonComplete({
   summary,
   unitTitle,
+  nextUnit,
   onNext,
   onRestart,
   onLevels,
@@ -333,6 +357,7 @@ function LessonComplete({
 }: {
   summary: LessonSummary
   unitTitle: string
+  nextUnit: UnitEntry | null
   onNext: () => void
   onRestart: () => void
   onLevels: () => void
@@ -380,9 +405,23 @@ function LessonComplete({
             <button onClick={onReview} className="rounded-lg border border-indigo-300 px-5 py-2.5 font-medium text-indigo-700 hover:bg-indigo-50">
               Ir a repaso
             </button>
-            <button onClick={onLevels} className="rounded-lg bg-indigo-600 px-5 py-2.5 font-semibold text-white hover:bg-indigo-700">
-              Volver a niveles
-            </button>
+            {nextUnit ? (
+              <>
+                <button onClick={onLevels} className="rounded-lg border border-slate-300 px-5 py-2.5 font-medium text-slate-700 hover:bg-slate-50">
+                  Volver a Inicio
+                </button>
+                <Link
+                  to={`/units/${nextUnit.unit.unit_id}?level=${nextUnit.levelId}`}
+                  className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-indigo-600 px-6 py-3 font-semibold text-white hover:bg-indigo-700 order-first sm:w-auto"
+                >
+                  Siguiente unidad: {nextUnit.unit.title} <ArrowRight className="h-4 w-4" />
+                </Link>
+              </>
+            ) : (
+              <button onClick={onLevels} className="rounded-lg bg-indigo-600 px-5 py-2.5 font-semibold text-white hover:bg-indigo-700">
+                Volver a Inicio
+              </button>
+            )}
           </>
         ) : (
           <button onClick={onNext} className="inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-6 py-2.5 font-semibold text-white hover:bg-indigo-700">

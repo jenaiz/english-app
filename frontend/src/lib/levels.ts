@@ -1,3 +1,5 @@
+import type { LevelSummary, UnitSummary } from '../types'
+
 // Each CEFR level keeps its own colour: it identifies the level everywhere on the page.
 export const LEVEL_COLOR: Record<string, { solid: string; soft: string; text: string; ring: string; hex: string }> = {
   A1: { solid: 'bg-emerald-500', soft: 'bg-emerald-50', text: 'text-emerald-700', ring: 'ring-emerald-200', hex: '#10b981' },
@@ -7,3 +9,13 @@ export const LEVEL_COLOR: Record<string, { solid: string; soft: string; text: st
   C1: { solid: 'bg-orange-500', soft: 'bg-orange-50', text: 'text-orange-700', ring: 'ring-orange-200', hex: '#f97316' },
 }
 export const colorOf = (levelId: string) => LEVEL_COLOR[levelId] ?? LEVEL_COLOR.B1
+
+export interface UnitEntry {
+  unit: UnitSummary
+  levelId: string
+  themeTitle: string
+}
+
+/** Every unit of the course in study order, A1 to C1. */
+export const flattenUnits = (levels: LevelSummary[]): UnitEntry[] =>
+  levels.flatMap((lv) => lv.themes.flatMap((t) => t.units.map((unit) => ({ unit, levelId: lv.level_id, themeTitle: t.title }))))

@@ -126,6 +126,7 @@ func main() {
 			r.Delete("/account", authH.DeleteAccount)
 			r.Get("/levels", levelsH.List)
 			r.Get("/levels/{levelID}/units/{unitID}", levelsH.Unit)
+			r.Get("/levels/{levelID}/study", levelsH.Study)
 			r.Get("/progress", progressH.Get)
 			r.Post("/progress/complete", progressH.Complete)
 			r.Get("/srs/summary", srsH.Summary)

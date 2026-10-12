@@ -40,6 +40,18 @@ export interface LevelSummary {
   themes: ThemeSummary[]
 }
 
+/** GET /api/levels/{id}/study: grammar and vocabulary of every unit in a level, grouped by theme. */
+export interface LevelStudy {
+  level_id: string
+  title: string
+  description: string
+  themes: {
+    theme_id: string
+    title: string
+    units: { unit_id: string; title: string; grammar: GrammarRuleContent[]; vocabulary: VocabularyItem[] }[]
+  }[]
+}
+
 export interface Step<T = unknown> {
   phase: Phase
   type: string

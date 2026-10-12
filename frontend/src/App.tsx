@@ -12,6 +12,7 @@ import Expressions from './pages/Expressions'
 import ForgotPassword from './pages/ForgotPassword'
 import Home from './pages/Home'
 import LegalNotice from './pages/LegalNotice'
+import LevelStudyPage from './pages/LevelStudyPage'
 import Levels from './pages/Levels'
 import Login from './pages/Login'
 import NotFound from './pages/NotFound'
@@ -50,6 +51,7 @@ export default function App() {
               <Route path="/expresiones/:segment/:id" element={<ExpressionPage />} />
               <Route element={<ProtectedRoute />}>
                 <Route path="/levels" element={<Levels />} />
+                <Route path="/levels/:levelId/study" element={<LevelStudyPage />} />
                 <Route path="/units/:unitId" element={<UnitView />} />
                 <Route path="/units/:unitId/study" element={<Study />} />
                 <Route path="/review" element={<Review />} />

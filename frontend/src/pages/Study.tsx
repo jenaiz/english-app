@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
-import { AlertCircle, ArrowLeft, BookA, Brain, Lightbulb, Loader2, Play, Volume2 } from 'lucide-react'
+import { AlertCircle, ArrowLeft, BookA, Brain, Layers, Lightbulb, Loader2, Play } from 'lucide-react'
 import { api } from '../api/client'
 import GrammarRuleStep from '../components/steps/GrammarRuleStep'
-import { canSpeak, speak } from '../lib/speech'
 import PhrasalFamilyLinks from '../components/expressions/PhrasalFamilyLinks'
 import UnitExpressions from '../components/expressions/UnitExpressions'
-import type { GrammarRuleContent, UnitResponse, VocabularyItem, VocabularyTableContent } from '../types'
+import WordCard from '../components/WordCard'
+import type { GrammarRuleContent, UnitResponse, VocabularyTableContent } from '../types'
 
 type Tab = 'grammar' | 'vocabulary'
 
@@ -48,7 +48,8 @@ export default function Study() {
     vocab: l.steps.filter((s) => s.type === 'vocabulary_table').flatMap((s) => (s.content as VocabularyTableContent).items),
   }))
   const totalWords = perLesson.reduce((n, l) => n + l.vocab.length, 0)
-  const multi = unit.lessons.length > 1
+  // Tests have no grammar or vocabulary: only label sections when more than one lesson has content.
+  const multi = perLesson.filter((l) => l.grammar.length > 0 || l.vocab.length > 0).length > 1
 
   const setTab = (t: Tab) => setParams((p) => {
     p.set('tab', t)
@@ -57,9 +58,17 @@ export default function Study() {
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8">
-      <Link to="/levels" className="inline-flex items-center gap-1 text-sm text-slate-500 hover:text-indigo-600">
-        <ArrowLeft className="h-4 w-4" /> Inicio
-      </Link>
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <Link to="/levels" className="inline-flex items-center gap-1 text-sm text-slate-500 hover:text-indigo-600">
+          <ArrowLeft className="h-4 w-4" /> Inicio
+        </Link>
+        <Link
+          to={`/levels/${level_id}/study?tab=${tab}#${unit.unit_id}`}
+          className="inline-flex items-center gap-1.5 text-sm font-medium text-indigo-600 hover:text-indigo-800 hover:underline"
+        >
+          <Layers className="h-4 w-4" /> Ver todo {level_id}
+        </Link>
+      </div>
 
       <header className="mt-4 flex flex-wrap items-end justify-between gap-4">
         <div>
@@ -108,7 +117,7 @@ export default function Study() {
         </div>
       ) : (
         <div className="mt-6 space-y-6">
-          {perLesson.map(({ lesson, vocab }) => (
+          {perLesson.filter((l) => l.vocab.length > 0).map(({ lesson, vocab }) => (
             <section key={lesson.lesson_id}>
               {multi && <h2 className="mb-3 font-display text-lg font-bold text-slate-800">{lesson.title}</h2>}
               <div className="grid gap-3 sm:grid-cols-2">
@@ -131,39 +140,6 @@ export default function Study() {
             </span>
           </Link>
         </div>
-      )}
-    </div>
-  )
-}
-
-function WordCard({ item }: { item: VocabularyItem }) {
-  return (
-    <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-      <div className="flex items-start justify-between gap-2">
-        <div>
-          <p className="font-display text-lg font-bold text-slate-900">{item.term}</p>
-          <p className="font-medium text-emerald-700">{item.translation}</p>
-        </div>
-        {canSpeak && (
-          <button
-            onClick={() => speak(item.term)}
-            title={`Escuchar "${item.term}"`}
-            className="rounded-full p-2 text-indigo-500 transition hover:bg-indigo-50 focus-visible:ring-2 focus-visible:ring-indigo-300 focus-visible:outline-none"
-          >
-            <Volume2 className="h-5 w-5" />
-          </button>
-        )}
-      </div>
-      <p className="mt-2 text-sm text-slate-600">{item.definition}</p>
-      {item.example && (
-        <button
-          onClick={() => speak(item.example!)}
-          disabled={!canSpeak}
-          className="mt-2 text-left text-sm text-slate-500 italic hover:text-indigo-700"
-          title="Escuchar el ejemplo"
-        >
-          “{item.example}”
-        </button>
       )}
     </div>
   )

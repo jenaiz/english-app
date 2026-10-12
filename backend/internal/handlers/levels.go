@@ -32,3 +32,13 @@ func (h *LevelsHandler) Unit(w http.ResponseWriter, r *http.Request) {
 		"unit":     ref.Unit,
 	})
 }
+
+// Study returns the grammar and vocabulary of every unit in a level.
+func (h *LevelsHandler) Study(w http.ResponseWriter, r *http.Request) {
+	study, ok := h.Catalog.Study(chi.URLParam(r, "levelID"))
+	if !ok {
+		writeError(w, http.StatusNotFound, "level not found")
+		return
+	}
+	writeJSON(w, http.StatusOK, study)
+}

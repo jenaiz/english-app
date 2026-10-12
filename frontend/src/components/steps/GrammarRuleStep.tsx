@@ -1,5 +1,6 @@
 import { Lightbulb } from 'lucide-react'
 import type { GrammarRuleContent } from '../../types'
+import RichText from '../RichText'
 
 export default function GrammarRuleStep({ content }: { content: GrammarRuleContent }) {
   return (
@@ -10,9 +11,10 @@ export default function GrammarRuleStep({ content }: { content: GrammarRuleConte
         </span>
         <h2 className="text-xl font-bold text-slate-900">{content.title}</h2>
       </div>
-      <p className="mt-5 rounded-xl border-l-4 border-amber-400 bg-amber-50 p-5 leading-relaxed text-slate-700">
-        {content.explanation}
-      </p>
+      <RichText
+        text={content.explanation}
+        className="mt-5 rounded-xl border-l-4 border-amber-400 bg-amber-50 p-5 leading-relaxed text-slate-700"
+      />
       {content.table && (
         <div className="mt-6 overflow-x-auto rounded-xl border border-slate-200">
           <table className="w-full text-left text-sm">

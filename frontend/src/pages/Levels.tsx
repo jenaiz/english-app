@@ -4,17 +4,11 @@ import { AlertCircle, BookA, Brain, Check, CheckCircle2, Lightbulb, Loader2, Pla
 import { api } from '../api/client'
 import { useAuth } from '../context/AuthContext'
 import { useSrsSummary } from '../lib/useSrsSummary'
-import { colorOf } from '../lib/levels'
+import { colorOf, flattenUnits, type UnitEntry } from '../lib/levels'
 import { firstName } from '../lib/user'
 import type { LessonProgress, LevelSummary, ProgressResponse, UnitSummary } from '../types'
 
 type UnitStatus = 'completed' | 'in_progress' | 'pending'
-
-interface UnitEntry {
-  unit: UnitSummary
-  levelId: string
-  themeTitle: string
-}
 
 export default function Levels() {
   const { user } = useAuth()
@@ -42,10 +36,7 @@ export default function Levels() {
   }, [progress])
   const completedUnits = useMemo(() => new Set(progress.completed_units), [progress])
 
-  const allUnits = useMemo<UnitEntry[]>(
-    () => levels.flatMap((lv) => lv.themes.flatMap((t) => t.units.map((unit) => ({ unit, levelId: lv.level_id, themeTitle: t.title })))),
-    [levels],
-  )
+  const allUnits = useMemo(() => flattenUnits(levels), [levels])
 
   const statusOf = (u: UnitSummary): UnitStatus => {
     if (completedUnits.has(u.unit_id)) return 'completed'
@@ -132,7 +123,7 @@ export default function Levels() {
           <div>
             <dt className="text-slate-500">Vocabulario</dt>
             <dd className="font-display text-2xl font-bold text-slate-900 tabular-nums">
-              {srs?.total ?? 0}
+              {srs?.by_kind?.vocab?.total ?? 0}
               <span className="text-base font-semibold text-slate-400"> palabras</span>
             </dd>
           </div>
@@ -169,22 +160,62 @@ export default function Levels() {
               <h3 className={`font-display text-xl font-bold ${colorOf(current.level_id).text}`}>{current.title}</h3>
               <p className="text-sm text-slate-600">{current.description}</p>
             </div>
-            <LevelProgress {...levelStats(current)} levelId={current.level_id} />
+            <div className="flex items-center gap-4">
+              <Link
+                to={`/levels/${current.level_id}/study`}
+                className="inline-flex items-center gap-1.5 rounded-lg bg-white px-3 py-1.5 text-sm font-medium text-slate-700 shadow-sm hover:text-indigo-700"
+              >
+                <Lightbulb className="h-4 w-4 text-amber-500" /> Estudiar el nivel
+              </Link>
+              <LevelProgress {...levelStats(current)} levelId={current.level_id} />
+            </div>
           </div>
 
-          <div className="mt-5 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
-            {current.themes.flatMap((theme) =>
-              theme.units.map((u) => (
-                <UnitCard
-                  key={u.unit_id}
-                  unit={u}
-                  levelId={current.level_id}
-                  themeTitle={theme.title}
-                  status={statusOf(u)}
-                  lessonById={lessonById}
-                />
-              )),
-            )}
+          {/* One block per theme: its units share a story arc and end in a checkpoint test. */}
+          <div className="mt-8 space-y-10">
+            {current.themes.map((theme, ti) => {
+              const done = theme.units.filter((u) => completedUnits.has(u.unit_id)).length
+              const hasTest = theme.units.some((u) => u.lessons.some((l) => l.kind === 'test'))
+              const c = colorOf(current.level_id)
+              return (
+                <section key={theme.theme_id} aria-labelledby={`theme-${theme.theme_id}`}>
+                  <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 border-b border-slate-200 pb-3">
+                    <div className="flex items-baseline gap-3">
+                      <span className={`font-display text-sm font-bold ${c.text}`}>Tema {ti + 1}</span>
+                      <h3 id={`theme-${theme.theme_id}`} className="font-display text-xl font-bold text-slate-900">
+                        {theme.title}
+                      </h3>
+                    </div>
+                    <div className="flex items-center gap-4 text-sm">
+                      {hasTest && (
+                        <span className="rounded-full bg-amber-50 px-2 py-0.5 text-xs font-semibold text-amber-700">Incluye checkpoint</span>
+                      )}
+                      <span className="text-slate-500 tabular-nums">
+                        {done}/{theme.units.length} unidades
+                      </span>
+                      <Link
+                        to={`/levels/${current.level_id}/study#${theme.theme_id}`}
+                        className="font-medium text-indigo-600 hover:text-indigo-800 hover:underline"
+                      >
+                        Estudiar el tema
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="mt-4 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+                    {theme.units.map((u) => (
+                      <UnitCard
+                        key={u.unit_id}
+                        unit={u}
+                        levelId={current.level_id}
+                        status={statusOf(u)}
+                        isNext={next?.unit.unit_id === u.unit_id}
+                        lessonById={lessonById}
+                      />
+                    ))}
+                  </div>
+                </section>
+              )
+            })}
           </div>
         </section>
       )}
@@ -234,7 +265,7 @@ function ReviewCard({ due, total }: { due: number; total: number }) {
     >
       <Brain className={`h-7 w-7 ${has ? 'text-indigo-200' : 'text-indigo-500'}`} />
       <div className="mt-4">
-        <p className="font-display text-2xl font-bold">{has ? `${due} por repasar` : 'Repaso al día'}</p>
+        <p className="font-display text-2xl font-bold">{has ? `${due} por repasar` : total > 0 ? 'Repaso al día' : 'Tu repaso'}</p>
         <p className={`text-sm ${has ? 'text-indigo-100' : 'text-slate-500'}`}>
           {has ? 'Cinco minutos ahora fijan las palabras.' : total > 0 ? 'Vuelve cuando toque la siguiente tarjeta.' : 'Completa una lección para crear tus tarjetas.'}
         </p>
@@ -339,20 +370,23 @@ const STATUS: Record<UnitStatus, { label: string; cls: string }> = {
 function UnitCard({
   unit,
   levelId,
-  themeTitle,
   status,
+  isNext,
   lessonById,
 }: {
   unit: UnitSummary
   levelId: string
-  themeTitle: string
   status: UnitStatus
+  isNext: boolean
   lessonById: Map<string, LessonProgress>
 }) {
   const c = colorOf(levelId)
   const base = `/units/${unit.unit_id}`
   const nextLesson = unit.lessons.find((l) => lessonById.get(l.lesson_id)?.status !== 'completed')
-  const grammar = [...new Set(unit.lessons.flatMap((l) => l.grammar))]
+  // Grammar topics, minus those that just repeat a lesson title.
+  const norm = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()
+  const titles = new Set(unit.lessons.map((l) => norm(l.title)))
+  const grammar = [...new Set(unit.lessons.flatMap((l) => l.grammar))].filter((g) => !titles.has(norm(g)))
 
   const cta =
     status === 'completed'
@@ -360,23 +394,26 @@ function UnitCard({
       : status === 'in_progress'
         ? { label: 'Continuar', Icon: Play, href: `${base}?level=${levelId}&lesson=${nextLesson?.lesson_id ?? ''}` }
         : { label: 'Empezar', Icon: Play, href: `${base}?level=${levelId}` }
-  // Visual weight follows what is left to do: "Continuar" is the main action of the page, "Empezar" a strong one,
-  // and a finished unit only offers a secondary "Repetir".
-  const ctaCls = {
-    in_progress: 'bg-indigo-600 text-white shadow-sm shadow-indigo-200 hover:bg-indigo-700 focus-visible:ring-indigo-300',
-    pending: 'bg-slate-900 text-white hover:bg-slate-700 focus-visible:ring-indigo-300',
-    completed: 'border-2 border-emerald-500 bg-white text-emerald-700 hover:bg-emerald-50 focus-visible:ring-emerald-200',
-  }[status]
+  // Visual weight follows what is left to do: only the unit that comes next gets the strong button, other
+  // pending units a quiet one, and a finished unit a secondary "Repetir".
+  const ctaCls =
+    status === 'completed'
+      ? 'border-2 border-emerald-500 bg-white text-emerald-700 hover:bg-emerald-50 focus-visible:ring-emerald-200'
+      : isNext
+        ? 'bg-indigo-600 text-white shadow-sm shadow-indigo-200 hover:bg-indigo-700 focus-visible:ring-indigo-300'
+        : 'border border-slate-300 bg-white text-slate-700 hover:border-slate-400 hover:bg-slate-50 focus-visible:ring-indigo-300'
 
   return (
     <article
-      className={`flex flex-col rounded-2xl border bg-white p-5 shadow-sm ${status === 'completed' ? 'border-emerald-200' : 'border-slate-200'}`}
+      className={`flex flex-col rounded-2xl border bg-white p-5 shadow-sm ${
+        isNext ? 'border-indigo-300 ring-2 ring-indigo-100' : status === 'completed' ? 'border-emerald-200' : 'border-slate-200'
+      }`}
     >
       <div className="flex items-start justify-between gap-3">
-        <p className={`text-sm font-medium ${c.text}`}>{themeTitle}</p>
+        {isNext ? <p className="text-sm font-semibold text-indigo-600">Te toca</p> : <span />}
         <span className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-semibold ${STATUS[status].cls}`}>{STATUS[status].label}</span>
       </div>
-      <h4 className="mt-2 font-display text-xl leading-snug font-bold text-slate-900">{unit.title}</h4>
+      <h4 className="mt-1 font-display text-xl leading-snug font-bold text-slate-900">{unit.title}</h4>
       <p className="mt-1 text-sm text-slate-500">{unit.description}</p>
 
       {/* Lessons, with the best score once completed */}

@@ -1,4 +1,4 @@
-import type { CardKind, ExpressionKind, ExpressionsCatalog, Grade, LevelSummary, ProgressResponse, ReviewCard, SavedExpression, SrsSummary, UnitResponse, User } from '../types'
+import type { CardKind, ExpressionKind, ExpressionsCatalog, Grade, LevelStudy, LevelSummary, ProgressResponse, ReviewCard, SavedExpression, SrsSummary, UnitResponse, User } from '../types'
 
 export class ApiError extends Error {
   constructor(
@@ -55,6 +55,7 @@ export const api = {
   exportAccount: () => request<unknown>('/account/export'),
   deleteAccount: (password: string) => request<void>('/account', { method: 'DELETE', body: JSON.stringify({ password }) }),
   levels: () => request<LevelSummary[]>('/levels'),
+  levelStudy: (levelId: string) => request<LevelStudy>(`/levels/${encodeURIComponent(levelId)}/study`),
   unit: (levelId: string | null, unitId: string) =>
     request<UnitResponse>(`/levels/${encodeURIComponent(levelId || '-')}/units/${encodeURIComponent(unitId)}`),
   progress: () => request<ProgressResponse>('/progress'),
