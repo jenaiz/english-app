@@ -1,0 +1,33 @@
+<!doctype html>
+<!-- Source of frontend/public/og-image.png (1200×630, the 1.91:1 that Facebook, LinkedIn and X expect).
+     Everything sits in the centre, so the square crop of WhatsApp and Telegram (the middle 630×630) keeps
+     the icon, the name and the headline. Rendered with headless Chrome, see README.md. -->
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face {
+    font-family: 'Bricolage';
+    src: url('../../frontend/node_modules/@fontsource-variable/bricolage-grotesque/files/bricolage-grotesque-latin-wght-normal.woff2') format('woff2');
+    font-weight: 200 800;
+  }
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;
+    background: radial-gradient(circle at 50% 40%, #FFFFFF 0%, #EEF2FF 60%, #E0E7FF 100%);
+    font-family: system-ui, -apple-system, sans-serif; color: #1E1B4B;
+  }
+  img { width: 168px; height: 168px; margin-bottom: 20px; }
+  h1 { font-family: 'Bricolage', sans-serif; font-weight: 800; font-size: 116px; letter-spacing: -0.03em; line-height: 1; margin: 0 0 18px; }
+  .lead { font-size: 40px; font-weight: 600; margin: 0 0 22px; }
+  .tags { font-size: 26px; color: #475569; margin: 0; }
+  .tags b { color: #4F46E5; font-weight: 700; }
+</style>
+</head>
+<body>
+  <img src="icon-square.png" alt="">
+  <h1>Fluently</h1>
+  <p class="lead">Aprende inglés del A1 al C1</p>
+  <p class="tags">Lecciones cortas · Idioms · Phrasal verbs · <b>Gratis</b></p>
+</body>
+</html>

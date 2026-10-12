@@ -27,6 +27,11 @@ if (!template.includes('<div id="root"></div>') || !/<title>.*<\/title>/.test(te
   throw new Error('dist/index.html: missing <div id="root"></div> or <title>')
 }
 
+// index.html carries the home page's link-preview tags; each page writes its own title, description and
+// URL instead (X falls back to og:title and og:description). The image tags are the same everywhere and stay.
+const PAGE_OG = /\n\s*<meta (property="og:(type|site_name|locale|title|description|url)"|name="twitter:(title|description)") content="[^"]*" \/>/g
+const pageTemplate = template.replace(PAGE_OG, '')
+
 const escapeHTML = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 // JSON inside <script>: "<" can't close the tag once escaped.
 const scriptJSON = (v) => JSON.stringify(v).replace(/</g, '\\u003c')
@@ -43,7 +48,7 @@ function pageHTML(url, data, meta) {
     `<meta property="og:url" content="${escapeHTML(meta.canonical)}" />`,
     `<script type="application/ld+json">${scriptJSON(meta.jsonLd)}</script>`,
   ].join('\n    ')
-  return template
+  return pageTemplate
     .replace(/<title>.*<\/title>/, head)
     .replace(/<meta name="description" content="[^"]*"\s*\/?>/, `<meta name="description" content="${escapeHTML(meta.description)}" />`)
     .replace(
@@ -76,7 +81,7 @@ for (const kind of ['idiom', 'phrasal']) {
 // The SPA renders its "not found" page there, so only the markup and the robots tag matter.
 await writeFile(
   path.join(dist, '404.html'),
-  template
+  pageTemplate
     .replace(/<title>.*<\/title>/, `<title>Página no encontrada | ${escapeHTML(SITE.name)}</title>\n    <meta name="robots" content="noindex" />`)
     .replace('<div id="root"></div>', `<div id="root">${ssr.render('/404', null)}</div>`),
 )

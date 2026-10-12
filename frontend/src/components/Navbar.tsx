@@ -1,5 +1,5 @@
 import { Link, NavLink, useLocation } from 'react-router-dom'
-import { BookOpen, Brain, Layers, Sparkles } from 'lucide-react'
+import { Brain, Layers, Sparkles } from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
 import { useSrsSummary } from '../lib/useSrsSummary'
 import UserMenu from './UserMenu'
@@ -19,9 +19,7 @@ export default function Navbar() {
           aria-label={user ? 'Fluently, ir a Inicio' : 'Fluently'}
           className="flex items-center gap-2 justify-self-start text-lg font-bold text-slate-900"
         >
-          <span className="grid h-9 w-9 place-items-center rounded-xl bg-indigo-600 text-white">
-            <BookOpen className="h-5 w-5" />
-          </span>
+          <img src="/favicon.svg" alt="" className="h-9 w-9" />
           <span className="font-display text-xl">Fluently</span>
         </Link>
 

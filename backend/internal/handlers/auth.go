@@ -319,7 +319,7 @@ func (h *AuthHandler) sendEmail(user *store.User, purpose string) {
 			return
 		}
 		link := h.AppURL + path + "?token=" + url.QueryEscape(token)
-		if err := h.Mail.Send(ctx, build(user.Email, link)); err != nil {
+		if err := h.Mail.Send(ctx, build(user.Email, h.AppURL, link)); err != nil {
 			log.Printf("email %s for %s: %v", purpose, user.ID, err)
 		}
 	}()

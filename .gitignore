@@ -18,5 +18,6 @@ backend/bin/
 # deploy
 db-backups/
 
-# Reference books (copyrighted, not part of the repo)
-assets/
+# Reference books (copyrighted, not part of the repo); assets/brand is the logo
+assets/*
+!assets/brand/
