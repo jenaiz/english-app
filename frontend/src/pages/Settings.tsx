@@ -8,6 +8,7 @@ import { forgetLastEmail } from '../lib/lastEmail'
 import { displayName } from '../lib/user'
 import { buttonClass } from '../components/ui/Button'
 import { inputClass } from '../components/ui/styles'
+import PageShell from '../components/ui/PageShell'
 
 const fieldClass = inputClass()
 const primaryButton = buttonClass()
@@ -24,7 +25,7 @@ export default function Settings() {
   if (!user) return null
 
   return (
-    <div className="mx-auto max-w-2xl px-4 py-10">
+    <PageShell width="text">
       <h1 className="h-page">Ajustes</h1>
       <p className="mt-1 text-slate-500">Tu perfil, tu forma de entrar y tus datos.</p>
 
@@ -37,7 +38,7 @@ export default function Settings() {
       <p className="mt-8 text-center text-xs text-slate-500">
         Cuenta creada el {new Date(user.created_at).toLocaleDateString('es-ES', { dateStyle: 'long' })}
       </p>
-    </div>
+    </PageShell>
   )
 }
 

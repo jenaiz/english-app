@@ -36,19 +36,22 @@ export default function IdiomCard({ idiom, status, onAdd }: Props) {
       }}
       aria-pressed={flipped}
       aria-label={`Idiom: ${idiom.term}. Pulsa para darle la vuelta`}
-      className="group h-[26rem] cursor-pointer rounded-3xl text-left perspective-[1200px] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-indigo-200"
+      className="group h-80 cursor-pointer rounded-3xl text-left perspective-[1200px] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-indigo-200"
     >
       <div className={`relative h-full rounded-3xl transition-transform duration-500 transform-3d motion-reduce:transition-none ${flipped ? 'rotate-y-180' : ''}`}>
-        <div aria-hidden={flipped} className="absolute inset-0 flex flex-col justify-between rounded-3xl bg-indigo-600 p-7 text-white backface-hidden">
+        <div
+          aria-hidden={flipped}
+          className="absolute inset-0 flex flex-col justify-between rounded-3xl bg-white p-7 shadow-sm ring-1 ring-slate-200 transition group-hover:shadow-md group-hover:ring-indigo-300 backface-hidden"
+        >
           <div className="flex items-start justify-between gap-3">
             <div className="flex flex-wrap gap-2 text-xs font-semibold">
               <LevelBadge level={idiom.level} className="py-1" />
-              <span className="rounded-full bg-white/15 px-2.5 py-1">{idiom.topic}</span>
+              <span className="rounded-full bg-slate-100 px-2.5 py-1 text-slate-600">{idiom.topic}</span>
             </div>
-            {!flipped && <SpeakButton text={idiom.term} dark />}
+            {!flipped && <SpeakButton text={idiom.term} />}
           </div>
-          <p className="font-display text-4xl leading-none font-extrabold tracking-tight text-balance">{idiom.term}</p>
-          <span className="text-sm text-indigo-200 group-hover:text-white">¿Qué crees que significa? Toca para darle la vuelta</span>
+          <p className="font-display text-4xl leading-none font-extrabold tracking-tight text-balance text-indigo-950">{idiom.term}</p>
+          <span className="text-sm font-medium text-indigo-600">¿Qué crees que significa? Toca para darle la vuelta</span>
         </div>
 
         <div

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
-import { ArrowLeft, ArrowRight, Brain, CheckCircle2, ClipboardCheck, History, Home, Loader2, PartyPopper, RotateCcw, type LucideIcon } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Brain, CheckCircle2, ClipboardCheck, History, Layers, Loader2, PartyPopper, RotateCcw, type LucideIcon } from 'lucide-react'
 import { api } from '../api/client'
 import UnlockReveal from '../components/club/UnlockReveal'
 import UnitExpressions from '../components/expressions/UnitExpressions'
@@ -13,6 +13,7 @@ import CompletionHeader from '../components/ui/CompletionHeader'
 import ErrorState from '../components/ui/ErrorState'
 import BackLink from '../components/ui/BackLink'
 import { buttonClass } from '../components/ui/Button'
+import PageShell from '../components/ui/PageShell'
 
 interface FlatStep {
   step: Step
@@ -251,9 +252,9 @@ export default function UnitView() {
     return (
       <div className="mx-auto mt-12 max-w-md px-4">
         <ErrorState className="mt-0" />
-        <Link to="/niveles" className="mt-4 inline-block text-indigo-600 hover:underline">
-          ← Volver a Inicio
-        </Link>
+        <div className="mt-4 text-center">
+          <BackLink to="/niveles">Mi curso</BackLink>
+        </div>
       </div>
     )
   }
@@ -357,8 +358,8 @@ export default function UnitView() {
   const posInLesson = lessonSteps.findIndex((s) => s.i === index)
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-8">
-      <BackLink to="/niveles">Inicio</BackLink>
+    <PageShell width="text">
+      <BackLink to="/niveles">Mi curso</BackLink>
 
       <div className="mt-4">
         <p className="text-xs font-semibold tracking-wide text-indigo-600 uppercase">
@@ -481,7 +482,7 @@ export default function UnitView() {
           <p className="text-sm text-slate-500">Responde para seguir</p>
         )}
       </div>
-    </div>
+    </PageShell>
   )
 }
 
@@ -545,7 +546,7 @@ function LessonComplete({
             title={sameUnit ? next.lessonTitle : next.firstOfUnit ? next.unitTitle : `${next.unitTitle} · ${next.lessonTitle}`}
           />
         ) : (
-          <PrimaryAction onClick={onLevels} label="Has terminado el curso" title="Volver a Inicio" />
+          <PrimaryAction onClick={onLevels} label="Has terminado el curso" title="Volver a Mi curso" />
         )}
         <div className={`grid gap-3 ${summary.unitDone && next ? 'grid-cols-3' : 'grid-cols-2'}`}>
           {summary.unitDone && (
@@ -557,8 +558,8 @@ function LessonComplete({
             Ir a repaso
           </SecondaryAction>
           {next && (
-            <SecondaryAction onClick={onLevels} Icon={Home}>
-              Volver a Inicio
+            <SecondaryAction onClick={onLevels} Icon={Layers}>
+              Mi curso
             </SecondaryAction>
           )}
         </div>

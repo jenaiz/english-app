@@ -20,6 +20,7 @@ import type { ExpressionsCatalog } from '../types'
 import ErrorState from '../components/ui/ErrorState'
 import { Skeleton } from '../components/ui/Skeleton'
 import { pillClass, pillCountClass, segmentClass } from '../components/ui/styles'
+import PageShell from '../components/ui/PageShell'
 
 const TABS = [
   { id: 'idioms', label: 'Idioms', intro: 'Frases hechas que no se entienden palabra por palabra. Intenta adivinar el significado y dale la vuelta a la tarjeta.' },
@@ -150,7 +151,7 @@ export default function Expressions() {
   const axis = params.get('vista') === 'particula' ? 'particula' : 'verbo'
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-10 md:py-14">
+    <PageShell width="wide">
       <h1 className="h-page">Expresiones</h1>
       <p className="mt-3 max-w-2xl text-lg text-slate-600">El inglés que no viene en los libros: lo que dicen los nativos a diario y casi nadie te explica.</p>
 
@@ -389,6 +390,6 @@ export default function Expressions() {
           )}
         </div>
       )}
-    </div>
+    </PageShell>
   )
 }

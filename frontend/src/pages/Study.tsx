@@ -9,6 +9,7 @@ import WordCard from '../components/WordCard'
 import type { GrammarRuleContent, UnitResponse, VocabularyTableContent } from '../types'
 import ErrorState from '../components/ui/ErrorState'
 import BackLink from '../components/ui/BackLink'
+import PageShell from '../components/ui/PageShell'
 
 type Tab = 'grammar' | 'vocabulary'
 
@@ -57,9 +58,9 @@ export default function Study() {
   }, { replace: true })
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-8">
+    <PageShell width="medium">
       <div className="flex flex-wrap items-center justify-between gap-2">
-        <BackLink to="/niveles">Inicio</BackLink>
+        <BackLink to="/niveles">Mi curso</BackLink>
         <Link
           to={`/niveles/${level_id}/estudiar?tab=${tab}#${unit.unit_id}`}
           className="inline-flex items-center gap-1.5 text-sm font-medium text-indigo-600 hover:text-indigo-800 hover:underline"
@@ -139,6 +140,6 @@ export default function Study() {
           </Link>
         </div>
       )}
-    </div>
+    </PageShell>
   )
 }

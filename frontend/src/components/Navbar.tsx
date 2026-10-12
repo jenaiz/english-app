@@ -14,7 +14,7 @@ interface Section {
   count?: number
   /** Badge colour: amber for news (Club), indigo for things to do (Repaso). */
   badge?: string
-  /** Also active on these paths (units belong to Inicio). */
+  /** Also active on these paths (units belong to Mi curso). */
   alsoActive?: boolean
   ariaLabel?: string
 }
@@ -26,7 +26,7 @@ function useSections(): Section[] {
   const inCourse = useLocation().pathname.startsWith('/unidades/')
   if (!user) return [{ to: '/expresiones', label: 'Expresiones', Icon: Sparkles }]
   return [
-    { to: '/niveles', label: 'Inicio', Icon: Layers, alsoActive: inCourse },
+    { to: '/niveles', label: 'Mi curso', Icon: Layers, alsoActive: inCourse },
     { to: '/expresiones', label: 'Expresiones', Icon: Sparkles },
     {
       to: '/club',
@@ -61,7 +61,7 @@ export default function Navbar() {
         <nav className="mx-auto grid h-16 max-w-6xl grid-cols-[1fr_auto_1fr] items-center gap-2 px-4">
           <Link
             to={user ? '/niveles' : '/'}
-            aria-label={user ? 'Fluently, ir a Inicio' : 'Fluently'}
+            aria-label={user ? 'Fluently, ir a Mi curso' : 'Fluently'}
             className="flex items-center gap-2 justify-self-start text-lg font-bold text-slate-900"
           >
             <img src="/favicon.svg" alt="" className="h-9 w-9" />

@@ -245,7 +245,7 @@ func TestLockedHint(t *testing.T) {
 	if h := c.LockedHint(&Activity{AfterUnit: id}); !strings.Contains(h, title) {
 		t.Errorf("hint %q", h)
 	}
-	if h := c.LockedHint(&Activity{Level: "B1", Milestone: MilestoneCheckpoint}); h != "Supera un checkpoint de B1" {
+	if h := c.LockedHint(&Activity{Level: "B1", Milestone: MilestoneCheckpoint}); h != "Supera un test de B1" {
 		t.Errorf("hint %q", h)
 	}
 }

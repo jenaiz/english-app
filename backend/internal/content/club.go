@@ -606,7 +606,7 @@ func (c *Catalog) LockedHint(a *Activity) string {
 		}
 	}
 	if a.Milestone == MilestoneCheckpoint {
-		return "Supera un checkpoint de " + a.Level
+		return "Supera un test de " + a.Level
 	}
 	return "Termina una unidad de " + a.Level
 }

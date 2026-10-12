@@ -9,6 +9,7 @@ import { firstName } from '../lib/user'
 import type { ExamSummary, LessonProgress, LevelSummary, ProgressResponse, UnitSummary } from '../types'
 import ErrorState from '../components/ui/ErrorState'
 import { PageSkeleton } from '../components/ui/Skeleton'
+import PageShell from '../components/ui/PageShell'
 
 type UnitStatus = 'completed' | 'in_progress' | 'pending'
 
@@ -106,7 +107,7 @@ export default function Levels() {
   const greetName = user ? firstName(user) : ''
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-10">
+    <PageShell width="wide">
       {/* Greeting + headline numbers */}
       <header className="flex flex-wrap items-end justify-between gap-4">
         <div>
@@ -247,7 +248,7 @@ export default function Levels() {
             ))}
         </section>
       )}
-    </div>
+    </PageShell>
   )
 }
 

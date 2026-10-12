@@ -13,6 +13,7 @@ import type { Grade, ReviewCard } from '../types'
 import CompletionHeader from '../components/ui/CompletionHeader'
 import { inputClass, segmentClass } from '../components/ui/styles'
 import { buttonClass } from '../components/ui/Button'
+import PageShell from '../components/ui/PageShell'
 
 /**
  * Repaso: a hub with today's cards by kind, then a session for the chosen deck.
@@ -263,7 +264,7 @@ function ReviewSession({ deck, packId, onExit }: { deck: Deck; packId?: string; 
   const answered = outcome !== null
 
   return (
-    <div className="mx-auto max-w-xl px-4 py-10">
+    <PageShell width="focus">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center gap-2">
           <button onClick={onExit} className="rounded-lg p-1.5 text-slate-500 hover:bg-slate-100 hover:text-slate-800" aria-label={exitLabel}>
@@ -467,6 +468,6 @@ function ReviewSession({ deck, packId, onExit }: { deck: Deck; packId?: string; 
             ? `Atajo: pulsa ${choice.options.map((_, i) => i + 1).join(', ').replace(/, (\d)$/, ' o $1')} para elegir`
             : 'Atajo: Enter para comprobar'}
       </p>
-    </div>
+    </PageShell>
   )
 }

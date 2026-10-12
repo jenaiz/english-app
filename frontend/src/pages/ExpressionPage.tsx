@@ -11,6 +11,7 @@ import { useSavedExpressions } from '../lib/useSavedExpressions'
 import NotFound from './NotFound'
 import ErrorState from '../components/ui/ErrorState'
 import LevelBadge from '../components/ui/LevelBadge'
+import PageShell from '../components/ui/PageShell'
 
 /** Public page of one idiom or phrasal verb. Prerendered at build time for search engines. */
 export default function ExpressionPage() {
@@ -61,7 +62,7 @@ export default function ExpressionPage() {
   const examples = isIdiom ? page.idiom.examples : [page.verb.example]
 
   return (
-    <article className="mx-auto max-w-3xl px-4 py-10 md:py-14">
+    <PageShell width="text" as="article">
       <nav aria-label="Migas de pan" className="flex items-center gap-1.5 text-sm font-medium text-slate-500">
         <Link to="/expresiones" className="inline-flex items-center gap-1.5 hover:text-slate-800">
           <ArrowLeft className="h-4 w-4" /> Expresiones
@@ -184,7 +185,7 @@ export default function ExpressionPage() {
           {isIdiom ? 'Ver todos los idioms' : 'Ver todos los phrasal verbs'} <ArrowRight className="h-4 w-4" />
         </Link>
       </p>
-    </article>
+    </PageShell>
   )
 }
 

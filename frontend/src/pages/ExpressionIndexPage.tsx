@@ -5,6 +5,7 @@ import { buildIndex, indexMeta, indexPath, initialIndexData, type ExpressionInde
 import { loadExpressions } from '../lib/expressionsCatalog'
 import { usePageMeta } from '../lib/usePageMeta'
 import ErrorState from '../components/ui/ErrorState'
+import PageShell from '../components/ui/PageShell'
 
 const COPY: Record<PageKind, { title: string; intro: string; jump: string; other: string }> = {
   idiom: {
@@ -58,7 +59,7 @@ export default function ExpressionIndexPage({ kind }: { kind: PageKind }) {
   const other: PageKind = kind === 'idiom' ? 'phrasal' : 'idiom'
 
   return (
-    <article className="mx-auto max-w-5xl px-4 py-10 md:py-14">
+    <PageShell width="medium" as="article">
       <nav aria-label="Migas de pan" className="text-sm font-medium text-slate-500">
         <Link to="/expresiones" className="inline-flex items-center gap-1.5 hover:text-slate-800">
           <ArrowLeft className="h-4 w-4" /> Expresiones
@@ -123,6 +124,6 @@ export default function ExpressionIndexPage({ kind }: { kind: PageKind }) {
           {copy.other} <ArrowRight className="h-4 w-4" />
         </Link>
       </p>
-    </article>
+    </PageShell>
   )
 }

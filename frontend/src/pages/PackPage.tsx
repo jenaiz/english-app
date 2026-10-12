@@ -12,6 +12,7 @@ import type { ExpressionsCatalog } from '../types'
 import ErrorState from '../components/ui/ErrorState'
 import BackLink from '../components/ui/BackLink'
 import { buttonClass } from '../components/ui/Button'
+import PageShell from '../components/ui/PageShell'
 
 /** One pack: its expressions, progress towards completing it, and adding it to Repaso in one go. */
 export default function PackPage() {
@@ -91,7 +92,7 @@ export default function PackPage() {
   }
 
   return (
-    <div className="mx-auto max-w-5xl px-4 py-10 md:py-14">
+    <PageShell width="medium">
       <BackLink to="/expresiones">Expresiones</BackLink>
 
       <div className="mt-4 flex flex-wrap items-start justify-between gap-6">
@@ -178,7 +179,7 @@ export default function PackPage() {
           Para que el repaso no se te acumule, entran como mucho 5 expresiones nuevas al día; el resto espera en cola.
         </p>
       )}
-    </div>
+    </PageShell>
   )
 }
 

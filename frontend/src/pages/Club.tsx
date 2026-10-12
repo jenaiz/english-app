@@ -9,6 +9,7 @@ import ErrorState from '../components/ui/ErrorState'
 import { PageSkeleton } from '../components/ui/Skeleton'
 import { pillClass, pillCountClass } from '../components/ui/styles'
 import { buttonClass } from '../components/ui/Button'
+import PageShell from '../components/ui/PageShell'
 
 const LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
 
@@ -63,7 +64,7 @@ export default function Club() {
 
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-8 md:py-12">
+    <PageShell width="wide">
       <header className="flex flex-wrap items-end justify-between gap-6">
         <div className="max-w-2xl">
           <h1 className="h-page flex items-center gap-3">
@@ -139,6 +140,6 @@ export default function Club() {
           </div>
         </section>
       )}
-    </div>
+    </PageShell>
   )
 }

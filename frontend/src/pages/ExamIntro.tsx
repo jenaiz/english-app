@@ -9,6 +9,7 @@ import type { ExamAttemptSummary, ExamSummary } from '../types'
 import ErrorState from '../components/ui/ErrorState'
 import BackLink from '../components/ui/BackLink'
 import { buttonClass } from '../components/ui/Button'
+import PageShell from '../components/ui/PageShell'
 
 const fmtDate = (iso: string) => new Date(iso).toLocaleString('es-ES', { day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' })
 
@@ -75,8 +76,8 @@ export default function ExamIntro() {
   const waiting = !st.open_attempt && st.retry_at && Date.parse(st.retry_at) > Date.now()
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-10">
-      <BackLink to="/niveles">Inicio</BackLink>
+    <PageShell width="text">
+      <BackLink to="/niveles">Mi curso</BackLink>
 
       <header className="relative mt-4 overflow-hidden rounded-3xl bg-slate-900 p-6 text-white sm:p-8">
         <span className={`absolute inset-y-0 left-0 w-2 ${c.solid}`} aria-hidden />
@@ -213,6 +214,6 @@ export default function ExamIntro() {
       </section>
 
       {attempts.length > 0 && <AttemptHistory levelId={exam.level_id} attempts={attempts} />}
-    </div>
+    </PageShell>
   )
 }

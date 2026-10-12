@@ -125,8 +125,9 @@ export default function ExamRunner({ attempt, onDone }: { attempt: ExamAttempt; 
       {/* Top bar: sections, answered count and time */}
       <header className="sticky top-0 z-10 border-b border-slate-200 bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-3xl flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3">
-          <p className="font-display font-bold text-slate-900">{paper.title}</p>
-          <span className="text-sm text-slate-500 tabular-nums">
+          {/* On phones the title and the count give way to the clock (the submit dialog repeats the count). */}
+          <p className="hidden font-display font-bold text-slate-900 sm:block">{paper.title}</p>
+          <span className="hidden text-sm text-slate-500 tabular-nums sm:inline">
             {done}/{total} respondidas
           </span>
           <span

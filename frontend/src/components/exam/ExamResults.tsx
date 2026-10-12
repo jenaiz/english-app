@@ -17,7 +17,7 @@ export default function ExamResults({ attempt }: { attempt: ExamAttempt }) {
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
-      <BackLink to="/niveles">Inicio</BackLink>
+      <BackLink to="/niveles">Mi curso</BackLink>
 
       <header className={`mt-4 rounded-3xl p-6 sm:p-8 ${r.passed ? 'bg-emerald-600 text-white' : 'bg-slate-900 text-white'}`}>
         <p className="text-sm font-semibold tracking-wide uppercase opacity-80">{attempt.title}</p>

@@ -13,6 +13,7 @@ import type { Activity, ActivityCard, ExerciseResult, ReadingContent, SongConten
 import ErrorState from '../components/ui/ErrorState'
 import LevelBadge from '../components/ui/LevelBadge'
 import BackLink from '../components/ui/BackLink'
+import PageShell from '../components/ui/PageShell'
 
 interface Finished extends ExerciseResult {
   score: number
@@ -128,7 +129,7 @@ export default function ClubActivity() {
   }
 
   return (
-    <div className="mx-auto max-w-5xl px-4 py-6 md:py-10">
+    <PageShell width="medium">
       <BackLink to={`/club?room=${activity.room}`}>Club · {room.label}</BackLink>
 
       {finished ? (
@@ -176,6 +177,6 @@ export default function ClubActivity() {
           )}
         </>
       )}
-    </div>
+    </PageShell>
   )
 }

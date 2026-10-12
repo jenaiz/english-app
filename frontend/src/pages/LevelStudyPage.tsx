@@ -8,6 +8,7 @@ import { colorOf } from '../lib/levels'
 import type { LevelStudy } from '../types'
 import ErrorState from '../components/ui/ErrorState'
 import BackLink from '../components/ui/BackLink'
+import PageShell from '../components/ui/PageShell'
 
 type Tab = 'grammar' | 'vocabulary'
 
@@ -81,8 +82,8 @@ export default function LevelStudyPage() {
   )
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-8">
-      <BackLink to="/niveles">Inicio</BackLink>
+    <PageShell width="wide">
+      <BackLink to="/niveles">Mi curso</BackLink>
 
       <header className="mt-4">
         <p className="text-sm text-slate-500">Ficha de estudio del nivel</p>
@@ -165,6 +166,6 @@ export default function LevelStudyPage() {
           ))}
         </div>
       </div>
-    </div>
+    </PageShell>
   )
 }

@@ -6,6 +6,7 @@ import type { CardKind, SrsSummary } from '../../types'
 import ErrorState from '../ui/ErrorState'
 import { KIND_COLOR } from '../../lib/kinds'
 import { buttonClass } from '../ui/Button'
+import PageShell from '../ui/PageShell'
 
 export type Deck = 'all' | CardKind
 
@@ -83,7 +84,7 @@ export default function ReviewHub({ onStart }: { onStart: (deck: Deck) => void }
   const minutes = Math.max(1, Math.round((summary.due * SECONDS_PER_CARD) / 60))
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-10">
+    <PageShell width="medium">
       <h1 className="h-page">Repaso
       </h1>
 
@@ -197,6 +198,6 @@ export default function ReviewHub({ onStart }: { onStart: (deck: Deck) => void }
           </span>
         </p>
       )}
-    </div>
+    </PageShell>
   )
 }
