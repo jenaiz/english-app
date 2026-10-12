@@ -110,7 +110,14 @@ func TestMilestones(t *testing.T) {
 		done[l.LessonID] = true
 	}
 	got = c.Milestones(done)
-	if len(got) != 2 || got[1].Key != "unit:"+unit.UnitID {
+	tests := 0
+	for _, l := range unit.Lessons {
+		if l.Kind == KindTest {
+			tests++
+		}
+	}
+	// One milestone per checkpoint in the unit, then the unit itself.
+	if len(got) != tests+1 || got[len(got)-1].Key != "unit:"+unit.UnitID {
 		t.Fatalf("whole unit: %+v", got)
 	}
 }
