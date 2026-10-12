@@ -1,0 +1,97 @@
+{
+  "id": "a2_reading_banksy",
+  "type": "reading",
+  "level": "A2",
+  "title": "The Secret Artist of Bristol",
+  "subtitle": "¿Quién es Banksy? El misterio más famoso de la ciudad",
+  "minutes": 10,
+  "milestone": "checkpoint",
+  "content": {
+    "kind": "Artículo",
+    "paragraphs": [
+      "Imagine this. You are walking to work one morning, and you see a new painting on a wall. It wasn't there yesterday. Nobody saw the artist, nobody knows when they painted it, and nobody knows their real name. But in a few hours, hundreds of people are standing in the street taking photos, and the painting is on the news all over the world. This has happened many times, in many cities. The artist is called Banksy, and the story starts in Bristol.",
+      "Banksy is probably the most famous street artist in the world, but he is also one of the most mysterious people alive. For more than twenty-five years he has kept his identity a secret. He never shows his face in interviews, and he only talks to journalists by email or through other people. Most people think that he grew up in Bristol in the 1970s and 1980s, but even that is not completely certain. There are a lot of rumours about his real name. Every few years a newspaper says it has found the answer, but Banksy never says yes or no.",
+      "In the 1990s, Bristol had a very lively graffiti scene. Young artists painted walls, bridges and trains at night, and Banksy was one of them. At first he painted freehand, with spray paint. But painting on walls without permission is illegal, so artists have to work fast. Banksy started to use stencils: he cut his pictures out of cardboard at home, then he held the stencil on the wall and sprayed paint over it. With a stencil he could finish a picture in a few minutes and leave before the police arrived. Stencils became his famous style.",
+      "His pictures are usually simple, but they are often clever, funny or sad. There are rats, police officers, children, monkeys and soldiers. Many of them have a message about war, money, power or the way we live. Some people say that Banksy's art is a kind of joke; others say it is serious protest. Probably it is both.",
+      "You can still see some of his early work in Bristol. One of the most famous is on Frogmore Street, near Park Street, in the city centre. It shows a man in a suit at a window, looking for someone, and a woman behind him. Under the window there is a naked man, who is hanging from the windowsill with one hand. People say that Banksy painted it in 2006. The city council asked people on the internet if they wanted to keep it or remove it, and almost everybody voted to keep it. So it is still there today.",
+      "In 2009 something unusual happened. For a few months, Banksy's work was in Bristol Museum, a very traditional place full of old paintings and dinosaur bones. The exhibition was a surprise: the museum kept it secret until the day before it opened, and Banksy put his own strange pieces next to the old ones. The exhibition was a huge success. More than 300,000 people came, and the queue outside the museum was sometimes longer than four hours.",
+      "Today, Banksy's art is extremely valuable. Collectors pay millions of pounds for his pictures. In 2018 one of his most famous paintings, a girl with a red balloon, was sold at an auction in London. Seconds after the sale, the picture started to move down through its frame, and a hidden machine inside the frame cut it into strips. The people in the room couldn't believe their eyes. Half of the picture was destroyed. But the story doesn't end there: three years later, the same half-destroyed painting was sold again, for much more money than the first time.",
+      "For some people in Bristol, Banksy is a hero. Tour guides take visitors to see his walls, and you can buy his pictures on T-shirts, mugs and postcards in the city's gift shops. For other people, his work is just vandalism, and they ask why graffiti in Bristol is a crime when the artist is unknown, but becomes art when the artist is famous. It's a good question, and there is no simple answer.",
+      "One thing is certain: Banksy changed the way people see Bristol. Today the city is proud of its street art. Every year, artists from many countries come to paint on its walls, and some streets look like open-air galleries. And maybe, one morning, on your way to work, you will see a new picture on a wall. Look carefully. Perhaps it's a Banksy."
+    ],
+    "glossary": {
+      "mysterious": "misterioso",
+      "identity": "identidad",
+      "rumours": "rumores",
+      "freehand": "a mano alzada",
+      "spray paint": "pintura en spray",
+      "permission": "permiso",
+      "illegal": "ilegal",
+      "stencils": "plantillas",
+      "cardboard": "cartón",
+      "clever": "ingenioso",
+      "naked": "desnudo",
+      "windowsill": "alféizar",
+      "city council": "ayuntamiento",
+      "exhibition": "exposición",
+      "valuable": "valioso",
+      "auction": "subasta",
+      "frame": "marco",
+      "strips": "tiras",
+      "vandalism": "vandalismo",
+      "proud": "orgulloso",
+      "open-air": "al aire libre"
+    },
+    "questions": [
+      {
+        "question": "Why is Banksy \"mysterious\"?",
+        "options": ["He never shows his face and his real name is a secret.", "He only paints at night in the museum.", "He doesn't speak English."],
+        "answer": 0
+      },
+      {
+        "question": "Why did Banksy start to use stencils?",
+        "options": ["They are cheaper than spray paint.", "He could finish a picture very quickly.", "The police asked him to use them."],
+        "answer": 1
+      },
+      {
+        "question": "What did people decide about the painting on Frogmore Street?",
+        "options": ["To remove it.", "To move it to the museum.", "To keep it."],
+        "answer": 2
+      },
+      {
+        "question": "What was special about the 2009 exhibition?",
+        "options": ["It was a secret until the day before, and a lot of people came.", "It was only for collectors.", "It was in London, not Bristol."],
+        "answer": 0
+      },
+      {
+        "question": "What happened at the auction in 2018?",
+        "options": ["Nobody wanted to buy the painting.", "A machine in the frame cut the picture.", "Banksy showed his face."],
+        "answer": 1
+      },
+      {
+        "question": "Why do some people say his work is vandalism?",
+        "options": ["Because it is ugly.", "Because he paints on walls without permission.", "Because it is very expensive."],
+        "answer": 1
+      },
+      {
+        "question": "How does Bristol feel about street art today?",
+        "options": ["The city is proud of it.", "The city wants to remove it.", "Nobody is interested in it."],
+        "answer": 0
+      }
+    ],
+    "vocabulary": [
+      { "term": "mysterious", "translation": "misterioso/a", "definition": "strange, and difficult to understand or explain" },
+      { "term": "rumour", "translation": "rumor", "definition": "a story that people tell but that may not be true" },
+      { "term": "permission", "translation": "permiso", "definition": "when someone says you can do something" },
+      { "term": "illegal", "translation": "ilegal", "definition": "not allowed by the law" },
+      { "term": "stencil", "translation": "plantilla", "definition": "a piece of card with a shape cut out, for painting the same picture many times" },
+      { "term": "clever", "translation": "ingenioso/a, listo/a", "definition": "intelligent and original" },
+      { "term": "exhibition", "translation": "exposición", "definition": "a show of art in a museum or gallery" },
+      { "term": "valuable", "translation": "valioso/a", "definition": "worth a lot of money" },
+      { "term": "auction", "translation": "subasta", "definition": "a sale where people offer money and the highest offer buys the thing" },
+      { "term": "frame", "translation": "marco", "definition": "the wood or metal around a picture" },
+      { "term": "proud", "translation": "orgulloso/a", "definition": "happy about something that you or your people did" }
+    ],
+    "expressions": ["phrasal:look-for", "phrasal:grow-up", "phrasal:find-out"]
+  }
+}

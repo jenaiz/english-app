@@ -1,0 +1,28 @@
+{
+  "id": "lab_song",
+  "type": "song",
+  "level": "A2",
+  "title": "Never Gonna Give You Up",
+  "subtitle": "Rick Astley · laboratorio: tiempos aproximados, sin revisar",
+  "minutes": 4,
+  "youtube_id": "dQw4w9WgXcQ",
+  "milestone": "unit",
+  "content": {
+    "artist": "Rick Astley",
+    "start": 40,
+    "end": 61,
+    "lines": [
+      { "t": 43, "text": "Never gonna ___ you up", "answers": [["give"]] },
+      { "t": 45.2, "text": "Never gonna let you ___", "answers": [["down"]] },
+      { "t": 47.3, "text": "Never gonna run around and ___ you", "answers": [["desert"]] },
+      { "t": 51.6, "text": "Never gonna make you ___", "answers": [["cry"]] },
+      { "t": 53.7, "text": "Never gonna say ___", "answers": [["goodbye"]] },
+      { "t": 55.8, "text": "Never gonna tell a ___ and hurt you", "answers": [["lie"]] }
+    ],
+    "distractors": ["take", "laugh", "hello", "joke"],
+    "vocabulary": [
+      { "term": "desert", "translation": "abandonar", "definition": "to leave someone alone when they need you" },
+      { "term": "gonna", "translation": "voy a (informal)", "definition": "informal spoken form of 'going to'" }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "id": "a2_cloze_a_bad_saturday",
+  "type": "verb_cloze",
+  "level": "A2",
+  "title": "Sam's Terrible Saturday",
+  "subtitle": "Past simple: verbos regulares e irregulares",
+  "minutes": 6,
+  "milestone": "unit",
+  "after_unit": "a_bad_day",
+  "content": {
+    "instructions": "Completa con el past simple del verbo entre paréntesis.",
+    "items": [
+      {
+        "text": "Last Saturday was a terrible day for Sam. He ___ (wake up) late because his phone ___ (not / ring). He ___ (run) to the bathroom, but Priya was already in the shower.",
+        "answers": [
+          [
+            "woke up"
+          ],
+          [
+            "didn't ring",
+            "did not ring"
+          ],
+          [
+            "ran"
+          ]
+        ],
+        "hint": "Wake → woke, run → ran. Negativa: didn't + infinitivo."
+      },
+      {
+        "text": "He ___ (make) a coffee, but there ___ (be) no milk in the fridge. So he ___ (go) to the shop in his pyjamas. He felt really embarrassed. The shop assistant ___ (look) at him and ___ (smile).",
+        "answers": [
+          [
+            "made"
+          ],
+          [
+            "was"
+          ],
+          [
+            "went"
+          ],
+          [
+            "looked"
+          ],
+          [
+            "smiled"
+          ]
+        ],
+        "hint": "There was + singular / incontable (milk). Look y smile son regulares: -ed."
+      },
+      {
+        "text": "In the afternoon Sam ___ (take) his guitar to The Old Duke for a concert. On the way, it ___ (start) to rain and he ___ (not / have) an umbrella. He stepped in a big puddle and he ___ (arrive) at the pub soaked.",
+        "answers": [
+          [
+            "took"
+          ],
+          [
+            "started"
+          ],
+          [
+            "didn't have",
+            "did not have"
+          ],
+          [
+            "arrived"
+          ]
+        ],
+        "hint": "Take → took. Negativa: didn't + infinitivo (have, no had)."
+      },
+      {
+        "text": "\"___ (you / play) well?\" Lucía ___ (ask) him the next day. \"Well, I ___ (forget) the words of the first song,\" Sam said, \"but the people ___ (love) it. They ___ (think) it was a joke!\"",
+        "answers": [
+          [
+            "Did you play"
+          ],
+          [
+            "asked"
+          ],
+          [
+            "forgot"
+          ],
+          [
+            "loved"
+          ],
+          [
+            "thought"
+          ]
+        ],
+        "hint": "Pregunta: did + sujeto + infinitivo. Forget → forgot, think → thought."
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "pyjamas",
+        "translation": "pijama",
+        "definition": "clothes that you wear in bed"
+      },
+      {
+        "term": "embarrassed",
+        "translation": "avergonzado/a",
+        "definition": "feeling silly because other people saw you do something"
+      },
+      {
+        "term": "puddle",
+        "translation": "charco",
+        "definition": "a small pool of rainwater on the ground"
+      },
+      {
+        "term": "soaked",
+        "translation": "empapado/a",
+        "definition": "very, very wet"
+      },
+      {
+        "term": "on the way",
+        "translation": "por el camino",
+        "definition": "while going somewhere"
+      }
+    ]
+  }
+}

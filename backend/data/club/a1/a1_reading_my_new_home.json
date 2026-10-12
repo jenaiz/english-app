@@ -1,0 +1,160 @@
+{
+  "id": "a1_reading_my_new_home",
+  "type": "reading",
+  "level": "A1",
+  "title": "My New Home",
+  "subtitle": "Un correo de Lucía a su hermano Javi",
+  "minutes": 8,
+  "milestone": "unit",
+  "after_unit": "new_flatmates",
+  "content": {
+    "kind": "El correo de Lucía",
+    "paragraphs": [
+      "Hi Javi,",
+      "How are you? How are Mum and Dad? I am fine, but I am very tired. Bristol is a big city and everything is new for me. You want to practise your English, so this email is in English. English only, OK?",
+      "My new home is in Clifton Road. The house is number 14. It is an old house with three floors and a blue door. It is not very big, but it is cosy. There is a small garden at the back, and there are tomatoes in the garden. They are Priya's tomatoes. Priya is one of my flatmates. I have got two flatmates: Priya and Sam.",
+      "Priya is a nurse. She works at the hospital in Bristol. She is from Leicester, a city in the middle of England, and her family is from India. She is thirty-one. Priya is very practical and very organised. She gets up at six o'clock every day! She has got a list of house rules on the fridge. Rule number one: wash your plates. Rule number two: no music after eleven o'clock. Rule number three: buy milk when there is no milk. I like Priya. She is direct, but she is kind.",
+      "Sam is from Bristol. He is thirty. He is a musician: he plays the guitar in a band. He is also a waiter three days a week. Sam is very funny and very friendly. He says \"mate\" and \"cheers\" all the time. His room is full of guitars. Really, Javi, there are six guitars in his room! Sam is very messy. There are always cups and plates in the sink, and they are usually Sam's. Priya is not happy about that.",
+      "The house has got a kitchen, a living room, a bathroom and four bedrooms. The kitchen is small, but it has got a big window, so it is very bright in the morning. The living room has got an old sofa, a TV and two shelves with a lot of books. There is only one bathroom for three people, so in the morning there is a queue. Priya is always first, of course.",
+      "My bedroom is on the second floor. It is small, but I love it. There is a bed, a desk, a chair and a wardrobe. There is a window next to the desk, with yellow curtains, and I can see the trees in the street. The walls are white. I want a picture of Valencia on the wall. Can you send me a photo of the beach? A photo of the sea, please. I miss the sea.",
+      "The owner of the house is Mrs Green. She is old and very nice. She lives next door with her cat. Her cat is big and orange and its name is Marmalade. Mrs Green has got a lot of rules too, but she always has biscuits for me.",
+      "There is a bus stop at the end of the street, about two minutes on foot. The bus to the city centre is every ten minutes. I can go to work on the bus, but I want a bike. Bristol has got a lot of hills, so it is not easy on a bike. Sam says: \"Bikes are for crazy people, mate.\"",
+      "My job starts on Monday. The office is called Harbour Studio, and it is next to the harbour. I am a bit nervous. My English is not very good, and the people in Bristol speak very fast. But my flatmates are very patient. Sam speaks slowly for me, and Priya writes new words on the fridge for me. Today's word is \"cuppa\". It means a cup of tea. People here drink a lot of tea!",
+      "The weather? It is September and it is not cold, but it is grey. It is not like Valencia. Here, people always have an umbrella in their bag. I haven't got an umbrella. I need one!",
+      "And you? How is your course? Are your exams difficult? Write to me soon, and remember: English only!",
+      "Love,\nLucía",
+      "P.S. Sam can cook only one thing: pasta with cheese. We eat it every Tuesday."
+    ],
+    "glossary": {
+      "floors": "plantas, pisos",
+      "cosy": "acogedora",
+      "organised": "organizada",
+      "messy": "desordenado",
+      "sink": "fregadero",
+      "bright": "luminosa",
+      "shelves": "estanterías",
+      "queue": "cola",
+      "wardrobe": "armario",
+      "curtains": "cortinas",
+      "next door": "en la casa de al lado",
+      "on foot": "a pie",
+      "hills": "colinas, cuestas",
+      "cuppa": "taza de té"
+    },
+    "questions": [
+      {
+        "question": "What number is the house in Clifton Road?",
+        "options": [
+          "4",
+          "14",
+          "40"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "What is Priya's job?",
+        "options": [
+          "She is a musician.",
+          "She is a nurse.",
+          "She works in a café."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Why is Priya not happy with Sam?",
+        "options": [
+          "He plays music after eleven.",
+          "He leaves cups and plates in the sink.",
+          "He drinks all the milk."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Why is there a queue in the morning?",
+        "options": [
+          "There is only one bathroom.",
+          "The kitchen is very small.",
+          "Everybody wants coffee."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What does Lucía want from Javi?",
+        "options": [
+          "A bike.",
+          "An umbrella.",
+          "A photo of the sea."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Who is Marmalade?",
+        "options": [
+          "Mrs Green's cat.",
+          "Sam's guitar.",
+          "A café in Bristol."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What does \"cuppa\" mean?",
+        "options": [
+          "A small cake.",
+          "A cup of tea.",
+          "A cup of coffee."
+        ],
+        "answer": 1
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "cosy",
+        "translation": "acogedor/a",
+        "definition": "small, warm and comfortable"
+      },
+      {
+        "term": "messy",
+        "translation": "desordenado/a",
+        "definition": "not tidy: things are everywhere"
+      },
+      {
+        "term": "bright",
+        "translation": "luminoso/a",
+        "definition": "with a lot of light"
+      },
+      {
+        "term": "shelf",
+        "translation": "estantería, balda",
+        "definition": "a long flat board on a wall for books or things"
+      },
+      {
+        "term": "curtains",
+        "translation": "cortinas",
+        "definition": "pieces of cloth that cover a window"
+      },
+      {
+        "term": "wardrobe",
+        "translation": "armario",
+        "definition": "a big cupboard for your clothes"
+      },
+      {
+        "term": "sink",
+        "translation": "fregadero",
+        "definition": "the place in the kitchen where you wash plates"
+      },
+      {
+        "term": "queue",
+        "translation": "cola",
+        "definition": "a line of people waiting for something"
+      },
+      {
+        "term": "cuppa",
+        "translation": "taza de té",
+        "definition": "(informal, British) a cup of tea"
+      }
+    ],
+    "expressions": [
+      "phrasal:get-up"
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "id": "a1_cloze_priyas_day",
+  "type": "verb_cloze",
+  "level": "A1",
+  "title": "Priya's Long Day",
+  "subtitle": "Present simple: he/she/it con -s y do/does",
+  "minutes": 5,
+  "milestone": "unit",
+  "after_unit": "shift_work",
+  "content": {
+    "instructions": "Completa con el present simple del verbo entre paréntesis.",
+    "items": [
+      {
+        "text": "Priya ___ (be) a nurse. She ___ (work) at the hospital in Bristol, and she ___ (have) a very long day. She ___ (get up) at six o'clock, she ___ (have) a quick shower and she puts on her blue uniform. She is always sleepy in the morning.",
+        "answers": [
+          [
+            "is",
+            "'s"
+          ],
+          [
+            "works"
+          ],
+          [
+            "has"
+          ],
+          [
+            "gets up"
+          ],
+          [
+            "has"
+          ]
+        ],
+        "hint": "Con he, she e it el verbo lleva -s. Cuidado: have → has."
+      },
+      {
+        "text": "She ___ (not / eat) a big breakfast. She only ___ (drink) a cup of tea. Then she ___ (go) to the hospital by bus. The bus ___ (leave) at a quarter to seven.",
+        "answers": [
+          [
+            "doesn't eat",
+            "does not eat"
+          ],
+          [
+            "drinks"
+          ],
+          [
+            "goes"
+          ],
+          [
+            "leaves"
+          ]
+        ],
+        "hint": "Negativa con he/she/it: doesn't + verbo sin -s. Go → goes.",
+        "explanation": "Después de doesn't el verbo va en infinitivo: She doesn't eat (no «doesn't eats»)."
+      },
+      {
+        "text": "At the hospital, Priya ___ (help) the doctors and she ___ (talk) to the patients. Her shift ___ (finish) at seven in the evening. \"___ (you / like) your job?\" Lucía asks. \"Yes, I love it,\" Priya says.",
+        "answers": [
+          [
+            "helps"
+          ],
+          [
+            "talks"
+          ],
+          [
+            "finishes"
+          ],
+          [
+            "Do you like"
+          ]
+        ],
+        "hint": "Los verbos que acaban en -sh, -ch, -s, -x llevan -es: finish → finishes."
+      },
+      {
+        "text": "Sam and Priya ___ (not / have) the same timetable. Sam ___ (work) at night and he ___ (sleep) in the morning. \"When ___ (Sam / do) the washing-up?\" Lucía asks. Priya ___ (laugh): \"Never!\"",
+        "answers": [
+          [
+            "don't have",
+            "do not have"
+          ],
+          [
+            "works"
+          ],
+          [
+            "sleeps"
+          ],
+          [
+            "does Sam do"
+          ],
+          [
+            "laughs"
+          ]
+        ],
+        "hint": "Pregunta con he/she/it: does + sujeto + verbo sin -s."
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "timetable",
+        "translation": "horario",
+        "definition": "a list of times when things happen"
+      },
+      {
+        "term": "washing-up",
+        "translation": "fregar los platos",
+        "definition": "washing plates, cups and pans after a meal"
+      },
+      {
+        "term": "uniform",
+        "translation": "uniforme",
+        "definition": "special clothes that people wear for their job"
+      },
+      {
+        "term": "sleepy",
+        "translation": "con sueño, adormilado/a",
+        "definition": "tired and ready to sleep"
+      }
+    ],
+    "expressions": [
+      "phrasal:get-up",
+      "phrasal:put-on"
+    ]
+  }
+}

@@ -258,10 +258,48 @@ Los ejercicios comparten la forma `{ "instructions": "...", "items": [...] }`. C
 | `dictation`        | items: `{ "text" }`: se reproduce con voz y el usuario lo escribe                             |
 | `speaking`         | items: `{ "text" }`: el usuario lo lee en voz alta (Web Speech API, ≥ 75 % de coincidencia); si el navegador no lo soporta, se escribe |
 | `speed_quiz`       | `{ "time_limit_seconds", "items": [ítems de multiple_choice] }`: cronómetro global             |
+| `verb_cloze`       | items: `{ "text": "She ___ (go) home and ___ (have) dinner.", "answers": [["went"], ["had"]] }`: párrafos con el verbo base entre paréntesis tras cada hueco; puntúa cada hueco |
 
 Las respuestas escritas se comparan normalizadas: sin mayúsculas ni puntuación y con las contracciones expandidas, así que "I'm" equivale a "I am". Conviene incluir en `answers` las variantes razonables.
 
 La puntuación de la lección se calcula con los aciertos a la primera sobre el total de items de ejercicio, y se guarda en `user_progress.score`.
+
+### Club: actividades desbloqueables
+
+El Club (`/club`) reúne actividades de academia repartidas en salas: 🎵 Música (`song`), 📚 Biblioteca (`reading`), 🎬 Cine (`video`) y 🎲 Juegos (`verb_cloze`). Cada actividad es un JSON en `backend/data/club/<nivel>/` y se valida al arrancar.
+
+**Desbloqueo.** Terminar una unidad o aprobar un checkpoint (un hito) desbloquea una actividad del nivel. Se elige en este orden:
+1. La que tiene `after_unit` igual a esa unidad.
+2. Una del mismo `milestone` (`unit` | `checkpoint`) y nivel.
+3. Cualquiera del nivel.
+4. Una de un nivel inferior.
+
+Entre las candidatas se elige con un sorteo fijo por usuario e hito: cada alumno recibe sorpresas distintas, pero siempre las mismas. Un hito que no encuentra actividad queda pendiente, así que el contenido que se añada después llega también a los alumnos que van por delante.
+
+Campos comunes:
+
+```json
+{ "id", "type", "level", "title", "subtitle"?, "minutes", "youtube_id"?, "milestone", "after_unit"?,
+  "content": { …según el tipo…, "vocabulary"?: [{ "term", "translation", "definition"? }], "expressions"?: ["phrasal:get-up", "idiom:time-flies"] } }
+```
+
+| `type` | `content` |
+| ------ | --------- |
+| `song` | `{ "start"?, "end", "lines": [{ "t", "text": "I ___ you", "answers"?: [["love"]] }], "distractors"?: [..], "mode"?: "bank" \| "type" }`. Solo un fragmento (máx. 16 líneas) por derechos de autor. Hasta A2 los huecos se rellenan con un banco de palabras |
+| `reading` | `{ "kind"?, "paragraphs": [..], "glossary"?: { "palabra": "traducción" }, "questions": [ítems de multiple_choice], "source"? }`. Longitud por nivel: A1 500-800 palabras, A2 700-1200, B1 1000-1800, B2 1500-2500, C1 2000-3000 |
+| `video` | `{ "speaker"?, "license", "source_url", "start"?, "transcript": [{ "t", "text" }], "checkpoints": [{ "t", "questions": [..] }] }`. El vídeo se para en cada `t` y pregunta |
+| `verb_cloze` | `{ "instructions"?, "items": [{ "text": "She ___ (go) home.", "answers": [["went"]] }] }`. También vale como paso de una lección |
+
+**Vocabulario nuevo.** Las actividades sirven para ampliar vocabulario: un término de `vocabulary` no puede estar en el `vocabulary_table` de ninguna unidad. Si lo está, el backend no arranca y dice en qué unidad aparece.
+
+**Vídeos de YouTube.** Se cargan en modo privacidad (youtube-nocookie) y solo cuando el alumno pulsa play.
+
+Para los tiempos:
+- `go run ./cmd/subs [-song] <url>` necesita `yt-dlp` y saca las líneas con tiempo de los subtítulos. Prefiere los escritos por personas y avisa si solo hay automáticos.
+- Si no hay subtítulos útiles, la página de desarrollo `/club/dev/timing` permite marcar cada línea pulsando Espacio mientras suena.
+- Las charlas TED tienen licencia CC BY-NC-ND (no comercial), así que hay que revisarlas antes de monetizar.
+
+**Laboratorio.** Con `LAB_CLUB_DIR` (solo en `docker-compose.dev.yml`) se cargan las actividades de `backend/data/lab_club`, que están siempre abiertas, para probar los reproductores.
 
 ### Validación
 

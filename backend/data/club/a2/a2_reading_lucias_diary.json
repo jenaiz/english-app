@@ -1,0 +1,168 @@
+{
+  "id": "a2_reading_lucias_diary",
+  "type": "reading",
+  "level": "A2",
+  "title": "Two Months in Bristol",
+  "subtitle": "Una página del diario de Lucía",
+  "minutes": 10,
+  "milestone": "unit",
+  "after_unit": "comparing_cities",
+  "content": {
+    "kind": "El diario de Lucía",
+    "paragraphs": [
+      "Sunday, 2nd November",
+      "It's a rainy Sunday afternoon. Sam is practising a new song in his room, Priya is sleeping after a night shift, and I'm sitting in the kitchen with a cup of tea. Yes, tea! Two months ago I only drank coffee. Things change. Today I want to write about my first two months in Bristol, because a lot of things happened and I don't want to forget them.",
+      "I arrived on Saturday the 6th of September. I took the bus from the airport and I got lost twice before I found Clifton Road. I was tired, a bit scared and already homesick. Then Mrs Green opened the door and said, \"Welcome to Bristol!\" She gave me a key and a biscuit, and I felt better immediately. That evening I met Sam and Priya in the kitchen. Sam made a terrible joke about Spanish people and paella, and Priya told him to be quiet. I laughed. I knew then that I was going to like this house.",
+      "My first day at Harbour Studio was on Monday the 8th. I was so nervous that I didn't eat breakfast. Helen, my boss, was very serious, and I understood only half of what she said. But then I met Daniel. He's a developer from Galway, in Ireland, and he speaks more slowly than the other people in the office. He showed me the coffee machine (it never works) and explained the projects. At lunch he asked me a lot of questions about Valencia. Javi always asks me about \"the Irish guy\". I always tell him the same thing: Daniel is just a friend.",
+      "The first weeks were difficult. Everything was new and everything was harder than at home. Some evenings I felt lonely, and I called my mother every day. Shopping was harder, because I didn't know the names of things. One day I asked a shop assistant for \"a bag of tomatoes\" and she gave me tomato sauce. Talking on the phone was the hardest thing. People here speak fast and they use words that are not in my books, like \"cheers\", \"lovely\" and \"my lover\". In Bristol everybody is \"my lover\", even the bus driver!",
+      "But little by little, life got easier. I learned the way to the supermarket (thanks, Daniel). I started to understand Sam's jokes, or most of them. I went to Sam's concert at The Old Duke and I danced all night. I played football in Brandon Hill with the people from work, and I scored a goal. OK, it was an own goal, but it was still a goal.",
+      "Of course, there were some bad moments too. I'm a clumsy person, and Bristol knows it now. In October I lost my keys. I looked for them everywhere for twenty minutes, and in the end Priya found them in the fridge, next to the milk. I still don't know how they got there. And last Monday was the worst day of all: the wind broke Sam's umbrella, a man ran into me on the bus and my coffee went all over my new coat. I arrived at the office late and wet. Daniel didn't say anything. He just gave me his coffee.",
+      "Javi asked me last week: \"Which city is better, Bristol or Valencia?\" It's a difficult question. Valencia is warmer and sunnier than Bristol, of course. The food at home is better, and the beach is more beautiful. Here the sky is grey most of the time, and the summer is shorter. In Valencia people eat dinner at ten o'clock; here they eat at six, which is still very strange for me.",
+      "But Bristol has other things. It's greener than Valencia, with big parks everywhere. It's smaller and quieter than Madrid, where I worked for three years. The people are friendly, and the music scene is fantastic. And Bristol is more international than I expected: in my office there are people from six different countries. So my answer to Javi was: \"They're different. I love both.\"",
+      "What have I learned in two months? I've learned to carry an umbrella every day. I've learned that a \"cuppa\" can fix almost any problem. I've learned to say \"sorry\" twenty times a day, like an English person. And I've learned that my English is better than I think. Two months ago I was afraid to order a coffee. Last Friday I talked to a client on the phone for ten minutes, and he understood everything. Well, almost everything.",
+      "What am I going to do next? First, I'm going to buy a new umbrella, a strong one. I'm going to visit London with Priya and Daniel; we're talking about a weekend in November. I'm going to learn to cook something British for my flatmates, maybe a shepherd's pie. And at Christmas I'm going to fly home to Valencia and eat everything my mother cooks.",
+      "Sam has just stopped playing. Now he's shouting from the stairs, cheerful as always: \"Lucía! Fancy a cuppa?\" Of course I do. I'm going to finish here. Bristol, you are not Valencia, but you are starting to feel like home."
+    ],
+    "glossary": {
+      "night shift": "turno de noche",
+      "got lost": "me perdí",
+      "scared": "asustada",
+      "homesick": "con morriña, echando de menos mi casa",
+      "lonely": "sola",
+      "little by little": "poco a poco",
+      "scored a goal": "marqué un gol",
+      "own goal": "gol en propia puerta",
+      "clumsy": "torpe",
+      "music scene": "ambiente musical",
+      "shepherd's pie": "pastel de carne con puré de patata",
+      "cheerful": "alegre",
+      "Fancy a cuppa?": "¿Te apetece un té?"
+    },
+    "questions": [
+      {
+        "question": "What does Lucía drink now that she didn't drink before?",
+        "options": [
+          "Coffee.",
+          "Tea.",
+          "Milk."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "How did Lucía feel when she arrived in Bristol?",
+        "options": [
+          "Tired and a bit scared.",
+          "Happy and relaxed.",
+          "Angry with Mrs Green."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Why does Lucía like talking to Daniel at work?",
+        "options": [
+          "He speaks Spanish.",
+          "He speaks more slowly than the others.",
+          "He is her boss."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "What was the hardest thing in the first weeks?",
+        "options": [
+          "Shopping.",
+          "Cooking.",
+          "Talking on the phone."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Where did Priya find Lucía's keys?",
+        "options": [
+          "In the fridge.",
+          "In her coat.",
+          "On the bus."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "According to Lucía, what is better in Bristol than in Valencia?",
+        "options": [
+          "The weather.",
+          "The parks.",
+          "The beach."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Which of these is NOT one of Lucía's plans?",
+        "options": [
+          "To visit London.",
+          "To cook something British.",
+          "To move to Madrid."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "How does Lucía feel about Bristol at the end?",
+        "options": [
+          "She wants to go back to Valencia now.",
+          "It is starting to feel like home.",
+          "It is better than Valencia in every way."
+        ],
+        "answer": 1
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "homesick",
+        "translation": "con morriña",
+        "definition": "sad because you are far from your home and family"
+      },
+      {
+        "term": "lonely",
+        "translation": "solo/a (triste)",
+        "definition": "sad because you have no friends or people with you"
+      },
+      {
+        "term": "scared",
+        "translation": "asustado/a",
+        "definition": "afraid"
+      },
+      {
+        "term": "clumsy",
+        "translation": "torpe",
+        "definition": "often dropping things or falling"
+      },
+      {
+        "term": "cheerful",
+        "translation": "alegre",
+        "definition": "happy and positive"
+      },
+      {
+        "term": "little by little",
+        "translation": "poco a poco",
+        "definition": "slowly, a small amount at a time"
+      },
+      {
+        "term": "own goal",
+        "translation": "gol en propia puerta",
+        "definition": "a goal that a player scores against their own team"
+      },
+      {
+        "term": "music scene",
+        "translation": "ambiente musical",
+        "definition": "all the bands, concerts and places for music in a city"
+      },
+      {
+        "term": "shepherd's pie",
+        "translation": "pastel de carne con puré",
+        "definition": "a British dish of meat with mashed potato on top"
+      }
+    ],
+    "expressions": [
+      "phrasal:look-for",
+      "phrasal:find-out",
+      "idiom:time-flies"
+    ]
+  }
+}

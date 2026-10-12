@@ -1,0 +1,107 @@
+{
+  "id": "a2_cloze_phrasal_saturday",
+  "type": "verb_cloze",
+  "level": "A2",
+  "title": "Shopping at Cabot Circus",
+  "subtitle": "Phrasal verbs en pasado: try on, look for, pick up…",
+  "minutes": 6,
+  "milestone": "checkpoint",
+  "content": {
+    "instructions": "Completa con el phrasal verb entre paréntesis en past simple. Si hay un pronombre (it, them), ponlo en su sitio.",
+    "items": [
+      {
+        "text": "On Saturday morning Lucía ___ (get up) early because she needed a winter coat. She ___ (put on) her old jacket and ___ (go out) with Priya. It was freezing outside.",
+        "answers": [
+          [
+            "got up"
+          ],
+          [
+            "put on"
+          ],
+          [
+            "went out"
+          ]
+        ],
+        "hint": "Get → got, put → put, go → went. La partícula no cambia."
+      },
+      {
+        "text": "At Cabot Circus they ___ (look for) a coat for two hours. In the fitting room, Lucía ___ (try on) a red coat, a black coat and a green coat. The black one had a hood, but the sleeves were too long. She liked the green one, so she ___ (try / it / on) again.",
+        "answers": [
+          [
+            "looked for"
+          ],
+          [
+            "tried on"
+          ],
+          [
+            "tried it on"
+          ]
+        ],
+        "hint": "Con un pronombre, los phrasal verbs separables lo llevan en medio: try it on (no «try on it»).",
+        "explanation": "Try on es separable: tried the coat on / tried on the coat, pero siempre tried it on."
+      },
+      {
+        "text": "The coat was only forty pounds! What a bargain! Lucía paid, and then they ___ (sit down) in a café. Lucía's phone rang, but she didn't ___ (pick / it / up) because her hands were full of bags.",
+        "answers": [
+          [
+            "sat down"
+          ],
+          [
+            "pick it up"
+          ]
+        ],
+        "hint": "Después de didn't el verbo va en infinitivo. Sit → sat."
+      },
+      {
+        "text": "It was Javi. Later, Lucía ___ (call / him / back) and told him about the coat. \"Green? Really?\" Javi said. Then they ___ (find out) that the café was closing, so they ___ (go back) home.",
+        "answers": [
+          [
+            "called him back"
+          ],
+          [
+            "found out"
+          ],
+          [
+            "went back"
+          ]
+        ],
+        "hint": "Call back es separable: called him back. Find → found."
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "freezing",
+        "translation": "helador, muy frío",
+        "definition": "very, very cold"
+      },
+      {
+        "term": "fitting room",
+        "translation": "probador",
+        "definition": "a small room in a shop where you try on clothes"
+      },
+      {
+        "term": "hood",
+        "translation": "capucha",
+        "definition": "the part of a coat that covers your head"
+      },
+      {
+        "term": "sleeve",
+        "translation": "manga",
+        "definition": "the part of a coat or shirt that covers your arm"
+      },
+      {
+        "term": "bargain",
+        "translation": "ganga",
+        "definition": "something that costs much less than usual"
+      }
+    ],
+    "expressions": [
+      "phrasal:try-on",
+      "phrasal:look-for",
+      "phrasal:pick-up",
+      "phrasal:call-back",
+      "phrasal:find-out",
+      "phrasal:go-back"
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "id": "a1_reading_bristol_guide",
+  "type": "reading",
+  "level": "A1",
+  "title": "Welcome to Bristol",
+  "subtitle": "Una guía de la ciudad para recién llegados",
+  "minutes": 8,
+  "milestone": "checkpoint",
+  "content": {
+    "kind": "Guía de la ciudad",
+    "paragraphs": [
+      "Are you new in Bristol? Welcome! This short guide is for you. Here you can read about the city, its people, its places and its food. Bristol is a friendly city, and it is a great place to live.",
+      "Bristol is in the south-west of England. It is about 190 kilometres from London. The train from Bristol to London takes about one hour and forty minutes. About 470,000 people live in the city, and there are a lot of students. There are two big universities in Bristol, so the city is young and busy.",
+      "Bristol is a city of water. The River Avon goes through the city to the sea. In the centre there is a big harbour, called the Harbourside. There are boats, cafés, restaurants, museums and old buildings next to the water. People walk, run and cycle there every day. On sunny days, the Harbourside is crowded and lively.",
+      "One of the most famous places in Bristol is the Clifton Suspension Bridge. It is a very long bridge over the River Avon, and it is very high: about 75 metres above the water. You can walk over the bridge, and the view is fantastic. Next to the bridge there is a beautiful area with old houses, called Clifton. A lot of people in Clifton live in big, old houses with flats for students and young workers.",
+      "Bristol is also famous for its art. There are paintings on the walls of a lot of streets. This art is called street art, and it is everywhere. Some artists from Bristol are famous all over the world. There is often a big street art festival in the summer, and the walls change all the time.",
+      "Do you like music? Bristol is a great city for music. There are a lot of small pubs with live music, and some famous bands are from Bristol. On Friday and Saturday nights, the pubs are full. You can hear rock, jazz, folk and electronic music.",
+      "Do you like shopping? Go to Cabot Circus. It is a big shopping centre in the city centre, with more than 100 shops, cafés and a cinema. Do you prefer small shops? There are markets too. St Nicholas Market is a very old market in the centre. There are a lot of small stalls, and you can buy food from all over the world: Spanish, Moroccan, Caribbean, Indian, Chinese and more.",
+      "And the parks? Brandon Hill is a big green park in the centre, on a hill. At the top there is a tower, called Cabot Tower. You can go up the tower and see all the city. On Sundays a lot of families are in the park. People play football, have picnics or walk their dogs.",
+      "Now, the weather. It rains a lot in Bristol, so take an umbrella with you every day. The summer is not very hot, and the winter is not very cold. In autumn the trees in the parks are yellow, orange and red, and the city is very beautiful. People in Bristol say: \"There is no bad weather, only bad clothes!\"",
+      "How do people in Bristol travel? There are a lot of buses, and the city centre is small, so you can walk to a lot of places. Some people cycle, but be careful: Bristol has got a lot of steep hills! There are also small boats on the harbour. They are water taxis, and they are a fun way to see the city.",
+      "And the people? People in Bristol are friendly and relaxed. They often say \"cheers\" for \"thank you\", and \"lovely\" for \"good\". In shops and buses people sometimes say \"my love\" or \"my lover\" to strangers. Don't worry: it is only a friendly word in Bristol!",
+      "Welcome to your new city. Enjoy it!"
+    ],
+    "glossary": {
+      "harbour": "puerto",
+      "cycle": "ir en bici",
+      "crowded": "abarrotado",
+      "lively": "animado",
+      "suspension bridge": "puente colgante",
+      "street art": "arte urbano",
+      "stalls": "puestos (de mercado)",
+      "picnics": "pícnics",
+      "autumn": "otoño",
+      "steep": "empinadas",
+      "water taxis": "taxis acuáticos",
+      "relaxed": "tranquilos",
+      "strangers": "desconocidos"
+    },
+    "questions": [
+      {
+        "question": "Where is Bristol?",
+        "options": [
+          "In the north of England.",
+          "In the south-west of England.",
+          "Near London."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Why is Bristol a young city?",
+        "options": [
+          "There are a lot of students.",
+          "There are a lot of parks.",
+          "It is a new city."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is the Clifton Suspension Bridge over?",
+        "options": [
+          "The harbour.",
+          "The sea.",
+          "The River Avon."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "What can you buy at St Nicholas Market?",
+        "options": [
+          "Food from all over the world.",
+          "Only English food.",
+          "Cinema tickets."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is at the top of Brandon Hill?",
+        "options": [
+          "A market.",
+          "A tower.",
+          "A bridge."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "What are water taxis?",
+        "options": [
+          "Buses next to the river.",
+          "Small boats on the harbour.",
+          "Taxis to the beach."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "In Bristol, \"my lover\" is…",
+        "options": [
+          "a friendly word for people you don't know.",
+          "only for your boyfriend or girlfriend.",
+          "a rude word."
+        ],
+        "answer": 0
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "crowded",
+        "translation": "abarrotado/a",
+        "definition": "full of people"
+      },
+      {
+        "term": "lively",
+        "translation": "animado/a",
+        "definition": "full of life, energy and activity"
+      },
+      {
+        "term": "steep",
+        "translation": "empinado/a",
+        "definition": "going up or down very quickly, like a difficult hill"
+      },
+      {
+        "term": "street art",
+        "translation": "arte urbano",
+        "definition": "paintings and pictures on the walls of a city"
+      },
+      {
+        "term": "stall",
+        "translation": "puesto (de mercado)",
+        "definition": "a small table or shop in a market"
+      },
+      {
+        "term": "picnic",
+        "translation": "pícnic",
+        "definition": "a meal that you eat outside, for example in a park"
+      },
+      {
+        "term": "cycle",
+        "translation": "ir en bici",
+        "definition": "to ride a bike"
+      },
+      {
+        "term": "autumn",
+        "translation": "otoño",
+        "definition": "the season between summer and winter"
+      },
+      {
+        "term": "relaxed",
+        "translation": "tranquilo/a, relajado/a",
+        "definition": "calm, not worried"
+      },
+      {
+        "term": "stranger",
+        "translation": "desconocido/a",
+        "definition": "a person you don't know"
+      }
+    ],
+    "expressions": [
+      "idiom:raining-cats-and-dogs",
+      "phrasal:go-out"
+    ]
+  }
+}

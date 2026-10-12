@@ -1,0 +1,41 @@
+{
+  "id": "lab_video",
+  "type": "video",
+  "level": "B1",
+  "title": "Do Schools Kill Creativity?",
+  "subtitle": "Ken Robinson · laboratorio: transcripción de prueba, no es la real",
+  "minutes": 20,
+  "youtube_id": "iG9CE55wbtY",
+  "milestone": "checkpoint",
+  "content": {
+    "speaker": "Ken Robinson",
+    "license": "TED · CC BY-NC-ND 4.0",
+    "source_url": "https://www.ted.com/talks/sir_ken_robinson_do_schools_kill_creativity",
+    "transcript": [
+      { "t": 0, "text": "(Transcripción de prueba para el laboratorio. Genera la real con go run ./cmd/subs.)" },
+      { "t": 15, "text": "The talk begins with a few jokes about the conference." },
+      { "t": 45, "text": "He says that creativity is as important in education as literacy." },
+      { "t": 90, "text": "He tells a story about a little girl in a drawing lesson." },
+      { "t": 130, "text": "Children are not frightened of being wrong." },
+      { "t": 180, "text": "But schools often teach them that mistakes are the worst thing you can make." }
+    ],
+    "checkpoints": [
+      {
+        "t": 60,
+        "questions": [
+          { "question": "What does the speaker compare creativity to?", "options": ["Literacy", "Sport", "Money"], "answer": 0 }
+        ]
+      },
+      {
+        "t": 190,
+        "questions": [
+          { "question": "What are children not afraid of?", "options": ["Teachers", "Being wrong", "Drawing"], "answer": 1 },
+          { "question": "What do schools often teach about mistakes?", "options": ["They are useful.", "They are the worst thing.", "They are funny."], "answer": 1 }
+        ]
+      }
+    ],
+    "vocabulary": [
+      { "term": "literacy", "translation": "alfabetización, saber leer y escribir", "definition": "the ability to read and write" }
+    ]
+  }
+}
