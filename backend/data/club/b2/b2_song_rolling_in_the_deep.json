@@ -1,0 +1,137 @@
+{
+  "id": "b2_song_rolling_in_the_deep",
+  "type": "song",
+  "level": "B2",
+  "title": "Rolling in the Deep",
+  "subtitle": "Adele",
+  "minutes": 4,
+  "youtube_id": "rYEDA3JcQqw",
+  "milestone": "unit",
+  "content": {
+    "artist": "Adele",
+    "channel": "Adele",
+    "start": 40,
+    "end": 77.6,
+    "lines": [
+      {
+        "t": 42.3,
+        "text": "The ___ of your love remind me of us",
+        "answers": [
+          [
+            "scars"
+          ]
+        ]
+      },
+      {
+        "t": 46.9,
+        "text": "They keep me thinking that we ___ had it all",
+        "answers": [
+          [
+            "almost"
+          ]
+        ]
+      },
+      {
+        "t": 51.6,
+        "text": "The scars of your love, they leave me ___",
+        "answers": [
+          [
+            "breathless"
+          ]
+        ]
+      },
+      {
+        "t": 56.1,
+        "text": "I can't help ___",
+        "answers": [
+          [
+            "feeling"
+          ]
+        ]
+      },
+      {
+        "t": 58.1,
+        "text": "We ___ had it all",
+        "answers": [
+          [
+            "could've",
+            "could have"
+          ]
+        ]
+      },
+      {
+        "t": 63.1,
+        "text": "Rolling in the deep"
+      },
+      {
+        "t": 67.6,
+        "text": "You had my heart ___ of your hands",
+        "answers": [
+          [
+            "inside"
+          ]
+        ]
+      },
+      {
+        "t": 72.4,
+        "text": "And you ___ it to the beat",
+        "answers": [
+          [
+            "played"
+          ]
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "question": "What does the singer think about the relationship?",
+        "options": [
+          "They could have had it all, but they lost it.",
+          "She is glad it is over.",
+          "They are still together and happy."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "\"I can't help feeling…\" means…",
+        "options": [
+          "I can't stop feeling…",
+          "I need help to feel…",
+          "I don't feel anything…"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What did he do with her heart?",
+        "options": [
+          "He played with it.",
+          "He kept it safe.",
+          "He gave it back to her."
+        ],
+        "answer": 0
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "scar",
+        "translation": "cicatriz",
+        "definition": "a mark that stays on your skin after a wound gets better"
+      },
+      {
+        "term": "breathless",
+        "translation": "sin aliento",
+        "definition": "unable to breathe well, because of effort or strong emotion"
+      },
+      {
+        "term": "can't help doing something",
+        "translation": "no poder evitar hacer algo",
+        "definition": "to be unable to stop yourself doing something"
+      },
+      {
+        "term": "beat",
+        "translation": "ritmo",
+        "definition": "the regular rhythm of music"
+      }
+    ]
+  }
+}

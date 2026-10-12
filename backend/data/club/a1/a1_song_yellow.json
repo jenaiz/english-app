@@ -9,6 +9,7 @@
   "milestone": "unit",
   "after_unit": "numbers_colors",
   "content": {
+    "channel": "Coldplay",
     "artist": "Coldplay",
     "start": 33,
     "end": 71.4,
@@ -84,6 +85,26 @@
         "term": "come along",
         "translation": "aparecer, llegar",
         "definition": "to arrive or appear"
+      }
+    ],
+    "questions": [
+      {
+        "question": "What does the singer ask you to look at?",
+        "options": [
+          "The stars.",
+          "The sea.",
+          "The sun."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What did he write for you?",
+        "options": [
+          "A song.",
+          "A letter.",
+          "A poem."
+        ],
+        "answer": 0
       }
     ]
   }

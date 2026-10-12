@@ -9,6 +9,7 @@
   "milestone": "unit",
   "after_unit": "free_time",
   "content": {
+    "channel": "Pharrell Williams",
     "artist": "Pharrell Williams",
     "start": 27,
     "end": 55.4,
@@ -101,6 +102,35 @@
         "term": "truth",
         "translation": "verdad",
         "definition": "what is real and true"
+      }
+    ],
+    "questions": [
+      {
+        "question": "How does the singer feel?",
+        "options": [
+          "Happy.",
+          "Tired.",
+          "Angry."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What can you do if you feel happy?",
+        "options": [
+          "Clap along.",
+          "Stay quiet.",
+          "Go to bed."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "\"Like a room without a roof\" means the singer feels…",
+        "options": [
+          "free, with no limits.",
+          "cold and wet.",
+          "lost in a big house."
+        ],
+        "answer": 0
       }
     ]
   }

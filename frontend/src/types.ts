@@ -358,6 +358,10 @@ export interface TimedLine {
 /** A song fragment: lines with ___ blanks, played between start and end. */
 export interface SongContent extends ActivityExtras {
   artist?: string
+  /** Official YouTube channel (artist or label) the video comes from. */
+  channel: string
+  /** Questions about the lyrics, asked once the blanks are checked. */
+  questions?: ChoiceItem[]
   start?: number
   end: number
   lines: (TimedLine & { answers?: string[][] })[]
@@ -377,14 +381,17 @@ export interface ReadingContent extends ActivityExtras {
   source?: string
 }
 
+/** A talk or video without transcript (talks don't allow publishing theirs): our own questions only. */
 export interface VideoContent extends ActivityExtras {
   speaker?: string
+  channel: string
   license: string
   source_url: string
   start?: number
-  transcript: TimedLine[]
   /** The video pauses at t and asks these questions. */
-  checkpoints: { t: number; questions: ChoiceItem[] }[]
+  checkpoints?: { t: number; questions: ChoiceItem[] }[]
+  /** Questions once the video is over. */
+  questions?: ChoiceItem[]
 }
 
 export interface VerbClozeItem extends ItemBase {

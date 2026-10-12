@@ -1,5 +1,12 @@
-// Command subs turns a YouTube video's English subtitles into the timed lines of a Club
-// activity: "transcript" for a video, "lines" for a song. It needs yt-dlp on the PATH.
+// Command subs turns a YouTube video's English subtitles into timed lines for a Club
+// activity. It needs yt-dlp on the PATH.
+//
+// For a song (-song) the lines are the lyrics to put in the activity. For a talk they are
+// only a private aid to write the questions and time the pauses: talk transcripts (TED's
+// included) can't be published, so they never go into the activity.
+//
+// It also prints the video's channel: Club songs only use official videos, from the artist's
+// or the label's channel. Check it by hand (YouTube's "verified" mark also goes to lyric channels).
 //
 //	go run ./cmd/subs [-song] [-lang en] <youtube URL or id>
 //
@@ -18,6 +25,7 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"strings"
 )
 
 func main() {
@@ -33,6 +41,11 @@ func main() {
 	}
 	video := flag.Arg(0)
 	id := videoID(video)
+	channel, err := channelOf(video)
+	if err != nil {
+		log.Fatal(err)
+	}
+	log.Printf("channel: %s — use it only if it's the artist's or the label's official channel", channel)
 
 	dir, err := os.MkdirTemp("", "subs")
 	if err != nil {
@@ -73,13 +86,22 @@ func main() {
 	if *song {
 		key = "lines"
 	}
-	out := map[string]any{"youtube_id": id, "subtitles": source, key: cues}
+	out := map[string]any{"youtube_id": id, "channel": channel, "subtitles": source, key: cues}
 	enc := json.NewEncoder(os.Stdout)
 	enc.SetIndent("", "  ")
 	enc.SetEscapeHTML(false)
 	if err := enc.Encode(out); err != nil {
 		log.Fatal(err)
 	}
+}
+
+// channelOf returns the name of the channel that uploaded the video.
+func channelOf(video string) (string, error) {
+	out, err := exec.Command("yt-dlp", "--skip-download", "--print", "%(channel)s", video).Output()
+	if err != nil {
+		return "", fmt.Errorf("yt-dlp: %w", err)
+	}
+	return strings.TrimSpace(string(out)), nil
 }
 
 // download fetches the subtitles with yt-dlp and returns the .vtt written, or "" if there was none.

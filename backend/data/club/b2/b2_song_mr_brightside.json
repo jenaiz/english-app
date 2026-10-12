@@ -1,0 +1,127 @@
+{
+  "id": "b2_song_mr_brightside",
+  "type": "song",
+  "level": "B2",
+  "title": "Mr. Brightside",
+  "subtitle": "The Killers",
+  "minutes": 4,
+  "youtube_id": "gGdGFtwCNBE",
+  "milestone": "checkpoint",
+  "content": {
+    "artist": "The Killers",
+    "channel": "TheKillersMusic",
+    "start": 8,
+    "end": 23.5,
+    "lines": [
+      {
+        "t": 10.5,
+        "text": "Coming out of my ___",
+        "answers": [
+          [
+            "cage"
+          ]
+        ]
+      },
+      {
+        "t": 12.1,
+        "text": "And I've been ___ just fine",
+        "answers": [
+          [
+            "doing"
+          ]
+        ]
+      },
+      {
+        "t": 13.8,
+        "text": "Gotta, gotta be down"
+      },
+      {
+        "t": 15.3,
+        "text": "Because I ___ it all",
+        "answers": [
+          [
+            "want"
+          ]
+        ]
+      },
+      {
+        "t": 17,
+        "text": "It ___ out with a kiss",
+        "answers": [
+          [
+            "started"
+          ]
+        ]
+      },
+      {
+        "t": 18.5,
+        "text": "How did it ___ up like this?",
+        "answers": [
+          [
+            "end"
+          ]
+        ]
+      },
+      {
+        "t": 20.3,
+        "text": "It was only a ___, it was only a kiss",
+        "answers": [
+          [
+            "kiss"
+          ]
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "question": "How did the story start?",
+        "options": [
+          "With a kiss.",
+          "With a fight.",
+          "With a letter."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "\"How did it end up like this?\" shows that the singer is…",
+        "options": [
+          "surprised that things went so wrong.",
+          "happy with how it ended.",
+          "bored with the story."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "\"I've been doing just fine\" means…",
+        "options": [
+          "I've been OK.",
+          "I've been working hard.",
+          "I've been ill."
+        ],
+        "answer": 0
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "cage",
+        "translation": "jaula",
+        "definition": "a box with bars where you keep birds or animals"
+      },
+      {
+        "term": "start out",
+        "translation": "empezar (siendo)",
+        "definition": "to begin in a particular way"
+      },
+      {
+        "term": "end up",
+        "translation": "acabar (en una situación)",
+        "definition": "to finally be in a situation you didn't plan"
+      },
+      {
+        "term": "jealousy",
+        "translation": "celos",
+        "definition": "the feeling of being unhappy because someone you love likes another person"
+      }
+    ]
+  }
+}

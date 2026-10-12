@@ -47,21 +47,26 @@ func words(n int) string { return strings.TrimSpace(strings.Repeat("word ", n)) 
 func TestClubValidation(t *testing.T) {
 	c, e := loadBundled(t)
 	q := `[{"question":"q","options":["a","b"],"answer":0},{"question":"q","options":["a","b"],"answer":1},{"question":"q","options":["a","b"],"answer":0}]`
-	song := `{"end":20,"lines":[{"t":1,"text":"I ___ you","answers":[["love"]]},{"t":5,"text":"yeah"}]}`
+	song := `{"channel":"Artist","end":20,"lines":[{"t":1,"text":"I ___ you","answers":[["love"]]},{"t":5,"text":"yeah"}]}`
 	cases := []struct {
 		name, doc, wantErr string
 	}{
 		{"song ok", `{"id":"s","type":"song","level":"A1","title":"S","minutes":4,"milestone":"unit","youtube_id":"x","content":` + song + `}`, ""},
 		{"song without video", `{"id":"s","type":"song","level":"A1","title":"S","minutes":4,"milestone":"unit","content":` + song + `}`, "youtube_id"},
-		{"song too long", `{"id":"s","type":"song","level":"A1","title":"S","minutes":4,"milestone":"unit","youtube_id":"x","content":{"end":99,"lines":[` + strings.Repeat(`{"t":1,"text":"a ___","answers":[["b"]]},`, 16) + `{"t":2,"text":"c"}]}}`, "fragment"},
-		{"song times out of order", `{"id":"s","type":"song","level":"A1","title":"S","minutes":4,"milestone":"unit","youtube_id":"x","content":{"end":20,"lines":[{"t":5,"text":"a ___","answers":[["b"]]},{"t":1,"text":"c"}]}}`, "increasing"},
-		{"blank count", `{"id":"s","type":"song","level":"A1","title":"S","minutes":4,"milestone":"unit","youtube_id":"x","content":{"end":20,"lines":[{"t":1,"text":"a ___ ___","answers":[["b"]]},{"t":2,"text":"c"}]}}`, "2 blanks"},
+		{"song too long", `{"id":"s","type":"song","level":"A1","title":"S","minutes":4,"milestone":"unit","youtube_id":"x","content":{"channel":"A","end":99,"lines":[` + strings.Repeat(`{"t":1,"text":"a ___","answers":[["b"]]},`, 16) + `{"t":2,"text":"c"}]}}`, "fragment"},
+		{"song times out of order", `{"id":"s","type":"song","level":"A1","title":"S","minutes":4,"milestone":"unit","youtube_id":"x","content":{"channel":"A","end":20,"lines":[{"t":5,"text":"a ___","answers":[["b"]]},{"t":1,"text":"c"}]}}`, "increasing"},
+		{"blank count", `{"id":"s","type":"song","level":"A1","title":"S","minutes":4,"milestone":"unit","youtube_id":"x","content":{"channel":"A","end":20,"lines":[{"t":1,"text":"a ___ ___","answers":[["b"]]},{"t":2,"text":"c"}]}}`, "2 blanks"},
 		{"reading ok", `{"id":"r","type":"reading","level":"A1","title":"R","minutes":8,"milestone":"unit","content":{"paragraphs":["` + words(600) + `"],"glossary":{"word":"palabra"},"questions":` + q + `}}`, ""},
 		{"reading too short", `{"id":"r","type":"reading","level":"A1","title":"R","minutes":8,"milestone":"unit","content":{"paragraphs":["` + words(100) + `"],"questions":` + q + `}}`, "100 words"},
 		{"glossary not in text", `{"id":"r","type":"reading","level":"A1","title":"R","minutes":8,"milestone":"unit","content":{"paragraphs":["` + words(600) + `"],"glossary":{"cat":"gato"},"questions":` + q + `}}`, "glossary"},
 		{"unknown expression", `{"id":"r","type":"reading","level":"A1","title":"R","minutes":8,"milestone":"unit","content":{"paragraphs":["` + words(600) + `"],"questions":` + q + `,"expressions":["phrasal:nope"]}}`, "nope"},
-		{"video without license", `{"id":"v","type":"video","level":"B1","title":"V","minutes":12,"milestone":"checkpoint","youtube_id":"x","content":{"source_url":"u","transcript":[{"t":0,"text":"hi"}],"checkpoints":[{"t":10,"questions":` + q + `}]}}`, "license"},
-		{"video ok", `{"id":"v","type":"video","level":"B1","title":"V","minutes":12,"milestone":"checkpoint","youtube_id":"x","content":{"license":"CC","source_url":"u","transcript":[{"t":0,"text":"hi"}],"checkpoints":[{"t":10,"questions":` + q + `}]}}`, ""},
+		{"song without channel", `{"id":"s","type":"song","level":"A1","title":"S","minutes":4,"milestone":"unit","youtube_id":"x","content":{"end":20,"lines":[{"t":1,"text":"I ___ you","answers":[["love"]]},{"t":5,"text":"yeah"}]}}`, "channel"},
+		{"song with lyric questions", `{"id":"s","type":"song","level":"A1","title":"S","minutes":4,"milestone":"unit","youtube_id":"x","content":{"channel":"A","end":20,"lines":[{"t":1,"text":"I ___ you","answers":[["love"]]},{"t":5,"text":"yeah"}],"questions":[{"question":"q","options":["a"],"answer":0}]}}`, "2 options"},
+		{"video without license", `{"id":"v","type":"video","level":"B1","title":"V","minutes":12,"milestone":"checkpoint","youtube_id":"x","content":{"channel":"TED","source_url":"u","checkpoints":[{"t":10,"questions":` + q + `}]}}`, "license"},
+		{"video with transcript", `{"id":"v","type":"video","level":"B1","title":"V","minutes":12,"milestone":"checkpoint","youtube_id":"x","content":{"channel":"TED","license":"CC","source_url":"u","transcript":[{"t":0,"text":"hi"}],"checkpoints":[{"t":10,"questions":` + q + `}]}}`, "transcript"},
+		{"video without questions", `{"id":"v","type":"video","level":"B1","title":"V","minutes":12,"milestone":"checkpoint","youtube_id":"x","content":{"channel":"TED","license":"CC","source_url":"u"}}`, "checkpoints or final"},
+		{"video ok", `{"id":"v","type":"video","level":"B1","title":"V","minutes":12,"milestone":"checkpoint","youtube_id":"x","content":{"channel":"TED","license":"CC","source_url":"u","checkpoints":[{"t":10,"questions":` + q + `}],"questions":` + q + `}}`, ""},
+		{"video only final questions", `{"id":"v","type":"video","level":"B1","title":"V","minutes":12,"milestone":"checkpoint","youtube_id":"x","content":{"channel":"TED","license":"CC","source_url":"u","questions":` + q + `}}`, ""},
 		{"verb cloze ok", `{"id":"g","type":"verb_cloze","level":"A2","title":"G","minutes":5,"milestone":"unit","content":{"items":[{"text":"She ___ (go) home.","answers":[["went"]]}]}}`, ""},
 		{"bad milestone", `{"id":"g","type":"verb_cloze","level":"A2","title":"G","minutes":5,"milestone":"lesson","content":{"items":[{"text":"She ___ (go) home.","answers":[["went"]]}]}}`, "milestone"},
 		{"vocabulary already taught", `{"id":"g","type":"verb_cloze","level":"A2","title":"G","minutes":5,"milestone":"unit","content":{"items":[{"text":"x ___","answers":[["y"]]}],"vocabulary":[{"term":"Umbrella","translation":"paraguas"}]}}`, "already taught"},

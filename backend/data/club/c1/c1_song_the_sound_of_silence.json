@@ -1,0 +1,175 @@
+{
+  "id": "c1_song_the_sound_of_silence",
+  "type": "song",
+  "level": "C1",
+  "title": "The Sound of Silence",
+  "subtitle": "Simon & Garfunkel",
+  "minutes": 5,
+  "youtube_id": "NAEppFUWLfc",
+  "milestone": "unit",
+  "content": {
+    "artist": "Simon & Garfunkel",
+    "channel": "Simon & Garfunkel",
+    "start": 8,
+    "end": 90.9,
+    "lines": [
+      {
+        "t": 11.3,
+        "text": "Hello darkness, my old ___",
+        "answers": [
+          [
+            "friend"
+          ]
+        ]
+      },
+      {
+        "t": 16.5,
+        "text": "I've come to talk with you again"
+      },
+      {
+        "t": 21.4,
+        "text": "Because a vision softly ___",
+        "answers": [
+          [
+            "creeping"
+          ]
+        ]
+      },
+      {
+        "t": 26.8,
+        "text": "Left its ___ while I was sleeping",
+        "answers": [
+          [
+            "seeds"
+          ]
+        ]
+      },
+      {
+        "t": 31.9,
+        "text": "And the vision that was ___ in my brain",
+        "answers": [
+          [
+            "planted"
+          ]
+        ]
+      },
+      {
+        "t": 39.7,
+        "text": "Still ___",
+        "answers": [
+          [
+            "remains"
+          ]
+        ]
+      },
+      {
+        "t": 44,
+        "text": "Within the sound of silence"
+      },
+      {
+        "t": 50.5,
+        "text": "In ___ dreams, I walked alone",
+        "answers": [
+          [
+            "restless"
+          ]
+        ]
+      },
+      {
+        "t": 56,
+        "text": "Narrow streets of cobblestone"
+      },
+      {
+        "t": 61.1,
+        "text": "'Neath the halo of a street lamp"
+      },
+      {
+        "t": 66.4,
+        "text": "I turned my ___ to the cold and damp",
+        "answers": [
+          [
+            "collar"
+          ]
+        ]
+      },
+      {
+        "t": 72,
+        "text": "When my eyes were ___ by the flash of a neon light",
+        "answers": [
+          [
+            "stabbed"
+          ]
+        ]
+      },
+      {
+        "t": 80,
+        "text": "That split the night"
+      },
+      {
+        "t": 84.2,
+        "text": "And touched the sound of silence"
+      }
+    ],
+    "questions": [
+      {
+        "question": "How does the singer talk to darkness?",
+        "options": [
+          "Like an old friend.",
+          "Like an enemy.",
+          "Like a stranger."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where did he walk in his dreams?",
+        "options": [
+          "Alone, through narrow cobbled streets.",
+          "With friends by the sea.",
+          "Through a crowded market."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What broke the night?",
+        "options": [
+          "The flash of a neon light.",
+          "A loud noise.",
+          "The sound of rain."
+        ],
+        "answer": 0
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "creep",
+        "translation": "avanzar sigilosamente",
+        "definition": "to move slowly and quietly so nobody notices"
+      },
+      {
+        "term": "restless",
+        "translation": "inquieto/a",
+        "definition": "unable to stay calm or relax"
+      },
+      {
+        "term": "cobblestone",
+        "translation": "adoquín",
+        "definition": "a round stone used to make old streets"
+      },
+      {
+        "term": "halo",
+        "translation": "halo, aureola",
+        "definition": "a circle of light around something"
+      },
+      {
+        "term": "collar",
+        "translation": "cuello (de la ropa)",
+        "definition": "the part of a coat or shirt around your neck"
+      },
+      {
+        "term": "damp",
+        "translation": "humedad; húmedo/a",
+        "definition": "slightly wet, often in an unpleasant way"
+      }
+    ]
+  }
+}

@@ -8,6 +8,7 @@
   "youtube_id": "dvgZkm1xWPE",
   "milestone": "checkpoint",
   "content": {
+    "channel": "Coldplay",
     "artist": "Coldplay",
     "start": 12,
     "end": 69.7,
@@ -115,6 +116,35 @@
         "term": "sand",
         "translation": "arena",
         "definition": "what you find on the beach"
+      }
+    ],
+    "questions": [
+      {
+        "question": "What was the singer's life like before?",
+        "options": [
+          "He ruled the world.",
+          "He was very poor.",
+          "He was a sailor."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What does he do now in the morning?",
+        "options": [
+          "He sleeps alone and sweeps the streets.",
+          "He gives orders to the crowd.",
+          "He visits his castle."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What were his castles standing on?",
+        "options": [
+          "Pillars of salt and sand.",
+          "Strong rock.",
+          "Gold and silver."
+        ],
+        "answer": 0
       }
     ]
   }

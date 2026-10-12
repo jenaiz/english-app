@@ -9,6 +9,7 @@
   "milestone": "unit",
   "after_unit": "past_memories",
   "content": {
+    "channel": "Ed Sheeran",
     "artist": "Ed Sheeran",
     "start": 52,
     "end": 93.3,
@@ -139,6 +140,26 @@
         "term": "ripped",
         "translation": "roto/a, rasgado/a",
         "definition": "with a hole or a long cut in it"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Where do they keep their love?",
+        "options": [
+          "In a photograph.",
+          "In a letter.",
+          "In a box."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where can the other person keep the singer?",
+        "options": [
+          "In the pocket of their ripped jeans.",
+          "In their wallet.",
+          "Under their pillow."
+        ],
+        "answer": 0
       }
     ]
   }

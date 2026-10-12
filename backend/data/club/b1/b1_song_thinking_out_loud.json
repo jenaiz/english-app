@@ -1,0 +1,163 @@
+{
+  "id": "b1_song_thinking_out_loud",
+  "type": "song",
+  "level": "B1",
+  "title": "Thinking Out Loud",
+  "subtitle": "Ed Sheeran",
+  "minutes": 5,
+  "youtube_id": "lp-EO5I60KA",
+  "milestone": "checkpoint",
+  "content": {
+    "artist": "Ed Sheeran",
+    "channel": "Ed Sheeran",
+    "start": 6,
+    "end": 79.3,
+    "lines": [
+      {
+        "t": 8.9,
+        "text": "When your legs don't work like they ___ to before",
+        "answers": [
+          [
+            "used"
+          ]
+        ]
+      },
+      {
+        "t": 15.1,
+        "text": "And I can't sweep you off of your feet"
+      },
+      {
+        "t": 21.1,
+        "text": "Will your mouth still ___ the taste of my love?",
+        "answers": [
+          [
+            "remember"
+          ]
+        ]
+      },
+      {
+        "t": 27.2,
+        "text": "Will your eyes still ___ from your cheeks?",
+        "answers": [
+          [
+            "smile"
+          ]
+        ]
+      },
+      {
+        "t": 31.4,
+        "text": "Darling, I will be ___ you",
+        "answers": [
+          [
+            "loving",
+            "lovin'"
+          ]
+        ]
+      },
+      {
+        "t": 36.3,
+        "text": "Till we're ___",
+        "answers": [
+          [
+            "seventy",
+            "70"
+          ]
+        ]
+      },
+      {
+        "t": 43.3,
+        "text": "And, baby, my heart"
+      },
+      {
+        "t": 46.4,
+        "text": "Could still ___ as hard at twenty-three",
+        "answers": [
+          [
+            "fall"
+          ]
+        ]
+      },
+      {
+        "t": 53.6,
+        "text": "And I'm thinking about how"
+      },
+      {
+        "t": 56.6,
+        "text": "People fall in love in ___ ways",
+        "answers": [
+          [
+            "mysterious"
+          ]
+        ]
+      },
+      {
+        "t": 62.5,
+        "text": "Maybe just the touch of a hand"
+      },
+      {
+        "t": 68.4,
+        "text": "Well, me, I fall in love with you every ___ day",
+        "answers": [
+          [
+            "single"
+          ]
+        ]
+      },
+      {
+        "t": 74.7,
+        "text": "And I just wanna tell you I am"
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the song about?",
+        "options": [
+          "Loving someone until you are both old.",
+          "A first date.",
+          "The end of a relationship."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "\"When your legs don't work like they used to before\" talks about…",
+        "options": [
+          "getting old.",
+          "a sports injury.",
+          "being tired after work."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How often does he fall in love with her?",
+        "options": [
+          "Every single day.",
+          "Once a year.",
+          "Only when they dance."
+        ],
+        "answer": 0
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "sweep someone off their feet",
+        "translation": "enamorar perdidamente",
+        "definition": "to make someone fall in love with you very quickly"
+      },
+      {
+        "term": "cheek",
+        "translation": "mejilla",
+        "definition": "the soft part of your face under your eyes"
+      },
+      {
+        "term": "fall in love",
+        "translation": "enamorarse",
+        "definition": "to start to love someone romantically"
+      },
+      {
+        "term": "think out loud",
+        "translation": "pensar en voz alta",
+        "definition": "to say your thoughts while you are thinking them"
+      }
+    ]
+  }
+}

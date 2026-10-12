@@ -8,6 +8,7 @@
   "youtube_id": "hLQl3WQQoQ0",
   "milestone": "unit",
   "content": {
+    "channel": "Adele",
     "artist": "Adele",
     "start": 12,
     "end": 74.3,
@@ -144,6 +145,35 @@
     ],
     "expressions": [
       "idiom:time-flies"
+    ],
+    "questions": [
+      {
+        "question": "What news did the singer hear about her old love?",
+        "options": [
+          "He is married now.",
+          "He moved to another country.",
+          "He is looking for her."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Did anybody invite her?",
+        "options": [
+          "No, she came uninvited.",
+          "Yes, his wife did.",
+          "Yes, he did."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How does she feel about the end of the relationship?",
+        "options": [
+          "For her, it isn't over.",
+          "She is happy it's over.",
+          "She has forgotten him."
+        ],
+        "answer": 0
+      }
     ]
   }
 }

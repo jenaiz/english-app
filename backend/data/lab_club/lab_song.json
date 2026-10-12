@@ -8,6 +8,7 @@
   "youtube_id": "dQw4w9WgXcQ",
   "milestone": "unit",
   "content": {
+    "channel": "Rick Astley",
     "artist": "Rick Astley",
     "start": 40,
     "end": 60.8,
@@ -83,6 +84,17 @@
         "term": "gonna",
         "translation": "voy a (informal)",
         "definition": "informal spoken form of 'going to'"
+      }
+    ],
+    "questions": [
+      {
+        "question": "What does the singer promise?",
+        "options": [
+          "He will never give you up.",
+          "He will call you every day.",
+          "He will move away."
+        ],
+        "answer": 0
       }
     ]
   }

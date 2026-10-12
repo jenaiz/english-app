@@ -8,6 +8,7 @@
   "youtube_id": "HNBCVM4KbUM",
   "milestone": "unit",
   "content": {
+    "channel": "Bob Marley",
     "artist": "Bob Marley & The Wailers",
     "start": 36,
     "end": 78.4,
@@ -131,6 +132,35 @@
     ],
     "expressions": [
       "phrasal:get-up"
+    ],
+    "questions": [
+      {
+        "question": "What does the song say about every little thing?",
+        "options": [
+          "It's gonna be all right.",
+          "It's going to go wrong.",
+          "It isn't important."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where are the three little birds?",
+        "options": [
+          "By the singer's doorstep.",
+          "In the sky.",
+          "In a tree in the park."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What do the birds do?",
+        "options": [
+          "They sing sweet songs.",
+          "They fly away.",
+          "They sleep in the sun."
+        ],
+        "answer": 0
+      }
     ]
   }
 }

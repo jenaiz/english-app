@@ -1,0 +1,156 @@
+{
+  "id": "c1_song_bohemian_rhapsody",
+  "type": "song",
+  "level": "C1",
+  "title": "Bohemian Rhapsody",
+  "subtitle": "Queen",
+  "minutes": 6,
+  "youtube_id": "fJ9rUzIMcZQ",
+  "milestone": "checkpoint",
+  "content": {
+    "artist": "Queen",
+    "channel": "Queen Official",
+    "start": 0,
+    "end": 52,
+    "lines": [
+      {
+        "t": 2,
+        "text": "Is this the ___ life?",
+        "answers": [
+          [
+            "real"
+          ]
+        ]
+      },
+      {
+        "t": 5.7,
+        "text": "Is this just ___?",
+        "answers": [
+          [
+            "fantasy"
+          ]
+        ]
+      },
+      {
+        "t": 9.3,
+        "text": "Caught in a ___",
+        "answers": [
+          [
+            "landslide"
+          ]
+        ]
+      },
+      {
+        "t": 12,
+        "text": "No ___ from reality",
+        "answers": [
+          [
+            "escape"
+          ]
+        ]
+      },
+      {
+        "t": 16.6,
+        "text": "Open your eyes"
+      },
+      {
+        "t": 19.4,
+        "text": "Look up to the skies and see"
+      },
+      {
+        "t": 27,
+        "text": "I'm just a poor boy"
+      },
+      {
+        "t": 30.5,
+        "text": "I need no ___",
+        "answers": [
+          [
+            "sympathy"
+          ]
+        ]
+      },
+      {
+        "t": 33,
+        "text": "Because I'm easy come, easy go"
+      },
+      {
+        "t": 36.9,
+        "text": "Little high, little low"
+      },
+      {
+        "t": 40.3,
+        "text": "Any way the wind ___",
+        "answers": [
+          [
+            "blows"
+          ]
+        ]
+      },
+      {
+        "t": 43.8,
+        "text": "Doesn't really ___ to me",
+        "answers": [
+          [
+            "matter"
+          ]
+        ]
+      },
+      {
+        "t": 49.8,
+        "text": "To me"
+      }
+    ],
+    "questions": [
+      {
+        "question": "At the start, the singer isn't sure if…",
+        "options": [
+          "his life is real or a fantasy.",
+          "he is at home.",
+          "he can still sing."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "\"Easy come, easy go\" describes someone who…",
+        "options": [
+          "doesn't worry much about what happens.",
+          "works very hard.",
+          "is always angry."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "\"Any way the wind blows\" suggests that he…",
+        "options": [
+          "accepts whatever happens.",
+          "loves bad weather.",
+          "wants to travel."
+        ],
+        "answer": 0
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "landslide",
+        "translation": "desprendimiento de tierra",
+        "definition": "when a lot of earth and rocks fall down a hill"
+      },
+      {
+        "term": "sympathy",
+        "translation": "compasión",
+        "definition": "the feeling of being sorry for someone who has problems"
+      },
+      {
+        "term": "easy come, easy go",
+        "translation": "lo que fácil viene, fácil se va",
+        "definition": "said when you don't worry about losing something"
+      },
+      {
+        "term": "fantasy",
+        "translation": "fantasía",
+        "definition": "something you imagine that is not real"
+      }
+    ]
+  }
+}

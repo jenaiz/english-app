@@ -1,0 +1,139 @@
+{
+  "id": "b1_song_let_her_go",
+  "type": "song",
+  "level": "B1",
+  "title": "Let Her Go",
+  "subtitle": "Passenger",
+  "minutes": 5,
+  "youtube_id": "RBumgq5yVrA",
+  "milestone": "unit",
+  "content": {
+    "artist": "Passenger",
+    "channel": "Passenger",
+    "start": 23,
+    "end": 89.8,
+    "lines": [
+      {
+        "t": 26.2,
+        "text": "Well, you only need the light when it's burning ___ / Only miss the sun when it starts to ___",
+        "answers": [
+          [
+            "low"
+          ],
+          [
+            "snow"
+          ]
+        ]
+      },
+      {
+        "t": 33.2,
+        "text": "Only know you love her when you let her ___",
+        "answers": [
+          [
+            "go"
+          ]
+        ]
+      },
+      {
+        "t": 39.2,
+        "text": "Only know you've been ___ when you're feeling low",
+        "answers": [
+          [
+            "high"
+          ]
+        ]
+      },
+      {
+        "t": 42.9,
+        "text": "Only hate the ___ when you're missing home / Only know you love her when you let her go",
+        "answers": [
+          [
+            "road"
+          ]
+        ]
+      },
+      {
+        "t": 52.1,
+        "text": "And you let her go"
+      },
+      {
+        "t": 65.8,
+        "text": "Staring at the bottom of your ___ / Hoping one day you'll make a dream last",
+        "answers": [
+          [
+            "glass"
+          ]
+        ]
+      },
+      {
+        "t": 71.1,
+        "text": "But dreams come ___ and they go so fast / You see her when you close your eyes",
+        "answers": [
+          [
+            "slow"
+          ]
+        ]
+      },
+      {
+        "t": 81.4,
+        "text": "Maybe one day you'll ___ why / Everything you touch surely dies",
+        "answers": [
+          [
+            "understand"
+          ]
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "question": "When do you only need the light, according to the song?",
+        "options": [
+          "When it's burning low.",
+          "Early in the morning.",
+          "When you're happy."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When do you realise that you love her?",
+        "options": [
+          "When you let her go.",
+          "When you meet her.",
+          "When you see her every day."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What happens to dreams?",
+        "options": [
+          "They come slowly and go fast.",
+          "They never come true.",
+          "They come fast and stay."
+        ],
+        "answer": 0
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "let someone go",
+        "translation": "dejar marchar a alguien",
+        "definition": "to allow a person to leave, or to stop holding them"
+      },
+      {
+        "term": "burn low",
+        "translation": "apagarse poco a poco",
+        "definition": "(of a light or fire) to become weak, almost finished"
+      },
+      {
+        "term": "stare",
+        "translation": "mirar fijamente",
+        "definition": "to look at something for a long time without moving your eyes"
+      },
+      {
+        "term": "surely",
+        "translation": "seguramente, sin duda",
+        "definition": "certainly, without any doubt"
+      }
+    ]
+  }
+}

@@ -219,14 +219,19 @@ func checkTimes(lines []timedLine) error {
 
 func validateSong(raw json.RawMessage) error {
 	var c struct {
-		Lines []struct {
+		Channel string `json:"channel"`
+		Lines   []struct {
 			timedLine
 			Answers [][]string `json:"answers"`
 		} `json:"lines"`
-		End *float64 `json:"end"`
+		End       *float64     `json:"end"`
+		Questions []choiceItem `json:"questions"`
 	}
 	if err := json.Unmarshal(raw, &c); err != nil {
 		return err
+	}
+	if c.Channel == "" {
+		return fmt.Errorf("needs channel: the official YouTube channel (artist or label) the video comes from")
 	}
 	if len(c.Lines) < 2 || len(c.Lines) > maxSongLines {
 		return fmt.Errorf("needs 2 to %d lines (a fragment, not the whole lyrics)", maxSongLines)
@@ -252,7 +257,8 @@ func validateSong(raw json.RawMessage) error {
 	if blanks == 0 {
 		return fmt.Errorf("needs at least one %s blank", blankMarker)
 	}
-	return nil
+	// Optional questions about the lyrics, asked once the blanks are checked.
+	return checkQuestions(c.Questions, 0)
 }
 
 func validateReading(raw json.RawMessage, level string) error {
@@ -280,30 +286,32 @@ func validateReading(raw json.RawMessage, level string) error {
 	return checkQuestions(c.Questions, 3)
 }
 
+// validateVideo checks a talk or video. It has no transcript: talks (TED's included) don't
+// allow publishing theirs, so the activity is the video plus our own questions, asked at
+// pauses along the way (checkpoints) and/or at the end.
 func validateVideo(raw json.RawMessage) error {
 	var c struct {
-		License     string      `json:"license"`
-		SourceURL   string      `json:"source_url"`
-		Transcript  []timedLine `json:"transcript"`
+		Channel     string          `json:"channel"`
+		License     string          `json:"license"`
+		SourceURL   string          `json:"source_url"`
+		Transcript  json.RawMessage `json:"transcript"`
 		Checkpoints []struct {
 			T         *float64     `json:"t"`
 			Questions []choiceItem `json:"questions"`
 		} `json:"checkpoints"`
+		Questions []choiceItem `json:"questions"`
 	}
 	if err := json.Unmarshal(raw, &c); err != nil {
 		return err
 	}
-	if c.License == "" || c.SourceURL == "" {
-		return fmt.Errorf("needs license and source_url (attribution)")
+	if c.Channel == "" || c.License == "" || c.SourceURL == "" {
+		return fmt.Errorf("needs channel, license and source_url (attribution)")
 	}
-	if len(c.Transcript) == 0 {
-		return fmt.Errorf("needs a transcript")
+	if c.Transcript != nil {
+		return fmt.Errorf("must not include a transcript: talk transcripts can't be published")
 	}
-	if err := checkTimes(c.Transcript); err != nil {
-		return fmt.Errorf("transcript %w", err)
-	}
-	if len(c.Checkpoints) == 0 {
-		return fmt.Errorf("needs at least one checkpoint")
+	if len(c.Checkpoints) == 0 && len(c.Questions) == 0 {
+		return fmt.Errorf("needs checkpoints or final questions")
 	}
 	last := -1.0
 	for i, cp := range c.Checkpoints {
@@ -314,6 +322,9 @@ func validateVideo(raw json.RawMessage) error {
 		if err := checkQuestions(cp.Questions, 1); err != nil {
 			return fmt.Errorf("checkpoint %d: %w", i+1, err)
 		}
+	}
+	if err := checkQuestions(c.Questions, 0); err != nil {
+		return fmt.Errorf("final %w", err)
 	}
 	return nil
 }

@@ -27,6 +27,7 @@ declare global {
   }
 }
 
+const ENDED = 0
 const PLAYING = 1
 
 let apiPromise: Promise<YTNamespace> | null = null
@@ -74,6 +75,7 @@ export function useYouTubePlayer({ videoId, start, onTime }: Options) {
   const [requested, setRequested] = useState(false)
   const [ready, setReady] = useState(false)
   const [playing, setPlaying] = useState(false)
+  const [ended, setEnded] = useState(false)
   const [error, setError] = useState('')
 
   useEffect(() => {
@@ -95,7 +97,10 @@ export function useYouTubePlayer({ videoId, start, onTime }: Options) {
               setReady(true)
               playerRef.current?.playVideo()
             },
-            onStateChange: (e) => setPlaying(e.data === PLAYING),
+            onStateChange: (e) => {
+              setPlaying(e.data === PLAYING)
+              if (e.data === ENDED) setEnded(true)
+            },
             onError: (e) => setError(playerError(e.data)),
           },
         })
@@ -132,7 +137,7 @@ export function useYouTubePlayer({ videoId, start, onTime }: Options) {
   const setRate = useCallback((r: number) => playerRef.current?.setPlaybackRate(r), [])
   const time = useCallback(() => playerRef.current?.getCurrentTime() ?? 0, [])
 
-  return { mountRef, load: () => setRequested(true), requested, ready, playing, error, play, pause, seek, setRate, time }
+  return { mountRef, load: () => setRequested(true), requested, ready, playing, ended, error, play, pause, seek, setRate, time }
 }
 
 /** What a YouTube player error code means for the learner. */
