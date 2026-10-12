@@ -17,7 +17,7 @@ export default function Login() {
 
   return (
     <AuthForm
-      title="Bienvenido de nuevo"
+      title="Hola de nuevo"
       subtitle="Inicia sesión para continuar donde lo dejaste."
       submitLabel="Iniciar sesión"
       fields={[

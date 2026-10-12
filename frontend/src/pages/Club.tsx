@@ -76,12 +76,12 @@ export default function Club() {
             <Gift className="h-9 w-9 text-amber-500" /> Club
           </h1>
           <p className="mt-2 text-slate-600">
-            Canciones, lecturas, vídeos y juegos como los de una academia. Cada unidad que terminas abre una sorpresa nueva.
+            Canciones, vídeos, lecturas y juegos reales para practicar lo que acabas de aprender. Cada unidad que terminas abre una sorpresa nueva.
           </p>
         </div>
         <div className="w-full max-w-xs">
           <div className="flex items-baseline justify-between text-sm">
-            <span className="font-semibold text-slate-700">Tu colección</span>
+            <span className="font-semibold text-slate-700">Tu álbum</span>
             <span className="text-slate-500 tabular-nums">
               {totalOpen} / {cards.length}
             </span>
@@ -126,9 +126,9 @@ export default function Club() {
             {totalOpen === 0 ? 'Tu primera sorpresa te espera' : `Aún no tienes ${info?.plural ?? 'actividades'}`}
           </p>
           <p className="mx-auto mt-1 max-w-md text-amber-900/80">
-            Termina una unidad del curso y se abrirá una actividad del Club. Cuantas más unidades hagas, más completa estará tu colección.
+            Termina una unidad del curso y se abrirá una actividad del Club. Cuantas más unidades hagas, más completo estará tu álbum.
           </p>
-          <Link to="/levels" className="mt-5 inline-block rounded-xl bg-amber-500 px-5 py-2.5 font-semibold text-white shadow-sm transition hover:bg-amber-600">
+          <Link to="/levels" className="mt-5 inline-block rounded-xl bg-indigo-600 px-5 py-2.5 font-semibold text-white shadow-sm transition hover:bg-indigo-700">
             Seguir con el curso
           </Link>
         </div>

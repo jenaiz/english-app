@@ -77,7 +77,7 @@ export default function Navbar() {
               >
                 <Brain className="h-4 w-4" /> <span className="hidden sm:inline">Repaso</span>
                 {!!srs?.due && (
-                  <span className="grid h-5 min-w-5 place-items-center rounded-full bg-red-500 px-1.5 text-xs font-bold text-white">
+                  <span className="grid h-5 min-w-5 place-items-center rounded-full bg-indigo-600 px-1.5 text-xs font-bold text-white">
                     {srs.due}
                   </span>
                 )}

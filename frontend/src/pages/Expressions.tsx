@@ -251,7 +251,7 @@ export default function Expressions() {
                 Solo esenciales
               </label>
             )}
-            <span className="text-slate-400 tabular-nums">
+            <span className="font-medium text-slate-500 tabular-nums">
               {count} {tab === 'idioms' ? 'idioms' : tab === 'phrasal' ? 'phrasal verbs' : tab === 'verbs' ? 'verbos' : 'hacks'}
             </span>
           </div>

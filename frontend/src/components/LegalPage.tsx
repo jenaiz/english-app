@@ -37,7 +37,7 @@ export default function LegalPage({ title, intro, sections, hideUpdated }: Props
   return (
     <article className="mx-auto max-w-3xl px-4 py-12 pb-28">
       <h1 className="font-display text-3xl font-bold text-slate-900 sm:text-4xl">{title}</h1>
-      {!hideUpdated && <p className="mt-2 text-sm text-slate-400">Última actualización: {SITE.legalUpdated}</p>}
+      {!hideUpdated && <p className="mt-2 text-sm text-slate-500">Última actualización: {SITE.legalUpdated}</p>}
       {intro && <div className="legal-body mt-6">{intro}</div>}
 
       {sections.length > 2 && (

@@ -161,24 +161,25 @@ export default function Levels() {
       {/* Units of the selected level */}
       {current && (
         <section className="mt-8">
-          <div className={`flex flex-wrap items-center justify-between gap-3 rounded-2xl px-5 py-4 ${colorOf(current.level_id).soft}`}>
-            <div>
+          {/* Two fixed rows (title + description, then progress + action) so nothing wraps loose whatever the description's length. */}
+          <div className={`rounded-2xl px-5 py-4 ${colorOf(current.level_id).soft}`}>
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
               <h3 className={`font-display text-xl font-bold ${colorOf(current.level_id).text}`}>{current.title}</h3>
-              <p className="text-sm text-slate-600">{current.description}</p>
+              {exams.find((e) => e.level_id === current.level_id)?.status.passed && (
+                <span className="inline-flex items-center gap-1 rounded-full bg-white px-2.5 py-1 text-xs font-bold text-emerald-700 shadow-sm">
+                  <Award className="h-3.5 w-3.5" /> Examen aprobado
+                </span>
+              )}
             </div>
-            <div className="flex items-center gap-4">
+            <p className="mt-1 text-sm text-slate-600">{current.description}</p>
+            <div className="mt-4 flex flex-wrap items-center justify-between gap-x-6 gap-y-3">
+              <LevelProgress {...levelStats(current)} levelId={current.level_id} />
               <Link
                 to={`/levels/${current.level_id}/study`}
-                className="inline-flex items-center gap-1.5 rounded-lg bg-white px-3 py-1.5 text-sm font-medium text-slate-700 shadow-sm hover:text-indigo-700"
+                className="inline-flex shrink-0 items-center gap-1.5 rounded-lg bg-white px-3 py-1.5 text-sm font-medium text-slate-700 shadow-sm transition hover:text-indigo-700"
               >
                 <Lightbulb className="h-4 w-4 text-amber-500" /> Estudiar el nivel
               </Link>
-              {exams.find((e) => e.level_id === current.level_id)?.status.passed && (
-                <span className="inline-flex items-center gap-1 rounded-full bg-white px-2.5 py-1 text-xs font-bold text-emerald-700 shadow-sm">
-                  <Award className="h-3.5 w-3.5" /> Nivel aprobado
-                </span>
-              )}
-              <LevelProgress {...levelStats(current)} levelId={current.level_id} />
             </div>
           </div>
 
@@ -199,7 +200,7 @@ export default function Levels() {
                     </div>
                     <div className="flex items-center gap-4 text-sm">
                       {hasTest && (
-                        <span className="rounded-full bg-amber-50 px-2 py-0.5 text-xs font-semibold text-amber-700">Incluye checkpoint</span>
+                        <span className="rounded-full bg-amber-50 px-2 py-0.5 text-xs font-semibold text-amber-700">Incluye test</span>
                       )}
                       <span className="text-slate-500 tabular-nums">
                         {done}/{theme.units.length} unidades
@@ -446,11 +447,21 @@ function LevelRoute({
 function LevelProgress({ done, total, levelId }: { done: number; total: number; levelId: string }) {
   const pct = total ? Math.round((done / total) * 100) : 0
   return (
-    <div className="flex items-center gap-3">
-      <div className="h-2 w-32 overflow-hidden rounded-full bg-white">
+    <div className="flex min-w-56 flex-1 items-center gap-3 sm:max-w-md">
+      <span className="shrink-0 text-sm text-slate-600 tabular-nums">
+        <span className="font-semibold text-slate-800">{done}</span>/{total} unidades
+      </span>
+      <div
+        className="h-2 flex-1 overflow-hidden rounded-full bg-white ring-1 ring-slate-900/5"
+        role="progressbar"
+        aria-valuenow={pct}
+        aria-valuemin={0}
+        aria-valuemax={100}
+        aria-label="Progreso del nivel"
+      >
         <div className={`h-full rounded-full ${colorOf(levelId).solid}`} style={{ width: `${pct}%` }} />
       </div>
-      <span className="text-sm font-semibold text-slate-700 tabular-nums">{pct}%</span>
+      <span className="w-10 shrink-0 text-right text-sm font-semibold text-slate-700 tabular-nums">{pct}%</span>
     </div>
   )
 }

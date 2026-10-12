@@ -23,14 +23,14 @@ type Outcome = 'correct' | 'wrong' | 'unknown'
 
 const MODES: { id: ModePref; label: string }[] = [
   { id: 'mixed', label: 'Mixto' },
-  { id: 'listen', label: 'Escuchar → ES' },
-  { id: 'produce', label: 'ES → Inglés' },
+  { id: 'listen', label: 'Escuchar → español' },
+  { id: 'produce', label: 'Español → inglés' },
 ]
 
 const PASS_GRADES: { grade: Grade; label: string; cls: string; key: string }[] = [
-  { grade: 'hard', label: 'Difícil', cls: 'bg-amber-500 hover:bg-amber-600', key: '1' },
-  { grade: 'good', label: 'Bien', cls: 'bg-emerald-500 hover:bg-emerald-600', key: '2' },
-  { grade: 'easy', label: 'Fácil', cls: 'bg-sky-500 hover:bg-sky-600', key: '3' },
+  { grade: 'hard', label: 'Difícil', cls: 'bg-amber-700 hover:bg-amber-800', key: '1' },
+  { grade: 'good', label: 'Bien', cls: 'bg-emerald-700 hover:bg-emerald-800', key: '2' },
+  { grade: 'easy', label: 'Fácil', cls: 'bg-sky-700 hover:bg-sky-800', key: '3' },
 ]
 
 // Speech recognition is imperfect: accept when most of the words match.
@@ -464,7 +464,7 @@ function ReviewSession({ deck, packId, onExit }: { deck: Deck; packId?: string; 
               <button
                 disabled={busy}
                 onClick={() => grade('again')}
-                className="w-full rounded-xl bg-red-500 py-3 font-semibold text-white transition hover:bg-red-600 disabled:opacity-50"
+                className="w-full rounded-xl bg-slate-700 py-3 font-semibold text-white transition hover:bg-slate-800 disabled:opacity-50"
               >
                 Continuar · volverá en {formatInterval(card.preview.again)}
               </button>
@@ -473,7 +473,7 @@ function ReviewSession({ deck, packId, onExit }: { deck: Deck; packId?: string; 
         )}
       </div>
 
-      <p className="mt-4 text-center text-xs text-slate-400">
+      <p className="mt-4 hidden text-center text-xs text-slate-500 [@media(pointer:fine)]:block">
         {answered
           ? outcome === 'correct'
             ? 'Atajos: 1 difícil · 2 bien · 3 fácil · Enter = bien'

@@ -68,7 +68,7 @@ export default function Footer() {
         </nav>
       </div>
       <div className="border-t border-slate-100">
-        <p className="mx-auto max-w-6xl px-4 py-5 text-xs text-slate-400">
+        <p className="mx-auto max-w-6xl px-4 py-5 text-xs text-slate-500">
           © {new Date().getFullYear()} {SITE.owner} · {SITE.name}
         </p>
       </div>

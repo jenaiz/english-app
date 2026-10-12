@@ -473,8 +473,8 @@ export default function UnitView() {
         <button
           onClick={next}
           disabled={saving || !canAdvance}
-          title={canAdvance ? undefined : 'Completa el ejercicio para continuar'}
-          className={`inline-flex items-center gap-2 rounded-lg px-5 py-2.5 font-semibold text-white shadow-sm transition disabled:opacity-40 ${
+          aria-describedby={canAdvance ? undefined : 'advance-hint'}
+          className={`inline-flex items-center gap-2 rounded-lg px-5 py-2.5 font-semibold text-white shadow-sm transition disabled:cursor-not-allowed disabled:opacity-40 ${
             current.isLastInLesson ? 'bg-emerald-600 hover:bg-emerald-700' : 'bg-indigo-600 hover:bg-indigo-700'
           }`}
         >
@@ -490,6 +490,12 @@ export default function UnitView() {
           )}
         </button>
       </div>
+      {/* Visible on touch screens too, where a title tooltip never shows. */}
+      {!canAdvance && (
+        <p id="advance-hint" className="mt-2 text-right text-sm text-slate-500">
+          Termina el ejercicio para seguir
+        </p>
+      )}
     </div>
   )
 }

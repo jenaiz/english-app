@@ -72,7 +72,7 @@ export default function ExerciseShell({
       </fieldset>
 
       {hint && !answered && (
-        <p className="mt-3 flex items-center gap-1.5 text-sm text-slate-400">
+        <p className="mt-3 flex items-center gap-1.5 text-sm text-slate-500">
           <Lightbulb className="h-4 w-4" /> {hint}
         </p>
       )}

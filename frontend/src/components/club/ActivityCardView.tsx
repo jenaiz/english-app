@@ -32,7 +32,7 @@ export default function ActivityCardView({ card }: { card: ActivityCard }) {
         <span className="grid h-12 w-12 place-items-center rounded-full bg-white text-slate-400 shadow-sm">
           <Lock className="h-5 w-5" />
         </span>
-        <span className="flex items-center gap-1.5 text-xs font-semibold tracking-wide text-slate-400 uppercase">
+        <span className="flex items-center gap-1.5 text-xs font-semibold tracking-wide text-slate-500 uppercase">
           <room.Icon className="h-3.5 w-3.5" /> {room.label} · {card.level}
         </span>
         <span className="text-sm text-slate-500">{card.hint}</span>
