@@ -294,6 +294,8 @@ func validateVideo(raw json.RawMessage) error {
 		Channel     string          `json:"channel"`
 		License     string          `json:"license"`
 		SourceURL   string          `json:"source_url"`
+		Start       float64         `json:"start"`
+		End         *float64        `json:"end"`
 		Transcript  json.RawMessage `json:"transcript"`
 		Checkpoints []struct {
 			T         *float64     `json:"t"`
@@ -313,12 +315,19 @@ func validateVideo(raw json.RawMessage) error {
 	if len(c.Checkpoints) == 0 && len(c.Questions) == 0 {
 		return fmt.Errorf("needs checkpoints or final questions")
 	}
-	last := -1.0
+	// start/end pick a segment of a long lecture.
+	if c.End != nil && *c.End <= c.Start {
+		return fmt.Errorf("end must come after start")
+	}
+	last := c.Start
 	for i, cp := range c.Checkpoints {
 		if cp.T == nil || *cp.T <= last {
 			return fmt.Errorf("checkpoint %d: t must be increasing", i+1)
 		}
 		last = *cp.T
+		if c.End != nil && *cp.T >= *c.End {
+			return fmt.Errorf("checkpoint %d is after the end of the segment", i+1)
+		}
 		if err := checkQuestions(cp.Questions, 1); err != nil {
 			return fmt.Errorf("checkpoint %d: %w", i+1, err)
 		}

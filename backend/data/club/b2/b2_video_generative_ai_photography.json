@@ -1,0 +1,116 @@
+{
+  "id": "b2_video_generative_ai_photography",
+  "type": "video",
+  "level": "B2",
+  "title": "Generative AI and Science Photography",
+  "subtitle": "Felice Frankel · MIT OpenCourseWare",
+  "minutes": 11,
+  "youtube_id": "0I8S6diyDjw",
+  "milestone": "checkpoint",
+  "content": {
+    "speaker": "Felice Frankel",
+    "channel": "MIT OpenCourseWare",
+    "license": "CC BY-NC-SA",
+    "source_url": "http://ocw.mit.edu/RES-10-001S16",
+    "checkpoints": [
+      {
+        "t": 265,
+        "questions": [
+          {
+            "question": "How does Felice Frankel describe a photograph?",
+            "options": [
+              "A representation of reality, not the thing itself.",
+              "An exact copy of reality.",
+              "A work of fiction."
+            ],
+            "answer": 0
+          },
+          {
+            "question": "Are colour-enhanced Hubble images dishonest?",
+            "options": [
+              "No: the enhancement can add information.",
+              "Yes, always.",
+              "Only the oldest ones."
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "t": 500,
+        "questions": [
+          {
+            "question": "What was wrong with the first AI image of the nanocrystals?",
+            "options": [
+              "It mixed colours and added dots that weren't real.",
+              "It was in black and white.",
+              "It showed the wrong scientist."
+            ],
+            "answer": 0
+          },
+          {
+            "question": "What happened when she used the same prompt six months later?",
+            "options": [
+              "The image was much closer to her real photo.",
+              "The image was worse.",
+              "The AI refused to answer."
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "question": "Should an AI-generated image be considered scientific documentation?",
+        "options": [
+          "No, because it doesn't record a real thing.",
+          "Yes, if it looks realistic.",
+          "Only in astronomy."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Which of these does she NOT ask researchers to report?",
+        "options": [
+          "How much the AI tool cost.",
+          "The AI model and version they used.",
+          "The prompts they used."
+        ],
+        "answer": 0
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "misinformation",
+        "translation": "desinformación",
+        "definition": "false information that spreads, often by accident"
+      },
+      {
+        "term": "crop",
+        "translation": "recortar (una imagen)",
+        "definition": "to cut off the edges of a picture"
+      },
+      {
+        "term": "prompt",
+        "translation": "instrucción (para una IA)",
+        "definition": "the text you write to ask an AI to create something"
+      },
+      {
+        "term": "enhance",
+        "translation": "realzar, mejorar",
+        "definition": "to make something better or clearer"
+      },
+      {
+        "term": "AI slop",
+        "translation": "contenido basura hecho con IA",
+        "definition": "low-quality images or texts made with AI in large amounts"
+      },
+      {
+        "term": "legitimacy",
+        "translation": "legitimidad",
+        "definition": "the quality of being acceptable, fair or allowed"
+      }
+    ]
+  }
+}

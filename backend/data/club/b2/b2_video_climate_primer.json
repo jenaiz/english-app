@@ -1,0 +1,102 @@
+{
+  "id": "b2_video_climate_primer",
+  "type": "video",
+  "level": "B2",
+  "title": "The MIT Climate Primer",
+  "subtitle": "Laur Hesse Fisher & Kerry Emanuel",
+  "minutes": 6,
+  "youtube_id": "kbyNYJgwGFA",
+  "milestone": "checkpoint",
+  "content": {
+    "speaker": "Laur Hesse Fisher & Kerry Emanuel",
+    "channel": "MIT OpenCourseWare",
+    "license": "CC BY-NC-SA",
+    "source_url": "https://climateprimer.mit.edu/",
+    "checkpoints": [
+      {
+        "t": 110,
+        "questions": [
+          {
+            "question": "Since when have scientists understood that a few gases keep the Earth warm?",
+            "options": [
+              "Since around the time of the American Civil War.",
+              "Since the 1990s.",
+              "Since 2024."
+            ],
+            "answer": 0
+          },
+          {
+            "question": "What is the online primer for?",
+            "options": [
+              "To explain how scientists know what they know about climate change.",
+              "To sell green products.",
+              "To train weather presenters."
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "question": "Why are ice cores from Greenland and Antarctica so useful?",
+        "options": [
+          "They trap tiny bubbles of ancient air.",
+          "They show the colour of the old oceans.",
+          "They are easy to melt and drink."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How much higher is CO₂ in the atmosphere than 150 years ago?",
+        "options": [
+          "About 50% higher.",
+          "About 5% higher.",
+          "It is the same."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How do scientists check that their temperature calculations are good?",
+        "options": [
+          "Independent groups reach the same conclusions.",
+          "They use a single, very good thermometer.",
+          "They ask the public."
+        ],
+        "answer": 0
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "global warming",
+        "translation": "calentamiento global",
+        "definition": "the rise in the Earth's average temperature"
+      },
+      {
+        "term": "fossil fuel",
+        "translation": "combustible fósil",
+        "definition": "fuel such as coal, oil or gas, formed from ancient plants and animals"
+      },
+      {
+        "term": "ice core",
+        "translation": "testigo de hielo",
+        "definition": "a long tube of ice taken from deep inside a glacier"
+      },
+      {
+        "term": "greenhouse effect",
+        "translation": "efecto invernadero",
+        "definition": "when gases in the air keep the heat of the sun close to the Earth"
+      },
+      {
+        "term": "renewable energy",
+        "translation": "energía renovable",
+        "definition": "energy from sources that don't run out, like the sun or the wind"
+      },
+      {
+        "term": "carbon capture",
+        "translation": "captura de carbono",
+        "definition": "taking CO₂ out of the air or out of factory smoke and storing it"
+      }
+    ]
+  }
+}

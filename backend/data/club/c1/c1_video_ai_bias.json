@@ -1,0 +1,102 @@
+{
+  "id": "c1_video_ai_bias",
+  "type": "video",
+  "level": "C1",
+  "title": "The Ethics of AI: Bias",
+  "subtitle": "Seminario dramatizado · MIT OpenCourseWare",
+  "minutes": 4,
+  "youtube_id": "lvaFISgua2o",
+  "milestone": "unit",
+  "content": {
+    "speaker": "Bernhardt Trout y Svetozar Minkov",
+    "channel": "MIT OpenCourseWare",
+    "license": "CC BY-NC-SA",
+    "source_url": "https://ocw.mit.edu/courses/res-10-002-ethics-of-bias-in-ai-spring-2023/",
+    "checkpoints": [
+      {
+        "t": 115,
+        "questions": [
+          {
+            "question": "What is the first student's claim about bias in algorithms?",
+            "options": [
+              "There is none: it's just math.",
+              "Algorithms are always unfair.",
+              "Only humans make mistakes."
+            ],
+            "answer": 0
+          },
+          {
+            "question": "Why do the others say \"it is not just math\"?",
+            "options": [
+              "People choose the training data and the algorithm.",
+              "Mathematics is often wrong.",
+              "Computers make random errors."
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "question": "Why don't researchers spend years removing bias, according to one student?",
+        "options": [
+          "The incentives push them to publish fast with 80–90% accuracy.",
+          "It's against the law.",
+          "Bias isn't a real problem."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What makes it so hard to equalise error rates across all groups?",
+        "options": [
+          "There isn't enough representative data for every group.",
+          "Computers are too slow.",
+          "Nobody has tried."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How does the discussion end?",
+        "options": [
+          "They're stuck at the same impasse as before.",
+          "They agree on a solution.",
+          "The professor gives them the answer."
+        ],
+        "answer": 0
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "bias",
+        "translation": "sesgo",
+        "definition": "an unfair tendency to favour or harm some people or results"
+      },
+      {
+        "term": "training set",
+        "translation": "conjunto de entrenamiento",
+        "definition": "the data used to teach a machine learning model"
+      },
+      {
+        "term": "randomness",
+        "translation": "aleatoriedad",
+        "definition": "the quality of happening by chance, without a pattern"
+      },
+      {
+        "term": "impasse",
+        "translation": "punto muerto",
+        "definition": "a situation where no progress is possible"
+      },
+      {
+        "term": "incentive",
+        "translation": "incentivo",
+        "definition": "something that makes people want to do something"
+      },
+      {
+        "term": "mitigate",
+        "translation": "mitigar, atenuar",
+        "definition": "to make something bad less serious"
+      }
+    ]
+  }
+}

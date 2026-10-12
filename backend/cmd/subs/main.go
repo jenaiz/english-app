@@ -41,11 +41,16 @@ func main() {
 	}
 	video := flag.Arg(0)
 	id := videoID(video)
-	channel, err := channelOf(video)
+	channel, license, err := sourceOf(video)
 	if err != nil {
 		log.Fatal(err)
 	}
-	log.Printf("channel: %s — use it only if it's the artist's or the label's official channel", channel)
+	log.Printf("channel: %s — use it only if it's the official channel (artist, label or institution)", channel)
+	if license == "" {
+		log.Printf("no license line in the description: don't use this talk unless its license allows it")
+	} else {
+		log.Printf("%s", license)
+	}
 
 	dir, err := os.MkdirTemp("", "subs")
 	if err != nil {
@@ -86,7 +91,7 @@ func main() {
 	if *song {
 		key = "lines"
 	}
-	out := map[string]any{"youtube_id": id, "channel": channel, "subtitles": source, key: cues}
+	out := map[string]any{"youtube_id": id, "channel": channel, "license": license, "subtitles": source, key: cues}
 	enc := json.NewEncoder(os.Stdout)
 	enc.SetIndent("", "  ")
 	enc.SetEscapeHTML(false)
@@ -95,13 +100,21 @@ func main() {
 	}
 }
 
-// channelOf returns the name of the channel that uploaded the video.
-func channelOf(video string) (string, error) {
-	out, err := exec.Command("yt-dlp", "--skip-download", "--print", "%(channel)s", video).Output()
+// sourceOf returns the channel that uploaded the video and the "License: …" line of its
+// description, if any (MIT OpenCourseWare, for one, states it there, but not on every video).
+func sourceOf(video string) (channel, license string, err error) {
+	out, err := exec.Command("yt-dlp", "--skip-download", "--print", "%(channel)s", "--print", "description", video).Output()
 	if err != nil {
-		return "", fmt.Errorf("yt-dlp: %w", err)
+		return "", "", fmt.Errorf("yt-dlp: %w", err)
 	}
-	return strings.TrimSpace(string(out)), nil
+	lines := strings.Split(string(out), "\n")
+	for _, l := range lines[1:] {
+		if strings.HasPrefix(strings.ToLower(strings.TrimSpace(l)), "license:") {
+			license = strings.TrimSpace(l)
+			break
+		}
+	}
+	return strings.TrimSpace(lines[0]), license, nil
 }
 
 // download fetches the subtitles with yt-dlp and returns the .vtt written, or "" if there was none.

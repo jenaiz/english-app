@@ -68,21 +68,24 @@ func parseVTT(s string) []Line {
 	return out
 }
 
-// dedupeRolling cleans YouTube's automatic subtitles, where each cue repeats the line before
-// it and adds a few words: it keeps only the new words of every cue.
+// dedupeRolling cleans YouTube's automatic subtitles, where each cue repeats words of the one
+// before it: it drops the longest run of words that ends the previous cue and starts this one.
 func dedupeRolling(cues []Line) []Line {
 	var out []Line
-	prev := ""
+	var prev []string
 	for _, c := range cues {
-		text := c.Text
-		if prev != "" && strings.HasPrefix(text, prev) {
-			text = strings.TrimSpace(strings.TrimPrefix(text, prev))
+		words := strings.Fields(c.Text)
+		for n := min(len(prev), len(words)); n > 0; n-- {
+			if strings.Join(prev[len(prev)-n:], " ") == strings.Join(words[:n], " ") {
+				words = words[n:]
+				break
+			}
 		}
-		prev = c.Text
-		if text == "" {
+		prev = strings.Fields(c.Text)
+		if len(words) == 0 {
 			continue
 		}
-		out = append(out, Line{T: c.T, Text: text})
+		out = append(out, Line{T: c.T, Text: strings.Join(words, " ")})
 	}
 	return out
 }

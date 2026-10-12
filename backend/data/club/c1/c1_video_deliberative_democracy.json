@@ -1,0 +1,102 @@
+{
+  "id": "c1_video_deliberative_democracy",
+  "type": "video",
+  "level": "C1",
+  "title": "Deliberative Democracy",
+  "subtitle": "Mesa redonda · MIT OpenCourseWare",
+  "minutes": 5,
+  "youtube_id": "KM8NxWOdJjk",
+  "milestone": "checkpoint",
+  "content": {
+    "speaker": "Carrie Menkel-Meadow, Daniel Yankelovich y otros",
+    "channel": "MIT OpenCourseWare",
+    "license": "CC BY-NC-SA",
+    "source_url": "http://ocw.mit.edu/11-969Su2005",
+    "checkpoints": [
+      {
+        "t": 100,
+        "questions": [
+          {
+            "question": "According to the first speaker, what did \"informed\" mean in Jefferson's time?",
+            "options": [
+              "Not just having information, but judgment and wisdom too.",
+              "Reading the newspaper every day.",
+              "Being allowed to vote."
+            ],
+            "answer": 0
+          },
+          {
+            "question": "Which distinction does he make?",
+            "options": [
+              "Between dialogue to reach mutual understanding and decision-making.",
+              "Between rich and poor voters.",
+              "Between cities and the countryside."
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "question": "What should the end product of deliberation be?",
+        "options": [
+          "Public judgment rather than raw opinion.",
+          "A new law every week.",
+          "A single strong leader."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is the practitioner's \"burning question\" for the theorists?",
+        "options": [
+          "What she can use in real action, with real time and resources.",
+          "Why theory is so boring.",
+          "How to write a book about democracy."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Why does the theorist say the practitioners' work \"makes his day\"?",
+        "options": [
+          "An idea he helped develop now guides real work.",
+          "They pay him for his books.",
+          "He disagrees with everything they do."
+        ],
+        "answer": 0
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "deliberation",
+        "translation": "deliberación",
+        "definition": "careful discussion before making a decision"
+      },
+      {
+        "term": "raw opinion",
+        "translation": "opinión sin reflexionar",
+        "definition": "what people think before they have discussed or thought it through"
+      },
+      {
+        "term": "practitioner",
+        "translation": "profesional (que lo pone en práctica)",
+        "definition": "a person who does a job in practice, not only in theory"
+      },
+      {
+        "term": "mutual understanding",
+        "translation": "entendimiento mutuo",
+        "definition": "when two people or groups understand each other"
+      },
+      {
+        "term": "burning question",
+        "translation": "pregunta acuciante",
+        "definition": "a very important question that needs an answer"
+      },
+      {
+        "term": "utter",
+        "translation": "absoluto/a, total",
+        "definition": "complete, used to make a strong statement"
+      }
+    ]
+  }
+}

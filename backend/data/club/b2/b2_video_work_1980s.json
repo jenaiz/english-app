@@ -1,0 +1,102 @@
+{
+  "id": "b2_video_work_1980s",
+  "type": "video",
+  "level": "B2",
+  "title": "What Changed in the 1980s?",
+  "subtitle": "Tom Kochan · MIT OpenCourseWare",
+  "minutes": 5,
+  "youtube_id": "ICBy0tTtgR4",
+  "milestone": "unit",
+  "content": {
+    "speaker": "Tom Kochan",
+    "channel": "MIT OpenCourseWare",
+    "license": "CC BY-NC-SA",
+    "source_url": "http://ocw.mit.edu/RES-15-003S16",
+    "checkpoints": [
+      {
+        "t": 130,
+        "questions": [
+          {
+            "question": "How does the speaker describe the 1970s?",
+            "options": [
+              "A decade of status quo while pressures were building.",
+              "A decade of fast change.",
+              "A decade of high wages and strong growth."
+            ],
+            "answer": 0
+          },
+          {
+            "question": "Which three things happened at the start of the 1980s?",
+            "options": [
+              "Reagan's election, a recession and strong Japanese competition.",
+              "A war, a pandemic and a general strike.",
+              "New unions, higher wages and full employment."
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "question": "What happened to wages and productivity after 1980?",
+        "options": [
+          "They stopped moving together.",
+          "Both fell sharply.",
+          "Wages grew faster than productivity."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What did Reagan do during the 1981 air traffic controllers' strike?",
+        "options": [
+          "He fired the strikers.",
+          "He raised their wages.",
+          "He joined their union."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What challenge does the speaker give the next generation of workers?",
+        "options": [
+          "To find a new social contract for the modern economy.",
+          "To bring back the 1950s.",
+          "To stop using technology at work."
+        ],
+        "answer": 0
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "trade union",
+        "translation": "sindicato",
+        "definition": "an organisation that protects workers' rights and pay"
+      },
+      {
+        "term": "bargaining power",
+        "translation": "poder de negociación",
+        "definition": "the ability to get what you want in a negotiation"
+      },
+      {
+        "term": "recession",
+        "translation": "recesión",
+        "definition": "a period when the economy gets smaller and many people lose jobs"
+      },
+      {
+        "term": "inflation",
+        "translation": "inflación",
+        "definition": "a general rise in prices"
+      },
+      {
+        "term": "social contract",
+        "translation": "contrato social",
+        "definition": "the unwritten agreement about what a society, its workers and its companies give each other"
+      },
+      {
+        "term": "status quo",
+        "translation": "statu quo",
+        "definition": "the situation as it is, without changes"
+      }
+    ]
+  }
+}

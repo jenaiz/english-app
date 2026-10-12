@@ -1,0 +1,122 @@
+{
+  "id": "b1_video_ai_101",
+  "type": "video",
+  "level": "B1",
+  "title": "AI 101",
+  "subtitle": "Brandon Leshchinskiy · MIT OpenCourseWare",
+  "minutes": 11,
+  "youtube_id": "KsHOdr5UYZ0",
+  "milestone": "checkpoint",
+  "content": {
+    "speaker": "Brandon Leshchinskiy",
+    "channel": "MIT OpenCourseWare",
+    "license": "CC BY-NC-SA",
+    "source_url": "http://ocw.mit.edu/courses/res-6-013-ai-101-fall-2021/",
+    "start": 30,
+    "end": 673,
+    "checkpoints": [
+      {
+        "t": 290,
+        "questions": [
+          {
+            "question": "What does \"general AI\" mean?",
+            "options": [
+              "A machine that can learn any task a human can do.",
+              "A machine that can only play chess.",
+              "Any computer program."
+            ],
+            "answer": 0
+          },
+          {
+            "question": "Does general AI exist today?",
+            "options": [
+              "No: all the AI we have today is narrow.",
+              "Yes, in self-driving cars.",
+              "Yes, but only in laboratories."
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "t": 500,
+        "questions": [
+          {
+            "question": "Why is it hard to describe a table with an expert system?",
+            "options": [
+              "It's difficult to write rules for its colour, shape, legs and material.",
+              "Tables are too expensive to study.",
+              "Computers can't see furniture."
+            ],
+            "answer": 0
+          },
+          {
+            "question": "How did chess computers beat Garry Kasparov?",
+            "options": [
+              "With a tree search.",
+              "With general AI.",
+              "With rules written by Kasparov."
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the speaker's main takeaway?",
+        "options": [
+          "With the right data and model AI can solve many problems, but choosing them is difficult.",
+          "AI will soon replace all human workers.",
+          "Machine learning is always the best solution."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What's the difference between classification and regression?",
+        "options": [
+          "Classification gives a class; regression gives a number.",
+          "They are the same thing.",
+          "Regression groups similar things together."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "In the house-price example, what was the model?",
+        "options": [
+          "A line.",
+          "A neural network.",
+          "A list of rules."
+        ],
+        "answer": 0
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "takeaway",
+        "translation": "idea principal, conclusión",
+        "definition": "the main idea that you should remember from a talk"
+      },
+      {
+        "term": "self-driving car",
+        "translation": "coche autónomo",
+        "definition": "a car that can drive itself without a person"
+      },
+      {
+        "term": "machine learning",
+        "translation": "aprendizaje automático",
+        "definition": "when computers learn from data instead of following fixed rules"
+      },
+      {
+        "term": "guess",
+        "translation": "conjetura; adivinar",
+        "definition": "an answer you give when you are not sure"
+      },
+      {
+        "term": "subset",
+        "translation": "subconjunto",
+        "definition": "a smaller group that is part of a bigger group"
+      }
+    ]
+  }
+}

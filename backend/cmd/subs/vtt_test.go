@@ -34,9 +34,9 @@ func TestParseAndMerge(t *testing.T) {
 }
 
 func TestDedupeRolling(t *testing.T) {
-	cues := []Line{{0, "hello everyone"}, {2, "hello everyone and welcome"}, {4, "to the show"}}
+	cues := []Line{{0, "hello everyone"}, {2, "hello everyone and welcome"}, {4, "to the show"}, {5, "to the show tonight we"}, {6, "tonight we talk"}}
 	got := dedupeRolling(cues)
-	want := []Line{{0, "hello everyone"}, {2, "and welcome"}, {4, "to the show"}}
+	want := []Line{{0, "hello everyone"}, {2, "and welcome"}, {4, "to the show"}, {5, "tonight we"}, {6, "talk"}}
 	if !reflect.DeepEqual(got, want) {
 		t.Fatalf("got %+v", got)
 	}

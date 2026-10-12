@@ -1,0 +1,122 @@
+{
+  "id": "b1_video_how_to_speak",
+  "type": "video",
+  "level": "B1",
+  "title": "How to Speak",
+  "subtitle": "Patrick Winston · MIT OpenCourseWare",
+  "minutes": 10,
+  "youtube_id": "Unzc731iCUY",
+  "milestone": "checkpoint",
+  "content": {
+    "speaker": "Patrick Winston",
+    "channel": "MIT OpenCourseWare",
+    "license": "CC BY-NC-SA",
+    "source_url": "https://ocw.mit.edu/courses/res-tll-005-how-to-speak-january-iap-2018/pages/how-to-speak/",
+    "start": 15,
+    "end": 617,
+    "checkpoints": [
+      {
+        "t": 255,
+        "questions": [
+          {
+            "question": "According to the speaker, what matters most to communicate well?",
+            "options": [
+              "Knowledge and practice, more than talent.",
+              "Natural talent.",
+              "A loud voice."
+            ],
+            "answer": 0
+          },
+          {
+            "question": "Why does he ask for no laptops or phones?",
+            "options": [
+              "We only have one language processor, so we get distracted.",
+              "Phones are not allowed at MIT.",
+              "The room has no wifi."
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "t": 580,
+        "questions": [
+          {
+            "question": "How should you start a talk?",
+            "options": [
+              "With an empowerment promise.",
+              "With a joke.",
+              "With your CV."
+            ],
+            "answer": 0
+          },
+          {
+            "question": "Why should you repeat your main idea (\"cycle\")?",
+            "options": [
+              "At any moment, about 20% of people aren't paying attention.",
+              "People like long talks.",
+              "It's polite."
+            ],
+            "answer": 0
+          },
+          {
+            "question": "How long can you wait for an answer after asking the audience a question?",
+            "options": [
+              "About seven seconds.",
+              "About a minute.",
+              "Two seconds at most."
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the speaker's main goal for the audience?",
+        "options": [
+          "That they build their own repertoire of speaking techniques.",
+          "That they all become teachers.",
+          "That they copy his style exactly."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Why is 11 a.m. a good time for a lecture?",
+        "options": [
+          "People are awake and it isn't right after a meal.",
+          "The rooms are empty then.",
+          "Teachers are less tired."
+        ],
+        "answer": 0
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "novice",
+        "translation": "principiante",
+        "definition": "a person who has just started learning something"
+      },
+      {
+        "term": "slope",
+        "translation": "pendiente, pista (de esquí)",
+        "definition": "a surface that goes up or down, like the side of a mountain"
+      },
+      {
+        "term": "fall flat",
+        "translation": "no tener éxito, no hacer gracia",
+        "definition": "to fail to have the effect you wanted, for example a joke nobody laughs at"
+      },
+      {
+        "term": "outline",
+        "translation": "esquema, guion",
+        "definition": "a list of the main points of a talk or a text"
+      },
+      {
+        "term": "repertoire",
+        "translation": "repertorio",
+        "definition": "all the things that a person knows how to do"
+      }
+    ]
+  }
+}

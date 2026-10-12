@@ -287,7 +287,7 @@ Campos comunes:
 | ------ | --------- |
 | `song` | `{ "artist", "channel", "start"?, "end", "lines": [{ "t", "text": "I ___ you", "answers"?: [["love"]] }], "distractors"?: [..], "mode"?: "bank" \| "type", "questions"?: [ítems de multiple_choice] }`. `channel` es el canal oficial de YouTube (artista o discográfica): solo vídeos oficiales. Solo un fragmento (máx. 16 líneas) por derechos de autor. Hasta A2 los huecos se rellenan con un banco de palabras. `questions` pregunta por la letra tras comprobar los huecos. Se muestra siempre «Canción: "…" de …. Solo con fines educativos.» |
 | `reading` | `{ "kind"?, "paragraphs": [..], "glossary"?: { "palabra": "traducción" }, "questions": [ítems de multiple_choice], "source"? }`. Longitud por nivel: A1 500-800 palabras, A2 700-1200, B1 1000-1800, B2 1500-2500, C1 2000-3000 |
-| `video` | `{ "speaker"?, "channel", "license", "source_url", "start"?, "checkpoints"?: [{ "t", "questions": [..] }], "questions"?: [..] }`. **Sin transcripción**: las charlas (TED incluido) no permiten publicarla, y el backend la rechaza. El vídeo se para en cada `t` y pregunta; `questions` salen al terminar |
+| `video` | `{ "speaker"?, "channel", "license", "source_url", "start"?, "end"?, "checkpoints"?: [{ "t", "questions": [..] }], "questions"?: [..] }`. `start`/`end` eligen un tramo de una clase larga. **Sin transcripción**: las charlas (TED incluido) no permiten publicarla, y el backend la rechaza. El vídeo se para en cada `t` y pregunta; `questions` salen al terminar |
 | `verb_cloze` | `{ "instructions"?, "items": [{ "text": "She ___ (go) home.", "answers": [["went"]] }] }`. También vale como paso de una lección |
 
 **Vocabulario nuevo.** Las actividades sirven para ampliar vocabulario: un término de `vocabulary` no puede estar en el `vocabulary_table` de ninguna unidad. Si lo está, el backend no arranca y dice en qué unidad aparece.
@@ -298,6 +298,8 @@ Para los tiempos:
 - `go run ./cmd/subs [-song] <url>` necesita `yt-dlp` y saca las líneas con tiempo de los subtítulos. Prefiere los escritos por personas y avisa si solo hay automáticos. También muestra el canal: compruébalo a mano, porque la marca de verificado de YouTube la tienen también canales de letras. En las charlas, la transcripción solo sirve para escribir las preguntas y fijar las pausas; nunca se publica.
 - Si no hay subtítulos útiles, la página de desarrollo `/club/dev/timing` permite marcar cada línea pulsando Espacio mientras suena.
 - Las charlas TED tienen licencia CC BY-NC-ND (no comercial), así que hay que revisarlas antes de monetizar.
+
+**Vídeos de MIT OpenCourseWare.** Su canal tiene clases y charlas con licencia Creative Commons BY-NC-SA (no comercial, con atribución), pero no todos los vídeos la tienen: hay que mirar la descripción. `cmd/subs` imprime la línea `License: …` o avisa si falta. Los vídeos sin esa línea no se usan. Conviene elegir temas actuales (IA, clima, economía, política) con un enfoque equilibrado, y en `source_url` poner la página del curso en OCW que da la descripción.
 
 **Laboratorio.** Con `LAB_CLUB_DIR` (solo en `docker-compose.dev.yml`) se cargan las actividades de `backend/data/lab_club`, que están siempre abiertas, para probar los reproductores.
 

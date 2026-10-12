@@ -41,6 +41,8 @@ export default function VideoPlayer({ activity, content, onFinish }: Props) {
   ]
 
   const [answered, setAnswered] = useState(0)
+  // The end of the segment (or of the video) has been reached.
+  const [reachedEnd, setReachedEnd] = useState(false)
   const [asking, setAsking] = useState(false)
   const [score, setScore] = useState<ExerciseResult>({ correct: 0, total: 0 })
   const questionsRef = useRef<HTMLElement>(null)
@@ -56,14 +58,18 @@ export default function VideoPlayer({ activity, content, onFinish }: Props) {
       if (nextCheckpoint && !asking && t >= nextCheckpoint.t) {
         player.pause()
         setAsking(true)
+      } else if (content.end !== undefined && t >= content.end && !reachedEnd) {
+        player.pause()
+        setReachedEnd(true)
       }
     },
   })
 
-  // The final questions open by themselves when the video ends.
+  // The final questions open by themselves when the video (or its segment) ends.
+  const over = player.ended || reachedEnd
   useEffect(() => {
-    if (player.ended && !nextCheckpoint && round) setAsking(true)
-  }, [player.ended, nextCheckpoint, round])
+    if (over && !nextCheckpoint && round) setAsking(true)
+  }, [over, nextCheckpoint, round])
 
   useEffect(() => {
     if (asking)
@@ -117,9 +123,10 @@ export default function VideoPlayer({ activity, content, onFinish }: Props) {
           ))}
         </div>
         <p className="mt-3 text-sm text-slate-500">
+          {content.end !== undefined && <>Es un fragmento de la clase, del {clock(content.start ?? 0)} al {clock(content.end)}. </>}
           {checkpoints.length > 0
             ? 'El vídeo se para en cada pausa para hacerte preguntas. Escucha con atención: no hay transcripción.'
-            : 'Mira el vídeo completo: al terminar te haremos unas preguntas. Escucha con atención: no hay transcripción.'}
+            : 'Al terminar te haremos unas preguntas. Escucha con atención: no hay transcripción.'}
         </p>
       </div>
 

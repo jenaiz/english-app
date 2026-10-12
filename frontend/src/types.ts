@@ -387,7 +387,9 @@ export interface VideoContent extends ActivityExtras {
   channel: string
   license: string
   source_url: string
+  /** start/end pick a segment of a long lecture; the final questions come at end. */
   start?: number
+  end?: number
   /** The video pauses at t and asks these questions. */
   checkpoints?: { t: number; questions: ChoiceItem[] }[]
   /** Questions once the video is over. */
