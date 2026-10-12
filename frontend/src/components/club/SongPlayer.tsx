@@ -1,5 +1,5 @@
 import { Fragment, useEffect, useMemo, useRef, useState } from 'react'
-import { CheckCircle2, Gauge, Mic2, RotateCcw } from 'lucide-react'
+import { CheckCircle2, Gauge, Mic2, RotateCcw, SkipBack } from 'lucide-react'
 import { isCorrect, shuffle } from '../../lib/answers'
 import { activeLine, useYouTubePlayer } from '../../lib/useYouTubePlayer'
 import type { Activity, ExerciseResult, SongContent } from '../../types'
@@ -48,9 +48,11 @@ export default function SongPlayer({ activity, content, onFinish }: Props) {
   const lineRefs = useRef<(HTMLLIElement | null)[]>([])
   const stoppedAtEnd = useRef(false)
 
+  // Where the fragment starts: a few seconds before its first line, unless the activity says.
+  const fragmentStart = content.start ?? Math.max(0, content.lines[0].t - 3)
   const player = useYouTubePlayer({
     videoId: activity.youtube_id!,
-    start: content.start ?? Math.max(0, content.lines[0].t - 3),
+    start: fragmentStart,
     onTime: (t) => {
       setNow(t)
       // Stop once at the end of the fragment; playing on is the learner's choice.
@@ -68,6 +70,13 @@ export default function SongPlayer({ activity, content, onFinish }: Props) {
     if (document.activeElement instanceof HTMLInputElement) return
     lineRefs.current[current]?.scrollIntoView({ behavior: 'smooth', block: 'center' })
   }, [current, player.playing])
+
+  // Play the whole fragment again; before the video is loaded, loading it already starts there.
+  const replayFragment = () => {
+    stoppedAtEnd.current = false
+    if (player.requested) player.seek(fragmentStart)
+    else player.load()
+  }
 
   const replay = (line: number) => {
     stoppedAtEnd.current = false
@@ -147,6 +156,14 @@ export default function SongPlayer({ activity, content, onFinish }: Props) {
         <div className="mt-3 flex flex-wrap gap-2">
           <button
             type="button"
+            onClick={replayFragment}
+            disabled={player.requested && !player.ready}
+            className="flex items-center gap-1.5 rounded-lg bg-rose-600 px-3 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-rose-700 disabled:opacity-40"
+          >
+            <SkipBack className="h-4 w-4" /> Desde el principio
+          </button>
+          <button
+            type="button"
             onClick={() => replay(Math.max(0, current))}
             disabled={!player.ready}
             className="flex items-center gap-1.5 rounded-lg bg-white px-3 py-2 text-sm font-semibold text-slate-700 ring-1 ring-slate-200 transition hover:bg-slate-50 disabled:opacity-40"
@@ -173,7 +190,7 @@ export default function SongPlayer({ activity, content, onFinish }: Props) {
       <div className="rounded-3xl border border-slate-200 bg-white p-4 shadow-sm md:p-6">
         {checked && (
           <p className="mb-4 flex items-center gap-2 rounded-xl bg-rose-50 p-3 text-sm font-medium text-rose-800">
-            <Mic2 className="h-4 w-4 shrink-0" /> Ahora que tienes la letra completa, ¡vuelve a ponerla y canta!
+            <Mic2 className="h-4 w-4 shrink-0" /> Ahora que tienes la letra completa, pulsa «Desde el principio» y ¡canta!
           </p>
         )}
         <ol className="space-y-1">
