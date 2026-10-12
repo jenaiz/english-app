@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom'
-import { BookA, RotateCcw, Trophy } from 'lucide-react'
+import { BookA, GraduationCap, RotateCcw, Trophy } from 'lucide-react'
 import { roomOf } from '../../lib/club'
-import type { Activity, ActivityExtras } from '../../types'
+import type { Activity, ActivityExtras, ExerciseResult } from '../../types'
+import TopicReview, { weakest } from '../exam/TopicReview'
 import SpeakButton from '../SpeakButton'
 import { ExpressionsBlock } from '../expressions/UnitExpressions'
 
@@ -13,15 +14,20 @@ interface Props {
   bestScore: number
   /** Activities of this room the learner has unlocked, and how many exist, for the album. */
   album: { open: number; total: number } | null
+  /** Score per exam topic, for games. */
+  byTag?: ExerciseResult['byTag']
   onRestart: () => void
 }
 
 /** What every Club activity ends with: the score, the album, its vocabulary and expressions to review. */
-export default function ActivityEnd({ activity, score, correct, total, bestScore, album, onRestart }: Props) {
+export default function ActivityEnd({ activity, score, correct, total, bestScore, album, byTag, onRestart }: Props) {
   const room = roomOf(activity.room)
   const good = score >= 70
   const extras = activity.content as ActivityExtras
   const vocab = extras.vocabulary ?? []
+  // A game practises topics of the level exam: the ones with mistakes are what to review.
+  const topics = byTag && activity.topics ? activity.topics.map((t) => ({ ...t, ...(byTag[t.tag] ?? { correct: 0, total: 0 }) })) : []
+  const weak = weakest(topics)
 
   return (
     <div className="mx-auto max-w-3xl">
@@ -47,6 +53,21 @@ export default function ActivityEnd({ activity, score, correct, total, bestScore
           <p className="mt-1 text-sm text-slate-500">{room.plural} en tu álbum</p>
         </div>
       </div>
+
+      {topics.length > 0 && (
+        <section className="mt-6 rounded-3xl border border-slate-200 bg-white p-5 md:p-6">
+          <h3 className="flex items-center gap-2 font-display text-lg font-bold text-slate-900">
+            <GraduationCap className="h-5 w-5 text-indigo-600" /> {weak.length ? 'Qué repasar para el examen' : 'Para el examen'}
+          </h3>
+          {weak.length ? (
+            <TopicReview topics={weak} />
+          ) : (
+            <p className="mt-2 text-slate-600">
+              Sin fallos en los {topics.length} temas del examen {activity.level} que practica este juego. ¡Perfecto!
+            </p>
+          )}
+        </section>
+      )}
 
       {vocab.length > 0 && (
         <section className="mt-6 rounded-3xl border border-slate-200 bg-white p-5 md:p-6">

@@ -1,0 +1,316 @@
+{
+  "id": "b1_reading_repair_cafe",
+  "level": "B1",
+  "title": "The Café Where Nothing Gets Thrown Away",
+  "subtitle": "Un artículo de revista sobre los repair cafés",
+  "minutes": 18,
+  "milestone": "checkpoint",
+  "after_unit": "good_news",
+  "type": "reading",
+  "content": {
+    "kind": "Artículo de revista",
+    "paragraphs": [
+      "It's a wet Saturday morning in east Bristol, and a church hall is full of people carrying strange things. One man is holding a lamp that hasn't worked for years. A teenage girl has brought a pair of headphones with a broken wire. An elderly woman is pushing an old sewing machine on a shopping trolley. They have all come to the same place for the same reason: the monthly Repair Café, where volunteers fix broken things for free.",
+      "The idea is simple. You bring something that doesn't work, you sit down next to a volunteer, and together you try to repair it. While you wait, you can have a cup of tea and a slice of homemade cake. There's no charge, although most visitors leave a small donation in a jar by the door. \"The most important rule is that you have to stay and watch,\" explains Ruth Okafor, who started the Bristol group six years ago. \"We don't just fix your toaster. We show you how we're doing it, so next time you might be able to do it yourself.\"",
+      "Repair cafés are not a new idea. The first one was opened in Amsterdam in 2009, and today there are thousands of them all over the world, from Japan to Chile. Most of them are run by volunteers who meet once a month in schools, libraries or community centres. Ruth first heard about them on the radio. \"I was absolutely furious that week,\" she remembers, laughing. \"My kettle had stopped working, and the shop told me it wasn't worth repairing. They said I should buy a new one. It was only two years old! If I hadn't been so angry, I would never have started this.\"",
+      "Behind the tea table, at a long desk covered in tools, sits Geoff, a retired electrician who has been volunteering here since the beginning. He is looking carefully at the lamp. \"The switch must be broken,\" he says to its owner. \"It can't be the bulb, because you've already changed it.\" Ten minutes later, the lamp is shining. The owner, a young architect called Tom, looks amazed. \"I was going to throw it away,\" he admits. \"It was my grandfather's. If Geoff hadn't fixed it, I'd have lost something really special.\"",
+      "Not everything can be saved. Some modern products are designed in a way that makes them extremely difficult to open, and spare parts are often impossible to find. \"That's the most frustrating part of the job,\" says Geoff. \"Sometimes the problem is tiny, maybe a five-pence piece of plastic, but you can't buy it anywhere. So people have to buy a whole new machine.\" According to the volunteers, about two-thirds of the things that people bring are successfully repaired. The rest usually go home with a clear explanation of what is wrong.",
+      "For many visitors, saving money is the main reason to come. A new washing machine can cost hundreds of pounds, while a repair at the café costs nothing. But for others, the reason is the environment. Every year, millions of tonnes of electronic waste are thrown away around the world, and only a small part of it is recycled. \"Every toaster we repair is one less toaster in the rubbish,\" Ruth says. \"It's a tiny thing, I know. But if everyone repaired one thing a year, it would make a real difference.\"",
+      "There's a third reason, which is perhaps less obvious: people come for the company. In one corner, Margaret, the woman with the sewing machine, is chatting with a student who is helping her to change the needle. Margaret has been coming every month since her husband died. \"At home I don't talk to anybody all day,\" she says. \"Here, I've made friends. Last month this young man told me that I was the best teacher he'd ever had. Well, I taught him to sew a button, so I suppose that's true!\"",
+      "The volunteers are a mix of ages and backgrounds. There are retired engineers and teachers, but also students, a nurse who is good with bicycles and a twelve-year-old boy called Ethan who is brilliant at fixing games consoles. Nobody has to be an expert. \"You don't need to know everything,\" Ruth explains. \"You need to be patient and you need to be curious. If you don't know how to fix something, you ask someone who does. That's how we all learn.\"",
+      "Running the café isn't always easy. The hall costs money to rent, tools have to be bought and replaced, and some months there are more broken things than volunteers. Last winter the group nearly closed when the church needed the hall on Saturdays. In the end, a local school offered them a room for three months, and the regular visitors raised enough money in donations to pay for a year's rent. \"That's when I realised how much this place means to people,\" Ruth says. \"They didn't just say they liked it. They did something about it.\"",
+      "Some shop owners were worried at first that the café would take away their business. In fact, the opposite has happened. When a volunteer can't fix something, they often send people to local repair shops, which have seen an increase in customers. \"We're not trying to replace professionals,\" says Ruth. \"We're trying to change the way people think. Before you buy something new, ask yourself: can this be repaired?\"",
+      "By one o'clock, the hall is starting to empty. Tom is walking out with his grandfather's lamp under his arm. The teenage girl's headphones are working again, and she has learned how to use a soldering iron. Margaret's sewing machine has been oiled and cleaned, and it is running more quietly than it has for years. As she leaves, she promises to bring a cake next month. Geoff is already looking at the next item on his desk: a radio from the 1970s. \"They really don't make things like this any more,\" he says, smiling. \"Let's see what's wrong with it.\"",
+      "The Bristol Repair Café meets on the first Saturday of every month, from ten until one. You don't need to book. If you have something broken at home, why not take it along? And if you're good with your hands, the volunteers would love to hear from you."
+    ],
+    "glossary": {
+      "church hall": "salón parroquial",
+      "elderly": "mayor, anciano/a",
+      "sewing machine": "máquina de coser",
+      "donation": "donativo",
+      "furious": "furioso/a",
+      "worth repairing": "que merece la pena arreglar",
+      "tools": "herramientas",
+      "switch": "interruptor",
+      "bulb": "bombilla",
+      "spare parts": "piezas de recambio",
+      "waste": "residuos",
+      "needle": "aguja",
+      "soldering iron": "soldador",
+      "backgrounds": "orígenes, formación"
+    },
+    "questions": [
+      {
+        "question": "What is the most important rule at the Repair Café?",
+        "options": [
+          "Visitors must stay and watch the repair.",
+          "Visitors must leave a donation.",
+          "Visitors must bring a cake."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Why did Ruth start the Bristol group?",
+        "options": [
+          "She heard that Amsterdam needed volunteers.",
+          "A shop told her to buy a new kettle instead of repairing hers.",
+          "Her husband was an electrician."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "In paragraph 4, how does Geoff know that the problem isn't the bulb?",
+        "options": [
+          "The lamp didn't have a bulb.",
+          "He tested it with a tool.",
+          "The owner had already changed it."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "According to paragraph 5, what is the most frustrating part of the volunteers' job?",
+        "options": [
+          "Not being able to find small spare parts.",
+          "Repairing very old machines.",
+          "Working on Saturdays."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Why does Margaret come to the café every month?",
+        "options": [
+          "Her sewing machine breaks very often.",
+          "She enjoys the company and has made friends there.",
+          "She works there as a teacher."
+        ],
+        "answer": 1
+      },
+      {
+        "question": "How have local repair shops been affected by the café?",
+        "options": [
+          "They have lost a lot of business.",
+          "Some of them have had to close.",
+          "They have more customers than before."
+        ],
+        "answer": 2
+      },
+      {
+        "question": "In paragraph 10, \"They really don't make things like this any more\" suggests that Geoff thinks…",
+        "options": [
+          "old products were made better than modern ones.",
+          "the radio is impossible to repair.",
+          "nobody listens to the radio today."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is the writer's main purpose?",
+        "options": [
+          "To criticise shops that sell new products.",
+          "To describe the café and encourage readers to visit or help.",
+          "To explain how to repair electrical things at home."
+        ],
+        "answer": 1
+      }
+    ],
+    "exam_practice": [
+      {
+        "title": "Uso del inglés · Una palabra por hueco",
+        "instructions": "Como en los exámenes oficiales: escribe una sola palabra en cada hueco.",
+        "items": [
+          {
+            "text": "The first repair café ___ opened in Amsterdam in 2009. Today there are thousands of them, most of ___ are run by volunteers. Ruth, ___ started the Bristol group, heard about them on the radio.",
+            "answers": [
+              [
+                "was"
+              ],
+              [
+                "which"
+              ],
+              [
+                "who"
+              ]
+            ],
+            "tags": [
+              "passive",
+              "relative_clauses",
+              "relative_clauses"
+            ],
+            "hint": "Pasiva en pasado: was + participio. Personas: who."
+          },
+          {
+            "text": "Visitors don't ___ to pay, but they ___ to stay and watch. Geoff thinks the switch ___ be broken: it ___ be the bulb, because it's new.",
+            "answers": [
+              [
+                "have"
+              ],
+              [
+                "have"
+              ],
+              [
+                "must"
+              ],
+              [
+                "can't",
+                "cannot"
+              ]
+            ],
+            "tags": [
+              "obligation",
+              "obligation",
+              "deduction",
+              "deduction"
+            ],
+            "hint": "Deducción: must (seguro que sí), can't (seguro que no)."
+          },
+          {
+            "text": "If Ruth ___ been so angry, she would never have started the group. If everyone repaired one thing a year, it ___ make a real difference.",
+            "answers": [
+              [
+                "hadn't",
+                "had not"
+              ],
+              [
+                "would"
+              ]
+            ],
+            "tags": [
+              "third_conditional",
+              "second_conditional"
+            ],
+            "hint": "Tercer condicional: if + had + participio. Segundo: if + pasado, would + verbo."
+          }
+        ]
+      },
+      {
+        "title": "Uso del inglés · Forma correcta",
+        "instructions": "Escribe la forma correcta de la palabra entre paréntesis. Puede hacer falta más de una palabra.",
+        "items": [
+          {
+            "text": "Geoff ___ (volunteer) at the café since the beginning. Tom said he ___ (go) to throw the lamp away.",
+            "answers": [
+              [
+                "has been volunteering",
+                "'s been volunteering"
+              ],
+              [
+                "was going",
+                "had been going"
+              ]
+            ],
+            "tags": [
+              "present_perfect_continuous",
+              "reported_speech"
+            ],
+            "hint": "Desde el principio hasta hoy: present perfect continuous. En estilo indirecto, am going → was going."
+          },
+          {
+            "text": "Margaret said that she ___ (not / talk) to anybody at home. The student told her she was the best teacher he ___ (ever / have).",
+            "answers": [
+              [
+                "didn't talk",
+                "did not talk"
+              ],
+              [
+                "had ever had",
+                "'d ever had"
+              ]
+            ],
+            "tags": [
+              "reported_speech",
+              "reported_speech"
+            ],
+            "hint": "Estilo indirecto: el verbo retrocede un tiempo (don't → didn't, have had → had had)."
+          },
+          {
+            "text": "Some products are ___ (extreme) difficult to open. Ruth was ___ (absolute) furious that week. If Geoff ___ (not / fix) the lamp, Tom would have lost something special.",
+            "answers": [
+              [
+                "extremely"
+              ],
+              [
+                "absolutely"
+              ],
+              [
+                "hadn't fixed",
+                "had not fixed"
+              ]
+            ],
+            "tags": [
+              "adverbs_intensifiers",
+              "adverbs_intensifiers",
+              "third_conditional"
+            ],
+            "hint": "Absolutely va con adjetivos extremos (furious); extremely, con los normales."
+          },
+          {
+            "text": "If I ___ (have) a broken toaster, I would take it to the café. Electronic waste ___ (throw) away every year in huge amounts.",
+            "answers": [
+              [
+                "had"
+              ],
+              [
+                "is thrown"
+              ]
+            ],
+            "tags": [
+              "second_conditional",
+              "passive"
+            ],
+            "hint": "Situación imaginaria: if + pasado."
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "term": "elderly",
+        "translation": "mayor, anciano/a",
+        "definition": "old (a polite word)"
+      },
+      {
+        "term": "sewing machine",
+        "translation": "máquina de coser",
+        "definition": "a machine for making or repairing clothes"
+      },
+      {
+        "term": "donation",
+        "translation": "donativo",
+        "definition": "money that you give to help an organisation"
+      },
+      {
+        "term": "switch",
+        "translation": "interruptor",
+        "definition": "a small button that turns something on or off"
+      },
+      {
+        "term": "bulb",
+        "translation": "bombilla",
+        "definition": "the glass part of a lamp that gives light"
+      },
+      {
+        "term": "spare part",
+        "translation": "pieza de recambio",
+        "definition": "a new piece to replace a broken one in a machine"
+      },
+      {
+        "term": "needle",
+        "translation": "aguja",
+        "definition": "a thin, sharp piece of metal for sewing"
+      },
+      {
+        "term": "furious",
+        "translation": "furioso/a",
+        "definition": "extremely angry"
+      },
+      {
+        "term": "soldering iron",
+        "translation": "soldador",
+        "definition": "a hot tool used to join pieces of metal in electronics"
+      }
+    ],
+    "expressions": [
+      "phrasal:throw-away"
+    ]
+  }
+}

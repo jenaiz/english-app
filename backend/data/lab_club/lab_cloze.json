@@ -3,32 +3,208 @@
   "type": "verb_cloze",
   "level": "A2",
   "title": "A Weekend in London",
-  "subtitle": "Laboratorio: past simple y phrasal verbs",
-  "minutes": 5,
+  "subtitle": "Laboratorio: repaso para el examen A2 hasta «A Day in London»",
+  "minutes": 12,
   "milestone": "unit",
+  "after_unit": "in_london",
   "content": {
-    "instructions": "Completa con el past simple del verbo entre paréntesis. Si hay un pronombre, ponlo en su sitio.",
+    "instructions": "Escribe la palabra que falta. Si hay una palabra entre paréntesis, úsala en la forma correcta.",
     "items": [
       {
-        "text": "Last Saturday Lucía, Priya and Daniel ___ (take) the train to London. They ___ (get up) at six, so they ___ (be) very sleepy.",
-        "answers": [["took"], ["got up"], ["were"]],
-        "hint": "Take → took, get → got. They + was/were?"
+        "text": "Last Saturday Lucía, Priya and Daniel ___ (take) the train to London. They ___ (get up) at six, so they ___ (be) very sleepy. While the train ___ (go) through the countryside, Daniel ___ (fall) asleep.",
+        "answers": [
+          [
+            "took"
+          ],
+          [
+            "got up"
+          ],
+          [
+            "were"
+          ],
+          [
+            "was going"
+          ],
+          [
+            "fell"
+          ]
+        ],
+        "tags": [
+          "past_simple",
+          "phrasal_verbs",
+          "past_simple",
+          "past_continuous",
+          "past_simple"
+        ],
+        "hint": "Take → took, fall → fell. While + past continuous."
       },
       {
-        "text": "In Camden, Lucía ___ (try / it / on) a vintage jacket, but she ___ (not / buy) it. Daniel ___ (find out) that the market ___ (close) at six.",
-        "answers": [["tried it on"], ["didn't buy", "did not buy"], ["found out"], ["closed"]],
-        "hint": "Con pronombre: tried it on. Negativa: didn't + infinitivo.",
+        "text": "___, they visited Buckingham Palace. Then they walked ___ the bridge and ___ the park. \"It's the ___ (big) house I ___ (ever / see)!\" Lucía said. After the long walk Priya was very ___ (tire).",
+        "answers": [
+          [
+            "First"
+          ],
+          [
+            "across",
+            "over"
+          ],
+          [
+            "through"
+          ],
+          [
+            "biggest"
+          ],
+          [
+            "have ever seen",
+            "'ve ever seen"
+          ],
+          [
+            "tired"
+          ]
+        ],
+        "tags": [
+          "sequencing_adverbs",
+          "movement_prepositions",
+          "movement_prepositions",
+          "superlatives",
+          "present_perfect",
+          "ed_ing"
+        ],
+        "hint": "Across: de un lado a otro; through: por dentro. Big → biggest."
+      },
+      {
+        "text": "In Camden, Lucía ___ (try / it / on) a vintage jacket, but she ___ (not / buy) it. It was ___ (expensive) than her new coat. Daniel ___ (find out) that the market closed at six.",
+        "answers": [
+          [
+            "tried it on"
+          ],
+          [
+            "didn't buy",
+            "did not buy"
+          ],
+          [
+            "more expensive"
+          ],
+          [
+            "found out"
+          ]
+        ],
+        "tags": [
+          "phrasal_verbs",
+          "past_simple",
+          "comparatives",
+          "phrasal_verbs"
+        ],
+        "hint": "Adjetivos largos: more + adjetivo + than.",
         "explanation": "Try on es separable: el pronombre va en medio (tried it on)."
       },
       {
-        "text": "\"___ (you / enjoy) the trip?\" Sam ___ (ask) on Sunday night. \"Yes! But we ___ (spend) too much money,\" Lucía ___ (say).",
-        "answers": [["Did you enjoy"], ["asked"], ["spent"], ["said"]],
-        "hint": "Pregunta: did + sujeto + infinitivo. Spend → spent, say → said."
+        "text": "\"London is amazing, ___ it?\" Daniel said. \"___ (you / ever / be) here before, Priya?\" \"No, I ___ (never / visit) London. But I've ___ seen the London Eye from the train!\"",
+        "answers": [
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "Have you ever been"
+          ],
+          [
+            "have never visited",
+            "'ve never visited"
+          ],
+          [
+            "just"
+          ]
+        ],
+        "tags": [
+          "question_tags",
+          "present_perfect",
+          "present_perfect",
+          "present_perfect"
+        ],
+        "hint": "Question tag: afirmativa → tag negativa. Experiencias: present perfect con ever / never."
+      },
+      {
+        "text": "\"What ___ (we / do) tonight?\" Lucía asked. \"We ___ (go) to a musical at eight. I've got the tickets!\" Daniel said. \"Great! I ___ (buy) some snacks,\" Priya said. \"Shall ___ get a taxi?\" \"No, let's walk. But take an umbrella: it ___ rain later.\"",
+        "answers": [
+          [
+            "are we doing"
+          ],
+          [
+            "are going",
+            "'re going",
+            "are going to go"
+          ],
+          [
+            "'ll buy",
+            "will buy"
+          ],
+          [
+            "we"
+          ],
+          [
+            "might",
+            "may"
+          ]
+        ],
+        "tags": [
+          "future_plans",
+          "future_plans",
+          "will",
+          "future_plans",
+          "might_probably"
+        ],
+        "hint": "Planes con hora y entradas: present continuous. Decisión en el momento: will. Posibilidad: might."
+      },
+      {
+        "text": "On Sunday night Sam ___ (ask), \"___ (you / enjoy) the trip?\" \"Yes! The musical was ___ (excite), but we ___ (spend) too much money,\" Lucía ___ (say). \"Next time we ___ (probably / take) the bus. It's ___ (cheap) than the train.\"",
+        "answers": [
+          [
+            "asked"
+          ],
+          [
+            "Did you enjoy"
+          ],
+          [
+            "exciting"
+          ],
+          [
+            "spent"
+          ],
+          [
+            "said"
+          ],
+          [
+            "'ll probably take",
+            "will probably take"
+          ],
+          [
+            "cheaper"
+          ]
+        ],
+        "tags": [
+          "past_simple",
+          "past_simple",
+          "ed_ing",
+          "past_simple",
+          "past_simple",
+          "might_probably",
+          "comparatives"
+        ],
+        "hint": "-ing describe la cosa (exciting); -ed, cómo te sientes. Will probably: probably va detrás de will."
       }
     ],
     "vocabulary": [
-      { "term": "vintage", "translation": "de época, vintage", "definition": "old, but good quality and fashionable" }
+      {
+        "term": "vintage",
+        "translation": "de época, vintage",
+        "definition": "old, but good quality and fashionable"
+      }
     ],
-    "expressions": ["phrasal:get-up", "phrasal:try-on", "phrasal:find-out"]
+    "expressions": [
+      "phrasal:get-up",
+      "phrasal:try-on",
+      "phrasal:find-out"
+    ]
   }
 }

@@ -21,9 +21,27 @@ func loadBundled(t *testing.T) (*Catalog, *Expressions) {
 	return c, e
 }
 
+func loadExams(t *testing.T, c *Catalog) *Exams {
+	t.Helper()
+	x, err := LoadExams("../../data/exams", c)
+	if err != nil {
+		t.Fatalf("load exams: %v", err)
+	}
+	return x
+}
+
+// game is an A2 game tied to unit a_bad_day: n paragraphs of k past simple blanks.
+func game(n, k int) string {
+	answers := strings.TrimSuffix(strings.Repeat(`["went"],`, k), ",")
+	tags := strings.TrimSuffix(strings.Repeat(`"past_simple",`, k), ",")
+	item := `{"text":"` + strings.Repeat("I ___ (go). ", k) + `","answers":[` + answers + `],"tags":[` + tags + `]}`
+	items := strings.TrimSuffix(strings.Repeat(item+",", n), ",")
+	return `{"id":"g","type":"verb_cloze","level":"A2","title":"G","minutes":5,"milestone":"unit","after_unit":"a_bad_day","content":{"items":[` + items + `]}}`
+}
+
 func TestLoadBundledClub(t *testing.T) {
 	c, e := loadBundled(t)
-	club, err := LoadClub("../../data/club", "../../data/lab_club", c, e)
+	club, err := LoadClub("../../data/club", "../../data/lab_club", c, e, loadExams(t, c))
 	if err != nil {
 		t.Fatalf("load club: %v", err)
 	}
@@ -31,12 +49,15 @@ func TestLoadBundledClub(t *testing.T) {
 		if a.Room == "" {
 			t.Errorf("%s has no room", a.ID)
 		}
+		if a.Type == "verb_cloze" && len(a.Topics) == 0 {
+			t.Errorf("game %s has no exam topics", a.ID)
+		}
 	}
 }
 
 func TestLoadClubMissingDirIsEmpty(t *testing.T) {
 	c, e := loadBundled(t)
-	club, err := LoadClub(filepath.Join(t.TempDir(), "nope"), "", c, e)
+	club, err := LoadClub(filepath.Join(t.TempDir(), "nope"), "", c, e, nil)
 	if err != nil || len(club.Activities) != 0 {
 		t.Fatalf("got %v, %v", club, err)
 	}
@@ -46,6 +67,12 @@ func words(n int) string { return strings.TrimSpace(strings.Repeat("word ", n)) 
 
 func TestClubValidation(t *testing.T) {
 	c, e := loadBundled(t)
+	x := loadExams(t, c)
+	q6 := strings.TrimSuffix(strings.Repeat(`{"question":"q","options":["a","b"],"answer":0},`, 6), ",")
+	b1Reading := func(extra string) string {
+		return `{"id":"r","type":"reading","level":"B1","title":"R","minutes":15,"milestone":"unit","after_unit":"galway_family","content":{"paragraphs":["` + words(1100) + `"],"questions":[` + q6 + `]` + extra + `}}`
+	}
+	practice := `{"title":"T","instructions":"I","items":[{"text":"` + strings.Repeat("It ___ (build). ", 6) + `","answers":[["was built"],["was built"],["was built"],["was built"],["was built"],["was built"]],"tags":["passive","passive","passive","passive","passive","passive"]}]}`
 	q := `[{"question":"q","options":["a","b"],"answer":0},{"question":"q","options":["a","b"],"answer":1},{"question":"q","options":["a","b"],"answer":0}]`
 	song := `{"channel":"Artist","end":20,"lines":[{"t":1,"text":"I ___ you","answers":[["love"]]},{"t":5,"text":"yeah"}]}`
 	cases := []struct {
@@ -70,7 +97,17 @@ func TestClubValidation(t *testing.T) {
 		{"checkpoint after segment end", `{"id":"v","type":"video","level":"B1","title":"V","minutes":12,"milestone":"checkpoint","youtube_id":"x","content":{"channel":"TED","license":"CC","source_url":"u","start":60,"end":600,"checkpoints":[{"t":700,"questions":` + q + `}]}}`, "after the end"},
 		{"checkpoint before segment start", `{"id":"v","type":"video","level":"B1","title":"V","minutes":12,"milestone":"checkpoint","youtube_id":"x","content":{"channel":"TED","license":"CC","source_url":"u","start":60,"checkpoints":[{"t":30,"questions":` + q + `}]}}`, "increasing"},
 		{"video only final questions", `{"id":"v","type":"video","level":"B1","title":"V","minutes":12,"milestone":"checkpoint","youtube_id":"x","content":{"channel":"TED","license":"CC","source_url":"u","questions":` + q + `}}`, ""},
-		{"verb cloze ok", `{"id":"g","type":"verb_cloze","level":"A2","title":"G","minutes":5,"milestone":"unit","content":{"items":[{"text":"She ___ (go) home.","answers":[["went"]]}]}}`, ""},
+		{"B1 reading without exam practice", b1Reading(""), "exam_practice parts"},
+		{"B1 reading ok", b1Reading(`,"exam_practice":[` + practice + `,` + practice + `]`), ""},
+		{"B1 reading with one part", b1Reading(`,"exam_practice":[` + practice + `]`), "exam_practice parts"},
+		{"B1 reading with untagged practice", b1Reading(`,"exam_practice":[` + strings.Replace(practice, `"tags"`, `"x"`, 1) + `,` + practice + `]`), "tags"},
+		{"game ok", game(6, 5), ""},
+		{"game too short", game(2, 5), "paragraphs"},
+		{"game with few blanks", game(6, 2), "blanks"},
+		{"game without after_unit", strings.Replace(game(6, 5), `"after_unit":"a_bad_day"`, `"subtitle":"s"`, 1), "after_unit"},
+		{"game without tags", strings.Replace(game(6, 5), `,"tags":["past_simple","past_simple","past_simple","past_simple","past_simple"]`, ``, 1), "tags"},
+		{"game tag not in the exam", strings.Replace(game(6, 5), `"tags":["past_simple",`, `"tags":["nope",`, 1), "syllabus"},
+		{"game tag taught later", strings.Replace(game(6, 5), `"tags":["past_simple",`, `"tags":["present_perfect",`, 1), "taught after"},
 		{"bad milestone", `{"id":"g","type":"verb_cloze","level":"A2","title":"G","minutes":5,"milestone":"lesson","content":{"items":[{"text":"She ___ (go) home.","answers":[["went"]]}]}}`, "milestone"},
 		{"vocabulary already taught", `{"id":"g","type":"verb_cloze","level":"A2","title":"G","minutes":5,"milestone":"unit","content":{"items":[{"text":"x ___","answers":[["y"]]}],"vocabulary":[{"term":"Umbrella","translation":"paraguas"}]}}`, "already taught"},
 		{"after unknown unit", `{"id":"g","type":"verb_cloze","level":"A2","title":"G","minutes":5,"milestone":"unit","after_unit":"nope","content":{"items":[{"text":"x ___","answers":[["y"]]}]}}`, "after_unit"},
@@ -81,7 +118,7 @@ func TestClubValidation(t *testing.T) {
 			if err := os.WriteFile(filepath.Join(dir, "a.json"), []byte(tc.doc), 0o644); err != nil {
 				t.Fatal(err)
 			}
-			_, err := LoadClub(dir, "", c, e)
+			_, err := LoadClub(dir, "", c, e, x)
 			if tc.wantErr == "" && err != nil {
 				t.Fatalf("unexpected error: %v", err)
 			}
@@ -186,6 +223,15 @@ func TestPick(t *testing.T) {
 	all["a1-cafe"] = true
 	if got := club.Pick("user-1", unit, all); got != "" {
 		t.Errorf("A1 exhausted should pick nothing, got %q", got)
+	}
+
+	// An activity tied to a later unit waits for it, even if nothing else is left.
+	later := testClub(Activity{ID: "a1-park", Level: "A1", Milestone: MilestoneUnit, AfterUnit: "park", afterPos: 10})
+	if got := later.Pick("user-1", Milestone{Key: "unit:home", Kind: MilestoneUnit, Level: "A1", UnitID: "home", Pos: 3}, none); got != "" {
+		t.Errorf("activity for a later unit came early: %q", got)
+	}
+	if got := later.Pick("user-1", Milestone{Key: "exam:a1", Kind: MilestoneCheckpoint, Level: "A1", Pos: 12}, none); got != "a1-park" {
+		t.Errorf("activity for an earlier unit should still come, got %q", got)
 	}
 }
 

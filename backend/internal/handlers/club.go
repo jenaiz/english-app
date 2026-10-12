@@ -234,7 +234,7 @@ func syncClub(ctx context.Context, st *store.Store, catalog *content.Catalog, cl
 		return nil, err
 	}
 	for _, p := range passed {
-		milestones = append(milestones, content.Milestone{Key: "exam:" + p.ExamID, Kind: content.MilestoneCheckpoint, Level: p.LevelID})
+		milestones = append(milestones, content.Milestone{Key: "exam:" + p.ExamID, Kind: content.MilestoneCheckpoint, Level: p.LevelID, Pos: catalog.LevelEnd(p.LevelID)})
 	}
 	if len(milestones) == 0 {
 		return out, nil

@@ -300,7 +300,7 @@ Campos comunes:
 | `type` | `content` |
 | ------ | --------- |
 | `song` | `{ "artist", "channel", "start"?, "end", "lines": [{ "t", "text": "I ___ you", "answers"?: [["love"]] }], "distractors"?: [..], "mode"?: "bank" \| "type", "questions"?: [ítems de multiple_choice] }`. `channel` es el canal oficial de YouTube (artista o discográfica): solo vídeos oficiales. Solo un fragmento (máx. 16 líneas) por derechos de autor. Hasta A2 los huecos se rellenan con un banco de palabras. `questions` pregunta por la letra tras comprobar los huecos. Se muestra siempre «Canción: "…" de …. Solo con fines educativos.» |
-| `reading` | `{ "kind"?, "paragraphs": [..], "glossary"?: { "palabra": "traducción" }, "questions": [ítems de multiple_choice], "source"? }`. Longitud por nivel: A1 500-800 palabras, A2 700-1200, B1 1000-1800, B2 1500-2500, C1 2000-3000 |
+| `reading` | `{ "kind"?, "paragraphs": [..], "glossary"?: { "palabra": "traducción" }, "questions": [ítems de multiple_choice], "exam_practice"?: [{ "title", "instructions", "items": [ítems de verb_cloze con tags] }], "source"? }`. Longitud por nivel: A1 500-800 palabras, A2 700-1200, B1 1000-1800, B2 1500-2500, C1 2000-3000. Desde B1, práctica de examen obligatoria (ver abajo) |
 | `video` | `{ "speaker"?, "channel", "license", "source_url", "start"?, "end"?, "checkpoints"?: [{ "t", "questions": [..] }], "questions"?: [..] }`. `start`/`end` eligen un tramo de una clase larga. **Sin transcripción**: las charlas (TED incluido) no permiten publicarla, y el backend la rechaza. El vídeo se para en cada `t` y pregunta; `questions` salen al terminar |
 | `verb_cloze` | `{ "instructions"?, "items": [{ "text": "She ___ (go) home.", "answers": [["went"]], "tags": ["past_simple"] }] }`. Es un juego de repaso para el examen de nivel (ver abajo). También vale como paso de una lección, y ahí `tags` es opcional |
 
@@ -310,6 +310,18 @@ Campos comunes:
 - Tiene `after_unit`, y todos sus temas se enseñan en esa unidad o antes. Así el juego solo pregunta lo que el alumno ya ha estudiado.
 
 Al terminar, el juego muestra «Qué repasar para el examen»: los temas con fallos, enlazados a sus unidades, como en el resultado del examen.
+
+**Lecturas de B1 a C1: comprensión y práctica de examen.** Cada nivel pide más que el anterior:
+
+| Nivel | Preguntas de comprensión (mín.) | Partes de `exam_practice` (mín.) | Huecos en total (mín.) |
+|---|---|---|---|
+| B1 | 6 | 2 | 12 |
+| B2 | 7 | 3 | 15 |
+| C1 | 8 | 3 | 18 |
+
+- **Preguntas:** imitan la parte de reading de los exámenes: idea principal, inferencia, significado de una palabra en su párrafo, actitud y propósito del autor.
+- **`exam_practice`:** son las partes de «Uso del inglés» de los exámenes oficiales: una palabra por hueco, forma correcta, formación de palabras y transformaciones con palabra clave.
+- **Reglas de los huecos:** siguen las de los juegos. Cada hueco lleva su tema en `tags` y la lectura necesita `after_unit`, de modo que al terminar sale «Qué repasar para el examen».
 
 **Vocabulario nuevo.** Las actividades sirven para ampliar vocabulario: un término de `vocabulary` no puede estar en el `vocabulary_table` de ninguna unidad. Si lo está, el backend no arranca y dice en qué unidad aparece.
 

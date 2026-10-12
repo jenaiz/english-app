@@ -3,69 +3,199 @@
   "type": "verb_cloze",
   "level": "A2",
   "title": "Shopping at Cabot Circus",
-  "subtitle": "Phrasal verbs en pasado: try on, look for, pick up…",
-  "minutes": 6,
+  "subtitle": "Repaso para el examen A2: phrasal verbs, cantidades y past simple",
+  "minutes": 12,
   "milestone": "checkpoint",
+  "after_unit": "past_memories",
   "content": {
-    "instructions": "Completa con el phrasal verb entre paréntesis en past simple. Si hay un pronombre (it, them), ponlo en su sitio.",
+    "instructions": "Escribe la palabra que falta. Si hay una palabra entre paréntesis, úsala en la forma correcta.",
     "items": [
       {
-        "text": "On Saturday morning Lucía ___ (get up) early because she needed a winter coat. She ___ (put on) her old jacket and ___ (go out) with Priya. It was freezing outside.",
+        "text": "On Saturday morning Lucía ___ (get up) early because she ___ (need) a winter coat. Her old jacket was ___ thin for the Bristol winter. She ___ (put on) a jumper and ___ (go out) with Priya. It ___ (be) freezing outside.",
         "answers": [
           [
             "got up"
+          ],
+          [
+            "needed"
+          ],
+          [
+            "too"
           ],
           [
             "put on"
           ],
           [
             "went out"
+          ],
+          [
+            "was"
           ]
         ],
-        "hint": "Get → got, put → put, go → went. La partícula no cambia."
+        "tags": [
+          "phrasal_verbs",
+          "past_simple",
+          "quantifiers",
+          "phrasal_verbs",
+          "phrasal_verbs",
+          "past_simple"
+        ],
+        "hint": "Get → got, put → put, go → went. Too + adjetivo: demasiado."
       },
       {
-        "text": "At Cabot Circus they ___ (look for) a coat for two hours. In the fitting room, Lucía ___ (try on) a red coat, a black coat and a green coat. The black one had a hood, but the sleeves were too long. She liked the green one, so she ___ (try / it / on) again.",
+        "text": "Cabot Circus was very busy. There were a ___ of people everywhere. They ___ (look for) a coat for two hours. \"There are ___ many shops here!\" Lucía said. \"I ___ (not / know) where to start.\" The bus home ___ (be) at five, so they had to be quick.",
         "answers": [
+          [
+            "lot"
+          ],
           [
             "looked for"
           ],
           [
+            "too"
+          ],
+          [
+            "don't know",
+            "do not know"
+          ],
+          [
+            "was"
+          ]
+        ],
+        "tags": [
+          "quantifiers",
+          "phrasal_verbs",
+          "quantifiers",
+          "present_simple_continuous",
+          "past_simple"
+        ],
+        "hint": "A lot of + plural o incontable. Too many + plural."
+      },
+      {
+        "text": "In the fitting room, Lucía ___ (try on) a red coat, a black coat and a green coat. The black one had a hood, but the sleeves ___ (be) too long. The red one wasn't big ___. She liked the green one, so she ___ (try / it / on) again.",
+        "answers": [
+          [
             "tried on"
+          ],
+          [
+            "were"
+          ],
+          [
+            "enough"
           ],
           [
             "tried it on"
           ]
         ],
-        "hint": "Con un pronombre, los phrasal verbs separables lo llevan en medio: try it on (no «try on it»).",
-        "explanation": "Try on es separable: tried the coat on / tried on the coat, pero siempre tried it on."
+        "tags": [
+          "phrasal_verbs",
+          "past_simple",
+          "quantifiers",
+          "phrasal_verbs"
+        ],
+        "hint": "Enough va detrás del adjetivo: big enough. Con pronombre, en medio: tried it on.",
+        "explanation": "Try on es separable: con un pronombre (it, them) este va en medio, tried it on, nunca «tried on it»."
       },
       {
-        "text": "The coat was only forty pounds! What a bargain! Lucía paid, and then they ___ (sit down) in a café. Lucía's phone rang, but she didn't ___ (pick / it / up) because her hands were full of bags.",
+        "text": "\"How ___ is it?\" Lucía asked the shop assistant. \"It's only forty pounds.\" What a bargain! Lucía ___ (pay) by card. \"Is this bag ___ (you)?\" the shop assistant asked. \"No, it's ___ (Priya).\"",
+        "answers": [
+          [
+            "much"
+          ],
+          [
+            "paid"
+          ],
+          [
+            "yours"
+          ],
+          [
+            "Priya's"
+          ]
+        ],
+        "tags": [
+          "quantifiers",
+          "past_simple",
+          "a1_review",
+          "a1_review"
+        ],
+        "hint": "Precio: how much. Pay → paid. Posesivos: yours, y 's para personas."
+      },
+      {
+        "text": "Then they ___ (sit down) in a café. ___ of them were hungry, so they ordered two big pieces of cake. \"How ___ sugar do you want in your tea?\" Priya asked. \"Just a ___, please.\" Lucía's phone rang, but she didn't ___ (pick / it / up) because her hands were full of bags. It was Javi.",
         "answers": [
           [
             "sat down"
           ],
           [
+            "Both"
+          ],
+          [
+            "much"
+          ],
+          [
+            "little"
+          ],
+          [
             "pick it up"
           ]
         ],
-        "hint": "Después de didn't el verbo va en infinitivo. Sit → sat."
+        "tags": [
+          "phrasal_verbs",
+          "quantifiers",
+          "quantifiers",
+          "quantifiers",
+          "phrasal_verbs"
+        ],
+        "hint": "Both: los dos. Sugar es incontable: how much, a little."
       },
       {
-        "text": "It was Javi. Later, Lucía ___ (call / him / back) and told him about the coat. \"Green? Really?\" Javi said. Then they ___ (find out) that the café was closing, so they ___ (go back) home.",
+        "text": "At five o'clock they ___ (find out) that the café was closing, so they ___ (go back) home. The bus ___ (be) full of people with shopping bags. When she lived in Valencia, Lucía ___ (use to / wear) a thin jacket all winter!",
         "answers": [
-          [
-            "called him back"
-          ],
           [
             "found out"
           ],
           [
             "went back"
+          ],
+          [
+            "was"
+          ],
+          [
+            "used to wear"
           ]
         ],
-        "hint": "Call back es separable: called him back. Find → found."
+        "tags": [
+          "phrasal_verbs",
+          "phrasal_verbs",
+          "past_simple",
+          "used_to"
+        ],
+        "hint": "Find → found. Hábito del pasado: used to + verbo."
+      },
+      {
+        "text": "At home, Lucía ___ (call / him / back) and told him about the coat. \"I ___ (wear) it right now!\" she said. \"Green? Really?\" Javi laughed. \"You ___ (never / wear) green! You ___ (always / say) it's ugly!\"",
+        "answers": [
+          [
+            "called him back"
+          ],
+          [
+            "am wearing",
+            "'m wearing"
+          ],
+          [
+            "never wear"
+          ],
+          [
+            "always say"
+          ]
+        ],
+        "tags": [
+          "phrasal_verbs",
+          "present_simple_continuous",
+          "a1_review",
+          "a1_review"
+        ],
+        "hint": "Ahora mismo: present continuous. Costumbre: present simple con never / always."
       }
     ],
     "vocabulary": [
@@ -96,12 +226,15 @@
       }
     ],
     "expressions": [
-      "phrasal:try-on",
+      "phrasal:get-up",
+      "phrasal:put-on",
+      "phrasal:go-out",
       "phrasal:look-for",
+      "phrasal:try-on",
       "phrasal:pick-up",
-      "phrasal:call-back",
       "phrasal:find-out",
-      "phrasal:go-back"
+      "phrasal:go-back",
+      "phrasal:call-back"
     ]
   }
 }

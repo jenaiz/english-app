@@ -84,6 +84,8 @@ type UnitRef struct {
 	LevelID string
 	ThemeID string
 	Unit    *Unit
+	// Pos is the unit's place in the whole course, from 1 (A1's first unit) on.
+	Pos int
 }
 
 // LessonRef locates a lesson inside the catalog.

@@ -1,6 +1,6 @@
 # Club: catálogo completo y cuándo se ve cada actividad
 
-Foto del contenido del Club a 12/10/2026: 26 actividades en `backend/data/club/`, más 3 de laboratorio que solo existen en dev.
+Foto del contenido del Club a 12/10/2026: 32 actividades en `backend/data/club/`, más 3 de laboratorio que solo existen en dev.
 
 ## Cómo se desbloquea
 
@@ -29,10 +29,10 @@ Foto del contenido del Club a 12/10/2026: 26 actividades en `backend/data/club/`
 |---|---|---|---|---|---|---|
 | A1 | 3 | 2 | – | 1 | 6 | 17 |
 | A2 | 3 | 2 | – | 2 | 7 | 17 |
-| B1 | 2 | – | 2 | – | 4 | 17 |
-| B2 | 2 | – | 3 | – | 5 | 17 |
-| C1 | 2 | – | 2 | – | 4 | 17 |
-| **Total** | **12** | **4** | **7** | **3** | **26** | **85** |
+| B1 | 2 | 2 | 2 | – | 6 | 17 |
+| B2 | 2 | 2 | 3 | – | 7 | 17 |
+| C1 | 2 | 2 | 2 | – | 6 | 17 |
+| **Total** | **12** | **10** | **7** | **3** | **32** | **85** |
 
 ## Catálogo por nivel
 
@@ -67,6 +67,8 @@ La columna «Hito» es el tipo de hito que la prefiere. «Atada a» es la unidad
 |---|---|---|---|---|---|
 | Let Her Go (Passenger) | 🎵 | unidad | – | 5 | 8 líneas (0:23–1:30), 3 preguntas |
 | Thinking Out Loud (Ed Sheeran) | 🎵 | checkpoint | – | 5 | 13 líneas (0:06–1:19), 3 preguntas |
+| Five Days in the West: el blog de Lucía (Dublín y Galway) | 📚 | unidad | `galway_family` · Dinner in Galway | 18 | 1132 palabras, 7 preguntas, 2 partes de examen (20 huecos) |
+| The Café Where Nothing Gets Thrown Away (repair cafés) | 📚 | checkpoint | `good_news` · Good News | 18 | 1049 palabras, 8 preguntas, 2 partes de examen (18 huecos) |
 | AI 101 (Brandon Leshchinskiy, MIT OCW) | 🎬 | checkpoint | – | 11 | tramo 0:30–11:13, 2 pausas + 3 preguntas finales |
 | How to Speak (Patrick Winston, MIT OCW) | 🎬 | checkpoint | – | 10 | tramo 0:15–10:17, 2 pausas + 2 preguntas finales |
 
@@ -74,6 +76,8 @@ La columna «Hito» es el tipo de hito que la prefiere. «Atada a» es la unidad
 
 | Actividad | Sala | Hito | Atada a | Min | Detalle |
 |---|---|---|---|---|---|
+| From the Kitchen to the Charts: reportaje sobre el grupo de Sam | 📚 | unidad | `the_reviews` · The Reviews | 22 | 1549 palabras, 8 preguntas, 3 partes de examen (20 huecos) |
+| Is the Four-Day Week Too Good to Be True? | 📚 | checkpoint | `big_news` · Big News | 22 | 1510 palabras, 8 preguntas, 3 partes de examen (19 huecos) |
 | Rolling in the Deep (Adele) | 🎵 | unidad | – | 4 | estribillo, 8 líneas (0:40–1:18), 3 preguntas |
 | Mr. Brightside (The Killers) | 🎵 | checkpoint | – | 4 | primera estrofa, 7 líneas (0:08–0:24), 3 preguntas |
 | What Changed in the 1980s? (Tom Kochan, MIT OCW) | 🎬 | unidad | – | 5 | completo, 1 pausa + 3 preguntas |
@@ -84,6 +88,8 @@ La columna «Hito» es el tipo de hito que la prefiere. «Atada a» es la unidad
 
 | Actividad | Sala | Hito | Atada a | Min | Detalle |
 |---|---|---|---|---|---|
+| Notes from Above the Bookshop: Lucía como fundadora | 📚 | unidad | `money_talk` · Terms and Conditions | 28 | 2015 palabras, 9 preguntas, 3 partes de examen (24 huecos) |
+| In Defence of Boredom (ensayo) | 📚 | checkpoint | `looking_back` · Home | 28 | 2051 palabras, 9 preguntas, 3 partes de examen (24 huecos) |
 | The Sound of Silence (Simon & Garfunkel) | 🎵 | unidad | – | 5 | 14 líneas (0:08–1:31), 3 preguntas |
 | Bohemian Rhapsody (Queen) | 🎵 | checkpoint | – | 6 | intro, 13 líneas (0:00–0:52), 3 preguntas |
 | The Ethics of AI: Bias (seminario dramatizado, MIT OCW) | 🎬 | unidad | – | 4 | completo, 1 pausa + 3 preguntas |
@@ -123,7 +129,7 @@ Esto es la simulación real del algoritmo `Club.Pick` con los datos actuales, pa
 
 ## Lo que salta a la vista
 
-1. **El catálogo se agota pronto.** En B1, B2 y C1 todo se desbloquea entre las unidades 1 y 4; en A1 y A2 las actividades atadas llegan hasta las unidades 9 y 5. El resto de hitos no da ningún regalo: hay 26 actividades para 85 hitos.
+1. **El catálogo se agota pronto.** En B1, B2 y C1 todo se desbloquea entre las unidades 1 y 4; en A1 y A2 las actividades atadas llegan hasta las unidades 9 y 5. El resto de hitos no da ningún regalo: hay 32 actividades para 85 hitos. Las lecturas de B1 a C1 están atadas a unidades de la segunda mitad de cada nivel, así que ya llegan más tarde.
 2. **El tipo de hito pesa poco.** Los vídeos de B1 se marcaron para checkpoint, pero, como no hay nada más, salen en las unidades 1–3.
 3. **Resuelto (octubre de 2026):** las actividades atadas a una unidad ya no salen antes de ella. Antes *Happy* y *Priya's Long Day* se abrían en las unidades 5 y 6, y su pista («Termina la unidad…») engañaba.
 

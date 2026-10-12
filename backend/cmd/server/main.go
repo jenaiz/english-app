@@ -45,11 +45,6 @@ func main() {
 		log.Fatalf("load expressions: %v", err)
 	}
 	log.Printf("loaded %d idioms, %d phrasal verb families, %d hacks from %s", len(expressions.Idioms), len(expressions.PhrasalVerbs), len(expressions.Hacks), cfg.ExpressionsDir)
-	club, err := content.LoadClub(cfg.ClubDir, cfg.LabClubDir, catalog, expressions)
-	if err != nil {
-		log.Fatalf("load club: %v", err)
-	}
-	log.Printf("loaded %d club activities from %s", len(club.Activities), cfg.ClubDir)
 	voices, err := content.LoadVoices(cfg.VoicesFile)
 	if err != nil {
 		log.Fatalf("load voices: %v", err)
@@ -65,6 +60,12 @@ func main() {
 		log.Fatalf("exams: %v", err)
 	}
 	log.Printf("loaded %d level exams from %s", len(exams.List), cfg.ExamsDir)
+	// After the exams: games take their topics from the exam of their level.
+	club, err := content.LoadClub(cfg.ClubDir, cfg.LabClubDir, catalog, expressions, exams)
+	if err != nil {
+		log.Fatalf("load club: %v", err)
+	}
+	log.Printf("loaded %d club activities from %s", len(club.Activities), cfg.ClubDir)
 
 	pool, err := db.Connect(ctx, cfg.DatabaseURL())
 	if err != nil {

@@ -32,6 +32,12 @@ var readingWords = map[string][2]int{
 	"A1": {500, 800}, "A2": {700, 1200}, "B1": {1000, 1800}, "B2": {1500, 2500}, "C1": {2000, 3000},
 }
 
+// readingMin is what a reading asks per level: comprehension questions and, from B1 on, exam
+// practice parts (open cloze, word formation, transformations) with their blanks in total.
+var readingMin = map[string]struct{ questions, parts, blanks int }{
+	"A1": {3, 0, 0}, "A2": {3, 0, 0}, "B1": {6, 2, 12}, "B2": {7, 3, 15}, "C1": {8, 3, 18},
+}
+
 // maxSongLines keeps song exercises to a fragment (a verse or the chorus): lyrics are copyrighted.
 const maxSongLines = 16
 
@@ -50,9 +56,13 @@ type Activity struct {
 	YouTubeID string `json:"youtube_id,omitempty"`
 	// Milestone is the kind of milestone that unlocks it (MilestoneUnit or MilestoneCheckpoint).
 	Milestone string `json:"milestone"`
-	// AfterUnit, if set, makes finishing that unit unlock this activity first (a theme match).
-	AfterUnit string          `json:"after_unit,omitempty"`
+	// AfterUnit, if set, makes finishing that unit unlock this activity first (a theme match),
+	// and the activity never unlocks before it. afterPos is that unit's course position.
+	AfterUnit string `json:"after_unit,omitempty"`
+	afterPos  int
 	Content   json.RawMessage `json:"content"`
+	// Topics are the level exam topics a game practises (see validateGame), for "what to review".
+	Topics []ActivityTopic `json:"topics,omitempty"`
 	// Lab activities are dev-only showcases (LAB_CLUB_DIR): always open, never picked by a milestone.
 	Lab bool `json:"lab,omitempty"`
 }
@@ -64,16 +74,17 @@ type Club struct {
 }
 
 // LoadClub reads one activity per *.json file under dir (recursively); a missing dir is an
-// empty Club. Units named in after_unit must exist in the catalog and expressions referenced
-// by an activity in exprs. Activities under labDir (if set) are marked as Lab.
-func LoadClub(dir, labDir string, catalog *Catalog, exprs *Expressions) (*Club, error) {
+// empty Club. Units named in after_unit must exist in the catalog, expressions referenced
+// by an activity in exprs, and the topics of a game in its level exam. Activities under labDir
+// (if set) are marked as Lab.
+func LoadClub(dir, labDir string, catalog *Catalog, exprs *Expressions, exams *Exams) (*Club, error) {
 	c := &Club{byID: map[string]*Activity{}}
 	if labDir != "" {
-		if err := c.load(labDir, true, catalog, exprs); err != nil {
+		if err := c.load(labDir, true, catalog, exprs, exams); err != nil {
 			return nil, err
 		}
 	}
-	if err := c.load(dir, false, catalog, exprs); err != nil {
+	if err := c.load(dir, false, catalog, exprs, exams); err != nil {
 		return nil, err
 	}
 	sort.SliceStable(c.Activities, func(i, j int) bool {
@@ -90,7 +101,7 @@ func LoadClub(dir, labDir string, catalog *Catalog, exprs *Expressions) (*Club, 
 	return c, nil
 }
 
-func (c *Club) load(dir string, lab bool, catalog *Catalog, exprs *Expressions) error {
+func (c *Club) load(dir string, lab bool, catalog *Catalog, exprs *Expressions, exams *Exams) error {
 	var paths []string
 	err := filepath.WalkDir(dir, func(path string, d fs.DirEntry, err error) error {
 		if err == nil && !d.IsDir() && strings.HasSuffix(path, ".json") {
@@ -113,7 +124,7 @@ func (c *Club) load(dir string, lab bool, catalog *Catalog, exprs *Expressions) 
 		if err := json.Unmarshal(data, &a); err != nil {
 			return fmt.Errorf("%s: %w", name, err)
 		}
-		if err := a.validate(catalog, exprs); err != nil {
+		if err := a.validate(catalog, exprs, exams); err != nil {
 			return fmt.Errorf("%s: %s: %w", name, a.ID, err)
 		}
 		if _, dup := c.byID[a.ID]; dup {
@@ -132,7 +143,7 @@ func (c *Club) Activity(id string) (*Activity, bool) {
 	return a, ok
 }
 
-func (a *Activity) validate(catalog *Catalog, exprs *Expressions) error {
+func (a *Activity) validate(catalog *Catalog, exprs *Expressions, exams *Exams) error {
 	if a.ID == "" || a.Title == "" {
 		return fmt.Errorf("needs id and title")
 	}
@@ -158,6 +169,7 @@ func (a *Activity) validate(catalog *Catalog, exprs *Expressions) error {
 		if ref.LevelID != a.Level {
 			return fmt.Errorf("after_unit %q is a %s unit, the activity is %s", a.AfterUnit, ref.LevelID, a.Level)
 		}
+		a.afterPos = ref.Pos
 	}
 	if (a.Type == "song" || a.Type == "video") && a.YouTubeID == "" {
 		return fmt.Errorf("needs youtube_id")
@@ -188,11 +200,11 @@ func (a *Activity) validate(catalog *Catalog, exprs *Expressions) error {
 	case "song":
 		return validateSong(a.Content)
 	case "reading":
-		return validateReading(a.Content, a.Level)
+		return a.validateReading(catalog, exams)
 	case "video":
 		return validateVideo(a.Content)
 	case "verb_cloze":
-		return validateVerbCloze(a.Content)
+		return a.validateGame(catalog, exams)
 	}
 	return nil
 }
@@ -261,21 +273,26 @@ func validateSong(raw json.RawMessage) error {
 	return checkQuestions(c.Questions, 0)
 }
 
-func validateReading(raw json.RawMessage, level string) error {
+func (a *Activity) validateReading(catalog *Catalog, exams *Exams) error {
 	var c struct {
-		Paragraphs []string          `json:"paragraphs"`
-		Glossary   map[string]string `json:"glossary"`
-		Questions  []choiceItem      `json:"questions"`
+		Paragraphs   []string          `json:"paragraphs"`
+		Glossary     map[string]string `json:"glossary"`
+		Questions    []choiceItem      `json:"questions"`
+		ExamPractice []struct {
+			Title        string       `json:"title"`
+			Instructions string       `json:"instructions"`
+			Items        []taggedItem `json:"items"`
+		} `json:"exam_practice"`
 	}
-	if err := json.Unmarshal(raw, &c); err != nil {
+	if err := json.Unmarshal(a.Content, &c); err != nil {
 		return err
 	}
 	words := 0
 	for _, p := range c.Paragraphs {
 		words += len(strings.Fields(p))
 	}
-	if r := readingWords[level]; words < r[0] || words > r[1] {
-		return fmt.Errorf("has %d words, a %s reading needs %d-%d", words, level, r[0], r[1])
+	if r := readingWords[a.Level]; words < r[0] || words > r[1] {
+		return fmt.Errorf("has %d words, a %s reading needs %d-%d", words, a.Level, r[0], r[1])
 	}
 	text := strings.ToLower(strings.Join(c.Paragraphs, " "))
 	for w := range c.Glossary {
@@ -283,7 +300,32 @@ func validateReading(raw json.RawMessage, level string) error {
 			return fmt.Errorf("glossary word %q is not in the text", w)
 		}
 	}
-	return checkQuestions(c.Questions, 3)
+	min := readingMin[a.Level]
+	if err := checkQuestions(c.Questions, min.questions); err != nil {
+		return err
+	}
+	// From B1 on, a reading is also exam practice, in the official tests' formats.
+	if min.parts == 0 && len(c.ExamPractice) == 0 {
+		return nil
+	}
+	if len(c.ExamPractice) < min.parts {
+		return fmt.Errorf("a %s reading needs at least %d exam_practice parts, has %d", a.Level, min.parts, len(c.ExamPractice))
+	}
+	blanks := 0
+	for i, p := range c.ExamPractice {
+		if p.Title == "" || p.Instructions == "" || len(p.Items) == 0 {
+			return fmt.Errorf("exam_practice part %d needs title, instructions and items", i+1)
+		}
+		n, err := a.checkTagged(p.Items, catalog, exams)
+		if err != nil {
+			return fmt.Errorf("exam_practice part %d: %w", i+1, err)
+		}
+		blanks += n
+	}
+	if blanks < min.blanks {
+		return fmt.Errorf("a %s reading needs at least %d exam_practice blanks, has %d", a.Level, min.blanks, blanks)
+	}
+	return nil
 }
 
 // validateVideo checks a talk or video. It has no transcript: talks (TED's included) don't
@@ -349,6 +391,97 @@ func validateVerbCloze(raw json.RawMessage) error {
 	})
 }
 
+// gameMin is how much practice a Club game gives per level: paragraphs and blanks in total.
+var gameMin = map[string]struct{ items, blanks int }{
+	"A1": {5, 24}, "A2": {6, 30}, "B1": {6, 32}, "B2": {6, 32}, "C1": {6, 32},
+}
+
+// ActivityTopic is a level exam topic a game practises, with the units that teach it.
+type ActivityTopic struct {
+	Tag   string     `json:"tag"`
+	Label string     `json:"label"`
+	Units []UnitLink `json:"units"`
+}
+
+// taggedItem is a paragraph with ___ blanks, each tagged with a topic of the level exam.
+type taggedItem struct {
+	Text    string     `json:"text"`
+	Answers [][]string `json:"answers"`
+	Tags    []string   `json:"tags"`
+}
+
+// validateGame checks a Club game (a verb_cloze) as practice for the level exam: long enough
+// to reinforce, and every blank tagged (see checkTagged).
+func (a *Activity) validateGame(catalog *Catalog, exams *Exams) error {
+	var c struct {
+		Items []taggedItem `json:"items"`
+	}
+	if err := json.Unmarshal(a.Content, &c); err != nil {
+		return err
+	}
+	min := gameMin[a.Level]
+	if len(c.Items) < min.items {
+		return fmt.Errorf("a %s game needs at least %d paragraphs, has %d", a.Level, min.items, len(c.Items))
+	}
+	blanks, err := a.checkTagged(c.Items, catalog, exams)
+	if err != nil {
+		return err
+	}
+	if blanks < min.blanks {
+		return fmt.Errorf("a %s game needs at least %d blanks, has %d", a.Level, min.blanks, blanks)
+	}
+	return nil
+}
+
+// checkTagged checks blanks that practise the level exam: every one tagged with a topic of the
+// exam syllabus, and the activity tied to a unit (after_unit) by which all of those topics have
+// been taught. It adds the topics to a.Topics and returns how many blanks there are.
+func (a *Activity) checkTagged(items []taggedItem, catalog *Catalog, exams *Exams) (int, error) {
+	if a.AfterUnit == "" {
+		return 0, fmt.Errorf("needs after_unit: the unit by which everything it practises has been taught")
+	}
+	var exam *Exam
+	if exams != nil {
+		exam, _ = exams.ForLevel(a.Level)
+	}
+	if exam == nil {
+		return 0, fmt.Errorf("no %s exam to take the topics from", a.Level)
+	}
+	blanks := 0
+	seen := map[string]bool{}
+	for _, t := range a.Topics {
+		seen[t.Tag] = true
+	}
+	for i, it := range items {
+		if err := checkBlanks(it.Text, it.Answers); err != nil {
+			return 0, fmt.Errorf("item %d %w", i+1, err)
+		}
+		if len(it.Tags) != len(it.Answers) {
+			return 0, fmt.Errorf("item %d has %d blanks but %d tags", i+1, len(it.Answers), len(it.Tags))
+		}
+		blanks += len(it.Answers)
+		for _, tag := range it.Tags {
+			t, ok := exam.topics[tag]
+			if !ok {
+				return 0, fmt.Errorf("item %d: tag %q is not in the %s exam syllabus", i+1, tag, a.Level)
+			}
+			if seen[tag] {
+				continue
+			}
+			seen[tag] = true
+			taught := false
+			for _, u := range t.Links {
+				taught = taught || catalog.unitByID[u.UnitID].Pos <= a.afterPos
+			}
+			if !taught {
+				return 0, fmt.Errorf("item %d: topic %q is taught after unit %s (in %s)", i+1, tag, a.AfterUnit, strings.Join(t.Units, ", "))
+			}
+			a.Topics = append(a.Topics, ActivityTopic{Tag: t.Tag, Label: t.Label, Units: t.Links})
+		}
+	}
+	return blanks, nil
+}
+
 // checkBlanks requires one non-empty list of accepted answers per ___ in text.
 func checkBlanks(text string, answers [][]string) error {
 	if text == "" {
@@ -397,6 +530,9 @@ type Milestone struct {
 	Kind   string
 	Level  string
 	UnitID string
+	// Pos is the course position of the unit reached (see UnitRef.Pos); a level exam has the
+	// position of the level's last unit.
+	Pos int
 }
 
 // Milestones lists the milestones reached with these completed lessons, in course order.
@@ -412,11 +548,11 @@ func (c *Catalog) Milestones(done map[string]bool) []Milestone {
 						continue
 					}
 					if ls.Kind == KindTest {
-						out = append(out, Milestone{Key: "checkpoint:" + ls.LessonID, Kind: MilestoneCheckpoint, Level: l.LevelID, UnitID: u.UnitID})
+						out = append(out, Milestone{Key: "checkpoint:" + ls.LessonID, Kind: MilestoneCheckpoint, Level: l.LevelID, UnitID: u.UnitID, Pos: c.unitByID[u.UnitID].Pos})
 					}
 				}
 				if all {
-					out = append(out, Milestone{Key: "unit:" + u.UnitID, Kind: MilestoneUnit, Level: l.LevelID, UnitID: u.UnitID})
+					out = append(out, Milestone{Key: "unit:" + u.UnitID, Kind: MilestoneUnit, Level: l.LevelID, UnitID: u.UnitID, Pos: c.unitByID[u.UnitID].Pos})
 				}
 			}
 		}
@@ -426,16 +562,17 @@ func (c *Catalog) Milestones(done map[string]bool) []Milestone {
 
 // Pick chooses the activity a milestone unlocks for a user, or "" if there is none left.
 // It prefers, in order: an activity tied to the milestone's unit, one of the milestone's kind
-// and level, one of the same level, and then any other (lower levels, or tied to other units). Among equals the choice is a
+// and level, one of the same level, and then any other (lower levels, or tied to earlier units).
+// An activity tied to a unit never comes before that unit. Among equals the choice is a
 // shuffle seeded by user and milestone, so every learner gets their own surprises but the
 // same learner always gets the same one.
 func (c *Club) Pick(userID string, m Milestone, unlocked map[string]bool) string {
 	best, bestTier := []string{}, 5
 	for _, a := range c.Activities {
-		if a.Lab || unlocked[a.ID] || rank(a.Level) > rank(m.Level) {
+		if a.Lab || unlocked[a.ID] || rank(a.Level) > rank(m.Level) || a.afterPos > m.Pos {
 			continue
 		}
-		// Activities tied to another unit wait for it, unless nothing else is left.
+		// Activities tied to an earlier unit missed it: they only come when nothing else is left.
 		tier := 3
 		switch {
 		case a.AfterUnit == m.UnitID && a.AfterUnit != "":

@@ -129,7 +129,32 @@ func Load(dirs ...string) (*Catalog, error) {
 	sort.SliceStable(c.levels, func(i, j int) bool {
 		return rank(c.levels[i].LevelID) < rank(c.levels[j].LevelID)
 	})
+	// Course order of the units, once the levels are sorted.
+	pos := 0
+	for _, l := range c.levels {
+		for _, th := range l.Themes {
+			for _, u := range th.Units {
+				pos++
+				ref := c.unitByID[u.UnitID]
+				ref.Pos = pos
+				c.unitByID[u.UnitID] = ref
+			}
+		}
+	}
 	return c, nil
+}
+
+// LevelEnd is the course position of the last unit of a level (see UnitRef.Pos), or 0.
+func (c *Catalog) LevelEnd(levelID string) int {
+	end := 0
+	if l, ok := c.levelByID[levelID]; ok {
+		for _, th := range l.Themes {
+			for _, u := range th.Units {
+				end = max(end, c.unitByID[u.UnitID].Pos)
+			}
+		}
+	}
+	return end
 }
 
 // themeOf returns the level's theme with the given id, appending an empty one if missing.

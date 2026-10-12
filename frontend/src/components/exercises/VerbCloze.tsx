@@ -8,15 +8,16 @@ import type { ItemStatus } from './useExerciseItems'
 const BASE = /^(\s*)\(([^)]+)\)/
 
 /**
- * Textbook-style cloze: whole paragraphs with several blanks, each followed by the verb in
- * brackets to put in the right form. Every blank counts towards the score, not just the item.
+ * Textbook-style cloze: whole paragraphs with several blanks, each optionally followed by the
+ * word in brackets to put in the right form. Every blank counts towards the score, not just the
+ * item, and tagged blanks (Club games) also count towards their exam topic.
  */
 export default function VerbCloze({ content, onComplete }: { content: VerbClozeContent; onComplete: (r: ExerciseResult) => void }) {
   const [index, setIndex] = useState(0)
   const [status, setStatus] = useState<ItemStatus>('answering')
   const [values, setValues] = useState<string[]>([])
   const [done, setDone] = useState(false)
-  const score = useRef({ correct: 0, total: 0 })
+  const score = useRef<Required<ExerciseResult>>({ correct: 0, total: 0, byTag: {} })
 
   if (done) return <ExerciseDone correct={score.current.correct} total={score.current.total} />
 
@@ -28,13 +29,19 @@ export default function VerbCloze({ content, onComplete }: { content: VerbClozeC
 
   const check = () => {
     const right = item.answers.filter((_, i) => blankOk(i)).length
-    score.current = { correct: score.current.correct + right, total: score.current.total + item.answers.length }
+    score.current.correct += right
+    score.current.total += item.answers.length
+    item.tags?.forEach((tag, i) => {
+      const t = (score.current.byTag[tag] ??= { correct: 0, total: 0 })
+      t.total++
+      if (blankOk(i)) t.correct++
+    })
     setStatus(right === item.answers.length ? 'correct' : 'wrong')
   }
   const next = () => {
     if (isLast) {
       setDone(true)
-      onComplete(score.current)
+      onComplete({ ...score.current })
       return
     }
     setIndex(index + 1)

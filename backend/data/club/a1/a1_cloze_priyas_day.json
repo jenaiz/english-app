@@ -3,41 +3,61 @@
   "type": "verb_cloze",
   "level": "A1",
   "title": "Priya's Long Day",
-  "subtitle": "Present simple: he/she/it con -s y do/does",
-  "minutes": 5,
+  "subtitle": "Repaso para el examen A1: present simple, frecuencia, there is, preguntas…",
+  "minutes": 10,
   "milestone": "unit",
   "after_unit": "shift_work",
   "content": {
-    "instructions": "Completa con el present simple del verbo entre paréntesis.",
+    "instructions": "Escribe la palabra que falta. Si hay una palabra entre paréntesis, úsala en la forma correcta.",
     "items": [
       {
-        "text": "Priya ___ (be) a nurse. She ___ (work) at the hospital in Bristol, and she ___ (have) a very long day. She ___ (get up) at six o'clock, she ___ (have) a quick shower and she puts on her blue uniform. She is always sleepy in the morning.",
+        "text": "Priya ___ (be) a nurse, and she ___ (have) a very long day. She ___ (get up / always) at six o'clock ___ the morning and she ___ (have) a quick shower. Then she puts on ___ blue uniform. She ___ (be / always) sleepy in the morning!",
         "answers": [
           [
             "is",
             "'s"
           ],
           [
-            "works"
+            "has"
+          ],
+          [
+            "always gets up"
+          ],
+          [
+            "in"
           ],
           [
             "has"
           ],
           [
-            "gets up"
+            "her"
           ],
           [
-            "has"
+            "is always",
+            "'s always"
           ]
         ],
-        "hint": "Con he, she e it el verbo lleva -s. Cuidado: have → has."
+        "tags": [
+          "to_be",
+          "present_simple",
+          "frequency_adverbs",
+          "time_prepositions",
+          "present_simple",
+          "pronouns_possessives",
+          "frequency_adverbs"
+        ],
+        "hint": "Con he/she el verbo lleva -s (have → has). Always va antes del verbo, pero después de be.",
+        "explanation": "She always gets up, pero She is always sleepy: el adverbio de frecuencia va detrás de be."
       },
       {
-        "text": "She ___ (not / eat) a big breakfast. She only ___ (drink) a cup of tea. Then she ___ (go) to the hospital by bus. The bus ___ (leave) at a quarter to seven.",
+        "text": "She ___ (not / eat) a big breakfast ___ she is never hungry at that time. She only ___ (drink) a cup of tea. Then she ___ (go) to the hospital by bus. The bus ___ (leave) at a quarter to seven. ___ Saturdays she ___ (walk / usually) to work.",
         "answers": [
           [
             "doesn't eat",
             "does not eat"
+          ],
+          [
+            "because"
           ],
           [
             "drinks"
@@ -47,14 +67,35 @@
           ],
           [
             "leaves"
+          ],
+          [
+            "On"
+          ],
+          [
+            "usually walks"
           ]
         ],
-        "hint": "Negativa con he/she/it: doesn't + verbo sin -s. Go → goes.",
-        "explanation": "Después de doesn't el verbo va en infinitivo: She doesn't eat (no «doesn't eats»)."
+        "tags": [
+          "present_simple",
+          "linking_words",
+          "present_simple",
+          "present_simple",
+          "present_simple",
+          "time_prepositions",
+          "frequency_adverbs"
+        ],
+        "hint": "Negativa con he/she: doesn't + verbo sin -s. Días de la semana: on.",
+        "explanation": "Después de doesn't el verbo va sin -s: She doesn't eat (no «doesn't eats»)."
       },
       {
-        "text": "At the hospital, Priya ___ (help) the doctors and she ___ (talk) to the patients. Her shift ___ (finish) at seven in the evening. \"___ (you / like) your job?\" Lucía asks. \"Yes, I love it,\" Priya says.",
+        "text": "The hospital is very big. There ___ (be) six floors and there ___ (be) a small café on the ground floor. Priya ___ (help) the doctors and she ___ (talk) to the patients. \"Is there ___ milk for my tea?\" an old man asks. \"Sorry, there isn't ___ milk today, but there's ___ orange juice.\"",
         "answers": [
+          [
+            "are"
+          ],
+          [
+            "is"
+          ],
           [
             "helps"
           ],
@@ -62,16 +103,90 @@
             "talks"
           ],
           [
-            "finishes"
+            "any"
           ],
           [
-            "Do you like"
+            "any"
+          ],
+          [
+            "some"
           ]
         ],
-        "hint": "Los verbos que acaban en -sh, -ch, -s, -x llevan -es: finish → finishes."
+        "tags": [
+          "there_is_some_any",
+          "there_is_some_any",
+          "present_simple",
+          "present_simple",
+          "there_is_some_any",
+          "there_is_some_any",
+          "there_is_some_any"
+        ],
+        "hint": "There are + plural, there is + singular. Any en preguntas y negativas, some en afirmativas."
       },
       {
-        "text": "Sam and Priya ___ (not / have) the same timetable. Sam ___ (work) at night and he ___ (sleep) in the morning. \"When ___ (Sam / do) the washing-up?\" Lucía asks. Priya ___ (laugh): \"Never!\"",
+        "text": "At one o'clock Priya ___ (have) lunch in the café. \"I'd ___ a cheese sandwich and ___ apple, please.\" \"Here you are.\" \"How ___ is that?\" \"Four pounds fifty.\" Priya looks at the cakes. \"And ___ cakes there, next to the window?\" \"They're lemon cakes. They're ___ (Sam) favourite!\"",
+        "answers": [
+          [
+            "has"
+          ],
+          [
+            "like"
+          ],
+          [
+            "an"
+          ],
+          [
+            "much"
+          ],
+          [
+            "those",
+            "the"
+          ],
+          [
+            "Sam's"
+          ]
+        ],
+        "tags": [
+          "present_simple",
+          "how_much_id_like",
+          "articles_demonstratives",
+          "how_much_id_like",
+          "articles_demonstratives",
+          "possessive_s"
+        ],
+        "hint": "An delante de sonido vocálico. Para algo lejos de ti: that (singular) / those (plural)."
+      },
+      {
+        "text": "At home, Lucía has a lot of questions. \"___ (you / like) your job?\" \"Yes, I love it.\" \"What time ___ your shift finish?\" \"___ seven o'clock in the evening.\" \"And ___ (you / work) at the weekend?\" \"Yes, I ___. One Saturday a month.\"",
+        "answers": [
+          [
+            "Do you like"
+          ],
+          [
+            "does"
+          ],
+          [
+            "At"
+          ],
+          [
+            "do you work"
+          ],
+          [
+            "do"
+          ]
+        ],
+        "tags": [
+          "questions",
+          "questions",
+          "time_prepositions",
+          "questions",
+          "questions"
+        ],
+        "hint": "Preguntas: do / does + sujeto + verbo. Con la hora: at.",
+        "explanation": "Your shift = it, por eso does: What time does your shift finish?"
+      },
+      {
+        "text": "Sam and Priya ___ (not / have) the same timetable. Sam ___ (work) at night ___ he sleeps in the morning. \"When ___ (Sam / do) the washing-up?\" Lucía asks. Priya laughs: \"Never! ___ (he / be) a good friend, ___ he's a terrible flatmate!\"",
         "answers": [
           [
             "don't have",
@@ -81,16 +196,29 @@
             "works"
           ],
           [
-            "sleeps"
+            "and",
+            "so"
           ],
           [
             "does Sam do"
           ],
           [
-            "laughs"
+            "He's",
+            "He is"
+          ],
+          [
+            "but"
           ]
         ],
-        "hint": "Pregunta con he/she/it: does + sujeto + verbo sin -s."
+        "tags": [
+          "present_simple",
+          "present_simple",
+          "linking_words",
+          "questions",
+          "to_be",
+          "linking_words"
+        ],
+        "hint": "Sam and Priya = they: don't. Para contrastar dos ideas: but."
       }
     ],
     "vocabulary": [
@@ -113,6 +241,11 @@
         "term": "sleepy",
         "translation": "con sueño, adormilado/a",
         "definition": "tired and ready to sleep"
+      },
+      {
+        "term": "ground floor",
+        "translation": "planta baja",
+        "definition": "the floor of a building at the same level as the street"
       }
     ],
     "expressions": [

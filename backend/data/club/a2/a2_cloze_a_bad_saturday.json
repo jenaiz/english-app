@@ -3,16 +3,19 @@
   "type": "verb_cloze",
   "level": "A2",
   "title": "Sam's Terrible Saturday",
-  "subtitle": "Past simple: verbos regulares e irregulares",
-  "minutes": 6,
+  "subtitle": "Repaso para el examen A2: past simple y continuous, used to, cantidades…",
+  "minutes": 12,
   "milestone": "unit",
   "after_unit": "a_bad_day",
   "content": {
-    "instructions": "Completa con el past simple del verbo entre paréntesis.",
+    "instructions": "Escribe la palabra que falta. Si hay una palabra entre paréntesis, úsala en la forma correcta.",
     "items": [
       {
-        "text": "Last Saturday was a terrible day for Sam. He ___ (wake up) late because his phone ___ (not / ring). He ___ (run) to the bathroom, but Priya was already in the shower.",
+        "text": "Last Saturday ___ (be) a terrible day for Sam. He ___ (wake up) late because his phone ___ (not / ring). While he ___ (look for) his socks, Priya ___ (knock) on the door: \"Sam! The bathroom is free!\"",
         "answers": [
+          [
+            "was"
+          ],
           [
             "woke up"
           ],
@@ -21,34 +24,127 @@
             "did not ring"
           ],
           [
-            "ran"
+            "was looking for"
+          ],
+          [
+            "knocked"
           ]
         ],
-        "hint": "Wake → woke, run → ran. Negativa: didn't + infinitivo."
+        "tags": [
+          "past_simple",
+          "phrasal_verbs",
+          "past_simple",
+          "past_continuous",
+          "past_simple"
+        ],
+        "hint": "Wake → woke. While + past continuous para la acción larga."
       },
       {
-        "text": "He ___ (make) a coffee, but there ___ (be) no milk in the fridge. So he ___ (go) to the shop in his pyjamas. He felt really embarrassed. The shop assistant ___ (look) at him and ___ (smile).",
+        "text": "___, Sam went to the kitchen. He wanted a big breakfast, but there wasn't ___ milk and there ___ (be) only one egg. \"How ___ eggs have we got?\" he shouted. \"None!\" Priya answered. He made a coffee, but it was ___ hot to drink, and he didn't have ___ time to wait.",
         "answers": [
           [
-            "made"
+            "First",
+            "Then"
+          ],
+          [
+            "any"
           ],
           [
             "was"
           ],
           [
+            "many"
+          ],
+          [
+            "too"
+          ],
+          [
+            "enough"
+          ]
+        ],
+        "tags": [
+          "sequencing_adverbs",
+          "quantifiers",
+          "past_simple",
+          "quantifiers",
+          "quantifiers",
+          "quantifiers"
+        ],
+        "hint": "How many + contables (eggs). Too + adjetivo (demasiado); enough + nombre (suficiente)."
+      },
+      {
+        "text": "So he ___ (go) to the shop in his pyjamas. It ___ (rain) when he ___ (leave) the house. While he ___ (pay), he ___ (see) Mrs Green behind him. She ___ (look) at his pyjamas and ___ (smile) ___ (polite). Sam felt really embarrassed.",
+        "answers": [
+          [
             "went"
+          ],
+          [
+            "was raining"
+          ],
+          [
+            "left"
+          ],
+          [
+            "was paying"
+          ],
+          [
+            "saw"
           ],
           [
             "looked"
           ],
           [
             "smiled"
+          ],
+          [
+            "politely"
           ]
         ],
-        "hint": "There was + singular / incontable (milk). Look y smile son regulares: -ed."
+        "tags": [
+          "past_simple",
+          "past_continuous",
+          "past_simple",
+          "past_continuous",
+          "past_simple",
+          "past_simple",
+          "past_simple",
+          "sequencing_adverbs"
+        ],
+        "hint": "La acción larga en past continuous, la corta en past simple. Adverbio de modo: adjetivo + -ly.",
+        "explanation": "It was raining (acción en curso) when he left (acción corta que ocurre en medio)."
       },
       {
-        "text": "In the afternoon Sam ___ (take) his guitar to The Old Duke for a concert. On the way, it ___ (start) to rain and he ___ (not / have) an umbrella. He stepped in a big puddle and he ___ (arrive) at the pub soaked.",
+        "text": "Sam wasn't always like this. When he was at school, he ___ (use to / get up) at seven every day and he ___ (not / use to / be) late. His mum ___ (use to / say) that he was a very tidy boy! These days he ___ (often / sleep) until ten, and he ___ (work) at the pub until late.",
+        "answers": [
+          [
+            "used to get up"
+          ],
+          [
+            "didn't use to be",
+            "did not use to be"
+          ],
+          [
+            "used to say"
+          ],
+          [
+            "often sleeps"
+          ],
+          [
+            "works"
+          ]
+        ],
+        "tags": [
+          "used_to",
+          "used_to",
+          "used_to",
+          "a1_review",
+          "present_simple_continuous"
+        ],
+        "hint": "Afirmativa: used to + verbo. Negativa: didn't use to (sin -d).",
+        "explanation": "Con didn't el verbo vuelve a la forma base: didn't use to, no «didn't used to»."
+      },
+      {
+        "text": "In the afternoon Sam ___ (take) his guitar to The Old Duke. On the way, it ___ (start) to rain again and he ___ (not / have) an umbrella. He ___ (step) in a big puddle and ___ (arrive) at the pub soaked. ___, at eight o'clock, the concert started.",
         "answers": [
           [
             "took"
@@ -61,19 +157,35 @@
             "did not have"
           ],
           [
-            "arrived"
-          ]
-        ],
-        "hint": "Take → took. Negativa: didn't + infinitivo (have, no had)."
-      },
-      {
-        "text": "\"___ (you / play) well?\" Lucía ___ (ask) him the next day. \"Well, I ___ (forget) the words of the first song,\" Sam said, \"but the people ___ (love) it. They ___ (think) it was a joke!\"",
-        "answers": [
-          [
-            "Did you play"
+            "stepped"
           ],
           [
-            "asked"
+            "arrived"
+          ],
+          [
+            "Finally",
+            "In the end",
+            "Then"
+          ]
+        ],
+        "tags": [
+          "past_simple",
+          "past_simple",
+          "past_simple",
+          "past_simple",
+          "past_simple",
+          "sequencing_adverbs"
+        ],
+        "hint": "Step → stepped: se dobla la consonante final."
+      },
+      {
+        "text": "Sam ___ (play) the first song very ___ (bad): he ___ (forget) the words! But the people ___ (love) it. They ___ (think) it was a joke, and everybody ___ (laugh) ___ (happy).",
+        "answers": [
+          [
+            "played"
+          ],
+          [
+            "badly"
           ],
           [
             "forgot"
@@ -83,9 +195,55 @@
           ],
           [
             "thought"
+          ],
+          [
+            "laughed"
+          ],
+          [
+            "happily"
           ]
         ],
-        "hint": "Pregunta: did + sujeto + infinitivo. Forget → forgot, think → thought."
+        "tags": [
+          "past_simple",
+          "sequencing_adverbs",
+          "past_simple",
+          "past_simple",
+          "past_simple",
+          "past_simple",
+          "sequencing_adverbs"
+        ],
+        "hint": "Bad → badly; happy → happily (y → i)."
+      },
+      {
+        "text": "On Sunday Javi ___ (call) Lucía. \"___ (Sam / do) right now?\" he asked. \"He ___ (sleep) on the sofa,\" Lucía said. \"He ___ (always / sleep) on Sundays. And he ___ (want) to sing that song again next Friday!\"",
+        "answers": [
+          [
+            "called"
+          ],
+          [
+            "What is Sam doing",
+            "What's Sam doing"
+          ],
+          [
+            "is sleeping",
+            "'s sleeping"
+          ],
+          [
+            "always sleeps"
+          ],
+          [
+            "wants"
+          ]
+        ],
+        "tags": [
+          "past_simple",
+          "present_simple_continuous",
+          "present_simple_continuous",
+          "a1_review",
+          "present_simple_continuous"
+        ],
+        "hint": "Ahora mismo: present continuous. Costumbre: present simple. Want no va en continuous.",
+        "explanation": "Want es un verbo de estado: he wants, nunca «he is wanting»."
       }
     ],
     "vocabulary": [
@@ -114,6 +272,9 @@
         "translation": "por el camino",
         "definition": "while going somewhere"
       }
+    ],
+    "expressions": [
+      "phrasal:look-for"
     ]
   }
 }

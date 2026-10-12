@@ -141,6 +141,7 @@ export default function ClubActivity() {
             total={finished.total}
             bestScore={finished.best}
             album={finished.album}
+            byTag={finished.byTag}
             onRestart={() => {
               setFinished(null)
               setRound((n) => n + 1)

@@ -1,9 +1,10 @@
 import { Fragment, useEffect, useMemo, useRef, useState } from 'react'
-import { BookOpen, ListChecks, Volume2, X } from 'lucide-react'
+import { BookOpen, GraduationCap, ListChecks, Volume2, X } from 'lucide-react'
 import { canSpeak, speak, stopSpeaking } from '../../lib/speech'
 import type { ExerciseResult, ReadingContent } from '../../types'
 import SpeakButton from '../SpeakButton'
 import MultipleChoice from '../exercises/MultipleChoice'
+import VerbCloze from '../exercises/VerbCloze'
 
 interface Props {
   content: ReadingContent
@@ -16,9 +17,13 @@ const escape = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 /**
  * A long reading in reader mode: glossary words are underlined and show their meaning when
  * tapped, and a comprehension test follows the text (which stays above, to look things up).
+ * From B1 on, exam practice parts in the official tests' formats come after the test.
  */
 export default function ReadingPlayer({ content, onFinish }: Props) {
   const [testing, setTesting] = useState(false)
+  // 0 is the comprehension test; 1… are the exam practice parts.
+  const [stage, setStage] = useState(0)
+  const total = useRef<Required<ExerciseResult>>({ correct: 0, total: 0, byTag: {} })
   const [progress, setProgress] = useState(0)
   const [term, setTerm] = useState<string | null>(null)
   const articleRef = useRef<HTMLElement>(null)
@@ -56,7 +61,22 @@ export default function ReadingPlayer({ content, onFinish }: Props) {
 
   useEffect(() => {
     if (testing) testRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-  }, [testing])
+  }, [testing, stage])
+
+  const parts = content.exam_practice ?? []
+  const part = stage > 0 ? parts[stage - 1] : null
+  const stageDone = (r: ExerciseResult) => {
+    const t = total.current
+    t.correct += r.correct
+    t.total += r.total
+    for (const [tag, s] of Object.entries(r.byTag ?? {})) {
+      const acc = (t.byTag[tag] ??= { correct: 0, total: 0 })
+      acc.correct += s.correct
+      acc.total += s.total
+    }
+    if (stage < parts.length) setStage(stage + 1)
+    else onFinish({ ...t })
+  }
 
   const words = content.paragraphs.reduce((n, p) => n + p.split(/\s+/).length, 0)
 
@@ -143,13 +163,29 @@ export default function ReadingPlayer({ content, onFinish }: Props) {
 
       {testing && (
         <section ref={testRef} className="mx-auto mt-6 max-w-2xl scroll-mt-24 rounded-3xl border border-slate-200 bg-white p-5 shadow-sm md:p-8">
-          <h2 className="mb-4 flex items-center gap-2 font-display text-xl font-bold text-slate-900">
-            <ListChecks className="h-5 w-5 text-emerald-600" /> ¿Lo has entendido?
-          </h2>
-          <MultipleChoice
-            content={{ instructions: 'Puedes volver a mirar el texto si lo necesitas.', items: content.questions }}
-            onComplete={onFinish}
-          />
+          {parts.length > 0 && (
+            <p className="mb-2 text-xs font-semibold tracking-wide text-slate-400 uppercase">
+              Parte {stage + 1} de {parts.length + 1}
+            </p>
+          )}
+          {part ? (
+            <>
+              <h2 className="mb-4 flex items-center gap-2 font-display text-xl font-bold text-slate-900">
+                <GraduationCap className="h-5 w-5 text-indigo-600" /> {part.title}
+              </h2>
+              <VerbCloze key={stage} content={{ instructions: part.instructions, items: part.items }} onComplete={stageDone} />
+            </>
+          ) : (
+            <>
+              <h2 className="mb-4 flex items-center gap-2 font-display text-xl font-bold text-slate-900">
+                <ListChecks className="h-5 w-5 text-emerald-600" /> ¿Lo has entendido?
+              </h2>
+              <MultipleChoice
+                content={{ instructions: 'Puedes volver a mirar el texto si lo necesitas.', items: content.questions }}
+                onComplete={stageDone}
+              />
+            </>
+          )}
         </section>
       )}
     </div>

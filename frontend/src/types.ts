@@ -176,6 +176,8 @@ export interface GrammarTable {
 export interface ExerciseResult {
   correct: number
   total: number
+  /** Per exam topic, for exercises whose blanks are tagged (Club games). */
+  byTag?: Record<string, { correct: number; total: number }>
 }
 
 // ---- SRS ----
@@ -378,6 +380,8 @@ export interface ReadingContent extends ActivityExtras {
   /** Words or phrases of the text with their Spanish meaning. */
   glossary?: Record<string, string>
   questions: ChoiceItem[]
+  /** From B1 on: parts in the official tests' formats (open cloze, word formation, transformations). */
+  exam_practice?: { title: string; instructions: string; items: VerbClozeItem[] }[]
   source?: string
 }
 
@@ -397,9 +401,11 @@ export interface VideoContent extends ActivityExtras {
 }
 
 export interface VerbClozeItem extends ItemBase {
-  /** Paragraph with ___ blanks, each followed by the base verb in brackets: "She ___ (go) home." */
+  /** Paragraph with ___ blanks, each optionally followed by a word in brackets to put in the right form: "She ___ (go) home." */
   text: string
   answers: string[][]
+  /** Level exam topic of each blank (required in Club games). */
+  tags?: string[]
 }
 export type VerbClozeContent = ItemsContent<VerbClozeItem> & ActivityExtras
 
@@ -414,10 +420,27 @@ export interface Activity {
   youtube_id?: string
   milestone: 'unit' | 'checkpoint'
   after_unit?: string
+  /** Level exam topics a game practises, with the units that teach them. */
+  topics?: { tag: string; label: string; units: UnitLink[] }[]
   content: SongContent | ReadingContent | VideoContent | VerbClozeContent
 }
 
 // ---- Level exams ----
+
+export interface UnitLink {
+  unit_id: string
+  level_id: string
+  title: string
+}
+
+/** A syllabus topic after grading, with the units that teach it. */
+export interface TopicScore {
+  tag: string
+  label: string
+  correct: number
+  total: number
+  units: UnitLink[]
+}
 
 export interface ExamStatus {
   attempts: number
@@ -485,7 +508,7 @@ export interface ExamResult {
   score: number
   passed: boolean
   sections: { section_id: string; title: string; correct: number; total: number; score: number; passed: boolean }[]
-  topics: { tag: string; label: string; correct: number; total: number; units: { unit_id: string; level_id: string; title: string }[] }[]
+  topics: TopicScore[]
   review: {
     section_id: string
     part_id: string
