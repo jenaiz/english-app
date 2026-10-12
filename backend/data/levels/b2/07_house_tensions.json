@@ -7,7 +7,7 @@
         {
           "unit_id": "house_tensions",
           "title": "Night Shifts",
-          "description": "Quéjate de lo que te molesta y lamenta lo que no puedes cambiar: wish e if only.",
+          "description": "Quéjate de lo que te molesta y lamenta lo que no puedes cambiar: wish e if only. Además, quejarse de hábitos con always + -ing y estar de acuerdo con So do I / Neither do I.",
           "lessons": [
             {
               "lesson_id": "house_tensions_lesson",
@@ -166,6 +166,52 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "always + -ing · So do I, Neither do I",
+                    "explanation": "El present continuous con always (o constantly, forever) expresa un hábito que nos molesta: Ollie is always cooking at two in the morning! He's constantly leaving pans in the sink. En past continuous, un hábito molesto del pasado: Sam was always playing the guitar at midnight.\n\nPara decir que a nosotros nos pasa lo mismo, usamos el auxiliar de la frase:\n• Frase afirmativa → So + auxiliar + sujeto: I'm tired. — So am I. I love his food. — So do I.\n• Frase negativa → Neither / Nor + auxiliar + sujeto: I can't sleep. — Neither can I. I didn't hear him. — Neither did I.\n\nSi no estamos de acuerdo, se invierte: I love his food. — I don't! / I can't cook. — I can!",
+                    "table": {
+                      "headers": [
+                        "Frase",
+                        "Yo también / Yo tampoco"
+                      ],
+                      "rows": [
+                        [
+                          "I'm exhausted.",
+                          "So am I."
+                        ],
+                        [
+                          "I love Ollie's food.",
+                          "So do I."
+                        ],
+                        [
+                          "I've been awake since two.",
+                          "So have I."
+                        ],
+                        [
+                          "I can't sleep.",
+                          "Neither can I."
+                        ],
+                        [
+                          "I didn't hear him come in.",
+                          "Neither did I."
+                        ],
+                        [
+                          "Ollie is always cooking at night!",
+                          "(queja: always + -ing)"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Ollie is always cooking at two in the morning!",
+                      "I wish I could cook like him. — So do I!",
+                      "I didn't sleep at all. — Neither did I.",
+                      "Sam was always playing the guitar at midnight."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -274,6 +320,66 @@
                         "source": "I don't have a car.",
                         "answers": [
                           "I wish I had a car"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa la respuesta o la queja.",
+                    "items": [
+                      {
+                        "sentence": "I'm exhausted. — So ___ I.",
+                        "answers": [
+                          [
+                            "am"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I love Ollie's food. — So ___ I.",
+                        "answers": [
+                          [
+                            "do"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I didn't hear him come in. — Neither ___ I.",
+                        "answers": [
+                          [
+                            "did"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I can't sleep with that noise. — ___ can I.",
+                        "answers": [
+                          [
+                            "Neither",
+                            "Nor"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Ollie is ___ leaving pans in the sink! It drives me crazy.",
+                        "answers": [
+                          [
+                            "always",
+                            "constantly",
+                            "forever"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I've been awake since two. — So ___ I.",
+                        "answers": [
+                          [
+                            "have"
+                          ]
                         ]
                       }
                     ]

@@ -7,7 +7,7 @@
         {
           "unit_id": "wrong_version",
           "title": "The Wrong Version",
-          "description": "Lo que habría pasado si…: tercer condicional y wish + past perfect.",
+          "description": "Lo que habría pasado si…: tercer condicional y wish + past perfect. Además, el past perfect continuous para explicar el porqué: we'd been working until midnight.",
           "lessons": [
             {
               "lesson_id": "wrong_version_lesson",
@@ -156,6 +156,44 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Past perfect continuous: we had been working",
+                    "explanation": "El past perfect continuous (had been + -ing) describe una actividad que duró hasta un momento del pasado, o justo antes. Sirve mucho para explicar causas: Daniel was exhausted because he had been working until midnight.\n\nCon for / since dice cuánto tiempo llevaba pasando: We had been testing the site for three weeks when we launched it.\n\nCompáralo con el past perfect simple, que mira el resultado o el número de veces: I had checked the files twice (resultado) / I had been checking the files all morning (actividad, duración).\n\nLos verbos de estado (know, be, have como posesión) van en past perfect simple: I had known Helen for years (no «had been knowing»).",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Causa de algo pasado",
+                          "He was tired because he had been working all night."
+                        ],
+                        [
+                          "Duración hasta un momento",
+                          "We had been testing it for three weeks when it went live."
+                        ],
+                        [
+                          "Resultado → past perfect",
+                          "Daniel had uploaded the wrong version."
+                        ],
+                        [
+                          "Verbo de estado",
+                          "Helen had known Mark for years."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Daniel was exhausted because he had been working until midnight.",
+                      "We had been preparing the launch for weeks when it happened.",
+                      "Lucía's eyes were red. She had been looking at the screen all night.",
+                      "Helen had seen the old version before anyone else noticed."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -251,6 +289,64 @@
                       },
                       {
                         "answer": "We would have been in trouble"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con had been + -ing o con el past perfect simple.",
+                    "items": [
+                      {
+                        "sentence": "Daniel was exhausted because he had ___ working until midnight.",
+                        "answers": [
+                          [
+                            "been"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We ___ been testing the site for three weeks when it went live.",
+                        "answers": [
+                          [
+                            "had",
+                            "'d"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Lucía's eyes were red. She had been ___ at the screen all night. (look)",
+                        "answers": [
+                          [
+                            "looking"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Helen had ___ Mark for years before the project. (know)",
+                        "answers": [
+                          [
+                            "known"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "How long had you been ___ before you noticed the mistake? (work)",
+                        "answers": [
+                          [
+                            "working"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel had ___ the wrong version by mistake. (upload)",
+                        "answers": [
+                          [
+                            "uploaded"
+                          ]
+                        ]
                       }
                     ]
                   }

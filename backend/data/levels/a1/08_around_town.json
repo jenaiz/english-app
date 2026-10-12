@@ -7,7 +7,7 @@
         {
           "unit_id": "around_town",
           "title": "Where's the Supermarket?",
-          "description": "Pregunta y da direcciones con preposiciones de lugar e imperativos.",
+          "description": "Pregunta y da direcciones con preposiciones de lugar e imperativos. Y para comparar sitios: bigger than, the biggest.",
           "lessons": [
             {
               "lesson_id": "around_town_lesson",
@@ -173,6 +173,54 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Comparing places: bigger than, the biggest",
+                    "explanation": "Para comparar dos cosas usamos el adjetivo + -er + than: The supermarket is bigger than the corner shop. Con adjetivos largos se pone more delante: The park is more beautiful than the square.\n\nPara decir que algo es «el más…» de un grupo usamos the + adjetivo + -est: It's the biggest supermarket in Bristol. Con adjetivos largos: the most beautiful.\n\nCambios de ortografía: big → bigger (se dobla la consonante), nice → nicer, easy → easier.\n\nIrregulares: good → better → the best; bad → worse → the worst; far → further → the furthest.",
+                    "table": {
+                      "headers": [
+                        "Adjetivo",
+                        "Comparativo",
+                        "Superlativo"
+                      ],
+                      "rows": [
+                        [
+                          "cheap",
+                          "cheaper than",
+                          "the cheapest"
+                        ],
+                        [
+                          "big",
+                          "bigger than",
+                          "the biggest"
+                        ],
+                        [
+                          "beautiful",
+                          "more beautiful than",
+                          "the most beautiful"
+                        ],
+                        [
+                          "good",
+                          "better than",
+                          "the best"
+                        ],
+                        [
+                          "far",
+                          "further than",
+                          "the furthest"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "The supermarket is bigger than the corner shop.",
+                      "The bus is cheaper than a taxi.",
+                      "It's the best café in Clifton.",
+                      "The station is further than the park."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -279,6 +327,64 @@
                       {
                         "left": "bus stop",
                         "right": "parada de autobús"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Escribe la forma correcta del adjetivo.",
+                    "items": [
+                      {
+                        "sentence": "The supermarket is ___ than the corner shop. (big)",
+                        "answers": [
+                          [
+                            "bigger"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The bus is ___ than a taxi. (cheap)",
+                        "answers": [
+                          [
+                            "cheaper"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "This café is ___ than the café on Park Street. (good)",
+                        "answers": [
+                          [
+                            "better"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It's the ___ park in Bristol. (beautiful)",
+                        "answers": [
+                          [
+                            "most beautiful"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The station is ___ than the post office. (far)",
+                        "answers": [
+                          [
+                            "further",
+                            "farther"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It's the ___ shop in town. (cheap)",
+                        "answers": [
+                          [
+                            "cheapest"
+                          ]
+                        ]
                       }
                     ]
                   }

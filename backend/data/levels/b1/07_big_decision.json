@@ -7,7 +7,7 @@
         {
           "unit_id": "big_decision",
           "title": "A Big Decision",
-          "description": "Situaciones imaginarias y consejos: el segundo condicional.",
+          "description": "Situaciones imaginarias y consejos: el segundo condicional. Además, el tercer condicional: If I hadn't gone, I wouldn't have met you.",
           "lessons": [
             {
               "lesson_id": "big_decision_lesson",
@@ -162,6 +162,49 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Third conditional",
+                    "explanation": "El tercer condicional imagina un pasado diferente, algo que ya no se puede cambiar: If + past perfect, would have + participio. If Sam hadn't played that gig, the producer wouldn't have heard him (si no hubiera tocado, no le habría oído).\n\nSirve para hablar de lo que pudo ser y para lamentarse: If I had known, I would have helped you.\n\nContracciones habituales: If I'd known… = If I had known; I would've = I would have. En la conversación «would have» suena /wʊdəv/.\n\nCompara los tres:\n• 1.º (real, futuro): If he goes, he'll be famous.\n• 2.º (imaginario, presente): If he went, he'd be famous.\n• 3.º (imaginario, pasado): If he had gone, he would have been famous.",
+                    "table": {
+                      "headers": [
+                        "Condicional",
+                        "If…",
+                        "Resultado"
+                      ],
+                      "rows": [
+                        [
+                          "Primero",
+                          "If Sam goes to London,",
+                          "he'll record an album."
+                        ],
+                        [
+                          "Segundo",
+                          "If Sam went to London,",
+                          "he'd record an album."
+                        ],
+                        [
+                          "Tercero",
+                          "If Sam hadn't played that gig,",
+                          "the producer wouldn't have heard him."
+                        ],
+                        [
+                          "Tercero",
+                          "If I'd known about the party,",
+                          "I would have come."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "If Sam hadn't played at The Old Duke, the producer wouldn't have found him.",
+                      "If Lucía hadn't moved to Bristol, she wouldn't have met Daniel.",
+                      "If I'd known you were ill, I would have made you some soup.",
+                      "We would have missed the flight if we hadn't run."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -258,6 +301,67 @@
                       },
                       {
                         "answer": "If I won the lottery I would travel"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa el tercer condicional.",
+                    "items": [
+                      {
+                        "sentence": "If Sam hadn't played that gig, the producer wouldn't ___ heard him.",
+                        "answers": [
+                          [
+                            "have"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If Lucía ___ moved to Bristol, she wouldn't have met Daniel. (not)",
+                        "answers": [
+                          [
+                            "hadn't",
+                            "had not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If I had known, I ___ have helped you.",
+                        "answers": [
+                          [
+                            "would",
+                            "'d"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If we had left earlier, we wouldn't have ___ the train. (miss)",
+                        "answers": [
+                          [
+                            "missed"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If you ___ told me about the party, I would have come. (tell)",
+                        "answers": [
+                          [
+                            "had",
+                            "'d"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "She would have ___ the job if she hadn't been ill. (get)",
+                        "answers": [
+                          [
+                            "got",
+                            "gotten"
+                          ]
+                        ]
                       }
                     ]
                   }

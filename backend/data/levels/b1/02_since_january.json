@@ -7,7 +7,7 @@
         {
           "unit_id": "since_january",
           "title": "Since January",
-          "description": "Cuánto tiempo llevas haciendo algo: present perfect continuous con for y since.",
+          "description": "Cuánto tiempo llevas haciendo algo: present perfect continuous con for y since. Además, be able to y el gerundio como sujeto (Studying is hard).",
           "lessons": [
             {
               "lesson_id": "since_january_lesson",
@@ -168,6 +168,49 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "be able to · -ing as a subject",
+                    "explanation": "Can solo tiene presente (can) y pasado (could). Para los demás tiempos se usa be able to: I'll be able to buy a car (podré). I haven't been able to sleep (no he podido dormir). I'd like to be able to speak Irish.\n\nPara un logro concreto en el pasado, con esfuerzo, se usa was / were able to (no could): After three hours, I was able to finish the exam.\n\nEl gerundio (-ing) funciona como un nombre y puede ser el sujeto de la frase: Studying for exams is exhausting. Playing the guitar relaxes me. En español usamos el infinitivo («estudiar es agotador»), pero en inglés va en -ing (no «To study is…» en el habla normal).",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Ejemplo",
+                        "En español"
+                      ],
+                      "rows": [
+                        [
+                          "Futuro",
+                          "If I pass, I'll be able to apply for the job.",
+                          "podré"
+                        ],
+                        [
+                          "Present perfect",
+                          "I haven't been able to sleep.",
+                          "no he podido"
+                        ],
+                        [
+                          "Logro en pasado",
+                          "In the end, I was able to finish.",
+                          "conseguí"
+                        ],
+                        [
+                          "-ing como sujeto",
+                          "Studying all day is exhausting.",
+                          "estudiar todo el día"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "If Priya passes the exam, she'll be able to become a senior nurse.",
+                      "Sam hasn't been able to sleep because of the gig.",
+                      "Practising every day makes a big difference.",
+                      "Learning Irish words is fun, but pronouncing them is hard!"
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -270,6 +313,63 @@
                       {
                         "left": "How long…?",
                         "right": "¿Cuánto tiempo…?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la forma correcta de be able to o con el verbo en -ing.",
+                    "items": [
+                      {
+                        "sentence": "If I pass this exam, I'll be ___ to apply for the senior job.",
+                        "answers": [
+                          [
+                            "able"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I haven't ___ able to sleep all week. (be)",
+                        "answers": [
+                          [
+                            "been"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "After two hours, we ___ able to fix the guitar. (be, pasado)",
+                        "answers": [
+                          [
+                            "were"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ for exams is exhausting. (study)",
+                        "answers": [
+                          [
+                            "Studying"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ the same song all week drives me crazy! (hear)",
+                        "answers": [
+                          [
+                            "Hearing"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'd love to ___ able to speak Irish.",
+                        "answers": [
+                          [
+                            "be"
+                          ]
+                        ]
                       }
                     ]
                   }

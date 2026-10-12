@@ -10,6 +10,9 @@ import ClubActivity from './pages/ClubActivity'
 import ClubTiming from './pages/ClubTiming'
 import Contact from './pages/Contact'
 import Cookies from './pages/Cookies'
+import ExamAttemptPage from './pages/ExamAttemptPage'
+import ExamCertificate from './pages/ExamCertificate'
+import ExamIntro from './pages/ExamIntro'
 import ExpressionIndexPage from './pages/ExpressionIndexPage'
 import ExpressionPage from './pages/ExpressionPage'
 import Expressions from './pages/Expressions'
@@ -60,6 +63,9 @@ export default function App() {
                 <Route path="/levels/:levelId/study" element={<LevelStudyPage />} />
                 <Route path="/units/:unitId" element={<UnitView />} />
                 <Route path="/units/:unitId/study" element={<Study />} />
+                <Route path="/examen/:levelId" element={<ExamIntro />} />
+                <Route path="/examen/:levelId/intento/:attemptId" element={<ExamAttemptPage />} />
+                <Route path="/examen/:levelId/certificado/:attemptId" element={<ExamCertificate />} />
                 <Route path="/club" element={<Club />} />
                 {/* Dev-only: time song lines by hand (see backend/cmd/subs). */}
                 {import.meta.env.DEV && <Route path="/club/dev/timing" element={<ClubTiming />} />}

@@ -7,7 +7,7 @@
         {
           "unit_id": "good_news",
           "title": "Good News",
-          "description": "Cuenta lo que dijo otra persona con el estilo indirecto: said, told, asked.",
+          "description": "Cuenta lo que dijo otra persona con el estilo indirecto: said, told, asked. Además, comparar cómo se hacen las cosas (more quickly, the hardest) e intensificadores (extremely, much too).",
           "lessons": [
             {
               "lesson_id": "good_news_lesson",
@@ -163,6 +163,52 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Adverbs: more quickly, the hardest · extremely, much too",
+                    "explanation": "Los adverbios también se comparan:\n• Con -ly: more / the most + adverbio: She speaks more clearly than me. He works the most carefully.\n• Adverbios cortos (fast, hard, late, early): -er / the -est: Daniel works harder than anyone. Who arrived the earliest?\n• Irregulares: well → better → the best; badly → worse → the worst: Lucía speaks English better than last year.\n\nPara reforzar o suavizar adjetivos y adverbios: quite (bastante), really / very (muy), extremely / incredibly (extremadamente), much too / far too (demasiado, con un matiz negativo): The museum was extremely happy. The conference is much too big for me!\n\nSo + adjetivo / adverbio: I was so nervous. Such + (a) adjetivo + nombre: It's such good news!",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "more + -ly",
+                          "Helen explained it more clearly than me."
+                        ],
+                        [
+                          "-er / -est",
+                          "Daniel works harder than anyone in the office."
+                        ],
+                        [
+                          "better / the best",
+                          "You did the best presentation."
+                        ],
+                        [
+                          "extremely",
+                          "The client was extremely happy."
+                        ],
+                        [
+                          "much too",
+                          "Hundreds of people? That's much too many!"
+                        ],
+                        [
+                          "so / such",
+                          "It's such good news! I'm so happy for you."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Lucía speaks English much better than last year.",
+                      "Daniel finished the website more quickly than everyone expected.",
+                      "The museum was extremely pleased with the design.",
+                      "Speaking in front of hundreds of people? That's much too scary!"
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -270,6 +316,76 @@
                           "Priya asked if I could buy some milk",
                           "Priya asked whether I could buy some milk",
                           "Priya asked me if I could buy some milk"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la forma correcta o con un intensificador (much, so, such, extremely).",
+                    "items": [
+                      {
+                        "sentence": "Lucía speaks English much ___ than last year. (well)",
+                        "answers": [
+                          [
+                            "better"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel works ___ than anyone in the office. (hard)",
+                        "answers": [
+                          [
+                            "harder"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Helen explained it more ___ than I did. (clear)",
+                        "answers": [
+                          [
+                            "clearly"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Hundreds of people? That's ___ too many for me!",
+                        "answers": [
+                          [
+                            "much",
+                            "far",
+                            "way"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It's ___ good news! Congratulations!",
+                        "answers": [
+                          [
+                            "such"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I was ___ nervous that I couldn't eat. (tan)",
+                        "answers": [
+                          [
+                            "so"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The museum was ___ happy with the website. (muy, muy)",
+                        "answers": [
+                          [
+                            "extremely",
+                            "incredibly",
+                            "really",
+                            "very"
+                          ]
                         ]
                       }
                     ]

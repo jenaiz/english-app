@@ -7,7 +7,7 @@
         {
           "unit_id": "first_day",
           "title": "The First Day",
-          "description": "Primer día en Harbour Studio: preguntas con Wh-, la hora y have got.",
+          "description": "Primer día en Harbour Studio: preguntas con Wh-, la hora y have got. Y las preposiciones de tiempo in, on, at.",
           "lessons": [
             {
               "lesson_id": "first_day_lesson",
@@ -180,6 +180,49 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Prepositions of time: in, on, at",
+                    "explanation": "Para decir cuándo pasa algo usamos tres preposiciones:\n\nAt con horas y momentos concretos: at nine o'clock, at half past nine, at lunchtime, at the weekend, at night.\n\nOn con días y fechas: on Friday, on Monday morning, on 14th March, on my birthday.\n\nIn con partes del día, meses, estaciones y años: in the morning, in the evening, in March, in summer, in 2026.\n\nOjo: decimos in the morning pero at night, y on Friday morning (día + parte del día lleva on).",
+                    "table": {
+                      "headers": [
+                        "at",
+                        "on",
+                        "in"
+                      ],
+                      "rows": [
+                        [
+                          "at nine o'clock",
+                          "on Friday",
+                          "in the morning"
+                        ],
+                        [
+                          "at lunchtime",
+                          "on Monday morning",
+                          "in March"
+                        ],
+                        [
+                          "at night",
+                          "on 14th March",
+                          "in summer"
+                        ],
+                        [
+                          "at the weekend",
+                          "on my birthday",
+                          "in 2026"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "The meeting is at half past nine.",
+                      "Friday is pizza day. We have pizza on Fridays.",
+                      "I study English in the evening.",
+                      "My birthday is in May."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -285,6 +328,71 @@
                       {
                         "left": "40",
                         "right": "forty"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con in, on o at.",
+                    "items": [
+                      {
+                        "sentence": "Lunch is ___ one o'clock.",
+                        "answers": [
+                          [
+                            "at"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We have pizza ___ Friday.",
+                        "answers": [
+                          [
+                            "on"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I drink coffee ___ the morning.",
+                        "answers": [
+                          [
+                            "in"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "My brother's exam is ___ December.",
+                        "answers": [
+                          [
+                            "in"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I don't work ___ night.",
+                        "answers": [
+                          [
+                            "at"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The party is ___ Saturday evening.",
+                        "answers": [
+                          [
+                            "on"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It's very hot in Valencia ___ summer.",
+                        "answers": [
+                          [
+                            "in"
+                          ]
+                        ]
                       }
                     ]
                   }

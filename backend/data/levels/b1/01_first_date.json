@@ -7,7 +7,7 @@
         {
           "unit_id": "first_date",
           "title": "A First Date",
-          "description": "Habla de cómo eras y lo que hacías antes con used to.",
+          "description": "Habla de cómo eras y lo que hacías antes con used to. Y would para hábitos repetidos del pasado.",
           "lessons": [
             {
               "lesson_id": "first_date_lesson",
@@ -166,6 +166,44 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "would for past habits",
+                    "explanation": "Para acciones que se repetían en el pasado también se usa would + verbo, sobre todo al contar recuerdos: Every summer we would go to the beach. My mum would make paella on Sundays.\n\nDiferencia con used to:\n• used to sirve para hábitos y para estados: I used to be shy. I used to have long hair.\n• would solo sirve para acciones repetidas, no para estados: no se dice «I would be shy» con ese sentido.\n\nAl contar un recuerdo se suele empezar con used to y seguir con would: When I was a child, I used to spend the summers in Galway. My grandad would take me fishing every morning.\n\nWould se contrae: we'd, she'd.",
+                    "table": {
+                      "headers": [
+                        "",
+                        "used to",
+                        "would"
+                      ],
+                      "rows": [
+                        [
+                          "Acción repetida",
+                          "We used to go to the beach.",
+                          "We would go to the beach."
+                        ],
+                        [
+                          "Estado",
+                          "I used to be very shy.",
+                          "— (no se usa)"
+                        ],
+                        [
+                          "Posesión",
+                          "I used to have a bike.",
+                          "— (no se usa)"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Every Sunday my mum would make paella for the whole family.",
+                      "Daniel would hide in his room and read about computers.",
+                      "I used to be shy. At parties I would sit in a corner and say nothing.",
+                      "In summer we'd get up early and go to the beach."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -259,6 +297,66 @@
                       },
                       {
                         "answer": "I still get sick on planes"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con would o used to. Si valen los dos, escribe would.",
+                    "items": [
+                      {
+                        "sentence": "Every summer my grandad ___ take me fishing.",
+                        "answers": [
+                          [
+                            "would",
+                            "used to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ be very shy at school. (estado)",
+                        "answers": [
+                          [
+                            "used to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We ___ have a dog called Lucky. (posesión)",
+                        "answers": [
+                          [
+                            "used to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "On Sundays my mum ___ make a huge paella.",
+                        "answers": [
+                          [
+                            "would",
+                            "used to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Lucía ___ live in Madrid before she moved to Bristol. (estado)",
+                        "answers": [
+                          [
+                            "used to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "After school we ___ play football in the street until dark.",
+                        "answers": [
+                          [
+                            "would",
+                            "used to"
+                          ]
+                        ]
                       }
                     ]
                   }

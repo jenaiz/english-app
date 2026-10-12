@@ -7,7 +7,7 @@
         {
           "unit_id": "get_it_fixed",
           "title": "The Boiler",
-          "description": "Encarga que te hagan cosas: have / get something done.",
+          "description": "Encarga que te hagan cosas: have / get something done. Y la pasiva en todas sus formas: is being repaired, should be fixed.",
           "lessons": [
             {
               "lesson_id": "get_it_fixed_lesson",
@@ -152,6 +152,52 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "More passive forms: is being repaired, should be fixed",
+                    "explanation": "La pasiva existe en todos los tiempos. Además de las formas que ya conoces (is repaired, was repaired, has been repaired, will be repaired):\n\n• Continua (being + participio): algo que se está haciendo ahora: The boiler is being repaired right now. Cuando llegué, estaban pintando la cocina: The kitchen was being repainted.\n• Con modales (modal + be + participio): It should be fixed by Thursday. The oven must be checked. It can't be done today.\n• Con going to: The kitchen is going to be repainted next month.\n• Infinitivo y gerundio: The boiler needs to be replaced. I don't like being told what to do.\n\nRecuerda: si importa quién lo hace, se añade by: It's being repaired by an engineer from Bath.",
+                    "table": {
+                      "headers": [
+                        "Forma",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Present continuous",
+                          "The boiler is being repaired."
+                        ],
+                        [
+                          "Past continuous",
+                          "The kitchen was being repainted when I arrived."
+                        ],
+                        [
+                          "Modal",
+                          "It should be fixed by Thursday."
+                        ],
+                        [
+                          "going to",
+                          "The kitchen is going to be repainted."
+                        ],
+                        [
+                          "Infinitivo",
+                          "The oven needs to be checked."
+                        ],
+                        [
+                          "Gerundio",
+                          "Nobody likes being woken up at six."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Sorry, no hot water. The boiler is being repaired.",
+                      "The heating should be fixed by Thursday.",
+                      "The kitchen is going to be repainted next month.",
+                      "That oven needs to be checked. It's making a strange noise."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -257,6 +303,71 @@
                         "answers": [
                           "We'll get the oven checked",
                           "We will get the oven checked"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con be, being o been.",
+                    "items": [
+                      {
+                        "sentence": "Sorry, you can't shower. The boiler is ___ repaired right now.",
+                        "answers": [
+                          [
+                            "being"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The heating should ___ fixed by Thursday.",
+                        "answers": [
+                          [
+                            "be"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The kitchen is going to ___ repainted next month.",
+                        "answers": [
+                          [
+                            "be"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "When I got home, the kitchen was ___ painted.",
+                        "answers": [
+                          [
+                            "being"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The oven needs to ___ checked.",
+                        "answers": [
+                          [
+                            "be"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The boiler has ___ broken since Sunday.",
+                        "answers": [
+                          [
+                            "been"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I hate ___ woken up at six by the engineer.",
+                        "answers": [
+                          [
+                            "being"
+                          ]
                         ]
                       }
                     ]

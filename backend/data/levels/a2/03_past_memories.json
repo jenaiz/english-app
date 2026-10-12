@@ -7,7 +7,7 @@
         {
           "unit_id": "past_memories",
           "title": "Old Photos",
-          "description": "Habla de tu infancia: past simple en negativa y en preguntas.",
+          "description": "Habla de tu infancia: past simple en negativa y en preguntas. Y lo que hacías de pequeño con used to.",
           "lessons": [
             {
               "lesson_id": "past_memories_lesson",
@@ -165,6 +165,44 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "used to: past habits",
+                    "explanation": "Used to + verbo describe hábitos o situaciones del pasado que ya no son así: We used to go to the beach every summer (íbamos a la playa todos los veranos; ahora no).\n\nEs igual para todas las personas: I / she / they used to live in Valencia.\n\nNegativa: didn't use to (sin -d): I didn't use to like coffee. Pregunta: Did you use to…?: Did you use to play the guitar?\n\nPara algo que pasó una sola vez se usa el past simple, no used to: My dad gave me a guitar when I was eight.",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Afirmativa",
+                          "We used to go to the beach every summer."
+                        ],
+                        [
+                          "Negativa",
+                          "I didn't use to practise much."
+                        ],
+                        [
+                          "Pregunta",
+                          "Did you use to live near the sea?"
+                        ],
+                        [
+                          "Una sola vez → past simple",
+                          "My dad gave me a guitar when I was eight."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "We used to go to the beach every summer.",
+                      "Sam used to work in a pub.",
+                      "I didn't use to like tea, but now I drink it every day.",
+                      "Did you use to play music when you were a child?"
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -259,6 +297,64 @@
                       },
                       {
                         "answer": "We went to the beach every summer"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con used to, use to o la forma correcta.",
+                    "items": [
+                      {
+                        "sentence": "When I was a child, we ___ go to the beach every summer.",
+                        "answers": [
+                          [
+                            "used to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam didn't ___ practise the guitar very much.",
+                        "answers": [
+                          [
+                            "use to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Did you ___ live near the sea?",
+                        "answers": [
+                          [
+                            "use to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "My dad ___ me a guitar when I was eight. (give, una vez)",
+                        "answers": [
+                          [
+                            "gave"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ to have long hair, but now it's short.",
+                        "answers": [
+                          [
+                            "used"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Lucía ___ in Madrid for three years. Then she moved to Bristol. (work)",
+                        "answers": [
+                          [
+                            "worked",
+                            "used to work"
+                          ]
+                        ]
                       }
                     ]
                   }

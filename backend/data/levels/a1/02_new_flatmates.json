@@ -7,7 +7,7 @@
         {
           "unit_id": "new_flatmates",
           "title": "The Flatmates",
-          "description": "Conoce a Sam y Priya: to be con he, she y they, y los posesivos.",
+          "description": "Conoce a Sam y Priya: to be con he, she y they, y los posesivos. Y los pronombres posesivos: mine, yours, his, hers.",
           "lessons": [
             {
               "lesson_id": "flatmates_lesson",
@@ -194,6 +194,59 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Possessive pronouns: mine, yours, his, hers",
+                    "explanation": "Los posesivos my, your, his, her… van siempre delante de un nombre: my room, her family.\n\nLos pronombres posesivos (mine, yours, his, hers, ours, theirs) sustituyen al posesivo y al nombre, para no repetirlo: Is this your towel? — Yes, it's mine (= my towel).\n\nOjo: his es igual en las dos formas (his band → it's his), y nunca llevan apóstrofo: yours, hers, ours (no «your's»).\n\nPara preguntar de quién es algo: Whose is this? — It's mine.",
+                    "table": {
+                      "headers": [
+                        "Posesivo + nombre",
+                        "Pronombre posesivo",
+                        "En español"
+                      ],
+                      "rows": [
+                        [
+                          "my room",
+                          "mine",
+                          "el mío / la mía"
+                        ],
+                        [
+                          "your room",
+                          "yours",
+                          "el tuyo / el suyo (de usted)"
+                        ],
+                        [
+                          "his room",
+                          "his",
+                          "el suyo (de él)"
+                        ],
+                        [
+                          "her room",
+                          "hers",
+                          "el suyo (de ella)"
+                        ],
+                        [
+                          "our room",
+                          "ours",
+                          "el nuestro"
+                        ],
+                        [
+                          "their room",
+                          "theirs",
+                          "el suyo (de ellos)"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Is this your key? — Yes, it's mine.",
+                      "That guitar isn't mine. It's Sam's. It's his.",
+                      "Priya's room is big, but ours is small.",
+                      "Whose is this phone? — It's hers."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -287,6 +340,63 @@
                       },
                       {
                         "answer": "My brother is twenty-five"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con mine, yours, his, hers, ours o theirs.",
+                    "items": [
+                      {
+                        "sentence": "Is this your key? — Yes, it's ___.",
+                        "answers": [
+                          [
+                            "mine"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "This is Sam's guitar. It's ___.",
+                        "answers": [
+                          [
+                            "his"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "That's Priya's bike. It's ___.",
+                        "answers": [
+                          [
+                            "hers"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We've got a small flat. ___ is small, but it's nice.",
+                        "answers": [
+                          [
+                            "Ours"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Is this my coffee or ___? — It's yours, Lucía.",
+                        "answers": [
+                          [
+                            "yours"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "My parents have got a big house. ___ is in Valencia.",
+                        "answers": [
+                          [
+                            "Theirs"
+                          ]
+                        ]
                       }
                     ]
                   }

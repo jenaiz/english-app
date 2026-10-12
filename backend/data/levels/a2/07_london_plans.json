@@ -7,7 +7,7 @@
         {
           "unit_id": "london_plans",
           "title": "A Plan for London",
-          "description": "Haz planes para el fin de semana con be going to.",
+          "description": "Haz planes para el fin de semana con be going to. Además, planes ya fijados con el present continuous y sugerencias con Shall we…?",
           "lessons": [
             {
               "lesson_id": "london_plans_lesson",
@@ -156,6 +156,44 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Arrangements: present continuous · Shall we…?",
+                    "explanation": "Para planes ya organizados (con día, hora o billetes) se usa mucho el present continuous con una expresión de futuro: We're going to London next weekend. Sam's band is playing at a wedding on Saturday.\n\nCompáralo con be going to, que expresa una intención: I'm going to visit the British Museum (quiero / tengo pensado). Muchas veces valen los dos.\n\nPara hacer sugerencias u ofrecerse se usa Shall I / Shall we + verbo: Shall we take the train? (¿cogemos el tren?) Shall I book the tickets? (¿reservo yo los billetes?). Para contestar: Good idea! / Yes, please. / No, thanks.",
+                    "table": {
+                      "headers": [
+                        "Uso",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Plan organizado",
+                          "We're staying with Ciarán on Saturday."
+                        ],
+                        [
+                          "Intención",
+                          "I'm going to visit the British Museum."
+                        ],
+                        [
+                          "Sugerencia",
+                          "Shall we go to Camden Market?"
+                        ],
+                        [
+                          "Ofrecimiento",
+                          "Shall I book the tickets tonight?"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "We're going to London next weekend.",
+                      "Sam's band is playing at a wedding on Saturday.",
+                      "Shall we take the Tube? — Good idea!",
+                      "Shall I book the train tickets? — Yes, please."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -249,6 +287,64 @@
                       },
                       {
                         "answer": "It's going to rain"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la forma del present continuous o con shall.",
+                    "items": [
+                      {
+                        "sentence": "We ___ going to London next weekend. The tickets are booked!",
+                        "answers": [
+                          [
+                            "are",
+                            "'re"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam's band is ___ at a wedding on Saturday. (play)",
+                        "answers": [
+                          [
+                            "playing"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "What are you ___ on Sunday? (do)",
+                        "answers": [
+                          [
+                            "doing"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ we go to Camden Market on Saturday?",
+                        "answers": [
+                          [
+                            "Shall"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Shall I ___ the tickets tonight? (book)",
+                        "answers": [
+                          [
+                            "book"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm ___ Ciarán at the station at six. (meet)",
+                        "answers": [
+                          [
+                            "meeting"
+                          ]
+                        ]
                       }
                     ]
                   }

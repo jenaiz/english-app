@@ -7,7 +7,7 @@
         {
           "unit_id": "at_the_shop",
           "title": "A Coat for the Winter",
-          "description": "De compras: contables e incontables, how much / how many, a lot of y too.",
+          "description": "De compras: contables e incontables, how much / how many, a lot of y too. Y all, both, none, most y enough.",
           "lessons": [
             {
               "lesson_id": "shop_prices",
@@ -168,6 +168,59 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "all, both, most, none · enough",
+                    "explanation": "Para hablar de cantidades de un grupo:\n\nAll (todos): All the coats are in the sale. Most (la mayoría): Most shops close at six. None (ninguno): None of the coats fits me. Both (los dos, de dos cosas): Both coats are nice.\n\nCon of + the / my / these…: all of the coats, most of my friends, none of them. Con pronombres siempre va of: both of them, none of us.\n\nEnough (suficiente) va antes del nombre y después del adjetivo: I haven't got enough money. This coat isn't warm enough. Compáralo con too (demasiado): It's too big (más de lo necesario) / It isn't big enough (menos de lo necesario).",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Ejemplo",
+                        "En español"
+                      ],
+                      "rows": [
+                        [
+                          "all",
+                          "All the shops are open today.",
+                          "todas las tiendas"
+                        ],
+                        [
+                          "most",
+                          "Most of my friends live in Bristol.",
+                          "la mayoría de mis amigos"
+                        ],
+                        [
+                          "none",
+                          "None of these coats is small.",
+                          "ninguno de estos abrigos"
+                        ],
+                        [
+                          "both",
+                          "Both coats are blue.",
+                          "los dos abrigos"
+                        ],
+                        [
+                          "enough + nombre",
+                          "We've got enough money for a hot chocolate.",
+                          "suficiente dinero"
+                        ],
+                        [
+                          "adjetivo + enough",
+                          "This coat isn't warm enough.",
+                          "no abriga lo suficiente"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Most of the coats are in the sale.",
+                      "Both jackets are too big for me.",
+                      "None of my coats is warm enough for a Bristol winter.",
+                      "Have you got enough money? — Yes, I have."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -273,6 +326,63 @@
                       {
                         "left": "expensive",
                         "right": "caro"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con all, both, most, none o enough.",
+                    "items": [
+                      {
+                        "sentence": "I tried two coats, and ___ of them were too big.",
+                        "answers": [
+                          [
+                            "both"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I haven't got ___ money for this coat. It's eighty-five pounds!",
+                        "answers": [
+                          [
+                            "enough"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ the shops in Cabot Circus close at eight. Every one!",
+                        "answers": [
+                          [
+                            "All"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ of the coats were my size, so I bought nothing.",
+                        "answers": [
+                          [
+                            "None"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "This jumper isn't warm ___ for the winter.",
+                        "answers": [
+                          [
+                            "enough"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ of my friends live in Clifton, but a few live in Bedminster.",
+                        "answers": [
+                          [
+                            "Most"
+                          ]
+                        ]
                       }
                     ]
                   }

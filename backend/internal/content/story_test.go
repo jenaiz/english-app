@@ -117,6 +117,10 @@ func TestLevelsAreComplete(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
+	exams, err := LoadExams("../../data/exams", c)
+	if err != nil {
+		t.Fatal(err)
+	}
 	for _, s := range c.Summaries() {
 		if !slices.Contains(completeLevels, s.LevelID) {
 			continue
@@ -132,9 +136,14 @@ func TestLevelsAreComplete(t *testing.T) {
 				}
 			}
 		}
-		// 12 units, a checkpoint every 3 units plus the final level test.
-		if units != 12 || tests != 5 {
-			t.Errorf("%s has %d units and %d tests, want 12 and 5", s.LevelID, units, tests)
+		// 12 units and a checkpoint every 3 units. The level is certified by its level exam
+		// (data/exams); levels without one yet keep the old final test lesson in unit 12.
+		want := 4
+		if _, ok := exams.ForLevel(s.LevelID); !ok {
+			want = 5
+		}
+		if units != 12 || tests != want {
+			t.Errorf("%s has %d units and %d tests, want 12 and %d", s.LevelID, units, tests, want)
 		}
 	}
 }

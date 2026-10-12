@@ -7,7 +7,7 @@
         {
           "unit_id": "looking_back",
           "title": "Home",
-          "description": "Mira atrás y cuenta tu historia: past perfect continuous, would y used to. Incluye el test final de C1.",
+          "description": "Mira atrás y cuenta tu historia: past perfect continuous, would y used to. Además, la pasiva en todas sus formas para contar una historia: had been given, might have been lost, having been told.",
           "lessons": [
             {
               "lesson_id": "looking_back_lesson",
@@ -166,6 +166,52 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "The passive in all its forms",
+                    "explanation": "A nivel C1 la pasiva aparece en cualquier tiempo y con modales, sobre todo en narraciones y textos formales:\n• Past perfect: I had been given a key before I arrived.\n• Future perfect: By the time we get there, all the seats will have been taken.\n• Modal perfect: The umbrella might have been destroyed by the wind. It can't have been stolen.\n• Continua: I felt I was being watched.\n• Participio perfecto (having been + participio): Having been told it rained a lot, I bought an umbrella.\n• Infinitivo y gerundio: She hates being interrupted. He's going to be given an award.\n\nEl agente con by solo se añade si aporta información: Harbour Studio was founded by Helen twenty years ago.",
+                    "table": {
+                      "headers": [
+                        "Forma",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Past perfect",
+                          "She had been offered a job in Bristol."
+                        ],
+                        [
+                          "Future perfect",
+                          "The office will have been painted by Monday."
+                        ],
+                        [
+                          "Modal perfect",
+                          "The letter might have been lost."
+                        ],
+                        [
+                          "Continua",
+                          "I thought I was being followed."
+                        ],
+                        [
+                          "Having been + participio",
+                          "Having been told about the rain, I packed an umbrella."
+                        ],
+                        [
+                          "Gerundio",
+                          "Nobody likes being ignored."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I had been offered the job before I had even seen Bristol.",
+                      "Having been warned about the weather, I packed three jumpers.",
+                      "The black umbrella might have been destroyed by the wind, but the red one survived.",
+                      "By next year, the studio will have been open for two years."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -271,6 +317,63 @@
                         "answers": [
                           "He was tired because he had been working all day",
                           "He was tired because he'd been working all day"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con been, being, having o be.",
+                    "items": [
+                      {
+                        "sentence": "I had ___ offered the job before I visited Bristol.",
+                        "answers": [
+                          [
+                            "been"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ been warned about the rain, I packed an umbrella.",
+                        "answers": [
+                          [
+                            "Having"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The umbrella might have ___ destroyed by the wind.",
+                        "answers": [
+                          [
+                            "been"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I hate ___ interrupted when I'm speaking.",
+                        "answers": [
+                          [
+                            "being"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "By Monday, the office will have ___ painted.",
+                        "answers": [
+                          [
+                            "been"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Lucía is going to ___ given an award next month.",
+                        "answers": [
+                          [
+                            "be"
+                          ]
                         ]
                       }
                     ]
@@ -657,272 +760,6 @@
                         "answers": [
                           "I used to think it was easy",
                           "I used to think that it was easy"
-                        ]
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "lesson_id": "c1_level_test",
-              "title": "Test final C1",
-              "kind": "test",
-              "steps": [
-                {
-                  "phase": "review",
-                  "type": "multiple_choice",
-                  "content": {
-                    "instructions": "Elige la opción correcta.",
-                    "items": [
-                      {
-                        "question": "___ I really need is a holiday.",
-                        "options": [
-                          "What",
-                          "That"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "It was Helen ___ gave me my first chance.",
-                        "options": [
-                          "who",
-                          "which"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "Never ___ such a beautiful sunset.",
-                        "options": [
-                          "have I seen",
-                          "I have seen"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "Not only ___ late, but he also forgot the tickets.",
-                        "options": [
-                          "was he",
-                          "he was"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "___ the report, she sent it to the board.",
-                        "options": [
-                          "Having finished",
-                          "Finished"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "It would ___ that the figures are wrong.",
-                        "options": [
-                          "appear",
-                          "seem"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "You ___ have cooked. We'd already eaten.",
-                        "options": [
-                          "needn't",
-                          "mustn't"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "I'd rather you ___ tell anyone.",
-                        "options": [
-                          "didn't",
-                          "don't"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "___ the rain, we would have won.",
-                        "options": [
-                          "But for",
-                          "Unless"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "There was a significant ___ in sales.",
-                        "options": [
-                          "increase",
-                          "increasing"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "I ___ appreciate your help. Really.",
-                        "options": [
-                          "do",
-                          "am"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "I was ___ to leave when the phone rang.",
-                        "options": [
-                          "about",
-                          "going"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "Would you like to come? — I'd love ___.",
-                        "options": [
-                          "to",
-                          "it"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "The minister is ___ to resign. Everyone expects it.",
-                        "options": [
-                          "bound",
-                          "due"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "As a child, I ___ spend hours drawing.",
-                        "options": [
-                          "would",
-                          "had"
-                        ],
-                        "answer": 0
-                      }
-                    ]
-                  }
-                },
-                {
-                  "phase": "review",
-                  "type": "fill_blanks",
-                  "content": {
-                    "instructions": "Completa.",
-                    "items": [
-                      {
-                        "sentence": "All I want ___ some sleep.",
-                        "answers": [
-                          [
-                            "is"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "Little ___ I know how far it would go.",
-                        "answers": [
-                          [
-                            "did"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "___ in 1890, the building is beautiful. (build)",
-                        "answers": [
-                          [
-                            "Built"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "I'm not ___ convinced.",
-                        "answers": [
-                          [
-                            "entirely"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "We'd ___ not waste time.",
-                        "answers": [
-                          [
-                            "better"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "___ he make an offer, tell me first.",
-                        "answers": [
-                          [
-                            "Should"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "We were ___ to have a short meeting.",
-                        "answers": [
-                          [
-                            "supposed"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "Did he propose? — I hope ___!",
-                        "answers": [
-                          [
-                            "so"
-                          ]
-                        ]
-                      }
-                    ]
-                  }
-                },
-                {
-                  "phase": "review",
-                  "type": "word_order",
-                  "content": {
-                    "instructions": "Ordena las palabras.",
-                    "items": [
-                      {
-                        "answer": "What scares me most is the money"
-                      },
-                      {
-                        "answer": "Never have I worked with such a team"
-                      },
-                      {
-                        "answer": "Having seen six offices I chose this one"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "phase": "review",
-                  "type": "translation",
-                  "content": {
-                    "instructions": "Traduce al inglés.",
-                    "items": [
-                      {
-                        "source": "Fuiste tú quien salvó el proyecto.",
-                        "answers": [
-                          "It was you who saved the project",
-                          "It was you that saved the project"
-                        ]
-                      },
-                      {
-                        "source": "Poco sabía yo que esta ciudad se convertiría en mi casa.",
-                        "answers": [
-                          "Little did I know that this city would become my home",
-                          "Little did I know this city would become my home"
-                        ]
-                      },
-                      {
-                        "source": "Invertiré siempre que tenga un puesto en el consejo.",
-                        "answers": [
-                          "I'll invest provided that I get a seat on the board",
-                          "I'll invest as long as I get a seat on the board",
-                          "I will invest provided that I get a seat on the board",
-                          "I'll invest, provided that I get a seat on the board"
-                        ]
-                      },
-                      {
-                        "source": "La oficina abrirá en octubre, según lo previsto.",
-                        "answers": [
-                          "The office is due to open in October",
-                          "The office is set to open in October"
                         ]
                       }
                     ]

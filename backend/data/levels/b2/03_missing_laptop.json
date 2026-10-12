@@ -7,7 +7,7 @@
         {
           "unit_id": "missing_laptop",
           "title": "The Missing Laptop",
-          "description": "Deducciones sobre el pasado y críticas: must have, can't have, might have, should have.",
+          "description": "Deducciones sobre el pasado y críticas: must have, can't have, might have, should have. Y otros modales en pasado: needn't have, could have, should (expectativa).",
           "lessons": [
             {
               "lesson_id": "missing_laptop_lesson",
@@ -171,6 +171,54 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "needn't have, didn't need to, could have",
+                    "explanation": "Needn't have + participio: hiciste algo que al final no hacía falta: You needn't have worried. The laptop was safe (te preocupaste, pero no hacía falta).\n\nDidn't need to + verbo: no era necesario, y normalmente no se hizo: We didn't need to call the police, because the receptionist had it.\n\nCould have + participio tiene dos usos más: algo que pudo pasar y no pasó (I could have lost the whole demo) y un reproche (You could have told me! = podrías habérmelo dicho).\n\nShould + verbo también expresa lo que esperamos que pase: The taxi should be here in five minutes. Y en pasado: The parcel should have arrived by now (debería haber llegado ya, y no ha llegado).",
+                    "table": {
+                      "headers": [
+                        "Estructura",
+                        "Ejemplo",
+                        "Significado"
+                      ],
+                      "rows": [
+                        [
+                          "needn't have + participio",
+                          "You needn't have worried.",
+                          "lo hiciste, pero no hacía falta"
+                        ],
+                        [
+                          "didn't need to + verbo",
+                          "We didn't need to call the police.",
+                          "no hacía falta (y no se hizo)"
+                        ],
+                        [
+                          "could have + participio",
+                          "I could have lost the demo.",
+                          "pudo pasar, pero no pasó"
+                        ],
+                        [
+                          "could have + participio",
+                          "You could have told me!",
+                          "reproche"
+                        ],
+                        [
+                          "should have (expectativa)",
+                          "Mark should have replied by now.",
+                          "lo normal sería que ya…"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "You needn't have run back to the hotel. Someone had already found it.",
+                      "We didn't need to buy a new laptop, thank goodness.",
+                      "You could have told me you'd lost it!",
+                      "Mark's email should have arrived by now. Let me check again."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -278,6 +326,66 @@
                         "source": "It was a mistake not to keep it in your bag.",
                         "answers": [
                           "You should have kept it in your bag"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con needn't, need, could o should.",
+                    "items": [
+                      {
+                        "sentence": "You ___ have worried. The laptop was under a chair all the time.",
+                        "answers": [
+                          [
+                            "needn't",
+                            "need not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We didn't ___ to call the police, because the receptionist had it.",
+                        "answers": [
+                          [
+                            "need"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ have lost the whole demo. Thank goodness someone found it!",
+                        "answers": [
+                          [
+                            "could"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You ___ have told me earlier! I was so worried. (reproche)",
+                        "answers": [
+                          [
+                            "could",
+                            "should"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The taxi ___ be here in five minutes. It's never late. (expectativa)",
+                        "answers": [
+                          [
+                            "should"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We ___ have brought so much food. Nobody was hungry.",
+                        "answers": [
+                          [
+                            "needn't",
+                            "need not"
+                          ]
                         ]
                       }
                     ]

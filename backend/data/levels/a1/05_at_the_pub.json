@@ -7,7 +7,7 @@
         {
           "unit_id": "at_the_pub",
           "title": "Dinner at The Old Duke",
-          "description": "Pide comida y bebida en un pub con there is/are, some/any y Can I have…?",
+          "description": "Pide comida y bebida en un pub con there is/are, some/any y Can I have…? Además, how much / how many y I'd like.",
           "lessons": [
             {
               "lesson_id": "pub_lesson",
@@ -164,6 +164,44 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "How much / how many · I'd like",
+                    "explanation": "Hay nombres contables (a burger, two burgers) e incontables, que no tienen plural ni llevan a/an: water, bread, wine, money, rice.\n\nHow many…? pregunta por cantidades de cosas contables: How many burgers? How much…? pregunta por incontables: How much water? Y también por el precio: How much is it? — It's thirty-two pounds fifty.\n\nI'd like (= I would like) es la forma educada de pedir algo: I'd like a glass of wine, please. Va seguido de un nombre o de to + verbo: I'd like to pay, please. Pregunta educada: Would you like some bread?",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Contables",
+                        "Incontables"
+                      ],
+                      "rows": [
+                        [
+                          "Ejemplos",
+                          "a burger, two chips, three drinks",
+                          "water, bread, wine, money"
+                        ],
+                        [
+                          "Pregunta",
+                          "How many burgers are there?",
+                          "How much water is there?"
+                        ],
+                        [
+                          "Precio",
+                          "How much are the burgers?",
+                          "How much is the wine?"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "How much is a glass of red wine? — Five pounds.",
+                      "How many people are there? — Three.",
+                      "I'd like the vegetable curry, please.",
+                      "Would you like some bread? — Yes, please."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -258,6 +296,63 @@
                       },
                       {
                         "answer": "Can I have fish and chips"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa la frase.",
+                    "items": [
+                      {
+                        "sentence": "How ___ is the fish and chips? — Twelve pounds.",
+                        "answers": [
+                          [
+                            "much"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "How ___ burgers would you like? — Two, please.",
+                        "answers": [
+                          [
+                            "many"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "How ___ water is there in the bottle?",
+                        "answers": [
+                          [
+                            "much"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'd ___ a lemonade, please.",
+                        "answers": [
+                          [
+                            "like"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ you like some bread? — Yes, please.",
+                        "answers": [
+                          [
+                            "Would"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'd like ___ pay, please.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
                       }
                     ]
                   }

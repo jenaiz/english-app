@@ -7,7 +7,7 @@
         {
           "unit_id": "in_the_park",
           "title": "Football in the Park",
-          "description": "Habla de habilidades y pide permiso con can / can't.",
+          "description": "Habla de habilidades y pide permiso con can / can't. Además, could / couldn't y very / really.",
           "lessons": [
             {
               "lesson_id": "in_the_park_lesson",
@@ -162,6 +162,49 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "could / couldn't · very and really",
+                    "explanation": "Could es el pasado de can para la habilidad: I could swim when I was six (sabía nadar). Negativa: couldn't. Pregunta: Could you…?\n\nCould también sirve para pedir algo con más educación que can: Could you help me, please? Could I have some water?\n\nVery y really refuerzan un adjetivo o un adverbio: very fast, really good, really well. Van delante de la palabra que refuerzan. Not very suaviza: I can't run very fast (no corro muy rápido).",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Ejemplo",
+                        "En español"
+                      ],
+                      "rows": [
+                        [
+                          "Habilidad en pasado",
+                          "I could swim when I was six.",
+                          "Sabía nadar a los seis años."
+                        ],
+                        [
+                          "Negativa",
+                          "I couldn't play football at school.",
+                          "No sabía jugar al fútbol en el colegio."
+                        ],
+                        [
+                          "Petición educada",
+                          "Could you help me, please?",
+                          "¿Podrías ayudarme, por favor?"
+                        ],
+                        [
+                          "very / really",
+                          "You can play really well.",
+                          "Juegas muy bien."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I could play football when I was eight.",
+                      "Sam couldn't kick the ball.",
+                      "Could you bring some water, please?",
+                      "Lucía can't run very fast, but she plays really well."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -248,6 +291,66 @@
                       },
                       {
                         "answer": "Can you help me"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa la frase.",
+                    "items": [
+                      {
+                        "sentence": "I ___ swim when I was five. (pasado de can)",
+                        "answers": [
+                          [
+                            "could"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam ___ kick the ball yesterday. (negativa)",
+                        "answers": [
+                          [
+                            "couldn't",
+                            "could not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ you help me, please? (petición educada)",
+                        "answers": [
+                          [
+                            "Could"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Lucía plays ___ well. (muy)",
+                        "answers": [
+                          [
+                            "really",
+                            "very"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I can't run ___ fast.",
+                        "answers": [
+                          [
+                            "very"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ I have some water, please?",
+                        "answers": [
+                          [
+                            "Could",
+                            "Can"
+                          ]
+                        ]
                       }
                     ]
                   }

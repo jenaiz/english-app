@@ -97,6 +97,11 @@ func (h *AuthHandler) ExportAccount(w http.ResponseWriter, r *http.Request) {
 		h.internal(w, err)
 		return
 	}
+	exams, err := h.Store.ListAttempts(ctx, user.ID)
+	if err != nil {
+		h.internal(w, err)
+		return
+	}
 	w.Header().Set("Content-Disposition", `attachment; filename="fluently-datos.json"`)
 	writeJSON(w, http.StatusOK, map[string]any{
 		"exported_at": time.Now().UTC(),
@@ -104,6 +109,7 @@ func (h *AuthHandler) ExportAccount(w http.ResponseWriter, r *http.Request) {
 		"progress":    progress,
 		"srs_cards":   cards,
 		"club":        activities,
+		"level_exams": exams,
 	})
 }
 

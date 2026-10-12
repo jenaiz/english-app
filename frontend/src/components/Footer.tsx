@@ -8,7 +8,7 @@ export default function Footer() {
   const { openPreferences } = useConsent()
 
   return (
-    <footer className="border-t border-slate-200 bg-white">
+    <footer className="border-t border-slate-200 bg-white print:hidden">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:grid-cols-2 md:grid-cols-[2fr_1fr_1fr]">
         <div>
           <Link to="/" className="flex items-center gap-2 text-lg font-bold text-slate-900">

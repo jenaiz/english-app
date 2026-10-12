@@ -1,4 +1,5 @@
-// Command tts pre-generates one MP3 per dialogue line and passage with Azure Speech,
+// Command tts pre-generates one MP3 per dialogue line and passage (lessons and level-exam
+// listenings) with Azure Speech,
 // using the fixed voice of each speaker (data/voices.json). Existing files are kept,
 // so it only synthesises new or edited lines.
 //
@@ -45,6 +46,16 @@ func main() {
 	if err := catalog.CheckSpeakers(voices); err != nil {
 		log.Fatal(err)
 	}
+	exams, err := content.LoadExams(cfg.ExamsDir, catalog)
+	if err != nil {
+		log.Fatalf("load exams: %v", err)
+	}
+	if err := exams.CheckSpeakers(voices); err != nil {
+		log.Fatal(err)
+	}
+	if err := exams.CheckCoverage(catalog); err != nil {
+		log.Fatal(err)
+	}
 	if err := os.MkdirAll(cfg.AudioDir, 0o755); err != nil {
 		log.Fatal(err)
 	}
@@ -57,7 +68,7 @@ func main() {
 
 	used := map[string]bool{}
 	var created, chars int
-	for _, l := range catalog.Lines() {
+	for _, l := range append(catalog.Lines(), exams.Lines()...) {
 		name, _ := voices.AudioFile(l.Speaker, l.Text)
 		if used[name] {
 			continue

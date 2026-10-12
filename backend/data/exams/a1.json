@@ -1,0 +1,1833 @@
+{
+  "exam_id": "a1",
+  "level_id": "A1",
+  "title": "Examen de nivel A1",
+  "description": "Demuestra que tienes el nivel A1 del Marco Común Europeo (MCER): gramática, vocabulario, comprensión lectora y comprensión auditiva.",
+  "duration_minutes": 45,
+  "pass_score": 70,
+  "section_min_score": 50,
+  "retake_hours": 24,
+  "max_plays": 2,
+  "syllabus": [
+    {
+      "tag": "to_be",
+      "label": "to be (am / is / are): afirmativa, negativa y preguntas",
+      "units": [
+        "saying_hello",
+        "new_flatmates"
+      ]
+    },
+    {
+      "tag": "pronouns_possessives",
+      "label": "Pronombres personales, objeto y posesivos (my / mine, his, their…)",
+      "units": [
+        "saying_hello",
+        "new_flatmates",
+        "free_time"
+      ]
+    },
+    {
+      "tag": "articles_demonstratives",
+      "label": "a / an / the, plurales y this / that / these / those",
+      "units": [
+        "numbers_colors",
+        "shift_work"
+      ]
+    },
+    {
+      "tag": "possessive_s",
+      "label": "Posesivo 's (Sam's guitar)",
+      "units": [
+        "numbers_colors"
+      ]
+    },
+    {
+      "tag": "questions",
+      "label": "Preguntas (Wh-, have got, do / does)",
+      "units": [
+        "first_day",
+        "my_week"
+      ]
+    },
+    {
+      "tag": "time_prepositions",
+      "label": "La hora y las preposiciones de tiempo in / on / at",
+      "units": [
+        "first_day"
+      ]
+    },
+    {
+      "tag": "there_is_some_any",
+      "label": "There is / there are, some / any",
+      "units": [
+        "at_the_pub"
+      ]
+    },
+    {
+      "tag": "how_much_id_like",
+      "label": "How much / how many, precios e I'd like",
+      "units": [
+        "at_the_pub"
+      ]
+    },
+    {
+      "tag": "present_simple",
+      "label": "Present simple (todas las personas)",
+      "units": [
+        "my_week",
+        "shift_work"
+      ]
+    },
+    {
+      "tag": "linking_words",
+      "label": "Conectores: and, but, or, because",
+      "units": [
+        "my_week"
+      ]
+    },
+    {
+      "tag": "frequency_adverbs",
+      "label": "Adverbios de frecuencia (always, usually, never…)",
+      "units": [
+        "shift_work"
+      ]
+    },
+    {
+      "tag": "place_imperatives",
+      "label": "Preposiciones de lugar e imperativos",
+      "units": [
+        "around_town"
+      ]
+    },
+    {
+      "tag": "comparatives",
+      "label": "Comparativos y superlativos",
+      "units": [
+        "around_town"
+      ]
+    },
+    {
+      "tag": "like_ing",
+      "label": "like / love / hate + -ing",
+      "units": [
+        "free_time"
+      ]
+    },
+    {
+      "tag": "can_could",
+      "label": "can / can't, could / couldn't",
+      "units": [
+        "in_the_park"
+      ]
+    },
+    {
+      "tag": "present_continuous",
+      "label": "Present continuous",
+      "units": [
+        "rainy_day"
+      ]
+    },
+    {
+      "tag": "going_to",
+      "label": "be going to: planes",
+      "units": [
+        "rainy_day"
+      ]
+    },
+    {
+      "tag": "past_simple",
+      "label": "Past simple: was / were y verbos regulares e irregulares",
+      "units": [
+        "last_weekend"
+      ]
+    },
+    {
+      "tag": "vocab_personal",
+      "label": "Vocabulario: países, familia y profesiones",
+      "units": [
+        "saying_hello",
+        "new_flatmates",
+        "shift_work"
+      ]
+    },
+    {
+      "tag": "vocab_food",
+      "label": "Vocabulario: comida y bebida",
+      "units": [
+        "at_the_pub"
+      ]
+    },
+    {
+      "tag": "vocab_town",
+      "label": "Vocabulario: la ciudad, tiendas y servicios",
+      "units": [
+        "around_town"
+      ]
+    },
+    {
+      "tag": "vocab_daily",
+      "label": "Vocabulario: días, meses, horas y rutina",
+      "units": [
+        "first_day",
+        "my_week"
+      ]
+    },
+    {
+      "tag": "vocab_free_time",
+      "label": "Vocabulario: aficiones, deportes, ropa y tiempo",
+      "units": [
+        "free_time",
+        "in_the_park",
+        "rainy_day"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "grammar",
+      "title": "Gramática",
+      "parts": [
+        {
+          "part_id": "g1",
+          "instructions": "Elige la opción correcta.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "g1a01",
+                  "type": "choice",
+                  "prompt": "My sister ___ a teacher.",
+                  "options": [
+                    "is",
+                    "are",
+                    "am"
+                  ],
+                  "answer": 0,
+                  "tag": "to_be"
+                },
+                {
+                  "id": "g1a02",
+                  "type": "choice",
+                  "prompt": "___ you from Italy? — No, I'm not.",
+                  "options": [
+                    "Are",
+                    "Is",
+                    "Do"
+                  ],
+                  "answer": 0,
+                  "tag": "to_be"
+                },
+                {
+                  "id": "g1a03",
+                  "type": "choice",
+                  "prompt": "This is Tom. ___ is my brother.",
+                  "options": [
+                    "He",
+                    "His",
+                    "Him"
+                  ],
+                  "answer": 0,
+                  "tag": "pronouns_possessives"
+                },
+                {
+                  "id": "g1a04",
+                  "type": "choice",
+                  "prompt": "We live in Bristol. ___ flat is near the river.",
+                  "options": [
+                    "Our",
+                    "We",
+                    "Us"
+                  ],
+                  "answer": 0,
+                  "tag": "pronouns_possessives"
+                },
+                {
+                  "id": "g1a05",
+                  "type": "choice",
+                  "prompt": "She's ___ engineer.",
+                  "options": [
+                    "an",
+                    "a",
+                    "two"
+                  ],
+                  "answer": 0,
+                  "tag": "articles_demonstratives"
+                },
+                {
+                  "id": "g1a06",
+                  "type": "choice",
+                  "prompt": "Look at ___ birds over there!",
+                  "options": [
+                    "those",
+                    "that",
+                    "this"
+                  ],
+                  "answer": 0,
+                  "tag": "articles_demonstratives"
+                },
+                {
+                  "id": "g1a07",
+                  "type": "choice",
+                  "prompt": "There ___ two cafés in my street.",
+                  "options": [
+                    "are",
+                    "is",
+                    "be"
+                  ],
+                  "answer": 0,
+                  "tag": "there_is_some_any"
+                },
+                {
+                  "id": "g1a08",
+                  "type": "choice",
+                  "prompt": "My brother ___ in a bank.",
+                  "options": [
+                    "works",
+                    "work",
+                    "working"
+                  ],
+                  "answer": 0,
+                  "tag": "present_simple"
+                },
+                {
+                  "id": "g1a09",
+                  "type": "choice",
+                  "prompt": "___ your parents speak English?",
+                  "options": [
+                    "Do",
+                    "Does",
+                    "Are"
+                  ],
+                  "answer": 0,
+                  "tag": "present_simple"
+                },
+                {
+                  "id": "g1a10",
+                  "type": "choice",
+                  "prompt": "Sam is a great waiter. He ___ late for work.",
+                  "options": [
+                    "is never",
+                    "never is",
+                    "never"
+                  ],
+                  "answer": 0,
+                  "tag": "frequency_adverbs"
+                },
+                {
+                  "id": "g1a11",
+                  "type": "choice",
+                  "prompt": "I love ___ to music in the car.",
+                  "options": [
+                    "listening",
+                    "listen",
+                    "listens"
+                  ],
+                  "answer": 0,
+                  "tag": "like_ing"
+                },
+                {
+                  "id": "g1a12",
+                  "type": "choice",
+                  "prompt": "Can you swim? — Yes, I ___.",
+                  "options": [
+                    "can",
+                    "do",
+                    "am"
+                  ],
+                  "answer": 0,
+                  "tag": "can_could"
+                },
+                {
+                  "id": "g1a13",
+                  "type": "choice",
+                  "prompt": "Be quiet, please! The baby ___.",
+                  "options": [
+                    "is sleeping",
+                    "sleeps",
+                    "sleep"
+                  ],
+                  "answer": 0,
+                  "tag": "present_continuous"
+                },
+                {
+                  "id": "g1a14",
+                  "type": "choice",
+                  "prompt": "We ___ to the beach last Sunday.",
+                  "options": [
+                    "went",
+                    "go",
+                    "goes"
+                  ],
+                  "answer": 0,
+                  "tag": "past_simple"
+                },
+                {
+                  "id": "g1a15",
+                  "type": "choice",
+                  "prompt": "Is this your umbrella? — Yes, it's ___.",
+                  "options": [
+                    "mine",
+                    "my",
+                    "me"
+                  ],
+                  "answer": 0,
+                  "tag": "pronouns_possessives"
+                },
+                {
+                  "id": "g1a16",
+                  "type": "choice",
+                  "prompt": "I've got a dog and a cat. ___ dog is called Max.",
+                  "options": [
+                    "The",
+                    "A",
+                    "An"
+                  ],
+                  "answer": 0,
+                  "tag": "articles_demonstratives"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "g1b01",
+                  "type": "choice",
+                  "prompt": "The children ___ at school today.",
+                  "options": [
+                    "are",
+                    "is",
+                    "am"
+                  ],
+                  "answer": 0,
+                  "tag": "to_be"
+                },
+                {
+                  "id": "g1b02",
+                  "type": "choice",
+                  "prompt": "Is your brother a student? — No, he ___.",
+                  "options": [
+                    "isn't",
+                    "aren't",
+                    "doesn't"
+                  ],
+                  "answer": 0,
+                  "tag": "to_be"
+                },
+                {
+                  "id": "g1b03",
+                  "type": "choice",
+                  "prompt": "I like Anna. I see ___ every day at work.",
+                  "options": [
+                    "her",
+                    "she",
+                    "hers"
+                  ],
+                  "answer": 0,
+                  "tag": "pronouns_possessives"
+                },
+                {
+                  "id": "g1b04",
+                  "type": "choice",
+                  "prompt": "Mark and Grace are from Australia. ___ house is in Sydney.",
+                  "options": [
+                    "Their",
+                    "They",
+                    "Them"
+                  ],
+                  "answer": 0,
+                  "tag": "pronouns_possessives"
+                },
+                {
+                  "id": "g1b05",
+                  "type": "choice",
+                  "prompt": "There's ___ umbrella next to the door.",
+                  "options": [
+                    "an",
+                    "a",
+                    "two"
+                  ],
+                  "answer": 0,
+                  "tag": "articles_demonstratives"
+                },
+                {
+                  "id": "g1b06",
+                  "type": "choice",
+                  "prompt": "___ shoes are very nice. Are they new?",
+                  "options": [
+                    "These",
+                    "This",
+                    "That"
+                  ],
+                  "answer": 0,
+                  "tag": "articles_demonstratives"
+                },
+                {
+                  "id": "g1b07",
+                  "type": "choice",
+                  "prompt": "___ there any milk in the fridge?",
+                  "options": [
+                    "Is",
+                    "Are",
+                    "Do"
+                  ],
+                  "answer": 0,
+                  "tag": "there_is_some_any"
+                },
+                {
+                  "id": "g1b08",
+                  "type": "choice",
+                  "prompt": "Helen ___ coffee. She drinks tea.",
+                  "options": [
+                    "doesn't drink",
+                    "don't drink",
+                    "isn't drink"
+                  ],
+                  "answer": 0,
+                  "tag": "present_simple"
+                },
+                {
+                  "id": "g1b09",
+                  "type": "choice",
+                  "prompt": "What time ___ the film start?",
+                  "options": [
+                    "does",
+                    "do",
+                    "is"
+                  ],
+                  "answer": 0,
+                  "tag": "present_simple"
+                },
+                {
+                  "id": "g1b10",
+                  "type": "choice",
+                  "prompt": "We ___ at home on Sundays.",
+                  "options": [
+                    "usually eat",
+                    "eat usually",
+                    "usually eats"
+                  ],
+                  "answer": 0,
+                  "tag": "frequency_adverbs"
+                },
+                {
+                  "id": "g1b11",
+                  "type": "choice",
+                  "prompt": "Sam hates ___ up early.",
+                  "options": [
+                    "getting",
+                    "get",
+                    "gets"
+                  ],
+                  "answer": 0,
+                  "tag": "like_ing"
+                },
+                {
+                  "id": "g1b12",
+                  "type": "choice",
+                  "prompt": "I ___ swim when I was five, but now I can.",
+                  "options": [
+                    "couldn't",
+                    "can't",
+                    "don't"
+                  ],
+                  "answer": 0,
+                  "tag": "can_could"
+                },
+                {
+                  "id": "g1b13",
+                  "type": "choice",
+                  "prompt": "Where's Dad? — He ___ the car.",
+                  "options": [
+                    "is washing",
+                    "washes",
+                    "wash"
+                  ],
+                  "answer": 0,
+                  "tag": "present_continuous"
+                },
+                {
+                  "id": "g1b14",
+                  "type": "choice",
+                  "prompt": "I ___ my friends at the station yesterday.",
+                  "options": [
+                    "met",
+                    "meet",
+                    "meets"
+                  ],
+                  "answer": 0,
+                  "tag": "past_simple"
+                },
+                {
+                  "id": "g1b15",
+                  "type": "choice",
+                  "prompt": "That isn't Helen's coffee. ___ is the tea.",
+                  "options": [
+                    "Hers",
+                    "Her",
+                    "She"
+                  ],
+                  "answer": 0,
+                  "tag": "pronouns_possessives"
+                },
+                {
+                  "id": "g1b16",
+                  "type": "choice",
+                  "prompt": "My sister is ___ doctor. She works at a hospital in Leeds.",
+                  "options": [
+                    "a",
+                    "the",
+                    "an"
+                  ],
+                  "answer": 0,
+                  "tag": "articles_demonstratives"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "g2",
+          "instructions": "Escribe la palabra que falta. Si hay una palabra entre paréntesis, úsala en la forma correcta.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "g2a01",
+                  "type": "gap",
+                  "prompt": "It's my ___ bike. (brother)",
+                  "accept": [
+                    "brother's"
+                  ],
+                  "tag": "possessive_s"
+                },
+                {
+                  "id": "g2a02",
+                  "type": "gap",
+                  "prompt": "The ___ bedroom is upstairs. (children)",
+                  "accept": [
+                    "children's"
+                  ],
+                  "tag": "possessive_s"
+                },
+                {
+                  "id": "g2a03",
+                  "type": "gap",
+                  "prompt": "The shop opens ___ nine o'clock.",
+                  "accept": [
+                    "at"
+                  ],
+                  "tag": "time_prepositions"
+                },
+                {
+                  "id": "g2a04",
+                  "type": "gap",
+                  "prompt": "How ___ are these shoes? — Forty pounds.",
+                  "accept": [
+                    "much"
+                  ],
+                  "tag": "how_much_id_like"
+                },
+                {
+                  "id": "g2a05",
+                  "type": "gap",
+                  "prompt": "I'm tired ___ I worked a lot today.",
+                  "accept": [
+                    "because"
+                  ],
+                  "tag": "linking_words"
+                },
+                {
+                  "id": "g2a06",
+                  "type": "gap",
+                  "prompt": "London is ___ than Bristol. (big)",
+                  "accept": [
+                    "bigger"
+                  ],
+                  "tag": "comparatives"
+                },
+                {
+                  "id": "g2a07",
+                  "type": "gap",
+                  "prompt": "Next summer I'm ___ to visit my grandparents.",
+                  "accept": [
+                    "going"
+                  ],
+                  "tag": "going_to"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "g2b01",
+                  "type": "gap",
+                  "prompt": "Is this ___ phone? (Daniel)",
+                  "accept": [
+                    "Daniel's"
+                  ],
+                  "tag": "possessive_s"
+                },
+                {
+                  "id": "g2b02",
+                  "type": "gap",
+                  "prompt": "My ___ name is Rosa. (sister)",
+                  "accept": [
+                    "sister's"
+                  ],
+                  "tag": "possessive_s"
+                },
+                {
+                  "id": "g2b03",
+                  "type": "gap",
+                  "prompt": "My birthday is ___ July.",
+                  "accept": [
+                    "in"
+                  ],
+                  "tag": "time_prepositions"
+                },
+                {
+                  "id": "g2b04",
+                  "type": "gap",
+                  "prompt": "How ___ brothers and sisters have you got?",
+                  "accept": [
+                    "many"
+                  ],
+                  "tag": "how_much_id_like"
+                },
+                {
+                  "id": "g2b05",
+                  "type": "gap",
+                  "prompt": "I like tea, ___ I don't like coffee.",
+                  "accept": [
+                    "but"
+                  ],
+                  "tag": "linking_words"
+                },
+                {
+                  "id": "g2b06",
+                  "type": "gap",
+                  "prompt": "My new flat is ___ than my old flat. (good)",
+                  "accept": [
+                    "better"
+                  ],
+                  "tag": "comparatives"
+                },
+                {
+                  "id": "g2b07",
+                  "type": "gap",
+                  "prompt": "What are you going ___ do this weekend?",
+                  "accept": [
+                    "to"
+                  ],
+                  "tag": "going_to"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "g3",
+          "instructions": "Ordena las palabras para formar una frase.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "g3a01",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "Where do you live?"
+                  ],
+                  "tag": "questions"
+                },
+                {
+                  "id": "g3a02",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "What time is the meeting?"
+                  ],
+                  "tag": "questions"
+                },
+                {
+                  "id": "g3a03",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "The bank is next to the station."
+                  ],
+                  "tag": "place_imperatives"
+                },
+                {
+                  "id": "g3a04",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "I stayed at home because it was cold.",
+                    "Because it was cold, I stayed at home."
+                  ],
+                  "tag": "linking_words"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "g3b01",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "How old is your sister?"
+                  ],
+                  "tag": "questions"
+                },
+                {
+                  "id": "g3b02",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "Have you got a car?"
+                  ],
+                  "tag": "questions"
+                },
+                {
+                  "id": "g3b03",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "Turn left at the supermarket."
+                  ],
+                  "tag": "place_imperatives"
+                },
+                {
+                  "id": "g3b04",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "She can sing but she can't dance.",
+                    "She can't dance but she can sing."
+                  ],
+                  "tag": "linking_words"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "vocabulary",
+      "title": "Vocabulario",
+      "parts": [
+        {
+          "part_id": "v1",
+          "instructions": "Elige la palabra correcta.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "v1a01",
+                  "type": "choice",
+                  "prompt": "Daniel is from Ireland. He's ___.",
+                  "options": [
+                    "Irish",
+                    "Ireland",
+                    "English"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_personal"
+                },
+                {
+                  "id": "v1a02",
+                  "type": "choice",
+                  "prompt": "My mother's brother is my ___.",
+                  "options": [
+                    "uncle",
+                    "cousin",
+                    "grandfather"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_personal"
+                },
+                {
+                  "id": "v1a03",
+                  "type": "choice",
+                  "prompt": "Which one is a drink?",
+                  "options": [
+                    "lemonade",
+                    "bread",
+                    "rice"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_food"
+                },
+                {
+                  "id": "v1a04",
+                  "type": "choice",
+                  "prompt": "I'd like a ___ of water, please.",
+                  "options": [
+                    "glass",
+                    "plate",
+                    "slice"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_food"
+                },
+                {
+                  "id": "v1a05",
+                  "type": "choice",
+                  "prompt": "You buy medicine at the ___.",
+                  "options": [
+                    "chemist's",
+                    "baker's",
+                    "library"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_town"
+                },
+                {
+                  "id": "v1a06",
+                  "type": "choice",
+                  "prompt": "You can borrow books at the ___.",
+                  "options": [
+                    "library",
+                    "bank",
+                    "station"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_town"
+                },
+                {
+                  "id": "v1a07",
+                  "type": "choice",
+                  "prompt": "The day after Wednesday is ___.",
+                  "options": [
+                    "Thursday",
+                    "Tuesday",
+                    "Friday"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_daily"
+                },
+                {
+                  "id": "v1a08",
+                  "type": "choice",
+                  "prompt": "It's very cold today. Put on your ___.",
+                  "options": [
+                    "coat",
+                    "shorts",
+                    "sunglasses"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_free_time"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "v1b01",
+                  "type": "choice",
+                  "prompt": "She looks after sick people in a hospital. She's a ___.",
+                  "options": [
+                    "nurse",
+                    "waiter",
+                    "teacher"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_personal"
+                },
+                {
+                  "id": "v1b02",
+                  "type": "choice",
+                  "prompt": "My father's mother is my ___.",
+                  "options": [
+                    "grandmother",
+                    "aunt",
+                    "sister"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_personal"
+                },
+                {
+                  "id": "v1b03",
+                  "type": "choice",
+                  "prompt": "Which one is a vegetable?",
+                  "options": [
+                    "carrot",
+                    "apple",
+                    "chicken"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_food"
+                },
+                {
+                  "id": "v1b04",
+                  "type": "choice",
+                  "prompt": "Can I have a ___ of coffee, please?",
+                  "options": [
+                    "cup",
+                    "slice",
+                    "kilo"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_food"
+                },
+                {
+                  "id": "v1b05",
+                  "type": "choice",
+                  "prompt": "You catch a train at the ___.",
+                  "options": [
+                    "station",
+                    "chemist's",
+                    "post office"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_town"
+                },
+                {
+                  "id": "v1b06",
+                  "type": "choice",
+                  "prompt": "You can buy bread at the ___.",
+                  "options": [
+                    "baker's",
+                    "butcher's",
+                    "bank"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_town"
+                },
+                {
+                  "id": "v1b07",
+                  "type": "choice",
+                  "prompt": "Twelve o'clock at night is ___.",
+                  "options": [
+                    "midnight",
+                    "midday",
+                    "morning"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_daily"
+                },
+                {
+                  "id": "v1b08",
+                  "type": "choice",
+                  "prompt": "It's sunny and hot. Wear your ___.",
+                  "options": [
+                    "sunglasses",
+                    "scarf",
+                    "gloves"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_free_time"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "v2",
+          "instructions": "Escribe la palabra que falta. Tienes la primera letra.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "v2a01",
+                  "type": "gap",
+                  "prompt": "There are seven days in a ___. (w…)",
+                  "accept": [
+                    "week"
+                  ],
+                  "tag": "vocab_daily"
+                },
+                {
+                  "id": "v2a02",
+                  "type": "gap",
+                  "prompt": "Daniel plays ___ in the park on Saturdays: two teams, one ball and two goals. (f…)",
+                  "accept": [
+                    "football"
+                  ],
+                  "tag": "vocab_free_time"
+                },
+                {
+                  "id": "v2a03",
+                  "type": "gap",
+                  "prompt": "I need some money. Is there a ___ near here? (b…)",
+                  "accept": [
+                    "bank"
+                  ],
+                  "tag": "vocab_town"
+                },
+                {
+                  "id": "v2a04",
+                  "type": "gap",
+                  "prompt": "Fish and ___ is a typical British dish. (c…)",
+                  "accept": [
+                    "chips"
+                  ],
+                  "tag": "vocab_food"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "v2b01",
+                  "type": "gap",
+                  "prompt": "The first month of the year is ___. (J…)",
+                  "accept": [
+                    "January"
+                  ],
+                  "tag": "vocab_daily"
+                },
+                {
+                  "id": "v2b02",
+                  "type": "gap",
+                  "prompt": "It's raining. Take an ___. (u…)",
+                  "accept": [
+                    "umbrella"
+                  ],
+                  "tag": "vocab_free_time"
+                },
+                {
+                  "id": "v2b03",
+                  "type": "gap",
+                  "prompt": "Where can I send this letter? — At the ___ office. (p…)",
+                  "accept": [
+                    "post"
+                  ],
+                  "tag": "vocab_town"
+                },
+                {
+                  "id": "v2b04",
+                  "type": "gap",
+                  "prompt": "I don't eat meat or fish. I'm ___. (v…)",
+                  "accept": [
+                    "vegetarian"
+                  ],
+                  "tag": "vocab_food"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "reading",
+      "title": "Reading",
+      "parts": [
+        {
+          "part_id": "r1",
+          "instructions": "Lee cada cartel y elige qué significa.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "r1a01",
+                  "type": "choice",
+                  "prompt": "PLEASE CLOSE THE DOOR. THANK YOU!",
+                  "options": [
+                    "Don't leave the door open.",
+                    "You can't open this door.",
+                    "The door is broken."
+                  ],
+                  "answer": 0,
+                  "tag": "place_imperatives"
+                },
+                {
+                  "id": "r1a02",
+                  "type": "choice",
+                  "prompt": "CHEMIST'S — Open until 10 pm tonight",
+                  "options": [
+                    "You can buy medicine here this evening.",
+                    "This shop is closed tonight.",
+                    "You can have dinner here tonight."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_town"
+                },
+                {
+                  "id": "r1a03",
+                  "type": "choice",
+                  "prompt": "LIBRARY: Open Monday to Saturday, 9 am – 6 pm. Closed on Sundays.",
+                  "options": [
+                    "You can't visit the library on Sunday.",
+                    "The library opens at 6 in the morning.",
+                    "The library is open every day."
+                  ],
+                  "answer": 0,
+                  "tag": "time_prepositions"
+                },
+                {
+                  "id": "r1a04",
+                  "type": "choice",
+                  "prompt": "SWIMMING POOL: Children under 10 can swim here only with an adult.",
+                  "options": [
+                    "Young children can't swim here alone.",
+                    "Adults can't swim here.",
+                    "Children under 10 swim free."
+                  ],
+                  "answer": 0,
+                  "tag": "can_could"
+                },
+                {
+                  "id": "r1a05",
+                  "type": "choice",
+                  "prompt": "COFFEE £2.50 — COFFEE AND CAKE £4",
+                  "options": [
+                    "A coffee and a cake cost four pounds.",
+                    "A cake costs four pounds.",
+                    "A coffee costs four pounds."
+                  ],
+                  "answer": 0,
+                  "tag": "how_much_id_like"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "r1b01",
+                  "type": "choice",
+                  "prompt": "DON'T FEED THE DUCKS",
+                  "options": [
+                    "Don't give food to the ducks.",
+                    "The ducks are hungry.",
+                    "You can buy food for the ducks here."
+                  ],
+                  "answer": 0,
+                  "tag": "place_imperatives"
+                },
+                {
+                  "id": "r1b02",
+                  "type": "choice",
+                  "prompt": "POST OFFICE — Stamps and parcels at window 2",
+                  "options": [
+                    "You can send a parcel here.",
+                    "You can buy train tickets here.",
+                    "You can buy medicine here."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_town"
+                },
+                {
+                  "id": "r1b03",
+                  "type": "choice",
+                  "prompt": "SPORTS CENTRE: Closed on Monday mornings. Open in the afternoon from 2 pm.",
+                  "options": [
+                    "You can go there on Monday at 3 pm.",
+                    "You can't go there on Monday.",
+                    "It opens at 2 o'clock at night."
+                  ],
+                  "answer": 0,
+                  "tag": "time_prepositions"
+                },
+                {
+                  "id": "r1b04",
+                  "type": "choice",
+                  "prompt": "CINEMA: Phones off, please. The film starts in five minutes.",
+                  "options": [
+                    "You can't use your phone during the film.",
+                    "You can make calls during the film.",
+                    "You can buy a phone here."
+                  ],
+                  "answer": 0,
+                  "tag": "can_could"
+                },
+                {
+                  "id": "r1b05",
+                  "type": "choice",
+                  "prompt": "T-SHIRTS: £10 each or two for £15",
+                  "options": [
+                    "Two T-shirts cost fifteen pounds.",
+                    "One T-shirt costs fifteen pounds.",
+                    "Two T-shirts cost twenty pounds."
+                  ],
+                  "answer": 0,
+                  "tag": "how_much_id_like"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "r2",
+          "instructions": "Lee el texto y contesta las preguntas.",
+          "variants": [
+            {
+              "title": "An email from Ana",
+              "text": "Hi Tom,\n\nHow are you? I'm in Bristol now! I live in a small flat with two friends, Kate and Ben. Kate is a nurse and Ben is a cook in a restaurant. The flat is near the river and it's quieter than my old flat in London.\n\nI work in a bookshop from Monday to Friday. I usually walk to work, but when it rains I take the bus. I never work at the weekend.\n\nLast Saturday we went to a concert in the park. The music was great, but it was very cold!\n\nNext month my parents are going to visit me. We're going to have dinner at a famous fish restaurant by the river.\n\nWrite soon!\nAna",
+              "items": [
+                {
+                  "id": "r2a01",
+                  "type": "choice",
+                  "prompt": "What is Ben's job?",
+                  "options": [
+                    "He's a cook.",
+                    "He's a nurse.",
+                    "He works in a bookshop."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_personal"
+                },
+                {
+                  "id": "r2a02",
+                  "type": "choice",
+                  "prompt": "What does Ana say about her new flat?",
+                  "options": [
+                    "It's quieter than her flat in London.",
+                    "It's bigger than her flat in London.",
+                    "It's noisier than her flat in London."
+                  ],
+                  "answer": 0,
+                  "tag": "comparatives"
+                },
+                {
+                  "id": "r2a03",
+                  "type": "choice",
+                  "prompt": "How does Ana usually go to work?",
+                  "options": [
+                    "On foot.",
+                    "By bus.",
+                    "By bike."
+                  ],
+                  "answer": 0,
+                  "tag": "frequency_adverbs"
+                },
+                {
+                  "id": "r2a04",
+                  "type": "choice",
+                  "prompt": "What did Ana do last Saturday?",
+                  "options": [
+                    "She went to a concert.",
+                    "She worked in the bookshop.",
+                    "She had dinner with her parents."
+                  ],
+                  "answer": 0,
+                  "tag": "past_simple"
+                },
+                {
+                  "id": "r2a05",
+                  "type": "choice",
+                  "prompt": "What are Ana's parents going to do next month?",
+                  "options": [
+                    "Visit Ana in Bristol.",
+                    "Open a fish restaurant.",
+                    "Move to London."
+                  ],
+                  "answer": 0,
+                  "tag": "going_to"
+                }
+              ]
+            },
+            {
+              "title": "Marta's blog",
+              "text": "Hello! My name is Marta and I'm from Seville, in Spain. Now I live in Edinburgh with my cousin, Lucas. He's a student at the university and I'm a waitress in a café.\n\nEdinburgh is colder than Seville, but it's a beautiful city. I always wear a coat, even in summer!\n\nI start work at seven in the morning, so I get up very early. I sometimes go swimming after work.\n\nLast weekend Lucas and I climbed Arthur's Seat, a big hill in the middle of the city. We took a lot of photos.\n\nIn December I'm going to go home for Christmas. I'm going to see my family and eat my mum's food!",
+              "items": [
+                {
+                  "id": "r2b01",
+                  "type": "choice",
+                  "prompt": "Who is Lucas?",
+                  "options": [
+                    "Marta's cousin.",
+                    "Marta's brother.",
+                    "A waiter in the café."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_personal"
+                },
+                {
+                  "id": "r2b02",
+                  "type": "choice",
+                  "prompt": "What does Marta say about Edinburgh?",
+                  "options": [
+                    "It's colder than Seville.",
+                    "It's bigger than Seville.",
+                    "It's hotter than Seville."
+                  ],
+                  "answer": 0,
+                  "tag": "comparatives"
+                },
+                {
+                  "id": "r2b03",
+                  "type": "choice",
+                  "prompt": "What does Marta do in summer?",
+                  "options": [
+                    "She wears a coat.",
+                    "She never wears a coat.",
+                    "She goes swimming every morning."
+                  ],
+                  "answer": 0,
+                  "tag": "frequency_adverbs"
+                },
+                {
+                  "id": "r2b04",
+                  "type": "choice",
+                  "prompt": "What did Marta and Lucas do last weekend?",
+                  "options": [
+                    "They climbed a hill.",
+                    "They went to Seville.",
+                    "They worked in the café."
+                  ],
+                  "answer": 0,
+                  "tag": "past_simple"
+                },
+                {
+                  "id": "r2b05",
+                  "type": "choice",
+                  "prompt": "What is Marta going to do in December?",
+                  "options": [
+                    "Go home to Spain.",
+                    "Start a new job.",
+                    "Visit Lucas at the university."
+                  ],
+                  "answer": 0,
+                  "tag": "going_to"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "listening",
+      "title": "Listening",
+      "parts": [
+        {
+          "part_id": "l1",
+          "instructions": "Escucha la conversación y contesta las preguntas. Puedes escucharla dos veces.",
+          "variants": [
+            {
+              "title": "In a café",
+              "dialogue": [
+                {
+                  "speaker": "Waiter",
+                  "text": "Good morning! What can I get you?"
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Hi. Is there any orange juice?"
+                },
+                {
+                  "speaker": "Waiter",
+                  "text": "Sorry, there isn't any orange juice today. We've got apple juice or lemonade."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "An apple juice, please. And I'd like a cheese sandwich."
+                },
+                {
+                  "speaker": "Waiter",
+                  "text": "Brown bread or white bread?"
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Brown, please. How much is that?"
+                },
+                {
+                  "speaker": "Waiter",
+                  "text": "That's six pounds twenty."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Here you are. Oh, what time do you close today?"
+                },
+                {
+                  "speaker": "Waiter",
+                  "text": "At half past five. But on Saturdays we close at three."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "OK, thanks. I'm coming back on Saturday with my friends!"
+                }
+              ],
+              "items": [
+                {
+                  "id": "l1a01",
+                  "type": "choice",
+                  "prompt": "Is there any orange juice?",
+                  "options": [
+                    "No, there isn't.",
+                    "Yes, there is.",
+                    "Yes, but it's very expensive."
+                  ],
+                  "answer": 0,
+                  "tag": "there_is_some_any"
+                },
+                {
+                  "id": "l1a02",
+                  "type": "choice",
+                  "prompt": "What does Lucía eat?",
+                  "options": [
+                    "A cheese sandwich on brown bread.",
+                    "A cheese sandwich on white bread.",
+                    "A piece of cake."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_food"
+                },
+                {
+                  "id": "l1a03",
+                  "type": "choice",
+                  "prompt": "How much does Lucía pay?",
+                  "options": [
+                    "£6.20",
+                    "£2.60",
+                    "£6.50"
+                  ],
+                  "answer": 0,
+                  "tag": "how_much_id_like"
+                },
+                {
+                  "id": "l1a04",
+                  "type": "choice",
+                  "prompt": "When does the café close on Saturdays?",
+                  "options": [
+                    "At three o'clock.",
+                    "At half past five.",
+                    "At half past three."
+                  ],
+                  "answer": 0,
+                  "tag": "time_prepositions"
+                },
+                {
+                  "id": "l1a05",
+                  "type": "choice",
+                  "prompt": "When is Lucía coming back?",
+                  "options": [
+                    "On Saturday.",
+                    "On Sunday.",
+                    "Tomorrow morning."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_daily"
+                }
+              ]
+            },
+            {
+              "title": "In a shop",
+              "dialogue": [
+                {
+                  "speaker": "Shop assistant",
+                  "text": "Hello! Can I help you?"
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "Yes, please. Are there any bananas?"
+                },
+                {
+                  "speaker": "Shop assistant",
+                  "text": "Yes, there are some over there, next to the apples."
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "Thanks. And I'd like two bottles of milk, please."
+                },
+                {
+                  "speaker": "Shop assistant",
+                  "text": "Here you are. Anything else?"
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "Some eggs, please. Six."
+                },
+                {
+                  "speaker": "Shop assistant",
+                  "text": "OK. That's four pounds eighty."
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "Here you are. Are you open tomorrow?"
+                },
+                {
+                  "speaker": "Shop assistant",
+                  "text": "Yes. We open at eight in the morning, every day except Sunday."
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "Perfect. Tomorrow's Friday, so see you tomorrow!"
+                }
+              ],
+              "items": [
+                {
+                  "id": "l1b01",
+                  "type": "choice",
+                  "prompt": "Are there any bananas?",
+                  "options": [
+                    "Yes, next to the apples.",
+                    "No, there aren't any.",
+                    "Yes, but only two."
+                  ],
+                  "answer": 0,
+                  "tag": "there_is_some_any"
+                },
+                {
+                  "id": "l1b02",
+                  "type": "choice",
+                  "prompt": "What does Priya buy?",
+                  "options": [
+                    "Bananas, milk and eggs.",
+                    "Apples, milk and bread.",
+                    "Bananas, cheese and eggs."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_food"
+                },
+                {
+                  "id": "l1b03",
+                  "type": "choice",
+                  "prompt": "How much does Priya pay?",
+                  "options": [
+                    "£4.80",
+                    "£8.40",
+                    "£4.18"
+                  ],
+                  "answer": 0,
+                  "tag": "how_much_id_like"
+                },
+                {
+                  "id": "l1b04",
+                  "type": "choice",
+                  "prompt": "When does the shop open?",
+                  "options": [
+                    "At eight in the morning.",
+                    "At eight in the evening.",
+                    "At nine in the morning."
+                  ],
+                  "answer": 0,
+                  "tag": "time_prepositions"
+                },
+                {
+                  "id": "l1b05",
+                  "type": "choice",
+                  "prompt": "When is Priya coming back?",
+                  "options": [
+                    "On Friday.",
+                    "On Sunday.",
+                    "On Saturday."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_daily"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "l2",
+          "instructions": "Escucha la conversación y contesta las preguntas. Puedes escucharla dos veces.",
+          "variants": [
+            {
+              "title": "A phone call",
+              "dialogue": [
+                {
+                  "speaker": "Sam",
+                  "text": "Hi, Lucía! What are you doing?"
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Hi, Sam. I'm cooking dinner. Paella for Priya and me!"
+                },
+                {
+                  "speaker": "Sam",
+                  "text": "Lovely! How was your weekend?"
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Great! On Saturday I went to the cinema with Daniel. We saw a very funny film."
+                },
+                {
+                  "speaker": "Sam",
+                  "text": "Nice. I played football on Sunday, but we lost!"
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Oh no! And what are you going to do tomorrow?"
+                },
+                {
+                  "speaker": "Sam",
+                  "text": "I'm going to play the guitar at a party. Do you want to come?"
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Yes, please! I love dancing."
+                },
+                {
+                  "speaker": "Sam",
+                  "text": "Great. It starts at eight. Bring a jacket, the party is in the garden!"
+                }
+              ],
+              "items": [
+                {
+                  "id": "l2a01",
+                  "type": "choice",
+                  "prompt": "What is Lucía doing now?",
+                  "options": [
+                    "She's cooking.",
+                    "She's watching a film.",
+                    "She's dancing."
+                  ],
+                  "answer": 0,
+                  "tag": "present_continuous"
+                },
+                {
+                  "id": "l2a02",
+                  "type": "choice",
+                  "prompt": "What did Lucía do on Saturday?",
+                  "options": [
+                    "She went to the cinema.",
+                    "She played football.",
+                    "She went to a party."
+                  ],
+                  "answer": 0,
+                  "tag": "past_simple"
+                },
+                {
+                  "id": "l2a03",
+                  "type": "choice",
+                  "prompt": "What did Sam do on Sunday?",
+                  "options": [
+                    "He played football.",
+                    "He played the guitar.",
+                    "He watched a film."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_free_time"
+                },
+                {
+                  "id": "l2a04",
+                  "type": "choice",
+                  "prompt": "What is Sam going to do tomorrow?",
+                  "options": [
+                    "Play the guitar at a party.",
+                    "Cook dinner for Priya.",
+                    "Go to the cinema."
+                  ],
+                  "answer": 0,
+                  "tag": "going_to"
+                },
+                {
+                  "id": "l2a05",
+                  "type": "choice",
+                  "prompt": "What does Lucía love?",
+                  "options": [
+                    "Dancing.",
+                    "Playing football.",
+                    "Playing the guitar."
+                  ],
+                  "answer": 0,
+                  "tag": "like_ing"
+                }
+              ]
+            },
+            {
+              "title": "Monday morning",
+              "dialogue": [
+                {
+                  "speaker": "Helen",
+                  "text": "Morning, Daniel! Are you OK? You look tired."
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "Morning, Helen. I'm fine. I'm drinking my third coffee!"
+                },
+                {
+                  "speaker": "Helen",
+                  "text": "Ha! What did you do at the weekend?"
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "I went to Cardiff with some friends. We watched a rugby match."
+                },
+                {
+                  "speaker": "Helen",
+                  "text": "Rugby? Do you like it?"
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "Yes, I love watching rugby. But I don't like playing it!"
+                },
+                {
+                  "speaker": "Helen",
+                  "text": "And this weekend?"
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "This weekend I'm going to stay at home and sleep!"
+                },
+                {
+                  "speaker": "Helen",
+                  "text": "Good idea. I'm going to go walking in the hills."
+                }
+              ],
+              "items": [
+                {
+                  "id": "l2b01",
+                  "type": "choice",
+                  "prompt": "What is Daniel doing now?",
+                  "options": [
+                    "Drinking coffee.",
+                    "Sleeping.",
+                    "Watching rugby."
+                  ],
+                  "answer": 0,
+                  "tag": "present_continuous"
+                },
+                {
+                  "id": "l2b02",
+                  "type": "choice",
+                  "prompt": "Where did Daniel go at the weekend?",
+                  "options": [
+                    "To Cardiff.",
+                    "To the hills.",
+                    "To Galway."
+                  ],
+                  "answer": 0,
+                  "tag": "past_simple"
+                },
+                {
+                  "id": "l2b03",
+                  "type": "choice",
+                  "prompt": "What did Daniel and his friends watch?",
+                  "options": [
+                    "A rugby match.",
+                    "A football match.",
+                    "A film."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_free_time"
+                },
+                {
+                  "id": "l2b04",
+                  "type": "choice",
+                  "prompt": "What does Daniel like?",
+                  "options": [
+                    "Watching rugby.",
+                    "Playing rugby.",
+                    "Walking in the hills."
+                  ],
+                  "answer": 0,
+                  "tag": "like_ing"
+                },
+                {
+                  "id": "l2b05",
+                  "type": "choice",
+                  "prompt": "What is Daniel going to do this weekend?",
+                  "options": [
+                    "Stay at home and sleep.",
+                    "Go walking in the hills.",
+                    "Go to Cardiff again."
+                  ],
+                  "answer": 0,
+                  "tag": "going_to"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

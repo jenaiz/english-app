@@ -57,6 +57,14 @@ func main() {
 	if err := catalog.CheckSpeakers(voices); err != nil {
 		log.Fatalf("content: %v", err)
 	}
+	exams, err := content.LoadExams(cfg.ExamsDir, catalog)
+	if err != nil {
+		log.Fatalf("load exams: %v", err)
+	}
+	if err := exams.CheckSpeakers(voices); err != nil {
+		log.Fatalf("exams: %v", err)
+	}
+	log.Printf("loaded %d level exams from %s", len(exams.List), cfg.ExamsDir)
 
 	pool, err := db.Connect(ctx, cfg.DatabaseURL())
 	if err != nil {
@@ -90,6 +98,7 @@ func main() {
 	srsH := &handlers.SRSHandler{Store: st, Catalog: catalog, Expressions: expressions}
 	expressionsH := &handlers.ExpressionsHandler{Expressions: expressions}
 	audioH := &handlers.AudioHandler{Voices: voices, Dir: cfg.AudioDir}
+	examsH := &handlers.ExamsHandler{Store: st, Catalog: catalog, Exams: exams, Club: club, Voices: voices}
 
 	r := chi.NewRouter()
 	r.Use(middleware.RequestID, middleware.RealIP, middleware.Logger, middleware.Recoverer)
@@ -127,6 +136,7 @@ func main() {
 		r.Get("/expressions", expressionsH.List)
 		r.Get("/voices", audioH.VoiceMap)
 		r.Get("/audio", audioH.Line)
+		r.Get("/audio/{file}", audioH.File)
 
 		r.Group(func(r chi.Router) {
 			r.Use(tokens.Middleware)
@@ -151,6 +161,11 @@ func main() {
 			r.Post("/srs/review", srsH.Review)
 			r.Get("/srs/expressions", srsH.SavedExpressions)
 			r.Post("/srs/expressions", srsH.AddExpression)
+			r.Get("/exams", examsH.List)
+			r.Post("/exams/{examID}/attempts", examsH.Start)
+			r.Get("/exams/attempts/{attemptID}", examsH.Get)
+			r.Put("/exams/attempts/{attemptID}/answers", examsH.SaveAnswers)
+			r.Post("/exams/attempts/{attemptID}/submit", examsH.Submit)
 		})
 	})
 

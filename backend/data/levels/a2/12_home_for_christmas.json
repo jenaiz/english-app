@@ -7,7 +7,7 @@
         {
           "unit_id": "home_for_christmas",
           "title": "Home for Christmas",
-          "description": "Lo que acabas de hacer, lo que ya has hecho y lo que aún no: just, already, yet. Incluye el test final de A2.",
+          "description": "Lo que acabas de hacer, lo que ya has hecho y lo que aún no: just, already, yet. Además, something / anything / nothing y el infinitivo de finalidad (to + verbo).",
           "lessons": [
             {
               "lesson_id": "home_for_christmas_lesson",
@@ -166,6 +166,92 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "something, anything, nothing, everything",
+                    "explanation": "Some-, any-, no- y every- se combinan con -thing (cosa), -body / -one (persona) y -where (lugar).\n\nSomething / somebody / somewhere en frases afirmativas y en ofrecimientos: We've got something for you. Would you like something to drink?\n\nAnything / anybody / anywhere en negativas y preguntas: I can't find my passport anywhere. Have you forgotten anything?\n\nNothing / nobody / nowhere ya son negativos, así que el verbo va en afirmativa: There's nothing in the fridge (no «There isn't nothing»).\n\nEverything / everybody / everywhere: todo, todos, en todas partes: I've packed everything.",
+                    "table": {
+                      "headers": [
+                        "",
+                        "cosa",
+                        "persona",
+                        "lugar"
+                      ],
+                      "rows": [
+                        [
+                          "some- (afirmativa)",
+                          "something",
+                          "somebody / someone",
+                          "somewhere"
+                        ],
+                        [
+                          "any- (negativa, pregunta)",
+                          "anything",
+                          "anybody / anyone",
+                          "anywhere"
+                        ],
+                        [
+                          "no- (= not any)",
+                          "nothing",
+                          "nobody / no one",
+                          "nowhere"
+                        ],
+                        [
+                          "every- (todo)",
+                          "everything",
+                          "everybody / everyone",
+                          "everywhere"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "We've got something for you. Open it!",
+                      "I can't find my passport anywhere!",
+                      "Have you forgotten anything? — No, I've packed everything.",
+                      "There's nobody at home. Everyone has gone out."
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Infinitive of purpose: to + verb",
+                    "explanation": "Para decir para qué hacemos algo, en inglés se usa to + verbo, sin for: I'm going to the airport to catch a flight (para coger un vuelo). She called a taxi to get to the airport.\n\nEl error típico de los hispanohablantes es decir «for catch» o «for to catch». Con un verbo, siempre to: I went to the shop to buy a present.\n\nFor va con un nombre: I went to the shop for some milk. This present is for you.\n\nPara preguntar el propósito: Why…? — To…: Why are you going to Valencia? — To see my family.",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "to + verbo",
+                          "I'm going home to see my family."
+                        ],
+                        [
+                          "to + verbo",
+                          "I checked in online to save time."
+                        ],
+                        [
+                          "for + nombre",
+                          "I went to the shop for some milk."
+                        ],
+                        [
+                          "Why…? — To…",
+                          "Why did you call Daniel? — To say goodbye."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I'm going home to see my family.",
+                      "Lucía checked in online to save time.",
+                      "Daniel sent a message to say Merry Christmas.",
+                      "Why are you going to the beach? — To take a photo for Daniel!"
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -258,6 +344,120 @@
                       },
                       {
                         "answer": "He's just sent me a message"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con something, anything, nothing, everything, somewhere o anywhere.",
+                    "items": [
+                      {
+                        "sentence": "We've got ___ for you. Open it!",
+                        "answers": [
+                          [
+                            "something"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I can't find my passport ___!",
+                        "answers": [
+                          [
+                            "anywhere"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Have you forgotten ___? — No, I don't think so.",
+                        "answers": [
+                          [
+                            "anything"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I've packed ___: clothes, presents, passport…",
+                        "answers": [
+                          [
+                            "everything"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "There's ___ in the fridge. It's empty!",
+                        "answers": [
+                          [
+                            "nothing"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It must be ___ in this flat. Look in your coat!",
+                        "answers": [
+                          [
+                            "somewhere"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con to o for.",
+                    "items": [
+                      {
+                        "sentence": "I'm going to Valencia ___ see my family.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Lucía ordered a taxi ___ go to the airport.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "This umbrella is ___ you. Merry Christmas!",
+                        "answers": [
+                          [
+                            "for"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Why did Daniel call? — ___ say goodbye.",
+                        "answers": [
+                          [
+                            "To"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I went to the shop ___ some chocolate.",
+                        "answers": [
+                          [
+                            "for"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "She checked in online ___ save time.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
                       }
                     ]
                   }
@@ -647,274 +847,6 @@
                         "answers": [
                           "I haven't packed yet",
                           "I have not packed yet"
-                        ]
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "lesson_id": "a2_level_test",
-              "title": "Test final A2",
-              "kind": "test",
-              "steps": [
-                {
-                  "phase": "review",
-                  "type": "multiple_choice",
-                  "content": {
-                    "instructions": "Elige la opción correcta.",
-                    "items": [
-                      {
-                        "question": "Look! Sam ___ toast.",
-                        "options": [
-                          "makes",
-                          "is making"
-                        ],
-                        "answer": 1
-                      },
-                      {
-                        "question": "How ___ money have you got?",
-                        "options": [
-                          "much",
-                          "many"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "It's ___ big for me.",
-                        "options": [
-                          "too",
-                          "very"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "Did you ___ near the sea?",
-                        "options": [
-                          "live",
-                          "lived"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "I was walking home when it ___ to rain.",
-                        "options": [
-                          "started",
-                          "was starting"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "What ___ you doing at nine?",
-                        "options": [
-                          "were",
-                          "was",
-                          "did"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "Valencia is ___ than Bristol.",
-                        "options": [
-                          "sunnier",
-                          "more sunny"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "It's the ___ pub in Bristol.",
-                        "options": [
-                          "best",
-                          "better",
-                          "goodest"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "I'm going ___ book the tickets.",
-                        "options": [
-                          "to",
-                          "for"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "\"The phone is ringing.\" — \"I ___ get it.\"",
-                        "options": [
-                          "'ll",
-                          "'m going to"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "Have you ever ___ to London?",
-                        "options": [
-                          "been",
-                          "went"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "I ___ to Paris last year.",
-                        "options": [
-                          "went",
-                          "have been"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "You ___ see a doctor. (consejo)",
-                        "options": [
-                          "should",
-                          "have"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "Would you like ___ come?",
-                        "options": [
-                          "to",
-                          "-"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "I haven't found my passport ___.",
-                        "options": [
-                          "yet",
-                          "already"
-                        ],
-                        "answer": 0
-                      }
-                    ]
-                  }
-                },
-                {
-                  "phase": "review",
-                  "type": "fill_blanks",
-                  "content": {
-                    "instructions": "Completa.",
-                    "items": [
-                      {
-                        "sentence": "We ___ on a big project this week. (work)",
-                        "answers": [
-                          [
-                            "are working",
-                            "'re working"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "I don't have ___ money. (much/many)",
-                        "answers": [
-                          [
-                            "much"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "Why did you ___ Spain? (leave)",
-                        "answers": [
-                          [
-                            "leave"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "While I was ___ the door, the wind broke my umbrella. (open)",
-                        "answers": [
-                          [
-                            "opening"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "Bristol isn't as sunny ___ Valencia.",
-                        "answers": [
-                          [
-                            "as"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "Is Sam going ___ come?",
-                        "answers": [
-                          [
-                            "to"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "You don't ___ to finish it today.",
-                        "answers": [
-                          [
-                            "have"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "The taxi has ___ arrived. (acaba de)",
-                        "answers": [
-                          [
-                            "just"
-                          ]
-                        ]
-                      }
-                    ]
-                  }
-                },
-                {
-                  "phase": "review",
-                  "type": "word_order",
-                  "content": {
-                    "instructions": "Ordena las palabras.",
-                    "items": [
-                      {
-                        "answer": "Have you ever been to London"
-                      },
-                      {
-                        "answer": "I was walking to the bus stop"
-                      },
-                      {
-                        "answer": "Would you like to have dinner with me"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "phase": "review",
-                  "type": "translation",
-                  "content": {
-                    "instructions": "Traduce al inglés.",
-                    "items": [
-                      {
-                        "source": "¿Cuánto cuesta este abrigo?",
-                        "answers": [
-                          "How much is this coat",
-                          "How much does this coat cost"
-                        ]
-                      },
-                      {
-                        "source": "Bristol es más caro que Valencia.",
-                        "answers": [
-                          "Bristol is more expensive than Valencia"
-                        ]
-                      },
-                      {
-                        "source": "Voy a visitar el museo.",
-                        "answers": [
-                          "I'm going to visit the museum",
-                          "I am going to visit the museum"
-                        ]
-                      },
-                      {
-                        "source": "Ya he hecho la maleta.",
-                        "answers": [
-                          "I've already packed",
-                          "I have already packed",
-                          "I've already packed my suitcase",
-                          "I have already packed my suitcase"
                         ]
                       }
                     ]

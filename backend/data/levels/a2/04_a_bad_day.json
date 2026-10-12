@@ -7,7 +7,7 @@
         {
           "unit_id": "a_bad_day",
           "title": "What a Morning!",
-          "description": "Cuenta qué estabas haciendo cuando pasó algo: past continuous y past simple.",
+          "description": "Cuenta qué estabas haciendo cuando pasó algo: past continuous y past simple. Además, cómo contar una historia: first, then, after that, finally y adverbios como quickly.",
           "lessons": [
             {
               "lesson_id": "a_bad_day_lesson",
@@ -146,6 +146,54 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Telling a story: first, then, finally · adverbs of manner",
+                    "explanation": "Para ordenar lo que pasó usamos conectores de secuencia: First (primero), Then / After that (luego, después), Later (más tarde), Finally / In the end (al final). Van al principio de la frase: First, it started to rain. Then the wind broke my umbrella.\n\nLos adverbios de modo dicen cómo pasa algo. Se forman con adjetivo + -ly: quick → quickly, slow → slowly, careful → carefully, angry → angrily. Si acaba en -y, cambia a -ily: happy → happily.\n\nIrregulares: good → well, fast → fast, hard → hard, late → late.\n\nVan después del verbo o del objeto: She ran quickly. He drives his car carefully. Ojo: She speaks English well (no «good»).",
+                    "table": {
+                      "headers": [
+                        "Adjetivo",
+                        "Adverbio",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "quick",
+                          "quickly",
+                          "I walked quickly to the bus stop."
+                        ],
+                        [
+                          "careful",
+                          "carefully",
+                          "Carry the coffee carefully!"
+                        ],
+                        [
+                          "happy",
+                          "happily",
+                          "The children played happily."
+                        ],
+                        [
+                          "good",
+                          "well",
+                          "Helen speaks Spanish very well."
+                        ],
+                        [
+                          "fast / hard",
+                          "fast / hard",
+                          "It was raining hard."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "First, it started to rain. Then the wind broke my umbrella.",
+                      "After that, a man ran into me on the bus.",
+                      "Finally, I arrived at the office, wet and late.",
+                      "I walked quickly, but it was raining very hard."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -239,6 +287,74 @@
                       },
                       {
                         "answer": "The wind broke my umbrella"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con un conector (first, then, finally) o con el adverbio de la palabra entre paréntesis.",
+                    "items": [
+                      {
+                        "sentence": "___, I got up late. Then I couldn't find my keys.",
+                        "answers": [
+                          [
+                            "First"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I missed the first bus. ___, I lost my umbrella.",
+                        "answers": [
+                          [
+                            "Then",
+                            "After that",
+                            "Later"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___, at half past nine, I arrived at the office.",
+                        "answers": [
+                          [
+                            "Finally",
+                            "In the end"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ran ___ to the bus stop. (quick)",
+                        "answers": [
+                          [
+                            "quickly"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Please drive ___. The roads are wet. (careful)",
+                        "answers": [
+                          [
+                            "carefully"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Lucía speaks English very ___ now. (good)",
+                        "answers": [
+                          [
+                            "well"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It was raining ___ all morning. (hard)",
+                        "answers": [
+                          [
+                            "hard"
+                          ]
+                        ]
                       }
                     ]
                   }

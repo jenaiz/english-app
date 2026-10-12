@@ -7,7 +7,7 @@
         {
           "unit_id": "at_the_station",
           "title": "At the Station",
-          "description": "Decisiones rápidas, ofrecimientos y predicciones con will.",
+          "description": "Decisiones rápidas, ofrecimientos y predicciones con will. Y preposiciones de movimiento: into, out of, across, through.",
           "lessons": [
             {
               "lesson_id": "at_the_station_lesson",
@@ -164,6 +164,59 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Prepositions of movement: into, out of, across, through",
+                    "explanation": "Las preposiciones de movimiento dicen hacia dónde va algo o alguien. Suelen ir con verbos como go, walk, run, get o come.\n\nInto / out of: entrar en / salir de un espacio: We went into the station. She got out of the taxi.\nOn / off con transportes grandes (bus, train, plane): get on the train, get off the bus. Con coches y taxis: get into / get out of.\nAcross (de un lado al otro, cruzando): Walk across the bridge. Through (a través de, por dentro): Go through the gate.\nUp / down (subir / bajar), along (a lo largo de), past (por delante de), towards (hacia), from… to… (de… a…).",
+                    "table": {
+                      "headers": [
+                        "Preposición",
+                        "Ejemplo",
+                        "En español"
+                      ],
+                      "rows": [
+                        [
+                          "into / out of",
+                          "Run into the station!",
+                          "entra corriendo en la estación"
+                        ],
+                        [
+                          "on / off",
+                          "Get off the train at Paddington.",
+                          "bájate del tren en Paddington"
+                        ],
+                        [
+                          "across",
+                          "Walk across the bridge.",
+                          "cruza el puente"
+                        ],
+                        [
+                          "through",
+                          "Go through the ticket barrier.",
+                          "pasa por la barrera"
+                        ],
+                        [
+                          "up / down",
+                          "Go down the stairs to platform five.",
+                          "baja las escaleras"
+                        ],
+                        [
+                          "from … to",
+                          "The train goes from Bristol to London.",
+                          "de Bristol a Londres"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "We ran into the station at nine o'clock.",
+                      "Go down the stairs and across the bridge to platform five.",
+                      "Get off the train at London Paddington.",
+                      "She got out of the taxi and walked towards the ticket office."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -259,6 +312,72 @@
                       },
                       {
                         "answer": "I think it will rain"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con into, out of, on, off, across, through o down.",
+                    "items": [
+                      {
+                        "sentence": "We ran ___ the station because we were late.",
+                        "answers": [
+                          [
+                            "into"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Get ___ the train at London Paddington.",
+                        "answers": [
+                          [
+                            "off"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Walk ___ the bridge to platform five.",
+                        "answers": [
+                          [
+                            "across",
+                            "over"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Go ___ the ticket barrier with your ticket.",
+                        "answers": [
+                          [
+                            "through"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel got ___ the taxi and paid the driver.",
+                        "answers": [
+                          [
+                            "out of"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Go ___ the stairs. The café is on the ground floor.",
+                        "answers": [
+                          [
+                            "down"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Quick! Get ___ the train. It's leaving!",
+                        "answers": [
+                          [
+                            "on"
+                          ]
+                        ]
                       }
                     ]
                   }

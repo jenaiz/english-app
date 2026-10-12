@@ -7,7 +7,7 @@
         {
           "unit_id": "summer_plans",
           "title": "Summer Plans",
-          "description": "Planes, citas, promesas y posibilidades: present continuous, going to, will y might. Incluye el test final de B1.",
+          "description": "Planes, citas, promesas y posibilidades: present continuous, going to, will y might. Y los marcadores de la conversación: right, anyway, by the way, actually.",
           "lessons": [
             {
               "lesson_id": "summer_plans_lesson",
@@ -170,6 +170,54 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Discourse markers: right, anyway, by the way, actually",
+                    "explanation": "En la conversación usamos palabras pequeñas para organizar lo que decimos:\n\n• Right / OK / So: para empezar o pasar a otra cosa: Right, that's the last box.\n• Anyway: para volver al tema o cerrar uno: Anyway, what are your plans?\n• By the way: para introducir algo que se nos acaba de ocurrir: By the way, Ollie is moving in early.\n• Actually: «en realidad», para corregir o añadir algo inesperado (no significa «actualmente»): I'm not nervous. Well, actually, I am a bit.\n• Well: para pensar o suavizar una respuesta: Well, maybe.\n• I mean: para aclarar: He's nervous. I mean, he's meeting my parents!\n\nOjo con el falso amigo: actualmente = currently / at the moment.",
+                    "table": {
+                      "headers": [
+                        "Marcador",
+                        "Para…",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "right / so",
+                          "empezar, pasar a otra cosa",
+                          "Right, let's carry the boxes."
+                        ],
+                        [
+                          "anyway",
+                          "volver al tema",
+                          "Anyway, when are you leaving?"
+                        ],
+                        [
+                          "by the way",
+                          "añadir algo de pasada",
+                          "By the way, I've got your keys."
+                        ],
+                        [
+                          "actually",
+                          "corregir, sorprender",
+                          "Actually, I'm moving in today."
+                        ],
+                        [
+                          "I mean",
+                          "aclarar",
+                          "It's hot. I mean, really hot."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Right, that's the last box. Let's go.",
+                      "Anyway, what are your plans for the summer?",
+                      "By the way, Ollie is moving in today.",
+                      "I'm not nervous. Well, actually, I'm a bit nervous."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -263,6 +311,65 @@
                       },
                       {
                         "answer": "What time are you meeting the band"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con right, anyway, by the way, actually o I mean.",
+                    "items": [
+                      {
+                        "sentence": "___, that's the last box. Let's put it in the van.",
+                        "answers": [
+                          [
+                            "Right",
+                            "OK",
+                            "So"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm not nervous. Well, ___, I'm a bit nervous.",
+                        "answers": [
+                          [
+                            "actually"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "By the ___, I've found your old guitar under the bed.",
+                        "answers": [
+                          [
+                            "way"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sorry, I was talking about the weather. ___, what are your plans?",
+                        "answers": [
+                          [
+                            "Anyway"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Valencia is hot in August. I ___, really hot.",
+                        "answers": [
+                          [
+                            "mean"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Is Ollie arriving tomorrow? — No, ___, he's arriving today.",
+                        "answers": [
+                          [
+                            "actually"
+                          ]
+                        ]
                       }
                     ]
                   }
@@ -653,276 +760,6 @@
                           "We're flying to Valencia on the fifteenth",
                           "We are flying to Valencia on the fifteenth",
                           "We're flying to Valencia on the 15th"
-                        ]
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "lesson_id": "b1_level_test",
-              "title": "Test final B1",
-              "kind": "test",
-              "steps": [
-                {
-                  "phase": "review",
-                  "type": "multiple_choice",
-                  "content": {
-                    "instructions": "Elige la opción correcta.",
-                    "items": [
-                      {
-                        "question": "I ___ to be shy, but now I'm not.",
-                        "options": [
-                          "used",
-                          "use"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "I've been waiting ___ an hour.",
-                        "options": [
-                          "for",
-                          "since"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "When ___ you start this job?",
-                        "options": [
-                          "did",
-                          "have"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "I ___ here since 2023.",
-                        "options": [
-                          "'ve lived",
-                          "lived"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "The museum ___ built in 1890.",
-                        "options": [
-                          "was",
-                          "has"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "Pick ___ up, please.",
-                        "options": [
-                          "them",
-                          "up them"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "Would you mind ___ the door?",
-                        "options": [
-                          "closing",
-                          "to close"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "If it ___, we'll stay at home.",
-                        "options": [
-                          "rains",
-                          "will rain"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "If I ___ you, I'd take the job.",
-                        "options": [
-                          "were",
-                          "am"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "You ___ smoke here. (prohibido)",
-                        "options": [
-                          "mustn't",
-                          "don't have to"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "The girl ___ lives next door is a chef.",
-                        "options": [
-                          "who",
-                          "which"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "She ___ me she was tired.",
-                        "options": [
-                          "told",
-                          "said"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "When we arrived, the party ___ finished.",
-                        "options": [
-                          "had already",
-                          "has already"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "It ___ snow tonight. Maybe.",
-                        "options": [
-                          "might",
-                          "is"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "I'm looking forward to ___ you.",
-                        "options": [
-                          "seeing",
-                          "see"
-                        ],
-                        "answer": 0
-                      }
-                    ]
-                  }
-                },
-                {
-                  "phase": "review",
-                  "type": "fill_blanks",
-                  "content": {
-                    "instructions": "Completa.",
-                    "items": [
-                      {
-                        "sentence": "Did you use ___ play the guitar?",
-                        "answers": [
-                          [
-                            "to"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "How long have you ___ learning English?",
-                        "answers": [
-                          [
-                            "been"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "The flight has ___ delayed.",
-                        "answers": [
-                          [
-                            "been"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "We can put up ___ the noise.",
-                        "answers": [
-                          [
-                            "with"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "As soon as we ___ home, I'll call you. (get)",
-                        "answers": [
-                          [
-                            "get"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "It's the park ___ we play football.",
-                        "answers": [
-                          [
-                            "where"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "He said he ___ call me. (will)",
-                        "answers": [
-                          [
-                            "would"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "Sam had ___ his old guitar. (bring)",
-                        "answers": [
-                          [
-                            "brought"
-                          ]
-                        ]
-                      }
-                    ]
-                  }
-                },
-                {
-                  "phase": "review",
-                  "type": "word_order",
-                  "content": {
-                    "instructions": "Ordena las palabras.",
-                    "items": [
-                      {
-                        "answer": "If I were you I would go"
-                      },
-                      {
-                        "answer": "The flight has been delayed"
-                      },
-                      {
-                        "answer": "She asked if you could come"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "phase": "review",
-                  "type": "translation",
-                  "content": {
-                    "instructions": "Traduce al inglés.",
-                    "items": [
-                      {
-                        "source": "Llevo seis meses trabajando aquí.",
-                        "answers": [
-                          "I've been working here for six months",
-                          "I've worked here for six months",
-                          "I have been working here for six months",
-                          "I have worked here for six months"
-                        ]
-                      },
-                      {
-                        "source": "Si llueve, nos mojaremos.",
-                        "answers": [
-                          "If it rains, we'll get wet",
-                          "If it rains we'll get wet",
-                          "If it rains, we will get wet",
-                          "We'll get wet if it rains"
-                        ]
-                      },
-                      {
-                        "source": "No hace falta que vengas.",
-                        "answers": [
-                          "You don't need to come",
-                          "You don't have to come",
-                          "You do not need to come",
-                          "You do not have to come"
-                        ]
-                      },
-                      {
-                        "source": "Me dijo que había aprobado.",
-                        "answers": [
-                          "He told me he had passed",
-                          "He told me that he had passed"
                         ]
                       }
                     ]

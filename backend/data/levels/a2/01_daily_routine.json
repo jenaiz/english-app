@@ -7,7 +7,7 @@
         {
           "unit_id": "daily_routine",
           "title": "A Busy Week",
-          "description": "Rutinas frente a lo que pasa ahora: present simple y present continuous.",
+          "description": "Rutinas frente a lo que pasa ahora: present simple y present continuous. Y los phrasal verbs del día a día: get up, look for, put on, turn off.",
           "lessons": [
             {
               "lesson_id": "routine_present_simple",
@@ -154,6 +154,59 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Everyday phrasal verbs",
+                    "explanation": "Un phrasal verb es un verbo + una partícula (up, on, off, for, out…) que juntos tienen un significado propio: look (mirar) → look for (buscar).\n\nLos más usados en la rutina: wake up (despertarse), get up (levantarse), put on (ponerse ropa), take off (quitarse), turn on / turn off (encender / apagar), look for (buscar), go out (salir), come back (volver).\n\nSe conjugan como el verbo normal: I get up at seven, She gets up at six, I got up late yesterday.\n\nCon put on, take off, turn on y turn off el objeto puede ir en medio: Put your coat on / Put on your coat. Si es un pronombre, va siempre en medio: Put it on (no «put on it»).",
+                    "table": {
+                      "headers": [
+                        "Phrasal verb",
+                        "Significado",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "wake up",
+                          "despertarse",
+                          "I wake up at half past six."
+                        ],
+                        [
+                          "get up",
+                          "levantarse",
+                          "Sam never gets up before ten."
+                        ],
+                        [
+                          "look for",
+                          "buscar",
+                          "I'm looking for my keys."
+                        ],
+                        [
+                          "put on / take off",
+                          "ponerse / quitarse",
+                          "Take off my slippers, please!"
+                        ],
+                        [
+                          "turn on / turn off",
+                          "encender / apagar",
+                          "Turn off the light, please."
+                        ],
+                        [
+                          "go out / come back",
+                          "salir / volver",
+                          "We're going out. We'll come back at ten."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I'm looking for my keys. Have you seen them?",
+                      "You're wearing my slippers! Take them off!",
+                      "Sam turns on the radio when he makes breakfast.",
+                      "This week I get up at seven because I start at eight."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -249,6 +302,71 @@
                       },
                       {
                         "answer": "I need more sleep"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la partícula: up, on, off, for, out o back.",
+                    "items": [
+                      {
+                        "sentence": "I always wake ___ before my alarm.",
+                        "answers": [
+                          [
+                            "up"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Lucía is looking ___ her keys.",
+                        "answers": [
+                          [
+                            "for"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It's cold. Put ___ your coat.",
+                        "answers": [
+                          [
+                            "on"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Please turn ___ the TV. I'm trying to sleep.",
+                        "answers": [
+                          [
+                            "off"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We're going ___ for dinner tonight.",
+                        "answers": [
+                          [
+                            "out"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "What time do you come ___ from work?",
+                        "answers": [
+                          [
+                            "back"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "These are my slippers. Take them ___!",
+                        "answers": [
+                          [
+                            "off"
+                          ]
+                        ]
                       }
                     ]
                   }

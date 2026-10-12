@@ -13,7 +13,7 @@ export default function Navbar() {
   const inCourse = useLocation().pathname.startsWith('/units/')
 
   return (
-    <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/80 backdrop-blur">
+    <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/80 backdrop-blur print:hidden">
       {/* Three columns so the section links stay centred whatever the width of the sides. */}
       <nav className="mx-auto grid h-16 max-w-6xl grid-cols-[1fr_auto_1fr] items-center gap-2 px-4">
         <Link

@@ -7,7 +7,7 @@
         {
           "unit_id": "conference_nerves",
           "title": "The Night Train",
-          "description": "Lo que estarás haciendo y lo que ya habrás hecho: future continuous y future perfect.",
+          "description": "Lo que estarás haciendo y lo que ya habrás hecho: future continuous y future perfect. Además, el future perfect continuous (we'll have been travelling for five hours) e in case.",
           "lessons": [
             {
               "lesson_id": "conference_nerves_lesson",
@@ -162,6 +162,44 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Future perfect continuous · in case",
+                    "explanation": "Future perfect continuous (will have been + -ing): cuánto tiempo llevará pasando algo en un momento del futuro: By the time we arrive in Edinburgh, we'll have been travelling for six hours. In June, I'll have been living in Bristol for three years.\n\nSe usa casi siempre con for + periodo y by / by the time / when + momento del futuro. Compáralo con el future perfect, que mira el resultado: By eleven, you'll have finished (habrás terminado) / By eleven, you'll have been talking for an hour (llevarás una hora hablando).\n\nIn case (por si acaso) + presente, aunque hable del futuro: I'll take a printed copy in case the laptop fails. Ojo: no es lo mismo que if. Take an umbrella in case it rains (llévatelo ya, por si llueve) / Take a taxi if it rains (solo si llueve).",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Future perfect continuous",
+                          "By six, we'll have been travelling for five hours."
+                        ],
+                        [
+                          "Future perfect",
+                          "By eleven, you'll have finished your talk."
+                        ],
+                        [
+                          "in case (precaución)",
+                          "I'll take a printed copy in case the laptop fails."
+                        ],
+                        [
+                          "if (condición)",
+                          "If the laptop fails, I'll use the printed copy."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "By the time we get to Edinburgh, we'll have been sitting on this train for six hours.",
+                      "Next month I'll have been working at Harbour Studio for two years.",
+                      "Take your slides on a USB in case the laptop doesn't work.",
+                      "I'll set two alarms in case I don't hear the first one."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -254,6 +292,63 @@
                       },
                       {
                         "answer": "By the time we arrive it'll be dark"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con been, have, in case o if.",
+                    "items": [
+                      {
+                        "sentence": "By six o'clock, we'll have ___ travelling for five hours.",
+                        "answers": [
+                          [
+                            "been"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "In June, Lucía will ___ been living in Bristol for three years.",
+                        "answers": [
+                          [
+                            "have"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Take a printed copy ___ the laptop fails.",
+                        "answers": [
+                          [
+                            "in case"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'll set two alarms in ___ I don't hear the first one.",
+                        "answers": [
+                          [
+                            "case"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ the train is late, we'll take a taxi to the hotel. (solo si pasa)",
+                        "answers": [
+                          [
+                            "If"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "When she retires, Helen will have been ___ the studio for twenty years. (run)",
+                        "answers": [
+                          [
+                            "running"
+                          ]
+                        ]
                       }
                     ]
                   }

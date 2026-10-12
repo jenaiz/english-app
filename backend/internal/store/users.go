@@ -16,6 +16,8 @@ var (
 	// ErrLinkRequired: a Google sign-in matches an existing email account that the
 	// user must confirm before it is linked.
 	ErrLinkRequired = errors.New("account link required")
+	// ErrConflict: the row already exists in a state that forbids the change.
+	ErrConflict = errors.New("conflict")
 )
 
 type User struct {

@@ -7,7 +7,7 @@
         {
           "unit_id": "moving_in",
           "title": "A Question at the Harbour",
-          "description": "Verbos seguidos de -ing o de to: remember, stop, try, regret y otros que cambian de significado.",
+          "description": "Verbos seguidos de -ing o de to: remember, stop, try, regret y otros que cambian de significado. Además, be used to, get used to y look forward to + -ing.",
           "lessons": [
             {
               "lesson_id": "moving_in_lesson",
@@ -165,6 +165,49 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "be used to, get used to, look forward to + -ing",
+                    "explanation": "Be used to + -ing / nombre: estar acostumbrado a algo: I'm used to living with Priya. She isn't used to the noise.\n\nGet used to + -ing / nombre: acostumbrarse (el proceso): You'll get used to my socks! It took me months to get used to the weather.\n\nNo los confundas con used to + verbo (hábito pasado): I used to live in Madrid.\n\nEn estas expresiones to es una preposición, así que va seguida de -ing, no del infinitivo: I'm used to working late (no «used to work»). Lo mismo pasa con look forward to (tener ganas de), object to y be / get accustomed to: I'm looking forward to living with you.",
+                    "table": {
+                      "headers": [
+                        "Estructura",
+                        "Ejemplo",
+                        "Significado"
+                      ],
+                      "rows": [
+                        [
+                          "used to + verbo",
+                          "I used to share a flat.",
+                          "antes compartía (ya no)"
+                        ],
+                        [
+                          "be used to + -ing",
+                          "I'm used to sharing a flat.",
+                          "estoy acostumbrada"
+                        ],
+                        [
+                          "get used to + -ing",
+                          "I'll get used to living with you.",
+                          "me acostumbraré"
+                        ],
+                        [
+                          "look forward to + -ing",
+                          "I'm looking forward to living with you.",
+                          "tengo ganas de"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I'm used to living with Priya and Ollie.",
+                      "You'll have to get used to my terrible singing.",
+                      "Daniel isn't used to sharing a bathroom.",
+                      "I'm really looking forward to living together."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -266,6 +309,63 @@
                       {
                         "left": "try sleeping",
                         "right": "probar a dormir"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la forma correcta (used, get, -ing…).",
+                    "items": [
+                      {
+                        "sentence": "I'm used to ___ with Priya. We've shared a house for years. (live)",
+                        "answers": [
+                          [
+                            "living"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Don't worry, you'll ___ used to my socks!",
+                        "answers": [
+                          [
+                            "get"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel isn't ___ to sharing a bathroom.",
+                        "answers": [
+                          [
+                            "used"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm really looking forward to ___ together. (live)",
+                        "answers": [
+                          [
+                            "living"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It took Lucía months to get used to ___ weather in Bristol.",
+                        "answers": [
+                          [
+                            "the"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "When I was a student, I ___ to share a flat with five people.",
+                        "answers": [
+                          [
+                            "used"
+                          ]
+                        ]
                       }
                     ]
                   }

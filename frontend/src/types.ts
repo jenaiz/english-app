@@ -416,3 +416,103 @@ export interface Activity {
   after_unit?: string
   content: SongContent | ReadingContent | VideoContent | VerbClozeContent
 }
+
+// ---- Level exams ----
+
+export interface ExamStatus {
+  attempts: number
+  best_score: number | null
+  passed: boolean
+  passed_at?: string
+  /** Best passed attempt, shown on the certificate. */
+  passed_attempt?: string
+  last_attempt?: string
+  last_score?: number
+  /** While set, the learner waits before retaking the exam. */
+  retry_at?: string
+  open_attempt?: string
+  open_deadline?: string
+}
+
+export interface ExamSummary {
+  exam_id: string
+  level_id: string
+  title: string
+  description: string
+  duration_minutes: number
+  pass_score: number
+  section_min_score: number
+  retake_hours: number
+  max_plays: number
+  items: number
+  sections: { section_id: string; title: string; items: number }[]
+  topics: string[]
+  status: ExamStatus
+}
+
+export type ExamItemType = 'choice' | 'gap' | 'order'
+
+export interface PaperItem {
+  id: string
+  type: ExamItemType
+  prompt?: string
+  options?: string[]
+  /** Shuffled words of an order item. */
+  words?: string[]
+}
+
+export interface PaperPart {
+  part_id: string
+  instructions: string
+  title?: string
+  /** Reading text. */
+  text?: string
+  /** Listening: MP3 file of each line, played in order. */
+  audio?: string[]
+  items: PaperItem[]
+}
+
+export interface Paper {
+  exam_id: string
+  level_id: string
+  title: string
+  duration_minutes: number
+  max_plays: number
+  sections: { section_id: string; title: string; parts: PaperPart[] }[]
+}
+
+export interface ExamResult {
+  score: number
+  passed: boolean
+  sections: { section_id: string; title: string; correct: number; total: number; score: number; passed: boolean }[]
+  topics: { tag: string; label: string; correct: number; total: number; units: { unit_id: string; level_id: string; title: string }[] }[]
+  review: {
+    section_id: string
+    part_id: string
+    instructions: string
+    title?: string
+    text?: string
+    dialogue?: { speaker: string; text: string }[]
+    items: { id: string; type: ExamItemType; prompt?: string; options?: string[]; answer: string; expected: string; correct: boolean }[]
+  }[]
+}
+
+export interface ExamAttempt {
+  attempt_id: string
+  exam_id: string
+  level_id: string
+  title: string
+  status: 'open' | 'submitted'
+  started_at: string
+  deadline: string
+  /** Server time, to correct the countdown for a wrong device clock. */
+  now: string
+  pass_score: number
+  section_min_score: number
+  paper?: Paper
+  answers?: Record<string, string>
+  submitted_at?: string
+  result?: ExamResult
+  retry_at?: string
+  unlocked_activities?: UnlockedActivity[]
+}

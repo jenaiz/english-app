@@ -7,7 +7,7 @@
         {
           "unit_id": "galway_family",
           "title": "Dinner in Galway",
-          "description": "Habla de lo que pasará si…: primer condicional, when, as soon as y unless.",
+          "description": "Habla de lo que pasará si…: primer condicional, when, as soon as y unless. Y question tags con todos los tiempos: You'll come back, won't you?",
           "lessons": [
             {
               "lesson_id": "galway_family_lesson",
@@ -159,6 +159,52 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Question tags with all tenses",
+                    "explanation": "Las question tags usan el auxiliar del verbo de la frase, en cualquier tiempo:\n• will → won't: You'll come again, won't you?\n• present perfect → have / has: Daniel hasn't phoned yet, has he?\n• past simple → did: She made an apple tart, didn't she?\n• can / should / would: You can drive, can't you? We should go, shouldn't we?\n\nCasos especiales:\n• I am → aren't I?: I'm right, aren't I?\n• Let's → shall we?: Let's go to the cliffs, shall we?\n• Imperativo → will you? / won't you?: Have some more potatoes, won't you?\n• Con never, nobody, nothing (negativos) la tag va en afirmativa: Nobody called, did they?",
+                    "table": {
+                      "headers": [
+                        "Frase",
+                        "Tag"
+                      ],
+                      "rows": [
+                        [
+                          "You'll come in the summer,",
+                          "won't you?"
+                        ],
+                        [
+                          "Daniel hasn't phoned,",
+                          "has he?"
+                        ],
+                        [
+                          "Maureen made an apple tart,",
+                          "didn't she?"
+                        ],
+                        [
+                          "I'm late,",
+                          "aren't I?"
+                        ],
+                        [
+                          "Let's go to the cliffs,",
+                          "shall we?"
+                        ],
+                        [
+                          "Nobody likes the rain,",
+                          "do they?"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "You'll come again in the summer, won't you?",
+                      "We haven't seen the Cliffs of Moher yet, have we?",
+                      "Let's have some apple tart, shall we?",
+                      "It never stops raining here, does it?"
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -254,6 +300,73 @@
                       },
                       {
                         "answer": "Unless she gets tired of me"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa la question tag.",
+                    "items": [
+                      {
+                        "sentence": "You'll come again in the summer, ___ you?",
+                        "answers": [
+                          [
+                            "won't",
+                            "will not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel hasn't called his mam yet, ___ he?",
+                        "answers": [
+                          [
+                            "has"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Maureen made the apple tart herself, ___ she?",
+                        "answers": [
+                          [
+                            "didn't",
+                            "did not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Let's go to the Cliffs of Moher tomorrow, ___ we?",
+                        "answers": [
+                          [
+                            "shall"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm a bit late, ___ I?",
+                        "answers": [
+                          [
+                            "aren't"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It never stops raining in Galway, ___ it?",
+                        "answers": [
+                          [
+                            "does"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You can't stay longer, ___ you?",
+                        "answers": [
+                          [
+                            "can"
+                          ]
+                        ]
                       }
                     ]
                   }

@@ -7,7 +7,7 @@
         {
           "unit_id": "the_best_pub",
           "title": "Quiz Night",
-          "description": "El mejor, el más grande, el más bonito: los superlativos.",
+          "description": "El mejor, el más grande, el más bonito: los superlativos. Y las coletillas para confirmar: It's easy, isn't it?",
           "lessons": [
             {
               "lesson_id": "the_best_pub_lesson",
@@ -171,6 +171,52 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Question tags: isn't it? don't you?",
+                    "explanation": "Las question tags son preguntas cortas al final de una frase para pedir confirmación, como «¿verdad?» o «¿no?» en español: Dublin is the biggest city, isn't it?\n\nSe forman con el mismo auxiliar de la frase y el pronombre del sujeto:\n• Frase afirmativa → tag negativa: It's easy, isn't it? You like tea, don't you?\n• Frase negativa → tag afirmativa: It isn't true, is it? Sam doesn't drink tea, does he?\n\nSi no hay auxiliar (present simple o past simple), se usa do / does / did: You live in Clifton, don't you? We won, didn't we?\n\nCon I am la tag es aren't I?: I'm right, aren't I?",
+                    "table": {
+                      "headers": [
+                        "Frase",
+                        "Tag"
+                      ],
+                      "rows": [
+                        [
+                          "It's the best pub,",
+                          "isn't it?"
+                        ],
+                        [
+                          "You're from Galway,",
+                          "aren't you?"
+                        ],
+                        [
+                          "Priya drinks a lot of tea,",
+                          "doesn't she?"
+                        ],
+                        [
+                          "We won the quiz,",
+                          "didn't we?"
+                        ],
+                        [
+                          "Sam can't sing,",
+                          "can he?"
+                        ],
+                        [
+                          "It isn't the Amazon,",
+                          "is it?"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "The Nile is the longest river, isn't it?",
+                      "You're from Galway, aren't you?",
+                      "Priya drinks the most tea, doesn't she?",
+                      "That wasn't very difficult, was it?"
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -263,6 +309,76 @@
                       },
                       {
                         "answer": "Who is the funniest person here"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa la question tag.",
+                    "items": [
+                      {
+                        "sentence": "Dublin is the biggest city in Ireland, ___ it?",
+                        "answers": [
+                          [
+                            "isn't",
+                            "is not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You like quiz nights, ___ you?",
+                        "answers": [
+                          [
+                            "don't",
+                            "do not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam doesn't drink tea, ___ he?",
+                        "answers": [
+                          [
+                            "does"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We won the quiz, ___ we?",
+                        "answers": [
+                          [
+                            "didn't",
+                            "did not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel is from Galway, ___ he?",
+                        "answers": [
+                          [
+                            "isn't",
+                            "is not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "That question wasn't easy, ___ it?",
+                        "answers": [
+                          [
+                            "was"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You can come next week, ___ you?",
+                        "answers": [
+                          [
+                            "can't",
+                            "cannot"
+                          ]
+                        ]
                       }
                     ]
                   }

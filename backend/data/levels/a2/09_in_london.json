@@ -7,7 +7,7 @@
         {
           "unit_id": "in_london",
           "title": "A Day in London",
-          "description": "Habla de tus experiencias con el present perfect: ever, never, been.",
+          "description": "Habla de tus experiencias con el present perfect: ever, never, been. Además, lo que es posible: might, may, probably, perhaps.",
           "lessons": [
             {
               "lesson_id": "in_london_lesson",
@@ -153,6 +153,44 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Possibility: might, may, probably, perhaps",
+                    "explanation": "Might y may + verbo dicen que algo es posible, pero no seguro: We might go on the London Eye (puede que vayamos). It may rain this afternoon. Son iguales para todas las personas y no llevan to.\n\nNegativa: might not / may not: I might not have time.\n\nProbably (probablemente) es más seguro que might. Va después de will y antes de won't: We'll probably go to Camden. I probably won't buy anything.\n\nPerhaps / Maybe (quizás) van al principio de la frase: Perhaps we can see the Tower tomorrow. Maybe it's closed today.",
+                    "table": {
+                      "headers": [
+                        "Seguridad",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Bastante seguro",
+                          "We'll probably go on the London Eye."
+                        ],
+                        [
+                          "Posible",
+                          "We might / may go to the Tower of London."
+                        ],
+                        [
+                          "Posible",
+                          "Perhaps / Maybe we'll have time tomorrow."
+                        ],
+                        [
+                          "Posible que no",
+                          "I might not try pie and mash!"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "We might go on the London Eye this afternoon.",
+                      "It may be very busy. It's Saturday.",
+                      "Javi will probably want all the photos.",
+                      "Perhaps we can go to the British Museum tomorrow."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -259,6 +297,66 @@
                       {
                         "left": "buy",
                         "right": "bought"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con might, probably, perhaps o not.",
+                    "items": [
+                      {
+                        "sentence": "I'm not sure. We ___ go to the Tower tomorrow.",
+                        "answers": [
+                          [
+                            "might",
+                            "may"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It's Saturday, so the London Eye will ___ be busy.",
+                        "answers": [
+                          [
+                            "probably"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ we can have lunch in Camden. What do you think?",
+                        "answers": [
+                          [
+                            "Perhaps",
+                            "Maybe"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I might ___ have time to see the museum.",
+                        "answers": [
+                          [
+                            "not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel ___ won't eat pie and mash again! He didn't like it.",
+                        "answers": [
+                          [
+                            "probably"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Take an umbrella. It ___ rain later.",
+                        "answers": [
+                          [
+                            "might",
+                            "may"
+                          ]
+                        ]
                       }
                     ]
                   }

@@ -7,7 +7,7 @@
         {
           "unit_id": "airport_travel",
           "title": "Flight to Dublin",
-          "description": "Entiende avisos y normas del aeropuerto con la voz pasiva.",
+          "description": "Entiende avisos y normas del aeropuerto con la voz pasiva. Y el future continuous: This time tomorrow we'll be flying.",
           "lessons": [
             {
               "lesson_id": "airport_checkin",
@@ -160,6 +160,44 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Future continuous: will be + -ing",
+                    "explanation": "El future continuous (will be + -ing) describe una acción que estará en marcha en un momento del futuro: This time tomorrow we'll be walking around Dublin (mañana a esta hora estaremos paseando por Dublín).\n\nTambién se usa para planes que van a pasar en el curso normal de las cosas, y para preguntar por planes con educación: Will you be using the car tonight? (¿vas a usar el coche esta noche?).\n\nNegativa: won't be + -ing: I won't be working on Friday.\n\nCompáralo con will + verbo, que es una acción puntual: The plane will land at twelve. At twelve we'll be landing (en pleno aterrizaje).",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "En marcha en el futuro",
+                          "At eleven we'll be flying over the Irish Sea."
+                        ],
+                        [
+                          "Negativa",
+                          "I won't be working at Easter."
+                        ],
+                        [
+                          "Pregunta educada",
+                          "Will you be checking in any bags?"
+                        ],
+                        [
+                          "Acción puntual (will)",
+                          "The flight will leave at ten forty."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "This time tomorrow we'll be walking along the River Liffey.",
+                      "Don't call me at eleven. I'll be flying to Dublin.",
+                      "Will you be needing a taxi at the airport?",
+                      "Maureen will be waiting for us at the station."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -252,6 +290,64 @@
                       },
                       {
                         "answer": "We set off late"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el future continuous (will be + -ing).",
+                    "items": [
+                      {
+                        "sentence": "This time tomorrow we'll be ___ around Dublin. (walk)",
+                        "answers": [
+                          [
+                            "walking"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Don't call at eleven. I'll ___ flying. (be)",
+                        "answers": [
+                          [
+                            "be"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Maureen will be ___ for us at the station. (wait)",
+                        "answers": [
+                          [
+                            "waiting"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I ___ be working at Easter. I'm on holiday! (negativa)",
+                        "answers": [
+                          [
+                            "won't",
+                            "will not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ you be checking in any bags?",
+                        "answers": [
+                          [
+                            "Will"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "At midnight we'll ___ sleeping in the hotel. (be)",
+                        "answers": [
+                          [
+                            "be"
+                          ]
+                        ]
                       }
                     ]
                   }

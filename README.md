@@ -179,9 +179,9 @@ El temario está en [`docs/syllabus.md`](docs/syllabus.md) (12 unidades por nive
 
 ### Estado del curso
 
-- **A1 a C1 completos**: 5 niveles × 12 unidades, en 4 temas de 3 unidades. Cada tema acaba con un checkpoint (`kind: "test"`) y la unidad 12 incluye además el test final del nivel.
+- **A1 a C1 completos**: 5 niveles × 12 unidades, en 4 temas de 3 unidades. Cada tema acaba con un checkpoint (`kind: "test"`). Cada nivel tiene además su **examen de nivel** aparte (ver más abajo).
 - **Una sola historia** cuenta todo el curso: Lucía, una diseñadora valenciana, llega a Bristol (A1) y termina con su propio estudio, Green Door Design, y una pedida de mano (C1). Todos los diálogos y ejemplos salen de ella.
-- **Audio en todas las líneas**: 811 MP3 en `backend/data/audio/` (unos 25 MB, versionados en git). Cada personaje tiene siempre la misma voz; Daniel y Maureen tienen acento irlandés.
+- **Audio en todas las líneas**: 997 MP3 en `backend/data/audio/` (unos 31 MB, versionados en git). Cada personaje tiene siempre la misma voz; Daniel y Maureen tienen acento irlandés.
 - **135 verbos irregulares** de A1 a C1 en `backend/data/expressions/irregular_verbs.json`, con la pestaña «Verbos irregulares» en Expresiones y su tipo de tarjeta en Repaso. Los ejemplos también salen de la historia.
 - `backend/data/expressions/unit_expressions.json` asocia a cada unidad unos cuantos idioms y phrasal verbs. Un test exige que esas unidades existan, así que si cambias un `unit_id` hay que actualizarlo también ahí.
 - **Pendiente**: recorrer en el navegador, con una cuenta, al menos un par de unidades y un checkpoint de cada nivel antes de publicar.
@@ -221,7 +221,18 @@ Cada lección debe recorrer estas fases **en orden**. Una fase puede tener vario
 
 ### Tests (checkpoints)
 
-Una lección con `"kind": "test"` no sigue las 7 fases: es una lista de ejercicios puntuados (al menos uno), normalmente con `phase: "review"`. Cada nivel tiene un checkpoint cada 3 unidades y un test final en la unidad 12.
+Una lección con `"kind": "test"` no sigue las 7 fases: es una lista de ejercicios puntuados (al menos uno), normalmente con `phase: "review"`. Cada nivel tiene un checkpoint cada 3 unidades.
+
+### Exámenes de nivel
+
+El examen que certifica un nivel no es una lección: vive en `backend/data/exams/<nivel>.json` y tiene su propia pantalla (`/examen/<nivel>`).
+
+- **Formato:** tiempo limitado con cronómetro (45 minutos en A1, 60 en A2, 65 en B1, 75 en B2, 80 en C1), cuatro partes (gramática, vocabulario, reading y listening con 2 escuchas) y dos versiones de cada parte. La nota se calcula en el servidor.
+- **Aprobado:** hace falta un mínimo en total y en cada parte. Si se suspende, hay que esperar 24 h para repetirlo.
+- **Al terminar:** informe por tema con enlaces a las unidades que lo enseñan y certificado imprimible si se aprueba.
+- **API:** `GET /api/exams`, `POST /api/exams/{id}/attempts`, `GET /api/exams/attempts/{id}`, `PUT …/answers` y `POST …/submit`. El audio se sirve con `GET /api/audio/{fichero}`, sin el texto.
+
+Cómo se alinea cada nivel con el MCER y cómo añadir un examen: [`docs/levels/README.md`](docs/levels/README.md).
 
 ### Voces de los diálogos
 

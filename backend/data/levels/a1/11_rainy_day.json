@@ -7,7 +7,7 @@
         {
           "unit_id": "rainy_day",
           "title": "A Rainy Saturday",
-          "description": "Describe lo que pasa ahora mismo con el present continuous; ropa y tiempo.",
+          "description": "Describe lo que pasa ahora mismo con el present continuous; ropa y tiempo. Y planes con be going to.",
           "lessons": [
             {
               "lesson_id": "rainy_day_lesson",
@@ -162,6 +162,44 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "be going to: plans",
+                    "explanation": "Be going to + verbo sirve para hablar de planes e intenciones: I'm going to watch a film this afternoon (voy a ver una película).\n\nSe forma con am / is / are + going to + verbo: She's going to visit her family. Negativa: I'm not going to go out. Pregunta: What are you going to do? Are you going to stay at home?\n\nSuele ir con expresiones de futuro: this afternoon, tonight, tomorrow, next week, at the weekend.",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Afirmativa",
+                          "I'm going to watch a film tonight."
+                        ],
+                        [
+                          "Negativa",
+                          "We aren't going to go to the park."
+                        ],
+                        [
+                          "Pregunta",
+                          "What are you going to do tomorrow?"
+                        ],
+                        [
+                          "Respuesta corta",
+                          "Are you going to stay at home? — Yes, I am. / No, I'm not."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "It's raining. I'm going to stay at home.",
+                      "Sam is going to play his guitar this afternoon.",
+                      "What are you going to do tomorrow?",
+                      "We aren't going to go to the park today."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -271,6 +309,65 @@
                       {
                         "left": "socks",
                         "right": "calcetines"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la forma de be going to.",
+                    "items": [
+                      {
+                        "sentence": "I'm ___ to watch a film tonight.",
+                        "answers": [
+                          [
+                            "going"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam ___ going to play his guitar this afternoon.",
+                        "answers": [
+                          [
+                            "is",
+                            "'s"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "What ___ you going to do tomorrow?",
+                        "answers": [
+                          [
+                            "are"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We ___ going to go to the park. It's raining! (negativa)",
+                        "answers": [
+                          [
+                            "aren't",
+                            "are not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Priya is going ___ visit her parents next week.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Are you going to stay at home? — Yes, I ___.",
+                        "answers": [
+                          [
+                            "am"
+                          ]
+                        ]
                       }
                     ]
                   }

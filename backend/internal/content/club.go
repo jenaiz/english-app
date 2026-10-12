@@ -392,7 +392,7 @@ func (c *Catalog) taughtTerms() map[string]string {
 
 // Milestone is a step of the course that unlocks Club activities.
 type Milestone struct {
-	// Key identifies it per user: "unit:<unit_id>" or "checkpoint:<lesson_id>".
+	// Key identifies it per user: "unit:<unit_id>", "checkpoint:<lesson_id>" or "exam:<exam_id>".
 	Key    string
 	Kind   string
 	Level  string

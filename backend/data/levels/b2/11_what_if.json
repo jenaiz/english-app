@@ -7,7 +7,7 @@
         {
           "unit_id": "what_if",
           "title": "On the Bridge",
-          "description": "Cuando el pasado cambia el presente: condicionales mixtos.",
+          "description": "Cuando el pasado cambia el presente: condicionales mixtos. Y los artículos con nombres abstractos: life, happiness, the life I have now.",
           "lessons": [
             {
               "lesson_id": "what_if_lesson",
@@ -165,6 +165,48 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Articles with abstract nouns: life or the life?",
+                    "explanation": "Con nombres abstractos (life, love, happiness, success, time, nature, education, history…) y con nombres en plural o incontables usados en general, el inglés no usa artículo, al contrario que el español: Life is full of surprises (la vida está llena de sorpresas). Happiness is more important than money. History was my favourite subject.\n\nSe usa the cuando el nombre se refiere a algo concreto, normalmente con una frase que lo define detrás (of…, que…, relativo): The life I have now is very different. The history of Bristol is fascinating. The happiness on her face said everything.\n\nComo regla práctica: en general → sin artículo; algo concreto, definido → the.",
+                    "table": {
+                      "headers": [
+                        "En general (sin artículo)",
+                        "Concreto (the)"
+                      ],
+                      "rows": [
+                        [
+                          "Life is full of surprises.",
+                          "The life I have now is perfect."
+                        ],
+                        [
+                          "Love is all you need.",
+                          "The love of her life was a musician."
+                        ],
+                        [
+                          "Education should be free.",
+                          "The education I got in Valencia was good."
+                        ],
+                        [
+                          "History was my favourite subject.",
+                          "The history of Bristol is fascinating."
+                        ],
+                        [
+                          "People are friendly here.",
+                          "The people in this street are friendly."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Life is full of surprises, isn't it?",
+                      "The life I have now is very different from my life in Madrid.",
+                      "Happiness is more important than money.",
+                      "The view from this bridge is the best in Bristol."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -269,6 +311,63 @@
                           "If I had studied medicine, I would be a doctor now",
                           "If I had studied medicine, I'd be a doctor now",
                           "If I'd studied medicine, I'd be a doctor now"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Escribe the si hace falta. Si no hace falta artículo, escribe x.",
+                    "items": [
+                      {
+                        "sentence": "___ life is full of surprises.",
+                        "answers": [
+                          [
+                            "x"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ life I have now is very different from my old life.",
+                        "answers": [
+                          [
+                            "The"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I think ___ happiness is more important than money.",
+                        "answers": [
+                          [
+                            "x"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ history of the bridge is fascinating.",
+                        "answers": [
+                          [
+                            "The"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "At school, ___ history was my favourite subject.",
+                        "answers": [
+                          [
+                            "x"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ people in Bristol are very friendly. (los de aquí)",
+                        "answers": [
+                          [
+                            "The"
+                          ]
                         ]
                       }
                     ]

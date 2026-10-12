@@ -7,7 +7,7 @@
         {
           "unit_id": "big_news",
           "title": "Big News",
-          "description": "Añade información con oraciones de relativo explicativas: which, who, whose, most of whom. Incluye el test final de B2.",
+          "description": "Añade información con oraciones de relativo explicativas: which, who, whose, most of whom. Además, intensificadores con su pareja natural: absolutely delighted, totally exhausted, highly unlikely.",
           "lessons": [
             {
               "lesson_id": "big_news_lesson",
@@ -167,6 +167,49 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Intensifiers and collocations: absolutely delighted, highly unlikely",
+                    "explanation": "Los adjetivos extremos (delighted, exhausted, amazing, terrified, furious, impossible) no admiten very: se refuerzan con absolutely, totally o completely: I'm absolutely delighted (no «very delighted»).\n\nLos adjetivos normales (happy, tired, good, surprised) van con very, really, extremely o incredibly: I'm extremely happy.\n\nAlgunas parejas (colocaciones) suenan naturales y otras no:\n• highly + likely / unlikely / recommended / successful: It's highly unlikely.\n• deeply + moved / grateful / disappointed: I'm deeply grateful.\n• bitterly + disappointed / cold.\n• completely / totally + different / wrong / exhausted.\n\nReally vale para los dos tipos: really happy, really delighted.",
+                    "table": {
+                      "headers": [
+                        "Tipo de adjetivo",
+                        "Intensificador",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Extremo",
+                          "absolutely, totally, completely",
+                          "absolutely delighted, totally exhausted"
+                        ],
+                        [
+                          "Normal",
+                          "very, extremely, incredibly",
+                          "extremely happy, incredibly busy"
+                        ],
+                        [
+                          "Los dos",
+                          "really",
+                          "really happy, really amazing"
+                        ],
+                        [
+                          "Colocación",
+                          "highly, deeply, bitterly",
+                          "highly unlikely, deeply grateful"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Helen, I'm absolutely delighted for you.",
+                      "It's highly unlikely that Mark will give up.",
+                      "I'm deeply grateful for everything you've taught me.",
+                      "Lucía was completely speechless."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -268,6 +311,72 @@
                         "source": "We have twenty clients. Most of them know Lucía. (most of whom)",
                         "answers": [
                           "We have twenty clients, most of whom know Lucía"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con absolutely, very, highly o deeply.",
+                    "items": [
+                      {
+                        "sentence": "I'm ___ delighted for you, Helen! (extremo)",
+                        "answers": [
+                          [
+                            "absolutely",
+                            "really",
+                            "totally"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It's ___ unlikely that Mark will give up.",
+                        "answers": [
+                          [
+                            "highly"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm ___ grateful for everything you've taught me.",
+                        "answers": [
+                          [
+                            "deeply",
+                            "really",
+                            "extremely"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "After the meeting, Lucía was ___ tired. (normal)",
+                        "answers": [
+                          [
+                            "very",
+                            "really",
+                            "extremely",
+                            "incredibly"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The news was ___ amazing. Nobody expected it! (extremo)",
+                        "answers": [
+                          [
+                            "absolutely",
+                            "really",
+                            "totally"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Helen's clients ___ recommend Lucía's work.",
+                        "answers": [
+                          [
+                            "highly"
+                          ]
                         ]
                       }
                     ]
@@ -660,278 +769,6 @@
                         "answers": [
                           "She wants her own studio, which doesn't surprise me",
                           "She wants her own studio, which does not surprise me"
-                        ]
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "lesson_id": "b2_level_test",
-              "title": "Test final B2",
-              "kind": "test",
-              "steps": [
-                {
-                  "phase": "review",
-                  "type": "multiple_choice",
-                  "content": {
-                    "instructions": "Elige la opción correcta.",
-                    "items": [
-                      {
-                        "question": "This time next year, I'll ___ in Japan.",
-                        "options": [
-                          "be living",
-                          "have lived"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "By June, we'll ___ the project.",
-                        "options": [
-                          "have finished",
-                          "be finishing"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "He ___ be at home. The lights are off.",
-                        "options": [
-                          "can't",
-                          "mustn't"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "You ___ have left it on the train. (seguro)",
-                        "options": [
-                          "must",
-                          "should"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "___ it was cold, we swam in the sea.",
-                        "options": [
-                          "Although",
-                          "Despite"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "She suggested ___ the meeting.",
-                        "options": [
-                          "postponing",
-                          "to postpone"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "If I'd known, I ___ have come.",
-                        "options": [
-                          "would",
-                          "will"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "I wish you ___ so much noise!",
-                        "options": [
-                          "wouldn't make",
-                          "don't make"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "We had the roof ___ last year.",
-                        "options": [
-                          "repaired",
-                          "repair"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "The minister is said ___ resigned.",
-                        "options": [
-                          "to have",
-                          "to be"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "I remember ___ her for the first time.",
-                        "options": [
-                          "seeing",
-                          "to see"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "If I hadn't moved here, I ___ married now.",
-                        "options": [
-                          "wouldn't be",
-                          "wouldn't have been"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "Paris, ___ I visited last year, is beautiful.",
-                        "options": [
-                          "which",
-                          "that"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "He insisted ___ paying the bill.",
-                        "options": [
-                          "on",
-                          "to"
-                        ],
-                        "answer": 0
-                      },
-                      {
-                        "question": "The tour is ___ to start in May.",
-                        "options": [
-                          "expected",
-                          "expecting"
-                        ],
-                        "answer": 0
-                      }
-                    ]
-                  }
-                },
-                {
-                  "phase": "review",
-                  "type": "fill_blanks",
-                  "content": {
-                    "instructions": "Completa.",
-                    "items": [
-                      {
-                        "sentence": "I'll have ___ the report by Friday. (write)",
-                        "answers": [
-                          [
-                            "written"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "That ___ be true. It's impossible.",
-                        "answers": [
-                          [
-                            "can't",
-                            "cannot"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "In spite ___ the rain, we enjoyed the day.",
-                        "answers": [
-                          [
-                            "of"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "He apologised ___ being late.",
-                        "answers": [
-                          [
-                            "for"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "I wish I ___ cook like him.",
-                        "answers": [
-                          [
-                            "could"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "I'm having the boiler ___. (repair)",
-                        "answers": [
-                          [
-                            "repaired"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "Shall we stop ___ get a coffee?",
-                        "answers": [
-                          [
-                            "to"
-                          ]
-                        ]
-                      },
-                      {
-                        "sentence": "Mark, ___ company wants to buy us, called.",
-                        "answers": [
-                          [
-                            "whose"
-                          ]
-                        ]
-                      }
-                    ]
-                  }
-                },
-                {
-                  "phase": "review",
-                  "type": "word_order",
-                  "content": {
-                    "instructions": "Ordena las palabras.",
-                    "items": [
-                      {
-                        "answer": "You must have left it somewhere"
-                      },
-                      {
-                        "answer": "I wish I had known earlier"
-                      },
-                      {
-                        "answer": "The album is said to be brilliant"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "phase": "review",
-                  "type": "translation",
-                  "content": {
-                    "instructions": "Traduce al inglés.",
-                    "items": [
-                      {
-                        "source": "Para cuando lleguemos, será de noche.",
-                        "answers": [
-                          "By the time we arrive, it'll be dark",
-                          "By the time we arrive it'll be dark",
-                          "By the time we get there, it'll be dark",
-                          "By the time we arrive, it will be dark"
-                        ]
-                      },
-                      {
-                        "source": "Deberías haberme llamado.",
-                        "answers": [
-                          "You should have called me",
-                          "You should have phoned me",
-                          "You should've called me"
-                        ]
-                      },
-                      {
-                        "source": "A pesar de la lluvia, salimos.",
-                        "answers": [
-                          "Despite the rain, we went out",
-                          "Despite the rain we went out",
-                          "In spite of the rain, we went out",
-                          "We went out despite the rain"
-                        ]
-                      },
-                      {
-                        "source": "Si me lo hubieras dicho, te habría ayudado.",
-                        "answers": [
-                          "If you had told me, I would have helped you",
-                          "If you had told me I would have helped you",
-                          "If you'd told me, I'd have helped you",
-                          "If you'd told me, I would have helped you"
                         ]
                       }
                     ]

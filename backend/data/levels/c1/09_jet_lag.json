@@ -7,7 +7,7 @@
         {
           "unit_id": "jet_lag",
           "title": "Jet Lag",
-          "description": "Planes que cambiaron: el futuro visto desde el pasado (was going to, was about to, would, was to).",
+          "description": "Planes que cambiaron: el futuro visto desde el pasado (was going to, was about to, would, was to). Y los falsos amigos que más traicionan a los hispanohablantes: actually, eventually, sensible, embarrassed.",
           "lessons": [
             {
               "lesson_id": "jet_lag_lesson",
@@ -166,6 +166,66 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "False friends: actually, eventually, sensible, embarrassed",
+                    "explanation": "Los falsos amigos se parecen a una palabra española pero significan otra cosa. A nivel C1 se espera no confundirlos:\n• actually = en realidad (no «actualmente», que es currently / at the moment).\n• eventually = finalmente, al final (no «eventualmente»).\n• sensible = sensato (sensible en español es sensitive).\n• embarrassed = avergonzado (embarazada es pregnant).\n• assist = ayudar (asistir a algo es attend).\n• library = biblioteca (librería es bookshop).\n• carpet = moqueta, alfombra (carpeta es folder).\n• realise = darse cuenta (realizar es carry out / do).\n• constipated = estreñido (constipado es have a cold).\n• argument = discusión, pelea; también argumento de una tesis (el argumento de una película es plot).\n• exit = salida (éxito es success).",
+                    "table": {
+                      "headers": [
+                        "Inglés",
+                        "Significa",
+                        "Para decir…",
+                        "…se usa"
+                      ],
+                      "rows": [
+                        [
+                          "actually",
+                          "en realidad",
+                          "actualmente",
+                          "currently"
+                        ],
+                        [
+                          "eventually",
+                          "al final",
+                          "eventualmente",
+                          "possibly, if necessary"
+                        ],
+                        [
+                          "sensible",
+                          "sensato",
+                          "sensible",
+                          "sensitive"
+                        ],
+                        [
+                          "embarrassed",
+                          "avergonzado",
+                          "embarazada",
+                          "pregnant"
+                        ],
+                        [
+                          "attend",
+                          "asistir",
+                          "ayudar",
+                          "assist / help"
+                        ],
+                        [
+                          "library",
+                          "biblioteca",
+                          "librería",
+                          "bookshop"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I'm not tired. Actually, I feel great.",
+                      "The meeting lasted four hours, but eventually Mark said yes.",
+                      "Opening in Madrid first is a sensible decision.",
+                      "I was so embarrassed when I forgot to call Javi."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -267,6 +327,69 @@
                         "answers": [
                           "I thought he would say no",
                           "I thought he'd say no"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Escribe la palabra inglesa correcta.",
+                    "items": [
+                      {
+                        "sentence": "The meeting was long, but ___ Mark agreed. (al final)",
+                        "answers": [
+                          [
+                            "eventually",
+                            "finally",
+                            "in the end"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We're ___ looking for a new office in Madrid. (actualmente)",
+                        "answers": [
+                          [
+                            "currently",
+                            "now"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Opening in Madrid first is a very ___ decision. (sensata)",
+                        "answers": [
+                          [
+                            "sensible",
+                            "wise"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I felt so ___ when I forgot his name. (avergonzada)",
+                        "answers": [
+                          [
+                            "embarrassed"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Javi wants to ___ the opening party in October. (asistir a)",
+                        "answers": [
+                          [
+                            "attend",
+                            "go to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "My sister is ___. The baby is due in May. (embarazada)",
+                        "answers": [
+                          [
+                            "pregnant",
+                            "expecting"
+                          ]
                         ]
                       }
                     ]

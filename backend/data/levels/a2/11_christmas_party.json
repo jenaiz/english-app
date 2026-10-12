@@ -7,7 +7,7 @@
         {
           "unit_id": "christmas_party",
           "title": "The Christmas Party",
-          "description": "Invita, ofrece y di lo que quieres: would like, want y decide + to.",
+          "description": "Invita, ofrece y di lo que quieres: would like, want y decide + to. Y los reflexivos: myself, yourself, enjoy yourselves.",
           "lessons": [
             {
               "lesson_id": "christmas_party_lesson",
@@ -160,6 +160,59 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Reflexive pronouns: myself, yourself, ourselves",
+                    "explanation": "Los pronombres reflexivos se usan cuando el sujeto y el objeto son la misma persona: I cut myself (me corté). Enjoy yourselves! (¡pasadlo bien!).\n\nTambién sirven para decir «yo mismo / sin ayuda»: I made the cake myself. Lucía did the designs herself.\n\nExpresiones muy comunes: Help yourself! (¡sírvete!), Enjoy yourself (pásalo bien), Look after yourself (cuídate), by myself (solo, sin nadie).\n\nOjo: en inglés muchos verbos que en español son reflexivos no lo son: I get up (me levanto), I feel tired (me siento cansado), I wash my hair (me lavo el pelo).",
+                    "table": {
+                      "headers": [
+                        "Sujeto",
+                        "Reflexivo",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "I",
+                          "myself",
+                          "I made it myself."
+                        ],
+                        [
+                          "you",
+                          "yourself / yourselves",
+                          "Help yourself! / Enjoy yourselves!"
+                        ],
+                        [
+                          "he / she",
+                          "himself / herself",
+                          "Daniel hurt himself dancing."
+                        ],
+                        [
+                          "it",
+                          "itself",
+                          "The door closes by itself."
+                        ],
+                        [
+                          "we",
+                          "ourselves",
+                          "We enjoyed ourselves at the party."
+                        ],
+                        [
+                          "they",
+                          "themselves",
+                          "They decorated the office themselves."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Help yourself to a drink!",
+                      "Enjoy yourselves, everyone. Merry Christmas!",
+                      "Helen decorated the office herself.",
+                      "Daniel can't dance, but he enjoyed himself."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -252,6 +305,63 @@
                       },
                       {
                         "answer": "I'd love to"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el pronombre reflexivo.",
+                    "items": [
+                      {
+                        "sentence": "There's food on the table. Help ___, Lucía!",
+                        "answers": [
+                          [
+                            "yourself"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Have a great night, everyone. Enjoy ___!",
+                        "answers": [
+                          [
+                            "yourselves"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Helen made the Christmas cake ___.",
+                        "answers": [
+                          [
+                            "herself"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel fell and hurt ___ on the dance floor.",
+                        "answers": [
+                          [
+                            "himself"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We really enjoyed ___ at the party.",
+                        "answers": [
+                          [
+                            "ourselves"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I don't need help. I can do it ___.",
+                        "answers": [
+                          [
+                            "myself"
+                          ]
+                        ]
                       }
                     ]
                   }

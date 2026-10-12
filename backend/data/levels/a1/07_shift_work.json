@@ -7,7 +7,7 @@
         {
           "unit_id": "shift_work",
           "title": "Priya's Shifts",
-          "description": "Rutinas de otras personas: present simple con he/she y adverbios de frecuencia.",
+          "description": "Rutinas de otras personas: present simple con he/she y adverbios de frecuencia. Y a / an o the: a nurse, the hospital.",
           "lessons": [
             {
               "lesson_id": "shift_work_lesson",
@@ -165,6 +165,49 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Articles: a / an or the",
+                    "explanation": "A / an (un, una) presenta algo por primera vez o dice qué es alguien: She's a nurse. There's a new pub in Clifton.\n\nThe (el, la, los, las) habla de algo concreto que ya conocemos, porque ya lo hemos dicho o porque solo hay uno: There's a new pub. The pub is great. Priya works at the hospital (el hospital de siempre).\n\nSin artículo: con las profesiones en plural y con cosas en general: Nurses work at night. I love music. Y en expresiones como at home, at work, by bus, on Monday, at night.\n\nOjo: en español decimos «es enfermera», pero en inglés las profesiones llevan a / an: She's a nurse, He's an engineer.",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Ejemplo",
+                        "Por qué"
+                      ],
+                      "rows": [
+                        [
+                          "a / an",
+                          "Sam is a musician.",
+                          "profesión, primera mención"
+                        ],
+                        [
+                          "the",
+                          "He works at the pub.",
+                          "un sitio concreto que conocemos"
+                        ],
+                        [
+                          "a → the",
+                          "I've got a cat. The cat is black.",
+                          "primero a, después the"
+                        ],
+                        [
+                          "sin artículo",
+                          "I go to work by bus.",
+                          "expresiones fijas"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Priya is a nurse. She works at the hospital.",
+                      "There's a café near our house. The café opens at seven.",
+                      "Sam sleeps in the day and works at night.",
+                      "I love music, but I don't like the music in this pub."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -259,6 +302,74 @@
                       },
                       {
                         "answer": "Sam is never early"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con a, an o the.",
+                    "items": [
+                      {
+                        "sentence": "Priya is ___ nurse.",
+                        "answers": [
+                          [
+                            "a"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel is ___ Irish developer.",
+                        "answers": [
+                          [
+                            "an"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam works at ___ pub on Fridays.",
+                        "answers": [
+                          [
+                            "the"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I've got a cat. ___ cat is black.",
+                        "answers": [
+                          [
+                            "The"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Is there ___ bank near here? — Yes, it's next to the station.",
+                        "answers": [
+                          [
+                            "a"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam has ___ band. ___ band plays on Fridays.",
+                        "answers": [
+                          [
+                            "a"
+                          ],
+                          [
+                            "The"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Look at ___ moon! It's beautiful.",
+                        "answers": [
+                          [
+                            "the"
+                          ]
+                        ]
                       }
                     ]
                   }

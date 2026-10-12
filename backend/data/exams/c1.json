@@ -1,0 +1,2018 @@
+{
+  "exam_id": "c1",
+  "level_id": "C1",
+  "title": "Examen de nivel C1",
+  "description": "Demuestra que tienes el nivel C1 del Marco Común Europeo (MCER): gramática, vocabulario, comprensión lectora y comprensión auditiva.",
+  "duration_minutes": 80,
+  "pass_score": 70,
+  "section_min_score": 50,
+  "retake_hours": 24,
+  "max_plays": 2,
+  "syllabus": [
+    {
+      "tag": "cleft",
+      "label": "Cleft sentences (What I need is…, It was… who…)",
+      "units": [
+        "the_offer"
+      ]
+    },
+    {
+      "tag": "inversion",
+      "label": "Inversión tras expresiones negativas (Never have I…, Little did I know…)",
+      "units": [
+        "inversion_emphasis"
+      ]
+    },
+    {
+      "tag": "participle_clauses",
+      "label": "Participle clauses (Having finished…, Built in 1890…)",
+      "units": [
+        "starting_up"
+      ]
+    },
+    {
+      "tag": "phrasal_verbs",
+      "label": "Phrasal verbs avanzados y separables (turn down, come up with, talk into)",
+      "units": [
+        "starting_up",
+        "hotel_checkin"
+      ]
+    },
+    {
+      "tag": "hedging",
+      "label": "Hedging: It would appear that…, there seems to be…, tend to",
+      "units": [
+        "first_client"
+      ]
+    },
+    {
+      "tag": "past_modals",
+      "label": "Modales en pasado: needn't have, must / can't / might have, should have",
+      "units": [
+        "first_hire",
+        "missing_laptop"
+      ]
+    },
+    {
+      "tag": "preference_advice",
+      "label": "would rather, had better",
+      "units": [
+        "first_hire",
+        "the_talk"
+      ]
+    },
+    {
+      "tag": "conditionals_without_if",
+      "label": "Condicionales sin if: provided that, unless, but for, should you…",
+      "units": [
+        "money_talk"
+      ]
+    },
+    {
+      "tag": "nominalisation",
+      "label": "Nominalización y registro formal",
+      "units": [
+        "pitch_prep"
+      ]
+    },
+    {
+      "tag": "discourse_markers",
+      "label": "Marcadores: nevertheless, admittedly, that said, mind you",
+      "units": [
+        "pitch_prep"
+      ]
+    },
+    {
+      "tag": "emphasis",
+      "label": "Énfasis: do / did, such / so, anteposición",
+      "units": [
+        "the_pitch"
+      ]
+    },
+    {
+      "tag": "future_in_past",
+      "label": "Futuro en el pasado: was going to, was about to, would, was supposed to",
+      "units": [
+        "jet_lag"
+      ]
+    },
+    {
+      "tag": "ellipsis",
+      "label": "Elipsis y sustitución (I hope so, I'd love to, So would I)",
+      "units": [
+        "the_engagement"
+      ]
+    },
+    {
+      "tag": "likelihood",
+      "label": "Probabilidad: bound to, likely to, due to, set to",
+      "units": [
+        "radio_interview"
+      ]
+    },
+    {
+      "tag": "narrative_tenses",
+      "label": "Tiempos narrativos: had been doing, would, used to",
+      "units": [
+        "looking_back"
+      ]
+    },
+    {
+      "tag": "passive_all",
+      "label": "La pasiva en todas sus formas (having been told, might have been lost)",
+      "units": [
+        "looking_back"
+      ]
+    },
+    {
+      "tag": "mixed_conditionals_wish",
+      "label": "Condicionales mixtos, wish e if only (repaso de B2)",
+      "units": [
+        "what_if",
+        "house_tensions",
+        "wrong_version"
+      ]
+    },
+    {
+      "tag": "futures_review",
+      "label": "Futuros: future continuous y future perfect (repaso de B1–B2)",
+      "units": [
+        "conference_nerves",
+        "summer_plans"
+      ]
+    },
+    {
+      "tag": "false_friends",
+      "label": "Falsos amigos (actually, eventually, sensible, embarrassed)",
+      "units": [
+        "jet_lag"
+      ]
+    },
+    {
+      "tag": "vague_language",
+      "label": "Lenguaje aproximativo (or so, -ish, sort of, and stuff)",
+      "units": [
+        "the_engagement"
+      ]
+    },
+    {
+      "tag": "vocab_idioms",
+      "label": "Expresiones idiomáticas",
+      "units": [
+        "inversion_emphasis",
+        "expressing_opinions",
+        "the_reviews"
+      ]
+    },
+    {
+      "tag": "vocab_business",
+      "label": "Vocabulario de empresa y finanzas",
+      "units": [
+        "money_talk",
+        "the_pitch",
+        "radio_interview"
+      ]
+    },
+    {
+      "tag": "vocab_register",
+      "label": "Registro formal e informal",
+      "units": [
+        "pitch_prep",
+        "first_client"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "grammar",
+      "title": "Gramática",
+      "parts": [
+        {
+          "part_id": "c1g1",
+          "instructions": "Elige la opción correcta.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "c1g1a01",
+                  "type": "choice",
+                  "prompt": "___ I need right now is a long holiday.",
+                  "options": [
+                    "What",
+                    "That",
+                    "Which"
+                  ],
+                  "answer": 0,
+                  "tag": "cleft"
+                },
+                {
+                  "id": "c1g1a02",
+                  "type": "choice",
+                  "prompt": "Not only ___ late, but he also forgot the documents.",
+                  "options": [
+                    "was he",
+                    "he was",
+                    "did he be"
+                  ],
+                  "answer": 0,
+                  "tag": "inversion"
+                },
+                {
+                  "id": "c1g1a03",
+                  "type": "choice",
+                  "prompt": "___ the report, she sent it to her manager.",
+                  "options": [
+                    "Having finished",
+                    "Finished",
+                    "Having been finished"
+                  ],
+                  "answer": 0,
+                  "tag": "participle_clauses"
+                },
+                {
+                  "id": "c1g1a04",
+                  "type": "choice",
+                  "prompt": "They offered him the job, but he turned ___.",
+                  "options": [
+                    "it down",
+                    "down it",
+                    "it off"
+                  ],
+                  "answer": 0,
+                  "tag": "phrasal_verbs"
+                },
+                {
+                  "id": "c1g1a05",
+                  "type": "choice",
+                  "prompt": "It would ___ that the figures were incorrect.",
+                  "options": [
+                    "appear",
+                    "look",
+                    "show"
+                  ],
+                  "answer": 0,
+                  "tag": "hedging"
+                },
+                {
+                  "id": "c1g1a06",
+                  "type": "choice",
+                  "prompt": "You ___ have cooked so much food. Only four people came.",
+                  "options": [
+                    "needn't",
+                    "mustn't",
+                    "couldn't"
+                  ],
+                  "answer": 0,
+                  "tag": "past_modals"
+                },
+                {
+                  "id": "c1g1a07",
+                  "type": "choice",
+                  "prompt": "I'd rather you ___ smoke in here, if you don't mind.",
+                  "options": [
+                    "didn't",
+                    "don't",
+                    "won't"
+                  ],
+                  "answer": 0,
+                  "tag": "preference_advice"
+                },
+                {
+                  "id": "c1g1a08",
+                  "type": "choice",
+                  "prompt": "___ you need any help, don't hesitate to call me.",
+                  "options": [
+                    "Should",
+                    "Would",
+                    "Had"
+                  ],
+                  "answer": 0,
+                  "tag": "conditionals_without_if"
+                },
+                {
+                  "id": "c1g1a09",
+                  "type": "choice",
+                  "prompt": "The ___ of the new office took six months.",
+                  "options": [
+                    "construction",
+                    "constructing",
+                    "construct"
+                  ],
+                  "answer": 0,
+                  "tag": "nominalisation"
+                },
+                {
+                  "id": "c1g1a10",
+                  "type": "choice",
+                  "prompt": "The hotel was expensive. ___, it was worth every penny.",
+                  "options": [
+                    "That said",
+                    "On top of that",
+                    "What's more"
+                  ],
+                  "answer": 0,
+                  "tag": "discourse_markers"
+                },
+                {
+                  "id": "c1g1a11",
+                  "type": "choice",
+                  "prompt": "___ was the noise that we couldn't sleep.",
+                  "options": [
+                    "Such",
+                    "So",
+                    "Too"
+                  ],
+                  "answer": 0,
+                  "tag": "emphasis"
+                },
+                {
+                  "id": "c1g1a12",
+                  "type": "choice",
+                  "prompt": "I was ___ leave when the phone rang.",
+                  "options": [
+                    "about to",
+                    "going",
+                    "due"
+                  ],
+                  "answer": 0,
+                  "tag": "future_in_past"
+                },
+                {
+                  "id": "c1g1a13",
+                  "type": "choice",
+                  "prompt": "Are you coming to the party? — I hope ___.",
+                  "options": [
+                    "so",
+                    "it",
+                    "that"
+                  ],
+                  "answer": 0,
+                  "tag": "ellipsis"
+                },
+                {
+                  "id": "c1g1a14",
+                  "type": "choice",
+                  "prompt": "Prices are ___ to rise again next year.",
+                  "options": [
+                    "bound",
+                    "sure that",
+                    "certain of"
+                  ],
+                  "answer": 0,
+                  "tag": "likelihood"
+                },
+                {
+                  "id": "c1g1a15",
+                  "type": "choice",
+                  "prompt": "By the time we arrived, they ___ for over an hour.",
+                  "options": [
+                    "had been waiting",
+                    "were waiting",
+                    "have waited"
+                  ],
+                  "answer": 0,
+                  "tag": "narrative_tenses"
+                },
+                {
+                  "id": "c1g1a16",
+                  "type": "choice",
+                  "prompt": "The parcel ___ been delivered to the wrong address.",
+                  "options": [
+                    "might have",
+                    "might",
+                    "might be"
+                  ],
+                  "answer": 0,
+                  "tag": "passive_all"
+                },
+                {
+                  "id": "c1g1a17",
+                  "type": "choice",
+                  "prompt": "If I had accepted that job, I ___ in New York now.",
+                  "options": [
+                    "would be living",
+                    "would have lived",
+                    "will live"
+                  ],
+                  "answer": 0,
+                  "tag": "mixed_conditionals_wish"
+                },
+                {
+                  "id": "c1g1a18",
+                  "type": "choice",
+                  "prompt": "This time tomorrow, I ___ over the Atlantic.",
+                  "options": [
+                    "'ll be flying",
+                    "'ll have flown",
+                    "fly"
+                  ],
+                  "answer": 0,
+                  "tag": "futures_review"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "c1g1b01",
+                  "type": "choice",
+                  "prompt": "It was Daniel ___ suggested the name.",
+                  "options": [
+                    "who",
+                    "what",
+                    "which"
+                  ],
+                  "answer": 0,
+                  "tag": "cleft"
+                },
+                {
+                  "id": "c1g1b02",
+                  "type": "choice",
+                  "prompt": "Rarely ___ such a talented young designer.",
+                  "options": [
+                    "have I met",
+                    "I have met",
+                    "I met"
+                  ],
+                  "answer": 0,
+                  "tag": "inversion"
+                },
+                {
+                  "id": "c1g1b03",
+                  "type": "choice",
+                  "prompt": "___ in 1890, the building has recently been restored.",
+                  "options": [
+                    "Built",
+                    "Building",
+                    "Having built"
+                  ],
+                  "answer": 0,
+                  "tag": "participle_clauses"
+                },
+                {
+                  "id": "c1g1b04",
+                  "type": "choice",
+                  "prompt": "Who came ___ the idea for the logo?",
+                  "options": [
+                    "up with",
+                    "out with",
+                    "up to"
+                  ],
+                  "answer": 0,
+                  "tag": "phrasal_verbs"
+                },
+                {
+                  "id": "c1g1b05",
+                  "type": "choice",
+                  "prompt": "There ___ to be a problem with the payment system.",
+                  "options": [
+                    "seems",
+                    "appears that",
+                    "looks"
+                  ],
+                  "answer": 0,
+                  "tag": "hedging"
+                },
+                {
+                  "id": "c1g1b06",
+                  "type": "choice",
+                  "prompt": "He ___ have got my message. He would never be this late.",
+                  "options": [
+                    "can't",
+                    "mustn't",
+                    "shouldn't"
+                  ],
+                  "answer": 0,
+                  "tag": "past_modals"
+                },
+                {
+                  "id": "c1g1b07",
+                  "type": "choice",
+                  "prompt": "You'd better ___ the boss before you leave.",
+                  "options": [
+                    "tell",
+                    "to tell",
+                    "telling"
+                  ],
+                  "answer": 0,
+                  "tag": "preference_advice"
+                },
+                {
+                  "id": "c1g1b08",
+                  "type": "choice",
+                  "prompt": "___ for your help, we would never have finished on time.",
+                  "options": [
+                    "But",
+                    "Except",
+                    "Unless"
+                  ],
+                  "answer": 0,
+                  "tag": "conditionals_without_if"
+                },
+                {
+                  "id": "c1g1b09",
+                  "type": "choice",
+                  "prompt": "There has been a significant ___ in sales this year.",
+                  "options": [
+                    "increase",
+                    "increasing",
+                    "increased"
+                  ],
+                  "answer": 0,
+                  "tag": "nominalisation"
+                },
+                {
+                  "id": "c1g1b10",
+                  "type": "choice",
+                  "prompt": "The project was late. ___, the client was delighted with the result.",
+                  "options": [
+                    "Nevertheless",
+                    "Moreover",
+                    "Therefore"
+                  ],
+                  "answer": 0,
+                  "tag": "discourse_markers"
+                },
+                {
+                  "id": "c1g1b11",
+                  "type": "choice",
+                  "prompt": "I ___ remember locking the door. I'm absolutely sure.",
+                  "options": [
+                    "do",
+                    "am",
+                    "did to"
+                  ],
+                  "answer": 0,
+                  "tag": "emphasis"
+                },
+                {
+                  "id": "c1g1b12",
+                  "type": "choice",
+                  "prompt": "We were ___ to meet at six, but she never turned up.",
+                  "options": [
+                    "supposed",
+                    "about",
+                    "bound"
+                  ],
+                  "answer": 0,
+                  "tag": "future_in_past"
+                },
+                {
+                  "id": "c1g1b13",
+                  "type": "choice",
+                  "prompt": "Would you like to come with us? — I'd love ___.",
+                  "options": [
+                    "to",
+                    "it",
+                    "so"
+                  ],
+                  "answer": 0,
+                  "tag": "ellipsis"
+                },
+                {
+                  "id": "c1g1b14",
+                  "type": "choice",
+                  "prompt": "The new law is ___ to come into force in January.",
+                  "options": [
+                    "due",
+                    "bound for",
+                    "likely that"
+                  ],
+                  "answer": 0,
+                  "tag": "likelihood"
+                },
+                {
+                  "id": "c1g1b15",
+                  "type": "choice",
+                  "prompt": "When I was a child, my grandmother ___ tell me stories every night.",
+                  "options": [
+                    "would",
+                    "was used to",
+                    "had"
+                  ],
+                  "answer": 0,
+                  "tag": "narrative_tenses"
+                },
+                {
+                  "id": "c1g1b16",
+                  "type": "choice",
+                  "prompt": "___ been told the news, she called her parents.",
+                  "options": [
+                    "Having",
+                    "Being",
+                    "Had"
+                  ],
+                  "answer": 0,
+                  "tag": "passive_all"
+                },
+                {
+                  "id": "c1g1b17",
+                  "type": "choice",
+                  "prompt": "If only I ___ more attention in class! Now I can't do the exam.",
+                  "options": [
+                    "had paid",
+                    "paid",
+                    "would pay"
+                  ],
+                  "answer": 0,
+                  "tag": "mixed_conditionals_wish"
+                },
+                {
+                  "id": "c1g1b18",
+                  "type": "choice",
+                  "prompt": "By 2030, the company ___ more than a thousand people.",
+                  "options": [
+                    "will have employed",
+                    "will employ having",
+                    "is employing"
+                  ],
+                  "answer": 0,
+                  "tag": "futures_review"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "c1g2",
+          "instructions": "Escribe la palabra que falta. Si hay una palabra entre paréntesis, úsala en la forma correcta.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "c1g2a01",
+                  "type": "gap",
+                  "prompt": "Never ___ I seen such a beautiful sunset.",
+                  "accept": [
+                    "have"
+                  ],
+                  "tag": "inversion"
+                },
+                {
+                  "id": "c1g2a02",
+                  "type": "gap",
+                  "prompt": "___ I like most about Bristol is the people.",
+                  "accept": [
+                    "What"
+                  ],
+                  "tag": "cleft"
+                },
+                {
+                  "id": "c1g2a03",
+                  "type": "gap",
+                  "prompt": "___ been warned about the traffic, we left early.",
+                  "accept": [
+                    "Having"
+                  ],
+                  "tag": "participle_clauses"
+                },
+                {
+                  "id": "c1g2a04",
+                  "type": "gap",
+                  "prompt": "You can borrow the car ___ long as you bring it back tonight.",
+                  "accept": [
+                    "as",
+                    "so"
+                  ],
+                  "tag": "conditionals_without_if"
+                },
+                {
+                  "id": "c1g2a05",
+                  "type": "gap",
+                  "prompt": "You ___ have told me it was her birthday! I felt terrible. (reproche)",
+                  "accept": [
+                    "might",
+                    "could",
+                    "should"
+                  ],
+                  "tag": "past_modals"
+                },
+                {
+                  "id": "c1g2a06",
+                  "type": "gap",
+                  "prompt": "It was ___ a good film that I watched it twice.",
+                  "accept": [
+                    "such"
+                  ],
+                  "tag": "emphasis"
+                },
+                {
+                  "id": "c1g2a07",
+                  "type": "gap",
+                  "prompt": "I was sure she ___ say yes, and she did.",
+                  "accept": [
+                    "would"
+                  ],
+                  "tag": "future_in_past"
+                },
+                {
+                  "id": "c1g2a08",
+                  "type": "gap",
+                  "prompt": "Do you think it'll rain? — I hope ___. The garden needs it.",
+                  "accept": [
+                    "so"
+                  ],
+                  "tag": "ellipsis"
+                },
+                {
+                  "id": "c1g2a09",
+                  "type": "gap",
+                  "prompt": "I wish I ___ said that. Now she's upset.",
+                  "accept": [
+                    "hadn't",
+                    "had not"
+                  ],
+                  "tag": "mixed_conditionals_wish"
+                },
+                {
+                  "id": "c1g2a10",
+                  "type": "gap",
+                  "prompt": "By next week, all the tickets will have ___ sold.",
+                  "accept": [
+                    "been"
+                  ],
+                  "tag": "passive_all"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "c1g2b01",
+                  "type": "gap",
+                  "prompt": "Only then ___ I realise how lucky I had been.",
+                  "accept": [
+                    "did"
+                  ],
+                  "tag": "inversion"
+                },
+                {
+                  "id": "c1g2b02",
+                  "type": "gap",
+                  "prompt": "It ___ Grace who saved the company, not the bank.",
+                  "accept": [
+                    "was"
+                  ],
+                  "tag": "cleft"
+                },
+                {
+                  "id": "c1g2b03",
+                  "type": "gap",
+                  "prompt": "___ from the hill, the city looks beautiful. (see)",
+                  "accept": [
+                    "Seen"
+                  ],
+                  "tag": "participle_clauses"
+                },
+                {
+                  "id": "c1g2b04",
+                  "type": "gap",
+                  "prompt": "Take a map. ___, you'll get lost.",
+                  "accept": [
+                    "Otherwise"
+                  ],
+                  "tag": "conditionals_without_if"
+                },
+                {
+                  "id": "c1g2b05",
+                  "type": "gap",
+                  "prompt": "They ___ have arrived by now. The train was on time. (deducción)",
+                  "accept": [
+                    "must",
+                    "should"
+                  ],
+                  "tag": "past_modals"
+                },
+                {
+                  "id": "c1g2b06",
+                  "type": "gap",
+                  "prompt": "The talk was ___ interesting that nobody left early.",
+                  "accept": [
+                    "so"
+                  ],
+                  "tag": "emphasis"
+                },
+                {
+                  "id": "c1g2b07",
+                  "type": "gap",
+                  "prompt": "We were going ___ call you, but we forgot.",
+                  "accept": [
+                    "to"
+                  ],
+                  "tag": "future_in_past"
+                },
+                {
+                  "id": "c1g2b08",
+                  "type": "gap",
+                  "prompt": "Is the shop open on Sundays? — I don't think ___.",
+                  "accept": [
+                    "so"
+                  ],
+                  "tag": "ellipsis"
+                },
+                {
+                  "id": "c1g2b09",
+                  "type": "gap",
+                  "prompt": "If only it ___ stop raining! (hábito molesto)",
+                  "accept": [
+                    "would"
+                  ],
+                  "tag": "mixed_conditionals_wish"
+                },
+                {
+                  "id": "c1g2b10",
+                  "type": "gap",
+                  "prompt": "She hates ___ told what to do.",
+                  "accept": [
+                    "being"
+                  ],
+                  "tag": "passive_all"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "c1g3",
+          "instructions": "Ordena las palabras para formar una frase.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "c1g3a01",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "Little did she know what was about to happen."
+                  ],
+                  "tag": "inversion"
+                },
+                {
+                  "id": "c1g3a02",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "It would appear that the prices are too high."
+                  ],
+                  "tag": "hedging"
+                },
+                {
+                  "id": "c1g3a03",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "The new office is due to open in October.",
+                    "In October the new office is due to open."
+                  ],
+                  "tag": "likelihood"
+                },
+                {
+                  "id": "c1g3a04",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "What I need is a long holiday.",
+                    "A long holiday is what I need."
+                  ],
+                  "tag": "cleft"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "c1g3b01",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "Under no circumstances should you open this door."
+                  ],
+                  "tag": "inversion"
+                },
+                {
+                  "id": "c1g3b02",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "There seems to be a problem with the order."
+                  ],
+                  "tag": "hedging"
+                },
+                {
+                  "id": "c1g3b03",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "Prices are bound to rise next year.",
+                    "Next year prices are bound to rise."
+                  ],
+                  "tag": "likelihood"
+                },
+                {
+                  "id": "c1g3b04",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "It was Helen who gave me my first chance."
+                  ],
+                  "tag": "cleft"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "vocabulary",
+      "title": "Vocabulario",
+      "parts": [
+        {
+          "part_id": "c1v1",
+          "instructions": "Elige la palabra correcta.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "c1v1a01",
+                  "type": "choice",
+                  "prompt": "I'm not hungry. ___, I've just had lunch.",
+                  "options": [
+                    "Actually",
+                    "Currently",
+                    "Eventually"
+                  ],
+                  "answer": 0,
+                  "tag": "false_friends"
+                },
+                {
+                  "id": "c1v1a02",
+                  "type": "choice",
+                  "prompt": "He went red. He was so ___ when he forgot her name.",
+                  "options": [
+                    "embarrassed",
+                    "embarrassing",
+                    "pregnant"
+                  ],
+                  "answer": 0,
+                  "tag": "false_friends"
+                },
+                {
+                  "id": "c1v1a03",
+                  "type": "choice",
+                  "prompt": "We borrowed some books from the ___.",
+                  "options": [
+                    "library",
+                    "bookshop",
+                    "librarian"
+                  ],
+                  "answer": 0,
+                  "tag": "false_friends"
+                },
+                {
+                  "id": "c1v1a04",
+                  "type": "choice",
+                  "prompt": "There were thirty-___ people at the meeting.",
+                  "options": [
+                    "odd",
+                    "ish",
+                    "something"
+                  ],
+                  "answer": 0,
+                  "tag": "vague_language"
+                },
+                {
+                  "id": "c1v1a05",
+                  "type": "choice",
+                  "prompt": "Let's meet at the station at seven___.",
+                  "options": [
+                    "ish",
+                    "odd",
+                    "so"
+                  ],
+                  "answer": 0,
+                  "tag": "vague_language"
+                },
+                {
+                  "id": "c1v1a06",
+                  "type": "choice",
+                  "prompt": "Let's address the elephant in the ___.",
+                  "options": [
+                    "room",
+                    "house",
+                    "office"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_idioms"
+                },
+                {
+                  "id": "c1v1a07",
+                  "type": "choice",
+                  "prompt": "Losing that job was a blessing in ___.",
+                  "options": [
+                    "disguise",
+                    "secret",
+                    "mask"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_idioms"
+                },
+                {
+                  "id": "c1v1a08",
+                  "type": "choice",
+                  "prompt": "I'll give it a ___. I've got nothing to lose.",
+                  "options": [
+                    "go",
+                    "run",
+                    "walk"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_idioms"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "c1v1b01",
+                  "type": "choice",
+                  "prompt": "Please be ___ and don't spend all your money at once.",
+                  "options": [
+                    "sensible",
+                    "sensitive",
+                    "sentimental"
+                  ],
+                  "answer": 0,
+                  "tag": "false_friends"
+                },
+                {
+                  "id": "c1v1b02",
+                  "type": "choice",
+                  "prompt": "We're ___ looking for a new flat.",
+                  "options": [
+                    "currently",
+                    "actually",
+                    "eventually"
+                  ],
+                  "answer": 0,
+                  "tag": "false_friends"
+                },
+                {
+                  "id": "c1v1b03",
+                  "type": "choice",
+                  "prompt": "I need to ___ a meeting tomorrow at ten.",
+                  "options": [
+                    "attend",
+                    "assist",
+                    "assume"
+                  ],
+                  "answer": 0,
+                  "tag": "false_friends"
+                },
+                {
+                  "id": "c1v1b04",
+                  "type": "choice",
+                  "prompt": "Bring some snacks, drinks and ___.",
+                  "options": [
+                    "stuff",
+                    "thing",
+                    "so"
+                  ],
+                  "answer": 0,
+                  "tag": "vague_language"
+                },
+                {
+                  "id": "c1v1b05",
+                  "type": "choice",
+                  "prompt": "It cost a hundred pounds or ___.",
+                  "options": [
+                    "so",
+                    "odd",
+                    "ish"
+                  ],
+                  "answer": 0,
+                  "tag": "vague_language"
+                },
+                {
+                  "id": "c1v1b06",
+                  "type": "choice",
+                  "prompt": "Don't beat about the ___. Tell me what happened.",
+                  "options": [
+                    "bush",
+                    "tree",
+                    "house"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_idioms"
+                },
+                {
+                  "id": "c1v1b07",
+                  "type": "choice",
+                  "prompt": "I'm on the ___ about it. I can't decide.",
+                  "options": [
+                    "fence",
+                    "wall",
+                    "edge"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_idioms"
+                },
+                {
+                  "id": "c1v1b08",
+                  "type": "choice",
+                  "prompt": "Who'll win? Your guess is as good as ___.",
+                  "options": [
+                    "mine",
+                    "me",
+                    "my"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_idioms"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "c1v2",
+          "instructions": "Escribe la palabra que falta. Tienes la primera letra.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "c1v2a01",
+                  "type": "gap",
+                  "prompt": "We need to cut costs: rent, bills and other ___ are too high. (o…)",
+                  "accept": [
+                    "overheads",
+                    "outgoings"
+                  ],
+                  "tag": "vocab_business"
+                },
+                {
+                  "id": "c1v2a02",
+                  "type": "gap",
+                  "prompt": "The two companies have agreed to ___ into one larger company. (m…)",
+                  "accept": [
+                    "merge"
+                  ],
+                  "tag": "vocab_business"
+                },
+                {
+                  "id": "c1v2a03",
+                  "type": "gap",
+                  "prompt": "Formal: \"We ___ any inconvenience this may cause.\" (r…)",
+                  "accept": [
+                    "regret"
+                  ],
+                  "tag": "vocab_register"
+                },
+                {
+                  "id": "c1v2a04",
+                  "type": "gap",
+                  "prompt": "Informal for \"children\": My ___ are at school until three. (k…)",
+                  "accept": [
+                    "kids"
+                  ],
+                  "tag": "vocab_register"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "c1v2b01",
+                  "type": "gap",
+                  "prompt": "The company's ___ rose to £3 million this year. (t…)",
+                  "accept": [
+                    "turnover"
+                  ],
+                  "tag": "vocab_business"
+                },
+                {
+                  "id": "c1v2b02",
+                  "type": "gap",
+                  "prompt": "She was made ___ when the factory closed. (r…)",
+                  "accept": [
+                    "redundant"
+                  ],
+                  "tag": "vocab_business"
+                },
+                {
+                  "id": "c1v2b03",
+                  "type": "gap",
+                  "prompt": "Formal for \"buy\": Tickets may be ___ online. (p…)",
+                  "accept": [
+                    "purchased"
+                  ],
+                  "tag": "vocab_register"
+                },
+                {
+                  "id": "c1v2b04",
+                  "type": "gap",
+                  "prompt": "Formal: \"Please do not ___ to contact us.\" (h…)",
+                  "accept": [
+                    "hesitate"
+                  ],
+                  "tag": "vocab_register"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "reading",
+      "title": "Reading",
+      "parts": [
+        {
+          "part_id": "c1r1",
+          "instructions": "Lee cada texto breve y elige qué significa.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "c1r1a01",
+                  "type": "choice",
+                  "prompt": "Email: The venue is small and rather expensive. That said, its location is ideal for our guests.",
+                  "options": [
+                    "The writer still thinks the venue is a good choice.",
+                    "The writer wants to find another venue.",
+                    "The writer thinks the venue is cheap."
+                  ],
+                  "answer": 0,
+                  "tag": "discourse_markers"
+                },
+                {
+                  "id": "c1r1a02",
+                  "type": "choice",
+                  "prompt": "NOTICE: Following the refurbishment of the east wing, access to the library will be restricted until further notice.",
+                  "options": [
+                    "Because of building work, you may not be able to use the library.",
+                    "The library has closed permanently.",
+                    "The east wing is being built for the first time."
+                  ],
+                  "answer": 0,
+                  "tag": "nominalisation"
+                },
+                {
+                  "id": "c1r1a03",
+                  "type": "choice",
+                  "prompt": "Message from Grace: Mark's lawyers have drawn up a new contract. Can you look it over before Friday?",
+                  "options": [
+                    "Grace wants someone to check a document.",
+                    "Grace wants someone to write a contract.",
+                    "Mark has cancelled the contract."
+                  ],
+                  "answer": 0,
+                  "tag": "phrasal_verbs"
+                },
+                {
+                  "id": "c1r1a04",
+                  "type": "choice",
+                  "prompt": "Press release: The firm has posted record profits for the third consecutive year.",
+                  "options": [
+                    "The company has made more money than ever, three years in a row.",
+                    "The company has lost money for three years.",
+                    "The company has opened three new offices."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_business"
+                },
+                {
+                  "id": "c1r1a05",
+                  "type": "choice",
+                  "prompt": "Mr John Wilson passed away peacefully at his home on Sunday.",
+                  "options": [
+                    "Mr Wilson died on Sunday.",
+                    "Mr Wilson moved house on Sunday.",
+                    "Mr Wilson retired on Sunday."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_register"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "c1r1b01",
+                  "type": "choice",
+                  "prompt": "Report: Admittedly, the campaign was costly. Nevertheless, it doubled our online sales.",
+                  "options": [
+                    "The writer thinks the campaign was worth the money.",
+                    "The writer regrets the campaign.",
+                    "The campaign was cheap but didn't work."
+                  ],
+                  "answer": 0,
+                  "tag": "discourse_markers"
+                },
+                {
+                  "id": "c1r1b02",
+                  "type": "choice",
+                  "prompt": "NOTICE: Failure to display a valid ticket will result in a fine.",
+                  "options": [
+                    "If you don't show a valid ticket, you'll have to pay.",
+                    "Tickets are free today.",
+                    "The ticket machine is broken."
+                  ],
+                  "answer": 0,
+                  "tag": "nominalisation"
+                },
+                {
+                  "id": "c1r1b03",
+                  "type": "choice",
+                  "prompt": "Email: We've decided to take on two graduates this summer. Could you set up the interviews?",
+                  "options": [
+                    "The company is going to hire two people.",
+                    "Two graduates are leaving the company.",
+                    "The interviews have been cancelled."
+                  ],
+                  "answer": 0,
+                  "tag": "phrasal_verbs"
+                },
+                {
+                  "id": "c1r1b04",
+                  "type": "choice",
+                  "prompt": "Quarterly results: Turnover rose by 12%, although margins remained tight.",
+                  "options": [
+                    "Sales went up, but the profit on each sale stayed low.",
+                    "Sales fell by 12%.",
+                    "The company closed for three months."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_business"
+                },
+                {
+                  "id": "c1r1b05",
+                  "type": "choice",
+                  "prompt": "Text from a colleague: Sorry, can't make it tonight. Something's come up.",
+                  "options": [
+                    "The writer can't come because of an unexpected problem.",
+                    "The writer will arrive later.",
+                    "The writer has made something for the evening."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_register"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "c1r2",
+          "instructions": "Lee el artículo y contesta las preguntas.",
+          "variants": [
+            {
+              "title": "The village that turned off the lights",
+              "text": "Twenty years ago, the small Welsh village of Llanfair was struggling. The quarry had closed, young people had been leaving for years, and the local school was about to shut its doors. Then a retired astronomer suggested something that most residents found absurd: switching off the street lights.\n\n\"People thought I'd lost my mind,\" Dr Ann Pryce remembers. \"They had been asking the council for more lights, not fewer.\" Eventually, after months of argument, the village agreed to a six-month trial.\n\nWhat happened next took everyone by surprise. Within a year, Llanfair had been officially recognised as a Dark Sky Reserve, and stargazers began arriving from all over Europe. Two guest houses opened, followed by a café and a small observatory, which was paid for entirely by local donations.\n\n\"If we hadn't taken that risk, the village wouldn't exist in its current form,\" says the mayor, Huw Davies. \"I sometimes wish we'd done it ten years earlier.\"\n\nNot everyone is convinced. Some older residents complain that the lanes are dangerous at night, and the council has been asked to install low-level lighting on the main road. Nevertheless, the numbers are hard to argue with: visitor spending is expected to reach two million pounds this year, and by 2030 the observatory will have welcomed half a million visitors.\n\nDr Pryce, now eighty-one, is modest about her role. \"I didn't save Llanfair. The sky did. I just reminded people to look up.\"",
+              "items": [
+                {
+                  "id": "c1r2a01",
+                  "type": "choice",
+                  "prompt": "Why did residents find the idea absurd?",
+                  "options": [
+                    "They had been asking for more lights, not fewer.",
+                    "They had never been interested in the stars.",
+                    "The council had just installed new lights."
+                  ],
+                  "answer": 0,
+                  "tag": "narrative_tenses"
+                },
+                {
+                  "id": "c1r2a02",
+                  "type": "choice",
+                  "prompt": "In paragraph 2, \"Eventually\" means…",
+                  "options": [
+                    "in the end.",
+                    "possibly.",
+                    "temporarily."
+                  ],
+                  "answer": 0,
+                  "tag": "false_friends"
+                },
+                {
+                  "id": "c1r2a03",
+                  "type": "choice",
+                  "prompt": "How was the observatory funded?",
+                  "options": [
+                    "With money given by local people.",
+                    "By the council.",
+                    "By a European university."
+                  ],
+                  "answer": 0,
+                  "tag": "passive_all"
+                },
+                {
+                  "id": "c1r2a04",
+                  "type": "choice",
+                  "prompt": "What does the mayor regret?",
+                  "options": [
+                    "Not doing it ten years earlier.",
+                    "Switching off the lights.",
+                    "Building the observatory."
+                  ],
+                  "answer": 0,
+                  "tag": "mixed_conditionals_wish"
+                },
+                {
+                  "id": "c1r2a05",
+                  "type": "choice",
+                  "prompt": "What is expected to happen this year?",
+                  "options": [
+                    "Visitors will spend about two million pounds.",
+                    "The lights will be switched back on.",
+                    "The school will reopen."
+                  ],
+                  "answer": 0,
+                  "tag": "likelihood"
+                },
+                {
+                  "id": "c1r2a06",
+                  "type": "choice",
+                  "prompt": "What will have happened by 2030?",
+                  "options": [
+                    "Half a million people will have visited the observatory.",
+                    "The village will have doubled in size.",
+                    "Dr Pryce will have written a book."
+                  ],
+                  "answer": 0,
+                  "tag": "futures_review"
+                },
+                {
+                  "id": "c1r2a07",
+                  "type": "choice",
+                  "prompt": "What does \"took everyone by surprise\" mean?",
+                  "options": [
+                    "Nobody expected it.",
+                    "Everyone was frightened.",
+                    "Everyone was disappointed."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_idioms"
+                }
+              ]
+            },
+            {
+              "title": "The café where everyone talks",
+              "text": "When Sofia Marín opened a small café in Leeds in 2015, she had been working as a translator for a decade and was, in her own words, \"bored of talking to computers\". Her idea was simple: customers who spoke at least two languages would get a discount, provided they agreed to chat with learners for half an hour.\n\nAt first, the concept was dismissed as a gimmick. \"A local critic wrote that we'd be closed within six months,\" Sofia laughs. \"Actually, I think his review is what saved us. Suddenly everyone wanted to see the café he hated.\"\n\nToday the café hosts conversation tables in fourteen languages, and similar cafés have been set up in Manchester, Glasgow and Dublin. A study carried out by a local university found that learners who attended regularly became far more confident speakers than those who only took classes.\n\n\"If I'd listened to the critics, I'd still be translating washing-machine manuals,\" Sofia says. \"My only regret is that I didn't open a bigger place. We have to turn people away every Friday.\"\n\nThe future looks bright. A fifth café is due to open in Bristol in the spring, and by the end of next year the network will have trained more than two hundred volunteer hosts. Sofia, however, is in no hurry. \"Growth is lovely,\" she says, \"but a café is bound to lose its soul if it grows too fast.\"",
+              "items": [
+                {
+                  "id": "c1r2b01",
+                  "type": "choice",
+                  "prompt": "What had Sofia been doing before she opened the café?",
+                  "options": [
+                    "Working as a translator.",
+                    "Working as a chef.",
+                    "Teaching languages at a university."
+                  ],
+                  "answer": 0,
+                  "tag": "narrative_tenses"
+                },
+                {
+                  "id": "c1r2b02",
+                  "type": "choice",
+                  "prompt": "In paragraph 2, \"Actually\" means…",
+                  "options": [
+                    "in fact.",
+                    "at the moment.",
+                    "nowadays."
+                  ],
+                  "answer": 0,
+                  "tag": "false_friends"
+                },
+                {
+                  "id": "c1r2b03",
+                  "type": "choice",
+                  "prompt": "What has happened in other cities?",
+                  "options": [
+                    "Similar cafés have been opened.",
+                    "Similar cafés have been closed.",
+                    "Sofia has been invited to speak."
+                  ],
+                  "answer": 0,
+                  "tag": "passive_all"
+                },
+                {
+                  "id": "c1r2b04",
+                  "type": "choice",
+                  "prompt": "What does Sofia regret?",
+                  "options": [
+                    "Not opening a bigger café.",
+                    "Listening to the critic.",
+                    "Leaving her job as a translator."
+                  ],
+                  "answer": 0,
+                  "tag": "mixed_conditionals_wish"
+                },
+                {
+                  "id": "c1r2b05",
+                  "type": "choice",
+                  "prompt": "What is due to happen in the spring?",
+                  "options": [
+                    "A new café will open in Bristol.",
+                    "Sofia will retire.",
+                    "The Leeds café will move."
+                  ],
+                  "answer": 0,
+                  "tag": "likelihood"
+                },
+                {
+                  "id": "c1r2b06",
+                  "type": "choice",
+                  "prompt": "What will have happened by the end of next year?",
+                  "options": [
+                    "More than 200 volunteer hosts will have been trained.",
+                    "Ten new cafés will have opened.",
+                    "Sofia will have sold the business."
+                  ],
+                  "answer": 0,
+                  "tag": "futures_review"
+                },
+                {
+                  "id": "c1r2b07",
+                  "type": "choice",
+                  "prompt": "What does \"turn people away\" mean?",
+                  "options": [
+                    "Tell people they can't come in.",
+                    "Ignore people.",
+                    "Make people leave early."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_idioms"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "listening",
+      "title": "Listening",
+      "parts": [
+        {
+          "part_id": "c1l1",
+          "instructions": "Escucha la conversación y contesta las preguntas. Puedes escucharla dos veces.",
+          "variants": [
+            {
+              "title": "Wedding plans",
+              "dialogue": [
+                {
+                  "speaker": "Priya",
+                  "text": "So, the wedding. My mum's invited three hundred people or so."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Three hundred! I thought you were going to keep it small."
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "I was going to, but you know my mum. She does love a party."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Would you rather have a small wedding?"
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "Honestly? I'd rather we ran away to Cornwall. But I can't do that to her."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Do you need any help with the planning?"
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "I'd love some. Could you design the invitations?"
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Of course I will. When do they have to be ready?"
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "By the end of the month-ish. And you'd better not make them too fancy, or Mum will want gold."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Gold invitations? Over my dead body."
+                }
+              ],
+              "items": [
+                {
+                  "id": "c1l1a01",
+                  "type": "choice",
+                  "prompt": "How many people has Priya's mother invited?",
+                  "options": [
+                    "About three hundred.",
+                    "Exactly three hundred.",
+                    "Thirty."
+                  ],
+                  "answer": 0,
+                  "tag": "vague_language"
+                },
+                {
+                  "id": "c1l1a02",
+                  "type": "choice",
+                  "prompt": "What was Priya's original plan?",
+                  "options": [
+                    "To have a small wedding.",
+                    "To get married in Cornwall.",
+                    "To invite three hundred people."
+                  ],
+                  "answer": 0,
+                  "tag": "future_in_past"
+                },
+                {
+                  "id": "c1l1a03",
+                  "type": "choice",
+                  "prompt": "What does Priya say about her mother?",
+                  "options": [
+                    "She really loves parties.",
+                    "She doesn't like weddings.",
+                    "She's planning everything alone."
+                  ],
+                  "answer": 0,
+                  "tag": "emphasis"
+                },
+                {
+                  "id": "c1l1a04",
+                  "type": "choice",
+                  "prompt": "What would Priya prefer to do?",
+                  "options": [
+                    "Run away to Cornwall.",
+                    "Have an even bigger party.",
+                    "Wait another year."
+                  ],
+                  "answer": 0,
+                  "tag": "preference_advice"
+                },
+                {
+                  "id": "c1l1a05",
+                  "type": "choice",
+                  "prompt": "How does Lucía answer the request for help?",
+                  "options": [
+                    "She agrees to design the invitations.",
+                    "She says she's too busy.",
+                    "She suggests another designer."
+                  ],
+                  "answer": 0,
+                  "tag": "ellipsis"
+                },
+                {
+                  "id": "c1l1a06",
+                  "type": "choice",
+                  "prompt": "What does Lucía mean by \"Over my dead body\"?",
+                  "options": [
+                    "She'll never agree to it.",
+                    "She thinks it's a great idea.",
+                    "She's too tired to do it."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_idioms"
+                }
+              ]
+            },
+            {
+              "title": "Ten more dates",
+              "dialogue": [
+                {
+                  "speaker": "Sam",
+                  "text": "The tour was meant to finish in June, but they've added ten more dates."
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "Ten more! That's amazing. Are you happy about it?"
+                },
+                {
+                  "speaker": "Sam",
+                  "text": "I am. Mind you, I was about to book a holiday. Two weeks in Greece or something."
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "Would you rather cancel the extra dates?"
+                },
+                {
+                  "speaker": "Sam",
+                  "text": "No way. Such a chance doesn't come twice. I'd rather put the holiday off."
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "Will you come back to Bristol between concerts?"
+                },
+                {
+                  "speaker": "Sam",
+                  "text": "I hope so. I want to see how Priya's wedding plans are going. She'll kill me if I don't."
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "She would. You'd better be there for the wedding, at least."
+                },
+                {
+                  "speaker": "Sam",
+                  "text": "I will. Wild horses couldn't stop me."
+                }
+              ],
+              "items": [
+                {
+                  "id": "c1l1b01",
+                  "type": "choice",
+                  "prompt": "What was supposed to happen in June?",
+                  "options": [
+                    "The tour was going to end.",
+                    "Sam was going to get married.",
+                    "The band was going to record an album."
+                  ],
+                  "answer": 0,
+                  "tag": "future_in_past"
+                },
+                {
+                  "id": "c1l1b02",
+                  "type": "choice",
+                  "prompt": "What does Sam say about his holiday plans?",
+                  "options": [
+                    "He was thinking of Greece, or somewhere like that.",
+                    "He had booked exactly two weeks in Greece.",
+                    "He was going to stay at home."
+                  ],
+                  "answer": 0,
+                  "tag": "vague_language"
+                },
+                {
+                  "id": "c1l1b03",
+                  "type": "choice",
+                  "prompt": "Why won't Sam cancel the extra dates?",
+                  "options": [
+                    "It's a chance that won't come again.",
+                    "He needs the money.",
+                    "The rest of the band insisted."
+                  ],
+                  "answer": 0,
+                  "tag": "emphasis"
+                },
+                {
+                  "id": "c1l1b04",
+                  "type": "choice",
+                  "prompt": "What would Sam rather do?",
+                  "options": [
+                    "Postpone his holiday.",
+                    "Cancel some concerts.",
+                    "Take the band to Greece."
+                  ],
+                  "answer": 0,
+                  "tag": "preference_advice"
+                },
+                {
+                  "id": "c1l1b05",
+                  "type": "choice",
+                  "prompt": "Will Sam come back to Bristol between concerts?",
+                  "options": [
+                    "He hopes so.",
+                    "Definitely not.",
+                    "He hasn't thought about it."
+                  ],
+                  "answer": 0,
+                  "tag": "ellipsis"
+                },
+                {
+                  "id": "c1l1b06",
+                  "type": "choice",
+                  "prompt": "What does \"Wild horses couldn't stop me\" mean?",
+                  "options": [
+                    "Nothing will stop him from being there.",
+                    "He's afraid of animals.",
+                    "He might be late."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_idioms"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "c1l2",
+          "instructions": "Escucha la conversación y contesta las preguntas. Puedes escucharla dos veces.",
+          "variants": [
+            {
+              "title": "The budget",
+              "dialogue": [
+                {
+                  "speaker": "Grace",
+                  "text": "I've read the proposal. It would appear that the budget has gone up by fifteen percent."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "It has, and I should have warned you earlier. The Madrid office cost more than we expected."
+                },
+                {
+                  "speaker": "Grace",
+                  "text": "I'm not against it, provided that I see the figures every month."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Of course. What worries me is the cash flow over the summer."
+                },
+                {
+                  "speaker": "Grace",
+                  "text": "Then we'll arrange a short-term loan. Never have I seen a studio grow this fast, Lucía."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Is that a good thing?"
+                },
+                {
+                  "speaker": "Grace",
+                  "text": "Mostly. But growth without control is how companies go bankrupt."
+                }
+              ],
+              "items": [
+                {
+                  "id": "c1l2a01",
+                  "type": "choice",
+                  "prompt": "How does Grace describe the budget?",
+                  "options": [
+                    "She suggests it has gone up by fifteen percent.",
+                    "She says it's too low.",
+                    "She refuses to discuss it."
+                  ],
+                  "answer": 0,
+                  "tag": "hedging"
+                },
+                {
+                  "id": "c1l2a02",
+                  "type": "choice",
+                  "prompt": "What does Lucía admit?",
+                  "options": [
+                    "She should have told Grace sooner.",
+                    "Grace should have read the proposal earlier.",
+                    "The office shouldn't have opened."
+                  ],
+                  "answer": 0,
+                  "tag": "past_modals"
+                },
+                {
+                  "id": "c1l2a03",
+                  "type": "choice",
+                  "prompt": "On what condition will Grace accept?",
+                  "options": [
+                    "That she sees the figures every month.",
+                    "That the Madrid office closes.",
+                    "That Lucía cuts salaries."
+                  ],
+                  "answer": 0,
+                  "tag": "conditionals_without_if"
+                },
+                {
+                  "id": "c1l2a04",
+                  "type": "choice",
+                  "prompt": "What is Lucía worried about?",
+                  "options": [
+                    "The cash flow over the summer.",
+                    "The Madrid office.",
+                    "Grace's opinion."
+                  ],
+                  "answer": 0,
+                  "tag": "cleft"
+                },
+                {
+                  "id": "c1l2a05",
+                  "type": "choice",
+                  "prompt": "What will they arrange?",
+                  "options": [
+                    "A short-term loan.",
+                    "A new investor.",
+                    "The sale of the company."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_business"
+                },
+                {
+                  "id": "c1l2a06",
+                  "type": "choice",
+                  "prompt": "What does Grace say about the studio's growth?",
+                  "options": [
+                    "She has never seen a studio grow so fast.",
+                    "It's growing too slowly.",
+                    "Other studios grow faster."
+                  ],
+                  "answer": 0,
+                  "tag": "inversion"
+                }
+              ]
+            },
+            {
+              "title": "A problem in Rome",
+              "dialogue": [
+                {
+                  "speaker": "Mark",
+                  "text": "Daniel, there seems to be a problem with the booking system in our Rome hotel."
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "I saw. The update must have failed overnight. We should have tested it on a Sunday."
+                },
+                {
+                  "speaker": "Mark",
+                  "text": "Unless it's fixed by tonight, we'll lose thousands in bookings."
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "It will be. What we need is half an hour to roll back the update."
+                },
+                {
+                  "speaker": "Mark",
+                  "text": "Fine. Not once in three years has your team let me down, so I trust you."
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "Thanks, Mark. I'll call you as soon as it's working."
+                },
+                {
+                  "speaker": "Mark",
+                  "text": "And send me a report. The board will want to know what went wrong."
+                }
+              ],
+              "items": [
+                {
+                  "id": "c1l2b01",
+                  "type": "choice",
+                  "prompt": "How does Mark describe the issue?",
+                  "options": [
+                    "He says there seems to be a problem.",
+                    "He says the system is completely broken.",
+                    "He blames Daniel's team directly."
+                  ],
+                  "answer": 0,
+                  "tag": "hedging"
+                },
+                {
+                  "id": "c1l2b02",
+                  "type": "choice",
+                  "prompt": "What does Daniel think happened?",
+                  "options": [
+                    "The update must have failed overnight.",
+                    "Someone must have hacked the system.",
+                    "Mark must have changed something."
+                  ],
+                  "answer": 0,
+                  "tag": "past_modals"
+                },
+                {
+                  "id": "c1l2b03",
+                  "type": "choice",
+                  "prompt": "What will happen unless it's fixed tonight?",
+                  "options": [
+                    "They'll lose a lot of bookings.",
+                    "The hotel will close.",
+                    "Mark will cancel the contract."
+                  ],
+                  "answer": 0,
+                  "tag": "conditionals_without_if"
+                },
+                {
+                  "id": "c1l2b04",
+                  "type": "choice",
+                  "prompt": "What does Daniel say they need?",
+                  "options": [
+                    "Half an hour to undo the update.",
+                    "A new booking system.",
+                    "More developers."
+                  ],
+                  "answer": 0,
+                  "tag": "cleft"
+                },
+                {
+                  "id": "c1l2b05",
+                  "type": "choice",
+                  "prompt": "What does the board want?",
+                  "options": [
+                    "A report on what went wrong.",
+                    "A discount.",
+                    "A new contract."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_business"
+                },
+                {
+                  "id": "c1l2b06",
+                  "type": "choice",
+                  "prompt": "What does Mark say about Daniel's team?",
+                  "options": [
+                    "They have never let him down.",
+                    "They often make mistakes.",
+                    "They're new to the project."
+                  ],
+                  "answer": 0,
+                  "tag": "inversion"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

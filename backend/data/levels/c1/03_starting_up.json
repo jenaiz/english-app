@@ -7,7 +7,7 @@
         {
           "unit_id": "starting_up",
           "title": "Above the Bookshop",
-          "description": "Condensa la información como en un texto formal: participle clauses.",
+          "description": "Condensa la información como en un texto formal: participle clauses. Además, phrasal verbs de negocio y dónde va el objeto: set up, take on, turn down, come up with.",
           "lessons": [
             {
               "lesson_id": "starting_up_lesson",
@@ -171,6 +171,54 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Phrasal verbs for business: set up, take on, turn down",
+                    "explanation": "Al montar y dirigir una empresa salen constantemente estos phrasal verbs:\n• set up (montar, fundar): We set up the studio in June.\n• take on (contratar; asumir trabajo): We'll take on two designers. I can't take on another project.\n• turn down (rechazar): Lucía turned down Mark's offer.\n• come up with (idear, proponer): Daniel came up with the name.\n• carry out (llevar a cabo): We carried out a survey.\n• draw up (redactar un contrato o plan): Grace will draw up the contract.\n• talk someone into / out of (convencer de / para que no): Helen talked me into it.\n\nSeparables (set up, take on, turn down, carry out, draw up): con un nombre, el objeto puede ir en medio o detrás; con un pronombre, siempre en medio: They turned it down (no «turned down it»).\nInseparables o de tres partes (come up with, look into, get on with): el objeto va siempre detrás: We came up with it.",
+                    "table": {
+                      "headers": [
+                        "Phrasal verb",
+                        "Ejemplo con nombre",
+                        "Con pronombre"
+                      ],
+                      "rows": [
+                        [
+                          "set up (separable)",
+                          "We set up the company in June.",
+                          "We set it up in June."
+                        ],
+                        [
+                          "turn down (separable)",
+                          "She turned down the offer.",
+                          "She turned it down."
+                        ],
+                        [
+                          "take on (separable)",
+                          "We'll take on two designers.",
+                          "We'll take them on."
+                        ],
+                        [
+                          "talk into (persona en medio)",
+                          "Helen talked Lucía into it.",
+                          "Helen talked her into it."
+                        ],
+                        [
+                          "come up with (inseparable)",
+                          "Daniel came up with the name.",
+                          "He came up with it."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "We set up Green Door Design in an office above a bookshop.",
+                      "Lucía turned down Mark's first offer. She turned it down politely.",
+                      "Daniel came up with the name over breakfast.",
+                      "We'll need to take on two more designers next year."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -275,6 +323,71 @@
                         "answers": [
                           "Walking home, she saw Daniel",
                           "Walking home she saw Daniel"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con la partícula o la palabra que falta.",
+                    "items": [
+                      {
+                        "sentence": "We set ___ the studio in an office above a bookshop.",
+                        "answers": [
+                          [
+                            "up"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Mark made an offer, but Lucía turned it ___.",
+                        "answers": [
+                          [
+                            "down"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel came up ___ the name Green Door Design.",
+                        "answers": [
+                          [
+                            "with"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We're going to take ___ two new designers in September.",
+                        "answers": [
+                          [
+                            "on"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Grace will draw ___ the contract this week.",
+                        "answers": [
+                          [
+                            "up"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I didn't want to go, but Daniel talked me ___ it.",
+                        "answers": [
+                          [
+                            "into"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The agency carried ___ a survey of five hundred hotel guests.",
+                        "answers": [
+                          [
+                            "out"
+                          ]
                         ]
                       }
                     ]

@@ -7,7 +7,7 @@
         {
           "unit_id": "the_reviews",
           "title": "The Reviews",
-          "description": "Habla como la prensa: it is said that…, he is believed to…, they are expected to…",
+          "description": "Habla como la prensa: it is said that…, he is believed to…, they are expected to… Además, adverbios que dan tu opinión: apparently, clearly, surprisingly, fortunately.",
           "lessons": [
             {
               "lesson_id": "the_reviews_lesson",
@@ -156,6 +156,59 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Attitudinal adverbs: apparently, clearly, fortunately",
+                    "explanation": "Algunos adverbios no dicen cómo se hace algo, sino qué opinamos de toda la frase. Suelen ir al principio, seguidos de coma:\n\n• Apparently (según parece, por lo visto): Apparently, they're playing in Madrid. Ojo: no significa «aparentemente» en el sentido de «a simple vista»; se usa para información que nos han contado.\n• Clearly / Obviously (está claro que): Clearly, the critics love the album.\n• Surprisingly / Not surprisingly: Surprisingly, it was recorded in six weeks.\n• Fortunately / Luckily ≠ Unfortunately: Unfortunately, the tour doesn't come to Bristol.\n• Honestly / Frankly (sinceramente): Frankly, I never liked their old songs.\n• Hopefully (ojalá, con suerte): Hopefully, we'll get tickets.\n\nTambién pueden ir en medio: The band has clearly worked very hard.",
+                    "table": {
+                      "headers": [
+                        "Adverbio",
+                        "Ejemplo",
+                        "En español"
+                      ],
+                      "rows": [
+                        [
+                          "apparently",
+                          "Apparently, they're touring Europe.",
+                          "por lo visto"
+                        ],
+                        [
+                          "clearly / obviously",
+                          "Clearly, the critics love it.",
+                          "está claro que"
+                        ],
+                        [
+                          "surprisingly",
+                          "Surprisingly, it took six weeks.",
+                          "sorprendentemente"
+                        ],
+                        [
+                          "fortunately / unfortunately",
+                          "Unfortunately, it's sold out.",
+                          "por suerte / por desgracia"
+                        ],
+                        [
+                          "hopefully",
+                          "Hopefully, we'll get tickets.",
+                          "con suerte"
+                        ],
+                        [
+                          "frankly",
+                          "Frankly, the cover is ugly.",
+                          "francamente"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Apparently, the band is playing in Madrid in June.",
+                      "Clearly, Sam has worked very hard on this album.",
+                      "Surprisingly, the album was recorded in just six weeks.",
+                      "Unfortunately, the Madrid concert is already sold out."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -256,6 +309,67 @@
                         "source": "People think Sam wrote the songs. (Sam…)",
                         "answers": [
                           "Sam is thought to have written the songs"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con apparently, clearly, surprisingly, unfortunately o hopefully.",
+                    "items": [
+                      {
+                        "sentence": "___, they're playing in Madrid in June. That's what the article says.",
+                        "answers": [
+                          [
+                            "Apparently"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___, we'll get tickets before they sell out. (con suerte)",
+                        "answers": [
+                          [
+                            "Hopefully"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___, the Madrid concert is already sold out. (por desgracia)",
+                        "answers": [
+                          [
+                            "Unfortunately",
+                            "Sadly"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___, the album was recorded in only six weeks. Nobody expected that.",
+                        "answers": [
+                          [
+                            "Surprisingly",
+                            "Amazingly"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Every review gives it five stars. ___, the critics love it.",
+                        "answers": [
+                          [
+                            "Clearly",
+                            "Obviously"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___, nobody was hurt when the stage lights fell. (por suerte)",
+                        "answers": [
+                          [
+                            "Fortunately",
+                            "Luckily"
+                          ]
                         ]
                       }
                     ]

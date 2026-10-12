@@ -1,4 +1,4 @@
-import type { Activity, ActivityCard, CardKind, ClubSummary, UnlockedActivity, ExpressionKind, ExpressionsCatalog, Grade, LevelStudy, LevelSummary, ProgressResponse, ReviewCard, UnitPosition, SavedExpression, SrsSummary, UnitResponse, User } from '../types'
+import type { Activity, ActivityCard, CardKind, ClubSummary, ExamAttempt, ExamSummary, UnlockedActivity, ExpressionKind, ExpressionsCatalog, Grade, LevelStudy, LevelSummary, ProgressResponse, ReviewCard, UnitPosition, SavedExpression, SrsSummary, UnitResponse, User } from '../types'
 
 export class ApiError extends Error {
   constructor(
@@ -74,6 +74,15 @@ export const api = {
   /** Opening an activity marks it as seen. 403 "locked" if it isn't unlocked yet. */
   activity: (id: string) => request<{ activity: Activity; card: ActivityCard }>(`/club/${encodeURIComponent(id)}`),
   completeActivity: (id: string, score: number) => post<{ best_score: number }>(`/club/${encodeURIComponent(id)}/complete`, { score }),
+  exams: () => request<ExamSummary[]>('/exams'),
+  /** Opens an attempt (or returns the open one). 409 "retake_wait" with retry_at while waiting. */
+  startExam: (examId: string) => post<{ attempt_id: string }>(`/exams/${encodeURIComponent(examId)}/attempts`),
+  examAttempt: (attemptId: string) => request<ExamAttempt>(`/exams/attempts/${encodeURIComponent(attemptId)}`),
+  /** Autosave. 409 "attempt_closed" once the attempt is over. */
+  saveExamAnswers: (attemptId: string, answers: Record<string, string>) =>
+    request<void>(`/exams/attempts/${encodeURIComponent(attemptId)}/answers`, { method: 'PUT', body: JSON.stringify({ answers }) }),
+  submitExam: (attemptId: string, answers: Record<string, string>) =>
+    post<ExamAttempt>(`/exams/attempts/${encodeURIComponent(attemptId)}/submit`, { answers }),
   srsSummary: () => request<SrsSummary>('/srs/summary'),
   /** pack keeps only the due cards of that pack. */
   srsDue: (limit = 20, kind?: CardKind, pack?: string) =>

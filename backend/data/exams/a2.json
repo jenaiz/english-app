@@ -1,0 +1,2281 @@
+{
+  "exam_id": "a2",
+  "level_id": "A2",
+  "title": "Examen de nivel A2",
+  "description": "Demuestra que tienes el nivel A2 del Marco Común Europeo (MCER): gramática, vocabulario, comprensión lectora y comprensión auditiva.",
+  "duration_minutes": 60,
+  "pass_score": 70,
+  "section_min_score": 50,
+  "retake_hours": 24,
+  "max_plays": 2,
+  "syllabus": [
+    {
+      "tag": "present_simple_continuous",
+      "label": "Present simple y present continuous; verbos de estado",
+      "units": [
+        "daily_routine"
+      ]
+    },
+    {
+      "tag": "phrasal_verbs",
+      "label": "Phrasal verbs comunes (get up, look for, turn off…)",
+      "units": [
+        "daily_routine"
+      ]
+    },
+    {
+      "tag": "quantifiers",
+      "label": "Contables e incontables: how much / many, a lot of, too, enough, all / both / none / most",
+      "units": [
+        "at_the_shop"
+      ]
+    },
+    {
+      "tag": "past_simple",
+      "label": "Past simple: negativas, preguntas e irregulares",
+      "units": [
+        "past_memories"
+      ]
+    },
+    {
+      "tag": "used_to",
+      "label": "used to: hábitos del pasado",
+      "units": [
+        "past_memories"
+      ]
+    },
+    {
+      "tag": "past_continuous",
+      "label": "Past continuous y past simple (when / while)",
+      "units": [
+        "a_bad_day"
+      ]
+    },
+    {
+      "tag": "sequencing_adverbs",
+      "label": "Contar una historia: first, then, finally y adverbios de modo",
+      "units": [
+        "a_bad_day"
+      ]
+    },
+    {
+      "tag": "comparatives",
+      "label": "Comparativos, (not) as … as, the same as, similar to, different from",
+      "units": [
+        "comparing_cities"
+      ]
+    },
+    {
+      "tag": "ed_ing",
+      "label": "Adjetivos -ed / -ing (bored / boring)",
+      "units": [
+        "comparing_cities"
+      ]
+    },
+    {
+      "tag": "superlatives",
+      "label": "Superlativos",
+      "units": [
+        "the_best_pub"
+      ]
+    },
+    {
+      "tag": "question_tags",
+      "label": "Question tags (isn't it?, don't you?)",
+      "units": [
+        "the_best_pub"
+      ]
+    },
+    {
+      "tag": "future_plans",
+      "label": "Planes: be going to, present continuous y Shall we…?",
+      "units": [
+        "london_plans"
+      ]
+    },
+    {
+      "tag": "will",
+      "label": "will: decisiones, ofrecimientos y predicciones",
+      "units": [
+        "at_the_station"
+      ]
+    },
+    {
+      "tag": "movement_prepositions",
+      "label": "Preposiciones de movimiento (into, across, through…)",
+      "units": [
+        "at_the_station"
+      ]
+    },
+    {
+      "tag": "present_perfect",
+      "label": "Present perfect: experiencias, just / already / yet",
+      "units": [
+        "in_london",
+        "home_for_christmas"
+      ]
+    },
+    {
+      "tag": "might_probably",
+      "label": "Posibilidad: might, may, probably, perhaps",
+      "units": [
+        "in_london"
+      ]
+    },
+    {
+      "tag": "should_have_to",
+      "label": "should, have to, must / mustn't",
+      "units": [
+        "feeling_ill"
+      ]
+    },
+    {
+      "tag": "conditionals",
+      "label": "Condicionales cero y primero; unless",
+      "units": [
+        "feeling_ill"
+      ]
+    },
+    {
+      "tag": "would_like_verb_to",
+      "label": "would like y verbo + to (want, decide, need)",
+      "units": [
+        "christmas_party"
+      ]
+    },
+    {
+      "tag": "reflexives",
+      "label": "Pronombres reflexivos (myself, yourselves…)",
+      "units": [
+        "christmas_party"
+      ]
+    },
+    {
+      "tag": "indefinite_pronouns",
+      "label": "something, anything, nothing, everything…",
+      "units": [
+        "home_for_christmas"
+      ]
+    },
+    {
+      "tag": "purpose_infinitive",
+      "label": "Infinitivo de finalidad (to + verbo)",
+      "units": [
+        "home_for_christmas"
+      ]
+    },
+    {
+      "tag": "a1_review",
+      "label": "Repaso de A1 que el Core Inventory pide en A2: 's / s', mine / yours, in / on / at, can / could, imperativos, adverbios de frecuencia, like + -ing, very / quite",
+      "units": [
+        "numbers_colors",
+        "new_flatmates",
+        "first_day",
+        "in_the_park",
+        "around_town",
+        "shift_work",
+        "free_time"
+      ]
+    },
+    {
+      "tag": "vocab_shopping",
+      "label": "Vocabulario: compras, ropa y dinero",
+      "units": [
+        "at_the_shop"
+      ]
+    },
+    {
+      "tag": "vocab_travel",
+      "label": "Vocabulario: viajes, estación y aeropuerto",
+      "units": [
+        "london_plans",
+        "at_the_station",
+        "home_for_christmas"
+      ]
+    },
+    {
+      "tag": "vocab_health",
+      "label": "Vocabulario: salud y síntomas",
+      "units": [
+        "feeling_ill"
+      ]
+    },
+    {
+      "tag": "vocab_home",
+      "label": "Vocabulario: la casa y la rutina",
+      "units": [
+        "daily_routine"
+      ]
+    },
+    {
+      "tag": "vocab_places",
+      "label": "Vocabulario: ciudades, tiempo y descripciones",
+      "units": [
+        "comparing_cities",
+        "a_bad_day"
+      ]
+    },
+    {
+      "tag": "vocab_leisure",
+      "label": "Vocabulario: tiempo libre, recuerdos y celebraciones",
+      "units": [
+        "past_memories",
+        "the_best_pub",
+        "in_london",
+        "christmas_party"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "grammar",
+      "title": "Gramática",
+      "parts": [
+        {
+          "part_id": "a2g1",
+          "instructions": "Elige la opción correcta.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "a2g1a01",
+                  "type": "choice",
+                  "prompt": "Priya ___ nights this week, so she's sleeping now.",
+                  "options": [
+                    "is working",
+                    "works",
+                    "work"
+                  ],
+                  "answer": 0,
+                  "tag": "present_simple_continuous"
+                },
+                {
+                  "id": "a2g1a02",
+                  "type": "choice",
+                  "prompt": "It's dark in here. Can you turn ___ the light?",
+                  "options": [
+                    "on",
+                    "up",
+                    "out"
+                  ],
+                  "answer": 0,
+                  "tag": "phrasal_verbs"
+                },
+                {
+                  "id": "a2g1a03",
+                  "type": "choice",
+                  "prompt": "How ___ sugar do you want in your coffee?",
+                  "options": [
+                    "much",
+                    "many",
+                    "lot"
+                  ],
+                  "answer": 0,
+                  "tag": "quantifiers"
+                },
+                {
+                  "id": "a2g1a04",
+                  "type": "choice",
+                  "prompt": "___ you see the match last night?",
+                  "options": [
+                    "Did",
+                    "Were",
+                    "Have"
+                  ],
+                  "answer": 0,
+                  "tag": "past_simple"
+                },
+                {
+                  "id": "a2g1a05",
+                  "type": "choice",
+                  "prompt": "When I was a child, I ___ play football every day.",
+                  "options": [
+                    "used to",
+                    "use to",
+                    "was used to"
+                  ],
+                  "answer": 0,
+                  "tag": "used_to"
+                },
+                {
+                  "id": "a2g1a06",
+                  "type": "choice",
+                  "prompt": "I was having a shower when the phone ___.",
+                  "options": [
+                    "rang",
+                    "was ringing",
+                    "rings"
+                  ],
+                  "answer": 0,
+                  "tag": "past_continuous"
+                },
+                {
+                  "id": "a2g1a07",
+                  "type": "choice",
+                  "prompt": "He drove very ___ because the road was icy.",
+                  "options": [
+                    "slowly",
+                    "slow",
+                    "more slow"
+                  ],
+                  "answer": 0,
+                  "tag": "sequencing_adverbs"
+                },
+                {
+                  "id": "a2g1a08",
+                  "type": "choice",
+                  "prompt": "My new flat is ___ than my old one.",
+                  "options": [
+                    "cheaper",
+                    "more cheap",
+                    "cheapest"
+                  ],
+                  "answer": 0,
+                  "tag": "comparatives"
+                },
+                {
+                  "id": "a2g1a09",
+                  "type": "choice",
+                  "prompt": "I'm really ___ in history.",
+                  "options": [
+                    "interested",
+                    "interesting",
+                    "interest"
+                  ],
+                  "answer": 0,
+                  "tag": "ed_ing"
+                },
+                {
+                  "id": "a2g1a10",
+                  "type": "choice",
+                  "prompt": "It's ___ restaurant in the city.",
+                  "options": [
+                    "the best",
+                    "the better",
+                    "the most good"
+                  ],
+                  "answer": 0,
+                  "tag": "superlatives"
+                },
+                {
+                  "id": "a2g1a11",
+                  "type": "choice",
+                  "prompt": "You're Javi's sister, ___?",
+                  "options": [
+                    "aren't you",
+                    "isn't it",
+                    "don't you"
+                  ],
+                  "answer": 0,
+                  "tag": "question_tags"
+                },
+                {
+                  "id": "a2g1a12",
+                  "type": "choice",
+                  "prompt": "I ___ my grandparents on Sunday. It's all arranged.",
+                  "options": [
+                    "'m visiting",
+                    "visit",
+                    "visited"
+                  ],
+                  "answer": 0,
+                  "tag": "future_plans"
+                },
+                {
+                  "id": "a2g1a13",
+                  "type": "choice",
+                  "prompt": "It's cold in here. — Wait, I ___ close the window.",
+                  "options": [
+                    "'ll",
+                    "'m",
+                    "do"
+                  ],
+                  "answer": 0,
+                  "tag": "will"
+                },
+                {
+                  "id": "a2g1a14",
+                  "type": "choice",
+                  "prompt": "We walked ___ the bridge to the other side of the river.",
+                  "options": [
+                    "across",
+                    "into",
+                    "out of"
+                  ],
+                  "answer": 0,
+                  "tag": "movement_prepositions"
+                },
+                {
+                  "id": "a2g1a15",
+                  "type": "choice",
+                  "prompt": "___ you ever been to Scotland?",
+                  "options": [
+                    "Have",
+                    "Did",
+                    "Are"
+                  ],
+                  "answer": 0,
+                  "tag": "present_perfect"
+                },
+                {
+                  "id": "a2g1a16",
+                  "type": "choice",
+                  "prompt": "Take a jacket. It ___ rain later.",
+                  "options": [
+                    "might",
+                    "is",
+                    "does"
+                  ],
+                  "answer": 0,
+                  "tag": "might_probably"
+                },
+                {
+                  "id": "a2g1a17",
+                  "type": "choice",
+                  "prompt": "You ___ smoke in the hospital. It isn't allowed.",
+                  "options": [
+                    "mustn't",
+                    "don't have to",
+                    "shouldn't to"
+                  ],
+                  "answer": 0,
+                  "tag": "should_have_to"
+                },
+                {
+                  "id": "a2g1a18",
+                  "type": "choice",
+                  "prompt": "If it rains tomorrow, we ___ at home.",
+                  "options": [
+                    "'ll stay",
+                    "stayed",
+                    "would stayed"
+                  ],
+                  "answer": 0,
+                  "tag": "conditionals"
+                },
+                {
+                  "id": "a2g1a19",
+                  "type": "choice",
+                  "prompt": "Would you like ___ to the cinema tonight?",
+                  "options": [
+                    "to come",
+                    "coming",
+                    "come"
+                  ],
+                  "answer": 0,
+                  "tag": "would_like_verb_to"
+                },
+                {
+                  "id": "a2g1a20",
+                  "type": "choice",
+                  "prompt": "Be careful with that knife! Don't cut ___.",
+                  "options": [
+                    "yourself",
+                    "you",
+                    "your"
+                  ],
+                  "answer": 0,
+                  "tag": "reflexives"
+                },
+                {
+                  "id": "a2g1a21",
+                  "type": "choice",
+                  "prompt": "That's ___ car. They bought it last year.",
+                  "options": [
+                    "my parents'",
+                    "my parent's",
+                    "my parents"
+                  ],
+                  "answer": 0,
+                  "tag": "a1_review"
+                },
+                {
+                  "id": "a2g1a22",
+                  "type": "choice",
+                  "prompt": "The concert is on Saturday ___ eight o'clock.",
+                  "options": [
+                    "at",
+                    "in",
+                    "on"
+                  ],
+                  "answer": 0,
+                  "tag": "a1_review"
+                },
+                {
+                  "id": "a2g1a23",
+                  "type": "choice",
+                  "prompt": "I ___ swim when I was five, but I can't now. I've forgotten!",
+                  "options": [
+                    "could",
+                    "can",
+                    "was"
+                  ],
+                  "answer": 0,
+                  "tag": "a1_review"
+                },
+                {
+                  "id": "a2g1a24",
+                  "type": "choice",
+                  "prompt": "___ touch that plate! It's very hot.",
+                  "options": [
+                    "Don't",
+                    "Not",
+                    "No"
+                  ],
+                  "answer": 0,
+                  "tag": "a1_review"
+                },
+                {
+                  "id": "a2g1a25",
+                  "type": "choice",
+                  "prompt": "Priya ___ late for work. She's very punctual.",
+                  "options": [
+                    "is never",
+                    "never is",
+                    "does never"
+                  ],
+                  "answer": 0,
+                  "tag": "a1_review"
+                },
+                {
+                  "id": "a2g1a26",
+                  "type": "choice",
+                  "prompt": "Whose bag is this? — It's ___. I bought it last week.",
+                  "options": [
+                    "mine",
+                    "my",
+                    "me"
+                  ],
+                  "answer": 0,
+                  "tag": "a1_review"
+                },
+                {
+                  "id": "a2g1a27",
+                  "type": "choice",
+                  "prompt": "Sam loves ___ the guitar in the evenings.",
+                  "options": [
+                    "playing",
+                    "play",
+                    "plays"
+                  ],
+                  "answer": 0,
+                  "tag": "a1_review"
+                },
+                {
+                  "id": "a2g1a28",
+                  "type": "choice",
+                  "prompt": "The test was ___ easy. I finished in ten minutes.",
+                  "options": [
+                    "really",
+                    "much",
+                    "a lot"
+                  ],
+                  "answer": 0,
+                  "tag": "a1_review"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "a2g1b01",
+                  "type": "choice",
+                  "prompt": "Sam usually works at the pub, but this week he ___ in a café.",
+                  "options": [
+                    "is working",
+                    "works",
+                    "work"
+                  ],
+                  "answer": 0,
+                  "tag": "present_simple_continuous"
+                },
+                {
+                  "id": "a2g1b02",
+                  "type": "choice",
+                  "prompt": "I'm looking ___ my glasses. Have you seen them?",
+                  "options": [
+                    "for",
+                    "at",
+                    "on"
+                  ],
+                  "answer": 0,
+                  "tag": "phrasal_verbs"
+                },
+                {
+                  "id": "a2g1b03",
+                  "type": "choice",
+                  "prompt": "There aren't ___ chairs for everybody. We need two more.",
+                  "options": [
+                    "enough",
+                    "too",
+                    "much"
+                  ],
+                  "answer": 0,
+                  "tag": "quantifiers"
+                },
+                {
+                  "id": "a2g1b04",
+                  "type": "choice",
+                  "prompt": "We ___ go out last night. We stayed at home.",
+                  "options": [
+                    "didn't",
+                    "weren't",
+                    "don't"
+                  ],
+                  "answer": 0,
+                  "tag": "past_simple"
+                },
+                {
+                  "id": "a2g1b05",
+                  "type": "choice",
+                  "prompt": "Did you ___ live in Madrid?",
+                  "options": [
+                    "use to",
+                    "used to",
+                    "using to"
+                  ],
+                  "answer": 0,
+                  "tag": "used_to"
+                },
+                {
+                  "id": "a2g1b06",
+                  "type": "choice",
+                  "prompt": "What ___ you doing at eight o'clock last night?",
+                  "options": [
+                    "were",
+                    "did",
+                    "was"
+                  ],
+                  "answer": 0,
+                  "tag": "past_continuous"
+                },
+                {
+                  "id": "a2g1b07",
+                  "type": "choice",
+                  "prompt": "Daniel speaks Spanish very ___.",
+                  "options": [
+                    "well",
+                    "good",
+                    "nice"
+                  ],
+                  "answer": 0,
+                  "tag": "sequencing_adverbs"
+                },
+                {
+                  "id": "a2g1b08",
+                  "type": "choice",
+                  "prompt": "This test is ___ than the last one.",
+                  "options": [
+                    "easier",
+                    "more easy",
+                    "easyer"
+                  ],
+                  "answer": 0,
+                  "tag": "comparatives"
+                },
+                {
+                  "id": "a2g1b09",
+                  "type": "choice",
+                  "prompt": "The journey was very long and ___.",
+                  "options": [
+                    "tiring",
+                    "tired",
+                    "tire"
+                  ],
+                  "answer": 0,
+                  "tag": "ed_ing"
+                },
+                {
+                  "id": "a2g1b10",
+                  "type": "choice",
+                  "prompt": "Who is ___ person in your family?",
+                  "options": [
+                    "the oldest",
+                    "the older",
+                    "the most old"
+                  ],
+                  "answer": 0,
+                  "tag": "superlatives"
+                },
+                {
+                  "id": "a2g1b11",
+                  "type": "choice",
+                  "prompt": "Your brother doesn't eat meat, ___?",
+                  "options": [
+                    "does he",
+                    "doesn't he",
+                    "is he"
+                  ],
+                  "answer": 0,
+                  "tag": "question_tags"
+                },
+                {
+                  "id": "a2g1b12",
+                  "type": "choice",
+                  "prompt": "___ we go for a walk? It's a lovely day.",
+                  "options": [
+                    "Shall",
+                    "Will",
+                    "Do"
+                  ],
+                  "answer": 0,
+                  "tag": "future_plans"
+                },
+                {
+                  "id": "a2g1b13",
+                  "type": "choice",
+                  "prompt": "I'm sure you ___ the exam. You've studied a lot.",
+                  "options": [
+                    "'ll pass",
+                    "pass",
+                    "passed"
+                  ],
+                  "answer": 0,
+                  "tag": "will"
+                },
+                {
+                  "id": "a2g1b14",
+                  "type": "choice",
+                  "prompt": "Get ___ the bus at the next stop for the museum.",
+                  "options": [
+                    "off",
+                    "out",
+                    "down"
+                  ],
+                  "answer": 0,
+                  "tag": "movement_prepositions"
+                },
+                {
+                  "id": "a2g1b15",
+                  "type": "choice",
+                  "prompt": "I ___ finished my homework yet.",
+                  "options": [
+                    "haven't",
+                    "didn't",
+                    "am not"
+                  ],
+                  "answer": 0,
+                  "tag": "present_perfect"
+                },
+                {
+                  "id": "a2g1b16",
+                  "type": "choice",
+                  "prompt": "I'm not sure, but I ___ go to the party.",
+                  "options": [
+                    "might",
+                    "will",
+                    "must"
+                  ],
+                  "answer": 0,
+                  "tag": "might_probably"
+                },
+                {
+                  "id": "a2g1b17",
+                  "type": "choice",
+                  "prompt": "You look tired. You ___ go to bed early.",
+                  "options": [
+                    "should",
+                    "mustn't",
+                    "don't have to"
+                  ],
+                  "answer": 0,
+                  "tag": "should_have_to"
+                },
+                {
+                  "id": "a2g1b18",
+                  "type": "choice",
+                  "prompt": "If you mix red and yellow, you ___ orange.",
+                  "options": [
+                    "get",
+                    "got",
+                    "will got"
+                  ],
+                  "answer": 0,
+                  "tag": "conditionals"
+                },
+                {
+                  "id": "a2g1b19",
+                  "type": "choice",
+                  "prompt": "I've decided ___ a new job.",
+                  "options": [
+                    "to look for",
+                    "looking for",
+                    "look for"
+                  ],
+                  "answer": 0,
+                  "tag": "would_like_verb_to"
+                },
+                {
+                  "id": "a2g1b20",
+                  "type": "choice",
+                  "prompt": "We had a great time at the party. We really enjoyed ___.",
+                  "options": [
+                    "ourselves",
+                    "us",
+                    "our"
+                  ],
+                  "answer": 0,
+                  "tag": "reflexives"
+                },
+                {
+                  "id": "a2g1b21",
+                  "type": "choice",
+                  "prompt": "Is this ___ coat? It's on her chair.",
+                  "options": [
+                    "Lucía's",
+                    "Lucías",
+                    "Lucía"
+                  ],
+                  "answer": 0,
+                  "tag": "a1_review"
+                },
+                {
+                  "id": "a2g1b22",
+                  "type": "choice",
+                  "prompt": "My birthday is ___ March.",
+                  "options": [
+                    "in",
+                    "on",
+                    "at"
+                  ],
+                  "answer": 0,
+                  "tag": "a1_review"
+                },
+                {
+                  "id": "a2g1b23",
+                  "type": "choice",
+                  "prompt": "___ you help me with this box, please?",
+                  "options": [
+                    "Could",
+                    "Do",
+                    "Are"
+                  ],
+                  "answer": 0,
+                  "tag": "a1_review"
+                },
+                {
+                  "id": "a2g1b24",
+                  "type": "choice",
+                  "prompt": "Please ___ quiet in the library.",
+                  "options": [
+                    "be",
+                    "are",
+                    "to be"
+                  ],
+                  "answer": 0,
+                  "tag": "a1_review"
+                },
+                {
+                  "id": "a2g1b25",
+                  "type": "choice",
+                  "prompt": "Sam ___ before ten on Saturdays.",
+                  "options": [
+                    "never gets up",
+                    "gets never up",
+                    "doesn't never get up"
+                  ],
+                  "answer": 0,
+                  "tag": "a1_review"
+                },
+                {
+                  "id": "a2g1b26",
+                  "type": "choice",
+                  "prompt": "Those aren't my keys. ___ are on the table.",
+                  "options": [
+                    "Mine",
+                    "My",
+                    "Me"
+                  ],
+                  "answer": 0,
+                  "tag": "a1_review"
+                },
+                {
+                  "id": "a2g1b27",
+                  "type": "choice",
+                  "prompt": "I hate ___ up early on Mondays.",
+                  "options": [
+                    "getting",
+                    "get",
+                    "to getting"
+                  ],
+                  "answer": 0,
+                  "tag": "a1_review"
+                },
+                {
+                  "id": "a2g1b28",
+                  "type": "choice",
+                  "prompt": "It's ___ cold today. Take a coat.",
+                  "options": [
+                    "quite",
+                    "much",
+                    "many"
+                  ],
+                  "answer": 0,
+                  "tag": "a1_review"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "a2g2",
+          "instructions": "Escribe la palabra que falta. Si hay una palabra entre paréntesis, úsala en la forma correcta.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "a2g2a01",
+                  "type": "gap",
+                  "prompt": "Listen! There's ___ at the door. Can you open it?",
+                  "accept": [
+                    "somebody",
+                    "someone"
+                  ],
+                  "tag": "indefinite_pronouns"
+                },
+                {
+                  "id": "a2g2a02",
+                  "type": "gap",
+                  "prompt": "I went to the bakery ___ buy some bread.",
+                  "accept": [
+                    "to"
+                  ],
+                  "tag": "purpose_infinitive"
+                },
+                {
+                  "id": "a2g2a03",
+                  "type": "gap",
+                  "prompt": "It's a lovely day, ___ it?",
+                  "accept": [
+                    "isn't"
+                  ],
+                  "tag": "question_tags"
+                },
+                {
+                  "id": "a2g2a04",
+                  "type": "gap",
+                  "prompt": "Have you ever ___ to Paris? (be)",
+                  "accept": [
+                    "been"
+                  ],
+                  "tag": "present_perfect"
+                },
+                {
+                  "id": "a2g2a05",
+                  "type": "gap",
+                  "prompt": "My sister is ___ than me. (tall)",
+                  "accept": [
+                    "taller"
+                  ],
+                  "tag": "comparatives"
+                },
+                {
+                  "id": "a2g2a06",
+                  "type": "gap",
+                  "prompt": "If you ___ hard, you'll pass the exam. (study)",
+                  "accept": [
+                    "study"
+                  ],
+                  "tag": "conditionals"
+                },
+                {
+                  "id": "a2g2a07",
+                  "type": "gap",
+                  "prompt": "I ___ to live in a small village, but now I live in London.",
+                  "accept": [
+                    "used"
+                  ],
+                  "tag": "used_to"
+                },
+                {
+                  "id": "a2g2a08",
+                  "type": "gap",
+                  "prompt": "How ___ people came to the party?",
+                  "accept": [
+                    "many"
+                  ],
+                  "tag": "quantifiers"
+                },
+                {
+                  "id": "a2g2a09",
+                  "type": "gap",
+                  "prompt": "The weather in Bristol is very different ___ the weather in Valencia.",
+                  "accept": [
+                    "from"
+                  ],
+                  "tag": "comparatives"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "a2g2b01",
+                  "type": "gap",
+                  "prompt": "I'm hungry, but there's ___ in the fridge. It's empty.",
+                  "accept": [
+                    "nothing"
+                  ],
+                  "tag": "indefinite_pronouns"
+                },
+                {
+                  "id": "a2g2b02",
+                  "type": "gap",
+                  "prompt": "She called the shop ___ ask about the price.",
+                  "accept": [
+                    "to"
+                  ],
+                  "tag": "purpose_infinitive"
+                },
+                {
+                  "id": "a2g2b03",
+                  "type": "gap",
+                  "prompt": "You can swim, ___ you?",
+                  "accept": [
+                    "can't",
+                    "cannot"
+                  ],
+                  "tag": "question_tags"
+                },
+                {
+                  "id": "a2g2b04",
+                  "type": "gap",
+                  "prompt": "Has the taxi arrived ___? — No, not yet.",
+                  "accept": [
+                    "yet"
+                  ],
+                  "tag": "present_perfect"
+                },
+                {
+                  "id": "a2g2b05",
+                  "type": "gap",
+                  "prompt": "Today is ___ than yesterday. (hot)",
+                  "accept": [
+                    "hotter"
+                  ],
+                  "tag": "comparatives"
+                },
+                {
+                  "id": "a2g2b06",
+                  "type": "gap",
+                  "prompt": "If it's sunny tomorrow, we ___ go to the beach.",
+                  "accept": [
+                    "will",
+                    "'ll"
+                  ],
+                  "tag": "conditionals"
+                },
+                {
+                  "id": "a2g2b07",
+                  "type": "gap",
+                  "prompt": "Sam ___ use to like vegetables, but now he loves them.",
+                  "accept": [
+                    "didn't",
+                    "did not"
+                  ],
+                  "tag": "used_to"
+                },
+                {
+                  "id": "a2g2b08",
+                  "type": "gap",
+                  "prompt": "This coffee is ___ hot. I can't drink it.",
+                  "accept": [
+                    "too"
+                  ],
+                  "tag": "quantifiers"
+                },
+                {
+                  "id": "a2g2b09",
+                  "type": "gap",
+                  "prompt": "My new phone is the same ___ yours!",
+                  "accept": [
+                    "as"
+                  ],
+                  "tag": "comparatives"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "a2g3",
+          "instructions": "Ordena las palabras para formar una frase.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "a2g3a01",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "I went to the station to meet my friend."
+                  ],
+                  "tag": "purpose_infinitive"
+                },
+                {
+                  "id": "a2g3a02",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "What were you doing when I called?"
+                  ],
+                  "tag": "past_continuous"
+                },
+                {
+                  "id": "a2g3a03",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "You don't have to wear a tie."
+                  ],
+                  "tag": "should_have_to"
+                },
+                {
+                  "id": "a2g3a04",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "We are having dinner with Helen on Friday.",
+                    "On Friday we are having dinner with Helen."
+                  ],
+                  "tag": "future_plans"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "a2g3b01",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "She saved money to buy a new bike."
+                  ],
+                  "tag": "purpose_infinitive"
+                },
+                {
+                  "id": "a2g3b02",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "It was raining when we left the house.",
+                    "When we left the house it was raining."
+                  ],
+                  "tag": "past_continuous"
+                },
+                {
+                  "id": "a2g3b03",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "You should drink more water."
+                  ],
+                  "tag": "should_have_to"
+                },
+                {
+                  "id": "a2g3b04",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "Are you doing anything this weekend?"
+                  ],
+                  "tag": "future_plans"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "vocabulary",
+      "title": "Vocabulario",
+      "parts": [
+        {
+          "part_id": "a2v1",
+          "instructions": "Elige la palabra correcta.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "a2v1a01",
+                  "type": "choice",
+                  "prompt": "This jacket is too small. Can I try a bigger ___?",
+                  "options": [
+                    "size",
+                    "price",
+                    "sale"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_shopping"
+                },
+                {
+                  "id": "a2v1a02",
+                  "type": "choice",
+                  "prompt": "The train to London leaves from ___ 4.",
+                  "options": [
+                    "platform",
+                    "gate",
+                    "stop"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_travel"
+                },
+                {
+                  "id": "a2v1a03",
+                  "type": "choice",
+                  "prompt": "You need a ___ to fly to the USA.",
+                  "options": [
+                    "passport",
+                    "timetable",
+                    "platform"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_travel"
+                },
+                {
+                  "id": "a2v1a04",
+                  "type": "choice",
+                  "prompt": "My head really hurts. I've got a ___.",
+                  "options": [
+                    "headache",
+                    "stomach ache",
+                    "toothache"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_health"
+                },
+                {
+                  "id": "a2v1a05",
+                  "type": "choice",
+                  "prompt": "You've got a temperature. You should stay in ___.",
+                  "options": [
+                    "bed",
+                    "the office",
+                    "the gym"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_health"
+                },
+                {
+                  "id": "a2v1a06",
+                  "type": "choice",
+                  "prompt": "Put the milk in the ___, please.",
+                  "options": [
+                    "fridge",
+                    "oven",
+                    "sink"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_home"
+                },
+                {
+                  "id": "a2v1a07",
+                  "type": "choice",
+                  "prompt": "It's raining and the streets are ___.",
+                  "options": [
+                    "wet",
+                    "sunny",
+                    "dry"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_places"
+                },
+                {
+                  "id": "a2v1a08",
+                  "type": "choice",
+                  "prompt": "Our team won the ___ at the pub last night!",
+                  "options": [
+                    "quiz",
+                    "menu",
+                    "bill"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_leisure"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "a2v1b01",
+                  "type": "choice",
+                  "prompt": "Everything is half price. There's a ___ on!",
+                  "options": [
+                    "sale",
+                    "size",
+                    "bill"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_shopping"
+                },
+                {
+                  "id": "a2v1b02",
+                  "type": "choice",
+                  "prompt": "I'd like a ___ ticket to Bath, please. I'm coming back tonight.",
+                  "options": [
+                    "return",
+                    "single",
+                    "empty"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_travel"
+                },
+                {
+                  "id": "a2v1b03",
+                  "type": "choice",
+                  "prompt": "Our flight is at six, so we can ___ online tonight.",
+                  "options": [
+                    "check in",
+                    "check out",
+                    "look in"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_travel"
+                },
+                {
+                  "id": "a2v1b04",
+                  "type": "choice",
+                  "prompt": "I can't talk much. I've got a sore ___.",
+                  "options": [
+                    "throat",
+                    "head",
+                    "leg"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_health"
+                },
+                {
+                  "id": "a2v1b05",
+                  "type": "choice",
+                  "prompt": "Take this ___ three times a day, after meals.",
+                  "options": [
+                    "medicine",
+                    "menu",
+                    "recipe"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_health"
+                },
+                {
+                  "id": "a2v1b06",
+                  "type": "choice",
+                  "prompt": "Wash the plates in the ___.",
+                  "options": [
+                    "sink",
+                    "fridge",
+                    "bed"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_home"
+                },
+                {
+                  "id": "a2v1b07",
+                  "type": "choice",
+                  "prompt": "There's a lot of ___ in Bristol: museums, galleries and street painting.",
+                  "options": [
+                    "art",
+                    "rent",
+                    "rain"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_places"
+                },
+                {
+                  "id": "a2v1b08",
+                  "type": "choice",
+                  "prompt": "My favourite ___ is reading. I read every night.",
+                  "options": [
+                    "hobby",
+                    "job",
+                    "subject"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_leisure"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "a2v2",
+          "instructions": "Escribe la palabra que falta. Tienes la primera letra.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "a2v2a01",
+                  "type": "gap",
+                  "prompt": "This bag is very ___. It's only five pounds! (c…)",
+                  "accept": [
+                    "cheap"
+                  ],
+                  "tag": "vocab_shopping"
+                },
+                {
+                  "id": "a2v2a02",
+                  "type": "gap",
+                  "prompt": "I always make ___ for breakfast: bread in the toaster. (t…)",
+                  "accept": [
+                    "toast"
+                  ],
+                  "tag": "vocab_home"
+                },
+                {
+                  "id": "a2v2a03",
+                  "type": "gap",
+                  "prompt": "Bristol isn't as ___ as people say. The sun shines sometimes! (g…)",
+                  "accept": [
+                    "grey",
+                    "gray"
+                  ],
+                  "tag": "vocab_places"
+                },
+                {
+                  "id": "a2v2a04",
+                  "type": "gap",
+                  "prompt": "Daniel took a lot of ___ of the Tower of London. (p…)",
+                  "accept": [
+                    "photos",
+                    "photographs",
+                    "pictures"
+                  ],
+                  "tag": "vocab_leisure"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "a2v2b01",
+                  "type": "gap",
+                  "prompt": "How much do you want to ___ on a new coat? (s…)",
+                  "accept": [
+                    "spend"
+                  ],
+                  "tag": "vocab_shopping"
+                },
+                {
+                  "id": "a2v2b02",
+                  "type": "gap",
+                  "prompt": "I can't open the door. I'm looking for my ___. (k…)",
+                  "accept": [
+                    "keys"
+                  ],
+                  "tag": "vocab_home"
+                },
+                {
+                  "id": "a2v2b03",
+                  "type": "gap",
+                  "prompt": "Valencia is ___ than Bristol. There's more sun there. (s…)",
+                  "accept": [
+                    "sunnier"
+                  ],
+                  "tag": "vocab_places"
+                },
+                {
+                  "id": "a2v2b04",
+                  "type": "gap",
+                  "prompt": "Our team was the ___ of the quiz! (w…)",
+                  "accept": [
+                    "winner",
+                    "winners"
+                  ],
+                  "tag": "vocab_leisure"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "reading",
+      "title": "Reading",
+      "parts": [
+        {
+          "part_id": "a2r1",
+          "instructions": "Lee cada cartel o mensaje y elige qué significa.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "a2r1a01",
+                  "type": "choice",
+                  "prompt": "PLATFORMS 3–6: Go up the stairs and across the bridge.",
+                  "options": [
+                    "To get to platform 4, you need to cross the bridge.",
+                    "Platform 4 is next to the entrance.",
+                    "The bridge is closed today."
+                  ],
+                  "answer": 0,
+                  "tag": "movement_prepositions"
+                },
+                {
+                  "id": "a2r1a02",
+                  "type": "choice",
+                  "prompt": "Text from Sam: Train's late. I might not get to the party before nine. Start without me!",
+                  "options": [
+                    "Sam isn't sure what time he'll arrive.",
+                    "Sam isn't going to the party.",
+                    "The party starts at nine."
+                  ],
+                  "answer": 0,
+                  "tag": "might_probably"
+                },
+                {
+                  "id": "a2r1a03",
+                  "type": "choice",
+                  "prompt": "NOTICE: The library will be closed from 24 to 26 December.",
+                  "options": [
+                    "You can't use the library on Christmas Day.",
+                    "The library opens on 24 December.",
+                    "The library is closing forever."
+                  ],
+                  "answer": 0,
+                  "tag": "will"
+                },
+                {
+                  "id": "a2r1a04",
+                  "type": "choice",
+                  "prompt": "Would you like to learn to dance? Salsa classes every Tuesday at 7 pm. Beginners welcome!",
+                  "options": [
+                    "You can go to the class if you have never danced.",
+                    "The class is only for good dancers.",
+                    "There are classes every day."
+                  ],
+                  "answer": 0,
+                  "tag": "would_like_verb_to"
+                },
+                {
+                  "id": "a2r1a05",
+                  "type": "choice",
+                  "prompt": "WINTER SALE: All coats half price. Today only!",
+                  "options": [
+                    "An £80 coat costs £40 today.",
+                    "Coats are cheaper every day.",
+                    "You can buy two coats for the price of one."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_shopping"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "a2r1b01",
+                  "type": "choice",
+                  "prompt": "MUSEUM CAFÉ: Go through the main hall and up the stairs.",
+                  "options": [
+                    "The café is upstairs.",
+                    "The café is outside the museum.",
+                    "The café is in the main hall."
+                  ],
+                  "answer": 0,
+                  "tag": "movement_prepositions"
+                },
+                {
+                  "id": "a2r1b02",
+                  "type": "choice",
+                  "prompt": "Email from Helen: I'll probably be late tomorrow. I've got a meeting with a client at nine. Can you open the office?",
+                  "options": [
+                    "Helen thinks she won't arrive on time.",
+                    "Helen won't come to work tomorrow.",
+                    "Helen wants a meeting at nine."
+                  ],
+                  "answer": 0,
+                  "tag": "might_probably"
+                },
+                {
+                  "id": "a2r1b03",
+                  "type": "choice",
+                  "prompt": "Bus 8 will not stop at Clifton Down this weekend because of road works.",
+                  "options": [
+                    "This weekend you can't get bus 8 at Clifton Down.",
+                    "Bus 8 is free this weekend.",
+                    "Bus 8 only runs at the weekend."
+                  ],
+                  "answer": 0,
+                  "tag": "will"
+                },
+                {
+                  "id": "a2r1b04",
+                  "type": "choice",
+                  "prompt": "Would you like to help at our Christmas market? We need people on Saturday. Call Mrs Green.",
+                  "options": [
+                    "Mrs Green is looking for people to help.",
+                    "Mrs Green is selling Christmas trees.",
+                    "The market is on Sunday."
+                  ],
+                  "answer": 0,
+                  "tag": "would_like_verb_to"
+                },
+                {
+                  "id": "a2r1b05",
+                  "type": "choice",
+                  "prompt": "SPECIAL OFFER: Buy one pizza, get one free!",
+                  "options": [
+                    "Two pizzas cost the same as one.",
+                    "Pizzas are free today.",
+                    "You can only buy one pizza."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_shopping"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "a2r2",
+          "instructions": "Lee el texto y contesta las preguntas.",
+          "variants": [
+            {
+              "title": "A weekend in Edinburgh",
+              "text": "Last weekend I visited Edinburgh with my friend Kate. First, we took the train from London. The journey was long, but it wasn't boring because we played cards and talked all the time.\n\nOn Saturday morning we walked up to the castle. It's the most famous place in the city, and the views are amazing. Then we had lunch in a small café near the castle. The soup was the best soup I have ever eaten!\n\nIn the afternoon it started to rain, so we went to a museum. Kate was very interested in the old clothes, but I was a bit tired.\n\nNow I'm writing this on the train home. Kate is sleeping next to me. It's raining again, of course. Edinburgh is colder and wetter than London, but I want to go back soon!\n\nTom",
+              "items": [
+                {
+                  "id": "a2r2a01",
+                  "type": "choice",
+                  "prompt": "How did Tom and Kate travel to Edinburgh?",
+                  "options": [
+                    "By train.",
+                    "By car.",
+                    "By plane."
+                  ],
+                  "answer": 0,
+                  "tag": "past_simple"
+                },
+                {
+                  "id": "a2r2a02",
+                  "type": "choice",
+                  "prompt": "What did they do after they visited the castle?",
+                  "options": [
+                    "They had lunch in a café.",
+                    "They went to a museum.",
+                    "They took the train home."
+                  ],
+                  "answer": 0,
+                  "tag": "sequencing_adverbs"
+                },
+                {
+                  "id": "a2r2a03",
+                  "type": "choice",
+                  "prompt": "What does Tom say about the soup?",
+                  "options": [
+                    "It was the best he has ever had.",
+                    "It was too hot.",
+                    "It was the most expensive thing on the menu."
+                  ],
+                  "answer": 0,
+                  "tag": "superlatives"
+                },
+                {
+                  "id": "a2r2a04",
+                  "type": "choice",
+                  "prompt": "How did Tom feel in the museum?",
+                  "options": [
+                    "A bit tired.",
+                    "Very interested.",
+                    "Bored and angry."
+                  ],
+                  "answer": 0,
+                  "tag": "ed_ing"
+                },
+                {
+                  "id": "a2r2a05",
+                  "type": "choice",
+                  "prompt": "What is Kate doing now?",
+                  "options": [
+                    "Sleeping on the train.",
+                    "Writing a blog.",
+                    "Visiting a museum."
+                  ],
+                  "answer": 0,
+                  "tag": "present_simple_continuous"
+                },
+                {
+                  "id": "a2r2a06",
+                  "type": "choice",
+                  "prompt": "What does Tom say about the weather in Edinburgh?",
+                  "options": [
+                    "It's colder and wetter than in London.",
+                    "It's sunnier than in London.",
+                    "It never rains there."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_places"
+                }
+              ]
+            },
+            {
+              "title": "My first month in Cork",
+              "text": "Hi everyone! I moved to Cork, in Ireland, a month ago. I work as a waitress in a busy café near the river, and this month I'm also helping in the kitchen.\n\nThe first week was very tiring. First, I got lost every day! Then I lost my phone on the bus. Finally, a nice man found it and brought it to the café.\n\nCork is smaller than Dublin, but I think it's the friendliest city in Ireland. People always say hello and talk to you in the street.\n\nLast Sunday I went to the English Market. It's the oldest food market in the city, and I bought cheese, bread and some amazing chocolate. The weather was terrible, with wind and rain all day, but I was too excited to care.\n\nAna",
+              "items": [
+                {
+                  "id": "a2r2b01",
+                  "type": "choice",
+                  "prompt": "What is Ana doing this month?",
+                  "options": [
+                    "She's also helping in the kitchen.",
+                    "She's looking for a new job.",
+                    "She's studying English."
+                  ],
+                  "answer": 0,
+                  "tag": "present_simple_continuous"
+                },
+                {
+                  "id": "a2r2b02",
+                  "type": "choice",
+                  "prompt": "What happened after Ana lost her phone?",
+                  "options": [
+                    "A man found it and brought it to the café.",
+                    "She bought a new one.",
+                    "She called the police."
+                  ],
+                  "answer": 0,
+                  "tag": "sequencing_adverbs"
+                },
+                {
+                  "id": "a2r2b03",
+                  "type": "choice",
+                  "prompt": "What does Ana think about Cork?",
+                  "options": [
+                    "It's the friendliest city in Ireland.",
+                    "It's bigger than Dublin.",
+                    "It's the quietest city in Ireland."
+                  ],
+                  "answer": 0,
+                  "tag": "superlatives"
+                },
+                {
+                  "id": "a2r2b04",
+                  "type": "choice",
+                  "prompt": "What did Ana do last Sunday?",
+                  "options": [
+                    "She went to a food market.",
+                    "She worked in the café.",
+                    "She went to Dublin."
+                  ],
+                  "answer": 0,
+                  "tag": "past_simple"
+                },
+                {
+                  "id": "a2r2b05",
+                  "type": "choice",
+                  "prompt": "How did Ana feel on Sunday?",
+                  "options": [
+                    "Excited.",
+                    "Bored.",
+                    "Worried."
+                  ],
+                  "answer": 0,
+                  "tag": "ed_ing"
+                },
+                {
+                  "id": "a2r2b06",
+                  "type": "choice",
+                  "prompt": "What was the weather like on Sunday?",
+                  "options": [
+                    "Windy and rainy.",
+                    "Sunny and warm.",
+                    "Cold but dry."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_places"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "listening",
+      "title": "Listening",
+      "parts": [
+        {
+          "part_id": "a2l1",
+          "instructions": "Escucha la conversación y contesta las preguntas. Puedes escucharla dos veces.",
+          "variants": [
+            {
+              "title": "Priya isn't well",
+              "dialogue": [
+                {
+                  "speaker": "Lucía",
+                  "text": "Priya, are you OK? You're very pale."
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "Not really. I hurt myself at work yesterday. I fell down the stairs at the hospital."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Oh no! Does it hurt a lot?"
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "My leg hurts a bit, and I've got a terrible headache."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Have you taken anything for it?"
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "No. There's nothing in the bathroom. We haven't got any paracetamol."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "I'll go to the chemist's. If I go now, I'll be back before six."
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "Thanks. Take the bus, it's raining."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Sure. The number eight stops right outside. Do you need anything else?"
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "Some orange juice, please. And can you turn off the TV? I want to sleep."
+                }
+              ],
+              "items": [
+                {
+                  "id": "a2l1a01",
+                  "type": "choice",
+                  "prompt": "What happened to Priya?",
+                  "options": [
+                    "She hurt herself at work.",
+                    "She hurt herself at home.",
+                    "She fell off her bike."
+                  ],
+                  "answer": 0,
+                  "tag": "reflexives"
+                },
+                {
+                  "id": "a2l1a02",
+                  "type": "choice",
+                  "prompt": "What's wrong with Priya?",
+                  "options": [
+                    "Her leg hurts and she's got a headache.",
+                    "She's got a cold and a sore throat.",
+                    "She's got a stomach ache."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_health"
+                },
+                {
+                  "id": "a2l1a03",
+                  "type": "choice",
+                  "prompt": "Why can't Priya take paracetamol?",
+                  "options": [
+                    "There's nothing in the bathroom.",
+                    "She doesn't like medicine.",
+                    "The doctor said no."
+                  ],
+                  "answer": 0,
+                  "tag": "indefinite_pronouns"
+                },
+                {
+                  "id": "a2l1a04",
+                  "type": "choice",
+                  "prompt": "When will Lucía be back if she goes now?",
+                  "options": [
+                    "Before six.",
+                    "After six.",
+                    "At eight."
+                  ],
+                  "answer": 0,
+                  "tag": "conditionals"
+                },
+                {
+                  "id": "a2l1a05",
+                  "type": "choice",
+                  "prompt": "How is Lucía going to the chemist's?",
+                  "options": [
+                    "By bus.",
+                    "On foot.",
+                    "By taxi."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_travel"
+                },
+                {
+                  "id": "a2l1a06",
+                  "type": "choice",
+                  "prompt": "What does Priya ask Lucía to do?",
+                  "options": [
+                    "Turn off the TV.",
+                    "Turn on the TV.",
+                    "Make some tea."
+                  ],
+                  "answer": 0,
+                  "tag": "phrasal_verbs"
+                }
+              ]
+            },
+            {
+              "title": "Late for the plane",
+              "dialogue": [
+                {
+                  "speaker": "Daniel",
+                  "text": "Lucía, where are you? The plane leaves in two hours!"
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "I'm coming! I'm looking for my passport. I can't find it anywhere!"
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "Have you looked in your bag?"
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Yes… oh, here it is! It's in my coat pocket. I put it there myself this morning!"
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "Ha! OK, let's go. If we hurry, we'll catch the airport bus at ten."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Wait, I need to pack some medicine. I've got a sore throat."
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "OK, but quickly. And put on your scarf. It's cold in Dublin."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Done. Have we got everything?"
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "Passports, tickets, phones… yes. Come on!"
+                }
+              ],
+              "items": [
+                {
+                  "id": "a2l1b01",
+                  "type": "choice",
+                  "prompt": "What is Lucía's problem?",
+                  "options": [
+                    "She can't find her passport anywhere.",
+                    "She can't find the tickets.",
+                    "She has nothing to wear."
+                  ],
+                  "answer": 0,
+                  "tag": "indefinite_pronouns"
+                },
+                {
+                  "id": "a2l1b02",
+                  "type": "choice",
+                  "prompt": "Where was the passport?",
+                  "options": [
+                    "In her coat pocket. She put it there herself.",
+                    "In her bag.",
+                    "Daniel had it."
+                  ],
+                  "answer": 0,
+                  "tag": "reflexives"
+                },
+                {
+                  "id": "a2l1b03",
+                  "type": "choice",
+                  "prompt": "What will happen if they hurry?",
+                  "options": [
+                    "They'll catch the bus at ten.",
+                    "They'll miss the plane.",
+                    "They'll take a taxi."
+                  ],
+                  "answer": 0,
+                  "tag": "conditionals"
+                },
+                {
+                  "id": "a2l1b04",
+                  "type": "choice",
+                  "prompt": "Why does Lucía need medicine?",
+                  "options": [
+                    "She's got a sore throat.",
+                    "She's got a headache.",
+                    "She feels sick on planes."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_health"
+                },
+                {
+                  "id": "a2l1b05",
+                  "type": "choice",
+                  "prompt": "What does Daniel tell Lucía to do?",
+                  "options": [
+                    "Put on her scarf.",
+                    "Take off her coat.",
+                    "Look for the tickets."
+                  ],
+                  "answer": 0,
+                  "tag": "phrasal_verbs"
+                },
+                {
+                  "id": "a2l1b06",
+                  "type": "choice",
+                  "prompt": "Where are they going?",
+                  "options": [
+                    "To Dublin.",
+                    "To Valencia.",
+                    "To London."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_travel"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "a2l2",
+          "instructions": "Escucha la conversación y contesta las preguntas. Puedes escucharla dos veces.",
+          "variants": [
+            {
+              "title": "Javi's visit",
+              "dialogue": [
+                {
+                  "speaker": "Javi",
+                  "text": "Hi, sis! Have you finished work yet?"
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Yes, I've just got home. I'm making dinner."
+                },
+                {
+                  "speaker": "Javi",
+                  "text": "Listen, I'm coming to Bristol in March! I've already bought the ticket."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Really? That's great! When are you arriving?"
+                },
+                {
+                  "speaker": "Javi",
+                  "text": "On Friday the fifteenth. I'm flying from Valencia in the evening."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Perfect. You can sleep on the sofa in the living room."
+                },
+                {
+                  "speaker": "Javi",
+                  "text": "Have you ever been to a football match in Bristol? I'd love to see one."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "No, never. But Sam loves football. I'll ask him to get some tickets."
+                },
+                {
+                  "speaker": "Javi",
+                  "text": "Great. Do I have to bring anything?"
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "You should bring a warm coat. And an umbrella!"
+                }
+              ],
+              "items": [
+                {
+                  "id": "a2l2a01",
+                  "type": "choice",
+                  "prompt": "What has Javi already done?",
+                  "options": [
+                    "Bought a ticket to Bristol.",
+                    "Booked a hotel.",
+                    "Watched a match in Bristol."
+                  ],
+                  "answer": 0,
+                  "tag": "present_perfect"
+                },
+                {
+                  "id": "a2l2a02",
+                  "type": "choice",
+                  "prompt": "When is Javi arriving?",
+                  "options": [
+                    "On Friday the fifteenth.",
+                    "On Saturday the fifteenth.",
+                    "In April."
+                  ],
+                  "answer": 0,
+                  "tag": "future_plans"
+                },
+                {
+                  "id": "a2l2a03",
+                  "type": "choice",
+                  "prompt": "Where is Javi going to sleep?",
+                  "options": [
+                    "On the sofa in the living room.",
+                    "In Sam's room.",
+                    "In a hotel."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_home"
+                },
+                {
+                  "id": "a2l2a04",
+                  "type": "choice",
+                  "prompt": "What would Javi like to do in Bristol?",
+                  "options": [
+                    "See a football match.",
+                    "Go to a concert.",
+                    "Visit a museum."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_leisure"
+                },
+                {
+                  "id": "a2l2a05",
+                  "type": "choice",
+                  "prompt": "What does Lucía offer to do?",
+                  "options": [
+                    "Ask Sam to get tickets.",
+                    "Buy the tickets herself.",
+                    "Meet Javi at the airport."
+                  ],
+                  "answer": 0,
+                  "tag": "will"
+                },
+                {
+                  "id": "a2l2a06",
+                  "type": "choice",
+                  "prompt": "What does Lucía say Javi should bring?",
+                  "options": [
+                    "A warm coat and an umbrella.",
+                    "Nothing.",
+                    "Some food from Spain."
+                  ],
+                  "answer": 0,
+                  "tag": "should_have_to"
+                }
+              ]
+            },
+            {
+              "title": "At the office",
+              "dialogue": [
+                {
+                  "speaker": "Helen",
+                  "text": "Lucía, have you sent the designs to the client yet?"
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Yes, I've just sent them. They're for the new café in Clifton, right?"
+                },
+                {
+                  "speaker": "Helen",
+                  "text": "That's right. We're meeting the owner on Thursday at ten. Can you come?"
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Of course. Do I have to prepare anything?"
+                },
+                {
+                  "speaker": "Helen",
+                  "text": "You should bring some colour samples. She loves bright colours."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "OK. I'll print them tomorrow morning."
+                },
+                {
+                  "speaker": "Helen",
+                  "text": "Thanks. By the way, have you ever played tennis? We're playing on Saturday and we need a fourth player."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "I've played once, but I'm terrible!"
+                },
+                {
+                  "speaker": "Helen",
+                  "text": "Don't worry, we're all terrible! And after that we usually have lunch at my house."
+                }
+              ],
+              "items": [
+                {
+                  "id": "a2l2b01",
+                  "type": "choice",
+                  "prompt": "What has Lucía just done?",
+                  "options": [
+                    "Sent the designs to the client.",
+                    "Met the café owner.",
+                    "Printed the colours."
+                  ],
+                  "answer": 0,
+                  "tag": "present_perfect"
+                },
+                {
+                  "id": "a2l2b02",
+                  "type": "choice",
+                  "prompt": "When are they meeting the café owner?",
+                  "options": [
+                    "On Thursday at ten.",
+                    "On Saturday.",
+                    "Tomorrow morning."
+                  ],
+                  "answer": 0,
+                  "tag": "future_plans"
+                },
+                {
+                  "id": "a2l2b03",
+                  "type": "choice",
+                  "prompt": "What should Lucía bring to the meeting?",
+                  "options": [
+                    "Some colour samples.",
+                    "Her laptop.",
+                    "Some coffee."
+                  ],
+                  "answer": 0,
+                  "tag": "should_have_to"
+                },
+                {
+                  "id": "a2l2b04",
+                  "type": "choice",
+                  "prompt": "When will Lucía print them?",
+                  "options": [
+                    "Tomorrow morning.",
+                    "This afternoon.",
+                    "On Thursday."
+                  ],
+                  "answer": 0,
+                  "tag": "will"
+                },
+                {
+                  "id": "a2l2b05",
+                  "type": "choice",
+                  "prompt": "What does Helen invite Lucía to do?",
+                  "options": [
+                    "Play tennis.",
+                    "Go to the gym.",
+                    "Watch a match."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_leisure"
+                },
+                {
+                  "id": "a2l2b06",
+                  "type": "choice",
+                  "prompt": "Where do they usually have lunch after tennis?",
+                  "options": [
+                    "At Helen's house.",
+                    "In a café in Clifton.",
+                    "At the sports club."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_home"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

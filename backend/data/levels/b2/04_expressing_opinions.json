@@ -7,7 +7,7 @@
         {
           "unit_id": "expressing_opinions",
           "title": "The First Meeting",
-          "description": "Defiende tu opinión con conectores de contraste: although, despite, however, whereas.",
+          "description": "Defiende tu opinión con conectores de contraste: although, despite, however, whereas. Y marcadores formales para presentar y argumentar: furthermore, moreover, consequently, in conclusion.",
           "lessons": [
             {
               "lesson_id": "opinion_linkers",
@@ -157,6 +157,54 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Formal discourse markers: furthermore, moreover, consequently",
+                    "explanation": "En reuniones, presentaciones y textos formales organizamos las ideas con marcadores:\n\n• Para empezar y ordenar: To begin with, Firstly, Secondly, Finally.\n• Para añadir: Furthermore, Moreover, In addition (además), Additionally.\n• Para la consecuencia: Consequently, As a result, Therefore (por consiguiente).\n• Para introducir un tema: Regarding / As regards the budget (en cuanto al presupuesto).\n• Para contrastar dos puntos de vista: On the one hand… On the other hand…\n• Para cerrar: In conclusion, To sum up (en resumen).\n\nVan al principio de la frase, seguidos de coma. En una conversación informal suenan demasiado formales: con amigos se dice also, so o anyway.",
+                    "table": {
+                      "headers": [
+                        "Función",
+                        "Marcadores",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Añadir",
+                          "furthermore, moreover, in addition",
+                          "Moreover, it loads in two seconds."
+                        ],
+                        [
+                          "Consecuencia",
+                          "consequently, as a result",
+                          "Consequently, guests book more quickly."
+                        ],
+                        [
+                          "Tema",
+                          "regarding, as regards",
+                          "Regarding the photos, we'll add a gallery."
+                        ],
+                        [
+                          "Dos puntos de vista",
+                          "on the one hand… on the other hand",
+                          "On the one hand it's simple; on the other hand it looks cheap."
+                        ],
+                        [
+                          "Cerrar",
+                          "in conclusion, to sum up",
+                          "To sum up, simple sells."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "To begin with, I'd like to show you our research.",
+                      "Furthermore, the new site loads five times faster.",
+                      "Guests find what they want quickly. Consequently, they book more rooms.",
+                      "In conclusion, we recommend the simple version."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -268,6 +316,72 @@
                         "answers": [
                           "Our site is slow, whereas theirs is fast",
                           "Our site is slow whereas theirs is fast"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el marcador adecuado.",
+                    "items": [
+                      {
+                        "sentence": "___, I'd like to thank you all for coming. (para empezar)",
+                        "answers": [
+                          [
+                            "To begin with",
+                            "Firstly",
+                            "First of all"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The site is simple. ___, it loads in two seconds. (además)",
+                        "answers": [
+                          [
+                            "Furthermore",
+                            "Moreover",
+                            "In addition",
+                            "Additionally"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Booking is faster. ___, we expect more reservations. (consecuencia)",
+                        "answers": [
+                          [
+                            "Consequently",
+                            "As a result",
+                            "Therefore"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ the photos, we'll add a gallery to every hotel page. (en cuanto a)",
+                        "answers": [
+                          [
+                            "Regarding",
+                            "As regards",
+                            "As for"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "On the ___ hand, it's simple. On the other hand, it might look cheap.",
+                        "answers": [
+                          [
+                            "one"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "In ___, we recommend the simple version.",
+                        "answers": [
+                          [
+                            "conclusion"
+                          ]
                         ]
                       }
                     ]

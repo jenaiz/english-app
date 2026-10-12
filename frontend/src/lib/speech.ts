@@ -81,7 +81,27 @@ export async function playLines(lines: DialogueLine[]): Promise<void> {
   }
 }
 
+/**
+ * Play pre-generated MP3 files in order, by file name (level-exam listenings, whose text the
+ * learner must not see). There is no browser-voice fallback: a missing file is skipped.
+ * Resolves false if the browser blocked playback or stopSpeaking interrupted it.
+ */
+export async function playAudioFiles(files: string[]): Promise<boolean> {
+  stopSpeaking()
+  const run = playback
+  for (const file of files) {
+    if (run !== playback) return false
+    const result = await playSrc(`/api/audio/${encodeURIComponent(file)}`)
+    if (run !== playback || result === 'stopped' || result === 'blocked') return false
+  }
+  return true
+}
+
 function playMp3({ speaker, text }: DialogueLine): Promise<LineResult> {
+  return playSrc(`/api/audio?${new URLSearchParams({ speaker, text })}`)
+}
+
+function playSrc(src: string): Promise<LineResult> {
   player ??= new Audio()
   const audio = player
   return new Promise((resolve) => {
@@ -92,7 +112,7 @@ function playMp3({ speaker, text }: DialogueLine): Promise<LineResult> {
     settle = done
     audio.onended = () => done('ok')
     audio.onerror = () => done('missing')
-    audio.src = `/api/audio?${new URLSearchParams({ speaker, text })}`
+    audio.src = src
     audio.play().catch((e: DOMException) => {
       // AbortError: another line replaced this one before it started.
       done(e.name === 'NotAllowedError' ? 'blocked' : e.name === 'AbortError' ? 'stopped' : 'missing')

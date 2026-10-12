@@ -7,7 +7,7 @@
         {
           "unit_id": "the_engagement",
           "title": "The Engagement Party",
-          "description": "Habla como un nativo sin repetir: elipsis y sustitución (I hope so, So would I, If you want me to).",
+          "description": "Habla como un nativo sin repetir: elipsis y sustitución (I hope so, So would I, If you want me to). Además, el lenguaje aproximativo: sort of, or so, -ish, or something.",
           "lessons": [
             {
               "lesson_id": "the_engagement_lesson",
@@ -181,6 +181,48 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Vague language: sort of, or so, -ish, or something",
+                    "explanation": "En la conversación los nativos no siempre son exactos, y sonar demasiado preciso puede resultar frío. El lenguaje aproximativo suaviza y aproxima:\n\n• Cantidades: about / around / roughly 500, 500 or so, 30-odd people (unos treinta y pico), dozens of, loads of.\n• Horas y edades con -ish: Let's meet at sevenish. He's fortyish.\n• Adjetivos con -ish o kind of / sort of: It's greenish. I'm kind of nervous. It's sort of a party, sort of a dinner.\n• Listas abiertas: and stuff, and things like that, or something (like that), and so on: We need flowers, music and stuff. Let's have tapas or something.\n• Cosas cuyo nombre no recordamos: the thingy, whatsit: Pass me the thingy for the cake.\n\nOjo: en un correo formal o un informe, este registro es demasiado informal; usa approximately o around.",
+                    "table": {
+                      "headers": [
+                        "Para…",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Cantidades",
+                          "There'll be five hundred guests or so."
+                        ],
+                        [
+                          "Horas / edades",
+                          "Come at eightish. He's thirty-odd."
+                        ],
+                        [
+                          "Atenuar",
+                          "I'm kind of nervous about the speech."
+                        ],
+                        [
+                          "Listas abiertas",
+                          "We need music, flowers and stuff."
+                        ],
+                        [
+                          "Opciones abiertas",
+                          "Let's get pizza or something."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "My mum wants five hundred guests or so.",
+                      "Let's meet at the restaurant at eightish.",
+                      "It was kind of romantic, kind of embarrassing.",
+                      "We'll need a band, flowers and stuff like that."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -284,6 +326,65 @@
                         "source": "I don't like coffee. — I don't like coffee either. (Neither…)",
                         "answers": [
                           "Neither do I"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con so, ish, kind, stuff, something u odd.",
+                    "items": [
+                      {
+                        "sentence": "My mum wants five hundred guests or ___.",
+                        "answers": [
+                          [
+                            "so"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Let's meet at the pub at eight___. (aproximadamente a las ocho)",
+                        "answers": [
+                          [
+                            "ish"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm ___ of nervous about giving a speech.",
+                        "answers": [
+                          [
+                            "kind",
+                            "sort"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We need flowers, a band and ___ like that.",
+                        "answers": [
+                          [
+                            "stuff",
+                            "things"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Shall we order pizza or ___?",
+                        "answers": [
+                          [
+                            "something"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "There were thirty-___ people at the party. (treinta y pico)",
+                        "answers": [
+                          [
+                            "odd"
+                          ]
                         ]
                       }
                     ]

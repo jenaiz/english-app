@@ -4,6 +4,9 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"regexp"
+
+	"github.com/go-chi/chi/v5"
 
 	"github.com/jenaiz/english-app/backend/internal/content"
 )
@@ -31,6 +34,25 @@ func (h *AudioHandler) Line(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	// The file name depends on voice and text, so the response never changes for a URL.
+	w.Header().Set("Cache-Control", "public, max-age=31536000, immutable")
+	http.ServeFile(w, r, path)
+}
+
+var audioFileRe = regexp.MustCompile(`^[0-9a-f]{40}\.mp3$`)
+
+// File serves a pre-generated MP3 by its file name. Level exams use it for their listenings,
+// so the paper never carries the text of what the learner has to understand.
+func (h *AudioHandler) File(w http.ResponseWriter, r *http.Request) {
+	name := chi.URLParam(r, "file")
+	if !audioFileRe.MatchString(name) {
+		http.NotFound(w, r)
+		return
+	}
+	path := filepath.Join(h.Dir, name)
+	if _, err := os.Stat(path); err != nil {
+		http.NotFound(w, r)
+		return
+	}
 	w.Header().Set("Cache-Control", "public, max-age=31536000, immutable")
 	http.ServeFile(w, r, path)
 }

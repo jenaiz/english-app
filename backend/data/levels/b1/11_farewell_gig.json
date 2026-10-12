@@ -7,7 +7,7 @@
         {
           "unit_id": "farewell_gig",
           "title": "The Farewell Gig",
-          "description": "Cuenta una historia con orden: past simple, past continuous y past perfect.",
+          "description": "Cuenta una historia con orden: past simple, past continuous y past perfect. Además, lo que debería haber pasado (should have) y el past perfect continuous.",
           "lessons": [
             {
               "lesson_id": "farewell_gig_lesson",
@@ -162,6 +162,49 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "should have, might have · past perfect continuous",
+                    "explanation": "Should have + participio es una crítica o un lamento sobre el pasado: You should have come! (deberías haber venido). Daniel shouldn't have left the tickets at home (no debería haberlas dejado).\n\nMight have / could have + participio dice que algo fue posible en el pasado, pero no sabemos si pasó: The producer might have recorded the concert. Y could have también es lo que pudo pasar y no pasó: We could have missed the start!\n\nPast perfect continuous (had been + -ing): una acción que duraba hasta un momento del pasado: The band had been playing for an hour when the electricity went off. Sam was tired because he had been practising all day.",
+                    "table": {
+                      "headers": [
+                        "Estructura",
+                        "Ejemplo",
+                        "En español"
+                      ],
+                      "rows": [
+                        [
+                          "should have + participio",
+                          "You should have come!",
+                          "deberías haber venido"
+                        ],
+                        [
+                          "shouldn't have + participio",
+                          "He shouldn't have forgotten the tickets.",
+                          "no debería haberlas olvidado"
+                        ],
+                        [
+                          "might have + participio",
+                          "The producer might have recorded it.",
+                          "puede que lo grabara"
+                        ],
+                        [
+                          "had been + -ing",
+                          "They had been playing for an hour when…",
+                          "llevaban una hora tocando cuando…"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Priya, you should have seen it! It was amazing.",
+                      "Daniel shouldn't have left the tickets at home.",
+                      "Someone might have filmed the concert on their phone.",
+                      "The band had been playing for an hour when the lights went off."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -255,6 +298,64 @@
                       },
                       {
                         "answer": "The electricity went off"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con have, had o been.",
+                    "items": [
+                      {
+                        "sentence": "You should ___ come to the gig. It was amazing!",
+                        "answers": [
+                          [
+                            "have"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Daniel shouldn't have ___ the tickets at home. (leave)",
+                        "answers": [
+                          [
+                            "left"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Someone might ___ filmed the concert.",
+                        "answers": [
+                          [
+                            "have"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The band had ___ playing for an hour when the lights went off.",
+                        "answers": [
+                          [
+                            "been"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam was tired because he ___ been practising all day.",
+                        "answers": [
+                          [
+                            "had",
+                            "'d"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We ___ have taken a taxi. We were so late! (consejo sobre el pasado)",
+                        "answers": [
+                          [
+                            "should"
+                          ]
+                        ]
                       }
                     ]
                   }

@@ -7,7 +7,7 @@
         {
           "unit_id": "numbers_colors",
           "title": "Unpacking",
-          "description": "Objetos y colores: a/an, plurales, this/that/these/those y el lugar del adjetivo.",
+          "description": "Objetos y colores: a/an, plurales, this/that/these/those y el lugar del adjetivo. Y el posesivo 's: my grandma's lamp.",
           "lessons": [
             {
               "lesson_id": "colors_intro",
@@ -146,6 +146,49 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Possessive 's",
+                    "explanation": "Para decir de quién es algo, en inglés se pone el dueño delante con 's: my grandma's lamp (la lámpara de mi abuela), Sam's guitar (la guitarra de Sam).\n\nSi el dueño es un plural acabado en -s, solo se añade el apóstrofo: my parents' house (la casa de mis padres). Con plurales irregulares se usa 's: the children's room.\n\nPara preguntar de quién es algo: Whose umbrella is this? — It's Sam's.\n\nOjo: no confundas el posesivo con la contracción de is: Sam's a musician (= Sam is) / Sam's band (= la banda de Sam).",
+                    "table": {
+                      "headers": [
+                        "Dueño",
+                        "Posesivo",
+                        "En español"
+                      ],
+                      "rows": [
+                        [
+                          "Sam",
+                          "Sam's guitar",
+                          "la guitarra de Sam"
+                        ],
+                        [
+                          "my grandma",
+                          "my grandma's lamp",
+                          "la lámpara de mi abuela"
+                        ],
+                        [
+                          "my parents",
+                          "my parents' house",
+                          "la casa de mis padres"
+                        ],
+                        [
+                          "the children",
+                          "the children's room",
+                          "la habitación de los niños"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "It's my grandma's lamp.",
+                      "Priya's family is in Leicester.",
+                      "Whose umbrella is this? — It's Sam's.",
+                      "My parents' house is in Valencia."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -238,6 +281,63 @@
                       },
                       {
                         "answer": "It's a nice green lamp"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con el posesivo ('s o ').",
+                    "items": [
+                      {
+                        "sentence": "This is ___ guitar. (Sam)",
+                        "answers": [
+                          [
+                            "Sam's"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It's my ___ lamp. (grandma)",
+                        "answers": [
+                          [
+                            "grandma's"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ desk is next to my desk. (Daniel)",
+                        "answers": [
+                          [
+                            "Daniel's"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "My ___ house is in Valencia. (parents)",
+                        "answers": [
+                          [
+                            "parents'"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Whose towels are these? — They're ___. (Priya)",
+                        "answers": [
+                          [
+                            "Priya's"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The ___ room is very big. (children)",
+                        "answers": [
+                          [
+                            "children's"
+                          ]
+                        ]
                       }
                     ]
                   }

@@ -7,7 +7,7 @@
         {
           "unit_id": "job_interview",
           "title": "The Interview",
-          "description": "Habla de tu experiencia en una entrevista: present perfect frente a past simple.",
+          "description": "Habla de tu experiencia en una entrevista: present perfect frente a past simple. Y conectores para argumentar: however, therefore, on the other hand, although.",
           "lessons": [
             {
               "lesson_id": "interview_experience",
@@ -155,6 +155,54 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Linkers: however, therefore, on the other hand, although",
+                    "explanation": "Para conectar ideas en una entrevista, un correo o una redacción:\n\nContraste: however (sin embargo) va al principio de una frase nueva y con coma: The deadline was short. However, we finished on time. Although (aunque) une dos ideas en la misma frase: Although the deadline was short, we finished on time. On the other hand (por otro lado) presenta el otro punto de vista.\n\nCausa y consecuencia: because / because of (porque / por), so (así que), therefore y as a result (por lo tanto, como resultado; más formales): We had a short deadline. Therefore, I worked late every night.\n\nOjo: because va con una frase (because it was late) y because of con un nombre (because of the deadline).",
+                    "table": {
+                      "headers": [
+                        "Idea",
+                        "Conector",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Contraste",
+                          "however",
+                          "The job is hard. However, I enjoy it."
+                        ],
+                        [
+                          "Contraste",
+                          "although",
+                          "Although I was nervous, the interview went well."
+                        ],
+                        [
+                          "Otro punto de vista",
+                          "on the other hand",
+                          "It pays well. On the other hand, the hours are long."
+                        ],
+                        [
+                          "Causa",
+                          "because of",
+                          "We worked late because of the deadline."
+                        ],
+                        [
+                          "Consecuencia",
+                          "therefore / as a result",
+                          "The client was happy. Therefore, they called us again."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "The deadline was very short. However, we finished the website on time.",
+                      "Although I didn't know anyone, I soon felt at home.",
+                      "The job is more responsible. On the other hand, it's more interesting.",
+                      "Lucía managed a team in Madrid. Therefore, she has some experience."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -248,6 +296,66 @@
                       },
                       {
                         "answer": "I've always enjoyed a challenge"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con however, although, therefore o because of (o la palabra que falte).",
+                    "items": [
+                      {
+                        "sentence": "The deadline was short. ___, we finished on time.",
+                        "answers": [
+                          [
+                            "However"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ I was nervous, the interview went very well.",
+                        "answers": [
+                          [
+                            "Although",
+                            "Though"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We worked late every night ___ the deadline.",
+                        "answers": [
+                          [
+                            "because of"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The senior job pays more. On the ___ hand, it's more stressful.",
+                        "answers": [
+                          [
+                            "other"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "She has managed a team before. ___, she's ready for the job.",
+                        "answers": [
+                          [
+                            "Therefore",
+                            "So",
+                            "As a result"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I enjoy the work. ___, the hours are sometimes long.",
+                        "answers": [
+                          [
+                            "However"
+                          ]
+                        ]
                       }
                     ]
                   }

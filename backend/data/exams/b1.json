@@ -1,0 +1,2259 @@
+{
+  "exam_id": "b1",
+  "level_id": "B1",
+  "title": "Examen de nivel B1",
+  "description": "Demuestra que tienes el nivel B1 del Marco Común Europeo (MCER): gramática, vocabulario, comprensión lectora y comprensión auditiva.",
+  "duration_minutes": 65,
+  "pass_score": 70,
+  "section_min_score": 50,
+  "retake_hours": 24,
+  "max_plays": 2,
+  "syllabus": [
+    {
+      "tag": "used_to_would",
+      "label": "used to y would para hábitos del pasado",
+      "units": [
+        "first_date"
+      ]
+    },
+    {
+      "tag": "present_perfect_continuous",
+      "label": "Present perfect continuous con for / since",
+      "units": [
+        "since_january"
+      ]
+    },
+    {
+      "tag": "be_able_gerund",
+      "label": "be able to; el gerundio como sujeto",
+      "units": [
+        "since_january"
+      ]
+    },
+    {
+      "tag": "perfect_vs_past",
+      "label": "Present perfect frente a past simple",
+      "units": [
+        "job_interview"
+      ]
+    },
+    {
+      "tag": "linkers",
+      "label": "Conectores: however, although, therefore, because of",
+      "units": [
+        "job_interview"
+      ]
+    },
+    {
+      "tag": "passive",
+      "label": "La voz pasiva (presente, pasado, futuro, perfecto)",
+      "units": [
+        "airport_travel"
+      ]
+    },
+    {
+      "tag": "future_continuous",
+      "label": "Future continuous (will be + -ing)",
+      "units": [
+        "airport_travel"
+      ]
+    },
+    {
+      "tag": "phrasal_verbs",
+      "label": "Phrasal verbs separables e inseparables",
+      "units": [
+        "hotel_checkin"
+      ]
+    },
+    {
+      "tag": "polite_requests",
+      "label": "Peticiones y quejas educadas (Could you…?, Would you mind…?)",
+      "units": [
+        "hotel_checkin"
+      ]
+    },
+    {
+      "tag": "first_conditional_time",
+      "label": "Primer condicional, when / as soon as / unless",
+      "units": [
+        "galway_family"
+      ]
+    },
+    {
+      "tag": "question_tags",
+      "label": "Question tags con todos los tiempos",
+      "units": [
+        "galway_family"
+      ]
+    },
+    {
+      "tag": "second_conditional",
+      "label": "Segundo condicional",
+      "units": [
+        "big_decision"
+      ]
+    },
+    {
+      "tag": "third_conditional",
+      "label": "Tercer condicional",
+      "units": [
+        "big_decision"
+      ]
+    },
+    {
+      "tag": "obligation",
+      "label": "must, mustn't, have to, don't need to, ought to",
+      "units": [
+        "house_rules"
+      ]
+    },
+    {
+      "tag": "relative_clauses",
+      "label": "Oraciones de relativo (who, which, that, where, whose)",
+      "units": [
+        "new_flatmate"
+      ]
+    },
+    {
+      "tag": "deduction",
+      "label": "Deducción en presente: must, might, can't",
+      "units": [
+        "new_flatmate"
+      ]
+    },
+    {
+      "tag": "reported_speech",
+      "label": "Estilo indirecto: said, told, asked",
+      "units": [
+        "good_news"
+      ]
+    },
+    {
+      "tag": "adverbs_intensifiers",
+      "label": "Comparativos de adverbios; so, such, too, enough, extremely, much too",
+      "units": [
+        "good_news",
+        "at_the_shop"
+      ]
+    },
+    {
+      "tag": "narrative_tenses",
+      "label": "Tiempos narrativos: past perfect y past perfect continuous",
+      "units": [
+        "farewell_gig"
+      ]
+    },
+    {
+      "tag": "should_have",
+      "label": "should have, might have + participio",
+      "units": [
+        "farewell_gig"
+      ]
+    },
+    {
+      "tag": "future_forms",
+      "label": "Formas de futuro: present continuous, going to, will, might",
+      "units": [
+        "summer_plans"
+      ]
+    },
+    {
+      "tag": "discourse_markers",
+      "label": "Marcadores de la conversación: anyway, by the way, actually",
+      "units": [
+        "summer_plans"
+      ]
+    },
+    {
+      "tag": "a2_review",
+      "label": "Repaso de A2 que se pide en B1: conectores de secuencia, reflexivos, something / anything, adjetivos -ed / -ing, as … as",
+      "units": [
+        "a_bad_day",
+        "christmas_party",
+        "home_for_christmas",
+        "comparing_cities"
+      ]
+    },
+    {
+      "tag": "vocab_work",
+      "label": "Vocabulario: trabajo y carrera profesional",
+      "units": [
+        "job_interview",
+        "good_news"
+      ]
+    },
+    {
+      "tag": "vocab_travel",
+      "label": "Vocabulario: viajes, aeropuerto y hotel",
+      "units": [
+        "airport_travel",
+        "hotel_checkin"
+      ]
+    },
+    {
+      "tag": "vocab_home",
+      "label": "Vocabulario: la casa, compartir piso y vecinos",
+      "units": [
+        "house_rules",
+        "new_flatmate"
+      ]
+    },
+    {
+      "tag": "vocab_collocations",
+      "label": "Colocaciones y lenguaje coloquial (make / do, heavy traffic…)",
+      "units": [
+        "since_january",
+        "galway_family",
+        "big_decision"
+      ]
+    },
+    {
+      "tag": "vocab_music",
+      "label": "Vocabulario: música y espectáculos",
+      "units": [
+        "since_january",
+        "farewell_gig"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "grammar",
+      "title": "Gramática",
+      "parts": [
+        {
+          "part_id": "b1g1",
+          "instructions": "Elige la opción correcta.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "b1g1a01",
+                  "type": "choice",
+                  "prompt": "When I was a child, my grandmother ___ tell me a story every night.",
+                  "options": [
+                    "would",
+                    "was used to",
+                    "uses to"
+                  ],
+                  "answer": 0,
+                  "tag": "used_to_would"
+                },
+                {
+                  "id": "b1g1a02",
+                  "type": "choice",
+                  "prompt": "I'm tired because I ___ since six o'clock.",
+                  "options": [
+                    "have been working",
+                    "worked",
+                    "am working"
+                  ],
+                  "answer": 0,
+                  "tag": "present_perfect_continuous"
+                },
+                {
+                  "id": "b1g1a03",
+                  "type": "choice",
+                  "prompt": "I'm sorry, I won't ___ come to your party on Saturday.",
+                  "options": [
+                    "be able to",
+                    "can",
+                    "could"
+                  ],
+                  "answer": 0,
+                  "tag": "be_able_gerund"
+                },
+                {
+                  "id": "b1g1a04",
+                  "type": "choice",
+                  "prompt": "We ___ in Madrid in 2019.",
+                  "options": [
+                    "lived",
+                    "have lived",
+                    "have been living"
+                  ],
+                  "answer": 0,
+                  "tag": "perfect_vs_past"
+                },
+                {
+                  "id": "b1g1a05",
+                  "type": "choice",
+                  "prompt": "The hotel was expensive. ___, it was very comfortable.",
+                  "options": [
+                    "However",
+                    "Although",
+                    "Because"
+                  ],
+                  "answer": 0,
+                  "tag": "linkers"
+                },
+                {
+                  "id": "b1g1a06",
+                  "type": "choice",
+                  "prompt": "The new bridge ___ next year.",
+                  "options": [
+                    "will be built",
+                    "will build",
+                    "is building"
+                  ],
+                  "answer": 0,
+                  "tag": "passive"
+                },
+                {
+                  "id": "b1g1a07",
+                  "type": "choice",
+                  "prompt": "Don't phone me at eight. I ___ dinner with my parents.",
+                  "options": [
+                    "'ll be having",
+                    "'ll have been",
+                    "have"
+                  ],
+                  "answer": 0,
+                  "tag": "future_continuous"
+                },
+                {
+                  "id": "b1g1a08",
+                  "type": "choice",
+                  "prompt": "Could you ___ this form, please?",
+                  "options": [
+                    "fill in",
+                    "fill up",
+                    "fill on"
+                  ],
+                  "answer": 0,
+                  "tag": "phrasal_verbs"
+                },
+                {
+                  "id": "b1g1a09",
+                  "type": "choice",
+                  "prompt": "Would you mind ___ the window? It's cold.",
+                  "options": [
+                    "closing",
+                    "to close",
+                    "close"
+                  ],
+                  "answer": 0,
+                  "tag": "polite_requests"
+                },
+                {
+                  "id": "b1g1a10",
+                  "type": "choice",
+                  "prompt": "I'll call you as soon as I ___ home.",
+                  "options": [
+                    "get",
+                    "will get",
+                    "got"
+                  ],
+                  "answer": 0,
+                  "tag": "first_conditional_time"
+                },
+                {
+                  "id": "b1g1a11",
+                  "type": "choice",
+                  "prompt": "You haven't seen my keys, ___?",
+                  "options": [
+                    "have you",
+                    "haven't you",
+                    "did you"
+                  ],
+                  "answer": 0,
+                  "tag": "question_tags"
+                },
+                {
+                  "id": "b1g1a12",
+                  "type": "choice",
+                  "prompt": "If I ___ more money, I'd travel round the world.",
+                  "options": [
+                    "had",
+                    "have",
+                    "would have"
+                  ],
+                  "answer": 0,
+                  "tag": "second_conditional"
+                },
+                {
+                  "id": "b1g1a13",
+                  "type": "choice",
+                  "prompt": "If we had left earlier, we ___ the train.",
+                  "options": [
+                    "wouldn't have missed",
+                    "didn't miss",
+                    "won't miss"
+                  ],
+                  "answer": 0,
+                  "tag": "third_conditional"
+                },
+                {
+                  "id": "b1g1a14",
+                  "type": "choice",
+                  "prompt": "You ___ bring food. There's a restaurant on the train.",
+                  "options": [
+                    "don't need to",
+                    "mustn't",
+                    "ought to"
+                  ],
+                  "answer": 0,
+                  "tag": "obligation"
+                },
+                {
+                  "id": "b1g1a15",
+                  "type": "choice",
+                  "prompt": "That's the woman ___ husband works with my dad.",
+                  "options": [
+                    "whose",
+                    "who",
+                    "which"
+                  ],
+                  "answer": 0,
+                  "tag": "relative_clauses"
+                },
+                {
+                  "id": "b1g1a16",
+                  "type": "choice",
+                  "prompt": "She's been working for twelve hours. She ___ be exhausted.",
+                  "options": [
+                    "must",
+                    "can't",
+                    "mustn't"
+                  ],
+                  "answer": 0,
+                  "tag": "deduction"
+                },
+                {
+                  "id": "b1g1a17",
+                  "type": "choice",
+                  "prompt": "She told me she ___ tired.",
+                  "options": [
+                    "was",
+                    "is being",
+                    "will"
+                  ],
+                  "answer": 0,
+                  "tag": "reported_speech"
+                },
+                {
+                  "id": "b1g1a18",
+                  "type": "choice",
+                  "prompt": "Paula finished the race ___ than everyone else.",
+                  "options": [
+                    "more quickly",
+                    "quicklier",
+                    "most quickly"
+                  ],
+                  "answer": 0,
+                  "tag": "adverbs_intensifiers"
+                },
+                {
+                  "id": "b1g1a19",
+                  "type": "choice",
+                  "prompt": "When I got to the station, the train ___.",
+                  "options": [
+                    "had already left",
+                    "has already left",
+                    "was already leaving"
+                  ],
+                  "answer": 0,
+                  "tag": "narrative_tenses"
+                },
+                {
+                  "id": "b1g1a20",
+                  "type": "choice",
+                  "prompt": "You failed the test? You ___ studied more.",
+                  "options": [
+                    "should have",
+                    "should",
+                    "must have"
+                  ],
+                  "answer": 0,
+                  "tag": "should_have"
+                },
+                {
+                  "id": "b1g1a21",
+                  "type": "choice",
+                  "prompt": "Look at those black clouds! It ___ rain.",
+                  "options": [
+                    "'s going to",
+                    "'s raining to",
+                    "would"
+                  ],
+                  "answer": 0,
+                  "tag": "future_forms"
+                },
+                {
+                  "id": "b1g1a22",
+                  "type": "choice",
+                  "prompt": "I don't think he's coming. ___, let's start without him.",
+                  "options": [
+                    "Anyway",
+                    "Actually",
+                    "By the way"
+                  ],
+                  "answer": 0,
+                  "tag": "discourse_markers"
+                },
+                {
+                  "id": "b1g1a23",
+                  "type": "choice",
+                  "prompt": "We had dinner at a little restaurant, and ___ we went to a club.",
+                  "options": [
+                    "after that",
+                    "at first",
+                    "in the beginning"
+                  ],
+                  "answer": 0,
+                  "tag": "a2_review"
+                },
+                {
+                  "id": "b1g1a24",
+                  "type": "choice",
+                  "prompt": "Did you paint this ___? It's beautiful!",
+                  "options": [
+                    "yourself",
+                    "you",
+                    "your own"
+                  ],
+                  "answer": 0,
+                  "tag": "a2_review"
+                },
+                {
+                  "id": "b1g1a25",
+                  "type": "choice",
+                  "prompt": "I'm so bored. There's ___ to do in this town.",
+                  "options": [
+                    "nothing",
+                    "anything",
+                    "something"
+                  ],
+                  "answer": 0,
+                  "tag": "a2_review"
+                },
+                {
+                  "id": "b1g1a26",
+                  "type": "choice",
+                  "prompt": "The museum was ___. I'd love to go again.",
+                  "options": [
+                    "fascinating",
+                    "fascinated",
+                    "fascinate"
+                  ],
+                  "answer": 0,
+                  "tag": "a2_review"
+                },
+                {
+                  "id": "b1g1a27",
+                  "type": "choice",
+                  "prompt": "My brother isn't as tall ___ me.",
+                  "options": [
+                    "as",
+                    "than",
+                    "like"
+                  ],
+                  "answer": 0,
+                  "tag": "a2_review"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "b1g1b01",
+                  "type": "choice",
+                  "prompt": "My dad ___ a beard, but he shaved it off last year.",
+                  "options": [
+                    "used to have",
+                    "would have",
+                    "use to have"
+                  ],
+                  "answer": 0,
+                  "tag": "used_to_would"
+                },
+                {
+                  "id": "b1g1b02",
+                  "type": "choice",
+                  "prompt": "How long ___ English?",
+                  "options": [
+                    "have you been learning",
+                    "are you learning",
+                    "do you learn"
+                  ],
+                  "answer": 0,
+                  "tag": "present_perfect_continuous"
+                },
+                {
+                  "id": "b1g1b03",
+                  "type": "choice",
+                  "prompt": "After three attempts, he ___ to open the door.",
+                  "options": [
+                    "was able",
+                    "could",
+                    "can"
+                  ],
+                  "answer": 0,
+                  "tag": "be_able_gerund"
+                },
+                {
+                  "id": "b1g1b04",
+                  "type": "choice",
+                  "prompt": "___ you ever met anyone famous?",
+                  "options": [
+                    "Have",
+                    "Did",
+                    "Were"
+                  ],
+                  "answer": 0,
+                  "tag": "perfect_vs_past"
+                },
+                {
+                  "id": "b1g1b05",
+                  "type": "choice",
+                  "prompt": "___ it was raining, we went for a walk.",
+                  "options": [
+                    "Although",
+                    "However",
+                    "Despite"
+                  ],
+                  "answer": 0,
+                  "tag": "linkers"
+                },
+                {
+                  "id": "b1g1b06",
+                  "type": "choice",
+                  "prompt": "This photo ___ by my grandfather in 1960.",
+                  "options": [
+                    "was taken",
+                    "took",
+                    "has taken"
+                  ],
+                  "answer": 0,
+                  "tag": "passive"
+                },
+                {
+                  "id": "b1g1b07",
+                  "type": "choice",
+                  "prompt": "This time next week, we ___ on a beach in Spain.",
+                  "options": [
+                    "'ll be lying",
+                    "are lain",
+                    "lie"
+                  ],
+                  "answer": 0,
+                  "tag": "future_continuous"
+                },
+                {
+                  "id": "b1g1b08",
+                  "type": "choice",
+                  "prompt": "I can't ___ this noise any more!",
+                  "options": [
+                    "put up with",
+                    "put on",
+                    "put off"
+                  ],
+                  "answer": 0,
+                  "tag": "phrasal_verbs"
+                },
+                {
+                  "id": "b1g1b09",
+                  "type": "choice",
+                  "prompt": "___ you tell me where the station is, please?",
+                  "options": [
+                    "Could",
+                    "Would mind",
+                    "Shall"
+                  ],
+                  "answer": 0,
+                  "tag": "polite_requests"
+                },
+                {
+                  "id": "b1g1b10",
+                  "type": "choice",
+                  "prompt": "We won't go out ___ it stops raining.",
+                  "options": [
+                    "unless",
+                    "if",
+                    "as soon"
+                  ],
+                  "answer": 0,
+                  "tag": "first_conditional_time"
+                },
+                {
+                  "id": "b1g1b11",
+                  "type": "choice",
+                  "prompt": "Let's order a pizza, ___?",
+                  "options": [
+                    "shall we",
+                    "will we",
+                    "don't we"
+                  ],
+                  "answer": 0,
+                  "tag": "question_tags"
+                },
+                {
+                  "id": "b1g1b12",
+                  "type": "choice",
+                  "prompt": "What would you do if you ___ the lottery?",
+                  "options": [
+                    "won",
+                    "win",
+                    "would win"
+                  ],
+                  "answer": 0,
+                  "tag": "second_conditional"
+                },
+                {
+                  "id": "b1g1b13",
+                  "type": "choice",
+                  "prompt": "If she ___ the bus, she wouldn't have been late.",
+                  "options": [
+                    "hadn't missed",
+                    "didn't miss",
+                    "wouldn't miss"
+                  ],
+                  "answer": 0,
+                  "tag": "third_conditional"
+                },
+                {
+                  "id": "b1g1b14",
+                  "type": "choice",
+                  "prompt": "Passengers ___ smoke on the plane. It's forbidden.",
+                  "options": [
+                    "mustn't",
+                    "don't have to",
+                    "needn't"
+                  ],
+                  "answer": 0,
+                  "tag": "obligation"
+                },
+                {
+                  "id": "b1g1b15",
+                  "type": "choice",
+                  "prompt": "Is this the café ___ you first met Daniel?",
+                  "options": [
+                    "where",
+                    "which",
+                    "who"
+                  ],
+                  "answer": 0,
+                  "tag": "relative_clauses"
+                },
+                {
+                  "id": "b1g1b16",
+                  "type": "choice",
+                  "prompt": "That ___ be Tom. He's in Australia this month.",
+                  "options": [
+                    "can't",
+                    "must",
+                    "mustn't"
+                  ],
+                  "answer": 0,
+                  "tag": "deduction"
+                },
+                {
+                  "id": "b1g1b17",
+                  "type": "choice",
+                  "prompt": "He asked me where I ___.",
+                  "options": [
+                    "lived",
+                    "do live",
+                    "did I live"
+                  ],
+                  "answer": 0,
+                  "tag": "reported_speech"
+                },
+                {
+                  "id": "b1g1b18",
+                  "type": "choice",
+                  "prompt": "The film was ___ boring. I fell asleep after ten minutes.",
+                  "options": [
+                    "extremely",
+                    "such",
+                    "enough"
+                  ],
+                  "answer": 0,
+                  "tag": "adverbs_intensifiers"
+                },
+                {
+                  "id": "b1g1b19",
+                  "type": "choice",
+                  "prompt": "I was tired because I ___ all night.",
+                  "options": [
+                    "had been studying",
+                    "have been studying",
+                    "am studying"
+                  ],
+                  "answer": 0,
+                  "tag": "narrative_tenses"
+                },
+                {
+                  "id": "b1g1b20",
+                  "type": "choice",
+                  "prompt": "I can't find my wallet. I ___ left it in the taxi.",
+                  "options": [
+                    "might have",
+                    "should have",
+                    "must"
+                  ],
+                  "answer": 0,
+                  "tag": "should_have"
+                },
+                {
+                  "id": "b1g1b21",
+                  "type": "choice",
+                  "prompt": "I ___ the dentist at four tomorrow. It's in my diary.",
+                  "options": [
+                    "'m seeing",
+                    "saw",
+                    "have seen"
+                  ],
+                  "answer": 0,
+                  "tag": "future_forms"
+                },
+                {
+                  "id": "b1g1b22",
+                  "type": "choice",
+                  "prompt": "So you're from London? — ___, I'm from Manchester.",
+                  "options": [
+                    "Actually",
+                    "Anyway",
+                    "By the way"
+                  ],
+                  "answer": 0,
+                  "tag": "discourse_markers"
+                },
+                {
+                  "id": "b1g1b23",
+                  "type": "choice",
+                  "prompt": "___, we checked into the hotel. Then we went for a walk.",
+                  "options": [
+                    "First",
+                    "At last",
+                    "Lastly"
+                  ],
+                  "answer": 0,
+                  "tag": "a2_review"
+                },
+                {
+                  "id": "b1g1b24",
+                  "type": "choice",
+                  "prompt": "The children enjoyed ___ at the wedding.",
+                  "options": [
+                    "themselves",
+                    "them",
+                    "their"
+                  ],
+                  "answer": 0,
+                  "tag": "a2_review"
+                },
+                {
+                  "id": "b1g1b25",
+                  "type": "choice",
+                  "prompt": "Is there ___ I can do to help?",
+                  "options": [
+                    "anything",
+                    "nothing",
+                    "everything"
+                  ],
+                  "answer": 0,
+                  "tag": "a2_review"
+                },
+                {
+                  "id": "b1g1b26",
+                  "type": "choice",
+                  "prompt": "I was really ___ when I heard the news.",
+                  "options": [
+                    "surprised",
+                    "surprising",
+                    "surprise"
+                  ],
+                  "answer": 0,
+                  "tag": "a2_review"
+                },
+                {
+                  "id": "b1g1b27",
+                  "type": "choice",
+                  "prompt": "My new flat is twice as big ___ my old one.",
+                  "options": [
+                    "as",
+                    "than",
+                    "that"
+                  ],
+                  "answer": 0,
+                  "tag": "a2_review"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "b1g2",
+          "instructions": "Escribe la palabra que falta. Si hay una palabra entre paréntesis, úsala en la forma correcta.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "b1g2a01",
+                  "type": "gap",
+                  "prompt": "You'll be at the meeting tomorrow, ___ you?",
+                  "accept": [
+                    "won't",
+                    "will not"
+                  ],
+                  "tag": "question_tags"
+                },
+                {
+                  "id": "b1g2a02",
+                  "type": "gap",
+                  "prompt": "If I'd known you were in hospital, I would ___ visited you.",
+                  "accept": [
+                    "have"
+                  ],
+                  "tag": "third_conditional"
+                },
+                {
+                  "id": "b1g2a03",
+                  "type": "gap",
+                  "prompt": "Helen said that she ___ call me later. (will)",
+                  "accept": [
+                    "would"
+                  ],
+                  "tag": "reported_speech"
+                },
+                {
+                  "id": "b1g2a04",
+                  "type": "gap",
+                  "prompt": "English is ___ all over the world. (speak)",
+                  "accept": [
+                    "spoken"
+                  ],
+                  "tag": "passive"
+                },
+                {
+                  "id": "b1g2a05",
+                  "type": "gap",
+                  "prompt": "I didn't ___ to like coffee, but now I love it.",
+                  "accept": [
+                    "use"
+                  ],
+                  "tag": "used_to_would"
+                },
+                {
+                  "id": "b1g2a06",
+                  "type": "gap",
+                  "prompt": "It was ___ a beautiful day that we stayed on the beach until dark.",
+                  "accept": [
+                    "such"
+                  ],
+                  "tag": "adverbs_intensifiers"
+                },
+                {
+                  "id": "b1g2a07",
+                  "type": "gap",
+                  "prompt": "___ in the sea is my favourite thing in summer. (swim)",
+                  "accept": [
+                    "Swimming"
+                  ],
+                  "tag": "be_able_gerund"
+                },
+                {
+                  "id": "b1g2a08",
+                  "type": "gap",
+                  "prompt": "You ___ have told me! I didn't know it was your birthday.",
+                  "accept": [
+                    "should"
+                  ],
+                  "tag": "should_have"
+                },
+                {
+                  "id": "b1g2a09",
+                  "type": "gap",
+                  "prompt": "The soup isn't hot ___. Can you heat it up, please?",
+                  "accept": [
+                    "enough"
+                  ],
+                  "tag": "adverbs_intensifiers"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "b1g2b01",
+                  "type": "gap",
+                  "prompt": "She has finished the report, ___ she?",
+                  "accept": [
+                    "hasn't",
+                    "has not"
+                  ],
+                  "tag": "question_tags"
+                },
+                {
+                  "id": "b1g2b02",
+                  "type": "gap",
+                  "prompt": "We wouldn't have won if Sam ___ played so well.",
+                  "accept": [
+                    "hadn't",
+                    "had not"
+                  ],
+                  "tag": "third_conditional"
+                },
+                {
+                  "id": "b1g2b03",
+                  "type": "gap",
+                  "prompt": "He told me he ___ already eaten.",
+                  "accept": [
+                    "had"
+                  ],
+                  "tag": "reported_speech"
+                },
+                {
+                  "id": "b1g2b04",
+                  "type": "gap",
+                  "prompt": "The museum has ___ closed for two years. (be)",
+                  "accept": [
+                    "been"
+                  ],
+                  "tag": "passive"
+                },
+                {
+                  "id": "b1g2b05",
+                  "type": "gap",
+                  "prompt": "Every summer my grandfather ___ take us fishing on the lake.",
+                  "accept": [
+                    "would",
+                    "used to"
+                  ],
+                  "tag": "used_to_would"
+                },
+                {
+                  "id": "b1g2b06",
+                  "type": "gap",
+                  "prompt": "This bag is much ___ heavy. You can't take it on the plane.",
+                  "accept": [
+                    "too"
+                  ],
+                  "tag": "adverbs_intensifiers"
+                },
+                {
+                  "id": "b1g2b07",
+                  "type": "gap",
+                  "prompt": "I hope I'll be ___ to visit you next year.",
+                  "accept": [
+                    "able"
+                  ],
+                  "tag": "be_able_gerund"
+                },
+                {
+                  "id": "b1g2b08",
+                  "type": "gap",
+                  "prompt": "He didn't come to the meeting. He might ___ forgotten.",
+                  "accept": [
+                    "have"
+                  ],
+                  "tag": "should_have"
+                },
+                {
+                  "id": "b1g2b09",
+                  "type": "gap",
+                  "prompt": "We haven't got ___ chairs for everyone. Can you bring two more?",
+                  "accept": [
+                    "enough"
+                  ],
+                  "tag": "adverbs_intensifiers"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "b1g3",
+          "instructions": "Ordena las palabras para formar una frase.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "b1g3a01",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "The man who lives next door is a doctor."
+                  ],
+                  "tag": "relative_clauses"
+                },
+                {
+                  "id": "b1g3a02",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "How long have you been waiting?"
+                  ],
+                  "tag": "present_perfect_continuous"
+                },
+                {
+                  "id": "b1g3a03",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "I will call you when I arrive.",
+                    "When I arrive, I will call you."
+                  ],
+                  "tag": "first_conditional_time"
+                },
+                {
+                  "id": "b1g3a04",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "Although it was late, we went for a walk.",
+                    "We went for a walk although it was late."
+                  ],
+                  "tag": "linkers"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "b1g3b01",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "This is the book that I told you about."
+                  ],
+                  "tag": "relative_clauses"
+                },
+                {
+                  "id": "b1g3b02",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "She has been working here since March.",
+                    "Since March she has been working here."
+                  ],
+                  "tag": "present_perfect_continuous"
+                },
+                {
+                  "id": "b1g3b03",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "If it rains, we will stay at home.",
+                    "We will stay at home if it rains."
+                  ],
+                  "tag": "first_conditional_time"
+                },
+                {
+                  "id": "b1g3b04",
+                  "type": "order",
+                  "prompt": "",
+                  "accept": [
+                    "The hotel was full, so we stayed with friends."
+                  ],
+                  "tag": "linkers"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "vocabulary",
+      "title": "Vocabulario",
+      "parts": [
+        {
+          "part_id": "b1v1",
+          "instructions": "Elige la palabra correcta.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "b1v1a01",
+                  "type": "choice",
+                  "prompt": "I've got a job ___ at a bank tomorrow. I'm so nervous!",
+                  "options": [
+                    "interview",
+                    "meeting",
+                    "deadline"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_work"
+                },
+                {
+                  "id": "b1v1a02",
+                  "type": "choice",
+                  "prompt": "We have to finish the project by Friday. That's the ___.",
+                  "options": [
+                    "deadline",
+                    "salary",
+                    "contract"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_work"
+                },
+                {
+                  "id": "b1v1a03",
+                  "type": "choice",
+                  "prompt": "Our flight was ___ by two hours because of the snow.",
+                  "options": [
+                    "delayed",
+                    "missed",
+                    "booked"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_travel"
+                },
+                {
+                  "id": "b1v1a04",
+                  "type": "choice",
+                  "prompt": "You need to show your ___ pass before you get on the plane.",
+                  "options": [
+                    "boarding",
+                    "booking",
+                    "landing"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_travel"
+                },
+                {
+                  "id": "b1v1a05",
+                  "type": "choice",
+                  "prompt": "When you rent a flat, you usually pay a ___ before you move in.",
+                  "options": [
+                    "deposit",
+                    "tip",
+                    "fine"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_home"
+                },
+                {
+                  "id": "b1v1a06",
+                  "type": "choice",
+                  "prompt": "I always ___ my homework before dinner.",
+                  "options": [
+                    "do",
+                    "make",
+                    "have"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_collocations"
+                },
+                {
+                  "id": "b1v1a07",
+                  "type": "choice",
+                  "prompt": "There was ___ traffic on the motorway, so we were late.",
+                  "options": [
+                    "heavy",
+                    "strong",
+                    "big"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_collocations"
+                },
+                {
+                  "id": "b1v1a08",
+                  "type": "choice",
+                  "prompt": "The band are playing a ___ in the park tonight.",
+                  "options": [
+                    "gig",
+                    "game",
+                    "race"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_music"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "b1v1b01",
+                  "type": "choice",
+                  "prompt": "She's the ___ of the shop. She decides who works on Saturdays.",
+                  "options": [
+                    "manager",
+                    "colleague",
+                    "customer"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_work"
+                },
+                {
+                  "id": "b1v1b02",
+                  "type": "choice",
+                  "prompt": "I'd like to ___ for the job of senior designer.",
+                  "options": [
+                    "apply",
+                    "ask",
+                    "work"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_work"
+                },
+                {
+                  "id": "b1v1b03",
+                  "type": "choice",
+                  "prompt": "Can you ___ me up at the airport at six?",
+                  "options": [
+                    "pick",
+                    "take",
+                    "get"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_travel"
+                },
+                {
+                  "id": "b1v1b04",
+                  "type": "choice",
+                  "prompt": "Is breakfast ___ in the price of the room?",
+                  "options": [
+                    "included",
+                    "involved",
+                    "contained"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_travel"
+                },
+                {
+                  "id": "b1v1b05",
+                  "type": "choice",
+                  "prompt": "My ___ is really noisy. He plays the drums at midnight!",
+                  "options": [
+                    "neighbour",
+                    "landlord",
+                    "tenant"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_home"
+                },
+                {
+                  "id": "b1v1b06",
+                  "type": "choice",
+                  "prompt": "Excuse me, can I ___ a phone call, please?",
+                  "options": [
+                    "make",
+                    "do",
+                    "say"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_collocations"
+                },
+                {
+                  "id": "b1v1b07",
+                  "type": "choice",
+                  "prompt": "Don't worry about it. It's not a big ___.",
+                  "options": [
+                    "deal",
+                    "case",
+                    "point"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_collocations"
+                },
+                {
+                  "id": "b1v1b08",
+                  "type": "choice",
+                  "prompt": "Sam's band is going to ___ an album in London.",
+                  "options": [
+                    "record",
+                    "film",
+                    "draw"
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_music"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "b1v2",
+          "instructions": "Escribe la palabra que falta. Tienes la primera letra.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "b1v2a01",
+                  "type": "gap",
+                  "prompt": "We're looking for a new ___ to share the house with us. (f…)",
+                  "accept": [
+                    "flatmate",
+                    "flat-mate"
+                  ],
+                  "tag": "vocab_home"
+                },
+                {
+                  "id": "b1v2a02",
+                  "type": "gap",
+                  "prompt": "The concert was amazing. The whole ___ was singing along! (a…)",
+                  "accept": [
+                    "audience"
+                  ],
+                  "tag": "vocab_music"
+                },
+                {
+                  "id": "b1v2a03",
+                  "type": "gap",
+                  "prompt": "Our hotel room had a beautiful ___ of the sea. (v…)",
+                  "accept": [
+                    "view"
+                  ],
+                  "tag": "vocab_travel"
+                },
+                {
+                  "id": "b1v2a04",
+                  "type": "gap",
+                  "prompt": "She earns a good ___: forty thousand pounds a year. (s…)",
+                  "accept": [
+                    "salary"
+                  ],
+                  "tag": "vocab_work"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "b1v2b01",
+                  "type": "gap",
+                  "prompt": "Our ___ is very friendly. She never puts the rent up. (l…)",
+                  "accept": [
+                    "landlady",
+                    "landlord"
+                  ],
+                  "tag": "vocab_home"
+                },
+                {
+                  "id": "b1v2b02",
+                  "type": "gap",
+                  "prompt": "The band's new ___ comes out next month. It has twelve songs. (a…)",
+                  "accept": [
+                    "album"
+                  ],
+                  "tag": "vocab_music"
+                },
+                {
+                  "id": "b1v2b03",
+                  "type": "gap",
+                  "prompt": "I always pack my ___ the night before a trip. (s…)",
+                  "accept": [
+                    "suitcase"
+                  ],
+                  "tag": "vocab_travel"
+                },
+                {
+                  "id": "b1v2b04",
+                  "type": "gap",
+                  "prompt": "I'm not working tomorrow. I've got a day ___. (o…)",
+                  "accept": [
+                    "off"
+                  ],
+                  "tag": "vocab_work"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "reading",
+      "title": "Reading",
+      "parts": [
+        {
+          "part_id": "b1r1",
+          "instructions": "Lee cada aviso o mensaje y elige qué significa.",
+          "variants": [
+            {
+              "items": [
+                {
+                  "id": "b1r1a01",
+                  "type": "choice",
+                  "prompt": "HOTEL NOTICE: Guests must leave their rooms by 11 am. You don't need to return your key to reception; just leave it in the room.",
+                  "options": [
+                    "You can leave the key in your room.",
+                    "You have to give the key to reception.",
+                    "You must leave the hotel before 10 am."
+                  ],
+                  "answer": 0,
+                  "tag": "obligation"
+                },
+                {
+                  "id": "b1r1a02",
+                  "type": "choice",
+                  "prompt": "Email: Hi Mark, would you mind sending me the photos from Saturday? I'd like to put some on our website. Thanks, Grace",
+                  "options": [
+                    "Grace is asking Mark to send her something.",
+                    "Grace is sending Mark some photos.",
+                    "Grace wants Mark to update the website."
+                  ],
+                  "answer": 0,
+                  "tag": "polite_requests"
+                },
+                {
+                  "id": "b1r1a03",
+                  "type": "choice",
+                  "prompt": "SHOP NOTICE: We'll be closing early on Friday (4 pm) for staff training.",
+                  "options": [
+                    "On Friday you can't shop there after 4 pm.",
+                    "The shop is closed all day on Friday.",
+                    "The shop is looking for new staff."
+                  ],
+                  "answer": 0,
+                  "tag": "future_continuous"
+                },
+                {
+                  "id": "b1r1a04",
+                  "type": "choice",
+                  "prompt": "Message from Priya: Can you pick up my prescription from the chemist's on your way home? I'll pay you back tonight.",
+                  "options": [
+                    "Priya wants someone to collect something for her.",
+                    "Priya is going to the chemist's after work.",
+                    "Priya wants to borrow some money."
+                  ],
+                  "answer": 0,
+                  "tag": "phrasal_verbs"
+                },
+                {
+                  "id": "b1r1a05",
+                  "type": "choice",
+                  "prompt": "PLATFORM 2: The 10.15 to Cardiff is running approximately 20 minutes late. We apologise for the delay.",
+                  "options": [
+                    "The train will probably leave at about 10.35.",
+                    "The 10.15 train has been cancelled.",
+                    "The train to Cardiff leaves from a different platform."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_travel"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "id": "b1r1b01",
+                  "type": "choice",
+                  "prompt": "SWIMMING POOL: Swimmers must wear a swimming hat. You don't have to bring a towel; towels are available at reception.",
+                  "options": [
+                    "You can get a towel at the pool.",
+                    "You need to bring your own towel.",
+                    "You don't need a swimming hat."
+                  ],
+                  "answer": 0,
+                  "tag": "obligation"
+                },
+                {
+                  "id": "b1r1b02",
+                  "type": "choice",
+                  "prompt": "Note on the stairs: Could you turn the music down after 10 pm, please? Some of us start work very early. Thanks, Flat 3",
+                  "options": [
+                    "Someone in Flat 3 is asking for less noise at night.",
+                    "Flat 3 wants to borrow some music.",
+                    "The people in Flat 3 are having a party."
+                  ],
+                  "answer": 0,
+                  "tag": "polite_requests"
+                },
+                {
+                  "id": "b1r1b03",
+                  "type": "choice",
+                  "prompt": "LIBRARY: We'll be moving to our new building on Park Street in June. Until then, opening hours are the same.",
+                  "options": [
+                    "In June, the library will be in a different place.",
+                    "The library is closing in June.",
+                    "The library has new opening hours."
+                  ],
+                  "answer": 0,
+                  "tag": "future_continuous"
+                },
+                {
+                  "id": "b1r1b04",
+                  "type": "choice",
+                  "prompt": "Text from Ollie: Your parcel arrived this morning. I've put it away in your room so nobody takes it by mistake.",
+                  "options": [
+                    "Ollie has put the parcel in Lucía's room.",
+                    "Ollie has taken the parcel back to the post office.",
+                    "The parcel will arrive this afternoon."
+                  ],
+                  "answer": 0,
+                  "tag": "phrasal_verbs"
+                },
+                {
+                  "id": "b1r1b05",
+                  "type": "choice",
+                  "prompt": "AIRPORT: Passengers for flight BA 284 to Edinburgh should go to Gate 12. The gate closes 20 minutes before departure.",
+                  "options": [
+                    "You can't get on the plane in the last 20 minutes before it leaves.",
+                    "The plane will leave 20 minutes late.",
+                    "Passengers should wait 20 minutes at the gate."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_travel"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "b1r2",
+          "instructions": "Lee el artículo y contesta las preguntas.",
+          "variants": [
+            {
+              "title": "From the office to the kitchen",
+              "text": "Five years ago, Carla Rossi was working as an accountant in a big London bank. She earned a good salary, but she wasn't happy. \"I had been sitting in front of a computer for ten years,\" she says, \"and I felt that life was passing me by.\"\n\nEverything changed one Sunday in 2019. Carla had baked a cake for a friend's birthday, and one of the guests asked if she could make one for her wedding. \"I said yes before I had time to think,\" she laughs.\n\nTwo years later she left the bank and opened a small bakery in Bristol. Since then, she has made more than three thousand cakes, and she has never regretted her decision. However, it hasn't always been easy. \"In the first year I worked seven days a week, and I didn't earn much. Even now, if I had a free day, I'd probably spend it sleeping!\"\n\nHer advice for anyone who wants to change careers? \"Don't wait for the perfect moment. It doesn't exist. Start small: bake at the weekends and keep your job until you're sure.\"",
+              "items": [
+                {
+                  "id": "b1r2a01",
+                  "type": "choice",
+                  "prompt": "What was Carla's job before she opened the bakery?",
+                  "options": [
+                    "She was an accountant.",
+                    "She was a chef.",
+                    "She was a wedding planner."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_work"
+                },
+                {
+                  "id": "b1r2a02",
+                  "type": "choice",
+                  "prompt": "How long had Carla been working with computers when she decided to change?",
+                  "options": [
+                    "About ten years.",
+                    "Two years.",
+                    "Five years."
+                  ],
+                  "answer": 0,
+                  "tag": "narrative_tenses"
+                },
+                {
+                  "id": "b1r2a03",
+                  "type": "choice",
+                  "prompt": "What has Carla done since she opened the bakery?",
+                  "options": [
+                    "She has made more than 3,000 cakes.",
+                    "She has opened three more bakeries.",
+                    "She has gone back to the bank."
+                  ],
+                  "answer": 0,
+                  "tag": "perfect_vs_past"
+                },
+                {
+                  "id": "b1r2a04",
+                  "type": "choice",
+                  "prompt": "What does Carla say about her new life?",
+                  "options": [
+                    "It's better, but it has been hard work.",
+                    "It's easier than her old job.",
+                    "She regrets leaving the bank."
+                  ],
+                  "answer": 0,
+                  "tag": "linkers"
+                },
+                {
+                  "id": "b1r2a05",
+                  "type": "choice",
+                  "prompt": "What would Carla do with a free day?",
+                  "options": [
+                    "Probably sleep.",
+                    "Bake a cake.",
+                    "Visit London."
+                  ],
+                  "answer": 0,
+                  "tag": "second_conditional"
+                },
+                {
+                  "id": "b1r2a06",
+                  "type": "choice",
+                  "prompt": "What can we say about Carla?",
+                  "options": [
+                    "She must love her work.",
+                    "She can't be very busy.",
+                    "She must be rich now."
+                  ],
+                  "answer": 0,
+                  "tag": "deduction"
+                }
+              ]
+            },
+            {
+              "title": "Across Ireland on foot",
+              "text": "Last summer, Liam Byrne, a retired teacher from Dublin, walked from one side of Ireland to the other. He had been planning the trip for years, but he had never had enough time while he was working.\n\n\"I left Dublin on the first of June,\" he explains. \"Twenty-three days later, I arrived in Galway. My feet were in a terrible state, but I was the happiest man in Ireland!\"\n\nSince then, Liam has written a short book about the journey, and he has given all the money from it to a children's hospital. \"People have been incredibly generous,\" he says. \"So far, the book has raised twelve thousand euros.\"\n\nAlthough he is sixty, Liam is already planning his next adventure. \"If I were twenty years younger, I'd walk across Spain. But maybe I'll just do the Camino de Santiago. That's why I've started learning Spanish!\"\n\nHe says walking alone was the best part. \"When you walk for eight hours a day, you have time to think. I had been teaching for thirty-five years and I had never stopped to think about my own life.\"",
+              "items": [
+                {
+                  "id": "b1r2b01",
+                  "type": "choice",
+                  "prompt": "What was Liam's job?",
+                  "options": [
+                    "He was a teacher.",
+                    "He was a doctor.",
+                    "He was a writer."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_work"
+                },
+                {
+                  "id": "b1r2b02",
+                  "type": "choice",
+                  "prompt": "Why hadn't Liam done the walk before?",
+                  "options": [
+                    "He didn't have enough time while he was working.",
+                    "He was too young.",
+                    "He had been ill."
+                  ],
+                  "answer": 0,
+                  "tag": "narrative_tenses"
+                },
+                {
+                  "id": "b1r2b03",
+                  "type": "choice",
+                  "prompt": "What has happened to the money from the book?",
+                  "options": [
+                    "Liam has given it to a hospital.",
+                    "Liam has used it for his next trip.",
+                    "Liam has kept it."
+                  ],
+                  "answer": 0,
+                  "tag": "perfect_vs_past"
+                },
+                {
+                  "id": "b1r2b04",
+                  "type": "choice",
+                  "prompt": "What is Liam doing although he is sixty?",
+                  "options": [
+                    "Planning another long walk.",
+                    "Teaching again.",
+                    "Writing a second book."
+                  ],
+                  "answer": 0,
+                  "tag": "linkers"
+                },
+                {
+                  "id": "b1r2b05",
+                  "type": "choice",
+                  "prompt": "What would Liam do if he were younger?",
+                  "options": [
+                    "Walk across Spain.",
+                    "Walk across Ireland again.",
+                    "Teach in Spain."
+                  ],
+                  "answer": 0,
+                  "tag": "second_conditional"
+                },
+                {
+                  "id": "b1r2b06",
+                  "type": "choice",
+                  "prompt": "What can we say about Liam?",
+                  "options": [
+                    "He must be quite fit.",
+                    "He can't enjoy walking.",
+                    "He must feel lonely."
+                  ],
+                  "answer": 0,
+                  "tag": "deduction"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "listening",
+      "title": "Listening",
+      "parts": [
+        {
+          "part_id": "b1l1",
+          "instructions": "Escucha la conversación y contesta las preguntas. Puedes escucharla dos veces.",
+          "variants": [
+            {
+              "title": "Ollie's first tortilla",
+              "dialogue": [
+                {
+                  "speaker": "Ollie",
+                  "text": "Right, dinner's ready. It's a Spanish tortilla. My first one!"
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Wow, it smells great. By the way, Sam called this afternoon."
+                },
+                {
+                  "speaker": "Ollie",
+                  "text": "Oh yeah? How's London?"
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "He said they had finished three songs already. And the producer loves them."
+                },
+                {
+                  "speaker": "Ollie",
+                  "text": "That's brilliant. When's the album coming out?"
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "In the spring, I think. Anyway, let me try this. Mmm, it's better than my mum's!"
+                },
+                {
+                  "speaker": "Ollie",
+                  "text": "Really? My grandmother used to cook for twelve people every Sunday. She would let me help her in the kitchen."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "So that's how you became a chef!"
+                },
+                {
+                  "speaker": "Ollie",
+                  "text": "Exactly. So, what are you doing this weekend?"
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Daniel and I are going to a gig on Saturday. Do you want to come?"
+                },
+                {
+                  "speaker": "Ollie",
+                  "text": "I'd love to, but I'm working. Actually, I always work on Saturdays. Restaurant life!"
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Never mind, next time. And don't worry about the washing-up. I'll do it."
+                }
+              ],
+              "items": [
+                {
+                  "id": "b1l1a01",
+                  "type": "choice",
+                  "prompt": "Why does Lucía say \"By the way\"?",
+                  "options": [
+                    "To add a new piece of news.",
+                    "To change the plan for dinner.",
+                    "To say she doesn't like the food."
+                  ],
+                  "answer": 0,
+                  "tag": "discourse_markers"
+                },
+                {
+                  "id": "b1l1a02",
+                  "type": "choice",
+                  "prompt": "What did Sam say?",
+                  "options": [
+                    "The band had finished three songs.",
+                    "The producer didn't like the songs.",
+                    "He was coming back to Bristol."
+                  ],
+                  "answer": 0,
+                  "tag": "reported_speech"
+                },
+                {
+                  "id": "b1l1a03",
+                  "type": "choice",
+                  "prompt": "When does Lucía think Sam's album will come out?",
+                  "options": [
+                    "In the spring.",
+                    "In the summer.",
+                    "At Christmas."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_music"
+                },
+                {
+                  "id": "b1l1a04",
+                  "type": "choice",
+                  "prompt": "What did Ollie's grandmother use to do on Sundays?",
+                  "options": [
+                    "Cook for twelve people.",
+                    "Work in a restaurant.",
+                    "Teach cooking classes."
+                  ],
+                  "answer": 0,
+                  "tag": "used_to_would"
+                },
+                {
+                  "id": "b1l1a05",
+                  "type": "choice",
+                  "prompt": "What is Lucía doing on Saturday?",
+                  "options": [
+                    "Going to a gig with Daniel.",
+                    "Working at the restaurant.",
+                    "Visiting Sam in London."
+                  ],
+                  "answer": 0,
+                  "tag": "future_forms"
+                },
+                {
+                  "id": "b1l1a06",
+                  "type": "choice",
+                  "prompt": "What does Lucía offer to do?",
+                  "options": [
+                    "The washing-up.",
+                    "The cooking next time.",
+                    "The shopping."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_collocations"
+                }
+              ]
+            },
+            {
+              "title": "A call from Dublin",
+              "dialogue": [
+                {
+                  "speaker": "Javi",
+                  "text": "Daniel! How's it going?"
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "Grand, Javi. So, how's the new job at the hotel?"
+                },
+                {
+                  "speaker": "Javi",
+                  "text": "Well, it's hard. I work nights, so I sleep all day. But the people are great."
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "That's good. My mam told me you had visited her last Sunday."
+                },
+                {
+                  "speaker": "Javi",
+                  "text": "Yes! She made a huge dinner. Anyway, I'm calling because I need some advice."
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "Go on."
+                },
+                {
+                  "speaker": "Javi",
+                  "text": "There's a band playing in Dublin on Friday, a big concert. Is it worth going?"
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "Definitely. When I was a student, I used to go to every concert in town. I would spend all my money on tickets!"
+                },
+                {
+                  "speaker": "Javi",
+                  "text": "Ha! Oh, and Lucía's birthday is next week. What are you giving her?"
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "Actually, I'm taking her to Paris for the weekend. But it's a surprise, so don't say anything!"
+                },
+                {
+                  "speaker": "Javi",
+                  "text": "Don't worry. My lips are sealed."
+                }
+              ],
+              "items": [
+                {
+                  "id": "b1l1b01",
+                  "type": "choice",
+                  "prompt": "Why does Javi say \"Anyway\"?",
+                  "options": [
+                    "To get to the reason for his call.",
+                    "To finish the call.",
+                    "To disagree with Daniel."
+                  ],
+                  "answer": 0,
+                  "tag": "discourse_markers"
+                },
+                {
+                  "id": "b1l1b02",
+                  "type": "choice",
+                  "prompt": "What did Daniel's mam tell him?",
+                  "options": [
+                    "That Javi had visited her.",
+                    "That Javi was ill.",
+                    "That Javi had found a new job."
+                  ],
+                  "answer": 0,
+                  "tag": "reported_speech"
+                },
+                {
+                  "id": "b1l1b03",
+                  "type": "choice",
+                  "prompt": "What is happening in Dublin on Friday?",
+                  "options": [
+                    "A big concert.",
+                    "A football match.",
+                    "A film festival."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_music"
+                },
+                {
+                  "id": "b1l1b04",
+                  "type": "choice",
+                  "prompt": "What did Daniel use to do when he was a student?",
+                  "options": [
+                    "Go to lots of concerts.",
+                    "Work in a hotel.",
+                    "Play in a band."
+                  ],
+                  "answer": 0,
+                  "tag": "used_to_would"
+                },
+                {
+                  "id": "b1l1b05",
+                  "type": "choice",
+                  "prompt": "What is Daniel's plan for Lucía's birthday?",
+                  "options": [
+                    "He's taking her to Paris.",
+                    "He's having a party.",
+                    "He's buying her concert tickets."
+                  ],
+                  "answer": 0,
+                  "tag": "future_forms"
+                },
+                {
+                  "id": "b1l1b06",
+                  "type": "choice",
+                  "prompt": "What does Javi mean by \"My lips are sealed\"?",
+                  "options": [
+                    "He won't tell anyone.",
+                    "He can't talk now.",
+                    "He doesn't understand."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_collocations"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "part_id": "b1l2",
+          "instructions": "Escucha la conversación y contesta las preguntas. Puedes escucharla dos veces.",
+          "variants": [
+            {
+              "title": "A flood in the kitchen",
+              "dialogue": [
+                {
+                  "speaker": "Mrs Green",
+                  "text": "Priya, what happened? Ollie called me in a panic."
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "The washing machine broke last night and the kitchen floor was flooded."
+                },
+                {
+                  "speaker": "Mrs Green",
+                  "text": "Oh dear. Was anything damaged?"
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "Just some boxes that were on the floor. If Ollie hadn't woken up at three, the whole ground floor would have been under water."
+                },
+                {
+                  "speaker": "Mrs Green",
+                  "text": "Thank goodness he did. But you should have called me straight away, you know."
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "I know, but it was three in the morning! Anyway, a plumber has been called. He's coming at ten."
+                },
+                {
+                  "speaker": "Mrs Green",
+                  "text": "Is it the plumber who fixed the boiler last year? He's very good."
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "Yes, the same one. Do we have to pay for the repair?"
+                },
+                {
+                  "speaker": "Mrs Green",
+                  "text": "No, you don't. The washing machine is mine, so I'll pay."
+                }
+              ],
+              "items": [
+                {
+                  "id": "b1l2a01",
+                  "type": "choice",
+                  "prompt": "What broke?",
+                  "options": [
+                    "The washing machine.",
+                    "The boiler.",
+                    "The fridge."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_home"
+                },
+                {
+                  "id": "b1l2a02",
+                  "type": "choice",
+                  "prompt": "What was damaged?",
+                  "options": [
+                    "Some boxes that were on the floor.",
+                    "The kitchen table.",
+                    "Ollie's room."
+                  ],
+                  "answer": 0,
+                  "tag": "relative_clauses"
+                },
+                {
+                  "id": "b1l2a03",
+                  "type": "choice",
+                  "prompt": "What would have happened if Ollie hadn't woken up?",
+                  "options": [
+                    "The ground floor would have been under water.",
+                    "The plumber would have come earlier.",
+                    "Mrs Green would have called them."
+                  ],
+                  "answer": 0,
+                  "tag": "third_conditional"
+                },
+                {
+                  "id": "b1l2a04",
+                  "type": "choice",
+                  "prompt": "What does Mrs Green think Priya should have done?",
+                  "options": [
+                    "Called her immediately.",
+                    "Turned off the water.",
+                    "Woken Ollie up."
+                  ],
+                  "answer": 0,
+                  "tag": "should_have"
+                },
+                {
+                  "id": "b1l2a05",
+                  "type": "choice",
+                  "prompt": "What has been done about the problem?",
+                  "options": [
+                    "A plumber has been called.",
+                    "The machine has been repaired.",
+                    "The floor has been cleaned."
+                  ],
+                  "answer": 0,
+                  "tag": "passive"
+                },
+                {
+                  "id": "b1l2a06",
+                  "type": "choice",
+                  "prompt": "Who has to pay for the repair?",
+                  "options": [
+                    "Mrs Green.",
+                    "Priya and Ollie.",
+                    "The plumber."
+                  ],
+                  "answer": 0,
+                  "tag": "obligation"
+                }
+              ]
+            },
+            {
+              "title": "The last train",
+              "dialogue": [
+                {
+                  "speaker": "Daniel",
+                  "text": "We've missed it. The last train to Bath left five minutes ago."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "I can't believe it. If we hadn't stopped for coffee, we would have caught it."
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "I know. We should have checked the times before we left."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Never mind. Is there a bus that goes to Bath tonight?"
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "Let me look… The last bus was cancelled because of the snow."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "Then we'll have to sleep at home in Bristol tonight. Do we need to tell anyone?"
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "Yes, we have to call the hotel in Bath. They're expecting us at nine."
+                },
+                {
+                  "speaker": "Lucía",
+                  "text": "I'll do it. The room has already been paid for, hasn't it?"
+                },
+                {
+                  "speaker": "Daniel",
+                  "text": "It has. Maybe they'll let us change the date."
+                }
+              ],
+              "items": [
+                {
+                  "id": "b1l2b01",
+                  "type": "choice",
+                  "prompt": "Why did they miss the train?",
+                  "options": [
+                    "Because they stopped for coffee.",
+                    "Because the train left early.",
+                    "Because of the snow."
+                  ],
+                  "answer": 0,
+                  "tag": "third_conditional"
+                },
+                {
+                  "id": "b1l2b02",
+                  "type": "choice",
+                  "prompt": "What does Daniel say they should have done?",
+                  "options": [
+                    "Checked the train times.",
+                    "Taken a taxi.",
+                    "Booked a hotel in Bristol."
+                  ],
+                  "answer": 0,
+                  "tag": "should_have"
+                },
+                {
+                  "id": "b1l2b03",
+                  "type": "choice",
+                  "prompt": "What does Lucía ask about?",
+                  "options": [
+                    "A bus that goes to Bath.",
+                    "A hotel that is near the station.",
+                    "A train that leaves in the morning."
+                  ],
+                  "answer": 0,
+                  "tag": "relative_clauses"
+                },
+                {
+                  "id": "b1l2b04",
+                  "type": "choice",
+                  "prompt": "What happened to the last bus?",
+                  "options": [
+                    "It was cancelled.",
+                    "It was full.",
+                    "It left early."
+                  ],
+                  "answer": 0,
+                  "tag": "passive"
+                },
+                {
+                  "id": "b1l2b05",
+                  "type": "choice",
+                  "prompt": "What do they have to do?",
+                  "options": [
+                    "Call the hotel in Bath.",
+                    "Pay for the room again.",
+                    "Buy new train tickets."
+                  ],
+                  "answer": 0,
+                  "tag": "obligation"
+                },
+                {
+                  "id": "b1l2b06",
+                  "type": "choice",
+                  "prompt": "Where will they sleep tonight?",
+                  "options": [
+                    "At home in Bristol.",
+                    "In a hotel in Bath.",
+                    "At the station."
+                  ],
+                  "answer": 0,
+                  "tag": "vocab_home"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

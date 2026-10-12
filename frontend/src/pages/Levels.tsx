@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { AlertCircle, BookA, Brain, Check, CheckCircle2, Lightbulb, Loader2, Play, RotateCcw } from 'lucide-react'
+import { AlertCircle, Award, BookA, Brain, Check, CheckCircle2, Clock, GraduationCap, Lightbulb, Loader2, Play, RotateCcw } from 'lucide-react'
 import { api } from '../api/client'
 import { useAuth } from '../context/AuthContext'
 import { useSrsSummary } from '../lib/useSrsSummary'
 import { colorOf, flattenUnits, type UnitEntry } from '../lib/levels'
 import { firstName } from '../lib/user'
-import type { LessonProgress, LevelSummary, ProgressResponse, UnitSummary } from '../types'
+import type { ExamSummary, LessonProgress, LevelSummary, ProgressResponse, UnitSummary } from '../types'
 
 type UnitStatus = 'completed' | 'in_progress' | 'pending'
 
@@ -15,6 +15,7 @@ export default function Levels() {
   const [levels, setLevels] = useState<LevelSummary[]>([])
   const [progress, setProgress] = useState<ProgressResponse>({ lessons: [], completed_units: [] })
   const [selected, setSelected] = useState<string | null>(null)
+  const [exams, setExams] = useState<ExamSummary[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
   const srs = useSrsSummary(true)
@@ -27,6 +28,10 @@ export default function Levels() {
       })
       .catch((e: Error) => setError(e.message))
       .finally(() => setLoading(false))
+  }, [])
+  // Level exams are secondary here: without them the page still works.
+  useEffect(() => {
+    api.exams().then(setExams).catch(() => setExams([]))
   }, [])
 
   const lessonById = useMemo(() => {
@@ -168,6 +173,11 @@ export default function Levels() {
               >
                 <Lightbulb className="h-4 w-4 text-amber-500" /> Estudiar el nivel
               </Link>
+              {exams.find((e) => e.level_id === current.level_id)?.status.passed && (
+                <span className="inline-flex items-center gap-1 rounded-full bg-white px-2.5 py-1 text-xs font-bold text-emerald-700 shadow-sm">
+                  <Award className="h-3.5 w-3.5" /> Nivel aprobado
+                </span>
+              )}
               <LevelProgress {...levelStats(current)} levelId={current.level_id} />
             </div>
           </div>
@@ -218,9 +228,73 @@ export default function Levels() {
               )
             })}
           </div>
+
+          {exams
+            .filter((e) => e.level_id === current.level_id)
+            .map((e) => (
+              <ExamCard key={e.exam_id} exam={e} stats={levelStats(current)} />
+            ))}
         </section>
       )}
     </div>
+  )
+}
+
+/**
+ * The level exam closes the level, apart from the units: a timed paper that checks the whole
+ * level. Finishing the units first is recommended, never required.
+ */
+function ExamCard({ exam, stats }: { exam: ExamSummary; stats: { total: number; done: number } }) {
+  const c = colorOf(exam.level_id)
+  const st = exam.status
+  const waiting = !st.open_attempt && st.retry_at && Date.parse(st.retry_at) > Date.now()
+  const ready = stats.total > 0 && stats.done === stats.total
+  return (
+    <section className="mt-12" aria-labelledby={`exam-${exam.exam_id}`}>
+      <div className="relative overflow-hidden rounded-3xl bg-slate-900 p-6 text-white sm:p-8">
+        <span className={`absolute inset-y-0 left-0 w-2 ${c.solid}`} aria-hidden />
+        <div className="flex flex-wrap items-center justify-between gap-6">
+          <div className="flex min-w-0 items-start gap-4">
+            <span className={`grid h-14 w-14 shrink-0 place-items-center rounded-2xl ${st.passed ? 'bg-emerald-500' : 'bg-white/10'}`}>
+              {st.passed ? <Award className="h-7 w-7" /> : <GraduationCap className="h-7 w-7" />}
+            </span>
+            <div className="min-w-0">
+              <p className="text-sm text-slate-400">Cierra el nivel</p>
+              <h3 id={`exam-${exam.exam_id}`} className="font-display text-2xl font-bold">
+                {exam.title}
+              </h3>
+              <p className="mt-1 max-w-xl text-slate-300">
+                {st.passed
+                  ? `Aprobado con un ${st.best_score}%. Tienes tu certificado ${exam.level_id}.`
+                  : `${exam.duration_minutes} minutos y ${exam.items} preguntas de gramática, vocabulario, reading y listening. Si lo apruebas, tienes el nivel ${exam.level_id}.`}
+              </p>
+              {!st.passed && (
+                <p className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm text-slate-400">
+                  <span>
+                    {ready ? 'Has terminado todas las unidades: estás preparado.' : `Recomendado al terminar las unidades (${stats.done}/${stats.total}).`}
+                  </span>
+                  {st.last_score !== undefined && <span>Último intento: {st.last_score}%</span>}
+                </p>
+              )}
+            </div>
+          </div>
+          {waiting ? (
+            <p className="flex items-center gap-2 text-sm text-slate-300">
+              <Clock className="h-4 w-4" /> Repetir a partir del{' '}
+              {new Date(st.retry_at!).toLocaleString('es-ES', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}
+            </p>
+          ) : (
+            <Link
+              to={st.passed && st.passed_attempt ? `/examen/${exam.level_id}/certificado/${st.passed_attempt}` : `/examen/${exam.level_id}`}
+              className="inline-flex items-center gap-2 rounded-xl bg-white px-6 py-3 font-semibold text-slate-900 transition hover:bg-indigo-50 focus-visible:ring-4 focus-visible:ring-indigo-300 focus-visible:outline-none"
+            >
+              {st.passed ? <Award className="h-4 w-4" /> : <Play className="h-4 w-4 fill-current" />}
+              {st.passed ? 'Ver certificado' : st.open_attempt ? 'Continuar el examen' : st.attempts > 0 ? 'Volver a intentarlo' : 'Ver el examen'}
+            </Link>
+          )}
+        </div>
+      </div>
+    </section>
   )
 }
 

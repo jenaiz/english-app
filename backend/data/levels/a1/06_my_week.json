@@ -7,7 +7,7 @@
         {
           "unit_id": "my_week",
           "title": "Video Call with Javi",
-          "description": "Cuenta tu rutina con el present simple (I, you, we, they).",
+          "description": "Cuenta tu rutina con el present simple (I, you, we, they). Y para unir ideas: and, but, or, because.",
           "lessons": [
             {
               "lesson_id": "my_week_lesson",
@@ -169,6 +169,49 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Linking words: and, but, or, because",
+                    "explanation": "Para unir dos ideas en una frase usamos conectores:\n\nAnd (y) añade información: I study English and I watch TV.\n\nBut (pero) presenta un contraste: I like Bristol, but it rains a lot.\n\nOr (o) da opciones: Do you go by bus or on foot? En negativas también se usa or: I don't drink tea or coffee.\n\nBecause (porque) da la razón: I go by bus because the office is far. Para preguntar la razón usamos Why…?: Why do you go by bus? — Because the office is far.",
+                    "table": {
+                      "headers": [
+                        "Conector",
+                        "Sirve para",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "and",
+                          "añadir",
+                          "I get up at seven and I go to work."
+                        ],
+                        [
+                          "but",
+                          "contrastar",
+                          "I love my job, but it's far."
+                        ],
+                        [
+                          "or",
+                          "dar opciones",
+                          "Tea or coffee?"
+                        ],
+                        [
+                          "because",
+                          "explicar la razón",
+                          "I don't walk because the office is far."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "I start at nine and I finish at half past five.",
+                      "Javi plays video games, but he doesn't study.",
+                      "Do you eat at home or at work?",
+                      "I go to work by bus because the office is far."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -263,6 +306,63 @@
                       },
                       {
                         "answer": "I don't play video games"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con and, but, or o because.",
+                    "items": [
+                      {
+                        "sentence": "I study English ___ I watch TV in the evenings.",
+                        "answers": [
+                          [
+                            "and"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I love my job, ___ I don't like Mondays.",
+                        "answers": [
+                          [
+                            "but"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Do you go to work by bus ___ by bike?",
+                        "answers": [
+                          [
+                            "or"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I don't walk ___ the office is far.",
+                        "answers": [
+                          [
+                            "because"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Why do you study English? — ___ I work in Bristol.",
+                        "answers": [
+                          [
+                            "Because"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam is a musician ___ a waiter.",
+                        "answers": [
+                          [
+                            "and"
+                          ]
+                        ]
                       }
                     ]
                   }

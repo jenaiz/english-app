@@ -7,7 +7,7 @@
         {
           "unit_id": "feeling_ill",
           "title": "Feeling Ill",
-          "description": "Da consejos y habla de obligaciones con should y have to.",
+          "description": "Da consejos y habla de obligaciones con should y have to. Y los condicionales cero y primero: If you rest, you'll feel better.",
           "lessons": [
             {
               "lesson_id": "feeling_ill_lesson",
@@ -163,6 +163,49 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Zero and first conditional",
+                    "explanation": "Zero conditional (If + present, present) para cosas que siempre son verdad: If you don't sleep, you feel tired. If you heat water to 100 degrees, it boils.\n\nFirst conditional (If + present, will + verbo) para una situación posible en el futuro y su resultado: If you rest today, you'll feel better tomorrow. If it rains, I'll take a taxi.\n\nOjo: después de if nunca va will: If I see Helen, I'll tell her (no «If I will see»).\n\nUnless significa if… not: You won't get better unless you rest (= if you don't rest). La frase con if puede ir primero (con coma) o después (sin coma): I'll call the doctor if you feel worse.",
+                    "table": {
+                      "headers": [
+                        "",
+                        "If…",
+                        "Resultado"
+                      ],
+                      "rows": [
+                        [
+                          "Zero (siempre)",
+                          "If you have a cold,",
+                          "your throat hurts."
+                        ],
+                        [
+                          "First (futuro posible)",
+                          "If you rest today,",
+                          "you'll feel better tomorrow."
+                        ],
+                        [
+                          "First negativa",
+                          "If you don't drink water,",
+                          "you won't get better."
+                        ],
+                        [
+                          "unless",
+                          "Unless you rest,",
+                          "you won't get better."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "If you have a cold, you usually feel tired.",
+                      "If you go to bed now, you'll feel better tomorrow.",
+                      "If Helen calls, I'll tell her you're ill.",
+                      "You won't get better unless you rest."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -257,6 +300,74 @@
                       },
                       {
                         "answer": "My throat hurts"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa la frase condicional.",
+                    "items": [
+                      {
+                        "sentence": "If you don't sleep, you ___ tired. (feel, siempre)",
+                        "answers": [
+                          [
+                            "feel"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If you rest today, you ___ better tomorrow. (feel)",
+                        "answers": [
+                          [
+                            "will feel",
+                            "'ll feel"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If Helen ___, I'll tell her you're ill. (call)",
+                        "answers": [
+                          [
+                            "calls"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'll make you some soup if you ___ hungry. (be)",
+                        "answers": [
+                          [
+                            "are",
+                            "'re"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You won't get better ___ you rest.",
+                        "answers": [
+                          [
+                            "unless"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If you ___ go to work today, Helen will understand. (not)",
+                        "answers": [
+                          [
+                            "don't",
+                            "do not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "If you heat water to 100 degrees, it ___. (boil)",
+                        "answers": [
+                          [
+                            "boils"
+                          ]
+                        ]
                       }
                     ]
                   }

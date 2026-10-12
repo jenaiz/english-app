@@ -228,6 +228,14 @@ func syncClub(ctx context.Context, st *store.Store, catalog *content.Catalog, cl
 		}
 	}
 	milestones := catalog.Milestones(done)
+	// Passing a level exam is a checkpoint of its level.
+	passed, err := st.PassedExams(ctx, userID)
+	if err != nil {
+		return nil, err
+	}
+	for _, p := range passed {
+		milestones = append(milestones, content.Milestone{Key: "exam:" + p.ExamID, Kind: content.MilestoneCheckpoint, Level: p.LevelID})
+	}
 	if len(milestones) == 0 {
 		return out, nil
 	}

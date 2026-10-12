@@ -7,7 +7,7 @@
         {
           "unit_id": "new_flatmate",
           "title": "The New Flatmate",
-          "description": "Describe personas, cosas y lugares con oraciones de relativo: who, which, that, where, whose.",
+          "description": "Describe personas, cosas y lugares con oraciones de relativo: who, which, that, where, whose. Y deducciones: He must be a good cook, he can't be from Spain.",
           "lessons": [
             {
               "lesson_id": "new_flatmate_lesson",
@@ -172,6 +172,44 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Deduction: must, might, can't",
+                    "explanation": "Para sacar conclusiones sobre el presente a partir de lo que sabemos:\n\n• must + verbo: estamos casi seguros de que es verdad. He's a chef. He must be a good cook (seguro que cocina bien).\n• might / may / could + verbo: es posible. He might be at work.\n• can't + verbo: estamos casi seguros de que no es verdad. He can't be from Spain, he's from Manchester.\n\nOjo: lo contrario de must (deducción) es can't, no «mustn't»: mustn't es una prohibición.\n\nCon una acción en curso se usa be + -ing: Sam must be practising, I can hear the guitar.",
+                    "table": {
+                      "headers": [
+                        "Seguridad",
+                        "Ejemplo"
+                      ],
+                      "rows": [
+                        [
+                          "Casi seguro que sí",
+                          "He's a chef. He must be a good cook."
+                        ],
+                        [
+                          "Posible",
+                          "Ollie might be at the restaurant now."
+                        ],
+                        [
+                          "Casi seguro que no",
+                          "That can't be Ollie. He's at work until ten."
+                        ],
+                        [
+                          "Acción en curso",
+                          "Sam must be practising upstairs."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Ollie works in a restaurant. He must be good at cooking.",
+                      "Someone's singing upstairs. It must be Sam.",
+                      "That can't be the postman. It's Sunday.",
+                      "Priya isn't answering. She might be sleeping after her night shift."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -269,6 +307,67 @@
                       },
                       {
                         "answer": "You're the flatmate we've been looking for"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con must, might o can't.",
+                    "items": [
+                      {
+                        "sentence": "Ollie is a chef. He ___ be a good cook.",
+                        "answers": [
+                          [
+                            "must"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "That ___ be Sam. He's in London today.",
+                        "answers": [
+                          [
+                            "can't",
+                            "cannot"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm not sure where Priya is. She ___ be at the hospital.",
+                        "answers": [
+                          [
+                            "might",
+                            "may",
+                            "could"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You've been working for twelve hours. You ___ be tired.",
+                        "answers": [
+                          [
+                            "must"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The light is on in the kitchen. Someone ___ be cooking.",
+                        "answers": [
+                          [
+                            "must"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It ___ be expensive. It's the cheapest room in Bristol!",
+                        "answers": [
+                          [
+                            "can't",
+                            "cannot"
+                          ]
+                        ]
                       }
                     ]
                   }

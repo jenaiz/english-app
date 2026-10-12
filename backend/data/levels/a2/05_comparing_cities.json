@@ -7,7 +7,7 @@
         {
           "unit_id": "comparing_cities",
           "title": "Bristol or Valencia?",
-          "description": "Compara ciudades, comida y personas con los comparativos.",
+          "description": "Compara ciudades, comida y personas con los comparativos. Y la diferencia entre interesting e interested. Y para decir en qué se parecen: the same as, similar to, different from.",
           "lessons": [
             {
               "lesson_id": "comparing_cities_lesson",
@@ -171,6 +171,96 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Adjectives with -ed and -ing: bored or boring?",
+                    "explanation": "Muchos adjetivos tienen dos formas:\n\nCon -ing describen la cosa o la persona que produce el sentimiento: Bristol is interesting (Bristol es interesante). The film was boring (la película era aburrida).\n\nCon -ed describen cómo se siente alguien: I'm interested in art (me interesa el arte). I was bored (estaba aburrido).\n\nOjo con el error típico: «I'm boring» significa «soy aburrido», no «estoy aburrido» (I'm bored).\n\nLos más comunes: interesting / interested, boring / bored, tiring / tired, exciting / excited, surprising / surprised, relaxing / relaxed, worrying / worried.",
+                    "table": {
+                      "headers": [
+                        "-ing (cómo es algo)",
+                        "-ed (cómo me siento)"
+                      ],
+                      "rows": [
+                        [
+                          "The city is interesting.",
+                          "I'm interested in the city."
+                        ],
+                        [
+                          "The weather is boring.",
+                          "I'm bored."
+                        ],
+                        [
+                          "The trip was tiring.",
+                          "We were tired."
+                        ],
+                        [
+                          "The news is exciting.",
+                          "Javi is excited."
+                        ],
+                        [
+                          "The price was surprising.",
+                          "I was surprised."
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Bristol is more interesting than I thought.",
+                      "I'm very interested in art and music.",
+                      "The bus journey to Bath was really boring.",
+                      "After the flight, Lucía was very tired."
+                    ]
+                  }
+                },
+                {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "the same as, similar to, different from, like",
+                    "explanation": "Para comparar sin -er ni more:\n\n• the same as (igual que): Lucía's flat is the same as Priya's. The same + nombre + as: She's the same age as me.\n• similar to (parecido a): Bristol is similar to Valencia in some ways.\n• different from (diferente de): The food here is very different from the food in Spain. (No «different of».)\n• like (como): Daniel's accent is like my teacher's. Look like = parecerse físicamente: You look like your brother.\n• alike (iguales, parecidos) va al final, sin objeto: Javi and Lucía look alike.\n\nOjo: «igual que» con un verbo es as: She works in design, as I do. Con un nombre o pronombre, like: She's like me.",
+                    "table": {
+                      "headers": [
+                        "Expresión",
+                        "Ejemplo",
+                        "En español"
+                      ],
+                      "rows": [
+                        [
+                          "the same as",
+                          "My phone is the same as yours.",
+                          "igual que"
+                        ],
+                        [
+                          "the same + nombre + as",
+                          "Sam is the same age as Priya.",
+                          "la misma edad que"
+                        ],
+                        [
+                          "similar to",
+                          "Bristol is similar to Valencia in some ways.",
+                          "parecido a"
+                        ],
+                        [
+                          "different from",
+                          "The weather is very different from Spain.",
+                          "diferente de"
+                        ],
+                        [
+                          "look like / alike",
+                          "Javi looks like his dad. They look alike.",
+                          "se parece a / se parecen"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Bristol is very different from Valencia.",
+                      "In some ways, Bristol is similar to Madrid: lots of music and art.",
+                      "Javi is the same height as Daniel.",
+                      "Lucía and Javi look alike. They've got the same eyes."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -276,6 +366,120 @@
                       {
                         "left": "far",
                         "right": "further"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Elige la forma correcta: escribe el adjetivo terminado en -ed o -ing.",
+                    "items": [
+                      {
+                        "sentence": "Bristol is a very ___ city. (interest)",
+                        "answers": [
+                          [
+                            "interesting"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'm ___ in modern art. (interest)",
+                        "answers": [
+                          [
+                            "interested"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The film was so ___ that I fell asleep. (bore)",
+                        "answers": [
+                          [
+                            "boring"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "After ten hours at work, Priya is always ___. (tire)",
+                        "answers": [
+                          [
+                            "tired"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Javi was very ___ about his trip to Bristol. (excite)",
+                        "answers": [
+                          [
+                            "excited"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The price of the rent was really ___. (surprise)",
+                        "answers": [
+                          [
+                            "surprising"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con as, to, from, like o alike.",
+                    "items": [
+                      {
+                        "sentence": "Bristol is very different ___ Valencia.",
+                        "answers": [
+                          [
+                            "from"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "My phone is the same ___ yours!",
+                        "answers": [
+                          [
+                            "as"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "In some ways, Bristol is similar ___ Madrid.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Javi looks ___ his dad. They've got the same nose.",
+                        "answers": [
+                          [
+                            "like"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Lucía and Javi look ___. Everyone knows they're brother and sister.",
+                        "answers": [
+                          [
+                            "alike"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam is the same age ___ Priya.",
+                        "answers": [
+                          [
+                            "as"
+                          ]
+                        ]
                       }
                     ]
                   }

@@ -31,6 +31,8 @@ type Config struct {
 	// LabClubDir holds dev-only showcase activities, always open. Empty in production.
 	ClubDir    string
 	LabClubDir string
+	// ExamsDir holds the level exams; defaults to a sibling of ContentDir.
+	ExamsDir string
 	// VoicesFile maps dialogue speakers to TTS voices; AudioDir holds the pre-generated MP3s.
 	// Both default to siblings of ContentDir.
 	VoicesFile string
@@ -73,6 +75,7 @@ func Load() Config {
 	}
 	cfg.ExpressionsDir = getEnv("EXPRESSIONS_DIR", filepath.Join(filepath.Dir(cfg.ContentDir), "expressions"))
 	cfg.ClubDir = getEnv("CLUB_DIR", filepath.Join(filepath.Dir(cfg.ContentDir), "club"))
+	cfg.ExamsDir = getEnv("EXAMS_DIR", filepath.Join(filepath.Dir(cfg.ContentDir), "exams"))
 	cfg.VoicesFile = getEnv("VOICES_FILE", filepath.Join(filepath.Dir(cfg.ContentDir), "voices.json"))
 	cfg.AudioDir = getEnv("AUDIO_DIR", filepath.Join(filepath.Dir(cfg.ContentDir), "audio"))
 	cfg.CookieSecure, _ = strconv.ParseBool(getEnv("COOKIE_SECURE", "false"))

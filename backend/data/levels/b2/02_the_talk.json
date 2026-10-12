@@ -7,7 +7,7 @@
         {
           "unit_id": "the_talk",
           "title": "After the Talk",
-          "description": "Deduce lo que es seguro, posible o imposible: must, might, could y can't.",
+          "description": "Deduce lo que es seguro, posible o imposible: must, might, could y can't. Y consejos y preferencias: had better, would rather.",
           "lessons": [
             {
               "lesson_id": "the_talk_lesson",
@@ -158,6 +158,49 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "had better, would rather",
+                    "explanation": "Had better + verbo (sin to) es un consejo fuerte o un aviso, para una situación concreta: You'd better call Helen now (será mejor que la llames ya). Suele implicar que, si no, habrá un problema. Negativa: had better not: We'd better not be late.\n\nAunque had parece pasado, habla del presente o del futuro. Casi siempre se contrae: you'd better, we'd better.\n\nWould rather + verbo (sin to) expresa preferencia: I'd rather wait until Monday (prefiero esperar). Would rather… than…: I'd rather work late than miss the deadline. Pregunta: Would you rather call him or email him?\n\nOjo: las dos van con el verbo sin to (no «you'd better to call», no «I'd rather to wait»).",
+                    "table": {
+                      "headers": [
+                        "Estructura",
+                        "Ejemplo",
+                        "En español"
+                      ],
+                      "rows": [
+                        [
+                          "had better + verbo",
+                          "You'd better call Helen now.",
+                          "será mejor que…"
+                        ],
+                        [
+                          "had better not + verbo",
+                          "We'd better not tell anyone yet.",
+                          "mejor no…"
+                        ],
+                        [
+                          "would rather + verbo",
+                          "I'd rather wait until Monday.",
+                          "prefiero…"
+                        ],
+                        [
+                          "would rather … than …",
+                          "I'd rather work late than lose the client.",
+                          "prefiero… a…"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "You'd better call Helen now. She's waiting for news.",
+                      "We'd better not tell anyone until the contract is signed.",
+                      "I'd rather talk to Mark next week. I need to think.",
+                      "Would you rather meet him in London or in Bristol?"
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -263,6 +306,63 @@
                       {
                         "left": "It could be either.",
                         "right": "Podría ser cualquiera de las dos cosas."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con better, rather, not o el verbo correcto.",
+                    "items": [
+                      {
+                        "sentence": "You'd ___ call Helen now. She's waiting for news.",
+                        "answers": [
+                          [
+                            "better"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'd ___ wait until Monday. I need to think about it.",
+                        "answers": [
+                          [
+                            "rather"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "We'd better ___ tell anyone yet.",
+                        "answers": [
+                          [
+                            "not"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Would you rather ___ him in London or in Bristol? (meet)",
+                        "answers": [
+                          [
+                            "meet"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "I'd rather work late ___ lose this client.",
+                        "answers": [
+                          [
+                            "than"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "It's late. We'd better ___ a taxi to the station. (take)",
+                        "answers": [
+                          [
+                            "take"
+                          ]
+                        ]
                       }
                     ]
                   }

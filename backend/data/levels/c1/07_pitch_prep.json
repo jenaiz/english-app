@@ -7,7 +7,7 @@
         {
           "unit_id": "pitch_prep",
           "title": "The Night Before",
-          "description": "Convierte un inglés coloquial en formal: nominalización y registro de negocios.",
+          "description": "Convierte un inglés coloquial en formal: nominalización y registro de negocios. Y marcadores para estructurar un argumento: nevertheless, that said, mind you, on top of that.",
           "lessons": [
             {
               "lesson_id": "pitch_prep_lesson",
@@ -172,6 +172,54 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "Signposting: nevertheless, that said, mind you, on top of that",
+                    "explanation": "Para guiar al oyente en un argumento largo:\n\nRegistro formal (presentaciones, informes):\n• Nevertheless / Nonetheless (aun así): Our studio is small. Nevertheless, we deliver on time.\n• Admittedly (hay que reconocer que): Admittedly, our prices are higher.\n• To a certain extent / To what extent…: To a certain extent, design drives bookings.\n• In so far as (en la medida en que): The plan worked in so far as it was applied.\n• Whereas (mientras que): Madrid is growing fast, whereas London is saturated.\n\nRegistro informal (conversación, correos entre colegas):\n• That said (dicho esto): It's expensive. That said, it's worth it.\n• Mind you (aunque, eso sí): Mark loves the idea. Mind you, he loves most ideas.\n• On top of that (encima, además): We were late, and on top of that the projector broke.\n• As I was saying / Anyway, back to…: para retomar el hilo.",
+                    "table": {
+                      "headers": [
+                        "Función",
+                        "Formal",
+                        "Informal"
+                      ],
+                      "rows": [
+                        [
+                          "Contraste",
+                          "nevertheless, nonetheless",
+                          "that said, mind you"
+                        ],
+                        [
+                          "Concesión",
+                          "admittedly",
+                          "OK, fair enough"
+                        ],
+                        [
+                          "Añadir",
+                          "moreover, furthermore",
+                          "on top of that, what's more"
+                        ],
+                        [
+                          "Grado",
+                          "to a certain extent, in so far as",
+                          "kind of, more or less"
+                        ],
+                        [
+                          "Retomar",
+                          "returning to…",
+                          "anyway, as I was saying"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "Admittedly, Green Door is a young company. Nevertheless, our results speak for themselves.",
+                      "The Madrid market is growing, whereas London is close to saturation.",
+                      "The deadline is tight. That said, we've done it before.",
+                      "Mark seemed happy. Mind you, he always seems happy before he negotiates."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -273,6 +321,65 @@
                         "answers": [
                           "There was a significant improvement in speed",
                           "There was a significant improvement in the speed of the site"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con nevertheless, admittedly, whereas, that said, mind you u on top of that.",
+                    "items": [
+                      {
+                        "sentence": "We're a small studio. ___, we've never missed a deadline.",
+                        "answers": [
+                          [
+                            "Nevertheless",
+                            "Nonetheless"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___, our prices are higher than some competitors'. (hay que reconocer)",
+                        "answers": [
+                          [
+                            "Admittedly"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Madrid is growing fast, ___ London is almost saturated.",
+                        "answers": [
+                          [
+                            "whereas",
+                            "while"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The hotel is expensive. That ___, the location is perfect.",
+                        "answers": [
+                          [
+                            "said"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Mark loved the slides. ___ you, he loves every slide with a graph.",
+                        "answers": [
+                          [
+                            "Mind"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "The train was late, and on ___ of that the projector didn't work.",
+                        "answers": [
+                          [
+                            "top"
+                          ]
                         ]
                       }
                     ]

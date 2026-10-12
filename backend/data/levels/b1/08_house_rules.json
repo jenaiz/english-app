@@ -7,7 +7,7 @@
         {
           "unit_id": "house_rules",
           "title": "House Rules",
-          "description": "Normas, prohibiciones y lo que no hace falta: must, mustn't, have to, don't need to, can.",
+          "description": "Normas, prohibiciones y lo que no hace falta: must, mustn't, have to, don't need to, can. Y ought to para consejos y lo que es correcto.",
           "lessons": [
             {
               "lesson_id": "house_rules_lesson",
@@ -176,6 +176,49 @@
                   }
                 },
                 {
+                  "phase": "grammar",
+                  "type": "grammar_rule",
+                  "content": {
+                    "title": "ought to",
+                    "explanation": "Ought to + verbo significa casi lo mismo que should: lo que es buena idea o lo correcto. You ought to tell Mrs Green about the noise. We ought to clean the kitchen before Ollie arrives.\n\nEs un poco más formal y menos frecuente que should, sobre todo en preguntas, donde casi siempre se usa should.\n\nNegativa: ought not to (oughtn't to), aunque en la conversación se prefiere shouldn't: You oughtn't to smoke in the house.\n\nNo cambia con he / she / it (he ought to, nunca «oughts») y siempre lleva to, a diferencia de should y must: You ought to go (no «ought go»).\n\nPara la obligación fuerte o las normas se usa must / have to; para un consejo, should / ought to.",
+                    "table": {
+                      "headers": [
+                        "",
+                        "Ejemplo",
+                        "Fuerza"
+                      ],
+                      "rows": [
+                        [
+                          "must / have to",
+                          "Everyone has to pay a deposit.",
+                          "obligación"
+                        ],
+                        [
+                          "should / ought to",
+                          "You ought to put an advert online.",
+                          "consejo, lo correcto"
+                        ],
+                        [
+                          "shouldn't / oughtn't to",
+                          "You shouldn't play music after eleven.",
+                          "no es buena idea"
+                        ],
+                        [
+                          "don't need to",
+                          "You don't need to pay for the internet.",
+                          "no es necesario"
+                        ]
+                      ]
+                    },
+                    "examples": [
+                      "We ought to clean the kitchen before Ollie comes.",
+                      "Sam ought to turn the music down after eleven.",
+                      "You ought to ask Mrs Green before you get a cat.",
+                      "The new flatmate ought to meet the neighbours."
+                    ]
+                  }
+                },
+                {
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
@@ -282,6 +325,63 @@
                       {
                         "left": "had to",
                         "right": "obligación en el pasado"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "phase": "practice",
+                  "type": "fill_blanks",
+                  "content": {
+                    "instructions": "Completa con ought to, should, must o need.",
+                    "items": [
+                      {
+                        "sentence": "We ought ___ clean the kitchen before Ollie arrives.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Sam ___ to turn the music down. It's midnight!",
+                        "answers": [
+                          [
+                            "ought"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "Tenants ___ not smoke in the house. It's a rule.",
+                        "answers": [
+                          [
+                            "must"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "___ we tell Mrs Green about the broken window?",
+                        "answers": [
+                          [
+                            "Should"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You don't ___ to bring towels. We've got lots.",
+                        "answers": [
+                          [
+                            "need"
+                          ]
+                        ]
+                      },
+                      {
+                        "sentence": "You oughtn't ___ leave the door open at night.",
+                        "answers": [
+                          [
+                            "to"
+                          ]
+                        ]
                       }
                     ]
                   }
