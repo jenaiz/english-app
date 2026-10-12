@@ -1,0 +1,34 @@
+{
+  "id": "lab_cloze",
+  "type": "verb_cloze",
+  "level": "A2",
+  "title": "A Weekend in London",
+  "subtitle": "Laboratorio: past simple y phrasal verbs",
+  "minutes": 5,
+  "milestone": "unit",
+  "content": {
+    "instructions": "Completa con el past simple del verbo entre paréntesis. Si hay un pronombre, ponlo en su sitio.",
+    "items": [
+      {
+        "text": "Last Saturday Lucía, Priya and Daniel ___ (take) the train to London. They ___ (get up) at six, so they ___ (be) very sleepy.",
+        "answers": [["took"], ["got up"], ["were"]],
+        "hint": "Take → took, get → got. They + was/were?"
+      },
+      {
+        "text": "In Camden, Lucía ___ (try / it / on) a vintage jacket, but she ___ (not / buy) it. Daniel ___ (find out) that the market ___ (close) at six.",
+        "answers": [["tried it on"], ["didn't buy", "did not buy"], ["found out"], ["closed"]],
+        "hint": "Con pronombre: tried it on. Negativa: didn't + infinitivo.",
+        "explanation": "Try on es separable: el pronombre va en medio (tried it on)."
+      },
+      {
+        "text": "\"___ (you / enjoy) the trip?\" Sam ___ (ask) on Sunday night. \"Yes! But we ___ (spend) too much money,\" Lucía ___ (say).",
+        "answers": [["Did you enjoy"], ["asked"], ["spent"], ["said"]],
+        "hint": "Pregunta: did + sujeto + infinitivo. Spend → spent, say → said."
+      }
+    ],
+    "vocabulary": [
+      { "term": "vintage", "translation": "de época, vintage", "definition": "old, but good quality and fashionable" }
+    ],
+    "expressions": ["phrasal:get-up", "phrasal:try-on", "phrasal:find-out"]
+  }
+}
