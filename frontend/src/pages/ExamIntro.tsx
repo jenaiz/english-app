@@ -4,7 +4,8 @@ import { AlertCircle, Award, Clock, Headphones, ListChecks, Loader2, Lock, Play,
 import { api, ApiError } from '../api/client'
 import { trackEvent } from '../lib/analytics'
 import { colorOf } from '../lib/levels'
-import type { ExamSummary } from '../types'
+import { AttemptHistory, ToReview } from '../components/exam/AttemptHistory'
+import type { ExamAttemptSummary, ExamSummary } from '../types'
 
 const fmtDate = (iso: string) => new Date(iso).toLocaleString('es-ES', { day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' })
 
@@ -13,6 +14,7 @@ export default function ExamIntro() {
   const { levelId = '' } = useParams()
   const navigate = useNavigate()
   const [exam, setExam] = useState<ExamSummary | null>(null)
+  const [attempts, setAttempts] = useState<ExamAttemptSummary[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
   const [ready, setReady] = useState(false)
@@ -23,8 +25,13 @@ export default function ExamIntro() {
       .exams()
       .then((list) => {
         const e = list.find((x) => x.level_id.toLowerCase() === levelId.toLowerCase())
-        if (e) setExam(e)
-        else setError('Este nivel todavía no tiene examen.')
+        if (!e) {
+          setError('Este nivel todavía no tiene examen.')
+          return
+        }
+        setExam(e)
+        // The history is secondary: without it the page still works.
+        api.examAttempts(e.exam_id).then(setAttempts).catch(() => setAttempts([]))
       })
       .catch((e: Error) => setError(e.message))
       .finally(() => setLoading(false))
@@ -62,6 +69,8 @@ export default function ExamIntro() {
 
   const c = colorOf(exam.level_id)
   const st = exam.status
+  // The latest handed-in attempt: what to review comes from it.
+  const lastDone = attempts.find((a) => !a.open)
   const waiting = !st.open_attempt && st.retry_at && Date.parse(st.retry_at) > Date.now()
 
   return (
@@ -115,17 +124,7 @@ export default function ExamIntro() {
           </span>
         </Link>
       )}
-      {!st.passed && st.last_attempt && (
-        <Link
-          to={`/examen/${exam.level_id}/intento/${st.last_attempt}`}
-          className="mt-4 flex items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-white p-4 hover:border-indigo-300"
-        >
-          <span className="text-slate-700">
-            Último intento: <span className="font-semibold tabular-nums">{st.last_score}%</span>
-          </span>
-          <span className="text-sm font-semibold text-indigo-600">Ver qué repasar →</span>
-        </Link>
-      )}
+      {lastDone && <ToReview levelId={exam.level_id} attempt={lastDone} />}
 
       {/* What it checks */}
       <section className="mt-10">
@@ -213,6 +212,8 @@ export default function ExamIntro() {
           </>
         )}
       </section>
+
+      {attempts.length > 0 && <AttemptHistory levelId={exam.level_id} attempts={attempts} />}
     </div>
   )
 }

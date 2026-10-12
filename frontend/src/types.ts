@@ -516,3 +516,15 @@ export interface ExamAttempt {
   retry_at?: string
   unlocked_activities?: UnlockedActivity[]
 }
+
+/** One attempt in the learner's history, with the topics to review. */
+export interface ExamAttemptSummary {
+  attempt_id: string
+  started_at: string
+  submitted_at?: string
+  open: boolean
+  score?: number
+  passed?: boolean
+  sections: ExamResult['sections']
+  weak_topics: ExamResult['topics']
+}

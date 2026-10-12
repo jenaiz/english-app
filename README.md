@@ -230,7 +230,8 @@ El examen que certifica un nivel no es una lección: vive en `backend/data/exams
 - **Formato:** tiempo limitado con cronómetro (45 minutos en A1, 60 en A2, 65 en B1, 75 en B2, 80 en C1), cuatro partes (gramática, vocabulario, reading y listening con 2 escuchas) y dos versiones de cada parte. La nota se calcula en el servidor.
 - **Aprobado:** hace falta un mínimo en total y en cada parte. Si se suspende, hay que esperar 24 h para repetirlo.
 - **Al terminar:** informe por tema con enlaces a las unidades que lo enseñan y certificado imprimible si se aprueba.
-- **API:** `GET /api/exams`, `POST /api/exams/{id}/attempts`, `GET /api/exams/attempts/{id}`, `PUT …/answers` y `POST …/submit`. El audio se sirve con `GET /api/audio/{fichero}`, sin el texto.
+- **Después:** la página del examen muestra «Qué te toca repasar» (los temas con fallos del último intento, enlazados a sus unidades) y el historial de intentos; cada uno abre su resultado completo.
+- **API:** `GET /api/exams`, `GET /api/exams/{id}/attempts` (historial con notas y temas por repasar), `POST /api/exams/{id}/attempts`, `GET /api/exams/attempts/{id}`, `PUT …/answers` y `POST …/submit`. El audio se sirve con `GET /api/audio/{fichero}`, sin el texto.
 
 Cómo se alinea cada nivel con el MCER y cómo añadir un examen: [`docs/levels/README.md`](docs/levels/README.md).
 

@@ -268,30 +268,49 @@ function ExamCard({ exam, stats }: { exam: ExamSummary; stats: { total: number; 
                   ? `Aprobado con un ${st.best_score}%. Tienes tu certificado ${exam.level_id}.`
                   : `${exam.duration_minutes} minutos y ${exam.items} preguntas de gramática, vocabulario, reading y listening. Si lo apruebas, tienes el nivel ${exam.level_id}.`}
               </p>
+              {st.passed && (
+                <Link to={`/examen/${exam.level_id}`} className="mt-2 inline-block text-sm font-medium text-slate-300 underline-offset-2 hover:text-white hover:underline">
+                  Ver tus intentos y qué repasar
+                </Link>
+              )}
               {!st.passed && (
                 <p className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm text-slate-400">
                   <span>
                     {ready ? 'Has terminado todas las unidades: estás preparado.' : `Recomendado al terminar las unidades (${stats.done}/${stats.total}).`}
                   </span>
-                  {st.last_score !== undefined && <span>Último intento: {st.last_score}%</span>}
+                  {st.last_score !== undefined && (
+                    <Link to={`/examen/${exam.level_id}`} className="font-medium text-slate-300 underline-offset-2 hover:text-white hover:underline">
+                      Último intento: {st.last_score}% · ver qué repasar
+                    </Link>
+                  )}
                 </p>
               )}
             </div>
           </div>
-          {waiting ? (
-            <p className="flex items-center gap-2 text-sm text-slate-300">
-              <Clock className="h-4 w-4" /> Repetir a partir del{' '}
-              {new Date(st.retry_at!).toLocaleString('es-ES', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}
-            </p>
-          ) : (
+          {/* Always a way in: while waiting to retake, the button leads to what to review. */}
+          <div className="flex flex-col items-start gap-2 sm:items-end">
             <Link
               to={st.passed && st.passed_attempt ? `/examen/${exam.level_id}/certificado/${st.passed_attempt}` : `/examen/${exam.level_id}`}
               className="inline-flex items-center gap-2 rounded-xl bg-white px-6 py-3 font-semibold text-slate-900 transition hover:bg-indigo-50 focus-visible:ring-4 focus-visible:ring-indigo-300 focus-visible:outline-none"
             >
-              {st.passed ? <Award className="h-4 w-4" /> : <Play className="h-4 w-4 fill-current" />}
-              {st.passed ? 'Ver certificado' : st.open_attempt ? 'Continuar el examen' : st.attempts > 0 ? 'Volver a intentarlo' : 'Ver el examen'}
+              {st.passed ? <Award className="h-4 w-4" /> : waiting ? <BookA className="h-4 w-4" /> : <Play className="h-4 w-4 fill-current" />}
+              {st.passed
+                ? 'Ver certificado'
+                : st.open_attempt
+                  ? 'Continuar el examen'
+                  : waiting
+                    ? 'Ver qué repasar'
+                    : st.attempts > 0
+                      ? 'Volver a intentarlo'
+                      : 'Ver el examen'}
             </Link>
-          )}
+            {waiting && !st.passed && (
+              <p className="flex items-center gap-1.5 text-sm text-slate-400">
+                <Clock className="h-4 w-4" /> Podrás repetirlo a partir del{' '}
+                {new Date(st.retry_at!).toLocaleString('es-ES', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}
+              </p>
+            )}
+          </div>
         </div>
       </div>
     </section>

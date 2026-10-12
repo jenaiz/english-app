@@ -2,11 +2,13 @@ package handlers
 
 import (
 	"context"
+	"encoding/json"
 	"errors"
 	"log"
 	"math/rand"
 	"net/http"
 	"regexp"
+	"sort"
 	"time"
 
 	"github.com/go-chi/chi/v5"
@@ -173,6 +175,60 @@ func (h *ExamsHandler) List(w http.ResponseWriter, r *http.Request) {
 	for _, e := range h.Exams.List {
 		s := summarize(e)
 		s.Status = h.status(e, list)
+		out = append(out, s)
+	}
+	writeJSON(w, http.StatusOK, out)
+}
+
+// attemptSummary is one past attempt in the learner's history: its marks and the topics with
+// mistakes, so what to review stays reachable after the exam.
+type attemptSummary struct {
+	AttemptID   string                 `json:"attempt_id"`
+	StartedAt   time.Time              `json:"started_at"`
+	SubmittedAt *time.Time             `json:"submitted_at,omitempty"`
+	Open        bool                   `json:"open"`
+	Score       *int                   `json:"score,omitempty"`
+	Passed      *bool                  `json:"passed,omitempty"`
+	Sections    []content.SectionScore `json:"sections"`
+	WeakTopics  []content.TopicScore   `json:"weak_topics"`
+}
+
+// Attempts returns the learner's attempts at an exam, newest first.
+func (h *ExamsHandler) Attempts(w http.ResponseWriter, r *http.Request) {
+	ctx, userID := r.Context(), auth.UserID(r.Context())
+	e, ok := h.Exams.Exam(chi.URLParam(r, "examID"))
+	if !ok {
+		writeError(w, http.StatusNotFound, "exam not found")
+		return
+	}
+	list, err := h.attempts(ctx, userID)
+	if err != nil {
+		h.internal(w, "list attempts", err)
+		return
+	}
+	out := []attemptSummary{}
+	for _, a := range list {
+		if a.ExamID != e.ExamID {
+			continue
+		}
+		s := attemptSummary{
+			AttemptID: a.ID, StartedAt: a.StartedAt, SubmittedAt: a.SubmittedAt, Open: a.SubmittedAt == nil,
+			Score: a.Score, Passed: a.Passed, Sections: []content.SectionScore{}, WeakTopics: []content.TopicScore{},
+		}
+		var res content.ExamResult
+		if len(a.Result) > 0 && json.Unmarshal(a.Result, &res) == nil {
+			s.Sections = res.Sections
+			for _, t := range res.Topics {
+				if t.Correct < t.Total {
+					s.WeakTopics = append(s.WeakTopics, t)
+				}
+			}
+			// Weakest first: what to review before the next attempt.
+			sort.SliceStable(s.WeakTopics, func(i, j int) bool {
+				a, b := s.WeakTopics[i], s.WeakTopics[j]
+				return a.Correct*b.Total < b.Correct*a.Total
+			})
+		}
 		out = append(out, s)
 	}
 	writeJSON(w, http.StatusOK, out)

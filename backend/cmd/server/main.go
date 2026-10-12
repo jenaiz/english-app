@@ -162,6 +162,7 @@ func main() {
 			r.Get("/srs/expressions", srsH.SavedExpressions)
 			r.Post("/srs/expressions", srsH.AddExpression)
 			r.Get("/exams", examsH.List)
+			r.Get("/exams/{examID}/attempts", examsH.Attempts)
 			r.Post("/exams/{examID}/attempts", examsH.Start)
 			r.Get("/exams/attempts/{attemptID}", examsH.Get)
 			r.Put("/exams/attempts/{attemptID}/answers", examsH.SaveAnswers)

@@ -10,6 +10,45 @@ Cada nivel del MCER tiene sus unidades (`backend/data/levels/<nivel>/`) y un **e
 - Aprobarlo da un certificado imprimible. Es de la app, alineado con el MCER, y lo dice claramente: no es un título oficial.
 - Aprobarlo también desbloquea una actividad del Club (milestone `exam:<id>`).
 
+Después del examen, su página muestra «Qué te toca repasar» (los temas con fallos del último intento, del más flojo al menos, con enlaces a las unidades) y el historial de intentos, cada uno con sus notas por partes y un enlace a su resultado completo. Así lo que hay que repasar no se pierde al cerrar los resultados.
+
+## Los exámenes
+
+| Nivel | Duración | Preguntas | Gramática | Vocabulario | Reading | Listening | Temas | Inspirado en |
+|---|---|---|---|---|---|---|---|---|
+| A1 | 45 min | 59 | 27 | 12 | 10 | 10 | 23 | Cambridge A1 Movers / A2 Key |
+| A2 | 60 min | 76 | 41 | 12 | 11 | 12 | 29 | Cambridge A2 Key |
+| B1 | 65 min | 75 | 40 | 12 | 11 | 12 | 28 | Cambridge B1 Preliminary |
+| B2 | 75 min | 75 | 39 | 12 | 12 | 12 | 27 | Cambridge B2 First |
+| C1 | 80 min | 68 | 32 | 12 | 12 | 12 | 23 | Cambridge C1 Advanced |
+
+Todos tienen las mismas reglas:
+- **Aprobado:** 70% de media de las cuatro partes y al menos un 50% en cada una.
+- **Repetición:** 24 h después de un intento entregado.
+- **Audio:** cada listening se escucha como máximo dos veces.
+
+Los textos y diálogos son originales, inspirados en el formato de Cambridge, nunca copiados de exámenes oficiales. Las preguntas de *choice* se escriben con la respuesta correcta primero; el servidor baraja las opciones en cada intento.
+
+## Referencias
+
+- **Principal: *Core Inventory for General English*** (British Council y EAQUALS), [PDF público](https://www.teachingenglish.org.uk/sites/teacheng/files/media/documents/pub-british-council-eaquals-core-inventoryv2.pdf). Se usan las **páginas de detalle por nivel** (pp. 22–35: cada punto con sus ejemplos), no solo los pósters, que resumen y omiten puntos (por ejemplo, los pronombres posesivos en A1).
+- **Lista de comprobación: [TrackTest](https://tracktest.eu/english-grammar-cef-level-requirements/).** Es más exhaustiva en A2–B2 y adelanta puntos un nivel (pone en A1 el present perfect, los comparativos o el zero conditional). Lo que TrackTest pide y el Core Inventory no, se añade igualmente si es razonable.
+- **El *English Grammar Profile* de Cambridge** (englishprofile.org) pide registro y no se ha consultado directamente.
+
+## Pendiente
+
+- **Revisión humana del contenido nuevo.** Las reglas de gramática añadidas a las unidades y las preguntas de los cinco exámenes las escribió Claude en octubre de 2026 y hay que leerlas antes de publicarlas:
+  - **Unidades:** 50 reglas con su ejercicio. A1 9, A2 14, B1 11, B2 11 y C1 5.
+  - **Exámenes:** unas 700 preguntas entre las dos versiones de los cinco. Están en `backend/data/exams/`; los scripts que las generaron no se guardaron, así que el JSON es la fuente.
+- **Más adelante:** preguntas de exámenes oficiales y un simulador, con writing y speaking.
+
+## Limitaciones conocidas
+
+- **Límite de escuchas.** El de dos escuchas se cuenta en el navegador (`localStorage`). Quien borre los datos de la página puede volver a escuchar. El servidor no lo controla.
+- **Corrección de huecos.** Se normaliza igual que en las lecciones: mayúsculas, contracciones y puntuación no cuentan. Los apóstrofos tampoco, así que «parents» vale por «parents'». Por eso las preguntas de posesivo usan formas que se distinguen sin apóstrofo (*children's*, *sister's*).
+- **Normalización duplicada.** `backend/internal/content/answers.go` es un port de `frontend/src/lib/answers.ts`. Si cambia uno, hay que cambiar el otro (los casos de `answers_test.go` sirven de referencia).
+- **Notas de intentos antiguos.** El resultado de cada intento se guarda al entregarlo. Si después cambian los temas de un examen, los intentos antiguos siguen mostrando los temas de entonces.
+
 La matriz de cobertura de cada nivel (qué pide el MCER, en qué unidad se enseña, con qué etiqueta lo pregunta el examen) está en `docs/levels/<nivel>.md`. Los cinco niveles tienen la suya y su examen: [A1](a1.md), [A2](a2.md), [B1](b1.md), [B2](b2.md) y [C1](c1.md).
 
 ## Añadir el examen de un nivel

@@ -1,4 +1,4 @@
-import type { Activity, ActivityCard, CardKind, ClubSummary, ExamAttempt, ExamSummary, UnlockedActivity, ExpressionKind, ExpressionsCatalog, Grade, LevelStudy, LevelSummary, ProgressResponse, ReviewCard, UnitPosition, SavedExpression, SrsSummary, UnitResponse, User } from '../types'
+import type { Activity, ActivityCard, CardKind, ClubSummary, ExamAttempt, ExamAttemptSummary, ExamSummary, UnlockedActivity, ExpressionKind, ExpressionsCatalog, Grade, LevelStudy, LevelSummary, ProgressResponse, ReviewCard, UnitPosition, SavedExpression, SrsSummary, UnitResponse, User } from '../types'
 
 export class ApiError extends Error {
   constructor(
@@ -75,6 +75,8 @@ export const api = {
   activity: (id: string) => request<{ activity: Activity; card: ActivityCard }>(`/club/${encodeURIComponent(id)}`),
   completeActivity: (id: string, score: number) => post<{ best_score: number }>(`/club/${encodeURIComponent(id)}/complete`, { score }),
   exams: () => request<ExamSummary[]>('/exams'),
+  /** The learner's attempts at an exam, newest first. */
+  examAttempts: (examId: string) => request<ExamAttemptSummary[]>(`/exams/${encodeURIComponent(examId)}/attempts`),
   /** Opens an attempt (or returns the open one). 409 "retake_wait" with retry_at while waiting. */
   startExam: (examId: string) => post<{ attempt_id: string }>(`/exams/${encodeURIComponent(examId)}/attempts`),
   examAttempt: (attemptId: string) => request<ExamAttempt>(`/exams/attempts/${encodeURIComponent(attemptId)}`),
