@@ -1,3 +1,4 @@
+import { lazy, Suspense } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import LegacyRedirect from './components/LegacyRedirect'
 import CookieBanner from './components/CookieBanner'
@@ -34,6 +35,9 @@ import Study from './pages/Study'
 import Terms from './pages/Terms'
 import UnitView from './pages/UnitView'
 import VerifyEmail from './pages/VerifyEmail'
+
+// Only the admin opens it: kept out of the main bundle.
+const Admin = lazy(() => import('./pages/Admin'))
 
 export default function App() {
   return (
@@ -73,6 +77,14 @@ export default function App() {
                 <Route path="/club/:activityId" element={<ClubActivity />} />
                 <Route path="/repaso" element={<Review />} />
                 <Route path="/ajustes" element={<Settings />} />
+                <Route
+                  path="/admin"
+                  element={
+                    <Suspense fallback={null}>
+                      <Admin />
+                    </Suspense>
+                  }
+                />
               </Route>
               {/* Old English paths, kept working for bookmarks and links already out there. */}
               <Route path="/levels" element={<LegacyRedirect to="/niveles" />} />

@@ -39,6 +39,8 @@ services:
       LAB_CLUB_DIR: /src/data/lab_club
       GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
       GA_MEASUREMENT_ID: ${GA_MEASUREMENT_ID:-}
+      # Emails allowed into /admin (comma-separated, must be verified).
+      ADMIN_EMAILS: ${ADMIN_EMAILS:-}
       # Links in emails open the Vite dev server.
       APP_URL: http://localhost:5173
       MAIL_FROM: ${MAIL_FROM:-Fluently <no-reply@bukios.com>}

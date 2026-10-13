@@ -26,14 +26,22 @@ func (h *ProgressHandler) Get(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	writeJSON(w, http.StatusOK, map[string]any{
+		"lessons":         items,
+		"completed_units": completedUnits(h.Catalog, items),
+	})
+}
+
+// completedUnits returns the units whose lessons are all completed.
+func completedUnits(catalog *content.Catalog, items []store.Progress) []string {
 	done := map[string]bool{}
 	for _, p := range items {
 		if p.Status == "completed" {
 			done[p.LessonID] = true
 		}
 	}
-	completedUnits := []string{}
-	for id, ref := range h.Catalog.Units() {
+	out := []string{}
+	for id, ref := range catalog.Units() {
 		if len(ref.Unit.Lessons) == 0 {
 			continue
 		}
@@ -45,14 +53,10 @@ func (h *ProgressHandler) Get(w http.ResponseWriter, r *http.Request) {
 			}
 		}
 		if all {
-			completedUnits = append(completedUnits, id)
+			out = append(out, id)
 		}
 	}
-
-	writeJSON(w, http.StatusOK, map[string]any{
-		"lessons":         items,
-		"completed_units": completedUnits,
-	})
+	return out
 }
 
 type completeRequest struct {

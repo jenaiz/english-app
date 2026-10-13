@@ -1,4 +1,4 @@
-import type { Activity, ActivityCard, CardKind, ClubSummary, ExamAttempt, ExamAttemptSummary, ExamSummary, UnlockedActivity, ExpressionKind, ExpressionsCatalog, Grade, LevelStudy, LevelSummary, ProgressResponse, ReviewCard, UnitPosition, SavedExpression, SrsSummary, UnitResponse, User } from '../types'
+import type { Activity, AdminStats, AdminUser, AdminUserDetail, ActivityCard, CardKind, ClubSummary, ExamAttempt, ExamAttemptSummary, ExamSummary, UnlockedActivity, ExpressionKind, ExpressionsCatalog, Grade, LevelStudy, LevelSummary, ProgressResponse, ReviewCard, UnitPosition, SavedExpression, SrsSummary, UnitResponse, User } from '../types'
 
 export class ApiError extends Error {
   constructor(
@@ -37,7 +37,18 @@ async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
 const post = <T>(path: string, body?: unknown) =>
   request<T>(path, { method: 'POST', body: body === undefined ? undefined : JSON.stringify(body) })
 
+const adminUser = (id: string) => `/admin/users/${encodeURIComponent(id)}`
+
 export const api = {
+  admin: {
+    stats: () => request<AdminStats>('/admin/stats'),
+    users: () => request<{ users: AdminUser[]; limit: number }>('/admin/users'),
+    user: (id: string) => request<AdminUserDetail>(adminUser(id)),
+    /** sent is false when the same email went out less than a minute ago. */
+    resendVerification: (id: string) => post<{ sent: boolean }>(`${adminUser(id)}/resend-verification`),
+    sendReset: (id: string) => post<{ sent: boolean }>(`${adminUser(id)}/send-reset`),
+    deleteUser: (id: string) => request<void>(adminUser(id), { method: 'DELETE' }),
+  },
   register: (email: string, password: string) =>
     post<{ verification_sent: boolean; email: string }>('/auth/register', { email, password }),
   login: (email: string, password: string) => post<{ user: User }>('/auth/login', { email, password }),

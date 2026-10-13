@@ -49,6 +49,8 @@ type Config struct {
 	AWSRegion          string
 	AWSAccessKeyID     string
 	AWSSecretAccessKey string
+	// AdminEmails (comma-separated) can open the admin panel, once their email is verified.
+	AdminEmails string
 }
 
 func Load() Config {
@@ -72,6 +74,7 @@ func Load() Config {
 		AWSRegion:          getEnv("AWS_REGION", "eu-west-1"),
 		AWSAccessKeyID:     getEnv("AWS_ACCESS_KEY_ID", ""),
 		AWSSecretAccessKey: getEnv("AWS_SECRET_ACCESS_KEY", ""),
+		AdminEmails:        getEnv("ADMIN_EMAILS", ""),
 	}
 	cfg.ExpressionsDir = getEnv("EXPRESSIONS_DIR", filepath.Join(filepath.Dir(cfg.ContentDir), "expressions"))
 	cfg.ClubDir = getEnv("CLUB_DIR", filepath.Join(filepath.Dir(cfg.ContentDir), "club"))

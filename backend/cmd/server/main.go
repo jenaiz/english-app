@@ -89,7 +89,7 @@ func main() {
 	} else {
 		log.Println("AWS credentials not set: emails are written to the log instead of sent")
 	}
-	authH := &handlers.AuthHandler{Store: st, Tokens: tokens, GoogleAuth: auth.NewGoogleVerifier(cfg.GoogleClientID), CookieSecure: cfg.CookieSecure, GAMeasurementID: cfg.GAMeasurementID, Mail: mailer, AppURL: cfg.AppURL}
+	authH := &handlers.AuthHandler{Store: st, Tokens: tokens, GoogleAuth: auth.NewGoogleVerifier(cfg.GoogleClientID), CookieSecure: cfg.CookieSecure, GAMeasurementID: cfg.GAMeasurementID, Mail: mailer, AppURL: cfg.AppURL, Admins: handlers.ParseAdmins(cfg.AdminEmails)}
 	if cfg.GoogleClientID == "" {
 		log.Println("GOOGLE_CLIENT_ID not set: Google sign-in disabled")
 	}
@@ -99,6 +99,11 @@ func main() {
 	srsH := &handlers.SRSHandler{Store: st, Catalog: catalog, Expressions: expressions}
 	expressionsH := &handlers.ExpressionsHandler{Expressions: expressions}
 	audioH := &handlers.AudioHandler{Voices: voices, Dir: cfg.AudioDir}
+	adminH := &handlers.AdminHandler{Store: st, Catalog: catalog, Admins: authH.Admins, Auth: authH}
+	if len(authH.Admins) == 0 {
+		log.Println("ADMIN_EMAILS not set: admin panel disabled")
+	}
+	lastSeen := &handlers.LastSeen{Store: st}
 	examsH := &handlers.ExamsHandler{Store: st, Catalog: catalog, Exams: exams, Club: club, Voices: voices}
 
 	r := chi.NewRouter()
@@ -140,7 +145,7 @@ func main() {
 		r.Get("/audio/{file}", audioH.File)
 
 		r.Group(func(r chi.Router) {
-			r.Use(tokens.Middleware)
+			r.Use(tokens.Middleware, lastSeen.Middleware)
 			r.Get("/auth/me", authH.Me)
 			r.Patch("/account", authH.UpdateAccount)
 			r.Post("/account/password", authH.ChangePassword)
@@ -168,6 +173,16 @@ func main() {
 			r.Get("/exams/attempts/{attemptID}", examsH.Get)
 			r.Put("/exams/attempts/{attemptID}/answers", examsH.SaveAnswers)
 			r.Post("/exams/attempts/{attemptID}/submit", examsH.Submit)
+
+			r.Route("/admin", func(r chi.Router) {
+				r.Use(adminH.RequireAdmin)
+				r.Get("/stats", adminH.Stats)
+				r.Get("/users", adminH.Users)
+				r.Get("/users/{userID}", adminH.User)
+				r.Post("/users/{userID}/resend-verification", adminH.ResendVerification)
+				r.Post("/users/{userID}/send-reset", adminH.SendReset)
+				r.Delete("/users/{userID}", adminH.DeleteUser)
+			})
 		})
 	})
 

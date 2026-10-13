@@ -32,6 +32,7 @@ func (h *AuthHandler) UpdateAccount(w http.ResponseWriter, r *http.Request) {
 		h.accountError(w, err)
 		return
 	}
+	user.IsAdmin = h.Admins.Allows(user)
 	writeJSON(w, http.StatusOK, user)
 }
 

@@ -46,6 +46,8 @@ services:
       # Optional: enables "Sign in with Google". Add it to the VPS .env.
       GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
       GA_MEASUREMENT_ID: ${GA_MEASUREMENT_ID:-}
+      # Emails allowed into /admin (comma-separated, must be verified).
+      ADMIN_EMAILS: ${ADMIN_EMAILS:-}
       # Emails (verification, password reset) via the bukios Amazon SES account.
       APP_URL: ${APP_URL:-https://fluently.bukios.com}
       MAIL_FROM: ${MAIL_FROM:-Fluently <no-reply@bukios.com>}

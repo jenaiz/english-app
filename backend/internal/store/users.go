@@ -31,6 +31,8 @@ type User struct {
 	// EmailVerified is false for email sign-ups until they open the confirmation link.
 	EmailVerified bool      `json:"email_verified"`
 	CreatedAt     time.Time `json:"created_at"`
+	// IsAdmin is set by the handlers for the admin account only (never stored).
+	IsAdmin bool `json:"is_admin,omitempty"`
 }
 
 type Store struct {
@@ -157,6 +159,13 @@ func (s *Store) SetDisplayName(ctx context.Context, userID, name string) (*User,
 func (s *Store) SetDisplayNameIfEmpty(ctx context.Context, userID, name string) error {
 	_, err := s.pool.Exec(ctx,
 		`UPDATE users SET display_name = $2 WHERE id = $1 AND display_name IS NULL AND $2 <> ''`, userID, name)
+	return err
+}
+
+// TouchLastSeen records a visit. Writes at most once every 10 minutes per user.
+func (s *Store) TouchLastSeen(ctx context.Context, userID string) error {
+	_, err := s.pool.Exec(ctx, `UPDATE users SET last_seen_at = NOW()
+		WHERE id = $1 AND (last_seen_at IS NULL OR last_seen_at < NOW() - INTERVAL '10 minutes')`, userID)
 	return err
 }
 

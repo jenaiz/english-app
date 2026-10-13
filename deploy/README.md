@@ -87,6 +87,15 @@ ssh -i ~/.ssh/bukios_deploy deploy@bukios.com \
   "cd ~/fluently && echo 'GA_MEASUREMENT_ID=G-609K1JBZR4' >> .env && docker compose up -d backend"
 ```
 
+### Panel de administración
+
+`/admin` (enlace «Administración» en el menú de la cuenta) lista los usuarios con su nivel, verificación y último acceso, y permite reenviar la verificación, mandar un reset de contraseña o borrar una cuenta. Solo entran los emails de `ADMIN_EMAILS` (separados por comas) y solo si están verificados; para cualquier otro la ruta y su API responden 404. Sin la variable el panel queda desactivado.
+
+```bash
+ssh -i ~/.ssh/bukios_deploy deploy@bukios.com \
+  "cd ~/fluently && echo 'ADMIN_EMAILS=<tu email>' >> .env && docker compose up -d backend"
+```
+
 Los textos legales (`/aviso-legal`, `/privacidad`, `/cookies`, `/terminos`, `/contacto`) toman los datos del titular de `frontend/src/lib/site.ts` (el NIF está vacío a propósito: si `taxId` es `''` no se muestra).
 
 Logs: `ssh -i ~/.ssh/bukios_deploy deploy@bukios.com 'cd ~/fluently && docker compose logs -f --tail 100'`

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { ChevronDown, LogOut, Settings } from 'lucide-react'
+import { ChevronDown, LogOut, Settings, ShieldCheck } from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
 import { displayName } from '../lib/user'
 
@@ -67,6 +67,11 @@ export default function UserMenu() {
             <Link to="/ajustes" role="menuitem" onClick={() => setOpen(false)} className={itemClass}>
               <Settings className="h-4 w-4 text-slate-400" /> Ajustes
             </Link>
+            {user.is_admin && (
+              <Link to="/admin" role="menuitem" onClick={() => setOpen(false)} className={itemClass}>
+                <ShieldCheck className="h-4 w-4 text-slate-400" /> Administración
+              </Link>
+            )}
             <button type="button" role="menuitem" onClick={handleLogout} className={itemClass}>
               <LogOut className="h-4 w-4 text-slate-400" /> Salir
             </button>

@@ -32,6 +32,8 @@ type AuthHandler struct {
 	Mail            appmail.Sender
 	// AppURL is the frontend's public URL, used to build the links in emails.
 	AppURL string
+	// Admins get is_admin in their user, which shows the admin panel link.
+	Admins Admins
 }
 
 type credentials struct {
@@ -272,6 +274,7 @@ func (h *AuthHandler) Me(w http.ResponseWriter, r *http.Request) {
 		h.internal(w, err)
 		return
 	}
+	user.IsAdmin = h.Admins.Allows(user)
 	writeJSON(w, http.StatusOK, user)
 }
 
@@ -348,6 +351,7 @@ func (h *AuthHandler) setSession(w http.ResponseWriter, user *store.User) (strin
 		return "", err
 	}
 	h.Tokens.SetCookie(w, token)
+	user.IsAdmin = h.Admins.Allows(user)
 	return token, nil
 }
 

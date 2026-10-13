@@ -7,6 +7,49 @@ export interface User {
   has_google: boolean
   email_verified: boolean
   created_at: string
+  /** Only present (true) for the admin account. */
+  is_admin?: boolean
+}
+
+export interface AdminStats {
+  users: number
+  verified: number
+  google: number
+  new_7d: number
+  new_30d: number
+  active_1d: number
+  active_7d: number
+  active_30d: number
+}
+
+export interface AdminUser {
+  id: string
+  email: string
+  name: string
+  has_password: boolean
+  has_google: boolean
+  email_verified: boolean
+  created_at: string
+  /** Latest visit or lesson progress; null if never seen. */
+  last_seen_at: string | null
+  lessons_done: number
+  passed_levels: string[]
+  cards: number
+  /** Level of the unit studied last ("" if not started). */
+  level: string
+  /** Highest level exam passed ("" if none). */
+  certified_level: string
+}
+
+export interface AdminUserDetail {
+  user: AdminUser
+  levels: { level_id: string; title: string; units_done: number; units_total: number }[]
+  exams: { exam_id: string; level_id: string; started_at: string; submitted_at?: string; score?: number; passed?: boolean }[]
+  club_unlocked: number
+  club_completed: number
+  cards_due: number
+  cards_total: number
+  lessons_started: number
 }
 
 /** 'test' marks a checkpoint: graded exercises only, no 7-phase flow. */
