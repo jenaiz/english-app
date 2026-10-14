@@ -60,6 +60,11 @@ func main() {
 		log.Fatalf("exams: %v", err)
 	}
 	log.Printf("loaded %d level exams from %s", len(exams.List), cfg.ExamsDir)
+	practice, err := content.LoadPractice(cfg.PracticeDir, catalog, exams)
+	if err != nil {
+		log.Fatalf("practice: %v", err)
+	}
+	log.Printf("loaded %d practice topics from %s", len(practice.Topics), cfg.PracticeDir)
 	// After the exams: games take their topics from the exam of their level.
 	club, err := content.LoadClub(cfg.ClubDir, cfg.LabClubDir, catalog, expressions, exams)
 	if err != nil {
@@ -104,6 +109,7 @@ func main() {
 		log.Println("ADMIN_EMAILS not set: admin panel disabled")
 	}
 	lastSeen := &handlers.LastSeen{Store: st}
+	practiceH := &handlers.PracticeHandler{Store: st, Catalog: catalog, Practice: practice}
 	examsH := &handlers.ExamsHandler{Store: st, Catalog: catalog, Exams: exams, Club: club, Voices: voices}
 
 	r := chi.NewRouter()
@@ -167,6 +173,9 @@ func main() {
 			r.Post("/srs/review", srsH.Review)
 			r.Get("/srs/expressions", srsH.SavedExpressions)
 			r.Post("/srs/expressions", srsH.AddExpression)
+			r.Get("/practice", practiceH.List)
+			r.Get("/practice/{topicID}/session", practiceH.Session)
+			r.Post("/practice/{topicID}/session", practiceH.Finish)
 			r.Get("/exams", examsH.List)
 			r.Get("/exams/{examID}/attempts", examsH.Attempts)
 			r.Post("/exams/{examID}/attempts", examsH.Start)

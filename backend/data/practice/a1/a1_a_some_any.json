@@ -1,0 +1,112 @@
+{
+  "topic_id": "a1_a_some_any",
+  "level_id": "A1",
+  "title": "a / an, some y any",
+  "tags": ["there_is_some_any", "articles_demonstratives"],
+  "units": ["numbers_colors", "at_the_pub"],
+  "rule": {
+    "title": "a / an, some, any",
+    "explanation": "**a / an** van con una sola cosa que se puede contar: a sandwich, an apple. Usa **an** cuando la palabra siguiente empieza por sonido de vocal: an egg, an hour (la h no suena), pero a university (suena «iu»).\n\n**some** va con plurales (some eggs) y con cosas que no se cuentan (some milk, some bread) en frases afirmativas.\n\n**any** va con plurales e incontables en negativas y preguntas: There isn't any milk. Are there any eggs?\n\nOjo: para ofrecer o pedir algo se usa some aunque sea pregunta: Would you like some tea? Can I have some water, please?\n\nAlgunas palabras no se cuentan en inglés aunque en español sí: bread, money, information, furniture, advice. Nunca llevan a / an: some bread, any information.",
+    "examples": [
+      "There's an orange and a banana in my bag.",
+      "We've got some cheese, but there isn't any milk.",
+      "Are there any chairs in the kitchen?",
+      "Would you like some coffee?"
+    ],
+    "table": {
+      "headers": ["", "contable singular", "plural", "incontable"],
+      "rows": [
+        ["afirmativa", "a / an: a cup", "some cups", "some tea"],
+        ["negativa", "not a: There isn't a cup.", "not any cups", "not any tea"],
+        ["pregunta", "Is there a cup?", "Are there any cups?", "Is there any tea?"],
+        ["ofrecer / pedir", "Would you like a cup?", "Would you like some biscuits?", "Can I have some tea?"]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con a, an, some o any.",
+      "bank": ["a", "an", "some", "any"],
+      "items": [
+        { "id": "a1_a_some_any.001", "sentence": "I'd like ___ apple, please.", "answers": [["an"]], "explanation": "Una cosa contable que empieza por vocal: an." },
+        { "id": "a1_a_some_any.002", "sentence": "There's ___ bottle of water in the fridge.", "answers": [["a"]], "explanation": "Una sola cosa contable: a." },
+        { "id": "a1_a_some_any.003", "sentence": "We've got ___ eggs, so we can make an omelette.", "answers": [["some"]], "explanation": "Plural en afirmativa: some." },
+        { "id": "a1_a_some_any.004", "sentence": "Sorry, there isn't ___ coffee.", "answers": [["any"]], "explanation": "Incontable en negativa: any." },
+        { "id": "a1_a_some_any.005", "sentence": "Are there ___ tomatoes in the salad?", "answers": [["any"]], "explanation": "Plural en pregunta: any." },
+        { "id": "a1_a_some_any.006", "sentence": "Daniel is ___ engineer.", "answers": [["an"]], "explanation": "Profesiones llevan a / an; engineer empieza por vocal." },
+        { "id": "a1_a_some_any.007", "sentence": "Can I have ___ bread, please?", "answers": [["some"]], "explanation": "Pedir algo: some, aunque sea pregunta." },
+        { "id": "a1_a_some_any.008", "sentence": "There aren't ___ buses after midnight.", "answers": [["any"]], "explanation": "Plural en negativa: any." },
+        { "id": "a1_a_some_any.009", "sentence": "Priya has got ___ old bike.", "answers": [["an"]], "explanation": "old empieza por vocal: an." },
+        { "id": "a1_a_some_any.010", "sentence": "Would you like ___ biscuits?", "answers": [["some"]], "explanation": "Ofrecer algo: some." },
+        { "id": "a1_a_some_any.011", "sentence": "Is there ___ cash machine near here?", "answers": [["a"]], "explanation": "Una sola cosa contable, en pregunta: a." },
+        { "id": "a1_a_some_any.012", "sentence": "I need ___ information about the trains.", "answers": [["some"]], "explanation": "information no se cuenta: some, nunca an." },
+        { "id": "a1_a_some_any.013", "sentence": "We haven't got ___ milk. Can you buy some?", "answers": [["any"]], "explanation": "Incontable en negativa: any." },
+        { "id": "a1_a_some_any.014", "sentence": "It's ___ hour from Bristol to Bath by bus.", "answers": [["an"]], "explanation": "La h de hour no suena: an hour." },
+        { "id": "a1_a_some_any.015", "sentence": "Lucía studies at ___ university in Bristol.", "answers": [["a"]], "explanation": "university suena «iu»: a." },
+        { "id": "a1_a_some_any.016", "sentence": "There are ___ nice cafés in this street.", "answers": [["some"]], "explanation": "Plural en afirmativa: some." },
+        { "id": "a1_a_some_any.017", "sentence": "Have you got ___ brothers or sisters?", "answers": [["any"]], "explanation": "Plural en pregunta: any." },
+        { "id": "a1_a_some_any.018", "sentence": "I'm hungry. I want ___ sandwich.", "answers": [["a"]], "explanation": "Una sola cosa contable: a." },
+        { "id": "a1_a_some_any.019", "sentence": "Javi doesn't have ___ money this month.", "answers": [["any"]], "explanation": "money no se cuenta; en negativa: any." },
+        { "id": "a1_a_some_any.020", "sentence": "There's ___ umbrella by the door. Is it yours?", "answers": [["an"]], "explanation": "umbrella empieza por vocal: an." },
+        { "id": "a1_a_some_any.021", "sentence": "I've got ___ good news for you!", "answers": [["some"]], "explanation": "news no se cuenta: some." },
+        { "id": "a1_a_some_any.022", "sentence": "Is there ___ sugar in this tea?", "answers": [["any"]], "explanation": "Incontable en pregunta (no es una oferta): any." }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        { "id": "a1_a_some_any.101", "question": "Hay unas sillas en el jardín.", "options": ["There are any chairs in the garden.", "There are some chairs in the garden."], "answer": 1, "explanation": "Afirmativa: some." },
+        { "id": "a1_a_some_any.102", "question": "¿Hay leche?", "options": ["Is there any milk?", "Is there a milk?"], "answer": 0, "explanation": "milk no se cuenta: any en pregunta, nunca a." },
+        { "id": "a1_a_some_any.103", "question": "Es un hospital grande.", "options": ["It's an big hospital.", "It's a big hospital."], "answer": 1, "explanation": "Cuenta la palabra que va justo detrás: big empieza por consonante." },
+        { "id": "a1_a_some_any.104", "question": "No tengo preguntas.", "options": ["I haven't got some questions.", "I haven't got any questions."], "answer": 1, "explanation": "Negativa: any." },
+        { "id": "a1_a_some_any.105", "question": "¿Quieres un poco de agua?", "options": ["Would you like some water?", "Would you like any water?"], "answer": 0, "explanation": "Ofrecer: some." },
+        { "id": "a1_a_some_any.106", "question": "Necesito un consejo.", "options": ["I need an advice.", "I need some advice."], "answer": 1, "explanation": "advice no se cuenta: some advice." },
+        { "id": "a1_a_some_any.107", "question": "Hay un huevo en la nevera.", "options": ["There's an egg in the fridge.", "There's a egg in the fridge."], "answer": 0, "explanation": "egg empieza por vocal: an." },
+        { "id": "a1_a_some_any.108", "question": "No hay muebles en el salón.", "options": ["There isn't any furniture in the living room.", "There aren't any furnitures in the living room."], "answer": 0, "explanation": "furniture no se cuenta ni tiene plural." },
+        { "id": "a1_a_some_any.109", "question": "Sam es un músico estupendo.", "options": ["Sam is great musician.", "Sam is a great musician."], "answer": 1, "explanation": "Con profesiones, a / an siempre (en español no se pone)." },
+        { "id": "a1_a_some_any.110", "question": "¿Me pones unas patatas fritas?", "options": ["Can I have any chips, please?", "Can I have some chips, please?"], "answer": 1, "explanation": "Pedir: some." }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Cada frase tiene un error con a, an, some o any. Escríbela bien.",
+      "items": [
+        { "id": "a1_a_some_any.201", "prompt": "Corrige", "source": "There isn't some cheese.", "answers": ["There isn't any cheese"], "explanation": "Negativa: any." },
+        { "id": "a1_a_some_any.202", "prompt": "Corrige", "source": "I've got a orange.", "answers": ["I've got an orange", "I have got an orange"], "explanation": "orange empieza por vocal: an." },
+        { "id": "a1_a_some_any.203", "prompt": "Corrige", "source": "Are there some shops near here?", "answers": ["Are there any shops near here"], "explanation": "Pregunta (no ofrecer ni pedir): any." },
+        { "id": "a1_a_some_any.204", "prompt": "Corrige", "source": "Priya is nurse.", "answers": ["Priya is a nurse"], "explanation": "Profesiones: a / an." },
+        { "id": "a1_a_some_any.205", "prompt": "Corrige", "source": "We need a bread for the sandwiches.", "answers": ["We need some bread for the sandwiches"], "explanation": "bread no se cuenta: some." },
+        { "id": "a1_a_some_any.206", "prompt": "Corrige", "source": "There are any books on the table.", "answers": ["There are some books on the table"], "explanation": "Afirmativa: some." },
+        { "id": "a1_a_some_any.207", "prompt": "Corrige", "source": "I have an information for you.", "answers": ["I have some information for you", "I've got some information for you"], "explanation": "information no se cuenta: some." },
+        { "id": "a1_a_some_any.208", "prompt": "Corrige", "source": "It's a easy question.", "answers": ["It's an easy question", "It is an easy question"], "explanation": "easy empieza por vocal: an." }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        { "id": "a1_a_some_any.301", "source": "Hay unos huevos en la nevera.", "answers": ["There are some eggs in the fridge"] },
+        { "id": "a1_a_some_any.302", "source": "No hay pan.", "answers": ["There isn't any bread", "There's no bread"] },
+        { "id": "a1_a_some_any.303", "source": "¿Hay tiendas cerca de aquí?", "answers": ["Are there any shops near here"] },
+        { "id": "a1_a_some_any.304", "source": "Es una idea interesante.", "answers": ["It's an interesting idea"] },
+        { "id": "a1_a_some_any.305", "source": "¿Quieres té?", "answers": ["Would you like some tea", "Do you want some tea", "Would you like a tea", "Do you want a tea"] },
+        { "id": "a1_a_some_any.306", "source": "Mi hermano es actor.", "answers": ["My brother is an actor"] },
+        { "id": "a1_a_some_any.307", "source": "No tengo dinero.", "answers": ["I haven't got any money", "I don't have any money", "I have no money"] },
+        { "id": "a1_a_some_any.308", "source": "Necesito un paraguas.", "answers": ["I need an umbrella"] }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        { "id": "a1_a_some_any.401", "answer": "There is some milk in the fridge" },
+        { "id": "a1_a_some_any.402", "answer": "Are there any vegetarian dishes?" },
+        { "id": "a1_a_some_any.403", "answer": "We haven't got any eggs" },
+        { "id": "a1_a_some_any.404", "answer": "Would you like some cake?" },
+        { "id": "a1_a_some_any.405", "answer": "Daniel is an engineer from Galway" }
+      ]
+    }
+  ]
+}

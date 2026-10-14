@@ -82,5 +82,14 @@ Las reglas y los ejercicios de las unidades usan los mismos temas (`tag`) que el
 
 - **Reglas:** cada `grammar_rule` lleva `"tag"` en su `content`. Es obligatorio en todos los niveles.
 - **Ejercicios:** el `"tag"` del `content` de un paso es el tema por defecto de sus ítems. Un ítem puede poner el suyo. En el descubrimiento (`discovery`), una pregunta de comprensión del diálogo puede llevar `"tag": ""` para quedar fuera.
-- **Qué niveles tienen todos los ítems etiquetados:** los que ya tienen banco de práctica. Por ahora, solo A1. Están en `itemTaggedLevels` (`backend/internal/content/topics_test.go`). Speaking y el speed quiz no cuentan.
-- **`TestCourseTags`** comprueba que cada tema existe en el syllabus del nivel de la unidad o de uno anterior, y que en los niveles de `itemTaggedLevels` no queda ningún ítem sin tema.
+- **Qué niveles tienen todos los ítems etiquetados:** los que ya tienen banco de práctica en `backend/data/practice/<nivel>/`. Por ahora, solo A1. Speaking y el speed quiz no cuentan.
+- **`TestCourseTags`** comprueba que cada tema existe en el syllabus del nivel de la unidad o de uno anterior, y que en los niveles con banco de práctica no queda ningún ítem sin tema.
+
+## Banco de práctica (Repaso → Gramática)
+
+Un archivo por tema en `backend/data/practice/<nivel>/<topic_id>.json`: regla (`rule`, como un `grammar_rule`), temas del syllabus que practica (`tags`), unidades que lo enseñan (`units`, el tema se abre al empezar una) y conjuntos de ítems por formato (`sets`: `fill_blanks` con `bank` opcional, `multiple_choice`, `transformation`, `translation`, `word_order`).
+
+- Cada ítem lleva un `id` estable `<topic_id>.<n>`: las estadísticas del alumno van por id, así que se puede corregir el texto sin perderlas, pero un id no se reutiliza para otra frase.
+- Mínimo 40 ítems y 3 formatos por tema (`TestBundledPractice`).
+- **Frases propias.** Los libros (Grammar in Use…) sirven de referencia de temas y formatos; no se copia ningún ítem ni ejemplo.
+- Cada ronda son 12 ítems: primero los fallados, luego los no vistos y después los vistos hace más tiempo, mezclando formatos. El tema se programa con SM-2 según la nota de la ronda.

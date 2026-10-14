@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { BookA, Check, ChevronRight, Clock, History, Loader2, Plus, Quote, Sparkles } from 'lucide-react'
+import { BookA, Check, ChevronRight, Clock, Dumbbell, History, Loader2, Plus, Quote, Sparkles } from 'lucide-react'
 import { api } from '../../api/client'
 import type { CardKind, SrsSummary } from '../../types'
 import ErrorState from '../ui/ErrorState'
@@ -60,12 +60,18 @@ const SECONDS_PER_CARD = 20
 export default function ReviewHub({ onStart }: { onStart: (deck: Deck) => void }) {
   const [summary, setSummary] = useState<SrsSummary | null>(null)
   const [error, setError] = useState('')
+  // Grammar practice is a separate section; if it fails to load, the hub just leaves it out.
+  const [grammar, setGrammar] = useState<{ due: number; open: number } | null>(null)
 
   useEffect(() => {
     api
       .srsSummary()
       .then(setSummary)
       .catch((e: Error) => setError(e.message))
+    api
+      .practice()
+      .then((p) => setGrammar({ due: p.due, open: p.topics.filter((t) => !t.locked).length }))
+      .catch(() => {})
   }, [])
 
   if (error) {
@@ -188,6 +194,29 @@ export default function ReviewHub({ onStart }: { onStart: (deck: Deck) => void }
           })}
         </section>
       </div>
+
+      {grammar && (
+        <Link
+          to="/repaso/gramatica"
+          className="group mt-5 flex items-center gap-4 rounded-2xl border border-slate-200 bg-white px-4 py-4 transition hover:border-indigo-300 hover:shadow-sm"
+        >
+          <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-indigo-50 text-indigo-600">
+            <Dumbbell className="h-5 w-5" />
+          </span>
+          <span className="min-w-0 flex-1">
+            <span className="block font-semibold text-slate-900">Gramática</span>
+            <span className="block text-sm text-slate-500">
+              {grammar.open === 0
+                ? 'Se abre con tus primeras unidades'
+                : grammar.due > 0
+                  ? `${grammar.due} ${grammar.due === 1 ? 'tema' : 'temas'} para practicar hoy`
+                  : `${grammar.open} ${grammar.open === 1 ? 'tema' : 'temas'} para practicar: rondas de 12 ejercicios`}
+            </span>
+          </span>
+          {grammar.due > 0 && <span className="font-display text-xl font-bold text-slate-900 tabular-nums">{grammar.due}</span>}
+          <ChevronRight className="h-5 w-5 shrink-0 text-indigo-500 transition group-hover:translate-x-0.5" />
+        </Link>
+      )}
 
       {summary.queued > 0 && (
         <p className="mt-5 flex items-start gap-2 rounded-2xl bg-amber-50 px-4 py-3 text-sm text-amber-800">

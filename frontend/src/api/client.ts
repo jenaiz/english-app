@@ -1,4 +1,4 @@
-import type { Activity, AdminStats, AdminUser, AdminUserDetail, ActivityCard, CardKind, ClubSummary, ExamAttempt, ExamAttemptSummary, ExamSummary, ExerciseResult, UnlockedActivity, ExpressionKind, ExpressionsCatalog, Grade, LevelStudy, LevelSummary, ProgressResponse, ReviewCard, UnitPosition, SavedExpression, SrsSummary, UnitResponse, User } from '../types'
+import type { Activity, AdminStats, AdminUser, AdminUserDetail, ActivityCard, CardKind, ClubSummary, ExamAttempt, ExamAttemptSummary, ExamSummary, ExerciseResult, UnlockedActivity, ExpressionKind, ExpressionsCatalog, Grade, LevelStudy, LevelSummary, PracticeItemResult, PracticeRound, PracticeRoundResult, PracticeTopicSummary, ProgressResponse, ReviewCard, UnitPosition, SavedExpression, SrsSummary, UnitResponse, User } from '../types'
 
 export class ApiError extends Error {
   constructor(
@@ -87,6 +87,11 @@ export const api = {
   /** Opening an activity marks it as seen. 403 "locked" if it isn't unlocked yet. */
   activity: (id: string) => request<{ activity: Activity; card: ActivityCard }>(`/club/${encodeURIComponent(id)}`),
   completeActivity: (id: string, score: number) => post<{ best_score: number }>(`/club/${encodeURIComponent(id)}/complete`, { score }),
+  practice: () => request<{ topics: PracticeTopicSummary[]; due: number }>('/practice'),
+  /** A new round of a topic. 403 "locked" until one of its units is started. */
+  practiceRound: (topicId: string) => request<PracticeRound>(`/practice/${encodeURIComponent(topicId)}/session`),
+  finishPractice: (topicId: string, results: PracticeItemResult[]) =>
+    post<PracticeRoundResult>(`/practice/${encodeURIComponent(topicId)}/session`, { results }),
   exams: () => request<ExamSummary[]>('/exams'),
   /** The learner's attempts at an exam, newest first. */
   examAttempts: (examId: string) => request<ExamAttemptSummary[]>(`/exams/${encodeURIComponent(examId)}/attempts`),

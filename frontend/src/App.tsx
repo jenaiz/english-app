@@ -30,6 +30,7 @@ import Privacy from './pages/Privacy'
 import Register from './pages/Register'
 import ResetPassword from './pages/ResetPassword'
 import Review from './pages/Review'
+import GrammarPractice from './pages/GrammarPractice'
 import Settings from './pages/Settings'
 import Study from './pages/Study'
 import Terms from './pages/Terms'
@@ -76,6 +77,8 @@ export default function App() {
                 {import.meta.env.DEV && <Route path="/club/dev/timing" element={<ClubTiming />} />}
                 <Route path="/club/:activityId" element={<ClubActivity />} />
                 <Route path="/repaso" element={<Review />} />
+                <Route path="/repaso/gramatica" element={<GrammarPractice />} />
+                <Route path="/repaso/gramatica/:topicId" element={<GrammarPractice />} />
                 <Route path="/ajustes" element={<Settings />} />
                 <Route
                   path="/admin"

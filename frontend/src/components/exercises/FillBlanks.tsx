@@ -31,6 +31,15 @@ export default function FillBlanks({ content, onComplete }: { content: ItemsCont
       explanation={item.explanation}
       hint={item.hint}
     >
+      {content.bank && (
+        <p className="mb-4 flex flex-wrap gap-2" aria-label="Palabras para completar">
+          {content.bank.map((w) => (
+            <span key={w} className="rounded-lg border border-slate-200 bg-slate-50 px-2.5 py-1 font-semibold text-slate-700">
+              {w}
+            </span>
+          ))}
+        </p>
+      )}
       <p className="text-xl leading-loose text-slate-900">
         {parts.map((part, i) => (
           <Fragment key={`${ex.index}-${i}`}>

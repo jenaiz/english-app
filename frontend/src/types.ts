@@ -203,6 +203,8 @@ export interface TextItem extends ItemBase {
 export interface ItemsContent<T> {
   instructions?: string
   items: T[]
+  /** Word list shown above the items (practice: "Completa con in, on o at"). */
+  bank?: string[]
 }
 export interface MatchPairsContent {
   instructions?: string
@@ -606,4 +608,40 @@ export interface ExamAttemptSummary {
   passed?: boolean
   sections: ExamResult['sections']
   weak_topics: ExamResult['topics']
+}
+
+// ---- Grammar practice (Repaso → Gramática) ----
+export interface PracticeTopicSummary {
+  topic_id: string
+  level_id: string
+  title: string
+  items: number
+  locked: boolean
+  /** The unit that opens a locked topic. */
+  opens_with?: { unit_id: string; level_id: string; title: string }
+  /** new: never practised · due: practise today · done: up to date until due_at. */
+  status: 'new' | 'due' | 'done'
+  due_at?: string
+  sessions: number
+  /** Accuracy over every round, 0-100. */
+  accuracy?: number
+  /** Scores of the last rounds, oldest first. */
+  recent: number[]
+  last_at?: string
+}
+export interface PracticeRound {
+  topic: { topic_id: string; level_id: string; title: string; rule: GrammarRuleContent }
+  /** One step per exercise type; every item carries its id. */
+  steps: Step<ItemsContent<{ id: string }>>[]
+}
+export interface PracticeItemResult {
+  id: string
+  ok: boolean
+  answer?: string
+}
+export interface PracticeRoundResult {
+  score: number
+  correct: number
+  total: number
+  due_at: string
 }

@@ -168,6 +168,9 @@ func themeOf(l *Level, id string) *Theme {
 	return &l.Themes[len(l.Themes)-1]
 }
 
+// LevelRank orders levels: A1 < A2 < … < C1; unknown levels go last.
+func LevelRank(id string) int { return rank(id) }
+
 func rank(id string) int {
 	if r, ok := levelOrder[strings.ToUpper(id)]; ok {
 		return r

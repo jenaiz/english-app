@@ -6,13 +6,11 @@ import (
 	"testing"
 )
 
-// itemTaggedLevels are the levels whose exercises tag every item. A level joins when its
-// practice bank is written (see docs/levels/README.md).
-var itemTaggedLevels = map[string]bool{"A1": true}
-
+// The levels with a practice bank tag every exercise item, so every mistake leads to practice
+// (see docs/levels/README.md).
 func TestCourseTags(t *testing.T) {
-	c, x, _ := loadBundledExams(t)
-	if err := x.CheckTags(c, itemTaggedLevels); err != nil {
+	c, x, p := loadBundledPractice(t)
+	if err := x.CheckTags(c, p.Levels()); err != nil {
 		t.Fatal(err)
 	}
 }
