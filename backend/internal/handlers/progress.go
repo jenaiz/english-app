@@ -13,9 +13,10 @@ import (
 )
 
 type ProgressHandler struct {
-	Store   *store.Store
-	Catalog *content.Catalog
-	Club    *content.Club
+	Store    *store.Store
+	Catalog  *content.Catalog
+	Club     *content.Club
+	Practice *content.Practice
 }
 
 func (h *ProgressHandler) Get(w http.ResponseWriter, r *http.Request) {
@@ -85,6 +86,7 @@ func (h *ProgressHandler) Complete(w http.ResponseWriter, r *http.Request) {
 
 	var lessonIDs []string
 	var attempt []store.AttemptStep
+	var lessonSteps []content.Step
 	if in.LessonID != "" {
 		lesson, ok := h.Catalog.Lesson(in.LessonID)
 		if !ok || lesson.Unit.UnitID != in.UnitID {
@@ -98,6 +100,7 @@ func (h *ProgressHandler) Complete(w http.ResponseWriter, r *http.Request) {
 				return
 			}
 			attempt = attemptSteps(in.Steps, lesson.Lesson.Steps)
+			lessonSteps = lesson.Lesson.Steps
 		}
 	} else {
 		for _, l := range ref.Unit.Lessons {
@@ -135,9 +138,15 @@ func (h *ProgressHandler) Complete(w http.ResponseWriter, r *http.Request) {
 		log.Printf("sync club: %v", err)
 		unlocked = []unlockedActivity{}
 	}
+	// Mistakes send their topics to Repaso → Gramática for today; the lesson end suggests them.
+	practice, err := markPracticeDue(r.Context(), h.Store, h.Catalog, h.Practice, auth.UserID(r.Context()), mistakeTags(lessonSteps, attempt))
+	if err != nil {
+		log.Printf("mark practice due: %v", err)
+		practice = []practiceLink{}
+	}
 	writeJSON(w, http.StatusOK, map[string]any{
 		"unit_id": in.UnitID, "completed_lessons": lessonIDs, "cards_added": cardsAdded,
-		"unlocked_activities": unlocked,
+		"unlocked_activities": unlocked, "practice": practice,
 	})
 }
 
@@ -226,4 +235,55 @@ func attemptSteps(results map[string]store.StepResult, steps []content.Step) []s
 		}
 	}
 	return out
+}
+
+type lessonHistory struct {
+	LessonID string `json:"lesson_id"`
+	// Status and BestScore come from the lesson's progress; Attempts only exist for lessons
+	// finished since attempts were recorded (October 2026), newest first.
+	Status    string                `json:"status"`
+	BestScore *int                  `json:"best_score"`
+	Attempts  []store.LessonAttempt `json:"attempts"`
+}
+
+// Attempts returns the learner's history with each lesson of a unit ("Tus intentos").
+func (h *ProgressHandler) Attempts(w http.ResponseWriter, r *http.Request) {
+	ref, ok := h.Catalog.Unit("", chi.URLParam(r, "unitID"))
+	if !ok {
+		writeError(w, http.StatusNotFound, "unit not found")
+		return
+	}
+	userID := auth.UserID(r.Context())
+	progress, err := h.Store.ListProgress(r.Context(), userID)
+	if err != nil {
+		log.Printf("list progress: %v", err)
+		writeError(w, http.StatusInternalServerError, "internal error")
+		return
+	}
+	attempts, err := h.Store.ListLessonAttempts(r.Context(), userID, ref.Unit.UnitID)
+	if err != nil {
+		log.Printf("list attempts: %v", err)
+		writeError(w, http.StatusInternalServerError, "internal error")
+		return
+	}
+	out := []lessonHistory{}
+	for _, l := range ref.Unit.Lessons {
+		lh := lessonHistory{LessonID: l.LessonID, Status: "not_started", Attempts: []store.LessonAttempt{}}
+		for _, p := range progress {
+			if p.LessonID == l.LessonID {
+				lh.Status = p.Status
+				if p.Status == "completed" {
+					score := p.Score
+					lh.BestScore = &score
+				}
+			}
+		}
+		for _, a := range attempts {
+			if a.LessonID == l.LessonID {
+				lh.Attempts = append(lh.Attempts, a)
+			}
+		}
+		out = append(out, lh)
+	}
+	writeJSON(w, http.StatusOK, map[string]any{"unit_id": ref.Unit.UnitID, "lessons": out})
 }

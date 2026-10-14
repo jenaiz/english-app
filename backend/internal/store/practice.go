@@ -211,3 +211,17 @@ type PracticeSession struct {
 	Items      []PracticeResult `json:"items"`
 	FinishedAt time.Time        `json:"finished_at"`
 }
+
+// MarkTopicsDue makes topics due now (a mistake in a lesson or the exam on one of their tags),
+// keeping their schedule otherwise; a topic due earlier stays as it is.
+func (s *Store) MarkTopicsDue(ctx context.Context, userID string, topicIDs []string) error {
+	for _, id := range topicIDs {
+		if _, err := s.pool.Exec(ctx, `
+			INSERT INTO practice_topics (user_id, topic_id, due_at) VALUES ($1, $2, NOW())
+			ON CONFLICT (user_id, topic_id) DO UPDATE SET due_at = LEAST(practice_topics.due_at, NOW())`,
+			userID, id); err != nil {
+			return err
+		}
+	}
+	return nil
+}

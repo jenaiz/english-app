@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
-import { ArrowLeft, ArrowRight, Brain, CheckCircle2, ClipboardCheck, History, Layers, Loader2, PartyPopper, RotateCcw, type LucideIcon } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Brain, CheckCircle2, ClipboardCheck, Dumbbell, History, Layers, Loader2, PartyPopper, RotateCcw, type LucideIcon } from 'lucide-react'
 import { api } from '../api/client'
 import UnlockReveal from '../components/club/UnlockReveal'
 import UnitExpressions from '../components/expressions/UnitExpressions'
@@ -9,7 +9,8 @@ import StepRenderer, { EXERCISE_TYPES } from '../components/steps/StepRenderer'
 import { flattenUnits, type UnitEntry } from '../lib/levels'
 import { stepMistakes, type Mistake } from '../lib/mistakes'
 import { PHASES } from '../lib/phases'
-import type { ExerciseResult, Phase, Step, Unit, UnitResponse, UnitSummary, UnlockedActivity, VocabularyTableContent } from '../types'
+import { stepLabels } from '../lib/stepLabels'
+import type { ExerciseResult, Phase, PracticeLink, Step, Unit, UnitResponse, UnitSummary, UnlockedActivity, VocabularyTableContent } from '../types'
 import CompletionHeader from '../components/ui/CompletionHeader'
 import ErrorState from '../components/ui/ErrorState'
 import BackLink from '../components/ui/BackLink'
@@ -25,21 +26,6 @@ interface FlatStep {
   isLastInLesson: boolean
 }
 
-const stepLabels: Record<string, string> = {
-  audio_context: 'Contexto',
-  grammar_rule: 'Gramática',
-  vocabulary_table: 'Vocabulario',
-  multiple_choice: 'Test',
-  match_pairs: 'Emparejar',
-  fill_blanks: 'Rellenar huecos',
-  word_order: 'Ordenar la frase',
-  transformation: 'Transformación',
-  translation: 'Traducción',
-  dictation: 'Dictado',
-  speaking: 'Hablar',
-  speed_quiz: 'Quiz de velocidad',
-}
-
 interface LessonSummary {
   title: string
   score: number
@@ -51,6 +37,8 @@ interface LessonSummary {
   isTest: boolean
   /** Items the learner got wrong in this lesson, in order. */
   mistakes: Mistake[]
+  /** Grammar topics of those mistakes, now due in Repaso → Gramática. */
+  practice: PracticeLink[]
   /** Every lesson of the unit is completed (not just this one, which may be the last). */
   unitDone: boolean
   /** The next lesson not completed yet, in course order; null when the whole course is done. */
@@ -336,6 +324,7 @@ export default function UnitView() {
       cardsAdded: res.cards_added,
       unlocked: res.unlocked_activities ?? [],
       isTest: current.isTest,
+      practice: res.practice ?? [],
       mistakes: lessonSteps.flatMap((s) => (resultsRef.current[s.i] ? stepMistakes(s.step, resultsRef.current[s.i]) : [])),
       unitDone: unit.lessons.every((l) => completed.has(l.lesson_id)),
       // If the course list failed to load, at least look in this unit.
@@ -543,6 +532,7 @@ function LessonComplete({
       </div>
 
       <MistakeList mistakes={summary.mistakes} />
+      <PracticeSuggestions topics={summary.practice} />
 
       <UnlockReveal activities={summary.unlocked} />
 
@@ -598,6 +588,31 @@ function MistakeList({ mistakes }: { mistakes: Mistake[] }) {
         ))}
       </ul>
     </details>
+  )
+}
+
+/** The grammar topics behind the mistakes: they are due in Repaso today, or practise them now. */
+function PracticeSuggestions({ topics }: { topics: PracticeLink[] }) {
+  if (!topics.length) return null
+  return (
+    <div className="mt-4 rounded-2xl border border-indigo-100 bg-indigo-50/60 p-5 text-left">
+      <p className="flex items-center gap-2 font-semibold text-indigo-900">
+        <Dumbbell className="h-4 w-4" /> Practica lo que has fallado
+      </p>
+      <p className="mt-1 text-sm text-indigo-800/80">Ya te esperan en Repaso → Gramática para hoy.</p>
+      <ul className="mt-3 flex flex-wrap gap-2">
+        {topics.map((t) => (
+          <li key={t.topic_id}>
+            <Link
+              to={`/repaso/gramatica/${t.topic_id}`}
+              className="inline-flex items-center gap-1 rounded-full bg-white px-3 py-1.5 text-sm font-medium text-indigo-700 shadow-sm ring-1 ring-indigo-100 transition hover:ring-indigo-300"
+            >
+              {t.title} <ArrowRight className="h-3.5 w-3.5" />
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
   )
 }
 

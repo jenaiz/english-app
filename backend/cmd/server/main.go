@@ -99,7 +99,7 @@ func main() {
 		log.Println("GOOGLE_CLIENT_ID not set: Google sign-in disabled")
 	}
 	levelsH := &handlers.LevelsHandler{Catalog: catalog}
-	progressH := &handlers.ProgressHandler{Store: st, Catalog: catalog, Club: club}
+	progressH := &handlers.ProgressHandler{Store: st, Catalog: catalog, Club: club, Practice: practice}
 	clubH := &handlers.ClubHandler{Store: st, Catalog: catalog, Club: club}
 	srsH := &handlers.SRSHandler{Store: st, Catalog: catalog, Expressions: expressions}
 	expressionsH := &handlers.ExpressionsHandler{Expressions: expressions}
@@ -110,7 +110,7 @@ func main() {
 	}
 	lastSeen := &handlers.LastSeen{Store: st}
 	practiceH := &handlers.PracticeHandler{Store: st, Catalog: catalog, Practice: practice}
-	examsH := &handlers.ExamsHandler{Store: st, Catalog: catalog, Exams: exams, Club: club, Voices: voices}
+	examsH := &handlers.ExamsHandler{Store: st, Catalog: catalog, Exams: exams, Club: club, Voices: voices, Practice: practice}
 
 	r := chi.NewRouter()
 	r.Use(middleware.RequestID, middleware.RealIP, middleware.Logger, middleware.Recoverer)
@@ -164,6 +164,7 @@ func main() {
 			r.Post("/progress/complete", progressH.Complete)
 			r.Get("/progress/position/{unitID}", progressH.GetPosition)
 			r.Put("/progress/position", progressH.SavePosition)
+			r.Get("/progress/attempts/{unitID}", progressH.Attempts)
 			r.Get("/club", clubH.List)
 			r.Get("/club/summary", clubH.Summary)
 			r.Get("/club/{activityID}", clubH.Get)

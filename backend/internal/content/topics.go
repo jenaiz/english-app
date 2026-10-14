@@ -53,6 +53,9 @@ func (s Step) ItemTags() []string {
 // (speech recognition slips are not grammar mistakes) and the vocabulary speed quiz.
 var ungradedForTopics = map[string]bool{"speaking": true, "speed_quiz": true}
 
+// CountsForTopics says whether a mistake in this exercise type is a mistake in its topic.
+func CountsForTopics(stepType string) bool { return !ungradedForTopics[stepType] }
+
 // CheckTags checks the topics of the course content against the level exams' syllabus: every
 // grammar rule has a topic, and every topic named is in the syllabus of the unit's level or an
 // earlier one. In the levels listed in itemLevels (those with a practice bank), every item of a

@@ -49,6 +49,22 @@ func TestBundledPractice(t *testing.T) {
 	}
 }
 
+// Topics are listed in course order: the unit that opens them, then the order the unit teaches them.
+func TestPracticeOrder(t *testing.T) {
+	_, _, p := loadBundledPractice(t)
+	var got []string
+	for _, topic := range p.Topics {
+		if topic.LevelID == "A1" {
+			got = append(got, topic.TopicID)
+		}
+	}
+	want := []string{"a1_to_be", "a1_possessives", "a1_a_some_any", "a1_plurals", "a1_this_that", "a1_possessive_s",
+		"a1_questions", "a1_in_on_at", "a1_there_is_are", "a1_how_much_many"}
+	if strings.Join(got[:len(want)], " ") != strings.Join(want, " ") {
+		t.Errorf("A1 order:\n got %v\nwant %v", got, want)
+	}
+}
+
 func TestPracticeAnswer(t *testing.T) {
 	topic := &PracticeTopic{Sets: []PracticeSet{
 		{Type: "fill_blanks"}, {Type: "multiple_choice"}, {Type: "translation"}, {Type: "word_order"},

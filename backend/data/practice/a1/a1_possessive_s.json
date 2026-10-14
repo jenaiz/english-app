@@ -8,6 +8,7 @@
   "units": [
     "numbers_colors"
   ],
+  "order": 4,
   "rule": {
     "title": "Possessive 's",
     "explanation": "Para decir de quién es algo, en inglés se pone primero el dueño con «'s» y después la cosa (al revés que en español):\n- «Sam's guitar» (la guitarra de Sam)\n- «my grandma's lamp» (la lámpara de mi abuela)\n\nSi el dueño es un plural acabado en «-s», solo se añade el apóstrofo. Con los plurales irregulares se usa «'s»:\n- «my parents' house» (la casa de mis padres)\n- «the children's room» (la habitación de los niños)\n\nSi la cosa es de dos personas a la vez, el «'s» va solo en la última:\n- «Sam and Priya's flat» (el piso de Sam y Priya)\n\nPuede ir sin la cosa detrás si ya se sabe de qué hablamos, y también para la casa o la tienda de alguien:\n- «Whose umbrella is this? — It's Sam's.»\n- «I'm at Priya's.» (en casa de Priya)\n\nCon cosas, no con personas, lo más natural es poner un nombre delante de otro: «the kitchen door» (la puerta de la cocina).\n\nOjo: no confundas el posesivo con la contracción de «is»: «Sam's a musician» (= «Sam is») / «Sam's band» (la banda de Sam).",

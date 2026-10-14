@@ -8,6 +8,7 @@
   "units": [
     "numbers_colors"
   ],
+  "order": 2,
   "rule": {
     "title": "Plurals",
     "explanation": "El plural se forma normalmente añadiendo «-s»:\n- «a towel» → «two towels»\n- «a car» → «three cars»\n\nDespués de s, sh, ch o x se añade «-es» (y se pronuncia una sílaba más):\n- «box» → «boxes», «bus» → «buses», «dish» → «dishes», «watch» → «watches»\n\nSi la palabra acaba en consonante + y, cambia a «-ies»; si acaba en vocal + y, solo lleva «-s»:\n- «city» → «cities», «baby» → «babies»\n- «day» → «days», «key» → «keys»\n\nMuchas palabras en «-f» o «-fe» cambian a «-ves», y algunas en «-o» llevan «-es»:\n- «knife» → «knives», «shelf» → «shelves»\n- «potato» → «potatoes», «tomato» → «tomatoes» (pero «photo» → «photos»)\n\nHay plurales irregulares que hay que aprender:\n- «man» → «men», «woman» → «women», «child» → «children», «person» → «people»\n- «foot» → «feet», «tooth» → «teeth», «mouse» → «mice»\n\nOjo: el adjetivo nunca va en plural: «two green lamps» (nunca «greens lamps»). Y «people» ya es plural: «people are», nunca «peoples».",

@@ -28,6 +28,8 @@ type PracticeTopic struct {
 	Tags []string `json:"tags"`
 	// Units teach the point; the topic opens once the learner has started one of them.
 	Units []string `json:"units"`
+	// Order sorts the topics that open with the same unit, in the order the unit teaches them.
+	Order int `json:"order,omitempty"`
 	// Rule is a grammar_rule content, shown above the exercises.
 	Rule json.RawMessage `json:"rule"`
 	Sets []PracticeSet   `json:"sets"`
@@ -91,7 +93,7 @@ func LoadPractice(dir string, catalog *Catalog, exams *Exams) (*Practice, error)
 		p.byID[t.TopicID] = &t
 		p.Topics = append(p.Topics, &t)
 	}
-	// In course order: by level, then by the first unit that teaches each topic.
+	// In course order: by level, then by the first unit that teaches each topic, then Order.
 	firstPos := func(t *PracticeTopic) int {
 		pos := 1 << 30
 		for _, id := range t.Units {
@@ -106,7 +108,10 @@ func LoadPractice(dir string, catalog *Catalog, exams *Exams) (*Practice, error)
 		if rank(a.LevelID) != rank(b.LevelID) {
 			return rank(a.LevelID) < rank(b.LevelID)
 		}
-		return firstPos(a) < firstPos(b)
+		if firstPos(a) != firstPos(b) {
+			return firstPos(a) < firstPos(b)
+		}
+		return a.Order < b.Order
 	})
 	return p, nil
 }

@@ -1,6 +1,7 @@
 package handlers
 
 import (
+	"context"
 	"encoding/json"
 	"log"
 	"math/rand"
@@ -99,10 +100,14 @@ func (h *PracticeHandler) List(w http.ResponseWriter, r *http.Request) {
 	writeJSON(w, http.StatusOK, map[string]any{"topics": out, "due": due})
 }
 
-// openTopics returns the topics the learner can practise: those of a unit they have started,
-// and every topic of a level below the highest one they have reached.
 func (h *PracticeHandler) openTopics(r *http.Request, userID string) (map[string]bool, error) {
-	progress, err := h.Store.ListProgress(r.Context(), userID)
+	return openPracticeTopics(r.Context(), h.Store, h.Catalog, h.Practice, userID)
+}
+
+// openPracticeTopics returns the topics the learner can practise: those of a unit they have
+// started, and every topic of a level below the highest one they have reached.
+func openPracticeTopics(ctx context.Context, st *store.Store, catalog *content.Catalog, practice *content.Practice, userID string) (map[string]bool, error) {
+	progress, err := st.ListProgress(ctx, userID)
 	if err != nil {
 		return nil, err
 	}
@@ -110,12 +115,12 @@ func (h *PracticeHandler) openTopics(r *http.Request, userID string) (map[string
 	top := -1
 	for _, p := range progress {
 		started[p.UnitID] = true
-		if ref, ok := h.Catalog.Unit("", p.UnitID); ok && content.LevelRank(ref.LevelID) > top {
+		if ref, ok := catalog.Unit("", p.UnitID); ok && content.LevelRank(ref.LevelID) > top {
 			top = content.LevelRank(ref.LevelID)
 		}
 	}
 	open := map[string]bool{}
-	for _, t := range h.Practice.Topics {
+	for _, t := range practice.Topics {
 		if content.LevelRank(t.LevelID) < top {
 			open[t.TopicID] = true
 			continue
@@ -357,4 +362,62 @@ func (h *PracticeHandler) topic(w http.ResponseWriter, r *http.Request) (*conten
 func (h *PracticeHandler) internal(w http.ResponseWriter, err error) {
 	log.Printf("practice: %v", err)
 	writeError(w, http.StatusInternalServerError, "internal error")
+}
+
+type practiceLink struct {
+	TopicID string `json:"topic_id"`
+	Title   string `json:"title"`
+}
+
+// markPracticeDue makes the practice topics of the given syllabus tags due now, after mistakes
+// on them, and returns the ones the learner can open, to suggest them.
+func markPracticeDue(ctx context.Context, st *store.Store, catalog *content.Catalog, practice *content.Practice, userID string, tags []string) ([]practiceLink, error) {
+	seen := map[string]bool{}
+	var ids []string
+	for _, tag := range tags {
+		for _, t := range practice.ForTag(tag) {
+			if !seen[t.TopicID] {
+				seen[t.TopicID] = true
+				ids = append(ids, t.TopicID)
+			}
+		}
+	}
+	out := []practiceLink{}
+	if len(ids) == 0 {
+		return out, nil
+	}
+	if err := st.MarkTopicsDue(ctx, userID, ids); err != nil {
+		return nil, err
+	}
+	open, err := openPracticeTopics(ctx, st, catalog, practice, userID)
+	if err != nil {
+		return nil, err
+	}
+	for _, t := range practice.Topics { // in course order
+		if seen[t.TopicID] && open[t.TopicID] {
+			out = append(out, practiceLink{TopicID: t.TopicID, Title: t.Title})
+		}
+	}
+	return out, nil
+}
+
+// mistakeTags returns the topics of the items a learner got wrong in a lesson attempt, in
+// order and without repeats. Speaking, speed-quiz items and timeouts don't count.
+func mistakeTags(steps []content.Step, attempt []store.AttemptStep) []string {
+	seen := map[string]bool{}
+	var out []string
+	for _, a := range attempt {
+		if a.Step >= len(steps) || !content.CountsForTopics(steps[a.Step].Type) {
+			continue
+		}
+		tags := steps[a.Step].ItemTags()
+		for _, it := range a.Items {
+			if it.OK || it.Timeout || it.I >= len(tags) || tags[it.I] == "" || seen[tags[it.I]] {
+				continue
+			}
+			seen[tags[it.I]] = true
+			out = append(out, tags[it.I])
+		}
+	}
+	return out
 }

@@ -3,6 +3,7 @@ package handlers
 import (
 	"fmt"
 	"math/rand"
+	"strings"
 	"testing"
 	"time"
 
@@ -114,4 +115,24 @@ func loadPracticeForTest(t *testing.T) (*content.Catalog, *content.Exams, *conte
 		t.Fatal(err)
 	}
 	return c, x, p
+}
+
+func TestMistakeTags(t *testing.T) {
+	steps := []content.Step{
+		{Type: "grammar_rule"},
+		{Type: "fill_blanks", Content: []byte(`{"tag": "to_be", "items": [{}, {"tag": "questions"}, {}]}`)},
+		{Type: "speaking", Content: []byte(`{"tag": "to_be", "items": [{}]}`)},
+		{Type: "speed_quiz", Content: []byte(`{"tag": "vocab_daily", "items": [{}]}`)},
+		{Type: "translation", Content: []byte(`{"tag": "to_be", "items": [{}, {"tag": ""}]}`)},
+	}
+	attempt := []store.AttemptStep{
+		{Step: 1, StepResult: store.StepResult{Items: []store.ItemOutcome{{I: 0, OK: true}, {I: 1}, {I: 2}}}},
+		{Step: 2, StepResult: store.StepResult{Items: []store.ItemOutcome{{I: 0}}}},
+		{Step: 3, StepResult: store.StepResult{Items: []store.ItemOutcome{{I: 0}}}},
+		{Step: 4, StepResult: store.StepResult{Items: []store.ItemOutcome{{I: 0}, {I: 1}}}},
+	}
+	got := mistakeTags(steps, attempt)
+	if strings.Join(got, ",") != "questions,to_be" {
+		t.Fatalf("got %v, want questions then to_be once (speaking, speed quiz and untagged items left out)", got)
+	}
 }

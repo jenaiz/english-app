@@ -27,11 +27,12 @@ var uuidRe = regexp.MustCompile(`^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4
 const maxAnswerLen = 200
 
 type ExamsHandler struct {
-	Store   *store.Store
-	Catalog *content.Catalog
-	Exams   *content.Exams
-	Club    *content.Club
-	Voices  content.Voices
+	Store    *store.Store
+	Catalog  *content.Catalog
+	Exams    *content.Exams
+	Club     *content.Club
+	Voices   content.Voices
+	Practice *content.Practice
 }
 
 type examSectionSummary struct {
@@ -116,6 +117,16 @@ func (h *ExamsHandler) finish(ctx context.Context, userID string, a *store.ExamA
 	res := e.Grade(a.Form, a.Answers)
 	if _, err := h.Store.SubmitAttempt(ctx, userID, a.ID, res.Score, res.Passed, res); err != nil {
 		return nil, err
+	}
+	// Topics with mistakes come up in Repaso → Gramática, passed or not.
+	var missed []string
+	for _, t := range res.Topics {
+		if t.Correct < t.Total {
+			missed = append(missed, t.Tag)
+		}
+	}
+	if _, err := markPracticeDue(ctx, h.Store, h.Catalog, h.Practice, userID, missed); err != nil {
+		log.Printf("mark practice due: %v", err)
 	}
 	fresh, err := h.Store.Attempt(ctx, userID, a.ID)
 	if err != nil {

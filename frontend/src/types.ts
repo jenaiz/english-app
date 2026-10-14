@@ -654,3 +654,30 @@ export interface PracticeRoundResult {
   total: number
   due_at: string
 }
+
+// ---- Lesson history ("Tus intentos") ----
+export interface AttemptStep extends ExerciseResult {
+  /** Index of the step in its lesson. */
+  step: number
+  type: string
+}
+export interface LessonAttempt {
+  unit_id: string
+  lesson_id: string
+  score: number
+  steps: AttemptStep[]
+  finished_at: string
+}
+export interface LessonHistory {
+  lesson_id: string
+  status: 'not_started' | 'in_progress' | 'completed'
+  /** Best score of a completed lesson. */
+  best_score: number | null
+  /** Only lessons finished since attempts are recorded have them; newest first. */
+  attempts: LessonAttempt[]
+}
+/** A grammar topic to practise after mistakes on it. */
+export interface PracticeLink {
+  topic_id: string
+  title: string
+}

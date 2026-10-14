@@ -1,4 +1,4 @@
-import type { Activity, AdminStats, AdminUser, AdminUserDetail, ActivityCard, CardKind, ClubSummary, ExamAttempt, ExamAttemptSummary, ExamSummary, ExerciseResult, UnlockedActivity, ExpressionKind, ExpressionsCatalog, Grade, LevelStudy, LevelSummary, PracticeItemResult, PracticeRound, PracticeRoundResult, PracticeTopicSummary, ProgressResponse, ReviewCard, UnitPosition, SavedExpression, SrsSummary, UnitResponse, User } from '../types'
+import type { Activity, AdminStats, AdminUser, AdminUserDetail, ActivityCard, CardKind, ClubSummary, ExamAttempt, ExamAttemptSummary, ExamSummary, ExerciseResult, LessonHistory, PracticeLink, UnlockedActivity, ExpressionKind, ExpressionsCatalog, Grade, LevelStudy, LevelSummary, PracticeItemResult, PracticeRound, PracticeRoundResult, PracticeTopicSummary, ProgressResponse, ReviewCard, UnitPosition, SavedExpression, SrsSummary, UnitResponse, User } from '../types'
 
 export class ApiError extends Error {
   constructor(
@@ -72,12 +72,14 @@ export const api = {
   progress: () => request<ProgressResponse>('/progress'),
   /** steps: the lesson's exercise results keyed by step index in the lesson, saved as an attempt. */
   complete: (unitId: string, lessonId?: string, score?: number, steps?: Record<string, ExerciseResult>) =>
-    post<{ unit_id: string; completed_lessons: string[]; cards_added: number; unlocked_activities?: UnlockedActivity[] }>('/progress/complete', {
+    post<{ unit_id: string; completed_lessons: string[]; cards_added: number; unlocked_activities?: UnlockedActivity[]; practice?: PracticeLink[] }>('/progress/complete', {
       unit_id: unitId,
       ...(lessonId ? { lesson_id: lessonId } : {}),
       ...(score !== undefined ? { score } : {}),
       ...(steps ? { steps } : {}),
     }),
+  /** The learner's history with each lesson of a unit. */
+  attempts: (unitId: string) => request<{ unit_id: string; lessons: LessonHistory[] }>(`/progress/attempts/${encodeURIComponent(unitId)}`),
   /** Where the learner left a unit half done (null if nowhere). */
   position: (unitId: string) => request<{ position: UnitPosition | null }>(`/progress/position/${encodeURIComponent(unitId)}`),
   savePosition: (unitId: string, p: UnitPosition) =>

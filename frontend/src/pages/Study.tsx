@@ -1,23 +1,24 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
-import { BookA, Brain, Layers, Lightbulb, Loader2, Play } from 'lucide-react'
+import { BookA, Brain, History, Layers, Lightbulb, Loader2, Play } from 'lucide-react'
 import { api } from '../api/client'
 import GrammarRuleStep from '../components/steps/GrammarRuleStep'
 import PhrasalFamilyLinks from '../components/expressions/PhrasalFamilyLinks'
 import UnitExpressions from '../components/expressions/UnitExpressions'
 import WordCard from '../components/WordCard'
+import UnitHistory from '../components/history/UnitHistory'
 import type { GrammarRuleContent, UnitResponse, VocabularyTableContent } from '../types'
 import ErrorState from '../components/ui/ErrorState'
 import BackLink from '../components/ui/BackLink'
 import PageShell from '../components/ui/PageShell'
 
-type Tab = 'grammar' | 'vocabulary'
+type Tab = 'grammar' | 'vocabulary' | 'history'
 
 /** Reference view of a unit: its grammar rules and vocabulary, without replaying the lessons. */
 export default function Study() {
   const { unitId = '' } = useParams()
   const [params, setParams] = useSearchParams()
-  const tab: Tab = params.get('tab') === 'vocabulary' ? 'vocabulary' : 'grammar'
+  const tab: Tab = params.get('tab') === 'vocabulary' ? 'vocabulary' : params.get('tab') === 'history' ? 'history' : 'grammar'
   const [data, setData] = useState<UnitResponse | null>(null)
   const [error, setError] = useState('')
 
@@ -87,6 +88,7 @@ export default function Study() {
           [
             { id: 'grammar', label: 'Gramática', Icon: Lightbulb, iconCls: 'text-amber-500' },
             { id: 'vocabulary', label: `Vocabulario (${totalWords})`, Icon: BookA, iconCls: 'text-emerald-600' },
+            { id: 'history', label: 'Tus intentos', Icon: History, iconCls: 'text-indigo-500' },
           ] as const
         ).map((t) => (
           <button
@@ -103,7 +105,9 @@ export default function Study() {
         ))}
       </div>
 
-      {tab === 'grammar' ? (
+      {tab === 'history' ? (
+        <UnitHistory unit={unit} />
+      ) : tab === 'grammar' ? (
         <div className="mt-6 space-y-6">
           {perLesson.map(({ lesson, grammar }) =>
             grammar.map((g, i) => (
