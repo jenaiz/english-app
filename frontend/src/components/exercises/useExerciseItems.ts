@@ -1,5 +1,6 @@
 import { useCallback, useRef, useState } from 'react'
 import type { ExerciseResult, ItemOutcome } from '../../types'
+import { useLessonFlow } from './LessonFlow'
 
 export type ItemStatus = 'answering' | 'correct' | 'wrong'
 
@@ -11,6 +12,7 @@ export function useExerciseItems(total: number, onComplete: (r: ExerciseResult) 
   const correctRef = useRef(0)
   const [correct, setCorrect] = useState(0)
   const itemsRef = useRef<ItemOutcome[]>([])
+  const flow = useLessonFlow()
 
   /** Grades the current item; `answer` is what the learner gave, kept for their history. */
   const grade = useCallback((ok: boolean, answer?: string) => {
@@ -20,7 +22,8 @@ export function useExerciseItems(total: number, onComplete: (r: ExerciseResult) 
       setCorrect(correctRef.current)
     }
     setStatus(ok ? 'correct' : 'wrong')
-  }, [index])
+    flow?.onGraded?.()
+  }, [index, flow])
 
   const next = useCallback(() => {
     if (index + 1 >= total) {

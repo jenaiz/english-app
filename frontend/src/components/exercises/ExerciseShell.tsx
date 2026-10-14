@@ -70,7 +70,7 @@ export default function ExerciseShell({
     <form onSubmit={submit}>
       <div className="mb-5 flex items-start justify-between gap-4">
         {instructions && <p className="font-medium text-slate-700"><InlineText text={instructions} /></p>}
-        {total > 1 && (
+        {total > 1 && !flow?.hideCounter && (
           <span className="shrink-0 rounded-full bg-slate-100 px-2.5 py-0.5 text-xs font-semibold text-slate-500 tabular-nums">
             {index + 1} / {total}
           </span>

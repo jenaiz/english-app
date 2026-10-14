@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import { ArrowRight, BookOpen, Check, ChevronRight, Dumbbell, Loader2, Lock, RotateCcw, Sparkles, Trophy } from 'lucide-react'
+import { ArrowRight, BookOpen, CalendarClock, Check, ChevronDown, ChevronRight, Loader2, Lock, RotateCcw, Search, Sparkles, Trophy } from 'lucide-react'
 import { api } from '../api/client'
 import { LessonFlowContext } from '../components/exercises/LessonFlow'
 import GrammarRuleStep from '../components/steps/GrammarRuleStep'
@@ -10,6 +10,7 @@ import { buttonClass } from '../components/ui/Button'
 import CompletionHeader from '../components/ui/CompletionHeader'
 import ErrorState from '../components/ui/ErrorState'
 import PageShell from '../components/ui/PageShell'
+import { inputClass, pillClass, pillCountClass } from '../components/ui/styles'
 import { stepMistakes, type Mistake } from '../lib/mistakes'
 import type { ExerciseResult, PracticeItemResult, PracticeRound, PracticeRoundResult, PracticeTopicSummary } from '../types'
 
@@ -36,9 +37,36 @@ function dueIn(iso: string): string {
   return `el ${dateFmt.format(new Date(iso))}`
 }
 
+// The level tab is remembered on this device.
+const LEVEL_KEY = 'grammar-level'
+function readLevel(): string | null {
+  try {
+    return localStorage.getItem(LEVEL_KEY)
+  } catch {
+    return null // storage unavailable
+  }
+}
+function storeLevel(level: string) {
+  try {
+    localStorage.setItem(LEVEL_KEY, level)
+  } catch {
+    // storage unavailable
+  }
+}
+
+/** Accent-insensitive lower case, for the search box. */
+const fold = (s: string) => s.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase()
+
+/**
+ * Over a hundred topics, mostly locked: the list opens on the learner's level with today's topics
+ * on top, shows only the open topics as cards and folds the locked ones away. A search looks
+ * across every level.
+ */
 function TopicList() {
   const [data, setData] = useState<{ topics: PracticeTopicSummary[]; due: number } | null>(null)
   const [error, setError] = useState(false)
+  const [level, setLevel] = useState<string | null>(readLevel)
+  const [query, setQuery] = useState('')
 
   useEffect(() => {
     api
@@ -57,60 +85,178 @@ function TopicList() {
   }
 
   const levels = [...new Set(data.topics.map((t) => t.level_id))]
+  const open = data.topics.filter((t) => !t.locked)
+  const due = open.filter((t) => t.status === 'due')
+  // Default: the highest level with an open topic, i.e. where the learner is now.
+  const current = level && levels.includes(level) ? level : (open.at(-1)?.level_id ?? levels[0])
+  const choose = (l: string) => {
+    setLevel(l)
+    storeLevel(l)
+  }
+
+  const q = fold(query.trim())
+  const shown = q ? data.topics.filter((t) => fold(t.title).includes(q)) : data.topics.filter((t) => t.level_id === current)
+  const shownOpen = shown.filter((t) => !t.locked)
+  const shownLocked = shown.filter((t) => t.locked)
+
   return (
-    <PageShell width="text">
+    <PageShell width="medium">
       <BackLink to="/repaso">Repaso</BackLink>
       <h1 className="h-page mt-3">Gramática</h1>
-      <p className="mt-2 text-slate-600">
-        Leer una regla no basta: hay que practicarla muchas veces. Cada ronda son 12 ejercicios de un tema; lo que falles vuelve en la siguiente, y el tema
-        vuelve a salir «para hoy» cuando toca repasarlo.
+      <p className="mt-2 max-w-2xl text-slate-600">
+        Rondas de 12 ejercicios por tema. Lo que falles vuelve en la siguiente ronda, y cada tema vuelve «para hoy» cuando toca repasarlo.
       </p>
 
-      {levels.map((level) => (
-        <section key={level} className="mt-8">
-          <h2 className="h-section">{level}</h2>
-          <ul className="mt-3 grid gap-3">
-            {data.topics
-              .filter((t) => t.level_id === level)
-              .map((t) => (
-                <li key={t.topic_id}>
-                  <TopicRow topic={t} />
-                </li>
-              ))}
+      <dl className="mt-6 grid grid-cols-3 gap-3">
+        <Stat value={due.length} label="para hoy" accent={due.length > 0} />
+        <Stat value={open.length} label={open.length === 1 ? 'tema abierto' : 'temas abiertos'} />
+        <Stat value={data.topics.length - open.length} label="por abrir" />
+      </dl>
+
+      {due.length > 0 && (
+        <section className="mt-8">
+          <h2 className="flex items-center gap-2 font-display text-lg font-bold text-slate-900">
+            <CalendarClock className="h-5 w-5 text-indigo-600" /> Para hoy
+          </h2>
+          <ul className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {due.map((t) => (
+              <li key={t.topic_id}>
+                <TopicCard topic={t} showLevel />
+              </li>
+            ))}
           </ul>
         </section>
-      ))}
+      )}
+
+      <section className="mt-10">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+          <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:px-0 sm:pb-0" role="tablist" aria-label="Nivel">
+            {levels.map((l) => {
+              const all = data.topics.filter((t) => t.level_id === l)
+              const opened = all.filter((t) => !t.locked).length
+              const active = !q && l === current
+              return (
+                <button
+                  key={l}
+                  type="button"
+                  role="tab"
+                  aria-selected={active}
+                  onClick={() => {
+                    choose(l)
+                    setQuery('')
+                  }}
+                  className={pillClass(active)}
+                >
+                  {l}
+                  <span className={pillCountClass(active)}>
+                    {opened}/{all.length}
+                  </span>
+                </button>
+              )
+            })}
+          </div>
+          <label className="relative sm:ml-auto sm:w-64">
+            <span className="sr-only">Buscar un tema</span>
+            <Search className="pointer-events-none absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-slate-400" />
+            <input
+              type="search"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Buscar: past simple, a/an…"
+              className={`${inputClass()} py-2 pl-9 text-sm`}
+            />
+          </label>
+        </div>
+
+        {q && (
+          <p className="mt-4 text-sm text-slate-500">
+            {shown.length === 0 ? `Ningún tema contiene «${query.trim()}».` : `${shown.length} ${shown.length === 1 ? 'tema' : 'temas'} en todos los niveles`}
+          </p>
+        )}
+
+        {shownOpen.length > 0 && (
+          <ul className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {shownOpen.map((t) => (
+              <li key={t.topic_id}>
+                <TopicCard topic={t} showLevel={!!q} />
+              </li>
+            ))}
+          </ul>
+        )}
+        {!q && shownOpen.length === 0 && (
+          <p className="mt-4 rounded-2xl border border-dashed border-slate-300 px-5 py-6 text-center text-slate-500">
+            Todavía no hay temas abiertos en {current}: se abren al empezar sus unidades.
+          </p>
+        )}
+
+        {shownLocked.length > 0 && (
+          <LockedTopics key={`${current}-${q}`} topics={shownLocked} showLevel={!!q} startOpen={!!q || shownOpen.length === 0} />
+        )}
+      </section>
     </PageShell>
   )
 }
 
-function TopicRow({ topic: t }: { topic: PracticeTopicSummary }) {
-  const body = (
-    <>
-      <span className={`grid h-11 w-11 shrink-0 place-items-center rounded-xl ${t.locked ? 'bg-slate-100 text-slate-400' : 'bg-indigo-50 text-indigo-600'}`}>
-        {t.locked ? <Lock className="h-5 w-5" /> : <Dumbbell className="h-5 w-5" />}
-      </span>
-      <span className="min-w-0 flex-1">
-        <span className={`block font-semibold ${t.locked ? 'text-slate-500' : 'text-slate-900'}`}>{t.title}</span>
-        <span className="block text-sm text-slate-500">
-          {t.locked
-            ? `Se abre en la unidad «${t.opens_with?.title ?? ''}»`
-            : t.sessions === 0
-              ? `${t.items} ejercicios`
-              : `${t.sessions} ${t.sessions === 1 ? 'ronda' : 'rondas'} · ${t.accuracy}% de aciertos${t.status === 'done' && t.due_at ? ` · vuelve ${dueIn(t.due_at)}` : ''}`}
-        </span>
-      </span>
-      {t.recent.length > 1 && <Trend scores={t.recent} />}
-      {!t.locked && <span className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-semibold ${STATUS[t.status].cls}`}>{STATUS[t.status].label}</span>}
-      {!t.locked && <ChevronRight className="h-5 w-5 shrink-0 text-indigo-500 transition group-hover:translate-x-0.5" />}
-    </>
-  )
-  const cls = 'group flex items-center gap-4 rounded-2xl border bg-white px-4 py-3.5'
-  if (t.locked) return <div className={`${cls} border-dashed border-slate-300`}>{body}</div>
+function Stat({ value, label, accent = false }: { value: number; label: string; accent?: boolean }) {
   return (
-    <Link to={`/repaso/gramatica/${t.topic_id}`} className={`${cls} border-slate-200 transition hover:border-indigo-300 hover:shadow-sm`}>
-      {body}
+    <div className={`rounded-2xl border px-4 py-3 ${accent ? 'border-indigo-200 bg-indigo-50' : 'border-slate-200 bg-white'}`}>
+      <dd className={`font-display text-2xl font-extrabold tabular-nums ${accent ? 'text-indigo-700' : 'text-slate-900'}`}>{value}</dd>
+      <dt className="text-sm text-slate-500">{label}</dt>
+    </div>
+  )
+}
+
+function TopicCard({ topic: t, showLevel = false }: { topic: PracticeTopicSummary; showLevel?: boolean }) {
+  return (
+    <Link
+      to={`/repaso/gramatica/${t.topic_id}`}
+      className={`group flex h-full flex-col rounded-2xl border bg-white px-4 py-3.5 transition hover:shadow-sm ${
+        t.status === 'due' ? 'border-indigo-300 hover:border-indigo-400' : 'border-slate-200 hover:border-indigo-300'
+      }`}
+    >
+      <span className="flex items-start gap-2">
+        <span className="min-w-0 flex-1 font-semibold text-slate-900">
+          {showLevel && <span className="mr-1.5 text-xs font-bold text-slate-400">{t.level_id}</span>}
+          {t.title}
+        </span>
+        <span className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-semibold ${STATUS[t.status].cls}`}>{STATUS[t.status].label}</span>
+      </span>
+      <span className="mt-auto flex items-end gap-3 pt-2">
+        <span className="min-w-0 flex-1 text-sm text-slate-500">
+          {t.sessions === 0
+            ? `${t.items} ejercicios`
+            : `${t.sessions} ${t.sessions === 1 ? 'ronda' : 'rondas'} · ${t.accuracy}%${t.status === 'done' && t.due_at ? ` · vuelve ${dueIn(t.due_at)}` : ''}`}
+        </span>
+        {t.recent.length > 2 && <Trend scores={t.recent} />}
+        <ChevronRight className="h-5 w-5 shrink-0 text-indigo-500 transition group-hover:translate-x-0.5" />
+      </span>
     </Link>
+  )
+}
+
+/** Locked topics, folded: a compact list of what opens with which unit. */
+function LockedTopics({ topics, showLevel, startOpen }: { topics: PracticeTopicSummary[]; showLevel: boolean; startOpen: boolean }) {
+  return (
+    <details open={startOpen} className="group mt-6 rounded-2xl border border-dashed border-slate-300">
+      <summary className="flex cursor-pointer list-none items-center gap-2 px-4 py-3 text-sm font-medium text-slate-600 hover:text-slate-900">
+        <Lock className="h-4 w-4 text-slate-400" />
+        <span className="flex-1">
+          {topics.length} {topics.length === 1 ? 'tema se abre' : 'temas se abren'} más adelante
+        </span>
+        <ChevronDown className="h-4 w-4 transition group-open:rotate-180" />
+      </summary>
+      <ul className="grid gap-x-6 border-t border-dashed border-slate-300 px-4 py-2 sm:grid-cols-2">
+        {topics.map((t) => (
+          <li key={t.topic_id} className="flex items-baseline gap-2 py-1.5 text-sm">
+            <span className="min-w-0 flex-1 text-slate-600">
+              {showLevel && <span className="mr-1.5 text-xs font-bold text-slate-400">{t.level_id}</span>}
+              {t.title}
+            </span>
+            {t.opens_with && <span className="max-w-[50%] shrink-0 truncate text-xs text-slate-400">con «{t.opens_with.title}»</span>}
+          </li>
+        ))}
+      </ul>
+    </details>
   )
 }
 
@@ -131,6 +277,8 @@ function Round({ topicId }: { topicId: string }) {
   const [error, setError] = useState<'locked' | 'other' | null>(null)
   const [index, setIndex] = useState(0)
   const [answered, setAnswered] = useState(false)
+  // Items graded in the current step, so the bar moves with each answer.
+  const [graded, setGraded] = useState(0)
   const [result, setResult] = useState<{ server: PracticeRoundResult; mistakes: Mistake[] } | null>(null)
   const [saveError, setSaveError] = useState(false)
   const results = useRef<Record<number, ExerciseResult>>({})
@@ -140,6 +288,7 @@ function Round({ topicId }: { topicId: string }) {
     setError(null)
     setIndex(0)
     setAnswered(false)
+    setGraded(0)
     setResult(null)
     results.current = {}
     api
@@ -233,11 +382,12 @@ function Round({ topicId }: { topicId: string }) {
     else {
       setIndex(index + 1)
       setAnswered(false)
+      setGraded(0)
       window.scrollTo({ top: 0, behavior: 'smooth' })
     }
   }
   const nextLabel = isLast ? 'Terminar ronda' : 'Siguiente ejercicio'
-  const done = round.steps.slice(0, index).reduce((n, s) => n + s.content.items.length, 0)
+  const done = round.steps.slice(0, index).reduce((n, s) => n + s.content.items.length, 0) + graded
   const total = round.steps.reduce((n, s) => n + s.content.items.length, 0)
 
   return (
@@ -276,7 +426,7 @@ function Round({ topicId }: { topicId: string }) {
       </details>
 
       <article className="mt-5 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
-        <LessonFlowContext.Provider value={{ advance: next, nextLabel }}>
+        <LessonFlowContext.Provider value={{ advance: next, nextLabel, onGraded: () => setGraded((g) => g + 1), hideCounter: true }}>
           <StepRenderer
             key={index}
             step={step}

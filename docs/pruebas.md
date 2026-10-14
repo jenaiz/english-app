@@ -31,16 +31,23 @@ Si algo falla, dímelo con el tema y la frase, y lo corrijo.
 ## 3. Repaso → Gramática
 
 - [ ] En Repaso aparece la tarjeta «Gramática», con el número de temas para hoy si los hay.
-- [ ] La lista agrupa los temas por nivel, en el orden de las unidades.
-- [ ] Un tema de una unidad que aún no has empezado sale con candado y «Se abre en la unidad X».
+- [ ] Arriba salen tres cifras: temas para hoy, temas abiertos y temas por abrir.
+- [ ] Si hay temas para hoy, salen primero en «Para hoy», de cualquier nivel.
+- [ ] La lista abre en tu nivel (A1) y las pestañas A1…C1 dicen cuántos temas tienes abiertos de cuántos (p. ej. «3/25»).
+- [ ] Al cambiar de nivel y volver a la página, se acuerda del último nivel elegido.
+- [ ] Los temas abiertos salen como tarjetas (tres por fila en ordenador, una en el móvil), en el orden de las unidades.
+- [ ] Los temas que aún no tienes están plegados en «N temas se abren más adelante»; al desplegarlo se ve cada uno con la unidad que lo abre.
+- [ ] En un nivel sin temas abiertos (p. ej. B2) sale un aviso y la lista de los bloqueados ya desplegada.
+- [ ] El buscador encuentra temas de todos los niveles (prueba «past» o «condicional»), sin importar las tildes.
 - [ ] Al empezar esa unidad, el tema se abre.
 - [ ] Cada ronda tiene 12 ejercicios de varios tipos (huecos, elegir, corregir, traducir, ordenar).
-- [ ] En los huecos con lista de palabras, la lista se ve encima de la frase.
+- [ ] En los huecos con lista de palabras, la lista se ve encima de la frase y al pulsar una palabra se escribe en el hueco (en frases con dos huecos, en el que tenga el cursor o en el primero vacío).
+- [ ] La barra y el contador de arriba (p. ej. «1/12») avanzan con cada respuesta, no solo al cambiar de ejercicio, y la tarjeta ya no lleva un segundo contador.
 - [ ] «Ver la regla» despliega la regla y, al final, el enlace «Así lo viste en la unidad…» lleva a la ficha de la unidad.
 - [ ] Al acabar la ronda se ven la nota, los fallos y cuándo vuelve el tema.
 - [ ] «Otra ronda» trae ejercicios distintos, y los que fallaste salen primero.
 - [ ] Después de una ronda, el tema pasa a «Al día · vuelve mañana» (o la fecha que toque) y muestra el % de aciertos.
-- [ ] Con dos rondas o más aparecen las barritas de las últimas notas.
+- [ ] Con tres rondas o más aparecen las barritas de las últimas notas.
 - [ ] En el posesivo «'s», escribir «parents house» sin apóstrofo cuenta como fallo.
 - [ ] En el resto de temas, las contracciones valen igual: «I'm» = «I am», «isn't» = «is not».
 

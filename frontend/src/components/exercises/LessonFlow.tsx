@@ -11,6 +11,10 @@ export interface LessonFlow {
   advance: () => void
   /** Label of the button that does it. */
   nextLabel: string
+  /** Called each time an item is graded, for a progress bar that moves per item. */
+  onGraded?: () => void
+  /** The page shows its own item counter, so the exercise hides its "1 / 4". */
+  hideCounter?: boolean
 }
 
 export const LessonFlowContext = createContext<LessonFlow | null>(null)
