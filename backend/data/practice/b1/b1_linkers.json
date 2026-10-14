@@ -1,0 +1,457 @@
+{
+  "topic_id": "b1_linkers",
+  "level_id": "B1",
+  "title": "Conectores: however, although, therefore, because of",
+  "tags": [
+    "linkers"
+  ],
+  "units": [
+    "job_interview"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Linkers: however, although, therefore, because of",
+    "explanation": "Para conectar ideas en una entrevista, un correo o una redacción.\n\nContraste:\n- «However» (sin embargo) va al principio de una frase nueva y con coma: «The deadline was short. However, we finished on time.»\n- «Although» (aunque) une dos ideas en la misma frase: «Although the deadline was short, we finished on time.»\n- «On the other hand» (por otro lado) presenta el otro punto de vista: «The job pays well. On the other hand, it's stressful.»\n- «Despite» / «In spite of» + nombre o «-ing»: «Despite the rain, we went out.»\n\nCausa y consecuencia:\n- «because» + frase, «because of» + nombre: «because it was late», «because of the deadline»\n- «so» (así que): «I was tired, so I went home.»\n- «therefore» y «as a result» (por lo tanto; más formales): «We had a short deadline. Therefore, I worked late every night.»\n\nOjo: «although» y «but» no van juntos en la misma frase (nunca «Although it was late, but…»). Y «despite» nunca lleva «of» («despite the rain», no «despite of»).",
+    "table": {
+      "headers": [
+        "Conector",
+        "Significado",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "however",
+          "sin embargo",
+          "It was hard. However, we did it."
+        ],
+        [
+          "although",
+          "aunque",
+          "Although it was hard, we did it."
+        ],
+        [
+          "despite",
+          "a pesar de",
+          "Despite the rain, we went."
+        ],
+        [
+          "because of",
+          "por (+ nombre)",
+          "because of the traffic"
+        ],
+        [
+          "therefore",
+          "por lo tanto",
+          "Therefore, I accepted."
+        ],
+        [
+          "on the other hand",
+          "por otro lado",
+          "On the other hand, it's far."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «however», «although», «despite», «therefore», «because of», «because» o «so».",
+      "bank": [
+        "however",
+        "although",
+        "despite",
+        "therefore",
+        "because of",
+        "because",
+        "so",
+        "other"
+      ],
+      "items": [
+        {
+          "id": "b1_linkers.001",
+          "sentence": "The deadline was short. ___, we finished on time.",
+          "answers": [
+            [
+              "However"
+            ]
+          ]
+        },
+        {
+          "id": "b1_linkers.002",
+          "sentence": "___ I was nervous, the interview went very well.",
+          "answers": [
+            [
+              "Although"
+            ]
+          ]
+        },
+        {
+          "id": "b1_linkers.003",
+          "sentence": "We worked late every night ___ the deadline.",
+          "answers": [
+            [
+              "because of"
+            ]
+          ]
+        },
+        {
+          "id": "b1_linkers.004",
+          "sentence": "The senior job pays more. On the ___ hand, it's more stressful.",
+          "answers": [
+            [
+              "other"
+            ]
+          ]
+        },
+        {
+          "id": "b1_linkers.005",
+          "sentence": "She has managed a team before. ___, she's ready for the job.",
+          "answers": [
+            [
+              "Therefore",
+              "So"
+            ]
+          ]
+        },
+        {
+          "id": "b1_linkers.006",
+          "sentence": "___ the rain, we went for a walk.",
+          "answers": [
+            [
+              "Despite"
+            ]
+          ]
+        },
+        {
+          "id": "b1_linkers.007",
+          "sentence": "I was tired, ___ I went to bed early.",
+          "answers": [
+            [
+              "so"
+            ]
+          ]
+        },
+        {
+          "id": "b1_linkers.008",
+          "sentence": "The train was late ___ the snow.",
+          "answers": [
+            [
+              "because of"
+            ]
+          ]
+        },
+        {
+          "id": "b1_linkers.009",
+          "sentence": "I took the job ___ the salary was good.",
+          "answers": [
+            [
+              "because"
+            ]
+          ]
+        },
+        {
+          "id": "b1_linkers.010",
+          "sentence": "___ he's young, he's very experienced.",
+          "answers": [
+            [
+              "Although"
+            ]
+          ]
+        },
+        {
+          "id": "b1_linkers.011",
+          "sentence": "I enjoy the work. ___, the hours are sometimes long.",
+          "answers": [
+            [
+              "However"
+            ]
+          ]
+        },
+        {
+          "id": "b1_linkers.012",
+          "sentence": "___ being tired, she finished the report.",
+          "answers": [
+            [
+              "Despite"
+            ]
+          ],
+          "explanation": "«despite» + «-ing»."
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b1_linkers.101",
+          "question": "Aunque era tarde, seguimos trabajando.",
+          "options": [
+            "Although it was late, we kept working.",
+            "Although it was late, but we kept working."
+          ],
+          "answer": 0,
+          "explanation": "«although» y «but» no van juntos."
+        },
+        {
+          "id": "b1_linkers.102",
+          "question": "A pesar de la lluvia, salimos.",
+          "options": [
+            "Despite the rain, we went out.",
+            "Despite of the rain, we went out."
+          ],
+          "answer": 0,
+          "explanation": "«despite» sin «of»."
+        },
+        {
+          "id": "b1_linkers.103",
+          "question": "Llegué tarde por el tráfico.",
+          "options": [
+            "I was late because of the traffic.",
+            "I was late because the traffic."
+          ],
+          "answer": 0,
+          "explanation": "Con nombre: «because of»."
+        },
+        {
+          "id": "b1_linkers.104",
+          "question": "Fue difícil. Sin embargo, lo conseguimos.",
+          "options": [
+            "It was hard. However, we did it.",
+            "It was hard. Although, we did it."
+          ],
+          "answer": 0,
+          "explanation": "Frase nueva: «However»."
+        },
+        {
+          "id": "b1_linkers.105",
+          "question": "Por lo tanto, acepté el trabajo.",
+          "options": [
+            "Therefore, I accepted the job.",
+            "Because of, I accepted the job."
+          ],
+          "answer": 0,
+          "explanation": "Consecuencia: «Therefore»."
+        },
+        {
+          "id": "b1_linkers.106",
+          "question": "Estaba cansada, así que me fui a casa.",
+          "options": [
+            "I was tired, so I went home.",
+            "I was tired, because I went home."
+          ],
+          "answer": 0,
+          "explanation": "Consecuencia: «so»."
+        },
+        {
+          "id": "b1_linkers.107",
+          "question": "Por otro lado, está lejos.",
+          "options": [
+            "On the other hand, it's far.",
+            "In the other hand, it's far."
+          ],
+          "answer": 0,
+          "explanation": "«On the other hand»."
+        },
+        {
+          "id": "b1_linkers.108",
+          "question": "Aunque es joven, tiene mucha experiencia.",
+          "options": [
+            "Although he's young, he's very experienced.",
+            "Despite he's young, he's very experienced."
+          ],
+          "answer": 0,
+          "explanation": "Con una frase: «although»."
+        },
+        {
+          "id": "b1_linkers.109",
+          "question": "A pesar de estar cansado, terminó.",
+          "options": [
+            "Despite being tired, he finished.",
+            "Despite he was tired, he finished."
+          ],
+          "answer": 0,
+          "explanation": "«despite» + «-ing»."
+        },
+        {
+          "id": "b1_linkers.110",
+          "question": "No vine porque estaba enfermo.",
+          "options": [
+            "I didn't come because I was ill.",
+            "I didn't come because of I was ill."
+          ],
+          "answer": 0,
+          "explanation": "Con una frase: «because»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Une las frases con el conector indicado.",
+      "items": [
+        {
+          "id": "b1_linkers.201",
+          "prompt": "However",
+          "source": "The job is well paid. It's very stressful.",
+          "answers": [
+            "The job is well paid. However, it's very stressful",
+            "The job is well paid. However it's very stressful"
+          ]
+        },
+        {
+          "id": "b1_linkers.202",
+          "prompt": "Although",
+          "source": "I was nervous. The interview went well.",
+          "answers": [
+            "Although I was nervous, the interview went well"
+          ]
+        },
+        {
+          "id": "b1_linkers.203",
+          "prompt": "Despite",
+          "source": "It was raining. We went out.",
+          "answers": [
+            "Despite the rain, we went out",
+            "Despite the rain we went out"
+          ]
+        },
+        {
+          "id": "b1_linkers.204",
+          "prompt": "because of",
+          "source": "The flight was cancelled. There was fog.",
+          "answers": [
+            "The flight was cancelled because of the fog"
+          ]
+        },
+        {
+          "id": "b1_linkers.205",
+          "prompt": "Therefore",
+          "source": "She has a lot of experience. We gave her the job.",
+          "answers": [
+            "She has a lot of experience. Therefore, we gave her the job",
+            "She has a lot of experience. Therefore we gave her the job"
+          ]
+        },
+        {
+          "id": "b1_linkers.206",
+          "prompt": "Corrige",
+          "source": "Although it was cold, but we swam.",
+          "answers": [
+            "Although it was cold, we swam"
+          ],
+          "explanation": "«although» y «but» no van juntos."
+        },
+        {
+          "id": "b1_linkers.207",
+          "prompt": "Corrige",
+          "source": "Despite of the noise, I slept well.",
+          "answers": [
+            "Despite the noise, I slept well"
+          ],
+          "explanation": "«despite» sin «of»."
+        },
+        {
+          "id": "b1_linkers.208",
+          "prompt": "Corrige",
+          "source": "We stayed at home because the storm.",
+          "answers": [
+            "We stayed at home because of the storm"
+          ],
+          "explanation": "Con nombre: «because of»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_linkers.301",
+          "source": "El plazo era corto. Sin embargo, terminamos a tiempo.",
+          "answers": [
+            "The deadline was short. However, we finished on time",
+            "The deadline was short. However we finished on time"
+          ]
+        },
+        {
+          "id": "b1_linkers.302",
+          "source": "Aunque estaba nerviosa, la entrevista fue bien.",
+          "answers": [
+            "Although I was nervous, the interview went well"
+          ]
+        },
+        {
+          "id": "b1_linkers.303",
+          "source": "A pesar de la lluvia, salimos.",
+          "answers": [
+            "Despite the rain, we went out",
+            "In spite of the rain, we went out"
+          ]
+        },
+        {
+          "id": "b1_linkers.304",
+          "source": "Trabajamos hasta tarde por el plazo.",
+          "answers": [
+            "We worked late because of the deadline"
+          ]
+        },
+        {
+          "id": "b1_linkers.305",
+          "source": "Por otro lado, es más estresante.",
+          "answers": [
+            "On the other hand, it's more stressful"
+          ]
+        },
+        {
+          "id": "b1_linkers.306",
+          "source": "Estaba cansado, así que me fui a casa.",
+          "answers": [
+            "I was tired, so I went home"
+          ]
+        },
+        {
+          "id": "b1_linkers.307",
+          "source": "Por lo tanto, está preparada para el puesto.",
+          "answers": [
+            "Therefore, she's ready for the job",
+            "Therefore she's ready for the job"
+          ]
+        },
+        {
+          "id": "b1_linkers.308",
+          "source": "Llegué tarde por el tráfico.",
+          "answers": [
+            "I was late because of the traffic",
+            "I arrived late because of the traffic"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_linkers.401",
+          "answer": "However, we finished on time"
+        },
+        {
+          "id": "b1_linkers.402",
+          "answer": "Although I was nervous, it went well"
+        },
+        {
+          "id": "b1_linkers.403",
+          "answer": "We were late because of the traffic"
+        },
+        {
+          "id": "b1_linkers.404",
+          "answer": "Despite the rain, we went out"
+        },
+        {
+          "id": "b1_linkers.405",
+          "answer": "On the other hand, it's very far"
+        }
+      ]
+    }
+  ]
+}

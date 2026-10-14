@@ -1,0 +1,452 @@
+{
+  "topic_id": "b1_should_have",
+  "level_id": "B1",
+  "title": "should have, might have, could have + participio",
+  "tags": [
+    "should_have"
+  ],
+  "units": [
+    "farewell_gig"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "should have, might have, could have",
+    "explanation": "«Should have» + participio es una crítica o un lamento sobre el pasado; «shouldn't have», lo contrario:\n- «You should have come!» (deberías haber venido)\n- «Daniel shouldn't have left the tickets at home.» (no debería haberlas dejado)\n\n«Might have» / «may have» + participio dice que algo fue posible en el pasado, pero no sabemos si pasó:\n- «The producer might have recorded the concert.»\n- «She may have missed the bus.»\n\n«Could have» + participio es lo que pudo pasar y no pasó, o algo posible en el pasado:\n- «We could have missed the start!»\n- «You could have told me!» (podrías habérmelo dicho)\n\nEn la conversación, «have» se contrae y suena débil: «should've», «could've», «might've» (/ʃʊdəv/). Por eso a veces se escribe mal «should of»; lo correcto es «should have».\n\nOjo: después de estos modales va «have» + participio, nunca «had» ni el pasado: «You should have gone» (nunca «should had gone» ni «should have went»).",
+    "table": {
+      "headers": [
+        "Forma",
+        "Significado",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "should have + participio",
+          "deberías haber…",
+          "You should have come."
+        ],
+        [
+          "shouldn't have + participio",
+          "no deberías haber…",
+          "He shouldn't have left."
+        ],
+        [
+          "might / may have + participio",
+          "puede que haya…",
+          "She might have missed the bus."
+        ],
+        [
+          "could have + participio",
+          "podría haber… (no pasó)",
+          "We could have won."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «have», «should», «might», «could» o el participio.",
+      "items": [
+        {
+          "id": "b1_should_have.001",
+          "sentence": "You should ___ come to the gig. It was amazing!",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "b1_should_have.002",
+          "sentence": "Daniel shouldn't have ___ the tickets at home. (leave)",
+          "answers": [
+            [
+              "left"
+            ]
+          ]
+        },
+        {
+          "id": "b1_should_have.003",
+          "sentence": "Someone might ___ filmed the concert.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "b1_should_have.004",
+          "sentence": "We ___ have taken a taxi. We were so late! (consejo sobre el pasado)",
+          "answers": [
+            [
+              "should"
+            ]
+          ]
+        },
+        {
+          "id": "b1_should_have.005",
+          "sentence": "She isn't here. She ___ have missed the bus. (posible)",
+          "answers": [
+            [
+              "might",
+              "may"
+            ]
+          ]
+        },
+        {
+          "id": "b1_should_have.006",
+          "sentence": "You ___ have told me! I didn't know! (reproche)",
+          "answers": [
+            [
+              "could"
+            ]
+          ]
+        },
+        {
+          "id": "b1_should_have.007",
+          "sentence": "I should have ___ harder for the exam. (study)",
+          "answers": [
+            [
+              "studied"
+            ]
+          ]
+        },
+        {
+          "id": "b1_should_have.008",
+          "sentence": "We could have ___ the match if we had played better. (win)",
+          "answers": [
+            [
+              "won"
+            ]
+          ]
+        },
+        {
+          "id": "b1_should_have.009",
+          "sentence": "You shouldn't have ___ so much cake. (eat)",
+          "answers": [
+            [
+              "eaten"
+            ]
+          ]
+        },
+        {
+          "id": "b1_should_have.010",
+          "sentence": "He might have ___ his phone at home. (forget)",
+          "answers": [
+            [
+              "forgotten"
+            ]
+          ]
+        },
+        {
+          "id": "b1_should_have.011",
+          "sentence": "I ___ have called you. Sorry! (debería)",
+          "answers": [
+            [
+              "should"
+            ]
+          ]
+        },
+        {
+          "id": "b1_should_have.012",
+          "sentence": "They could have ___ hurt. It was dangerous! (get)",
+          "answers": [
+            [
+              "got"
+            ]
+          ]
+        },
+        {
+          "id": "b1_should_have.013",
+          "sentence": "You should have ___ me. I would have helped. (ask)",
+          "answers": [
+            [
+              "asked"
+            ]
+          ]
+        },
+        {
+          "id": "b1_should_have.014",
+          "sentence": "Sam may ___ gone home already.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b1_should_have.101",
+          "question": "Deberías haber venido.",
+          "options": [
+            "You should have come.",
+            "You should had come."
+          ],
+          "answer": 0,
+          "explanation": "«should have» + participio."
+        },
+        {
+          "id": "b1_should_have.102",
+          "question": "No debería haber dejado las entradas.",
+          "options": [
+            "He shouldn't have left the tickets.",
+            "He shouldn't have leave the tickets."
+          ],
+          "answer": 0,
+          "explanation": "Participio: «left»."
+        },
+        {
+          "id": "b1_should_have.103",
+          "question": "Puede que haya perdido el autobús.",
+          "options": [
+            "She might have missed the bus.",
+            "She might missed the bus."
+          ],
+          "answer": 0,
+          "explanation": "«might have» + participio."
+        },
+        {
+          "id": "b1_should_have.104",
+          "question": "¡Podrías habérmelo dicho!",
+          "options": [
+            "You could have told me!",
+            "You could told me!"
+          ],
+          "answer": 0,
+          "explanation": "«could have» + participio."
+        },
+        {
+          "id": "b1_should_have.105",
+          "question": "Debería haber estudiado más.",
+          "options": [
+            "I should have studied more.",
+            "I should of studied more."
+          ],
+          "answer": 0,
+          "explanation": "Se escribe «should have»."
+        },
+        {
+          "id": "b1_should_have.106",
+          "question": "Podríamos haber ganado.",
+          "options": [
+            "We could have won.",
+            "We could have win."
+          ],
+          "answer": 0,
+          "explanation": "Participio: «won»."
+        },
+        {
+          "id": "b1_should_have.107",
+          "question": "Puede que se haya ido ya.",
+          "options": [
+            "He may have gone already.",
+            "He may have went already."
+          ],
+          "answer": 0,
+          "explanation": "Participio: «gone»."
+        },
+        {
+          "id": "b1_should_have.108",
+          "question": "No deberías haber comido tanto.",
+          "options": [
+            "You shouldn't have eaten so much.",
+            "You shouldn't have ate so much."
+          ],
+          "answer": 0,
+          "explanation": "Participio: «eaten»."
+        },
+        {
+          "id": "b1_should_have.109",
+          "question": "Alguien podría haber grabado el concierto.",
+          "options": [
+            "Someone might have recorded the concert.",
+            "Someone might has recorded the concert."
+          ],
+          "answer": 0,
+          "explanation": "Siempre «have»."
+        },
+        {
+          "id": "b1_should_have.110",
+          "question": "Deberíamos haber cogido un taxi.",
+          "options": [
+            "We should have taken a taxi.",
+            "We should taken a taxi."
+          ],
+          "answer": 0,
+          "explanation": "Falta «have»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con el modal indicado o corrige el error.",
+      "items": [
+        {
+          "id": "b1_should_have.201",
+          "prompt": "should have",
+          "source": "You didn't come. That was a mistake.",
+          "answers": [
+            "You should have come"
+          ]
+        },
+        {
+          "id": "b1_should_have.202",
+          "prompt": "shouldn't have",
+          "source": "Daniel left the tickets at home. That was a mistake.",
+          "answers": [
+            "Daniel shouldn't have left the tickets at home"
+          ]
+        },
+        {
+          "id": "b1_should_have.203",
+          "prompt": "might have",
+          "source": "Perhaps she missed the bus.",
+          "answers": [
+            "She might have missed the bus"
+          ]
+        },
+        {
+          "id": "b1_should_have.204",
+          "prompt": "could have",
+          "source": "It was possible for us to win, but we didn't.",
+          "answers": [
+            "We could have won"
+          ]
+        },
+        {
+          "id": "b1_should_have.205",
+          "prompt": "Corrige",
+          "source": "You should of told me.",
+          "answers": [
+            "You should have told me"
+          ],
+          "explanation": "Se escribe «should have»."
+        },
+        {
+          "id": "b1_should_have.206",
+          "prompt": "Corrige",
+          "source": "He might have went home.",
+          "answers": [
+            "He might have gone home"
+          ],
+          "explanation": "Participio: «gone»."
+        },
+        {
+          "id": "b1_should_have.207",
+          "prompt": "Corrige",
+          "source": "I should had studied more.",
+          "answers": [
+            "I should have studied more"
+          ],
+          "explanation": "«should have», nunca «should had»."
+        },
+        {
+          "id": "b1_should_have.208",
+          "prompt": "Corrige",
+          "source": "We could have miss the train.",
+          "answers": [
+            "We could have missed the train"
+          ],
+          "explanation": "Participio: «missed»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_should_have.301",
+          "source": "¡Deberías haber venido!",
+          "answers": [
+            "You should have come"
+          ]
+        },
+        {
+          "id": "b1_should_have.302",
+          "source": "Daniel no debería haber dejado las entradas en casa.",
+          "answers": [
+            "Daniel shouldn't have left the tickets at home"
+          ]
+        },
+        {
+          "id": "b1_should_have.303",
+          "source": "Puede que el productor haya grabado el concierto.",
+          "answers": [
+            "The producer might have recorded the concert",
+            "The producer may have recorded the concert"
+          ]
+        },
+        {
+          "id": "b1_should_have.304",
+          "source": "¡Podríamos haber llegado tarde!",
+          "answers": [
+            "We could have been late",
+            "We could have arrived late"
+          ]
+        },
+        {
+          "id": "b1_should_have.305",
+          "source": "Debería haber estudiado más.",
+          "answers": [
+            "I should have studied more"
+          ]
+        },
+        {
+          "id": "b1_should_have.306",
+          "source": "¡Podrías habérmelo dicho!",
+          "answers": [
+            "You could have told me"
+          ]
+        },
+        {
+          "id": "b1_should_have.307",
+          "source": "Puede que haya perdido el autobús.",
+          "answers": [
+            "She might have missed the bus",
+            "He might have missed the bus",
+            "She may have missed the bus"
+          ]
+        },
+        {
+          "id": "b1_should_have.308",
+          "source": "No deberías haber comido tanto.",
+          "answers": [
+            "You shouldn't have eaten so much"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_should_have.401",
+          "answer": "You should have come to the gig"
+        },
+        {
+          "id": "b1_should_have.402",
+          "answer": "He shouldn't have left the tickets"
+        },
+        {
+          "id": "b1_should_have.403",
+          "answer": "She might have missed the bus"
+        },
+        {
+          "id": "b1_should_have.404",
+          "answer": "We could have won the match"
+        },
+        {
+          "id": "b1_should_have.405",
+          "answer": "You could have told me"
+        }
+      ]
+    }
+  ]
+}

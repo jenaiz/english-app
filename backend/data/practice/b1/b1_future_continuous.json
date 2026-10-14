@@ -1,0 +1,449 @@
+{
+  "topic_id": "b1_future_continuous",
+  "level_id": "B1",
+  "title": "Future continuous: will be + -ing",
+  "tags": [
+    "future_continuous"
+  ],
+  "units": [
+    "airport_travel"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Future continuous: will be + -ing",
+    "explanation": "El future continuous («will be» + «-ing») describe una acción que estará en marcha en un momento del futuro:\n- «This time tomorrow we'll be walking around Dublin.» (mañana a esta hora estaremos paseando por Dublín)\n- «At ten I'll be flying over France.»\n\nTambién se usa para planes que van a pasar en el curso normal de las cosas, y para preguntar por planes con educación:\n- «I'll be seeing Helen at the meeting anyway.»\n- «Will you be using the car tonight?» (¿vas a usar el coche esta noche?)\n\nLa negativa es «won't be» + «-ing»:\n- «I won't be working on Friday.»\n\nCompáralo con «will» + verbo, que es una acción puntual:\n- «The plane will land at twelve.»\n- «At twelve we'll be landing.» (en pleno aterrizaje)\n\nOjo: los verbos de estado no van en continuous tampoco aquí: «I'll be at home» (nunca «I'll be being»), «I'll know tomorrow».",
+    "table": {
+      "headers": [
+        "",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "En marcha en el futuro",
+          "This time tomorrow I'll be flying."
+        ],
+        [
+          "Pregunta educada",
+          "Will you be using the car?"
+        ],
+        [
+          "Negativa",
+          "I won't be working on Friday."
+        ],
+        [
+          "Acción puntual (will)",
+          "The plane will land at twelve."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el future continuous («will be» + «-ing») del verbo entre paréntesis.",
+      "items": [
+        {
+          "id": "b1_future_continuous.001",
+          "sentence": "This time tomorrow we'll be ___ around Dublin. (walk)",
+          "answers": [
+            [
+              "walking"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_continuous.002",
+          "sentence": "Don't call at eleven. I'll ___ flying. (be)",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_continuous.003",
+          "sentence": "Maureen will be ___ for us at the station. (wait)",
+          "answers": [
+            [
+              "waiting"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_continuous.004",
+          "sentence": "I ___ be working at Easter. I'm on holiday! (negativa)",
+          "answers": [
+            [
+              "won't"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_continuous.005",
+          "sentence": "___ you be checking in any bags?",
+          "answers": [
+            [
+              "Will"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_continuous.006",
+          "sentence": "At midnight we'll ___ sleeping in the hotel. (be)",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_continuous.007",
+          "sentence": "At ten o'clock I ___ a presentation. (give)",
+          "answers": [
+            [
+              "will be giving",
+              "'ll be giving"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_continuous.008",
+          "sentence": "Will you ___ using the car tonight?",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_continuous.009",
+          "sentence": "In a year, Javi will be ___ in Dublin. (live)",
+          "answers": [
+            [
+              "living"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_continuous.010",
+          "sentence": "Don't worry about the plants. I'll be ___ after them. (look)",
+          "answers": [
+            [
+              "looking"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_continuous.011",
+          "sentence": "We ___ dinner at eight, so come at nine. (have)",
+          "answers": [
+            [
+              "will be having",
+              "'ll be having"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_continuous.012",
+          "sentence": "This time next week I'll ___ lying on a beach. (be)",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_continuous.013",
+          "sentence": "The plane ___ land at twelve. (acción puntual)",
+          "answers": [
+            [
+              "will"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_continuous.014",
+          "sentence": "Will you be ___ Helen at the meeting? (see)",
+          "answers": [
+            [
+              "seeing"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b1_future_continuous.101",
+          "question": "Mañana a esta hora estaremos paseando por Dublín.",
+          "options": [
+            "This time tomorrow we'll be walking around Dublin.",
+            "This time tomorrow we'll walk around Dublin now."
+          ],
+          "answer": 0,
+          "explanation": "En marcha en el futuro: «will be» + «-ing»."
+        },
+        {
+          "id": "b1_future_continuous.102",
+          "question": "¿Vas a usar el coche esta noche?",
+          "options": [
+            "Will you be using the car tonight?",
+            "Will you using the car tonight?"
+          ],
+          "answer": 0,
+          "explanation": "«Will you be» + «-ing»."
+        },
+        {
+          "id": "b1_future_continuous.103",
+          "question": "No trabajaré el viernes.",
+          "options": [
+            "I won't be working on Friday.",
+            "I won't working on Friday."
+          ],
+          "answer": 0,
+          "explanation": "«won't be» + «-ing»."
+        },
+        {
+          "id": "b1_future_continuous.104",
+          "question": "El avión aterrizará a las doce.",
+          "options": [
+            "The plane will land at twelve.",
+            "The plane will be land at twelve."
+          ],
+          "answer": 0,
+          "explanation": "Acción puntual: «will» + verbo."
+        },
+        {
+          "id": "b1_future_continuous.105",
+          "question": "A las diez estaré volando.",
+          "options": [
+            "At ten I'll be flying.",
+            "At ten I'll be fly."
+          ],
+          "answer": 0,
+          "explanation": "«will be» + «-ing»."
+        },
+        {
+          "id": "b1_future_continuous.106",
+          "question": "Estaré en casa.",
+          "options": [
+            "I'll be at home.",
+            "I'll be being at home."
+          ],
+          "answer": 0,
+          "explanation": "«be» es un verbo de estado."
+        },
+        {
+          "id": "b1_future_continuous.107",
+          "question": "Te estaremos esperando.",
+          "options": [
+            "We'll be waiting for you.",
+            "We'll wait for you being."
+          ],
+          "answer": 0,
+          "explanation": "«will be» + «-ing»."
+        },
+        {
+          "id": "b1_future_continuous.108",
+          "question": "¿Estarás trabajando mañana?",
+          "options": [
+            "Will you be working tomorrow?",
+            "Are you be working tomorrow?"
+          ],
+          "answer": 0,
+          "explanation": "Pregunta: «Will you be…?»."
+        },
+        {
+          "id": "b1_future_continuous.109",
+          "question": "A medianoche estaremos durmiendo.",
+          "options": [
+            "At midnight we'll be sleeping.",
+            "At midnight we're sleeping will."
+          ],
+          "answer": 0,
+          "explanation": "«will be» + «-ing»."
+        },
+        {
+          "id": "b1_future_continuous.110",
+          "question": "Mañana lo sabré.",
+          "options": [
+            "I'll know tomorrow.",
+            "I'll be knowing tomorrow."
+          ],
+          "answer": 0,
+          "explanation": "«know» es un verbo de estado."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Transforma o corrige la frase como se indica.",
+      "items": [
+        {
+          "id": "b1_future_continuous.201",
+          "prompt": "Future continuous",
+          "source": "At ten I fly over France.",
+          "answers": [
+            "At ten I'll be flying over France"
+          ]
+        },
+        {
+          "id": "b1_future_continuous.202",
+          "prompt": "Negativa",
+          "source": "I'll be working on Saturday.",
+          "answers": [
+            "I won't be working on Saturday"
+          ]
+        },
+        {
+          "id": "b1_future_continuous.203",
+          "prompt": "Pregunta",
+          "source": "You'll be using the printer this afternoon.",
+          "answers": [
+            "Will you be using the printer this afternoon"
+          ]
+        },
+        {
+          "id": "b1_future_continuous.204",
+          "prompt": "Corrige",
+          "source": "This time tomorrow I'll lie on the beach.",
+          "answers": [
+            "This time tomorrow I'll be lying on the beach"
+          ],
+          "explanation": "En marcha en el futuro."
+        },
+        {
+          "id": "b1_future_continuous.205",
+          "prompt": "Corrige",
+          "source": "Will you be use the car?",
+          "answers": [
+            "Will you be using the car"
+          ],
+          "explanation": "«will be» + «-ing»."
+        },
+        {
+          "id": "b1_future_continuous.206",
+          "prompt": "Corrige",
+          "source": "I'll be being at the office.",
+          "answers": [
+            "I'll be at the office"
+          ],
+          "explanation": "«be» es un verbo de estado."
+        },
+        {
+          "id": "b1_future_continuous.207",
+          "prompt": "Corrige",
+          "source": "We won't working tomorrow.",
+          "answers": [
+            "We won't be working tomorrow"
+          ],
+          "explanation": "«won't be» + «-ing»."
+        },
+        {
+          "id": "b1_future_continuous.208",
+          "prompt": "Corrige",
+          "source": "At eight they will having dinner.",
+          "answers": [
+            "At eight they will be having dinner",
+            "At eight they'll be having dinner"
+          ],
+          "explanation": "«will be» + «-ing»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_future_continuous.301",
+          "source": "Mañana a esta hora estaremos en Dublín.",
+          "answers": [
+            "This time tomorrow we'll be in Dublin"
+          ]
+        },
+        {
+          "id": "b1_future_continuous.302",
+          "source": "Mañana a esta hora estaré volando.",
+          "answers": [
+            "This time tomorrow I'll be flying"
+          ]
+        },
+        {
+          "id": "b1_future_continuous.303",
+          "source": "¿Vas a usar el coche esta noche?",
+          "answers": [
+            "Will you be using the car tonight"
+          ]
+        },
+        {
+          "id": "b1_future_continuous.304",
+          "source": "No trabajaré en Semana Santa.",
+          "answers": [
+            "I won't be working at Easter"
+          ]
+        },
+        {
+          "id": "b1_future_continuous.305",
+          "source": "Maureen nos estará esperando en la estación.",
+          "answers": [
+            "Maureen will be waiting for us at the station"
+          ]
+        },
+        {
+          "id": "b1_future_continuous.306",
+          "source": "A las diez estaré dando una presentación.",
+          "answers": [
+            "At ten I'll be giving a presentation",
+            "At ten o'clock I'll be giving a presentation"
+          ]
+        },
+        {
+          "id": "b1_future_continuous.307",
+          "source": "El tren llegará a las cinco.",
+          "answers": [
+            "The train will arrive at five",
+            "The train arrives at five"
+          ]
+        },
+        {
+          "id": "b1_future_continuous.308",
+          "source": "Dentro de un año estaré viviendo en Dublín.",
+          "answers": [
+            "In a year I'll be living in Dublin",
+            "In a year's time I'll be living in Dublin"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_future_continuous.401",
+          "answer": "This time tomorrow we'll be walking around Dublin"
+        },
+        {
+          "id": "b1_future_continuous.402",
+          "answer": "Will you be using the car tonight?"
+        },
+        {
+          "id": "b1_future_continuous.403",
+          "answer": "I won't be working on Friday"
+        },
+        {
+          "id": "b1_future_continuous.404",
+          "answer": "Maureen will be waiting for us"
+        },
+        {
+          "id": "b1_future_continuous.405",
+          "answer": "At ten I'll be flying"
+        }
+      ]
+    }
+  ]
+}

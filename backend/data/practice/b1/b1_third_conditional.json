@@ -1,0 +1,462 @@
+{
+  "topic_id": "b1_third_conditional",
+  "level_id": "B1",
+  "title": "Tercer condicional: If I had known…",
+  "tags": [
+    "third_conditional"
+  ],
+  "units": [
+    "big_decision"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Third conditional",
+    "explanation": "El tercer condicional imagina un pasado diferente, algo que ya no se puede cambiar: «If» + past perfect, «would have» + participio:\n- «If Sam hadn't played that gig, the producer wouldn't have heard him.» (si no hubiera tocado, no le habría oído)\n- «If I had known, I would have helped you.»\n\nSirve para hablar de lo que pudo ser y para lamentarse. En la otra parte también pueden ir «could have» o «might have»:\n- «If we had left earlier, we could have caught the train.»\n\nContracciones habituales: «If I'd known…» = «If I had known»; «I would've» = «I would have». En la conversación «would have» suena /wʊdəv/.\n\nCompara los tres:\n- 1.º (real, futuro): «If he goes, he'll be famous.»\n- 2.º (imaginario, presente): «If he went, he'd be famous.»\n- 3.º (imaginario, pasado): «If he had gone, he would have been famous.»\n\nOjo: «'d» puede ser «had» o «would». Después de «if» es «had»; delante de «have», «would»: «If I'd known, I'd have come» = «If I had known, I would have come».",
+    "table": {
+      "headers": [
+        "Parte",
+        "Forma",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "If…",
+          "had + participio",
+          "If I had known,"
+        ],
+        [
+          "Resultado",
+          "would have + participio",
+          "I would have helped."
+        ],
+        [
+          "Negativa",
+          "hadn't / wouldn't have",
+          "If he hadn't come, we wouldn't have met."
+        ],
+        [
+          "Con could / might",
+          "could have + participio",
+          "We could have caught the train."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa el tercer condicional.",
+      "items": [
+        {
+          "id": "b1_third_conditional.001",
+          "sentence": "If Sam hadn't played that gig, the producer wouldn't ___ heard him.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "b1_third_conditional.002",
+          "sentence": "If Lucía ___ moved to Bristol, she wouldn't have met Daniel. (not)",
+          "answers": [
+            [
+              "hadn't"
+            ]
+          ]
+        },
+        {
+          "id": "b1_third_conditional.003",
+          "sentence": "If I had known, I ___ have helped you.",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        },
+        {
+          "id": "b1_third_conditional.004",
+          "sentence": "If we had left earlier, we wouldn't have ___ the train. (miss)",
+          "answers": [
+            [
+              "missed"
+            ]
+          ]
+        },
+        {
+          "id": "b1_third_conditional.005",
+          "sentence": "If you ___ told me about the party, I would have come. (tell)",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b1_third_conditional.006",
+          "sentence": "She would have ___ the job if she hadn't been ill. (get)",
+          "answers": [
+            [
+              "got"
+            ]
+          ]
+        },
+        {
+          "id": "b1_third_conditional.007",
+          "sentence": "If I ___ studied more, I would have passed. (had)",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b1_third_conditional.008",
+          "sentence": "If it hadn't rained, we ___ have gone to the beach.",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        },
+        {
+          "id": "b1_third_conditional.009",
+          "sentence": "If you had asked me, I would have ___ you. (help)",
+          "answers": [
+            [
+              "helped"
+            ]
+          ]
+        },
+        {
+          "id": "b1_third_conditional.010",
+          "sentence": "We could ___ caught the bus if we had run.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "b1_third_conditional.011",
+          "sentence": "If he ___ left his phone at home, he would have called us. (not)",
+          "answers": [
+            [
+              "hadn't"
+            ]
+          ]
+        },
+        {
+          "id": "b1_third_conditional.012",
+          "sentence": "If they had invited me, I would have ___. (go)",
+          "answers": [
+            [
+              "gone"
+            ]
+          ]
+        },
+        {
+          "id": "b1_third_conditional.013",
+          "sentence": "I wouldn't have ___ so tired if I had slept more. (be)",
+          "answers": [
+            [
+              "been"
+            ]
+          ]
+        },
+        {
+          "id": "b1_third_conditional.014",
+          "sentence": "If she had known the truth, she ___ have been angry.",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b1_third_conditional.101",
+          "question": "Si lo hubiera sabido, te habría ayudado.",
+          "options": [
+            "If I had known, I would have helped you.",
+            "If I would have known, I had helped you."
+          ],
+          "answer": 0,
+          "explanation": "«If» + past perfect, «would have»."
+        },
+        {
+          "id": "b1_third_conditional.102",
+          "question": "Si no hubiera llovido, habríamos ido.",
+          "options": [
+            "If it hadn't rained, we would have gone.",
+            "If it didn't rain, we would have gone."
+          ],
+          "answer": 0,
+          "explanation": "Tras «if», past perfect."
+        },
+        {
+          "id": "b1_third_conditional.103",
+          "question": "Si hubiéramos salido antes, no habríamos perdido el tren.",
+          "options": [
+            "If we had left earlier, we wouldn't have missed the train.",
+            "If we left earlier, we won't miss the train."
+          ],
+          "answer": 0,
+          "explanation": "Tercer condicional."
+        },
+        {
+          "id": "b1_third_conditional.104",
+          "question": "Podríamos haber cogido el autobús.",
+          "options": [
+            "We could have caught the bus.",
+            "We could caught the bus."
+          ],
+          "answer": 0,
+          "explanation": "«could have» + participio."
+        },
+        {
+          "id": "b1_third_conditional.105",
+          "question": "Si me lo hubieras dicho, habría venido.",
+          "options": [
+            "If you'd told me, I'd have come.",
+            "If you'd told me, I'd came."
+          ],
+          "answer": 0,
+          "explanation": "«'d have» + participio."
+        },
+        {
+          "id": "b1_third_conditional.106",
+          "question": "Si no hubiera estado enferma, habría conseguido el trabajo.",
+          "options": [
+            "If she hadn't been ill, she would have got the job.",
+            "If she wasn't ill, she would get the job yesterday."
+          ],
+          "answer": 0,
+          "explanation": "Tercer condicional."
+        },
+        {
+          "id": "b1_third_conditional.107",
+          "question": "¿Qué habrías hecho tú?",
+          "options": [
+            "What would you have done?",
+            "What would you did?"
+          ],
+          "answer": 0,
+          "explanation": "«would have» + participio."
+        },
+        {
+          "id": "b1_third_conditional.108",
+          "question": "Si hubiera estudiado, habría aprobado.",
+          "options": [
+            "If I had studied, I would have passed.",
+            "If I studied, I would have passed."
+          ],
+          "answer": 0,
+          "explanation": "Tras «if», past perfect."
+        },
+        {
+          "id": "b1_third_conditional.109",
+          "question": "No me habría cansado tanto si hubiera dormido.",
+          "options": [
+            "I wouldn't have been so tired if I had slept.",
+            "I wouldn't be so tired if I slept yesterday."
+          ],
+          "answer": 0,
+          "explanation": "Tercer condicional."
+        },
+        {
+          "id": "b1_third_conditional.110",
+          "question": "Si hubieran venido, lo habrían pasado bien.",
+          "options": [
+            "If they had come, they would have had fun.",
+            "If they had come, they would had fun."
+          ],
+          "answer": 0,
+          "explanation": "«would have had»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Escribe la frase con el tercer condicional o corrige el error.",
+      "items": [
+        {
+          "id": "b1_third_conditional.201",
+          "prompt": "3.er condicional",
+          "source": "I didn't know, so I didn't help you.",
+          "answers": [
+            "If I had known, I would have helped you",
+            "If I'd known, I would have helped you",
+            "If I'd known, I'd have helped you"
+          ]
+        },
+        {
+          "id": "b1_third_conditional.202",
+          "prompt": "3.er condicional",
+          "source": "We missed the train because we left late.",
+          "answers": [
+            "If we hadn't left late, we wouldn't have missed the train",
+            "If we had left earlier, we wouldn't have missed the train"
+          ]
+        },
+        {
+          "id": "b1_third_conditional.203",
+          "prompt": "3.er condicional",
+          "source": "It rained, so we didn't go to the beach.",
+          "answers": [
+            "If it hadn't rained, we would have gone to the beach",
+            "If it hadn't rained, we'd have gone to the beach"
+          ]
+        },
+        {
+          "id": "b1_third_conditional.204",
+          "prompt": "3.er condicional",
+          "source": "She was ill, so she didn't get the job.",
+          "answers": [
+            "If she hadn't been ill, she would have got the job",
+            "If she hadn't been ill, she'd have got the job"
+          ]
+        },
+        {
+          "id": "b1_third_conditional.205",
+          "prompt": "Corrige",
+          "source": "If I would have known, I would have come.",
+          "answers": [
+            "If I had known, I would have come",
+            "If I'd known, I would have come"
+          ],
+          "explanation": "Tras «if», past perfect."
+        },
+        {
+          "id": "b1_third_conditional.206",
+          "prompt": "Corrige",
+          "source": "If you had asked, I would helped you.",
+          "answers": [
+            "If you had asked, I would have helped you"
+          ],
+          "explanation": "«would have» + participio."
+        },
+        {
+          "id": "b1_third_conditional.207",
+          "prompt": "Corrige",
+          "source": "If he didn't miss the bus, he would have arrived on time.",
+          "answers": [
+            "If he hadn't missed the bus, he would have arrived on time"
+          ],
+          "explanation": "Tras «if», past perfect."
+        },
+        {
+          "id": "b1_third_conditional.208",
+          "prompt": "Corrige",
+          "source": "We could have went to the concert.",
+          "answers": [
+            "We could have gone to the concert"
+          ],
+          "explanation": "Participio: «gone»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_third_conditional.301",
+          "source": "Si lo hubiera sabido, te habría ayudado.",
+          "answers": [
+            "If I had known, I would have helped you",
+            "If I'd known, I would have helped you",
+            "If I'd known, I'd have helped you"
+          ]
+        },
+        {
+          "id": "b1_third_conditional.302",
+          "source": "Si no hubiera llovido, habríamos ido a la playa.",
+          "answers": [
+            "If it hadn't rained, we would have gone to the beach",
+            "If it hadn't rained, we'd have gone to the beach"
+          ]
+        },
+        {
+          "id": "b1_third_conditional.303",
+          "source": "Si hubiéramos salido antes, no habríamos perdido el tren.",
+          "answers": [
+            "If we had left earlier, we wouldn't have missed the train",
+            "If we'd left earlier, we wouldn't have missed the train"
+          ]
+        },
+        {
+          "id": "b1_third_conditional.304",
+          "source": "Podríamos haber cogido el autobús.",
+          "answers": [
+            "We could have caught the bus",
+            "We could have taken the bus"
+          ]
+        },
+        {
+          "id": "b1_third_conditional.305",
+          "source": "¿Qué habrías hecho tú?",
+          "answers": [
+            "What would you have done"
+          ]
+        },
+        {
+          "id": "b1_third_conditional.306",
+          "source": "Si me lo hubieras dicho, habría venido.",
+          "answers": [
+            "If you had told me, I would have come",
+            "If you'd told me, I would have come",
+            "If you'd told me, I'd have come"
+          ]
+        },
+        {
+          "id": "b1_third_conditional.307",
+          "source": "Si no hubiera tocado, el productor no le habría oído.",
+          "answers": [
+            "If he hadn't played, the producer wouldn't have heard him"
+          ]
+        },
+        {
+          "id": "b1_third_conditional.308",
+          "source": "Si hubiera estudiado más, habría aprobado.",
+          "answers": [
+            "If I had studied more, I would have passed",
+            "If I'd studied more, I would have passed",
+            "If I'd studied more, I'd have passed"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_third_conditional.401",
+          "answer": "If I had known, I would have helped you"
+        },
+        {
+          "id": "b1_third_conditional.402",
+          "answer": "We wouldn't have missed the train"
+        },
+        {
+          "id": "b1_third_conditional.403",
+          "answer": "What would you have done?"
+        },
+        {
+          "id": "b1_third_conditional.404",
+          "answer": "If it hadn't rained, we would have gone"
+        },
+        {
+          "id": "b1_third_conditional.405",
+          "answer": "We could have caught the bus"
+        }
+      ]
+    }
+  ]
+}

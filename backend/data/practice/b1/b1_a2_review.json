@@ -1,0 +1,477 @@
+{
+  "topic_id": "b1_a2_review",
+  "level_id": "B1",
+  "title": "Repaso de A2: lo que hay que dominar antes de seguir",
+  "tags": [
+    "a2_review"
+  ],
+  "units": [
+    "first_date"
+  ],
+  "rule": {
+    "title": "A2 review",
+    "explanation": "El examen de B1 vuelve a preguntar algunos puntos de A2. Conviene tenerlos firmes.\n\nConectores para contar una historia, al principio de la frase:\n- «First», «Then» / «After that», «Later», «Finally» / «In the end»\n\nPronombres reflexivos, cuando el sujeto y el objeto son la misma persona:\n- «I cut myself.», «Enjoy yourselves!», «She did it herself.»\n\n«Something» / «somebody» en afirmativas y ofrecimientos; «anything» / «anybody» en negativas y preguntas; «nothing» / «nobody» ya son negativos:\n- «I've got something for you.» / «Have you got anything?» / «There's nothing here.»\n\nAdjetivos en «-ing» (la causa) y en «-ed» (cómo te sientes):\n- «The film was boring, so I was bored.»\n\n«As» + adjetivo + «as» para la igualdad, y «not as… as» para decir que algo no llega:\n- «Bath is as beautiful as Bristol.»\n- «Bristol isn't as sunny as Valencia.»",
+    "table": {
+      "headers": [
+        "Punto",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Secuencia",
+          "First, … Then, … In the end, …"
+        ],
+        [
+          "Reflexivos",
+          "Help yourself!"
+        ],
+        [
+          "something / anything",
+          "Is there anything to eat?"
+        ],
+        [
+          "-ed / -ing",
+          "I'm interested. It's interesting."
+        ],
+        [
+          "as… as",
+          "It isn't as big as London."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la palabra que falta.",
+      "items": [
+        {
+          "id": "b1_a2_review.001",
+          "sentence": "___, I packed my bag. Then I called a taxi.",
+          "answers": [
+            [
+              "First"
+            ]
+          ]
+        },
+        {
+          "id": "b1_a2_review.002",
+          "sentence": "We waited for an hour. In the ___, we went home.",
+          "answers": [
+            [
+              "end"
+            ]
+          ]
+        },
+        {
+          "id": "b1_a2_review.003",
+          "sentence": "Did you make this cake ___, Priya? It's delicious!",
+          "answers": [
+            [
+              "yourself"
+            ]
+          ]
+        },
+        {
+          "id": "b1_a2_review.004",
+          "sentence": "Have a great time, everyone. Enjoy ___!",
+          "answers": [
+            [
+              "yourselves"
+            ]
+          ]
+        },
+        {
+          "id": "b1_a2_review.005",
+          "sentence": "Daniel cut ___ while he was cooking.",
+          "answers": [
+            [
+              "himself"
+            ]
+          ]
+        },
+        {
+          "id": "b1_a2_review.006",
+          "sentence": "Is there ___ in the fridge? I'm starving.",
+          "answers": [
+            [
+              "anything"
+            ]
+          ]
+        },
+        {
+          "id": "b1_a2_review.007",
+          "sentence": "I've got ___ for you. Close your eyes!",
+          "answers": [
+            [
+              "something"
+            ]
+          ]
+        },
+        {
+          "id": "b1_a2_review.008",
+          "sentence": "There's ___ on TV tonight. Let's go out.",
+          "answers": [
+            [
+              "nothing"
+            ]
+          ]
+        },
+        {
+          "id": "b1_a2_review.009",
+          "sentence": "The lecture was so ___ that I fell asleep. (bore)",
+          "answers": [
+            [
+              "boring"
+            ]
+          ]
+        },
+        {
+          "id": "b1_a2_review.010",
+          "sentence": "I'm really ___ in photography. (interest)",
+          "answers": [
+            [
+              "interested"
+            ]
+          ]
+        },
+        {
+          "id": "b1_a2_review.011",
+          "sentence": "We were very ___ when we heard the news. (surprise)",
+          "answers": [
+            [
+              "surprised"
+            ]
+          ]
+        },
+        {
+          "id": "b1_a2_review.012",
+          "sentence": "Bristol isn't ___ big as London.",
+          "answers": [
+            [
+              "as"
+            ]
+          ]
+        },
+        {
+          "id": "b1_a2_review.013",
+          "sentence": "My English is as good ___ yours now!",
+          "answers": [
+            [
+              "as"
+            ]
+          ]
+        },
+        {
+          "id": "b1_a2_review.014",
+          "sentence": "___ called you this morning. I didn't get the name.",
+          "answers": [
+            [
+              "Somebody"
+            ]
+          ]
+        },
+        {
+          "id": "b1_a2_review.015",
+          "sentence": "After that, we had dinner. ___, we went to bed.",
+          "answers": [
+            [
+              "Finally"
+            ]
+          ]
+        },
+        {
+          "id": "b1_a2_review.016",
+          "sentence": "It was a really ___ day. I need to sleep. (tire)",
+          "answers": [
+            [
+              "tiring"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b1_a2_review.101",
+          "question": "Me aburría.",
+          "options": [
+            "I was bored.",
+            "I was boring."
+          ],
+          "answer": 0,
+          "explanation": "Cómo te sentías: «-ed»."
+        },
+        {
+          "id": "b1_a2_review.102",
+          "question": "No hay nadie en casa.",
+          "options": [
+            "There's nobody at home.",
+            "There isn't nobody at home."
+          ],
+          "answer": 0,
+          "explanation": "«nobody» ya es negativo."
+        },
+        {
+          "id": "b1_a2_review.103",
+          "question": "¡Sírvete!",
+          "options": [
+            "Help yourself!",
+            "Help you!"
+          ],
+          "answer": 0,
+          "explanation": "Expresión fija: «Help yourself»."
+        },
+        {
+          "id": "b1_a2_review.104",
+          "question": "No es tan caro como Londres.",
+          "options": [
+            "It isn't as expensive as London.",
+            "It isn't so expensive than London."
+          ],
+          "answer": 0,
+          "explanation": "«not as… as»."
+        },
+        {
+          "id": "b1_a2_review.105",
+          "question": "Al final, cogimos un taxi.",
+          "options": [
+            "In the end, we took a taxi.",
+            "At the end, we took a taxi."
+          ],
+          "answer": 0,
+          "explanation": "Cómo acabó algo: «In the end»."
+        },
+        {
+          "id": "b1_a2_review.106",
+          "question": "¿Quieres algo de beber?",
+          "options": [
+            "Would you like something to drink?",
+            "Would you like nothing to drink?"
+          ],
+          "answer": 0,
+          "explanation": "Ofrecer: «something»."
+        },
+        {
+          "id": "b1_a2_review.107",
+          "question": "La película fue interesante.",
+          "options": [
+            "The film was interesting.",
+            "The film was interested."
+          ],
+          "answer": 0,
+          "explanation": "La causa: «-ing»."
+        },
+        {
+          "id": "b1_a2_review.108",
+          "question": "Lo hicimos nosotros mismos.",
+          "options": [
+            "We did it ourselves.",
+            "We did it ourself."
+          ],
+          "answer": 0,
+          "explanation": "«ourselves»."
+        },
+        {
+          "id": "b1_a2_review.109",
+          "question": "¿Has visto a alguien?",
+          "options": [
+            "Did you see anybody?",
+            "Did you see nobody?"
+          ],
+          "answer": 0,
+          "explanation": "Pregunta: «anybody»."
+        },
+        {
+          "id": "b1_a2_review.110",
+          "question": "Mi hermano es tan alto como yo.",
+          "options": [
+            "My brother is as tall as me.",
+            "My brother is as tall like me."
+          ],
+          "answer": 0,
+          "explanation": "«as… as»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "b1_a2_review.201",
+          "prompt": "Corrige",
+          "source": "I'm very boring. There's nothing to do.",
+          "answers": [
+            "I'm very bored. There's nothing to do"
+          ],
+          "explanation": "Cómo te sientes: «bored»."
+        },
+        {
+          "id": "b1_a2_review.202",
+          "prompt": "Corrige",
+          "source": "There isn't nothing in the fridge.",
+          "answers": [
+            "There's nothing in the fridge",
+            "There isn't anything in the fridge"
+          ],
+          "explanation": "Doble negación."
+        },
+        {
+          "id": "b1_a2_review.203",
+          "prompt": "Corrige",
+          "source": "She hurt her when she fell.",
+          "answers": [
+            "She hurt herself when she fell"
+          ],
+          "explanation": "Mismo sujeto y objeto: «herself»."
+        },
+        {
+          "id": "b1_a2_review.204",
+          "prompt": "Corrige",
+          "source": "At the end, we found the hotel.",
+          "answers": [
+            "In the end, we found the hotel",
+            "In the end we found the hotel"
+          ],
+          "explanation": "Cómo acabó: «In the end»."
+        },
+        {
+          "id": "b1_a2_review.205",
+          "prompt": "Corrige",
+          "source": "Bath isn't as big than Bristol.",
+          "answers": [
+            "Bath isn't as big as Bristol"
+          ],
+          "explanation": "«as… as»."
+        },
+        {
+          "id": "b1_a2_review.206",
+          "prompt": "Corrige",
+          "source": "Have you got something to say? (pregunta normal)",
+          "answers": [
+            "Have you got anything to say"
+          ],
+          "explanation": "Pregunta: «anything»."
+        },
+        {
+          "id": "b1_a2_review.207",
+          "prompt": "Corrige",
+          "source": "The news was very surprised.",
+          "answers": [
+            "The news was very surprising"
+          ],
+          "explanation": "La causa: «-ing»."
+        },
+        {
+          "id": "b1_a2_review.208",
+          "prompt": "Corrige",
+          "source": "Enjoy yourself, children!",
+          "answers": [
+            "Enjoy yourselves, children",
+            "Enjoy yourselves children"
+          ],
+          "explanation": "Vosotros: «yourselves»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_a2_review.301",
+          "source": "Primero hice la maleta y luego llamé un taxi.",
+          "answers": [
+            "First I packed my bag and then I called a taxi",
+            "First, I packed my bag and then I called a taxi",
+            "First I packed and then I called a taxi"
+          ]
+        },
+        {
+          "id": "b1_a2_review.302",
+          "source": "Me corté.",
+          "answers": [
+            "I cut myself"
+          ]
+        },
+        {
+          "id": "b1_a2_review.303",
+          "source": "No hay nada en la nevera.",
+          "answers": [
+            "There's nothing in the fridge",
+            "There isn't anything in the fridge"
+          ]
+        },
+        {
+          "id": "b1_a2_review.304",
+          "source": "Estaba muy cansada.",
+          "answers": [
+            "I was very tired"
+          ]
+        },
+        {
+          "id": "b1_a2_review.305",
+          "source": "Fue un viaje muy interesante.",
+          "answers": [
+            "It was a very interesting trip",
+            "It was a very interesting journey"
+          ]
+        },
+        {
+          "id": "b1_a2_review.306",
+          "source": "Bristol no es tan grande como Londres.",
+          "answers": [
+            "Bristol isn't as big as London"
+          ]
+        },
+        {
+          "id": "b1_a2_review.307",
+          "source": "¿Hay alguien ahí?",
+          "answers": [
+            "Is anybody there",
+            "Is anyone there"
+          ]
+        },
+        {
+          "id": "b1_a2_review.308",
+          "source": "Al final, nos quedamos en casa.",
+          "answers": [
+            "In the end, we stayed at home",
+            "In the end we stayed at home",
+            "In the end, we stayed home"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_a2_review.401",
+          "answer": "First, we had breakfast"
+        },
+        {
+          "id": "b1_a2_review.402",
+          "answer": "Help yourself to some cake"
+        },
+        {
+          "id": "b1_a2_review.403",
+          "answer": "There's nothing in the fridge"
+        },
+        {
+          "id": "b1_a2_review.404",
+          "answer": "I was really bored at the lecture"
+        },
+        {
+          "id": "b1_a2_review.405",
+          "answer": "It isn't as cold as yesterday"
+        }
+      ]
+    }
+  ]
+}

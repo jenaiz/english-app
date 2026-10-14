@@ -1,0 +1,480 @@
+{
+  "topic_id": "b1_relative_clauses",
+  "level_id": "B1",
+  "title": "Oraciones de relativo: who, which, that, where, whose",
+  "tags": [
+    "relative_clauses"
+  ],
+  "units": [
+    "new_flatmate"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Relative clauses",
+    "explanation": "Las oraciones de relativo especifican de qué persona, cosa o lugar hablamos:\n- «who» → personas: «Sam is the flatmate who's leaving.»\n- «which» → cosas: «It's the room which looks over the garden.»\n- «that» → personas o cosas (más informal): «the garden that Priya looks after»\n- «where» → lugares: «the park where we play football»\n- «whose» → posesión: «Ollie is the man whose aunt is Mrs Green.»\n\nSi el pronombre es el objeto de la oración (no el sujeto), se puede omitir; si es el sujeto, no:\n- «the flatmate (who) we've been looking for» (nosotros buscamos)\n- «the flatmate who's leaving» (él se va)\n\nOjo: el pronombre relativo sustituye al sujeto u objeto, así que no se repite otro pronombre: «the book that I bought» (nunca «the book that I bought it»). Y «what» no es relativo: «the film that I saw» (nunca «the film what I saw»).",
+    "table": {
+      "headers": [
+        "Pronombre",
+        "Para",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "who",
+          "personas",
+          "the man who lives upstairs"
+        ],
+        [
+          "which",
+          "cosas",
+          "the room which looks over the garden"
+        ],
+        [
+          "that",
+          "personas o cosas",
+          "the restaurant that opened last year"
+        ],
+        [
+          "where",
+          "lugares",
+          "the park where we play"
+        ],
+        [
+          "whose",
+          "posesión",
+          "the woman whose dog is huge"
+        ],
+        [
+          "(omitido)",
+          "objeto",
+          "the film (that) we saw"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «who», «which», «that», «where» o «whose».",
+      "bank": [
+        "who",
+        "which",
+        "that",
+        "where",
+        "whose"
+      ],
+      "items": [
+        {
+          "id": "b1_relative_clauses.001",
+          "sentence": "Sam is the flatmate ___ is leaving.",
+          "answers": [
+            [
+              "who",
+              "that"
+            ]
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.002",
+          "sentence": "It's the room ___ looks over the garden.",
+          "answers": [
+            [
+              "which",
+              "that"
+            ]
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.003",
+          "sentence": "Brandon Hill is the park ___ we play football.",
+          "answers": [
+            [
+              "where"
+            ]
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.004",
+          "sentence": "This is the kitchen ___ we spend most of our time.",
+          "answers": [
+            [
+              "where"
+            ]
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.005",
+          "sentence": "Ollie is the man ___ aunt is Mrs Green.",
+          "answers": [
+            [
+              "whose"
+            ]
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.006",
+          "sentence": "Priya is the nurse ___ grows tomatoes.",
+          "answers": [
+            [
+              "who",
+              "that"
+            ]
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.007",
+          "sentence": "That's the woman ___ dog barks all night.",
+          "answers": [
+            [
+              "whose"
+            ]
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.008",
+          "sentence": "Is this the bus ___ goes to the airport?",
+          "answers": [
+            [
+              "which",
+              "that"
+            ]
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.009",
+          "sentence": "The café ___ we met is closed now.",
+          "answers": [
+            [
+              "where"
+            ]
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.010",
+          "sentence": "I've got a friend ___ speaks five languages.",
+          "answers": [
+            [
+              "who",
+              "that"
+            ]
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.011",
+          "sentence": "The book ___ you lent me was great.",
+          "answers": [
+            [
+              "which",
+              "that"
+            ]
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.012",
+          "sentence": "He's the singer ___ songs I love.",
+          "answers": [
+            [
+              "whose"
+            ]
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.013",
+          "sentence": "That's the hotel ___ we stayed last summer.",
+          "answers": [
+            [
+              "where"
+            ]
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.014",
+          "sentence": "The people ___ live next door are very friendly.",
+          "answers": [
+            [
+              "who",
+              "that"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b1_relative_clauses.101",
+          "question": "Es la chica que vive arriba.",
+          "options": [
+            "She's the girl who lives upstairs.",
+            "She's the girl which lives upstairs."
+          ],
+          "answer": 0,
+          "explanation": "Personas: «who»."
+        },
+        {
+          "id": "b1_relative_clauses.102",
+          "question": "El libro que compré.",
+          "options": [
+            "the book that I bought",
+            "the book that I bought it"
+          ],
+          "answer": 0,
+          "explanation": "No se repite el pronombre."
+        },
+        {
+          "id": "b1_relative_clauses.103",
+          "question": "La película que vimos.",
+          "options": [
+            "the film we saw",
+            "the film what we saw"
+          ],
+          "answer": 0,
+          "explanation": "Se puede omitir; «what» no es relativo."
+        },
+        {
+          "id": "b1_relative_clauses.104",
+          "question": "El parque donde jugamos.",
+          "options": [
+            "the park where we play",
+            "the park which we play"
+          ],
+          "answer": 0,
+          "explanation": "Lugares: «where»."
+        },
+        {
+          "id": "b1_relative_clauses.105",
+          "question": "El hombre cuyo perro es enorme.",
+          "options": [
+            "the man whose dog is huge",
+            "the man who's dog is huge"
+          ],
+          "answer": 0,
+          "explanation": "Posesión: «whose»."
+        },
+        {
+          "id": "b1_relative_clauses.106",
+          "question": "El compañero que se va.",
+          "options": [
+            "the flatmate who's leaving",
+            "the flatmate's leaving"
+          ],
+          "answer": 0,
+          "explanation": "Es el sujeto: no se omite."
+        },
+        {
+          "id": "b1_relative_clauses.107",
+          "question": "La habitación que da al jardín.",
+          "options": [
+            "the room which looks over the garden",
+            "the room who looks over the garden"
+          ],
+          "answer": 0,
+          "explanation": "Cosas: «which»."
+        },
+        {
+          "id": "b1_relative_clauses.108",
+          "question": "El restaurante que abrió el año pasado.",
+          "options": [
+            "the restaurant that opened last year",
+            "the restaurant where opened last year"
+          ],
+          "answer": 0,
+          "explanation": "Sujeto: «that»."
+        },
+        {
+          "id": "b1_relative_clauses.109",
+          "question": "La mujer con la que hablé.",
+          "options": [
+            "the woman I talked to",
+            "the woman I talked to her"
+          ],
+          "answer": 0,
+          "explanation": "No se repite el pronombre."
+        },
+        {
+          "id": "b1_relative_clauses.110",
+          "question": "La ciudad donde nací.",
+          "options": [
+            "the city where I was born",
+            "the city that I was born"
+          ],
+          "answer": 0,
+          "explanation": "Lugares: «where»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Une las dos frases con un pronombre relativo.",
+      "items": [
+        {
+          "id": "b1_relative_clauses.201",
+          "prompt": "who",
+          "source": "Sam is the flatmate. He's leaving.",
+          "answers": [
+            "Sam is the flatmate who's leaving",
+            "Sam is the flatmate who is leaving"
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.202",
+          "prompt": "which",
+          "source": "This is the room. It looks over the garden.",
+          "answers": [
+            "This is the room which looks over the garden"
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.203",
+          "prompt": "where",
+          "source": "That's the park. We play football there.",
+          "answers": [
+            "That's the park where we play football"
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.204",
+          "prompt": "whose",
+          "source": "Ollie is the man. His aunt is Mrs Green.",
+          "answers": [
+            "Ollie is the man whose aunt is Mrs Green"
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.205",
+          "prompt": "Sin pronombre",
+          "source": "That's the film. We saw it last night.",
+          "answers": [
+            "That's the film we saw last night"
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.206",
+          "prompt": "that",
+          "source": "I've got a friend. She lives in Cork.",
+          "answers": [
+            "I've got a friend that lives in Cork",
+            "I have a friend that lives in Cork"
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.207",
+          "prompt": "Corrige",
+          "source": "The book that I bought it is great.",
+          "answers": [
+            "The book that I bought is great",
+            "The book I bought is great"
+          ],
+          "explanation": "No se repite el pronombre."
+        },
+        {
+          "id": "b1_relative_clauses.208",
+          "prompt": "Corrige",
+          "source": "The man which lives here is a chef.",
+          "answers": [
+            "The man who lives here is a chef",
+            "The man that lives here is a chef"
+          ],
+          "explanation": "Personas: «who» o «that»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_relative_clauses.301",
+          "source": "Es la chica que vive arriba.",
+          "answers": [
+            "She's the girl who lives upstairs",
+            "She's the girl that lives upstairs"
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.302",
+          "source": "Es el parque donde jugamos al fútbol.",
+          "answers": [
+            "It's the park where we play football"
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.303",
+          "source": "El restaurante que abrió el año pasado es español.",
+          "answers": [
+            "The restaurant that opened last year is Spanish",
+            "The restaurant which opened last year is Spanish"
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.304",
+          "source": "Ese es el hombre cuyo perro es enorme.",
+          "answers": [
+            "That's the man whose dog is huge"
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.305",
+          "source": "Es la habitación que da al jardín.",
+          "answers": [
+            "It's the room which looks over the garden",
+            "It's the room that looks over the garden"
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.306",
+          "source": "La película que vimos fue muy buena.",
+          "answers": [
+            "The film we saw was very good",
+            "The film that we saw was very good",
+            "The movie we saw was very good"
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.307",
+          "source": "Tengo una amiga que habla cinco idiomas.",
+          "answers": [
+            "I've got a friend who speaks five languages",
+            "I have a friend who speaks five languages",
+            "I have a friend that speaks five languages"
+          ]
+        },
+        {
+          "id": "b1_relative_clauses.308",
+          "source": "Es el hotel donde nos alojamos.",
+          "answers": [
+            "It's the hotel where we stayed"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_relative_clauses.401",
+          "answer": "Sam is the flatmate who is leaving"
+        },
+        {
+          "id": "b1_relative_clauses.402",
+          "answer": "It's the room which looks over the garden"
+        },
+        {
+          "id": "b1_relative_clauses.403",
+          "answer": "That's the park where we play football"
+        },
+        {
+          "id": "b1_relative_clauses.404",
+          "answer": "He's the man whose aunt is Mrs Green"
+        },
+        {
+          "id": "b1_relative_clauses.405",
+          "answer": "The film we saw was great"
+        }
+      ]
+    }
+  ]
+}

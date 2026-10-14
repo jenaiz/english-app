@@ -185,3 +185,64 @@ Haz al menos una ronda de cada tema. Marca la casilla si las frases y las respue
 - [ ] Present perfect: just, already, yet (`a2_just_already_yet`, 45 ejercicios)
 - [ ] something, anything, nothing, everything (y -body, -where) (`a2_indefinite_pronouns`, 45 ejercicios)
 - [ ] Para qué: to + verbo (y for + nombre) (`a2_purpose_infinitive`, 45 ejercicios)
+
+### B1
+
+**A First Date**
+
+- [ ] Repaso de A2: lo que hay que dominar antes de seguir (`b1_a2_review`, 47 ejercicios)
+- [ ] used to y would para el pasado; be used to (`b1_used_to_would`, 45 ejercicios)
+
+**Since January**
+
+- [ ] Present perfect continuous: for y since (`b1_present_perfect_continuous`, 47 ejercicios)
+- [ ] be able to y el gerundio como sujeto (`b1_be_able_gerund`, 45 ejercicios)
+
+**The Interview**
+
+- [ ] Present perfect o past simple (`b1_perfect_vs_past`, 45 ejercicios)
+- [ ] Conectores: however, although, therefore, because of (`b1_linkers`, 43 ejercicios)
+
+**Flight to Dublin**
+
+- [ ] La pasiva: is made, was built, has been delayed (`b1_passive`, 47 ejercicios)
+- [ ] Future continuous: will be + -ing (`b1_future_continuous`, 45 ejercicios)
+
+**A Hotel in Dublin**
+
+- [ ] Phrasal verbs separables e inseparables (`b1_phrasal_verbs`, 47 ejercicios)
+- [ ] Peticiones y quejas educadas: Could you…?, Would you mind…? (`b1_polite_requests`, 45 ejercicios)
+
+**Dinner in Galway**
+
+- [ ] Primer condicional; when, as soon as, until, unless (`b1_first_conditional_time`, 45 ejercicios)
+- [ ] Question tags con todos los tiempos (`b1_question_tags`, 45 ejercicios)
+
+**A Big Decision**
+
+- [ ] Segundo condicional: If I had…, I would… (`b1_second_conditional`, 45 ejercicios)
+- [ ] Tercer condicional: If I had known… (`b1_third_conditional`, 45 ejercicios)
+
+**House Rules**
+
+- [ ] Obligación: must, mustn't, have to, don't need to, ought to (`b1_obligation`, 45 ejercicios)
+
+**The New Flatmate**
+
+- [ ] Oraciones de relativo: who, which, that, where, whose (`b1_relative_clauses`, 45 ejercicios)
+- [ ] Deducción en presente: must, might, can't (`b1_deduction`, 43 ejercicios)
+
+**Good News**
+
+- [ ] Estilo indirecto: said, told, asked (`b1_reported_speech`, 45 ejercicios)
+- [ ] Comparar adverbios; so, such, too, enough, extremely (`b1_adverbs_intensifiers`, 47 ejercicios)
+
+**The Farewell Gig**
+
+- [ ] Tiempos narrativos: past perfect y past perfect continuous (`b1_narrative_tenses`, 45 ejercicios)
+- [ ] should have, might have, could have + participio (`b1_should_have`, 45 ejercicios)
+
+**Summer Plans**
+
+- [ ] Formas de futuro: present continuous, going to, will, might (`b1_future_forms`, 45 ejercicios)
+- [ ] Marcadores de conversación: anyway, by the way, actually… (`b1_discourse_markers`, 43 ejercicios)

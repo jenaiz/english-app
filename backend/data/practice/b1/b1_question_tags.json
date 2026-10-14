@@ -1,0 +1,461 @@
+{
+  "topic_id": "b1_question_tags",
+  "level_id": "B1",
+  "title": "Question tags con todos los tiempos",
+  "tags": [
+    "question_tags"
+  ],
+  "units": [
+    "galway_family"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Question tags with all tenses",
+    "explanation": "Las question tags usan el auxiliar del verbo de la frase, en cualquier tiempo, y el pronombre del sujeto. Frase afirmativa → tag negativa, y al revés:\n- «will» → «won't»: «You'll come again, won't you?»\n- present perfect → «have» / «has»: «Daniel hasn't phoned yet, has he?»\n- past simple → «did»: «She made an apple tart, didn't she?»\n- «can», «should», «would»: «You can drive, can't you?», «We should go, shouldn't we?»\n- past continuous: «They were sleeping, weren't they?»\n\nCasos especiales:\n- «I am» → «aren't I?»: «I'm right, aren't I?»\n- «Let's» → «shall we?»: «Let's go to the cliffs, shall we?»\n- Imperativo → «will you?» / «won't you?»: «Have some more potatoes, won't you?»\n- Con «never», «nobody», «nothing», «hardly» (negativos), la tag va en afirmativa: «Nobody called, did they?», «It never stops raining, does it?»\n- «There is» → «isn't there?»: «There's a bus at six, isn't there?»",
+    "table": {
+      "headers": [
+        "Frase",
+        "Tag"
+      ],
+      "rows": [
+        [
+          "You'll come,",
+          "won't you?"
+        ],
+        [
+          "He hasn't called,",
+          "has he?"
+        ],
+        [
+          "She made a tart,",
+          "didn't she?"
+        ],
+        [
+          "You can drive,",
+          "can't you?"
+        ],
+        [
+          "I'm late,",
+          "aren't I?"
+        ],
+        [
+          "Let's go,",
+          "shall we?"
+        ],
+        [
+          "Nobody came,",
+          "did they?"
+        ],
+        [
+          "There's time,",
+          "isn't there?"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa la question tag.",
+      "items": [
+        {
+          "id": "b1_question_tags.001",
+          "sentence": "You'll come again in the summer, ___ you?",
+          "answers": [
+            [
+              "won't"
+            ]
+          ]
+        },
+        {
+          "id": "b1_question_tags.002",
+          "sentence": "Daniel hasn't called his mam yet, ___ he?",
+          "answers": [
+            [
+              "has"
+            ]
+          ]
+        },
+        {
+          "id": "b1_question_tags.003",
+          "sentence": "Maureen made the apple tart herself, ___ she?",
+          "answers": [
+            [
+              "didn't"
+            ]
+          ]
+        },
+        {
+          "id": "b1_question_tags.004",
+          "sentence": "Let's go to the Cliffs of Moher tomorrow, ___ we?",
+          "answers": [
+            [
+              "shall"
+            ]
+          ]
+        },
+        {
+          "id": "b1_question_tags.005",
+          "sentence": "I'm a bit late, ___ I?",
+          "answers": [
+            [
+              "aren't"
+            ]
+          ]
+        },
+        {
+          "id": "b1_question_tags.006",
+          "sentence": "It never stops raining in Galway, ___ it?",
+          "answers": [
+            [
+              "does"
+            ]
+          ]
+        },
+        {
+          "id": "b1_question_tags.007",
+          "sentence": "You can't stay longer, ___ you?",
+          "answers": [
+            [
+              "can"
+            ]
+          ]
+        },
+        {
+          "id": "b1_question_tags.008",
+          "sentence": "We should leave now, ___ we?",
+          "answers": [
+            [
+              "shouldn't"
+            ]
+          ]
+        },
+        {
+          "id": "b1_question_tags.009",
+          "sentence": "Nobody saw us, ___ they?",
+          "answers": [
+            [
+              "did"
+            ]
+          ]
+        },
+        {
+          "id": "b1_question_tags.010",
+          "sentence": "There's a bus at six, ___ there?",
+          "answers": [
+            [
+              "isn't"
+            ]
+          ]
+        },
+        {
+          "id": "b1_question_tags.011",
+          "sentence": "They were sleeping when you arrived, ___ they?",
+          "answers": [
+            [
+              "weren't"
+            ]
+          ]
+        },
+        {
+          "id": "b1_question_tags.012",
+          "sentence": "Have some more tea, ___ you?",
+          "answers": [
+            [
+              "won't",
+              "will"
+            ]
+          ]
+        },
+        {
+          "id": "b1_question_tags.013",
+          "sentence": "You've been to Ireland before, ___ you?",
+          "answers": [
+            [
+              "haven't"
+            ]
+          ]
+        },
+        {
+          "id": "b1_question_tags.014",
+          "sentence": "She wouldn't do that, ___ she?",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué question tag es correcta?",
+      "items": [
+        {
+          "id": "b1_question_tags.101",
+          "question": "Volverás, ¿verdad?",
+          "options": [
+            "You'll come back, won't you?",
+            "You'll come back, don't you?"
+          ],
+          "answer": 0,
+          "explanation": "Con «will»: «won't»."
+        },
+        {
+          "id": "b1_question_tags.102",
+          "question": "No ha llamado, ¿verdad?",
+          "options": [
+            "He hasn't called, has he?",
+            "He hasn't called, did he?"
+          ],
+          "answer": 0,
+          "explanation": "Present perfect: «has»."
+        },
+        {
+          "id": "b1_question_tags.103",
+          "question": "Vamos a los acantilados, ¿vale?",
+          "options": [
+            "Let's go to the cliffs, shall we?",
+            "Let's go to the cliffs, don't we?"
+          ],
+          "answer": 0,
+          "explanation": "«Let's» → «shall we?»."
+        },
+        {
+          "id": "b1_question_tags.104",
+          "question": "Llego un poco tarde, ¿no?",
+          "options": [
+            "I'm a bit late, aren't I?",
+            "I'm a bit late, am not I?"
+          ],
+          "answer": 0,
+          "explanation": "«I am» → «aren't I?»."
+        },
+        {
+          "id": "b1_question_tags.105",
+          "question": "Nadie llamó, ¿verdad?",
+          "options": [
+            "Nobody called, did they?",
+            "Nobody called, didn't they?"
+          ],
+          "answer": 0,
+          "explanation": "«Nobody» es negativo: tag afirmativa."
+        },
+        {
+          "id": "b1_question_tags.106",
+          "question": "Hay un autobús a las seis, ¿no?",
+          "options": [
+            "There's a bus at six, isn't there?",
+            "There's a bus at six, isn't it?"
+          ],
+          "answer": 0,
+          "explanation": "«There is» → «isn't there?»."
+        },
+        {
+          "id": "b1_question_tags.107",
+          "question": "Sabes conducir, ¿verdad?",
+          "options": [
+            "You can drive, can't you?",
+            "You can drive, don't you?"
+          ],
+          "answer": 0,
+          "explanation": "Mismo auxiliar: «can»."
+        },
+        {
+          "id": "b1_question_tags.108",
+          "question": "Hizo la tarta ella misma, ¿no?",
+          "options": [
+            "She made the tart herself, didn't she?",
+            "She made the tart herself, wasn't she?"
+          ],
+          "answer": 0,
+          "explanation": "Past simple: «did»."
+        },
+        {
+          "id": "b1_question_tags.109",
+          "question": "Aquí nunca para de llover, ¿verdad?",
+          "options": [
+            "It never stops raining here, does it?",
+            "It never stops raining here, doesn't it?"
+          ],
+          "answer": 0,
+          "explanation": "«never» es negativo: tag afirmativa."
+        },
+        {
+          "id": "b1_question_tags.110",
+          "question": "Deberíamos irnos, ¿no?",
+          "options": [
+            "We should go, shouldn't we?",
+            "We should go, don't we?"
+          ],
+          "answer": 0,
+          "explanation": "Mismo auxiliar: «should»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Añade la question tag.",
+      "items": [
+        {
+          "id": "b1_question_tags.201",
+          "prompt": "Añade la tag",
+          "source": "You'll call me tomorrow.",
+          "answers": [
+            "You'll call me tomorrow, won't you"
+          ]
+        },
+        {
+          "id": "b1_question_tags.202",
+          "prompt": "Añade la tag",
+          "source": "She has finished the report.",
+          "answers": [
+            "She has finished the report, hasn't she",
+            "She's finished the report, hasn't she"
+          ]
+        },
+        {
+          "id": "b1_question_tags.203",
+          "prompt": "Añade la tag",
+          "source": "Let's have dinner out.",
+          "answers": [
+            "Let's have dinner out, shall we"
+          ]
+        },
+        {
+          "id": "b1_question_tags.204",
+          "prompt": "Añade la tag",
+          "source": "Nothing happened.",
+          "answers": [
+            "Nothing happened, did it"
+          ]
+        },
+        {
+          "id": "b1_question_tags.205",
+          "prompt": "Añade la tag",
+          "source": "There's some milk in the fridge.",
+          "answers": [
+            "There's some milk in the fridge, isn't there"
+          ]
+        },
+        {
+          "id": "b1_question_tags.206",
+          "prompt": "Añade la tag",
+          "source": "You couldn't find it.",
+          "answers": [
+            "You couldn't find it, could you"
+          ]
+        },
+        {
+          "id": "b1_question_tags.207",
+          "prompt": "Corrige",
+          "source": "I'm right, am I not?",
+          "answers": [
+            "I'm right, aren't I"
+          ],
+          "explanation": "«I am» → «aren't I?»."
+        },
+        {
+          "id": "b1_question_tags.208",
+          "prompt": "Corrige",
+          "source": "Nobody came, didn't they?",
+          "answers": [
+            "Nobody came, did they"
+          ],
+          "explanation": "«Nobody» es negativo: tag afirmativa."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_question_tags.301",
+          "source": "Volverás en verano, ¿verdad?",
+          "answers": [
+            "You'll come back in the summer, won't you",
+            "You'll come again in the summer, won't you"
+          ]
+        },
+        {
+          "id": "b1_question_tags.302",
+          "source": "Daniel todavía no ha llamado, ¿no?",
+          "answers": [
+            "Daniel hasn't called yet, has he"
+          ]
+        },
+        {
+          "id": "b1_question_tags.303",
+          "source": "Vamos a los acantilados, ¿vale?",
+          "answers": [
+            "Let's go to the cliffs, shall we"
+          ]
+        },
+        {
+          "id": "b1_question_tags.304",
+          "source": "Llego tarde, ¿no?",
+          "answers": [
+            "I'm late, aren't I"
+          ]
+        },
+        {
+          "id": "b1_question_tags.305",
+          "source": "Nadie nos vio, ¿verdad?",
+          "answers": [
+            "Nobody saw us, did they",
+            "No one saw us, did they"
+          ]
+        },
+        {
+          "id": "b1_question_tags.306",
+          "source": "Sabes conducir, ¿no?",
+          "answers": [
+            "You can drive, can't you"
+          ]
+        },
+        {
+          "id": "b1_question_tags.307",
+          "source": "Hay un autobús a las seis, ¿verdad?",
+          "answers": [
+            "There's a bus at six, isn't there"
+          ]
+        },
+        {
+          "id": "b1_question_tags.308",
+          "source": "Ella hizo la tarta, ¿no?",
+          "answers": [
+            "She made the tart, didn't she",
+            "She made the cake, didn't she"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_question_tags.401",
+          "answer": "You'll come again, won't you?"
+        },
+        {
+          "id": "b1_question_tags.402",
+          "answer": "Let's go to the cliffs, shall we?"
+        },
+        {
+          "id": "b1_question_tags.403",
+          "answer": "He hasn't called yet, has he?"
+        },
+        {
+          "id": "b1_question_tags.404",
+          "answer": "I'm a bit late, aren't I?"
+        },
+        {
+          "id": "b1_question_tags.405",
+          "answer": "Nobody called, did they?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "topic_id": "b1_narrative_tenses",
+  "level_id": "B1",
+  "title": "Tiempos narrativos: past perfect y past perfect continuous",
+  "tags": [
+    "narrative_tenses"
+  ],
+  "units": [
+    "farewell_gig"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Past perfect and narrative tenses",
+    "explanation": "El past perfect («had» + participio) cuenta algo que pasó antes de otro momento del pasado:\n- «When we arrived, the band had already started.» (primero empezó el grupo, luego llegamos)\n- «I had never seen so many people before.»\n\nPara contar historias combinamos tres tiempos:\n- past simple para los hechos principales: «We arrived late.»\n- past continuous para la situación de fondo: «Everyone was singing.»\n- past perfect para lo que pasó antes: «Daniel had left the tickets at home.»\n\nEl past perfect continuous («had been» + «-ing») cuenta una acción que duraba hasta un momento del pasado, o que explica cómo estaba alguien:\n- «The band had been playing for an hour when the electricity went off.»\n- «Sam was tired because he had been practising all day.»\n\nPalabras frecuentes: «already», «never… before», «by the time», «just», «because».\n\nOjo: si las acciones van en orden, basta el past simple: «I got up, had a shower and left». El past perfect se usa para volver atrás en la historia.",
+    "table": {
+      "headers": [
+        "Tiempo",
+        "Uso",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Past simple",
+          "hechos principales",
+          "We arrived late."
+        ],
+        [
+          "Past continuous",
+          "situación de fondo",
+          "Everyone was singing."
+        ],
+        [
+          "Past perfect",
+          "lo que pasó antes",
+          "The band had already started."
+        ],
+        [
+          "Past perfect continuous",
+          "acción que duraba hasta entonces",
+          "They had been playing for an hour."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el past perfect u otro tiempo pasado.",
+      "items": [
+        {
+          "id": "b1_narrative_tenses.001",
+          "sentence": "When we arrived, the band ___ already started.",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.002",
+          "sentence": "Daniel had ___ the tickets at home. (leave)",
+          "answers": [
+            [
+              "left"
+            ]
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.003",
+          "sentence": "He had never ___ in front of so many people. (play)",
+          "answers": [
+            [
+              "played"
+            ]
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.004",
+          "sentence": "The producer had ___ from London. (come)",
+          "answers": [
+            [
+              "come"
+            ]
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.005",
+          "sentence": "When I got home, Priya ___ gone to bed.",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.006",
+          "sentence": "I had never ___ him so happy before. (see)",
+          "answers": [
+            [
+              "seen"
+            ]
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.007",
+          "sentence": "Everyone ___ singing when the lights went off.",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.008",
+          "sentence": "The band had ___ playing for an hour when the electricity went off.",
+          "answers": [
+            [
+              "been"
+            ]
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.009",
+          "sentence": "Sam was tired because he ___ been practising all day.",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.010",
+          "sentence": "By the time we got to the station, the train ___ left.",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.011",
+          "sentence": "She ___ been waiting for two hours when he finally arrived.",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.012",
+          "sentence": "I couldn't get in because I ___ lost my keys.",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.013",
+          "sentence": "We ___ dinner when the phone rang. (have, en curso)",
+          "answers": [
+            [
+              "were having"
+            ]
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.014",
+          "sentence": "They were wet because they had been ___ in the rain. (walk)",
+          "answers": [
+            [
+              "walking"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b1_narrative_tenses.101",
+          "question": "Cuando llegamos, el concierto ya había empezado.",
+          "options": [
+            "When we arrived, the concert had already started.",
+            "When we arrived, the concert already started."
+          ],
+          "answer": 0,
+          "explanation": "Lo que pasó antes: past perfect."
+        },
+        {
+          "id": "b1_narrative_tenses.102",
+          "question": "Nunca había visto tanta gente.",
+          "options": [
+            "I had never seen so many people.",
+            "I have never seen so many people before that day."
+          ],
+          "answer": 0,
+          "explanation": "Antes de otro momento pasado: past perfect."
+        },
+        {
+          "id": "b1_narrative_tenses.103",
+          "question": "Llevaban una hora tocando cuando se fue la luz.",
+          "options": [
+            "They had been playing for an hour when the lights went off.",
+            "They have been playing for an hour when the lights went off."
+          ],
+          "answer": 0,
+          "explanation": "Past perfect continuous."
+        },
+        {
+          "id": "b1_narrative_tenses.104",
+          "question": "Estaba cansado porque había estado ensayando.",
+          "options": [
+            "He was tired because he had been practising.",
+            "He was tired because he has practised."
+          ],
+          "answer": 0,
+          "explanation": "Past perfect continuous."
+        },
+        {
+          "id": "b1_narrative_tenses.105",
+          "question": "Me levanté, me duché y salí.",
+          "options": [
+            "I got up, had a shower and left.",
+            "I had got up, had had a shower and had left."
+          ],
+          "answer": 0,
+          "explanation": "En orden: past simple."
+        },
+        {
+          "id": "b1_narrative_tenses.106",
+          "question": "Cuando llegué a casa, Priya se había acostado.",
+          "options": [
+            "When I got home, Priya had gone to bed.",
+            "When I got home, Priya went to bed before."
+          ],
+          "answer": 0,
+          "explanation": "Lo que pasó antes: past perfect."
+        },
+        {
+          "id": "b1_narrative_tenses.107",
+          "question": "Todos estaban cantando.",
+          "options": [
+            "Everyone was singing.",
+            "Everyone had sang."
+          ],
+          "answer": 0,
+          "explanation": "Situación de fondo: past continuous."
+        },
+        {
+          "id": "b1_narrative_tenses.108",
+          "question": "Para cuando llegamos, el tren se había ido.",
+          "options": [
+            "By the time we arrived, the train had left.",
+            "By the time we arrived, the train has left."
+          ],
+          "answer": 0,
+          "explanation": "Past perfect."
+        },
+        {
+          "id": "b1_narrative_tenses.109",
+          "question": "Había olvidado las entradas.",
+          "options": [
+            "He had forgotten the tickets.",
+            "He had forgot the tickets."
+          ],
+          "answer": 0,
+          "explanation": "Participio: «forgotten»."
+        },
+        {
+          "id": "b1_narrative_tenses.110",
+          "question": "Estaban mojados porque habían estado andando bajo la lluvia.",
+          "options": [
+            "They were wet because they had been walking in the rain.",
+            "They were wet because they walked in the rain now."
+          ],
+          "answer": 0,
+          "explanation": "Explica cómo estaban."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Une las frases con el past perfect o corrige el error.",
+      "items": [
+        {
+          "id": "b1_narrative_tenses.201",
+          "prompt": "Past perfect",
+          "source": "The band started. Then we arrived.",
+          "answers": [
+            "When we arrived, the band had already started",
+            "When we arrived, the band had started"
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.202",
+          "prompt": "Past perfect",
+          "source": "The train left. Then we got to the station.",
+          "answers": [
+            "When we got to the station, the train had left",
+            "By the time we got to the station, the train had left"
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.203",
+          "prompt": "Past perfect continuous",
+          "source": "Sam practised all day. He was tired.",
+          "answers": [
+            "Sam was tired because he had been practising all day"
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.204",
+          "prompt": "Corrige",
+          "source": "When I arrived, she already left.",
+          "answers": [
+            "When I arrived, she had already left"
+          ],
+          "explanation": "Lo que pasó antes: past perfect."
+        },
+        {
+          "id": "b1_narrative_tenses.205",
+          "prompt": "Corrige",
+          "source": "I had never saw the sea before.",
+          "answers": [
+            "I had never seen the sea before"
+          ],
+          "explanation": "Participio: «seen»."
+        },
+        {
+          "id": "b1_narrative_tenses.206",
+          "prompt": "Corrige",
+          "source": "They have been waiting for an hour when the bus came.",
+          "answers": [
+            "They had been waiting for an hour when the bus came"
+          ],
+          "explanation": "Past perfect continuous."
+        },
+        {
+          "id": "b1_narrative_tenses.207",
+          "prompt": "Corrige",
+          "source": "Everyone sang when the lights went off.",
+          "answers": [
+            "Everyone was singing when the lights went off"
+          ],
+          "explanation": "Situación de fondo: past continuous."
+        },
+        {
+          "id": "b1_narrative_tenses.208",
+          "prompt": "Corrige",
+          "source": "He had forgot his keys.",
+          "answers": [
+            "He had forgotten his keys"
+          ],
+          "explanation": "Participio: «forgotten»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_narrative_tenses.301",
+          "source": "Cuando llegamos, el concierto ya había empezado.",
+          "answers": [
+            "When we arrived, the concert had already started"
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.302",
+          "source": "Había olvidado las entradas.",
+          "answers": [
+            "He had forgotten the tickets",
+            "She had forgotten the tickets"
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.303",
+          "source": "Nunca había visto tanta gente.",
+          "answers": [
+            "I had never seen so many people"
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.304",
+          "source": "Se fue la luz.",
+          "answers": [
+            "The electricity went off",
+            "The lights went off",
+            "The power went off"
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.305",
+          "source": "Todo el mundo estaba cantando.",
+          "answers": [
+            "Everyone was singing",
+            "Everybody was singing"
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.306",
+          "source": "Llevaban una hora tocando.",
+          "answers": [
+            "They had been playing for an hour"
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.307",
+          "source": "Estaba cansado porque había estado ensayando todo el día.",
+          "answers": [
+            "He was tired because he had been practising all day"
+          ]
+        },
+        {
+          "id": "b1_narrative_tenses.308",
+          "source": "Para cuando llegamos, el tren se había ido.",
+          "answers": [
+            "By the time we arrived, the train had left",
+            "By the time we got there, the train had left"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_narrative_tenses.401",
+          "answer": "The band had already started"
+        },
+        {
+          "id": "b1_narrative_tenses.402",
+          "answer": "Daniel had left the tickets at home"
+        },
+        {
+          "id": "b1_narrative_tenses.403",
+          "answer": "He had never played there before"
+        },
+        {
+          "id": "b1_narrative_tenses.404",
+          "answer": "They had been playing for an hour"
+        },
+        {
+          "id": "b1_narrative_tenses.405",
+          "answer": "By the time we arrived, the train had left"
+        }
+      ]
+    }
+  ]
+}

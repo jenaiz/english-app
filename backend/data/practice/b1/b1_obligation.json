@@ -1,0 +1,473 @@
+{
+  "topic_id": "b1_obligation",
+  "level_id": "B1",
+  "title": "Obligación: must, mustn't, have to, don't need to, ought to",
+  "tags": [
+    "obligation"
+  ],
+  "units": [
+    "house_rules"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "must, mustn't, have to, don't need to, ought to",
+    "explanation": "«Must» expresa obligación, sobre todo en normas o cuando la impone quien habla. «Have to» también expresa obligación (a menudo externa) y en pasado se convierte en «had to», porque «must» no tiene pasado:\n- «The new flatmate must be clean and quiet.»\n- «Everyone has to pay a deposit.»\n- «Last year I had to work every weekend.»\n\nAtención a la gran diferencia:\n- «mustn't» = está prohibido: «They mustn't smoke in the house.»\n- «don't have to» / «don't need to» = no es necesario: «You don't need to put an advert online.»\n\n«Can» / «can't» expresan permiso:\n- «Can they have a pet? — No, you can't have pets.»\n\n«Ought to» + verbo significa casi lo mismo que «should» (lo que es buena idea o lo correcto). Es algo más formal, siempre lleva «to» y no cambia con «he» o «she»:\n- «You ought to tell Mrs Green about the noise.»\n- «You oughtn't to leave the door open.»\n\nOjo: «must», «should» y «ought to» no llevan «-s» («he must», nunca «he musts»), pero «have to» sí cambia: «she has to», «does she have to?».",
+    "table": {
+      "headers": [
+        "Expresión",
+        "Significado",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "must / have to",
+          "obligación",
+          "You must be quiet after eleven."
+        ],
+        [
+          "had to",
+          "obligación pasada",
+          "I had to work late."
+        ],
+        [
+          "mustn't",
+          "prohibición",
+          "You mustn't smoke here."
+        ],
+        [
+          "don't have to / don't need to",
+          "no es necesario",
+          "You don't need to bring towels."
+        ],
+        [
+          "can / can't",
+          "permiso / no permitido",
+          "You can't have pets."
+        ],
+        [
+          "should / ought to",
+          "consejo",
+          "You ought to tell her."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el modal correcto.",
+      "items": [
+        {
+          "id": "b1_obligation.001",
+          "sentence": "The new flatmate ___ be clean and quiet.",
+          "answers": [
+            [
+              "must"
+            ]
+          ]
+        },
+        {
+          "id": "b1_obligation.002",
+          "sentence": "They ___ smoke in the house.",
+          "answers": [
+            [
+              "mustn't"
+            ]
+          ]
+        },
+        {
+          "id": "b1_obligation.003",
+          "sentence": "You ___ have pets. (no está permitido)",
+          "answers": [
+            [
+              "can't"
+            ]
+          ]
+        },
+        {
+          "id": "b1_obligation.004",
+          "sentence": "Everyone ___ to pay a deposit.",
+          "answers": [
+            [
+              "has"
+            ]
+          ]
+        },
+        {
+          "id": "b1_obligation.005",
+          "sentence": "You don't ___ to put an advert online.",
+          "answers": [
+            [
+              "need"
+            ]
+          ]
+        },
+        {
+          "id": "b1_obligation.006",
+          "sentence": "___ they play music? — Not after eleven.",
+          "answers": [
+            [
+              "Can"
+            ]
+          ]
+        },
+        {
+          "id": "b1_obligation.007",
+          "sentence": "Last year Sam ___ to pay a deposit too.",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b1_obligation.008",
+          "sentence": "You ___ come if you're busy. (no es necesario)",
+          "answers": [
+            [
+              "don't have to",
+              "don't need to"
+            ]
+          ]
+        },
+        {
+          "id": "b1_obligation.009",
+          "sentence": "We ought ___ clean the kitchen before Ollie arrives.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b1_obligation.010",
+          "sentence": "Sam ___ to turn the music down. It's midnight!",
+          "answers": [
+            [
+              "ought"
+            ]
+          ]
+        },
+        {
+          "id": "b1_obligation.011",
+          "sentence": "You don't ___ to bring towels. We've got lots.",
+          "answers": [
+            [
+              "need"
+            ]
+          ]
+        },
+        {
+          "id": "b1_obligation.012",
+          "sentence": "You oughtn't ___ leave the door open at night.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b1_obligation.013",
+          "sentence": "Did you ___ to wear a uniform at school?",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "b1_obligation.014",
+          "sentence": "You ___ tell anyone about this. It's a secret. (prohibido)",
+          "answers": [
+            [
+              "mustn't"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b1_obligation.101",
+          "question": "Está prohibido fumar.",
+          "options": [
+            "You mustn't smoke.",
+            "You don't have to smoke."
+          ],
+          "answer": 0,
+          "explanation": "Prohibición: «mustn't»."
+        },
+        {
+          "id": "b1_obligation.102",
+          "question": "No hace falta que traigas toallas.",
+          "options": [
+            "You don't need to bring towels.",
+            "You mustn't bring towels."
+          ],
+          "answer": 0,
+          "explanation": "No es necesario."
+        },
+        {
+          "id": "b1_obligation.103",
+          "question": "Ayer tuve que trabajar hasta tarde.",
+          "options": [
+            "Yesterday I had to work late.",
+            "Yesterday I must work late."
+          ],
+          "answer": 0,
+          "explanation": "Pasado: «had to»."
+        },
+        {
+          "id": "b1_obligation.104",
+          "question": "Deberías decírselo.",
+          "options": [
+            "You ought to tell her.",
+            "You ought tell her."
+          ],
+          "answer": 0,
+          "explanation": "«ought to» siempre con «to»."
+        },
+        {
+          "id": "b1_obligation.105",
+          "question": "Ella tiene que pagar una fianza.",
+          "options": [
+            "She has to pay a deposit.",
+            "She have to pay a deposit."
+          ],
+          "answer": 0,
+          "explanation": "Con «she»: «has to»."
+        },
+        {
+          "id": "b1_obligation.106",
+          "question": "No se pueden tener mascotas.",
+          "options": [
+            "You can't have pets.",
+            "You don't can have pets."
+          ],
+          "answer": 0,
+          "explanation": "Permiso negado: «can't»."
+        },
+        {
+          "id": "b1_obligation.107",
+          "question": "¿Tuviste que llevar uniforme?",
+          "options": [
+            "Did you have to wear a uniform?",
+            "Did you must wear a uniform?"
+          ],
+          "answer": 0,
+          "explanation": "Pasado: «did… have to»."
+        },
+        {
+          "id": "b1_obligation.108",
+          "question": "Él debe estar en casa a las diez.",
+          "options": [
+            "He must be home by ten.",
+            "He musts be home by ten."
+          ],
+          "answer": 0,
+          "explanation": "«must» no lleva «-s»."
+        },
+        {
+          "id": "b1_obligation.109",
+          "question": "No tienes que venir si estás ocupado.",
+          "options": [
+            "You don't have to come if you're busy.",
+            "You mustn't come if you're busy."
+          ],
+          "answer": 0,
+          "explanation": "No es necesario."
+        },
+        {
+          "id": "b1_obligation.110",
+          "question": "No deberías dejar la puerta abierta.",
+          "options": [
+            "You oughtn't to leave the door open.",
+            "You don't ought to leave the door open."
+          ],
+          "answer": 0,
+          "explanation": "Negativa: «oughtn't to»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "b1_obligation.201",
+          "prompt": "Corrige",
+          "source": "You mustn't bring food. We have plenty.",
+          "answers": [
+            "You don't need to bring food. We have plenty",
+            "You don't have to bring food. We have plenty"
+          ],
+          "explanation": "No es necesario: «don't need to»."
+        },
+        {
+          "id": "b1_obligation.202",
+          "prompt": "Corrige",
+          "source": "You don't have to smoke here. It's forbidden.",
+          "answers": [
+            "You mustn't smoke here. It's forbidden"
+          ],
+          "explanation": "Prohibición: «mustn't»."
+        },
+        {
+          "id": "b1_obligation.203",
+          "prompt": "Corrige",
+          "source": "Yesterday I must stay at work until nine.",
+          "answers": [
+            "Yesterday I had to stay at work until nine"
+          ],
+          "explanation": "Pasado: «had to»."
+        },
+        {
+          "id": "b1_obligation.204",
+          "prompt": "Corrige",
+          "source": "She have to leave early.",
+          "answers": [
+            "She has to leave early"
+          ],
+          "explanation": "Con «she»: «has to»."
+        },
+        {
+          "id": "b1_obligation.205",
+          "prompt": "Corrige",
+          "source": "You ought tell the landlady.",
+          "answers": [
+            "You ought to tell the landlady"
+          ],
+          "explanation": "«ought to» siempre con «to»."
+        },
+        {
+          "id": "b1_obligation.206",
+          "prompt": "Corrige",
+          "source": "He musts finish the report.",
+          "answers": [
+            "He must finish the report"
+          ],
+          "explanation": "«must» no lleva «-s»."
+        },
+        {
+          "id": "b1_obligation.207",
+          "prompt": "Corrige",
+          "source": "Do I must pay now?",
+          "answers": [
+            "Do I have to pay now",
+            "Must I pay now"
+          ],
+          "explanation": "Pregunta: «Do I have to…?»."
+        },
+        {
+          "id": "b1_obligation.208",
+          "prompt": "Corrige",
+          "source": "You don't can park here.",
+          "answers": [
+            "You can't park here"
+          ],
+          "explanation": "Negativa: «can't»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_obligation.301",
+          "source": "No se puede fumar en la casa.",
+          "answers": [
+            "You can't smoke in the house",
+            "You mustn't smoke in the house"
+          ]
+        },
+        {
+          "id": "b1_obligation.302",
+          "source": "No hace falta que pongas un anuncio.",
+          "answers": [
+            "You don't need to put an advert",
+            "You don't have to put an advert"
+          ]
+        },
+        {
+          "id": "b1_obligation.303",
+          "source": "Todo el mundo tiene que pagar una fianza.",
+          "answers": [
+            "Everyone has to pay a deposit",
+            "Everybody has to pay a deposit"
+          ]
+        },
+        {
+          "id": "b1_obligation.304",
+          "source": "¿Podemos tener un gato?",
+          "answers": [
+            "Can we have a cat"
+          ]
+        },
+        {
+          "id": "b1_obligation.305",
+          "source": "Tuve que trabajar el sábado.",
+          "answers": [
+            "I had to work on Saturday"
+          ]
+        },
+        {
+          "id": "b1_obligation.306",
+          "source": "Deberías hablar con la casera.",
+          "answers": [
+            "You ought to talk to the landlady",
+            "You should talk to the landlady",
+            "You ought to speak to the landlady",
+            "You should speak to the landlady"
+          ]
+        },
+        {
+          "id": "b1_obligation.307",
+          "source": "Está prohibido entrar.",
+          "answers": [
+            "You mustn't go in",
+            "You can't go in",
+            "You mustn't enter"
+          ]
+        },
+        {
+          "id": "b1_obligation.308",
+          "source": "No tienes que venir.",
+          "answers": [
+            "You don't have to come",
+            "You don't need to come"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_obligation.401",
+          "answer": "The new flatmate must be quiet"
+        },
+        {
+          "id": "b1_obligation.402",
+          "answer": "They mustn't smoke in the house"
+        },
+        {
+          "id": "b1_obligation.403",
+          "answer": "You don't need to bring towels"
+        },
+        {
+          "id": "b1_obligation.404",
+          "answer": "We ought to clean the kitchen"
+        },
+        {
+          "id": "b1_obligation.405",
+          "answer": "Last year I had to pay a deposit"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "topic_id": "b1_future_forms",
+  "level_id": "B1",
+  "title": "Formas de futuro: present continuous, going to, will, might",
+  "tags": [
+    "future_forms"
+  ],
+  "units": [
+    "summer_plans"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Future forms and might",
+    "explanation": "En inglés hay varias formas de hablar del futuro según lo que queramos expresar:\n- present continuous para planes ya fijados, con hora o lugar: «We're meeting at the studio at five.»\n- «going to» para intenciones y para predicciones con pruebas: «Are you going to visit us at Christmas?», «Look at the sky. It's going to rain.»\n- «will» para promesas, ofrecimientos, decisiones en el momento y predicciones u opiniones: «I'll be back, I promise.», «I think they'll like me.»\n- «might» + verbo para posibilidades: «I might go to Cornwall.»\n- present simple para horarios: «The van leaves at twelve.», «The film starts at eight.»\n\nA menudo valen dos formas; lo que cambia es el matiz:\n- «I'm seeing Helen on Friday.» (ya está quedado)\n- «I'm going to see Helen on Friday.» (es mi intención)\n- «I might see Helen on Friday.» (quizá)\n\nOjo: después de «when», «as soon as» o «if» va presente, no «will»: «I'll call you when I arrive».",
+    "table": {
+      "headers": [
+        "Forma",
+        "Uso",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "present continuous",
+          "plan fijado",
+          "We're meeting at five."
+        ],
+        [
+          "going to",
+          "intención, predicción con pruebas",
+          "I'm going to visit them."
+        ],
+        [
+          "will",
+          "promesa, decisión, predicción",
+          "I'll be back, I promise."
+        ],
+        [
+          "might",
+          "posibilidad",
+          "I might go to Cornwall."
+        ],
+        [
+          "present simple",
+          "horarios",
+          "The train leaves at 9:15."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la forma de futuro adecuada.",
+      "items": [
+        {
+          "id": "b1_future_forms.001",
+          "sentence": "We ___ meeting at the studio at five.",
+          "answers": [
+            [
+              "are"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_forms.002",
+          "sentence": "We're flying to Valencia ___ the fifteenth.",
+          "answers": [
+            [
+              "on"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_forms.003",
+          "sentence": "I ___ go to Cornwall. (quizá)",
+          "answers": [
+            [
+              "might"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_forms.004",
+          "sentence": "I'll be back, I ___.",
+          "answers": [
+            [
+              "promise"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_forms.005",
+          "sentence": "I think they ___ like me.",
+          "answers": [
+            [
+              "will"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_forms.006",
+          "sentence": "Are you going ___ visit us at Christmas?",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_forms.007",
+          "sentence": "The train ___ at nine fifteen. (horario: leave)",
+          "answers": [
+            [
+              "leaves"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_forms.008",
+          "sentence": "You ___ die of heat! (posibilidad)",
+          "answers": [
+            [
+              "might"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_forms.009",
+          "sentence": "Look at those clouds. It's ___ to rain.",
+          "answers": [
+            [
+              "going"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_forms.010",
+          "sentence": "The phone's ringing. — I ___ get it!",
+          "answers": [
+            [
+              "'ll",
+              "will"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_forms.011",
+          "sentence": "What time ___ the film start? (horario)",
+          "answers": [
+            [
+              "does"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_forms.012",
+          "sentence": "I'm ___ Helen for lunch tomorrow. It's all arranged. (see)",
+          "answers": [
+            [
+              "seeing"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_forms.013",
+          "sentence": "I'll call you as soon as I ___. (arrive)",
+          "answers": [
+            [
+              "arrive"
+            ]
+          ]
+        },
+        {
+          "id": "b1_future_forms.014",
+          "sentence": "We ___ go to the beach. It depends on the weather.",
+          "answers": [
+            [
+              "might"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es la más natural?",
+      "items": [
+        {
+          "id": "b1_future_forms.101",
+          "question": "Quedo con el grupo a las cinco (ya está quedado).",
+          "options": [
+            "I'm meeting the band at five.",
+            "I meet the band at five, maybe."
+          ],
+          "answer": 0,
+          "explanation": "Plan fijado: present continuous."
+        },
+        {
+          "id": "b1_future_forms.102",
+          "question": "El tren sale a las 9:15.",
+          "options": [
+            "The train leaves at 9:15.",
+            "The train is going to leave at 9:15 maybe."
+          ],
+          "answer": 0,
+          "explanation": "Horario: present simple."
+        },
+        {
+          "id": "b1_future_forms.103",
+          "question": "Te prometo que volveré.",
+          "options": [
+            "I promise I'll come back.",
+            "I promise I'm coming back maybe."
+          ],
+          "answer": 0,
+          "explanation": "Promesa: «will»."
+        },
+        {
+          "id": "b1_future_forms.104",
+          "question": "Puede que vaya a Cornualles.",
+          "options": [
+            "I might go to Cornwall.",
+            "I will go to Cornwall maybe might."
+          ],
+          "answer": 0,
+          "explanation": "Posibilidad: «might»."
+        },
+        {
+          "id": "b1_future_forms.105",
+          "question": "¡Mira esas nubes! Va a llover.",
+          "options": [
+            "Look at those clouds! It's going to rain.",
+            "Look at those clouds! It rains."
+          ],
+          "answer": 0,
+          "explanation": "Predicción con pruebas: «going to»."
+        },
+        {
+          "id": "b1_future_forms.106",
+          "question": "Suena el teléfono. — ¡Ya lo cojo yo!",
+          "options": [
+            "The phone's ringing. — I'll get it!",
+            "The phone's ringing. — I'm going to get it next week!"
+          ],
+          "answer": 0,
+          "explanation": "Decisión en el momento: «will»."
+        },
+        {
+          "id": "b1_future_forms.107",
+          "question": "¿Vas a visitarnos en Navidad?",
+          "options": [
+            "Are you going to visit us at Christmas?",
+            "Do you visit us at Christmas?"
+          ],
+          "answer": 0,
+          "explanation": "Intención: «going to»."
+        },
+        {
+          "id": "b1_future_forms.108",
+          "question": "Te llamo cuando llegue.",
+          "options": [
+            "I'll call you when I arrive.",
+            "I'll call you when I'll arrive."
+          ],
+          "answer": 0,
+          "explanation": "Tras «when», presente."
+        },
+        {
+          "id": "b1_future_forms.109",
+          "question": "Creo que te gustará.",
+          "options": [
+            "I think you'll like it.",
+            "I think you're liking it."
+          ],
+          "answer": 0,
+          "explanation": "Opinión sobre el futuro: «will»."
+        },
+        {
+          "id": "b1_future_forms.110",
+          "question": "¿A qué hora empieza la película?",
+          "options": [
+            "What time does the film start?",
+            "What time will the film be starting maybe?"
+          ],
+          "answer": 0,
+          "explanation": "Horario: present simple."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "b1_future_forms.201",
+          "prompt": "Corrige",
+          "source": "I promise I'm going to call you, maybe.",
+          "answers": [
+            "I promise I'll call you"
+          ],
+          "explanation": "Promesa: «will»."
+        },
+        {
+          "id": "b1_future_forms.202",
+          "prompt": "Corrige",
+          "source": "The bus will leave at 7:30 every morning.",
+          "answers": [
+            "The bus leaves at 7:30 every morning"
+          ],
+          "explanation": "Horario: present simple."
+        },
+        {
+          "id": "b1_future_forms.203",
+          "prompt": "Corrige",
+          "source": "I'll call you when I will get home.",
+          "answers": [
+            "I'll call you when I get home"
+          ],
+          "explanation": "Tras «when», presente."
+        },
+        {
+          "id": "b1_future_forms.204",
+          "prompt": "Corrige",
+          "source": "Look at that ball! It will hit the window!",
+          "answers": [
+            "Look at that ball! It's going to hit the window"
+          ],
+          "explanation": "Predicción con pruebas: «going to»."
+        },
+        {
+          "id": "b1_future_forms.205",
+          "prompt": "Corrige",
+          "source": "I might to go to the party.",
+          "answers": [
+            "I might go to the party"
+          ],
+          "explanation": "«might» sin «to»."
+        },
+        {
+          "id": "b1_future_forms.206",
+          "prompt": "Corrige",
+          "source": "The phone's ringing. — I answer it!",
+          "answers": [
+            "I'll answer it"
+          ],
+          "explanation": "Decisión en el momento: «will»."
+        },
+        {
+          "id": "b1_future_forms.207",
+          "prompt": "Corrige",
+          "source": "We meet Helen tomorrow at ten. It's arranged.",
+          "answers": [
+            "We're meeting Helen tomorrow at ten. It's arranged"
+          ],
+          "explanation": "Plan fijado: present continuous."
+        },
+        {
+          "id": "b1_future_forms.208",
+          "prompt": "Corrige",
+          "source": "What time is the film starting tonight? (horario)",
+          "answers": [
+            "What time does the film start tonight"
+          ],
+          "explanation": "Horario: present simple."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_future_forms.301",
+          "source": "Mañana a las cinco quedo con el grupo.",
+          "answers": [
+            "I'm meeting the band tomorrow at five",
+            "Tomorrow at five I'm meeting the band"
+          ]
+        },
+        {
+          "id": "b1_future_forms.302",
+          "source": "Puede que vaya a Cornualles.",
+          "answers": [
+            "I might go to Cornwall",
+            "I may go to Cornwall"
+          ]
+        },
+        {
+          "id": "b1_future_forms.303",
+          "source": "Te prometo que volveré.",
+          "answers": [
+            "I promise I'll come back",
+            "I promise I'll be back"
+          ]
+        },
+        {
+          "id": "b1_future_forms.304",
+          "source": "¿Vas a visitarnos?",
+          "answers": [
+            "Are you going to visit us"
+          ]
+        },
+        {
+          "id": "b1_future_forms.305",
+          "source": "Creo que les gustarás.",
+          "answers": [
+            "I think they'll like you"
+          ]
+        },
+        {
+          "id": "b1_future_forms.306",
+          "source": "El tren sale a las nueve.",
+          "answers": [
+            "The train leaves at nine"
+          ]
+        },
+        {
+          "id": "b1_future_forms.307",
+          "source": "Va a llover.",
+          "answers": [
+            "It's going to rain"
+          ]
+        },
+        {
+          "id": "b1_future_forms.308",
+          "source": "Te llamo en cuanto llegue.",
+          "answers": [
+            "I'll call you as soon as I arrive",
+            "I'll call you as soon as I get there"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_future_forms.401",
+          "answer": "We're flying to Valencia on the fifteenth"
+        },
+        {
+          "id": "b1_future_forms.402",
+          "answer": "I might go to Cornwall"
+        },
+        {
+          "id": "b1_future_forms.403",
+          "answer": "Are you going to visit us?"
+        },
+        {
+          "id": "b1_future_forms.404",
+          "answer": "I'll be back for your birthday"
+        },
+        {
+          "id": "b1_future_forms.405",
+          "answer": "The van leaves at twelve"
+        }
+      ]
+    }
+  ]
+}

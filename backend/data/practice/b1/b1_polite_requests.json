@@ -1,0 +1,459 @@
+{
+  "topic_id": "b1_polite_requests",
+  "level_id": "B1",
+  "title": "Peticiones y quejas educadas: Could you…?, Would you mind…?",
+  "tags": [
+    "polite_requests"
+  ],
+  "units": [
+    "hotel_checkin"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Polite complaints and requests",
+    "explanation": "En inglés las peticiones y las quejas suenan más educadas si las suavizamos. Unas cuantas fórmulas:\n- Para empezar: «I'm sorry to bother you, but…», «Excuse me, could I…?»\n- Para dar una mala noticia: «I'm afraid…» (me temo que…)\n- Para pedir algo: «Could you…?», «Would you…?», «Do you think you could…?»\n- «Would you mind» + «-ing»? (¿le importaría…?)\n- Para pedir permiso: «Could I…?», «Do you mind if I…?»\n\nEjemplos:\n- «I'm sorry to bother you, but the shower doesn't work.»\n- «I'm afraid there's no hot water.»\n- «Would you mind changing our room?»\n- «Do you think you could send someone?»\n\nOjo con «Would you mind…?» y «Do you mind if…?»: si quieres decir que no te importa, respondes «Not at all» o «No, go ahead» (no, en absoluto). «Yes» significaría que sí te importa.\n\nPara agradecer y disculparse:\n- «That's very kind of you.»\n- «I'm so sorry about that.»",
+    "table": {
+      "headers": [
+        "Para…",
+        "Fórmula",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Empezar",
+          "I'm sorry to bother you, but…",
+          "I'm sorry to bother you, but the TV doesn't work."
+        ],
+        [
+          "Mala noticia",
+          "I'm afraid…",
+          "I'm afraid the room is too noisy."
+        ],
+        [
+          "Pedir",
+          "Could you…?",
+          "Could you change our room?"
+        ],
+        [
+          "Pedir (más educado)",
+          "Would you mind + -ing?",
+          "Would you mind opening the window?"
+        ],
+        [
+          "Permiso",
+          "Do you mind if I…?",
+          "Do you mind if I sit here?"
+        ],
+        [
+          "Responder que no importa",
+          "Not at all.",
+          "Would you mind? — Not at all."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la palabra que falta.",
+      "items": [
+        {
+          "id": "b1_polite_requests.001",
+          "sentence": "I'm sorry to ___ you, but there's a problem.",
+          "answers": [
+            [
+              "bother"
+            ]
+          ]
+        },
+        {
+          "id": "b1_polite_requests.002",
+          "sentence": "I'm ___ the shower doesn't work.",
+          "answers": [
+            [
+              "afraid"
+            ]
+          ]
+        },
+        {
+          "id": "b1_polite_requests.003",
+          "sentence": "Would you mind ___ someone? (send)",
+          "answers": [
+            [
+              "sending"
+            ]
+          ]
+        },
+        {
+          "id": "b1_polite_requests.004",
+          "sentence": "___ you change our room, please?",
+          "answers": [
+            [
+              "Could",
+              "Would"
+            ]
+          ]
+        },
+        {
+          "id": "b1_polite_requests.005",
+          "sentence": "Would you mind? — Not at ___.",
+          "answers": [
+            [
+              "all"
+            ]
+          ]
+        },
+        {
+          "id": "b1_polite_requests.006",
+          "sentence": "I'm so sorry ___ that.",
+          "answers": [
+            [
+              "about"
+            ]
+          ]
+        },
+        {
+          "id": "b1_polite_requests.007",
+          "sentence": "Would you mind ___ the window? (open)",
+          "answers": [
+            [
+              "opening"
+            ]
+          ]
+        },
+        {
+          "id": "b1_polite_requests.008",
+          "sentence": "Do you mind ___ I sit here?",
+          "answers": [
+            [
+              "if"
+            ]
+          ]
+        },
+        {
+          "id": "b1_polite_requests.009",
+          "sentence": "That's very kind ___ you.",
+          "answers": [
+            [
+              "of"
+            ]
+          ]
+        },
+        {
+          "id": "b1_polite_requests.010",
+          "sentence": "Do you think you ___ help me with my bags?",
+          "answers": [
+            [
+              "could"
+            ]
+          ]
+        },
+        {
+          "id": "b1_polite_requests.011",
+          "sentence": "Excuse me, ___ I have another towel, please?",
+          "answers": [
+            [
+              "could"
+            ]
+          ]
+        },
+        {
+          "id": "b1_polite_requests.012",
+          "sentence": "Would you mind ___ a bit more quietly? (speak)",
+          "answers": [
+            [
+              "speaking"
+            ]
+          ]
+        },
+        {
+          "id": "b1_polite_requests.013",
+          "sentence": "I'm ___ we're fully booked tonight.",
+          "answers": [
+            [
+              "afraid"
+            ]
+          ]
+        },
+        {
+          "id": "b1_polite_requests.014",
+          "sentence": "Do you mind if I open the window? — No, go ___.",
+          "answers": [
+            [
+              "ahead"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué es lo más educado?",
+      "items": [
+        {
+          "id": "b1_polite_requests.101",
+          "question": "Pedir que cambien la habitación.",
+          "options": [
+            "Would you mind changing our room?",
+            "Change our room."
+          ],
+          "answer": 0,
+          "explanation": "«Would you mind» + «-ing»."
+        },
+        {
+          "id": "b1_polite_requests.102",
+          "question": "¿Le importaría abrir la ventana?",
+          "options": [
+            "Would you mind opening the window?",
+            "Would you mind to open the window?"
+          ],
+          "answer": 0,
+          "explanation": "«Would you mind» + «-ing»."
+        },
+        {
+          "id": "b1_polite_requests.103",
+          "question": "¿Le importa si me siento aquí? — No.",
+          "options": [
+            "Do you mind if I sit here? — Not at all.",
+            "Do you mind if I sit here? — Yes."
+          ],
+          "answer": 0,
+          "explanation": "No te importa: «Not at all»."
+        },
+        {
+          "id": "b1_polite_requests.104",
+          "question": "Me temo que no hay agua caliente.",
+          "options": [
+            "I'm afraid there's no hot water.",
+            "I'm scared there's no hot water."
+          ],
+          "answer": 0,
+          "explanation": "«I'm afraid» = me temo que."
+        },
+        {
+          "id": "b1_polite_requests.105",
+          "question": "Siento molestarle, pero…",
+          "options": [
+            "I'm sorry to bother you, but…",
+            "Sorry for bother you, but…"
+          ],
+          "answer": 0,
+          "explanation": "«I'm sorry to bother you»."
+        },
+        {
+          "id": "b1_polite_requests.106",
+          "question": "Es muy amable por su parte.",
+          "options": [
+            "That's very kind of you.",
+            "That's very kind for you."
+          ],
+          "answer": 0,
+          "explanation": "«kind of you»."
+        },
+        {
+          "id": "b1_polite_requests.107",
+          "question": "¿Cree que podría ayudarme?",
+          "options": [
+            "Do you think you could help me?",
+            "Do you think could you help me?"
+          ],
+          "answer": 0,
+          "explanation": "Orden de frase afirmativa tras «Do you think»."
+        },
+        {
+          "id": "b1_polite_requests.108",
+          "question": "¿Podría darme otra toalla?",
+          "options": [
+            "Could I have another towel, please?",
+            "Give me another towel."
+          ],
+          "answer": 0,
+          "explanation": "Pedir: «Could I have…?»."
+        },
+        {
+          "id": "b1_polite_requests.109",
+          "question": "Lo siento mucho.",
+          "options": [
+            "I'm so sorry about that.",
+            "I'm so sorry of that."
+          ],
+          "answer": 0,
+          "explanation": "«sorry about»."
+        },
+        {
+          "id": "b1_polite_requests.110",
+          "question": "¿Le importaría hablar más bajo?",
+          "options": [
+            "Would you mind speaking more quietly?",
+            "Would you mind speak more quietly?"
+          ],
+          "answer": 0,
+          "explanation": "«Would you mind» + «-ing»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Hazlo más educado con la fórmula indicada.",
+      "items": [
+        {
+          "id": "b1_polite_requests.201",
+          "prompt": "Would you mind…?",
+          "source": "Change our room.",
+          "answers": [
+            "Would you mind changing our room"
+          ]
+        },
+        {
+          "id": "b1_polite_requests.202",
+          "prompt": "I'm afraid…",
+          "source": "The shower doesn't work.",
+          "answers": [
+            "I'm afraid the shower doesn't work"
+          ]
+        },
+        {
+          "id": "b1_polite_requests.203",
+          "prompt": "Could you…?",
+          "source": "Give us a quieter room.",
+          "answers": [
+            "Could you give us a quieter room"
+          ]
+        },
+        {
+          "id": "b1_polite_requests.204",
+          "prompt": "Could you…?",
+          "source": "Fix the shower.",
+          "answers": [
+            "Could you fix the shower"
+          ]
+        },
+        {
+          "id": "b1_polite_requests.205",
+          "prompt": "Would you mind…?",
+          "source": "Close the door.",
+          "answers": [
+            "Would you mind closing the door"
+          ]
+        },
+        {
+          "id": "b1_polite_requests.206",
+          "prompt": "Do you mind if…?",
+          "source": "I'm going to open the window.",
+          "answers": [
+            "Do you mind if I open the window"
+          ]
+        },
+        {
+          "id": "b1_polite_requests.207",
+          "prompt": "Do you think…?",
+          "source": "Can you call a taxi for us?",
+          "answers": [
+            "Do you think you could call a taxi for us"
+          ]
+        },
+        {
+          "id": "b1_polite_requests.208",
+          "prompt": "Corrige",
+          "source": "Would you mind to wait a moment?",
+          "answers": [
+            "Would you mind waiting a moment"
+          ],
+          "explanation": "«Would you mind» + «-ing»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_polite_requests.301",
+          "source": "Siento molestarle, pero hay un problema.",
+          "answers": [
+            "I'm sorry to bother you, but there's a problem",
+            "I'm sorry to bother you but there's a problem"
+          ]
+        },
+        {
+          "id": "b1_polite_requests.302",
+          "source": "Me temo que no hay agua caliente.",
+          "answers": [
+            "I'm afraid there's no hot water",
+            "I'm afraid there isn't any hot water"
+          ]
+        },
+        {
+          "id": "b1_polite_requests.303",
+          "source": "¿Le importaría cambiarnos de habitación?",
+          "answers": [
+            "Would you mind changing our room"
+          ]
+        },
+        {
+          "id": "b1_polite_requests.304",
+          "source": "Es muy amable por su parte.",
+          "answers": [
+            "That's very kind of you"
+          ]
+        },
+        {
+          "id": "b1_polite_requests.305",
+          "source": "¿Le importa si me siento aquí?",
+          "answers": [
+            "Do you mind if I sit here"
+          ]
+        },
+        {
+          "id": "b1_polite_requests.306",
+          "source": "¿Podría traernos otra toalla?",
+          "answers": [
+            "Could you bring us another towel"
+          ]
+        },
+        {
+          "id": "b1_polite_requests.307",
+          "source": "No, en absoluto.",
+          "answers": [
+            "Not at all"
+          ]
+        },
+        {
+          "id": "b1_polite_requests.308",
+          "source": "Lo siento mucho.",
+          "answers": [
+            "I'm so sorry",
+            "I'm very sorry",
+            "I'm so sorry about that"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_polite_requests.401",
+          "answer": "I'm sorry to bother you"
+        },
+        {
+          "id": "b1_polite_requests.402",
+          "answer": "Would you mind changing our room?"
+        },
+        {
+          "id": "b1_polite_requests.403",
+          "answer": "I'm afraid the shower doesn't work"
+        },
+        {
+          "id": "b1_polite_requests.404",
+          "answer": "Do you mind if I sit here?"
+        },
+        {
+          "id": "b1_polite_requests.405",
+          "answer": "That's very kind of you"
+        }
+      ]
+    }
+  ]
+}

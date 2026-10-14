@@ -1,0 +1,463 @@
+{
+  "topic_id": "b1_used_to_would",
+  "level_id": "B1",
+  "title": "used to y would para el pasado; be used to",
+  "tags": [
+    "used_to_would"
+  ],
+  "units": [
+    "first_date"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "used to and would for past habits",
+    "explanation": "«Used to» + verbo en forma base habla de hábitos o situaciones del pasado que ya no son verdad:\n- «I used to be very shy.» (ahora no lo soy)\n- «Did you use to dance? — Yes, I did.»\n- «I didn't use to talk to anyone.» (sin d en negativa y pregunta)\n\nPara acciones que se repetían en el pasado también se usa «would» + verbo, sobre todo al contar recuerdos:\n- «Every summer we would go to the beach.»\n\nDiferencia:\n- «used to» sirve para hábitos y para estados: «I used to be shy.», «I used to have long hair.»\n- «would» solo sirve para acciones repetidas, no para estados: no se dice «I would be shy» con ese sentido.\n\nAl contar un recuerdo se suele empezar con «used to» y seguir con «would»:\n- «When I was a child, I used to spend the summers in Galway. My grandad would take me fishing every morning.»\n\nPara una acción que ocurrió una sola vez se usa el past simple: «I flew to Bristol in September».\n\nNo lo confundas con «be used to» + «-ing» o nombre (estar acostumbrado a) y «get used to» (acostumbrarse):\n- «I'm used to the rain.»\n- «I'm getting used to driving on the left.»",
+    "table": {
+      "headers": [
+        "Forma",
+        "Uso",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "used to + verbo",
+          "hábitos y estados pasados",
+          "I used to be shy."
+        ],
+        [
+          "would + verbo",
+          "acciones repetidas pasadas",
+          "We would play outside."
+        ],
+        [
+          "past simple",
+          "una sola vez",
+          "I flew to Bristol in September."
+        ],
+        [
+          "be used to + -ing",
+          "estar acostumbrado",
+          "I'm used to getting up early."
+        ],
+        [
+          "get used to + -ing",
+          "acostumbrarse",
+          "I'm getting used to the rain."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «used to», «use to», «would» o la forma correcta.",
+      "items": [
+        {
+          "id": "b1_used_to_would.001",
+          "sentence": "Daniel ___ be very shy. Now he talks to everyone.",
+          "answers": [
+            [
+              "used to"
+            ]
+          ]
+        },
+        {
+          "id": "b1_used_to_would.002",
+          "sentence": "I didn't ___ talk to anyone at school.",
+          "answers": [
+            [
+              "use to"
+            ]
+          ]
+        },
+        {
+          "id": "b1_used_to_would.003",
+          "sentence": "Did you ___ dance flamenco?",
+          "answers": [
+            [
+              "use to"
+            ]
+          ]
+        },
+        {
+          "id": "b1_used_to_would.004",
+          "sentence": "Every summer my grandad ___ take me fishing.",
+          "answers": [
+            [
+              "would",
+              "used to"
+            ]
+          ]
+        },
+        {
+          "id": "b1_used_to_would.005",
+          "sentence": "We ___ have a dog called Lucky.",
+          "answers": [
+            [
+              "used to"
+            ]
+          ],
+          "explanation": "Estado o posesión: «used to», no «would»."
+        },
+        {
+          "id": "b1_used_to_would.006",
+          "sentence": "Lucía ___ live in Madrid before she moved to Bristol.",
+          "answers": [
+            [
+              "used to"
+            ]
+          ],
+          "explanation": "Estado: «used to»."
+        },
+        {
+          "id": "b1_used_to_would.007",
+          "sentence": "On Sundays my mum ___ make a huge paella.",
+          "answers": [
+            [
+              "would",
+              "used to"
+            ]
+          ]
+        },
+        {
+          "id": "b1_used_to_would.008",
+          "sentence": "Last year I ___ to Dublin. (go, una vez)",
+          "answers": [
+            [
+              "went"
+            ]
+          ],
+          "explanation": "Una sola vez: past simple."
+        },
+        {
+          "id": "b1_used_to_would.009",
+          "sentence": "I'm used to ___ up early. I work at six. (get)",
+          "answers": [
+            [
+              "getting"
+            ]
+          ],
+          "explanation": "«be used to» + «-ing»."
+        },
+        {
+          "id": "b1_used_to_would.010",
+          "sentence": "It took me months to get used ___ the rain.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b1_used_to_would.011",
+          "sentence": "I used to get sick on planes, and I ___ do.",
+          "answers": [
+            [
+              "still"
+            ]
+          ]
+        },
+        {
+          "id": "b1_used_to_would.012",
+          "sentence": "When I was young, I ___ to think all English people drank tea.",
+          "answers": [
+            [
+              "used"
+            ]
+          ]
+        },
+        {
+          "id": "b1_used_to_would.013",
+          "sentence": "Are you used to ___ on the left yet? (drive)",
+          "answers": [
+            [
+              "driving"
+            ]
+          ]
+        },
+        {
+          "id": "b1_used_to_would.014",
+          "sentence": "After school we ___ play football in the street until dark.",
+          "answers": [
+            [
+              "would",
+              "used to"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b1_used_to_would.101",
+          "question": "Antes era muy tímida.",
+          "options": [
+            "I used to be very shy.",
+            "I would be very shy."
+          ],
+          "answer": 0,
+          "explanation": "Estado: «used to»."
+        },
+        {
+          "id": "b1_used_to_would.102",
+          "question": "No solía hablar con nadie.",
+          "options": [
+            "I didn't use to talk to anyone.",
+            "I didn't used to talk to anyone."
+          ],
+          "answer": 0,
+          "explanation": "Negativa: «use to»."
+        },
+        {
+          "id": "b1_used_to_would.103",
+          "question": "Estoy acostumbrado a la lluvia.",
+          "options": [
+            "I'm used to the rain.",
+            "I used to the rain."
+          ],
+          "answer": 0,
+          "explanation": "Estar acostumbrado: «be used to»."
+        },
+        {
+          "id": "b1_used_to_would.104",
+          "question": "Me estoy acostumbrando a conducir por la izquierda.",
+          "options": [
+            "I'm getting used to driving on the left.",
+            "I'm getting used to drive on the left."
+          ],
+          "answer": 0,
+          "explanation": "«get used to» + «-ing»."
+        },
+        {
+          "id": "b1_used_to_would.105",
+          "question": "Mi abuelo me llevaba a pescar todas las mañanas.",
+          "options": [
+            "My grandad would take me fishing every morning.",
+            "My grandad would to take me fishing every morning."
+          ],
+          "answer": 0,
+          "explanation": "«would» + forma base."
+        },
+        {
+          "id": "b1_used_to_would.106",
+          "question": "Antes tenía el pelo largo.",
+          "options": [
+            "I used to have long hair.",
+            "I would have long hair."
+          ],
+          "answer": 0,
+          "explanation": "Estado: «used to»."
+        },
+        {
+          "id": "b1_used_to_would.107",
+          "question": "Volé a Bristol en septiembre.",
+          "options": [
+            "I flew to Bristol in September.",
+            "I used to fly to Bristol in September."
+          ],
+          "answer": 0,
+          "explanation": "Una sola vez: past simple."
+        },
+        {
+          "id": "b1_used_to_would.108",
+          "question": "¿Vivías aquí antes?",
+          "options": [
+            "Did you use to live here?",
+            "Did you used to live here?"
+          ],
+          "answer": 0,
+          "explanation": "Pregunta: «use to»."
+        },
+        {
+          "id": "b1_used_to_would.109",
+          "question": "Ya estoy acostumbrada a levantarme pronto.",
+          "options": [
+            "I'm used to getting up early.",
+            "I used to get up early."
+          ],
+          "answer": 0,
+          "explanation": "Estar acostumbrado ahora: «be used to»."
+        },
+        {
+          "id": "b1_used_to_would.110",
+          "question": "Todavía me mareo en los aviones.",
+          "options": [
+            "I still get sick on planes.",
+            "I yet get sick on planes."
+          ],
+          "answer": 0,
+          "explanation": "Todavía (sigue igual): «still»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Transforma o corrige la frase como se indica.",
+      "items": [
+        {
+          "id": "b1_used_to_would.201",
+          "prompt": "Con «used to»",
+          "source": "When I was a child, I was afraid of dogs.",
+          "answers": [
+            "When I was a child, I used to be afraid of dogs"
+          ]
+        },
+        {
+          "id": "b1_used_to_would.202",
+          "prompt": "Con «would»",
+          "source": "Every Sunday we visited my grandparents.",
+          "answers": [
+            "Every Sunday we would visit my grandparents"
+          ]
+        },
+        {
+          "id": "b1_used_to_would.203",
+          "prompt": "Negativa",
+          "source": "I used to like coffee.",
+          "answers": [
+            "I didn't use to like coffee"
+          ]
+        },
+        {
+          "id": "b1_used_to_would.204",
+          "prompt": "Corrige",
+          "source": "I would have a cat when I was young.",
+          "answers": [
+            "I used to have a cat when I was young"
+          ],
+          "explanation": "Posesión, estado: «used to»."
+        },
+        {
+          "id": "b1_used_to_would.205",
+          "prompt": "Corrige",
+          "source": "I'm used to get up early.",
+          "answers": [
+            "I'm used to getting up early"
+          ],
+          "explanation": "«be used to» + «-ing»."
+        },
+        {
+          "id": "b1_used_to_would.206",
+          "prompt": "Corrige",
+          "source": "Did you used to play an instrument?",
+          "answers": [
+            "Did you use to play an instrument"
+          ],
+          "explanation": "Pregunta: «use to»."
+        },
+        {
+          "id": "b1_used_to_would.207",
+          "prompt": "Corrige",
+          "source": "I used to go to Dublin last year.",
+          "answers": [
+            "I went to Dublin last year"
+          ],
+          "explanation": "Una sola vez: past simple."
+        },
+        {
+          "id": "b1_used_to_would.208",
+          "prompt": "Corrige",
+          "source": "I can't get used to drive here.",
+          "answers": [
+            "I can't get used to driving here"
+          ],
+          "explanation": "«get used to» + «-ing»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_used_to_would.301",
+          "source": "Antes era muy tímido.",
+          "answers": [
+            "I used to be very shy"
+          ]
+        },
+        {
+          "id": "b1_used_to_would.302",
+          "source": "¿Antes bailabas flamenco?",
+          "answers": [
+            "Did you use to dance flamenco"
+          ]
+        },
+        {
+          "id": "b1_used_to_would.303",
+          "source": "No solía hablar con nadie.",
+          "answers": [
+            "I didn't use to talk to anyone",
+            "I didn't use to talk to anybody"
+          ]
+        },
+        {
+          "id": "b1_used_to_would.304",
+          "source": "Estoy acostumbrada a la lluvia.",
+          "answers": [
+            "I'm used to the rain"
+          ]
+        },
+        {
+          "id": "b1_used_to_would.305",
+          "source": "Todos los veranos íbamos a la playa.",
+          "answers": [
+            "Every summer we would go to the beach",
+            "Every summer we used to go to the beach",
+            "We used to go to the beach every summer"
+          ]
+        },
+        {
+          "id": "b1_used_to_would.306",
+          "source": "Me estoy acostumbrando a vivir aquí.",
+          "answers": [
+            "I'm getting used to living here"
+          ]
+        },
+        {
+          "id": "b1_used_to_would.307",
+          "source": "Antes vivía en Madrid.",
+          "answers": [
+            "I used to live in Madrid"
+          ]
+        },
+        {
+          "id": "b1_used_to_would.308",
+          "source": "Todavía me mareo en los aviones.",
+          "answers": [
+            "I still get sick on planes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_used_to_would.401",
+          "answer": "I used to be very shy"
+        },
+        {
+          "id": "b1_used_to_would.402",
+          "answer": "Did you use to dance?"
+        },
+        {
+          "id": "b1_used_to_would.403",
+          "answer": "My grandad would take me fishing"
+        },
+        {
+          "id": "b1_used_to_would.404",
+          "answer": "I'm used to the rain"
+        },
+        {
+          "id": "b1_used_to_would.405",
+          "answer": "I'm getting used to driving on the left"
+        }
+      ]
+    }
+  ]
+}

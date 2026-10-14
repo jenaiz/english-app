@@ -1,0 +1,475 @@
+{
+  "topic_id": "b1_phrasal_verbs",
+  "level_id": "B1",
+  "title": "Phrasal verbs separables e inseparables",
+  "tags": [
+    "phrasal_verbs"
+  ],
+  "units": [
+    "hotel_checkin"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Phrasal verbs: separable and inseparable",
+    "explanation": "Un phrasal verb es un verbo + partícula con un significado nuevo: «fill in» (rellenar), «look after» (cuidar), «put up with» (aguantar).\n\nSeparables: el objeto puede ir en medio o detrás. Si el objeto es un pronombre, tiene que ir en medio (nunca «pick up them»):\n- «fill in the form» / «fill the form in» → «fill it in»\n- «pick up the keys» / «pick the keys up» → «pick them up»\n- otros: «drop off» (dejar), «turn down» (rechazar, bajar), «give back» (devolver), «put off» (aplazar), «sort out» (resolver)\n\nInseparables: el objeto siempre va detrás, también si es un pronombre:\n- «We'll look after them.»\n- «We can put up with the noise.»\n- otros: «look for» (buscar), «get on with» (llevarse bien con), «run out of» (quedarse sin), «look forward to» (tener ganas de)\n\nAlgunos no llevan objeto: «check in», «check out», «set off» (salir de viaje), «get up», «break down» (averiarse).\n\nOjo: «look forward to» va con «-ing»: «I'm looking forward to seeing you» (nunca «to see you»).",
+    "table": {
+      "headers": [
+        "Tipo",
+        "Ejemplo",
+        "Con pronombre"
+      ],
+      "rows": [
+        [
+          "Separable",
+          "Fill in the form.",
+          "Fill it in."
+        ],
+        [
+          "Separable",
+          "Pick up the keys.",
+          "Pick them up."
+        ],
+        [
+          "Inseparable",
+          "Look after the bags.",
+          "Look after them."
+        ],
+        [
+          "Inseparable",
+          "Put up with the noise.",
+          "Put up with it."
+        ],
+        [
+          "Sin objeto",
+          "We set off at six.",
+          "—"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la partícula o el pronombre correcto.",
+      "items": [
+        {
+          "id": "b1_phrasal_verbs.001",
+          "sentence": "Could you fill ___ this form?",
+          "answers": [
+            [
+              "in"
+            ]
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.002",
+          "sentence": "Can we drop ___ our bags?",
+          "answers": [
+            [
+              "off"
+            ]
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.003",
+          "sentence": "We'll look ___ them.",
+          "answers": [
+            [
+              "after"
+            ]
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.004",
+          "sentence": "Pick them ___ before you leave.",
+          "answers": [
+            [
+              "up"
+            ]
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.005",
+          "sentence": "We can put up ___ a bit of noise.",
+          "answers": [
+            [
+              "with"
+            ]
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.006",
+          "sentence": "Are you checking ___?",
+          "answers": [
+            [
+              "in"
+            ]
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.007",
+          "sentence": "We have to check ___ at eleven.",
+          "answers": [
+            [
+              "out"
+            ]
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.008",
+          "sentence": "Your bags? Don't worry, we'll look after ___.",
+          "answers": [
+            [
+              "them"
+            ]
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.009",
+          "sentence": "We set ___ at six in the morning.",
+          "answers": [
+            [
+              "off"
+            ]
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.010",
+          "sentence": "We've run out ___ milk. Can you buy some?",
+          "answers": [
+            [
+              "of"
+            ]
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.011",
+          "sentence": "I'm looking forward ___ seeing you!",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.012",
+          "sentence": "Do you get on ___ your new flatmate?",
+          "answers": [
+            [
+              "with"
+            ]
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.013",
+          "sentence": "This is your form. Please fill ___ in.",
+          "answers": [
+            [
+              "it"
+            ]
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.014",
+          "sentence": "The car broke ___ on the motorway.",
+          "answers": [
+            [
+              "down"
+            ]
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.015",
+          "sentence": "Can you give me ___ my book? I need it.",
+          "answers": [
+            [
+              "back"
+            ]
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.016",
+          "sentence": "Let's put ___ the meeting until next week.",
+          "answers": [
+            [
+              "off"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b1_phrasal_verbs.101",
+          "question": "Recógelas.",
+          "options": [
+            "Pick them up.",
+            "Pick up them."
+          ],
+          "answer": 0,
+          "explanation": "Separable con pronombre: en medio."
+        },
+        {
+          "id": "b1_phrasal_verbs.102",
+          "question": "Cuidaremos de ellos.",
+          "options": [
+            "We'll look after them.",
+            "We'll look them after."
+          ],
+          "answer": 0,
+          "explanation": "Inseparable: el objeto detrás."
+        },
+        {
+          "id": "b1_phrasal_verbs.103",
+          "question": "Rellénelo, por favor.",
+          "options": [
+            "Fill it in, please.",
+            "Fill in it, please."
+          ],
+          "answer": 0,
+          "explanation": "Separable con pronombre: en medio."
+        },
+        {
+          "id": "b1_phrasal_verbs.104",
+          "question": "No soporto el ruido.",
+          "options": [
+            "I can't put up with the noise.",
+            "I can't put the noise up with."
+          ],
+          "answer": 0,
+          "explanation": "Inseparable."
+        },
+        {
+          "id": "b1_phrasal_verbs.105",
+          "question": "Tengo ganas de verte.",
+          "options": [
+            "I'm looking forward to seeing you.",
+            "I'm looking forward to see you."
+          ],
+          "answer": 0,
+          "explanation": "«look forward to» + «-ing»."
+        },
+        {
+          "id": "b1_phrasal_verbs.106",
+          "question": "Nos hemos quedado sin café.",
+          "options": [
+            "We've run out of coffee.",
+            "We've run coffee out of."
+          ],
+          "answer": 0,
+          "explanation": "Inseparable."
+        },
+        {
+          "id": "b1_phrasal_verbs.107",
+          "question": "Salimos a las seis.",
+          "options": [
+            "We set off at six.",
+            "We set at six off."
+          ],
+          "answer": 0,
+          "explanation": "Sin objeto."
+        },
+        {
+          "id": "b1_phrasal_verbs.108",
+          "question": "¿Te llevas bien con tu jefe?",
+          "options": [
+            "Do you get on with your boss?",
+            "Do you get your boss on with?"
+          ],
+          "answer": 0,
+          "explanation": "Inseparable."
+        },
+        {
+          "id": "b1_phrasal_verbs.109",
+          "question": "Devuélvemelo.",
+          "options": [
+            "Give it back to me.",
+            "Give back it to me."
+          ],
+          "answer": 0,
+          "explanation": "Separable con pronombre: en medio."
+        },
+        {
+          "id": "b1_phrasal_verbs.110",
+          "question": "Se averió el coche.",
+          "options": [
+            "The car broke down.",
+            "The car broke it down."
+          ],
+          "answer": 0,
+          "explanation": "Sin objeto."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Sustituye el objeto por un pronombre o corrige el error.",
+      "items": [
+        {
+          "id": "b1_phrasal_verbs.201",
+          "prompt": "Con «it»",
+          "source": "Fill in the form.",
+          "answers": [
+            "Fill it in"
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.202",
+          "prompt": "Con «them»",
+          "source": "Pick up your keys before you leave.",
+          "answers": [
+            "Pick them up before you leave"
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.203",
+          "prompt": "Con «them»",
+          "source": "We'll look after your bags.",
+          "answers": [
+            "We'll look after them"
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.204",
+          "prompt": "Con «it»",
+          "source": "Can you turn down the music?",
+          "answers": [
+            "Can you turn it down"
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.205",
+          "prompt": "Corrige",
+          "source": "Can you pick up them?",
+          "answers": [
+            "Can you pick them up"
+          ],
+          "explanation": "Separable con pronombre: en medio."
+        },
+        {
+          "id": "b1_phrasal_verbs.206",
+          "prompt": "Corrige",
+          "source": "I'm looking forward to meet you.",
+          "answers": [
+            "I'm looking forward to meeting you"
+          ],
+          "explanation": "«look forward to» + «-ing»."
+        },
+        {
+          "id": "b1_phrasal_verbs.207",
+          "prompt": "Corrige",
+          "source": "We've run out milk.",
+          "answers": [
+            "We've run out of milk"
+          ],
+          "explanation": "«run out of»."
+        },
+        {
+          "id": "b1_phrasal_verbs.208",
+          "prompt": "Corrige",
+          "source": "Who looks the children after?",
+          "answers": [
+            "Who looks after the children"
+          ],
+          "explanation": "Inseparable: el objeto detrás."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_phrasal_verbs.301",
+          "source": "¿Puede rellenar este formulario?",
+          "answers": [
+            "Could you fill in this form",
+            "Can you fill in this form",
+            "Could you fill this form in"
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.302",
+          "source": "Recógelas antes de irte.",
+          "answers": [
+            "Pick them up before you leave"
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.303",
+          "source": "Cuidaremos de vuestras maletas.",
+          "answers": [
+            "We'll look after your bags",
+            "We'll look after your suitcases"
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.304",
+          "source": "No soporto el ruido.",
+          "answers": [
+            "I can't put up with the noise"
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.305",
+          "source": "Dejamos el hotel a las once.",
+          "answers": [
+            "We check out at eleven",
+            "We're checking out at eleven"
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.306",
+          "source": "Tengo muchas ganas de verte.",
+          "answers": [
+            "I'm really looking forward to seeing you",
+            "I'm looking forward to seeing you"
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.307",
+          "source": "Nos hemos quedado sin leche.",
+          "answers": [
+            "We've run out of milk"
+          ]
+        },
+        {
+          "id": "b1_phrasal_verbs.308",
+          "source": "Salimos muy temprano.",
+          "answers": [
+            "We set off very early"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_phrasal_verbs.401",
+          "answer": "Could you fill in this form?"
+        },
+        {
+          "id": "b1_phrasal_verbs.402",
+          "answer": "Pick them up before you leave"
+        },
+        {
+          "id": "b1_phrasal_verbs.403",
+          "answer": "We'll look after your bags"
+        },
+        {
+          "id": "b1_phrasal_verbs.404",
+          "answer": "We can put up with the noise"
+        },
+        {
+          "id": "b1_phrasal_verbs.405",
+          "answer": "I'm looking forward to seeing you"
+        }
+      ]
+    }
+  ]
+}

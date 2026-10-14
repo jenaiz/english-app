@@ -1,0 +1,449 @@
+{
+  "topic_id": "b1_deduction",
+  "level_id": "B1",
+  "title": "Deducción en presente: must, might, can't",
+  "tags": [
+    "deduction"
+  ],
+  "units": [
+    "new_flatmate"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Deduction: must, might, can't",
+    "explanation": "Para sacar conclusiones sobre el presente a partir de lo que sabemos:\n- «must» + verbo: estamos casi seguros de que es verdad. «He's a chef. He must be a good cook.» (seguro que cocina bien)\n- «might», «may» o «could» + verbo: es posible. «He might be at work.»\n- «can't» + verbo: estamos casi seguros de que no es verdad. «He can't be from Spain. He's from Manchester.»\n\nCon una acción en curso se usa «be» + «-ing»:\n- «Sam must be practising. I can hear the guitar.»\n- «She might be sleeping.»\n\nOjo: lo contrario de «must» (deducción) es «can't», no «mustn't»; «mustn't» es una prohibición:\n- «It can't be true.» (no puede ser verdad)\n- «You mustn't tell anyone.» (está prohibido)\n\nY en español a menudo usamos el futuro o «debe de» para deducir («estará en casa», «debe de estar cansada»); en inglés: «He must be at home», «She must be tired».",
+    "table": {
+      "headers": [
+        "Modal",
+        "Seguridad",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "must",
+          "casi seguro que sí",
+          "She must be tired."
+        ],
+        [
+          "might / may / could",
+          "posible",
+          "He might be at work."
+        ],
+        [
+          "can't",
+          "casi seguro que no",
+          "That can't be Sam."
+        ],
+        [
+          "must be + -ing",
+          "acción en curso",
+          "Someone must be cooking."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «must», «might» o «can't».",
+      "bank": [
+        "must",
+        "might",
+        "can't"
+      ],
+      "items": [
+        {
+          "id": "b1_deduction.001",
+          "sentence": "Ollie is a chef. He ___ be a good cook.",
+          "answers": [
+            [
+              "must"
+            ]
+          ]
+        },
+        {
+          "id": "b1_deduction.002",
+          "sentence": "That ___ be Sam. He's in London today.",
+          "answers": [
+            [
+              "can't"
+            ]
+          ]
+        },
+        {
+          "id": "b1_deduction.003",
+          "sentence": "I'm not sure where Priya is. She ___ be at the hospital.",
+          "answers": [
+            [
+              "might",
+              "may",
+              "could"
+            ]
+          ]
+        },
+        {
+          "id": "b1_deduction.004",
+          "sentence": "You've been working for twelve hours. You ___ be tired.",
+          "answers": [
+            [
+              "must"
+            ]
+          ]
+        },
+        {
+          "id": "b1_deduction.005",
+          "sentence": "The light is on in the kitchen. Someone ___ be cooking.",
+          "answers": [
+            [
+              "must"
+            ]
+          ]
+        },
+        {
+          "id": "b1_deduction.006",
+          "sentence": "It ___ be expensive. It's the cheapest room in Bristol!",
+          "answers": [
+            [
+              "can't"
+            ]
+          ]
+        },
+        {
+          "id": "b1_deduction.007",
+          "sentence": "She isn't answering. She ___ be in a meeting.",
+          "answers": [
+            [
+              "might",
+              "may",
+              "could",
+              "must"
+            ]
+          ]
+        },
+        {
+          "id": "b1_deduction.008",
+          "sentence": "You ___ be hungry. You haven't eaten all day!",
+          "answers": [
+            [
+              "must"
+            ]
+          ]
+        },
+        {
+          "id": "b1_deduction.009",
+          "sentence": "He ___ be Irish. He's got a strong Scottish accent.",
+          "answers": [
+            [
+              "can't"
+            ]
+          ]
+        },
+        {
+          "id": "b1_deduction.010",
+          "sentence": "Take an umbrella. It ___ rain later.",
+          "answers": [
+            [
+              "might",
+              "may",
+              "could"
+            ]
+          ]
+        },
+        {
+          "id": "b1_deduction.011",
+          "sentence": "I can hear the guitar. Sam ___ be practising.",
+          "answers": [
+            [
+              "must"
+            ]
+          ]
+        },
+        {
+          "id": "b1_deduction.012",
+          "sentence": "That ___ be true! It's impossible.",
+          "answers": [
+            [
+              "can't"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b1_deduction.101",
+          "question": "Debe de estar cansada.",
+          "options": [
+            "She must be tired.",
+            "She must to be tired."
+          ],
+          "answer": 0,
+          "explanation": "«must» + forma base."
+        },
+        {
+          "id": "b1_deduction.102",
+          "question": "No puede ser Sam. (estoy casi seguro)",
+          "options": [
+            "That can't be Sam.",
+            "That mustn't be Sam."
+          ],
+          "answer": 0,
+          "explanation": "Lo contrario de «must»: «can't»."
+        },
+        {
+          "id": "b1_deduction.103",
+          "question": "Puede que esté en el trabajo.",
+          "options": [
+            "He might be at work.",
+            "He might is at work."
+          ],
+          "answer": 0,
+          "explanation": "«might» + forma base."
+        },
+        {
+          "id": "b1_deduction.104",
+          "question": "Alguien estará cocinando.",
+          "options": [
+            "Someone must be cooking.",
+            "Someone must cook now."
+          ],
+          "answer": 0,
+          "explanation": "Acción en curso: «must be» + «-ing»."
+        },
+        {
+          "id": "b1_deduction.105",
+          "question": "No puede ser verdad.",
+          "options": [
+            "It can't be true.",
+            "It mustn't be true."
+          ],
+          "answer": 0,
+          "explanation": "Deducción negativa: «can't»."
+        },
+        {
+          "id": "b1_deduction.106",
+          "question": "Estará en casa (supongo con seguridad).",
+          "options": [
+            "He must be at home.",
+            "He will must be at home."
+          ],
+          "answer": 0,
+          "explanation": "Deducir: «must»."
+        },
+        {
+          "id": "b1_deduction.107",
+          "question": "Puede que esté durmiendo.",
+          "options": [
+            "She might be sleeping.",
+            "She might sleeping."
+          ],
+          "answer": 0,
+          "explanation": "«might be» + «-ing»."
+        },
+        {
+          "id": "b1_deduction.108",
+          "question": "Debes de tener hambre.",
+          "options": [
+            "You must be hungry.",
+            "You must have hungry."
+          ],
+          "answer": 0,
+          "explanation": "«must be» + adjetivo."
+        },
+        {
+          "id": "b1_deduction.109",
+          "question": "No puede ser caro.",
+          "options": [
+            "It can't be expensive.",
+            "It can't to be expensive."
+          ],
+          "answer": 0,
+          "explanation": "Sin «to»."
+        },
+        {
+          "id": "b1_deduction.110",
+          "question": "No se lo digas a nadie. (prohibido)",
+          "options": [
+            "You mustn't tell anyone.",
+            "You can't be telling anyone."
+          ],
+          "answer": 0,
+          "explanation": "Prohibición: «mustn't»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con «must», «might» o «can't», o corrige el error.",
+      "items": [
+        {
+          "id": "b1_deduction.201",
+          "prompt": "must",
+          "source": "I'm sure she's tired.",
+          "answers": [
+            "She must be tired"
+          ]
+        },
+        {
+          "id": "b1_deduction.202",
+          "prompt": "can't",
+          "source": "I'm sure it isn't true.",
+          "answers": [
+            "It can't be true"
+          ]
+        },
+        {
+          "id": "b1_deduction.203",
+          "prompt": "might",
+          "source": "Perhaps he's at work.",
+          "answers": [
+            "He might be at work"
+          ]
+        },
+        {
+          "id": "b1_deduction.204",
+          "prompt": "must",
+          "source": "I'm sure Sam is practising.",
+          "answers": [
+            "Sam must be practising"
+          ]
+        },
+        {
+          "id": "b1_deduction.205",
+          "prompt": "can't",
+          "source": "I'm sure that isn't Daniel.",
+          "answers": [
+            "That can't be Daniel"
+          ]
+        },
+        {
+          "id": "b1_deduction.206",
+          "prompt": "Corrige",
+          "source": "That mustn't be Sam. He's in London.",
+          "answers": [
+            "That can't be Sam. He's in London"
+          ],
+          "explanation": "Deducción negativa: «can't»."
+        },
+        {
+          "id": "b1_deduction.207",
+          "prompt": "Corrige",
+          "source": "She must to be at home.",
+          "answers": [
+            "She must be at home"
+          ],
+          "explanation": "Sin «to»."
+        },
+        {
+          "id": "b1_deduction.208",
+          "prompt": "Corrige",
+          "source": "Someone must cook. I can smell it.",
+          "answers": [
+            "Someone must be cooking. I can smell it"
+          ],
+          "explanation": "Acción en curso: «must be» + «-ing»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_deduction.301",
+          "source": "Es chef. Debe de cocinar bien.",
+          "answers": [
+            "He's a chef. He must be a good cook",
+            "He's a chef. He must cook well"
+          ]
+        },
+        {
+          "id": "b1_deduction.302",
+          "source": "No puede ser Sam.",
+          "answers": [
+            "That can't be Sam",
+            "It can't be Sam"
+          ]
+        },
+        {
+          "id": "b1_deduction.303",
+          "source": "Puede que esté en el hospital.",
+          "answers": [
+            "She might be at the hospital",
+            "She may be at the hospital",
+            "She could be at the hospital"
+          ]
+        },
+        {
+          "id": "b1_deduction.304",
+          "source": "Debes de estar cansado.",
+          "answers": [
+            "You must be tired"
+          ]
+        },
+        {
+          "id": "b1_deduction.305",
+          "source": "Alguien está cocinando, seguro.",
+          "answers": [
+            "Someone must be cooking",
+            "Somebody must be cooking"
+          ]
+        },
+        {
+          "id": "b1_deduction.306",
+          "source": "No puede ser verdad.",
+          "answers": [
+            "It can't be true"
+          ]
+        },
+        {
+          "id": "b1_deduction.307",
+          "source": "Estará en una reunión.",
+          "answers": [
+            "She must be in a meeting",
+            "He must be in a meeting"
+          ]
+        },
+        {
+          "id": "b1_deduction.308",
+          "source": "Puede que esté durmiendo.",
+          "answers": [
+            "She might be sleeping",
+            "He might be sleeping",
+            "She may be sleeping",
+            "He may be sleeping"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_deduction.401",
+          "answer": "He must be a good cook"
+        },
+        {
+          "id": "b1_deduction.402",
+          "answer": "That can't be Sam"
+        },
+        {
+          "id": "b1_deduction.403",
+          "answer": "She might be at the hospital"
+        },
+        {
+          "id": "b1_deduction.404",
+          "answer": "Someone must be cooking"
+        },
+        {
+          "id": "b1_deduction.405",
+          "answer": "You must be tired"
+        }
+      ]
+    }
+  ]
+}

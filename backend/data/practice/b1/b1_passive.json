@@ -1,0 +1,469 @@
+{
+  "topic_id": "b1_passive",
+  "level_id": "B1",
+  "title": "La pasiva: is made, was built, has been delayed",
+  "tags": [
+    "passive"
+  ],
+  "units": [
+    "airport_travel"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "The passive",
+    "explanation": "La pasiva («be» + participio) pone el foco en la acción o en lo que la recibe, no en quién la hace. Es muy habitual en avisos, normas y noticias:\n- «The flight has been delayed.»\n- «Passengers are asked to wait.»\n\nEl verbo «be» cambia de tiempo y el participio no:\n- presente: «Breakfast is served from seven.»\n- pasado: «The airport was built in 1957.»\n- present perfect: «The flight has been cancelled.»\n- futuro: «Your bag will be sent to Dublin.»\n- con modal: «Phones must be switched off.», «It can be done online.»\n\nSi queremos decir quién hace la acción, usamos «by»:\n- «The airport was designed by a famous architect.»\n\nNormalmente no se dice quién lo hace cuando no se sabe, no importa o es evidente:\n- «My bike was stolen.» (no sé quién)\n\nOjo: en español usamos mucho la pasiva refleja con «se» («se construyó en 1957», «se habla inglés»); en inglés, la pasiva: «It was built in 1957», «English is spoken».",
+    "table": {
+      "headers": [
+        "Tiempo",
+        "Activa",
+        "Pasiva"
+      ],
+      "rows": [
+        [
+          "Presente",
+          "They serve breakfast at seven.",
+          "Breakfast is served at seven."
+        ],
+        [
+          "Pasado",
+          "They built it in 1957.",
+          "It was built in 1957."
+        ],
+        [
+          "Present perfect",
+          "They have delayed the flight.",
+          "The flight has been delayed."
+        ],
+        [
+          "Futuro",
+          "We will send your bag.",
+          "Your bag will be sent."
+        ],
+        [
+          "Modal",
+          "You must switch off phones.",
+          "Phones must be switched off."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la forma pasiva correcta.",
+      "items": [
+        {
+          "id": "b1_passive.001",
+          "sentence": "Your bag will ___ sent directly to Dublin.",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "b1_passive.002",
+          "sentence": "Bags over 23 kilos ___ charged an extra fee.",
+          "answers": [
+            [
+              "are"
+            ]
+          ]
+        },
+        {
+          "id": "b1_passive.003",
+          "sentence": "The flight has ___ delayed.",
+          "answers": [
+            [
+              "been"
+            ]
+          ]
+        },
+        {
+          "id": "b1_passive.004",
+          "sentence": "Passengers are ___ to wait in the lounge. (ask)",
+          "answers": [
+            [
+              "asked"
+            ]
+          ]
+        },
+        {
+          "id": "b1_passive.005",
+          "sentence": "Your boarding passes have been ___ to your phones. (send)",
+          "answers": [
+            [
+              "sent"
+            ]
+          ]
+        },
+        {
+          "id": "b1_passive.006",
+          "sentence": "Breakfast ___ served from seven.",
+          "answers": [
+            [
+              "is"
+            ]
+          ]
+        },
+        {
+          "id": "b1_passive.007",
+          "sentence": "The airport ___ built in 1957.",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        },
+        {
+          "id": "b1_passive.008",
+          "sentence": "The gate ___ be announced soon.",
+          "answers": [
+            [
+              "will"
+            ]
+          ]
+        },
+        {
+          "id": "b1_passive.009",
+          "sentence": "Phones must be ___ off during the flight. (switch)",
+          "answers": [
+            [
+              "switched"
+            ]
+          ]
+        },
+        {
+          "id": "b1_passive.010",
+          "sentence": "My bike ___ stolen last night.",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        },
+        {
+          "id": "b1_passive.011",
+          "sentence": "English is ___ all over the world. (speak)",
+          "answers": [
+            [
+              "spoken"
+            ]
+          ]
+        },
+        {
+          "id": "b1_passive.012",
+          "sentence": "This bridge was designed ___ a famous engineer.",
+          "answers": [
+            [
+              "by"
+            ]
+          ]
+        },
+        {
+          "id": "b1_passive.013",
+          "sentence": "The tickets can be ___ online. (buy)",
+          "answers": [
+            [
+              "bought"
+            ]
+          ]
+        },
+        {
+          "id": "b1_passive.014",
+          "sentence": "Two flights ___ been cancelled because of the fog.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "b1_passive.015",
+          "sentence": "The museum ___ opened in 2005. (pasado)",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        },
+        {
+          "id": "b1_passive.016",
+          "sentence": "The results will be ___ next week. (publish)",
+          "answers": [
+            [
+              "published"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b1_passive.101",
+          "question": "El vuelo se ha retrasado.",
+          "options": [
+            "The flight has been delayed.",
+            "The flight has delayed."
+          ],
+          "answer": 0,
+          "explanation": "Pasiva: «has been» + participio."
+        },
+        {
+          "id": "b1_passive.102",
+          "question": "Este aeropuerto se construyó en 1957.",
+          "options": [
+            "This airport was built in 1957.",
+            "This airport built in 1957."
+          ],
+          "answer": 0,
+          "explanation": "Pasiva pasada: «was built»."
+        },
+        {
+          "id": "b1_passive.103",
+          "question": "Aquí se habla inglés.",
+          "options": [
+            "English is spoken here.",
+            "English speaks here."
+          ],
+          "answer": 0,
+          "explanation": "Pasiva: «is spoken»."
+        },
+        {
+          "id": "b1_passive.104",
+          "question": "Me robaron la bici.",
+          "options": [
+            "My bike was stolen.",
+            "My bike stole."
+          ],
+          "answer": 0,
+          "explanation": "Pasiva: «was stolen»."
+        },
+        {
+          "id": "b1_passive.105",
+          "question": "Tu maleta será enviada a Dublín.",
+          "options": [
+            "Your bag will be sent to Dublin.",
+            "Your bag will sent to Dublin."
+          ],
+          "answer": 0,
+          "explanation": "Futuro: «will be» + participio."
+        },
+        {
+          "id": "b1_passive.106",
+          "question": "Lo diseñó un arquitecto famoso.",
+          "options": [
+            "It was designed by a famous architect.",
+            "It was designed from a famous architect."
+          ],
+          "answer": 0,
+          "explanation": "Quién lo hace: «by»."
+        },
+        {
+          "id": "b1_passive.107",
+          "question": "Hay que apagar los móviles.",
+          "options": [
+            "Phones must be switched off.",
+            "Phones must switch off."
+          ],
+          "answer": 0,
+          "explanation": "Modal + «be» + participio."
+        },
+        {
+          "id": "b1_passive.108",
+          "question": "Se sirve el desayuno desde las siete.",
+          "options": [
+            "Breakfast is served from seven.",
+            "Breakfast is serve from seven."
+          ],
+          "answer": 0,
+          "explanation": "Participio: «served»."
+        },
+        {
+          "id": "b1_passive.109",
+          "question": "Se han cancelado dos vuelos.",
+          "options": [
+            "Two flights have been cancelled.",
+            "Two flights has been cancelled."
+          ],
+          "answer": 0,
+          "explanation": "Plural: «have been»."
+        },
+        {
+          "id": "b1_passive.110",
+          "question": "Se puede hacer por internet.",
+          "options": [
+            "It can be done online.",
+            "It can done online."
+          ],
+          "answer": 0,
+          "explanation": "Modal + «be» + participio."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Pasa la frase a pasiva.",
+      "items": [
+        {
+          "id": "b1_passive.201",
+          "prompt": "Pasiva",
+          "source": "They built the airport in 1957.",
+          "answers": [
+            "The airport was built in 1957"
+          ]
+        },
+        {
+          "id": "b1_passive.202",
+          "prompt": "Pasiva",
+          "source": "They serve breakfast from seven.",
+          "answers": [
+            "Breakfast is served from seven"
+          ]
+        },
+        {
+          "id": "b1_passive.203",
+          "prompt": "Pasiva",
+          "source": "They have delayed the flight.",
+          "answers": [
+            "The flight has been delayed"
+          ]
+        },
+        {
+          "id": "b1_passive.204",
+          "prompt": "Pasiva",
+          "source": "We will send your bag to Dublin.",
+          "answers": [
+            "Your bag will be sent to Dublin"
+          ]
+        },
+        {
+          "id": "b1_passive.205",
+          "prompt": "Pasiva",
+          "source": "Someone stole my bike.",
+          "answers": [
+            "My bike was stolen"
+          ]
+        },
+        {
+          "id": "b1_passive.206",
+          "prompt": "Pasiva",
+          "source": "A famous architect designed the station.",
+          "answers": [
+            "The station was designed by a famous architect"
+          ]
+        },
+        {
+          "id": "b1_passive.207",
+          "prompt": "Pasiva",
+          "source": "You must switch off your phone.",
+          "answers": [
+            "Your phone must be switched off"
+          ]
+        },
+        {
+          "id": "b1_passive.208",
+          "prompt": "Corrige",
+          "source": "The tickets was sold in an hour.",
+          "answers": [
+            "The tickets were sold in an hour"
+          ],
+          "explanation": "Plural: «were»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_passive.301",
+          "source": "El vuelo se ha retrasado.",
+          "answers": [
+            "The flight has been delayed"
+          ]
+        },
+        {
+          "id": "b1_passive.302",
+          "source": "Las tarjetas de embarque se envían por email.",
+          "answers": [
+            "Boarding passes are sent by email"
+          ]
+        },
+        {
+          "id": "b1_passive.303",
+          "source": "Tu maleta será enviada a Dublín.",
+          "answers": [
+            "Your bag will be sent to Dublin",
+            "Your suitcase will be sent to Dublin"
+          ]
+        },
+        {
+          "id": "b1_passive.304",
+          "source": "Este aeropuerto se construyó en 1957.",
+          "answers": [
+            "This airport was built in 1957"
+          ]
+        },
+        {
+          "id": "b1_passive.305",
+          "source": "Me robaron el móvil.",
+          "answers": [
+            "My phone was stolen",
+            "My mobile was stolen"
+          ]
+        },
+        {
+          "id": "b1_passive.306",
+          "source": "Aquí se habla español.",
+          "answers": [
+            "Spanish is spoken here"
+          ]
+        },
+        {
+          "id": "b1_passive.307",
+          "source": "Se han cancelado dos vuelos.",
+          "answers": [
+            "Two flights have been cancelled"
+          ]
+        },
+        {
+          "id": "b1_passive.308",
+          "source": "El puente lo diseñó un ingeniero famoso.",
+          "answers": [
+            "The bridge was designed by a famous engineer"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_passive.401",
+          "answer": "The flight has been delayed"
+        },
+        {
+          "id": "b1_passive.402",
+          "answer": "Breakfast is served from seven"
+        },
+        {
+          "id": "b1_passive.403",
+          "answer": "The airport was built in 1957"
+        },
+        {
+          "id": "b1_passive.404",
+          "answer": "Your bag will be sent to Dublin"
+        },
+        {
+          "id": "b1_passive.405",
+          "answer": "Phones must be switched off"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "topic_id": "b1_adverbs_intensifiers",
+  "level_id": "B1",
+  "title": "Comparar adverbios; so, such, too, enough, extremely",
+  "tags": [
+    "adverbs_intensifiers"
+  ],
+  "units": [
+    "good_news"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Adverbs: more quickly, the hardest · so, such, too, enough",
+    "explanation": "Los adverbios también se comparan:\n- Con «-ly»: «more» / «the most» + adverbio: «She speaks more clearly than me.», «He works the most carefully.»\n- Adverbios cortos («fast», «hard», «late», «early»): «-er» / «the -est»: «Daniel works harder than anyone.», «Who arrived the earliest?»\n- Irregulares: «well» → «better» → «the best»; «badly» → «worse» → «the worst»: «Lucía speaks English better than last year.»\n\nPara reforzar o suavizar adjetivos y adverbios: «quite» (bastante), «really» / «very» (muy), «extremely» / «incredibly» (extremadamente). Para «demasiado», con matiz negativo: «too», «much too» o «far too»:\n- «The museum was extremely happy.»\n- «The conference is much too big for me!»\n\n«Enough» va después del adjetivo o del adverbio y antes del nombre:\n- «She isn't old enough.» / «I didn't run fast enough.» / «We haven't got enough time.»\n\n«So» + adjetivo o adverbio; «such» + («a») adjetivo + nombre. Con «that» explican la consecuencia:\n- «I was so nervous (that) I couldn't eat.»\n- «It's such good news!» / «It was such a long day.»\n\nOjo: «very» no va con comparativos («much better», nunca «very better»), y «too» no es lo mismo que «very»: «It's very hot» (mucho) / «It's too hot to drink» (demasiado).",
+    "table": {
+      "headers": [
+        "Estructura",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "more + adverbio -ly",
+          "She speaks more clearly."
+        ],
+        [
+          "adverbio corto + -er",
+          "He works harder."
+        ],
+        [
+          "well → better → the best",
+          "She sings the best."
+        ],
+        [
+          "too / much too + adjetivo",
+          "It's much too expensive."
+        ],
+        [
+          "adjetivo + enough",
+          "It isn't big enough."
+        ],
+        [
+          "so + adjetivo",
+          "I was so tired."
+        ],
+        [
+          "such (a) + adjetivo + nombre",
+          "It was such a good film."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la forma correcta o con un intensificador.",
+      "items": [
+        {
+          "id": "b1_adverbs_intensifiers.001",
+          "sentence": "Lucía speaks English much ___ than last year. (well)",
+          "answers": [
+            [
+              "better"
+            ]
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.002",
+          "sentence": "Daniel works ___ than anyone in the office. (hard)",
+          "answers": [
+            [
+              "harder"
+            ]
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.003",
+          "sentence": "Helen explained it more ___ than I did. (clear)",
+          "answers": [
+            [
+              "clearly"
+            ]
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.004",
+          "sentence": "Hundreds of people? That's ___ too many for me!",
+          "answers": [
+            [
+              "much",
+              "far"
+            ]
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.005",
+          "sentence": "It's ___ good news! Congratulations!",
+          "answers": [
+            [
+              "such"
+            ]
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.006",
+          "sentence": "I was ___ nervous that I couldn't eat.",
+          "answers": [
+            [
+              "so"
+            ]
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.007",
+          "sentence": "The museum was ___ happy with the website. (muy, muy)",
+          "answers": [
+            [
+              "extremely",
+              "incredibly"
+            ]
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.008",
+          "sentence": "Who arrived the ___? (early)",
+          "answers": [
+            [
+              "earliest"
+            ]
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.009",
+          "sentence": "She isn't old ___ to drive.",
+          "answers": [
+            [
+              "enough"
+            ]
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.010",
+          "sentence": "It was ___ a long day. I'm exhausted.",
+          "answers": [
+            [
+              "such"
+            ]
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.011",
+          "sentence": "You're driving ___ fast! Slow down!",
+          "answers": [
+            [
+              "too"
+            ]
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.012",
+          "sentence": "He sang the ___ of all the contestants. (well)",
+          "answers": [
+            [
+              "best"
+            ]
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.013",
+          "sentence": "Can you speak ___ slowly, please? (más)",
+          "answers": [
+            [
+              "more"
+            ]
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.014",
+          "sentence": "I didn't run fast ___ to catch the bus.",
+          "answers": [
+            [
+              "enough"
+            ]
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.015",
+          "sentence": "This exercise is ___ difficult for me. I can't do it.",
+          "answers": [
+            [
+              "too"
+            ]
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.016",
+          "sentence": "He played ___ than last week. (badly)",
+          "answers": [
+            [
+              "worse"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b1_adverbs_intensifiers.101",
+          "question": "Habla más claro que yo.",
+          "options": [
+            "She speaks more clearly than me.",
+            "She speaks clearlier than me."
+          ],
+          "answer": 0,
+          "explanation": "Adverbio en «-ly»: «more»."
+        },
+        {
+          "id": "b1_adverbs_intensifiers.102",
+          "question": "Trabaja más que nadie.",
+          "options": [
+            "He works harder than anyone.",
+            "He works more hardly than anyone."
+          ],
+          "answer": 0,
+          "explanation": "«hard» → «harder»."
+        },
+        {
+          "id": "b1_adverbs_intensifiers.103",
+          "question": "¡Qué buena noticia!",
+          "options": [
+            "It's such good news!",
+            "It's so good news!"
+          ],
+          "answer": 0,
+          "explanation": "«such» + adjetivo + nombre."
+        },
+        {
+          "id": "b1_adverbs_intensifiers.104",
+          "question": "Estaba tan nerviosa que no podía comer.",
+          "options": [
+            "I was so nervous that I couldn't eat.",
+            "I was such nervous that I couldn't eat."
+          ],
+          "answer": 0,
+          "explanation": "«so» + adjetivo."
+        },
+        {
+          "id": "b1_adverbs_intensifiers.105",
+          "question": "Mucho mejor.",
+          "options": [
+            "much better",
+            "very better"
+          ],
+          "answer": 0,
+          "explanation": "Con comparativos: «much»."
+        },
+        {
+          "id": "b1_adverbs_intensifiers.106",
+          "question": "No es lo bastante mayor.",
+          "options": [
+            "She isn't old enough.",
+            "She isn't enough old."
+          ],
+          "answer": 0,
+          "explanation": "«enough» después del adjetivo."
+        },
+        {
+          "id": "b1_adverbs_intensifiers.107",
+          "question": "Es demasiado caro.",
+          "options": [
+            "It's much too expensive.",
+            "It's very too expensive."
+          ],
+          "answer": 0,
+          "explanation": "«much too»."
+        },
+        {
+          "id": "b1_adverbs_intensifiers.108",
+          "question": "Fue un día tan largo…",
+          "options": [
+            "It was such a long day.",
+            "It was so a long day."
+          ],
+          "answer": 0,
+          "explanation": "«such a» + adjetivo + nombre."
+        },
+        {
+          "id": "b1_adverbs_intensifiers.109",
+          "question": "Canta mejor que yo.",
+          "options": [
+            "She sings better than me.",
+            "She sings more well than me."
+          ],
+          "answer": 0,
+          "explanation": "«well» → «better»."
+        },
+        {
+          "id": "b1_adverbs_intensifiers.110",
+          "question": "Hace mucho calor (y está bien).",
+          "options": [
+            "It's very hot today.",
+            "It's too hot today, perfect!"
+          ],
+          "answer": 0,
+          "explanation": "«too» es negativo; para «mucho», «very»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "b1_adverbs_intensifiers.201",
+          "prompt": "Corrige",
+          "source": "She speaks English more good now.",
+          "answers": [
+            "She speaks English better now"
+          ],
+          "explanation": "«well» → «better»."
+        },
+        {
+          "id": "b1_adverbs_intensifiers.202",
+          "prompt": "Corrige",
+          "source": "He drives more fast than me.",
+          "answers": [
+            "He drives faster than me"
+          ],
+          "explanation": "Adverbio corto: «faster»."
+        },
+        {
+          "id": "b1_adverbs_intensifiers.203",
+          "prompt": "Corrige",
+          "source": "It was so a good film.",
+          "answers": [
+            "It was such a good film"
+          ],
+          "explanation": "«such a» + adjetivo + nombre."
+        },
+        {
+          "id": "b1_adverbs_intensifiers.204",
+          "prompt": "Corrige",
+          "source": "I'm not enough tall to reach it.",
+          "answers": [
+            "I'm not tall enough to reach it"
+          ],
+          "explanation": "«enough» después del adjetivo."
+        },
+        {
+          "id": "b1_adverbs_intensifiers.205",
+          "prompt": "Corrige",
+          "source": "Your English is very better now.",
+          "answers": [
+            "Your English is much better now"
+          ],
+          "explanation": "Con comparativos: «much»."
+        },
+        {
+          "id": "b1_adverbs_intensifiers.206",
+          "prompt": "Corrige",
+          "source": "She was such tired that she fell asleep.",
+          "answers": [
+            "She was so tired that she fell asleep"
+          ],
+          "explanation": "«so» + adjetivo."
+        },
+        {
+          "id": "b1_adverbs_intensifiers.207",
+          "prompt": "Corrige",
+          "source": "Can you speak more slow?",
+          "answers": [
+            "Can you speak more slowly"
+          ],
+          "explanation": "Adverbio: «slowly»."
+        },
+        {
+          "id": "b1_adverbs_intensifiers.208",
+          "prompt": "Corrige",
+          "source": "It's too much expensive.",
+          "answers": [
+            "It's much too expensive",
+            "It's far too expensive",
+            "It's too expensive"
+          ],
+          "explanation": "«much too» + adjetivo."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_adverbs_intensifiers.301",
+          "source": "Lucía habla inglés mucho mejor que el año pasado.",
+          "answers": [
+            "Lucía speaks English much better than last year"
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.302",
+          "source": "Daniel trabaja más que nadie.",
+          "answers": [
+            "Daniel works harder than anyone",
+            "Daniel works harder than anybody"
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.303",
+          "source": "¡Qué buena noticia!",
+          "answers": [
+            "It's such good news",
+            "What good news"
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.304",
+          "source": "Estaba tan nervioso que no podía comer.",
+          "answers": [
+            "I was so nervous that I couldn't eat",
+            "I was so nervous I couldn't eat"
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.305",
+          "source": "Es demasiado grande para mí.",
+          "answers": [
+            "It's too big for me",
+            "It's much too big for me",
+            "It's far too big for me"
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.306",
+          "source": "No es lo bastante caliente.",
+          "answers": [
+            "It isn't warm enough",
+            "It's not warm enough",
+            "It isn't hot enough"
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.307",
+          "source": "Fue un día tan largo.",
+          "answers": [
+            "It was such a long day"
+          ]
+        },
+        {
+          "id": "b1_adverbs_intensifiers.308",
+          "source": "Habla más despacio, por favor.",
+          "answers": [
+            "Speak more slowly, please",
+            "Please speak more slowly"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_adverbs_intensifiers.401",
+          "answer": "She speaks English much better now"
+        },
+        {
+          "id": "b1_adverbs_intensifiers.402",
+          "answer": "It's such good news"
+        },
+        {
+          "id": "b1_adverbs_intensifiers.403",
+          "answer": "I was so nervous"
+        },
+        {
+          "id": "b1_adverbs_intensifiers.404",
+          "answer": "He works harder than anyone"
+        },
+        {
+          "id": "b1_adverbs_intensifiers.405",
+          "answer": "It isn't big enough"
+        }
+      ]
+    }
+  ]
+}

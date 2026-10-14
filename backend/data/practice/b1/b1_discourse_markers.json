@@ -1,0 +1,465 @@
+{
+  "topic_id": "b1_discourse_markers",
+  "level_id": "B1",
+  "title": "Marcadores de conversación: anyway, by the way, actually…",
+  "tags": [
+    "discourse_markers"
+  ],
+  "units": [
+    "summer_plans"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Discourse markers: right, anyway, by the way, actually",
+    "explanation": "En la conversación usamos palabras pequeñas para organizar lo que decimos:\n- «Right», «OK», «So»: para empezar o pasar a otra cosa: «Right, that's the last box.»\n- «Anyway»: para volver al tema o cerrar uno: «Anyway, what are your plans?»\n- «By the way»: para introducir algo que se nos acaba de ocurrir: «By the way, Ollie is moving in early.»\n- «Actually»: en realidad, para corregir o añadir algo inesperado (no significa actualmente): «I'm not nervous. Well, actually, I am a bit.»\n- «Well»: para pensar o suavizar una respuesta: «Well, maybe.»\n- «I mean»: para aclarar: «He's nervous. I mean, he's meeting my parents!»\n- «Of course»: claro, por supuesto: «Can I come? — Of course!»\n- «To be honest»: la verdad, sinceramente: «To be honest, I didn't like it.»\n\nOjo con los falsos amigos:\n- actualmente = «currently» / «at the moment» (no «actually»)\n- «eventually» = al final, finalmente (no «eventualmente»)",
+    "table": {
+      "headers": [
+        "Marcador",
+        "Para…",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Right / So",
+          "empezar o cambiar",
+          "Right, let's go."
+        ],
+        [
+          "Anyway",
+          "volver al tema",
+          "Anyway, how was your day?"
+        ],
+        [
+          "By the way",
+          "algo que se te ocurre",
+          "By the way, I saw Sam."
+        ],
+        [
+          "Actually",
+          "corregir (en realidad)",
+          "Actually, I'm Irish."
+        ],
+        [
+          "I mean",
+          "aclarar",
+          "It's big. I mean, really big."
+        ],
+        [
+          "To be honest",
+          "ser sincero",
+          "To be honest, I'm tired."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «right», «anyway», «by the way», «actually», «I mean», «well» o «to be honest».",
+      "items": [
+        {
+          "id": "b1_discourse_markers.001",
+          "sentence": "___, that's the last box. Let's put it in the van.",
+          "answers": [
+            [
+              "Right"
+            ]
+          ]
+        },
+        {
+          "id": "b1_discourse_markers.002",
+          "sentence": "I'm not nervous. Well, ___, I'm a bit nervous.",
+          "answers": [
+            [
+              "actually"
+            ]
+          ]
+        },
+        {
+          "id": "b1_discourse_markers.003",
+          "sentence": "By the ___, I've found your old guitar under the bed.",
+          "answers": [
+            [
+              "way"
+            ]
+          ]
+        },
+        {
+          "id": "b1_discourse_markers.004",
+          "sentence": "Sorry, I was talking about the weather. ___, what are your plans?",
+          "answers": [
+            [
+              "Anyway"
+            ]
+          ]
+        },
+        {
+          "id": "b1_discourse_markers.005",
+          "sentence": "Valencia is hot in August. I ___, really hot.",
+          "answers": [
+            [
+              "mean"
+            ]
+          ]
+        },
+        {
+          "id": "b1_discourse_markers.006",
+          "sentence": "Is Ollie arriving tomorrow? — No, ___, he's arriving today.",
+          "answers": [
+            [
+              "actually"
+            ]
+          ]
+        },
+        {
+          "id": "b1_discourse_markers.007",
+          "sentence": "Do you like the new flat? — ___, it's a bit small, but it's OK.",
+          "answers": [
+            [
+              "Well"
+            ]
+          ]
+        },
+        {
+          "id": "b1_discourse_markers.008",
+          "sentence": "To be ___, I didn't enjoy the film.",
+          "answers": [
+            [
+              "honest"
+            ]
+          ]
+        },
+        {
+          "id": "b1_discourse_markers.009",
+          "sentence": "___ the way, did you call your mum?",
+          "answers": [
+            [
+              "By"
+            ]
+          ]
+        },
+        {
+          "id": "b1_discourse_markers.010",
+          "sentence": "___, let's start the meeting.",
+          "answers": [
+            [
+              "Right",
+              "So",
+              "OK"
+            ]
+          ]
+        },
+        {
+          "id": "b1_discourse_markers.011",
+          "sentence": "I'm from Galway. ___, I was born in Dublin, but I grew up in Galway.",
+          "answers": [
+            [
+              "Actually"
+            ]
+          ]
+        },
+        {
+          "id": "b1_discourse_markers.012",
+          "sentence": "We missed the bus, the rain started… ___, we got there in the end.",
+          "answers": [
+            [
+              "Anyway"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b1_discourse_markers.101",
+          "question": "Actualmente vivo en Bristol.",
+          "options": [
+            "I currently live in Bristol.",
+            "I actually live in Bristol now."
+          ],
+          "answer": 0,
+          "explanation": "Actualmente = «currently»."
+        },
+        {
+          "id": "b1_discourse_markers.102",
+          "question": "En realidad, soy irlandés.",
+          "options": [
+            "Actually, I'm Irish.",
+            "Currently, I'm Irish."
+          ],
+          "answer": 0,
+          "explanation": "En realidad = «actually»."
+        },
+        {
+          "id": "b1_discourse_markers.103",
+          "question": "Por cierto, he visto a Sam.",
+          "options": [
+            "By the way, I saw Sam.",
+            "On the way, I saw Sam."
+          ],
+          "answer": 0,
+          "explanation": "Por cierto = «by the way»."
+        },
+        {
+          "id": "b1_discourse_markers.104",
+          "question": "En fin, ¿qué planes tienes?",
+          "options": [
+            "Anyway, what are your plans?",
+            "Anyways what your plans?"
+          ],
+          "answer": 0,
+          "explanation": "Volver al tema: «Anyway»."
+        },
+        {
+          "id": "b1_discourse_markers.105",
+          "question": "Al final encontramos el hotel.",
+          "options": [
+            "Eventually, we found the hotel.",
+            "Actually, we found the hotel finally eventually."
+          ],
+          "answer": 0,
+          "explanation": "Al final = «eventually»."
+        },
+        {
+          "id": "b1_discourse_markers.106",
+          "question": "Para ser sincero, no me gustó.",
+          "options": [
+            "To be honest, I didn't like it.",
+            "For be honest, I didn't like it."
+          ],
+          "answer": 0,
+          "explanation": "«To be honest»."
+        },
+        {
+          "id": "b1_discourse_markers.107",
+          "question": "Es grande. Quiero decir, muy grande.",
+          "options": [
+            "It's big. I mean, really big.",
+            "It's big. I say, really big."
+          ],
+          "answer": 0,
+          "explanation": "Aclarar: «I mean»."
+        },
+        {
+          "id": "b1_discourse_markers.108",
+          "question": "Bueno, quizá.",
+          "options": [
+            "Well, maybe.",
+            "Good, maybe."
+          ],
+          "answer": 0,
+          "explanation": "Para pensar: «Well»."
+        },
+        {
+          "id": "b1_discourse_markers.109",
+          "question": "¿Puedo venir? — ¡Claro!",
+          "options": [
+            "Can I come? — Of course!",
+            "Can I come? — Actually!"
+          ],
+          "answer": 0,
+          "explanation": "Claro: «Of course»."
+        },
+        {
+          "id": "b1_discourse_markers.110",
+          "question": "Vale, empecemos.",
+          "options": [
+            "Right, let's start.",
+            "Correct, let's start."
+          ],
+          "answer": 0,
+          "explanation": "Empezar: «Right»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "b1_discourse_markers.201",
+          "prompt": "Corrige (quieres decir «actualmente»)",
+          "source": "Actually, I live in Madrid.",
+          "answers": [
+            "Currently, I live in Madrid",
+            "Currently I live in Madrid",
+            "At the moment, I live in Madrid",
+            "At the moment I live in Madrid",
+            "I currently live in Madrid"
+          ],
+          "explanation": "Actualmente = «currently» / «at the moment»."
+        },
+        {
+          "id": "b1_discourse_markers.202",
+          "prompt": "Corrige",
+          "source": "In the way, have you seen my keys?",
+          "answers": [
+            "By the way, have you seen my keys"
+          ],
+          "explanation": "Por cierto = «by the way»."
+        },
+        {
+          "id": "b1_discourse_markers.203",
+          "prompt": "Corrige",
+          "source": "For be honest, I'm tired.",
+          "answers": [
+            "To be honest, I'm tired",
+            "To be honest I'm tired"
+          ],
+          "explanation": "«To be honest»."
+        },
+        {
+          "id": "b1_discourse_markers.204",
+          "prompt": "Corrige",
+          "source": "Good, maybe we can go tomorrow.",
+          "answers": [
+            "Well, maybe we can go tomorrow",
+            "Well maybe we can go tomorrow"
+          ],
+          "explanation": "Para pensar: «Well»."
+        },
+        {
+          "id": "b1_discourse_markers.205",
+          "prompt": "Corrige",
+          "source": "I say, it's really expensive.",
+          "answers": [
+            "I mean, it's really expensive",
+            "I mean it's really expensive"
+          ],
+          "explanation": "Aclarar: «I mean»."
+        },
+        {
+          "id": "b1_discourse_markers.206",
+          "prompt": "Corrige",
+          "source": "Anyways, what time is it?",
+          "answers": [
+            "Anyway, what time is it",
+            "Anyway what time is it"
+          ],
+          "explanation": "«Anyway»."
+        },
+        {
+          "id": "b1_discourse_markers.207",
+          "prompt": "Corrige",
+          "source": "Eventually I'll call you, if I have time.",
+          "answers": [
+            "Maybe I'll call you, if I have time",
+            "I might call you, if I have time",
+            "Perhaps I'll call you, if I have time"
+          ],
+          "explanation": "«eventually» = al final, no eventualmente."
+        },
+        {
+          "id": "b1_discourse_markers.208",
+          "prompt": "Corrige",
+          "source": "Correct, let's go!",
+          "answers": [
+            "Right, let's go",
+            "OK, let's go"
+          ],
+          "explanation": "Para empezar: «Right»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_discourse_markers.301",
+          "source": "Vale, esa es la última caja.",
+          "answers": [
+            "Right, that's the last box",
+            "OK, that's the last box"
+          ]
+        },
+        {
+          "id": "b1_discourse_markers.302",
+          "source": "Por cierto, Ollie llega antes.",
+          "answers": [
+            "By the way, Ollie is arriving early",
+            "By the way, Ollie is moving in early",
+            "By the way, Ollie's arriving early"
+          ]
+        },
+        {
+          "id": "b1_discourse_markers.303",
+          "source": "En fin, ¿qué planes tienes?",
+          "answers": [
+            "Anyway, what are your plans"
+          ]
+        },
+        {
+          "id": "b1_discourse_markers.304",
+          "source": "En realidad, estoy un poco nervioso.",
+          "answers": [
+            "Actually, I'm a bit nervous",
+            "Actually I'm a bit nervous"
+          ]
+        },
+        {
+          "id": "b1_discourse_markers.305",
+          "source": "Actualmente trabajo en Bristol.",
+          "answers": [
+            "I currently work in Bristol",
+            "At the moment I work in Bristol",
+            "Currently I work in Bristol"
+          ]
+        },
+        {
+          "id": "b1_discourse_markers.306",
+          "source": "Para ser sincera, no me gustó.",
+          "answers": [
+            "To be honest, I didn't like it"
+          ]
+        },
+        {
+          "id": "b1_discourse_markers.307",
+          "source": "Al final encontramos el hotel.",
+          "answers": [
+            "Eventually, we found the hotel",
+            "In the end, we found the hotel",
+            "Eventually we found the hotel"
+          ]
+        },
+        {
+          "id": "b1_discourse_markers.308",
+          "source": "Quiero decir, hace mucho calor.",
+          "answers": [
+            "I mean, it's really hot",
+            "I mean, it's very hot"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_discourse_markers.401",
+          "answer": "Right, that's the last box"
+        },
+        {
+          "id": "b1_discourse_markers.402",
+          "answer": "By the way, I found your guitar"
+        },
+        {
+          "id": "b1_discourse_markers.403",
+          "answer": "Anyway, what are your plans?"
+        },
+        {
+          "id": "b1_discourse_markers.404",
+          "answer": "Actually, I'm a bit nervous"
+        },
+        {
+          "id": "b1_discourse_markers.405",
+          "answer": "To be honest, I didn't like it"
+        }
+      ]
+    }
+  ]
+}

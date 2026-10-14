@@ -1,0 +1,471 @@
+{
+  "topic_id": "b1_reported_speech",
+  "level_id": "B1",
+  "title": "Estilo indirecto: said, told, asked",
+  "tags": [
+    "reported_speech"
+  ],
+  "units": [
+    "good_news"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Reported speech",
+    "explanation": "Para contar lo que alguien dijo usamos «say (that)» o «tell» + persona + «(that)». «Tell» siempre lleva la persona; «say», no:\n- «She said (that) she was tired.»\n- «She told me (that) she was tired.» (nunca «She said me»)\n\nNormalmente el verbo da un paso atrás en el pasado:\n- presente → pasado: «I love it» → «She said she loved it.»\n- present continuous → past continuous: «I'm working» → «He said he was working.»\n- «will» → «would»: «I'll call» → «He said he would call.»\n- «can» → «could»: «I can help» → «She said she could help.»\n- present perfect / past simple → past perfect: «I've passed» → «He said he had passed.»\n\nLas preguntas de sí o no se cuentan con «asked if» / «whether»; las demás, con la palabra interrogativa. En las dos, con orden de frase afirmativa (nunca «if could you come»):\n- «Can you come?» → «She asked if you could come.»\n- «Where do you live?» → «He asked where I lived.»\n\nCambian también los pronombres, los posesivos y algunas expresiones de tiempo: «your website» → «our website», «tomorrow» → «the next day», «here» → «there».",
+    "table": {
+      "headers": [
+        "Lo que dijo",
+        "Estilo indirecto"
+      ],
+      "rows": [
+        [
+          "\"I'm tired.\"",
+          "She said she was tired."
+        ],
+        [
+          "\"I'll help you.\"",
+          "He said he would help me."
+        ],
+        [
+          "\"I can come.\"",
+          "She said she could come."
+        ],
+        [
+          "\"I've passed!\"",
+          "He said he had passed."
+        ],
+        [
+          "\"Can you come?\"",
+          "She asked if I could come."
+        ],
+        [
+          "\"Where do you live?\"",
+          "He asked where I lived."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el estilo indirecto.",
+      "items": [
+        {
+          "id": "b1_reported_speech.001",
+          "sentence": "She said that the museum ___ our website. (love)",
+          "answers": [
+            [
+              "loved"
+            ]
+          ]
+        },
+        {
+          "id": "b1_reported_speech.002",
+          "sentence": "She ___ me that she wanted me to speak. (tell)",
+          "answers": [
+            [
+              "told"
+            ]
+          ]
+        },
+        {
+          "id": "b1_reported_speech.003",
+          "sentence": "I told her I ___ nervous.",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        },
+        {
+          "id": "b1_reported_speech.004",
+          "sentence": "She said I ___ be great.",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        },
+        {
+          "id": "b1_reported_speech.005",
+          "sentence": "She asked ___ you could come.",
+          "answers": [
+            [
+              "if",
+              "whether"
+            ]
+          ]
+        },
+        {
+          "id": "b1_reported_speech.006",
+          "sentence": "He said he ___ passed his exam.",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b1_reported_speech.007",
+          "sentence": "He told me he had ___ a job in Dublin. (get)",
+          "answers": [
+            [
+              "got"
+            ]
+          ]
+        },
+        {
+          "id": "b1_reported_speech.008",
+          "sentence": "Helen ___ that I was ready. (say)",
+          "answers": [
+            [
+              "said"
+            ]
+          ]
+        },
+        {
+          "id": "b1_reported_speech.009",
+          "sentence": "\"I can help.\" → Priya said she ___ help.",
+          "answers": [
+            [
+              "could"
+            ]
+          ]
+        },
+        {
+          "id": "b1_reported_speech.010",
+          "sentence": "\"I'm working.\" → Sam said he ___ working.",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        },
+        {
+          "id": "b1_reported_speech.011",
+          "sentence": "\"Where do you live?\" → He asked me where I ___.",
+          "answers": [
+            [
+              "lived"
+            ]
+          ]
+        },
+        {
+          "id": "b1_reported_speech.012",
+          "sentence": "\"I'll call you.\" → Daniel said he ___ call me.",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        },
+        {
+          "id": "b1_reported_speech.013",
+          "sentence": "She ___ us that the flight was late. (tell)",
+          "answers": [
+            [
+              "told"
+            ]
+          ]
+        },
+        {
+          "id": "b1_reported_speech.014",
+          "sentence": "\"Are you coming?\" → They asked ___ I was coming.",
+          "answers": [
+            [
+              "if",
+              "whether"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b1_reported_speech.101",
+          "question": "Me dijo que estaba cansada.",
+          "options": [
+            "She told me she was tired.",
+            "She said me she was tired."
+          ],
+          "answer": 0,
+          "explanation": "«tell» + persona; «say» sin persona."
+        },
+        {
+          "id": "b1_reported_speech.102",
+          "question": "Preguntó si podías venir.",
+          "options": [
+            "She asked if you could come.",
+            "She asked if could you come."
+          ],
+          "answer": 0,
+          "explanation": "Orden de frase afirmativa."
+        },
+        {
+          "id": "b1_reported_speech.103",
+          "question": "Dijo que había aprobado.",
+          "options": [
+            "He said he had passed.",
+            "He said he has passed yesterday."
+          ],
+          "answer": 0,
+          "explanation": "Present perfect → past perfect."
+        },
+        {
+          "id": "b1_reported_speech.104",
+          "question": "Dijo que llamaría.",
+          "options": [
+            "He said he would call.",
+            "He said he will call yesterday."
+          ],
+          "answer": 0,
+          "explanation": "«will» → «would»."
+        },
+        {
+          "id": "b1_reported_speech.105",
+          "question": "Me preguntó dónde vivía.",
+          "options": [
+            "He asked me where I lived.",
+            "He asked me where did I live."
+          ],
+          "answer": 0,
+          "explanation": "Orden de frase afirmativa."
+        },
+        {
+          "id": "b1_reported_speech.106",
+          "question": "Dijo que podía ayudar.",
+          "options": [
+            "She said she could help.",
+            "She said she can helped."
+          ],
+          "answer": 0,
+          "explanation": "«can» → «could»."
+        },
+        {
+          "id": "b1_reported_speech.107",
+          "question": "Nos dijo que el vuelo se retrasaba.",
+          "options": [
+            "She told us the flight was late.",
+            "She told the flight was late."
+          ],
+          "answer": 0,
+          "explanation": "«tell» necesita la persona."
+        },
+        {
+          "id": "b1_reported_speech.108",
+          "question": "Dijo que estaba trabajando.",
+          "options": [
+            "He said he was working.",
+            "He said he is work."
+          ],
+          "answer": 0,
+          "explanation": "Continuous → past continuous."
+        },
+        {
+          "id": "b1_reported_speech.109",
+          "question": "Le dije que estaba nerviosa.",
+          "options": [
+            "I told her I was nervous.",
+            "I said her I was nervous."
+          ],
+          "answer": 0,
+          "explanation": "«tell» + persona."
+        },
+        {
+          "id": "b1_reported_speech.110",
+          "question": "Preguntaron si venía.",
+          "options": [
+            "They asked if I was coming.",
+            "They asked was I coming if."
+          ],
+          "answer": 0,
+          "explanation": "«asked if» + frase afirmativa."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Pásalo a estilo indirecto.",
+      "items": [
+        {
+          "id": "b1_reported_speech.201",
+          "prompt": "Helen",
+          "source": "\"I'm very happy with your work.\"",
+          "answers": [
+            "Helen said she was very happy with my work",
+            "Helen said that she was very happy with my work"
+          ]
+        },
+        {
+          "id": "b1_reported_speech.202",
+          "prompt": "Javi",
+          "source": "\"I start in September.\"",
+          "answers": [
+            "Javi said he started in September",
+            "Javi said that he started in September"
+          ]
+        },
+        {
+          "id": "b1_reported_speech.203",
+          "prompt": "Daniel",
+          "source": "\"I'll help you.\"",
+          "answers": [
+            "Daniel said he would help me",
+            "Daniel said that he would help me"
+          ]
+        },
+        {
+          "id": "b1_reported_speech.204",
+          "prompt": "Priya",
+          "source": "\"Can you buy some milk?\"",
+          "answers": [
+            "Priya asked if I could buy some milk",
+            "Priya asked whether I could buy some milk",
+            "Priya asked me if I could buy some milk"
+          ]
+        },
+        {
+          "id": "b1_reported_speech.205",
+          "prompt": "Sam",
+          "source": "\"I've lost my keys.\"",
+          "answers": [
+            "Sam said he had lost his keys",
+            "Sam said that he had lost his keys"
+          ]
+        },
+        {
+          "id": "b1_reported_speech.206",
+          "prompt": "Lucía",
+          "source": "\"Where are you going?\"",
+          "answers": [
+            "Lucía asked where I was going",
+            "Lucía asked me where I was going"
+          ]
+        },
+        {
+          "id": "b1_reported_speech.207",
+          "prompt": "Helen (a mí)",
+          "source": "\"You can leave early.\"",
+          "answers": [
+            "Helen told me I could leave early",
+            "Helen told me that I could leave early"
+          ]
+        },
+        {
+          "id": "b1_reported_speech.208",
+          "prompt": "Corrige",
+          "source": "She said me that she was busy.",
+          "answers": [
+            "She told me that she was busy",
+            "She told me she was busy",
+            "She said that she was busy"
+          ],
+          "explanation": "«tell» + persona."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_reported_speech.301",
+          "source": "Dijo que estaba cansada.",
+          "answers": [
+            "She said she was tired",
+            "She said that she was tired"
+          ]
+        },
+        {
+          "id": "b1_reported_speech.302",
+          "source": "Me dijo que había aprobado.",
+          "answers": [
+            "He told me he had passed",
+            "He told me that he had passed"
+          ]
+        },
+        {
+          "id": "b1_reported_speech.303",
+          "source": "Le dije que estaba nerviosa.",
+          "answers": [
+            "I told her I was nervous",
+            "I told her that I was nervous",
+            "I told him I was nervous"
+          ]
+        },
+        {
+          "id": "b1_reported_speech.304",
+          "source": "Preguntó si podías venir.",
+          "answers": [
+            "She asked if you could come",
+            "He asked if you could come",
+            "She asked whether you could come"
+          ]
+        },
+        {
+          "id": "b1_reported_speech.305",
+          "source": "Dijo que llamaría mañana.",
+          "answers": [
+            "He said he would call tomorrow",
+            "He said he would call the next day",
+            "She said she would call the next day"
+          ]
+        },
+        {
+          "id": "b1_reported_speech.306",
+          "source": "Me preguntó dónde vivía.",
+          "answers": [
+            "He asked me where I lived",
+            "She asked me where I lived"
+          ]
+        },
+        {
+          "id": "b1_reported_speech.307",
+          "source": "Dijo que podía ayudarnos.",
+          "answers": [
+            "She said she could help us",
+            "He said he could help us"
+          ]
+        },
+        {
+          "id": "b1_reported_speech.308",
+          "source": "Nos dijo que el vuelo llegaba tarde.",
+          "answers": [
+            "She told us the flight was late",
+            "He told us the flight was late",
+            "She told us that the flight was late"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_reported_speech.401",
+          "answer": "She said that she was tired"
+        },
+        {
+          "id": "b1_reported_speech.402",
+          "answer": "He told me he had passed"
+        },
+        {
+          "id": "b1_reported_speech.403",
+          "answer": "She asked if you could come"
+        },
+        {
+          "id": "b1_reported_speech.404",
+          "answer": "He asked me where I lived"
+        },
+        {
+          "id": "b1_reported_speech.405",
+          "answer": "Daniel said he would help me"
+        }
+      ]
+    }
+  ]
+}

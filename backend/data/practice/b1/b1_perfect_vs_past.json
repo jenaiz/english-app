@@ -1,0 +1,462 @@
+{
+  "topic_id": "b1_perfect_vs_past",
+  "level_id": "B1",
+  "title": "Present perfect o past simple",
+  "tags": [
+    "perfect_vs_past"
+  ],
+  "units": [
+    "job_interview"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Present perfect vs past simple",
+    "explanation": "El present perfect conecta el pasado con el presente:\n- experiencias sin fecha: «Have you ever managed a team?»\n- periodos que siguen abiertos: «I've worked here for six months.» (y sigo)\n- resultados que importan ahora: «I've lost my keys.» (no las tengo)\n- con «today», «this week», «this year» si aún no han terminado: «I've had three meetings today.»\n\nEl past simple habla de un momento o periodo terminado:\n- «In Madrid I managed three designers.»\n- «I left in August.»\n- «I worked there for two years.» (ya no trabajo allí)\n\nLas preguntas con «When…?» y las frases con «yesterday», «last…», «… ago» o una fecha van siempre en past simple:\n- «When did you finish that job?»\n- «I started two years ago.»\n\nEn una conversación es normal empezar con present perfect y pasar al past simple para los detalles:\n- «Have you ever been to Japan? — Yes, I have. I went in 2019. It was amazing.»",
+    "table": {
+      "headers": [
+        "Present perfect",
+        "Past simple"
+      ],
+      "rows": [
+        [
+          "Have you ever…?",
+          "When did you…?"
+        ],
+        [
+          "I've worked here for a year. (sigo)",
+          "I worked there for a year. (ya no)"
+        ],
+        [
+          "this week, today, ever, never, yet",
+          "yesterday, last week, ago, in 2019"
+        ],
+        [
+          "I've lost my keys. (ahora no las tengo)",
+          "I lost my keys last night."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el present perfect o el past simple del verbo entre paréntesis.",
+      "items": [
+        {
+          "id": "b1_perfect_vs_past.001",
+          "sentence": "I ___ here for six months. (work, y sigo)",
+          "answers": [
+            [
+              "have worked",
+              "'ve worked",
+              "have been working",
+              "'ve been working"
+            ]
+          ]
+        },
+        {
+          "id": "b1_perfect_vs_past.002",
+          "sentence": "In Madrid I ___ three designers. (manage)",
+          "answers": [
+            [
+              "managed"
+            ]
+          ]
+        },
+        {
+          "id": "b1_perfect_vs_past.003",
+          "sentence": "When ___ you finish that job?",
+          "answers": [
+            [
+              "did"
+            ]
+          ]
+        },
+        {
+          "id": "b1_perfect_vs_past.004",
+          "sentence": "I ___ in August. (leave)",
+          "answers": [
+            [
+              "left"
+            ]
+          ]
+        },
+        {
+          "id": "b1_perfect_vs_past.005",
+          "sentence": "___ you ever managed a team?",
+          "answers": [
+            [
+              "Have"
+            ]
+          ]
+        },
+        {
+          "id": "b1_perfect_vs_past.006",
+          "sentence": "I've always ___ a challenge. (enjoy)",
+          "answers": [
+            [
+              "enjoyed"
+            ]
+          ]
+        },
+        {
+          "id": "b1_perfect_vs_past.007",
+          "sentence": "We ___ a very short deadline last month. (have)",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b1_perfect_vs_past.008",
+          "sentence": "I ___ my keys! I can't get into the flat. (lose)",
+          "answers": [
+            [
+              "have lost",
+              "'ve lost"
+            ]
+          ],
+          "explanation": "Resultado ahora: present perfect."
+        },
+        {
+          "id": "b1_perfect_vs_past.009",
+          "sentence": "I ___ there for two years, from 2019 to 2021. (work)",
+          "answers": [
+            [
+              "worked"
+            ]
+          ],
+          "explanation": "Periodo terminado."
+        },
+        {
+          "id": "b1_perfect_vs_past.010",
+          "sentence": "She ___ three interviews this week. (have)",
+          "answers": [
+            [
+              "has had",
+              "'s had"
+            ]
+          ],
+          "explanation": "Periodo abierto: present perfect."
+        },
+        {
+          "id": "b1_perfect_vs_past.011",
+          "sentence": "I ___ my degree five years ago. (finish)",
+          "answers": [
+            [
+              "finished"
+            ]
+          ]
+        },
+        {
+          "id": "b1_perfect_vs_past.012",
+          "sentence": "Have you ever been to Japan? — Yes, I ___ in 2019. (go)",
+          "answers": [
+            [
+              "went"
+            ]
+          ]
+        },
+        {
+          "id": "b1_perfect_vs_past.013",
+          "sentence": "I ___ never ___ a presentation in English. (give)",
+          "answers": [
+            [
+              "have"
+            ],
+            [
+              "given"
+            ]
+          ]
+        },
+        {
+          "id": "b1_perfect_vs_past.014",
+          "sentence": "What time ___ you arrive yesterday?",
+          "answers": [
+            [
+              "did"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b1_perfect_vs_past.101",
+          "question": "¿Cuándo terminaste ese trabajo?",
+          "options": [
+            "When did you finish that job?",
+            "When have you finished that job?"
+          ],
+          "answer": 0,
+          "explanation": "Con «When»: past simple."
+        },
+        {
+          "id": "b1_perfect_vs_past.102",
+          "question": "Llevo seis meses trabajando aquí.",
+          "options": [
+            "I've worked here for six months.",
+            "I worked here for six months."
+          ],
+          "answer": 0,
+          "explanation": "Sigue abierto: present perfect."
+        },
+        {
+          "id": "b1_perfect_vs_past.103",
+          "question": "Trabajé allí dos años (ya no).",
+          "options": [
+            "I worked there for two years.",
+            "I've worked there for two years."
+          ],
+          "answer": 0,
+          "explanation": "Terminado: past simple."
+        },
+        {
+          "id": "b1_perfect_vs_past.104",
+          "question": "Empecé hace dos años.",
+          "options": [
+            "I started two years ago.",
+            "I've started two years ago."
+          ],
+          "answer": 0,
+          "explanation": "Con «ago»: past simple."
+        },
+        {
+          "id": "b1_perfect_vs_past.105",
+          "question": "¿Has dirigido alguna vez un equipo?",
+          "options": [
+            "Have you ever managed a team?",
+            "Did you ever manage a team?"
+          ],
+          "answer": 0,
+          "explanation": "Experiencia: present perfect."
+        },
+        {
+          "id": "b1_perfect_vs_past.106",
+          "question": "He perdido las llaves (y no puedo entrar).",
+          "options": [
+            "I've lost my keys.",
+            "I lost my keys."
+          ],
+          "answer": 0,
+          "explanation": "Resultado ahora: present perfect."
+        },
+        {
+          "id": "b1_perfect_vs_past.107",
+          "question": "Ayer tuve una entrevista.",
+          "options": [
+            "I had an interview yesterday.",
+            "I've had an interview yesterday."
+          ],
+          "answer": 0,
+          "explanation": "Con «yesterday»: past simple."
+        },
+        {
+          "id": "b1_perfect_vs_past.108",
+          "question": "Esta semana he tenido tres reuniones.",
+          "options": [
+            "I've had three meetings this week.",
+            "I had three meetings this week ago."
+          ],
+          "answer": 0,
+          "explanation": "Periodo abierto: present perfect."
+        },
+        {
+          "id": "b1_perfect_vs_past.109",
+          "question": "Me fui en agosto.",
+          "options": [
+            "I left in August.",
+            "I've left in August."
+          ],
+          "answer": 0,
+          "explanation": "Con fecha: past simple."
+        },
+        {
+          "id": "b1_perfect_vs_past.110",
+          "question": "Nunca he trabajado en el extranjero.",
+          "options": [
+            "I've never worked abroad.",
+            "I never worked abroad ever."
+          ],
+          "answer": 0,
+          "explanation": "Experiencia: present perfect."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "b1_perfect_vs_past.201",
+          "prompt": "Corrige",
+          "source": "I've finished university in 2018.",
+          "answers": [
+            "I finished university in 2018"
+          ],
+          "explanation": "Con fecha: past simple."
+        },
+        {
+          "id": "b1_perfect_vs_past.202",
+          "prompt": "Corrige",
+          "source": "When have you started?",
+          "answers": [
+            "When did you start"
+          ],
+          "explanation": "Con «When»: past simple."
+        },
+        {
+          "id": "b1_perfect_vs_past.203",
+          "prompt": "Corrige",
+          "source": "I work here since March.",
+          "answers": [
+            "I've worked here since March",
+            "I've been working here since March"
+          ],
+          "explanation": "Con «since»: present perfect."
+        },
+        {
+          "id": "b1_perfect_vs_past.204",
+          "prompt": "Corrige",
+          "source": "Did you ever live abroad?",
+          "answers": [
+            "Have you ever lived abroad"
+          ],
+          "explanation": "Experiencia: present perfect."
+        },
+        {
+          "id": "b1_perfect_vs_past.205",
+          "prompt": "Corrige",
+          "source": "I've seen her last week.",
+          "answers": [
+            "I saw her last week"
+          ],
+          "explanation": "Con «last week»: past simple."
+        },
+        {
+          "id": "b1_perfect_vs_past.206",
+          "prompt": "Corrige",
+          "source": "She has left the company two months ago.",
+          "answers": [
+            "She left the company two months ago"
+          ],
+          "explanation": "Con «ago»: past simple."
+        },
+        {
+          "id": "b1_perfect_vs_past.207",
+          "prompt": "Corrige",
+          "source": "I've been to Japan in 2019.",
+          "answers": [
+            "I went to Japan in 2019"
+          ],
+          "explanation": "Con fecha: past simple."
+        },
+        {
+          "id": "b1_perfect_vs_past.208",
+          "prompt": "Corrige",
+          "source": "Did you finish your report yet?",
+          "answers": [
+            "Have you finished your report yet"
+          ],
+          "explanation": "Con «yet»: present perfect."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_perfect_vs_past.301",
+          "source": "Llevo seis meses trabajando aquí.",
+          "answers": [
+            "I've worked here for six months",
+            "I've been working here for six months"
+          ]
+        },
+        {
+          "id": "b1_perfect_vs_past.302",
+          "source": "¿Alguna vez has dirigido un equipo?",
+          "answers": [
+            "Have you ever managed a team"
+          ]
+        },
+        {
+          "id": "b1_perfect_vs_past.303",
+          "source": "Dejé ese trabajo el año pasado.",
+          "answers": [
+            "I left that job last year"
+          ]
+        },
+        {
+          "id": "b1_perfect_vs_past.304",
+          "source": "¿Cuándo empezaste?",
+          "answers": [
+            "When did you start"
+          ]
+        },
+        {
+          "id": "b1_perfect_vs_past.305",
+          "source": "Siempre me han gustado los retos.",
+          "answers": [
+            "I've always enjoyed challenges",
+            "I've always liked challenges"
+          ]
+        },
+        {
+          "id": "b1_perfect_vs_past.306",
+          "source": "Hace dos años trabajé en Madrid.",
+          "answers": [
+            "Two years ago I worked in Madrid",
+            "I worked in Madrid two years ago"
+          ]
+        },
+        {
+          "id": "b1_perfect_vs_past.307",
+          "source": "He perdido las llaves.",
+          "answers": [
+            "I've lost my keys"
+          ]
+        },
+        {
+          "id": "b1_perfect_vs_past.308",
+          "source": "Esta semana he tenido tres entrevistas.",
+          "answers": [
+            "I've had three interviews this week",
+            "This week I've had three interviews"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_perfect_vs_past.401",
+          "answer": "Have you ever managed a team?"
+        },
+        {
+          "id": "b1_perfect_vs_past.402",
+          "answer": "When did you finish that job?"
+        },
+        {
+          "id": "b1_perfect_vs_past.403",
+          "answer": "I've worked here for six months"
+        },
+        {
+          "id": "b1_perfect_vs_past.404",
+          "answer": "I left in August"
+        },
+        {
+          "id": "b1_perfect_vs_past.405",
+          "answer": "I've had three meetings today"
+        }
+      ]
+    }
+  ]
+}

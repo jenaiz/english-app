@@ -1,0 +1,457 @@
+{
+  "topic_id": "b1_first_conditional_time",
+  "level_id": "B1",
+  "title": "Primer condicional; when, as soon as, until, unless",
+  "tags": [
+    "first_conditional_time"
+  ],
+  "units": [
+    "galway_family"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "First conditional and time clauses",
+    "explanation": "El primer condicional habla de situaciones reales o probables en el futuro: «If» + presente, «will» + verbo:\n- «If it rains, you'll get wet.»\n- «If you don't eat, I'll be offended!»\n\nLas dos partes pueden cambiar de orden (sin coma si «if» va en medio):\n- «You'll get wet if it rains.»\n\nDetrás de «when», «as soon as», «before», «after» y «until» también usamos presente, aunque hablemos del futuro (nunca «as soon as we will get back»):\n- «As soon as we get back, I'll put the kettle on.»\n- «I'll call you when I arrive.»\n- «We'll wait until the rain stops.»\n\n«Unless» = «if not» (a menos que):\n- «We won't go unless it's sunny.» (= «if it isn't sunny»)\n\nOjo: «when» es para algo que seguro va a pasar; «if», para algo que quizá pase:\n- «When I see Helen, I'll tell her.» (la veré seguro)\n- «If I see Helen, I'll tell her.» (quizá la vea)",
+    "table": {
+      "headers": [
+        "Conector",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "if",
+          "If it rains, we'll stay in."
+        ],
+        [
+          "when",
+          "When I arrive, I'll call you."
+        ],
+        [
+          "as soon as",
+          "As soon as we get back, I'll make tea."
+        ],
+        [
+          "until",
+          "We'll wait until it stops."
+        ],
+        [
+          "before / after",
+          "I'll call you before I leave."
+        ],
+        [
+          "unless",
+          "We won't go unless it's sunny."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la forma correcta del verbo entre paréntesis o con el conector.",
+      "items": [
+        {
+          "id": "b1_first_conditional_time.001",
+          "sentence": "If it ___, you'll get wet. (rain)",
+          "answers": [
+            [
+              "rains"
+            ]
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.002",
+          "sentence": "If you don't eat, I ___ be offended.",
+          "answers": [
+            [
+              "will"
+            ]
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.003",
+          "sentence": "If the weather's good, we ___ go to the cliffs.",
+          "answers": [
+            [
+              "will"
+            ]
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.004",
+          "sentence": "If I eat any more, I ___ be able to move.",
+          "answers": [
+            [
+              "won't"
+            ]
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.005",
+          "sentence": "As soon as we ___ back, I'll put the kettle on. (get)",
+          "answers": [
+            [
+              "get"
+            ]
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.006",
+          "sentence": "When you ___ back, I'll make an apple tart. (come)",
+          "answers": [
+            [
+              "come"
+            ]
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.007",
+          "sentence": "___ she gets tired of me…",
+          "answers": [
+            [
+              "Unless"
+            ]
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.008",
+          "sentence": "I'll call you when I ___ in Galway. (arrive)",
+          "answers": [
+            [
+              "arrive"
+            ]
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.009",
+          "sentence": "We'll wait here ___ the rain stops.",
+          "answers": [
+            [
+              "until"
+            ]
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.010",
+          "sentence": "I won't go ___ you come with me.",
+          "answers": [
+            [
+              "unless"
+            ]
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.011",
+          "sentence": "Before you ___, close the windows. (leave)",
+          "answers": [
+            [
+              "leave"
+            ]
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.012",
+          "sentence": "If you ___ hungry, there's soup in the fridge. (be)",
+          "answers": [
+            [
+              "are"
+            ]
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.013",
+          "sentence": "I'll tell her as soon as I ___ her. (see)",
+          "answers": [
+            [
+              "see"
+            ]
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.014",
+          "sentence": "You ___ miss the bus if you don't hurry.",
+          "answers": [
+            [
+              "will"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b1_first_conditional_time.101",
+          "question": "En cuanto volvamos, pongo el té.",
+          "options": [
+            "As soon as we get back, I'll put the kettle on.",
+            "As soon as we'll get back, I'll put the kettle on."
+          ],
+          "answer": 0,
+          "explanation": "Tras «as soon as», presente."
+        },
+        {
+          "id": "b1_first_conditional_time.102",
+          "question": "Si llueve, nos mojaremos.",
+          "options": [
+            "If it rains, we'll get wet.",
+            "If it will rain, we'll get wet."
+          ],
+          "answer": 0,
+          "explanation": "Tras «if», presente."
+        },
+        {
+          "id": "b1_first_conditional_time.103",
+          "question": "Te llamo cuando llegue.",
+          "options": [
+            "I'll call you when I arrive.",
+            "I'll call you when I will arrive."
+          ],
+          "answer": 0,
+          "explanation": "Tras «when», presente."
+        },
+        {
+          "id": "b1_first_conditional_time.104",
+          "question": "No iremos a menos que haga sol.",
+          "options": [
+            "We won't go unless it's sunny.",
+            "We won't go unless it isn't sunny."
+          ],
+          "answer": 0,
+          "explanation": "«unless» ya es negativo."
+        },
+        {
+          "id": "b1_first_conditional_time.105",
+          "question": "Esperaremos hasta que pare.",
+          "options": [
+            "We'll wait until it stops.",
+            "We'll wait until it will stop."
+          ],
+          "answer": 0,
+          "explanation": "Tras «until», presente."
+        },
+        {
+          "id": "b1_first_conditional_time.106",
+          "question": "Cuando vea a Helen (seguro), se lo diré.",
+          "options": [
+            "When I see Helen, I'll tell her.",
+            "If I see Helen, I'll tell her."
+          ],
+          "answer": 0,
+          "explanation": "Seguro: «when»."
+        },
+        {
+          "id": "b1_first_conditional_time.107",
+          "question": "Si la veo (quizá), se lo diré.",
+          "options": [
+            "If I see her, I'll tell her.",
+            "When I see her, I'll tell her."
+          ],
+          "answer": 0,
+          "explanation": "Quizá: «if»."
+        },
+        {
+          "id": "b1_first_conditional_time.108",
+          "question": "Antes de irte, cierra las ventanas.",
+          "options": [
+            "Before you leave, close the windows.",
+            "Before you will leave, close the windows."
+          ],
+          "answer": 0,
+          "explanation": "Tras «before», presente."
+        },
+        {
+          "id": "b1_first_conditional_time.109",
+          "question": "Si no comes, me enfadaré.",
+          "options": [
+            "If you don't eat, I'll be angry.",
+            "If you won't eat, I'm angry."
+          ],
+          "answer": 0,
+          "explanation": "If + presente, «will»."
+        },
+        {
+          "id": "b1_first_conditional_time.110",
+          "question": "Os mojaréis si llueve.",
+          "options": [
+            "You'll get wet if it rains.",
+            "You'll get wet, if it will rain."
+          ],
+          "answer": 0,
+          "explanation": "Sin coma si «if» va en medio."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Une las frases o corrige el error.",
+      "items": [
+        {
+          "id": "b1_first_conditional_time.201",
+          "prompt": "as soon as",
+          "source": "We'll get home. I'll make dinner.",
+          "answers": [
+            "As soon as we get home, I'll make dinner",
+            "I'll make dinner as soon as we get home"
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.202",
+          "prompt": "unless",
+          "source": "We'll go to the beach if it doesn't rain.",
+          "answers": [
+            "We'll go to the beach unless it rains"
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.203",
+          "prompt": "when",
+          "source": "I'll arrive. I'll text you.",
+          "answers": [
+            "When I arrive, I'll text you",
+            "I'll text you when I arrive"
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.204",
+          "prompt": "Corrige",
+          "source": "If it will be sunny, we'll go out.",
+          "answers": [
+            "If it's sunny, we'll go out"
+          ],
+          "explanation": "Tras «if», presente."
+        },
+        {
+          "id": "b1_first_conditional_time.205",
+          "prompt": "Corrige",
+          "source": "I'll call you when I will land.",
+          "answers": [
+            "I'll call you when I land"
+          ],
+          "explanation": "Tras «when», presente."
+        },
+        {
+          "id": "b1_first_conditional_time.206",
+          "prompt": "Corrige",
+          "source": "We won't go unless it doesn't stop raining.",
+          "answers": [
+            "We won't go unless it stops raining"
+          ],
+          "explanation": "«unless» ya es negativo."
+        },
+        {
+          "id": "b1_first_conditional_time.207",
+          "prompt": "Corrige",
+          "source": "Wait here until I will come back.",
+          "answers": [
+            "Wait here until I come back"
+          ],
+          "explanation": "Tras «until», presente."
+        },
+        {
+          "id": "b1_first_conditional_time.208",
+          "prompt": "Corrige",
+          "source": "If you don't hurry, you miss the train tomorrow.",
+          "answers": [
+            "If you don't hurry, you'll miss the train tomorrow"
+          ],
+          "explanation": "Primer condicional: «will»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_first_conditional_time.301",
+          "source": "Si llueve, nos mojaremos.",
+          "answers": [
+            "If it rains, we'll get wet"
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.302",
+          "source": "Cuando volváis, haré una tarta.",
+          "answers": [
+            "When you come back, I'll make a tart",
+            "When you come back, I'll make a cake"
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.303",
+          "source": "En cuanto lleguemos, te llamo.",
+          "answers": [
+            "As soon as we arrive, I'll call you",
+            "As soon as we get there, I'll call you"
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.304",
+          "source": "Si no comes, me enfadaré.",
+          "answers": [
+            "If you don't eat, I'll be angry"
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.305",
+          "source": "No iremos a menos que haga sol.",
+          "answers": [
+            "We won't go unless it's sunny"
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.306",
+          "source": "Esperaremos hasta que pare de llover.",
+          "answers": [
+            "We'll wait until it stops raining"
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.307",
+          "source": "Antes de irte, apaga la luz.",
+          "answers": [
+            "Before you leave, turn off the light",
+            "Before you go, turn off the light"
+          ]
+        },
+        {
+          "id": "b1_first_conditional_time.308",
+          "source": "Te escribo cuando aterrice.",
+          "answers": [
+            "I'll text you when I land",
+            "I'll write to you when I land"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_first_conditional_time.401",
+          "answer": "If it rains, you'll get wet"
+        },
+        {
+          "id": "b1_first_conditional_time.402",
+          "answer": "As soon as we get back, I'll make tea"
+        },
+        {
+          "id": "b1_first_conditional_time.403",
+          "answer": "I'll call you when I arrive"
+        },
+        {
+          "id": "b1_first_conditional_time.404",
+          "answer": "We won't go unless it's sunny"
+        },
+        {
+          "id": "b1_first_conditional_time.405",
+          "answer": "We'll wait until it stops raining"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "topic_id": "b1_be_able_gerund",
+  "level_id": "B1",
+  "title": "be able to y el gerundio como sujeto",
+  "tags": [
+    "be_able_gerund"
+  ],
+  "units": [
+    "since_january"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "be able to · -ing as a subject",
+    "explanation": "«Can» solo tiene presente («can») y pasado («could»). Para los demás tiempos se usa «be able to»:\n- «I'll be able to buy a car.» (podré)\n- «I haven't been able to sleep.» (no he podido dormir)\n- «I'd like to be able to speak Irish.»\n- «I might be able to help you.»\n\nPara un logro concreto en el pasado, con esfuerzo, se usa «was» / «were able to» (no «could»). En negativa valen los dos:\n- «After three hours, I was able to finish the exam.»\n- «I couldn't find it.» / «I wasn't able to find it.»\n\nEl gerundio («-ing») funciona como un nombre y puede ser el sujeto de la frase. El verbo va en singular:\n- «Studying for exams is exhausting.»\n- «Playing the guitar relaxes me.»\n- «Living abroad isn't always easy.»\n\nOjo: en español usamos el infinitivo («estudiar es agotador»), pero en inglés va en «-ing» (no «To study is…» en el habla normal). También va en «-ing» detrás de una preposición: «I'm good at cooking», «Thank you for coming».",
+    "table": {
+      "headers": [
+        "Tiempo",
+        "Forma",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Futuro",
+          "will be able to",
+          "I'll be able to drive."
+        ],
+        [
+          "Present perfect",
+          "have been able to",
+          "I haven't been able to sleep."
+        ],
+        [
+          "Con modal",
+          "might / would like to be able to",
+          "I'd like to be able to swim."
+        ],
+        [
+          "Logro pasado",
+          "was / were able to",
+          "I was able to finish."
+        ],
+        [
+          "Gerundio sujeto",
+          "-ing + verbo singular",
+          "Swimming is good for you."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la forma correcta de «be able to» o con el verbo en «-ing».",
+      "items": [
+        {
+          "id": "b1_be_able_gerund.001",
+          "sentence": "If I pass this exam, I'll be ___ to apply for the senior job.",
+          "answers": [
+            [
+              "able"
+            ]
+          ]
+        },
+        {
+          "id": "b1_be_able_gerund.002",
+          "sentence": "I haven't ___ able to sleep all week. (be)",
+          "answers": [
+            [
+              "been"
+            ]
+          ]
+        },
+        {
+          "id": "b1_be_able_gerund.003",
+          "sentence": "After two hours, we ___ able to fix the guitar. (be, pasado)",
+          "answers": [
+            [
+              "were"
+            ]
+          ]
+        },
+        {
+          "id": "b1_be_able_gerund.004",
+          "sentence": "___ for exams is exhausting. (study)",
+          "answers": [
+            [
+              "Studying"
+            ]
+          ]
+        },
+        {
+          "id": "b1_be_able_gerund.005",
+          "sentence": "___ the same song all week drives me crazy! (hear)",
+          "answers": [
+            [
+              "Hearing"
+            ]
+          ]
+        },
+        {
+          "id": "b1_be_able_gerund.006",
+          "sentence": "I'd love to ___ able to speak Irish.",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "b1_be_able_gerund.007",
+          "sentence": "___ abroad isn't always easy. (live)",
+          "answers": [
+            [
+              "Living"
+            ]
+          ]
+        },
+        {
+          "id": "b1_be_able_gerund.008",
+          "sentence": "Will you ___ able to come on Saturday?",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "b1_be_able_gerund.009",
+          "sentence": "___ the guitar relaxes me. (play)",
+          "answers": [
+            [
+              "Playing"
+            ]
+          ]
+        },
+        {
+          "id": "b1_be_able_gerund.010",
+          "sentence": "She ___ able to find a flat in the end. (be, pasado)",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        },
+        {
+          "id": "b1_be_able_gerund.011",
+          "sentence": "I'm really good at ___. (cook)",
+          "answers": [
+            [
+              "cooking"
+            ]
+          ],
+          "explanation": "Después de preposición: «-ing»."
+        },
+        {
+          "id": "b1_be_able_gerund.012",
+          "sentence": "Thank you for ___! (come)",
+          "answers": [
+            [
+              "coming"
+            ]
+          ],
+          "explanation": "Después de preposición: «-ing»."
+        },
+        {
+          "id": "b1_be_able_gerund.013",
+          "sentence": "I might ___ able to help you tomorrow.",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "b1_be_able_gerund.014",
+          "sentence": "___ early is hard in winter. (get up)",
+          "answers": [
+            [
+              "Getting up"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b1_be_able_gerund.101",
+          "question": "Podré comprar un coche.",
+          "options": [
+            "I'll be able to buy a car.",
+            "I'll can buy a car."
+          ],
+          "answer": 0,
+          "explanation": "Futuro: «will be able to»."
+        },
+        {
+          "id": "b1_be_able_gerund.102",
+          "question": "No he podido dormir.",
+          "options": [
+            "I haven't been able to sleep.",
+            "I haven't could sleep."
+          ],
+          "answer": 0,
+          "explanation": "Present perfect: «been able to»."
+        },
+        {
+          "id": "b1_be_able_gerund.103",
+          "question": "Estudiar es agotador.",
+          "options": [
+            "Studying is exhausting.",
+            "Study is exhausting."
+          ],
+          "answer": 0,
+          "explanation": "Sujeto: «-ing»."
+        },
+        {
+          "id": "b1_be_able_gerund.104",
+          "question": "Al final pude terminar el examen.",
+          "options": [
+            "In the end, I was able to finish the exam.",
+            "In the end, I could to finish the exam."
+          ],
+          "answer": 0,
+          "explanation": "Logro concreto: «was able to»."
+        },
+        {
+          "id": "b1_be_able_gerund.105",
+          "question": "Me gustaría poder hablar irlandés.",
+          "options": [
+            "I'd like to be able to speak Irish.",
+            "I'd like to can speak Irish."
+          ],
+          "answer": 0,
+          "explanation": "Con «would like»: «to be able to»."
+        },
+        {
+          "id": "b1_be_able_gerund.106",
+          "question": "Vivir en el extranjero no es fácil.",
+          "options": [
+            "Living abroad isn't easy.",
+            "Live abroad isn't easy."
+          ],
+          "answer": 0,
+          "explanation": "Sujeto: «-ing»."
+        },
+        {
+          "id": "b1_be_able_gerund.107",
+          "question": "Se me da bien cocinar.",
+          "options": [
+            "I'm good at cooking.",
+            "I'm good at cook."
+          ],
+          "answer": 0,
+          "explanation": "Después de preposición: «-ing»."
+        },
+        {
+          "id": "b1_be_able_gerund.108",
+          "question": "Gracias por venir.",
+          "options": [
+            "Thanks for coming.",
+            "Thanks for come."
+          ],
+          "answer": 0,
+          "explanation": "Después de preposición: «-ing»."
+        },
+        {
+          "id": "b1_be_able_gerund.109",
+          "question": "Puede que pueda ayudarte.",
+          "options": [
+            "I might be able to help you.",
+            "I might can help you."
+          ],
+          "answer": 0,
+          "explanation": "Con «might»: «be able to»."
+        },
+        {
+          "id": "b1_be_able_gerund.110",
+          "question": "Nadar es bueno para la salud.",
+          "options": [
+            "Swimming is good for you.",
+            "Swimming are good for you."
+          ],
+          "answer": 0,
+          "explanation": "El gerundio va en singular."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "b1_be_able_gerund.201",
+          "prompt": "Corrige",
+          "source": "I'll can help you tomorrow.",
+          "answers": [
+            "I'll be able to help you tomorrow"
+          ],
+          "explanation": "Futuro: «will be able to»."
+        },
+        {
+          "id": "b1_be_able_gerund.202",
+          "prompt": "Corrige",
+          "source": "I haven't could finish it.",
+          "answers": [
+            "I haven't been able to finish it"
+          ],
+          "explanation": "Present perfect: «been able to»."
+        },
+        {
+          "id": "b1_be_able_gerund.203",
+          "prompt": "Corrige",
+          "source": "Learn a language is difficult.",
+          "answers": [
+            "Learning a language is difficult"
+          ],
+          "explanation": "Sujeto: «-ing»."
+        },
+        {
+          "id": "b1_be_able_gerund.204",
+          "prompt": "Corrige",
+          "source": "I'd like to can drive.",
+          "answers": [
+            "I'd like to be able to drive"
+          ],
+          "explanation": "«to be able to»."
+        },
+        {
+          "id": "b1_be_able_gerund.205",
+          "prompt": "Corrige",
+          "source": "She's very good at sing.",
+          "answers": [
+            "She's very good at singing"
+          ],
+          "explanation": "Después de preposición: «-ing»."
+        },
+        {
+          "id": "b1_be_able_gerund.206",
+          "prompt": "Corrige",
+          "source": "Cooking for friends are fun.",
+          "answers": [
+            "Cooking for friends is fun"
+          ],
+          "explanation": "El gerundio va en singular."
+        },
+        {
+          "id": "b1_be_able_gerund.207",
+          "prompt": "Corrige",
+          "source": "Thank you for help me.",
+          "answers": [
+            "Thank you for helping me"
+          ],
+          "explanation": "Después de preposición: «-ing»."
+        },
+        {
+          "id": "b1_be_able_gerund.208",
+          "prompt": "Corrige",
+          "source": "We might can come.",
+          "answers": [
+            "We might be able to come"
+          ],
+          "explanation": "Con «might»: «be able to»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_be_able_gerund.301",
+          "source": "Podré comprarme un coche.",
+          "answers": [
+            "I'll be able to buy a car"
+          ]
+        },
+        {
+          "id": "b1_be_able_gerund.302",
+          "source": "No he podido dormir en toda la semana.",
+          "answers": [
+            "I haven't been able to sleep all week"
+          ]
+        },
+        {
+          "id": "b1_be_able_gerund.303",
+          "source": "Estudiar para los exámenes es agotador.",
+          "answers": [
+            "Studying for exams is exhausting"
+          ]
+        },
+        {
+          "id": "b1_be_able_gerund.304",
+          "source": "Me gustaría poder hablar irlandés.",
+          "answers": [
+            "I'd like to be able to speak Irish"
+          ]
+        },
+        {
+          "id": "b1_be_able_gerund.305",
+          "source": "Al final pudimos arreglar la guitarra.",
+          "answers": [
+            "In the end, we were able to fix the guitar",
+            "In the end we were able to fix the guitar"
+          ]
+        },
+        {
+          "id": "b1_be_able_gerund.306",
+          "source": "Tocar la guitarra me relaja.",
+          "answers": [
+            "Playing the guitar relaxes me"
+          ]
+        },
+        {
+          "id": "b1_be_able_gerund.307",
+          "source": "Gracias por venir.",
+          "answers": [
+            "Thanks for coming",
+            "Thank you for coming"
+          ]
+        },
+        {
+          "id": "b1_be_able_gerund.308",
+          "source": "Vivir en el extranjero no siempre es fácil.",
+          "answers": [
+            "Living abroad isn't always easy",
+            "Living abroad is not always easy"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_be_able_gerund.401",
+          "answer": "I'll be able to buy a car"
+        },
+        {
+          "id": "b1_be_able_gerund.402",
+          "answer": "I haven't been able to sleep"
+        },
+        {
+          "id": "b1_be_able_gerund.403",
+          "answer": "Studying for exams is exhausting"
+        },
+        {
+          "id": "b1_be_able_gerund.404",
+          "answer": "Playing the guitar relaxes me"
+        },
+        {
+          "id": "b1_be_able_gerund.405",
+          "answer": "I'd like to be able to speak Irish"
+        }
+      ]
+    }
+  ]
+}

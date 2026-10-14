@@ -1,0 +1,461 @@
+{
+  "topic_id": "b1_second_conditional",
+  "level_id": "B1",
+  "title": "Segundo condicional: If I had…, I would…",
+  "tags": [
+    "second_conditional"
+  ],
+  "units": [
+    "big_decision"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Second conditional",
+    "explanation": "El segundo condicional habla de situaciones imaginarias o poco probables, en el presente o en el futuro: «If» + past simple, «would» + verbo:\n- «If I went, I'd have to leave the pub.»\n- «If I had more money, I'd buy a car.»\n- «What would you do if you won the lottery?»\n\nAunque el verbo está en pasado, no hablamos del pasado: si fuera, si tuviera, si ganara.\n\nPara dar consejos, «were» sirve para todas las personas:\n- «If I were you, I'd go.»\n\nEn la otra parte también pueden ir «could» o «might»:\n- «If I had a car, I could visit you more often.»\n\nCompáralo con el primer condicional, que habla de algo posible y real:\n- «If you promise to visit me, I'll go.» (es posible)\n- «If I lived in Dublin, I'd see you every day.» (no vivo allí)\n\nOjo: «would» nunca va en la parte del «if»: «If I had time» (nunca «If I would have time»).",
+    "table": {
+      "headers": [
+        "Condicional",
+        "Estructura",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Primero (real)",
+          "If + presente, will",
+          "If I have time, I'll call you."
+        ],
+        [
+          "Segundo (imaginario)",
+          "If + past simple, would",
+          "If I had time, I'd call you."
+        ],
+        [
+          "Consejo",
+          "If I were you, I'd…",
+          "If I were you, I'd take the job."
+        ],
+        [
+          "Con could",
+          "If + past, could",
+          "If I had a car, I could drive you."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el segundo condicional.",
+      "items": [
+        {
+          "id": "b1_second_conditional.001",
+          "sentence": "If I ___, I'd have to leave the pub. (go)",
+          "answers": [
+            [
+              "went"
+            ]
+          ]
+        },
+        {
+          "id": "b1_second_conditional.002",
+          "sentence": "If I ___ you, I'd go.",
+          "answers": [
+            [
+              "were"
+            ]
+          ]
+        },
+        {
+          "id": "b1_second_conditional.003",
+          "sentence": "What ___ I do if it didn't work?",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        },
+        {
+          "id": "b1_second_conditional.004",
+          "sentence": "If it didn't work, you ___ come back.",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        },
+        {
+          "id": "b1_second_conditional.005",
+          "sentence": "If you left, the kitchen ___ be much tidier.",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        },
+        {
+          "id": "b1_second_conditional.006",
+          "sentence": "If I had more money, I ___ buy a car.",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        },
+        {
+          "id": "b1_second_conditional.007",
+          "sentence": "If you promise to visit me, I ___ go. (real)",
+          "answers": [
+            [
+              "will"
+            ]
+          ],
+          "explanation": "Algo posible: primer condicional."
+        },
+        {
+          "id": "b1_second_conditional.008",
+          "sentence": "If I ___ the lottery, I'd travel the world. (win)",
+          "answers": [
+            [
+              "won"
+            ]
+          ]
+        },
+        {
+          "id": "b1_second_conditional.009",
+          "sentence": "If she ___ in Dublin, she'd see her family more. (live)",
+          "answers": [
+            [
+              "lived"
+            ]
+          ]
+        },
+        {
+          "id": "b1_second_conditional.010",
+          "sentence": "If I had a car, I ___ visit you more often. (podría)",
+          "answers": [
+            [
+              "could"
+            ]
+          ]
+        },
+        {
+          "id": "b1_second_conditional.011",
+          "sentence": "What would you do if you ___ a famous person? (meet)",
+          "answers": [
+            [
+              "met"
+            ]
+          ]
+        },
+        {
+          "id": "b1_second_conditional.012",
+          "sentence": "If I ___ more time, I'd learn Italian. (have)",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b1_second_conditional.013",
+          "sentence": "If he ___ harder, he'd pass the exam. (study)",
+          "answers": [
+            [
+              "studied"
+            ]
+          ]
+        },
+        {
+          "id": "b1_second_conditional.014",
+          "sentence": "I wouldn't do that if I ___ you.",
+          "answers": [
+            [
+              "were"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b1_second_conditional.101",
+          "question": "Si yo fuera tú, iría.",
+          "options": [
+            "If I were you, I'd go.",
+            "If I would be you, I'd go."
+          ],
+          "answer": 0,
+          "explanation": "«If I were you»."
+        },
+        {
+          "id": "b1_second_conditional.102",
+          "question": "Si tuviera tiempo, te ayudaría.",
+          "options": [
+            "If I had time, I'd help you.",
+            "If I would have time, I'd help you."
+          ],
+          "answer": 0,
+          "explanation": "«would» nunca tras «if»."
+        },
+        {
+          "id": "b1_second_conditional.103",
+          "question": "¿Qué harías si ganaras la lotería?",
+          "options": [
+            "What would you do if you won the lottery?",
+            "What will you do if you would win the lottery?"
+          ],
+          "answer": 0,
+          "explanation": "Segundo condicional."
+        },
+        {
+          "id": "b1_second_conditional.104",
+          "question": "Si vivieras aquí, te vería más.",
+          "options": [
+            "If you lived here, I'd see you more.",
+            "If you live here, I'd see you more."
+          ],
+          "answer": 0,
+          "explanation": "Tras «if», past simple."
+        },
+        {
+          "id": "b1_second_conditional.105",
+          "question": "Si prometes visitarme, iré. (es posible)",
+          "options": [
+            "If you promise to visit me, I'll go.",
+            "If you promised to visit me, I'll go."
+          ],
+          "answer": 0,
+          "explanation": "Posible: primer condicional."
+        },
+        {
+          "id": "b1_second_conditional.106",
+          "question": "Si tuviera coche, podría llevarte.",
+          "options": [
+            "If I had a car, I could take you.",
+            "If I had a car, I can take you."
+          ],
+          "answer": 0,
+          "explanation": "Con «could»."
+        },
+        {
+          "id": "b1_second_conditional.107",
+          "question": "Si no funcionara, volverías.",
+          "options": [
+            "If it didn't work, you would come back.",
+            "If it doesn't work, you would come back."
+          ],
+          "answer": 0,
+          "explanation": "Tras «if», past simple."
+        },
+        {
+          "id": "b1_second_conditional.108",
+          "question": "No lo haría si fuera tú.",
+          "options": [
+            "I wouldn't do that if I were you.",
+            "I won't do that if I were you."
+          ],
+          "answer": 0,
+          "explanation": "«would», no «will»."
+        },
+        {
+          "id": "b1_second_conditional.109",
+          "question": "Si supiera la respuesta, te la diría.",
+          "options": [
+            "If I knew the answer, I'd tell you.",
+            "If I know the answer, I'd tell you."
+          ],
+          "answer": 0,
+          "explanation": "Tras «if», past simple."
+        },
+        {
+          "id": "b1_second_conditional.110",
+          "question": "Te echaríamos de menos.",
+          "options": [
+            "We would miss you.",
+            "We will miss you if."
+          ],
+          "answer": 0,
+          "explanation": "«would» + verbo."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Escribe la frase con el segundo condicional o corrige el error.",
+      "items": [
+        {
+          "id": "b1_second_conditional.201",
+          "prompt": "2.º condicional",
+          "source": "I don't have time, so I don't help you.",
+          "answers": [
+            "If I had time, I would help you",
+            "If I had time, I'd help you"
+          ]
+        },
+        {
+          "id": "b1_second_conditional.202",
+          "prompt": "2.º condicional",
+          "source": "I don't live near the sea, so I don't swim every day.",
+          "answers": [
+            "If I lived near the sea, I would swim every day",
+            "If I lived near the sea, I'd swim every day"
+          ]
+        },
+        {
+          "id": "b1_second_conditional.203",
+          "prompt": "2.º condicional",
+          "source": "She doesn't speak French, so she can't work in Paris.",
+          "answers": [
+            "If she spoke French, she could work in Paris"
+          ]
+        },
+        {
+          "id": "b1_second_conditional.204",
+          "prompt": "Consejo",
+          "source": "You should take the job.",
+          "answers": [
+            "If I were you, I would take the job",
+            "If I were you, I'd take the job"
+          ]
+        },
+        {
+          "id": "b1_second_conditional.205",
+          "prompt": "Corrige",
+          "source": "If I would have money, I'd buy a house.",
+          "answers": [
+            "If I had money, I'd buy a house",
+            "If I had money, I would buy a house"
+          ],
+          "explanation": "«would» nunca tras «if»."
+        },
+        {
+          "id": "b1_second_conditional.206",
+          "prompt": "Corrige",
+          "source": "If I was you, I'd call her.",
+          "answers": [
+            "If I were you, I'd call her",
+            "If I were you, I would call her"
+          ],
+          "explanation": "Para consejos: «If I were you»."
+        },
+        {
+          "id": "b1_second_conditional.207",
+          "prompt": "Corrige",
+          "source": "If he studied more, he will pass.",
+          "answers": [
+            "If he studied more, he would pass",
+            "If he studied more, he'd pass"
+          ],
+          "explanation": "Segundo condicional: «would»."
+        },
+        {
+          "id": "b1_second_conditional.208",
+          "prompt": "Corrige",
+          "source": "What would you do if you win the lottery?",
+          "answers": [
+            "What would you do if you won the lottery"
+          ],
+          "explanation": "Tras «if», past simple."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b1_second_conditional.301",
+          "source": "Si yo fuera tú, iría.",
+          "answers": [
+            "If I were you, I'd go",
+            "If I were you, I would go"
+          ]
+        },
+        {
+          "id": "b1_second_conditional.302",
+          "source": "¿Qué harías si no funcionara?",
+          "answers": [
+            "What would you do if it didn't work"
+          ]
+        },
+        {
+          "id": "b1_second_conditional.303",
+          "source": "Si ganara la lotería, viajaría.",
+          "answers": [
+            "If I won the lottery, I'd travel",
+            "If I won the lottery, I would travel"
+          ]
+        },
+        {
+          "id": "b1_second_conditional.304",
+          "source": "Te echaríamos de menos.",
+          "answers": [
+            "We would miss you",
+            "We'd miss you"
+          ]
+        },
+        {
+          "id": "b1_second_conditional.305",
+          "source": "Si tuviera tiempo, te ayudaría.",
+          "answers": [
+            "If I had time, I'd help you",
+            "If I had time, I would help you"
+          ]
+        },
+        {
+          "id": "b1_second_conditional.306",
+          "source": "Si viviera en Dublín, te vería más.",
+          "answers": [
+            "If I lived in Dublin, I'd see you more",
+            "If I lived in Dublin, I would see you more",
+            "If I lived in Dublin, I'd see you more often"
+          ]
+        },
+        {
+          "id": "b1_second_conditional.307",
+          "source": "Si supiera la respuesta, te la diría.",
+          "answers": [
+            "If I knew the answer, I'd tell you",
+            "If I knew the answer, I would tell you"
+          ]
+        },
+        {
+          "id": "b1_second_conditional.308",
+          "source": "Si tuviera coche, podría visitarte.",
+          "answers": [
+            "If I had a car, I could visit you"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b1_second_conditional.401",
+          "answer": "If I were you, I'd go"
+        },
+        {
+          "id": "b1_second_conditional.402",
+          "answer": "What would you do?"
+        },
+        {
+          "id": "b1_second_conditional.403",
+          "answer": "If I won the lottery, I would travel"
+        },
+        {
+          "id": "b1_second_conditional.404",
+          "answer": "We would miss you a lot"
+        },
+        {
+          "id": "b1_second_conditional.405",
+          "answer": "If I had a car, I could visit you"
+        }
+      ]
+    }
+  ]
+}
