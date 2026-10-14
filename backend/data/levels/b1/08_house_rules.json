@@ -123,7 +123,7 @@
                   "content": {
                     "tag": "obligation",
                     "title": "must, mustn't, have to, don't need to, can",
-                    "explanation": "Must expresa obligación, sobre todo en normas o cuando la impone quien habla: The new flatmate must be clean and quiet. Have to también expresa obligación (a menudo externa) y en pasado se convierte en had to.\n\nAtención a la gran diferencia:\n• mustn't = está prohibido: They mustn't smoke in the house.\n• don't have to / don't need to = no es necesario: You don't need to put an advert online.\n\nCan / can't expresan permiso: Can they have a pet? — No, you can't have pets.",
+                    "explanation": "«Must» expresa obligación, sobre todo en normas o cuando la impone quien habla. «Have to» también expresa obligación (a menudo externa) y en pasado se convierte en «had to»:\n- «The new flatmate must be clean and quiet.»\n\nAtención a la gran diferencia:\n- «mustn't» = está prohibido: «They mustn't smoke in the house.»\n- «don't have to» / «don't need to» = no es necesario: «You don't need to put an advert online.»\n\n«Can» / «can't» expresan permiso:\n- «Can they have a pet? — No, you can't have pets.»",
                     "table": {
                       "headers": [
                         "Modal",
@@ -182,7 +182,7 @@
                   "content": {
                     "tag": "obligation",
                     "title": "ought to",
-                    "explanation": "Ought to + verbo significa casi lo mismo que should: lo que es buena idea o lo correcto. You ought to tell Mrs Green about the noise. We ought to clean the kitchen before Ollie arrives.\n\nEs un poco más formal y menos frecuente que should, sobre todo en preguntas, donde casi siempre se usa should.\n\nNegativa: ought not to (oughtn't to), aunque en la conversación se prefiere shouldn't: You oughtn't to smoke in the house.\n\nNo cambia con he / she / it (he ought to, nunca «oughts») y siempre lleva to, a diferencia de should y must: You ought to go (no «ought go»).\n\nPara la obligación fuerte o las normas se usa must / have to; para un consejo, should / ought to.",
+                    "explanation": "«Ought to» + verbo significa casi lo mismo que «should»: lo que es buena idea o lo correcto:\n- «You ought to tell Mrs Green about the noise.»\n- «We ought to clean the kitchen before Ollie arrives.»\n\nEs un poco más formal y menos frecuente que «should», sobre todo en preguntas, donde casi siempre se usa «should».\n\nLa negativa es «ought not to» («oughtn't to»), aunque en la conversación se prefiere «shouldn't»:\n- «You oughtn't to smoke in the house.»\n\nNo cambia con «he», «she» o «it» (nunca «oughts») y siempre lleva «to», a diferencia de «should» y «must» (nunca «ought go»):\n- «You ought to go.»\n\nPara la obligación fuerte o las normas se usa «must» / «have to»; para un consejo, «should» / «ought to».",
                     "table": {
                       "headers": [
                         "",
@@ -335,7 +335,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con ought to, should, must o need.",
+                    "instructions": "Completa con «ought to», «should», «must» o «need».",
                     "items": [
                       {
                         "sentence": "We ought ___ clean the kitchen before Ollie arrives.",

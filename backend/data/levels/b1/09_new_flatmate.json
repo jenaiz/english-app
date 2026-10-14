@@ -113,7 +113,7 @@
                           "It's the subject of the verb."
                         ],
                         "answer": 0,
-                        "explanation": "Podemos omitir who/which/that cuando no son el sujeto de la oración de relativo."
+                        "explanation": "Podemos omitir «who», «which» o «that» cuando no son el sujeto de la oración de relativo."
                       }
                     ]
                   }
@@ -124,7 +124,7 @@
                   "content": {
                     "tag": "relative_clauses",
                     "title": "Relative clauses",
-                    "explanation": "Las oraciones de relativo especifican de qué persona, cosa o lugar hablamos:\n• who → personas: Sam is the flatmate who's leaving.\n• which → cosas: It's the room which looks over the garden.\n• that → personas o cosas (más informal): the garden that Priya looks after.\n• where → lugares: the park where we play football.\n• whose → posesión: Ollie is the man whose aunt is Mrs Green.\n\nSi el pronombre es el objeto de la oración (no el sujeto), se puede omitir: the flatmate (who) we've been looking for. Si es el sujeto, no: the flatmate who's leaving.",
+                    "explanation": "Las oraciones de relativo especifican de qué persona, cosa o lugar hablamos:\n- «who» → personas: «Sam is the flatmate who's leaving.»\n- «which» → cosas: «It's the room which looks over the garden.»\n- «that» → personas o cosas (más informal): «the garden that Priya looks after»\n- «where» → lugares: «the park where we play football»\n- «whose» → posesión: «Ollie is the man whose aunt is Mrs Green.»\n\nSi el pronombre es el objeto de la oración (no el sujeto), se puede omitir; si es el sujeto, no:\n- «the flatmate (who) we've been looking for»\n- «the flatmate who's leaving»",
                     "table": {
                       "headers": [
                         "Pronombre",
@@ -178,7 +178,7 @@
                   "content": {
                     "tag": "deduction",
                     "title": "Deduction: must, might, can't",
-                    "explanation": "Para sacar conclusiones sobre el presente a partir de lo que sabemos:\n\n• must + verbo: estamos casi seguros de que es verdad. He's a chef. He must be a good cook (seguro que cocina bien).\n• might / may / could + verbo: es posible. He might be at work.\n• can't + verbo: estamos casi seguros de que no es verdad. He can't be from Spain, he's from Manchester.\n\nOjo: lo contrario de must (deducción) es can't, no «mustn't»: mustn't es una prohibición.\n\nCon una acción en curso se usa be + -ing: Sam must be practising, I can hear the guitar.",
+                    "explanation": "Para sacar conclusiones sobre el presente a partir de lo que sabemos:\n- «must» + verbo: estamos casi seguros de que es verdad. «He's a chef. He must be a good cook.» (seguro que cocina bien)\n- «might», «may» o «could» + verbo: es posible. «He might be at work.»\n- «can't» + verbo: estamos casi seguros de que no es verdad. «He can't be from Spain. He's from Manchester.»\n\nOjo: lo contrario de «must» (deducción) es «can't», no «mustn't»; «mustn't» es una prohibición.\n\nCon una acción en curso se usa «be» + «-ing»:\n- «Sam must be practising. I can hear the guitar.»",
                     "table": {
                       "headers": [
                         "Seguridad",
@@ -215,7 +215,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con who, which, that, where o whose.",
+                    "instructions": "Completa con «who», «which», «that», «where» o «whose».",
                     "items": [
                       {
                         "sentence": "Sam is the flatmate ___ is leaving.",
@@ -317,7 +317,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con must, might o can't.",
+                    "instructions": "Completa con «must», «might» o «can't».",
                     "items": [
                       {
                         "sentence": "Ollie is a chef. He ___ be a good cook.",

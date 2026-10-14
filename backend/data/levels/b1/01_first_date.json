@@ -88,7 +88,7 @@
                           "Yes, he still is."
                         ],
                         "answer": 0,
-                        "explanation": "Used to habla de algo que era verdad antes y ya no lo es."
+                        "explanation": "«Used to» habla de algo que era verdad antes y ya no lo es."
                       },
                       {
                         "question": "Which negative is correct?",
@@ -97,7 +97,7 @@
                           "I didn't used to talk to anyone."
                         ],
                         "answer": 0,
-                        "explanation": "Después de did / didn't va la forma base: use to."
+                        "explanation": "Después de «did» / «didn't» va la forma base: «use to»."
                       },
                       {
                         "question": "After used to, the verb is…",
@@ -125,7 +125,7 @@
                   "content": {
                     "tag": "used_to_would",
                     "title": "used to",
-                    "explanation": "Used to + verbo en forma base habla de hábitos o situaciones del pasado que ya no son verdad: I used to be very shy (ahora no lo soy).\n\nNegativa: didn't use to (sin -d): I didn't use to talk to anyone. Pregunta: Did you use to dance? — Yes, I did / No, I didn't.\n\nPara una acción que ocurrió una sola vez usamos el past simple: I flew to Bristol in September. Para decir que algo no ha cambiado, still: I still get sick on planes.\n\nNo lo confundas con be used to + -ing (estar acostumbrado a): I'm used to the rain.",
+                    "explanation": "«Used to» + verbo en forma base habla de hábitos o situaciones del pasado que ya no son verdad:\n- «I used to be very shy.» (ahora no lo soy)\n\nLa negativa es «didn't use to» (sin d) y la pregunta, «Did you use to…?»:\n- «I didn't use to talk to anyone.»\n- «Did you use to dance? — Yes, I did. / No, I didn't.»\n\nPara una acción que ocurrió una sola vez usamos el past simple. Para decir que algo no ha cambiado, «still»:\n- «I flew to Bristol in September.»\n- «I still get sick on planes.»\n\nNo lo confundas con «be used to» + «-ing» (estar acostumbrado a):\n- «I'm used to the rain.»",
                     "table": {
                       "headers": [
                         "",
@@ -172,7 +172,7 @@
                   "content": {
                     "tag": "used_to_would",
                     "title": "would for past habits",
-                    "explanation": "Para acciones que se repetían en el pasado también se usa would + verbo, sobre todo al contar recuerdos: Every summer we would go to the beach. My mum would make paella on Sundays.\n\nDiferencia con used to:\n• used to sirve para hábitos y para estados: I used to be shy. I used to have long hair.\n• would solo sirve para acciones repetidas, no para estados: no se dice «I would be shy» con ese sentido.\n\nAl contar un recuerdo se suele empezar con used to y seguir con would: When I was a child, I used to spend the summers in Galway. My grandad would take me fishing every morning.\n\nWould se contrae: we'd, she'd.",
+                    "explanation": "Para acciones que se repetían en el pasado también se usa «would» + verbo, sobre todo al contar recuerdos:\n- «Every summer we would go to the beach.»\n- «My mum would make paella on Sundays.»\n\nDiferencia con «used to»:\n- «used to» sirve para hábitos y para estados: «I used to be shy.», «I used to have long hair.»\n- «would» solo sirve para acciones repetidas, no para estados: no se dice «I would be shy» con ese sentido.\n\nAl contar un recuerdo se suele empezar con «used to» y seguir con «would»:\n- «When I was a child, I used to spend the summers in Galway. My grandad would take me fishing every morning.»\n\n«Would» se contrae: «we'd», «she'd».",
                     "table": {
                       "headers": [
                         "",
@@ -209,7 +209,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con used to / use to o el past simple.",
+                    "instructions": "Completa con «used to» / «use to» o el past simple.",
                     "items": [
                       {
                         "sentence": "Daniel ___ to be very shy.",
@@ -307,7 +307,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con would o used to. Si valen los dos, escribe would.",
+                    "instructions": "Completa con «would» o «used to». Si valen los dos, escribe «would».",
                     "items": [
                       {
                         "sentence": "Every summer my grandad ___ take me fishing.",

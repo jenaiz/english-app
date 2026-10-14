@@ -127,7 +127,7 @@
                   "content": {
                     "tag": "future_forms",
                     "title": "Future forms and might",
-                    "explanation": "En inglés hay varias formas de hablar del futuro según lo que queramos expresar:\n• present continuous para planes ya fijados, con hora o lugar: We're meeting at the studio at five.\n• going to para intenciones: Are you going to visit us at Christmas?\n• will para promesas, decisiones en el momento y predicciones: I'll be back, I promise. I think they'll like me.\n• might + verbo para posibilidades: I might go to Cornwall.\n• present simple para horarios: The van leaves at twelve.",
+                    "explanation": "En inglés hay varias formas de hablar del futuro según lo que queramos expresar:\n- present continuous para planes ya fijados, con hora o lugar: «We're meeting at the studio at five.»\n- «going to» para intenciones: «Are you going to visit us at Christmas?»\n- «will» para promesas, decisiones en el momento y predicciones: «I'll be back, I promise.», «I think they'll like me.»\n- «might» + verbo para posibilidades: «I might go to Cornwall.»\n- present simple para horarios: «The van leaves at twelve.»",
                     "table": {
                       "headers": [
                         "Forma",
@@ -176,7 +176,7 @@
                   "content": {
                     "tag": "discourse_markers",
                     "title": "Discourse markers: right, anyway, by the way, actually",
-                    "explanation": "En la conversación usamos palabras pequeñas para organizar lo que decimos:\n\n• Right / OK / So: para empezar o pasar a otra cosa: Right, that's the last box.\n• Anyway: para volver al tema o cerrar uno: Anyway, what are your plans?\n• By the way: para introducir algo que se nos acaba de ocurrir: By the way, Ollie is moving in early.\n• Actually: «en realidad», para corregir o añadir algo inesperado (no significa «actualmente»): I'm not nervous. Well, actually, I am a bit.\n• Well: para pensar o suavizar una respuesta: Well, maybe.\n• I mean: para aclarar: He's nervous. I mean, he's meeting my parents!\n\nOjo con el falso amigo: actualmente = currently / at the moment.",
+                    "explanation": "En la conversación usamos palabras pequeñas para organizar lo que decimos:\n- «Right», «OK», «So»: para empezar o pasar a otra cosa: «Right, that's the last box.»\n- «Anyway»: para volver al tema o cerrar uno: «Anyway, what are your plans?»\n- «By the way»: para introducir algo que se nos acaba de ocurrir: «By the way, Ollie is moving in early.»\n- «Actually»: en realidad, para corregir o añadir algo inesperado (no significa actualmente): «I'm not nervous. Well, actually, I am a bit.»\n- «Well»: para pensar o suavizar una respuesta: «Well, maybe.»\n- «I mean»: para aclarar: «He's nervous. I mean, he's meeting my parents!»\n\nOjo con el falso amigo: actualmente = «currently» / «at the moment».",
                     "table": {
                       "headers": [
                         "Marcador",
@@ -321,7 +321,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con right, anyway, by the way, actually o I mean.",
+                    "instructions": "Completa con «right», «anyway», «by the way», «actually» o «I mean».",
                     "items": [
                       {
                         "sentence": "___, that's the last box. Let's put it in the van.",

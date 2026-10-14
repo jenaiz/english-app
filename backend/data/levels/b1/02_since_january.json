@@ -123,7 +123,7 @@
                   "content": {
                     "tag": "present_perfect_continuous",
                     "title": "Present perfect continuous: for and since",
-                    "explanation": "Have / has been + -ing describe una actividad que empezó en el pasado y continúa ahora, o que acaba de terminar y se nota: I've been studying since six. You look tired, have you been running?\n\nPara preguntar cuánto tiempo: How long have you been studying?\n\nFor + periodo (for weeks, for two hours, for years). Since + momento de inicio (since six o'clock, since January, since 2020).\n\nUsamos el present perfect simple cuando contamos (We've been out three times) y con verbos de estado (I've wanted this job for years, I've known him since September).",
+                    "explanation": "«Have» / «has been» + «-ing» describe una actividad que empezó en el pasado y continúa ahora, o que acaba de terminar y se nota:\n- «I've been studying since six.»\n- «You look tired. Have you been running?»\n\nPara preguntar cuánto tiempo:\n- «How long have you been studying?»\n\n«For» + periodo («for weeks», «for two hours», «for years»). «Since» + momento de inicio («since six o'clock», «since January», «since 2020»).\n\nUsamos el present perfect simple cuando contamos y con verbos de estado:\n- «We've been out three times.»\n- «I've wanted this job for years.»\n- «I've known him since September.»",
                     "table": {
                       "headers": [
                         "",
@@ -174,7 +174,7 @@
                   "content": {
                     "tag": "be_able_gerund",
                     "title": "be able to · -ing as a subject",
-                    "explanation": "Can solo tiene presente (can) y pasado (could). Para los demás tiempos se usa be able to: I'll be able to buy a car (podré). I haven't been able to sleep (no he podido dormir). I'd like to be able to speak Irish.\n\nPara un logro concreto en el pasado, con esfuerzo, se usa was / were able to (no could): After three hours, I was able to finish the exam.\n\nEl gerundio (-ing) funciona como un nombre y puede ser el sujeto de la frase: Studying for exams is exhausting. Playing the guitar relaxes me. En español usamos el infinitivo («estudiar es agotador»), pero en inglés va en -ing (no «To study is…» en el habla normal).",
+                    "explanation": "«Can» solo tiene presente («can») y pasado («could»). Para los demás tiempos se usa «be able to»:\n- «I'll be able to buy a car.» (podré)\n- «I haven't been able to sleep.» (no he podido dormir)\n- «I'd like to be able to speak Irish.»\n\nPara un logro concreto en el pasado, con esfuerzo, se usa «was» / «were able to» (no «could»):\n- «After three hours, I was able to finish the exam.»\n\nEl gerundio («-ing») funciona como un nombre y puede ser el sujeto de la frase. En español usamos el infinitivo («estudiar es agotador»), pero en inglés va en «-ing» (no «To study is…» en el habla normal):\n- «Studying for exams is exhausting.»\n- «Playing the guitar relaxes me.»",
                     "table": {
                       "headers": [
                         "",
@@ -216,7 +216,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con been, for, since o la forma correcta.",
+                    "instructions": "Completa con «been», «for», «since» o la forma correcta.",
                     "items": [
                       {
                         "sentence": "How long have you ___ studying?",
@@ -323,7 +323,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con la forma correcta de be able to o con el verbo en -ing.",
+                    "instructions": "Completa con la forma correcta de «be able to» o con el verbo en «-ing».",
                     "items": [
                       {
                         "sentence": "If I pass this exam, I'll be ___ to apply for the senior job.",
