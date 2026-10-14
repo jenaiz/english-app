@@ -84,10 +84,10 @@
         },
         {
           "id": "b2_deduction_present.004",
-          "sentence": "She must be ___ for news. (wait)",
+          "sentence": "She ___ be waiting for news. She keeps checking her phone.",
           "answers": [
             [
-              "waiting"
+              "must"
             ]
           ]
         },
@@ -151,10 +151,12 @@
         },
         {
           "id": "b2_deduction_present.011",
-          "sentence": "Don't call now. They might be ___ lunch. (have)",
+          "sentence": "Don't call now. They ___ be having lunch. (posible)",
           "answers": [
             [
-              "having"
+              "might",
+              "could",
+              "may"
             ]
           ]
         },
