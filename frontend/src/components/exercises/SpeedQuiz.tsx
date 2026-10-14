@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { Timer, Zap } from 'lucide-react'
 import type { ExerciseResult, ItemOutcome, SpeedQuizContent } from '../../types'
 import { ExerciseDone } from './ExerciseShell'
+import { InlineText } from '../RichText'
 
 /** Timed multiple choice: one global countdown, instant feedback, auto-advance. Unanswered items count as wrong. */
 export default function SpeedQuiz({ content, onComplete }: { content: SpeedQuizContent; onComplete: (r: ExerciseResult) => void }) {
@@ -62,7 +63,7 @@ export default function SpeedQuiz({ content, onComplete }: { content: SpeedQuizC
         <div className="grid h-16 w-16 place-items-center rounded-full bg-amber-100 text-amber-600">
           <Zap className="h-8 w-8" />
         </div>
-        <p className="mt-4 text-lg font-bold text-slate-900">{content.instructions ?? 'Quiz de velocidad'}</p>
+        <p className="mt-4 text-lg font-bold text-slate-900"><InlineText text={content.instructions ?? 'Quiz de velocidad'} /></p>
         <p className="mt-1 text-slate-500">
           {total} preguntas · {limit} segundos
         </p>

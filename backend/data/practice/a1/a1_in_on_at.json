@@ -2,11 +2,15 @@
   "topic_id": "a1_in_on_at",
   "level_id": "A1",
   "title": "in / on / at para hablar del tiempo",
-  "tags": ["time_prepositions"],
-  "units": ["first_day"],
+  "tags": [
+    "time_prepositions"
+  ],
+  "units": [
+    "first_day"
+  ],
   "rule": {
     "title": "Prepositions of time: in, on, at",
-    "explanation": "**at** para un momento concreto: la hora y algunas expresiones fijas: at seven o'clock, at half past nine, at night, at lunchtime, at the weekend, at Christmas.\n\n**on** para los días y las fechas: on Monday, on Friday evening, on 3 May, on my birthday.\n\n**in** para periodos más largos: meses, estaciones, años y partes del día: in June, in winter, in 2025, in the morning, in the afternoon, in the evening.\n\nOjo: in the morning, pero on Monday morning (cuando dices el día, manda el día). Y at night, no «in the night».\n\nSin preposición delante de this, next, last, every, today, tomorrow y yesterday: I'm busy this Friday. See you next week.",
+    "explanation": "Para decir cuándo pasa algo usamos tres preposiciones.\n\n«At» con horas, momentos concretos y algunas expresiones fijas:\n- «at seven o'clock», «at half past nine», «at night», «at lunchtime», «at the weekend», «at Christmas»\n\n«On» con días y fechas:\n- «on Monday», «on Friday evening», «on 3 May», «on my birthday»\n\n«In» con periodos más largos: partes del día, meses, estaciones y años:\n- «in the morning», «in the afternoon», «in the evening», «in June», «in winter», «in 2025»\n\nOjo: decimos «in the morning» pero «on Monday morning» (si dices el día, manda el día). Y «at night», nunca «in the night».\n\nSin preposición delante de «this», «next», «last», «every», «today», «tomorrow» y «yesterday»:\n- «I'm busy this Friday.»\n- «See you next week.»",
     "examples": [
       "The meeting is at ten o'clock.",
       "We have pizza on Fridays.",
@@ -15,100 +19,566 @@
       "See you next Monday."
     ],
     "table": {
-      "headers": ["at", "on", "in"],
+      "headers": [
+        "at",
+        "on",
+        "in"
+      ],
       "rows": [
-        ["la hora: at 8:30", "días: on Tuesday", "meses: in March"],
-        ["at night, at lunchtime", "fechas: on 14 July", "estaciones: in summer"],
-        ["at the weekend, at Christmas", "on Sunday morning", "años: in 2026"],
-        ["", "on my birthday", "in the morning / afternoon / evening"]
+        [
+          "at 8:30",
+          "on Tuesday",
+          "in March"
+        ],
+        [
+          "at night",
+          "on 14 July",
+          "in summer"
+        ],
+        [
+          "at lunchtime",
+          "on Sunday morning",
+          "in 2026"
+        ],
+        [
+          "at the weekend",
+          "on my birthday",
+          "in the morning"
+        ],
+        [
+          "at Christmas",
+          "on Christmas Day",
+          "in the evening"
+        ]
       ]
     }
   },
   "sets": [
     {
       "type": "fill_blanks",
-      "instructions": "Completa con in, on o at.",
-      "bank": ["in", "on", "at"],
+      "instructions": "Completa con «in», «on» o «at».",
+      "bank": [
+        "in",
+        "on",
+        "at"
+      ],
       "items": [
-        { "id": "a1_in_on_at.001", "sentence": "The bus leaves ___ quarter past eight.", "answers": [["at"]], "explanation": "Una hora: at." },
-        { "id": "a1_in_on_at.002", "sentence": "Lucía has an English class ___ Tuesday.", "answers": [["on"]], "explanation": "Un día: on." },
-        { "id": "a1_in_on_at.003", "sentence": "It snows a lot ___ January.", "answers": [["in"]], "explanation": "Un mes: in." },
-        { "id": "a1_in_on_at.004", "sentence": "I always read ___ the evening.", "answers": [["in"]], "explanation": "Parte del día: in the evening." },
-        { "id": "a1_in_on_at.005", "sentence": "Sam plays with his band ___ Saturday night.", "answers": [["on"]], "explanation": "Con el día delante, on: on Saturday night." },
-        { "id": "a1_in_on_at.006", "sentence": "The shops close ___ six o'clock.", "answers": [["at"]], "explanation": "Una hora: at." },
-        { "id": "a1_in_on_at.007", "sentence": "My parents visit me ___ summer.", "answers": [["in"]], "explanation": "Estación: in." },
-        { "id": "a1_in_on_at.008", "sentence": "Priya sleeps in the day because she works ___ night.", "answers": [["at"]], "explanation": "Expresión fija: at night." },
-        { "id": "a1_in_on_at.009", "sentence": "Daniel's birthday is ___ 2 June.", "answers": [["on"]], "explanation": "Fecha con día: on." },
-        { "id": "a1_in_on_at.010", "sentence": "We eat a lot of chocolate ___ Easter.", "answers": [["at"]], "explanation": "Fiestas: at Easter, at Christmas." },
-        { "id": "a1_in_on_at.011", "sentence": "The museum opened ___ 1998.", "answers": [["in"]], "explanation": "Año: in." },
-        { "id": "a1_in_on_at.012", "sentence": "I have lunch ___ half past one.", "answers": [["at"]], "explanation": "Una hora: at." },
-        { "id": "a1_in_on_at.013", "sentence": "Do you work ___ the weekend?", "answers": [["at"]], "explanation": "En inglés británico: at the weekend." },
-        { "id": "a1_in_on_at.014", "sentence": "The market is open ___ Sunday mornings.", "answers": [["on"]], "explanation": "Día + parte del día: on." },
-        { "id": "a1_in_on_at.015", "sentence": "Bristol is beautiful ___ autumn.", "answers": [["in"]], "explanation": "Estación: in." },
-        { "id": "a1_in_on_at.016", "sentence": "The film starts ___ nine fifteen.", "answers": [["at"]], "explanation": "Una hora: at." },
-        { "id": "a1_in_on_at.017", "sentence": "Javi gets up late ___ the morning.", "answers": [["in"]], "explanation": "Parte del día: in the morning." },
-        { "id": "a1_in_on_at.018", "sentence": "We have a party ___ New Year's Eve.", "answers": [["on"]], "explanation": "Un día concreto: on New Year's Eve." },
-        { "id": "a1_in_on_at.019", "sentence": "Helen is on holiday ___ August.", "answers": [["in"]], "explanation": "Un mes: in." },
-        { "id": "a1_in_on_at.020", "sentence": "I phone my mum ___ lunchtime.", "answers": [["at"]], "explanation": "Expresión fija: at lunchtime." },
-        { "id": "a1_in_on_at.021", "sentence": "The office is closed ___ Christmas Day.", "answers": [["on"]], "explanation": "Un día concreto: on Christmas Day. Pero at Christmas (las fiestas)." },
-        { "id": "a1_in_on_at.022", "sentence": "My train arrives ___ midnight.", "answers": [["at"]], "explanation": "Un momento concreto: at midnight." }
+        {
+          "id": "a1_in_on_at.001",
+          "sentence": "The bus leaves ___ quarter past eight.",
+          "answers": [
+            [
+              "at"
+            ]
+          ],
+          "explanation": "Una hora: «at»."
+        },
+        {
+          "id": "a1_in_on_at.002",
+          "sentence": "Lucía has an English class ___ Tuesday.",
+          "answers": [
+            [
+              "on"
+            ]
+          ],
+          "explanation": "Un día: «on»."
+        },
+        {
+          "id": "a1_in_on_at.003",
+          "sentence": "It snows a lot ___ January.",
+          "answers": [
+            [
+              "in"
+            ]
+          ],
+          "explanation": "Un mes: «in»."
+        },
+        {
+          "id": "a1_in_on_at.004",
+          "sentence": "I always read ___ the evening.",
+          "answers": [
+            [
+              "in"
+            ]
+          ],
+          "explanation": "Parte del día: «in the evening»."
+        },
+        {
+          "id": "a1_in_on_at.005",
+          "sentence": "Sam plays with his band ___ Saturday night.",
+          "answers": [
+            [
+              "on"
+            ]
+          ],
+          "explanation": "Con el día delante, «on»: «on Saturday night»."
+        },
+        {
+          "id": "a1_in_on_at.006",
+          "sentence": "The shops close ___ six o'clock.",
+          "answers": [
+            [
+              "at"
+            ]
+          ],
+          "explanation": "Una hora: «at»."
+        },
+        {
+          "id": "a1_in_on_at.007",
+          "sentence": "My parents visit me ___ summer.",
+          "answers": [
+            [
+              "in"
+            ]
+          ],
+          "explanation": "Estación: «in»."
+        },
+        {
+          "id": "a1_in_on_at.008",
+          "sentence": "Priya sleeps in the day because she works ___ night.",
+          "answers": [
+            [
+              "at"
+            ]
+          ],
+          "explanation": "Expresión fija: «at night»."
+        },
+        {
+          "id": "a1_in_on_at.009",
+          "sentence": "Daniel's birthday is ___ 2 June.",
+          "answers": [
+            [
+              "on"
+            ]
+          ],
+          "explanation": "Fecha: «on»."
+        },
+        {
+          "id": "a1_in_on_at.010",
+          "sentence": "We eat a lot of chocolate ___ Easter.",
+          "answers": [
+            [
+              "at"
+            ]
+          ],
+          "explanation": "Fiestas: «at Easter», «at Christmas»."
+        },
+        {
+          "id": "a1_in_on_at.011",
+          "sentence": "The museum opened ___ 1998.",
+          "answers": [
+            [
+              "in"
+            ]
+          ],
+          "explanation": "Año: «in»."
+        },
+        {
+          "id": "a1_in_on_at.012",
+          "sentence": "I have lunch ___ half past one.",
+          "answers": [
+            [
+              "at"
+            ]
+          ],
+          "explanation": "Una hora: «at»."
+        },
+        {
+          "id": "a1_in_on_at.013",
+          "sentence": "Do you work ___ the weekend?",
+          "answers": [
+            [
+              "at"
+            ]
+          ],
+          "explanation": "En inglés británico: «at the weekend»."
+        },
+        {
+          "id": "a1_in_on_at.014",
+          "sentence": "The market is open ___ Sunday mornings.",
+          "answers": [
+            [
+              "on"
+            ]
+          ],
+          "explanation": "Día + parte del día: «on»."
+        },
+        {
+          "id": "a1_in_on_at.015",
+          "sentence": "Bristol is beautiful ___ autumn.",
+          "answers": [
+            [
+              "in"
+            ]
+          ],
+          "explanation": "Estación: «in»."
+        },
+        {
+          "id": "a1_in_on_at.016",
+          "sentence": "The film starts ___ nine fifteen.",
+          "answers": [
+            [
+              "at"
+            ]
+          ],
+          "explanation": "Una hora: «at»."
+        },
+        {
+          "id": "a1_in_on_at.017",
+          "sentence": "Javi gets up late ___ the morning.",
+          "answers": [
+            [
+              "in"
+            ]
+          ],
+          "explanation": "Parte del día: «in the morning»."
+        },
+        {
+          "id": "a1_in_on_at.018",
+          "sentence": "We have a party ___ New Year's Eve.",
+          "answers": [
+            [
+              "on"
+            ]
+          ],
+          "explanation": "Un día concreto: «on New Year's Eve»."
+        },
+        {
+          "id": "a1_in_on_at.019",
+          "sentence": "Helen is on holiday ___ August.",
+          "answers": [
+            [
+              "in"
+            ]
+          ],
+          "explanation": "Un mes: «in»."
+        },
+        {
+          "id": "a1_in_on_at.020",
+          "sentence": "I phone my mum ___ lunchtime.",
+          "answers": [
+            [
+              "at"
+            ]
+          ],
+          "explanation": "Expresión fija: «at lunchtime»."
+        },
+        {
+          "id": "a1_in_on_at.021",
+          "sentence": "The office is closed ___ Christmas Day.",
+          "answers": [
+            [
+              "on"
+            ]
+          ],
+          "explanation": "Un día concreto: «on Christmas Day». Pero «at Christmas» (las fiestas)."
+        },
+        {
+          "id": "a1_in_on_at.022",
+          "sentence": "My train arrives ___ midnight.",
+          "answers": [
+            [
+              "at"
+            ]
+          ],
+          "explanation": "Un momento concreto: «at midnight»."
+        }
       ]
     },
     {
       "type": "multiple_choice",
       "instructions": "¿Qué frase es correcta?",
       "items": [
-        { "id": "a1_in_on_at.101", "question": "La reunión es el lunes.", "options": ["The meeting is on Monday.", "The meeting is in Monday."], "answer": 0, "explanation": "Días: on." },
-        { "id": "a1_in_on_at.102", "question": "Ceno a las ocho.", "options": ["I have dinner in eight o'clock.", "I have dinner at eight o'clock."], "answer": 1, "explanation": "Horas: at." },
-        { "id": "a1_in_on_at.103", "question": "Trabajo por la tarde.", "options": ["I work in the afternoon.", "I work on the afternoon."], "answer": 0, "explanation": "Parte del día sola: in the afternoon." },
-        { "id": "a1_in_on_at.104", "question": "Nos vemos el viernes que viene.", "options": ["See you on next Friday.", "See you next Friday."], "answer": 1, "explanation": "Con next no se pone preposición." },
-        { "id": "a1_in_on_at.105", "question": "Hace frío por la noche.", "options": ["It's cold at night.", "It's cold in the night."], "answer": 0, "explanation": "Expresión fija: at night." },
-        { "id": "a1_in_on_at.106", "question": "Mi cumpleaños es en mayo.", "options": ["My birthday is on May.", "My birthday is in May."], "answer": 1, "explanation": "Meses: in." },
-        { "id": "a1_in_on_at.107", "question": "Juego al tenis el sábado por la mañana.", "options": ["I play tennis in Saturday morning.", "I play tennis on Saturday morning."], "answer": 1, "explanation": "Si dices el día, manda el día: on Saturday morning." },
-        { "id": "a1_in_on_at.108", "question": "Estoy ocupada este jueves.", "options": ["I'm busy this Thursday.", "I'm busy on this Thursday."], "answer": 0, "explanation": "Con this no se pone preposición." },
-        { "id": "a1_in_on_at.109", "question": "Vamos a Escocia en invierno.", "options": ["We go to Scotland at winter.", "We go to Scotland in winter."], "answer": 1, "explanation": "Estaciones: in." },
-        { "id": "a1_in_on_at.110", "question": "Llegué ayer.", "options": ["I arrived yesterday.", "I arrived on yesterday."], "answer": 0, "explanation": "Con yesterday, today y tomorrow no hay preposición." }
+        {
+          "id": "a1_in_on_at.101",
+          "question": "La reunión es el lunes.",
+          "options": [
+            "The meeting is on Monday.",
+            "The meeting is in Monday."
+          ],
+          "answer": 0,
+          "explanation": "Días: «on»."
+        },
+        {
+          "id": "a1_in_on_at.102",
+          "question": "Ceno a las ocho.",
+          "options": [
+            "I have dinner in eight o'clock.",
+            "I have dinner at eight o'clock."
+          ],
+          "answer": 1,
+          "explanation": "Horas: «at»."
+        },
+        {
+          "id": "a1_in_on_at.103",
+          "question": "Trabajo por la tarde.",
+          "options": [
+            "I work in the afternoon.",
+            "I work on the afternoon."
+          ],
+          "answer": 0,
+          "explanation": "Parte del día sola: «in the afternoon»."
+        },
+        {
+          "id": "a1_in_on_at.104",
+          "question": "Nos vemos el viernes que viene.",
+          "options": [
+            "See you on next Friday.",
+            "See you next Friday."
+          ],
+          "answer": 1,
+          "explanation": "Con «next» no se pone preposición."
+        },
+        {
+          "id": "a1_in_on_at.105",
+          "question": "Hace frío por la noche.",
+          "options": [
+            "It's cold at night.",
+            "It's cold in the night."
+          ],
+          "answer": 0,
+          "explanation": "Expresión fija: «at night»."
+        },
+        {
+          "id": "a1_in_on_at.106",
+          "question": "Mi cumpleaños es en mayo.",
+          "options": [
+            "My birthday is on May.",
+            "My birthday is in May."
+          ],
+          "answer": 1,
+          "explanation": "Meses: «in»."
+        },
+        {
+          "id": "a1_in_on_at.107",
+          "question": "Juego al tenis el sábado por la mañana.",
+          "options": [
+            "I play tennis in Saturday morning.",
+            "I play tennis on Saturday morning."
+          ],
+          "answer": 1,
+          "explanation": "Si dices el día, manda el día: «on Saturday morning»."
+        },
+        {
+          "id": "a1_in_on_at.108",
+          "question": "Estoy ocupada este jueves.",
+          "options": [
+            "I'm busy this Thursday.",
+            "I'm busy on this Thursday."
+          ],
+          "answer": 0,
+          "explanation": "Con «this» no se pone preposición."
+        },
+        {
+          "id": "a1_in_on_at.109",
+          "question": "Vamos a Escocia en invierno.",
+          "options": [
+            "We go to Scotland at winter.",
+            "We go to Scotland in winter."
+          ],
+          "answer": 1,
+          "explanation": "Estaciones: «in»."
+        },
+        {
+          "id": "a1_in_on_at.110",
+          "question": "Llegué ayer.",
+          "options": [
+            "I arrived yesterday.",
+            "I arrived on yesterday."
+          ],
+          "answer": 0,
+          "explanation": "Con «yesterday», «today» y «tomorrow» no hay preposición."
+        }
       ]
     },
     {
       "type": "transformation",
-      "instructions": "Cada frase tiene un error con in, on o at. Escríbela bien.",
+      "instructions": "Cada frase tiene un error con «in», «on» o «at». Escríbela bien.",
       "items": [
-        { "id": "a1_in_on_at.201", "prompt": "Corrige", "source": "The class starts on ten o'clock.", "answers": ["The class starts at ten o'clock"], "explanation": "Horas: at." },
-        { "id": "a1_in_on_at.202", "prompt": "Corrige", "source": "I go to the gym at Mondays.", "answers": ["I go to the gym on Mondays"], "explanation": "Días: on." },
-        { "id": "a1_in_on_at.203", "prompt": "Corrige", "source": "We have a holiday on July.", "answers": ["We have a holiday in July"], "explanation": "Meses: in." },
-        { "id": "a1_in_on_at.204", "prompt": "Corrige", "source": "Sam sleeps on the afternoon.", "answers": ["Sam sleeps in the afternoon"], "explanation": "Parte del día: in the afternoon." },
-        { "id": "a1_in_on_at.205", "prompt": "Corrige", "source": "I don't like driving in night.", "answers": ["I don't like driving at night"], "explanation": "Expresión fija: at night." },
-        { "id": "a1_in_on_at.206", "prompt": "Corrige", "source": "The concert is in 21 March.", "answers": ["The concert is on 21 March", "The concert is on March 21"], "explanation": "Fechas: on." },
-        { "id": "a1_in_on_at.207", "prompt": "Corrige", "source": "See you on tomorrow!", "answers": ["See you tomorrow"], "explanation": "Con tomorrow no hay preposición." },
-        { "id": "a1_in_on_at.208", "prompt": "Corrige", "source": "Priya visits her parents in Christmas.", "answers": ["Priya visits her parents at Christmas"], "explanation": "Fiestas: at Christmas." },
-        { "id": "a1_in_on_at.209", "prompt": "Corrige", "source": "I'm in Valencia at next week.", "answers": ["I'm in Valencia next week"], "explanation": "Con next no hay preposición." }
+        {
+          "id": "a1_in_on_at.201",
+          "prompt": "Corrige",
+          "source": "The class starts on ten o'clock.",
+          "answers": [
+            "The class starts at ten o'clock"
+          ],
+          "explanation": "Horas: «at»."
+        },
+        {
+          "id": "a1_in_on_at.202",
+          "prompt": "Corrige",
+          "source": "I go to the gym at Mondays.",
+          "answers": [
+            "I go to the gym on Mondays"
+          ],
+          "explanation": "Días: «on»."
+        },
+        {
+          "id": "a1_in_on_at.203",
+          "prompt": "Corrige",
+          "source": "We have a holiday on July.",
+          "answers": [
+            "We have a holiday in July"
+          ],
+          "explanation": "Meses: «in»."
+        },
+        {
+          "id": "a1_in_on_at.204",
+          "prompt": "Corrige",
+          "source": "Sam sleeps on the afternoon.",
+          "answers": [
+            "Sam sleeps in the afternoon"
+          ],
+          "explanation": "Parte del día: «in the afternoon»."
+        },
+        {
+          "id": "a1_in_on_at.205",
+          "prompt": "Corrige",
+          "source": "I don't like driving in night.",
+          "answers": [
+            "I don't like driving at night"
+          ],
+          "explanation": "Expresión fija: «at night»."
+        },
+        {
+          "id": "a1_in_on_at.206",
+          "prompt": "Corrige",
+          "source": "The concert is in 21 March.",
+          "answers": [
+            "The concert is on 21 March",
+            "The concert is on March 21"
+          ],
+          "explanation": "Fechas: «on»."
+        },
+        {
+          "id": "a1_in_on_at.207",
+          "prompt": "Corrige",
+          "source": "See you on tomorrow!",
+          "answers": [
+            "See you tomorrow"
+          ],
+          "explanation": "Con «tomorrow» no hay preposición."
+        },
+        {
+          "id": "a1_in_on_at.208",
+          "prompt": "Corrige",
+          "source": "Priya visits her parents in Christmas.",
+          "answers": [
+            "Priya visits her parents at Christmas"
+          ],
+          "explanation": "Fiestas: «at Christmas»."
+        },
+        {
+          "id": "a1_in_on_at.209",
+          "prompt": "Corrige",
+          "source": "I'm in Valencia at next week.",
+          "answers": [
+            "I'm in Valencia next week"
+          ],
+          "explanation": "Con «next» no hay preposición."
+        }
       ]
     },
     {
       "type": "translation",
       "instructions": "Traduce al inglés.",
       "items": [
-        { "id": "a1_in_on_at.301", "source": "La clase es a las seis.", "answers": ["The class is at six", "The class is at six o'clock"] },
-        { "id": "a1_in_on_at.302", "source": "No trabajo los domingos.", "answers": ["I don't work on Sundays", "I don't work on Sunday"] },
-        { "id": "a1_in_on_at.303", "source": "Hace calor en agosto.", "answers": ["It's hot in August"] },
-        { "id": "a1_in_on_at.304", "source": "Tomo café por la mañana.", "answers": ["I drink coffee in the morning", "I have coffee in the morning", "I have a coffee in the morning"] },
-        { "id": "a1_in_on_at.305", "source": "Mi cumpleaños es el 9 de octubre.", "answers": ["My birthday is on 9 October", "My birthday is on October 9", "My birthday is on the ninth of October", "My birthday is on 9th October"] },
-        { "id": "a1_in_on_at.306", "source": "Leo por la noche.", "answers": ["I read at night", "I read in the evening"] },
-        { "id": "a1_in_on_at.307", "source": "Nos vemos el viernes por la tarde.", "answers": ["See you on Friday afternoon", "See you on Friday evening"] },
-        { "id": "a1_in_on_at.308", "source": "Vuelvo a España la semana que viene.", "answers": ["I go back to Spain next week", "I'm going back to Spain next week"] }
+        {
+          "id": "a1_in_on_at.301",
+          "source": "La clase es a las seis.",
+          "answers": [
+            "The class is at six",
+            "The class is at six o'clock"
+          ]
+        },
+        {
+          "id": "a1_in_on_at.302",
+          "source": "No trabajo los domingos.",
+          "answers": [
+            "I don't work on Sundays",
+            "I don't work on Sunday"
+          ]
+        },
+        {
+          "id": "a1_in_on_at.303",
+          "source": "Hace calor en agosto.",
+          "answers": [
+            "It's hot in August"
+          ]
+        },
+        {
+          "id": "a1_in_on_at.304",
+          "source": "Tomo café por la mañana.",
+          "answers": [
+            "I drink coffee in the morning",
+            "I have coffee in the morning",
+            "I have a coffee in the morning"
+          ]
+        },
+        {
+          "id": "a1_in_on_at.305",
+          "source": "Mi cumpleaños es el 9 de octubre.",
+          "answers": [
+            "My birthday is on 9 October",
+            "My birthday is on October 9",
+            "My birthday is on the ninth of October",
+            "My birthday is on 9th October"
+          ]
+        },
+        {
+          "id": "a1_in_on_at.306",
+          "source": "Leo por la noche.",
+          "answers": [
+            "I read at night",
+            "I read in the evening"
+          ]
+        },
+        {
+          "id": "a1_in_on_at.307",
+          "source": "Nos vemos el viernes por la tarde.",
+          "answers": [
+            "See you on Friday afternoon",
+            "See you on Friday evening"
+          ]
+        },
+        {
+          "id": "a1_in_on_at.308",
+          "source": "Vuelvo a España la semana que viene.",
+          "answers": [
+            "I go back to Spain next week",
+            "I'm going back to Spain next week"
+          ]
+        }
       ]
     },
     {
       "type": "word_order",
       "instructions": "Ordena las palabras.",
       "items": [
-        { "id": "a1_in_on_at.401", "answer": "The meeting is at half past nine" },
-        { "id": "a1_in_on_at.402", "answer": "We have pizza on Fridays" },
-        { "id": "a1_in_on_at.403", "answer": "My exam is in December" },
-        { "id": "a1_in_on_at.404", "answer": "Do you work at the weekend?" },
-        { "id": "a1_in_on_at.405", "answer": "I study English in the evening" },
-        { "id": "a1_in_on_at.406", "answer": "The party is on Saturday night" }
+        {
+          "id": "a1_in_on_at.401",
+          "answer": "The meeting is at half past nine"
+        },
+        {
+          "id": "a1_in_on_at.402",
+          "answer": "We have pizza on Fridays"
+        },
+        {
+          "id": "a1_in_on_at.403",
+          "answer": "My exam is in December"
+        },
+        {
+          "id": "a1_in_on_at.404",
+          "answer": "Do you work at the weekend?"
+        },
+        {
+          "id": "a1_in_on_at.405",
+          "answer": "I study English in the evening"
+        },
+        {
+          "id": "a1_in_on_at.406",
+          "answer": "The party is on Saturday night"
+        }
       ]
     }
   ]

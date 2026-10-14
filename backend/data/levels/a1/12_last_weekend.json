@@ -100,7 +100,7 @@
                           "wait"
                         ],
                         "answer": 0,
-                        "explanation": "Go es irregular: go → went."
+                        "explanation": "«Go» es irregular: «go» → «went»."
                       },
                       {
                         "question": "Who was with Lucía on Sunday?",
@@ -121,7 +121,7 @@
                   "content": {
                     "tag": "past_simple",
                     "title": "Past simple: was / were and past verbs",
-                    "explanation": "Para hablar del pasado usamos el past simple. El verbo be tiene dos formas: was (I, he, she, it) y were (you, we, they). Negativa: wasn't / weren't. Pregunta: Were you there alone? — No, I wasn't.\n\nLos verbos regulares añaden -ed y la forma es igual para todas las personas: visit → visited, walk → walked, cook → cooked, phone → phoned.\n\nMuchos verbos frecuentes son irregulares y hay que aprenderlos: go → went, buy → bought, have → had, see → saw, eat → ate, meet → met. Los tienes todos en la lista de verbos irregulares.\n\nPara preguntar: What did you do? (did + verbo en forma base).",
+                    "explanation": "Para hablar del pasado usamos el past simple. El verbo «be» tiene dos formas: «was» («I», «he», «she», «it») y «were» («you», «we», «they»). La negativa es «wasn't» / «weren't»:\n- «Were you there alone? — No, I wasn't.»\n\nLos verbos regulares añaden «-ed» y la forma es igual para todas las personas: «visit» → «visited», «walk» → «walked», «cook» → «cooked», «phone» → «phoned».\n\nMuchos verbos frecuentes son irregulares y hay que aprenderlos: «go» → «went», «buy» → «bought», «have» → «had», «see» → «saw», «eat» → «ate», «meet» → «met». Los tienes todos en la lista de verbos irregulares.\n\nPara preguntar se usa «did» + verbo en forma base:\n- «What did you do?»",
                     "table": {
                       "headers": [
                         "Base",

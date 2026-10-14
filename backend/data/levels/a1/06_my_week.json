@@ -128,7 +128,7 @@
                   "content": {
                     "tag": "present_simple",
                     "title": "Present simple: I, you, we, they",
-                    "explanation": "El present simple describe rutinas, hábitos y cosas que son verdad en general: I get up at seven. Con I, you, we y they el verbo no cambia.\n\nNegativa: don't (do not) + verbo: I don't study. Pregunta: Do + sujeto + verbo: Do you eat together? Respuestas cortas: Yes, we do / No, we don't.\n\nCon palabras interrogativas: What do you do in the evenings?",
+                    "explanation": "El present simple describe rutinas, hábitos y cosas que son verdad en general. Con «I», «you», «we» y «they» el verbo no cambia:\n- «I get up at seven.»\n\nLa negativa es «don't» («do not») + verbo, y la pregunta, «do» + sujeto + verbo:\n- «I don't study.»\n- «Do you eat together? — Yes, we do. / No, we don't.»\n\nCon palabras interrogativas:\n- «What do you do in the evenings?»",
                     "table": {
                       "headers": [
                         "",
@@ -177,7 +177,7 @@
                   "content": {
                     "tag": "linking_words",
                     "title": "Linking words: and, but, or, because",
-                    "explanation": "Para unir dos ideas en una frase usamos conectores:\n\nAnd (y) añade información: I study English and I watch TV.\n\nBut (pero) presenta un contraste: I like Bristol, but it rains a lot.\n\nOr (o) da opciones: Do you go by bus or on foot? En negativas también se usa or: I don't drink tea or coffee.\n\nBecause (porque) da la razón: I go by bus because the office is far. Para preguntar la razón usamos Why…?: Why do you go by bus? — Because the office is far.",
+                    "explanation": "Para unir dos ideas en una frase usamos conectores.\n\n«And» (y) añade información:\n- «I study English and I watch TV.»\n\n«But» (pero) presenta un contraste:\n- «I like Bristol, but it rains a lot.»\n\n«Or» (o) da opciones. En negativas también se usa «or»:\n- «Do you go by bus or on foot?»\n- «I don't drink tea or coffee.»\n\n«Because» (porque) da la razón. Para preguntarla usamos «Why…?»:\n- «I go by bus because the office is far.»\n- «Why do you go by bus? — Because the office is far.»",
                     "table": {
                       "headers": [
                         "Conector",
@@ -321,7 +321,7 @@
                   "type": "fill_blanks",
                   "content": {
                     "tag": "linking_words",
-                    "instructions": "Completa con and, but, or o because.",
+                    "instructions": "Completa con «and», «but», «or» o «because».",
                     "items": [
                       {
                         "sentence": "I study English ___ I watch TV in the evenings.",

@@ -110,7 +110,7 @@
                           "Yes, I've."
                         ],
                         "answer": 0,
-                        "explanation": "Respuesta corta de have got: Yes, I have / No, I haven't."
+                        "explanation": "Respuesta corta de «have got»: «Yes, I have» / «No, I haven't»."
                       },
                       {
                         "question": "\"half past eight\" is…",
@@ -131,7 +131,7 @@
                   "content": {
                     "tag": "questions",
                     "title": "Wh- questions, the time and have got",
-                    "explanation": "Las preguntas con what, where, who, when o how van seguidas del verbo be: What's your name?, Where are you from?, How are you?\n\nLa hora: It's nine o'clock (9:00), It's half past nine (9:30), It's quarter past ten (10:15), It's quarter to ten (9:45), It's ten past nine (9:10). Para decir a qué hora es algo usamos at: The meeting is at half past nine. Con los días usamos on: on Friday.\n\nHave got expresa posesión en inglés británico: Have you got a laptop? — Yes, I have / No, I haven't. Con he/she: has got.",
+                    "explanation": "Las preguntas con «what», «where», «who», «when» o «how» van seguidas del verbo «be»:\n- «What's your name?»\n- «Where are you from?»\n- «How are you?»\n\nLa hora:\n- «It's nine o'clock.» (9:00)\n- «It's half past nine.» (9:30)\n- «It's quarter past ten.» (10:15)\n- «It's quarter to ten.» (9:45)\n- «It's ten past nine.» (9:10)\n\nPara decir a qué hora es algo usamos «at», y con los días, «on»:\n- «The meeting is at half past nine.»\n- «on Friday»\n\n«Have got» expresa posesión en inglés británico. Con «he» y «she» es «has got»:\n- «Have you got a laptop? — Yes, I have. / No, I haven't.»",
                     "table": {
                       "headers": [
                         "Palabra",
@@ -190,7 +190,7 @@
                   "content": {
                     "tag": "time_prepositions",
                     "title": "Prepositions of time: in, on, at",
-                    "explanation": "Para decir cuándo pasa algo usamos tres preposiciones:\n\nAt con horas y momentos concretos: at nine o'clock, at half past nine, at lunchtime, at the weekend, at night.\n\nOn con días y fechas: on Friday, on Monday morning, on 14th March, on my birthday.\n\nIn con partes del día, meses, estaciones y años: in the morning, in the evening, in March, in summer, in 2026.\n\nOjo: decimos in the morning pero at night, y on Friday morning (día + parte del día lleva on).",
+                    "explanation": "Para decir cuándo pasa algo usamos tres preposiciones.\n\n«At» con horas y momentos concretos:\n- «at nine o'clock», «at half past nine», «at lunchtime», «at the weekend», «at night»\n\n«On» con días y fechas:\n- «on Friday», «on Monday morning», «on 14th March», «on my birthday»\n\n«In» con partes del día, meses, estaciones y años:\n- «in the morning», «in the evening», «in March», «in summer», «in 2026»\n\nOjo: decimos «in the morning» pero «at night», y «on Friday morning» (día + parte del día lleva «on»).",
                     "table": {
                       "headers": [
                         "at",
@@ -347,7 +347,7 @@
                   "type": "fill_blanks",
                   "content": {
                     "tag": "time_prepositions",
-                    "instructions": "Completa con in, on o at.",
+                    "instructions": "Completa con «in», «on» o «at».",
                     "items": [
                       {
                         "sentence": "Lunch is ___ one o'clock.",

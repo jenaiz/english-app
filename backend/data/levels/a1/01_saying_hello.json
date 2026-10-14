@@ -78,7 +78,7 @@
                           "are"
                         ],
                         "answer": 0,
-                        "explanation": "I'm = I am. La contracción es lo normal al hablar."
+                        "explanation": "«I'm» = «I am». La contracción es lo normal al hablar."
                       },
                       {
                         "question": "Mrs Green says \"We're all friends here.\" We're = …",
@@ -88,7 +88,7 @@
                           "We am"
                         ],
                         "answer": 1,
-                        "explanation": "We're = we are."
+                        "explanation": "«We're» = «we are»."
                       },
                       {
                         "question": "\"Where are you from?\" What does Lucía answer?",
@@ -98,7 +98,7 @@
                           "I'm Spain from."
                         ],
                         "answer": 0,
-                        "explanation": "En inglés el sujeto y el verbo siempre aparecen: I + am."
+                        "explanation": "En inglés el sujeto y el verbo siempre aparecen: «I» + «am»."
                       },
                       {
                         "question": "\"Are you tired?\" Which short answer is correct?",
@@ -108,7 +108,7 @@
                           "Yes, I are."
                         ],
                         "answer": 1,
-                        "explanation": "En las respuestas cortas afirmativas no se contrae: Yes, I am."
+                        "explanation": "En las respuestas cortas afirmativas no se contrae: «Yes, I am»."
                       }
                     ]
                   }
@@ -119,7 +119,7 @@
                   "content": {
                     "tag": "to_be",
                     "title": "The verb 'to be': I, you, we",
-                    "explanation": "To be significa ser o estar. En inglés siempre hay que poner el sujeto: no se dice «Am from Spain», sino «I'm from Spain».\n\nAl hablar usamos casi siempre contracciones (I'm, you're, we're). En las respuestas cortas afirmativas no se contrae: «Are you tired? — Yes, I am» (nunca «Yes, I'm»).\n\nPara preguntar, el verbo va delante del sujeto: «Are you Lucía?». Con it (para cosas, el día o la hora) la forma es is: «It's Saturday».",
+                    "explanation": "«To be» significa ser o estar. En inglés siempre hay que poner el sujeto: no se dice «Am from Spain», sino «I'm from Spain».\n\nAl hablar usamos casi siempre las contracciones «I'm», «you're» y «we're». En las respuestas cortas afirmativas no se contrae (nunca «Yes, I'm»):\n- «Are you tired? — Yes, I am.»\n\nPara preguntar, el verbo va delante del sujeto. Con «it» (para cosas, el día o la hora) la forma es «is»:\n- «Are you Lucía?»\n- «It's Saturday.»",
                     "table": {
                       "headers": [
                         "Sujeto",
@@ -172,7 +172,7 @@
                   "type": "fill_blanks",
                   "content": {
                     "tag": "to_be",
-                    "instructions": "Completa con am o are.",
+                    "instructions": "Completa con «am» o «are».",
                     "items": [
                       {
                         "sentence": "I ___ from Valencia.",

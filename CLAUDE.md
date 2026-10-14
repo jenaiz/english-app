@@ -12,11 +12,12 @@ Cada punto de gramática tiene dos textos:
 La de práctica amplía la de la unidad: usa los mismos términos y ejemplos base y solo añade. **Al corregir una, revisa la otra** para que no se desfasen ni se contradigan. Se relacionan por el `tag` de la regla de la unidad, que está en los `tags` del tema, y por `units`.
 
 ### Español e inglés en las explicaciones
-Las explicaciones (reglas, `explanation` de los ítems) están en español y no mezclan idiomas en el texto corrido. Todo lo que está en inglés va marcado:
-- frases y ejemplos en inglés entre «…»: «I'm from Spain», «Is he a student? — Yes, he is»;
-- palabras o formas sueltas que se están explicando, en **negrita**: **at**, **some**, **isn't**.
+Las explicaciones (reglas, instrucciones, `explanation` y `hint` de los ítems) están en español y no mezclan idiomas en el texto corrido:
+- **Todo lo que está en inglés va entre «…»**, sean palabras sueltas o frases: «at», «isn't», «I'm from Spain».
+- **La negrita es solo para resaltar** algo importante, no para marcar inglés.
+- **Los ejemplos van en líneas aparte**, como lista («- «…»»), separados de la explicación. Su traducción o aclaración va detrás entre paréntesis.
 
-`RichText` (`frontend/src/components/RichText.tsx`) muestra «…» como ejemplo destacado y `**…**` en negrita.
+`RichText` (`frontend/src/components/RichText.tsx`) muestra «…» como ejemplo destacado; `InlineText` hace lo mismo en instrucciones y explicaciones de los ejercicios. `TestEnglishIsMarked` (`backend/internal/content/style_test.go`) avisa si queda inglés sin marcar en los niveles ya revisados (`styledLevels`).
 
 ### Frases propias
 Los libros de `assets/` (Grammar in Use y otros, en `.gitignore`) son solo referencia de temas y formatos. No se copia ningún ejemplo ni ejercicio.

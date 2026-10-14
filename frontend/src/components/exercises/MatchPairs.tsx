@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type PointerEvent as ReactPointerEvent } from 'react'
 import { shuffle } from '../../lib/answers'
 import type { ExerciseResult, MatchPairsContent } from '../../types'
+import { InlineText } from '../RichText'
 import { ExerciseDone } from './ExerciseShell'
 
 type Side = 'L' | 'R'
@@ -204,7 +205,7 @@ export default function MatchPairs({ content, onComplete }: { content: MatchPair
 
   return (
     <div>
-      {content.instructions && <p className="mb-5 font-medium text-slate-700">{content.instructions}</p>}
+      {content.instructions && <p className="mb-5 font-medium text-slate-700"><InlineText text={content.instructions} /></p>}
 
       <div
         ref={boxRef}

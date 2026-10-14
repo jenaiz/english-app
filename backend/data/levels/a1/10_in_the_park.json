@@ -123,7 +123,7 @@
                   "content": {
                     "tag": "can_could",
                     "title": "can / can't",
-                    "explanation": "Can expresa habilidad (I can play football = sé jugar al fútbol) y también permiso o petición (Can I be the goalkeeper? = ¿puedo…?).\n\nEs igual para todas las personas (he can, nunca «he cans») y va seguido del verbo sin to: She can swim (no «She can to swim»).\n\nNegativa: can't (cannot). Pregunta: Can you…? — Yes, I can / No, I can't.\n\nPronunciación: en afirmativa can suena débil, /kən/; can't suena fuerte, /kɑːnt/.",
+                    "explanation": "«Can» expresa habilidad y también permiso o petición:\n- «I can play football.» (sé jugar al fútbol)\n- «Can I be the goalkeeper?» (¿puedo…?)\n\nEs igual para todas las personas (nunca «he cans») y va seguido del verbo sin «to» (nunca «She can to swim»):\n- «She can swim.»\n\nLa negativa es «can't» («cannot»):\n- «Can you…? — Yes, I can. / No, I can't.»\n\nPronunciación: en afirmativa, «can» suena débil, /kən/; «can't» suena fuerte, /kɑːnt/.",
                     "table": {
                       "headers": [
                         "",
@@ -170,7 +170,7 @@
                   "content": {
                     "tag": "can_could",
                     "title": "could / couldn't · very and really",
-                    "explanation": "Could es el pasado de can para la habilidad: I could swim when I was six (sabía nadar). Negativa: couldn't. Pregunta: Could you…?\n\nCould también sirve para pedir algo con más educación que can: Could you help me, please? Could I have some water?\n\nVery y really refuerzan un adjetivo o un adverbio: very fast, really good, really well. Van delante de la palabra que refuerzan. Not very suaviza: I can't run very fast (no corro muy rápido).",
+                    "explanation": "«Could» es el pasado de «can» para la habilidad. La negativa es «couldn't»:\n- «I could swim when I was six.» (sabía nadar)\n\n«Could» también sirve para pedir algo con más educación que «can»:\n- «Could you help me, please?»\n- «Could I have some water?»\n\n«Very» y «really» refuerzan un adjetivo o un adverbio y van delante de la palabra que refuerzan: «very fast», «really good», «really well». «Not very» suaviza:\n- «I can't run very fast.» (no corro muy rápido)",
                     "table": {
                       "headers": [
                         "",
@@ -213,7 +213,7 @@
                   "type": "fill_blanks",
                   "content": {
                     "tag": "can_could",
-                    "instructions": "Completa con can o can't.",
+                    "instructions": "Completa con «can» o «can't».",
                     "items": [
                       {
                         "sentence": "Lucía ___ play football. (sí)",

@@ -46,6 +46,11 @@ function Block({ text }: { text: string }) {
   return <div>{body}</div>
 }
 
+/** One line of the same format, inline: exercise instructions and feedback ("Completa con «in» u «on»"). */
+export function InlineText({ text }: { text: string }) {
+  return <>{inline(text)}</>
+}
+
 /** «example» → chip, **bold** → strong, "Ojo:" → bold label. */
 function inline(text: string): ReactNode[] {
   return text.split(/(«[^»]+»|\*\*[^*]+\*\*|^Ojo:)/i).map((part, i) => {

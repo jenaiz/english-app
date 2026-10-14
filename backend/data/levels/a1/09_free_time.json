@@ -122,7 +122,7 @@
                   "content": {
                     "tag": "like_ing",
                     "title": "like / love / hate + -ing and object pronouns",
-                    "explanation": "Para hablar de gustos: love (encantar), like (gustar), don't like (no gustar), hate (odiar). Si detrás viene una actividad, el verbo va en -ing: I love dancing, He hates shopping.\n\nOrtografía del -ing: dance → dancing (pierde la -e), run → running y shop → shopping (doblan la consonante).\n\nLos pronombres objeto van detrás del verbo o de una preposición: I love it, She talks about you, Come with me. Nunca «I love she»: se dice I love her.",
+                    "explanation": "Para hablar de gustos: «love» (encantar), «like» (gustar), «don't like» (no gustar) y «hate» (odiar). Si detrás viene una actividad, el verbo va en «-ing»:\n- «I love dancing.»\n- «He hates shopping.»\n\nOrtografía del «-ing»: «dance» → «dancing» (pierde la e); «run» → «running» y «shop» → «shopping» (doblan la consonante).\n\nLos pronombres objeto van detrás del verbo o de una preposición. Nunca «I love she»: se dice «I love her».\n- «I love it.»\n- «She talks about you.»\n- «Come with me.»",
                     "table": {
                       "headers": [
                         "Sujeto",
@@ -180,7 +180,7 @@
                   "type": "fill_blanks",
                   "content": {
                     "tag": "like_ing",
-                    "instructions": "Completa con la forma -ing o un pronombre objeto.",
+                    "instructions": "Completa con la forma en «-ing» o un pronombre objeto.",
                     "items": [
                       {
                         "sentence": "I love ___. (dance)",

@@ -4,6 +4,7 @@ import { useLessonFlow } from './LessonFlow'
 import type { ItemStatus } from './useExerciseItems'
 import { buttonClass } from '../ui/Button'
 import { inputClass } from '../ui/styles'
+import { InlineText } from '../RichText'
 
 interface Props {
   instructions?: string
@@ -68,7 +69,7 @@ export default function ExerciseShell({
   return (
     <form onSubmit={submit}>
       <div className="mb-5 flex items-start justify-between gap-4">
-        {instructions && <p className="font-medium text-slate-700">{instructions}</p>}
+        {instructions && <p className="font-medium text-slate-700"><InlineText text={instructions} /></p>}
         {total > 1 && (
           <span className="shrink-0 rounded-full bg-slate-100 px-2.5 py-0.5 text-xs font-semibold text-slate-500 tabular-nums">
             {index + 1} / {total}
@@ -100,7 +101,7 @@ export default function ExerciseShell({
               Respuesta correcta: <span className="font-semibold">{correctAnswer}</span>
             </p>
           )}
-          {explanation && <p className="mt-1 text-sm opacity-90">{explanation}</p>}
+          {explanation && <p className="mt-1 text-sm opacity-90"><InlineText text={explanation} /></p>}
         </div>
       )}
 

@@ -127,7 +127,7 @@
                   "content": {
                     "tag": "present_continuous",
                     "title": "Present continuous",
-                    "explanation": "El present continuous describe lo que está pasando ahora: It's raining, I'm wearing a jumper. Se forma con am / is / are + verbo en -ing.\n\nNegativa: I'm not smiling! Pregunta: What are you doing? Are you smiling?\n\nCompáralo con el present simple, que es para rutinas: Sam always sleeps on Saturdays (rutina) / Sam is sleeping now (ahora). Pistas: now, right now, at the moment, Look! → continuous; always, usually, every day → simple.",
+                    "explanation": "El present continuous describe lo que está pasando ahora. Se forma con «am» / «is» / «are» + verbo en «-ing»:\n- «It's raining.»\n- «I'm wearing a jumper.»\n\nNegativa y pregunta:\n- «I'm not smiling!»\n- «What are you doing?»\n- «Are you smiling?»\n\nCompáralo con el present simple, que es para rutinas:\n- «Sam always sleeps on Saturdays.» (rutina)\n- «Sam is sleeping now.» (ahora)\n\nPistas: «now», «right now», «at the moment» y «Look!» van con el continuous; «always», «usually» y «every day», con el simple.",
                     "table": {
                       "headers": [
                         "Sujeto",
@@ -170,7 +170,7 @@
                   "content": {
                     "tag": "going_to",
                     "title": "be going to: plans",
-                    "explanation": "Be going to + verbo sirve para hablar de planes e intenciones: I'm going to watch a film this afternoon (voy a ver una película).\n\nSe forma con am / is / are + going to + verbo: She's going to visit her family. Negativa: I'm not going to go out. Pregunta: What are you going to do? Are you going to stay at home?\n\nSuele ir con expresiones de futuro: this afternoon, tonight, tomorrow, next week, at the weekend.",
+                    "explanation": "«Be going to» + verbo sirve para hablar de planes e intenciones:\n- «I'm going to watch a film this afternoon.» (voy a ver una película)\n\nSe forma con «am» / «is» / «are» + «going to» + verbo:\n- «She's going to visit her family.»\n- «I'm not going to go out.»\n- «What are you going to do?»\n- «Are you going to stay at home?»\n\nSuele ir con expresiones de futuro: «this afternoon», «tonight», «tomorrow», «next week», «at the weekend».",
                     "table": {
                       "headers": [
                         "",
@@ -324,7 +324,7 @@
                   "type": "fill_blanks",
                   "content": {
                     "tag": "going_to",
-                    "instructions": "Completa con la forma de be going to.",
+                    "instructions": "Completa con la forma de «be going to».",
                     "items": [
                       {
                         "sentence": "I'm ___ to watch a film tonight.",

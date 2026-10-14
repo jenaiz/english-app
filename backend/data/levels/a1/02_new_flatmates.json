@@ -86,7 +86,7 @@
                           "She are"
                         ],
                         "answer": 0,
-                        "explanation": "Aquí 's = is."
+                        "explanation": "Aquí «'s» = «is»."
                       },
                       {
                         "question": "\"Is he a student?\" — \"Yes, he ___.\"",
@@ -96,7 +96,7 @@
                           "he's"
                         ],
                         "answer": 0,
-                        "explanation": "Respuesta corta: Yes, he is."
+                        "explanation": "Respuesta corta: «Yes, he is»."
                       },
                       {
                         "question": "\"His band is really good.\" Whose band?",
@@ -106,7 +106,7 @@
                           "Lucía's"
                         ],
                         "answer": 0,
-                        "explanation": "His = de él (Sam).",
+                        "explanation": "«His» = de él (Sam).",
                         "tag": "pronouns_possessives"
                       },
                       {
@@ -128,7 +128,7 @@
                   "content": {
                     "tag": "to_be",
                     "title": "To be: he, she, it, they + possessive adjectives",
-                    "explanation": "Con he (él), she (ella) e it (cosa o animal) el verbo es is. Con they (ellos/ellas) es are.\n\nNegativa: isn't / aren't. Pregunta: el verbo va delante: «Is he a student? — Yes, he is / No, he isn't».\n\nLos posesivos van antes del nombre y no cambian en plural: my parents, his band, her family. Ojo: his = de él; her = de ella.",
+                    "explanation": "Con «he» (él), «she» (ella) e «it» (cosa o animal) el verbo es «is». Con «they» (ellos, ellas) es «are».\n\nLa negativa es «isn't» / «aren't». En la pregunta, el verbo va delante:\n- «Is he a student? — Yes, he is. / No, he isn't.»\n\nLos posesivos van antes del nombre y no cambian en plural:\n- «my parents», «his band», «her family»\n\nOjo: «his» = de él; «her» = de ella.",
                     "table": {
                       "headers": [
                         "Sujeto",
@@ -203,7 +203,7 @@
                   "content": {
                     "tag": "pronouns_possessives",
                     "title": "Possessive pronouns: mine, yours, his, hers",
-                    "explanation": "Los posesivos my, your, his, her… van siempre delante de un nombre: my room, her family.\n\nLos pronombres posesivos (mine, yours, his, hers, ours, theirs) sustituyen al posesivo y al nombre, para no repetirlo: Is this your towel? — Yes, it's mine (= my towel).\n\nOjo: his es igual en las dos formas (his band → it's his), y nunca llevan apóstrofo: yours, hers, ours (no «your's»).\n\nPara preguntar de quién es algo: Whose is this? — It's mine.",
+                    "explanation": "Los posesivos «my», «your», «his», «her»… van siempre delante de un nombre:\n- «my room», «her family»\n\nLos pronombres posesivos («mine», «yours», «his», «hers», «ours», «theirs») sustituyen al posesivo y al nombre, para no repetirlo:\n- «Is this your towel? — Yes, it's mine.» («mine» = «my towel»)\n\nOjo: «his» es igual en las dos formas («his band» → «it's his»), y estos pronombres nunca llevan apóstrofo: «yours», «hers», «ours» (nunca «your's»).\n\nPara preguntar de quién es algo:\n- «Whose is this? — It's mine.»",
                     "table": {
                       "headers": [
                         "Posesivo + nombre",
@@ -256,7 +256,7 @@
                   "type": "fill_blanks",
                   "content": {
                     "tag": "to_be",
-                    "instructions": "Completa con is, are, isn't o un posesivo (his, her, their).",
+                    "instructions": "Completa con «is», «are», «isn't» o un posesivo («his», «her», «their»).",
                     "items": [
                       {
                         "sentence": "Priya ___ a nurse.",
@@ -360,7 +360,7 @@
                   "type": "fill_blanks",
                   "content": {
                     "tag": "pronouns_possessives",
-                    "instructions": "Completa con mine, yours, his, hers, ours o theirs.",
+                    "instructions": "Completa con «mine», «yours», «his», «hers», «ours» o «theirs».",
                     "items": [
                       {
                         "sentence": "Is this your key? — Yes, it's ___.",
