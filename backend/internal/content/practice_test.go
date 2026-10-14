@@ -118,6 +118,12 @@ func TestPracticeValidation(t *testing.T) {
 		{"id without topic prefix", func(p *PracticeTopic) {
 			p.Sets[0].Items[0] = json.RawMessage(`{"id": "other.1", "sentence": "At ___.", "answers": [["at"]]}`)
 		}, "must start"},
+		{"answer not in the word list", func(p *PracticeTopic) {
+			p.Sets[0].Bank = []string{"in", "on"}
+		}, "word list"},
+		{"bare contraction only", func(p *PracticeTopic) {
+			p.Sets[0].Items[0] = json.RawMessage(`{"id": "a1_x.1", "sentence": "It ___.", "answers": [["'s raining"]]}`)
+		}, "contraction"},
 		{"choice answer out of range", func(p *PracticeTopic) {
 			p.Sets[0] = PracticeSet{Type: "multiple_choice", Instructions: "Elige.", Items: []json.RawMessage{
 				json.RawMessage(`{"id": "a1_x.1", "question": "Q", "options": ["a", "b"], "answer": 2}`),

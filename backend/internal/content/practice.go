@@ -247,6 +247,9 @@ func (t *PracticeTopic) validate(catalog *Catalog, exams *Exams) error {
 		}
 		for i, raw := range s.Items {
 			id, err := checkPracticeItem(s.Type, raw)
+			if err == nil && s.Type == "fill_blanks" {
+				err = checkPracticeBlanks(raw, s.Bank)
+			}
 			if err != nil {
 				return fmt.Errorf("set %d item %d: %w", si+1, i+1, err)
 			}
@@ -321,4 +324,37 @@ func checkPracticeItem(typ string, raw json.RawMessage) (string, error) {
 		}
 	}
 	return it.ID, nil
+}
+
+// checkPracticeBlanks makes sure every blank can be answered: with a word list, from it; and never only
+// with a bare contraction ("'s raining"), which a learner typing "is raining" would not match.
+func checkPracticeBlanks(raw json.RawMessage, bank []string) error {
+	var it struct {
+		Answers [][]string `json:"answers"`
+	}
+	if err := json.Unmarshal(raw, &it); err != nil {
+		return err
+	}
+	inBank := map[string]bool{}
+	for _, w := range bank {
+		inBank[strings.ToLower(w)] = true
+	}
+	for b, answers := range it.Answers {
+		bare, fromBank := true, false
+		for _, a := range answers {
+			if !strings.HasPrefix(a, "'") {
+				bare = false
+			}
+			if inBank[strings.ToLower(a)] {
+				fromBank = true
+			}
+		}
+		if bare {
+			return fmt.Errorf("blank %d only accepts a bare contraction %v; add the full form", b+1, answers)
+		}
+		if len(bank) > 0 && !fromBank {
+			return fmt.Errorf("blank %d: no answer %v is in the word list", b+1, answers)
+		}
+	}
+	return nil
 }
