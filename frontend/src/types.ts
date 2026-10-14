@@ -525,6 +525,8 @@ export interface PaperItem {
   options?: string[]
   /** Shuffled words of an order item. */
   words?: string[]
+  /** Final ? or ! of an order item, shown fixed after the sentence. */
+  ending?: string
 }
 
 export interface PaperPart {

@@ -86,3 +86,19 @@ func TestVocabulary(t *testing.T) {
 		t.Fatalf("unexpected vocabulary: %+v", v)
 	}
 }
+
+func TestQuestionMark(t *testing.T) {
+	for s, ok := range map[string]bool{
+		"Is he a student?":               true,
+		"Is he a student":                false,
+		"What time are you meeting":      false,
+		"How was your weekend?":          true,
+		"What I need is a long holiday":  true,
+		"When I arrive, I will call you": true,
+		"She is a nurse":                 true,
+	} {
+		if err := checkQuestionMark(s); (err == nil) != ok {
+			t.Errorf("%q: got %v", s, err)
+		}
+	}
+}

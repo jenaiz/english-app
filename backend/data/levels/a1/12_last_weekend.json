@@ -251,7 +251,7 @@
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
-                        "answer": "How was your weekend"
+                        "answer": "How was your weekend?"
                       },
                       {
                         "answer": "I went to the market with Priya"
@@ -263,7 +263,7 @@
                         "answer": "It was very windy"
                       },
                       {
-                        "answer": "What did you do"
+                        "answer": "What did you do?"
                       }
                     ]
                   }

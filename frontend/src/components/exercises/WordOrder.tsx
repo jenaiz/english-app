@@ -215,7 +215,14 @@ export default function WordOrder({ content, onComplete }: { content: ItemsConte
           {picked.length === 0 && <span className="text-slate-400">Toca o arrastra las palabras en orden…</span>}
           {picked.map((id) => chip(id, true))}
           {ending && (
-            <span className="ml-0.5 text-2xl leading-none font-bold text-indigo-400" title={ending === '?' ? 'Es una pregunta' : undefined}>
+            // Pinned to the end of the line, so the learner knows from the start it's a question.
+            <span
+              className={`ml-auto pr-1 pl-2 text-3xl leading-none font-extrabold select-none ${
+                answered ? (ex.status === 'correct' ? 'text-emerald-500' : 'text-red-400') : 'text-indigo-400'
+              }`}
+              title={ending === '?' ? 'Es una pregunta' : undefined}
+              aria-label={ending === '?' ? 'Es una pregunta' : undefined}
+            >
               {ending}
             </span>
           )}

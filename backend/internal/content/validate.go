@@ -209,7 +209,7 @@ func validateStep(s Step) error {
 			if len(strings.Fields(it.Answer)) < 2 {
 				return fmt.Errorf("answer needs at least 2 words")
 			}
-			return nil
+			return checkQuestionMark(it.Answer)
 		})
 	case "transformation", "translation":
 		return eachItem(s.Content, func(it struct {
@@ -250,6 +250,35 @@ func eachItem[T any](raw json.RawMessage, check func(T) error) error {
 		if err := check(it); err != nil {
 			return fmt.Errorf("item %d %w", i+1, err)
 		}
+	}
+	return nil
+}
+
+// auxStarts open a question by inversion ("Is he…", "Can you…").
+var auxStarts = map[string]bool{
+	"am": true, "is": true, "are": true, "was": true, "were": true, "do": true, "does": true, "did": true,
+	"have": true, "has": true, "had": true, "can": true, "could": true, "will": true, "would": true,
+	"shall": true, "should": true, "may": true, "might": true, "must": true,
+}
+
+var whStarts = map[string]bool{
+	"what": true, "where": true, "when": true, "why": true, "who": true, "whom": true, "whose": true,
+	"which": true, "how": true,
+}
+
+// subjects after a wh- word make a clause, not a question ("What I need is…", "When I arrive…").
+var subjects = map[string]bool{"i": true, "you": true, "he": true, "she": true, "it": true, "we": true, "they": true}
+
+// checkQuestionMark makes a sentence to put in order end with "?" when it is a question: the
+// chips drop punctuation and the exercise shows the final mark, which tells the learner to
+// build a question.
+func checkQuestionMark(sentence string) error {
+	s := strings.TrimSpace(sentence)
+	w := strings.Fields(strings.ToLower(s)) // callers ensure 2+ words
+	first, second := strings.TrimRight(w[0], ","), strings.TrimRight(w[1], ",")
+	question := auxStarts[first] || whStarts[first] && !subjects[second]
+	if question && !strings.HasSuffix(s, "?") {
+		return fmt.Errorf("question %q must end with ?", s)
 	}
 	return nil
 }

@@ -354,6 +354,9 @@ func (it ExamItem) check() error {
 		if len(it.Accept) == 0 || len(strings.Fields(it.Accept[0])) < 3 {
 			return fmt.Errorf("needs a sentence of at least 3 words in accept")
 		}
+		if err := checkQuestionMark(it.Accept[0]); err != nil {
+			return err
+		}
 		words := sortedWords(it.Accept[0])
 		for _, a := range it.Accept[1:] {
 			if sortedWords(a) != words {
@@ -432,6 +435,8 @@ type PaperItem struct {
 	Prompt  string   `json:"prompt,omitempty"`
 	Options []string `json:"options,omitempty"`
 	Words   []string `json:"words,omitempty"`
+	// Ending is the final ? or ! of an order item, shown fixed after the sentence.
+	Ending string `json:"ending,omitempty"`
 }
 
 // Paper builds the attempt's paper. Options and words are shuffled with the attempt's seed,
@@ -457,6 +462,9 @@ func (e *Exam) Paper(f Form, seed string, voices Voices) Paper {
 				case ExamOrder:
 					// Punctuation is dropped so it can't hint at the order (as in the lessons'
 					// word_order); answers are compared normalized anyway.
+					if e := strings.TrimSpace(it.Accept[0]); strings.HasSuffix(e, "?") || strings.HasSuffix(e, "!") {
+						pi.Ending = e[len(e)-1:]
+					}
 					words := strings.Fields(it.Accept[0])
 					for i, w := range words {
 						words[i] = strings.TrimRight(w, ".,!?;:")

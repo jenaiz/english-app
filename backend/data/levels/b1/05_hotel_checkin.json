@@ -242,7 +242,7 @@
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
-                        "answer": "Could you fill in this form"
+                        "answer": "Could you fill in this form?"
                       },
                       {
                         "answer": "Pick them up before you leave"
@@ -254,7 +254,7 @@
                         "answer": "We can put up with the noise"
                       },
                       {
-                        "answer": "Can we drop off our bags"
+                        "answer": "Can we drop off our bags?"
                       }
                     ]
                   }

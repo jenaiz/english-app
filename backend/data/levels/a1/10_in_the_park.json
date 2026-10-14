@@ -278,19 +278,19 @@
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
-                        "answer": "Can you play football"
+                        "answer": "Can you play football?"
                       },
                       {
                         "answer": "I can't run very fast"
                       },
                       {
-                        "answer": "Can I be the goalkeeper"
+                        "answer": "Can I be the goalkeeper?"
                       },
                       {
                         "answer": "She can play really well"
                       },
                       {
-                        "answer": "Can you help me"
+                        "answer": "Can you help me?"
                       }
                     ]
                   }

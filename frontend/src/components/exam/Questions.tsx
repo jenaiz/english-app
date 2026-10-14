@@ -99,6 +99,11 @@ function Order({ item, value, onChange }: Props) {
             {words[i]}
           </button>
         ))}
+        {item.ending && (
+          <span className="ml-auto pr-1 pl-2 text-2xl leading-none font-extrabold text-indigo-400 select-none" aria-label={item.ending === '?' ? 'Es una pregunta' : undefined}>
+            {item.ending}
+          </span>
+        )}
       </div>
       <div className="mt-3 flex flex-wrap gap-2">
         {words.map((w, i) =>

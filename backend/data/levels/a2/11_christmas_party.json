@@ -292,7 +292,7 @@
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
-                        "answer": "Would you like a drink"
+                        "answer": "Would you like a drink?"
                       },
                       {
                         "answer": "I'd like to take you to dinner"
@@ -301,7 +301,7 @@
                         "answer": "I decided to fly home"
                       },
                       {
-                        "answer": "Do you want to dance"
+                        "answer": "Do you want to dance?"
                       },
                       {
                         "answer": "I'd love to"
