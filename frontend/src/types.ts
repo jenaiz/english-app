@@ -630,7 +630,14 @@ export interface PracticeTopicSummary {
   last_at?: string
 }
 export interface PracticeRound {
-  topic: { topic_id: string; level_id: string; title: string; rule: GrammarRuleContent }
+  topic: {
+    topic_id: string
+    level_id: string
+    title: string
+    rule: GrammarRuleContent
+    /** Units that teach the topic, to see their own (shorter) rule. */
+    units: { unit_id: string; level_id: string; title: string }[]
+  }
   /** One step per exercise type; every item carries its id. */
   steps: Step<ItemsContent<{ id: string }>>[]
 }

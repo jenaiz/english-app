@@ -259,6 +259,19 @@ function Round({ topicId }: { topicId: string }) {
         </summary>
         <div className="border-t border-amber-200 bg-white p-5">
           <GrammarRuleStep content={round.topic.rule} />
+          {round.topic.units.length > 0 && (
+            <p className="mt-5 border-t border-slate-100 pt-4 text-sm text-slate-500">
+              Así lo viste en {round.topic.units.length === 1 ? 'la unidad' : 'las unidades'}{' '}
+              {round.topic.units.map((u, i) => (
+                <span key={u.unit_id}>
+                  {i > 0 && (i === round.topic.units.length - 1 ? ' y ' : ', ')}
+                  <Link to={`/unidades/${u.unit_id}/estudiar?level=${u.level_id}`} className="font-medium text-indigo-600 hover:underline">
+                    {u.title}
+                  </Link>
+                </span>
+              ))}
+            </p>
+          )}
         </div>
       </details>
 

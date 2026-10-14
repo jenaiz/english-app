@@ -144,6 +144,22 @@ func (h *PracticeHandler) firstUnit(t *content.PracticeTopic) *unitLink {
 	return &unitLink{UnitID: best.Unit.UnitID, LevelID: best.LevelID, Title: best.Unit.Title}
 }
 
+// unitLinks are the units that teach the topic, in course order, to go back to their rule.
+func (h *PracticeHandler) unitLinks(t *content.PracticeTopic) []unitLink {
+	var refs []content.UnitRef
+	for _, id := range t.Units {
+		if ref, ok := h.Catalog.Unit("", id); ok {
+			refs = append(refs, ref)
+		}
+	}
+	sort.Slice(refs, func(i, j int) bool { return refs[i].Pos < refs[j].Pos })
+	out := []unitLink{}
+	for _, ref := range refs {
+		out = append(out, unitLink{UnitID: ref.Unit.UnitID, LevelID: ref.LevelID, Title: ref.Unit.Title})
+	}
+	return out
+}
+
 type practiceStep struct {
 	Type    string         `json:"type"`
 	Content map[string]any `json:"content"`
@@ -178,7 +194,7 @@ func (h *PracticeHandler) Session(w http.ResponseWriter, r *http.Request) {
 		delete(s.Content, "set")
 	}
 	writeJSON(w, http.StatusOK, map[string]any{
-		"topic": map[string]any{"topic_id": t.TopicID, "level_id": t.LevelID, "title": t.Title, "rule": t.Rule},
+		"topic": map[string]any{"topic_id": t.TopicID, "level_id": t.LevelID, "title": t.Title, "rule": t.Rule, "units": h.unitLinks(t)},
 		"steps": steps,
 	})
 }
