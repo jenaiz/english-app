@@ -1,0 +1,581 @@
+{
+  "topic_id": "a1_how_much_many",
+  "level_id": "A1",
+  "title": "Contables e incontables: how much / how many",
+  "tags": [
+    "how_much_id_like"
+  ],
+  "units": [
+    "at_the_pub"
+  ],
+  "rule": {
+    "title": "How much / how many · I'd like",
+    "explanation": "Los nombres contables se pueden contar: tienen plural y llevan «a» / «an». Los incontables no tienen plural ni llevan «a» / «an»:\n- contables: «a burger», «two burgers», «an apple», «three eggs»\n- incontables: «water», «bread», «milk», «rice», «money», «cheese»\n\n«How many…?» pregunta por la cantidad de algo contable, con el nombre en plural. «How much…?» pregunta por algo incontable:\n- «How many burgers would you like?»\n- «How many people are there?»\n- «How much water is there?»\n\n«How much» también pregunta el precio:\n- «How much is the burger? — It's twelve pounds.»\n- «How much are the chips? — Four pounds fifty.»\n\nPara contar incontables usamos un envase o una medida:\n- «a glass of wine», «a cup of tea», «a bottle of water», «a piece of cake», «a slice of bread»\n\nEn un bar o una cafetería, las bebidas se cuentan cuando pides vasos o tazas: «two coffees, please».\n\n«I'd like» (= «I would like») es la forma educada de pedir algo. Va con un nombre o con «to» + verbo:\n- «I'd like a cup of tea, please.»\n- «I'd like to pay, please.»\n- «Would you like some cake? — Yes, please. / No, thank you.»\n\nOjo: «I like» (me gusta) no es lo mismo que «I'd like» (quiero, me gustaría).",
+    "table": {
+      "headers": [
+        "",
+        "Contables",
+        "Incontables"
+      ],
+      "rows": [
+        [
+          "Ejemplos",
+          "a burger, two eggs",
+          "water, bread, money"
+        ],
+        [
+          "Cantidad",
+          "How many eggs are there?",
+          "How much bread is there?"
+        ],
+        [
+          "Precio",
+          "How much are the eggs?",
+          "How much is the bread?"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «much» o «many».",
+      "bank": [
+        "much",
+        "many"
+      ],
+      "items": [
+        {
+          "id": "a1_how_much_many.001",
+          "sentence": "How ___ burgers would you like?",
+          "answers": [
+            [
+              "many"
+            ]
+          ]
+        },
+        {
+          "id": "a1_how_much_many.002",
+          "sentence": "How ___ water is there in the bottle?",
+          "answers": [
+            [
+              "much"
+            ]
+          ],
+          "explanation": "«water» es incontable."
+        },
+        {
+          "id": "a1_how_much_many.003",
+          "sentence": "How ___ is a cup of coffee? — Two pounds.",
+          "answers": [
+            [
+              "much"
+            ]
+          ],
+          "explanation": "El precio: «How much»."
+        },
+        {
+          "id": "a1_how_much_many.004",
+          "sentence": "How ___ people are there in your family?",
+          "answers": [
+            [
+              "many"
+            ]
+          ],
+          "explanation": "«people» es plural."
+        },
+        {
+          "id": "a1_how_much_many.005",
+          "sentence": "How ___ bread is there? — Not a lot.",
+          "answers": [
+            [
+              "much"
+            ]
+          ]
+        },
+        {
+          "id": "a1_how_much_many.006",
+          "sentence": "How ___ are the tickets? — Ten pounds each.",
+          "answers": [
+            [
+              "much"
+            ]
+          ],
+          "explanation": "El precio: «How much»."
+        },
+        {
+          "id": "a1_how_much_many.007",
+          "sentence": "How ___ eggs are there in the fridge?",
+          "answers": [
+            [
+              "many"
+            ]
+          ]
+        },
+        {
+          "id": "a1_how_much_many.008",
+          "sentence": "How ___ money have you got?",
+          "answers": [
+            [
+              "much"
+            ]
+          ],
+          "explanation": "«money» es incontable."
+        },
+        {
+          "id": "a1_how_much_many.009",
+          "sentence": "How ___ students are there in your class?",
+          "answers": [
+            [
+              "many"
+            ]
+          ]
+        },
+        {
+          "id": "a1_how_much_many.010",
+          "sentence": "How ___ cheese is there?",
+          "answers": [
+            [
+              "much"
+            ]
+          ]
+        },
+        {
+          "id": "a1_how_much_many.011",
+          "sentence": "How ___ is it? — It's thirty-two pounds fifty.",
+          "answers": [
+            [
+              "much"
+            ]
+          ],
+          "explanation": "El precio: «How much»."
+        },
+        {
+          "id": "a1_how_much_many.012",
+          "sentence": "How ___ rooms are there in the hotel?",
+          "answers": [
+            [
+              "many"
+            ]
+          ]
+        },
+        {
+          "id": "a1_how_much_many.013",
+          "sentence": "How ___ milk is there? — Just a little.",
+          "answers": [
+            [
+              "much"
+            ]
+          ]
+        },
+        {
+          "id": "a1_how_much_many.014",
+          "sentence": "How ___ apples would you like? — Four, please.",
+          "answers": [
+            [
+              "many"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la palabra que falta.",
+      "bank": [
+        "glass",
+        "cup",
+        "bottle",
+        "piece",
+        "slice",
+        "like",
+        "Would",
+        "to"
+      ],
+      "items": [
+        {
+          "id": "a1_how_much_many.101",
+          "sentence": "Can I have a ___ of water, please?",
+          "answers": [
+            [
+              "glass"
+            ]
+          ],
+          "hint": "vaso"
+        },
+        {
+          "id": "a1_how_much_many.102",
+          "sentence": "I'd ___ a lemonade, please.",
+          "answers": [
+            [
+              "like"
+            ]
+          ]
+        },
+        {
+          "id": "a1_how_much_many.103",
+          "sentence": "___ you like some cake?",
+          "answers": [
+            [
+              "Would"
+            ]
+          ]
+        },
+        {
+          "id": "a1_how_much_many.104",
+          "sentence": "A ___ of tea, please. With milk.",
+          "answers": [
+            [
+              "cup"
+            ]
+          ],
+          "hint": "taza"
+        },
+        {
+          "id": "a1_how_much_many.105",
+          "sentence": "Can I have a ___ of cake?",
+          "answers": [
+            [
+              "piece"
+            ]
+          ],
+          "hint": "trozo"
+        },
+        {
+          "id": "a1_how_much_many.106",
+          "sentence": "We need a ___ of wine for dinner.",
+          "answers": [
+            [
+              "bottle"
+            ]
+          ],
+          "hint": "botella"
+        },
+        {
+          "id": "a1_how_much_many.107",
+          "sentence": "I'd like a ___ of bread with butter.",
+          "answers": [
+            [
+              "slice"
+            ]
+          ],
+          "hint": "rebanada"
+        },
+        {
+          "id": "a1_how_much_many.108",
+          "sentence": "I'd like ___ pay, please.",
+          "answers": [
+            [
+              "to"
+            ]
+          ],
+          "explanation": "«I'd like» + «to» + verbo."
+        },
+        {
+          "id": "a1_how_much_many.109",
+          "sentence": "___ you like a drink? — Yes, please. A cider.",
+          "answers": [
+            [
+              "Would"
+            ]
+          ]
+        },
+        {
+          "id": "a1_how_much_many.110",
+          "sentence": "I ___ chocolate. It's my favourite!",
+          "answers": [
+            [
+              "like"
+            ]
+          ],
+          "explanation": "Es un gusto en general: «I like», no «I'd like».",
+          "hint": "me gusta"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué es correcto?",
+      "items": [
+        {
+          "id": "a1_how_much_many.201",
+          "question": "¿Cuánta leche hay?",
+          "options": [
+            "How many milk is there?",
+            "How much milk is there?"
+          ],
+          "answer": 1,
+          "explanation": "«milk» es incontable: «How much»."
+        },
+        {
+          "id": "a1_how_much_many.202",
+          "question": "¿Cuántos huevos hay?",
+          "options": [
+            "How many eggs are there?",
+            "How much eggs are there?"
+          ],
+          "answer": 0,
+          "explanation": "«eggs» es contable: «How many»."
+        },
+        {
+          "id": "a1_how_much_many.203",
+          "question": "¿Cuánto cuesta?",
+          "options": [
+            "How much is it?",
+            "How many is it?"
+          ],
+          "answer": 0,
+          "explanation": "El precio: «How much»."
+        },
+        {
+          "id": "a1_how_much_many.204",
+          "question": "Quiero un café, por favor.",
+          "options": [
+            "I like a coffee, please.",
+            "I'd like a coffee, please."
+          ],
+          "answer": 1,
+          "explanation": "Para pedir: «I'd like»."
+        },
+        {
+          "id": "a1_how_much_many.205",
+          "question": "Un vaso de vino tinto.",
+          "options": [
+            "a glass of red wine",
+            "a red wine glass"
+          ],
+          "answer": 0,
+          "explanation": "La bebida servida: «a glass of…»; «a wine glass» es la copa."
+        },
+        {
+          "id": "a1_how_much_many.206",
+          "question": "Necesito dinero.",
+          "options": [
+            "I need some money.",
+            "I need a money."
+          ],
+          "answer": 0,
+          "explanation": "«money» es incontable: nunca «a»."
+        },
+        {
+          "id": "a1_how_much_many.207",
+          "question": "¿Quieres pan? — Sí, por favor.",
+          "options": [
+            "Would you like some bread? — Yes, please.",
+            "Do you like some bread? — Yes, please."
+          ],
+          "answer": 0,
+          "explanation": "Para ofrecer: «Would you like…?»."
+        },
+        {
+          "id": "a1_how_much_many.208",
+          "question": "Dos cafés, por favor.",
+          "options": [
+            "Two coffees, please.",
+            "Two coffee, please."
+          ],
+          "answer": 0,
+          "explanation": "Al pedir tazas, «coffee» se cuenta: «two coffees»."
+        },
+        {
+          "id": "a1_how_much_many.209",
+          "question": "¿Cuántas personas hay?",
+          "options": [
+            "How many people are there?",
+            "How much people are there?"
+          ],
+          "answer": 0,
+          "explanation": "«people» es plural: «How many»."
+        },
+        {
+          "id": "a1_how_much_many.210",
+          "question": "Un trozo de tarta.",
+          "options": [
+            "a piece of cake",
+            "a cake piece"
+          ],
+          "answer": 0,
+          "explanation": "Para contar incontables: «a piece of…»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Cada frase tiene un error. Escríbela bien.",
+      "items": [
+        {
+          "id": "a1_how_much_many.301",
+          "prompt": "Corrige",
+          "source": "How many water is there?",
+          "answers": [
+            "How much water is there"
+          ],
+          "explanation": "«water» es incontable."
+        },
+        {
+          "id": "a1_how_much_many.302",
+          "prompt": "Corrige",
+          "source": "How much apples are there?",
+          "answers": [
+            "How many apples are there"
+          ],
+          "explanation": "«apples» es contable."
+        },
+        {
+          "id": "a1_how_much_many.303",
+          "prompt": "Corrige",
+          "source": "I like a lemonade, please.",
+          "answers": [
+            "I'd like a lemonade, please"
+          ],
+          "explanation": "Para pedir: «I'd like»."
+        },
+        {
+          "id": "a1_how_much_many.304",
+          "prompt": "Corrige",
+          "source": "Can I have a bread?",
+          "answers": [
+            "Can I have some bread",
+            "Can I have a piece of bread",
+            "Can I have a slice of bread"
+          ],
+          "explanation": "«bread» es incontable: nunca «a bread»."
+        },
+        {
+          "id": "a1_how_much_many.305",
+          "prompt": "Corrige",
+          "source": "How much are the coffee?",
+          "answers": [
+            "How much is the coffee"
+          ]
+        },
+        {
+          "id": "a1_how_much_many.306",
+          "prompt": "Corrige",
+          "source": "I'd like pay, please.",
+          "answers": [
+            "I'd like to pay, please"
+          ],
+          "explanation": "«I'd like» + «to» + verbo."
+        },
+        {
+          "id": "a1_how_much_many.307",
+          "prompt": "Corrige",
+          "source": "We need two milks.",
+          "answers": [
+            "We need two bottles of milk",
+            "We need two cartons of milk",
+            "We need some milk"
+          ],
+          "explanation": "«milk» es incontable."
+        },
+        {
+          "id": "a1_how_much_many.308",
+          "prompt": "Corrige",
+          "source": "How many is the ticket?",
+          "answers": [
+            "How much is the ticket"
+          ],
+          "explanation": "El precio: «How much»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_how_much_many.401",
+          "source": "¿Cuánto cuesta la cerveza?",
+          "answers": [
+            "How much is the beer"
+          ]
+        },
+        {
+          "id": "a1_how_much_many.402",
+          "source": "¿Cuántas hamburguesas quieres?",
+          "answers": [
+            "How many burgers would you like",
+            "How many burgers do you want"
+          ]
+        },
+        {
+          "id": "a1_how_much_many.403",
+          "source": "Quería un vaso de agua, por favor.",
+          "answers": [
+            "I'd like a glass of water please",
+            "Can I have a glass of water please"
+          ]
+        },
+        {
+          "id": "a1_how_much_many.404",
+          "source": "¿Cuánto pan hay?",
+          "answers": [
+            "How much bread is there"
+          ]
+        },
+        {
+          "id": "a1_how_much_many.405",
+          "source": "¿Quieres una taza de té?",
+          "answers": [
+            "Would you like a cup of tea",
+            "Do you want a cup of tea"
+          ]
+        },
+        {
+          "id": "a1_how_much_many.406",
+          "source": "Quería pagar, por favor.",
+          "answers": [
+            "I'd like to pay please",
+            "Can I pay please"
+          ]
+        },
+        {
+          "id": "a1_how_much_many.407",
+          "source": "¿Cuántos estudiantes hay?",
+          "answers": [
+            "How many students are there"
+          ]
+        },
+        {
+          "id": "a1_how_much_many.408",
+          "source": "Una botella de agua, por favor.",
+          "answers": [
+            "A bottle of water please",
+            "Can I have a bottle of water please"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_how_much_many.501",
+          "answer": "How much is a glass of wine?"
+        },
+        {
+          "id": "a1_how_much_many.502",
+          "answer": "How many people are there?"
+        },
+        {
+          "id": "a1_how_much_many.503",
+          "answer": "I'd like a cup of tea"
+        },
+        {
+          "id": "a1_how_much_many.504",
+          "answer": "Would you like some cake?"
+        },
+        {
+          "id": "a1_how_much_many.505",
+          "answer": "How much bread is there?"
+        },
+        {
+          "id": "a1_how_much_many.506",
+          "answer": "Can I have a bottle of water?"
+        }
+      ]
+    }
+  ]
+}

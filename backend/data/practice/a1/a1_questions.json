@@ -1,0 +1,561 @@
+{
+  "topic_id": "a1_questions",
+  "level_id": "A1",
+  "title": "Preguntas: what, where, who, how…",
+  "tags": [
+    "questions"
+  ],
+  "units": [
+    "first_day"
+  ],
+  "rule": {
+    "title": "Wh- questions with be and have got",
+    "explanation": "Las preguntas con palabra interrogativa empiezan por ella, y después van el verbo «be» y el sujeto:\n- «What's your name?»\n- «Where are you from?»\n- «How are you?»\n\nLas más frecuentes:\n- «what» (qué, cuál): «What's your phone number?»\n- «where» (dónde): «Where's the toilet?»\n- «who» (quién): «Who's that man?»\n- «when» (cuándo): «When's your birthday?»\n- «how» (cómo): «How are you?»\n- «how old» (qué edad): «How old is Javi?»\n- «what time» (a qué hora): «What time is the meeting?»\n\nOjo: en español se pregunta «¿Cuál es tu nombre?», pero en inglés es «What's your name?». La edad también va con «be»: «How old are you? — I'm twenty-five.»\n\nLa preposición va al final de la pregunta (nunca «From where are you?»):\n- «Where are you from?»\n\nLas preguntas de sí o no empiezan por el verbo. Con «have got» (tener, en inglés británico), «have» o «has» van delante del sujeto:\n- «Is Helen your boss? — Yes, she is.»\n- «Have you got a laptop? — Yes, I have. / No, I haven't.»\n- «Has Sam got a car? — No, he hasn't.»",
+    "table": {
+      "headers": [
+        "Palabra",
+        "Significado",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "What",
+          "qué / cuál",
+          "What's your name?"
+        ],
+        [
+          "Where",
+          "dónde",
+          "Where are you from?"
+        ],
+        [
+          "Who",
+          "quién",
+          "Who is Daniel?"
+        ],
+        [
+          "When",
+          "cuándo",
+          "When is the party?"
+        ],
+        [
+          "How",
+          "cómo",
+          "How are you?"
+        ],
+        [
+          "How old",
+          "qué edad",
+          "How old is Javi?"
+        ],
+        [
+          "What time",
+          "a qué hora",
+          "What time is lunch?"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la palabra interrogativa.",
+      "bank": [
+        "What",
+        "Where",
+        "Who",
+        "When",
+        "How",
+        "How old",
+        "What time"
+      ],
+      "items": [
+        {
+          "id": "a1_questions.001",
+          "sentence": "___ is your name? — Lucía.",
+          "answers": [
+            [
+              "What"
+            ]
+          ]
+        },
+        {
+          "id": "a1_questions.002",
+          "sentence": "___ are you from? — From Spain.",
+          "answers": [
+            [
+              "Where"
+            ]
+          ]
+        },
+        {
+          "id": "a1_questions.003",
+          "sentence": "___ is that woman? — She's my boss.",
+          "answers": [
+            [
+              "Who"
+            ]
+          ]
+        },
+        {
+          "id": "a1_questions.004",
+          "sentence": "___ is your birthday? — In May.",
+          "answers": [
+            [
+              "When"
+            ]
+          ]
+        },
+        {
+          "id": "a1_questions.005",
+          "sentence": "___ are you? — Fine, thanks.",
+          "answers": [
+            [
+              "How"
+            ]
+          ]
+        },
+        {
+          "id": "a1_questions.006",
+          "sentence": "___ is your brother? — He's thirty.",
+          "answers": [
+            [
+              "How old"
+            ]
+          ],
+          "explanation": "La edad: «How old…?»."
+        },
+        {
+          "id": "a1_questions.007",
+          "sentence": "___ is the meeting? — At ten.",
+          "answers": [
+            [
+              "What time"
+            ]
+          ],
+          "explanation": "La hora de algo: «What time…?»."
+        },
+        {
+          "id": "a1_questions.008",
+          "sentence": "___ is the toilet? — Over there, on the left.",
+          "answers": [
+            [
+              "Where"
+            ]
+          ]
+        },
+        {
+          "id": "a1_questions.009",
+          "sentence": "___ is your phone number?",
+          "answers": [
+            [
+              "What"
+            ]
+          ]
+        },
+        {
+          "id": "a1_questions.010",
+          "sentence": "___ is the party? — On Saturday.",
+          "answers": [
+            [
+              "When"
+            ]
+          ]
+        },
+        {
+          "id": "a1_questions.011",
+          "sentence": "___ is your favourite singer? — Adele.",
+          "answers": [
+            [
+              "Who"
+            ]
+          ]
+        },
+        {
+          "id": "a1_questions.012",
+          "sentence": "___ is the weather in Galway? — Rainy, as always!",
+          "answers": [
+            [
+              "How"
+            ]
+          ]
+        },
+        {
+          "id": "a1_questions.013",
+          "sentence": "___ are your parents? — They're sixty.",
+          "answers": [
+            [
+              "How old"
+            ]
+          ]
+        },
+        {
+          "id": "a1_questions.014",
+          "sentence": "___ is lunch? — At one o'clock.",
+          "answers": [
+            [
+              "What time"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa la pregunta con «is», «are», «have» o «has».",
+      "bank": [
+        "is",
+        "are",
+        "have",
+        "has"
+      ],
+      "items": [
+        {
+          "id": "a1_questions.101",
+          "sentence": "Where ___ my keys?",
+          "answers": [
+            [
+              "are"
+            ]
+          ]
+        },
+        {
+          "id": "a1_questions.102",
+          "sentence": "What ___ Helen's surname?",
+          "answers": [
+            [
+              "is"
+            ]
+          ]
+        },
+        {
+          "id": "a1_questions.103",
+          "sentence": "___ you got a pen?",
+          "answers": [
+            [
+              "Have"
+            ]
+          ]
+        },
+        {
+          "id": "a1_questions.104",
+          "sentence": "___ Sam got a car? — No, he hasn't.",
+          "answers": [
+            [
+              "Has"
+            ]
+          ],
+          "explanation": "Con «he», «she» e «it»: «has»."
+        },
+        {
+          "id": "a1_questions.105",
+          "sentence": "How old ___ your sister?",
+          "answers": [
+            [
+              "is"
+            ]
+          ]
+        },
+        {
+          "id": "a1_questions.106",
+          "sentence": "Who ___ those people?",
+          "answers": [
+            [
+              "are"
+            ]
+          ]
+        },
+        {
+          "id": "a1_questions.107",
+          "sentence": "___ your flatmates at home?",
+          "answers": [
+            [
+              "Are"
+            ]
+          ]
+        },
+        {
+          "id": "a1_questions.108",
+          "sentence": "Have you got any brothers? — Yes, I ___.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué pregunta es correcta?",
+      "items": [
+        {
+          "id": "a1_questions.201",
+          "question": "¿Cuál es tu nombre?",
+          "options": [
+            "Which is your name?",
+            "What's your name?"
+          ],
+          "answer": 1,
+          "explanation": "Para preguntar el nombre: «What»."
+        },
+        {
+          "id": "a1_questions.202",
+          "question": "¿Cuántos años tienes?",
+          "options": [
+            "How old are you?",
+            "How many years have you?"
+          ],
+          "answer": 0,
+          "explanation": "La edad: «How old are you?»."
+        },
+        {
+          "id": "a1_questions.203",
+          "question": "¿Dónde está la estación?",
+          "options": [
+            "Where is the station?",
+            "Where the station is?"
+          ],
+          "answer": 0,
+          "explanation": "El verbo va antes del sujeto."
+        },
+        {
+          "id": "a1_questions.204",
+          "question": "¿Quién es Daniel?",
+          "options": [
+            "Who is Daniel?",
+            "Who Daniel is?"
+          ],
+          "answer": 0,
+          "explanation": "El verbo va antes del sujeto."
+        },
+        {
+          "id": "a1_questions.205",
+          "question": "¿Tienes coche?",
+          "options": [
+            "Have you got a car?",
+            "Have you a car got?"
+          ],
+          "answer": 0,
+          "explanation": "«Have» + sujeto + «got»."
+        },
+        {
+          "id": "a1_questions.206",
+          "question": "¿A qué hora es la clase?",
+          "options": [
+            "At what hour is the class?",
+            "What time is the class?"
+          ],
+          "answer": 1,
+          "explanation": "La hora: «What time…?»."
+        },
+        {
+          "id": "a1_questions.207",
+          "question": "¿Tiene Priya hermanos? — No.",
+          "options": [
+            "Has Priya got any brothers? — No, she hasn't.",
+            "Has Priya got any brothers? — No, she hasn't got."
+          ],
+          "answer": 0,
+          "explanation": "Respuesta corta: «No, she hasn't»."
+        },
+        {
+          "id": "a1_questions.208",
+          "question": "¿Cuándo es tu cumpleaños?",
+          "options": [
+            "When is your birthday?",
+            "When your birthday is?"
+          ],
+          "answer": 0,
+          "explanation": "El verbo va antes del sujeto."
+        },
+        {
+          "id": "a1_questions.209",
+          "question": "¿Cómo estás?",
+          "options": [
+            "How are you?",
+            "What are you?"
+          ],
+          "answer": 0,
+          "explanation": "«How are you?» pregunta cómo estás; «What are you?», qué eres."
+        },
+        {
+          "id": "a1_questions.210",
+          "question": "¿De dónde son tus padres?",
+          "options": [
+            "Where are your parents from?",
+            "From where are your parents?"
+          ],
+          "answer": 0,
+          "explanation": "La preposición va al final: «Where… from?»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Escribe la pregunta que corresponde a cada respuesta.",
+      "items": [
+        {
+          "id": "a1_questions.301",
+          "prompt": "Respuesta",
+          "source": "I'm from Galway.",
+          "answers": [
+            "Where are you from"
+          ]
+        },
+        {
+          "id": "a1_questions.302",
+          "prompt": "Respuesta",
+          "source": "My name is Daniel.",
+          "answers": [
+            "What's your name"
+          ]
+        },
+        {
+          "id": "a1_questions.303",
+          "prompt": "Respuesta",
+          "source": "I'm twenty-eight.",
+          "answers": [
+            "How old are you"
+          ]
+        },
+        {
+          "id": "a1_questions.304",
+          "prompt": "Respuesta",
+          "source": "The meeting is at ten.",
+          "answers": [
+            "What time is the meeting",
+            "When is the meeting"
+          ]
+        },
+        {
+          "id": "a1_questions.305",
+          "prompt": "Respuesta",
+          "source": "My birthday is in June.",
+          "answers": [
+            "When's your birthday"
+          ]
+        },
+        {
+          "id": "a1_questions.306",
+          "prompt": "Respuesta",
+          "source": "Yes, I've got a laptop.",
+          "answers": [
+            "Have you got a laptop"
+          ]
+        },
+        {
+          "id": "a1_questions.307",
+          "prompt": "Respuesta",
+          "source": "I'm fine, thanks.",
+          "answers": [
+            "How are you"
+          ]
+        },
+        {
+          "id": "a1_questions.308",
+          "prompt": "Respuesta",
+          "source": "The toilet is on the left.",
+          "answers": [
+            "Where's the toilet"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_questions.401",
+          "source": "¿Cómo te llamas?",
+          "answers": [
+            "What's your name"
+          ]
+        },
+        {
+          "id": "a1_questions.402",
+          "source": "¿De dónde es Sam?",
+          "answers": [
+            "Where's Sam from"
+          ]
+        },
+        {
+          "id": "a1_questions.403",
+          "source": "¿Quién es esa mujer?",
+          "answers": [
+            "Who's that woman"
+          ]
+        },
+        {
+          "id": "a1_questions.404",
+          "source": "¿A qué hora es la comida?",
+          "answers": [
+            "What time is lunch"
+          ]
+        },
+        {
+          "id": "a1_questions.405",
+          "source": "¿Tienes hermanos?",
+          "answers": [
+            "Have you got any brothers or sisters",
+            "Have you got brothers or sisters",
+            "Have you got any siblings",
+            "Do you have any brothers or sisters"
+          ]
+        },
+        {
+          "id": "a1_questions.406",
+          "source": "¿Cuántos años tiene tu hermana?",
+          "answers": [
+            "How old is your sister"
+          ]
+        },
+        {
+          "id": "a1_questions.407",
+          "source": "¿Dónde están mis llaves?",
+          "answers": [
+            "Where are my keys"
+          ]
+        },
+        {
+          "id": "a1_questions.408",
+          "source": "¿Cuándo es la fiesta?",
+          "answers": [
+            "When's the party"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_questions.501",
+          "answer": "Where are you from?"
+        },
+        {
+          "id": "a1_questions.502",
+          "answer": "What time is the meeting?"
+        },
+        {
+          "id": "a1_questions.503",
+          "answer": "How old is your brother?"
+        },
+        {
+          "id": "a1_questions.504",
+          "answer": "Have you got a pen?"
+        },
+        {
+          "id": "a1_questions.505",
+          "answer": "Who is that man?"
+        },
+        {
+          "id": "a1_questions.506",
+          "answer": "When is your birthday?"
+        }
+      ]
+    }
+  ]
+}

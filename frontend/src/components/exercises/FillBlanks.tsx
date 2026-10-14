@@ -11,7 +11,7 @@ export default function FillBlanks({ content, onComplete }: { content: ItemsCont
 
   const item = content.items[ex.index]
   const parts = item.sentence.split('___')
-  const blankOk = (i: number) => isCorrect(values[i] ?? '', item.answers[i])
+  const blankOk = (i: number) => isCorrect(values[i] ?? '', item.answers[i], content.strict)
   const answered = ex.status !== 'answering'
 
   return (

@@ -185,6 +185,9 @@ func (h *PracticeHandler) Session(w http.ResponseWriter, r *http.Request) {
 			if len(set.Bank) > 0 {
 				c["bank"] = set.Bank
 			}
+			if set.Strict {
+				c["strict"] = true
+			}
 			steps = append(steps, practiceStep{Type: set.Type, Content: c})
 		}
 		last := steps[len(steps)-1].Content

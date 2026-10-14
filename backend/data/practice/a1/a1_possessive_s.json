@@ -1,0 +1,538 @@
+{
+  "topic_id": "a1_possessive_s",
+  "level_id": "A1",
+  "title": "El posesivo «'s»: Sam's guitar",
+  "tags": [
+    "possessive_s"
+  ],
+  "units": [
+    "numbers_colors"
+  ],
+  "rule": {
+    "title": "Possessive 's",
+    "explanation": "Para decir de quién es algo, en inglés se pone primero el dueño con «'s» y después la cosa (al revés que en español):\n- «Sam's guitar» (la guitarra de Sam)\n- «my grandma's lamp» (la lámpara de mi abuela)\n\nSi el dueño es un plural acabado en «-s», solo se añade el apóstrofo. Con los plurales irregulares se usa «'s»:\n- «my parents' house» (la casa de mis padres)\n- «the children's room» (la habitación de los niños)\n\nSi la cosa es de dos personas a la vez, el «'s» va solo en la última:\n- «Sam and Priya's flat» (el piso de Sam y Priya)\n\nPuede ir sin la cosa detrás si ya se sabe de qué hablamos, y también para la casa o la tienda de alguien:\n- «Whose umbrella is this? — It's Sam's.»\n- «I'm at Priya's.» (en casa de Priya)\n\nCon cosas, no con personas, lo más natural es poner un nombre delante de otro: «the kitchen door» (la puerta de la cocina).\n\nOjo: no confundas el posesivo con la contracción de «is»: «Sam's a musician» (= «Sam is») / «Sam's band» (la banda de Sam).",
+    "table": {
+      "headers": [
+        "Dueño",
+        "Posesivo",
+        "En español"
+      ],
+      "rows": [
+        [
+          "Sam",
+          "Sam's guitar",
+          "la guitarra de Sam"
+        ],
+        [
+          "my sister",
+          "my sister's car",
+          "el coche de mi hermana"
+        ],
+        [
+          "my parents",
+          "my parents' house",
+          "la casa de mis padres"
+        ],
+        [
+          "the children",
+          "the children's room",
+          "la habitación de los niños"
+        ],
+        [
+          "Sam and Priya",
+          "Sam and Priya's flat",
+          "el piso de Sam y Priya"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el posesivo de la palabra entre paréntesis («'s» o solo «'»).",
+      "strict": true,
+      "items": [
+        {
+          "id": "a1_possessive_s.001",
+          "sentence": "This is ___ guitar. (Sam)",
+          "answers": [
+            [
+              "Sam's"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessive_s.002",
+          "sentence": "My ___ car is red. (sister)",
+          "answers": [
+            [
+              "sister's"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessive_s.003",
+          "sentence": "My ___ house is in Valencia. (parents)",
+          "answers": [
+            [
+              "parents'"
+            ]
+          ],
+          "explanation": "Plural en «-s»: solo el apóstrofo."
+        },
+        {
+          "id": "a1_possessive_s.004",
+          "sentence": "The ___ toys are everywhere! (children)",
+          "answers": [
+            [
+              "children's"
+            ]
+          ],
+          "explanation": "«children» no acaba en «-s»: «'s»."
+        },
+        {
+          "id": "a1_possessive_s.005",
+          "sentence": "___ desk is next to the window. (Daniel)",
+          "answers": [
+            [
+              "Daniel's"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessive_s.006",
+          "sentence": "Is this ___ bag? (Priya)",
+          "answers": [
+            [
+              "Priya's"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessive_s.007",
+          "sentence": "My ___ names are Ana and Marta. (sisters)",
+          "answers": [
+            [
+              "sisters'"
+            ]
+          ],
+          "explanation": "Dos hermanas: plural en «-s», solo el apóstrofo."
+        },
+        {
+          "id": "a1_possessive_s.008",
+          "sentence": "That's my ___ dog. (friend)",
+          "answers": [
+            [
+              "friend's"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessive_s.009",
+          "sentence": "The ___ room is very big. (boys)",
+          "answers": [
+            [
+              "boys'"
+            ]
+          ],
+          "explanation": "Varios chicos: «boys'»."
+        },
+        {
+          "id": "a1_possessive_s.010",
+          "sentence": "___ birthday is on Friday. (Javi)",
+          "answers": [
+            [
+              "Javi's"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessive_s.011",
+          "sentence": "Where's ___ office? (Helen)",
+          "answers": [
+            [
+              "Helen's"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessive_s.012",
+          "sentence": "The ___ toilets are on the left. (women)",
+          "answers": [
+            [
+              "women's"
+            ]
+          ],
+          "explanation": "«women» no acaba en «-s»: «'s»."
+        },
+        {
+          "id": "a1_possessive_s.013",
+          "sentence": "Sam and ___ flat is in Clifton. (Priya)",
+          "answers": [
+            [
+              "Priya's"
+            ]
+          ],
+          "explanation": "El piso es de los dos: «'s» solo en la última."
+        },
+        {
+          "id": "a1_possessive_s.014",
+          "sentence": "My ___ name is Carmen. (mother)",
+          "answers": [
+            [
+              "mother's"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessive_s.015",
+          "sentence": "Whose keys are these? — They're ___. (Lucía)",
+          "answers": [
+            [
+              "Lucía's"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessive_s.016",
+          "sentence": "We're having dinner at ___ tonight. (Sam)",
+          "answers": [
+            [
+              "Sam's"
+            ]
+          ],
+          "explanation": "«at Sam's» = en casa de Sam."
+        },
+        {
+          "id": "a1_possessive_s.017",
+          "sentence": "The ___ cat is very old. (neighbours)",
+          "answers": [
+            [
+              "neighbours'"
+            ]
+          ],
+          "explanation": "Varios vecinos: «neighbours'»."
+        },
+        {
+          "id": "a1_possessive_s.018",
+          "sentence": "Our ___ teacher is Irish. (son)",
+          "answers": [
+            [
+              "son's"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessive_s.019",
+          "sentence": "This is my ___ lamp. (grandma)",
+          "answers": [
+            [
+              "grandma's"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessive_s.020",
+          "sentence": "The ___ coats are on the chair. (students)",
+          "answers": [
+            [
+              "students'"
+            ]
+          ],
+          "explanation": "Varios estudiantes: «students'»."
+        },
+        {
+          "id": "a1_possessive_s.021",
+          "sentence": "Is that your ___ phone? (brother)",
+          "answers": [
+            [
+              "brother's"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessive_s.022",
+          "sentence": "The ___ bikes are outside. (men)",
+          "answers": [
+            [
+              "men's"
+            ]
+          ],
+          "explanation": "«men» no acaba en «-s»: «'s»."
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué es correcto?",
+      "items": [
+        {
+          "id": "a1_possessive_s.101",
+          "question": "El coche de mi hermano.",
+          "options": [
+            "my brother's car",
+            "the car of my brother"
+          ],
+          "answer": 0,
+          "explanation": "Con personas: «my brother's car»."
+        },
+        {
+          "id": "a1_possessive_s.102",
+          "question": "La casa de mis padres.",
+          "options": [
+            "my parents's house",
+            "my parents' house"
+          ],
+          "answer": 1,
+          "explanation": "Plural en «-s»: solo el apóstrofo."
+        },
+        {
+          "id": "a1_possessive_s.103",
+          "question": "La habitación de los niños.",
+          "options": [
+            "the children's room",
+            "the childrens' room"
+          ],
+          "answer": 0,
+          "explanation": "«children» no acaba en «-s»: «'s»."
+        },
+        {
+          "id": "a1_possessive_s.104",
+          "question": "El piso de Sam y Priya.",
+          "options": [
+            "Sam's and Priya's flat",
+            "Sam and Priya's flat"
+          ],
+          "answer": 1,
+          "explanation": "Un piso de los dos: «'s» solo en la última."
+        },
+        {
+          "id": "a1_possessive_s.105",
+          "question": "¿De quién es esto? — Es de Lucía.",
+          "options": [
+            "Whose is this? — It's Lucía's.",
+            "Whose is this? — It's of Lucía."
+          ],
+          "answer": 0,
+          "explanation": "Sin repetir la cosa: «It's Lucía's»."
+        },
+        {
+          "id": "a1_possessive_s.106",
+          "question": "La puerta de la cocina.",
+          "options": [
+            "the kitchen's door",
+            "the kitchen door"
+          ],
+          "answer": 1,
+          "explanation": "Con cosas, lo natural es «the kitchen door»."
+        },
+        {
+          "id": "a1_possessive_s.107",
+          "question": "Sam es músico.",
+          "options": [
+            "Sam's a musician.",
+            "Sam's musician."
+          ],
+          "answer": 0,
+          "explanation": "Aquí «'s» = «is», y la profesión lleva «a»."
+        },
+        {
+          "id": "a1_possessive_s.108",
+          "question": "Estoy en casa de Priya.",
+          "options": [
+            "I'm at Priya's.",
+            "I'm at Priya house."
+          ],
+          "answer": 0,
+          "explanation": "«at Priya's» = en casa de Priya."
+        },
+        {
+          "id": "a1_possessive_s.109",
+          "question": "El nombre de mi amiga.",
+          "options": [
+            "my friend's name",
+            "my friend name"
+          ],
+          "answer": 0,
+          "explanation": "Falta el «'s»."
+        },
+        {
+          "id": "a1_possessive_s.110",
+          "question": "Los abrigos de los estudiantes.",
+          "options": [
+            "the students' coats",
+            "the student's coats"
+          ],
+          "answer": 0,
+          "explanation": "Varios estudiantes: «students'»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con el posesivo o corrige el error.",
+      "strict": true,
+      "items": [
+        {
+          "id": "a1_possessive_s.201",
+          "prompt": "Con «'s»",
+          "source": "the guitar of Sam",
+          "answers": [
+            "Sam's guitar"
+          ]
+        },
+        {
+          "id": "a1_possessive_s.202",
+          "prompt": "Con «'s»",
+          "source": "the house of my parents",
+          "answers": [
+            "my parents' house"
+          ]
+        },
+        {
+          "id": "a1_possessive_s.203",
+          "prompt": "Con «'s»",
+          "source": "the name of my sister",
+          "answers": [
+            "my sister's name"
+          ]
+        },
+        {
+          "id": "a1_possessive_s.204",
+          "prompt": "Con «'s»",
+          "source": "the room of the children",
+          "answers": [
+            "the children's room"
+          ]
+        },
+        {
+          "id": "a1_possessive_s.205",
+          "prompt": "Corrige",
+          "source": "This is the bike of Priya.",
+          "answers": [
+            "This is Priya's bike"
+          ],
+          "explanation": "Con personas: «Priya's bike»."
+        },
+        {
+          "id": "a1_possessive_s.206",
+          "prompt": "Corrige",
+          "source": "My parents's flat is big.",
+          "answers": [
+            "My parents' flat is big"
+          ],
+          "explanation": "Plural en «-s»: solo el apóstrofo."
+        },
+        {
+          "id": "a1_possessive_s.207",
+          "prompt": "Corrige",
+          "source": "Sam's and Priya's flat is nice.",
+          "answers": [
+            "Sam and Priya's flat is nice"
+          ],
+          "explanation": "Un piso de los dos: «'s» solo en la última."
+        },
+        {
+          "id": "a1_possessive_s.208",
+          "prompt": "Corrige",
+          "source": "Is this Daniel laptop?",
+          "answers": [
+            "Is this Daniel's laptop"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "strict": true,
+      "items": [
+        {
+          "id": "a1_possessive_s.301",
+          "source": "La guitarra de Sam es nueva.",
+          "answers": [
+            "Sam's guitar is new"
+          ]
+        },
+        {
+          "id": "a1_possessive_s.302",
+          "source": "Es el cumpleaños de mi madre.",
+          "answers": [
+            "It's my mother's birthday",
+            "It's my mum's birthday"
+          ]
+        },
+        {
+          "id": "a1_possessive_s.303",
+          "source": "La casa de mis padres es grande.",
+          "answers": [
+            "My parents' house is big"
+          ]
+        },
+        {
+          "id": "a1_possessive_s.304",
+          "source": "¿Es este el móvil de Priya?",
+          "answers": [
+            "Is this Priya's phone",
+            "Is this Priya's mobile"
+          ]
+        },
+        {
+          "id": "a1_possessive_s.305",
+          "source": "Es de Daniel.",
+          "answers": [
+            "It's Daniel's"
+          ]
+        },
+        {
+          "id": "a1_possessive_s.306",
+          "source": "Estamos en casa de Sam.",
+          "answers": [
+            "We're at Sam's",
+            "We're at Sam's house"
+          ]
+        },
+        {
+          "id": "a1_possessive_s.307",
+          "source": "Los juguetes de los niños están aquí.",
+          "answers": [
+            "The children's toys are here"
+          ]
+        },
+        {
+          "id": "a1_possessive_s.308",
+          "source": "El nombre de mi hermana es Ana.",
+          "answers": [
+            "My sister's name is Ana"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_possessive_s.401",
+          "answer": "This is my grandma's lamp"
+        },
+        {
+          "id": "a1_possessive_s.402",
+          "answer": "Is that Sam's guitar?"
+        },
+        {
+          "id": "a1_possessive_s.403",
+          "answer": "My parents' flat is in Valencia"
+        },
+        {
+          "id": "a1_possessive_s.404",
+          "answer": "The children's room is upstairs"
+        },
+        {
+          "id": "a1_possessive_s.405",
+          "answer": "Whose coat is this?"
+        }
+      ]
+    }
+  ]
+}

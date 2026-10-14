@@ -91,5 +91,6 @@ Un archivo por tema en `backend/data/practice/<nivel>/<topic_id>.json`: regla (`
 
 - Cada ítem lleva un `id` estable `<topic_id>.<n>`: las estadísticas del alumno van por id, así que se puede corregir el texto sin perderlas, pero un id no se reutiliza para otra frase.
 - Mínimo 40 ítems y 3 formatos por tema (`TestBundledPractice`).
+- `"strict": true` en un conjunto hace que el apóstrofo cuente al corregir lo escrito. Normalmente se ignora («parents house» = «parents' house»), pero en el posesivo «'s» o en «yours» frente a «your's» es justo lo que se practica.
 - **Frases propias.** Los libros (Grammar in Use…) sirven de referencia de temas y formatos; no se copia ningún ítem ni ejemplo.
 - Cada ronda son 12 ítems: primero los fallados, luego los no vistos y después los vistos hace más tiempo, mezclando formatos. El tema se programa con SM-2 según la nota de la ronda.

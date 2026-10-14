@@ -1,0 +1,517 @@
+{
+  "topic_id": "a1_there_is_are",
+  "level_id": "A1",
+  "title": "There is / there are",
+  "tags": [
+    "there_is_some_any"
+  ],
+  "units": [
+    "at_the_pub"
+  ],
+  "rule": {
+    "title": "There is / there are",
+    "explanation": "«There is» y «there are» significan hay. Usa «there is» («there's») con una sola cosa o con incontables, y «there are» con plurales:\n- «There's a café near here.»\n- «There's some milk in the fridge.»\n- «There are two bedrooms.»\n\nLa negativa es «there isn't» / «there aren't», y en la pregunta «is» o «are» va delante de «there»:\n- «There isn't a bank in this street.»\n- «There aren't any chips.»\n- «Is there a toilet? — Yes, there is. / No, there isn't.»\n- «Are there any free tables? — Yes, there are. / No, there aren't.»\n\nPara preguntar cuántos hay:\n- «How many people are there?»\n\nOjo: no confundas «there is» (hay) con «it is» (es, está). Primero dices que algo existe y después hablas de ello:\n- «There's a new pub in Clifton. It's very nice.»\n\nEn las respuestas cortas afirmativas no se contrae (nunca «Yes, there's»).",
+    "table": {
+      "headers": [
+        "",
+        "Singular / incontable",
+        "Plural"
+      ],
+      "rows": [
+        [
+          "Afirmativa",
+          "There's a café.",
+          "There are two cafés."
+        ],
+        [
+          "Negativa",
+          "There isn't any milk.",
+          "There aren't any eggs."
+        ],
+        [
+          "Pregunta",
+          "Is there a lift?",
+          "Are there any shops?"
+        ],
+        [
+          "Respuesta corta",
+          "Yes, there is. / No, there isn't.",
+          "Yes, there are. / No, there aren't."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la forma correcta de «there is» o «there are».",
+      "bank": [
+        "There's",
+        "There are",
+        "There isn't",
+        "There aren't",
+        "Is there",
+        "Are there"
+      ],
+      "items": [
+        {
+          "id": "a1_there_is_are.001",
+          "sentence": "___ a cash machine next to the bank.",
+          "answers": [
+            [
+              "There's"
+            ]
+          ]
+        },
+        {
+          "id": "a1_there_is_are.002",
+          "sentence": "___ two bedrooms in our flat.",
+          "answers": [
+            [
+              "There are"
+            ]
+          ]
+        },
+        {
+          "id": "a1_there_is_are.003",
+          "sentence": "___ a lift in this building? — No, there isn't.",
+          "answers": [
+            [
+              "Is there"
+            ]
+          ]
+        },
+        {
+          "id": "a1_there_is_are.004",
+          "sentence": "___ any shops near the station? — Yes, lots.",
+          "answers": [
+            [
+              "Are there"
+            ]
+          ]
+        },
+        {
+          "id": "a1_there_is_are.005",
+          "sentence": "___ any milk. Can you buy some?",
+          "answers": [
+            [
+              "There isn't"
+            ]
+          ],
+          "explanation": "«milk» es incontable: «There isn't any…»."
+        },
+        {
+          "id": "a1_there_is_are.006",
+          "sentence": "___ any seats on the bus. It's full.",
+          "answers": [
+            [
+              "There aren't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_there_is_are.007",
+          "sentence": "___ a lot of people in the pub tonight.",
+          "answers": [
+            [
+              "There are"
+            ]
+          ]
+        },
+        {
+          "id": "a1_there_is_are.008",
+          "sentence": "___ some bread on the table.",
+          "answers": [
+            [
+              "There's"
+            ]
+          ],
+          "explanation": "«bread» es incontable: «There's»."
+        },
+        {
+          "id": "a1_there_is_are.009",
+          "sentence": "___ a toilet here? — Yes, on the left.",
+          "answers": [
+            [
+              "Is there"
+            ]
+          ]
+        },
+        {
+          "id": "a1_there_is_are.010",
+          "sentence": "___ any buses after midnight. Take a taxi.",
+          "answers": [
+            [
+              "There aren't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_there_is_are.011",
+          "sentence": "___ a new student in our class. Her name is Ana.",
+          "answers": [
+            [
+              "There's"
+            ]
+          ]
+        },
+        {
+          "id": "a1_there_is_are.012",
+          "sentence": "___ any good restaurants in Clifton? — Yes, a few.",
+          "answers": [
+            [
+              "Are there"
+            ]
+          ]
+        },
+        {
+          "id": "a1_there_is_are.013",
+          "sentence": "___ a supermarket in my street, so I go to the market.",
+          "answers": [
+            [
+              "There isn't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_there_is_are.014",
+          "sentence": "___ three cafés on Park Street.",
+          "answers": [
+            [
+              "There are"
+            ]
+          ]
+        },
+        {
+          "id": "a1_there_is_are.015",
+          "sentence": "___ any wine? — Yes, red and white.",
+          "answers": [
+            [
+              "Is there"
+            ]
+          ]
+        },
+        {
+          "id": "a1_there_is_are.016",
+          "sentence": "___ a problem with my room. The window is broken.",
+          "answers": [
+            [
+              "There's"
+            ]
+          ]
+        },
+        {
+          "id": "a1_there_is_are.017",
+          "sentence": "How many people ___ in your family?",
+          "answers": [
+            [
+              "are there"
+            ]
+          ],
+          "explanation": "En la pregunta: «How many… are there?»."
+        },
+        {
+          "id": "a1_there_is_are.018",
+          "sentence": "___ any eggs in the fridge, so we can't make an omelette.",
+          "answers": [
+            [
+              "There aren't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_there_is_are.019",
+          "sentence": "___ a park near your flat?",
+          "answers": [
+            [
+              "Is there"
+            ]
+          ]
+        },
+        {
+          "id": "a1_there_is_are.020",
+          "sentence": "___ some great burgers on the menu.",
+          "answers": [
+            [
+              "There are"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a1_there_is_are.101",
+          "question": "Hay un banco en la esquina.",
+          "options": [
+            "It's a bank on the corner.",
+            "There's a bank on the corner."
+          ],
+          "answer": 1,
+          "explanation": "Para decir que algo existe: «There's»."
+        },
+        {
+          "id": "a1_there_is_are.102",
+          "question": "Hay muchos turistas.",
+          "options": [
+            "There are a lot of tourists.",
+            "There is a lot of tourists."
+          ],
+          "answer": 0,
+          "explanation": "Plural: «There are»."
+        },
+        {
+          "id": "a1_there_is_are.103",
+          "question": "¿Hay wifi? — Sí.",
+          "options": [
+            "Is there wifi? — Yes, there's.",
+            "Is there wifi? — Yes, there is."
+          ],
+          "answer": 1,
+          "explanation": "En la respuesta corta afirmativa no se contrae."
+        },
+        {
+          "id": "a1_there_is_are.104",
+          "question": "No hay sillas.",
+          "options": [
+            "There aren't any chairs.",
+            "There isn't any chairs."
+          ],
+          "answer": 0,
+          "explanation": "Plural: «aren't»."
+        },
+        {
+          "id": "a1_there_is_are.105",
+          "question": "Hay un pub nuevo. Es muy bonito.",
+          "options": [
+            "There's a new pub. There's very nice.",
+            "There's a new pub. It's very nice."
+          ],
+          "answer": 1,
+          "explanation": "Para hablar de algo ya mencionado: «It's»."
+        },
+        {
+          "id": "a1_there_is_are.106",
+          "question": "¿Cuántas personas hay?",
+          "options": [
+            "How many people are there?",
+            "How many people there are?"
+          ],
+          "answer": 0,
+          "explanation": "En la pregunta, «are» va antes de «there»."
+        },
+        {
+          "id": "a1_there_is_are.107",
+          "question": "Hay agua en la botella.",
+          "options": [
+            "There's some water in the bottle.",
+            "There are some water in the bottle."
+          ],
+          "answer": 0,
+          "explanation": "«water» es incontable: «There's»."
+        },
+        {
+          "id": "a1_there_is_are.108",
+          "question": "¿Hay un cajero cerca? — No.",
+          "options": [
+            "Is there a cash machine near here? — No, there isn't.",
+            "Is there a cash machine near here? — No, it isn't."
+          ],
+          "answer": 0,
+          "explanation": "Respuesta corta con «there»."
+        },
+        {
+          "id": "a1_there_is_are.109",
+          "question": "Hay dos baños en el piso.",
+          "options": [
+            "There are two bathrooms in the flat.",
+            "Has two bathrooms the flat."
+          ],
+          "answer": 0,
+          "explanation": "Hay = «There are»."
+        },
+        {
+          "id": "a1_there_is_are.110",
+          "question": "Hoy no hay pescado.",
+          "options": [
+            "There isn't any fish today.",
+            "There's not fish today."
+          ],
+          "answer": 0,
+          "explanation": "Negativa con incontable: «There isn't any…»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Transforma o corrige la frase como se indica.",
+      "items": [
+        {
+          "id": "a1_there_is_are.201",
+          "prompt": "Negativa",
+          "source": "There's a bank near here.",
+          "answers": [
+            "There isn't a bank near here"
+          ]
+        },
+        {
+          "id": "a1_there_is_are.202",
+          "prompt": "Pregunta",
+          "source": "There are some free tables.",
+          "answers": [
+            "Are there any free tables"
+          ]
+        },
+        {
+          "id": "a1_there_is_are.203",
+          "prompt": "Negativa",
+          "source": "There are some eggs.",
+          "answers": [
+            "There aren't any eggs"
+          ]
+        },
+        {
+          "id": "a1_there_is_are.204",
+          "prompt": "Pregunta",
+          "source": "There's a lift.",
+          "answers": [
+            "Is there a lift"
+          ]
+        },
+        {
+          "id": "a1_there_is_are.205",
+          "prompt": "Corrige",
+          "source": "It's a café next to my flat.",
+          "answers": [
+            "There's a café next to my flat"
+          ],
+          "explanation": "Para decir que algo existe: «There's»."
+        },
+        {
+          "id": "a1_there_is_are.206",
+          "prompt": "Corrige",
+          "source": "There is three bedrooms.",
+          "answers": [
+            "There are three bedrooms"
+          ]
+        },
+        {
+          "id": "a1_there_is_are.207",
+          "prompt": "Corrige",
+          "source": "Are there any milk?",
+          "answers": [
+            "Is there any milk"
+          ],
+          "explanation": "«milk» es incontable: «Is there»."
+        },
+        {
+          "id": "a1_there_is_are.208",
+          "prompt": "Corrige",
+          "source": "How many students there are?",
+          "answers": [
+            "How many students are there"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_there_is_are.301",
+          "source": "Hay un parque cerca de mi casa.",
+          "answers": [
+            "There's a park near my house"
+          ]
+        },
+        {
+          "id": "a1_there_is_are.302",
+          "source": "¿Hay patatas fritas?",
+          "answers": [
+            "Are there any chips"
+          ]
+        },
+        {
+          "id": "a1_there_is_are.303",
+          "source": "No hay leche.",
+          "answers": [
+            "There isn't any milk",
+            "There's no milk"
+          ]
+        },
+        {
+          "id": "a1_there_is_are.304",
+          "source": "Hay tres dormitorios.",
+          "answers": [
+            "There are three bedrooms"
+          ]
+        },
+        {
+          "id": "a1_there_is_are.305",
+          "source": "¿Hay un baño aquí?",
+          "answers": [
+            "Is there a toilet here",
+            "Is there a bathroom here"
+          ]
+        },
+        {
+          "id": "a1_there_is_are.306",
+          "source": "No hay autobuses hoy.",
+          "answers": [
+            "There aren't any buses today",
+            "There are no buses today"
+          ]
+        },
+        {
+          "id": "a1_there_is_are.307",
+          "source": "¿Cuántas sillas hay?",
+          "answers": [
+            "How many chairs are there"
+          ]
+        },
+        {
+          "id": "a1_there_is_are.308",
+          "source": "Hay un pub nuevo en Clifton. Es muy bonito.",
+          "answers": [
+            "There's a new pub in Clifton. It's very nice",
+            "There's a new pub in Clifton. It's very pretty"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_there_is_are.401",
+          "answer": "There are two bedrooms in my flat"
+        },
+        {
+          "id": "a1_there_is_are.402",
+          "answer": "Is there a bank near here?"
+        },
+        {
+          "id": "a1_there_is_are.403",
+          "answer": "There isn't any milk in the fridge"
+        },
+        {
+          "id": "a1_there_is_are.404",
+          "answer": "How many people are there?"
+        },
+        {
+          "id": "a1_there_is_are.405",
+          "answer": "Are there any free tables?"
+        },
+        {
+          "id": "a1_there_is_are.406",
+          "answer": "There's a nice café on Park Street"
+        }
+      ]
+    }
+  ]
+}

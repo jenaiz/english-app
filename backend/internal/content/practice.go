@@ -39,9 +39,11 @@ type PracticeSet struct {
 	Type         string `json:"type"`
 	Instructions string `json:"instructions"`
 	// Bank is the word list shown above fill-in-the-blank items ("Complete with in, on or at").
-	Bank  []string          `json:"bank,omitempty"`
-	Items []json.RawMessage `json:"items"`
-	ids   []string
+	Bank []string `json:"bank,omitempty"`
+	// Strict makes apostrophes count when checking typed answers (possessive 's, yours).
+	Strict bool              `json:"strict,omitempty"`
+	Items  []json.RawMessage `json:"items"`
+	ids    []string
 }
 
 // PracticeItem is one item of a topic with what is needed to grade and serve it.

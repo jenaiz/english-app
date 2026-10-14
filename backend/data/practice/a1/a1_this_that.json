@@ -1,0 +1,538 @@
+{
+  "topic_id": "a1_this_that",
+  "level_id": "A1",
+  "title": "this / that / these / those",
+  "tags": [
+    "articles_demonstratives"
+  ],
+  "units": [
+    "numbers_colors"
+  ],
+  "rule": {
+    "title": "this, that, these, those",
+    "explanation": "«This» y «these» señalan algo que está cerca de ti; «that» y «those», algo que está lejos:\n- «this» (este, esta) y «these» (estos, estas)\n- «that» (ese, esa, aquel, aquella) y «those» (esos, esas, aquellos, aquellas)\n\nConcuerdan en número con el nombre: singular con «this» y «that», plural con «these» y «those»:\n- «this lamp», «these towels»\n- «that chair», «those photos»\n\nPueden ir solos, sin nombre detrás:\n- «This is my brother.» (para presentar a alguien)\n- «What's that?»\n- «These are for you.»\n\nEn las respuestas cortas, «this» y «that» pasan a ser «it», y «these» y «those», «they»:\n- «Is that your bike? — Yes, it is.»\n- «Are these your keys? — No, they aren't.»\n\nOtros usos frecuentes: al teléfono, para decir quién eres, se usa «this»; para responder a algo que alguien acaba de decir, «that»:\n- «Hi, this is Lucía.»\n- «That's a great idea!»\n\nOjo: «these» tiene la i larga y «this», corta; al oído se confunden fácilmente.",
+    "table": {
+      "headers": [
+        "",
+        "Cerca",
+        "Lejos"
+      ],
+      "rows": [
+        [
+          "Singular",
+          "this lamp",
+          "that lamp"
+        ],
+        [
+          "Plural",
+          "these towels",
+          "those photos"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «this», «that», «these» o «those».",
+      "bank": [
+        "this",
+        "that",
+        "these",
+        "those"
+      ],
+      "items": [
+        {
+          "id": "a1_this_that.001",
+          "sentence": "___ is my room. Come in!",
+          "answers": [
+            [
+              "This"
+            ]
+          ],
+          "hint": "cerca"
+        },
+        {
+          "id": "a1_this_that.002",
+          "sentence": "Look at ___ birds in the sky!",
+          "answers": [
+            [
+              "those"
+            ]
+          ],
+          "hint": "lejos"
+        },
+        {
+          "id": "a1_this_that.003",
+          "sentence": "___ shoes are new. Do you like them?",
+          "answers": [
+            [
+              "These"
+            ]
+          ],
+          "hint": "cerca"
+        },
+        {
+          "id": "a1_this_that.004",
+          "sentence": "Is ___ your car over there?",
+          "answers": [
+            [
+              "that"
+            ]
+          ],
+          "hint": "lejos"
+        },
+        {
+          "id": "a1_this_that.005",
+          "sentence": "Who is ___ man at the bar?",
+          "answers": [
+            [
+              "that"
+            ]
+          ],
+          "hint": "lejos"
+        },
+        {
+          "id": "a1_this_that.006",
+          "sentence": "___ are my flatmates, Sam and Priya.",
+          "answers": [
+            [
+              "These"
+            ]
+          ],
+          "hint": "cerca"
+        },
+        {
+          "id": "a1_this_that.007",
+          "sentence": "I love ___ song! Listen!",
+          "answers": [
+            [
+              "this"
+            ]
+          ],
+          "hint": "suena ahora"
+        },
+        {
+          "id": "a1_this_that.008",
+          "sentence": "Are ___ your keys on the table over there?",
+          "answers": [
+            [
+              "those"
+            ]
+          ],
+          "hint": "lejos"
+        },
+        {
+          "id": "a1_this_that.009",
+          "sentence": "Can I try ___ jeans, please?",
+          "answers": [
+            [
+              "these"
+            ]
+          ],
+          "hint": "cerca"
+        },
+        {
+          "id": "a1_this_that.010",
+          "sentence": "What's ___ building across the street?",
+          "answers": [
+            [
+              "that"
+            ]
+          ],
+          "hint": "lejos"
+        },
+        {
+          "id": "a1_this_that.011",
+          "sentence": "___ coffee is very good.",
+          "answers": [
+            [
+              "This"
+            ]
+          ],
+          "hint": "cerca"
+        },
+        {
+          "id": "a1_this_that.012",
+          "sentence": "Hello, ___ is Lucía. Can I speak to Helen?",
+          "answers": [
+            [
+              "this"
+            ]
+          ],
+          "explanation": "Al teléfono, para decir quién eres: «this is…».",
+          "hint": "al teléfono"
+        },
+        {
+          "id": "a1_this_that.013",
+          "sentence": "___ houses over there are very old.",
+          "answers": [
+            [
+              "Those"
+            ]
+          ],
+          "hint": "lejos"
+        },
+        {
+          "id": "a1_this_that.014",
+          "sentence": "Are ___ biscuits for me?",
+          "answers": [
+            [
+              "these"
+            ]
+          ],
+          "hint": "cerca"
+        },
+        {
+          "id": "a1_this_that.015",
+          "sentence": "___'s a great idea!",
+          "answers": [
+            [
+              "That"
+            ]
+          ],
+          "explanation": "Para responder a lo que alguien acaba de decir: «That's…».",
+          "hint": "respondes a alguien"
+        },
+        {
+          "id": "a1_this_that.016",
+          "sentence": "I don't like ___ pictures on the wall over there.",
+          "answers": [
+            [
+              "those"
+            ]
+          ],
+          "hint": "lejos"
+        },
+        {
+          "id": "a1_this_that.017",
+          "sentence": "Is ___ seat free?",
+          "answers": [
+            [
+              "this"
+            ]
+          ],
+          "hint": "cerca"
+        },
+        {
+          "id": "a1_this_that.018",
+          "sentence": "___ flowers are for you.",
+          "answers": [
+            [
+              "These"
+            ]
+          ],
+          "hint": "cerca"
+        },
+        {
+          "id": "a1_this_that.019",
+          "sentence": "Look at ___ cat in the window!",
+          "answers": [
+            [
+              "that"
+            ]
+          ],
+          "hint": "lejos"
+        },
+        {
+          "id": "a1_this_that.020",
+          "sentence": "How much are ___ apples?",
+          "answers": [
+            [
+              "these"
+            ]
+          ],
+          "hint": "cerca"
+        },
+        {
+          "id": "a1_this_that.021",
+          "sentence": "Who are ___ people at the door?",
+          "answers": [
+            [
+              "those"
+            ]
+          ],
+          "hint": "lejos"
+        },
+        {
+          "id": "a1_this_that.022",
+          "sentence": "___ is my favourite café in Bristol.",
+          "answers": [
+            [
+              "This"
+            ]
+          ],
+          "hint": "estás dentro"
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a1_this_that.101",
+          "question": "Estas son mis fotos.",
+          "options": [
+            "These are my photos.",
+            "This are my photos."
+          ],
+          "answer": 0,
+          "explanation": "Plural: «these»."
+        },
+        {
+          "id": "a1_this_that.102",
+          "question": "¿Es ese tu paraguas? — Sí.",
+          "options": [
+            "Is that your umbrella? — Yes, that is.",
+            "Is that your umbrella? — Yes, it is."
+          ],
+          "answer": 1,
+          "explanation": "En la respuesta corta, «that» pasa a ser «it»."
+        },
+        {
+          "id": "a1_this_that.103",
+          "question": "Aquellos chicos son mis hermanos.",
+          "options": [
+            "Those boys are my brothers.",
+            "That boys are my brothers."
+          ],
+          "answer": 0,
+          "explanation": "Plural y lejos: «those»."
+        },
+        {
+          "id": "a1_this_that.104",
+          "question": "Este es Daniel, mi compañero.",
+          "options": [
+            "This is Daniel, my colleague.",
+            "He is Daniel, my colleague."
+          ],
+          "answer": 0,
+          "explanation": "Para presentar a alguien: «This is…»."
+        },
+        {
+          "id": "a1_this_that.105",
+          "question": "¿Son estas tus llaves? — No.",
+          "options": [
+            "Are these your keys? — No, they aren't.",
+            "Are these your keys? — No, these aren't."
+          ],
+          "answer": 0,
+          "explanation": "En la respuesta corta, «these» pasa a ser «they»."
+        },
+        {
+          "id": "a1_this_that.106",
+          "question": "¿Qué es eso?",
+          "options": [
+            "What's that?",
+            "What's those?"
+          ],
+          "answer": 0,
+          "explanation": "Una cosa, lejos: «that»."
+        },
+        {
+          "id": "a1_this_that.107",
+          "question": "Estos zapatos son caros.",
+          "options": [
+            "These shoes are expensive.",
+            "This shoes are expensive."
+          ],
+          "answer": 0,
+          "explanation": "«shoes» es plural: «these»."
+        },
+        {
+          "id": "a1_this_that.108",
+          "question": "¡Qué buena idea! (respondes a alguien)",
+          "options": [
+            "That's a great idea!",
+            "This is a great idea!"
+          ],
+          "answer": 0,
+          "explanation": "Para responder a lo que alguien acaba de decir: «That's…»."
+        },
+        {
+          "id": "a1_this_that.109",
+          "question": "Hola, soy Lucía. (al teléfono)",
+          "options": [
+            "Hello, I'm Lucía here.",
+            "Hello, this is Lucía."
+          ],
+          "answer": 1,
+          "explanation": "Al teléfono: «this is…»."
+        },
+        {
+          "id": "a1_this_that.110",
+          "question": "Esa casa de allí es muy grande.",
+          "options": [
+            "That house over there is very big.",
+            "This house over there is very big."
+          ],
+          "answer": 0,
+          "explanation": "Lejos: «that»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Transforma la frase como se indica.",
+      "items": [
+        {
+          "id": "a1_this_that.201",
+          "prompt": "Plural",
+          "source": "This is my towel.",
+          "answers": [
+            "These are my towels"
+          ]
+        },
+        {
+          "id": "a1_this_that.202",
+          "prompt": "Plural",
+          "source": "That is a nice photo.",
+          "answers": [
+            "Those are nice photos"
+          ]
+        },
+        {
+          "id": "a1_this_that.203",
+          "prompt": "Plural",
+          "source": "Is this your key?",
+          "answers": [
+            "Are these your keys"
+          ]
+        },
+        {
+          "id": "a1_this_that.204",
+          "prompt": "Plural",
+          "source": "That man is Irish.",
+          "answers": [
+            "Those men are Irish"
+          ]
+        },
+        {
+          "id": "a1_this_that.205",
+          "prompt": "Plural",
+          "source": "This box is heavy.",
+          "answers": [
+            "These boxes are heavy"
+          ]
+        },
+        {
+          "id": "a1_this_that.206",
+          "prompt": "Singular",
+          "source": "These are my shoes.",
+          "answers": [
+            "This is my shoe"
+          ]
+        },
+        {
+          "id": "a1_this_that.207",
+          "prompt": "Singular",
+          "source": "Those children are noisy.",
+          "answers": [
+            "That child is noisy"
+          ]
+        },
+        {
+          "id": "a1_this_that.208",
+          "prompt": "Corrige",
+          "source": "This books are very good.",
+          "answers": [
+            "These books are very good"
+          ],
+          "explanation": "«books» es plural: «these»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_this_that.301",
+          "source": "Esta es mi habitación.",
+          "answers": [
+            "This is my room"
+          ]
+        },
+        {
+          "id": "a1_this_that.302",
+          "source": "¿Qué son esas cosas?",
+          "answers": [
+            "What are those things"
+          ]
+        },
+        {
+          "id": "a1_this_that.303",
+          "source": "Estos son mis padres.",
+          "answers": [
+            "These are my parents"
+          ]
+        },
+        {
+          "id": "a1_this_that.304",
+          "source": "¿Es esa tu bici?",
+          "answers": [
+            "Is that your bike"
+          ]
+        },
+        {
+          "id": "a1_this_that.305",
+          "source": "Esta lámpara es de mi abuela.",
+          "answers": [
+            "This lamp is my grandma's",
+            "This is my grandma's lamp",
+            "This lamp is my grandmother's"
+          ]
+        },
+        {
+          "id": "a1_this_that.306",
+          "source": "Me encantan estas galletas.",
+          "answers": [
+            "I love these biscuits",
+            "I love these cookies"
+          ]
+        },
+        {
+          "id": "a1_this_that.307",
+          "source": "Aquellas casas son muy viejas.",
+          "answers": [
+            "Those houses are very old"
+          ]
+        },
+        {
+          "id": "a1_this_that.308",
+          "source": "¡Esa es una idea genial!",
+          "answers": [
+            "That's a great idea"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_this_that.401",
+          "answer": "Is that your car?"
+        },
+        {
+          "id": "a1_this_that.402",
+          "answer": "These are my new shoes"
+        },
+        {
+          "id": "a1_this_that.403",
+          "answer": "Those people are very friendly"
+        },
+        {
+          "id": "a1_this_that.404",
+          "answer": "This is my flatmate Priya"
+        },
+        {
+          "id": "a1_this_that.405",
+          "answer": "What are those?"
+        }
+      ]
+    }
+  ]
+}

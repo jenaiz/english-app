@@ -29,14 +29,15 @@ func init() {
 
 var (
 	marked  = regexp.MustCompile(`«[^»]*»|\*\*[^*]*\*\*|/[^/\s][^/]*/`)
-	wordsRe = regexp.MustCompile(`[A-Za-z][A-Za-z']*`)
+	wordsRe = regexp.MustCompile(`\p{L}[\p{L}']*`)
 )
 
 // unmarkedEnglish returns the English words of a Spanish text that are outside «…».
 func unmarkedEnglish(text string) []string {
 	var out []string
 	for _, w := range wordsRe.FindAllString(marked.ReplaceAllString(text, " "), -1) {
-		if englishWords[strings.ToLower(w)] {
+		// "I" counts only as the pronoun: a lowercase "i" is the Spanish letter ("la i larga").
+		if w == "I" || (w != "i" && englishWords[strings.ToLower(w)]) {
 			out = append(out, w)
 		}
 	}
@@ -45,10 +46,12 @@ func unmarkedEnglish(text string) []string {
 
 func TestUnmarkedEnglish(t *testing.T) {
 	cases := map[string]int{
-		"Con «it» la forma es «is»: «It's Saturday».":   0,
-		"Con it la forma es is.":                        2,
-		"**Ojo**: en afirmativa suena /kən/.":           0,
-		"El plural se forma con «-s» después de s o x.": 0,
+		"Con «it» la forma es «is»: «It's Saturday».":     0,
+		"Con it la forma es is.":                          2,
+		"**Ojo**: en afirmativa suena /kən/.":             0,
+		"El plural se forma con «-s» después de s o x.":   0,
+		"«these» tiene la i larga; al oído se confunden.": 0,
+		"Con I la forma es am.":                           2,
 	}
 	for text, want := range cases {
 		if got := unmarkedEnglish(text); len(got) != want {

@@ -205,6 +205,8 @@ export interface ItemsContent<T> {
   items: T[]
   /** Word list shown above the items (practice: "Completa con in, on o at"). */
   bank?: string[]
+  /** Apostrophes count when checking typed answers (possessive 's, yours). */
+  strict?: boolean
 }
 export interface MatchPairsContent {
   instructions?: string

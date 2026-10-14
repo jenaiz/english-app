@@ -1,0 +1,563 @@
+{
+  "topic_id": "a1_possessives",
+  "level_id": "A1",
+  "title": "Posesivos: my / your / his / her y mine / yours / hers",
+  "tags": [
+    "pronouns_possessives"
+  ],
+  "units": [
+    "new_flatmates"
+  ],
+  "rule": {
+    "title": "Possessive adjectives and pronouns",
+    "explanation": "Los posesivos dicen de quién es algo y van siempre delante de un nombre. No cambian en plural:\n- «my», «your», «his», «her», «its», «our», «their»\n- «my parents», «his band», «their house»\n\nOjo: «his» = de él y «her» = de ella. En español «su» vale para los dos, pero en inglés depende del dueño, no de la cosa:\n- «Sam and his sister» (Sam y su hermana)\n- «Priya and her brother» (Priya y su hermano)\n\nLos pronombres posesivos («mine», «yours», «his», «hers», «ours», «theirs») van solos, sin nombre detrás, para no repetirlo:\n- «Is this your towel? — Yes, it's mine.»\n\nNunca llevan apóstrofo («yours», nunca «your's») ni «the» delante (nunca «the mine»).\n\nPara preguntar de quién es algo:\n- «Whose is this? — It's mine.»\n\nOjo: no confundas «its» (su, de una cosa o un animal) con «it's» (= «it is»).",
+    "table": {
+      "headers": [
+        "Sujeto",
+        "Posesivo + nombre",
+        "Pronombre posesivo"
+      ],
+      "rows": [
+        [
+          "I",
+          "my room",
+          "mine"
+        ],
+        [
+          "you",
+          "your room",
+          "yours"
+        ],
+        [
+          "he",
+          "his room",
+          "his"
+        ],
+        [
+          "she",
+          "her room",
+          "hers"
+        ],
+        [
+          "it",
+          "its name",
+          "—"
+        ],
+        [
+          "we",
+          "our room",
+          "ours"
+        ],
+        [
+          "they",
+          "their room",
+          "theirs"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el posesivo correcto: «my», «your», «his», «her», «its», «our» o «their».",
+      "items": [
+        {
+          "id": "a1_possessives.001",
+          "sentence": "Sam is a musician. ___ band is great.",
+          "answers": [
+            [
+              "His"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessives.002",
+          "sentence": "Priya is a nurse. ___ hospital is in Bristol.",
+          "answers": [
+            [
+              "Her"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessives.003",
+          "sentence": "I'm Lucía and this is ___ room.",
+          "answers": [
+            [
+              "my"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessives.004",
+          "sentence": "We love ___ flat. It's small but nice.",
+          "answers": [
+            [
+              "our"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessives.005",
+          "sentence": "My parents live in Valencia. ___ house is near the sea.",
+          "answers": [
+            [
+              "Their"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessives.006",
+          "sentence": "Hi, Javi! Is this ___ phone?",
+          "answers": [
+            [
+              "your"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessives.007",
+          "sentence": "Daniel is from Galway. ___ parents are Irish.",
+          "answers": [
+            [
+              "His"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessives.008",
+          "sentence": "Helen and ___ husband live in Clifton.",
+          "answers": [
+            [
+              "her"
+            ]
+          ],
+          "explanation": "Helen es ella: «her»."
+        },
+        {
+          "id": "a1_possessives.009",
+          "sentence": "The cat is hungry. ___ food is in the kitchen.",
+          "answers": [
+            [
+              "Its"
+            ]
+          ],
+          "explanation": "De un animal: «its» (sin apóstrofo)."
+        },
+        {
+          "id": "a1_possessives.010",
+          "sentence": "Sam and ___ sister are at the pub.",
+          "answers": [
+            [
+              "his"
+            ]
+          ],
+          "explanation": "Sam es él: «his», aunque la hermana sea ella."
+        },
+        {
+          "id": "a1_possessives.011",
+          "sentence": "Priya and ___ brother play tennis.",
+          "answers": [
+            [
+              "her"
+            ]
+          ],
+          "explanation": "Priya es ella: «her», aunque el hermano sea él."
+        },
+        {
+          "id": "a1_possessives.012",
+          "sentence": "Lucía and Sam, are these ___ keys?",
+          "answers": [
+            [
+              "your"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «mine», «yours», «his», «hers», «ours» o «theirs».",
+      "bank": [
+        "mine",
+        "yours",
+        "his",
+        "hers",
+        "ours",
+        "theirs"
+      ],
+      "strict": true,
+      "items": [
+        {
+          "id": "a1_possessives.101",
+          "sentence": "Is this your coffee? — Yes, it's ___.",
+          "answers": [
+            [
+              "mine"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessives.102",
+          "sentence": "That's Priya's bike. It's ___.",
+          "answers": [
+            [
+              "hers"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessives.103",
+          "sentence": "This guitar is Sam's. It's ___.",
+          "answers": [
+            [
+              "his"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessives.104",
+          "sentence": "Is this my towel or ___, Javi?",
+          "answers": [
+            [
+              "yours"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessives.105",
+          "sentence": "We've got a small flat. Helen and Tom have got a big flat. ___ is big.",
+          "answers": [
+            [
+              "Theirs"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessives.106",
+          "sentence": "Whose keys are these? — They're ___. Thank you!",
+          "answers": [
+            [
+              "mine"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessives.107",
+          "sentence": "This isn't my phone. Is it ___, Lucía?",
+          "answers": [
+            [
+              "yours"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessives.108",
+          "sentence": "The red car is my parents' car. It's ___.",
+          "answers": [
+            [
+              "theirs"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessives.109",
+          "sentence": "Our room is next to the kitchen. The big room isn't ___.",
+          "answers": [
+            [
+              "ours"
+            ]
+          ]
+        },
+        {
+          "id": "a1_possessives.110",
+          "sentence": "Daniel's laptop is black. This white one isn't ___.",
+          "answers": [
+            [
+              "his"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a1_possessives.201",
+          "question": "Su hermano (de Priya) es médico.",
+          "options": [
+            "His brother is a doctor.",
+            "Her brother is a doctor."
+          ],
+          "answer": 1,
+          "explanation": "El dueño es Priya (ella): «her»."
+        },
+        {
+          "id": "a1_possessives.202",
+          "question": "Su guitarra (de Sam) es nueva.",
+          "options": [
+            "His guitar is new.",
+            "Her guitar is new."
+          ],
+          "answer": 0,
+          "explanation": "El dueño es Sam (él): «his»."
+        },
+        {
+          "id": "a1_possessives.203",
+          "question": "Es mío.",
+          "options": [
+            "It's my.",
+            "It's mine."
+          ],
+          "answer": 1,
+          "explanation": "Sin nombre detrás: «mine»."
+        },
+        {
+          "id": "a1_possessives.204",
+          "question": "Sus padres (de ellos) son de Galway.",
+          "options": [
+            "Their parents are from Galway.",
+            "Theirs parents are from Galway."
+          ],
+          "answer": 0,
+          "explanation": "Delante de un nombre: «their»."
+        },
+        {
+          "id": "a1_possessives.205",
+          "question": "¿Es tuyo este paraguas?",
+          "options": [
+            "Is this umbrella yours?",
+            "Is this umbrella your's?"
+          ],
+          "answer": 0,
+          "explanation": "«yours» nunca lleva apóstrofo."
+        },
+        {
+          "id": "a1_possessives.206",
+          "question": "Nuestra casa es pequeña.",
+          "options": [
+            "Our house is small.",
+            "Ours house is small."
+          ],
+          "answer": 0,
+          "explanation": "Delante de un nombre: «our»."
+        },
+        {
+          "id": "a1_possessives.207",
+          "question": "El perro y su cama.",
+          "options": [
+            "The dog and it's bed.",
+            "The dog and its bed."
+          ],
+          "answer": 1,
+          "explanation": "«its» = su (de una cosa o un animal); «it's» = «it is»."
+        },
+        {
+          "id": "a1_possessives.208",
+          "question": "Ese libro es suyo (de ella).",
+          "options": [
+            "That book is hers.",
+            "That book is her."
+          ],
+          "answer": 0,
+          "explanation": "Sin nombre detrás: «hers»."
+        },
+        {
+          "id": "a1_possessives.209",
+          "question": "¿De quién es esto? — Es mío.",
+          "options": [
+            "Whose is this? — It's mine.",
+            "Who is this? — It's mine."
+          ],
+          "answer": 0,
+          "explanation": "Para preguntar de quién es algo: «Whose»."
+        },
+        {
+          "id": "a1_possessives.210",
+          "question": "Mis amigos y sus perros.",
+          "options": [
+            "My friends and their dogs.",
+            "My friends and his dogs."
+          ],
+          "answer": 0,
+          "explanation": "Varios dueños: «their»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error o sustituye por un pronombre posesivo.",
+      "strict": true,
+      "items": [
+        {
+          "id": "a1_possessives.301",
+          "prompt": "Corrige",
+          "source": "Priya and his brother are in Leicester.",
+          "answers": [
+            "Priya and her brother are in Leicester"
+          ],
+          "explanation": "Priya es ella: «her»."
+        },
+        {
+          "id": "a1_possessives.302",
+          "prompt": "Corrige",
+          "source": "This bag is my.",
+          "answers": [
+            "This bag is mine"
+          ],
+          "explanation": "Sin nombre detrás: «mine»."
+        },
+        {
+          "id": "a1_possessives.303",
+          "prompt": "Corrige",
+          "source": "Is this book your's?",
+          "answers": [
+            "Is this book yours"
+          ],
+          "explanation": "«yours» nunca lleva apóstrofo."
+        },
+        {
+          "id": "a1_possessives.304",
+          "prompt": "Corrige",
+          "source": "Sam loves her guitar.",
+          "answers": [
+            "Sam loves his guitar"
+          ],
+          "explanation": "Sam es él: «his»."
+        },
+        {
+          "id": "a1_possessives.305",
+          "prompt": "Corrige",
+          "source": "That isn't my coffee. It's the yours.",
+          "answers": [
+            "That isn't my coffee. It's yours",
+            "That's not my coffee. It's yours"
+          ],
+          "explanation": "No se pone «the» delante de «yours»."
+        },
+        {
+          "id": "a1_possessives.306",
+          "prompt": "Sustituye",
+          "source": "It's my key.",
+          "answers": [
+            "It's mine"
+          ]
+        },
+        {
+          "id": "a1_possessives.307",
+          "prompt": "Sustituye",
+          "source": "They're Priya's shoes.",
+          "answers": [
+            "They're hers"
+          ]
+        },
+        {
+          "id": "a1_possessives.308",
+          "prompt": "Corrige",
+          "source": "Lucía and Sam love theirs flat.",
+          "answers": [
+            "Lucía and Sam love their flat"
+          ],
+          "explanation": "Delante de un nombre: «their»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_possessives.401",
+          "source": "Su grupo (de Sam) es muy bueno.",
+          "answers": [
+            "His band is very good"
+          ]
+        },
+        {
+          "id": "a1_possessives.402",
+          "source": "Su madre (de Priya) es de la India.",
+          "answers": [
+            "Her mother is from India",
+            "Her mum is from India"
+          ]
+        },
+        {
+          "id": "a1_possessives.403",
+          "source": "Este es mi compañero de piso.",
+          "answers": [
+            "This is my flatmate"
+          ]
+        },
+        {
+          "id": "a1_possessives.404",
+          "source": "¿Es tuyo?",
+          "answers": [
+            "Is it yours"
+          ]
+        },
+        {
+          "id": "a1_possessives.405",
+          "source": "No es mío, es suyo (de ella).",
+          "answers": [
+            "It isn't mine, it's hers",
+            "It's not mine, it's hers"
+          ]
+        },
+        {
+          "id": "a1_possessives.406",
+          "source": "Nuestro piso está en Bristol.",
+          "answers": [
+            "Our flat is in Bristol"
+          ]
+        },
+        {
+          "id": "a1_possessives.407",
+          "source": "Sus hijos (de ellos) son muy simpáticos.",
+          "answers": [
+            "Their children are very nice",
+            "Their kids are very nice"
+          ]
+        },
+        {
+          "id": "a1_possessives.408",
+          "source": "¿Cómo se llama tu hermana?",
+          "answers": [
+            "What's your sister's name"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_possessives.501",
+          "answer": "Is this your phone?"
+        },
+        {
+          "id": "a1_possessives.502",
+          "answer": "Her brother is a doctor"
+        },
+        {
+          "id": "a1_possessives.503",
+          "answer": "That bike isn't mine"
+        },
+        {
+          "id": "a1_possessives.504",
+          "answer": "Their house is near the sea"
+        },
+        {
+          "id": "a1_possessives.505",
+          "answer": "Whose keys are these?"
+        },
+        {
+          "id": "a1_possessives.506",
+          "answer": "Sam loves his new guitar"
+        }
+      ]
+    }
+  ]
+}

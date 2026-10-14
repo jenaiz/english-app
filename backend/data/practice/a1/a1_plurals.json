@@ -1,0 +1,570 @@
+{
+  "topic_id": "a1_plurals",
+  "level_id": "A1",
+  "title": "Plurales: -s, -es e irregulares",
+  "tags": [
+    "articles_demonstratives"
+  ],
+  "units": [
+    "numbers_colors"
+  ],
+  "rule": {
+    "title": "Plurals",
+    "explanation": "El plural se forma normalmente añadiendo «-s»:\n- «a towel» → «two towels»\n- «a car» → «three cars»\n\nDespués de s, sh, ch o x se añade «-es» (y se pronuncia una sílaba más):\n- «box» → «boxes», «bus» → «buses», «dish» → «dishes», «watch» → «watches»\n\nSi la palabra acaba en consonante + y, cambia a «-ies»; si acaba en vocal + y, solo lleva «-s»:\n- «city» → «cities», «baby» → «babies»\n- «day» → «days», «key» → «keys»\n\nMuchas palabras en «-f» o «-fe» cambian a «-ves», y algunas en «-o» llevan «-es»:\n- «knife» → «knives», «shelf» → «shelves»\n- «potato» → «potatoes», «tomato» → «tomatoes» (pero «photo» → «photos»)\n\nHay plurales irregulares que hay que aprender:\n- «man» → «men», «woman» → «women», «child» → «children», «person» → «people»\n- «foot» → «feet», «tooth» → «teeth», «mouse» → «mice»\n\nOjo: el adjetivo nunca va en plural: «two green lamps» (nunca «greens lamps»). Y «people» ya es plural: «people are», nunca «peoples».",
+    "table": {
+      "headers": [
+        "Caso",
+        "Singular",
+        "Plural"
+      ],
+      "rows": [
+        [
+          "La mayoría",
+          "towel",
+          "towels"
+        ],
+        [
+          "Tras s, sh, ch, x",
+          "box",
+          "boxes"
+        ],
+        [
+          "Consonante + y",
+          "city",
+          "cities"
+        ],
+        [
+          "Vocal + y",
+          "day",
+          "days"
+        ],
+        [
+          "Terminadas en f / fe",
+          "knife",
+          "knives"
+        ],
+        [
+          "Irregulares",
+          "child",
+          "children"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Escribe el plural de la palabra entre paréntesis.",
+      "items": [
+        {
+          "id": "a1_plurals.001",
+          "sentence": "There are three ___ in the kitchen. (chair)",
+          "answers": [
+            [
+              "chairs"
+            ]
+          ]
+        },
+        {
+          "id": "a1_plurals.002",
+          "sentence": "I've got two ___ for the flat. (key)",
+          "answers": [
+            [
+              "keys"
+            ]
+          ],
+          "explanation": "Vocal + y: solo «-s»."
+        },
+        {
+          "id": "a1_plurals.003",
+          "sentence": "The ___ are on the shelf. (box)",
+          "answers": [
+            [
+              "boxes"
+            ]
+          ],
+          "explanation": "Tras x: «-es»."
+        },
+        {
+          "id": "a1_plurals.004",
+          "sentence": "Bristol and Bath are beautiful ___. (city)",
+          "answers": [
+            [
+              "cities"
+            ]
+          ],
+          "explanation": "Consonante + y: «-ies»."
+        },
+        {
+          "id": "a1_plurals.005",
+          "sentence": "There are five ___ in my class. (woman)",
+          "answers": [
+            [
+              "women"
+            ]
+          ],
+          "explanation": "Plural irregular."
+        },
+        {
+          "id": "a1_plurals.006",
+          "sentence": "Sam has got two ___. (guitar)",
+          "answers": [
+            [
+              "guitars"
+            ]
+          ]
+        },
+        {
+          "id": "a1_plurals.007",
+          "sentence": "The ___ are in the park. (child)",
+          "answers": [
+            [
+              "children"
+            ]
+          ],
+          "explanation": "Plural irregular."
+        },
+        {
+          "id": "a1_plurals.008",
+          "sentence": "Where are the ___? I want to cut the bread. (knife)",
+          "answers": [
+            [
+              "knives"
+            ]
+          ],
+          "explanation": "«-fe» cambia a «-ves»."
+        },
+        {
+          "id": "a1_plurals.009",
+          "sentence": "Can you wash the ___, please? (dish)",
+          "answers": [
+            [
+              "dishes"
+            ]
+          ],
+          "explanation": "Tras sh: «-es»."
+        },
+        {
+          "id": "a1_plurals.010",
+          "sentence": "I've got two ___, one for work and one for home. (watch)",
+          "answers": [
+            [
+              "watches"
+            ]
+          ],
+          "explanation": "Tras ch: «-es»."
+        },
+        {
+          "id": "a1_plurals.011",
+          "sentence": "There are a lot of ___ in the pub tonight. (person)",
+          "answers": [
+            [
+              "people"
+            ]
+          ],
+          "explanation": "Plural irregular."
+        },
+        {
+          "id": "a1_plurals.012",
+          "sentence": "My ___ hurt after the walk. (foot)",
+          "answers": [
+            [
+              "feet"
+            ]
+          ],
+          "explanation": "Plural irregular."
+        },
+        {
+          "id": "a1_plurals.013",
+          "sentence": "We buy ___ and tomatoes at the market. (potato)",
+          "answers": [
+            [
+              "potatoes"
+            ]
+          ]
+        },
+        {
+          "id": "a1_plurals.014",
+          "sentence": "Look at these ___ of Valencia! (photo)",
+          "answers": [
+            [
+              "photos"
+            ]
+          ],
+          "explanation": "«photo» solo lleva «-s»."
+        },
+        {
+          "id": "a1_plurals.015",
+          "sentence": "There are two ___ at the door. (man)",
+          "answers": [
+            [
+              "men"
+            ]
+          ],
+          "explanation": "Plural irregular."
+        },
+        {
+          "id": "a1_plurals.016",
+          "sentence": "I work four ___ a week. (day)",
+          "answers": [
+            [
+              "days"
+            ]
+          ],
+          "explanation": "Vocal + y: solo «-s»."
+        },
+        {
+          "id": "a1_plurals.017",
+          "sentence": "Brush your ___ before bed! (tooth)",
+          "answers": [
+            [
+              "teeth"
+            ]
+          ],
+          "explanation": "Plural irregular."
+        },
+        {
+          "id": "a1_plurals.018",
+          "sentence": "The ___ in this street are very old. (bus)",
+          "answers": [
+            [
+              "buses"
+            ]
+          ],
+          "explanation": "Tras s: «-es»."
+        },
+        {
+          "id": "a1_plurals.019",
+          "sentence": "There are three ___ in the living room. (shelf)",
+          "answers": [
+            [
+              "shelves"
+            ]
+          ],
+          "explanation": "«-f» cambia a «-ves»."
+        },
+        {
+          "id": "a1_plurals.020",
+          "sentence": "Priya's sister has got two ___. (baby)",
+          "answers": [
+            [
+              "babies"
+            ]
+          ],
+          "explanation": "Consonante + y: «-ies»."
+        },
+        {
+          "id": "a1_plurals.021",
+          "sentence": "I need two ___ of milk. (bottle)",
+          "answers": [
+            [
+              "bottles"
+            ]
+          ]
+        },
+        {
+          "id": "a1_plurals.022",
+          "sentence": "There are ___ in the kitchen! (mouse)",
+          "answers": [
+            [
+              "mice"
+            ]
+          ],
+          "explanation": "Plural irregular."
+        },
+        {
+          "id": "a1_plurals.023",
+          "sentence": "These ___ are very cheap. (dress)",
+          "answers": [
+            [
+              "dresses"
+            ]
+          ],
+          "explanation": "Tras s: «-es»."
+        },
+        {
+          "id": "a1_plurals.024",
+          "sentence": "Our ___ are very friendly. (neighbour)",
+          "answers": [
+            [
+              "neighbours"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué es correcto?",
+      "items": [
+        {
+          "id": "a1_plurals.101",
+          "question": "Hay mucha gente en la calle.",
+          "options": [
+            "There are a lot of peoples in the street.",
+            "There are a lot of people in the street."
+          ],
+          "answer": 1,
+          "explanation": "«people» ya es plural."
+        },
+        {
+          "id": "a1_plurals.102",
+          "question": "Dos lámparas verdes.",
+          "options": [
+            "two green lamps",
+            "two greens lamps"
+          ],
+          "answer": 0,
+          "explanation": "El adjetivo nunca va en plural."
+        },
+        {
+          "id": "a1_plurals.103",
+          "question": "Tres ciudades.",
+          "options": [
+            "three citys",
+            "three cities"
+          ],
+          "answer": 1,
+          "explanation": "Consonante + y: «-ies»."
+        },
+        {
+          "id": "a1_plurals.104",
+          "question": "Cuatro días.",
+          "options": [
+            "four days",
+            "four daies"
+          ],
+          "answer": 0,
+          "explanation": "Vocal + y: solo «-s»."
+        },
+        {
+          "id": "a1_plurals.105",
+          "question": "Dos niños.",
+          "options": [
+            "two childs",
+            "two children"
+          ],
+          "answer": 1,
+          "explanation": "Plural irregular."
+        },
+        {
+          "id": "a1_plurals.106",
+          "question": "Muchas cajas.",
+          "options": [
+            "a lot of boxs",
+            "a lot of boxes"
+          ],
+          "answer": 1,
+          "explanation": "Tras x: «-es»."
+        },
+        {
+          "id": "a1_plurals.107",
+          "question": "Las mujeres de mi familia.",
+          "options": [
+            "the women in my family",
+            "the womans in my family"
+          ],
+          "answer": 0,
+          "explanation": "Plural irregular."
+        },
+        {
+          "id": "a1_plurals.108",
+          "question": "Dos cuchillos.",
+          "options": [
+            "two knifes",
+            "two knives"
+          ],
+          "answer": 1,
+          "explanation": "«-fe» cambia a «-ves»."
+        },
+        {
+          "id": "a1_plurals.109",
+          "question": "Mis pies.",
+          "options": [
+            "my foots",
+            "my feet"
+          ],
+          "answer": 1,
+          "explanation": "Plural irregular."
+        },
+        {
+          "id": "a1_plurals.110",
+          "question": "Tres fotos.",
+          "options": [
+            "three photoes",
+            "three photos"
+          ],
+          "answer": 1,
+          "explanation": "«photo» solo lleva «-s»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Cada frase tiene un error en un plural. Escríbela bien.",
+      "items": [
+        {
+          "id": "a1_plurals.201",
+          "prompt": "Corrige",
+          "source": "There are three bus in the street.",
+          "answers": [
+            "There are three buses in the street"
+          ]
+        },
+        {
+          "id": "a1_plurals.202",
+          "prompt": "Corrige",
+          "source": "My childrens are at school.",
+          "answers": [
+            "My children are at school"
+          ],
+          "explanation": "«children» ya es plural."
+        },
+        {
+          "id": "a1_plurals.203",
+          "prompt": "Corrige",
+          "source": "I've got two news bags.",
+          "answers": [
+            "I've got two new bags"
+          ],
+          "explanation": "El adjetivo no va en plural."
+        },
+        {
+          "id": "a1_plurals.204",
+          "prompt": "Corrige",
+          "source": "We visit a lot of citys.",
+          "answers": [
+            "We visit a lot of cities"
+          ]
+        },
+        {
+          "id": "a1_plurals.205",
+          "prompt": "Corrige",
+          "source": "There are five womans in the office.",
+          "answers": [
+            "There are five women in the office"
+          ]
+        },
+        {
+          "id": "a1_plurals.206",
+          "prompt": "Corrige",
+          "source": "The peoples here are very friendly.",
+          "answers": [
+            "The people here are very friendly"
+          ]
+        },
+        {
+          "id": "a1_plurals.207",
+          "prompt": "Corrige",
+          "source": "Where are the knifes?",
+          "answers": [
+            "Where are the knives"
+          ]
+        },
+        {
+          "id": "a1_plurals.208",
+          "prompt": "Corrige",
+          "source": "I need three tomatos.",
+          "answers": [
+            "I need three tomatoes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_plurals.301",
+          "source": "Tengo dos hermanos.",
+          "answers": [
+            "I've got two brothers",
+            "I have two brothers",
+            "I have got two brothers"
+          ]
+        },
+        {
+          "id": "a1_plurals.302",
+          "source": "Hay tres hombres en el bar.",
+          "answers": [
+            "There are three men in the bar",
+            "There are three men in the pub"
+          ]
+        },
+        {
+          "id": "a1_plurals.303",
+          "source": "Los niños están en el parque.",
+          "answers": [
+            "The children are in the park",
+            "The kids are in the park"
+          ]
+        },
+        {
+          "id": "a1_plurals.304",
+          "source": "Necesito dos llaves.",
+          "answers": [
+            "I need two keys"
+          ]
+        },
+        {
+          "id": "a1_plurals.305",
+          "source": "Me duelen los pies.",
+          "answers": [
+            "My feet hurt"
+          ]
+        },
+        {
+          "id": "a1_plurals.306",
+          "source": "Hay muchas personas aquí.",
+          "answers": [
+            "There are a lot of people here",
+            "There are many people here",
+            "There are lots of people here"
+          ]
+        },
+        {
+          "id": "a1_plurals.307",
+          "source": "Compramos patatas en el mercado.",
+          "answers": [
+            "We buy potatoes at the market",
+            "We buy potatoes in the market"
+          ]
+        },
+        {
+          "id": "a1_plurals.308",
+          "source": "Las cajas están en la cocina.",
+          "answers": [
+            "The boxes are in the kitchen"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_plurals.401",
+          "answer": "There are two green chairs"
+        },
+        {
+          "id": "a1_plurals.402",
+          "answer": "The children are in the garden"
+        },
+        {
+          "id": "a1_plurals.403",
+          "answer": "I've got two black cats"
+        },
+        {
+          "id": "a1_plurals.404",
+          "answer": "Where are the knives?"
+        },
+        {
+          "id": "a1_plurals.405",
+          "answer": "There are a lot of people here"
+        }
+      ]
+    }
+  ]
+}

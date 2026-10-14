@@ -1,0 +1,542 @@
+{
+  "topic_id": "a1_to_be",
+  "level_id": "A1",
+  "title": "El verbo «to be»: am, is, are",
+  "tags": [
+    "to_be"
+  ],
+  "units": [
+    "saying_hello",
+    "new_flatmates"
+  ],
+  "rule": {
+    "title": "The verb 'to be': am, is, are",
+    "explanation": "«To be» significa ser o estar. En presente tiene tres formas: «am» con «I»; «is» con «he», «she» e «it»; y «are» con «you», «we» y «they».\n\nAl hablar usamos casi siempre las contracciones:\n- «I'm», «you're», «he's», «she's», «it's», «we're», «they're»\n\nEn inglés siempre hay que poner el sujeto (nunca «Is from Spain»). Para el tiempo, la hora o la distancia, el sujeto es «it»:\n- «She's from Spain.»\n- «It's cold today.»\n\nLa negativa se forma con «not»: «I'm not», «isn't», «aren't». En la pregunta, el verbo va delante del sujeto:\n- «I'm not tired.»\n- «Is he a student?»\n- «Where are you from?»\n\nEn las respuestas cortas afirmativas no se contrae (nunca «Yes, I'm»):\n- «Are you tired? — Yes, I am. / No, I'm not.»\n- «Is it far? — Yes, it is. / No, it isn't.»\n\nOjo: algunas cosas que en español van con tener, en inglés van con «be»: «I'm twenty-five» (tengo veinticinco años), «I'm hungry» (tengo hambre), «I'm cold» (tengo frío).",
+    "table": {
+      "headers": [
+        "",
+        "Afirmativa",
+        "Negativa",
+        "Pregunta"
+      ],
+      "rows": [
+        [
+          "I",
+          "I'm",
+          "I'm not",
+          "Am I…?"
+        ],
+        [
+          "he / she / it",
+          "she's",
+          "she isn't",
+          "Is she…?"
+        ],
+        [
+          "you / we / they",
+          "we're",
+          "we aren't",
+          "Are we…?"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «am», «is», «are», «am not», «isn't» o «aren't».",
+      "bank": [
+        "am",
+        "is",
+        "are",
+        "am not",
+        "isn't",
+        "aren't"
+      ],
+      "items": [
+        {
+          "id": "a1_to_be.001",
+          "sentence": "Lucía ___ from Valencia.",
+          "answers": [
+            [
+              "is"
+            ]
+          ]
+        },
+        {
+          "id": "a1_to_be.002",
+          "sentence": "Sam and Priya ___ my flatmates.",
+          "answers": [
+            [
+              "are"
+            ]
+          ]
+        },
+        {
+          "id": "a1_to_be.003",
+          "sentence": "I ___ a teacher. I'm a student.",
+          "answers": [
+            [
+              "am not"
+            ]
+          ],
+          "explanation": "Negativa con «I»: «am not» («I'm not»)."
+        },
+        {
+          "id": "a1_to_be.004",
+          "sentence": "___ you tired? — No, I'm fine.",
+          "answers": [
+            [
+              "Are"
+            ]
+          ]
+        },
+        {
+          "id": "a1_to_be.005",
+          "sentence": "Daniel ___ Irish. He's from Galway.",
+          "answers": [
+            [
+              "is"
+            ]
+          ]
+        },
+        {
+          "id": "a1_to_be.006",
+          "sentence": "The pub ___ open on Mondays. It's closed.",
+          "answers": [
+            [
+              "isn't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_to_be.007",
+          "sentence": "My parents ___ in Bristol. They're in Valencia.",
+          "answers": [
+            [
+              "aren't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_to_be.008",
+          "sentence": "___ Helen your boss? — Yes, she is.",
+          "answers": [
+            [
+              "Is"
+            ]
+          ]
+        },
+        {
+          "id": "a1_to_be.009",
+          "sentence": "It ___ very cold today. Take a coat!",
+          "answers": [
+            [
+              "is"
+            ]
+          ]
+        },
+        {
+          "id": "a1_to_be.010",
+          "sentence": "We ___ late. The class starts at ten and it's only nine.",
+          "answers": [
+            [
+              "aren't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_to_be.011",
+          "sentence": "Where ___ Javi? — He's at home.",
+          "answers": [
+            [
+              "is"
+            ]
+          ]
+        },
+        {
+          "id": "a1_to_be.012",
+          "sentence": "How old ___ you? — I'm twenty-five.",
+          "answers": [
+            [
+              "are"
+            ]
+          ],
+          "explanation": "La edad va con «be»: «How old are you?»."
+        },
+        {
+          "id": "a1_to_be.013",
+          "sentence": "I ___ hungry. Can we have lunch?",
+          "answers": [
+            [
+              "am"
+            ]
+          ],
+          "explanation": "Tener hambre: «be hungry»."
+        },
+        {
+          "id": "a1_to_be.014",
+          "sentence": "Are you Spanish? — Yes, I ___.",
+          "answers": [
+            [
+              "am"
+            ]
+          ],
+          "explanation": "En la respuesta corta afirmativa no se contrae."
+        },
+        {
+          "id": "a1_to_be.015",
+          "sentence": "Is the café near here? — No, it ___.",
+          "answers": [
+            [
+              "isn't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_to_be.016",
+          "sentence": "Priya and I ___ friends.",
+          "answers": [
+            [
+              "are"
+            ]
+          ],
+          "explanation": "«Priya and I» = «we»."
+        },
+        {
+          "id": "a1_to_be.017",
+          "sentence": "___ your brother a musician? — No, he isn't.",
+          "answers": [
+            [
+              "Is"
+            ]
+          ]
+        },
+        {
+          "id": "a1_to_be.018",
+          "sentence": "The keys ___ in my bag. Where are they?",
+          "answers": [
+            [
+              "aren't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_to_be.019",
+          "sentence": "What ___ your name?",
+          "answers": [
+            [
+              "is"
+            ]
+          ]
+        },
+        {
+          "id": "a1_to_be.020",
+          "sentence": "You ___ in the right room. This is room 4, not room 6.",
+          "answers": [
+            [
+              "aren't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_to_be.021",
+          "sentence": "Are Sam and Daniel at work? — Yes, they ___.",
+          "answers": [
+            [
+              "are"
+            ]
+          ]
+        },
+        {
+          "id": "a1_to_be.022",
+          "sentence": "It ___ Saturday today. It's Sunday!",
+          "answers": [
+            [
+              "isn't"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a1_to_be.101",
+          "question": "Tengo veinticinco años.",
+          "options": [
+            "I have twenty-five years.",
+            "I'm twenty-five."
+          ],
+          "answer": 1,
+          "explanation": "La edad va con «be»: «I'm twenty-five»."
+        },
+        {
+          "id": "a1_to_be.102",
+          "question": "Ella es de Irlanda.",
+          "options": [
+            "She's from Ireland.",
+            "Is from Ireland."
+          ],
+          "answer": 0,
+          "explanation": "En inglés siempre hay sujeto."
+        },
+        {
+          "id": "a1_to_be.103",
+          "question": "¿Estás cansado? — Sí.",
+          "options": [
+            "Are you tired? — Yes, I'm.",
+            "Are you tired? — Yes, I am."
+          ],
+          "answer": 1,
+          "explanation": "En las respuestas cortas afirmativas no se contrae."
+        },
+        {
+          "id": "a1_to_be.104",
+          "question": "No somos ingleses.",
+          "options": [
+            "We aren't English.",
+            "We not are English."
+          ],
+          "answer": 0,
+          "explanation": "Negativa: «aren't» («are not»)."
+        },
+        {
+          "id": "a1_to_be.105",
+          "question": "¿Dónde está el banco?",
+          "options": [
+            "Where is the bank?",
+            "Where the bank is?"
+          ],
+          "answer": 0,
+          "explanation": "En la pregunta, el verbo va delante del sujeto."
+        },
+        {
+          "id": "a1_to_be.106",
+          "question": "Tengo frío.",
+          "options": [
+            "I'm cold.",
+            "I have cold."
+          ],
+          "answer": 0,
+          "explanation": "Frío, calor, hambre y sed van con «be»: «I'm cold»."
+        },
+        {
+          "id": "a1_to_be.107",
+          "question": "Mis amigos están en el pub.",
+          "options": [
+            "My friends is in the pub.",
+            "My friends are in the pub."
+          ],
+          "answer": 1,
+          "explanation": "Plural: «are»."
+        },
+        {
+          "id": "a1_to_be.108",
+          "question": "Es tarde.",
+          "options": [
+            "Is late.",
+            "It's late."
+          ],
+          "answer": 1,
+          "explanation": "Para la hora o el tiempo, el sujeto es «it»."
+        },
+        {
+          "id": "a1_to_be.109",
+          "question": "¿Es Priya enfermera? — No.",
+          "options": [
+            "Is Priya a nurse? — No, she isn't.",
+            "Is Priya a nurse? — No, she not."
+          ],
+          "answer": 0,
+          "explanation": "Respuesta corta negativa: «No, she isn't»."
+        },
+        {
+          "id": "a1_to_be.110",
+          "question": "Lucía y yo somos compañeras de piso.",
+          "options": [
+            "Lucía and I am flatmates.",
+            "Lucía and I are flatmates."
+          ],
+          "answer": 1,
+          "explanation": "«Lucía and I» = «we»: «are»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Transforma o corrige la frase como se indica.",
+      "items": [
+        {
+          "id": "a1_to_be.201",
+          "prompt": "Negativa",
+          "source": "Sam is at home.",
+          "answers": [
+            "Sam isn't at home"
+          ]
+        },
+        {
+          "id": "a1_to_be.202",
+          "prompt": "Pregunta",
+          "source": "They are from Bristol.",
+          "answers": [
+            "Are they from Bristol"
+          ]
+        },
+        {
+          "id": "a1_to_be.203",
+          "prompt": "Negativa",
+          "source": "I am a doctor.",
+          "answers": [
+            "I'm not a doctor"
+          ]
+        },
+        {
+          "id": "a1_to_be.204",
+          "prompt": "Pregunta",
+          "source": "Helen is your boss.",
+          "answers": [
+            "Is Helen your boss"
+          ]
+        },
+        {
+          "id": "a1_to_be.205",
+          "prompt": "Corrige",
+          "source": "My sister has twenty years.",
+          "answers": [
+            "My sister is twenty",
+            "My sister is twenty years old"
+          ],
+          "explanation": "La edad va con «be»."
+        },
+        {
+          "id": "a1_to_be.206",
+          "prompt": "Corrige",
+          "source": "Is very cold today.",
+          "answers": [
+            "It's very cold today"
+          ],
+          "explanation": "Falta el sujeto: «it»."
+        },
+        {
+          "id": "a1_to_be.207",
+          "prompt": "Corrige",
+          "source": "We is very happy here.",
+          "answers": [
+            "We are very happy here"
+          ]
+        },
+        {
+          "id": "a1_to_be.208",
+          "prompt": "Negativa",
+          "source": "The shops are open.",
+          "answers": [
+            "The shops aren't open"
+          ]
+        },
+        {
+          "id": "a1_to_be.209",
+          "prompt": "Pregunta",
+          "source": "It is far.",
+          "answers": [
+            "Is it far"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_to_be.301",
+          "source": "Soy de Valencia.",
+          "answers": [
+            "I'm from Valencia"
+          ]
+        },
+        {
+          "id": "a1_to_be.302",
+          "source": "¿Está Sam en casa?",
+          "answers": [
+            "Is Sam at home"
+          ]
+        },
+        {
+          "id": "a1_to_be.303",
+          "source": "No estoy cansada.",
+          "answers": [
+            "I'm not tired"
+          ]
+        },
+        {
+          "id": "a1_to_be.304",
+          "source": "Tengo hambre.",
+          "answers": [
+            "I'm hungry"
+          ]
+        },
+        {
+          "id": "a1_to_be.305",
+          "source": "Mis padres no están en Bristol.",
+          "answers": [
+            "My parents aren't in Bristol"
+          ]
+        },
+        {
+          "id": "a1_to_be.306",
+          "source": "¿Cuántos años tienes?",
+          "answers": [
+            "How old are you"
+          ]
+        },
+        {
+          "id": "a1_to_be.307",
+          "source": "Hace frío hoy.",
+          "answers": [
+            "It's cold today"
+          ]
+        },
+        {
+          "id": "a1_to_be.308",
+          "source": "Somos compañeros de piso.",
+          "answers": [
+            "We're flatmates"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_to_be.401",
+          "answer": "Where are you from?"
+        },
+        {
+          "id": "a1_to_be.402",
+          "answer": "My flatmates aren't at home"
+        },
+        {
+          "id": "a1_to_be.403",
+          "answer": "Is Daniel your colleague?"
+        },
+        {
+          "id": "a1_to_be.404",
+          "answer": "I'm not hungry now"
+        },
+        {
+          "id": "a1_to_be.405",
+          "answer": "Are your parents in Spain?"
+        },
+        {
+          "id": "a1_to_be.406",
+          "answer": "It's very cold today"
+        }
+      ]
+    }
+  ]
+}

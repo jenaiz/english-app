@@ -14,23 +14,25 @@ const CONTRACTIONS: [RegExp, string][] = [
   [/\b(he|she|it|that|there|what|where|who|how)'s\b/g, '$1 is'],
 ]
 
-/** Lowercase, unify quotes, expand contractions, drop punctuation, collapse spaces. */
-export function normalize(text: string): string {
+/**
+ * Lowercase, unify quotes, expand contractions, drop punctuation, collapse spaces. Apostrophes
+ * are dropped too, unless `strict` keeps them: where the apostrophe is what is being practised
+ * (possessive 's, yours / your's), "parents' " and "parent's" must not count as the same.
+ */
+export function normalize(text: string, strict = false): string {
   let s = text.toLowerCase().replace(/[’‘`´]/g, "'").trim()
   for (const [re, rep] of CONTRACTIONS) s = s.replace(re, rep)
-  return s
-    .replace(/[^\p{L}\p{N}\s']/gu, ' ')
-    .replace(/'/g, '')
-    .replace(/\s+/g, ' ')
-    .trim()
+  s = s.replace(/[^\p{L}\p{N}\s']/gu, ' ')
+  if (!strict) s = s.replace(/'/g, '')
+  return s.replace(/\s+/g, ' ').trim()
 }
 
 // "pick up", "pickup" and "pick-up" are the same answer: speech recognition often merges words.
 const compact = (normalized: string) => normalized.replace(/ /g, '')
 
-export function isCorrect(input: string, accepted: string[]): boolean {
-  const n = normalize(input)
-  return n.length > 0 && accepted.some((a) => normalize(a) === n || compact(normalize(a)) === compact(n))
+export function isCorrect(input: string, accepted: string[], strict = false): boolean {
+  const n = normalize(input, strict)
+  return n.length > 0 && accepted.some((a) => normalize(a, strict) === n || compact(normalize(a, strict)) === compact(n))
 }
 
 /** Word-level similarity (0..1) used to grade speech recognition, which is never perfect. */
