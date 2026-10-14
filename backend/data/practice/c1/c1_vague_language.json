@@ -1,0 +1,472 @@
+{
+  "topic_id": "c1_vague_language",
+  "level_id": "C1",
+  "title": "Lenguaje aproximativo: or so, -ish, sort of, and stuff",
+  "tags": [
+    "vague_language"
+  ],
+  "units": [
+    "the_engagement"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Vague language",
+    "explanation": "En la conversación los nativos no siempre son exactos, y sonar demasiado preciso puede resultar frío. El lenguaje aproximativo suaviza y aproxima:\n- Cantidades: «about» / «around» / «roughly» 500, «500 or so», «30-odd people» (unos treinta y pico), «dozens of», «loads of», «a couple of»\n- Horas y edades con «-ish»: «Let's meet at sevenish.», «He's fortyish.»\n- Adjetivos con «-ish» o con «kind of» / «sort of»: «It's greenish.», «I'm kind of nervous.», «It's sort of a party, sort of a dinner.»\n- Listas abiertas: «and stuff», «and things like that», «or something (like that)», «and so on»: «We need flowers, music and stuff.», «Let's have tapas or something.»\n- Cosas cuyo nombre no recordamos: «the thingy», «whatsit»: «Pass me the thingy for the cake.»\n- Suavizar: «a bit», «more or less», «pretty much»: «It's pretty much finished.»\n\nOjo: en un correo formal o un informe, este registro es demasiado informal; usa «approximately» o «around». Y «-ish» se pega a la palabra: «sevenish», «fortyish».",
+    "table": {
+      "headers": [
+        "Para…",
+        "Expresiones",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Cantidades",
+          "about, or so, -odd, loads of",
+          "fifty or so people"
+        ],
+        [
+          "Horas / edades",
+          "-ish",
+          "at sevenish"
+        ],
+        [
+          "Adjetivos",
+          "kind of, sort of, -ish",
+          "kind of tired, reddish"
+        ],
+        [
+          "Listas",
+          "and stuff, or something",
+          "pizza or something"
+        ],
+        [
+          "Cosas sin nombre",
+          "thingy, whatsit",
+          "the thingy"
+        ],
+        [
+          "Casi",
+          "pretty much, more or less",
+          "It's pretty much done."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «so», «ish», «kind», «stuff», «something», «odd», «pretty» o «thingy».",
+      "bank": [
+        "so",
+        "ish",
+        "kind",
+        "sort",
+        "stuff",
+        "things",
+        "something",
+        "odd",
+        "pretty",
+        "thingy",
+        "whatsit",
+        "less"
+      ],
+      "items": [
+        {
+          "id": "c1_vague_language.001",
+          "sentence": "My mum wants five hundred guests or ___.",
+          "answers": [
+            [
+              "so"
+            ]
+          ]
+        },
+        {
+          "id": "c1_vague_language.002",
+          "sentence": "Let's meet at the pub at eight___. (aproximadamente a las ocho)",
+          "answers": [
+            [
+              "ish"
+            ]
+          ]
+        },
+        {
+          "id": "c1_vague_language.003",
+          "sentence": "I'm ___ of nervous about giving a speech.",
+          "answers": [
+            [
+              "kind",
+              "sort"
+            ]
+          ]
+        },
+        {
+          "id": "c1_vague_language.004",
+          "sentence": "We need flowers, a band and ___ like that.",
+          "answers": [
+            [
+              "stuff",
+              "things"
+            ]
+          ]
+        },
+        {
+          "id": "c1_vague_language.005",
+          "sentence": "Shall we order pizza or ___?",
+          "answers": [
+            [
+              "something"
+            ]
+          ]
+        },
+        {
+          "id": "c1_vague_language.006",
+          "sentence": "There were thirty-___ people at the party. (treinta y pico)",
+          "answers": [
+            [
+              "odd"
+            ]
+          ]
+        },
+        {
+          "id": "c1_vague_language.007",
+          "sentence": "The report is ___ much finished. Just one page left.",
+          "answers": [
+            [
+              "pretty"
+            ]
+          ]
+        },
+        {
+          "id": "c1_vague_language.008",
+          "sentence": "Can you pass me the ___ for the cake? You know, the round thing.",
+          "answers": [
+            [
+              "thingy",
+              "whatsit"
+            ]
+          ]
+        },
+        {
+          "id": "c1_vague_language.009",
+          "sentence": "He's forty___, I think. (unos cuarenta)",
+          "answers": [
+            [
+              "ish"
+            ]
+          ]
+        },
+        {
+          "id": "c1_vague_language.010",
+          "sentence": "We need chairs, tables, plates and ___.",
+          "answers": [
+            [
+              "stuff"
+            ]
+          ]
+        },
+        {
+          "id": "c1_vague_language.011",
+          "sentence": "It's ___ of a party and ___ of a dinner.",
+          "answers": [
+            [
+              "sort",
+              "kind"
+            ],
+            [
+              "sort",
+              "kind"
+            ]
+          ]
+        },
+        {
+          "id": "c1_vague_language.012",
+          "sentence": "There were about fifty people, more or ___.",
+          "answers": [
+            [
+              "less"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es natural en una conversación?",
+      "items": [
+        {
+          "id": "c1_vague_language.101",
+          "question": "Nos vemos sobre las siete.",
+          "options": [
+            "See you at sevenish.",
+            "See you at seven -ish o'clock."
+          ],
+          "answer": 0,
+          "explanation": "«-ish» pegado a la palabra."
+        },
+        {
+          "id": "c1_vague_language.102",
+          "question": "Había unas cincuenta personas.",
+          "options": [
+            "There were fifty or so people.",
+            "There were fifty or something like people."
+          ],
+          "answer": 0,
+          "explanation": "«or so»."
+        },
+        {
+          "id": "c1_vague_language.103",
+          "question": "Estoy un poco nervioso.",
+          "options": [
+            "I'm kind of nervous.",
+            "I'm kind nervous."
+          ],
+          "answer": 0,
+          "explanation": "«kind of»."
+        },
+        {
+          "id": "c1_vague_language.104",
+          "question": "Pedimos tapas o algo.",
+          "options": [
+            "Let's have tapas or something.",
+            "Let's have tapas or stuff something."
+          ],
+          "answer": 0,
+          "explanation": "«or something»."
+        },
+        {
+          "id": "c1_vague_language.105",
+          "question": "Necesitamos flores, música y esas cosas.",
+          "options": [
+            "We need flowers, music and stuff.",
+            "We need flowers, music and stuffs."
+          ],
+          "answer": 0,
+          "explanation": "«stuff» no tiene plural."
+        },
+        {
+          "id": "c1_vague_language.106",
+          "question": "Treinta y pico personas.",
+          "options": [
+            "thirty-odd people",
+            "thirty-ish odd people"
+          ],
+          "answer": 0,
+          "explanation": "«-odd»."
+        },
+        {
+          "id": "c1_vague_language.107",
+          "question": "Está prácticamente terminado.",
+          "options": [
+            "It's pretty much finished.",
+            "It's pretty finished much."
+          ],
+          "answer": 0,
+          "explanation": "«pretty much»."
+        },
+        {
+          "id": "c1_vague_language.108",
+          "question": "En un informe formal: unas 500 respuestas.",
+          "options": [
+            "approximately 500 responses",
+            "500-ish responses"
+          ],
+          "answer": 0,
+          "explanation": "Formal: «approximately»."
+        },
+        {
+          "id": "c1_vague_language.109",
+          "question": "Tiene unos cuarenta años.",
+          "options": [
+            "He's fortyish.",
+            "He's forty-something ish."
+          ],
+          "answer": 0,
+          "explanation": "«fortyish»."
+        },
+        {
+          "id": "c1_vague_language.110",
+          "question": "Pásame el chisme ese.",
+          "options": [
+            "Pass me the thingy.",
+            "Pass me the thing-ish."
+          ],
+          "answer": 0,
+          "explanation": "«the thingy»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Hazlo menos preciso con la expresión indicada.",
+      "items": [
+        {
+          "id": "c1_vague_language.201",
+          "prompt": "or so",
+          "source": "There were exactly 52 people.",
+          "answers": [
+            "There were fifty or so people",
+            "There were 50 or so people"
+          ]
+        },
+        {
+          "id": "c1_vague_language.202",
+          "prompt": "-ish",
+          "source": "Let's meet at exactly 7 p.m.",
+          "answers": [
+            "Let's meet at sevenish"
+          ]
+        },
+        {
+          "id": "c1_vague_language.203",
+          "prompt": "kind of",
+          "source": "I'm a little nervous.",
+          "answers": [
+            "I'm kind of nervous"
+          ]
+        },
+        {
+          "id": "c1_vague_language.204",
+          "prompt": "or something",
+          "source": "Shall we get pizza?",
+          "answers": [
+            "Shall we get pizza or something"
+          ]
+        },
+        {
+          "id": "c1_vague_language.205",
+          "prompt": "and stuff",
+          "source": "We need flowers, music, decorations, balloons…",
+          "answers": [
+            "We need flowers, music and stuff"
+          ]
+        },
+        {
+          "id": "c1_vague_language.206",
+          "prompt": "-odd",
+          "source": "There were thirty-three people.",
+          "answers": [
+            "There were thirty-odd people"
+          ]
+        },
+        {
+          "id": "c1_vague_language.207",
+          "prompt": "pretty much",
+          "source": "It's almost finished.",
+          "answers": [
+            "It's pretty much finished"
+          ]
+        },
+        {
+          "id": "c1_vague_language.208",
+          "prompt": "Formal",
+          "source": "There were 500-ish responses. (en un informe)",
+          "answers": [
+            "There were approximately 500 responses",
+            "There were around 500 responses"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés de forma natural.",
+      "items": [
+        {
+          "id": "c1_vague_language.301",
+          "source": "Quedamos sobre las ocho.",
+          "answers": [
+            "Let's meet at eightish",
+            "Let's meet at about eight",
+            "Let's meet around eight"
+          ]
+        },
+        {
+          "id": "c1_vague_language.302",
+          "source": "Había unas quinientas personas.",
+          "answers": [
+            "There were five hundred or so people",
+            "There were about five hundred people",
+            "There were around five hundred people"
+          ]
+        },
+        {
+          "id": "c1_vague_language.303",
+          "source": "Estoy un poco nervioso.",
+          "answers": [
+            "I'm kind of nervous",
+            "I'm sort of nervous",
+            "I'm a bit nervous"
+          ]
+        },
+        {
+          "id": "c1_vague_language.304",
+          "source": "¿Pedimos pizza o algo?",
+          "answers": [
+            "Shall we order pizza or something",
+            "Shall we get pizza or something"
+          ]
+        },
+        {
+          "id": "c1_vague_language.305",
+          "source": "Necesitamos flores, música y esas cosas.",
+          "answers": [
+            "We need flowers, music and stuff",
+            "We need flowers, music and things like that"
+          ]
+        },
+        {
+          "id": "c1_vague_language.306",
+          "source": "Tiene cuarenta y pico años.",
+          "answers": [
+            "He's forty-odd",
+            "He's fortyish",
+            "She's fortyish",
+            "She's forty-odd"
+          ]
+        },
+        {
+          "id": "c1_vague_language.307",
+          "source": "Está prácticamente terminado.",
+          "answers": [
+            "It's pretty much finished",
+            "It's more or less finished"
+          ]
+        },
+        {
+          "id": "c1_vague_language.308",
+          "source": "Pásame el chisme ese.",
+          "answers": [
+            "Pass me the thingy",
+            "Pass me that thingy"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_vague_language.401",
+          "answer": "Let's meet at sevenish"
+        },
+        {
+          "id": "c1_vague_language.402",
+          "answer": "There were fifty or so people"
+        },
+        {
+          "id": "c1_vague_language.403",
+          "answer": "I'm kind of nervous"
+        },
+        {
+          "id": "c1_vague_language.404",
+          "answer": "Shall we order pizza or something?"
+        },
+        {
+          "id": "c1_vague_language.405",
+          "answer": "We need flowers, music and stuff"
+        }
+      ]
+    }
+  ]
+}

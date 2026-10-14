@@ -1,0 +1,442 @@
+{
+  "topic_id": "c1_nominalisation",
+  "level_id": "C1",
+  "title": "Nominalización y registro formal",
+  "tags": [
+    "nominalisation"
+  ],
+  "units": [
+    "pitch_prep"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Nominalisation and formal register",
+    "explanation": "En informes, presentaciones y textos académicos el inglés formal convierte verbos y adjetivos en nombres. A eso se le llama nominalización, y hace el texto más objetivo y denso:\n- «grow» → «growth», «decide» → «decision», «intend» → «intention», «improve» → «improvement»\n- «fail» → «failure», «increase» → «an increase», «reduce» → «a reduction», «develop» → «development»\n- «able» → «ability», «important» → «importance», «available» → «availability», «likely» → «likelihood»\n\nPatrones típicos:\n- «the» + nombre + «of»: «the failure of the old site», «the development of the app»\n- «a» + adjetivo + nombre: «a significant increase», «a sharp decline»\n- «lead to» / «result in» (provocar), «be due to» (deberse a): «Improved usability led to more bookings.»\n- verbos de poco contenido + nombre: «make a decision», «carry out an analysis», «experience growth»\n\nCompara:\n- «We grew really fast.» (coloquial) → «The studio experienced rapid growth.» (formal)\n- «Bookings went up a lot.» → «There was a significant increase in bookings.»\n\nOjo: con el nombre, el adverbio pasa a ser adjetivo: «grew rapidly» → «rapid growth».",
+    "table": {
+      "headers": [
+        "Verbo / adjetivo",
+        "Nombre",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "grow",
+          "growth",
+          "rapid growth"
+        ],
+        [
+          "decide",
+          "decision",
+          "the decision to expand"
+        ],
+        [
+          "improve",
+          "improvement",
+          "a clear improvement"
+        ],
+        [
+          "fail",
+          "failure",
+          "the failure of the plan"
+        ],
+        [
+          "increase",
+          "an increase",
+          "an increase in sales"
+        ],
+        [
+          "able",
+          "ability",
+          "the ability to adapt"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el nombre o la preposición.",
+      "items": [
+        {
+          "id": "c1_nominalisation.001",
+          "sentence": "The studio experienced rapid ___ last year. (grow)",
+          "answers": [
+            [
+              "growth"
+            ]
+          ]
+        },
+        {
+          "id": "c1_nominalisation.002",
+          "sentence": "Our ___ to partner with Grace was based on a shared vision. (decide)",
+          "answers": [
+            [
+              "decision"
+            ]
+          ]
+        },
+        {
+          "id": "c1_nominalisation.003",
+          "sentence": "Our ___ is to expand into the Spanish market. (intend)",
+          "answers": [
+            [
+              "intention"
+            ]
+          ]
+        },
+        {
+          "id": "c1_nominalisation.004",
+          "sentence": "Improved usability led ___ a significant increase in bookings.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "c1_nominalisation.005",
+          "sentence": "There was a significant ___ in bookings. (increase)",
+          "answers": [
+            [
+              "increase"
+            ]
+          ]
+        },
+        {
+          "id": "c1_nominalisation.006",
+          "sentence": "The ___ of the old website cost us clients. (fail)",
+          "answers": [
+            [
+              "failure"
+            ]
+          ]
+        },
+        {
+          "id": "c1_nominalisation.007",
+          "sentence": "We noticed a clear ___ in speed. (improve)",
+          "answers": [
+            [
+              "improvement"
+            ]
+          ]
+        },
+        {
+          "id": "c1_nominalisation.008",
+          "sentence": "The new design resulted ___ more bookings.",
+          "answers": [
+            [
+              "in"
+            ]
+          ]
+        },
+        {
+          "id": "c1_nominalisation.009",
+          "sentence": "There has been a sharp ___ in costs. (reduce)",
+          "answers": [
+            [
+              "reduction"
+            ]
+          ]
+        },
+        {
+          "id": "c1_nominalisation.010",
+          "sentence": "The ___ of the new app took six months. (develop)",
+          "answers": [
+            [
+              "development"
+            ]
+          ]
+        },
+        {
+          "id": "c1_nominalisation.011",
+          "sentence": "The ___ of rooms depends on the season. (available)",
+          "answers": [
+            [
+              "availability"
+            ]
+          ]
+        },
+        {
+          "id": "c1_nominalisation.012",
+          "sentence": "Everyone understands the ___ of good design. (important)",
+          "answers": [
+            [
+              "importance"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué versión es formal?",
+      "items": [
+        {
+          "id": "c1_nominalisation.101",
+          "question": "Crecimos muy rápido.",
+          "options": [
+            "The studio experienced rapid growth.",
+            "We grew really fast."
+          ],
+          "answer": 0,
+          "explanation": "Nominalización: «growth»."
+        },
+        {
+          "id": "c1_nominalisation.102",
+          "question": "Las reservas subieron mucho.",
+          "options": [
+            "There was a significant increase in bookings.",
+            "Bookings went up loads."
+          ],
+          "answer": 0,
+          "explanation": "«a significant increase»."
+        },
+        {
+          "id": "c1_nominalisation.103",
+          "question": "Decidimos expandirnos.",
+          "options": [
+            "The decision to expand was taken.",
+            "We kind of decided to expand."
+          ],
+          "answer": 0,
+          "explanation": "«decision»."
+        },
+        {
+          "id": "c1_nominalisation.104",
+          "question": "La web antigua falló.",
+          "options": [
+            "The failure of the old website cost us clients.",
+            "The old website failed and stuff."
+          ],
+          "answer": 0,
+          "explanation": "«the failure of…»."
+        },
+        {
+          "id": "c1_nominalisation.105",
+          "question": "Rápido crecimiento.",
+          "options": [
+            "rapid growth",
+            "rapidly growth"
+          ],
+          "answer": 0,
+          "explanation": "Con nombre, adjetivo."
+        },
+        {
+          "id": "c1_nominalisation.106",
+          "question": "Provocó más reservas.",
+          "options": [
+            "It led to more bookings.",
+            "It led more bookings."
+          ],
+          "answer": 0,
+          "explanation": "«lead to»."
+        },
+        {
+          "id": "c1_nominalisation.107",
+          "question": "Dio como resultado más ventas.",
+          "options": [
+            "It resulted in more sales.",
+            "It resulted to more sales."
+          ],
+          "answer": 0,
+          "explanation": "«result in»."
+        },
+        {
+          "id": "c1_nominalisation.108",
+          "question": "Una mejora clara.",
+          "options": [
+            "a clear improvement",
+            "a clear improve"
+          ],
+          "answer": 0,
+          "explanation": "Nombre: «improvement»."
+        },
+        {
+          "id": "c1_nominalisation.109",
+          "question": "La capacidad de adaptarse.",
+          "options": [
+            "the ability to adapt",
+            "the able to adapt"
+          ],
+          "answer": 0,
+          "explanation": "Nombre: «ability»."
+        },
+        {
+          "id": "c1_nominalisation.110",
+          "question": "Tomar una decisión.",
+          "options": [
+            "make a decision",
+            "do a decision"
+          ],
+          "answer": 0,
+          "explanation": "Colocación: «make a decision»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe en registro formal con la estructura indicada.",
+      "items": [
+        {
+          "id": "c1_nominalisation.201",
+          "prompt": "The studio experienced…",
+          "source": "We grew really fast last year.",
+          "answers": [
+            "The studio experienced rapid growth last year"
+          ]
+        },
+        {
+          "id": "c1_nominalisation.202",
+          "prompt": "There was a significant…",
+          "source": "Bookings went up a lot.",
+          "answers": [
+            "There was a significant increase in bookings"
+          ]
+        },
+        {
+          "id": "c1_nominalisation.203",
+          "prompt": "Our intention…",
+          "source": "We want to expand into Spain.",
+          "answers": [
+            "Our intention is to expand into Spain"
+          ]
+        },
+        {
+          "id": "c1_nominalisation.204",
+          "prompt": "There was a significant improvement…",
+          "source": "The site got much faster.",
+          "answers": [
+            "There was a significant improvement in speed",
+            "There was a significant improvement in the speed of the site"
+          ]
+        },
+        {
+          "id": "c1_nominalisation.205",
+          "prompt": "The failure of…",
+          "source": "The old website failed, so we lost clients.",
+          "answers": [
+            "The failure of the old website led to the loss of clients",
+            "The failure of the old website cost us clients"
+          ]
+        },
+        {
+          "id": "c1_nominalisation.206",
+          "prompt": "led to",
+          "source": "Because the design was better, people booked more.",
+          "answers": [
+            "The better design led to more bookings",
+            "Improved design led to more bookings"
+          ]
+        },
+        {
+          "id": "c1_nominalisation.207",
+          "prompt": "The decision…",
+          "source": "We decided to hire two designers.",
+          "answers": [
+            "The decision was made to hire two designers",
+            "The decision to hire two designers was made"
+          ]
+        },
+        {
+          "id": "c1_nominalisation.208",
+          "prompt": "Corrige",
+          "source": "The studio experienced rapidly growth.",
+          "answers": [
+            "The studio experienced rapid growth"
+          ],
+          "explanation": "Con nombre, adjetivo."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "c1_nominalisation.301",
+          "source": "El estudio experimentó un rápido crecimiento.",
+          "answers": [
+            "The studio experienced rapid growth"
+          ]
+        },
+        {
+          "id": "c1_nominalisation.302",
+          "source": "Nuestra intención es expandirnos.",
+          "answers": [
+            "Our intention is to expand"
+          ]
+        },
+        {
+          "id": "c1_nominalisation.303",
+          "source": "Hubo un aumento significativo de las reservas.",
+          "answers": [
+            "There was a significant increase in bookings"
+          ]
+        },
+        {
+          "id": "c1_nominalisation.304",
+          "source": "La decisión se basó en una visión compartida.",
+          "answers": [
+            "The decision was based on a shared vision"
+          ]
+        },
+        {
+          "id": "c1_nominalisation.305",
+          "source": "La mejora de la usabilidad provocó más reservas.",
+          "answers": [
+            "Improved usability led to more bookings",
+            "The improvement in usability led to more bookings"
+          ]
+        },
+        {
+          "id": "c1_nominalisation.306",
+          "source": "El fracaso de la web antigua nos costó clientes.",
+          "answers": [
+            "The failure of the old website cost us clients"
+          ]
+        },
+        {
+          "id": "c1_nominalisation.307",
+          "source": "Hubo una fuerte reducción de los costes.",
+          "answers": [
+            "There was a sharp reduction in costs",
+            "There was a significant reduction in costs"
+          ]
+        },
+        {
+          "id": "c1_nominalisation.308",
+          "source": "Todos entienden la importancia del buen diseño.",
+          "answers": [
+            "Everyone understands the importance of good design"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_nominalisation.401",
+          "answer": "The studio experienced rapid growth"
+        },
+        {
+          "id": "c1_nominalisation.402",
+          "answer": "There was a significant increase in bookings"
+        },
+        {
+          "id": "c1_nominalisation.403",
+          "answer": "Our intention is to expand"
+        },
+        {
+          "id": "c1_nominalisation.404",
+          "answer": "Improved usability led to more bookings"
+        },
+        {
+          "id": "c1_nominalisation.405",
+          "answer": "The failure of the old site cost us clients"
+        }
+      ]
+    }
+  ]
+}

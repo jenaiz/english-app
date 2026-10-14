@@ -1,0 +1,437 @@
+{
+  "topic_id": "c1_participle_clauses",
+  "level_id": "C1",
+  "title": "Participle clauses: Having finished…, Built in 1890…",
+  "tags": [
+    "participle_clauses"
+  ],
+  "units": [
+    "starting_up"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Participle clauses",
+    "explanation": "Las participle clauses sustituyen a oraciones de relativo o adverbiales y hacen el texto más compacto y formal:\n- «-ing»: sentido activo, al mismo tiempo o como motivo: «Looking out of this window, I can see the street.», «Not being an expert, I'd like to read the contract.»\n- participio pasado: sentido pasivo: «Built in 1890, the building…», «Inspired by Mrs Green, we chose the name.»\n- «having» + participio: acción anterior: «Having seen six offices, I'd say this is the best.»\n- «having been» + participio: acción anterior y pasiva: «Having been told about the rain, I took an umbrella.»\n\nTambién sustituyen a una oración de relativo:\n- «The woman sitting by the window is Grace.» (= «who is sitting»)\n- «The contract signed yesterday is valid.» (= «which was signed»)\n\nCuidado: el sujeto de la participle clause tiene que ser el mismo que el de la oración principal. «Walking to work, the rain started» está mal, porque la lluvia no camina: «Walking to work, I got caught in the rain».\n\nLa negación va delante: «Not knowing the area, I got lost».",
+    "table": {
+      "headers": [
+        "Forma",
+        "Sentido",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "-ing",
+          "activo, simultáneo o motivo",
+          "Looking around, I saw her."
+        ],
+        [
+          "participio pasado",
+          "pasivo",
+          "Built in 1890, it's very old."
+        ],
+        [
+          "having + participio",
+          "acción anterior",
+          "Having read it, I signed."
+        ],
+        [
+          "having been + participio",
+          "anterior y pasivo",
+          "Having been warned, I took a coat."
+        ],
+        [
+          "not + -ing",
+          "negativo",
+          "Not knowing what to do, I waited."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la forma participial.",
+      "items": [
+        {
+          "id": "c1_participle_clauses.001",
+          "sentence": "___ in 1890, the building has been renovated. (build)",
+          "answers": [
+            [
+              "Built"
+            ]
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.002",
+          "sentence": "___ seen six other offices, I'd say this is the best.",
+          "answers": [
+            [
+              "Having"
+            ]
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.003",
+          "sentence": "___ out of the window, I can see the street. (look)",
+          "answers": [
+            [
+              "Looking"
+            ]
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.004",
+          "sentence": "Not ___ an expert, I'd like to read the contract. (be)",
+          "answers": [
+            [
+              "being"
+            ]
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.005",
+          "sentence": "___ as a whole, the terms are reasonable. (take)",
+          "answers": [
+            [
+              "Taken"
+            ]
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.006",
+          "sentence": "___ by Mrs Green, we chose the name. (inspire)",
+          "answers": [
+            [
+              "Inspired"
+            ]
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.007",
+          "sentence": "Having ___ empty for six months, it's available now.",
+          "answers": [
+            [
+              "been"
+            ]
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.008",
+          "sentence": "___ been warned about the traffic, we left early.",
+          "answers": [
+            [
+              "Having"
+            ]
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.009",
+          "sentence": "The woman ___ by the window is Grace. (sit)",
+          "answers": [
+            [
+              "sitting"
+            ]
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.010",
+          "sentence": "The contract ___ yesterday is now valid. (sign)",
+          "answers": [
+            [
+              "signed"
+            ]
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.011",
+          "sentence": "Not ___ the area, I got completely lost. (know)",
+          "answers": [
+            [
+              "knowing"
+            ]
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.012",
+          "sentence": "___ finished the report, she went home. (have)",
+          "answers": [
+            [
+              "Having"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "c1_participle_clauses.101",
+          "question": "Construido en 1890, el edificio ha sido reformado.",
+          "options": [
+            "Built in 1890, the building has been renovated.",
+            "Building in 1890, the building has been renovated."
+          ],
+          "answer": 0,
+          "explanation": "Sentido pasivo: participio."
+        },
+        {
+          "id": "c1_participle_clauses.102",
+          "question": "Después de ver seis oficinas, elegimos esta.",
+          "options": [
+            "Having seen six offices, we chose this one.",
+            "Having saw six offices, we chose this one."
+          ],
+          "answer": 0,
+          "explanation": "«having» + participio."
+        },
+        {
+          "id": "c1_participle_clauses.103",
+          "question": "Al no conocer la zona, me perdí.",
+          "options": [
+            "Not knowing the area, I got lost.",
+            "Knowing not the area, I got lost."
+          ],
+          "answer": 0,
+          "explanation": "La negación va delante."
+        },
+        {
+          "id": "c1_participle_clauses.104",
+          "question": "Caminando al trabajo, me pilló la lluvia.",
+          "options": [
+            "Walking to work, I got caught in the rain.",
+            "Walking to work, the rain started."
+          ],
+          "answer": 0,
+          "explanation": "El sujeto tiene que ser el mismo."
+        },
+        {
+          "id": "c1_participle_clauses.105",
+          "question": "La mujer sentada junto a la ventana es Grace.",
+          "options": [
+            "The woman sitting by the window is Grace.",
+            "The woman sat by the window she is Grace."
+          ],
+          "answer": 0,
+          "explanation": "Sustituye a «who is sitting»."
+        },
+        {
+          "id": "c1_participle_clauses.106",
+          "question": "Inspirados por ella, elegimos el nombre.",
+          "options": [
+            "Inspired by her, we chose the name.",
+            "Inspiring by her, we chose the name."
+          ],
+          "answer": 0,
+          "explanation": "Sentido pasivo: participio."
+        },
+        {
+          "id": "c1_participle_clauses.107",
+          "question": "Tras haber sido avisada, salió pronto.",
+          "options": [
+            "Having been warned, she left early.",
+            "Having warned, she left early."
+          ],
+          "answer": 0,
+          "explanation": "Anterior y pasivo: «having been»."
+        },
+        {
+          "id": "c1_participle_clauses.108",
+          "question": "El contrato firmado ayer es válido.",
+          "options": [
+            "The contract signed yesterday is valid.",
+            "The contract signing yesterday is valid."
+          ],
+          "answer": 0,
+          "explanation": "Sentido pasivo: participio."
+        },
+        {
+          "id": "c1_participle_clauses.109",
+          "question": "Mirando por la ventana, vi el café.",
+          "options": [
+            "Looking out of the window, I saw the café.",
+            "Looked out of the window, I saw the café."
+          ],
+          "answer": 0,
+          "explanation": "Sentido activo: «-ing»."
+        },
+        {
+          "id": "c1_participle_clauses.110",
+          "question": "Tras terminar el informe, se fue a casa.",
+          "options": [
+            "Having finished the report, she went home.",
+            "Having finish the report, she went home."
+          ],
+          "answer": 0,
+          "explanation": "Participio: «finished»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con una participle clause.",
+      "items": [
+        {
+          "id": "c1_participle_clauses.201",
+          "prompt": "Having…",
+          "source": "After I had read the contract, I signed it.",
+          "answers": [
+            "Having read the contract, I signed it"
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.202",
+          "prompt": "Designed…",
+          "source": "The building was designed by a famous architect. It's very beautiful.",
+          "answers": [
+            "Designed by a famous architect, the building is very beautiful"
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.203",
+          "prompt": "Not knowing…",
+          "source": "Because I didn't know the area, I got lost.",
+          "answers": [
+            "Not knowing the area, I got lost"
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.204",
+          "prompt": "Walking…",
+          "source": "While she was walking home, she saw Daniel.",
+          "answers": [
+            "Walking home, she saw Daniel"
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.205",
+          "prompt": "Having been…",
+          "source": "I had been told about the rain, so I took an umbrella.",
+          "answers": [
+            "Having been told about the rain, I took an umbrella"
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.206",
+          "prompt": "Relativo reducido",
+          "source": "The man who is talking to Helen is my boss.",
+          "answers": [
+            "The man talking to Helen is my boss"
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.207",
+          "prompt": "Relativo reducido",
+          "source": "The photos which were taken last year are on the wall.",
+          "answers": [
+            "The photos taken last year are on the wall"
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.208",
+          "prompt": "Corrige",
+          "source": "Arriving at the station, the train had left.",
+          "answers": [
+            "Arriving at the station, I found the train had left",
+            "Arriving at the station, we found the train had left",
+            "When I arrived at the station, the train had left"
+          ],
+          "explanation": "El sujeto tiene que ser el mismo."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "c1_participle_clauses.301",
+          "source": "Construido en 1890, el edificio ha sido reformado.",
+          "answers": [
+            "Built in 1890, the building has been renovated"
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.302",
+          "source": "Después de ver seis oficinas, diría que esta es la mejor.",
+          "answers": [
+            "Having seen six offices, I'd say this is the best",
+            "Having seen six offices, I would say this is the best"
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.303",
+          "source": "Al no conocer la zona, me perdí.",
+          "answers": [
+            "Not knowing the area, I got lost"
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.304",
+          "source": "Inspirada por su casera, eligió el nombre.",
+          "answers": [
+            "Inspired by her landlady, she chose the name"
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.305",
+          "source": "Mirando por la ventana, vi el café.",
+          "answers": [
+            "Looking out of the window, I saw the café",
+            "Looking out of the window, I saw the cafe"
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.306",
+          "source": "La mujer sentada junto a la ventana es Grace.",
+          "answers": [
+            "The woman sitting by the window is Grace",
+            "The woman sitting next to the window is Grace"
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.307",
+          "source": "Tras haber terminado el informe, se fue a casa.",
+          "answers": [
+            "Having finished the report, she went home",
+            "Having finished the report, he went home"
+          ]
+        },
+        {
+          "id": "c1_participle_clauses.308",
+          "source": "Tras haber sido avisados, salimos pronto.",
+          "answers": [
+            "Having been warned, we left early"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_participle_clauses.401",
+          "answer": "Built in 1890, the building is beautiful"
+        },
+        {
+          "id": "c1_participle_clauses.402",
+          "answer": "Having seen six offices, we chose this one"
+        },
+        {
+          "id": "c1_participle_clauses.403",
+          "answer": "Not knowing the area, I got lost"
+        },
+        {
+          "id": "c1_participle_clauses.404",
+          "answer": "The woman sitting by the window is Grace"
+        },
+        {
+          "id": "c1_participle_clauses.405",
+          "answer": "Having finished the report, she went home"
+        }
+      ]
+    }
+  ]
+}

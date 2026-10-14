@@ -1,0 +1,451 @@
+{
+  "topic_id": "c1_phrasal_verbs",
+  "level_id": "C1",
+  "title": "Phrasal verbs de negocios: set up, take on, turn down…",
+  "tags": [
+    "phrasal_verbs"
+  ],
+  "units": [
+    "starting_up"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Phrasal verbs for business",
+    "explanation": "Al montar y dirigir una empresa salen constantemente estos phrasal verbs:\n- «set up» (montar, fundar): «We set up the studio in June.»\n- «take on» (contratar; asumir trabajo): «We'll take on two designers.», «I can't take on another project.»\n- «turn down» (rechazar): «Lucía turned down Mark's offer.»\n- «come up with» (idear, proponer): «Daniel came up with the name.»\n- «carry out» (llevar a cabo): «We carried out a survey.»\n- «draw up» (redactar un contrato o un plan): «Grace will draw up the contract.»\n- «talk someone into» / «out of» (convencer de / para que no): «Helen talked me into it.»\n- «look into» (investigar), «pull out» (retirarse), «back out» (echarse atrás), «follow up» (hacer seguimiento), «run out of» (quedarse sin).\n\nSeparables («set up», «take on», «turn down», «carry out», «draw up», «follow up»): con un nombre, el objeto puede ir en medio o detrás; con un pronombre, siempre en medio (nunca «turned down it»):\n- «They turned the offer down.» / «They turned down the offer.» / «They turned it down.»\n\nInseparables o de tres partes («come up with», «look into», «run out of», «get on with»): el objeto va siempre detrás:\n- «We came up with it.»\n- «We're looking into it.»",
+    "table": {
+      "headers": [
+        "Phrasal verb",
+        "Significado",
+        "Con pronombre"
+      ],
+      "rows": [
+        [
+          "set up",
+          "montar, fundar",
+          "set it up"
+        ],
+        [
+          "take on",
+          "contratar, asumir",
+          "take them on"
+        ],
+        [
+          "turn down",
+          "rechazar",
+          "turn it down"
+        ],
+        [
+          "carry out",
+          "llevar a cabo",
+          "carry it out"
+        ],
+        [
+          "draw up",
+          "redactar",
+          "draw it up"
+        ],
+        [
+          "come up with",
+          "idear",
+          "come up with it"
+        ],
+        [
+          "look into",
+          "investigar",
+          "look into it"
+        ],
+        [
+          "talk into",
+          "convencer de",
+          "talk her into it"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la partícula o la palabra que falta.",
+      "items": [
+        {
+          "id": "c1_phrasal_verbs.001",
+          "sentence": "We set ___ the studio in an office above a bookshop.",
+          "answers": [
+            [
+              "up"
+            ]
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.002",
+          "sentence": "Mark made an offer, but Lucía turned it ___.",
+          "answers": [
+            [
+              "down"
+            ]
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.003",
+          "sentence": "Daniel came up ___ the name Green Door Design.",
+          "answers": [
+            [
+              "with"
+            ]
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.004",
+          "sentence": "We're going to take ___ two new designers in September.",
+          "answers": [
+            [
+              "on"
+            ]
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.005",
+          "sentence": "Grace will draw ___ the contract this week.",
+          "answers": [
+            [
+              "up"
+            ]
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.006",
+          "sentence": "I didn't want to go, but Daniel talked me ___ it.",
+          "answers": [
+            [
+              "into"
+            ]
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.007",
+          "sentence": "The agency carried ___ a survey of five hundred hotel guests.",
+          "answers": [
+            [
+              "out"
+            ]
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.008",
+          "sentence": "We'll look ___ the problem and call you back.",
+          "answers": [
+            [
+              "into"
+            ]
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.009",
+          "sentence": "The investor pulled ___ at the last minute.",
+          "answers": [
+            [
+              "out"
+            ]
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.010",
+          "sentence": "We've run out ___ budget for this year.",
+          "answers": [
+            [
+              "of"
+            ]
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.011",
+          "sentence": "I'll follow ___ the meeting with an email.",
+          "answers": [
+            [
+              "up"
+            ]
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.012",
+          "sentence": "She talked him ___ of selling the company.",
+          "answers": [
+            [
+              "out"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "c1_phrasal_verbs.101",
+          "question": "Lo rechazaron.",
+          "options": [
+            "They turned it down.",
+            "They turned down it."
+          ],
+          "answer": 0,
+          "explanation": "Separable con pronombre: en medio."
+        },
+        {
+          "id": "c1_phrasal_verbs.102",
+          "question": "Se le ocurrió el nombre.",
+          "options": [
+            "She came up with the name.",
+            "She came the name up with."
+          ],
+          "answer": 0,
+          "explanation": "Inseparable: el objeto detrás."
+        },
+        {
+          "id": "c1_phrasal_verbs.103",
+          "question": "Lo investigaremos.",
+          "options": [
+            "We'll look into it.",
+            "We'll look it into."
+          ],
+          "answer": 0,
+          "explanation": "Inseparable: el objeto detrás."
+        },
+        {
+          "id": "c1_phrasal_verbs.104",
+          "question": "Montamos el estudio en junio.",
+          "options": [
+            "We set up the studio in June.",
+            "We set the studio in June up."
+          ],
+          "answer": 0,
+          "explanation": "Separable: en medio o detrás, junto al verbo."
+        },
+        {
+          "id": "c1_phrasal_verbs.105",
+          "question": "Me convenció para hacerlo.",
+          "options": [
+            "She talked me into doing it.",
+            "She talked me into do it."
+          ],
+          "answer": 0,
+          "explanation": "«talk into» + «-ing»."
+        },
+        {
+          "id": "c1_phrasal_verbs.106",
+          "question": "Grace redactará el contrato.",
+          "options": [
+            "Grace will draw up the contract.",
+            "Grace will draw the contract on."
+          ],
+          "answer": 0,
+          "explanation": "Redactar: «draw up»."
+        },
+        {
+          "id": "c1_phrasal_verbs.107",
+          "question": "No puedo asumir otro proyecto.",
+          "options": [
+            "I can't take on another project.",
+            "I can't take another project in."
+          ],
+          "answer": 0,
+          "explanation": "Asumir: «take on»."
+        },
+        {
+          "id": "c1_phrasal_verbs.108",
+          "question": "El inversor se retiró.",
+          "options": [
+            "The investor pulled out.",
+            "The investor pulled it out."
+          ],
+          "answer": 0,
+          "explanation": "Sin objeto: «pull out»."
+        },
+        {
+          "id": "c1_phrasal_verbs.109",
+          "question": "Llevamos a cabo una encuesta.",
+          "options": [
+            "We carried out a survey.",
+            "We carried a survey off."
+          ],
+          "answer": 0,
+          "explanation": "«carry out»."
+        },
+        {
+          "id": "c1_phrasal_verbs.110",
+          "question": "Nos hemos quedado sin presupuesto.",
+          "options": [
+            "We've run out of budget.",
+            "We've run budget out."
+          ],
+          "answer": 0,
+          "explanation": "«run out of»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Sustituye por un phrasal verb o corrige el error.",
+      "items": [
+        {
+          "id": "c1_phrasal_verbs.201",
+          "prompt": "set up",
+          "source": "We founded the company in 2020.",
+          "answers": [
+            "We set up the company in 2020"
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.202",
+          "prompt": "turn down",
+          "source": "She rejected the offer.",
+          "answers": [
+            "She turned down the offer",
+            "She turned the offer down"
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.203",
+          "prompt": "take on",
+          "source": "We're going to hire two designers.",
+          "answers": [
+            "We're going to take on two designers"
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.204",
+          "prompt": "come up with",
+          "source": "Who invented the name?",
+          "answers": [
+            "Who came up with the name"
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.205",
+          "prompt": "Con «it»",
+          "source": "They turned down the proposal.",
+          "answers": [
+            "They turned it down"
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.206",
+          "prompt": "Con «it»",
+          "source": "We'll look into the problem.",
+          "answers": [
+            "We'll look into it"
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.207",
+          "prompt": "Corrige",
+          "source": "They turned down it.",
+          "answers": [
+            "They turned it down"
+          ],
+          "explanation": "Separable con pronombre: en medio."
+        },
+        {
+          "id": "c1_phrasal_verbs.208",
+          "prompt": "Corrige",
+          "source": "We came up it with.",
+          "answers": [
+            "We came up with it"
+          ],
+          "explanation": "Inseparable: el objeto detrás."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "c1_phrasal_verbs.301",
+          "source": "Montamos el estudio en junio.",
+          "answers": [
+            "We set up the studio in June"
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.302",
+          "source": "Rechazó la oferta de Mark.",
+          "answers": [
+            "She turned down Mark's offer",
+            "She turned Mark's offer down"
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.303",
+          "source": "Vamos a contratar a dos diseñadores.",
+          "answers": [
+            "We're going to take on two designers",
+            "We're going to hire two designers"
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.304",
+          "source": "A Daniel se le ocurrió el nombre.",
+          "answers": [
+            "Daniel came up with the name"
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.305",
+          "source": "Grace redactará el contrato.",
+          "answers": [
+            "Grace will draw up the contract"
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.306",
+          "source": "Helen me convenció.",
+          "answers": [
+            "Helen talked me into it"
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.307",
+          "source": "Lo investigaremos.",
+          "answers": [
+            "We'll look into it"
+          ]
+        },
+        {
+          "id": "c1_phrasal_verbs.308",
+          "source": "El inversor se echó atrás.",
+          "answers": [
+            "The investor backed out",
+            "The investor pulled out"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_phrasal_verbs.401",
+          "answer": "We set up the studio in June"
+        },
+        {
+          "id": "c1_phrasal_verbs.402",
+          "answer": "Lucía turned the offer down"
+        },
+        {
+          "id": "c1_phrasal_verbs.403",
+          "answer": "Daniel came up with the name"
+        },
+        {
+          "id": "c1_phrasal_verbs.404",
+          "answer": "We'll take on two designers"
+        },
+        {
+          "id": "c1_phrasal_verbs.405",
+          "answer": "Helen talked me into it"
+        }
+      ]
+    }
+  ]
+}

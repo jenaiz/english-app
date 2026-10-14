@@ -1,0 +1,443 @@
+{
+  "topic_id": "c1_inversion",
+  "level_id": "C1",
+  "title": "Inversión: Never have I…, Little did I know…",
+  "tags": [
+    "inversion"
+  ],
+  "units": [
+    "inversion_emphasis"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Negative inversion",
+    "explanation": "Cuando una frase empieza con una expresión negativa o restrictiva, el auxiliar va delante del sujeto, como en una pregunta:\n- «Never have I worked with such a team.»\n- «Not only did you make our clients happy, but you also…»\n\nSi no hay auxiliar, se usa «do», «does» o «did»:\n- «Rarely does a boss get to say that.»\n- «Little did I know how far it would go.»\n\nLas expresiones más frecuentes:\n- «never», «rarely», «seldom», «little», «at no time», «under no circumstances»\n- «not only… but also»\n- «only when», «only after», «only then», «not until»: la inversión va en la segunda parte: «Only when I saw her work did I understand.»\n- «no sooner… than» y «hardly» / «scarcely… when», con past perfect: «No sooner had I booked the boat than he bought a hat.», «Hardly had we arrived when it started to rain.»\n\nEs propia de discursos, escritos formales y de la narración, y da un tono solemne o dramático.\n\nOjo: sin la expresión negativa al principio no hay inversión: «I have never seen…» / «Never have I seen…».",
+    "table": {
+      "headers": [
+        "Expresión",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Never",
+          "Never have I seen such a mess."
+        ],
+        [
+          "Little",
+          "Little did I know…"
+        ],
+        [
+          "Rarely / Seldom",
+          "Rarely does she complain."
+        ],
+        [
+          "Not only… but also",
+          "Not only did he lie, but he also stole."
+        ],
+        [
+          "Only when…",
+          "Only when I left did I realise."
+        ],
+        [
+          "No sooner… than",
+          "No sooner had I sat down than the phone rang."
+        ],
+        [
+          "Under no circumstances",
+          "Under no circumstances should you open it."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el auxiliar o la palabra que falta.",
+      "items": [
+        {
+          "id": "c1_inversion.001",
+          "sentence": "Never ___ I worked with such a talented team.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "c1_inversion.002",
+          "sentence": "Little ___ I know how far it would go.",
+          "answers": [
+            [
+              "did"
+            ]
+          ]
+        },
+        {
+          "id": "c1_inversion.003",
+          "sentence": "Not only ___ you make our clients happy, but you also made us laugh.",
+          "answers": [
+            [
+              "did"
+            ]
+          ]
+        },
+        {
+          "id": "c1_inversion.004",
+          "sentence": "Rarely ___ a boss get to say that.",
+          "answers": [
+            [
+              "does"
+            ]
+          ]
+        },
+        {
+          "id": "c1_inversion.005",
+          "sentence": "Only when I saw her work ___ I understand.",
+          "answers": [
+            [
+              "did"
+            ]
+          ]
+        },
+        {
+          "id": "c1_inversion.006",
+          "sentence": "Under no circumstances ___ you to cry.",
+          "answers": [
+            [
+              "are"
+            ]
+          ]
+        },
+        {
+          "id": "c1_inversion.007",
+          "sentence": "No sooner had I booked the boat ___ my husband bought a hat.",
+          "answers": [
+            [
+              "than"
+            ]
+          ]
+        },
+        {
+          "id": "c1_inversion.008",
+          "sentence": "Hardly ___ we arrived when it started to rain.",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "c1_inversion.009",
+          "sentence": "Seldom ___ we see such dedication.",
+          "answers": [
+            [
+              "do"
+            ]
+          ]
+        },
+        {
+          "id": "c1_inversion.010",
+          "sentence": "At no time ___ she mention the problem.",
+          "answers": [
+            [
+              "did"
+            ]
+          ]
+        },
+        {
+          "id": "c1_inversion.011",
+          "sentence": "Not until the next day ___ I realise my mistake.",
+          "answers": [
+            [
+              "did"
+            ]
+          ]
+        },
+        {
+          "id": "c1_inversion.012",
+          "sentence": "Never before ___ the company been so successful.",
+          "answers": [
+            [
+              "has"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "c1_inversion.101",
+          "question": "Nunca he trabajado con un equipo así.",
+          "options": [
+            "Never have I worked with such a team.",
+            "Never I have worked with such a team."
+          ],
+          "answer": 0,
+          "explanation": "Inversión: auxiliar + sujeto."
+        },
+        {
+          "id": "c1_inversion.102",
+          "question": "Poco sabía yo…",
+          "options": [
+            "Little did I know…",
+            "Little I knew…"
+          ],
+          "answer": 0,
+          "explanation": "Sin auxiliar: «did»."
+        },
+        {
+          "id": "c1_inversion.103",
+          "question": "Rara vez se queja.",
+          "options": [
+            "Rarely does she complain.",
+            "Rarely she complains."
+          ],
+          "answer": 0,
+          "explanation": "Inversión con «does»."
+        },
+        {
+          "id": "c1_inversion.104",
+          "question": "Solo cuando vi su trabajo lo entendí.",
+          "options": [
+            "Only when I saw her work did I understand.",
+            "Only when did I see her work I understood."
+          ],
+          "answer": 0,
+          "explanation": "La inversión va en la segunda parte."
+        },
+        {
+          "id": "c1_inversion.105",
+          "question": "En cuanto me senté, sonó el teléfono.",
+          "options": [
+            "No sooner had I sat down than the phone rang.",
+            "No sooner I had sat down when the phone rang."
+          ],
+          "answer": 0,
+          "explanation": "«No sooner had… than»."
+        },
+        {
+          "id": "c1_inversion.106",
+          "question": "No solo mintió, sino que también robó.",
+          "options": [
+            "Not only did he lie, but he also stole.",
+            "Not only he lied, but also he stole."
+          ],
+          "answer": 0,
+          "explanation": "Inversión tras «Not only»."
+        },
+        {
+          "id": "c1_inversion.107",
+          "question": "Bajo ninguna circunstancia debes abrirlo.",
+          "options": [
+            "Under no circumstances should you open it.",
+            "Under no circumstances you should open it."
+          ],
+          "answer": 0,
+          "explanation": "Inversión: «should you»."
+        },
+        {
+          "id": "c1_inversion.108",
+          "question": "Apenas habíamos llegado cuando empezó a llover.",
+          "options": [
+            "Hardly had we arrived when it started to rain.",
+            "Hardly we had arrived than it started to rain."
+          ],
+          "answer": 0,
+          "explanation": "«Hardly had… when»."
+        },
+        {
+          "id": "c1_inversion.109",
+          "question": "Nunca he visto tal desorden.",
+          "options": [
+            "I have never seen such a mess.",
+            "I never have I seen such a mess."
+          ],
+          "answer": 0,
+          "explanation": "Sin la expresión al principio, sin inversión."
+        },
+        {
+          "id": "c1_inversion.110",
+          "question": "En ningún momento lo mencionó.",
+          "options": [
+            "At no time did she mention it.",
+            "At no time she mentioned it."
+          ],
+          "answer": 0,
+          "explanation": "Inversión con «did»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con inversión.",
+      "items": [
+        {
+          "id": "c1_inversion.201",
+          "prompt": "Never…",
+          "source": "I have never seen such a mess.",
+          "answers": [
+            "Never have I seen such a mess"
+          ]
+        },
+        {
+          "id": "c1_inversion.202",
+          "prompt": "Little…",
+          "source": "I didn't know she was leaving.",
+          "answers": [
+            "Little did I know she was leaving",
+            "Little did I know that she was leaving"
+          ]
+        },
+        {
+          "id": "c1_inversion.203",
+          "prompt": "Rarely…",
+          "source": "We rarely get such good news.",
+          "answers": [
+            "Rarely do we get such good news"
+          ]
+        },
+        {
+          "id": "c1_inversion.204",
+          "prompt": "Not only…",
+          "source": "She speaks French and she also speaks Arabic.",
+          "answers": [
+            "Not only does she speak French, but she also speaks Arabic",
+            "Not only does she speak French but she also speaks Arabic"
+          ]
+        },
+        {
+          "id": "c1_inversion.205",
+          "prompt": "Only when…",
+          "source": "I understood only when I saw her work.",
+          "answers": [
+            "Only when I saw her work did I understand"
+          ]
+        },
+        {
+          "id": "c1_inversion.206",
+          "prompt": "No sooner…",
+          "source": "As soon as I sat down, the phone rang.",
+          "answers": [
+            "No sooner had I sat down than the phone rang"
+          ]
+        },
+        {
+          "id": "c1_inversion.207",
+          "prompt": "Under no circumstances…",
+          "source": "You must not open this door.",
+          "answers": [
+            "Under no circumstances should you open this door",
+            "Under no circumstances must you open this door"
+          ]
+        },
+        {
+          "id": "c1_inversion.208",
+          "prompt": "Corrige",
+          "source": "Never I have felt so happy.",
+          "answers": [
+            "Never have I felt so happy"
+          ],
+          "explanation": "Inversión: auxiliar + sujeto."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "c1_inversion.301",
+          "source": "Nunca he trabajado con un equipo tan bueno.",
+          "answers": [
+            "Never have I worked with such a good team"
+          ]
+        },
+        {
+          "id": "c1_inversion.302",
+          "source": "Poco sabía yo lo lejos que llegaría.",
+          "answers": [
+            "Little did I know how far it would go"
+          ]
+        },
+        {
+          "id": "c1_inversion.303",
+          "source": "No solo nos hiciste felices, sino que también nos hiciste reír.",
+          "answers": [
+            "Not only did you make us happy, but you also made us laugh",
+            "Not only did you make us happy but you also made us laugh"
+          ]
+        },
+        {
+          "id": "c1_inversion.304",
+          "source": "Bajo ninguna circunstancia debes llorar.",
+          "answers": [
+            "Under no circumstances are you to cry",
+            "Under no circumstances should you cry"
+          ]
+        },
+        {
+          "id": "c1_inversion.305",
+          "source": "Rara vez se queja.",
+          "answers": [
+            "Rarely does she complain",
+            "Rarely does he complain",
+            "Seldom does she complain"
+          ]
+        },
+        {
+          "id": "c1_inversion.306",
+          "source": "Solo cuando me fui me di cuenta.",
+          "answers": [
+            "Only when I left did I realise",
+            "Only when I left did I realize"
+          ]
+        },
+        {
+          "id": "c1_inversion.307",
+          "source": "En cuanto llegué, empezó a llover.",
+          "answers": [
+            "No sooner had I arrived than it started to rain",
+            "Hardly had I arrived when it started to rain"
+          ]
+        },
+        {
+          "id": "c1_inversion.308",
+          "source": "En ningún momento lo mencionó.",
+          "answers": [
+            "At no time did she mention it",
+            "At no time did he mention it"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_inversion.401",
+          "answer": "Never have I worked with such a team"
+        },
+        {
+          "id": "c1_inversion.402",
+          "answer": "Little did I know how far it would go"
+        },
+        {
+          "id": "c1_inversion.403",
+          "answer": "Rarely does a boss get to say that"
+        },
+        {
+          "id": "c1_inversion.404",
+          "answer": "Only when I saw her work did I understand"
+        },
+        {
+          "id": "c1_inversion.405",
+          "answer": "Under no circumstances should you open it"
+        }
+      ]
+    }
+  ]
+}

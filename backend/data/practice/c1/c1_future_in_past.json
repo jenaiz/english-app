@@ -1,0 +1,442 @@
+{
+  "topic_id": "c1_future_in_past",
+  "level_id": "C1",
+  "title": "Futuro en el pasado: was going to, was about to, would",
+  "tags": [
+    "future_in_past"
+  ],
+  "units": [
+    "jet_lag"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "The future in the past",
+    "explanation": "Para hablar del futuro desde un punto del pasado:\n- «was» / «were going to»: plan del pasado, a menudo no cumplido: «You were going to call me on Tuesday!»\n- «was about to»: a punto de: «I was about to call you when…»\n- «would»: futuro visto desde el pasado: «I was sure Mark would say no.»\n- «was» / «were supposed to»: lo previsto, que no se cumplió: «We were supposed to have a short meeting.»\n- «was to» (narrativo y formal): lo que iba a ocurrir después, como si fuera el destino: «I had no idea I was to come back as a business owner.»\n- «was due to»: estaba programado: «The plane was due to land at six.»\n- «was on the point of» + «-ing»: estaba a punto de (formal).\n\nMás ejemplos:\n- «I thought you would like it.»\n- «We were going to go out, but it rained.»\n- «She was about to leave when the phone rang.»\n\nOjo: «was to have» + participio expresa algo que estaba previsto y no ocurrió: «He was to have opened the conference, but he fell ill».",
+    "table": {
+      "headers": [
+        "Forma",
+        "Significado",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "was going to",
+          "plan (a menudo no cumplido)",
+          "I was going to call you."
+        ],
+        [
+          "was about to",
+          "a punto de",
+          "I was about to leave."
+        ],
+        [
+          "would",
+          "futuro desde el pasado",
+          "I knew she would win."
+        ],
+        [
+          "was supposed to",
+          "lo previsto, no cumplido",
+          "It was supposed to be short."
+        ],
+        [
+          "was to",
+          "destino (narrativo)",
+          "He was to become famous."
+        ],
+        [
+          "was due to",
+          "programado",
+          "It was due to start at nine."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la forma de futuro en pasado.",
+      "items": [
+        {
+          "id": "c1_future_in_past.001",
+          "sentence": "You were going ___ call me on Tuesday!",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "c1_future_in_past.002",
+          "sentence": "I was ___ to call you when Mark's assistant rang.",
+          "answers": [
+            [
+              "about"
+            ]
+          ]
+        },
+        {
+          "id": "c1_future_in_past.003",
+          "sentence": "We were ___ to have a short meeting.",
+          "answers": [
+            [
+              "supposed"
+            ]
+          ]
+        },
+        {
+          "id": "c1_future_in_past.004",
+          "sentence": "Did you know it ___ go so well?",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        },
+        {
+          "id": "c1_future_in_past.005",
+          "sentence": "I was sure Mark ___ say no.",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        },
+        {
+          "id": "c1_future_in_past.006",
+          "sentence": "The Madrid office ___ going to open next year.",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        },
+        {
+          "id": "c1_future_in_past.007",
+          "sentence": "I had no idea I ___ to come back as a business owner.",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        },
+        {
+          "id": "c1_future_in_past.008",
+          "sentence": "You ___ only going to stay for one year.",
+          "answers": [
+            [
+              "were"
+            ]
+          ]
+        },
+        {
+          "id": "c1_future_in_past.009",
+          "sentence": "The plane was ___ to land at six, but it was delayed.",
+          "answers": [
+            [
+              "due"
+            ]
+          ]
+        },
+        {
+          "id": "c1_future_in_past.010",
+          "sentence": "We were going to go out, ___ it rained.",
+          "answers": [
+            [
+              "but"
+            ]
+          ]
+        },
+        {
+          "id": "c1_future_in_past.011",
+          "sentence": "She was on the point ___ leaving when the phone rang.",
+          "answers": [
+            [
+              "of"
+            ]
+          ]
+        },
+        {
+          "id": "c1_future_in_past.012",
+          "sentence": "I thought you ___ like it. (gustar, desde el pasado)",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "c1_future_in_past.101",
+          "question": "Ibas a llamarme el martes.",
+          "options": [
+            "You were going to call me on Tuesday.",
+            "You are going to call me last Tuesday."
+          ],
+          "answer": 0,
+          "explanation": "Plan del pasado: «were going to»."
+        },
+        {
+          "id": "c1_future_in_past.102",
+          "question": "Estaba a punto de llamarte.",
+          "options": [
+            "I was about to call you.",
+            "I was about calling you."
+          ],
+          "answer": 0,
+          "explanation": "«was about to» + verbo."
+        },
+        {
+          "id": "c1_future_in_past.103",
+          "question": "Estaba segura de que diría que no.",
+          "options": [
+            "I was sure he would say no.",
+            "I was sure he will say no."
+          ],
+          "answer": 0,
+          "explanation": "Futuro desde el pasado: «would»."
+        },
+        {
+          "id": "c1_future_in_past.104",
+          "question": "Se suponía que era una reunión corta.",
+          "options": [
+            "It was supposed to be a short meeting.",
+            "It supposed to be a short meeting."
+          ],
+          "answer": 0,
+          "explanation": "«was supposed to»."
+        },
+        {
+          "id": "c1_future_in_past.105",
+          "question": "No sabía que iba a volver como empresaria.",
+          "options": [
+            "I had no idea I was to come back as a business owner.",
+            "I had no idea I am to come back as a business owner."
+          ],
+          "answer": 0,
+          "explanation": "Destino: «was to»."
+        },
+        {
+          "id": "c1_future_in_past.106",
+          "question": "El avión tenía que aterrizar a las seis.",
+          "options": [
+            "The plane was due to land at six.",
+            "The plane was due landing at six."
+          ],
+          "answer": 0,
+          "explanation": "«was due to»."
+        },
+        {
+          "id": "c1_future_in_past.107",
+          "question": "Creí que te gustaría.",
+          "options": [
+            "I thought you would like it.",
+            "I thought you will like it."
+          ],
+          "answer": 0,
+          "explanation": "«would»."
+        },
+        {
+          "id": "c1_future_in_past.108",
+          "question": "Íbamos a salir, pero llovió.",
+          "options": [
+            "We were going to go out, but it rained.",
+            "We went to go out, but it rained."
+          ],
+          "answer": 0,
+          "explanation": "Plan no cumplido."
+        },
+        {
+          "id": "c1_future_in_past.109",
+          "question": "Iba a inaugurar el congreso, pero se puso enfermo.",
+          "options": [
+            "He was to have opened the conference, but he fell ill.",
+            "He was to open the conference yesterday, but he fell ill."
+          ],
+          "answer": 0,
+          "explanation": "Previsto y no ocurrido: «was to have»."
+        },
+        {
+          "id": "c1_future_in_past.110",
+          "question": "Solo ibas a quedarte un año.",
+          "options": [
+            "You were only going to stay for a year.",
+            "You only go to stay for a year."
+          ],
+          "answer": 0,
+          "explanation": "«were going to»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con la estructura indicada.",
+      "items": [
+        {
+          "id": "c1_future_in_past.201",
+          "prompt": "I was going to…",
+          "source": "I planned to call you, but I didn't.",
+          "answers": [
+            "I was going to call you",
+            "I was going to call you, but I didn't"
+          ]
+        },
+        {
+          "id": "c1_future_in_past.202",
+          "prompt": "about to",
+          "source": "I was just going to leave when he arrived.",
+          "answers": [
+            "I was about to leave when he arrived"
+          ]
+        },
+        {
+          "id": "c1_future_in_past.203",
+          "prompt": "supposed to",
+          "source": "The meeting should have been short.",
+          "answers": [
+            "The meeting was supposed to be short"
+          ]
+        },
+        {
+          "id": "c1_future_in_past.204",
+          "prompt": "I thought he…",
+          "source": "I thought: 'He will say no.'",
+          "answers": [
+            "I thought he would say no"
+          ]
+        },
+        {
+          "id": "c1_future_in_past.205",
+          "prompt": "due to",
+          "source": "The train was scheduled to arrive at nine.",
+          "answers": [
+            "The train was due to arrive at nine"
+          ]
+        },
+        {
+          "id": "c1_future_in_past.206",
+          "prompt": "was to",
+          "source": "She later became the director. (narrativo)",
+          "answers": [
+            "She was to become the director"
+          ]
+        },
+        {
+          "id": "c1_future_in_past.207",
+          "prompt": "Corrige",
+          "source": "I was sure she will win.",
+          "answers": [
+            "I was sure she would win"
+          ],
+          "explanation": "Futuro desde el pasado: «would»."
+        },
+        {
+          "id": "c1_future_in_past.208",
+          "prompt": "Corrige",
+          "source": "I was about calling you.",
+          "answers": [
+            "I was about to call you"
+          ],
+          "explanation": "«was about to» + verbo."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "c1_future_in_past.301",
+          "source": "Ibas a llamarme el martes.",
+          "answers": [
+            "You were going to call me on Tuesday"
+          ]
+        },
+        {
+          "id": "c1_future_in_past.302",
+          "source": "Estaba a punto de llamarte.",
+          "answers": [
+            "I was about to call you"
+          ]
+        },
+        {
+          "id": "c1_future_in_past.303",
+          "source": "Se suponía que era una reunión corta.",
+          "answers": [
+            "It was supposed to be a short meeting"
+          ]
+        },
+        {
+          "id": "c1_future_in_past.304",
+          "source": "Estaba segura de que diría que no.",
+          "answers": [
+            "I was sure he would say no",
+            "I was sure she would say no"
+          ]
+        },
+        {
+          "id": "c1_future_in_past.305",
+          "source": "Solo ibas a quedarte un año.",
+          "answers": [
+            "You were only going to stay for one year",
+            "You were only going to stay for a year"
+          ]
+        },
+        {
+          "id": "c1_future_in_past.306",
+          "source": "Creí que te gustaría.",
+          "answers": [
+            "I thought you would like it",
+            "I thought you'd like it"
+          ]
+        },
+        {
+          "id": "c1_future_in_past.307",
+          "source": "El tren tenía que llegar a las nueve.",
+          "answers": [
+            "The train was due to arrive at nine",
+            "The train was supposed to arrive at nine"
+          ]
+        },
+        {
+          "id": "c1_future_in_past.308",
+          "source": "Íbamos a salir, pero llovió.",
+          "answers": [
+            "We were going to go out, but it rained"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_future_in_past.401",
+          "answer": "You were going to call me on Tuesday"
+        },
+        {
+          "id": "c1_future_in_past.402",
+          "answer": "I was about to call you"
+        },
+        {
+          "id": "c1_future_in_past.403",
+          "answer": "I was sure Mark would say no"
+        },
+        {
+          "id": "c1_future_in_past.404",
+          "answer": "It was supposed to be a short meeting"
+        },
+        {
+          "id": "c1_future_in_past.405",
+          "answer": "The plane was due to land at six"
+        }
+      ]
+    }
+  ]
+}

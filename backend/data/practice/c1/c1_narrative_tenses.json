@@ -1,0 +1,445 @@
+{
+  "topic_id": "c1_narrative_tenses",
+  "level_id": "C1",
+  "title": "Tiempos narrativos: had been doing, would y used to",
+  "tags": [
+    "narrative_tenses"
+  ],
+  "units": [
+    "looking_back"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Narrative tenses: had been doing, would and used to",
+    "explanation": "Para contar una historia con matices:\n- past simple: los hechos principales: «I arrived in Bristol in September.»\n- past continuous: la situación de fondo: «It was raining and everyone was rushing.»\n- past perfect simple: acción terminada antes de otra: «I had never seen so much rain.»\n- past perfect continuous («had been» + «-ing»): una actividad que duraba hasta un momento del pasado: «I had been studying English for months, but I couldn't understand the bus driver.»\n- «would» + verbo: acciones repetidas en el pasado, típico de la narración nostálgica. Solo sirve para acciones, no para estados: «I would get lost every Saturday.»\n- «used to» + verbo: hábitos y también estados del pasado: «I used to think 'craic' was a kind of bread.»\n\nMás recursos narrativos:\n- futuro en el pasado: «Little did I know this city would become my home.»\n- «was / were about to»: «I was about to give up when I met Priya.»\n\nOjo: «would» no vale para estados («I would live in Madrid» con ese sentido está mal; «I used to live in Madrid»).",
+    "table": {
+      "headers": [
+        "Tiempo",
+        "Uso",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Past simple",
+          "hechos principales",
+          "I arrived in September."
+        ],
+        [
+          "Past continuous",
+          "fondo",
+          "It was raining."
+        ],
+        [
+          "Past perfect",
+          "lo de antes",
+          "I had never seen such rain."
+        ],
+        [
+          "Past perfect continuous",
+          "actividad hasta entonces",
+          "I had been studying for months."
+        ],
+        [
+          "would",
+          "acciones repetidas",
+          "I would get lost every Saturday."
+        ],
+        [
+          "used to",
+          "hábitos y estados",
+          "I used to be shy."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la forma narrativa correcta.",
+      "items": [
+        {
+          "id": "c1_narrative_tenses.001",
+          "sentence": "I had been ___ English for months. (study)",
+          "answers": [
+            [
+              "studying"
+            ]
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.002",
+          "sentence": "I ___ get lost every Saturday. (hábito)",
+          "answers": [
+            [
+              "would",
+              "used to"
+            ]
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.003",
+          "sentence": "Daniel would ___ me directions. (give)",
+          "answers": [
+            [
+              "give"
+            ]
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.004",
+          "sentence": "I used to ___ 'craic' was a kind of bread. (think)",
+          "answers": [
+            [
+              "think"
+            ]
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.005",
+          "sentence": "Helen, who had been ___ the studio for twenty years… (run)",
+          "answers": [
+            [
+              "running"
+            ]
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.006",
+          "sentence": "Sam ___ me his grandmother's lamp. (lend)",
+          "answers": [
+            [
+              "lent"
+            ]
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.007",
+          "sentence": "Mrs Green told me I ___ be fine.",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.008",
+          "sentence": "I ___ never seen so much rain before.",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.009",
+          "sentence": "It ___ raining and everyone was rushing. (fondo)",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.010",
+          "sentence": "I ___ to live in Madrid. (estado pasado)",
+          "answers": [
+            [
+              "used"
+            ]
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.011",
+          "sentence": "I was ___ to give up when I met Priya. (a punto de)",
+          "answers": [
+            [
+              "about"
+            ]
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.012",
+          "sentence": "We had been ___ for hours when the bus finally came. (wait)",
+          "answers": [
+            [
+              "waiting"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "c1_narrative_tenses.101",
+          "question": "Llevaba meses estudiando inglés.",
+          "options": [
+            "I had been studying English for months.",
+            "I was studying English since months."
+          ],
+          "answer": 0,
+          "explanation": "Past perfect continuous."
+        },
+        {
+          "id": "c1_narrative_tenses.102",
+          "question": "Todos los sábados me perdía.",
+          "options": [
+            "I would get lost every Saturday.",
+            "I would got lost every Saturday."
+          ],
+          "answer": 0,
+          "explanation": "«would» + forma base."
+        },
+        {
+          "id": "c1_narrative_tenses.103",
+          "question": "Antes vivía en Madrid.",
+          "options": [
+            "I used to live in Madrid.",
+            "I would live in Madrid."
+          ],
+          "answer": 0,
+          "explanation": "Estado: «used to»."
+        },
+        {
+          "id": "c1_narrative_tenses.104",
+          "question": "Nunca había visto tanta lluvia.",
+          "options": [
+            "I had never seen so much rain.",
+            "I never had seen so much rain."
+          ],
+          "answer": 0,
+          "explanation": "Past perfect: «had never seen»."
+        },
+        {
+          "id": "c1_narrative_tenses.105",
+          "question": "Llovía y todo el mundo iba con prisa.",
+          "options": [
+            "It was raining and everyone was rushing.",
+            "It rained and everyone had rushed."
+          ],
+          "answer": 0,
+          "explanation": "Fondo: past continuous."
+        },
+        {
+          "id": "c1_narrative_tenses.106",
+          "question": "Estaba a punto de rendirme cuando conocí a Priya.",
+          "options": [
+            "I was about to give up when I met Priya.",
+            "I was about giving up when I met Priya."
+          ],
+          "answer": 0,
+          "explanation": "«was about to»."
+        },
+        {
+          "id": "c1_narrative_tenses.107",
+          "question": "Poco sabía yo que esta ciudad sería mi casa.",
+          "options": [
+            "Little did I know this city would become my home.",
+            "Little I knew this city would become my home."
+          ],
+          "answer": 0,
+          "explanation": "Inversión: «Little did I know»."
+        },
+        {
+          "id": "c1_narrative_tenses.108",
+          "question": "Antes pensaba que era un tipo de pan.",
+          "options": [
+            "I used to think it was a kind of bread.",
+            "I would think it was a kind of bread."
+          ],
+          "answer": 0,
+          "explanation": "Estado mental: «used to»."
+        },
+        {
+          "id": "c1_narrative_tenses.109",
+          "question": "Llevábamos horas esperando.",
+          "options": [
+            "We had been waiting for hours.",
+            "We have been waiting for hours then."
+          ],
+          "answer": 0,
+          "explanation": "Past perfect continuous."
+        },
+        {
+          "id": "c1_narrative_tenses.110",
+          "question": "Me prestó la lámpara de su abuela.",
+          "options": [
+            "He lent me his grandmother's lamp.",
+            "He lended me his grandmother's lamp."
+          ],
+          "answer": 0,
+          "explanation": "«lend» → «lent»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con la forma indicada.",
+      "items": [
+        {
+          "id": "c1_narrative_tenses.201",
+          "prompt": "had been…",
+          "source": "I studied English for months before I arrived.",
+          "answers": [
+            "I had been studying English for months before I arrived"
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.202",
+          "prompt": "would",
+          "source": "Every Saturday I got lost.",
+          "answers": [
+            "Every Saturday I would get lost"
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.203",
+          "prompt": "used to",
+          "source": "I thought 'craic' was a kind of bread, but not any more.",
+          "answers": [
+            "I used to think craic was a kind of bread",
+            "I used to think 'craic' was a kind of bread"
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.204",
+          "prompt": "had been working",
+          "source": "He was tired because he worked all day.",
+          "answers": [
+            "He was tired because he had been working all day"
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.205",
+          "prompt": "had never",
+          "source": "I saw so much rain for the first time.",
+          "answers": [
+            "I had never seen so much rain",
+            "I had never seen so much rain before"
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.206",
+          "prompt": "about to",
+          "source": "I almost gave up, but then I met Priya.",
+          "answers": [
+            "I was about to give up when I met Priya"
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.207",
+          "prompt": "Corrige",
+          "source": "I would be very shy at school.",
+          "answers": [
+            "I used to be very shy at school"
+          ],
+          "explanation": "Estado: «used to»."
+        },
+        {
+          "id": "c1_narrative_tenses.208",
+          "prompt": "Corrige",
+          "source": "I was studying English since months.",
+          "answers": [
+            "I had been studying English for months"
+          ],
+          "explanation": "Past perfect continuous con «for»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "c1_narrative_tenses.301",
+          "source": "Llevaba meses estudiando inglés.",
+          "answers": [
+            "I had been studying English for months"
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.302",
+          "source": "Todos los sábados me perdía.",
+          "answers": [
+            "I would get lost every Saturday",
+            "Every Saturday I would get lost",
+            "I used to get lost every Saturday"
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.303",
+          "source": "Antes pensaba que era un tipo de pan.",
+          "answers": [
+            "I used to think it was a kind of bread",
+            "I used to think it was a type of bread"
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.304",
+          "source": "Poco sabía yo que esta ciudad se convertiría en mi casa.",
+          "answers": [
+            "Little did I know that this city would become my home",
+            "Little did I know this city would become my home"
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.305",
+          "source": "Nunca había visto tanta lluvia.",
+          "answers": [
+            "I had never seen so much rain"
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.306",
+          "source": "Llovía y todo el mundo iba con prisa.",
+          "answers": [
+            "It was raining and everyone was rushing",
+            "It was raining and everyone was in a hurry"
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.307",
+          "source": "Estaba a punto de rendirme.",
+          "answers": [
+            "I was about to give up"
+          ]
+        },
+        {
+          "id": "c1_narrative_tenses.308",
+          "source": "Antes vivía en Madrid.",
+          "answers": [
+            "I used to live in Madrid"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_narrative_tenses.401",
+          "answer": "I had been studying English for months"
+        },
+        {
+          "id": "c1_narrative_tenses.402",
+          "answer": "I would get lost every Saturday"
+        },
+        {
+          "id": "c1_narrative_tenses.403",
+          "answer": "I used to think it was bread"
+        },
+        {
+          "id": "c1_narrative_tenses.404",
+          "answer": "I was about to give up"
+        },
+        {
+          "id": "c1_narrative_tenses.405",
+          "answer": "Little did I know this city would become my home"
+        }
+      ]
+    }
+  ]
+}

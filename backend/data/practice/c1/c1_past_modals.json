@@ -1,0 +1,450 @@
+{
+  "topic_id": "c1_past_modals",
+  "level_id": "C1",
+  "title": "Modales en pasado: needn't have, must have, should have…",
+  "tags": [
+    "past_modals"
+  ],
+  "units": [
+    "first_hire"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Past modals",
+    "explanation": "Modal + «have» + participio para hablar del pasado:\n- «must have» = seguro que pasó: «She must have forgotten.»\n- «can't have» / «couldn't have» = seguro que no pasó: «He can't have seen the email.»\n- «might», «may» o «could have» = quizá pasó: «They might have missed the train.»\n- «could have» = pudo pasar y no pasó, o reproche: «We could have lost the client.», «You could have warned me!»\n- «should have» / «shouldn't have» = crítica o arrepentimiento: «We should have hired someone sooner.»\n\nNecesidad en el pasado:\n- «needn't have» + participio: hicimos algo que no era necesario: «We needn't have advertised.» (pusimos el anuncio, pero no hacía falta)\n- «didn't need to» + verbo: no era necesario, y normalmente no lo hicimos: «We didn't need to advertise, so we didn't.»\n- «needn't» + verbo: no hace falta (presente): «You needn't come to the interviews.»\n\nOjo: siempre «have» + participio, nunca el pasado («must have gone», no «must have went»). Y «needn't have» y «didn't need to» no significan lo mismo: en el primero la acción sí se hizo.",
+    "table": {
+      "headers": [
+        "Forma",
+        "Significado",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "must have",
+          "seguro que pasó",
+          "He must have left."
+        ],
+        [
+          "can't have",
+          "seguro que no",
+          "She can't have known."
+        ],
+        [
+          "might / could have",
+          "quizá",
+          "They might have called."
+        ],
+        [
+          "should have",
+          "crítica",
+          "You should have asked."
+        ],
+        [
+          "needn't have",
+          "se hizo, pero no hacía falta",
+          "We needn't have worried."
+        ],
+        [
+          "didn't need to",
+          "no hacía falta (no se hizo)",
+          "I didn't need to pay."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la forma correcta.",
+      "items": [
+        {
+          "id": "c1_past_modals.001",
+          "sentence": "We ___ have advertised. Helen sent us CVs.",
+          "answers": [
+            [
+              "needn't"
+            ]
+          ]
+        },
+        {
+          "id": "c1_past_modals.002",
+          "sentence": "You needn't ___ to the interviews. (come)",
+          "answers": [
+            [
+              "come"
+            ]
+          ]
+        },
+        {
+          "id": "c1_past_modals.003",
+          "sentence": "We didn't ___ to buy a new printer, so we didn't.",
+          "answers": [
+            [
+              "need"
+            ]
+          ]
+        },
+        {
+          "id": "c1_past_modals.004",
+          "sentence": "She must have ___ the meeting. She's never late. (forget)",
+          "answers": [
+            [
+              "forgotten"
+            ]
+          ]
+        },
+        {
+          "id": "c1_past_modals.005",
+          "sentence": "He ___ have seen the email. He was on holiday. (imposible)",
+          "answers": [
+            [
+              "can't",
+              "couldn't"
+            ]
+          ]
+        },
+        {
+          "id": "c1_past_modals.006",
+          "sentence": "They might have ___ the train. (miss)",
+          "answers": [
+            [
+              "missed"
+            ]
+          ]
+        },
+        {
+          "id": "c1_past_modals.007",
+          "sentence": "We should ___ hired someone sooner.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "c1_past_modals.008",
+          "sentence": "You could have ___ me! I had no idea. (warn)",
+          "answers": [
+            [
+              "warned"
+            ]
+          ]
+        },
+        {
+          "id": "c1_past_modals.009",
+          "sentence": "You ___ have bought a cake. We already had one.",
+          "answers": [
+            [
+              "needn't"
+            ]
+          ]
+        },
+        {
+          "id": "c1_past_modals.010",
+          "sentence": "The parcel ___ have arrived by now. Where is it? (expectativa)",
+          "answers": [
+            [
+              "should"
+            ]
+          ]
+        },
+        {
+          "id": "c1_past_modals.011",
+          "sentence": "I must have ___ my keys at the office. (leave)",
+          "answers": [
+            [
+              "left"
+            ]
+          ]
+        },
+        {
+          "id": "c1_past_modals.012",
+          "sentence": "We could have ___ the client. Luckily, we didn't. (lose)",
+          "answers": [
+            [
+              "lost"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "c1_past_modals.101",
+          "question": "No hacía falta poner el anuncio (y lo pusimos).",
+          "options": [
+            "We needn't have advertised.",
+            "We didn't need to advertise, so we didn't."
+          ],
+          "answer": 0,
+          "explanation": "Se hizo sin necesidad: «needn't have»."
+        },
+        {
+          "id": "c1_past_modals.102",
+          "question": "No hizo falta pagar (y no pagué).",
+          "options": [
+            "I didn't need to pay.",
+            "I needn't have paid."
+          ],
+          "answer": 0,
+          "explanation": "No se hizo: «didn't need to»."
+        },
+        {
+          "id": "c1_past_modals.103",
+          "question": "Debe de haberlo olvidado.",
+          "options": [
+            "She must have forgotten.",
+            "She must have forgot."
+          ],
+          "answer": 0,
+          "explanation": "Participio: «forgotten»."
+        },
+        {
+          "id": "c1_past_modals.104",
+          "question": "No puede haberlo visto.",
+          "options": [
+            "He can't have seen it.",
+            "He mustn't have seen it."
+          ],
+          "answer": 0,
+          "explanation": "Seguro que no: «can't have»."
+        },
+        {
+          "id": "c1_past_modals.105",
+          "question": "Deberíamos haber contratado a alguien antes.",
+          "options": [
+            "We should have hired someone sooner.",
+            "We should hired someone sooner."
+          ],
+          "answer": 0,
+          "explanation": "Falta «have»."
+        },
+        {
+          "id": "c1_past_modals.106",
+          "question": "¡Podrías haberme avisado!",
+          "options": [
+            "You could have warned me!",
+            "You could warned me!"
+          ],
+          "answer": 0,
+          "explanation": "Reproche: «could have»."
+        },
+        {
+          "id": "c1_past_modals.107",
+          "question": "No hace falta que vengas.",
+          "options": [
+            "You needn't come.",
+            "You needn't to come."
+          ],
+          "answer": 0,
+          "explanation": "«needn't» + forma base."
+        },
+        {
+          "id": "c1_past_modals.108",
+          "question": "Puede que hayan perdido el tren.",
+          "options": [
+            "They might have missed the train.",
+            "They might missed the train."
+          ],
+          "answer": 0,
+          "explanation": "«might have» + participio."
+        },
+        {
+          "id": "c1_past_modals.109",
+          "question": "Se habrá ido a casa (seguro).",
+          "options": [
+            "He must have gone home.",
+            "He must have went home."
+          ],
+          "answer": 0,
+          "explanation": "Participio: «gone»."
+        },
+        {
+          "id": "c1_past_modals.110",
+          "question": "Podríamos haber perdido al cliente.",
+          "options": [
+            "We could have lost the client.",
+            "We could lose the client yesterday."
+          ],
+          "answer": 0,
+          "explanation": "Pudo pasar y no pasó."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con un modal en pasado.",
+      "items": [
+        {
+          "id": "c1_past_modals.201",
+          "prompt": "needn't have",
+          "source": "It wasn't necessary to bring food, but we did.",
+          "answers": [
+            "We needn't have brought food"
+          ]
+        },
+        {
+          "id": "c1_past_modals.202",
+          "prompt": "didn't need to",
+          "source": "It wasn't necessary to call, so I didn't.",
+          "answers": [
+            "I didn't need to call"
+          ]
+        },
+        {
+          "id": "c1_past_modals.203",
+          "prompt": "must have",
+          "source": "I'm sure she forgot.",
+          "answers": [
+            "She must have forgotten"
+          ]
+        },
+        {
+          "id": "c1_past_modals.204",
+          "prompt": "can't have",
+          "source": "It's impossible that he saw it.",
+          "answers": [
+            "He can't have seen it",
+            "He couldn't have seen it"
+          ]
+        },
+        {
+          "id": "c1_past_modals.205",
+          "prompt": "should have",
+          "source": "It was a mistake not to hire someone sooner.",
+          "answers": [
+            "We should have hired someone sooner"
+          ]
+        },
+        {
+          "id": "c1_past_modals.206",
+          "prompt": "might have",
+          "source": "Perhaps they missed the train.",
+          "answers": [
+            "They might have missed the train",
+            "They may have missed the train"
+          ]
+        },
+        {
+          "id": "c1_past_modals.207",
+          "prompt": "Corrige",
+          "source": "You needn't have to come.",
+          "answers": [
+            "You needn't have come",
+            "You didn't need to come"
+          ],
+          "explanation": "«needn't have» + participio."
+        },
+        {
+          "id": "c1_past_modals.208",
+          "prompt": "Corrige",
+          "source": "She must have went home.",
+          "answers": [
+            "She must have gone home"
+          ],
+          "explanation": "Participio: «gone»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "c1_past_modals.301",
+          "source": "No hacía falta que trajeras vino.",
+          "answers": [
+            "You needn't have brought wine",
+            "You needn't have brought any wine"
+          ]
+        },
+        {
+          "id": "c1_past_modals.302",
+          "source": "No hace falta que vengas a las entrevistas.",
+          "answers": [
+            "You needn't come to the interviews",
+            "You don't need to come to the interviews"
+          ]
+        },
+        {
+          "id": "c1_past_modals.303",
+          "source": "Debe de haberlo olvidado.",
+          "answers": [
+            "She must have forgotten",
+            "He must have forgotten",
+            "She must have forgotten it"
+          ]
+        },
+        {
+          "id": "c1_past_modals.304",
+          "source": "No puede haber visto el correo.",
+          "answers": [
+            "He can't have seen the email",
+            "She can't have seen the email"
+          ]
+        },
+        {
+          "id": "c1_past_modals.305",
+          "source": "Deberíamos haber contratado a alguien antes.",
+          "answers": [
+            "We should have hired someone sooner",
+            "We should have hired someone earlier"
+          ]
+        },
+        {
+          "id": "c1_past_modals.306",
+          "source": "¡Podrías haberme avisado!",
+          "answers": [
+            "You could have warned me",
+            "You could have told me"
+          ]
+        },
+        {
+          "id": "c1_past_modals.307",
+          "source": "No hizo falta comprar una impresora nueva.",
+          "answers": [
+            "We didn't need to buy a new printer",
+            "I didn't need to buy a new printer"
+          ]
+        },
+        {
+          "id": "c1_past_modals.308",
+          "source": "Puede que hayan perdido el tren.",
+          "answers": [
+            "They might have missed the train",
+            "They may have missed the train"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_past_modals.401",
+          "answer": "We needn't have advertised"
+        },
+        {
+          "id": "c1_past_modals.402",
+          "answer": "She must have forgotten"
+        },
+        {
+          "id": "c1_past_modals.403",
+          "answer": "We should have hired someone sooner"
+        },
+        {
+          "id": "c1_past_modals.404",
+          "answer": "You could have warned me"
+        },
+        {
+          "id": "c1_past_modals.405",
+          "answer": "He can't have seen the email"
+        }
+      ]
+    }
+  ]
+}

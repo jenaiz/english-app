@@ -1,0 +1,468 @@
+{
+  "topic_id": "c1_false_friends",
+  "level_id": "C1",
+  "title": "Falsos amigos: actually, eventually, sensible, embarrassed…",
+  "tags": [
+    "false_friends"
+  ],
+  "units": [
+    "jet_lag"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "False friends",
+    "explanation": "Los falsos amigos se parecen a una palabra española pero significan otra cosa. A nivel C1 se espera no confundirlos:\n- «actually» = en realidad (actualmente es «currently» / «at the moment»).\n- «eventually» = finalmente, al final (eventualmente es «possibly» / «if necessary»).\n- «sensible» = sensato (sensible es «sensitive»).\n- «embarrassed» = avergonzado (embarazada es «pregnant»).\n- «assist» = ayudar (asistir a algo es «attend»).\n- «library» = biblioteca (librería es «bookshop»).\n- «carpet» = moqueta, alfombra (carpeta es «folder»).\n- «realise» = darse cuenta (realizar es «carry out» / «do»).\n- «constipated» = estreñido (constipado es «have a cold»).\n- «argument» = discusión, pelea (el argumento de una película es «plot»).\n- «exit» = salida (éxito es «success»).\n- «fabric» = tela (fábrica es «factory»).\n- «record» = grabar, disco (recordar es «remember» / «remind»).\n- «attend» = asistir a (atender es «pay attention» / «serve»).\n- «sympathetic» = comprensivo (simpático es «nice» / «friendly»).",
+    "table": {
+      "headers": [
+        "Palabra inglesa",
+        "Significa",
+        "Para decir… usa"
+      ],
+      "rows": [
+        [
+          "actually",
+          "en realidad",
+          "actualmente → currently"
+        ],
+        [
+          "eventually",
+          "al final",
+          "eventualmente → possibly"
+        ],
+        [
+          "sensible",
+          "sensato",
+          "sensible → sensitive"
+        ],
+        [
+          "embarrassed",
+          "avergonzado",
+          "embarazada → pregnant"
+        ],
+        [
+          "library",
+          "biblioteca",
+          "librería → bookshop"
+        ],
+        [
+          "carpet",
+          "moqueta",
+          "carpeta → folder"
+        ],
+        [
+          "realise",
+          "darse cuenta",
+          "realizar → carry out"
+        ],
+        [
+          "sympathetic",
+          "comprensivo",
+          "simpático → nice"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Escribe la palabra inglesa correcta.",
+      "items": [
+        {
+          "id": "c1_false_friends.001",
+          "sentence": "The meeting was long, but ___ Mark agreed. (al final)",
+          "answers": [
+            [
+              "eventually"
+            ]
+          ]
+        },
+        {
+          "id": "c1_false_friends.002",
+          "sentence": "We're ___ looking for a new office in Madrid. (actualmente)",
+          "answers": [
+            [
+              "currently"
+            ]
+          ]
+        },
+        {
+          "id": "c1_false_friends.003",
+          "sentence": "Opening in Madrid first is a very ___ decision. (sensata)",
+          "answers": [
+            [
+              "sensible"
+            ]
+          ]
+        },
+        {
+          "id": "c1_false_friends.004",
+          "sentence": "I felt so ___ when I forgot his name. (avergonzada)",
+          "answers": [
+            [
+              "embarrassed"
+            ]
+          ]
+        },
+        {
+          "id": "c1_false_friends.005",
+          "sentence": "Javi wants to ___ the opening party in October. (asistir a)",
+          "answers": [
+            [
+              "attend"
+            ]
+          ]
+        },
+        {
+          "id": "c1_false_friends.006",
+          "sentence": "My sister is ___. The baby is due in May. (embarazada)",
+          "answers": [
+            [
+              "pregnant"
+            ]
+          ]
+        },
+        {
+          "id": "c1_false_friends.007",
+          "sentence": "I bought the book at the ___ on Park Street. (librería)",
+          "answers": [
+            [
+              "bookshop"
+            ]
+          ]
+        },
+        {
+          "id": "c1_false_friends.008",
+          "sentence": "Put the contracts in the blue ___. (carpeta)",
+          "answers": [
+            [
+              "folder"
+            ]
+          ]
+        },
+        {
+          "id": "c1_false_friends.009",
+          "sentence": "I didn't ___ it was so late! (darme cuenta)",
+          "answers": [
+            [
+              "realise"
+            ]
+          ]
+        },
+        {
+          "id": "c1_false_friends.010",
+          "sentence": "She's very ___ about criticism. (sensible, susceptible)",
+          "answers": [
+            [
+              "sensitive"
+            ]
+          ]
+        },
+        {
+          "id": "c1_false_friends.011",
+          "sentence": "He's really ___. Everyone likes him. (simpático)",
+          "answers": [
+            [
+              "nice",
+              "friendly"
+            ]
+          ]
+        },
+        {
+          "id": "c1_false_friends.012",
+          "sentence": "The film has a great ___. (argumento)",
+          "answers": [
+            [
+              "plot"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "c1_false_friends.101",
+          "question": "Actualmente vivo en Bristol.",
+          "options": [
+            "I currently live in Bristol.",
+            "I actually live in Bristol now."
+          ],
+          "answer": 0,
+          "explanation": "Actualmente = «currently»."
+        },
+        {
+          "id": "c1_false_friends.102",
+          "question": "Al final aceptó.",
+          "options": [
+            "Eventually, he agreed.",
+            "Actually, he agreed finally."
+          ],
+          "answer": 0,
+          "explanation": "Al final = «eventually»."
+        },
+        {
+          "id": "c1_false_friends.103",
+          "question": "Es una decisión sensata.",
+          "options": [
+            "It's a sensible decision.",
+            "It's a sensitive decision."
+          ],
+          "answer": 0,
+          "explanation": "Sensato = «sensible»."
+        },
+        {
+          "id": "c1_false_friends.104",
+          "question": "Estaba avergonzada.",
+          "options": [
+            "I was embarrassed.",
+            "I was pregnant of shame."
+          ],
+          "answer": 0,
+          "explanation": "Avergonzado = «embarrassed»."
+        },
+        {
+          "id": "c1_false_friends.105",
+          "question": "Voy a la biblioteca a estudiar.",
+          "options": [
+            "I'm going to the library to study.",
+            "I'm going to the bookshop to study."
+          ],
+          "answer": 0,
+          "explanation": "Biblioteca = «library»."
+        },
+        {
+          "id": "c1_false_friends.106",
+          "question": "Asistí a la reunión.",
+          "options": [
+            "I attended the meeting.",
+            "I assisted the meeting."
+          ],
+          "answer": 0,
+          "explanation": "Asistir a = «attend»."
+        },
+        {
+          "id": "c1_false_friends.107",
+          "question": "Me di cuenta de mi error.",
+          "options": [
+            "I realised my mistake.",
+            "I made real my mistake."
+          ],
+          "answer": 0,
+          "explanation": "Darse cuenta = «realise»."
+        },
+        {
+          "id": "c1_false_friends.108",
+          "question": "Estoy constipado.",
+          "options": [
+            "I've got a cold.",
+            "I'm constipated."
+          ],
+          "answer": 0,
+          "explanation": "Constipado = «have a cold»."
+        },
+        {
+          "id": "c1_false_friends.109",
+          "question": "Fue todo un éxito.",
+          "options": [
+            "It was a great success.",
+            "It was a great exit."
+          ],
+          "answer": 0,
+          "explanation": "Éxito = «success»."
+        },
+        {
+          "id": "c1_false_friends.110",
+          "question": "Es muy simpática.",
+          "options": [
+            "She's very nice.",
+            "She's very sympathetic."
+          ],
+          "answer": 0,
+          "explanation": "Simpático = «nice»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el falso amigo.",
+      "items": [
+        {
+          "id": "c1_false_friends.201",
+          "prompt": "Corrige (actualmente)",
+          "source": "Actually, I work in Madrid.",
+          "answers": [
+            "Currently, I work in Madrid",
+            "At the moment, I work in Madrid",
+            "I currently work in Madrid",
+            "Currently I work in Madrid"
+          ],
+          "explanation": "Actualmente = «currently»."
+        },
+        {
+          "id": "c1_false_friends.202",
+          "prompt": "Corrige (embarazada)",
+          "source": "My sister is embarrassed. The baby is due in May.",
+          "answers": [
+            "My sister is pregnant. The baby is due in May"
+          ],
+          "explanation": "Embarazada = «pregnant»."
+        },
+        {
+          "id": "c1_false_friends.203",
+          "prompt": "Corrige (librería)",
+          "source": "I bought it at the library.",
+          "answers": [
+            "I bought it at the bookshop"
+          ],
+          "explanation": "Librería = «bookshop»."
+        },
+        {
+          "id": "c1_false_friends.204",
+          "prompt": "Corrige (asistir)",
+          "source": "I assisted a conference in Dublin.",
+          "answers": [
+            "I attended a conference in Dublin"
+          ],
+          "explanation": "Asistir a = «attend»."
+        },
+        {
+          "id": "c1_false_friends.205",
+          "prompt": "Corrige (carpeta)",
+          "source": "Put the papers in the carpet.",
+          "answers": [
+            "Put the papers in the folder"
+          ],
+          "explanation": "Carpeta = «folder»."
+        },
+        {
+          "id": "c1_false_friends.206",
+          "prompt": "Corrige (sensible)",
+          "source": "He's very sensible; he cries at every film.",
+          "answers": [
+            "He's very sensitive; he cries at every film",
+            "He's very sensitive. He cries at every film"
+          ],
+          "explanation": "Sensible (susceptible) = «sensitive»."
+        },
+        {
+          "id": "c1_false_friends.207",
+          "prompt": "Corrige (realizar)",
+          "source": "We realised a survey of 500 guests.",
+          "answers": [
+            "We carried out a survey of 500 guests",
+            "We did a survey of 500 guests"
+          ],
+          "explanation": "Realizar = «carry out»."
+        },
+        {
+          "id": "c1_false_friends.208",
+          "prompt": "Corrige (simpático)",
+          "source": "Her boss is very sympathetic and funny.",
+          "answers": [
+            "Her boss is very nice and funny",
+            "Her boss is very friendly and funny"
+          ],
+          "explanation": "Simpático = «nice»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "c1_false_friends.301",
+          "source": "Actualmente buscamos oficina.",
+          "answers": [
+            "We're currently looking for an office",
+            "At the moment we're looking for an office",
+            "We're currently looking for an office space"
+          ]
+        },
+        {
+          "id": "c1_false_friends.302",
+          "source": "Al final, Mark aceptó.",
+          "answers": [
+            "Eventually, Mark agreed",
+            "In the end, Mark agreed",
+            "Eventually Mark agreed"
+          ]
+        },
+        {
+          "id": "c1_false_friends.303",
+          "source": "Es una decisión muy sensata.",
+          "answers": [
+            "It's a very sensible decision"
+          ]
+        },
+        {
+          "id": "c1_false_friends.304",
+          "source": "Me sentí muy avergonzada.",
+          "answers": [
+            "I felt very embarrassed",
+            "I felt really embarrassed"
+          ]
+        },
+        {
+          "id": "c1_false_friends.305",
+          "source": "Mi hermana está embarazada.",
+          "answers": [
+            "My sister is pregnant"
+          ]
+        },
+        {
+          "id": "c1_false_friends.306",
+          "source": "Asistiré a la inauguración.",
+          "answers": [
+            "I'll attend the opening",
+            "I will attend the opening"
+          ]
+        },
+        {
+          "id": "c1_false_friends.307",
+          "source": "No me di cuenta de que era tan tarde.",
+          "answers": [
+            "I didn't realise it was so late",
+            "I didn't realize it was so late"
+          ]
+        },
+        {
+          "id": "c1_false_friends.308",
+          "source": "El argumento de la película es muy bueno.",
+          "answers": [
+            "The plot of the film is very good",
+            "The film's plot is very good"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_false_friends.401",
+          "answer": "We're currently looking for an office"
+        },
+        {
+          "id": "c1_false_friends.402",
+          "answer": "Eventually, Mark agreed"
+        },
+        {
+          "id": "c1_false_friends.403",
+          "answer": "It's a very sensible decision"
+        },
+        {
+          "id": "c1_false_friends.404",
+          "answer": "I felt so embarrassed"
+        },
+        {
+          "id": "c1_false_friends.405",
+          "answer": "I didn't realise it was so late"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "topic_id": "c1_cleft",
+  "level_id": "C1",
+  "title": "Cleft sentences: What I need is…, It was… who…",
+  "tags": [
+    "cleft"
+  ],
+  "units": [
+    "the_offer"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Cleft sentences",
+    "explanation": "Las cleft sentences dividen una frase en dos para poner el foco en la información importante o en un contraste:\n- «What-cleft»: «What» + oración + «be» + foco: «What scares me most is the money.»\n- «It-cleft»: «It» + «be» + foco + «who» / «that» + resto: «It was you who saved the project.» (no fue Helen)\n- «All-cleft»: «All» + oración + «be» + foco = lo único: «All I'm saying is, don't let fear decide.»\n- Otras: «The reason (why)… is that…», «Where… is…», «The thing is…», «The person who… is…»\n\nMás ejemplos:\n- «What I need is a holiday.»\n- «It's not Mark that I'm worried about.»\n- «The reason I'm calm is that you always have a plan.»\n- «What he did was call the bank.» (con una acción: «What» + sujeto + «did was» + verbo)\n\nOjo: en la «what-cleft», el verbo «be» concuerda con lo que va detrás si es plural, pero lo normal es singular: «What we need is more designers» (también se oye «are»).",
+    "table": {
+      "headers": [
+        "Tipo",
+        "Estructura",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "What-cleft",
+          "What + oración + be + foco",
+          "What I need is time."
+        ],
+        [
+          "It-cleft",
+          "It + be + foco + who / that…",
+          "It was Sam who called."
+        ],
+        [
+          "All-cleft",
+          "All + oración + be + foco",
+          "All I want is sleep."
+        ],
+        [
+          "Acción",
+          "What + sujeto + did was + verbo",
+          "What she did was resign."
+        ],
+        [
+          "Razón",
+          "The reason… is that…",
+          "The reason I left is that I was bored."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa la cleft sentence.",
+      "items": [
+        {
+          "id": "c1_cleft.001",
+          "sentence": "___ I keep asking myself is whether I'm ready.",
+          "answers": [
+            [
+              "What"
+            ]
+          ]
+        },
+        {
+          "id": "c1_cleft.002",
+          "sentence": "It ___ you who saved the museum project.",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        },
+        {
+          "id": "c1_cleft.003",
+          "sentence": "It's not Mark ___ I'm worried about.",
+          "answers": [
+            [
+              "that",
+              "who"
+            ]
+          ]
+        },
+        {
+          "id": "c1_cleft.004",
+          "sentence": "What Helen gave me ___ the chance.",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        },
+        {
+          "id": "c1_cleft.005",
+          "sentence": "___ I'm saying is, don't let fear decide.",
+          "answers": [
+            [
+              "All"
+            ]
+          ]
+        },
+        {
+          "id": "c1_cleft.006",
+          "sentence": "The reason I'm not worried is ___ you always have a plan.",
+          "answers": [
+            [
+              "that"
+            ]
+          ]
+        },
+        {
+          "id": "c1_cleft.007",
+          "sentence": "___ I'd really need help is the technical side.",
+          "answers": [
+            [
+              "Where"
+            ]
+          ]
+        },
+        {
+          "id": "c1_cleft.008",
+          "sentence": "What I'm offering ___ a partner.",
+          "answers": [
+            [
+              "is"
+            ]
+          ]
+        },
+        {
+          "id": "c1_cleft.009",
+          "sentence": "What she ___ was call the bank immediately.",
+          "answers": [
+            [
+              "did"
+            ]
+          ]
+        },
+        {
+          "id": "c1_cleft.010",
+          "sentence": "It was in Galway ___ they first met.",
+          "answers": [
+            [
+              "that"
+            ]
+          ]
+        },
+        {
+          "id": "c1_cleft.011",
+          "sentence": "All I want ___ a quiet weekend.",
+          "answers": [
+            [
+              "is"
+            ]
+          ]
+        },
+        {
+          "id": "c1_cleft.012",
+          "sentence": "The ___ is, we don't have enough money.",
+          "answers": [
+            [
+              "thing"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "c1_cleft.101",
+          "question": "Lo que me da miedo es el dinero.",
+          "options": [
+            "What scares me is the money.",
+            "That scares me is the money."
+          ],
+          "answer": 0,
+          "explanation": "«What-cleft»: «What…»."
+        },
+        {
+          "id": "c1_cleft.102",
+          "question": "Fuiste tú quien salvó el proyecto.",
+          "options": [
+            "It was you who saved the project.",
+            "It was you which saved the project."
+          ],
+          "answer": 0,
+          "explanation": "Persona: «who»."
+        },
+        {
+          "id": "c1_cleft.103",
+          "question": "Lo único que quiero es dormir.",
+          "options": [
+            "All I want is to sleep.",
+            "All what I want is to sleep."
+          ],
+          "answer": 0,
+          "explanation": "«All-cleft»: «All I want…»."
+        },
+        {
+          "id": "c1_cleft.104",
+          "question": "Lo que hizo fue llamar al banco.",
+          "options": [
+            "What she did was call the bank.",
+            "What she did was she called the bank."
+          ],
+          "answer": 0,
+          "explanation": "«What… did was» + verbo."
+        },
+        {
+          "id": "c1_cleft.105",
+          "question": "Fue en Galway donde se conocieron.",
+          "options": [
+            "It was in Galway that they met.",
+            "It was in Galway who they met."
+          ],
+          "answer": 0,
+          "explanation": "Lugar: «that»."
+        },
+        {
+          "id": "c1_cleft.106",
+          "question": "La razón por la que me fui es que estaba aburrido.",
+          "options": [
+            "The reason I left is that I was bored.",
+            "The reason I left is because of I was bored."
+          ],
+          "answer": 0,
+          "explanation": "«The reason… is that…»."
+        },
+        {
+          "id": "c1_cleft.107",
+          "question": "Lo que necesito es un socio.",
+          "options": [
+            "What I need is a partner.",
+            "Which I need is a partner."
+          ],
+          "answer": 0,
+          "explanation": "«What», no «Which»."
+        },
+        {
+          "id": "c1_cleft.108",
+          "question": "No es a Mark a quien temo.",
+          "options": [
+            "It isn't Mark that I'm afraid of.",
+            "It isn't Mark what I'm afraid of."
+          ],
+          "answer": 0,
+          "explanation": "«It-cleft»: «that» / «who»."
+        },
+        {
+          "id": "c1_cleft.109",
+          "question": "El problema es que no tenemos dinero.",
+          "options": [
+            "The thing is, we don't have any money.",
+            "The thing is what we don't have money."
+          ],
+          "answer": 0,
+          "explanation": "«The thing is…»."
+        },
+        {
+          "id": "c1_cleft.110",
+          "question": "Donde necesitaría ayuda es en lo técnico.",
+          "options": [
+            "Where I'd need help is the technical side.",
+            "Where I'd need help it is the technical side."
+          ],
+          "answer": 0,
+          "explanation": "«Where… is…»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con la estructura indicada.",
+      "items": [
+        {
+          "id": "c1_cleft.201",
+          "prompt": "What…",
+          "source": "The money scares me most.",
+          "answers": [
+            "What scares me most is the money"
+          ]
+        },
+        {
+          "id": "c1_cleft.202",
+          "prompt": "It was…",
+          "source": "You saved the project.",
+          "answers": [
+            "It was you who saved the project",
+            "It was you that saved the project"
+          ]
+        },
+        {
+          "id": "c1_cleft.203",
+          "prompt": "What…",
+          "source": "I need a holiday.",
+          "answers": [
+            "What I need is a holiday"
+          ]
+        },
+        {
+          "id": "c1_cleft.204",
+          "prompt": "All…",
+          "source": "I only want some sleep.",
+          "answers": [
+            "All I want is some sleep"
+          ]
+        },
+        {
+          "id": "c1_cleft.205",
+          "prompt": "The reason…",
+          "source": "I'm worried because of the money.",
+          "answers": [
+            "The reason I'm worried is the money",
+            "The reason why I'm worried is the money"
+          ]
+        },
+        {
+          "id": "c1_cleft.206",
+          "prompt": "What… did was",
+          "source": "She called the bank.",
+          "answers": [
+            "What she did was call the bank",
+            "What she did was to call the bank"
+          ]
+        },
+        {
+          "id": "c1_cleft.207",
+          "prompt": "It was…",
+          "source": "They met in Galway.",
+          "answers": [
+            "It was in Galway that they met",
+            "It was in Galway where they met"
+          ]
+        },
+        {
+          "id": "c1_cleft.208",
+          "prompt": "Corrige",
+          "source": "What I need it is more time.",
+          "answers": [
+            "What I need is more time"
+          ],
+          "explanation": "Sin «it»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "c1_cleft.301",
+          "source": "Lo que me da miedo es el dinero.",
+          "answers": [
+            "What scares me is the money",
+            "What frightens me is the money"
+          ]
+        },
+        {
+          "id": "c1_cleft.302",
+          "source": "Fuiste tú quien salvó el proyecto.",
+          "answers": [
+            "It was you who saved the project",
+            "It was you that saved the project"
+          ]
+        },
+        {
+          "id": "c1_cleft.303",
+          "source": "Lo único que digo es que no decida el miedo.",
+          "answers": [
+            "All I'm saying is, don't let fear decide",
+            "All I'm saying is don't let fear decide"
+          ]
+        },
+        {
+          "id": "c1_cleft.304",
+          "source": "Lo que necesito es un socio.",
+          "answers": [
+            "What I need is a partner"
+          ]
+        },
+        {
+          "id": "c1_cleft.305",
+          "source": "La razón por la que no estoy preocupado es que siempre tienes un plan.",
+          "answers": [
+            "The reason I'm not worried is that you always have a plan",
+            "The reason why I'm not worried is that you always have a plan"
+          ]
+        },
+        {
+          "id": "c1_cleft.306",
+          "source": "Lo que hizo fue dimitir.",
+          "answers": [
+            "What she did was resign",
+            "What he did was resign"
+          ]
+        },
+        {
+          "id": "c1_cleft.307",
+          "source": "Fue en Galway donde se conocieron.",
+          "answers": [
+            "It was in Galway that they met",
+            "It was in Galway where they met"
+          ]
+        },
+        {
+          "id": "c1_cleft.308",
+          "source": "Lo único que quiero es un fin de semana tranquilo.",
+          "answers": [
+            "All I want is a quiet weekend"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_cleft.401",
+          "answer": "What scares me most is the money"
+        },
+        {
+          "id": "c1_cleft.402",
+          "answer": "It was you who saved the project"
+        },
+        {
+          "id": "c1_cleft.403",
+          "answer": "All I want is a quiet weekend"
+        },
+        {
+          "id": "c1_cleft.404",
+          "answer": "What she did was call the bank"
+        },
+        {
+          "id": "c1_cleft.405",
+          "answer": "The reason I left is that I was bored"
+        }
+      ]
+    }
+  ]
+}

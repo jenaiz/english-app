@@ -1,0 +1,450 @@
+{
+  "topic_id": "c1_likelihood",
+  "level_id": "C1",
+  "title": "Probabilidad: bound to, likely to, set to, due to",
+  "tags": [
+    "likelihood"
+  ],
+  "units": [
+    "radio_interview"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Talking about likelihood",
+    "explanation": "Estructuras para hablar de probabilidad y de lo previsto, muy habituales en entrevistas y noticias:\n- «be bound to»: es casi seguro: «I'm bound to spend a lot of time on planes.», «It's bound to rain.»\n- «be (un)likely to» / «it's (un)likely that»: probable / poco probable: «I'm unlikely to move permanently.», «It's likely that prices will rise.»\n- «be set to»: está previsto (muy típico de la prensa): «We're set to hire four designers.»\n- «be due to»: está programado para una fecha: «The office is due to open in October.»\n- «be on the verge» / «brink of» + «-ing»: estar a punto de (algo importante): «Small studios are on the verge of disappearing.»\n- «stand a (good) chance (of» + «-ing)»: tener (buenas) posibilidades: «We stand a good chance of winning.»\n- «be about to»: estar a punto de (inminente): «The show is about to start.»\n- «There's every chance that…» / «There's little chance of…»\n\nOjo: «likely» es adjetivo, no adverbio: «He's likely to come» o «He'll probably come» (nunca «He'll likely to come»). Y «bound to», «likely to», «set to» y «due to» van con el verbo en forma base.",
+    "table": {
+      "headers": [
+        "Expresión",
+        "Significado",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "be bound to",
+          "casi seguro",
+          "It's bound to rain."
+        ],
+        [
+          "be likely / unlikely to",
+          "probable / poco probable",
+          "She's unlikely to agree."
+        ],
+        [
+          "be set to",
+          "previsto (prensa)",
+          "Prices are set to rise."
+        ],
+        [
+          "be due to",
+          "programado",
+          "It's due to open in May."
+        ],
+        [
+          "be on the verge of + -ing",
+          "a punto de (importante)",
+          "They're on the verge of closing."
+        ],
+        [
+          "stand a chance of + -ing",
+          "tener posibilidades",
+          "We stand a chance of winning."
+        ],
+        [
+          "be about to",
+          "a punto de (inminente)",
+          "The film is about to start."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la expresión de probabilidad.",
+      "items": [
+        {
+          "id": "c1_likelihood.001",
+          "sentence": "The Madrid office is ___ to open in October.",
+          "answers": [
+            [
+              "due"
+            ]
+          ]
+        },
+        {
+          "id": "c1_likelihood.002",
+          "sentence": "We're ___ to hire four designers by the end of the year.",
+          "answers": [
+            [
+              "set"
+            ]
+          ]
+        },
+        {
+          "id": "c1_likelihood.003",
+          "sentence": "Are you ___ to move to Madrid yourself?",
+          "answers": [
+            [
+              "likely"
+            ]
+          ]
+        },
+        {
+          "id": "c1_likelihood.004",
+          "sentence": "I'm ___ to move permanently. (poco probable)",
+          "answers": [
+            [
+              "unlikely"
+            ]
+          ]
+        },
+        {
+          "id": "c1_likelihood.005",
+          "sentence": "I'm ___ to spend a lot of time on planes. (casi seguro)",
+          "answers": [
+            [
+              "bound"
+            ]
+          ]
+        },
+        {
+          "id": "c1_likelihood.006",
+          "sentence": "Small studios are on the ___ of disappearing.",
+          "answers": [
+            [
+              "verge",
+              "brink"
+            ]
+          ]
+        },
+        {
+          "id": "c1_likelihood.007",
+          "sentence": "We stand a fairly good ___.",
+          "answers": [
+            [
+              "chance"
+            ]
+          ]
+        },
+        {
+          "id": "c1_likelihood.008",
+          "sentence": "You're ___ to open an office in Madrid. (a punto de)",
+          "answers": [
+            [
+              "about"
+            ]
+          ]
+        },
+        {
+          "id": "c1_likelihood.009",
+          "sentence": "Take an umbrella. It's bound ___ rain.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "c1_likelihood.010",
+          "sentence": "We stand a good chance of ___ the contract. (win)",
+          "answers": [
+            [
+              "winning"
+            ]
+          ]
+        },
+        {
+          "id": "c1_likelihood.011",
+          "sentence": "There's every ___ that she'll accept the offer.",
+          "answers": [
+            [
+              "chance"
+            ]
+          ]
+        },
+        {
+          "id": "c1_likelihood.012",
+          "sentence": "It's ___ that prices will rise next year. (probable)",
+          "answers": [
+            [
+              "likely"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "c1_likelihood.101",
+          "question": "Es casi seguro que llueva.",
+          "options": [
+            "It's bound to rain.",
+            "It's bound to raining."
+          ],
+          "answer": 0,
+          "explanation": "«bound to» + forma base."
+        },
+        {
+          "id": "c1_likelihood.102",
+          "question": "Es poco probable que me mude.",
+          "options": [
+            "I'm unlikely to move.",
+            "I'll unlikely move."
+          ],
+          "answer": 0,
+          "explanation": "«be unlikely to»."
+        },
+        {
+          "id": "c1_likelihood.103",
+          "question": "Probablemente vendrá.",
+          "options": [
+            "He's likely to come.",
+            "He'll likely to come."
+          ],
+          "answer": 0,
+          "explanation": "«be likely to»."
+        },
+        {
+          "id": "c1_likelihood.104",
+          "question": "La oficina abrirá en octubre, según lo previsto.",
+          "options": [
+            "The office is due to open in October.",
+            "The office is due opening in October."
+          ],
+          "answer": 0,
+          "explanation": "«due to» + forma base."
+        },
+        {
+          "id": "c1_likelihood.105",
+          "question": "Están a punto de cerrar.",
+          "options": [
+            "They're on the verge of closing.",
+            "They're on the verge to close."
+          ],
+          "answer": 0,
+          "explanation": "«on the verge of» + «-ing»."
+        },
+        {
+          "id": "c1_likelihood.106",
+          "question": "Tenemos buenas posibilidades de ganar.",
+          "options": [
+            "We stand a good chance of winning.",
+            "We stand a good chance to winning."
+          ],
+          "answer": 0,
+          "explanation": "«chance of» + «-ing»."
+        },
+        {
+          "id": "c1_likelihood.107",
+          "question": "Está previsto que suban los precios. (prensa)",
+          "options": [
+            "Prices are set to rise.",
+            "Prices are set rising."
+          ],
+          "answer": 0,
+          "explanation": "«set to» + forma base."
+        },
+        {
+          "id": "c1_likelihood.108",
+          "question": "La película está a punto de empezar.",
+          "options": [
+            "The film is about to start.",
+            "The film is about starting."
+          ],
+          "answer": 0,
+          "explanation": "«about to» + forma base."
+        },
+        {
+          "id": "c1_likelihood.109",
+          "question": "Hay muchas posibilidades de que acepte.",
+          "options": [
+            "There's every chance that she'll accept.",
+            "There's all chance that she accepts."
+          ],
+          "answer": 0,
+          "explanation": "«There's every chance that…»."
+        },
+        {
+          "id": "c1_likelihood.110",
+          "question": "Es probable que suban los precios.",
+          "options": [
+            "It's likely that prices will rise.",
+            "It's likely prices to rise."
+          ],
+          "answer": 0,
+          "explanation": "«It's likely that…»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con la expresión indicada.",
+      "items": [
+        {
+          "id": "c1_likelihood.201",
+          "prompt": "bound to",
+          "source": "It's almost certain that it will rain.",
+          "answers": [
+            "It's bound to rain"
+          ]
+        },
+        {
+          "id": "c1_likelihood.202",
+          "prompt": "likely to",
+          "source": "The train will probably be late.",
+          "answers": [
+            "The train is likely to be late"
+          ]
+        },
+        {
+          "id": "c1_likelihood.203",
+          "prompt": "due to",
+          "source": "The concert is scheduled to start at eight.",
+          "answers": [
+            "The concert is due to start at eight"
+          ]
+        },
+        {
+          "id": "c1_likelihood.204",
+          "prompt": "on the verge of",
+          "source": "The company is very close to closing.",
+          "answers": [
+            "The company is on the verge of closing"
+          ]
+        },
+        {
+          "id": "c1_likelihood.205",
+          "prompt": "unlikely to",
+          "source": "She probably won't agree.",
+          "answers": [
+            "She's unlikely to agree",
+            "She is unlikely to agree"
+          ]
+        },
+        {
+          "id": "c1_likelihood.206",
+          "prompt": "set to",
+          "source": "Prices are expected to rise. (titular)",
+          "answers": [
+            "Prices are set to rise"
+          ]
+        },
+        {
+          "id": "c1_likelihood.207",
+          "prompt": "stand a chance",
+          "source": "We have a good chance of winning.",
+          "answers": [
+            "We stand a good chance of winning"
+          ]
+        },
+        {
+          "id": "c1_likelihood.208",
+          "prompt": "Corrige",
+          "source": "He'll likely to come tomorrow.",
+          "answers": [
+            "He's likely to come tomorrow",
+            "He'll probably come tomorrow"
+          ],
+          "explanation": "«be likely to»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "c1_likelihood.301",
+          "source": "La oficina abrirá en octubre, según lo previsto.",
+          "answers": [
+            "The office is due to open in October"
+          ]
+        },
+        {
+          "id": "c1_likelihood.302",
+          "source": "Es casi seguro que llueva.",
+          "answers": [
+            "It's bound to rain"
+          ]
+        },
+        {
+          "id": "c1_likelihood.303",
+          "source": "Es poco probable que me mude.",
+          "answers": [
+            "I'm unlikely to move",
+            "It's unlikely that I'll move"
+          ]
+        },
+        {
+          "id": "c1_likelihood.304",
+          "source": "Están a punto de cerrar.",
+          "answers": [
+            "They're on the verge of closing",
+            "They're about to close"
+          ]
+        },
+        {
+          "id": "c1_likelihood.305",
+          "source": "Tenemos bastantes posibilidades.",
+          "answers": [
+            "We stand a fairly good chance",
+            "We stand a good chance"
+          ]
+        },
+        {
+          "id": "c1_likelihood.306",
+          "source": "Está previsto que contratemos a cuatro diseñadores.",
+          "answers": [
+            "We're set to hire four designers"
+          ]
+        },
+        {
+          "id": "c1_likelihood.307",
+          "source": "Probablemente llegará tarde.",
+          "answers": [
+            "He's likely to be late",
+            "She's likely to be late",
+            "He'll probably be late"
+          ]
+        },
+        {
+          "id": "c1_likelihood.308",
+          "source": "La película está a punto de empezar.",
+          "answers": [
+            "The film is about to start",
+            "The movie is about to start"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_likelihood.401",
+          "answer": "The office is due to open in October"
+        },
+        {
+          "id": "c1_likelihood.402",
+          "answer": "It's bound to rain"
+        },
+        {
+          "id": "c1_likelihood.403",
+          "answer": "I'm unlikely to move permanently"
+        },
+        {
+          "id": "c1_likelihood.404",
+          "answer": "We stand a good chance of winning"
+        },
+        {
+          "id": "c1_likelihood.405",
+          "answer": "They're on the verge of closing"
+        }
+      ]
+    }
+  ]
+}

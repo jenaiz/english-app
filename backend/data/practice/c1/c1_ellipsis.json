@@ -1,0 +1,436 @@
+{
+  "topic_id": "c1_ellipsis",
+  "level_id": "C1",
+  "title": "Elipsis y sustitución: I hope so, I'd love to, So would I",
+  "tags": [
+    "ellipsis"
+  ],
+  "units": [
+    "the_engagement"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Ellipsis and substitution",
+    "explanation": "En la conversación los nativos evitan repetir lo que ya está claro:\n- «so» / «not» sustituyen una frase entera tras «hope», «think», «expect», «suppose», «be afraid»: «I hope so.», «I think so.», «I hope not.», «I'm afraid not.» (con «think», la negativa normal es «I don't think so»)\n- El auxiliar solo: «Would you like to cook? — I would.», «You'll be my bridesmaid? — Of course I will.», «Have you finished? — I have.»\n- «to» sin verbo: «If you'd like to.», «I'd have loved to.», «I'm trying to.», «if you want us to»\n- «So» / «Neither» + auxiliar + sujeto: «So would half the nurses.», «Neither have I.»\n- «one» / «ones» para no repetir un nombre: «I like the blue one.», «the old ones»\n- Preguntas cortas: «Have you and Daniel?» (chosen a date)\n\nResponder con la frase completa («Yes, I would like to cook») suena muy poco natural.\n\nOjo: tras «to» se quita el verbo pero «to» se queda: «I'd love to» (nunca «I'd love»). Y «I think so» / «I don't think so», pero no «I think it».",
+    "table": {
+      "headers": [
+        "Recurso",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "so / not",
+          "I hope so. / I hope not."
+        ],
+        [
+          "Auxiliar solo",
+          "Will you come? — I will."
+        ],
+        [
+          "to sin verbo",
+          "I'd love to."
+        ],
+        [
+          "So / Neither + auxiliar",
+          "So do I. / Neither can I."
+        ],
+        [
+          "one / ones",
+          "I'll take the red one."
+        ],
+        [
+          "I don't think so",
+          "Is it raining? — I don't think so."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la palabra que evita repetir.",
+      "items": [
+        {
+          "id": "c1_ellipsis.001",
+          "sentence": "Did you know he was going to propose? — I hoped ___.",
+          "answers": [
+            [
+              "so"
+            ]
+          ]
+        },
+        {
+          "id": "c1_ellipsis.002",
+          "sentence": "I'd have loved to see that. — ___ would half the nurses.",
+          "answers": [
+            [
+              "So"
+            ]
+          ]
+        },
+        {
+          "id": "c1_ellipsis.003",
+          "sentence": "Are you having a big wedding? — I don't think ___.",
+          "answers": [
+            [
+              "so"
+            ]
+          ]
+        },
+        {
+          "id": "c1_ellipsis.004",
+          "sentence": "My mum wants 500 guests. I'd rather ___.",
+          "answers": [
+            [
+              "not"
+            ]
+          ]
+        },
+        {
+          "id": "c1_ellipsis.005",
+          "sentence": "Who's cooking? — I will, if you'd like me ___.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "c1_ellipsis.006",
+          "sentence": "The band could play, if you want us ___.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "c1_ellipsis.007",
+          "sentence": "You'll be my bridesmaid, won't you? — Of course I ___.",
+          "answers": [
+            [
+              "will"
+            ]
+          ]
+        },
+        {
+          "id": "c1_ellipsis.008",
+          "sentence": "I haven't chosen a date. — Neither ___ I.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "c1_ellipsis.009",
+          "sentence": "Is it going to rain? — I hope ___.",
+          "answers": [
+            [
+              "not"
+            ]
+          ]
+        },
+        {
+          "id": "c1_ellipsis.010",
+          "sentence": "Which dress do you prefer? — The blue ___.",
+          "answers": [
+            [
+              "one"
+            ]
+          ]
+        },
+        {
+          "id": "c1_ellipsis.011",
+          "sentence": "Can you come to the party? — I'm afraid ___.",
+          "answers": [
+            [
+              "not"
+            ]
+          ]
+        },
+        {
+          "id": "c1_ellipsis.012",
+          "sentence": "Have you finished the report? — Yes, I ___.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué respuesta es más natural?",
+      "items": [
+        {
+          "id": "c1_ellipsis.101",
+          "question": "Is she coming? — Eso espero.",
+          "options": [
+            "I hope so.",
+            "I hope it."
+          ],
+          "answer": 0,
+          "explanation": "«I hope so»."
+        },
+        {
+          "id": "c1_ellipsis.102",
+          "question": "Will it rain? — Espero que no.",
+          "options": [
+            "I hope not.",
+            "I don't hope so."
+          ],
+          "answer": 0,
+          "explanation": "«I hope not»."
+        },
+        {
+          "id": "c1_ellipsis.103",
+          "question": "Would you like to come? — Me encantaría.",
+          "options": [
+            "I'd love to.",
+            "I'd love."
+          ],
+          "answer": 0,
+          "explanation": "Se queda «to»."
+        },
+        {
+          "id": "c1_ellipsis.104",
+          "question": "I haven't been there. — Yo tampoco.",
+          "options": [
+            "Neither have I.",
+            "Neither I have."
+          ],
+          "answer": 0,
+          "explanation": "Auxiliar + sujeto."
+        },
+        {
+          "id": "c1_ellipsis.105",
+          "question": "Would you like to cook? — Sí.",
+          "options": [
+            "I would.",
+            "Yes, I would like to cook dinner tonight."
+          ],
+          "answer": 0,
+          "explanation": "El auxiliar solo."
+        },
+        {
+          "id": "c1_ellipsis.106",
+          "question": "Is it raining? — Creo que no.",
+          "options": [
+            "I don't think so.",
+            "I think not so."
+          ],
+          "answer": 0,
+          "explanation": "«I don't think so»."
+        },
+        {
+          "id": "c1_ellipsis.107",
+          "question": "¿Cuál prefieres? — El rojo.",
+          "options": [
+            "The red one.",
+            "The red."
+          ],
+          "answer": 0,
+          "explanation": "«one» sustituye al nombre."
+        },
+        {
+          "id": "c1_ellipsis.108",
+          "question": "Can you help? — Me temo que no.",
+          "options": [
+            "I'm afraid not.",
+            "I'm afraid no."
+          ],
+          "answer": 0,
+          "explanation": "«I'm afraid not»."
+        },
+        {
+          "id": "c1_ellipsis.109",
+          "question": "I'd love to see it. — Yo también.",
+          "options": [
+            "So would I.",
+            "So do I."
+          ],
+          "answer": 0,
+          "explanation": "Con «would»: «So would I»."
+        },
+        {
+          "id": "c1_ellipsis.110",
+          "question": "¿Cocino yo? — Si quieres.",
+          "options": [
+            "If you'd like to.",
+            "If you'd like."
+          ],
+          "answer": 0,
+          "explanation": "Se queda «to»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Responde de forma natural, sin repetir.",
+      "items": [
+        {
+          "id": "c1_ellipsis.201",
+          "prompt": "not / so",
+          "source": "Do you think it will rain? — I think it won't rain.",
+          "answers": [
+            "I don't think so"
+          ]
+        },
+        {
+          "id": "c1_ellipsis.202",
+          "prompt": "So…",
+          "source": "I'd love to come. — I would love to come too.",
+          "answers": [
+            "So would I"
+          ]
+        },
+        {
+          "id": "c1_ellipsis.203",
+          "prompt": "to",
+          "source": "Can you help me? — I'd like to help you, but I can't.",
+          "answers": [
+            "I'd like to, but I can't",
+            "I'd like to but I can't"
+          ]
+        },
+        {
+          "id": "c1_ellipsis.204",
+          "prompt": "Neither…",
+          "source": "I don't like coffee. — I don't like coffee either.",
+          "answers": [
+            "Neither do I",
+            "Nor do I"
+          ]
+        },
+        {
+          "id": "c1_ellipsis.205",
+          "prompt": "so",
+          "source": "Is the shop open? — I hope the shop is open.",
+          "answers": [
+            "I hope so"
+          ]
+        },
+        {
+          "id": "c1_ellipsis.206",
+          "prompt": "Auxiliar",
+          "source": "Will you call me? — Yes, I will call you.",
+          "answers": [
+            "Yes, I will",
+            "I will"
+          ]
+        },
+        {
+          "id": "c1_ellipsis.207",
+          "prompt": "one",
+          "source": "Do you want the big bag or the small bag?",
+          "answers": [
+            "Do you want the big one or the small one",
+            "Do you want the big bag or the small one"
+          ]
+        },
+        {
+          "id": "c1_ellipsis.208",
+          "prompt": "not",
+          "source": "Are they coming? — I'm afraid they aren't coming.",
+          "answers": [
+            "I'm afraid not"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "c1_ellipsis.301",
+          "source": "Eso espero.",
+          "answers": [
+            "I hope so"
+          ]
+        },
+        {
+          "id": "c1_ellipsis.302",
+          "source": "Espero que no.",
+          "answers": [
+            "I hope not"
+          ]
+        },
+        {
+          "id": "c1_ellipsis.303",
+          "source": "Yo también. (respuesta a «I'd love to see it»)",
+          "answers": [
+            "So would I"
+          ]
+        },
+        {
+          "id": "c1_ellipsis.304",
+          "source": "Si quieres. (respuesta a «¿Cocino yo?»)",
+          "answers": [
+            "If you'd like to",
+            "If you want to",
+            "If you want"
+          ]
+        },
+        {
+          "id": "c1_ellipsis.305",
+          "source": "Yo tampoco. (respuesta a «I haven't been there»)",
+          "answers": [
+            "Neither have I",
+            "Nor have I"
+          ]
+        },
+        {
+          "id": "c1_ellipsis.306",
+          "source": "Me encantaría.",
+          "answers": [
+            "I'd love to"
+          ]
+        },
+        {
+          "id": "c1_ellipsis.307",
+          "source": "Creo que no.",
+          "answers": [
+            "I don't think so"
+          ]
+        },
+        {
+          "id": "c1_ellipsis.308",
+          "source": "Me quedo con el azul.",
+          "answers": [
+            "I'll take the blue one",
+            "I'll have the blue one"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_ellipsis.401",
+          "answer": "I hope so"
+        },
+        {
+          "id": "c1_ellipsis.402",
+          "answer": "I don't think so"
+        },
+        {
+          "id": "c1_ellipsis.403",
+          "answer": "I'd love to, but I can't"
+        },
+        {
+          "id": "c1_ellipsis.404",
+          "answer": "So would half the nurses"
+        },
+        {
+          "id": "c1_ellipsis.405",
+          "answer": "Neither have I"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "topic_id": "c1_conditionals_without_if",
+  "level_id": "C1",
+  "title": "Condicionales sin if: provided that, unless, but for, Should you…",
+  "tags": [
+    "conditionals_without_if"
+  ],
+  "units": [
+    "money_talk"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Conditionals without if",
+    "explanation": "En negociaciones y textos formales se usan alternativas a «if»:\n- «provided (that)», «providing», «as long as»: siempre que: «I'll invest provided that I get a seat on the board.»\n- «on condition that»: con la condición de que.\n- «unless»: a menos que: «Unless something drastic happens, I won't pull out.»\n- «supposing», «assuming»: suponiendo que: «Supposing we don't reach thirty percent, what happens?»\n- «otherwise»: si no, de lo contrario: «Go. Otherwise, you'll always wonder.»\n- «but for» + nombre: de no ser por: «But for your pilot, we'd never have got this far.»\n- «in case»: por si acaso (no es una condición).\n\nCondicionales con inversión (más formales, sin «if»):\n- «Should he make an offer…» (= «If he makes an offer»)\n- «Were I in your position…» (= «If I were…»)\n- «Had I known…» (= «If I had known…»)\n\nOjo: después de estas expresiones va presente para hablar del futuro, igual que con «if»: «as long as you pay on time» (nunca «as long as you will pay»). Y la negación de la inversión va detrás del sujeto: «Had I not known…», «Were it not for…».",
+    "table": {
+      "headers": [
+        "Expresión",
+        "Significado",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "provided / as long as",
+          "siempre que",
+          "As long as you pay, it's fine."
+        ],
+        [
+          "unless",
+          "a menos que",
+          "Unless it rains, we'll go."
+        ],
+        [
+          "supposing",
+          "suponiendo que",
+          "Supposing he says no?"
+        ],
+        [
+          "otherwise",
+          "si no",
+          "Hurry, otherwise we'll be late."
+        ],
+        [
+          "but for",
+          "de no ser por",
+          "But for you, I'd have failed."
+        ],
+        [
+          "Should…",
+          "si (formal)",
+          "Should you need help, call me."
+        ],
+        [
+          "Had I…",
+          "si hubiera…",
+          "Had I known, I'd have come."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa la expresión condicional.",
+      "items": [
+        {
+          "id": "c1_conditionals_without_if.001",
+          "sentence": "I'm prepared to invest, ___ that I get a seat on the board.",
+          "answers": [
+            [
+              "provided",
+              "providing"
+            ]
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.002",
+          "sentence": "As ___ as we keep creative control, that's fair.",
+          "answers": [
+            [
+              "long"
+            ]
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.003",
+          "sentence": "…on ___ that the studio grows by thirty percent.",
+          "answers": [
+            [
+              "condition"
+            ]
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.004",
+          "sentence": "___ we don't reach thirty percent, what happens?",
+          "answers": [
+            [
+              "Supposing",
+              "Assuming"
+            ]
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.005",
+          "sentence": "___ something drastic happened, I wouldn't pull out.",
+          "answers": [
+            [
+              "Unless"
+            ]
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.006",
+          "sentence": "But ___ your pilot project, we'd never have got this far.",
+          "answers": [
+            [
+              "for"
+            ]
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.007",
+          "sentence": "Go. ___, you'll always wonder.",
+          "answers": [
+            [
+              "Otherwise"
+            ]
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.008",
+          "sentence": "___ he make an offer, tell me first.",
+          "answers": [
+            [
+              "Should"
+            ]
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.009",
+          "sentence": "___ I known, I would have come. (si hubiera)",
+          "answers": [
+            [
+              "Had"
+            ]
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.010",
+          "sentence": "___ I in your position, I'd accept. (si yo estuviera)",
+          "answers": [
+            [
+              "Were"
+            ]
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.011",
+          "sentence": "You can borrow it as long as you ___ it on Monday. (return)",
+          "answers": [
+            [
+              "return"
+            ]
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.012",
+          "sentence": "Had I ___ known about the risk, I would have signed. (negativa)",
+          "answers": [
+            [
+              "not"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "c1_conditionals_without_if.101",
+          "question": "Invertiré siempre que tenga un puesto en el consejo.",
+          "options": [
+            "I'll invest provided that I get a seat on the board.",
+            "I'll invest provided that I will get a seat on the board."
+          ],
+          "answer": 0,
+          "explanation": "Tras «provided», presente."
+        },
+        {
+          "id": "c1_conditionals_without_if.102",
+          "question": "De no ser por ti, no lo habríamos conseguido.",
+          "options": [
+            "But for you, we wouldn't have made it.",
+            "But you, we wouldn't have made it."
+          ],
+          "answer": 0,
+          "explanation": "«But for» + nombre."
+        },
+        {
+          "id": "c1_conditionals_without_if.103",
+          "question": "Si hiciera una oferta, avísame primero.",
+          "options": [
+            "Should he make an offer, tell me first.",
+            "Should he makes an offer, tell me first."
+          ],
+          "answer": 0,
+          "explanation": "«Should» + forma base."
+        },
+        {
+          "id": "c1_conditionals_without_if.104",
+          "question": "Si lo hubiera sabido, habría venido.",
+          "options": [
+            "Had I known, I would have come.",
+            "Had I know, I would have come."
+          ],
+          "answer": 0,
+          "explanation": "«Had» + participio."
+        },
+        {
+          "id": "c1_conditionals_without_if.105",
+          "question": "Si yo estuviera en tu lugar, aceptaría.",
+          "options": [
+            "Were I in your position, I'd accept.",
+            "Was I in your position, I'd accept."
+          ],
+          "answer": 0,
+          "explanation": "«Were I…»."
+        },
+        {
+          "id": "c1_conditionals_without_if.106",
+          "question": "Date prisa; si no, llegaremos tarde.",
+          "options": [
+            "Hurry, otherwise we'll be late.",
+            "Hurry, unless we'll be late."
+          ],
+          "answer": 0,
+          "explanation": "«otherwise»."
+        },
+        {
+          "id": "c1_conditionals_without_if.107",
+          "question": "A menos que pase algo grave, no me retiraré.",
+          "options": [
+            "Unless something serious happens, I won't pull out.",
+            "Unless something serious doesn't happen, I won't pull out."
+          ],
+          "answer": 0,
+          "explanation": "«unless» ya es negativo."
+        },
+        {
+          "id": "c1_conditionals_without_if.108",
+          "question": "Siempre que me lo devuelvas el lunes.",
+          "options": [
+            "As long as you return it on Monday.",
+            "As long as you will return it on Monday."
+          ],
+          "answer": 0,
+          "explanation": "Tras «as long as», presente."
+        },
+        {
+          "id": "c1_conditionals_without_if.109",
+          "question": "Si no hubiera sido por la lluvia…",
+          "options": [
+            "Had it not been for the rain…",
+            "Had not it been for the rain…"
+          ],
+          "answer": 0,
+          "explanation": "Negación detrás del sujeto."
+        },
+        {
+          "id": "c1_conditionals_without_if.110",
+          "question": "Suponiendo que diga que no, ¿qué hacemos?",
+          "options": [
+            "Supposing he says no, what do we do?",
+            "Supposing he will say no, what do we do?"
+          ],
+          "answer": 0,
+          "explanation": "Tras «supposing», presente."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe sin «if».",
+      "items": [
+        {
+          "id": "c1_conditionals_without_if.201",
+          "prompt": "Should…",
+          "source": "If he makes an offer, call me.",
+          "answers": [
+            "Should he make an offer, call me"
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.202",
+          "prompt": "But for…",
+          "source": "If it hadn't been for your help, we would have failed.",
+          "answers": [
+            "But for your help, we would have failed"
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.203",
+          "prompt": "as long as",
+          "source": "You can borrow it if you return it on Monday.",
+          "answers": [
+            "You can borrow it as long as you return it on Monday"
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.204",
+          "prompt": "Had…",
+          "source": "If I had known, I would have come.",
+          "answers": [
+            "Had I known, I would have come"
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.205",
+          "prompt": "Were…",
+          "source": "If I were in your position, I would accept.",
+          "answers": [
+            "Were I in your position, I would accept",
+            "Were I in your position, I'd accept"
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.206",
+          "prompt": "unless",
+          "source": "We'll go if it doesn't rain.",
+          "answers": [
+            "We'll go unless it rains"
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.207",
+          "prompt": "otherwise",
+          "source": "Hurry. If you don't, we'll miss the train.",
+          "answers": [
+            "Hurry, otherwise we'll miss the train",
+            "Hurry. Otherwise, we'll miss the train",
+            "Hurry. Otherwise we'll miss the train"
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.208",
+          "prompt": "provided that",
+          "source": "I'll sign if you keep the price.",
+          "answers": [
+            "I'll sign provided that you keep the price",
+            "I'll sign provided you keep the price"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "c1_conditionals_without_if.301",
+          "source": "Invertiré siempre que tenga un puesto en el consejo.",
+          "answers": [
+            "I'll invest provided that I get a seat on the board",
+            "I'll invest as long as I get a seat on the board",
+            "I'll invest provided I get a seat on the board"
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.302",
+          "source": "Suponiendo que no lleguemos, ¿qué pasa?",
+          "answers": [
+            "Supposing we don't reach it, what happens",
+            "Supposing we don't make it, what happens"
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.303",
+          "source": "De no ser por ti, no habríamos llegado tan lejos.",
+          "answers": [
+            "But for you, we would never have got this far",
+            "But for you, we wouldn't have got this far",
+            "But for you, we would never have come this far"
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.304",
+          "source": "Ve; si no, siempre te lo preguntarás.",
+          "answers": [
+            "Go, otherwise you'll always wonder",
+            "Go. Otherwise, you'll always wonder",
+            "Go. Otherwise you'll always wonder"
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.305",
+          "source": "Si hiciera una oferta, avísame primero.",
+          "answers": [
+            "Should he make an offer, tell me first",
+            "Should he make an offer, let me know first"
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.306",
+          "source": "Si lo hubiera sabido, habría venido.",
+          "answers": [
+            "Had I known, I would have come",
+            "Had I known, I'd have come"
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.307",
+          "source": "Si yo estuviera en tu lugar, aceptaría.",
+          "answers": [
+            "Were I in your position, I would accept",
+            "Were I in your position, I'd accept",
+            "Were I in your place, I'd accept"
+          ]
+        },
+        {
+          "id": "c1_conditionals_without_if.308",
+          "source": "Puedes usarlo siempre que lo devuelvas.",
+          "answers": [
+            "You can use it as long as you return it",
+            "You can use it provided that you return it",
+            "You can use it provided you return it"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_conditionals_without_if.401",
+          "answer": "Should he make an offer, tell me first"
+        },
+        {
+          "id": "c1_conditionals_without_if.402",
+          "answer": "But for your help, we would have failed"
+        },
+        {
+          "id": "c1_conditionals_without_if.403",
+          "answer": "Had I known, I would have come"
+        },
+        {
+          "id": "c1_conditionals_without_if.404",
+          "answer": "As long as we keep control, it's fair"
+        },
+        {
+          "id": "c1_conditionals_without_if.405",
+          "answer": "Were I in your position, I'd accept"
+        }
+      ]
+    }
+  ]
+}

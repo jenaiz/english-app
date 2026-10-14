@@ -1,0 +1,451 @@
+{
+  "topic_id": "c1_discourse_markers",
+  "level_id": "C1",
+  "title": "Marcadores: nevertheless, admittedly, that said, mind you",
+  "tags": [
+    "discourse_markers"
+  ],
+  "units": [
+    "pitch_prep"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Signposting: nevertheless, that said, mind you, on top of that",
+    "explanation": "Para guiar al oyente en un argumento largo.\n\nRegistro formal (presentaciones, informes):\n- «Nevertheless» / «Nonetheless» (aun así): «Our studio is small. Nevertheless, we deliver on time.»\n- «Admittedly» (hay que reconocer que): «Admittedly, our prices are higher.»\n- «To a certain extent» / «To what extent…»: «To a certain extent, design drives bookings.»\n- «In so far as» (en la medida en que): «The plan worked in so far as it was applied.»\n- «Whereas» (mientras que): «Madrid is growing fast, whereas London is saturated.»\n- «Notwithstanding» (no obstante, a pesar de; muy formal).\n\nRegistro informal (conversación, correos entre colegas):\n- «That said» (dicho esto): «It's expensive. That said, it's worth it.»\n- «Mind you» (aunque, eso sí): «Mark loves the idea. Mind you, he loves most ideas.»\n- «On top of that» (encima, además): «We were late, and on top of that the projector broke.»\n- «As I was saying» / «Anyway, back to…»: para retomar el hilo.\n- «Having said that» (dicho esto).\n\nOjo: «mind you» y «that said» introducen una matización a lo que acabas de decir; «on top of that» añade algo más en la misma dirección.",
+    "table": {
+      "headers": [
+        "Marcador",
+        "Registro",
+        "Significado"
+      ],
+      "rows": [
+        [
+          "Nevertheless",
+          "formal",
+          "aun así"
+        ],
+        [
+          "Admittedly",
+          "formal",
+          "hay que reconocer que"
+        ],
+        [
+          "Whereas",
+          "formal",
+          "mientras que"
+        ],
+        [
+          "That said / Having said that",
+          "informal",
+          "dicho esto"
+        ],
+        [
+          "Mind you",
+          "informal",
+          "aunque, eso sí"
+        ],
+        [
+          "On top of that",
+          "informal",
+          "encima, además"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el marcador adecuado.",
+      "items": [
+        {
+          "id": "c1_discourse_markers.001",
+          "sentence": "We're a small studio. ___, we've never missed a deadline.",
+          "answers": [
+            [
+              "Nevertheless",
+              "Nonetheless"
+            ]
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.002",
+          "sentence": "___, our prices are higher than some competitors'. (hay que reconocer)",
+          "answers": [
+            [
+              "Admittedly"
+            ]
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.003",
+          "sentence": "Madrid is growing fast, ___ London is almost saturated.",
+          "answers": [
+            [
+              "whereas"
+            ]
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.004",
+          "sentence": "The hotel is expensive. That ___, the location is perfect.",
+          "answers": [
+            [
+              "said"
+            ]
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.005",
+          "sentence": "Mark loved the slides. ___ you, he loves every slide with a graph.",
+          "answers": [
+            [
+              "Mind"
+            ]
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.006",
+          "sentence": "The train was late, and on ___ of that the projector didn't work.",
+          "answers": [
+            [
+              "top"
+            ]
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.007",
+          "sentence": "To a certain ___, design drives bookings.",
+          "answers": [
+            [
+              "extent"
+            ]
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.008",
+          "sentence": "The plan worked in so ___ as it was applied.",
+          "answers": [
+            [
+              "far"
+            ]
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.009",
+          "sentence": "Having ___ that, I still think we should try.",
+          "answers": [
+            [
+              "said"
+            ]
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.010",
+          "sentence": "As I was ___, the budget is tight.",
+          "answers": [
+            [
+              "saying"
+            ]
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.011",
+          "sentence": "It's a risky plan. ___, we should consider it.",
+          "answers": [
+            [
+              "Nevertheless",
+              "Nonetheless",
+              "That said"
+            ]
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.012",
+          "sentence": "The flat is tiny, and on top ___ that it's freezing.",
+          "answers": [
+            [
+              "of"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué marcador encaja?",
+      "items": [
+        {
+          "id": "c1_discourse_markers.101",
+          "question": "Somos pequeños. Aun así, cumplimos los plazos. (formal)",
+          "options": [
+            "Nevertheless, we meet deadlines.",
+            "Mind you, we meet deadlines."
+          ],
+          "answer": 0,
+          "explanation": "Formal: «Nevertheless»."
+        },
+        {
+          "id": "c1_discourse_markers.102",
+          "question": "Es caro. Dicho esto, merece la pena.",
+          "options": [
+            "That said, it's worth it.",
+            "On top of that, it's worth it."
+          ],
+          "answer": 0,
+          "explanation": "Matización: «That said»."
+        },
+        {
+          "id": "c1_discourse_markers.103",
+          "question": "Llegamos tarde y, encima, falló el proyector.",
+          "options": [
+            "…and on top of that the projector failed.",
+            "…and mind you the projector failed."
+          ],
+          "answer": 0,
+          "explanation": "Añadir: «on top of that»."
+        },
+        {
+          "id": "c1_discourse_markers.104",
+          "question": "Hay que reconocer que somos más caros.",
+          "options": [
+            "Admittedly, we're more expensive.",
+            "Whereas, we're more expensive."
+          ],
+          "answer": 0,
+          "explanation": "«Admittedly»."
+        },
+        {
+          "id": "c1_discourse_markers.105",
+          "question": "Madrid crece, mientras que Londres está saturado.",
+          "options": [
+            "Madrid is growing, whereas London is saturated.",
+            "Madrid is growing, admittedly London is saturated."
+          ],
+          "answer": 0,
+          "explanation": "Contraste: «whereas»."
+        },
+        {
+          "id": "c1_discourse_markers.106",
+          "question": "A Mark le encanta. Eso sí, le encanta todo.",
+          "options": [
+            "Mark loves it. Mind you, he loves everything.",
+            "Mark loves it. Nevertheless, he loves everything."
+          ],
+          "answer": 0,
+          "explanation": "Informal: «Mind you»."
+        },
+        {
+          "id": "c1_discourse_markers.107",
+          "question": "Hasta cierto punto, el diseño atrae reservas.",
+          "options": [
+            "To a certain extent, design drives bookings.",
+            "In a certain extent, design drives bookings."
+          ],
+          "answer": 0,
+          "explanation": "«To a certain extent»."
+        },
+        {
+          "id": "c1_discourse_markers.108",
+          "question": "Como iba diciendo…",
+          "options": [
+            "As I was saying…",
+            "As I was telling…"
+          ],
+          "answer": 0,
+          "explanation": "«As I was saying»."
+        },
+        {
+          "id": "c1_discourse_markers.109",
+          "question": "En la medida en que se aplicó…",
+          "options": [
+            "in so far as it was applied",
+            "in as far it was applied"
+          ],
+          "answer": 0,
+          "explanation": "«in so far as»."
+        },
+        {
+          "id": "c1_discourse_markers.110",
+          "question": "Dicho esto, sigo pensando que…",
+          "options": [
+            "Having said that, I still think…",
+            "Having told that, I still think…"
+          ],
+          "answer": 0,
+          "explanation": "«Having said that»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Une las frases con el marcador indicado.",
+      "items": [
+        {
+          "id": "c1_discourse_markers.201",
+          "prompt": "Nevertheless",
+          "source": "Our studio is small. We deliver on time.",
+          "answers": [
+            "Our studio is small. Nevertheless, we deliver on time",
+            "Our studio is small. Nevertheless we deliver on time"
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.202",
+          "prompt": "That said",
+          "source": "It's expensive. It's worth it.",
+          "answers": [
+            "It's expensive. That said, it's worth it",
+            "It's expensive. That said it's worth it"
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.203",
+          "prompt": "whereas",
+          "source": "Madrid is growing fast. London is saturated.",
+          "answers": [
+            "Madrid is growing fast, whereas London is saturated"
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.204",
+          "prompt": "on top of that",
+          "source": "We were late. The projector broke.",
+          "answers": [
+            "We were late, and on top of that the projector broke",
+            "We were late and on top of that the projector broke"
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.205",
+          "prompt": "Admittedly",
+          "source": "I admit that our prices are higher.",
+          "answers": [
+            "Admittedly, our prices are higher",
+            "Admittedly our prices are higher"
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.206",
+          "prompt": "Mind you",
+          "source": "Mark loves the idea. He loves most ideas.",
+          "answers": [
+            "Mark loves the idea. Mind you, he loves most ideas",
+            "Mark loves the idea. Mind you he loves most ideas"
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.207",
+          "prompt": "To a certain extent",
+          "source": "Design partly drives bookings.",
+          "answers": [
+            "To a certain extent, design drives bookings",
+            "To a certain extent design drives bookings"
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.208",
+          "prompt": "Corrige",
+          "source": "In top of that, it rained.",
+          "answers": [
+            "On top of that, it rained",
+            "On top of that it rained"
+          ],
+          "explanation": "«On top of that»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "c1_discourse_markers.301",
+          "source": "Somos un estudio pequeño. Aun así, nunca hemos fallado un plazo.",
+          "answers": [
+            "We're a small studio. Nevertheless, we've never missed a deadline",
+            "We're a small studio. Nonetheless, we've never missed a deadline"
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.302",
+          "source": "Hay que reconocer que nuestros precios son más altos.",
+          "answers": [
+            "Admittedly, our prices are higher"
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.303",
+          "source": "Es caro. Dicho esto, la ubicación es perfecta.",
+          "answers": [
+            "It's expensive. That said, the location is perfect",
+            "It's expensive. Having said that, the location is perfect"
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.304",
+          "source": "Llegamos tarde y, encima, no funcionó el proyector.",
+          "answers": [
+            "We were late, and on top of that the projector didn't work",
+            "We arrived late, and on top of that the projector didn't work"
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.305",
+          "source": "Madrid crece rápido, mientras que Londres está saturado.",
+          "answers": [
+            "Madrid is growing fast, whereas London is saturated",
+            "Madrid is growing quickly, whereas London is saturated"
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.306",
+          "source": "Hasta cierto punto, sí.",
+          "answers": [
+            "To a certain extent, yes",
+            "To some extent, yes"
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.307",
+          "source": "Como iba diciendo, el presupuesto es ajustado.",
+          "answers": [
+            "As I was saying, the budget is tight"
+          ]
+        },
+        {
+          "id": "c1_discourse_markers.308",
+          "source": "A Mark le encantó. Eso sí, le encanta todo.",
+          "answers": [
+            "Mark loved it. Mind you, he loves everything"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_discourse_markers.401",
+          "answer": "Nevertheless, we deliver on time"
+        },
+        {
+          "id": "c1_discourse_markers.402",
+          "answer": "Admittedly, our prices are higher"
+        },
+        {
+          "id": "c1_discourse_markers.403",
+          "answer": "That said, it's worth it"
+        },
+        {
+          "id": "c1_discourse_markers.404",
+          "answer": "Madrid is growing, whereas London is saturated"
+        },
+        {
+          "id": "c1_discourse_markers.405",
+          "answer": "Mind you, he loves most ideas"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "topic_id": "c1_hedging",
+  "level_id": "C1",
+  "title": "Hedging: suavizar lo que decimos",
+  "tags": [
+    "hedging"
+  ],
+  "units": [
+    "first_client"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Hedging and softening",
+    "explanation": "Hedging es suavizar lo que decimos para sonar prudente, educado y menos categórico. Es clave en negociaciones, en el mundo académico y en los correos formales. Recursos:\n- Frases introductorias: «It would appear that…», «It seems to me that…», «There seems to be…», «It could be argued that…»\n- Modales: «may well», «might», «could»: «That may well be the case.»\n- «Tend to» + verbo: «Our designs tend to bring in more bookings.»\n- Adverbios: «arguably», «to some extent», «roughly», «rather», «somewhat», «slightly», «possibly».\n- Negaciones suaves: «I'm not entirely convinced», «I'm not sure that…», «That's not quite what we expected.»\n- Verbos prudentes: «suggest», «indicate», «appear»: «The data suggests that…»\n\nEn lugar de decirlo de forma tajante, se suaviza:\n- «You're wrong.» → «I'm not entirely sure that's the case.»\n- «Your prices are too high.» → «It would appear that your prices are rather high.»\n- «This will fail.» → «This might not work as well as we hope.»",
+    "table": {
+      "headers": [
+        "Directo",
+        "Con hedging"
+      ],
+      "rows": [
+        [
+          "You're wrong.",
+          "I'm not entirely sure that's the case."
+        ],
+        [
+          "It's expensive.",
+          "It seems rather expensive."
+        ],
+        [
+          "There's a problem.",
+          "There seems to be a problem."
+        ],
+        [
+          "Students prefer it.",
+          "Students tend to prefer it."
+        ],
+        [
+          "This proves it.",
+          "This suggests that…"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la expresión atenuada.",
+      "items": [
+        {
+          "id": "c1_hedging.001",
+          "sentence": "It would ___ that your prices are higher.",
+          "answers": [
+            [
+              "appear"
+            ]
+          ]
+        },
+        {
+          "id": "c1_hedging.002",
+          "sentence": "That may ___ be the case.",
+          "answers": [
+            [
+              "well"
+            ]
+          ]
+        },
+        {
+          "id": "c1_hedging.003",
+          "sentence": "Our designs ___ to bring in more bookings.",
+          "answers": [
+            [
+              "tend"
+            ]
+          ]
+        },
+        {
+          "id": "c1_hedging.004",
+          "sentence": "___, that depends on the market. (se podría decir)",
+          "answers": [
+            [
+              "Arguably"
+            ]
+          ]
+        },
+        {
+          "id": "c1_hedging.005",
+          "sentence": "To some ___, yes.",
+          "answers": [
+            [
+              "extent"
+            ]
+          ]
+        },
+        {
+          "id": "c1_hedging.006",
+          "sentence": "There ___ to be a clear link between design and trust.",
+          "answers": [
+            [
+              "seems"
+            ]
+          ]
+        },
+        {
+          "id": "c1_hedging.007",
+          "sentence": "I'm not ___ convinced.",
+          "answers": [
+            [
+              "entirely"
+            ]
+          ]
+        },
+        {
+          "id": "c1_hedging.008",
+          "sentence": "It ___ be worth testing one hostel first.",
+          "answers": [
+            [
+              "might",
+              "could",
+              "may"
+            ]
+          ]
+        },
+        {
+          "id": "c1_hedging.009",
+          "sentence": "The data ___ that guests prefer simple websites.",
+          "answers": [
+            [
+              "suggests",
+              "indicates"
+            ]
+          ]
+        },
+        {
+          "id": "c1_hedging.010",
+          "sentence": "It could be ___ that the plan is too ambitious.",
+          "answers": [
+            [
+              "argued"
+            ]
+          ]
+        },
+        {
+          "id": "c1_hedging.011",
+          "sentence": "The results were ___ disappointing. (algo)",
+          "answers": [
+            [
+              "somewhat",
+              "rather",
+              "slightly"
+            ]
+          ]
+        },
+        {
+          "id": "c1_hedging.012",
+          "sentence": "That's not ___ what we expected.",
+          "answers": [
+            [
+              "quite"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué versión es más prudente?",
+      "items": [
+        {
+          "id": "c1_hedging.101",
+          "question": "Decir que alguien se equivoca.",
+          "options": [
+            "I'm not entirely sure that's the case.",
+            "You're wrong."
+          ],
+          "answer": 0,
+          "explanation": "Negación suave."
+        },
+        {
+          "id": "c1_hedging.102",
+          "question": "Decir que hay un problema.",
+          "options": [
+            "There seems to be a problem.",
+            "There is a big problem."
+          ],
+          "answer": 0,
+          "explanation": "«There seems to be…»."
+        },
+        {
+          "id": "c1_hedging.103",
+          "question": "Hablar de una tendencia.",
+          "options": [
+            "Students tend to prefer cheap hostels.",
+            "Students always prefer cheap hostels."
+          ],
+          "answer": 0,
+          "explanation": "«tend to»."
+        },
+        {
+          "id": "c1_hedging.104",
+          "question": "Decir que los precios son altos.",
+          "options": [
+            "It would appear that your prices are rather high.",
+            "Your prices are too high."
+          ],
+          "answer": 0,
+          "explanation": "«It would appear that…»."
+        },
+        {
+          "id": "c1_hedging.105",
+          "question": "Puede que sea así.",
+          "options": [
+            "That may well be the case.",
+            "That is certainly the case."
+          ],
+          "answer": 0,
+          "explanation": "«may well»."
+        },
+        {
+          "id": "c1_hedging.106",
+          "question": "Interpretar datos.",
+          "options": [
+            "The data suggests that…",
+            "The data proves that…"
+          ],
+          "answer": 0,
+          "explanation": "Verbo prudente: «suggest»."
+        },
+        {
+          "id": "c1_hedging.107",
+          "question": "Opinar sin imponer.",
+          "options": [
+            "It seems to me that the plan is risky.",
+            "The plan is risky, full stop."
+          ],
+          "answer": 0,
+          "explanation": "«It seems to me that…»."
+        },
+        {
+          "id": "c1_hedging.108",
+          "question": "Dar una cifra aproximada.",
+          "options": [
+            "Roughly a quarter of the budget.",
+            "Exactly a quarter, no doubt."
+          ],
+          "answer": 0,
+          "explanation": "«roughly»."
+        },
+        {
+          "id": "c1_hedging.109",
+          "question": "Mostrar desacuerdo suave.",
+          "options": [
+            "I'm not sure I agree.",
+            "I disagree completely."
+          ],
+          "answer": 0,
+          "explanation": "Negación suave."
+        },
+        {
+          "id": "c1_hedging.110",
+          "question": "Decir que algo podría fallar.",
+          "options": [
+            "This might not work as well as we hope.",
+            "This will fail."
+          ],
+          "answer": 0,
+          "explanation": "Modal: «might»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Suaviza la frase con la expresión indicada.",
+      "items": [
+        {
+          "id": "c1_hedging.201",
+          "prompt": "It would appear…",
+          "source": "Your prices are too high.",
+          "answers": [
+            "It would appear that your prices are too high",
+            "It would appear your prices are too high"
+          ]
+        },
+        {
+          "id": "c1_hedging.202",
+          "prompt": "I'm not entirely…",
+          "source": "This plan won't work.",
+          "answers": [
+            "I'm not entirely sure this plan will work",
+            "I'm not entirely sure that this plan will work",
+            "I'm not entirely convinced this plan will work"
+          ]
+        },
+        {
+          "id": "c1_hedging.203",
+          "prompt": "There seems…",
+          "source": "There's a problem with the budget.",
+          "answers": [
+            "There seems to be a problem with the budget"
+          ]
+        },
+        {
+          "id": "c1_hedging.204",
+          "prompt": "tend to",
+          "source": "Students prefer cheap hostels.",
+          "answers": [
+            "Students tend to prefer cheap hostels"
+          ]
+        },
+        {
+          "id": "c1_hedging.205",
+          "prompt": "may well",
+          "source": "That's true.",
+          "answers": [
+            "That may well be true",
+            "That may well be the case"
+          ]
+        },
+        {
+          "id": "c1_hedging.206",
+          "prompt": "suggest",
+          "source": "The data proves guests want speed.",
+          "answers": [
+            "The data suggests guests want speed",
+            "The data suggests that guests want speed"
+          ]
+        },
+        {
+          "id": "c1_hedging.207",
+          "prompt": "rather",
+          "source": "The design is old-fashioned.",
+          "answers": [
+            "The design is rather old-fashioned"
+          ]
+        },
+        {
+          "id": "c1_hedging.208",
+          "prompt": "It seems to me…",
+          "source": "You're wrong about the price.",
+          "answers": [
+            "It seems to me that you're wrong about the price",
+            "It seems to me you're wrong about the price"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "c1_hedging.301",
+          "source": "Al parecer, sus precios son algo más altos.",
+          "answers": [
+            "It would appear that your prices are rather higher",
+            "It would appear that your prices are somewhat higher",
+            "It would appear that your prices are slightly higher"
+          ]
+        },
+        {
+          "id": "c1_hedging.302",
+          "source": "Puede que sea así.",
+          "answers": [
+            "That may well be the case",
+            "That might be the case"
+          ]
+        },
+        {
+          "id": "c1_hedging.303",
+          "source": "No estoy del todo convencida.",
+          "answers": [
+            "I'm not entirely convinced"
+          ]
+        },
+        {
+          "id": "c1_hedging.304",
+          "source": "Parece haber una relación clara.",
+          "answers": [
+            "There seems to be a clear link",
+            "There seems to be a clear relationship"
+          ]
+        },
+        {
+          "id": "c1_hedging.305",
+          "source": "Más o menos una cuarta parte del proyecto.",
+          "answers": [
+            "Roughly a quarter of the project",
+            "About a quarter of the project"
+          ]
+        },
+        {
+          "id": "c1_hedging.306",
+          "source": "Los estudiantes suelen preferir los albergues baratos.",
+          "answers": [
+            "Students tend to prefer cheap hostels"
+          ]
+        },
+        {
+          "id": "c1_hedging.307",
+          "source": "Los datos sugieren que es demasiado caro.",
+          "answers": [
+            "The data suggests that it's too expensive",
+            "The data suggests it's too expensive"
+          ]
+        },
+        {
+          "id": "c1_hedging.308",
+          "source": "Hasta cierto punto, sí.",
+          "answers": [
+            "To some extent, yes",
+            "To a certain extent, yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_hedging.401",
+          "answer": "It would appear that your prices are higher"
+        },
+        {
+          "id": "c1_hedging.402",
+          "answer": "That may well be the case"
+        },
+        {
+          "id": "c1_hedging.403",
+          "answer": "There seems to be a problem"
+        },
+        {
+          "id": "c1_hedging.404",
+          "answer": "Students tend to prefer cheap hostels"
+        },
+        {
+          "id": "c1_hedging.405",
+          "answer": "I'm not entirely convinced"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "topic_id": "c1_preference_advice",
+  "level_id": "C1",
+  "title": "would rather y had better",
+  "tags": [
+    "preference_advice"
+  ],
+  "units": [
+    "first_hire"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "would rather, had better",
+    "explanation": "«Would rather» + verbo (sin «to») expresa preferencia; la negativa es «would rather not»:\n- «I'd rather be there.»\n- «I'd rather work late than miss the deadline.»\n- «I'd rather not discuss it.»\n\n«Would rather» + otro sujeto + past simple: preferir que otra persona haga algo (aunque hable del presente o del futuro):\n- «I'd rather we hired a designer first.»\n- «I'd rather you didn't tell Priya.»\n\n«Had better (not)» + verbo (sin «to»): más vale que…, un consejo con advertencia para una situación concreta:\n- «We'd better decide soon.» (si no, perderemos la oportunidad)\n- «You'd better not be late.»\n\nCompara con «would prefer», que va con «to» o «-ing»: «I'd prefer to wait», «I'd prefer you not to tell her».\n\nOjo: «I'd rather to…» y «You'd better to…» están mal; las dos van con el verbo en forma base. Y aunque «had» parezca pasado, «had better» habla del presente o del futuro.",
+    "table": {
+      "headers": [
+        "Forma",
+        "Uso",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "would rather + verbo",
+          "preferencia",
+          "I'd rather stay."
+        ],
+        [
+          "would rather + sujeto + pasado",
+          "preferir que otro…",
+          "I'd rather you stayed."
+        ],
+        [
+          "would rather… than…",
+          "comparar",
+          "I'd rather walk than drive."
+        ],
+        [
+          "had better (not) + verbo",
+          "más vale que",
+          "We'd better go."
+        ],
+        [
+          "would prefer to",
+          "preferencia (con to)",
+          "I'd prefer to wait."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la estructura correcta.",
+      "items": [
+        {
+          "id": "c1_preference_advice.001",
+          "sentence": "Who would you ___ hire?",
+          "answers": [
+            [
+              "rather"
+            ]
+          ]
+        },
+        {
+          "id": "c1_preference_advice.002",
+          "sentence": "I'd rather we ___ a designer first. (hire)",
+          "answers": [
+            [
+              "hired"
+            ]
+          ]
+        },
+        {
+          "id": "c1_preference_advice.003",
+          "sentence": "We'd ___ decide soon.",
+          "answers": [
+            [
+              "better"
+            ]
+          ]
+        },
+        {
+          "id": "c1_preference_advice.004",
+          "sentence": "We'd better ___ waste any time.",
+          "answers": [
+            [
+              "not"
+            ]
+          ]
+        },
+        {
+          "id": "c1_preference_advice.005",
+          "sentence": "I'd rather ___ there. (be)",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "c1_preference_advice.006",
+          "sentence": "I'd rather you ___ tell Priya. (not, pasado)",
+          "answers": [
+            [
+              "didn't"
+            ]
+          ]
+        },
+        {
+          "id": "c1_preference_advice.007",
+          "sentence": "I'd rather work late ___ miss the deadline.",
+          "answers": [
+            [
+              "than"
+            ]
+          ]
+        },
+        {
+          "id": "c1_preference_advice.008",
+          "sentence": "You'd better ___ late for the board meeting. (be, negativa)",
+          "answers": [
+            [
+              "not be"
+            ]
+          ]
+        },
+        {
+          "id": "c1_preference_advice.009",
+          "sentence": "I'd ___ to wait until Monday. (con «to»)",
+          "answers": [
+            [
+              "prefer"
+            ]
+          ]
+        },
+        {
+          "id": "c1_preference_advice.010",
+          "sentence": "I'd rather ___ discuss it now, if you don't mind.",
+          "answers": [
+            [
+              "not"
+            ]
+          ]
+        },
+        {
+          "id": "c1_preference_advice.011",
+          "sentence": "We'd better ___ the contract carefully. (read)",
+          "answers": [
+            [
+              "read"
+            ]
+          ]
+        },
+        {
+          "id": "c1_preference_advice.012",
+          "sentence": "Would you rather I ___ the call? (make)",
+          "answers": [
+            [
+              "made"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "c1_preference_advice.101",
+          "question": "Prefiero estar allí.",
+          "options": [
+            "I'd rather be there.",
+            "I'd rather to be there."
+          ],
+          "answer": 0,
+          "explanation": "Sin «to»."
+        },
+        {
+          "id": "c1_preference_advice.102",
+          "question": "Preferiría que no se lo dijeras.",
+          "options": [
+            "I'd rather you didn't tell her.",
+            "I'd rather you don't tell her."
+          ],
+          "answer": 0,
+          "explanation": "Otro sujeto + past simple."
+        },
+        {
+          "id": "c1_preference_advice.103",
+          "question": "Más vale que decidamos pronto.",
+          "options": [
+            "We'd better decide soon.",
+            "We'd better to decide soon."
+          ],
+          "answer": 0,
+          "explanation": "Sin «to»."
+        },
+        {
+          "id": "c1_preference_advice.104",
+          "question": "Más vale que no perdamos tiempo.",
+          "options": [
+            "We'd better not waste time.",
+            "We'd not better waste time."
+          ],
+          "answer": 0,
+          "explanation": "«had better not»."
+        },
+        {
+          "id": "c1_preference_advice.105",
+          "question": "Preferiría que contratáramos a un diseñador.",
+          "options": [
+            "I'd rather we hired a designer.",
+            "I'd rather we hire a designer yesterday."
+          ],
+          "answer": 0,
+          "explanation": "Otro sujeto + past simple."
+        },
+        {
+          "id": "c1_preference_advice.106",
+          "question": "Prefiero esperar.",
+          "options": [
+            "I'd prefer to wait.",
+            "I'd prefer wait."
+          ],
+          "answer": 0,
+          "explanation": "«would prefer to»."
+        },
+        {
+          "id": "c1_preference_advice.107",
+          "question": "Prefiero trabajar hasta tarde que no llegar.",
+          "options": [
+            "I'd rather work late than miss the deadline.",
+            "I'd rather working late than miss the deadline."
+          ],
+          "answer": 0,
+          "explanation": "«would rather… than…»."
+        },
+        {
+          "id": "c1_preference_advice.108",
+          "question": "Prefiero no hablar de ello.",
+          "options": [
+            "I'd rather not talk about it.",
+            "I wouldn't rather talk about it."
+          ],
+          "answer": 0,
+          "explanation": "«would rather not»."
+        },
+        {
+          "id": "c1_preference_advice.109",
+          "question": "¿Prefieres que haga yo la llamada?",
+          "options": [
+            "Would you rather I made the call?",
+            "Would you rather I make the call yesterday?"
+          ],
+          "answer": 0,
+          "explanation": "Otro sujeto + past simple."
+        },
+        {
+          "id": "c1_preference_advice.110",
+          "question": "Será mejor que leamos el contrato.",
+          "options": [
+            "We'd better read the contract.",
+            "We'd better reading the contract."
+          ],
+          "answer": 0,
+          "explanation": "Forma base."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con la estructura indicada.",
+      "items": [
+        {
+          "id": "c1_preference_advice.201",
+          "prompt": "would rather",
+          "source": "I prefer to stay at home.",
+          "answers": [
+            "I'd rather stay at home",
+            "I would rather stay at home"
+          ]
+        },
+        {
+          "id": "c1_preference_advice.202",
+          "prompt": "would rather",
+          "source": "I'd prefer you not to tell Priya.",
+          "answers": [
+            "I'd rather you didn't tell Priya"
+          ]
+        },
+        {
+          "id": "c1_preference_advice.203",
+          "prompt": "had better",
+          "source": "It's a good idea to leave now, or we'll miss the train.",
+          "answers": [
+            "We'd better leave now",
+            "We had better leave now"
+          ]
+        },
+        {
+          "id": "c1_preference_advice.204",
+          "prompt": "had better not",
+          "source": "It's a bad idea to be late for this meeting.",
+          "answers": [
+            "We'd better not be late for this meeting",
+            "You'd better not be late for this meeting"
+          ]
+        },
+        {
+          "id": "c1_preference_advice.205",
+          "prompt": "would rather",
+          "source": "I want us to hire a designer first.",
+          "answers": [
+            "I'd rather we hired a designer first"
+          ]
+        },
+        {
+          "id": "c1_preference_advice.206",
+          "prompt": "would rather… than",
+          "source": "I prefer working late to missing the deadline.",
+          "answers": [
+            "I'd rather work late than miss the deadline"
+          ]
+        },
+        {
+          "id": "c1_preference_advice.207",
+          "prompt": "Corrige",
+          "source": "I'd rather to wait.",
+          "answers": [
+            "I'd rather wait"
+          ],
+          "explanation": "Sin «to»."
+        },
+        {
+          "id": "c1_preference_advice.208",
+          "prompt": "Corrige",
+          "source": "I'd rather you don't call me at work.",
+          "answers": [
+            "I'd rather you didn't call me at work"
+          ],
+          "explanation": "Otro sujeto + past simple."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "c1_preference_advice.301",
+          "source": "Prefiero estar allí.",
+          "answers": [
+            "I'd rather be there",
+            "I would rather be there"
+          ]
+        },
+        {
+          "id": "c1_preference_advice.302",
+          "source": "Preferiría que no se lo dijeras.",
+          "answers": [
+            "I'd rather you didn't tell her",
+            "I'd rather you didn't tell him"
+          ]
+        },
+        {
+          "id": "c1_preference_advice.303",
+          "source": "Más vale que decidamos pronto.",
+          "answers": [
+            "We'd better decide soon"
+          ]
+        },
+        {
+          "id": "c1_preference_advice.304",
+          "source": "Más vale que no perdamos tiempo.",
+          "answers": [
+            "We'd better not waste time",
+            "We'd better not waste any time"
+          ]
+        },
+        {
+          "id": "c1_preference_advice.305",
+          "source": "Preferiría que contratáramos a un diseñador primero.",
+          "answers": [
+            "I'd rather we hired a designer first"
+          ]
+        },
+        {
+          "id": "c1_preference_advice.306",
+          "source": "Prefiero no hablar de ello.",
+          "answers": [
+            "I'd rather not talk about it",
+            "I'd rather not discuss it"
+          ]
+        },
+        {
+          "id": "c1_preference_advice.307",
+          "source": "Será mejor que leas el contrato con cuidado.",
+          "answers": [
+            "You'd better read the contract carefully"
+          ]
+        },
+        {
+          "id": "c1_preference_advice.308",
+          "source": "Prefiero trabajar hasta tarde que perder el plazo.",
+          "answers": [
+            "I'd rather work late than miss the deadline"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_preference_advice.401",
+          "answer": "I'd rather we hired a designer first"
+        },
+        {
+          "id": "c1_preference_advice.402",
+          "answer": "We'd better decide soon"
+        },
+        {
+          "id": "c1_preference_advice.403",
+          "answer": "I'd rather you didn't tell Priya"
+        },
+        {
+          "id": "c1_preference_advice.404",
+          "answer": "We'd better not waste any time"
+        },
+        {
+          "id": "c1_preference_advice.405",
+          "answer": "I'd rather work late than miss it"
+        }
+      ]
+    }
+  ]
+}

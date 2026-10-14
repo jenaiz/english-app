@@ -1,0 +1,442 @@
+{
+  "topic_id": "c1_mixed_conditionals_wish",
+  "level_id": "C1",
+  "title": "Repaso: condicionales mixtos, wish e if only",
+  "tags": [
+    "mixed_conditionals_wish"
+  ],
+  "units": [
+    "the_offer"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Mixed conditionals, wish and if only",
+    "explanation": "El examen de C1 vuelve a preguntar los condicionales y deseos de B2.\n\nTercer condicional (pasado → pasado) y mixtos:\n- «If I had known, I would have helped.» (pasado → pasado)\n- «If I hadn't taken that job, I wouldn't be here now.» (pasado → presente)\n- «If I weren't so stubborn, I would have listened.» (presente → pasado)\n\n«Wish» / «If only» para lo que nos gustaría que fuera distinto:\n- + past simple (presente): «I wish I had more time.»\n- + «could» (habilidad): «I wish I could speak Japanese.»\n- + «would» (hábito molesto de otro): «I wish he wouldn't interrupt.»\n- + past perfect (arrepentimiento): «If only I'd listened to you.»\n\nOjo: nunca «would» en la parte del «if» ni después de «wish» con el mismo sujeto («I wish I would…» está mal). Y la contracción «'d» tras «if» o «wish» es «had»; delante de un verbo, «would».",
+    "table": {
+      "headers": [
+        "Estructura",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Pasado → pasado",
+          "If I'd known, I'd have come."
+        ],
+        [
+          "Pasado → presente",
+          "If I hadn't moved, I wouldn't know you."
+        ],
+        [
+          "Presente → pasado",
+          "If I spoke German, I'd have got the job."
+        ],
+        [
+          "wish + past",
+          "I wish I lived nearer."
+        ],
+        [
+          "wish + past perfect",
+          "I wish I hadn't said that."
+        ],
+        [
+          "wish + would",
+          "I wish you'd stop."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la forma correcta.",
+      "items": [
+        {
+          "id": "c1_mixed_conditionals_wish.001",
+          "sentence": "If I ___ taken that job, I wouldn't be here now. (not)",
+          "answers": [
+            [
+              "hadn't"
+            ]
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.002",
+          "sentence": "If I weren't so stubborn, I would ___ listened to you.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.003",
+          "sentence": "I wish I ___ more time. (have)",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.004",
+          "sentence": "If ___ I'd listened to you!",
+          "answers": [
+            [
+              "only"
+            ]
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.005",
+          "sentence": "I wish he ___ interrupt me all the time.",
+          "answers": [
+            [
+              "wouldn't"
+            ]
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.006",
+          "sentence": "I wish I ___ speak Japanese. (habilidad)",
+          "answers": [
+            [
+              "could"
+            ]
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.007",
+          "sentence": "If I had known, I ___ have helped.",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.008",
+          "sentence": "If we hadn't met, I ___ be living in Bristol now.",
+          "answers": [
+            [
+              "wouldn't"
+            ]
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.009",
+          "sentence": "I wish I ___ said that. It was a mistake. (not)",
+          "answers": [
+            [
+              "hadn't"
+            ]
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.010",
+          "sentence": "If she spoke German, she would ___ got the job.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.011",
+          "sentence": "I wish you ___ tell me earlier. (pasado: had…)",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.012",
+          "sentence": "If I ___ braver, I would have said yes. (be)",
+          "answers": [
+            [
+              "were"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "c1_mixed_conditionals_wish.101",
+          "question": "Si no hubiera aceptado ese trabajo, no estaría aquí.",
+          "options": [
+            "If I hadn't taken that job, I wouldn't be here.",
+            "If I didn't take that job, I wouldn't have been here."
+          ],
+          "answer": 0,
+          "explanation": "Pasado → presente."
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.102",
+          "question": "Ojalá no hubiera dicho eso.",
+          "options": [
+            "I wish I hadn't said that.",
+            "I wish I wouldn't say that."
+          ],
+          "answer": 0,
+          "explanation": "Arrepentimiento: past perfect."
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.103",
+          "question": "Ojalá dejara de interrumpirme.",
+          "options": [
+            "I wish he would stop interrupting me.",
+            "I wish he stops interrupting me."
+          ],
+          "answer": 0,
+          "explanation": "Hábito molesto: «would»."
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.104",
+          "question": "Ojalá supiera japonés.",
+          "options": [
+            "I wish I could speak Japanese.",
+            "I wish I can speak Japanese."
+          ],
+          "answer": 0,
+          "explanation": "Habilidad: «could»."
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.105",
+          "question": "Si fuera más valiente, habría dicho que sí.",
+          "options": [
+            "If I were braver, I would have said yes.",
+            "If I would be braver, I said yes."
+          ],
+          "answer": 0,
+          "explanation": "Presente → pasado."
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.106",
+          "question": "¡Si te hubiera hecho caso!",
+          "options": [
+            "If only I'd listened to you!",
+            "If only I would listen to you!"
+          ],
+          "answer": 0,
+          "explanation": "«If only» + past perfect."
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.107",
+          "question": "Ojalá viviera más cerca.",
+          "options": [
+            "I wish I lived nearer.",
+            "I wish I would live nearer."
+          ],
+          "answer": 0,
+          "explanation": "Presente: past simple."
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.108",
+          "question": "Si lo hubiera sabido, habría venido.",
+          "options": [
+            "If I'd known, I'd have come.",
+            "If I'd have known, I'd come."
+          ],
+          "answer": 0,
+          "explanation": "Pasado → pasado."
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.109",
+          "question": "Si no nos hubiéramos conocido, no viviría en Bristol.",
+          "options": [
+            "If we hadn't met, I wouldn't be living in Bristol.",
+            "If we didn't meet, I wouldn't have lived in Bristol."
+          ],
+          "answer": 0,
+          "explanation": "Pasado → presente."
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.110",
+          "question": "Ojalá me lo hubieras dicho antes.",
+          "options": [
+            "I wish you had told me earlier.",
+            "I wish you told me earlier yesterday."
+          ],
+          "answer": 0,
+          "explanation": "Pasado: past perfect."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con un condicional o con «wish».",
+      "items": [
+        {
+          "id": "c1_mixed_conditionals_wish.201",
+          "prompt": "If I hadn't…",
+          "source": "I took that job, so I'm here now.",
+          "answers": [
+            "If I hadn't taken that job, I wouldn't be here now"
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.202",
+          "prompt": "If I weren't…",
+          "source": "I'm stubborn, so I didn't listen.",
+          "answers": [
+            "If I weren't so stubborn, I would have listened",
+            "If I weren't stubborn, I would have listened"
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.203",
+          "prompt": "wish",
+          "source": "I said something stupid. I regret it.",
+          "answers": [
+            "I wish I hadn't said something stupid",
+            "I wish I hadn't said that"
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.204",
+          "prompt": "wish",
+          "source": "He always interrupts me. It annoys me.",
+          "answers": [
+            "I wish he wouldn't interrupt me",
+            "I wish he wouldn't always interrupt me"
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.205",
+          "prompt": "If only",
+          "source": "I didn't listen to you.",
+          "answers": [
+            "If only I had listened to you",
+            "If only I'd listened to you"
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.206",
+          "prompt": "wish",
+          "source": "I can't speak Japanese.",
+          "answers": [
+            "I wish I could speak Japanese"
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.207",
+          "prompt": "Corrige",
+          "source": "I wish I would have more time.",
+          "answers": [
+            "I wish I had more time"
+          ],
+          "explanation": "Presente: past simple."
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.208",
+          "prompt": "Corrige",
+          "source": "If I would have known, I would have come.",
+          "answers": [
+            "If I had known, I would have come",
+            "If I'd known, I would have come"
+          ],
+          "explanation": "Tras «if», past perfect."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "c1_mixed_conditionals_wish.301",
+          "source": "Si no hubiera aceptado ese trabajo, no estaría aquí.",
+          "answers": [
+            "If I hadn't taken that job, I wouldn't be here",
+            "If I hadn't accepted that job, I wouldn't be here"
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.302",
+          "source": "Ojalá tuviera más tiempo.",
+          "answers": [
+            "I wish I had more time"
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.303",
+          "source": "Ojalá no hubiera dicho eso.",
+          "answers": [
+            "I wish I hadn't said that"
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.304",
+          "source": "Ojalá dejara de interrumpirme.",
+          "answers": [
+            "I wish he would stop interrupting me",
+            "I wish he'd stop interrupting me",
+            "I wish she would stop interrupting me"
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.305",
+          "source": "¡Si te hubiera hecho caso!",
+          "answers": [
+            "If only I had listened to you",
+            "If only I'd listened to you"
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.306",
+          "source": "Si lo hubiera sabido, te habría ayudado.",
+          "answers": [
+            "If I had known, I would have helped you",
+            "If I'd known, I'd have helped you",
+            "If I'd known, I would have helped you"
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.307",
+          "source": "Si fuera más valiente, habría dicho que sí.",
+          "answers": [
+            "If I were braver, I would have said yes",
+            "If I was braver, I would have said yes"
+          ]
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.308",
+          "source": "Ojalá supiera hablar japonés.",
+          "answers": [
+            "I wish I could speak Japanese"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_mixed_conditionals_wish.401",
+          "answer": "If I hadn't taken that job, I wouldn't be here"
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.402",
+          "answer": "I wish I had more time"
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.403",
+          "answer": "If only I'd listened to you"
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.404",
+          "answer": "I wish he wouldn't interrupt me"
+        },
+        {
+          "id": "c1_mixed_conditionals_wish.405",
+          "answer": "If I'd known, I would have helped"
+        }
+      ]
+    }
+  ]
+}

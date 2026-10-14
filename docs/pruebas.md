@@ -306,3 +306,61 @@ Haz al menos una ronda de cada tema. Marca la casilla si las frases y las respue
 
 - [ ] Oraciones de relativo explicativas: which, who, whose, whom (`b2_relative_non_defining`, 45 ejercicios)
 - [ ] Intensificadores y colocaciones: absolutely delighted, highly unlikely (`b2_intensifier_collocations`, 43 ejercicios)
+
+### C1
+
+**What Keeps Me Awake**
+
+- [ ] Repaso de futuros: will be doing, will have done (`c1_futures_review`, 43 ejercicios)
+- [ ] Repaso: condicionales mixtos, wish e if only (`c1_mixed_conditionals_wish`, 43 ejercicios)
+- [ ] Cleft sentences: What I need is…, It was… who… (`c1_cleft`, 43 ejercicios)
+
+**Helen's Farewell**
+
+- [ ] Inversión: Never have I…, Little did I know… (`c1_inversion`, 43 ejercicios)
+
+**Above the Bookshop**
+
+- [ ] Participle clauses: Having finished…, Built in 1890… (`c1_participle_clauses`, 43 ejercicios)
+- [ ] Phrasal verbs de negocios: set up, take on, turn down… (`c1_phrasal_verbs`, 43 ejercicios)
+
+**The First Client**
+
+- [ ] Hedging: suavizar lo que decimos (`c1_hedging`, 43 ejercicios)
+
+**The First Hire**
+
+- [ ] Modales en pasado: needn't have, must have, should have… (`c1_past_modals`, 43 ejercicios)
+- [ ] would rather y had better (`c1_preference_advice`, 43 ejercicios)
+
+**Terms and Conditions**
+
+- [ ] Condicionales sin if: provided that, unless, but for, Should you… (`c1_conditionals_without_if`, 43 ejercicios)
+
+**The Night Before**
+
+- [ ] Nominalización y registro formal (`c1_nominalisation`, 43 ejercicios)
+- [ ] Marcadores: nevertheless, admittedly, that said, mind you (`c1_discourse_markers`, 43 ejercicios)
+
+**The Pitch**
+
+- [ ] Énfasis: do / did, such, so y anteposición (`c1_emphasis`, 43 ejercicios)
+
+**Jet Lag**
+
+- [ ] Futuro en el pasado: was going to, was about to, would (`c1_future_in_past`, 43 ejercicios)
+- [ ] Falsos amigos: actually, eventually, sensible, embarrassed… (`c1_false_friends`, 43 ejercicios)
+
+**The Engagement Party**
+
+- [ ] Elipsis y sustitución: I hope so, I'd love to, So would I (`c1_ellipsis`, 43 ejercicios)
+- [ ] Lenguaje aproximativo: or so, -ish, sort of, and stuff (`c1_vague_language`, 43 ejercicios)
+
+**On the Radio**
+
+- [ ] Probabilidad: bound to, likely to, set to, due to (`c1_likelihood`, 43 ejercicios)
+
+**Home**
+
+- [ ] Tiempos narrativos: had been doing, would y used to (`c1_narrative_tenses`, 43 ejercicios)
+- [ ] La pasiva en todas sus formas: having been told, might have been lost (`c1_passive_all`, 43 ejercicios)

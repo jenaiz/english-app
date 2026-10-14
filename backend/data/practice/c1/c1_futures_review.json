@@ -1,0 +1,441 @@
+{
+  "topic_id": "c1_futures_review",
+  "level_id": "C1",
+  "title": "Repaso de futuros: will be doing, will have done",
+  "tags": [
+    "futures_review"
+  ],
+  "units": [
+    "the_offer"
+  ],
+  "rule": {
+    "title": "Futures review",
+    "explanation": "El examen de C1 vuelve a preguntar los futuros de B1 y B2. Resumen:\n- present continuous: plan organizado: «We're meeting the investors on Monday.»\n- «going to»: intención o predicción con pruebas: «I'm going to open an office in Madrid.»\n- «will»: decisión en el momento, promesa, predicción: «I'll call you back.»\n- present simple: horarios: «The flight leaves at 7.15.»\n- future continuous («will be» + «-ing»): en curso en un momento futuro: «This time next week I'll be flying to Madrid.»\n- future perfect («will have» + participio): terminado antes de un momento futuro: «By June, we'll have hired four designers.»\n- future perfect continuous («will have been» + «-ing»): cuánto tiempo llevará: «In May, I'll have been running the studio for a year.»\n\nCon «by» (para, antes de) suele ir el future perfect; con «this time next…», el future continuous.\n\nOjo: después de «when», «as soon as», «by the time», «until» o «in case» va presente: «By the time you arrive, we'll have finished».",
+    "table": {
+      "headers": [
+        "Forma",
+        "Uso",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "will be + -ing",
+          "en curso en el futuro",
+          "I'll be flying at ten."
+        ],
+        [
+          "will have + participio",
+          "terminado antes de",
+          "We'll have finished by June."
+        ],
+        [
+          "will have been + -ing",
+          "duración hasta un momento futuro",
+          "I'll have been working here for a year."
+        ],
+        [
+          "present continuous",
+          "plan organizado",
+          "We're meeting on Monday."
+        ],
+        [
+          "present simple",
+          "horario",
+          "It leaves at 7.15."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la forma de futuro adecuada.",
+      "items": [
+        {
+          "id": "c1_futures_review.001",
+          "sentence": "This time next week I'll be ___ to Madrid. (fly)",
+          "answers": [
+            [
+              "flying"
+            ]
+          ]
+        },
+        {
+          "id": "c1_futures_review.002",
+          "sentence": "By June, we'll ___ hired four designers.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "c1_futures_review.003",
+          "sentence": "In May, I'll have ___ running the studio for a year.",
+          "answers": [
+            [
+              "been"
+            ]
+          ]
+        },
+        {
+          "id": "c1_futures_review.004",
+          "sentence": "We ___ meeting the investors on Monday. It's all arranged.",
+          "answers": [
+            [
+              "are"
+            ]
+          ]
+        },
+        {
+          "id": "c1_futures_review.005",
+          "sentence": "The flight ___ at 7.15. (horario: leave)",
+          "answers": [
+            [
+              "leaves"
+            ]
+          ]
+        },
+        {
+          "id": "c1_futures_review.006",
+          "sentence": "By the time you ___, we'll have finished. (arrive)",
+          "answers": [
+            [
+              "arrive"
+            ]
+          ]
+        },
+        {
+          "id": "c1_futures_review.007",
+          "sentence": "Don't call at nine. I'll be ___ the presentation. (give)",
+          "answers": [
+            [
+              "giving"
+            ]
+          ]
+        },
+        {
+          "id": "c1_futures_review.008",
+          "sentence": "I'll have ___ the report by Friday. (finish)",
+          "answers": [
+            [
+              "finished"
+            ]
+          ]
+        },
+        {
+          "id": "c1_futures_review.009",
+          "sentence": "Look at those clouds. It's ___ to pour.",
+          "answers": [
+            [
+              "going"
+            ]
+          ]
+        },
+        {
+          "id": "c1_futures_review.010",
+          "sentence": "I'll call you as soon as I ___ the results. (get)",
+          "answers": [
+            [
+              "get"
+            ]
+          ]
+        },
+        {
+          "id": "c1_futures_review.011",
+          "sentence": "By 2030, the company will have ___ for twenty years. (grow)",
+          "answers": [
+            [
+              "been growing"
+            ]
+          ]
+        },
+        {
+          "id": "c1_futures_review.012",
+          "sentence": "Will you ___ using the meeting room this afternoon?",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "c1_futures_review.101",
+          "question": "Para junio habremos contratado a cuatro diseñadores.",
+          "options": [
+            "By June we'll have hired four designers.",
+            "By June we'll be hiring four designers."
+          ],
+          "answer": 0,
+          "explanation": "Terminado antes: future perfect."
+        },
+        {
+          "id": "c1_futures_review.102",
+          "question": "La semana que viene a esta hora estaré volando.",
+          "options": [
+            "This time next week I'll be flying.",
+            "This time next week I'll have flown."
+          ],
+          "answer": 0,
+          "explanation": "En curso: future continuous."
+        },
+        {
+          "id": "c1_futures_review.103",
+          "question": "En mayo llevaré un año dirigiendo el estudio.",
+          "options": [
+            "In May I'll have been running the studio for a year.",
+            "In May I'll run the studio for a year."
+          ],
+          "answer": 0,
+          "explanation": "Duración: future perfect continuous."
+        },
+        {
+          "id": "c1_futures_review.104",
+          "question": "Para cuando llegues, habremos terminado.",
+          "options": [
+            "By the time you arrive, we'll have finished.",
+            "By the time you'll arrive, we'll have finished."
+          ],
+          "answer": 0,
+          "explanation": "Tras «by the time», presente."
+        },
+        {
+          "id": "c1_futures_review.105",
+          "question": "El vuelo sale a las 7.15.",
+          "options": [
+            "The flight leaves at 7.15.",
+            "The flight will be leaving at 7.15 always."
+          ],
+          "answer": 0,
+          "explanation": "Horario: present simple."
+        },
+        {
+          "id": "c1_futures_review.106",
+          "question": "Nos reunimos con los inversores el lunes.",
+          "options": [
+            "We're meeting the investors on Monday.",
+            "We meet with the investors on Monday maybe."
+          ],
+          "answer": 0,
+          "explanation": "Plan organizado: present continuous."
+        },
+        {
+          "id": "c1_futures_review.107",
+          "question": "Te llamo en cuanto tenga los resultados.",
+          "options": [
+            "I'll call you as soon as I get the results.",
+            "I'll call you as soon as I'll get the results."
+          ],
+          "answer": 0,
+          "explanation": "Tras «as soon as», presente."
+        },
+        {
+          "id": "c1_futures_review.108",
+          "question": "¿Vas a usar la sala esta tarde?",
+          "options": [
+            "Will you be using the room this afternoon?",
+            "Will you have used the room this afternoon?"
+          ],
+          "answer": 0,
+          "explanation": "Pregunta educada: future continuous."
+        },
+        {
+          "id": "c1_futures_review.109",
+          "question": "Habré terminado el informe para el viernes.",
+          "options": [
+            "I'll have finished the report by Friday.",
+            "I'll have finish the report by Friday."
+          ],
+          "answer": 0,
+          "explanation": "Participio: «finished»."
+        },
+        {
+          "id": "c1_futures_review.110",
+          "question": "Va a diluviar. (se ven las nubes)",
+          "options": [
+            "It's going to pour.",
+            "It will pour, I decide."
+          ],
+          "answer": 0,
+          "explanation": "Predicción con pruebas: «going to»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "c1_futures_review.201",
+          "prompt": "Corrige",
+          "source": "By June we'll hire four designers. (ya contratados)",
+          "answers": [
+            "By June we'll have hired four designers"
+          ],
+          "explanation": "Terminado antes: future perfect."
+        },
+        {
+          "id": "c1_futures_review.202",
+          "prompt": "Corrige",
+          "source": "This time tomorrow I'll lie on a beach.",
+          "answers": [
+            "This time tomorrow I'll be lying on a beach"
+          ],
+          "explanation": "En curso: future continuous."
+        },
+        {
+          "id": "c1_futures_review.203",
+          "prompt": "Corrige",
+          "source": "By the time we'll get there, it'll be dark.",
+          "answers": [
+            "By the time we get there, it'll be dark"
+          ],
+          "explanation": "Tras «by the time», presente."
+        },
+        {
+          "id": "c1_futures_review.204",
+          "prompt": "Corrige",
+          "source": "In May I'll have been run the studio for a year.",
+          "answers": [
+            "In May I'll have been running the studio for a year"
+          ],
+          "explanation": "«will have been» + «-ing»."
+        },
+        {
+          "id": "c1_futures_review.205",
+          "prompt": "Corrige",
+          "source": "The train will leave at 6.30 every day.",
+          "answers": [
+            "The train leaves at 6.30 every day"
+          ],
+          "explanation": "Horario: present simple."
+        },
+        {
+          "id": "c1_futures_review.206",
+          "prompt": "Corrige",
+          "source": "I'll tell you when I'll know.",
+          "answers": [
+            "I'll tell you when I know"
+          ],
+          "explanation": "Tras «when», presente."
+        },
+        {
+          "id": "c1_futures_review.207",
+          "prompt": "Corrige",
+          "source": "We meet the bank tomorrow at ten. It's in the diary.",
+          "answers": [
+            "We're meeting the bank tomorrow at ten. It's in the diary"
+          ],
+          "explanation": "Plan organizado: present continuous."
+        },
+        {
+          "id": "c1_futures_review.208",
+          "prompt": "Corrige",
+          "source": "I'll have wrote it by then.",
+          "answers": [
+            "I'll have written it by then"
+          ],
+          "explanation": "Participio: «written»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "c1_futures_review.301",
+          "source": "La semana que viene a esta hora estaré en Madrid.",
+          "answers": [
+            "This time next week I'll be in Madrid"
+          ]
+        },
+        {
+          "id": "c1_futures_review.302",
+          "source": "Para junio habremos abierto la oficina.",
+          "answers": [
+            "By June we'll have opened the office"
+          ]
+        },
+        {
+          "id": "c1_futures_review.303",
+          "source": "En mayo llevaré un año dirigiendo el estudio.",
+          "answers": [
+            "In May I'll have been running the studio for a year"
+          ]
+        },
+        {
+          "id": "c1_futures_review.304",
+          "source": "Para cuando llegues, habremos terminado.",
+          "answers": [
+            "By the time you arrive, we'll have finished",
+            "By the time you get here, we'll have finished"
+          ]
+        },
+        {
+          "id": "c1_futures_review.305",
+          "source": "El vuelo sale a las siete y cuarto.",
+          "answers": [
+            "The flight leaves at quarter past seven",
+            "The flight leaves at 7.15",
+            "The flight leaves at a quarter past seven"
+          ]
+        },
+        {
+          "id": "c1_futures_review.306",
+          "source": "Nos reunimos con los inversores el lunes.",
+          "answers": [
+            "We're meeting the investors on Monday"
+          ]
+        },
+        {
+          "id": "c1_futures_review.307",
+          "source": "Te llamo en cuanto lo sepa.",
+          "answers": [
+            "I'll call you as soon as I know"
+          ]
+        },
+        {
+          "id": "c1_futures_review.308",
+          "source": "A las diez estaré dando la presentación.",
+          "answers": [
+            "At ten I'll be giving the presentation",
+            "At ten o'clock I'll be giving the presentation"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_futures_review.401",
+          "answer": "This time next week I'll be flying to Madrid"
+        },
+        {
+          "id": "c1_futures_review.402",
+          "answer": "By June we'll have hired four designers"
+        },
+        {
+          "id": "c1_futures_review.403",
+          "answer": "By the time you arrive, we'll have finished"
+        },
+        {
+          "id": "c1_futures_review.404",
+          "answer": "We're meeting the investors on Monday"
+        },
+        {
+          "id": "c1_futures_review.405",
+          "answer": "The flight leaves at seven"
+        }
+      ]
+    }
+  ]
+}

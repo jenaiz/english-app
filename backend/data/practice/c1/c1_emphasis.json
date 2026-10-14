@@ -1,0 +1,442 @@
+{
+  "topic_id": "c1_emphasis",
+  "level_id": "C1",
+  "title": "Énfasis: do / did, such, so y anteposición",
+  "tags": [
+    "emphasis"
+  ],
+  "units": [
+    "the_pitch"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Emphasis: do, such, so and fronting",
+    "explanation": "Recursos para dar énfasis:\n- «do», «does» o «did» + verbo en afirmativa, para insistir o contrastar: «I do know that market very well.», «We did prepare carefully.», «She does work hard, whatever you think.»\n- «such (a / an)» + adjetivo + nombre: «such a small studio», «such ambitious plans», «such good news»\n- «so» + adjetivo o adverbio: «so convincing», «so quickly». Con resultado: «so / such… that…»: «It was so good that they signed.»\n- Inversión formal con «so»: «So» + adjetivo + «be» + sujeto + «that»: «So convincing were your numbers that…»\n- Anteposición (fronting): poner delante lo que queremos destacar: «That we can promise.», «Madrid is where I started.», «Strange as it may seem, it worked.»\n- «The very…», «the one thing…», «at all», «whatsoever»: «That's the very thing I needed.», «I have no doubt whatsoever.»\n\nOjo: «such» va con nombre («such a good team»), «so» va sin nombre («the team is so good»). Y el «do» enfático va con el verbo en forma base: «I did call» (nunca «I did called»).",
+    "table": {
+      "headers": [
+        "Recurso",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "do / did + verbo",
+          "I do understand."
+        ],
+        [
+          "such (a) + adj. + nombre",
+          "It's such a good idea."
+        ],
+        [
+          "so + adjetivo",
+          "It's so good."
+        ],
+        [
+          "so / such… that",
+          "It was so good that they signed."
+        ],
+        [
+          "So + adj. + be + sujeto",
+          "So good was the pitch that…"
+        ],
+        [
+          "Anteposición",
+          "That we can promise."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «do», «does», «did», «such» o «so».",
+      "bank": [
+        "do",
+        "does",
+        "did",
+        "such",
+        "so",
+        "were"
+      ],
+      "items": [
+        {
+          "id": "c1_emphasis.001",
+          "sentence": "I ___ have to say, that was impressive.",
+          "answers": [
+            [
+              "do"
+            ]
+          ]
+        },
+        {
+          "id": "c1_emphasis.002",
+          "sentence": "We ___ prepare quite carefully.",
+          "answers": [
+            [
+              "did"
+            ]
+          ]
+        },
+        {
+          "id": "c1_emphasis.003",
+          "sentence": "___ a small studio, and yet such ambitious plans.",
+          "answers": [
+            [
+              "Such"
+            ]
+          ]
+        },
+        {
+          "id": "c1_emphasis.004",
+          "sentence": "I ___ know that market very well.",
+          "answers": [
+            [
+              "do"
+            ]
+          ]
+        },
+        {
+          "id": "c1_emphasis.005",
+          "sentence": "So convincing ___ your numbers that he stopped taking notes.",
+          "answers": [
+            [
+              "were"
+            ]
+          ]
+        },
+        {
+          "id": "c1_emphasis.006",
+          "sentence": "It ___ come with conditions, I assume?",
+          "answers": [
+            [
+              "does"
+            ]
+          ]
+        },
+        {
+          "id": "c1_emphasis.007",
+          "sentence": "I've heard ___ good things about her.",
+          "answers": [
+            [
+              "such"
+            ]
+          ]
+        },
+        {
+          "id": "c1_emphasis.008",
+          "sentence": "The pitch was ___ good that they signed immediately.",
+          "answers": [
+            [
+              "so"
+            ]
+          ]
+        },
+        {
+          "id": "c1_emphasis.009",
+          "sentence": "She ___ work hard, whatever you think.",
+          "answers": [
+            [
+              "does"
+            ]
+          ]
+        },
+        {
+          "id": "c1_emphasis.010",
+          "sentence": "It was ___ a long day that I fell asleep on the train.",
+          "answers": [
+            [
+              "such"
+            ]
+          ]
+        },
+        {
+          "id": "c1_emphasis.011",
+          "sentence": "I ___ call you yesterday! You didn't answer.",
+          "answers": [
+            [
+              "did"
+            ]
+          ]
+        },
+        {
+          "id": "c1_emphasis.012",
+          "sentence": "They finished ___ quickly that we were surprised.",
+          "answers": [
+            [
+              "so"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "c1_emphasis.101",
+          "question": "Sí que conozco bien ese mercado.",
+          "options": [
+            "I do know that market well.",
+            "I do knew that market well."
+          ],
+          "answer": 0,
+          "explanation": "«do» + forma base."
+        },
+        {
+          "id": "c1_emphasis.102",
+          "question": "Es un estudio tan pequeño…",
+          "options": [
+            "It's such a small studio…",
+            "It's so a small studio…"
+          ],
+          "answer": 0,
+          "explanation": "Con nombre: «such a»."
+        },
+        {
+          "id": "c1_emphasis.103",
+          "question": "El equipo es tan bueno…",
+          "options": [
+            "The team is so good…",
+            "The team is such good…"
+          ],
+          "answer": 0,
+          "explanation": "Sin nombre: «so»."
+        },
+        {
+          "id": "c1_emphasis.104",
+          "question": "Tan convincentes eran tus cifras que…",
+          "options": [
+            "So convincing were your numbers that…",
+            "So convincing your numbers were that…"
+          ],
+          "answer": 0,
+          "explanation": "Inversión: «So» + adjetivo + «be» + sujeto."
+        },
+        {
+          "id": "c1_emphasis.105",
+          "question": "¡Sí que te llamé!",
+          "options": [
+            "I did call you!",
+            "I did called you!"
+          ],
+          "answer": 0,
+          "explanation": "«did» + forma base."
+        },
+        {
+          "id": "c1_emphasis.106",
+          "question": "Eso sí lo podemos prometer.",
+          "options": [
+            "That we can promise.",
+            "That can we promise."
+          ],
+          "answer": 0,
+          "explanation": "Anteposición sin inversión."
+        },
+        {
+          "id": "c1_emphasis.107",
+          "question": "Fue un día tan largo que…",
+          "options": [
+            "It was such a long day that…",
+            "It was so long day that…"
+          ],
+          "answer": 0,
+          "explanation": "«such a» + adjetivo + nombre."
+        },
+        {
+          "id": "c1_emphasis.108",
+          "question": "No tengo ninguna duda.",
+          "options": [
+            "I have no doubt whatsoever.",
+            "I have no doubt whatever so."
+          ],
+          "answer": 0,
+          "explanation": "«whatsoever»."
+        },
+        {
+          "id": "c1_emphasis.109",
+          "question": "Ella sí que trabaja mucho.",
+          "options": [
+            "She does work hard.",
+            "She does works hard."
+          ],
+          "answer": 0,
+          "explanation": "«does» + forma base."
+        },
+        {
+          "id": "c1_emphasis.110",
+          "question": "Por raro que parezca, funcionó.",
+          "options": [
+            "Strange as it may seem, it worked.",
+            "As strange it may seem, it worked."
+          ],
+          "answer": 0,
+          "explanation": "Anteposición: «Strange as…»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con énfasis.",
+      "items": [
+        {
+          "id": "c1_emphasis.201",
+          "prompt": "do enfático",
+          "source": "I know that market very well.",
+          "answers": [
+            "I do know that market very well"
+          ]
+        },
+        {
+          "id": "c1_emphasis.202",
+          "prompt": "did enfático",
+          "source": "We prepared carefully.",
+          "answers": [
+            "We did prepare carefully"
+          ]
+        },
+        {
+          "id": "c1_emphasis.203",
+          "prompt": "So convincing…",
+          "source": "The numbers were very convincing, so he stopped taking notes.",
+          "answers": [
+            "So convincing were the numbers that he stopped taking notes"
+          ]
+        },
+        {
+          "id": "c1_emphasis.204",
+          "prompt": "such",
+          "source": "It's a very small studio.",
+          "answers": [
+            "It's such a small studio"
+          ]
+        },
+        {
+          "id": "c1_emphasis.205",
+          "prompt": "so… that",
+          "source": "The pitch was very good. They signed immediately.",
+          "answers": [
+            "The pitch was so good that they signed immediately"
+          ]
+        },
+        {
+          "id": "c1_emphasis.206",
+          "prompt": "such… that",
+          "source": "It was a very long day. I fell asleep.",
+          "answers": [
+            "It was such a long day that I fell asleep"
+          ]
+        },
+        {
+          "id": "c1_emphasis.207",
+          "prompt": "does enfático",
+          "source": "She works hard.",
+          "answers": [
+            "She does work hard"
+          ]
+        },
+        {
+          "id": "c1_emphasis.208",
+          "prompt": "Corrige",
+          "source": "It's so a good idea.",
+          "answers": [
+            "It's such a good idea"
+          ],
+          "explanation": "Con nombre: «such a»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "c1_emphasis.301",
+          "source": "Tengo que decir que fue impresionante.",
+          "answers": [
+            "I do have to say that it was impressive",
+            "I have to say that it was impressive",
+            "I do have to say it was impressive"
+          ]
+        },
+        {
+          "id": "c1_emphasis.302",
+          "source": "Sí que conozco bien ese mercado.",
+          "answers": [
+            "I do know that market well",
+            "I do know that market very well"
+          ]
+        },
+        {
+          "id": "c1_emphasis.303",
+          "source": "Es un estudio tan pequeño…",
+          "answers": [
+            "It's such a small studio"
+          ]
+        },
+        {
+          "id": "c1_emphasis.304",
+          "source": "Eso sí lo podemos prometer.",
+          "answers": [
+            "That we can promise",
+            "That we can promise you"
+          ]
+        },
+        {
+          "id": "c1_emphasis.305",
+          "source": "Sus cifras eran tan convincentes que dejó de tomar notas.",
+          "answers": [
+            "Your numbers were so convincing that he stopped taking notes",
+            "So convincing were your numbers that he stopped taking notes"
+          ]
+        },
+        {
+          "id": "c1_emphasis.306",
+          "source": "¡Sí que te llamé!",
+          "answers": [
+            "I did call you"
+          ]
+        },
+        {
+          "id": "c1_emphasis.307",
+          "source": "Fue un día tan largo que me dormí en el tren.",
+          "answers": [
+            "It was such a long day that I fell asleep on the train"
+          ]
+        },
+        {
+          "id": "c1_emphasis.308",
+          "source": "Madrid es donde empecé.",
+          "answers": [
+            "Madrid is where I started"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_emphasis.401",
+          "answer": "I do know that market very well"
+        },
+        {
+          "id": "c1_emphasis.402",
+          "answer": "It's such a small studio"
+        },
+        {
+          "id": "c1_emphasis.403",
+          "answer": "So convincing were your numbers"
+        },
+        {
+          "id": "c1_emphasis.404",
+          "answer": "That we can promise"
+        },
+        {
+          "id": "c1_emphasis.405",
+          "answer": "The pitch was so good that they signed"
+        }
+      ]
+    }
+  ]
+}

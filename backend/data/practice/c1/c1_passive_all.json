@@ -1,0 +1,443 @@
+{
+  "topic_id": "c1_passive_all",
+  "level_id": "C1",
+  "title": "La pasiva en todas sus formas: having been told, might have been lost",
+  "tags": [
+    "passive_all"
+  ],
+  "units": [
+    "looking_back"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "The passive in all its forms",
+    "explanation": "A nivel C1 la pasiva aparece en cualquier tiempo y con modales, sobre todo en narraciones y textos formales:\n- Past perfect: «I had been given a key before I arrived.»\n- Future perfect: «By the time we get there, all the seats will have been taken.»\n- Modal perfect: «The umbrella might have been destroyed by the wind.», «It can't have been stolen.»\n- Continua: «I felt I was being watched.», «The road is being repaired.»\n- Participio perfecto («having been» + participio): «Having been told it rained a lot, I bought an umbrella.»\n- Infinitivo y gerundio: «She hates being interrupted.», «He's going to be given an award.», «I'd like to be told the truth.»\n- Con verbos de dos objetos, el sujeto suele ser la persona: «I was given a key.» (mejor que «A key was given to me»)\n\nEl agente con «by» solo se añade si aporta información:\n- «Harbour Studio was founded by Helen twenty years ago.»\n\nOjo: «been» va tras «have» o «having»; «being», en las formas continuas y como gerundio; «be», tras modales y «to».",
+    "table": {
+      "headers": [
+        "Forma",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Past perfect",
+          "I had been given a key."
+        ],
+        [
+          "Future perfect",
+          "The seats will have been taken."
+        ],
+        [
+          "Modal perfect",
+          "It might have been lost."
+        ],
+        [
+          "Continua",
+          "I was being watched."
+        ],
+        [
+          "having been + participio",
+          "Having been told, I left."
+        ],
+        [
+          "Gerundio",
+          "She hates being interrupted."
+        ],
+        [
+          "Infinitivo",
+          "He's going to be given an award."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «been», «being», «having» o «be».",
+      "bank": [
+        "been",
+        "being",
+        "having",
+        "be"
+      ],
+      "items": [
+        {
+          "id": "c1_passive_all.001",
+          "sentence": "I had ___ offered the job before I visited Bristol.",
+          "answers": [
+            [
+              "been"
+            ]
+          ]
+        },
+        {
+          "id": "c1_passive_all.002",
+          "sentence": "___ been warned about the rain, I packed an umbrella.",
+          "answers": [
+            [
+              "Having"
+            ]
+          ]
+        },
+        {
+          "id": "c1_passive_all.003",
+          "sentence": "The umbrella might have ___ destroyed by the wind.",
+          "answers": [
+            [
+              "been"
+            ]
+          ]
+        },
+        {
+          "id": "c1_passive_all.004",
+          "sentence": "I hate ___ interrupted when I'm speaking.",
+          "answers": [
+            [
+              "being"
+            ]
+          ]
+        },
+        {
+          "id": "c1_passive_all.005",
+          "sentence": "By Monday, the office will have ___ painted.",
+          "answers": [
+            [
+              "been"
+            ]
+          ]
+        },
+        {
+          "id": "c1_passive_all.006",
+          "sentence": "Lucía is going to ___ given an award next month.",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "c1_passive_all.007",
+          "sentence": "I felt I was ___ watched.",
+          "answers": [
+            [
+              "being"
+            ]
+          ]
+        },
+        {
+          "id": "c1_passive_all.008",
+          "sentence": "All the seats will have ___ taken by the time we arrive.",
+          "answers": [
+            [
+              "been"
+            ]
+          ]
+        },
+        {
+          "id": "c1_passive_all.009",
+          "sentence": "It can't have ___ stolen. Nobody came in.",
+          "answers": [
+            [
+              "been"
+            ]
+          ]
+        },
+        {
+          "id": "c1_passive_all.010",
+          "sentence": "I'd like to ___ told the truth.",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "c1_passive_all.011",
+          "sentence": "___ been told the news, she called her mother.",
+          "answers": [
+            [
+              "Having"
+            ]
+          ]
+        },
+        {
+          "id": "c1_passive_all.012",
+          "sentence": "The road is ___ repaired, so take another route.",
+          "answers": [
+            [
+              "being"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "c1_passive_all.101",
+          "question": "Me habían dado una llave.",
+          "options": [
+            "I had been given a key.",
+            "I had given a key."
+          ],
+          "answer": 0,
+          "explanation": "Pasiva: «had been given»."
+        },
+        {
+          "id": "c1_passive_all.102",
+          "question": "Puede que el viento lo haya destrozado.",
+          "options": [
+            "It might have been destroyed by the wind.",
+            "It might have destroyed by the wind."
+          ],
+          "answer": 0,
+          "explanation": "Modal perfect pasivo."
+        },
+        {
+          "id": "c1_passive_all.103",
+          "question": "Sentía que me observaban.",
+          "options": [
+            "I felt I was being watched.",
+            "I felt I was been watched."
+          ],
+          "answer": 0,
+          "explanation": "Continua: «being»."
+        },
+        {
+          "id": "c1_passive_all.104",
+          "question": "Le van a dar un premio.",
+          "options": [
+            "She's going to be given an award.",
+            "She's going to given an award."
+          ],
+          "answer": 0,
+          "explanation": "Infinitivo pasivo."
+        },
+        {
+          "id": "c1_passive_all.105",
+          "question": "Odia que la interrumpan.",
+          "options": [
+            "She hates being interrupted.",
+            "She hates been interrupted."
+          ],
+          "answer": 0,
+          "explanation": "Gerundio pasivo: «being»."
+        },
+        {
+          "id": "c1_passive_all.106",
+          "question": "Tras haber sido avisada, cogió el paraguas.",
+          "options": [
+            "Having been warned, she took an umbrella.",
+            "Having warned, she took an umbrella."
+          ],
+          "answer": 0,
+          "explanation": "«having been» + participio."
+        },
+        {
+          "id": "c1_passive_all.107",
+          "question": "Para entonces, habrán ocupado todos los asientos.",
+          "options": [
+            "By then, all the seats will have been taken.",
+            "By then, all the seats will have taken."
+          ],
+          "answer": 0,
+          "explanation": "Future perfect pasivo."
+        },
+        {
+          "id": "c1_passive_all.108",
+          "question": "No pueden haberlo robado.",
+          "options": [
+            "It can't have been stolen.",
+            "It can't be stolen yesterday."
+          ],
+          "answer": 0,
+          "explanation": "«can't have been»."
+        },
+        {
+          "id": "c1_passive_all.109",
+          "question": "Me dieron una llave. (más natural)",
+          "options": [
+            "I was given a key.",
+            "A key was given to me by someone."
+          ],
+          "answer": 0,
+          "explanation": "Sujeto: la persona."
+        },
+        {
+          "id": "c1_passive_all.110",
+          "question": "Helen fundó el estudio hace veinte años.",
+          "options": [
+            "The studio was founded by Helen twenty years ago.",
+            "The studio was founded from Helen twenty years ago."
+          ],
+          "answer": 0,
+          "explanation": "Agente: «by»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Pasa la frase a pasiva.",
+      "items": [
+        {
+          "id": "c1_passive_all.201",
+          "prompt": "Pasiva",
+          "source": "Someone had given me a key before I arrived.",
+          "answers": [
+            "I had been given a key before I arrived"
+          ]
+        },
+        {
+          "id": "c1_passive_all.202",
+          "prompt": "Pasiva",
+          "source": "By then, people will have taken all the seats.",
+          "answers": [
+            "By then, all the seats will have been taken"
+          ]
+        },
+        {
+          "id": "c1_passive_all.203",
+          "prompt": "Pasiva",
+          "source": "The wind might have destroyed the umbrella.",
+          "answers": [
+            "The umbrella might have been destroyed by the wind",
+            "The umbrella might have been destroyed"
+          ]
+        },
+        {
+          "id": "c1_passive_all.204",
+          "prompt": "Pasiva",
+          "source": "I felt that someone was watching me.",
+          "answers": [
+            "I felt I was being watched",
+            "I felt that I was being watched"
+          ]
+        },
+        {
+          "id": "c1_passive_all.205",
+          "prompt": "Having been…",
+          "source": "They told her the news, and she called her mother.",
+          "answers": [
+            "Having been told the news, she called her mother"
+          ]
+        },
+        {
+          "id": "c1_passive_all.206",
+          "prompt": "Pasiva",
+          "source": "They are going to give Lucía an award.",
+          "answers": [
+            "Lucía is going to be given an award"
+          ]
+        },
+        {
+          "id": "c1_passive_all.207",
+          "prompt": "Pasiva",
+          "source": "She hates it when people interrupt her.",
+          "answers": [
+            "She hates being interrupted"
+          ]
+        },
+        {
+          "id": "c1_passive_all.208",
+          "prompt": "Corrige",
+          "source": "It can't have stolen. Nobody came in.",
+          "answers": [
+            "It can't have been stolen. Nobody came in"
+          ],
+          "explanation": "Modal perfect pasivo: «have been»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "c1_passive_all.301",
+          "source": "Me habían ofrecido el trabajo antes de visitar Bristol.",
+          "answers": [
+            "I had been offered the job before I visited Bristol"
+          ]
+        },
+        {
+          "id": "c1_passive_all.302",
+          "source": "Tras haber sido avisada de la lluvia, metí un paraguas en la maleta.",
+          "answers": [
+            "Having been warned about the rain, I packed an umbrella"
+          ]
+        },
+        {
+          "id": "c1_passive_all.303",
+          "source": "Puede que el viento haya destrozado el paraguas.",
+          "answers": [
+            "The umbrella might have been destroyed by the wind",
+            "The umbrella may have been destroyed by the wind"
+          ]
+        },
+        {
+          "id": "c1_passive_all.304",
+          "source": "Odio que me interrumpan.",
+          "answers": [
+            "I hate being interrupted"
+          ]
+        },
+        {
+          "id": "c1_passive_all.305",
+          "source": "Para el lunes habrán pintado la oficina.",
+          "answers": [
+            "By Monday, the office will have been painted"
+          ]
+        },
+        {
+          "id": "c1_passive_all.306",
+          "source": "Sentía que me observaban.",
+          "answers": [
+            "I felt I was being watched",
+            "I felt that I was being watched"
+          ]
+        },
+        {
+          "id": "c1_passive_all.307",
+          "source": "A Lucía le van a dar un premio.",
+          "answers": [
+            "Lucía is going to be given an award"
+          ]
+        },
+        {
+          "id": "c1_passive_all.308",
+          "source": "No puede haber sido robado.",
+          "answers": [
+            "It can't have been stolen"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "c1_passive_all.401",
+          "answer": "I had been given a key"
+        },
+        {
+          "id": "c1_passive_all.402",
+          "answer": "Having been warned, I packed an umbrella"
+        },
+        {
+          "id": "c1_passive_all.403",
+          "answer": "It might have been destroyed by the wind"
+        },
+        {
+          "id": "c1_passive_all.404",
+          "answer": "She hates being interrupted"
+        },
+        {
+          "id": "c1_passive_all.405",
+          "answer": "All the seats will have been taken"
+        }
+      ]
+    }
+  ]
+}
