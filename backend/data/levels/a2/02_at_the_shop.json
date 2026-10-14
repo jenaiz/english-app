@@ -88,7 +88,7 @@
                           "countable"
                         ],
                         "answer": 0,
-                        "explanation": "Money no tiene plural: «moneys» no existe."
+                        "explanation": "«Money» no tiene plural: «moneys» no existe."
                       },
                       {
                         "question": "\"a lot of coats\" / \"a lot of money\": a lot of works with…",
@@ -125,7 +125,7 @@
                   "content": {
                     "tag": "quantifiers",
                     "title": "Countable and uncountable: how much, how many, a lot of, too",
-                    "explanation": "Los nombres contables se pueden contar y tienen plural (a coat, two coats). Los incontables no tienen plural (money, milk, bread, time, information).\n\nHow many + plural (How many coats?). How much + incontable (How much money?). How much también pregunta el precio: How much is this coat? / How much are these shoes?\n\nA lot of sirve para los dos en frases afirmativas. En negativas y preguntas se usan mucho much y many: I don't have much money.\n\nToo + adjetivo significa demasiado: It's too big. Para pedir otra talla: Have you got it in a small?",
+                    "explanation": "Los nombres contables se pueden contar y tienen plural: «a coat», «two coats». Los incontables no tienen plural: «money», «milk», «bread», «time», «information».\n\n«How many» va con plural y «How much», con incontables. «How much» también pregunta el precio:\n- «How many coats?»\n- «How much money?»\n- «How much is this coat?» / «How much are these shoes?»\n\n«A lot of» sirve para los dos en frases afirmativas. En negativas y preguntas se usan mucho «much» y «many»:\n- «I don't have much money.»\n\n«Too» + adjetivo significa demasiado. Para pedir otra talla:\n- «It's too big.»\n- «Have you got it in a small?»",
                     "table": {
                       "headers": [
                         "",
@@ -174,7 +174,7 @@
                   "content": {
                     "tag": "quantifiers",
                     "title": "all, both, most, none · enough",
-                    "explanation": "Para hablar de cantidades de un grupo:\n\nAll (todos): All the coats are in the sale. Most (la mayoría): Most shops close at six. None (ninguno): None of the coats fits me. Both (los dos, de dos cosas): Both coats are nice.\n\nCon of + the / my / these…: all of the coats, most of my friends, none of them. Con pronombres siempre va of: both of them, none of us.\n\nEnough (suficiente) va antes del nombre y después del adjetivo: I haven't got enough money. This coat isn't warm enough. Compáralo con too (demasiado): It's too big (más de lo necesario) / It isn't big enough (menos de lo necesario).",
+                    "explanation": "Para hablar de cantidades de un grupo:\n- «All» (todos): «All the coats are in the sale.»\n- «Most» (la mayoría): «Most shops close at six.»\n- «None» (ninguno): «None of the coats fits me.»\n- «Both» (los dos, de dos cosas): «Both coats are nice.»\n\nCon «of» + «the», «my», «these»…: «all of the coats», «most of my friends», «none of them». Con pronombres siempre va «of»: «both of them», «none of us».\n\n«Enough» (suficiente) va antes del nombre y después del adjetivo:\n- «I haven't got enough money.»\n- «This coat isn't warm enough.»\n\nCompáralo con «too» (demasiado):\n- «It's too big.» (más de lo necesario)\n- «It isn't big enough.» (menos de lo necesario)",
                     "table": {
                       "headers": [
                         "",
@@ -336,7 +336,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con all, both, most, none o enough.",
+                    "instructions": "Completa con «all», «both», «most», «none» o «enough».",
                     "items": [
                       {
                         "sentence": "I tried two coats, and ___ of them were too big.",

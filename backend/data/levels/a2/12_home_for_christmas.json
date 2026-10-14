@@ -123,7 +123,7 @@
                   "content": {
                     "tag": "present_perfect",
                     "title": "Present perfect: just, already, yet",
-                    "explanation": "El present perfect también habla de acciones recientes que importan ahora. Tres palabras muy útiles:\n\n• just = acabar de. Va entre have y el participio: The taxi has just arrived.\n• already = ya (antes de lo esperado). Va entre have y el participio: I've already packed my clothes.\n• yet = ya (en preguntas) o todavía (en negativas). Va al final: Have you packed yet? I haven't found my passport yet.",
+                    "explanation": "El present perfect también habla de acciones recientes que importan ahora. Tres palabras muy útiles:\n- «just» = acabar de. Va entre «have» y el participio: «The taxi has just arrived.»\n- «already» = ya (antes de lo esperado). Va entre «have» y el participio: «I've already packed my clothes.»\n- «yet» = ya (en preguntas) o todavía (en negativas). Va al final: «Have you packed yet?», «I haven't found my passport yet.»",
                     "table": {
                       "headers": [
                         "Palabra",
@@ -172,7 +172,7 @@
                   "content": {
                     "tag": "indefinite_pronouns",
                     "title": "something, anything, nothing, everything",
-                    "explanation": "Some-, any-, no- y every- se combinan con -thing (cosa), -body / -one (persona) y -where (lugar).\n\nSomething / somebody / somewhere en frases afirmativas y en ofrecimientos: We've got something for you. Would you like something to drink?\n\nAnything / anybody / anywhere en negativas y preguntas: I can't find my passport anywhere. Have you forgotten anything?\n\nNothing / nobody / nowhere ya son negativos, así que el verbo va en afirmativa: There's nothing in the fridge (no «There isn't nothing»).\n\nEverything / everybody / everywhere: todo, todos, en todas partes: I've packed everything.",
+                    "explanation": "«Some-», «any-», «no-» y «every-» se combinan con «-thing» (cosa), «-body» / «-one» (persona) y «-where» (lugar).\n\n«Something», «somebody» y «somewhere» van en frases afirmativas y en ofrecimientos:\n- «We've got something for you.»\n- «Would you like something to drink?»\n\n«Anything», «anybody» y «anywhere» van en negativas y preguntas:\n- «I can't find my passport anywhere.»\n- «Have you forgotten anything?»\n\n«Nothing», «nobody» y «nowhere» ya son negativos, así que el verbo va en afirmativa (nunca «There isn't nothing»):\n- «There's nothing in the fridge.»\n\n«Everything», «everybody» y «everywhere» son todo, todos, en todas partes:\n- «I've packed everything.»",
                     "table": {
                       "headers": [
                         "",
@@ -221,7 +221,7 @@
                   "content": {
                     "tag": "purpose_infinitive",
                     "title": "Infinitive of purpose: to + verb",
-                    "explanation": "Para decir para qué hacemos algo, en inglés se usa to + verbo, sin for: I'm going to the airport to catch a flight (para coger un vuelo). She called a taxi to get to the airport.\n\nEl error típico de los hispanohablantes es decir «for catch» o «for to catch». Con un verbo, siempre to: I went to the shop to buy a present.\n\nFor va con un nombre: I went to the shop for some milk. This present is for you.\n\nPara preguntar el propósito: Why…? — To…: Why are you going to Valencia? — To see my family.",
+                    "explanation": "Para decir para qué hacemos algo, en inglés se usa «to» + verbo, sin «for»:\n- «I'm going to the airport to catch a flight.» (para coger un vuelo)\n- «She called a taxi to get to the airport.»\n\nEl error típico de los hispanohablantes es decir «for catch» o «for to catch». Con un verbo, siempre «to»:\n- «I went to the shop to buy a present.»\n\n«For» va con un nombre:\n- «I went to the shop for some milk.»\n- «This present is for you.»\n\nPara preguntar el propósito, «Why…?» — «To…»:\n- «Why are you going to Valencia? — To see my family.»",
                     "table": {
                       "headers": [
                         "",
@@ -258,7 +258,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con just, already, yet o el participio.",
+                    "instructions": "Completa con «just», «already», «yet» o el participio.",
                     "items": [
                       {
                         "sentence": "Have you packed ___?",
@@ -355,7 +355,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con something, anything, nothing, everything, somewhere o anywhere.",
+                    "instructions": "Completa con «something», «anything», «nothing», «everything», «somewhere» o «anywhere».",
                     "items": [
                       {
                         "sentence": "We've got ___ for you. Open it!",
@@ -412,7 +412,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con to o for.",
+                    "instructions": "Completa con «to» o «for».",
                     "items": [
                       {
                         "sentence": "I'm going to Valencia ___ see my family.",

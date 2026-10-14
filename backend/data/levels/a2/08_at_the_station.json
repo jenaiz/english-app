@@ -119,7 +119,7 @@
                   "content": {
                     "tag": "will",
                     "title": "will: decisions, offers and predictions",
-                    "explanation": "Will ('ll) + verbo en forma base se usa para:\n• decisiones que tomamos en el momento: I'll go and ask.\n• ofrecimientos: I'll pay for the coffees.\n• promesas: I won't forget the tickets again!\n• predicciones u opiniones sobre el futuro: I think it will be busy.\n\nNegativa: won't (will not). Pregunta: Will it be busy?\n\nCompáralo con be going to, que expresa un plan ya decidido: I'm going to book the tickets tonight (lo pensé antes) / I'll pay (lo decido ahora).",
+                    "explanation": "«Will» («'ll») + verbo en forma base se usa para:\n- decisiones que tomamos en el momento: «I'll go and ask.»\n- ofrecimientos: «I'll pay for the coffees.»\n- promesas: «I won't forget the tickets again!»\n- predicciones u opiniones sobre el futuro: «I think it will be busy.»\n\nLa negativa es «won't» («will not») y la pregunta, «Will…?»:\n- «Will it be busy?»\n\nCompáralo con «be going to», que expresa un plan ya decidido:\n- «I'm going to book the tickets tonight.» (lo pensé antes)\n- «I'll pay.» (lo decido ahora)",
                     "table": {
                       "headers": [
                         "Uso",
@@ -170,7 +170,7 @@
                   "content": {
                     "tag": "movement_prepositions",
                     "title": "Prepositions of movement: into, out of, across, through",
-                    "explanation": "Las preposiciones de movimiento dicen hacia dónde va algo o alguien. Suelen ir con verbos como go, walk, run, get o come.\n\nInto / out of: entrar en / salir de un espacio: We went into the station. She got out of the taxi.\nOn / off con transportes grandes (bus, train, plane): get on the train, get off the bus. Con coches y taxis: get into / get out of.\nAcross (de un lado al otro, cruzando): Walk across the bridge. Through (a través de, por dentro): Go through the gate.\nUp / down (subir / bajar), along (a lo largo de), past (por delante de), towards (hacia), from… to… (de… a…).",
+                    "explanation": "Las preposiciones de movimiento dicen hacia dónde va algo o alguien. Suelen ir con verbos como «go», «walk», «run», «get» o «come».\n\n«Into» / «out of»: entrar en / salir de un espacio:\n- «We went into the station.»\n- «She got out of the taxi.»\n\n«On» / «off» con transportes grandes (autobús, tren, avión); con coches y taxis, «get into» / «get out of»:\n- «get on the train», «get off the bus»\n\n«Across» (de un lado al otro, cruzando) y «through» (a través de, por dentro):\n- «Walk across the bridge.»\n- «Go through the gate.»\n\nOtras: «up» / «down» (subir / bajar), «along» (a lo largo de), «past» (por delante de), «towards» (hacia), «from… to…» (de… a…).",
                     "table": {
                       "headers": [
                         "Preposición",
@@ -222,7 +222,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con will, won't o going.",
+                    "instructions": "Completa con «will», «won't» o «going».",
                     "items": [
                       {
                         "sentence": "Don't panic. I ___ ask at the ticket office.",
@@ -322,7 +322,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con into, out of, on, off, across, through o down.",
+                    "instructions": "Completa con «into», «out of», «on», «off», «across», «through» o «down».",
                     "items": [
                       {
                         "sentence": "We ran ___ the station because we were late.",

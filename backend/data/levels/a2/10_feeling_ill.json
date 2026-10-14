@@ -115,7 +115,7 @@
                   "content": {
                     "tag": "should_have_to",
                     "title": "should and have to",
-                    "explanation": "Should / shouldn't + verbo en forma base sirve para dar consejos: You should go back to bed. You shouldn't go to work today. Para pedir consejo: Should I take something?\n\nHave to / has to + verbo expresa obligación: I have to finish the designs. Priya has to work tonight.\n\nDon't have to significa que algo no es necesario: You don't have to see a doctor. Ojo: no significa «no debes». La prohibición es mustn't.\n\nPregunta: Do I have to see a doctor? — No, you don't.",
+                    "explanation": "«Should» / «shouldn't» + verbo en forma base sirve para dar consejos y para pedirlos:\n- «You should go back to bed.»\n- «You shouldn't go to work today.»\n- «Should I take something?»\n\n«Have to» / «has to» + verbo expresa obligación:\n- «I have to finish the designs.»\n- «Priya has to work tonight.»\n\n«Don't have to» significa que algo no es necesario. Ojo: no significa «no debes»; la prohibición es «mustn't».\n- «You don't have to see a doctor.»\n- «Do I have to see a doctor? — No, you don't.»",
                     "table": {
                       "headers": [
                         "",
@@ -169,7 +169,7 @@
                   "content": {
                     "tag": "conditionals",
                     "title": "Zero and first conditional",
-                    "explanation": "Zero conditional (If + present, present) para cosas que siempre son verdad: If you don't sleep, you feel tired. If you heat water to 100 degrees, it boils.\n\nFirst conditional (If + present, will + verbo) para una situación posible en el futuro y su resultado: If you rest today, you'll feel better tomorrow. If it rains, I'll take a taxi.\n\nOjo: después de if nunca va will: If I see Helen, I'll tell her (no «If I will see»).\n\nUnless significa if… not: You won't get better unless you rest (= if you don't rest). La frase con if puede ir primero (con coma) o después (sin coma): I'll call the doctor if you feel worse.",
+                    "explanation": "Zero conditional («If» + present, present) para cosas que siempre son verdad:\n- «If you don't sleep, you feel tired.»\n- «If you heat water to 100 degrees, it boils.»\n\nFirst conditional («If» + present, «will» + verbo) para una situación posible en el futuro y su resultado:\n- «If you rest today, you'll feel better tomorrow.»\n- «If it rains, I'll take a taxi.»\n\nOjo: después de «if» nunca va «will»: «If I see Helen, I'll tell her» (nunca «If I will see»).\n\n«Unless» significa «if… not». La frase con «if» puede ir primero (con coma) o después (sin coma):\n- «You won't get better unless you rest.» (= «if you don't rest»)\n- «I'll call the doctor if you feel worse.»",
                     "table": {
                       "headers": [
                         "",
@@ -211,7 +211,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con should, have to o sus negativas.",
+                    "instructions": "Completa con «should», «have to» o sus negativas.",
                     "items": [
                       {
                         "sentence": "You ___ go back to bed. (consejo)",

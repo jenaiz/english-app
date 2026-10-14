@@ -115,7 +115,7 @@
                   "content": {
                     "tag": "past_continuous",
                     "title": "Past continuous vs past simple",
-                    "explanation": "El past continuous (was/were + -ing) describe una acción que estaba en curso en un momento del pasado: At nine I was sitting on the bus.\n\nLo combinamos con el past simple para contar que algo interrumpió esa acción: I was walking to the bus stop when it started to rain. La acción larga va en continuous y la corta, en simple.\n\nCon while solemos usar el continuous: While I was opening it, the wind broke it.\n\nPregunta típica: What were you doing when Helen called?",
+                    "explanation": "El past continuous («was» / «were» + «-ing») describe una acción que estaba en curso en un momento del pasado:\n- «At nine I was sitting on the bus.»\n\nLo combinamos con el past simple para contar que algo interrumpió esa acción. La acción larga va en continuous y la corta, en simple:\n- «I was walking to the bus stop when it started to rain.»\n\nCon «while» solemos usar el continuous:\n- «While I was opening it, the wind broke it.»\n\nPregunta típica:\n- «What were you doing when Helen called?»",
                     "table": {
                       "headers": [
                         "Sujeto",
@@ -152,7 +152,7 @@
                   "content": {
                     "tag": "sequencing_adverbs",
                     "title": "Telling a story: first, then, finally · adverbs of manner",
-                    "explanation": "Para ordenar lo que pasó usamos conectores de secuencia: First (primero), Then / After that (luego, después), Later (más tarde), Finally / In the end (al final). Van al principio de la frase: First, it started to rain. Then the wind broke my umbrella.\n\nLos adverbios de modo dicen cómo pasa algo. Se forman con adjetivo + -ly: quick → quickly, slow → slowly, careful → carefully, angry → angrily. Si acaba en -y, cambia a -ily: happy → happily.\n\nIrregulares: good → well, fast → fast, hard → hard, late → late.\n\nVan después del verbo o del objeto: She ran quickly. He drives his car carefully. Ojo: She speaks English well (no «good»).",
+                    "explanation": "Para ordenar lo que pasó usamos conectores de secuencia: «First» (primero), «Then» / «After that» (luego, después), «Later» (más tarde), «Finally» / «In the end» (al final). Van al principio de la frase:\n- «First, it started to rain. Then the wind broke my umbrella.»\n\nLos adverbios de modo dicen cómo pasa algo. Se forman con adjetivo + «-ly»: «quick» → «quickly», «slow» → «slowly», «careful» → «carefully». Si acaba en y, cambia a «-ily»: «happy» → «happily», «angry» → «angrily».\n\nIrregulares: «good» → «well», «fast» → «fast», «hard» → «hard», «late» → «late».\n\nVan después del verbo o del objeto:\n- «She ran quickly.»\n- «He drives his car carefully.»\n\nOjo: «She speaks English well» (nunca «good»).",
                     "table": {
                       "headers": [
                         "Adjetivo",
@@ -297,7 +297,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con un conector (first, then, finally) o con el adverbio de la palabra entre paréntesis.",
+                    "instructions": "Completa con un conector («first», «then», «finally») o con el adverbio de la palabra entre paréntesis.",
                     "items": [
                       {
                         "sentence": "___, I got up late. Then I couldn't find my keys.",

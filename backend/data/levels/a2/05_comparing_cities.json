@@ -118,7 +118,7 @@
                   "content": {
                     "tag": "comparatives",
                     "title": "Comparatives",
-                    "explanation": "Para comparar usamos el comparativo + than: Valencia is bigger than Bristol.\n\nAdjetivos cortos: + -er (small → smaller, cold → colder). Si acaban en vocal + consonante, la consonante se dobla: big → bigger, wet → wetter. Si acaban en -y: sunny → sunnier, funny → funnier, friendly → friendlier.\n\nAdjetivos largos: more / less + adjetivo: more expensive, more interesting.\n\nIrregulares: good → better, bad → worse, far → further.\n\nPara reforzar: much bigger, much more expensive. Para decir que no son iguales: Bristol isn't as sunny as Valencia.",
+                    "explanation": "Para comparar usamos el comparativo + «than»:\n- «Valencia is bigger than Bristol.»\n\nAdjetivos cortos: + «-er» («small» → «smaller», «cold» → «colder»). Si acaban en vocal + consonante, la consonante se dobla: «big» → «bigger», «wet» → «wetter». Si acaban en y: «sunny» → «sunnier», «funny» → «funnier», «friendly» → «friendlier».\n\nAdjetivos largos: «more» / «less» + adjetivo: «more expensive», «more interesting».\n\nIrregulares: «good» → «better», «bad» → «worse», «far» → «further».\n\nPara reforzar y para decir que no son iguales:\n- «much bigger», «much more expensive»\n- «Bristol isn't as sunny as Valencia.»",
                     "table": {
                       "headers": [
                         "Adjetivo",
@@ -177,7 +177,7 @@
                   "content": {
                     "tag": "ed_ing",
                     "title": "Adjectives with -ed and -ing: bored or boring?",
-                    "explanation": "Muchos adjetivos tienen dos formas:\n\nCon -ing describen la cosa o la persona que produce el sentimiento: Bristol is interesting (Bristol es interesante). The film was boring (la película era aburrida).\n\nCon -ed describen cómo se siente alguien: I'm interested in art (me interesa el arte). I was bored (estaba aburrido).\n\nOjo con el error típico: «I'm boring» significa «soy aburrido», no «estoy aburrido» (I'm bored).\n\nLos más comunes: interesting / interested, boring / bored, tiring / tired, exciting / excited, surprising / surprised, relaxing / relaxed, worrying / worried.",
+                    "explanation": "Muchos adjetivos tienen dos formas.\n\nCon «-ing» describen la cosa o la persona que produce el sentimiento:\n- «Bristol is interesting.» (Bristol es interesante)\n- «The film was boring.» (la película era aburrida)\n\nCon «-ed» describen cómo se siente alguien:\n- «I'm interested in art.» (me interesa el arte)\n- «I was bored.» (estaba aburrido)\n\nOjo con el error típico: «I'm boring» significa «soy aburrido», no «estoy aburrido» («I'm bored»).\n\nLos más comunes: «interesting» / «interested», «boring» / «bored», «tiring» / «tired», «exciting» / «excited», «surprising» / «surprised», «relaxing» / «relaxed», «worrying» / «worried».",
                     "table": {
                       "headers": [
                         "-ing (cómo es algo)",
@@ -220,7 +220,7 @@
                   "content": {
                     "tag": "comparatives",
                     "title": "the same as, similar to, different from, like",
-                    "explanation": "Para comparar sin -er ni more:\n\n• the same as (igual que): Lucía's flat is the same as Priya's. The same + nombre + as: She's the same age as me.\n• similar to (parecido a): Bristol is similar to Valencia in some ways.\n• different from (diferente de): The food here is very different from the food in Spain. (No «different of».)\n• like (como): Daniel's accent is like my teacher's. Look like = parecerse físicamente: You look like your brother.\n• alike (iguales, parecidos) va al final, sin objeto: Javi and Lucía look alike.\n\nOjo: «igual que» con un verbo es as: She works in design, as I do. Con un nombre o pronombre, like: She's like me.",
+                    "explanation": "Para comparar sin «-er» ni «more»:\n- «the same as» (igual que): «Lucía's flat is the same as Priya's.» Con nombre: «She's the same age as me.»\n- «similar to» (parecido a): «Bristol is similar to Valencia in some ways.»\n- «different from» (diferente de): «The food here is very different from the food in Spain.» (nunca «different of»)\n- «like» (como): «Daniel's accent is like my teacher's.» «Look like» es parecerse físicamente: «You look like your brother.»\n- «alike» (iguales, parecidos) va al final, sin objeto: «Javi and Lucía look alike.»\n\nOjo: «igual que» con un verbo es «as»; con un nombre o un pronombre, «like»:\n- «She works in design, as I do.»\n- «She's like me.»",
                     "table": {
                       "headers": [
                         "Expresión",
@@ -377,7 +377,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Elige la forma correcta: escribe el adjetivo terminado en -ed o -ing.",
+                    "instructions": "Elige la forma correcta: escribe el adjetivo terminado en «-ed» o «-ing».",
                     "items": [
                       {
                         "sentence": "Bristol is a very ___ city. (interest)",
@@ -434,7 +434,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con as, to, from, like o alike.",
+                    "instructions": "Completa con «as», «to», «from», «like» o «alike».",
                     "items": [
                       {
                         "sentence": "Bristol is very different ___ Valencia.",

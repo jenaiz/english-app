@@ -96,7 +96,7 @@
                           "always true"
                         ],
                         "answer": 0,
-                        "explanation": "El present continuous también sirve para situaciones temporales: this week, at the moment."
+                        "explanation": "El present continuous también sirve para situaciones temporales: «this week», «at the moment»."
                       },
                       {
                         "question": "Where are Lucía's keys?",
@@ -116,7 +116,7 @@
                   "content": {
                     "tag": "present_simple_continuous",
                     "title": "Present simple vs present continuous",
-                    "explanation": "El present simple habla de hábitos, rutinas y cosas que siempre son verdad: You usually leave your keys on the table. Priya works at the hospital.\n\nEl present continuous habla de lo que pasa ahora mismo (I'm making toast) y de situaciones temporales (This week I'm starting at eight).\n\nAlgunos verbos casi nunca van en continuous porque expresan estados, no acciones: need, want, like, love, know, understand. Se dice «I need a coffee», no «I'm needing a coffee».",
+                    "explanation": "El present simple habla de hábitos, rutinas y cosas que siempre son verdad:\n- «You usually leave your keys on the table.»\n- «Priya works at the hospital.»\n\nEl present continuous habla de lo que pasa ahora mismo y de situaciones temporales:\n- «I'm making toast.»\n- «This week I'm starting at eight.»\n\nAlgunos verbos casi nunca van en continuous porque expresan estados, no acciones: «need», «want», «like», «love», «know», «understand». Se dice «I need a coffee», nunca «I'm needing a coffee».",
                     "table": {
                       "headers": [
                         "",
@@ -160,7 +160,7 @@
                   "content": {
                     "tag": "phrasal_verbs",
                     "title": "Everyday phrasal verbs",
-                    "explanation": "Un phrasal verb es un verbo + una partícula (up, on, off, for, out…) que juntos tienen un significado propio: look (mirar) → look for (buscar).\n\nLos más usados en la rutina: wake up (despertarse), get up (levantarse), put on (ponerse ropa), take off (quitarse), turn on / turn off (encender / apagar), look for (buscar), go out (salir), come back (volver).\n\nSe conjugan como el verbo normal: I get up at seven, She gets up at six, I got up late yesterday.\n\nCon put on, take off, turn on y turn off el objeto puede ir en medio: Put your coat on / Put on your coat. Si es un pronombre, va siempre en medio: Put it on (no «put on it»).",
+                    "explanation": "Un phrasal verb es un verbo + una partícula («up», «on», «off», «for», «out»…) que juntos tienen un significado propio: «look» (mirar) → «look for» (buscar).\n\nLos más usados en la rutina:\n- «wake up» (despertarse), «get up» (levantarse)\n- «put on» (ponerse ropa), «take off» (quitarse)\n- «turn on» / «turn off» (encender / apagar)\n- «look for» (buscar), «go out» (salir), «come back» (volver)\n\nSe conjugan como el verbo normal:\n- «I get up at seven.»\n- «She gets up at six.»\n- «I got up late yesterday.»\n\nCon «put on», «take off», «turn on» y «turn off» el objeto puede ir en medio. Si es un pronombre, va siempre en medio (nunca «put on it»):\n- «Put your coat on.» / «Put on your coat.»\n- «Put it on.»",
                     "table": {
                       "headers": [
                         "Phrasal verb",
@@ -312,7 +312,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con la partícula: up, on, off, for, out o back.",
+                    "instructions": "Completa con la partícula: «up», «on», «off», «for», «out» o «back».",
                     "items": [
                       {
                         "sentence": "I always wake ___ before my alarm.",
