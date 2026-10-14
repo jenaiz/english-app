@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "reporting_verbs",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -169,6 +170,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "reporting_verbs",
                     "instructions": "Completa con la forma correcta.",
                     "items": [
                       {
@@ -242,6 +244,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
+                    "tag": "reporting_verbs",
                     "instructions": "Resume con el verbo indicado.",
                     "items": [
                       {
@@ -277,6 +280,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "reporting_verbs",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

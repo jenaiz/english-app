@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "wish_if_only",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -112,7 +113,8 @@
                           "to move out",
                           "to stop cooking"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -217,6 +219,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "wish_if_only",
                     "instructions": "Completa con la forma correcta.",
                     "items": [
                       {
@@ -296,6 +299,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
+                    "tag": "wish_if_only",
                     "instructions": "Reescribe con «wish».",
                     "items": [
                       {
@@ -331,6 +335,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "always_so_neither",
                     "instructions": "Completa la respuesta o la queja.",
                     "items": [
                       {
@@ -391,6 +396,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "wish_if_only",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

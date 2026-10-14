@@ -75,6 +75,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "passive_reporting",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -108,7 +109,8 @@
                           "Bristol",
                           "Dublin"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -214,6 +216,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "passive_reporting",
                     "instructions": "Completa la estructura impersonal.",
                     "items": [
                       {
@@ -278,7 +281,8 @@
                           [
                             "was"
                           ]
-                        ]
+                        ],
+                        "tag": "passive_forms"
                       }
                     ]
                   }
@@ -287,6 +291,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
+                    "tag": "passive_reporting",
                     "instructions": "Reescribe empezando por el sujeto indicado.",
                     "items": [
                       {
@@ -320,6 +325,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "attitudinal_adverbs",
                     "instructions": "Completa con «apparently», «clearly», «surprisingly», «unfortunately» o «hopefully».",
                     "items": [
                       {
@@ -381,6 +387,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "passive_reporting",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -419,7 +426,8 @@
                         "answers": [
                           "It's being reported everywhere",
                           "It is being reported everywhere"
-                        ]
+                        ],
+                        "tag": "passive_forms"
                       }
                     ]
                   }
@@ -612,7 +620,8 @@
                           "had",
                           "have"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "wish_if_only"
                       },
                       {
                         "question": "I wish he ___ leaving the door open!",
@@ -620,7 +629,8 @@
                           "wouldn't keep",
                           "doesn't keep"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "wish_if_only"
                       },
                       {
                         "question": "I wish I ___ that email. It was a mistake.",
@@ -628,7 +638,8 @@
                           "hadn't sent",
                           "didn't send"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "wish_if_only"
                       },
                       {
                         "question": "I'm having my hair ___ tomorrow.",
@@ -636,7 +647,8 @@
                           "cut",
                           "cutting"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "causative"
                       },
                       {
                         "question": "I'll get the engineer ___ it.",
@@ -644,7 +656,8 @@
                           "to check",
                           "checking"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "causative"
                       },
                       {
                         "question": "She had her car ___ last week.",
@@ -652,7 +665,8 @@
                           "serviced",
                           "service"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "causative"
                       },
                       {
                         "question": "The film is said ___ excellent.",
@@ -660,7 +674,8 @@
                           "to be",
                           "being"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "passive_reporting"
                       },
                       {
                         "question": "He is believed to ___ the country.",
@@ -668,7 +683,8 @@
                           "have left",
                           "left"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "passive_reporting"
                       }
                     ]
                   }
@@ -685,7 +701,8 @@
                           [
                             "could"
                           ]
-                        ]
+                        ],
+                        "tag": "wish_if_only"
                       },
                       {
                         "sentence": "If ___ it were easy!",
@@ -693,7 +710,8 @@
                           [
                             "only"
                           ]
-                        ]
+                        ],
+                        "tag": "wish_if_only"
                       },
                       {
                         "sentence": "Could you have the oven ___? (check)",
@@ -701,7 +719,8 @@
                           [
                             "checked"
                           ]
-                        ]
+                        ],
+                        "tag": "causative"
                       },
                       {
                         "sentence": "I'm getting the kitchen ___. (paint)",
@@ -709,7 +728,8 @@
                           [
                             "painted"
                           ]
-                        ]
+                        ],
+                        "tag": "causative"
                       },
                       {
                         "sentence": "They're ___ to play in Madrid. (expect)",
@@ -717,7 +737,8 @@
                           [
                             "expected"
                           ]
-                        ]
+                        ],
+                        "tag": "passive_reporting"
                       },
                       {
                         "sentence": "He's ___ to be in London.",
@@ -725,7 +746,8 @@
                           [
                             "supposed"
                           ]
-                        ]
+                        ],
+                        "tag": "passive_reporting"
                       }
                     ]
                   }
@@ -743,7 +765,8 @@
                           "I wish I'd known earlier",
                           "I wish I had known before",
                           "I wish I'd known before"
-                        ]
+                        ],
+                        "tag": "wish_if_only"
                       },
                       {
                         "source": "Me voy a cortar el pelo.",
@@ -751,7 +774,8 @@
                           "I'm going to get my hair cut",
                           "I'm going to have my hair cut",
                           "I am going to get my hair cut"
-                        ]
+                        ],
+                        "tag": "causative"
                       },
                       {
                         "source": "Se dice que es muy bueno.",
@@ -760,14 +784,16 @@
                           "It is said to be very good",
                           "It is said that it is very good",
                           "It's said that it's very good"
-                        ]
+                        ],
+                        "tag": "passive_reporting"
                       },
                       {
                         "source": "Se supone que está en Londres.",
                         "answers": [
                           "He's supposed to be in London",
                           "He is supposed to be in London"
-                        ]
+                        ],
+                        "tag": "passive_reporting"
                       }
                     ]
                   }

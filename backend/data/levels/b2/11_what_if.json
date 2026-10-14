@@ -83,6 +83,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "mixed_conditionals",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -116,7 +117,8 @@
                           "moving to Dublin",
                           "going back to Madrid"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -212,6 +214,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "mixed_conditionals",
                     "instructions": "Completa con el condicional mixto.",
                     "items": [
                       {
@@ -289,6 +292,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
+                    "tag": "mixed_conditionals",
                     "instructions": "Reescribe con un condicional mixto.",
                     "items": [
                       {
@@ -322,6 +326,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "abstract_articles",
                     "instructions": "Escribe «the» si hace falta. Si no hace falta artículo, escribe «x».",
                     "items": [
                       {
@@ -379,6 +384,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "mixed_conditionals",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

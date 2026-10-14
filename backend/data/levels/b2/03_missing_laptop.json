@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "past_modals",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -112,7 +113,8 @@
                           "in the taxi",
                           "in the hotel room"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -224,6 +226,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "past_modals",
                     "instructions": "Completa con el modal + «have» correcto.",
                     "items": [
                       {
@@ -301,6 +304,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
+                    "tag": "past_modals",
                     "instructions": "Reescribe con un modal + «have».",
                     "items": [
                       {
@@ -337,6 +341,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "past_modals",
                     "instructions": "Completa con «needn't», «need», «could» o «should».",
                     "items": [
                       {
@@ -397,6 +402,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "past_modals",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -628,7 +634,8 @@
                           "be sitting",
                           "have sat"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "future_forms"
                       },
                       {
                         "question": "By Friday, we'll ___ the project.",
@@ -636,7 +643,8 @@
                           "have finished",
                           "be finishing"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "future_forms"
                       },
                       {
                         "question": "By the time you ___, I'll have left.",
@@ -644,7 +652,8 @@
                           "arrive",
                           "'ll arrive"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "future_forms"
                       },
                       {
                         "question": "He ___ be the boss. He's too young.",
@@ -652,7 +661,8 @@
                           "can't",
                           "mustn't"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "deduction_present"
                       },
                       {
                         "question": "She's not answering. She ___ be in a meeting.",
@@ -660,7 +670,8 @@
                           "might",
                           "can't"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "deduction_present"
                       },
                       {
                         "question": "You ___ have left it on the bus. (seguro)",
@@ -668,7 +679,8 @@
                           "must",
                           "should"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "past_modals"
                       },
                       {
                         "question": "I ___ have told you earlier. Sorry.",
@@ -676,7 +688,8 @@
                           "should",
                           "must"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "past_modals"
                       },
                       {
                         "question": "He ___ have taken it. He wasn't there.",
@@ -684,7 +697,8 @@
                           "can't",
                           "must"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "past_modals"
                       }
                     ]
                   }
@@ -701,7 +715,8 @@
                           [
                             "sitting"
                           ]
-                        ]
+                        ],
+                        "tag": "future_forms"
                       },
                       {
                         "sentence": "I'll have ___ the demo by then. (send)",
@@ -709,7 +724,8 @@
                           [
                             "sent"
                           ]
-                        ]
+                        ],
+                        "tag": "future_forms"
                       },
                       {
                         "sentence": "He must ___ important.",
@@ -717,7 +733,8 @@
                           [
                             "be"
                           ]
-                        ]
+                        ],
+                        "tag": "deduction_present"
                       },
                       {
                         "sentence": "She must be ___ for news. (wait)",
@@ -725,7 +742,8 @@
                           [
                             "waiting"
                           ]
-                        ]
+                        ],
+                        "tag": "deduction_present"
                       },
                       {
                         "sentence": "Someone must have ___ it up. (pick)",
@@ -733,7 +751,8 @@
                           [
                             "picked"
                           ]
-                        ]
+                        ],
+                        "tag": "past_modals"
                       },
                       {
                         "sentence": "I could have ___ everything. (lose)",
@@ -741,7 +760,8 @@
                           [
                             "lost"
                           ]
-                        ]
+                        ],
+                        "tag": "past_modals"
                       }
                     ]
                   }
@@ -758,7 +778,8 @@
                           "This time tomorrow I'll be flying",
                           "This time tomorrow, I'll be flying",
                           "This time tomorrow I will be flying"
-                        ]
+                        ],
+                        "tag": "future_forms"
                       },
                       {
                         "source": "No puede ser verdad.",
@@ -766,13 +787,15 @@
                           "It can't be true",
                           "That can't be true",
                           "It cannot be true"
-                        ]
+                        ],
+                        "tag": "deduction_present"
                       },
                       {
                         "source": "Debes de haberlo dejado en el taxi.",
                         "answers": [
                           "You must have left it in the taxi"
-                        ]
+                        ],
+                        "tag": "past_modals"
                       },
                       {
                         "source": "Deberías haberme llamado.",
@@ -780,7 +803,8 @@
                           "You should have called me",
                           "You should have phoned me",
                           "You should've called me"
-                        ]
+                        ],
+                        "tag": "past_modals"
                       }
                     ]
                   }

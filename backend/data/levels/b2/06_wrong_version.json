@@ -75,6 +75,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "third_conditional_regret",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -108,7 +109,8 @@
                           "Daniel",
                           "Mark"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -199,6 +201,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "third_conditional_regret",
                     "instructions": "Completa con el tercer condicional o «wish».",
                     "items": [
                       {
@@ -275,6 +278,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "third_conditional_regret",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -299,6 +303,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "past_perfect_continuous",
                     "instructions": "Completa con «had been» + «-ing» o con el past perfect simple.",
                     "items": [
                       {
@@ -357,6 +362,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "third_conditional_regret",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -590,7 +596,8 @@
                           "Although",
                           "Despite"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "contrast_linkers"
                       },
                       {
                         "question": "___ the cost, they bought it.",
@@ -598,7 +605,8 @@
                           "Despite",
                           "Although"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "contrast_linkers"
                       },
                       {
                         "question": "It's simple. ___, it works.",
@@ -606,7 +614,8 @@
                           "However",
                           "Whereas"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "contrast_linkers"
                       },
                       {
                         "question": "He suggested ___ a break.",
@@ -614,7 +623,8 @@
                           "taking",
                           "to take"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "reporting_verbs"
                       },
                       {
                         "question": "She refused ___ the contract.",
@@ -622,7 +632,8 @@
                           "to sign",
                           "signing"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "reporting_verbs"
                       },
                       {
                         "question": "They apologised ___ being late.",
@@ -630,7 +641,8 @@
                           "for",
                           "to"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "reporting_verbs"
                       },
                       {
                         "question": "If I'd known, I ___ have come.",
@@ -638,7 +650,8 @@
                           "would",
                           "will"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "third_conditional_regret"
                       },
                       {
                         "question": "I wish I ___ more careful.",
@@ -646,7 +659,8 @@
                           "had been",
                           "was"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "third_conditional_regret"
                       }
                     ]
                   }
@@ -663,7 +677,8 @@
                           [
                             "of"
                           ]
-                        ]
+                        ],
+                        "tag": "contrast_linkers"
                       },
                       {
                         "sentence": "I agree, even ___ it's expensive.",
@@ -671,7 +686,8 @@
                           [
                             "though"
                           ]
-                        ]
+                        ],
+                        "tag": "contrast_linkers"
                       },
                       {
                         "sentence": "He insisted ___ paying.",
@@ -679,7 +695,8 @@
                           [
                             "on"
                           ]
-                        ]
+                        ],
+                        "tag": "reporting_verbs"
                       },
                       {
                         "sentence": "He promised ___ call.",
@@ -687,7 +704,8 @@
                           [
                             "to"
                           ]
-                        ]
+                        ],
+                        "tag": "reporting_verbs"
                       },
                       {
                         "sentence": "If we had ___ the files, it wouldn't have happened. (check)",
@@ -695,7 +713,8 @@
                           [
                             "checked"
                           ]
-                        ]
+                        ],
+                        "tag": "third_conditional_regret"
                       },
                       {
                         "sentence": "I wish I ___ uploaded it.",
@@ -704,7 +723,8 @@
                             "hadn't",
                             "had not"
                           ]
-                        ]
+                        ],
+                        "tag": "third_conditional_regret"
                       }
                     ]
                   }
@@ -722,7 +742,8 @@
                           "Despite the rain we went out",
                           "In spite of the rain, we went out",
                           "We went out despite the rain"
-                        ]
+                        ],
+                        "tag": "contrast_linkers"
                       },
                       {
                         "source": "Sugirió probar las dos versiones.",
@@ -730,7 +751,8 @@
                           "He suggested testing both versions",
                           "She suggested testing both versions",
                           "He suggested trying both versions"
-                        ]
+                        ],
+                        "tag": "reporting_verbs"
                       },
                       {
                         "source": "Si me lo hubieras dicho, te habría ayudado.",
@@ -739,14 +761,16 @@
                           "If you had told me I would have helped you",
                           "If you'd told me, I'd have helped you",
                           "If you'd told me, I would have helped you"
-                        ]
+                        ],
+                        "tag": "third_conditional_regret"
                       },
                       {
                         "source": "Ojalá me hubiera quedado.",
                         "answers": [
                           "I wish I had stayed",
                           "I wish I'd stayed"
-                        ]
+                        ],
+                        "tag": "third_conditional_regret"
                       }
                     ]
                   }

@@ -71,6 +71,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "contrast_linkers",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -103,7 +104,8 @@
                           "no estamos de acuerdo",
                           "nos miramos a los ojos"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "vocab_idioms"
                       }
                     ]
                   }
@@ -210,6 +212,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "contrast_linkers",
                     "instructions": "Completa con el conector correcto.",
                     "items": [
                       {
@@ -277,7 +280,8 @@
                           [
                             "eye"
                           ]
-                        ]
+                        ],
+                        "tag": "vocab_idioms"
                       }
                     ]
                   }
@@ -286,6 +290,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
+                    "tag": "contrast_linkers",
                     "instructions": "Une las frases con el conector indicado.",
                     "items": [
                       {
@@ -327,6 +332,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "formal_markers",
                     "instructions": "Completa con el marcador adecuado.",
                     "items": [
                       {
@@ -393,6 +399,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "contrast_linkers",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -427,14 +434,16 @@
                           "We don't see eye to eye",
                           "We don't agree",
                           "We disagree"
-                        ]
+                        ],
+                        "tag": "vocab_idioms"
                       },
                       {
                         "source": "Has dado en el clavo.",
                         "answers": [
                           "You've hit the nail on the head",
                           "You have hit the nail on the head"
-                        ]
+                        ],
+                        "tag": "vocab_idioms"
                       }
                     ]
                   }

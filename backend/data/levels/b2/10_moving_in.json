@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "verb_patterns",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -213,6 +214,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "verb_patterns",
                     "instructions": "Completa con «-ing» o «to» + verbo.",
                     "items": [
                       {
@@ -286,6 +288,7 @@
                   "phase": "practice",
                   "type": "match_pairs",
                   "content": {
+                    "tag": "verb_patterns",
                     "instructions": "Une cada expresión con su significado.",
                     "pairs": [
                       {
@@ -319,6 +322,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "used_to_forms",
                     "instructions": "Completa con la forma correcta («used», «get», «-ing»…).",
                     "items": [
                       {
@@ -367,7 +371,8 @@
                           [
                             "used"
                           ]
-                        ]
+                        ],
+                        "tag": "past_habits"
                       }
                     ]
                   }
@@ -376,6 +381,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "verb_patterns",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

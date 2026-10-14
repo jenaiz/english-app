@@ -75,6 +75,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "future_forms",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -108,7 +109,8 @@
                           "in the front row",
                           "next to Lucía"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -205,6 +207,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "future_forms",
                     "instructions": "Completa con future continuous o future perfect.",
                     "items": [
                       {
@@ -278,6 +281,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "future_forms",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -302,6 +306,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "future_forms",
                     "instructions": "Completa con «been», «have», «in case» o «if».",
                     "items": [
                       {
@@ -359,6 +364,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "future_forms",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

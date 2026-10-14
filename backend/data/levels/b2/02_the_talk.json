@@ -75,6 +75,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "deduction_present",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -109,7 +110,8 @@
                           "twenty-four",
                           "four"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -206,6 +208,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "deduction_present",
                     "instructions": "Completa con «must», «might» / «could» o «can't».",
                     "items": [
                       {
@@ -287,6 +290,7 @@
                   "phase": "practice",
                   "type": "match_pairs",
                   "content": {
+                    "tag": "deduction_present",
                     "instructions": "Une cada frase con su significado.",
                     "pairs": [
                       {
@@ -316,6 +320,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "had_better_rather",
                     "instructions": "Completa con «better», «rather», «not» o el verbo correcto.",
                     "items": [
                       {
@@ -373,6 +378,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "deduction_present",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

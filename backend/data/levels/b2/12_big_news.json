@@ -83,6 +83,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "relative_non_defining",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -215,6 +216,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "relative_non_defining",
                     "instructions": "Completa con «who», «which», «whose» o «whom».",
                     "items": [
                       {
@@ -288,6 +290,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
+                    "tag": "relative_non_defining",
                     "instructions": "Une las frases con una oración explicativa.",
                     "items": [
                       {
@@ -322,6 +325,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "intensifier_collocations",
                     "instructions": "Completa con «absolutely», «very», «highly» o «deeply».",
                     "items": [
                       {
@@ -388,6 +392,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "relative_non_defining",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -620,7 +625,8 @@
                           "working",
                           "to work"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "verb_patterns"
                       },
                       {
                         "question": "Don't forget ___ the lights.",
@@ -628,7 +634,8 @@
                           "to turn off",
                           "turning off"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "verb_patterns"
                       },
                       {
                         "question": "I regret not ___ harder at school.",
@@ -636,7 +643,8 @@
                           "studying",
                           "to study"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "verb_patterns"
                       },
                       {
                         "question": "We stopped ___ a photo of the view. (para)",
@@ -644,7 +652,8 @@
                           "to take",
                           "taking"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "verb_patterns"
                       },
                       {
                         "question": "If I hadn't missed the bus, I ___ be here now.",
@@ -652,7 +661,8 @@
                           "wouldn't",
                           "wouldn't have"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "mixed_conditionals"
                       },
                       {
                         "question": "If he weren't so shy, he ___ asked her out.",
@@ -660,7 +670,8 @@
                           "would have",
                           "would"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "mixed_conditionals"
                       },
                       {
                         "question": "My boss, ___ is from Leeds, is very funny.",
@@ -668,7 +679,8 @@
                           "who",
                           "that"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "relative_non_defining"
                       },
                       {
                         "question": "He lost his keys, ___ was a disaster.",
@@ -676,7 +688,8 @@
                           "which",
                           "what"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "relative_non_defining"
                       }
                     ]
                   }
@@ -693,7 +706,8 @@
                           [
                             "meeting"
                           ]
-                        ]
+                        ],
+                        "tag": "verb_patterns"
                       },
                       {
                         "sentence": "I'll try ___ be on time.",
@@ -701,7 +715,8 @@
                           [
                             "to"
                           ]
-                        ]
+                        ],
+                        "tag": "verb_patterns"
                       },
                       {
                         "sentence": "If I hadn't taken that job, I wouldn't ___ here.",
@@ -709,7 +724,8 @@
                           [
                             "be"
                           ]
-                        ]
+                        ],
+                        "tag": "mixed_conditionals"
                       },
                       {
                         "sentence": "If I ___ so lazy, I would have passed. (be, negativa)",
@@ -718,7 +734,8 @@
                             "weren't",
                             "wasn't"
                           ]
-                        ]
+                        ],
+                        "tag": "mixed_conditionals"
                       },
                       {
                         "sentence": "Mark, ___ company is huge, made an offer.",
@@ -726,7 +743,8 @@
                           [
                             "whose"
                           ]
-                        ]
+                        ],
+                        "tag": "relative_non_defining"
                       },
                       {
                         "sentence": "our clients, most of ___ know you",
@@ -734,7 +752,8 @@
                           [
                             "whom"
                           ]
-                        ]
+                        ],
+                        "tag": "relative_non_defining"
                       }
                     ]
                   }
@@ -749,7 +768,8 @@
                         "source": "Deja de dejar los calcetines por todas partes.",
                         "answers": [
                           "Stop leaving your socks everywhere"
-                        ]
+                        ],
+                        "tag": "verb_patterns"
                       },
                       {
                         "source": "Si no hubiera aceptado ese trabajo, no estaría aquí.",
@@ -758,20 +778,23 @@
                           "If I hadn't accepted that job, I wouldn't be here",
                           "If I had not taken that job, I would not be here",
                           "If I hadn't taken that job I wouldn't be here"
-                        ]
+                        ],
+                        "tag": "mixed_conditionals"
                       },
                       {
                         "source": "Mi marido, que es muy paciente, quiere viajar.",
                         "answers": [
                           "My husband, who is very patient, wants to travel"
-                        ]
+                        ],
+                        "tag": "relative_non_defining"
                       },
                       {
                         "source": "Quiere su propio estudio, lo cual no me sorprende.",
                         "answers": [
                           "She wants her own studio, which doesn't surprise me",
                           "She wants her own studio, which does not surprise me"
-                        ]
+                        ],
+                        "tag": "relative_non_defining"
                       }
                     ]
                   }
