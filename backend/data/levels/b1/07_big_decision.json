@@ -117,6 +117,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "second_conditional",
                     "title": "Second conditional",
                     "explanation": "El segundo condicional habla de situaciones imaginarias o poco probables, en el presente o en el futuro: If + past simple, would + verbo. If I went, I'd have to leave the pub.\n\nAunque el verbo está en pasado, no hablamos del pasado: «si fuera», «si tuviera».\n\nPara dar consejos: If I were you, I'd… (were sirve para todas las personas).\n\nCompáralo con el primer condicional, que habla de algo posible y real: If you promise to visit me, I'll go.",
                     "table": {
@@ -165,6 +166,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "third_conditional",
                     "title": "Third conditional",
                     "explanation": "El tercer condicional imagina un pasado diferente, algo que ya no se puede cambiar: If + past perfect, would have + participio. If Sam hadn't played that gig, the producer wouldn't have heard him (si no hubiera tocado, no le habría oído).\n\nSirve para hablar de lo que pudo ser y para lamentarse: If I had known, I would have helped you.\n\nContracciones habituales: If I'd known… = If I had known; I would've = I would have. En la conversación «would have» suena /wʊdəv/.\n\nCompara los tres:\n• 1.º (real, futuro): If he goes, he'll be famous.\n• 2.º (imaginario, presente): If he went, he'd be famous.\n• 3.º (imaginario, pasado): If he had gone, he would have been famous.",
                     "table": {

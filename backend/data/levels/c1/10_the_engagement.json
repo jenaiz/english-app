@@ -136,6 +136,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "ellipsis",
                     "title": "Ellipsis and substitution",
                     "explanation": "En la conversación los nativos evitan repetir lo que ya está claro:\n• so / not sustituyen una frase entera: I hope so. I think so. I'd rather not. I hope not.\n• El auxiliar solo: Would you like to cook? — I would. You'll be my bridesmaid? — Of course I will.\n• to sin verbo: If you'd like to. I'd have loved to. if you want us to.\n• So / Neither + auxiliar + sujeto: So would half the nurses. Neither have I.\n• Preguntas cortas: Have you and Daniel? (chosen a date)\n\nResponder con la frase completa («Yes, I would like to cook») suena muy poco natural.",
                     "table": {
@@ -184,6 +185,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "vague_language",
                     "title": "Vague language: sort of, or so, -ish, or something",
                     "explanation": "En la conversación los nativos no siempre son exactos, y sonar demasiado preciso puede resultar frío. El lenguaje aproximativo suaviza y aproxima:\n\n• Cantidades: about / around / roughly 500, 500 or so, 30-odd people (unos treinta y pico), dozens of, loads of.\n• Horas y edades con -ish: Let's meet at sevenish. He's fortyish.\n• Adjetivos con -ish o kind of / sort of: It's greenish. I'm kind of nervous. It's sort of a party, sort of a dinner.\n• Listas abiertas: and stuff, and things like that, or something (like that), and so on: We need flowers, music and stuff. Let's have tapas or something.\n• Cosas cuyo nombre no recordamos: the thingy, whatsit: Pass me the thingy for the cake.\n\nOjo: en un correo formal o un informe, este registro es demasiado informal; usa approximately o around.",
                     "table": {

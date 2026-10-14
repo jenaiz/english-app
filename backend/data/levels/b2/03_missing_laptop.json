@@ -121,6 +121,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "past_modals",
                     "title": "Modals of deduction: past",
                     "explanation": "Para deducir qué pasó usamos modal + have + participio:\n• must have = seguro que pasó: You must have left it somewhere.\n• can't have = seguro que no pasó: I can't have left it in the taxi.\n• might / may / could have = quizá pasó: You might have left it in the taxi.\n\nOtros usos muy frecuentes:\n• could have = era posible, pero no pasó: I could have lost the whole demo.\n• should have / shouldn't have = crítica o arrepentimiento: You should have kept it in your bag.",
                     "table": {
@@ -174,6 +175,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "past_modals",
                     "title": "needn't have, didn't need to, could have",
                     "explanation": "Needn't have + participio: hiciste algo que al final no hacía falta: You needn't have worried. The laptop was safe (te preocupaste, pero no hacía falta).\n\nDidn't need to + verbo: no era necesario, y normalmente no se hizo: We didn't need to call the police, because the receptionist had it.\n\nCould have + participio tiene dos usos más: algo que pudo pasar y no pasó (I could have lost the whole demo) y un reproche (You could have told me! = podrías habérmelo dicho).\n\nShould + verbo también expresa lo que esperamos que pase: The taxi should be here in five minutes. Y en pasado: The parcel should have arrived by now (debería haber llegado ya, y no ha llegado).",
                     "table": {

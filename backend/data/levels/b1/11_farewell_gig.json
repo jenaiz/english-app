@@ -117,6 +117,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "narrative_tenses",
                     "title": "Past perfect and narrative tenses",
                     "explanation": "El past perfect (had + participio) cuenta algo que pasó antes de otro momento del pasado: When we arrived, the band had already started (primero empezó el grupo, luego llegamos).\n\nPara contar historias combinamos tres tiempos:\n• past simple para los hechos principales: We arrived late.\n• past continuous para la situación de fondo: Everyone was singing.\n• past perfect para lo que pasó antes: Daniel had left the tickets at home.\n\nPalabras frecuentes: already, never… before, by the time, because.",
                     "table": {
@@ -165,6 +166,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "should_have",
                     "title": "should have, might have · past perfect continuous",
                     "explanation": "Should have + participio es una crítica o un lamento sobre el pasado: You should have come! (deberías haber venido). Daniel shouldn't have left the tickets at home (no debería haberlas dejado).\n\nMight have / could have + participio dice que algo fue posible en el pasado, pero no sabemos si pasó: The producer might have recorded the concert. Y could have también es lo que pudo pasar y no pasó: We could have missed the start!\n\nPast perfect continuous (had been + -ing): una acción que duraba hasta un momento del pasado: The band had been playing for an hour when the electricity went off. Sam was tired because he had been practising all day.",
                     "table": {

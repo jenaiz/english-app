@@ -71,6 +71,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "like_ing",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -89,7 +90,8 @@
                           "him",
                           "his"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "pronouns_possessives"
                       },
                       {
                         "question": "Who hates shopping?",
@@ -98,7 +100,8 @@
                           "Priya",
                           "Lucía"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       },
                       {
                         "question": "Who says \"I don't like dancing. I like watching!\"?",
@@ -107,7 +110,8 @@
                           "Lucía",
                           "Sam"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -116,6 +120,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "like_ing",
                     "title": "like / love / hate + -ing and object pronouns",
                     "explanation": "Para hablar de gustos: love (encantar), like (gustar), don't like (no gustar), hate (odiar). Si detrás viene una actividad, el verbo va en -ing: I love dancing, He hates shopping.\n\nOrtografía del -ing: dance → dancing (pierde la -e), run → running y shop → shopping (doblan la consonante).\n\nLos pronombres objeto van detrás del verbo o de una preposición: I love it, She talks about you, Come with me. Nunca «I love she»: se dice I love her.",
                     "table": {
@@ -174,6 +179,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "like_ing",
                     "instructions": "Completa con la forma -ing o un pronombre objeto.",
                     "items": [
                       {
@@ -214,7 +220,8 @@
                           [
                             "him"
                           ]
-                        ]
+                        ],
+                        "tag": "pronouns_possessives"
                       },
                       {
                         "sentence": "Priya is very kind. We love ___.",
@@ -222,7 +229,8 @@
                           [
                             "her"
                           ]
-                        ]
+                        ],
+                        "tag": "pronouns_possessives"
                       },
                       {
                         "sentence": "The band? We love ___!",
@@ -230,7 +238,8 @@
                           [
                             "it"
                           ]
-                        ]
+                        ],
+                        "tag": "pronouns_possessives"
                       },
                       {
                         "sentence": "Lucía talks about Daniel and Sam. She talks about ___ a lot.",
@@ -238,7 +247,8 @@
                           [
                             "them"
                           ]
-                        ]
+                        ],
+                        "tag": "pronouns_possessives"
                       }
                     ]
                   }
@@ -247,6 +257,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "like_ing",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -256,13 +267,15 @@
                         "answer": "Do you like live music?"
                       },
                       {
-                        "answer": "She talks about you a lot"
+                        "answer": "She talks about you a lot",
+                        "tag": "pronouns_possessives"
                       },
                       {
                         "answer": "Priya doesn't like dancing"
                       },
                       {
-                        "answer": "Come with me"
+                        "answer": "Come with me",
+                        "tag": "pronouns_possessives"
                       }
                     ]
                   }
@@ -271,6 +284,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "like_ing",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -304,7 +318,8 @@
                         "source": "Ella habla de él.",
                         "answers": [
                           "She talks about him"
-                        ]
+                        ],
+                        "tag": "pronouns_possessives"
                       }
                     ]
                   }
@@ -503,7 +518,8 @@
                           "works",
                           "working"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "present_simple"
                       },
                       {
                         "question": "___ Sam get up early?",
@@ -512,7 +528,8 @@
                           "Does",
                           "Is"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "present_simple"
                       },
                       {
                         "question": "Sam ___ gets up before ten. (0%)",
@@ -521,7 +538,8 @@
                           "never",
                           "often"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "frequency_adverbs"
                       },
                       {
                         "question": "The café is ___ the bank. (al lado)",
@@ -530,7 +548,8 @@
                           "between",
                           "opposite"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "place_imperatives"
                       },
                       {
                         "question": "___ left at the bank.",
@@ -539,7 +558,8 @@
                           "Turns",
                           "Turning"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "place_imperatives"
                       },
                       {
                         "question": "Daniel likes ___.",
@@ -548,7 +568,8 @@
                           "running",
                           "runs"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "like_ing"
                       },
                       {
                         "question": "Lucía talks about Daniel. She talks about ___.",
@@ -557,7 +578,8 @@
                           "him",
                           "his"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "pronouns_possessives"
                       },
                       {
                         "question": "'Bookshop' = …",
@@ -565,7 +587,8 @@
                           "librería",
                           "biblioteca"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "vocab_town"
                       }
                     ]
                   }
@@ -582,7 +605,8 @@
                           [
                             "goes"
                           ]
-                        ]
+                        ],
+                        "tag": "present_simple"
                       },
                       {
                         "sentence": "He doesn't ___ on Mondays. (work)",
@@ -590,7 +614,8 @@
                           [
                             "work"
                           ]
-                        ]
+                        ],
+                        "tag": "present_simple"
                       },
                       {
                         "sentence": "It's ___ the post office and the bookshop.",
@@ -598,7 +623,8 @@
                           [
                             "between"
                           ]
-                        ]
+                        ],
+                        "tag": "place_imperatives"
                       },
                       {
                         "sentence": "___ straight on.",
@@ -606,7 +632,8 @@
                           [
                             "Go"
                           ]
-                        ]
+                        ],
+                        "tag": "place_imperatives"
                       },
                       {
                         "sentence": "I hate ___. (shop)",
@@ -614,7 +641,8 @@
                           [
                             "shopping"
                           ]
-                        ]
+                        ],
+                        "tag": "like_ing"
                       },
                       {
                         "sentence": "Do you like Priya? — Yes, I like ___ a lot.",
@@ -622,7 +650,8 @@
                           [
                             "her"
                           ]
-                        ]
+                        ],
+                        "tag": "pronouns_possessives"
                       }
                     ]
                   }
@@ -637,26 +666,30 @@
                         "source": "Él nunca se levanta temprano.",
                         "answers": [
                           "He never gets up early"
-                        ]
+                        ],
+                        "tag": "frequency_adverbs"
                       },
                       {
                         "source": "¿Hay un banco cerca de aquí?",
                         "answers": [
                           "Is there a bank near here"
-                        ]
+                        ],
+                        "tag": "place_imperatives"
                       },
                       {
                         "source": "Me encanta cocinar.",
                         "answers": [
                           "I love cooking",
                           "I love to cook"
-                        ]
+                        ],
+                        "tag": "like_ing"
                       },
                       {
                         "source": "¿Trabaja Sam los viernes?",
                         "answers": [
                           "Does Sam work on Fridays"
-                        ]
+                        ],
+                        "tag": "present_simple"
                       }
                     ]
                   }

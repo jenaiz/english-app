@@ -122,6 +122,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "relative_clauses",
                     "title": "Relative clauses",
                     "explanation": "Las oraciones de relativo especifican de qué persona, cosa o lugar hablamos:\n• who → personas: Sam is the flatmate who's leaving.\n• which → cosas: It's the room which looks over the garden.\n• that → personas o cosas (más informal): the garden that Priya looks after.\n• where → lugares: the park where we play football.\n• whose → posesión: Ollie is the man whose aunt is Mrs Green.\n\nSi el pronombre es el objeto de la oración (no el sujeto), se puede omitir: the flatmate (who) we've been looking for. Si es el sujeto, no: the flatmate who's leaving.",
                     "table": {
@@ -175,6 +176,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "deduction",
                     "title": "Deduction: must, might, can't",
                     "explanation": "Para sacar conclusiones sobre el presente a partir de lo que sabemos:\n\n• must + verbo: estamos casi seguros de que es verdad. He's a chef. He must be a good cook (seguro que cocina bien).\n• might / may / could + verbo: es posible. He might be at work.\n• can't + verbo: estamos casi seguros de que no es verdad. He can't be from Spain, he's from Manchester.\n\nOjo: lo contrario de must (deducción) es can't, no «mustn't»: mustn't es una prohibición.\n\nCon una acción en curso se usa be + -ing: Sam must be practising, I can hear the guitar.",
                     "table": {

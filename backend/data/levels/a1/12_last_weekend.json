@@ -71,6 +71,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "past_simple",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -108,7 +109,8 @@
                           "Priya",
                           "Daniel"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -117,6 +119,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "past_simple",
                     "title": "Past simple: was / were and past verbs",
                     "explanation": "Para hablar del pasado usamos el past simple. El verbo be tiene dos formas: was (I, he, she, it) y were (you, we, they). Negativa: wasn't / weren't. Pregunta: Were you there alone? — No, I wasn't.\n\nLos verbos regulares añaden -ed y la forma es igual para todas las personas: visit → visited, walk → walked, cook → cooked, phone → phoned.\n\nMuchos verbos frecuentes son irregulares y hay que aprenderlos: go → went, buy → bought, have → had, see → saw, eat → ate, meet → met. Los tienes todos en la lista de verbos irregulares.\n\nPara preguntar: What did you do? (did + verbo en forma base).",
                     "table": {
@@ -175,6 +178,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "past_simple",
                     "instructions": "Completa con el verbo en pasado.",
                     "items": [
                       {
@@ -248,6 +252,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "past_simple",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -272,6 +277,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "past_simple",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -510,7 +516,8 @@
                           "cans",
                           "can to"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "can_could"
                       },
                       {
                         "question": "Can you swim? — No, I ___.",
@@ -519,7 +526,8 @@
                           "can't",
                           "isn't"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "can_could"
                       },
                       {
                         "question": "Look! It ___.",
@@ -528,7 +536,8 @@
                           "is snowing",
                           "snow"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "present_continuous"
                       },
                       {
                         "question": "What ___ you doing?",
@@ -537,7 +546,8 @@
                           "do",
                           "is"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "present_continuous"
                       },
                       {
                         "question": "Sam always ___ on Saturdays.",
@@ -546,7 +556,8 @@
                           "is sleeping",
                           "sleep"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "present_simple"
                       },
                       {
                         "question": "It ___ very windy yesterday.",
@@ -555,7 +566,8 @@
                           "was",
                           "were"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "past_simple"
                       },
                       {
                         "question": "I ___ to the market on Saturday.",
@@ -564,7 +576,8 @@
                           "went",
                           "goes"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "past_simple"
                       },
                       {
                         "question": "___ you at home yesterday?",
@@ -573,7 +586,8 @@
                           "Were",
                           "Did"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "past_simple"
                       }
                     ]
                   }
@@ -590,7 +604,8 @@
                           [
                             "Can"
                           ]
-                        ]
+                        ],
+                        "tag": "can_could"
                       },
                       {
                         "sentence": "I'm ___ a coat. (wear)",
@@ -598,7 +613,8 @@
                           [
                             "wearing"
                           ]
-                        ]
+                        ],
+                        "tag": "present_continuous"
                       },
                       {
                         "sentence": "Priya ___ working today.",
@@ -606,7 +622,8 @@
                           [
                             "is"
                           ]
-                        ]
+                        ],
+                        "tag": "present_continuous"
                       },
                       {
                         "sentence": "We ___ a big lunch. (cook)",
@@ -614,7 +631,8 @@
                           [
                             "cooked"
                           ]
-                        ]
+                        ],
+                        "tag": "past_simple"
                       },
                       {
                         "sentence": "I ___ some flowers. (buy)",
@@ -622,7 +640,8 @@
                           [
                             "bought"
                           ]
-                        ]
+                        ],
+                        "tag": "past_simple"
                       },
                       {
                         "sentence": "Daniel ___ his mam. (phone)",
@@ -630,7 +649,8 @@
                           [
                             "phoned"
                           ]
-                        ]
+                        ],
+                        "tag": "past_simple"
                       }
                     ]
                   }
@@ -647,26 +667,30 @@
                           "I can't run fast",
                           "I cannot run fast",
                           "I can't run very fast"
-                        ]
+                        ],
+                        "tag": "can_could"
                       },
                       {
                         "source": "Está lloviendo otra vez.",
                         "answers": [
                           "It's raining again",
                           "It is raining again"
-                        ]
+                        ],
+                        "tag": "present_continuous"
                       },
                       {
                         "source": "¿Qué hiciste?",
                         "answers": [
                           "What did you do"
-                        ]
+                        ],
+                        "tag": "past_simple"
                       },
                       {
                         "source": "Fue precioso.",
                         "answers": [
                           "It was beautiful"
-                        ]
+                        ],
+                        "tag": "past_simple"
                       }
                     ]
                   }

@@ -67,6 +67,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "to_be",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -116,6 +117,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "to_be",
                     "title": "The verb 'to be': I, you, we",
                     "explanation": "To be significa ser o estar. En inglés siempre hay que poner el sujeto: no se dice «Am from Spain», sino «I'm from Spain».\n\nAl hablar usamos casi siempre contracciones (I'm, you're, we're). En las respuestas cortas afirmativas no se contrae: «Are you tired? — Yes, I am» (nunca «Yes, I'm»).\n\nPara preguntar, el verbo va delante del sujeto: «Are you Lucía?». Con it (para cosas, el día o la hora) la forma es is: «It's Saturday».",
                     "table": {
@@ -169,6 +171,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "to_be",
                     "instructions": "Completa con am o are.",
                     "items": [
                       {
@@ -242,6 +245,7 @@
                   "phase": "practice",
                   "type": "match_pairs",
                   "content": {
+                    "tag": "vocab_personal",
                     "instructions": "Une cada país con su nacionalidad.",
                     "pairs": [
                       {
@@ -275,6 +279,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "to_be",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -303,7 +308,8 @@
                         "answers": [
                           "Nice to meet you",
                           "Pleased to meet you"
-                        ]
+                        ],
+                        "tag": "vocab_personal"
                       },
                       {
                         "source": "Somos amigos.",

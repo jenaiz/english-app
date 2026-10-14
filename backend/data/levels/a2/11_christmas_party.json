@@ -117,6 +117,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "would_like_verb_to",
                     "title": "would like and verb + to",
                     "explanation": "Would like es una forma educada de want. Va con un nombre (I'd like a glass of wine) o con to + verbo (I'd like to take you to a restaurant).\n\nWould you like…? sirve para ofrecer e invitar. Respuestas: Yes, please / I'd love to / No, thank you.\n\nOtros verbos también van seguidos de to + verbo: want, need, decide, hope, try, learn. Por ejemplo, I decided to fly on the twentieth.\n\nOjo con la diferencia: I like dancing (me gusta en general) / I'd like to dance (me apetece ahora).",
                     "table": {
@@ -163,6 +164,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "reflexives",
                     "title": "Reflexive pronouns: myself, yourself, ourselves",
                     "explanation": "Los pronombres reflexivos se usan cuando el sujeto y el objeto son la misma persona: I cut myself (me corté). Enjoy yourselves! (¡pasadlo bien!).\n\nTambién sirven para decir «yo mismo / sin ayuda»: I made the cake myself. Lucía did the designs herself.\n\nExpresiones muy comunes: Help yourself! (¡sírvete!), Enjoy yourself (pásalo bien), Look after yourself (cuídate), by myself (solo, sin nadie).\n\nOjo: en inglés muchos verbos que en español son reflexivos no lo son: I get up (me levanto), I feel tired (me siento cansado), I wash my hair (me lavo el pelo).",
                     "table": {

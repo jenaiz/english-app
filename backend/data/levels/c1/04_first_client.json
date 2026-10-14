@@ -113,6 +113,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "hedging",
                     "title": "Hedging and softening",
                     "explanation": "Hedging es suavizar lo que decimos para sonar prudente, educado y menos categórico. Es clave en negociaciones, en el mundo académico y en los correos formales. Recursos:\n• Frases introductorias: It would appear that…, It seems to me that…, There seems to be…\n• Modales: may well, might, could. That may well be the case.\n• Tend to + verbo: Our designs tend to bring in more bookings.\n• Adverbios: arguably, to some extent, roughly, rather, somewhat.\n• Negaciones suaves: I'm not entirely convinced, I'm not sure that…\n\nEn lugar de «You're wrong», mejor «I'm not entirely sure that's the case».",
                     "table": {

@@ -122,6 +122,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "past_simple",
                     "title": "Past simple: negatives and questions",
                     "explanation": "En negativa usamos didn't + verbo en forma base: I didn't go to university (nunca «I didn't went»).\n\nEn preguntas: Did + sujeto + verbo en forma base: Did you live near the sea? — Yes, I did / No, I didn't. Con palabras interrogativas: Why did you leave Spain?\n\nRecuerda los irregulares de esta unidad: grow → grew, give → gave, leave → left, go → went.\n\nExpresiones útiles: when I was six, three years ago, last summer, in 2015.",
                     "table": {
@@ -168,6 +169,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "used_to",
                     "title": "used to: past habits",
                     "explanation": "Used to + verbo describe hábitos o situaciones del pasado que ya no son así: We used to go to the beach every summer (íbamos a la playa todos los veranos; ahora no).\n\nEs igual para todas las personas: I / she / they used to live in Valencia.\n\nNegativa: didn't use to (sin -d): I didn't use to like coffee. Pregunta: Did you use to…?: Did you use to play the guitar?\n\nPara algo que pasó una sola vez se usa el past simple, no used to: My dad gave me a guitar when I was eight.",
                     "table": {

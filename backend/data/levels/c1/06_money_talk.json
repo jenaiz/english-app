@@ -113,6 +113,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "conditionals_without_if",
                     "title": "Conditionals without if",
                     "explanation": "En negociaciones y textos formales se usan alternativas a if:\n• provided (that) / providing / as long as: siempre que.\n• on condition that: con la condición de que.\n• unless: a menos que.\n• supposing / assuming: suponiendo que.\n• otherwise: si no, de lo contrario.\n• but for + nombre: de no ser por. But for your pilot, we'd never have got this far.\n\nCondicionales con inversión (más formales, sin if): Should he make an offer… (= If he makes an offer). Were I in your position… (= If I were…). Had I known… (= If I had known…).",
                     "table": {

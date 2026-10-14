@@ -117,6 +117,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "future_plans",
                     "title": "be going to",
                     "explanation": "Be going to + verbo expresa planes e intenciones que ya hemos decidido: I'm going to book the tickets tonight.\n\nTambién sirve para predicciones cuando vemos una prueba: Look at those clouds! It's going to rain.\n\nNegativa: I'm not going to walk all day. Pregunta: Are we going to stay at Ciarán's flat? — Yes, we are / No, we aren't.\n\nExpresiones de futuro: tonight, tomorrow, next weekend, on Saturday.",
                     "table": {
@@ -159,6 +160,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "future_plans",
                     "title": "Arrangements: present continuous · Shall we…?",
                     "explanation": "Para planes ya organizados (con día, hora o billetes) se usa mucho el present continuous con una expresión de futuro: We're going to London next weekend. Sam's band is playing at a wedding on Saturday.\n\nCompáralo con be going to, que expresa una intención: I'm going to visit the British Museum (quiero / tengo pensado). Muchas veces valen los dos.\n\nPara hacer sugerencias u ofrecerse se usa Shall I / Shall we + verbo: Shall we take the train? (¿cogemos el tren?) Shall I book the tickets? (¿reservo yo los billetes?). Para contestar: Good idea! / Yes, please. / No, thanks.",
                     "table": {

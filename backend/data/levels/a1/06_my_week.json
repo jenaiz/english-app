@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "present_simple",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -115,7 +116,8 @@
                           "on foot",
                           "by car"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -124,6 +126,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "present_simple",
                     "title": "Present simple: I, you, we, they",
                     "explanation": "El present simple describe rutinas, hábitos y cosas que son verdad en general: I get up at seven. Con I, you, we y they el verbo no cambia.\n\nNegativa: don't (do not) + verbo: I don't study. Pregunta: Do + sujeto + verbo: Do you eat together? Respuestas cortas: Yes, we do / No, we don't.\n\nCon palabras interrogativas: What do you do in the evenings?",
                     "table": {
@@ -172,6 +175,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "linking_words",
                     "title": "Linking words: and, but, or, because",
                     "explanation": "Para unir dos ideas en una frase usamos conectores:\n\nAnd (y) añade información: I study English and I watch TV.\n\nBut (pero) presenta un contraste: I like Bristol, but it rains a lot.\n\nOr (o) da opciones: Do you go by bus or on foot? En negativas también se usa or: I don't drink tea or coffee.\n\nBecause (porque) da la razón: I go by bus because the office is far. Para preguntar la razón usamos Why…?: Why do you go by bus? — Because the office is far.",
                     "table": {
@@ -215,6 +219,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "present_simple",
                     "instructions": "Completa con el verbo correcto.",
                     "items": [
                       {
@@ -290,6 +295,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "present_simple",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -314,6 +320,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "linking_words",
                     "instructions": "Completa con and, but, or o because.",
                     "items": [
                       {
@@ -371,6 +378,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "present_simple",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -612,7 +620,8 @@
                           "What",
                           "How"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "questions"
                       },
                       {
                         "question": "10:30 → It's ___ ten.",
@@ -621,7 +630,8 @@
                           "quarter past",
                           "half to"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "vocab_daily"
                       },
                       {
                         "question": "The meeting is ___ nine o'clock.",
@@ -630,7 +640,8 @@
                           "on",
                           "at"
                         ],
-                        "answer": 2
+                        "answer": 2,
+                        "tag": "time_prepositions"
                       },
                       {
                         "question": "___ there any milk?",
@@ -639,7 +650,8 @@
                           "Are",
                           "Do"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "there_is_some_any"
                       },
                       {
                         "question": "There are ___ burgers.",
@@ -648,7 +660,8 @@
                           "some",
                           "a"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "there_is_some_any"
                       },
                       {
                         "question": "Do you work on Saturdays? — No, I ___.",
@@ -657,7 +670,8 @@
                           "doesn't",
                           "am not"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "present_simple"
                       },
                       {
                         "question": "We ___ breakfast at eight.",
@@ -666,7 +680,8 @@
                           "have",
                           "having"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "present_simple"
                       },
                       {
                         "question": "Have you got a laptop? — Yes, I ___.",
@@ -675,7 +690,8 @@
                           "have",
                           "do"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "questions"
                       }
                     ]
                   }
@@ -692,7 +708,8 @@
                           [
                             "How"
                           ]
-                        ]
+                        ],
+                        "tag": "questions"
                       },
                       {
                         "sentence": "___ a café near the office.",
@@ -701,7 +718,8 @@
                             "There's",
                             "There is"
                           ]
-                        ]
+                        ],
+                        "tag": "there_is_some_any"
                       },
                       {
                         "sentence": "Is there ___ wine?",
@@ -709,7 +727,8 @@
                           [
                             "any"
                           ]
-                        ]
+                        ],
+                        "tag": "there_is_some_any"
                       },
                       {
                         "sentence": "I ___ to work by bus.",
@@ -717,7 +736,8 @@
                           [
                             "go"
                           ]
-                        ]
+                        ],
+                        "tag": "present_simple"
                       },
                       {
                         "sentence": "___ you eat together on Fridays?",
@@ -725,7 +745,8 @@
                           [
                             "Do"
                           ]
-                        ]
+                        ],
+                        "tag": "present_simple"
                       },
                       {
                         "sentence": "I ___ study on Sundays.",
@@ -734,7 +755,8 @@
                             "don't",
                             "do not"
                           ]
-                        ]
+                        ],
+                        "tag": "present_simple"
                       }
                     ]
                   }
@@ -749,7 +771,8 @@
                         "source": "¿A qué hora es la comida?",
                         "answers": [
                           "What time is lunch"
-                        ]
+                        ],
+                        "tag": "questions"
                       },
                       {
                         "source": "No hay pan.",
@@ -757,19 +780,22 @@
                           "There isn't any bread",
                           "There is no bread",
                           "There's no bread"
-                        ]
+                        ],
+                        "tag": "there_is_some_any"
                       },
                       {
                         "source": "Termino a las cinco y media.",
                         "answers": [
                           "I finish at half past five"
-                        ]
+                        ],
+                        "tag": "present_simple"
                       },
                       {
                         "source": "¿Dónde trabajas?",
                         "answers": [
                           "Where do you work"
-                        ]
+                        ],
+                        "tag": "questions"
                       }
                     ]
                   }

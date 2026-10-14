@@ -113,6 +113,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "past_modals",
                     "title": "needn't have, would rather, had better",
                     "explanation": "• needn't have + participio: hicimos algo que no era necesario. We needn't have advertised.\n• didn't need to + verbo: no era necesario (y normalmente no lo hicimos). We didn't need to advertise, so we didn't.\n• needn't + verbo: no hace falta (presente). You needn't come to the interviews.\n• would rather + verbo: preferir. I'd rather be there.\n• would rather + otro sujeto + pasado: preferir que otro… I'd rather we hired a designer.\n• had better (not) + verbo: más vale que…, consejo con advertencia. We'd better decide soon.",
                     "table": {

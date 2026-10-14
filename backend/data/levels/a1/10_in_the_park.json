@@ -75,6 +75,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "can_could",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -110,7 +111,8 @@
                           "Helen",
                           "Daniel"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -119,6 +121,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "can_could",
                     "title": "can / can't",
                     "explanation": "Can expresa habilidad (I can play football = sé jugar al fútbol) y también permiso o petición (Can I be the goalkeeper? = ¿puedo…?).\n\nEs igual para todas las personas (he can, nunca «he cans») y va seguido del verbo sin to: She can swim (no «She can to swim»).\n\nNegativa: can't (cannot). Pregunta: Can you…? — Yes, I can / No, I can't.\n\nPronunciación: en afirmativa can suena débil, /kən/; can't suena fuerte, /kɑːnt/.",
                     "table": {
@@ -165,6 +168,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "can_could",
                     "title": "could / couldn't · very and really",
                     "explanation": "Could es el pasado de can para la habilidad: I could swim when I was six (sabía nadar). Negativa: couldn't. Pregunta: Could you…?\n\nCould también sirve para pedir algo con más educación que can: Could you help me, please? Could I have some water?\n\nVery y really refuerzan un adjetivo o un adverbio: very fast, really good, really well. Van delante de la palabra que refuerzan. Not very suaviza: I can't run very fast (no corro muy rápido).",
                     "table": {
@@ -208,6 +212,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "can_could",
                     "instructions": "Completa con can o can't.",
                     "items": [
                       {
@@ -275,6 +280,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "can_could",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -299,6 +305,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "can_could",
                     "instructions": "Completa la frase.",
                     "items": [
                       {
@@ -359,6 +366,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "can_could",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

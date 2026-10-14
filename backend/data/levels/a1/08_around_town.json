@@ -71,6 +71,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "place_imperatives",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -109,7 +110,8 @@
                           "Where are you?"
                         ],
                         "answer": 0,
-                        "explanation": "Expresión irlandesa muy coloquial."
+                        "explanation": "Expresión irlandesa muy coloquial.",
+                        "tag": ""
                       }
                     ]
                   }
@@ -118,6 +120,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "place_imperatives",
                     "title": "Prepositions of place and the imperative",
                     "explanation": "Las preposiciones de lugar dicen dónde está algo: The supermarket is next to a café. Con calles se usa on: on Park Street.\n\nPara dar indicaciones usamos el imperativo, es decir, el verbo sin sujeto: Go straight on. Turn left. Take the second right. En negativo, con don't: Don't turn right.\n\nPara preguntar: Is there a … near here? o Excuse me, where's the …?\n\nOjo con un falso amigo: bookshop = librería; library = biblioteca.",
                     "table": {
@@ -176,6 +179,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "comparatives",
                     "title": "Comparing places: bigger than, the biggest",
                     "explanation": "Para comparar dos cosas usamos el adjetivo + -er + than: The supermarket is bigger than the corner shop. Con adjetivos largos se pone more delante: The park is more beautiful than the square.\n\nPara decir que algo es «el más…» de un grupo usamos the + adjetivo + -est: It's the biggest supermarket in Bristol. Con adjetivos largos: the most beautiful.\n\nCambios de ortografía: big → bigger (se dobla la consonante), nice → nicer, easy → easier.\n\nIrregulares: good → better → the best; bad → worse → the worst; far → further → the furthest.",
                     "table": {
@@ -224,6 +228,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "place_imperatives",
                     "instructions": "Completa la frase.",
                     "items": [
                       {
@@ -298,6 +303,7 @@
                   "phase": "practice",
                   "type": "match_pairs",
                   "content": {
+                    "tag": "vocab_town",
                     "instructions": "Une cada lugar con su traducción.",
                     "pairs": [
                       {
@@ -335,6 +341,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "comparatives",
                     "instructions": "Escribe la forma correcta del adjetivo.",
                     "items": [
                       {
@@ -393,6 +400,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "place_imperatives",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

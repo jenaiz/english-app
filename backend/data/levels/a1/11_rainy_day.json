@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "present_continuous",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -114,7 +115,8 @@
                           "an umbrella",
                           "a coffee"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -123,6 +125,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "present_continuous",
                     "title": "Present continuous",
                     "explanation": "El present continuous describe lo que está pasando ahora: It's raining, I'm wearing a jumper. Se forma con am / is / are + verbo en -ing.\n\nNegativa: I'm not smiling! Pregunta: What are you doing? Are you smiling?\n\nCompáralo con el present simple, que es para rutinas: Sam always sleeps on Saturdays (rutina) / Sam is sleeping now (ahora). Pistas: now, right now, at the moment, Look! → continuous; always, usually, every day → simple.",
                     "table": {
@@ -165,6 +168,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "going_to",
                     "title": "be going to: plans",
                     "explanation": "Be going to + verbo sirve para hablar de planes e intenciones: I'm going to watch a film this afternoon (voy a ver una película).\n\nSe forma con am / is / are + going to + verbo: She's going to visit her family. Negativa: I'm not going to go out. Pregunta: What are you going to do? Are you going to stay at home?\n\nSuele ir con expresiones de futuro: this afternoon, tonight, tomorrow, next week, at the weekend.",
                     "table": {
@@ -203,6 +207,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "present_continuous",
                     "instructions": "Completa con el present continuous o el present simple.",
                     "items": [
                       {
@@ -276,6 +281,7 @@
                   "phase": "practice",
                   "type": "match_pairs",
                   "content": {
+                    "tag": "vocab_free_time",
                     "instructions": "Une cada palabra con su traducción.",
                     "pairs": [
                       {
@@ -317,6 +323,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "going_to",
                     "instructions": "Completa con la forma de be going to.",
                     "items": [
                       {
@@ -376,6 +383,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "present_continuous",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

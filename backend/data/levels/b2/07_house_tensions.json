@@ -121,6 +121,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "wish_if_only",
                     "title": "wish and if only",
                     "explanation": "Wish expresa que algo fuera distinto. El tiempo verbal da un paso atrás:\n• wish + past simple: una situación presente que nos gustaría cambiar: I wish I had more time.\n• wish + could: una habilidad que no tenemos: I wish I could cook like him.\n• wish + would: un hábito de otra persona que nos molesta: I wish he wouldn't cook at two a.m. (no se usa con I).\n• wish + past perfect: arrepentimiento por el pasado: I wish I'd known earlier.\n\nIf only funciona igual, pero es más enfático: If only all problems were this easy.",
                     "table": {
@@ -169,6 +170,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "always_so_neither",
                     "title": "always + -ing · So do I, Neither do I",
                     "explanation": "El present continuous con always (o constantly, forever) expresa un hábito que nos molesta: Ollie is always cooking at two in the morning! He's constantly leaving pans in the sink. En past continuous, un hábito molesto del pasado: Sam was always playing the guitar at midnight.\n\nPara decir que a nosotros nos pasa lo mismo, usamos el auxiliar de la frase:\n• Frase afirmativa → So + auxiliar + sujeto: I'm tired. — So am I. I love his food. — So do I.\n• Frase negativa → Neither / Nor + auxiliar + sujeto: I can't sleep. — Neither can I. I didn't hear him. — Neither did I.\n\nSi no estamos de acuerdo, se invierte: I love his food. — I don't! / I can't cook. — I can!",
                     "table": {

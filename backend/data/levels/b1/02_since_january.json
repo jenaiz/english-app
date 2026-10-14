@@ -121,6 +121,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "present_perfect_continuous",
                     "title": "Present perfect continuous: for and since",
                     "explanation": "Have / has been + -ing describe una actividad que empezó en el pasado y continúa ahora, o que acaba de terminar y se nota: I've been studying since six. You look tired, have you been running?\n\nPara preguntar cuánto tiempo: How long have you been studying?\n\nFor + periodo (for weeks, for two hours, for years). Since + momento de inicio (since six o'clock, since January, since 2020).\n\nUsamos el present perfect simple cuando contamos (We've been out three times) y con verbos de estado (I've wanted this job for years, I've known him since September).",
                     "table": {
@@ -171,6 +172,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "be_able_gerund",
                     "title": "be able to · -ing as a subject",
                     "explanation": "Can solo tiene presente (can) y pasado (could). Para los demás tiempos se usa be able to: I'll be able to buy a car (podré). I haven't been able to sleep (no he podido dormir). I'd like to be able to speak Irish.\n\nPara un logro concreto en el pasado, con esfuerzo, se usa was / were able to (no could): After three hours, I was able to finish the exam.\n\nEl gerundio (-ing) funciona como un nombre y puede ser el sujeto de la frase: Studying for exams is exhausting. Playing the guitar relaxes me. En español usamos el infinitivo («estudiar es agotador»), pero en inglés va en -ing (no «To study is…» en el habla normal).",
                     "table": {

@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "questions",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -88,7 +89,8 @@
                           "It's half nine past.",
                           "At nine half."
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "time_prepositions"
                       },
                       {
                         "question": "Where is Daniel from?",
@@ -97,7 +99,8 @@
                           "Dublin",
                           "Bristol"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       },
                       {
                         "question": "\"Have you got your laptop?\" — …",
@@ -116,7 +119,8 @@
                           "7:30",
                           "8:15"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "vocab_daily"
                       }
                     ]
                   }
@@ -125,6 +129,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "questions",
                     "title": "Wh- questions, the time and have got",
                     "explanation": "Las preguntas con what, where, who, when o how van seguidas del verbo be: What's your name?, Where are you from?, How are you?\n\nLa hora: It's nine o'clock (9:00), It's half past nine (9:30), It's quarter past ten (10:15), It's quarter to ten (9:45), It's ten past nine (9:10). Para decir a qué hora es algo usamos at: The meeting is at half past nine. Con los días usamos on: on Friday.\n\nHave got expresa posesión en inglés británico: Have you got a laptop? — Yes, I have / No, I haven't. Con he/she: has got.",
                     "table": {
@@ -183,6 +188,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "time_prepositions",
                     "title": "Prepositions of time: in, on, at",
                     "explanation": "Para decir cuándo pasa algo usamos tres preposiciones:\n\nAt con horas y momentos concretos: at nine o'clock, at half past nine, at lunchtime, at the weekend, at night.\n\nOn con días y fechas: on Friday, on Monday morning, on 14th March, on my birthday.\n\nIn con partes del día, meses, estaciones y años: in the morning, in the evening, in March, in summer, in 2026.\n\nOjo: decimos in the morning pero at night, y on Friday morning (día + parte del día lleva on).",
                     "table": {
@@ -226,6 +232,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "questions",
                     "instructions": "Completa con la palabra correcta.",
                     "items": [
                       {
@@ -274,7 +281,8 @@
                           [
                             "at"
                           ]
-                        ]
+                        ],
+                        "tag": "time_prepositions"
                       },
                       {
                         "sentence": "The meeting is ___ Monday.",
@@ -282,7 +290,8 @@
                           [
                             "on"
                           ]
-                        ]
+                        ],
+                        "tag": "time_prepositions"
                       },
                       {
                         "sentence": "___ you got a laptop? — Yes, I have.",
@@ -299,6 +308,7 @@
                   "phase": "practice",
                   "type": "match_pairs",
                   "content": {
+                    "tag": "vocab_daily",
                     "instructions": "Une cada hora o número con su forma en inglés.",
                     "pairs": [
                       {
@@ -336,6 +346,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "time_prepositions",
                     "instructions": "Completa con in, on o at.",
                     "items": [
                       {
@@ -401,6 +412,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "questions",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -415,14 +427,16 @@
                         "answers": [
                           "It's half past nine",
                           "It is half past nine"
-                        ]
+                        ],
+                        "tag": "vocab_daily"
                       },
                       {
                         "source": "La reunión es a las diez.",
                         "answers": [
                           "The meeting is at ten",
                           "The meeting is at ten o'clock"
-                        ]
+                        ],
+                        "tag": "time_prepositions"
                       },
                       {
                         "source": "¿Dónde está mi mesa?",
@@ -442,7 +456,8 @@
                         "source": "El viernes es el día de la pizza.",
                         "answers": [
                           "Friday is pizza day"
-                        ]
+                        ],
+                        "tag": "vocab_daily"
                       }
                     ]
                   }

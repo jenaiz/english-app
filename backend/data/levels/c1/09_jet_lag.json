@@ -116,6 +116,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "future_in_past",
                     "title": "The future in the past",
                     "explanation": "Para hablar del futuro desde un punto del pasado:\n• was / were going to: plan del pasado, a menudo no cumplido. You were going to call me on Tuesday!\n• was about to: a punto de. I was about to call you when…\n• would: futuro visto desde el pasado. I was sure Mark would say no.\n• was / were supposed to: lo previsto, que no se cumplió. We were supposed to have a short meeting.\n• was to (narrativo y formal): lo que iba a ocurrir después, como si fuera el destino. I had no idea I was to come back as a business owner.\n• was due to: estaba programado.",
                     "table": {
@@ -169,6 +170,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "false_friends",
                     "title": "False friends: actually, eventually, sensible, embarrassed",
                     "explanation": "Los falsos amigos se parecen a una palabra española pero significan otra cosa. A nivel C1 se espera no confundirlos:\n• actually = en realidad (no «actualmente», que es currently / at the moment).\n• eventually = finalmente, al final (no «eventualmente»).\n• sensible = sensato (sensible en español es sensitive).\n• embarrassed = avergonzado (embarazada es pregnant).\n• assist = ayudar (asistir a algo es attend).\n• library = biblioteca (librería es bookshop).\n• carpet = moqueta, alfombra (carpeta es folder).\n• realise = darse cuenta (realizar es carry out / do).\n• constipated = estreñido (constipado es have a cold).\n• argument = discusión, pelea; también argumento de una tesis (el argumento de una película es plot).\n• exit = salida (éxito es success).",
                     "table": {

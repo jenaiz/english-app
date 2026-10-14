@@ -124,6 +124,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "relative_non_defining",
                     "title": "Non-defining relative clauses",
                     "explanation": "Las oraciones de relativo explicativas añaden información extra sobre algo que ya está identificado. Van entre comas y:\n• no admiten that: Harbour Studio, which I started… (nunca «, that I started»)\n• no se puede omitir el pronombre.\n\nWhich puede referirse a toda la frase anterior: You want your own studio, which doesn't surprise me (= lo cual).\n\nCon cuantificadores: most of whom (personas), some of which (cosas): our clients, most of whom ask for you by name.\n\nSon muy frecuentes en registro formal y escrito.",
                     "table": {
@@ -170,6 +171,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "intensifier_collocations",
                     "title": "Intensifiers and collocations: absolutely delighted, highly unlikely",
                     "explanation": "Los adjetivos extremos (delighted, exhausted, amazing, terrified, furious, impossible) no admiten very: se refuerzan con absolutely, totally o completely: I'm absolutely delighted (no «very delighted»).\n\nLos adjetivos normales (happy, tired, good, surprised) van con very, really, extremely o incredibly: I'm extremely happy.\n\nAlgunas parejas (colocaciones) suenan naturales y otras no:\n• highly + likely / unlikely / recommended / successful: It's highly unlikely.\n• deeply + moved / grateful / disappointed: I'm deeply grateful.\n• bitterly + disappointed / cold.\n• completely / totally + different / wrong / exhausted.\n\nReally vale para los dos tipos: really happy, really delighted.",
                     "table": {

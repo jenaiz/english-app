@@ -71,6 +71,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "articles_demonstratives",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -116,6 +117,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "articles_demonstratives",
                     "title": "a/an, plurals and this/that/these/those",
                     "explanation": "A y an significan un/una. Usamos a antes de sonido consonante (a lamp, a big umbrella) y an antes de sonido vocálico (an umbrella, an old lamp).\n\nEl plural se forma normalmente con -s (towels), con -es después de s, sh, ch o x (boxes) y hay irregulares: person → people, child → children.\n\nThis (este/esta) y these (estos/estas) indican cerca; that (ese/aquel) y those (esos/aquellos), lejos.\n\nEl adjetivo va antes del nombre y no cambia en plural: a green lamp, two green lamps (nunca «a lamp green» ni «greens lamps»).",
                     "table": {
@@ -149,6 +151,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "possessive_s",
                     "title": "Possessive 's",
                     "explanation": "Para decir de quién es algo, en inglés se pone el dueño delante con 's: my grandma's lamp (la lámpara de mi abuela), Sam's guitar (la guitarra de Sam).\n\nSi el dueño es un plural acabado en -s, solo se añade el apóstrofo: my parents' house (la casa de mis padres). Con plurales irregulares se usa 's: the children's room.\n\nPara preguntar de quién es algo: Whose umbrella is this? — It's Sam's.\n\nOjo: no confundas el posesivo con la contracción de is: Sam's a musician (= Sam is) / Sam's band (= la banda de Sam).",
                     "table": {
@@ -192,6 +195,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "articles_demonstratives",
                     "instructions": "Completa la frase.",
                     "items": [
                       {
@@ -265,6 +269,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "articles_demonstratives",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -289,6 +294,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "possessive_s",
                     "instructions": "Completa con el posesivo ('s o ').",
                     "items": [
                       {
@@ -346,6 +352,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "articles_demonstratives",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -578,6 +585,7 @@
                   "phase": "review",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "to_be",
                     "instructions": "Elige la opción correcta.",
                     "items": [
                       {
@@ -614,7 +622,8 @@
                           "Her",
                           "Their"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "pronouns_possessives"
                       },
                       {
                         "question": "Sam ___ a doctor.",
@@ -631,7 +640,8 @@
                           "a",
                           "an"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "articles_demonstratives"
                       },
                       {
                         "question": "(cerca) ___ are my towels.",
@@ -640,7 +650,8 @@
                           "These",
                           "Those"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "articles_demonstratives"
                       },
                       {
                         "question": "I'm from Ireland. I'm ___.",
@@ -649,7 +660,8 @@
                           "Irish",
                           "Irishes"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "vocab_personal"
                       }
                     ]
                   }
@@ -658,6 +670,7 @@
                   "phase": "review",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "to_be",
                     "instructions": "Completa.",
                     "items": [
                       {
@@ -690,7 +703,8 @@
                           [
                             "His"
                           ]
-                        ]
+                        ],
+                        "tag": "pronouns_possessives"
                       },
                       {
                         "sentence": "These are two ___. (photo)",
@@ -698,7 +712,8 @@
                           [
                             "photos"
                           ]
-                        ]
+                        ],
+                        "tag": "articles_demonstratives"
                       },
                       {
                         "sentence": "It's ___ old lamp.",
@@ -706,7 +721,8 @@
                           [
                             "an"
                           ]
-                        ]
+                        ],
+                        "tag": "articles_demonstratives"
                       }
                     ]
                   }
@@ -715,6 +731,7 @@
                   "phase": "review",
                   "type": "translation",
                   "content": {
+                    "tag": "to_be",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -735,7 +752,8 @@
                         "source": "¿Es ese tu paraguas?",
                         "answers": [
                           "Is that your umbrella"
-                        ]
+                        ],
+                        "tag": "articles_demonstratives"
                       },
                       {
                         "source": "Ella no es médica.",

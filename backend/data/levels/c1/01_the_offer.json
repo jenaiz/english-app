@@ -121,6 +121,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "cleft",
                     "title": "Cleft sentences",
                     "explanation": "Las cleft sentences dividen una frase en dos para poner el foco en la información importante o en un contraste:\n• What-cleft: What + oración + be + foco. What scares me most is the money.\n• It-cleft: It + be + foco + who/that + resto. It was you who saved the project (no fue Helen).\n• All-cleft: All + oración + be + foco = lo único. All I'm saying is, don't let fear decide.\n• Otras: The reason (why)… is that… / Where… is… / The thing is…\n\nSon muy comunes en conversación y en presentaciones: ordenan el discurso y destacan lo nuevo.",
                     "table": {

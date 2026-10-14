@@ -75,6 +75,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "present_simple",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -102,7 +103,8 @@
                           "after the verb",
                           "at the end"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "frequency_adverbs"
                       },
                       {
                         "question": "When does Sam work at the pub?",
@@ -111,7 +113,8 @@
                           "every day",
                           "on Mondays"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -120,6 +123,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "present_simple",
                     "title": "Present simple: he, she, it + adverbs of frequency",
                     "explanation": "Con he, she e it el verbo lleva -s: she works, he sleeps. Algunos llevan -es (goes, does, watches, finishes) y los que acaban en consonante + y cambian a -ies (study → studies). Have es irregular: has.\n\nNegativa y pregunta con does / doesn't, y el verbo vuelve a su forma base: He doesn't work on Mondays. Does he get up early? (nunca «Does he gets»).\n\nLos adverbios de frecuencia van antes del verbo principal pero después de be: She always gets up early. Sam is never early.",
                     "table": {
@@ -168,6 +172,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "articles_demonstratives",
                     "title": "Articles: a / an or the",
                     "explanation": "A / an (un, una) presenta algo por primera vez o dice qué es alguien: She's a nurse. There's a new pub in Clifton.\n\nThe (el, la, los, las) habla de algo concreto que ya conocemos, porque ya lo hemos dicho o porque solo hay uno: There's a new pub. The pub is great. Priya works at the hospital (el hospital de siempre).\n\nSin artículo: con las profesiones en plural y con cosas en general: Nurses work at night. I love music. Y en expresiones como at home, at work, by bus, on Monday, at night.\n\nOjo: en español decimos «es enfermera», pero en inglés las profesiones llevan a / an: She's a nurse, He's an engineer.",
                     "table": {
@@ -211,6 +216,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "present_simple",
                     "instructions": "Completa con la forma correcta.",
                     "items": [
                       {
@@ -286,6 +292,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "frequency_adverbs",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -298,7 +305,8 @@
                         "answer": "She usually works four days a week"
                       },
                       {
-                        "answer": "Does he work every day?"
+                        "answer": "Does he work every day?",
+                        "tag": "present_simple"
                       },
                       {
                         "answer": "Sam is never early"
@@ -310,6 +318,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "articles_demonstratives",
                     "instructions": "Completa con a, an o the.",
                     "items": [
                       {
@@ -378,6 +387,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "present_simple",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -391,7 +401,8 @@
                         "source": "Sam nunca se levanta temprano.",
                         "answers": [
                           "Sam never gets up early"
-                        ]
+                        ],
+                        "tag": "frequency_adverbs"
                       },
                       {
                         "source": "¿Trabaja ella por la noche?",
@@ -404,7 +415,8 @@
                         "answers": [
                           "I sometimes work on Saturdays",
                           "Sometimes I work on Saturdays"
-                        ]
+                        ],
+                        "tag": "frequency_adverbs"
                       },
                       {
                         "source": "Él no trabaja los lunes.",

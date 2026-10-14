@@ -123,6 +123,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "used_to_would",
                     "title": "used to",
                     "explanation": "Used to + verbo en forma base habla de hábitos o situaciones del pasado que ya no son verdad: I used to be very shy (ahora no lo soy).\n\nNegativa: didn't use to (sin -d): I didn't use to talk to anyone. Pregunta: Did you use to dance? — Yes, I did / No, I didn't.\n\nPara una acción que ocurrió una sola vez usamos el past simple: I flew to Bristol in September. Para decir que algo no ha cambiado, still: I still get sick on planes.\n\nNo lo confundas con be used to + -ing (estar acostumbrado a): I'm used to the rain.",
                     "table": {
@@ -169,6 +170,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "used_to_would",
                     "title": "would for past habits",
                     "explanation": "Para acciones que se repetían en el pasado también se usa would + verbo, sobre todo al contar recuerdos: Every summer we would go to the beach. My mum would make paella on Sundays.\n\nDiferencia con used to:\n• used to sirve para hábitos y para estados: I used to be shy. I used to have long hair.\n• would solo sirve para acciones repetidas, no para estados: no se dice «I would be shy» con ese sentido.\n\nAl contar un recuerdo se suele empezar con used to y seguir con would: When I was a child, I used to spend the summers in Galway. My grandad would take me fishing every morning.\n\nWould se contrae: we'd, she'd.",
                     "table": {

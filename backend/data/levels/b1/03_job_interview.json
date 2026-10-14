@@ -120,6 +120,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "perfect_vs_past",
                     "title": "Present perfect vs past simple",
                     "explanation": "El present perfect conecta el pasado con el presente: experiencias sin fecha (Have you ever managed a team?), periodos que siguen abiertos (I've worked here for six months) y resultados que importan ahora.\n\nEl past simple habla de un momento o periodo terminado: In Madrid I managed three designers. I left in August.\n\nLas preguntas con When…? siempre van en past simple: When did you finish that job?\n\nEn una entrevista es normal empezar con present perfect (Have you ever…?) y pasar al past simple para los detalles (Yes, I did it in 2022…).",
                     "table": {
@@ -158,6 +159,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "linkers",
                     "title": "Linkers: however, therefore, on the other hand, although",
                     "explanation": "Para conectar ideas en una entrevista, un correo o una redacción:\n\nContraste: however (sin embargo) va al principio de una frase nueva y con coma: The deadline was short. However, we finished on time. Although (aunque) une dos ideas en la misma frase: Although the deadline was short, we finished on time. On the other hand (por otro lado) presenta el otro punto de vista.\n\nCausa y consecuencia: because / because of (porque / por), so (así que), therefore y as a result (por lo tanto, como resultado; más formales): We had a short deadline. Therefore, I worked late every night.\n\nOjo: because va con una frase (because it was late) y because of con un nombre (because of the deadline).",
                     "table": {

@@ -120,6 +120,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "verb_patterns",
                     "title": "Verb patterns: -ing or to-infinitive",
                     "explanation": "Algunos verbos van seguidos de -ing (consider, imagine, miss, suggest, enjoy, avoid, mind) y otros de to + verbo (agree, decide, promise, need, hope, mean).\n\nUnos pocos cambian de significado según la forma:\n• remember / forget + -ing = recordar/olvidar algo que pasó · + to = acordarse/olvidarse de hacer algo\n• stop + -ing = dejar de · + to = pararse para\n• try + to = intentar · + -ing = probar a\n• regret + -ing = arrepentirse de · + to = lamentar (comunicar algo)",
                     "table": {
@@ -168,6 +169,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "used_to_forms",
                     "title": "be used to, get used to, look forward to + -ing",
                     "explanation": "Be used to + -ing / nombre: estar acostumbrado a algo: I'm used to living with Priya. She isn't used to the noise.\n\nGet used to + -ing / nombre: acostumbrarse (el proceso): You'll get used to my socks! It took me months to get used to the weather.\n\nNo los confundas con used to + verbo (hábito pasado): I used to live in Madrid.\n\nEn estas expresiones to es una preposición, así que va seguida de -ing, no del infinitivo: I'm used to working late (no «used to work»). Lo mismo pasa con look forward to (tener ganas de), object to y be / get accustomed to: I'm looking forward to living with you.",
                     "table": {

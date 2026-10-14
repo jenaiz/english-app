@@ -117,6 +117,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "will",
                     "title": "will: decisions, offers and predictions",
                     "explanation": "Will ('ll) + verbo en forma base se usa para:\n• decisiones que tomamos en el momento: I'll go and ask.\n• ofrecimientos: I'll pay for the coffees.\n• promesas: I won't forget the tickets again!\n• predicciones u opiniones sobre el futuro: I think it will be busy.\n\nNegativa: won't (will not). Pregunta: Will it be busy?\n\nCompáralo con be going to, que expresa un plan ya decidido: I'm going to book the tickets tonight (lo pensé antes) / I'll pay (lo decido ahora).",
                     "table": {
@@ -167,6 +168,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "movement_prepositions",
                     "title": "Prepositions of movement: into, out of, across, through",
                     "explanation": "Las preposiciones de movimiento dicen hacia dónde va algo o alguien. Suelen ir con verbos como go, walk, run, get o come.\n\nInto / out of: entrar en / salir de un espacio: We went into the station. She got out of the taxi.\nOn / off con transportes grandes (bus, train, plane): get on the train, get off the bus. Con coches y taxis: get into / get out of.\nAcross (de un lado al otro, cruzando): Walk across the bridge. Through (a través de, por dentro): Go through the gate.\nUp / down (subir / bajar), along (a lo largo de), past (por delante de), towards (hacia), from… to… (de… a…).",
                     "table": {

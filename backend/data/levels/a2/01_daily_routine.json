@@ -114,6 +114,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "present_simple_continuous",
                     "title": "Present simple vs present continuous",
                     "explanation": "El present simple habla de hábitos, rutinas y cosas que siempre son verdad: You usually leave your keys on the table. Priya works at the hospital.\n\nEl present continuous habla de lo que pasa ahora mismo (I'm making toast) y de situaciones temporales (This week I'm starting at eight).\n\nAlgunos verbos casi nunca van en continuous porque expresan estados, no acciones: need, want, like, love, know, understand. Se dice «I need a coffee», no «I'm needing a coffee».",
                     "table": {
@@ -157,6 +158,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "phrasal_verbs",
                     "title": "Everyday phrasal verbs",
                     "explanation": "Un phrasal verb es un verbo + una partícula (up, on, off, for, out…) que juntos tienen un significado propio: look (mirar) → look for (buscar).\n\nLos más usados en la rutina: wake up (despertarse), get up (levantarse), put on (ponerse ropa), take off (quitarse), turn on / turn off (encender / apagar), look for (buscar), go out (salir), come back (volver).\n\nSe conjugan como el verbo normal: I get up at seven, She gets up at six, I got up late yesterday.\n\nCon put on, take off, turn on y turn off el objeto puede ir en medio: Put your coat on / Put on your coat. Si es un pronombre, va siempre en medio: Put it on (no «put on it»).",
                     "table": {

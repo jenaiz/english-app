@@ -117,6 +117,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "nominalisation",
                     "title": "Nominalisation and formal register",
                     "explanation": "En informes, presentaciones y textos académicos el inglés formal convierte verbos y adjetivos en nombres. A eso se le llama nominalización, y hace el texto más objetivo y denso:\ngrow → growth · decide → decision · intend → intention · improve → improvement · fail → failure · increase → an increase.\n\nPatrones típicos: the + nombre + of (the failure of the old site), a + adjetivo + nombre (a significant increase), lead to / result in (provocar).\n\nCompara: We grew really fast (coloquial) → The studio experienced rapid growth (formal).",
                     "table": {
@@ -175,6 +176,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "discourse_markers",
                     "title": "Signposting: nevertheless, that said, mind you, on top of that",
                     "explanation": "Para guiar al oyente en un argumento largo:\n\nRegistro formal (presentaciones, informes):\n• Nevertheless / Nonetheless (aun así): Our studio is small. Nevertheless, we deliver on time.\n• Admittedly (hay que reconocer que): Admittedly, our prices are higher.\n• To a certain extent / To what extent…: To a certain extent, design drives bookings.\n• In so far as (en la medida en que): The plan worked in so far as it was applied.\n• Whereas (mientras que): Madrid is growing fast, whereas London is saturated.\n\nRegistro informal (conversación, correos entre colegas):\n• That said (dicho esto): It's expensive. That said, it's worth it.\n• Mind you (aunque, eso sí): Mark loves the idea. Mind you, he loves most ideas.\n• On top of that (encima, además): We were late, and on top of that the projector broke.\n• As I was saying / Anyway, back to…: para retomar el hilo.",
                     "table": {

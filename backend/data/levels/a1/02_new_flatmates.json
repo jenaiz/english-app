@@ -75,6 +75,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "to_be",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -105,7 +106,8 @@
                           "Lucía's"
                         ],
                         "answer": 0,
-                        "explanation": "His = de él (Sam)."
+                        "explanation": "His = de él (Sam).",
+                        "tag": "pronouns_possessives"
                       },
                       {
                         "question": "Who says \"My parents are in Leicester\"?",
@@ -114,7 +116,8 @@
                           "Priya",
                           "Sam"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": ""
                       }
                     ]
                   }
@@ -123,6 +126,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "to_be",
                     "title": "To be: he, she, it, they + possessive adjectives",
                     "explanation": "Con he (él), she (ella) e it (cosa o animal) el verbo es is. Con they (ellos/ellas) es are.\n\nNegativa: isn't / aren't. Pregunta: el verbo va delante: «Is he a student? — Yes, he is / No, he isn't».\n\nLos posesivos van antes del nombre y no cambian en plural: my parents, his band, her family. Ojo: his = de él; her = de ella.",
                     "table": {
@@ -197,6 +201,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "pronouns_possessives",
                     "title": "Possessive pronouns: mine, yours, his, hers",
                     "explanation": "Los posesivos my, your, his, her… van siempre delante de un nombre: my room, her family.\n\nLos pronombres posesivos (mine, yours, his, hers, ours, theirs) sustituyen al posesivo y al nombre, para no repetirlo: Is this your towel? — Yes, it's mine (= my towel).\n\nOjo: his es igual en las dos formas (his band → it's his), y nunca llevan apóstrofo: yours, hers, ours (no «your's»).\n\nPara preguntar de quién es algo: Whose is this? — It's mine.",
                     "table": {
@@ -250,6 +255,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "to_be",
                     "instructions": "Completa con is, are, isn't o un posesivo (his, her, their).",
                     "items": [
                       {
@@ -291,7 +297,8 @@
                           [
                             "Their"
                           ]
-                        ]
+                        ],
+                        "tag": "pronouns_possessives"
                       },
                       {
                         "sentence": "Sam is a musician. ___ band is great.",
@@ -299,7 +306,8 @@
                           [
                             "His"
                           ]
-                        ]
+                        ],
+                        "tag": "pronouns_possessives"
                       },
                       {
                         "sentence": "Priya is a nurse. ___ hospital is in Bristol.",
@@ -307,7 +315,8 @@
                           [
                             "Her"
                           ]
-                        ]
+                        ],
+                        "tag": "pronouns_possessives"
                       },
                       {
                         "sentence": "My parents ___ in Spain. They aren't in Bristol.",
@@ -324,6 +333,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "to_be",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -333,7 +343,8 @@
                         "answer": "Is he a student?"
                       },
                       {
-                        "answer": "His band is really good"
+                        "answer": "His band is really good",
+                        "tag": "pronouns_possessives"
                       },
                       {
                         "answer": "They aren't in Bristol"
@@ -348,6 +359,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "pronouns_possessives",
                     "instructions": "Completa con mine, yours, his, hers, ours o theirs.",
                     "items": [
                       {
@@ -405,6 +417,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "to_be",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -439,7 +452,8 @@
                         "answers": [
                           "His band is very good",
                           "His band is really good"
-                        ]
+                        ],
+                        "tag": "pronouns_possessives"
                       },
                       {
                         "source": "Son mis compañeros de piso.",

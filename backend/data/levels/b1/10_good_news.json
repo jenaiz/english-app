@@ -120,6 +120,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "reported_speech",
                     "title": "Reported speech",
                     "explanation": "Para contar lo que alguien dijo usamos say (that) o tell + persona (that): She said that… / She told me that…\n\nNormalmente el verbo da un paso atrás en el pasado:\n• presente → pasado (loves → loved)\n• will → would\n• can → could\n• present perfect / past simple → past perfect (have passed → had passed)\n\nLas preguntas de sí o no se cuentan con asked if / whether y orden de frase afirmativa: She asked if you could come (no «if could you come»).\n\nCambian también los pronombres y posesivos: \"your website\" → our website.",
                     "table": {
@@ -166,6 +167,7 @@
                   "phase": "grammar",
                   "type": "grammar_rule",
                   "content": {
+                    "tag": "adverbs_intensifiers",
                     "title": "Adverbs: more quickly, the hardest · extremely, much too",
                     "explanation": "Los adverbios también se comparan:\n• Con -ly: more / the most + adverbio: She speaks more clearly than me. He works the most carefully.\n• Adverbios cortos (fast, hard, late, early): -er / the -est: Daniel works harder than anyone. Who arrived the earliest?\n• Irregulares: well → better → the best; badly → worse → the worst: Lucía speaks English better than last year.\n\nPara reforzar o suavizar adjetivos y adverbios: quite (bastante), really / very (muy), extremely / incredibly (extremadamente), much too / far too (demasiado, con un matiz negativo): The museum was extremely happy. The conference is much too big for me!\n\nSo + adjetivo / adverbio: I was so nervous. Such + (a) adjetivo + nombre: It's such good news!",
                     "table": {
