@@ -123,7 +123,7 @@
                   "content": {
                     "tag": "narrative_tenses",
                     "title": "Narrative tenses: had been doing, would and used to",
-                    "explanation": "Para contar una historia con matices:\n• past perfect continuous (had been + -ing): una actividad que duraba hasta un momento del pasado. I had been studying English for months, but I couldn't understand the bus driver.\n• would + verbo: acciones repetidas en el pasado, típico de la narración nostálgica. I would get lost every Saturday. Solo sirve para acciones, no para estados.\n• used to + verbo: hábitos y también estados del pasado. I used to think 'craic' was a kind of bread.\n• past perfect simple: acción terminada antes de otra.\n• past simple: los hechos principales.",
+                    "explanation": "Para contar una historia con matices:\n- past perfect continuous («had been» + «-ing»): una actividad que duraba hasta un momento del pasado: «I had been studying English for months, but I couldn't understand the bus driver.»\n- «would» + verbo: acciones repetidas en el pasado, típico de la narración nostálgica. Solo sirve para acciones, no para estados: «I would get lost every Saturday.»\n- «used to» + verbo: hábitos y también estados del pasado: «I used to think 'craic' was a kind of bread.»\n- past perfect simple: acción terminada antes de otra.\n- past simple: los hechos principales.",
                     "table": {
                       "headers": [
                         "Forma",
@@ -172,7 +172,7 @@
                   "content": {
                     "tag": "passive_all",
                     "title": "The passive in all its forms",
-                    "explanation": "A nivel C1 la pasiva aparece en cualquier tiempo y con modales, sobre todo en narraciones y textos formales:\n• Past perfect: I had been given a key before I arrived.\n• Future perfect: By the time we get there, all the seats will have been taken.\n• Modal perfect: The umbrella might have been destroyed by the wind. It can't have been stolen.\n• Continua: I felt I was being watched.\n• Participio perfecto (having been + participio): Having been told it rained a lot, I bought an umbrella.\n• Infinitivo y gerundio: She hates being interrupted. He's going to be given an award.\n\nEl agente con by solo se añade si aporta información: Harbour Studio was founded by Helen twenty years ago.",
+                    "explanation": "A nivel C1 la pasiva aparece en cualquier tiempo y con modales, sobre todo en narraciones y textos formales:\n- Past perfect: «I had been given a key before I arrived.»\n- Future perfect: «By the time we get there, all the seats will have been taken.»\n- Modal perfect: «The umbrella might have been destroyed by the wind.», «It can't have been stolen.»\n- Continua: «I felt I was being watched.»\n- Participio perfecto («having been» + participio): «Having been told it rained a lot, I bought an umbrella.»\n- Infinitivo y gerundio: «She hates being interrupted.», «He's going to be given an award.»\n\nEl agente con «by» solo se añade si aporta información:\n- «Harbour Studio was founded by Helen twenty years ago.»",
                     "table": {
                       "headers": [
                         "Forma",
@@ -328,7 +328,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con been, being, having o be.",
+                    "instructions": "Completa con «been», «being», «having» o «be».",
                     "items": [
                       {
                         "sentence": "I had ___ offered the job before I visited Bristol.",

@@ -119,7 +119,7 @@
                   "content": {
                     "tag": "emphasis",
                     "title": "Emphasis: do, such, so and fronting",
-                    "explanation": "Recursos para dar énfasis:\n• do / does / did + verbo en afirmativa, para insistir o contrastar: I do know that market very well. We did prepare carefully.\n• such (a/an) + adjetivo + nombre: such a small studio, such ambitious plans.\n• so + adjetivo / adverbio: so convincing. Con resultado: so/such… that…\n• Inversión formal: So + adjetivo + be + sujeto + that: So convincing were your numbers that…\n• Anteposición (fronting): poner delante lo que queremos destacar: That we can promise. Madrid is where I started.",
+                    "explanation": "Recursos para dar énfasis:\n- «do», «does» o «did» + verbo en afirmativa, para insistir o contrastar: «I do know that market very well.», «We did prepare carefully.»\n- «such (a / an)» + adjetivo + nombre: «such a small studio», «such ambitious plans»\n- «so» + adjetivo o adverbio; con resultado, «so» / «such… that…»: «so convincing»\n- Inversión formal: «So» + adjetivo + «be» + sujeto + «that»: «So convincing were your numbers that…»\n- Anteposición (fronting): poner delante lo que queremos destacar: «That we can promise.», «Madrid is where I started.»",
                     "table": {
                       "headers": [
                         "Recurso",
@@ -164,7 +164,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con do/did, such o so.",
+                    "instructions": "Completa con «do» / «did», «such» o «so».",
                     "items": [
                       {
                         "sentence": "I ___ have to say, that was impressive.",

@@ -50,7 +50,7 @@ Si algo falla, dímelo con el tema y la frase, y lo corrijo.
 
 ## 5. Explicaciones (convención de idiomas)
 
-- [ ] En las reglas de A1, A2, B1 y B2, todo el inglés sale como etiqueta blanca (sin las «…») y los ejemplos van en líneas aparte.
+- [ ] En las reglas de todos los niveles (A1–C1), todo el inglés sale como etiqueta blanca (sin las «…») y los ejemplos van en líneas aparte.
 - [ ] En las instrucciones y en las explicaciones tras responder un ejercicio también se ven las etiquetas.
 - [ ] No queda texto en inglés suelto dentro de una frase en español.
 
