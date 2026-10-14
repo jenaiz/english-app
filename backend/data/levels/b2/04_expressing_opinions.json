@@ -114,7 +114,7 @@
                   "content": {
                     "tag": "contrast_linkers",
                     "title": "Linkers of contrast",
-                    "explanation": "Para contraponer ideas:\n• although / even though + sujeto + verbo: Although I like the colours, it feels too simple. (Even though es más enfático.)\n• despite / in spite of + nombre o -ing: In spite of being simple, it's faster. Despite that, …\n• however / nevertheless empiezan una frase nueva y van seguidos de coma: However, our research shows… (Nevertheless es más formal.)\n• whereas contrasta dos hechos: Your site takes ten seconds, whereas this one takes two.\n\nPara opinar en una reunión: If I may…, I agree with…, I'm not sure about…, We don't see eye to eye, Don't sit on the fence.",
+                    "explanation": "Para contraponer ideas:\n- «although» / «even though» + sujeto + verbo («even though» es más enfático): «Although I like the colours, it feels too simple.»\n- «despite» / «in spite of» + nombre o «-ing»: «In spite of being simple, it's faster.», «Despite that, …»\n- «however» / «nevertheless» empiezan una frase nueva y van seguidos de coma («nevertheless» es más formal): «However, our research shows…»\n- «whereas» contrasta dos hechos: «Your site takes ten seconds, whereas this one takes two.»\n\nPara opinar en una reunión: «If I may…», «I agree with…», «I'm not sure about…», «We don't see eye to eye», «Don't sit on the fence».",
                     "table": {
                       "headers": [
                         "Conector",
@@ -163,7 +163,7 @@
                   "content": {
                     "tag": "formal_markers",
                     "title": "Formal discourse markers: furthermore, moreover, consequently",
-                    "explanation": "En reuniones, presentaciones y textos formales organizamos las ideas con marcadores:\n\n• Para empezar y ordenar: To begin with, Firstly, Secondly, Finally.\n• Para añadir: Furthermore, Moreover, In addition (además), Additionally.\n• Para la consecuencia: Consequently, As a result, Therefore (por consiguiente).\n• Para introducir un tema: Regarding / As regards the budget (en cuanto al presupuesto).\n• Para contrastar dos puntos de vista: On the one hand… On the other hand…\n• Para cerrar: In conclusion, To sum up (en resumen).\n\nVan al principio de la frase, seguidos de coma. En una conversación informal suenan demasiado formales: con amigos se dice also, so o anyway.",
+                    "explanation": "En reuniones, presentaciones y textos formales organizamos las ideas con marcadores:\n- Para empezar y ordenar: «To begin with», «Firstly», «Secondly», «Finally».\n- Para añadir: «Furthermore», «Moreover», «In addition» (además), «Additionally».\n- Para la consecuencia: «Consequently», «As a result», «Therefore» (por consiguiente).\n- Para introducir un tema: «Regarding» / «As regards the budget» (en cuanto al presupuesto).\n- Para contrastar dos puntos de vista: «On the one hand…», «On the other hand…»\n- Para cerrar: «In conclusion», «To sum up» (en resumen).\n\nVan al principio de la frase, seguidos de coma. En una conversación informal suenan demasiado formales: con amigos se dice «also», «so» o «anyway».",
                     "table": {
                       "headers": [
                         "Función",

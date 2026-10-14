@@ -119,7 +119,7 @@
                   "content": {
                     "tag": "third_conditional_regret",
                     "title": "Third conditional and regrets",
-                    "explanation": "El tercer condicional imagina un pasado diferente y su consecuencia, que tampoco pasó: If + past perfect, would have + participio. If we had checked the files, this wouldn't have happened.\n\nEn la consecuencia también podemos usar could have o might have: If you'd told me, I could have helped.\n\nPara lamentar algo del pasado: wish + past perfect: I wish I had stayed later. I wish I hadn't uploaded it in such a hurry.\n\nCuidado con la contracción 'd: en la parte del if es had (If we'd known) y en la consecuencia es would (we'd have stayed).",
+                    "explanation": "El tercer condicional imagina un pasado diferente y su consecuencia, que tampoco pasó: «If» + past perfect, «would have» + participio:\n- «If we had checked the files, this wouldn't have happened.»\n\nEn la consecuencia también podemos usar «could have» o «might have»:\n- «If you'd told me, I could have helped.»\n\nPara lamentar algo del pasado, «wish» + past perfect:\n- «I wish I had stayed later.»\n- «I wish I hadn't uploaded it in such a hurry.»\n\nCuidado con la contracción «'d»: en la parte del «if» es «had» («If we'd known») y en la consecuencia es «would» («we'd have stayed»).",
                     "table": {
                       "headers": [
                         "Estructura",
@@ -162,7 +162,7 @@
                   "content": {
                     "tag": "past_perfect_continuous",
                     "title": "Past perfect continuous: we had been working",
-                    "explanation": "El past perfect continuous (had been + -ing) describe una actividad que duró hasta un momento del pasado, o justo antes. Sirve mucho para explicar causas: Daniel was exhausted because he had been working until midnight.\n\nCon for / since dice cuánto tiempo llevaba pasando: We had been testing the site for three weeks when we launched it.\n\nCompáralo con el past perfect simple, que mira el resultado o el número de veces: I had checked the files twice (resultado) / I had been checking the files all morning (actividad, duración).\n\nLos verbos de estado (know, be, have como posesión) van en past perfect simple: I had known Helen for years (no «had been knowing»).",
+                    "explanation": "El past perfect continuous («had been» + «-ing») describe una actividad que duró hasta un momento del pasado, o justo antes. Sirve mucho para explicar causas:\n- «Daniel was exhausted because he had been working until midnight.»\n\nCon «for» / «since» dice cuánto tiempo llevaba pasando:\n- «We had been testing the site for three weeks when we launched it.»\n\nCompáralo con el past perfect simple, que mira el resultado o el número de veces:\n- «I had checked the files twice.» (resultado)\n- «I had been checking the files all morning.» (actividad, duración)\n\nLos verbos de estado («know», «be», «have» como posesión) van en past perfect simple (nunca «had been knowing»):\n- «I had known Helen for years.»",
                     "table": {
                       "headers": [
                         "",
@@ -199,7 +199,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con el tercer condicional o wish.",
+                    "instructions": "Completa con el tercer condicional o «wish».",
                     "items": [
                       {
                         "sentence": "If we had ___ the files, this wouldn't have happened. (check)",
@@ -299,7 +299,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con had been + -ing o con el past perfect simple.",
+                    "instructions": "Completa con «had been» + «-ing» o con el past perfect simple.",
                     "items": [
                       {
                         "sentence": "Daniel was exhausted because he had ___ working until midnight.",

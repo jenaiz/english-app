@@ -119,7 +119,7 @@
                   "content": {
                     "tag": "passive_reporting",
                     "title": "Passive reporting structures",
-                    "explanation": "En noticias y textos formales contamos lo que dice la gente sin decir quién:\n• It is said / believed / thought / expected that + frase: It is said that the album is the surprise of the year.\n• Sujeto + is said / believed / thought / expected + to + verbo: The album is said to be the surprise of the year.\n• Si se refiere al pasado, to have + participio: The band is believed to have signed a deal.\n\nBe supposed to significa «se supone que»: He's supposed to be in London this week.",
+                    "explanation": "En noticias y textos formales contamos lo que dice la gente sin decir quién:\n- «It is said» / «believed» / «thought» / «expected that» + frase: «It is said that the album is the surprise of the year.»\n- Sujeto + «is said» / «believed» / «thought» / «expected» + «to» + verbo: «The album is said to be the surprise of the year.»\n- Si se refiere al pasado, «to have» + participio: «The band is believed to have signed a deal.»\n\n«Be supposed to» significa «se supone que»:\n- «He's supposed to be in London this week.»",
                     "table": {
                       "headers": [
                         "Estructura",
@@ -162,7 +162,7 @@
                   "content": {
                     "tag": "attitudinal_adverbs",
                     "title": "Attitudinal adverbs: apparently, clearly, fortunately",
-                    "explanation": "Algunos adverbios no dicen cómo se hace algo, sino qué opinamos de toda la frase. Suelen ir al principio, seguidos de coma:\n\n• Apparently (según parece, por lo visto): Apparently, they're playing in Madrid. Ojo: no significa «aparentemente» en el sentido de «a simple vista»; se usa para información que nos han contado.\n• Clearly / Obviously (está claro que): Clearly, the critics love the album.\n• Surprisingly / Not surprisingly: Surprisingly, it was recorded in six weeks.\n• Fortunately / Luckily ≠ Unfortunately: Unfortunately, the tour doesn't come to Bristol.\n• Honestly / Frankly (sinceramente): Frankly, I never liked their old songs.\n• Hopefully (ojalá, con suerte): Hopefully, we'll get tickets.\n\nTambién pueden ir en medio: The band has clearly worked very hard.",
+                    "explanation": "Algunos adverbios no dicen cómo se hace algo, sino qué opinamos de toda la frase. Suelen ir al principio, seguidos de coma:\n- «Apparently» (según parece, por lo visto): «Apparently, they're playing in Madrid.» Ojo: no significa «aparentemente» en el sentido de «a simple vista»; se usa para información que nos han contado.\n- «Clearly» / «Obviously» (está claro que): «Clearly, the critics love the album.»\n- «Surprisingly» / «Not surprisingly»: «Surprisingly, it was recorded in six weeks.»\n- «Fortunately» / «Luckily» ≠ «Unfortunately»: «Unfortunately, the tour doesn't come to Bristol.»\n- «Honestly» / «Frankly» (sinceramente): «Frankly, I never liked their old songs.»\n- «Hopefully» (ojalá, con suerte): «Hopefully, we'll get tickets.»\n\nTambién pueden ir en medio:\n- «The band has clearly worked very hard.»",
                     "table": {
                       "headers": [
                         "Adverbio",
@@ -320,7 +320,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con apparently, clearly, surprisingly, unfortunately o hopefully.",
+                    "instructions": "Completa con «apparently», «clearly», «surprisingly», «unfortunately» o «hopefully».",
                     "items": [
                       {
                         "sentence": "___, they're playing in Madrid in June. That's what the article says.",

@@ -122,7 +122,7 @@
                   "content": {
                     "tag": "reporting_verbs",
                     "title": "Reporting verbs",
-                    "explanation": "En lugar de repetir said una y otra vez, resumimos con verbos más precisos. Cada uno tiene su patrón:\n• verbo + to: agree, refuse, promise, offer\n• verbo + persona + to: warn, invite, ask, tell, advise\n• verbo + -ing: suggest, admit, deny, recommend\n• verbo + preposición + -ing: insist on, apologise for, accuse someone of\n• verbo + that: admit, warn, explain, promise\n\nOjo: suggest nunca va con persona + to («he suggested me to…» es incorrecto): He suggested testing… / He suggested that we test…",
+                    "explanation": "En lugar de repetir «said» una y otra vez, resumimos con verbos más precisos. Cada uno tiene su patrón:\n- verbo + «to»: «agree», «refuse», «promise», «offer»\n- verbo + persona + «to»: «warn», «invite», «ask», «tell», «advise»\n- verbo + «-ing»: «suggest», «admit», «deny», «recommend»\n- verbo + preposición + «-ing»: «insist on», «apologise for», «accuse someone of»\n- verbo + «that»: «admit», «warn», «explain», «promise»\n\nOjo: «suggest» nunca va con persona + «to» («he suggested me to…» es incorrecto):\n- «He suggested testing…»\n- «He suggested that we test…»",
                     "table": {
                       "headers": [
                         "Patrón",

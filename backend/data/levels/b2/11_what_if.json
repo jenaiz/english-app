@@ -127,7 +127,7 @@
                   "content": {
                     "tag": "mixed_conditionals",
                     "title": "Mixed conditionals",
-                    "explanation": "Los condicionales mixtos combinan tiempos cuando la causa y la consecuencia están en momentos distintos:\n• Pasado → presente: If + past perfect, would + verbo. If I hadn't taken that job, I wouldn't be here now.\n• Presente (rasgo general) → pasado: If + past simple, would have + participio. If I weren't so lazy, I would have passed the first time.\n\nRecuerda los tipos puros para compararlos: el segundo condicional va de presente a presente y el tercero de pasado a pasado.",
+                    "explanation": "Los condicionales mixtos combinan tiempos cuando la causa y la consecuencia están en momentos distintos:\n- Pasado → presente: «If» + past perfect, «would» + verbo: «If I hadn't taken that job, I wouldn't be here now.»\n- Presente (rasgo general) → pasado: «If» + past simple, «would have» + participio: «If I weren't so lazy, I would have passed the first time.»\n\nRecuerda los tipos puros para compararlos: el segundo condicional va de presente a presente y el tercero, de pasado a pasado.",
                     "table": {
                       "headers": [
                         "Tipo",
@@ -171,7 +171,7 @@
                   "content": {
                     "tag": "abstract_articles",
                     "title": "Articles with abstract nouns: life or the life?",
-                    "explanation": "Con nombres abstractos (life, love, happiness, success, time, nature, education, history…) y con nombres en plural o incontables usados en general, el inglés no usa artículo, al contrario que el español: Life is full of surprises (la vida está llena de sorpresas). Happiness is more important than money. History was my favourite subject.\n\nSe usa the cuando el nombre se refiere a algo concreto, normalmente con una frase que lo define detrás (of…, que…, relativo): The life I have now is very different. The history of Bristol is fascinating. The happiness on her face said everything.\n\nComo regla práctica: en general → sin artículo; algo concreto, definido → the.",
+                    "explanation": "Con nombres abstractos («life», «love», «happiness», «success», «time», «nature», «education», «history»…) y con nombres en plural o incontables usados en general, el inglés no usa artículo, al contrario que el español:\n- «Life is full of surprises.» (la vida está llena de sorpresas)\n- «Happiness is more important than money.»\n- «History was my favourite subject.»\n\nSe usa «the» cuando el nombre se refiere a algo concreto, normalmente con una frase que lo define detrás («of…», relativo):\n- «The life I have now is very different.»\n- «The history of Bristol is fascinating.»\n- «The happiness on her face said everything.»\n\nComo regla práctica: en general, sin artículo; algo concreto, definido, «the».",
                     "table": {
                       "headers": [
                         "En general (sin artículo)",
@@ -322,7 +322,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Escribe the si hace falta. Si no hace falta artículo, escribe x.",
+                    "instructions": "Escribe «the» si hace falta. Si no hace falta artículo, escribe «x».",
                     "items": [
                       {
                         "sentence": "___ life is full of surprises.",

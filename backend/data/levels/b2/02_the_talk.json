@@ -120,7 +120,7 @@
                   "content": {
                     "tag": "deduction_present",
                     "title": "Modals of deduction: present",
-                    "explanation": "Usamos modales para hacer deducciones sobre el presente:\n• must + verbo = estamos casi seguros de que es verdad (= debe de): He must be important.\n• can't + verbo = estamos casi seguros de que no es verdad: That can't be the same company.\n• might / may / could + verbo = es posible: It might be.\n\nOjo: para la deducción negativa se usa can't, no mustn't (que significa prohibición).\n\nCon acciones en curso: must be + -ing: She must be waiting for news.",
+                    "explanation": "Usamos modales para hacer deducciones sobre el presente:\n- «must» + verbo = estamos casi seguros de que es verdad (debe de): «He must be important.»\n- «can't» + verbo = estamos casi seguros de que no es verdad: «That can't be the same company.»\n- «might», «may» o «could» + verbo = es posible: «It might be.»\n\nOjo: para la deducción negativa se usa «can't», no «mustn't» (que significa prohibición).\n\nCon acciones en curso, «must be» + «-ing»:\n- «She must be waiting for news.»",
                     "table": {
                       "headers": [
                         "Modal",
@@ -164,7 +164,7 @@
                   "content": {
                     "tag": "had_better_rather",
                     "title": "had better, would rather",
-                    "explanation": "Had better + verbo (sin to) es un consejo fuerte o un aviso, para una situación concreta: You'd better call Helen now (será mejor que la llames ya). Suele implicar que, si no, habrá un problema. Negativa: had better not: We'd better not be late.\n\nAunque had parece pasado, habla del presente o del futuro. Casi siempre se contrae: you'd better, we'd better.\n\nWould rather + verbo (sin to) expresa preferencia: I'd rather wait until Monday (prefiero esperar). Would rather… than…: I'd rather work late than miss the deadline. Pregunta: Would you rather call him or email him?\n\nOjo: las dos van con el verbo sin to (no «you'd better to call», no «I'd rather to wait»).",
+                    "explanation": "«Had better» + verbo (sin «to») es un consejo fuerte o un aviso, para una situación concreta. Suele implicar que, si no, habrá un problema. La negativa es «had better not»:\n- «You'd better call Helen now.» (será mejor que la llames ya)\n- «We'd better not be late.»\n\nAunque «had» parece pasado, habla del presente o del futuro. Casi siempre se contrae: «you'd better», «we'd better».\n\n«Would rather» + verbo (sin «to») expresa preferencia:\n- «I'd rather wait until Monday.» (prefiero esperar)\n- «I'd rather work late than miss the deadline.»\n- «Would you rather call him or email him?»\n\nOjo: las dos van con el verbo sin «to» (nunca «you'd better to call» ni «I'd rather to wait»).",
                     "table": {
                       "headers": [
                         "Estructura",
@@ -206,7 +206,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con must, might/could o can't.",
+                    "instructions": "Completa con «must», «might» / «could» o «can't».",
                     "items": [
                       {
                         "sentence": "He ___ be important. Look at his watch!",
@@ -316,7 +316,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con better, rather, not o el verbo correcto.",
+                    "instructions": "Completa con «better», «rather», «not» o el verbo correcto.",
                     "items": [
                       {
                         "sentence": "You'd ___ call Helen now. She's waiting for news.",

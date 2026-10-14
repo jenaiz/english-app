@@ -122,7 +122,7 @@
                   "content": {
                     "tag": "verb_patterns",
                     "title": "Verb patterns: -ing or to-infinitive",
-                    "explanation": "Algunos verbos van seguidos de -ing (consider, imagine, miss, suggest, enjoy, avoid, mind) y otros de to + verbo (agree, decide, promise, need, hope, mean).\n\nUnos pocos cambian de significado según la forma:\n• remember / forget + -ing = recordar/olvidar algo que pasó · + to = acordarse/olvidarse de hacer algo\n• stop + -ing = dejar de · + to = pararse para\n• try + to = intentar · + -ing = probar a\n• regret + -ing = arrepentirse de · + to = lamentar (comunicar algo)",
+                    "explanation": "Algunos verbos van seguidos de «-ing» («consider», «imagine», «miss», «suggest», «enjoy», «avoid», «mind») y otros de «to» + verbo («agree», «decide», «promise», «need», «hope», «mean»).\n\nUnos pocos cambian de significado según la forma:\n- «remember» / «forget» + «-ing» = recordar / olvidar algo que pasó; + «to» = acordarse / olvidarse de hacer algo\n- «stop» + «-ing» = dejar de; + «to» = pararse para\n- «try» + «to» = intentar; + «-ing» = probar a\n- «regret» + «-ing» = arrepentirse de; + «to» = lamentar (al comunicar algo)",
                     "table": {
                       "headers": [
                         "Verbo",
@@ -171,7 +171,7 @@
                   "content": {
                     "tag": "used_to_forms",
                     "title": "be used to, get used to, look forward to + -ing",
-                    "explanation": "Be used to + -ing / nombre: estar acostumbrado a algo: I'm used to living with Priya. She isn't used to the noise.\n\nGet used to + -ing / nombre: acostumbrarse (el proceso): You'll get used to my socks! It took me months to get used to the weather.\n\nNo los confundas con used to + verbo (hábito pasado): I used to live in Madrid.\n\nEn estas expresiones to es una preposición, así que va seguida de -ing, no del infinitivo: I'm used to working late (no «used to work»). Lo mismo pasa con look forward to (tener ganas de), object to y be / get accustomed to: I'm looking forward to living with you.",
+                    "explanation": "«Be used to» + «-ing» o nombre: estar acostumbrado a algo:\n- «I'm used to living with Priya.»\n- «She isn't used to the noise.»\n\n«Get used to» + «-ing» o nombre: acostumbrarse (el proceso):\n- «You'll get used to my socks!»\n- «It took me months to get used to the weather.»\n\nNo los confundas con «used to» + verbo (hábito pasado):\n- «I used to live in Madrid.»\n\nEn estas expresiones «to» es una preposición, así que va seguida de «-ing», no del infinitivo (nunca «used to work» con este sentido). Lo mismo pasa con «look forward to» (tener ganas de), «object to» y «be» / «get accustomed to»:\n- «I'm used to working late.»\n- «I'm looking forward to living with you.»",
                     "table": {
                       "headers": [
                         "Estructura",
@@ -213,7 +213,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con -ing o to + verbo.",
+                    "instructions": "Completa con «-ing» o «to» + verbo.",
                     "items": [
                       {
                         "sentence": "Would you consider ___ in with me? (move)",
@@ -319,7 +319,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con la forma correcta (used, get, -ing…).",
+                    "instructions": "Completa con la forma correcta («used», «get», «-ing»…).",
                     "items": [
                       {
                         "sentence": "I'm used to ___ with Priya. We've shared a house for years. (live)",

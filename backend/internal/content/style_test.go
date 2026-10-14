@@ -12,7 +12,7 @@ import (
 
 // styledLevels have their Spanish texts written with English always marked: «…» for English
 // words and sentences (bold is for stress only). A level joins once it has been reviewed.
-var styledLevels = []string{"a1", "a2", "b1"}
+var styledLevels = []string{"a1", "a2", "b1", "b2"}
 
 // englishWords are common English words that never appear in Spanish text, so finding one
 // outside «…» means unmarked English. Words shared with Spanish (a, he, me, no, has) are left out.

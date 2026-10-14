@@ -123,7 +123,7 @@
                   "content": {
                     "tag": "past_modals",
                     "title": "Modals of deduction: past",
-                    "explanation": "Para deducir qué pasó usamos modal + have + participio:\n• must have = seguro que pasó: You must have left it somewhere.\n• can't have = seguro que no pasó: I can't have left it in the taxi.\n• might / may / could have = quizá pasó: You might have left it in the taxi.\n\nOtros usos muy frecuentes:\n• could have = era posible, pero no pasó: I could have lost the whole demo.\n• should have / shouldn't have = crítica o arrepentimiento: You should have kept it in your bag.",
+                    "explanation": "Para deducir qué pasó usamos modal + «have» + participio:\n- «must have» = seguro que pasó: «You must have left it somewhere.»\n- «can't have» = seguro que no pasó: «I can't have left it in the taxi.»\n- «might», «may» o «could have» = quizá pasó: «You might have left it in the taxi.»\n\nOtros usos muy frecuentes:\n- «could have» = era posible, pero no pasó: «I could have lost the whole demo.»\n- «should have» / «shouldn't have» = crítica o arrepentimiento: «You should have kept it in your bag.»",
                     "table": {
                       "headers": [
                         "Modal",
@@ -177,7 +177,7 @@
                   "content": {
                     "tag": "past_modals",
                     "title": "needn't have, didn't need to, could have",
-                    "explanation": "Needn't have + participio: hiciste algo que al final no hacía falta: You needn't have worried. The laptop was safe (te preocupaste, pero no hacía falta).\n\nDidn't need to + verbo: no era necesario, y normalmente no se hizo: We didn't need to call the police, because the receptionist had it.\n\nCould have + participio tiene dos usos más: algo que pudo pasar y no pasó (I could have lost the whole demo) y un reproche (You could have told me! = podrías habérmelo dicho).\n\nShould + verbo también expresa lo que esperamos que pase: The taxi should be here in five minutes. Y en pasado: The parcel should have arrived by now (debería haber llegado ya, y no ha llegado).",
+                    "explanation": "«Needn't have» + participio: hiciste algo que al final no hacía falta:\n- «You needn't have worried. The laptop was safe.» (te preocupaste, pero no hacía falta)\n\n«Didn't need to» + verbo: no era necesario, y normalmente no se hizo:\n- «We didn't need to call the police, because the receptionist had it.»\n\n«Could have» + participio tiene dos usos más: algo que pudo pasar y no pasó, y un reproche:\n- «I could have lost the whole demo.»\n- «You could have told me!» (podrías habérmelo dicho)\n\n«Should» + verbo también expresa lo que esperamos que pase; en pasado, lo que esperábamos y no ha pasado:\n- «The taxi should be here in five minutes.»\n- «The parcel should have arrived by now.» (debería haber llegado ya, y no ha llegado)",
                     "table": {
                       "headers": [
                         "Estructura",
@@ -224,7 +224,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con el modal + have correcto.",
+                    "instructions": "Completa con el modal + «have» correcto.",
                     "items": [
                       {
                         "sentence": "You must have ___ it somewhere. (leave)",
@@ -301,7 +301,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
-                    "instructions": "Reescribe con un modal + have.",
+                    "instructions": "Reescribe con un modal + «have».",
                     "items": [
                       {
                         "source": "I'm sure you left it at the conference.",
@@ -337,7 +337,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con needn't, need, could o should.",
+                    "instructions": "Completa con «needn't», «need», «could» o «should».",
                     "items": [
                       {
                         "sentence": "You ___ have worried. The laptop was under a chair all the time.",

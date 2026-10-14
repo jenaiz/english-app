@@ -111,7 +111,7 @@
                   "content": {
                     "tag": "causative",
                     "title": "Causative have and get",
-                    "explanation": "Have / get + objeto + participio indica que otra persona hace algo por nosotros, normalmente un servicio: I'm having the boiler repaired (no lo arreglo yo). Get es más informal.\n\nSe usa en cualquier tiempo: I had my car serviced last week. I'm getting the kitchen repainted. Could you have the oven checked?\n\nPara decir a quién le encargas algo: get + persona + to + verbo (I'll get someone to look at it) o have + persona + verbo (I'll have the engineer call you).\n\nEn español solemos decir «me voy a cortar el pelo», pero en inglés es I'm going to get my hair cut, porque te lo corta otra persona.",
+                    "explanation": "«Have» / «get» + objeto + participio indica que otra persona hace algo por nosotros, normalmente un servicio. «Get» es más informal:\n- «I'm having the boiler repaired.» (no lo arreglo yo)\n\nSe usa en cualquier tiempo:\n- «I had my car serviced last week.»\n- «I'm getting the kitchen repainted.»\n- «Could you have the oven checked?»\n\nPara decir a quién le encargas algo: «get» + persona + «to» + verbo, o «have» + persona + verbo:\n- «I'll get someone to look at it.»\n- «I'll have the engineer call you.»\n\nEn español solemos decir «me voy a cortar el pelo», pero en inglés es «I'm going to get my hair cut», porque te lo corta otra persona.",
                     "table": {
                       "headers": [
                         "Estructura",
@@ -158,7 +158,7 @@
                   "content": {
                     "tag": "passive_forms",
                     "title": "More passive forms: is being repaired, should be fixed",
-                    "explanation": "La pasiva existe en todos los tiempos. Además de las formas que ya conoces (is repaired, was repaired, has been repaired, will be repaired):\n\n• Continua (being + participio): algo que se está haciendo ahora: The boiler is being repaired right now. Cuando llegué, estaban pintando la cocina: The kitchen was being repainted.\n• Con modales (modal + be + participio): It should be fixed by Thursday. The oven must be checked. It can't be done today.\n• Con going to: The kitchen is going to be repainted next month.\n• Infinitivo y gerundio: The boiler needs to be replaced. I don't like being told what to do.\n\nRecuerda: si importa quién lo hace, se añade by: It's being repaired by an engineer from Bath.",
+                    "explanation": "La pasiva existe en todos los tiempos. Además de las formas que ya conoces («is repaired», «was repaired», «has been repaired», «will be repaired»):\n- Continua («being» + participio), algo que se está haciendo: «The boiler is being repaired right now.», «The kitchen was being repainted.» (cuando llegué, estaban pintando la cocina)\n- Con modales (modal + «be» + participio): «It should be fixed by Thursday.», «The oven must be checked.», «It can't be done today.»\n- Con «going to»: «The kitchen is going to be repainted next month.»\n- Infinitivo y gerundio: «The boiler needs to be replaced.», «I don't like being told what to do.»\n\nRecuerda: si importa quién lo hace, se añade «by»:\n- «It's being repaired by an engineer from Bath.»",
                     "table": {
                       "headers": [
                         "Forma",
@@ -277,7 +277,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
-                    "instructions": "Reescribe con have / get something done.",
+                    "instructions": "Reescribe con «have» / «get something done».",
                     "items": [
                       {
                         "source": "A mechanic serviced my car. (I had…)",
@@ -314,7 +314,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con be, being o been.",
+                    "instructions": "Completa con «be», «being» o «been».",
                     "items": [
                       {
                         "sentence": "Sorry, you can't shower. The boiler is ___ repaired right now.",

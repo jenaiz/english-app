@@ -119,7 +119,7 @@
                   "content": {
                     "tag": "future_forms",
                     "title": "Future continuous and future perfect",
-                    "explanation": "Future continuous (will be + -ing): una acción que estará en curso en un momento del futuro. This time tomorrow, I'll be standing on stage. También sirve para preguntar por planes de forma educada: Will you be sitting in the front row?\n\nFuture perfect (will have + participio): una acción que ya estará terminada antes de un momento del futuro. By eleven o'clock, you'll have finished.\n\nBy + momento = para, antes de (by Friday, by then). By the time + presente = para cuando: By the time we check in, it'll be dark.",
+                    "explanation": "Future continuous («will be» + «-ing»): una acción que estará en curso en un momento del futuro. También sirve para preguntar por planes de forma educada:\n- «This time tomorrow, I'll be standing on stage.»\n- «Will you be sitting in the front row?»\n\nFuture perfect («will have» + participio): una acción que ya estará terminada antes de un momento del futuro:\n- «By eleven o'clock, you'll have finished.»\n\n«By» + momento = para, antes de («by Friday», «by then»). «By the time» + presente = para cuando:\n- «By the time we check in, it'll be dark.»",
                     "table": {
                       "headers": [
                         "Forma",
@@ -168,7 +168,7 @@
                   "content": {
                     "tag": "future_forms",
                     "title": "Future perfect continuous · in case",
-                    "explanation": "Future perfect continuous (will have been + -ing): cuánto tiempo llevará pasando algo en un momento del futuro: By the time we arrive in Edinburgh, we'll have been travelling for six hours. In June, I'll have been living in Bristol for three years.\n\nSe usa casi siempre con for + periodo y by / by the time / when + momento del futuro. Compáralo con el future perfect, que mira el resultado: By eleven, you'll have finished (habrás terminado) / By eleven, you'll have been talking for an hour (llevarás una hora hablando).\n\nIn case (por si acaso) + presente, aunque hable del futuro: I'll take a printed copy in case the laptop fails. Ojo: no es lo mismo que if. Take an umbrella in case it rains (llévatelo ya, por si llueve) / Take a taxi if it rains (solo si llueve).",
+                    "explanation": "Future perfect continuous («will have been» + «-ing»): cuánto tiempo llevará pasando algo en un momento del futuro:\n- «By the time we arrive in Edinburgh, we'll have been travelling for six hours.»\n- «In June, I'll have been living in Bristol for three years.»\n\nSe usa casi siempre con «for» + periodo y «by», «by the time» o «when» + momento del futuro. Compáralo con el future perfect, que mira el resultado:\n- «By eleven, you'll have finished.» (habrás terminado)\n- «By eleven, you'll have been talking for an hour.» (llevarás una hora hablando)\n\n«In case» (por si acaso) + presente, aunque hable del futuro:\n- «I'll take a printed copy in case the laptop fails.»\n\nOjo: no es lo mismo que «if»:\n- «Take an umbrella in case it rains.» (llévatelo ya, por si llueve)\n- «Take a taxi if it rains.» (solo si llueve)",
                     "table": {
                       "headers": [
                         "",
@@ -302,7 +302,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
-                    "instructions": "Completa con been, have, in case o if.",
+                    "instructions": "Completa con «been», «have», «in case» o «if».",
                     "items": [
                       {
                         "sentence": "By six o'clock, we'll have ___ travelling for five hours.",
