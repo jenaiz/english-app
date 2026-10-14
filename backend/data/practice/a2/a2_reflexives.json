@@ -1,0 +1,482 @@
+{
+  "topic_id": "a2_reflexives",
+  "level_id": "A2",
+  "title": "Pronombres reflexivos: myself, yourself, ourselves",
+  "tags": [
+    "reflexives"
+  ],
+  "units": [
+    "christmas_party"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Reflexive pronouns",
+    "explanation": "Los pronombres reflexivos se usan cuando el sujeto y el objeto son la misma persona:\n- «I cut myself.» (me corté)\n- «Enjoy yourselves!» (¡pasadlo bien!)\n\nSon: «myself», «yourself» (tú), «himself», «herself», «itself», «ourselves», «yourselves» (vosotros), «themselves».\n\nTambién sirven para decir yo mismo, sin ayuda:\n- «I made the cake myself.»\n- «Lucía did the designs herself.»\n\nExpresiones muy comunes: «Help yourself!» (¡sírvete!), «Enjoy yourself» (pásalo bien), «Look after yourself» (cuídate), «by myself» (solo, sin nadie): «I live by myself».\n\nOjo: en inglés muchos verbos que en español son reflexivos no lo son: «I get up» (me levanto), «I feel tired» (me siento cansado), «I wash my hair» (me lavo el pelo), «I relax» (me relajo), «I sit down» (me siento). Y «each other» es el uno al otro: «They love each other» (se quieren), no «themselves».",
+    "table": {
+      "headers": [
+        "Sujeto",
+        "Reflexivo",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "I",
+          "myself",
+          "I made it myself."
+        ],
+        [
+          "you",
+          "yourself",
+          "Help yourself!"
+        ],
+        [
+          "he",
+          "himself",
+          "He hurt himself."
+        ],
+        [
+          "she",
+          "herself",
+          "She did it herself."
+        ],
+        [
+          "we",
+          "ourselves",
+          "We enjoyed ourselves."
+        ],
+        [
+          "you (plural)",
+          "yourselves",
+          "Enjoy yourselves!"
+        ],
+        [
+          "they",
+          "themselves",
+          "They looked at themselves."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el pronombre reflexivo.",
+      "bank": [
+        "myself",
+        "yourself",
+        "himself",
+        "herself",
+        "itself",
+        "ourselves",
+        "yourselves",
+        "themselves"
+      ],
+      "items": [
+        {
+          "id": "a2_reflexives.001",
+          "sentence": "There's food on the table. Help ___, Lucía!",
+          "answers": [
+            [
+              "yourself"
+            ]
+          ]
+        },
+        {
+          "id": "a2_reflexives.002",
+          "sentence": "Have a great night, everyone. Enjoy ___!",
+          "answers": [
+            [
+              "yourselves"
+            ]
+          ]
+        },
+        {
+          "id": "a2_reflexives.003",
+          "sentence": "Helen made the Christmas cake ___.",
+          "answers": [
+            [
+              "herself"
+            ]
+          ]
+        },
+        {
+          "id": "a2_reflexives.004",
+          "sentence": "Daniel fell and hurt ___ on the dance floor.",
+          "answers": [
+            [
+              "himself"
+            ]
+          ]
+        },
+        {
+          "id": "a2_reflexives.005",
+          "sentence": "We really enjoyed ___ at the party.",
+          "answers": [
+            [
+              "ourselves"
+            ]
+          ]
+        },
+        {
+          "id": "a2_reflexives.006",
+          "sentence": "I don't need help. I can do it ___.",
+          "answers": [
+            [
+              "myself"
+            ]
+          ]
+        },
+        {
+          "id": "a2_reflexives.007",
+          "sentence": "Look after ___ and call me tomorrow, Priya.",
+          "answers": [
+            [
+              "yourself"
+            ]
+          ]
+        },
+        {
+          "id": "a2_reflexives.008",
+          "sentence": "The children made dinner by ___.",
+          "answers": [
+            [
+              "themselves"
+            ]
+          ]
+        },
+        {
+          "id": "a2_reflexives.009",
+          "sentence": "I cut ___ when I was making a salad.",
+          "answers": [
+            [
+              "myself"
+            ]
+          ]
+        },
+        {
+          "id": "a2_reflexives.010",
+          "sentence": "Sam taught ___ to play the guitar.",
+          "answers": [
+            [
+              "himself"
+            ]
+          ]
+        },
+        {
+          "id": "a2_reflexives.011",
+          "sentence": "The machine turns ___ off at night.",
+          "answers": [
+            [
+              "itself"
+            ]
+          ]
+        },
+        {
+          "id": "a2_reflexives.012",
+          "sentence": "Lucía lives by ___ now.",
+          "answers": [
+            [
+              "herself"
+            ]
+          ]
+        },
+        {
+          "id": "a2_reflexives.013",
+          "sentence": "Did you paint the room ___, Javi?",
+          "answers": [
+            [
+              "yourself"
+            ]
+          ]
+        },
+        {
+          "id": "a2_reflexives.014",
+          "sentence": "We built this table ___.",
+          "answers": [
+            [
+              "ourselves"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_reflexives.101",
+          "question": "Me corté.",
+          "options": [
+            "I cut myself.",
+            "I cut me."
+          ],
+          "answer": 0,
+          "explanation": "Mismo sujeto y objeto: «myself»."
+        },
+        {
+          "id": "a2_reflexives.102",
+          "question": "¡Sírvete!",
+          "options": [
+            "Help yourself!",
+            "Help you!"
+          ],
+          "answer": 0,
+          "explanation": "Expresión fija: «Help yourself»."
+        },
+        {
+          "id": "a2_reflexives.103",
+          "question": "Me levanto a las siete.",
+          "options": [
+            "I get up at seven.",
+            "I get myself up at seven."
+          ],
+          "answer": 0,
+          "explanation": "No es reflexivo en inglés."
+        },
+        {
+          "id": "a2_reflexives.104",
+          "question": "Se quieren mucho.",
+          "options": [
+            "They love each other a lot.",
+            "They love themselves a lot."
+          ],
+          "answer": 0,
+          "explanation": "El uno al otro: «each other»."
+        },
+        {
+          "id": "a2_reflexives.105",
+          "question": "Lo hice yo mismo.",
+          "options": [
+            "I did it myself.",
+            "I did it me."
+          ],
+          "answer": 0,
+          "explanation": "Sin ayuda: «myself»."
+        },
+        {
+          "id": "a2_reflexives.106",
+          "question": "¡Pasadlo bien!",
+          "options": [
+            "Enjoy yourselves!",
+            "Enjoy yourself!"
+          ],
+          "answer": 0,
+          "explanation": "Vosotros: «yourselves»."
+        },
+        {
+          "id": "a2_reflexives.107",
+          "question": "Me siento cansado.",
+          "options": [
+            "I feel tired.",
+            "I feel myself tired."
+          ],
+          "answer": 0,
+          "explanation": "No es reflexivo en inglés."
+        },
+        {
+          "id": "a2_reflexives.108",
+          "question": "Vive sola.",
+          "options": [
+            "She lives by herself.",
+            "She lives by her."
+          ],
+          "answer": 0,
+          "explanation": "Sola: «by herself»."
+        },
+        {
+          "id": "a2_reflexives.109",
+          "question": "Se hizo daño (él).",
+          "options": [
+            "He hurt himself.",
+            "He hurt hisself."
+          ],
+          "answer": 0,
+          "explanation": "«himself»."
+        },
+        {
+          "id": "a2_reflexives.110",
+          "question": "Me relajo en el sofá.",
+          "options": [
+            "I relax on the sofa.",
+            "I relax myself on the sofa."
+          ],
+          "answer": 0,
+          "explanation": "No es reflexivo en inglés."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "a2_reflexives.201",
+          "prompt": "Corrige",
+          "source": "I hurt me when I fell.",
+          "answers": [
+            "I hurt myself when I fell"
+          ],
+          "explanation": "Mismo sujeto y objeto: «myself»."
+        },
+        {
+          "id": "a2_reflexives.202",
+          "prompt": "Corrige",
+          "source": "Enjoy yourself, everyone!",
+          "answers": [
+            "Enjoy yourselves, everyone",
+            "Enjoy yourselves everyone"
+          ],
+          "explanation": "Vosotros: «yourselves»."
+        },
+        {
+          "id": "a2_reflexives.203",
+          "prompt": "Corrige",
+          "source": "I wash myself my hair every day.",
+          "answers": [
+            "I wash my hair every day"
+          ],
+          "explanation": "No es reflexivo en inglés."
+        },
+        {
+          "id": "a2_reflexives.204",
+          "prompt": "Corrige",
+          "source": "He made it hisself.",
+          "answers": [
+            "He made it himself"
+          ],
+          "explanation": "«himself»."
+        },
+        {
+          "id": "a2_reflexives.205",
+          "prompt": "Corrige",
+          "source": "They looked at theirselves in the mirror.",
+          "answers": [
+            "They looked at themselves in the mirror"
+          ],
+          "explanation": "«themselves»."
+        },
+        {
+          "id": "a2_reflexives.206",
+          "prompt": "Corrige",
+          "source": "Sam and Priya help themselves at work. (el uno al otro)",
+          "answers": [
+            "Sam and Priya help each other at work"
+          ],
+          "explanation": "El uno al otro: «each other»."
+        },
+        {
+          "id": "a2_reflexives.207",
+          "prompt": "Corrige",
+          "source": "I get myself up at seven.",
+          "answers": [
+            "I get up at seven"
+          ],
+          "explanation": "No es reflexivo en inglés."
+        },
+        {
+          "id": "a2_reflexives.208",
+          "prompt": "Corrige",
+          "source": "She lives by her own self.",
+          "answers": [
+            "She lives by herself"
+          ],
+          "explanation": "Sola: «by herself»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_reflexives.301",
+          "source": "Me corté.",
+          "answers": [
+            "I cut myself"
+          ]
+        },
+        {
+          "id": "a2_reflexives.302",
+          "source": "¡Sírvete!",
+          "answers": [
+            "Help yourself"
+          ]
+        },
+        {
+          "id": "a2_reflexives.303",
+          "source": "¡Pasadlo bien!",
+          "answers": [
+            "Enjoy yourselves",
+            "Have fun"
+          ]
+        },
+        {
+          "id": "a2_reflexives.304",
+          "source": "Lo hice yo misma.",
+          "answers": [
+            "I did it myself",
+            "I made it myself"
+          ]
+        },
+        {
+          "id": "a2_reflexives.305",
+          "source": "Me levanto a las siete.",
+          "answers": [
+            "I get up at seven"
+          ]
+        },
+        {
+          "id": "a2_reflexives.306",
+          "source": "Vive solo.",
+          "answers": [
+            "He lives by himself",
+            "He lives alone"
+          ]
+        },
+        {
+          "id": "a2_reflexives.307",
+          "source": "Se hizo daño en la fiesta.",
+          "answers": [
+            "He hurt himself at the party",
+            "She hurt herself at the party"
+          ]
+        },
+        {
+          "id": "a2_reflexives.308",
+          "source": "Se quieren mucho.",
+          "answers": [
+            "They love each other a lot",
+            "They love each other very much"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_reflexives.401",
+          "answer": "Help yourself to some cake"
+        },
+        {
+          "id": "a2_reflexives.402",
+          "answer": "I made the cake myself"
+        },
+        {
+          "id": "a2_reflexives.403",
+          "answer": "We really enjoyed ourselves"
+        },
+        {
+          "id": "a2_reflexives.404",
+          "answer": "He hurt himself on the dance floor"
+        },
+        {
+          "id": "a2_reflexives.405",
+          "answer": "She lives by herself"
+        }
+      ]
+    }
+  ]
+}

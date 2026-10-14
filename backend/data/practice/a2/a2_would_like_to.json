@@ -1,0 +1,462 @@
+{
+  "topic_id": "a2_would_like_to",
+  "level_id": "A2",
+  "title": "would like y verbo + to (want, decide, need…)",
+  "tags": [
+    "would_like_verb_to"
+  ],
+  "units": [
+    "christmas_party"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "would like and verb + to",
+    "explanation": "«Would like» («'d like») es una forma educada de «want». Va con un nombre o con «to» + verbo:\n- «I'd like a glass of wine.»\n- «I'd like to take you to a restaurant.»\n\n«Would you like…?» sirve para ofrecer e invitar. Respuestas: «Yes, please.», «I'd love to.», «No, thank you.»\n- «Would you like a drink?»\n- «Would you like to have dinner with me? — I'd love to!»\n\nOtros verbos también van seguidos de «to» + verbo: «want», «need», «decide», «hope», «try», «learn», «plan», «forget», «promise»:\n- «I decided to fly on the twentieth.»\n- «I'm learning to dance.»\n- «Don't forget to call me!»\n\nOjo con la diferencia:\n- «I like dancing.» (me gusta en general)\n- «I'd like to dance.» (me apetece ahora)\n\nY en la respuesta corta se repite «to», sin el verbo: «Would you like to come? — I'd love to.» (nunca «I'd love»).",
+    "table": {
+      "headers": [
+        "Expresión",
+        "Uso",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "I'd like + nombre",
+          "pedir",
+          "I'd like a coffee, please."
+        ],
+        [
+          "I'd like to + verbo",
+          "deseo",
+          "I'd like to see the city."
+        ],
+        [
+          "Would you like…?",
+          "ofrecer, invitar",
+          "Would you like a drink?"
+        ],
+        [
+          "want / need / decide… + to",
+          "verbo + to",
+          "I decided to stay."
+        ],
+        [
+          "I like + -ing",
+          "gusto general",
+          "I like dancing."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «like», «to», «would» o el verbo entre paréntesis.",
+      "items": [
+        {
+          "id": "a2_would_like_to.001",
+          "sentence": "Would you ___ a drink?",
+          "answers": [
+            [
+              "like"
+            ]
+          ]
+        },
+        {
+          "id": "a2_would_like_to.002",
+          "sentence": "I'd like ___ welcome our new designer.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_would_like_to.003",
+          "sentence": "I decided ___ fly on the twentieth.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_would_like_to.004",
+          "sentence": "I want ___ see my family.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_would_like_to.005",
+          "sentence": "Would you like to have dinner with me? — I'd love ___.",
+          "answers": [
+            [
+              "to"
+            ]
+          ],
+          "explanation": "Respuesta corta: «I'd love to»."
+        },
+        {
+          "id": "a2_would_like_to.006",
+          "sentence": "I'd ___ a glass of wine, please.",
+          "answers": [
+            [
+              "like"
+            ]
+          ]
+        },
+        {
+          "id": "a2_would_like_to.007",
+          "sentence": "I need ___ buy some presents.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_would_like_to.008",
+          "sentence": "Do you want ___ dance?",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_would_like_to.009",
+          "sentence": "___ you like some more cake?",
+          "answers": [
+            [
+              "Would"
+            ]
+          ]
+        },
+        {
+          "id": "a2_would_like_to.010",
+          "sentence": "I'm learning ___ play the guitar.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_would_like_to.011",
+          "sentence": "Don't forget ___ call your mum!",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_would_like_to.012",
+          "sentence": "I like ___. It's my favourite hobby. (dance)",
+          "answers": [
+            [
+              "dancing"
+            ]
+          ],
+          "explanation": "Gusto general: «-ing»."
+        },
+        {
+          "id": "a2_would_like_to.013",
+          "sentence": "I'd like ___ in Bristol for another year. (stay)",
+          "answers": [
+            [
+              "to stay"
+            ]
+          ]
+        },
+        {
+          "id": "a2_would_like_to.014",
+          "sentence": "We're hoping ___ visit Galway in the summer.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_would_like_to.101",
+          "question": "¿Quieres algo de beber?",
+          "options": [
+            "Would you like a drink?",
+            "Do you like a drink?"
+          ],
+          "answer": 0,
+          "explanation": "Ofrecer: «Would you like…?»."
+        },
+        {
+          "id": "a2_would_like_to.102",
+          "question": "Me gustaría cenar contigo.",
+          "options": [
+            "I'd like to have dinner with you.",
+            "I'd like having dinner with you."
+          ],
+          "answer": 0,
+          "explanation": "«would like» + «to»."
+        },
+        {
+          "id": "a2_would_like_to.103",
+          "question": "Decidí volar el día veinte.",
+          "options": [
+            "I decided to fly on the twentieth.",
+            "I decided flying on the twentieth."
+          ],
+          "answer": 0,
+          "explanation": "«decide» + «to»."
+        },
+        {
+          "id": "a2_would_like_to.104",
+          "question": "¿Vienes? — Me encantaría.",
+          "options": [
+            "Would you like to come? — I'd love to.",
+            "Would you like to come? — I'd love."
+          ],
+          "answer": 0,
+          "explanation": "Respuesta corta: «I'd love to»."
+        },
+        {
+          "id": "a2_would_like_to.105",
+          "question": "Me gusta bailar (en general).",
+          "options": [
+            "I like dancing.",
+            "I'd like dancing."
+          ],
+          "answer": 0,
+          "explanation": "Gusto general: «I like»."
+        },
+        {
+          "id": "a2_would_like_to.106",
+          "question": "Me apetece bailar.",
+          "options": [
+            "I'd like to dance.",
+            "I like to dancing."
+          ],
+          "answer": 0,
+          "explanation": "Ahora: «I'd like to»."
+        },
+        {
+          "id": "a2_would_like_to.107",
+          "question": "Necesito comprar regalos.",
+          "options": [
+            "I need to buy some presents.",
+            "I need buy some presents."
+          ],
+          "answer": 0,
+          "explanation": "«need» + «to»."
+        },
+        {
+          "id": "a2_would_like_to.108",
+          "question": "No olvides llamarme.",
+          "options": [
+            "Don't forget to call me.",
+            "Don't forget calling me."
+          ],
+          "answer": 0,
+          "explanation": "«forget» + «to» (algo que hacer)."
+        },
+        {
+          "id": "a2_would_like_to.109",
+          "question": "Quiero un café, por favor.",
+          "options": [
+            "I'd like a coffee, please.",
+            "I like a coffee, please."
+          ],
+          "answer": 0,
+          "explanation": "Pedir: «I'd like»."
+        },
+        {
+          "id": "a2_would_like_to.110",
+          "question": "Estoy aprendiendo a conducir.",
+          "options": [
+            "I'm learning to drive.",
+            "I'm learning driving to."
+          ],
+          "answer": 0,
+          "explanation": "«learn» + «to»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "a2_would_like_to.201",
+          "prompt": "Corrige",
+          "source": "I'd like go to the party.",
+          "answers": [
+            "I'd like to go to the party"
+          ],
+          "explanation": "«would like» + «to»."
+        },
+        {
+          "id": "a2_would_like_to.202",
+          "prompt": "Corrige",
+          "source": "Do you like a cup of tea? (ofreces)",
+          "answers": [
+            "Would you like a cup of tea"
+          ],
+          "explanation": "Ofrecer: «Would you like…?»."
+        },
+        {
+          "id": "a2_would_like_to.203",
+          "prompt": "Corrige",
+          "source": "I decided going home early.",
+          "answers": [
+            "I decided to go home early"
+          ],
+          "explanation": "«decide» + «to»."
+        },
+        {
+          "id": "a2_would_like_to.204",
+          "prompt": "Corrige",
+          "source": "Would you like to come? — I'd love.",
+          "answers": [
+            "Would you like to come? I'd love to",
+            "I'd love to"
+          ],
+          "explanation": "Respuesta corta: «I'd love to»."
+        },
+        {
+          "id": "a2_would_like_to.205",
+          "prompt": "Corrige",
+          "source": "I want see my family.",
+          "answers": [
+            "I want to see my family"
+          ],
+          "explanation": "«want» + «to»."
+        },
+        {
+          "id": "a2_would_like_to.206",
+          "prompt": "Corrige",
+          "source": "I like a glass of water, please.",
+          "answers": [
+            "I'd like a glass of water, please",
+            "I'd like a glass of water please"
+          ],
+          "explanation": "Pedir: «I'd like»."
+        },
+        {
+          "id": "a2_would_like_to.207",
+          "prompt": "Corrige",
+          "source": "She's learning drive.",
+          "answers": [
+            "She's learning to drive"
+          ],
+          "explanation": "«learn» + «to»."
+        },
+        {
+          "id": "a2_would_like_to.208",
+          "prompt": "Corrige",
+          "source": "We need buying food.",
+          "answers": [
+            "We need to buy food",
+            "We need to buy some food"
+          ],
+          "explanation": "«need» + «to»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_would_like_to.301",
+          "source": "¿Quieres algo de beber?",
+          "answers": [
+            "Would you like a drink",
+            "Would you like something to drink"
+          ]
+        },
+        {
+          "id": "a2_would_like_to.302",
+          "source": "Me gustaría cenar contigo.",
+          "answers": [
+            "I'd like to have dinner with you"
+          ]
+        },
+        {
+          "id": "a2_would_like_to.303",
+          "source": "Decidí volar el día veinte.",
+          "answers": [
+            "I decided to fly on the twentieth"
+          ]
+        },
+        {
+          "id": "a2_would_like_to.304",
+          "source": "Me encantaría.",
+          "answers": [
+            "I'd love to"
+          ]
+        },
+        {
+          "id": "a2_would_like_to.305",
+          "source": "Quiero ver a mi familia.",
+          "answers": [
+            "I want to see my family"
+          ]
+        },
+        {
+          "id": "a2_would_like_to.306",
+          "source": "Necesito comprar unos regalos.",
+          "answers": [
+            "I need to buy some presents"
+          ]
+        },
+        {
+          "id": "a2_would_like_to.307",
+          "source": "Me gusta bailar.",
+          "answers": [
+            "I like dancing"
+          ]
+        },
+        {
+          "id": "a2_would_like_to.308",
+          "source": "Estoy aprendiendo a tocar la guitarra.",
+          "answers": [
+            "I'm learning to play the guitar"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_would_like_to.401",
+          "answer": "Would you like a drink?"
+        },
+        {
+          "id": "a2_would_like_to.402",
+          "answer": "I'd like to take you to dinner"
+        },
+        {
+          "id": "a2_would_like_to.403",
+          "answer": "I decided to fly home"
+        },
+        {
+          "id": "a2_would_like_to.404",
+          "answer": "Do you want to dance?"
+        },
+        {
+          "id": "a2_would_like_to.405",
+          "answer": "I'm learning to play the guitar"
+        }
+      ]
+    }
+  ]
+}

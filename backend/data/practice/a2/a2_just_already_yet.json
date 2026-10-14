@@ -1,0 +1,457 @@
+{
+  "topic_id": "a2_just_already_yet",
+  "level_id": "A2",
+  "title": "Present perfect: just, already, yet",
+  "tags": [
+    "present_perfect"
+  ],
+  "units": [
+    "home_for_christmas"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Present perfect: just, already, yet",
+    "explanation": "El present perfect también habla de acciones recientes que importan ahora. Tres palabras muy útiles:\n- «just» = acabar de. Va entre «have» y el participio: «The taxi has just arrived.»\n- «already» = ya (antes de lo esperado). Va entre «have» y el participio: «I've already packed my clothes.»\n- «yet» = ya (en preguntas) o todavía (en negativas). Va al final: «Have you packed yet?», «I haven't found my passport yet.»\n\nMás ejemplos:\n- «I've just checked in online.» (acabo de)\n- «We've already ordered a taxi.» (ya)\n- «Has Daniel called yet? — No, not yet.» (todavía no)\n\nRecuerda algunos participios irregulares: «send» → «sent», «find» → «found», «do» → «done», «buy» → «bought», «make» → «made», «forget» → «forgotten».\n\nOjo: «yet» no va en frases afirmativas («I've finished yet» está mal; se dice «I've already finished»). Y si dices cuándo pasó, se usa el past simple: «The taxi arrived five minutes ago».",
+    "table": {
+      "headers": [
+        "Palabra",
+        "Significado",
+        "Posición",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "just",
+          "acabar de",
+          "entre have y participio",
+          "The taxi has just arrived."
+        ],
+        [
+          "already",
+          "ya",
+          "entre have y participio",
+          "I've already packed."
+        ],
+        [
+          "yet (pregunta)",
+          "ya",
+          "al final",
+          "Have you packed yet?"
+        ],
+        [
+          "yet (negativa)",
+          "todavía",
+          "al final",
+          "I haven't packed yet."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «just», «already», «yet» o el participio del verbo entre paréntesis.",
+      "items": [
+        {
+          "id": "a2_just_already_yet.001",
+          "sentence": "Have you packed ___?",
+          "answers": [
+            [
+              "yet"
+            ]
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.002",
+          "sentence": "I've ___ packed my clothes. (ya)",
+          "answers": [
+            [
+              "already"
+            ]
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.003",
+          "sentence": "I haven't found my passport ___.",
+          "answers": [
+            [
+              "yet"
+            ]
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.004",
+          "sentence": "The taxi has ___ arrived. (acaba de)",
+          "answers": [
+            [
+              "just"
+            ]
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.005",
+          "sentence": "I've just ___ in online. (check)",
+          "answers": [
+            [
+              "checked"
+            ]
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.006",
+          "sentence": "He's just ___ me a message. (send)",
+          "answers": [
+            [
+              "sent"
+            ]
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.007",
+          "sentence": "___ Daniel called you today?",
+          "answers": [
+            [
+              "Has"
+            ]
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.008",
+          "sentence": "I've already ___ a taxi. (order)",
+          "answers": [
+            [
+              "ordered"
+            ]
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.009",
+          "sentence": "We haven't bought the presents ___.",
+          "answers": [
+            [
+              "yet"
+            ]
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.010",
+          "sentence": "Have you ___ your homework? (do)",
+          "answers": [
+            [
+              "done"
+            ]
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.011",
+          "sentence": "I've ___ seen that film. I don't want to see it again. (ya)",
+          "answers": [
+            [
+              "already"
+            ]
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.012",
+          "sentence": "She's ___ left. You can catch her if you run! (acaba de)",
+          "answers": [
+            [
+              "just"
+            ]
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.013",
+          "sentence": "I've ___ my keys! Where are they? (lose)",
+          "answers": [
+            [
+              "lost"
+            ]
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.014",
+          "sentence": "Has the shop opened ___?",
+          "answers": [
+            [
+              "yet"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_just_already_yet.101",
+          "question": "¿Ya has hecho la maleta?",
+          "options": [
+            "Have you packed yet?",
+            "Have you packed already yet?"
+          ],
+          "answer": 0,
+          "explanation": "En preguntas: «yet» al final."
+        },
+        {
+          "id": "a2_just_already_yet.102",
+          "question": "El taxi acaba de llegar.",
+          "options": [
+            "The taxi has just arrived.",
+            "The taxi has arrived just."
+          ],
+          "answer": 0,
+          "explanation": "«just» entre «has» y el participio."
+        },
+        {
+          "id": "a2_just_already_yet.103",
+          "question": "Todavía no he encontrado el pasaporte.",
+          "options": [
+            "I haven't found my passport yet.",
+            "I haven't yet found my passport yet."
+          ],
+          "answer": 0,
+          "explanation": "En negativas: «yet» al final."
+        },
+        {
+          "id": "a2_just_already_yet.104",
+          "question": "Ya he pedido un taxi.",
+          "options": [
+            "I've already ordered a taxi.",
+            "I've ordered yet a taxi."
+          ],
+          "answer": 0,
+          "explanation": "Afirmativa: «already»."
+        },
+        {
+          "id": "a2_just_already_yet.105",
+          "question": "Ya he terminado.",
+          "options": [
+            "I've already finished.",
+            "I've finished yet."
+          ],
+          "answer": 0,
+          "explanation": "«yet» no va en afirmativas."
+        },
+        {
+          "id": "a2_just_already_yet.106",
+          "question": "Me acaba de mandar un mensaje.",
+          "options": [
+            "He's just sent me a message.",
+            "He's just send me a message."
+          ],
+          "answer": 0,
+          "explanation": "Participio: «sent»."
+        },
+        {
+          "id": "a2_just_already_yet.107",
+          "question": "El taxi llegó hace cinco minutos.",
+          "options": [
+            "The taxi arrived five minutes ago.",
+            "The taxi has arrived five minutes ago."
+          ],
+          "answer": 0,
+          "explanation": "Con cuándo: past simple."
+        },
+        {
+          "id": "a2_just_already_yet.108",
+          "question": "¿Ha llamado ya Daniel? — Todavía no.",
+          "options": [
+            "Has Daniel called yet? — No, not yet.",
+            "Has Daniel called yet? — No, yet not."
+          ],
+          "answer": 0,
+          "explanation": "«not yet»."
+        },
+        {
+          "id": "a2_just_already_yet.109",
+          "question": "¿Has hecho los deberes?",
+          "options": [
+            "Have you done your homework?",
+            "Have you did your homework?"
+          ],
+          "answer": 0,
+          "explanation": "Participio: «done»."
+        },
+        {
+          "id": "a2_just_already_yet.110",
+          "question": "Ya hemos comprado los regalos.",
+          "options": [
+            "We've already bought the presents.",
+            "We've already buyed the presents."
+          ],
+          "answer": 0,
+          "explanation": "Participio: «bought»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Añade la palabra en el lugar correcto o corrige el error.",
+      "items": [
+        {
+          "id": "a2_just_already_yet.201",
+          "prompt": "just",
+          "source": "The taxi has arrived.",
+          "answers": [
+            "The taxi has just arrived"
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.202",
+          "prompt": "already",
+          "source": "I've packed my clothes.",
+          "answers": [
+            "I've already packed my clothes"
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.203",
+          "prompt": "yet",
+          "source": "Have you checked in?",
+          "answers": [
+            "Have you checked in yet"
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.204",
+          "prompt": "yet",
+          "source": "I haven't found my passport.",
+          "answers": [
+            "I haven't found my passport yet"
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.205",
+          "prompt": "Corrige",
+          "source": "I've finished my work yet.",
+          "answers": [
+            "I've already finished my work",
+            "I've finished my work"
+          ],
+          "explanation": "«yet» no va en afirmativas."
+        },
+        {
+          "id": "a2_just_already_yet.206",
+          "prompt": "Corrige",
+          "source": "She has arrived just.",
+          "answers": [
+            "She has just arrived",
+            "She's just arrived"
+          ],
+          "explanation": "«just» entre «has» y el participio."
+        },
+        {
+          "id": "a2_just_already_yet.207",
+          "prompt": "Corrige",
+          "source": "I've sended the email.",
+          "answers": [
+            "I've sent the email"
+          ],
+          "explanation": "Participio: «sent»."
+        },
+        {
+          "id": "a2_just_already_yet.208",
+          "prompt": "Corrige",
+          "source": "The plane has landed ten minutes ago.",
+          "answers": [
+            "The plane landed ten minutes ago"
+          ],
+          "explanation": "Con cuándo: past simple."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_just_already_yet.301",
+          "source": "¿Ya has hecho la maleta?",
+          "answers": [
+            "Have you packed yet"
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.302",
+          "source": "Ya he pedido un taxi.",
+          "answers": [
+            "I've already ordered a taxi"
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.303",
+          "source": "Todavía no he encontrado mi pasaporte.",
+          "answers": [
+            "I haven't found my passport yet"
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.304",
+          "source": "El taxi acaba de llegar.",
+          "answers": [
+            "The taxi has just arrived",
+            "The taxi's just arrived"
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.305",
+          "source": "Acabo de hacer el check-in.",
+          "answers": [
+            "I've just checked in",
+            "I've just checked in online"
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.306",
+          "source": "Ya he visto esa película.",
+          "answers": [
+            "I've already seen that film",
+            "I've already seen that movie"
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.307",
+          "source": "¿Ha llamado ya Daniel?",
+          "answers": [
+            "Has Daniel called yet"
+          ]
+        },
+        {
+          "id": "a2_just_already_yet.308",
+          "source": "Todavía no hemos comprado los regalos.",
+          "answers": [
+            "We haven't bought the presents yet"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_just_already_yet.401",
+          "answer": "Have you packed yet?"
+        },
+        {
+          "id": "a2_just_already_yet.402",
+          "answer": "I've already packed my clothes"
+        },
+        {
+          "id": "a2_just_already_yet.403",
+          "answer": "I haven't found my passport yet"
+        },
+        {
+          "id": "a2_just_already_yet.404",
+          "answer": "The taxi has just arrived"
+        },
+        {
+          "id": "a2_just_already_yet.405",
+          "answer": "He's just sent me a message"
+        }
+      ]
+    }
+  ]
+}

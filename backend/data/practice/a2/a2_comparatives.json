@@ -1,0 +1,475 @@
+{
+  "topic_id": "a2_comparatives",
+  "level_id": "A2",
+  "title": "Comparativos: bigger, more expensive, not as… as",
+  "tags": [
+    "comparatives"
+  ],
+  "units": [
+    "comparing_cities"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Comparatives",
+    "explanation": "Para comparar usamos el comparativo + «than»:\n- «Valencia is bigger than Bristol.»\n\nAdjetivos cortos: + «-er» («small» → «smaller», «cold» → «colder»). Si acaban en vocal + consonante, la consonante se dobla: «big» → «bigger», «wet» → «wetter». Si acaban en y: «sunny» → «sunnier», «funny» → «funnier», «friendly» → «friendlier».\n\nAdjetivos largos: «more» / «less» + adjetivo: «more expensive», «more interesting», «less crowded».\n\nIrregulares: «good» → «better», «bad» → «worse», «far» → «further».\n\nPara reforzar se usa «much», «a lot» o «a bit»:\n- «much bigger», «a lot more expensive», «a bit colder»\n\nPara decir que dos cosas son iguales, «as» + adjetivo + «as»; en negativa, que no llegan a serlo:\n- «Bath is as beautiful as Bristol.»\n- «Bristol isn't as sunny as Valencia.» (= Valencia es más soleada)\n\nOjo: nunca «more bigger» ni «more better». Y detrás de «than» o «as» va el pronombre objeto en el inglés de todos los días: «He's taller than me».",
+    "table": {
+      "headers": [
+        "Adjetivo",
+        "Comparativo",
+        "Igualdad"
+      ],
+      "rows": [
+        [
+          "big",
+          "bigger than",
+          "as big as"
+        ],
+        [
+          "sunny",
+          "sunnier than",
+          "as sunny as"
+        ],
+        [
+          "expensive",
+          "more expensive than",
+          "as expensive as"
+        ],
+        [
+          "good",
+          "better than",
+          "as good as"
+        ],
+        [
+          "bad",
+          "worse than",
+          "as bad as"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el comparativo, «than» o «as».",
+      "items": [
+        {
+          "id": "a2_comparatives.001",
+          "sentence": "Valencia is ___ than Bristol. (big)",
+          "answers": [
+            [
+              "bigger"
+            ]
+          ]
+        },
+        {
+          "id": "a2_comparatives.002",
+          "sentence": "Bristol is ___ than Valencia. (wet)",
+          "answers": [
+            [
+              "wetter"
+            ]
+          ],
+          "explanation": "Se dobla la t."
+        },
+        {
+          "id": "a2_comparatives.003",
+          "sentence": "The food in Valencia is ___. (good)",
+          "answers": [
+            [
+              "better"
+            ]
+          ]
+        },
+        {
+          "id": "a2_comparatives.004",
+          "sentence": "The weather in Bristol is ___. (bad)",
+          "answers": [
+            [
+              "worse"
+            ]
+          ]
+        },
+        {
+          "id": "a2_comparatives.005",
+          "sentence": "Bristol is ___ expensive than Madrid.",
+          "answers": [
+            [
+              "more"
+            ]
+          ]
+        },
+        {
+          "id": "a2_comparatives.006",
+          "sentence": "Daniel is ___ than Javi. (funny)",
+          "answers": [
+            [
+              "funnier"
+            ]
+          ]
+        },
+        {
+          "id": "a2_comparatives.007",
+          "sentence": "British people are ___ than Spanish people. (quiet)",
+          "answers": [
+            [
+              "quieter"
+            ]
+          ]
+        },
+        {
+          "id": "a2_comparatives.008",
+          "sentence": "Bristol isn't as sunny ___ Valencia.",
+          "answers": [
+            [
+              "as"
+            ]
+          ]
+        },
+        {
+          "id": "a2_comparatives.009",
+          "sentence": "London is much bigger ___ Bristol.",
+          "answers": [
+            [
+              "than"
+            ]
+          ]
+        },
+        {
+          "id": "a2_comparatives.010",
+          "sentence": "The bus is ___ than the train. (slow)",
+          "answers": [
+            [
+              "slower"
+            ]
+          ]
+        },
+        {
+          "id": "a2_comparatives.011",
+          "sentence": "My new flat is ___ than my old one. (comfortable)",
+          "answers": [
+            [
+              "more comfortable"
+            ]
+          ]
+        },
+        {
+          "id": "a2_comparatives.012",
+          "sentence": "People here are ___ than I expected. (friendly)",
+          "answers": [
+            [
+              "friendlier"
+            ]
+          ]
+        },
+        {
+          "id": "a2_comparatives.013",
+          "sentence": "Is Galway ___ from Dublin than Cork? (far)",
+          "answers": [
+            [
+              "further"
+            ]
+          ]
+        },
+        {
+          "id": "a2_comparatives.014",
+          "sentence": "This coffee is as good ___ the coffee in Italy!",
+          "answers": [
+            [
+              "as"
+            ]
+          ]
+        },
+        {
+          "id": "a2_comparatives.015",
+          "sentence": "Today is a bit ___ than yesterday. (warm)",
+          "answers": [
+            [
+              "warmer"
+            ]
+          ]
+        },
+        {
+          "id": "a2_comparatives.016",
+          "sentence": "The museum was ___ interesting than the castle. (menos)",
+          "answers": [
+            [
+              "less"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_comparatives.101",
+          "question": "Valencia es más grande que Bristol.",
+          "options": [
+            "Valencia is bigger than Bristol.",
+            "Valencia is more big than Bristol."
+          ],
+          "answer": 0,
+          "explanation": "Adjetivo corto: «-er»."
+        },
+        {
+          "id": "a2_comparatives.102",
+          "question": "Bristol no es tan soleado como Valencia.",
+          "options": [
+            "Bristol isn't as sunny as Valencia.",
+            "Bristol isn't so sunny than Valencia."
+          ],
+          "answer": 0,
+          "explanation": "«not as… as»."
+        },
+        {
+          "id": "a2_comparatives.103",
+          "question": "Mucho más caro.",
+          "options": [
+            "much more expensive",
+            "very more expensive"
+          ],
+          "answer": 0,
+          "explanation": "Para reforzar: «much»."
+        },
+        {
+          "id": "a2_comparatives.104",
+          "question": "Mejor que antes.",
+          "options": [
+            "more better than before",
+            "better than before"
+          ],
+          "answer": 1,
+          "explanation": "Nunca «more better»."
+        },
+        {
+          "id": "a2_comparatives.105",
+          "question": "Es más alto que yo.",
+          "options": [
+            "He's taller than me.",
+            "He's taller that me."
+          ],
+          "answer": 0,
+          "explanation": "Comparar: «than»."
+        },
+        {
+          "id": "a2_comparatives.106",
+          "question": "Hoy hace un poco más de frío.",
+          "options": [
+            "It's a bit colder today.",
+            "It's a bit more cold today."
+          ],
+          "answer": 0,
+          "explanation": "Adjetivo corto: «-er»."
+        },
+        {
+          "id": "a2_comparatives.107",
+          "question": "Más simpático.",
+          "options": [
+            "friendlier",
+            "more friendlyer"
+          ],
+          "answer": 0,
+          "explanation": "Y → «-ier»."
+        },
+        {
+          "id": "a2_comparatives.108",
+          "question": "El tiempo es peor aquí.",
+          "options": [
+            "The weather is worse here.",
+            "The weather is badder here."
+          ],
+          "answer": 0,
+          "explanation": "«bad» → «worse»."
+        },
+        {
+          "id": "a2_comparatives.109",
+          "question": "Es tan bueno como el otro.",
+          "options": [
+            "It's as good as the other one.",
+            "It's as good than the other one."
+          ],
+          "answer": 0,
+          "explanation": "Igualdad: «as… as»."
+        },
+        {
+          "id": "a2_comparatives.110",
+          "question": "Está más lejos.",
+          "options": [
+            "It's further.",
+            "It's more far."
+          ],
+          "answer": 0,
+          "explanation": "«far» → «further»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con «not as… as» o corrige el error.",
+      "items": [
+        {
+          "id": "a2_comparatives.201",
+          "prompt": "not as… as",
+          "source": "Valencia is sunnier than Bristol.",
+          "answers": [
+            "Bristol isn't as sunny as Valencia"
+          ]
+        },
+        {
+          "id": "a2_comparatives.202",
+          "prompt": "not as… as",
+          "source": "The train is faster than the bus.",
+          "answers": [
+            "The bus isn't as fast as the train"
+          ]
+        },
+        {
+          "id": "a2_comparatives.203",
+          "prompt": "not as… as",
+          "source": "London is more expensive than Bristol.",
+          "answers": [
+            "Bristol isn't as expensive as London"
+          ]
+        },
+        {
+          "id": "a2_comparatives.204",
+          "prompt": "Corrige",
+          "source": "Bristol is more wet than Valencia.",
+          "answers": [
+            "Bristol is wetter than Valencia"
+          ],
+          "explanation": "Adjetivo corto: «-er»."
+        },
+        {
+          "id": "a2_comparatives.205",
+          "prompt": "Corrige",
+          "source": "My flat is more better now.",
+          "answers": [
+            "My flat is better now"
+          ],
+          "explanation": "Nunca «more better»."
+        },
+        {
+          "id": "a2_comparatives.206",
+          "prompt": "Corrige",
+          "source": "Madrid is hotter that Bristol.",
+          "answers": [
+            "Madrid is hotter than Bristol"
+          ],
+          "explanation": "«than», no «that»."
+        },
+        {
+          "id": "a2_comparatives.207",
+          "prompt": "Corrige",
+          "source": "It's very bigger than my old flat.",
+          "answers": [
+            "It's much bigger than my old flat"
+          ],
+          "explanation": "Para reforzar: «much»."
+        },
+        {
+          "id": "a2_comparatives.208",
+          "prompt": "Corrige",
+          "source": "She isn't as tall than her brother.",
+          "answers": [
+            "She isn't as tall as her brother"
+          ],
+          "explanation": "«as… as»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_comparatives.301",
+          "source": "Valencia es más grande que Bristol.",
+          "answers": [
+            "Valencia is bigger than Bristol"
+          ]
+        },
+        {
+          "id": "a2_comparatives.302",
+          "source": "Aquí la comida es peor.",
+          "answers": [
+            "The food is worse here",
+            "The food here is worse"
+          ]
+        },
+        {
+          "id": "a2_comparatives.303",
+          "source": "Bristol es mucho más caro.",
+          "answers": [
+            "Bristol is much more expensive",
+            "Bristol is a lot more expensive"
+          ]
+        },
+        {
+          "id": "a2_comparatives.304",
+          "source": "Él es más divertido que tú.",
+          "answers": [
+            "He's funnier than you"
+          ]
+        },
+        {
+          "id": "a2_comparatives.305",
+          "source": "Bristol no es tan soleado como Valencia.",
+          "answers": [
+            "Bristol isn't as sunny as Valencia"
+          ]
+        },
+        {
+          "id": "a2_comparatives.306",
+          "source": "Hoy hace más frío que ayer.",
+          "answers": [
+            "It's colder today than yesterday",
+            "Today is colder than yesterday"
+          ]
+        },
+        {
+          "id": "a2_comparatives.307",
+          "source": "Mi piso nuevo es más cómodo.",
+          "answers": [
+            "My new flat is more comfortable"
+          ]
+        },
+        {
+          "id": "a2_comparatives.308",
+          "source": "Es tan bueno como el café italiano.",
+          "answers": [
+            "It's as good as Italian coffee"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_comparatives.401",
+          "answer": "Valencia is bigger than Bristol"
+        },
+        {
+          "id": "a2_comparatives.402",
+          "answer": "Bristol isn't as sunny as Valencia"
+        },
+        {
+          "id": "a2_comparatives.403",
+          "answer": "London is much more expensive"
+        },
+        {
+          "id": "a2_comparatives.404",
+          "answer": "The food here is worse"
+        },
+        {
+          "id": "a2_comparatives.405",
+          "answer": "He's funnier than his brother"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "topic_id": "a2_might_probably",
+  "level_id": "A2",
+  "title": "Posibilidad: might, may, probably, perhaps",
+  "tags": [
+    "might_probably"
+  ],
+  "units": [
+    "in_london"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Possibility: might, may, probably, perhaps",
+    "explanation": "«Might» y «may» + verbo dicen que algo es posible, pero no seguro. Son iguales para todas las personas y no llevan «to»:\n- «We might go on the London Eye.» (puede que vayamos)\n- «It may rain this afternoon.»\n\nLa negativa es «might not» / «may not»:\n- «I might not have time.»\n\n«Probably» (probablemente) es más seguro que «might». Va después de «will» y antes de «won't»:\n- «We'll probably go to Camden.»\n- «I probably won't buy anything.»\n\n«Perhaps» / «Maybe» (quizás) van al principio de la frase y el verbo va en su forma normal:\n- «Perhaps we can see the Tower tomorrow.»\n- «Maybe it's closed today.»\n\nDe más seguro a menos: «will» → «will probably» → «might» / «may» → «probably won't» → «won't».\n\nOjo: «might» nunca lleva «-s» ni «to» («She might come», nunca «She mights come» ni «might to come»). Y «maybe» es una palabra; «may be» son dos, el verbo: «It may be closed» (puede que esté cerrado).",
+    "table": {
+      "headers": [
+        "Palabra",
+        "Posición",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "might / may",
+          "antes del verbo",
+          "We might go to Camden."
+        ],
+        [
+          "might not",
+          "antes del verbo",
+          "I might not have time."
+        ],
+        [
+          "probably",
+          "después de will, antes de won't",
+          "We'll probably go. / I probably won't go."
+        ],
+        [
+          "perhaps / maybe",
+          "al principio",
+          "Maybe it's closed."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «might», «probably», «perhaps» o «not».",
+      "items": [
+        {
+          "id": "a2_might_probably.001",
+          "sentence": "I'm not sure. We ___ go to the Tower tomorrow.",
+          "answers": [
+            [
+              "might"
+            ]
+          ]
+        },
+        {
+          "id": "a2_might_probably.002",
+          "sentence": "It's Saturday, so the London Eye will ___ be busy.",
+          "answers": [
+            [
+              "probably"
+            ]
+          ]
+        },
+        {
+          "id": "a2_might_probably.003",
+          "sentence": "___ we can have lunch in Camden. What do you think?",
+          "answers": [
+            [
+              "Perhaps",
+              "Maybe"
+            ]
+          ]
+        },
+        {
+          "id": "a2_might_probably.004",
+          "sentence": "I might ___ have time to see the museum.",
+          "answers": [
+            [
+              "not"
+            ]
+          ]
+        },
+        {
+          "id": "a2_might_probably.005",
+          "sentence": "Daniel ___ won't eat pie and mash again! He didn't like it.",
+          "answers": [
+            [
+              "probably"
+            ]
+          ]
+        },
+        {
+          "id": "a2_might_probably.006",
+          "sentence": "Take an umbrella. It ___ rain later.",
+          "answers": [
+            [
+              "might",
+              "may"
+            ]
+          ]
+        },
+        {
+          "id": "a2_might_probably.007",
+          "sentence": "She ___ come to the party. She isn't sure.",
+          "answers": [
+            [
+              "might",
+              "may"
+            ]
+          ]
+        },
+        {
+          "id": "a2_might_probably.008",
+          "sentence": "We'll ___ arrive at about six.",
+          "answers": [
+            [
+              "probably"
+            ]
+          ]
+        },
+        {
+          "id": "a2_might_probably.009",
+          "sentence": "___ the shop is closed. It's very late.",
+          "answers": [
+            [
+              "Maybe",
+              "Perhaps"
+            ]
+          ]
+        },
+        {
+          "id": "a2_might_probably.010",
+          "sentence": "I might ___ go out tonight. I'm very tired.",
+          "answers": [
+            [
+              "not"
+            ]
+          ]
+        },
+        {
+          "id": "a2_might_probably.011",
+          "sentence": "Sam ___ won't come. He has to work.",
+          "answers": [
+            [
+              "probably"
+            ]
+          ]
+        },
+        {
+          "id": "a2_might_probably.012",
+          "sentence": "The train ___ be late. There's a problem on the line.",
+          "answers": [
+            [
+              "might",
+              "may"
+            ]
+          ]
+        },
+        {
+          "id": "a2_might_probably.013",
+          "sentence": "___ we should take a taxi. It's raining.",
+          "answers": [
+            [
+              "Perhaps",
+              "Maybe"
+            ]
+          ]
+        },
+        {
+          "id": "a2_might_probably.014",
+          "sentence": "I'll ___ see you at the weekend.",
+          "answers": [
+            [
+              "probably"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_might_probably.101",
+          "question": "Puede que vayamos a Camden.",
+          "options": [
+            "We might go to Camden.",
+            "We might to go to Camden."
+          ],
+          "answer": 0,
+          "explanation": "Sin «to»."
+        },
+        {
+          "id": "a2_might_probably.102",
+          "question": "Probablemente iremos.",
+          "options": [
+            "We'll probably go.",
+            "We probably will go probably."
+          ],
+          "answer": 0,
+          "explanation": "Después de «will»."
+        },
+        {
+          "id": "a2_might_probably.103",
+          "question": "Probablemente no compraré nada.",
+          "options": [
+            "I probably won't buy anything.",
+            "I won't probably buy anything."
+          ],
+          "answer": 0,
+          "explanation": "Antes de «won't»."
+        },
+        {
+          "id": "a2_might_probably.104",
+          "question": "Quizás esté cerrado.",
+          "options": [
+            "Maybe it's closed.",
+            "It's maybe closed maybe."
+          ],
+          "answer": 0,
+          "explanation": "«Maybe» al principio."
+        },
+        {
+          "id": "a2_might_probably.105",
+          "question": "Puede que venga.",
+          "options": [
+            "She might come.",
+            "She mights come."
+          ],
+          "answer": 0,
+          "explanation": "«might» no lleva «-s»."
+        },
+        {
+          "id": "a2_might_probably.106",
+          "question": "Puede que no tenga tiempo.",
+          "options": [
+            "I might not have time.",
+            "I don't might have time."
+          ],
+          "answer": 0,
+          "explanation": "Negativa: «might not»."
+        },
+        {
+          "id": "a2_might_probably.107",
+          "question": "Puede que llueva esta tarde.",
+          "options": [
+            "It may rain this afternoon.",
+            "It maybe rain this afternoon."
+          ],
+          "answer": 0,
+          "explanation": "Verbo: «may» + verbo."
+        },
+        {
+          "id": "a2_might_probably.108",
+          "question": "Puede que esté cerrado.",
+          "options": [
+            "It may be closed.",
+            "It maybe closed."
+          ],
+          "answer": 0,
+          "explanation": "«may be», dos palabras."
+        },
+        {
+          "id": "a2_might_probably.109",
+          "question": "Quizás podamos ver la Torre mañana.",
+          "options": [
+            "Perhaps we can see the Tower tomorrow.",
+            "We can perhaps to see the Tower tomorrow."
+          ],
+          "answer": 0,
+          "explanation": "«Perhaps» al principio."
+        },
+        {
+          "id": "a2_might_probably.110",
+          "question": "El tren puede llegar tarde.",
+          "options": [
+            "The train might be late.",
+            "The train might is late."
+          ],
+          "answer": 0,
+          "explanation": "«might» + forma base."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "a2_might_probably.201",
+          "prompt": "Corrige",
+          "source": "We might to visit the Tower.",
+          "answers": [
+            "We might visit the Tower"
+          ],
+          "explanation": "Sin «to»."
+        },
+        {
+          "id": "a2_might_probably.202",
+          "prompt": "Corrige",
+          "source": "She mights be at home.",
+          "answers": [
+            "She might be at home"
+          ],
+          "explanation": "«might» no lleva «-s»."
+        },
+        {
+          "id": "a2_might_probably.203",
+          "prompt": "Corrige",
+          "source": "I won't probably come.",
+          "answers": [
+            "I probably won't come"
+          ],
+          "explanation": "«probably» va antes de «won't»."
+        },
+        {
+          "id": "a2_might_probably.204",
+          "prompt": "Corrige",
+          "source": "We probably will be late.",
+          "answers": [
+            "We'll probably be late",
+            "We will probably be late"
+          ],
+          "explanation": "«probably» va después de «will»."
+        },
+        {
+          "id": "a2_might_probably.205",
+          "prompt": "Corrige",
+          "source": "I don't might go.",
+          "answers": [
+            "I might not go"
+          ],
+          "explanation": "Negativa: «might not»."
+        },
+        {
+          "id": "a2_might_probably.206",
+          "prompt": "Corrige",
+          "source": "It maybe rain later.",
+          "answers": [
+            "It may rain later",
+            "It might rain later",
+            "Maybe it will rain later"
+          ],
+          "explanation": "Verbo: «may» + forma base."
+        },
+        {
+          "id": "a2_might_probably.207",
+          "prompt": "Corrige",
+          "source": "The museum might is closed.",
+          "answers": [
+            "The museum might be closed"
+          ],
+          "explanation": "«might» + forma base."
+        },
+        {
+          "id": "a2_might_probably.208",
+          "prompt": "Corrige",
+          "source": "Maybe we go can tomorrow.",
+          "answers": [
+            "Maybe we can go tomorrow"
+          ],
+          "explanation": "Orden: «Maybe we can go»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_might_probably.301",
+          "source": "Puede que vayamos a la Torre mañana.",
+          "answers": [
+            "We might go to the Tower tomorrow",
+            "We may go to the Tower tomorrow"
+          ]
+        },
+        {
+          "id": "a2_might_probably.302",
+          "source": "Probablemente estará lleno.",
+          "answers": [
+            "It'll probably be busy",
+            "It will probably be busy",
+            "It'll probably be full",
+            "It will probably be full"
+          ]
+        },
+        {
+          "id": "a2_might_probably.303",
+          "source": "Puede que no tenga tiempo.",
+          "answers": [
+            "I might not have time",
+            "I may not have time"
+          ]
+        },
+        {
+          "id": "a2_might_probably.304",
+          "source": "Quizás esté cerrado hoy.",
+          "answers": [
+            "Maybe it's closed today",
+            "Perhaps it's closed today"
+          ]
+        },
+        {
+          "id": "a2_might_probably.305",
+          "source": "Probablemente no compraré nada.",
+          "answers": [
+            "I probably won't buy anything"
+          ]
+        },
+        {
+          "id": "a2_might_probably.306",
+          "source": "Puede que llueva.",
+          "answers": [
+            "It might rain",
+            "It may rain"
+          ]
+        },
+        {
+          "id": "a2_might_probably.307",
+          "source": "Quizás podamos comer en Camden.",
+          "answers": [
+            "Perhaps we can have lunch in Camden",
+            "Maybe we can have lunch in Camden",
+            "Maybe we can eat in Camden",
+            "Perhaps we can eat in Camden"
+          ]
+        },
+        {
+          "id": "a2_might_probably.308",
+          "source": "Puede que Sam venga.",
+          "answers": [
+            "Sam might come",
+            "Sam may come"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_might_probably.401",
+          "answer": "We might go to the Tower tomorrow"
+        },
+        {
+          "id": "a2_might_probably.402",
+          "answer": "It will probably be busy"
+        },
+        {
+          "id": "a2_might_probably.403",
+          "answer": "I probably won't buy anything"
+        },
+        {
+          "id": "a2_might_probably.404",
+          "answer": "Perhaps we can have lunch in Camden"
+        },
+        {
+          "id": "a2_might_probably.405",
+          "answer": "I might not have time"
+        }
+      ]
+    }
+  ]
+}

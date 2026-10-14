@@ -1,0 +1,473 @@
+{
+  "topic_id": "a2_present_perfect_ever",
+  "level_id": "A2",
+  "title": "Present perfect: experiencias (ever, never) o past simple",
+  "tags": [
+    "present_perfect"
+  ],
+  "units": [
+    "in_london"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Present perfect: experiences",
+    "explanation": "El present perfect («have» / «has» + participio) habla de experiencias de la vida sin decir cuándo:\n- «I've been to London.»\n- «She's tried sushi.»\n\nCon «ever» preguntamos si algo ha pasado alguna vez; «never» es nunca y va entre «have» y el participio:\n- «Have you ever been to London? — Yes, I have. / No, I haven't.»\n- «I've never tried pie and mash.»\n\nEl participio de los regulares acaba en «-ed» («tried», «visited», «worked»). Los irregulares tienen forma propia: «be» → «been», «see» → «seen», «eat» → «eaten», «take» → «taken», «go» → «gone», «write» → «written», «buy» → «bought», «do» → «done».\n\nSi decimos cuándo pasó («last year», «in 2019», «yesterday», «when I was ten»), usamos el past simple:\n- «I've been on the London Eye. I went last year.»\n\nOjo: «been» y «gone» no son iguales: «She's been to London» (fue y ya ha vuelto) / «She's gone to London» (fue y sigue allí).",
+    "table": {
+      "headers": [
+        "",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Experiencia",
+          "I've been to London."
+        ],
+        [
+          "Pregunta",
+          "Have you ever tried pie and mash?"
+        ],
+        [
+          "Nunca",
+          "I've never seen the Tower."
+        ],
+        [
+          "Con cuándo",
+          "I went to London last year."
+        ],
+        [
+          "been / gone",
+          "She's been to Paris. / She's gone to Paris."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el present perfect o el past simple.",
+      "items": [
+        {
+          "id": "a2_present_perfect_ever.001",
+          "sentence": "Have you ever ___ to London? (be)",
+          "answers": [
+            [
+              "been"
+            ]
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.002",
+          "sentence": "I've never ___ pie and mash. (try)",
+          "answers": [
+            [
+              "tried"
+            ]
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.003",
+          "sentence": "Priya ___ been here many times.",
+          "answers": [
+            [
+              "has"
+            ]
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.004",
+          "sentence": "I've ___ a hundred photos. (take)",
+          "answers": [
+            [
+              "taken"
+            ]
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.005",
+          "sentence": "___ you seen the Tower of London?",
+          "answers": [
+            [
+              "Have"
+            ]
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.006",
+          "sentence": "Have you ever been on the London Eye? — No, I ___.",
+          "answers": [
+            [
+              "haven't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.007",
+          "sentence": "I've ___ it in films. (see)",
+          "answers": [
+            [
+              "seen"
+            ]
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.008",
+          "sentence": "Last year Daniel ___ on the London Eye. (go)",
+          "answers": [
+            [
+              "went"
+            ]
+          ],
+          "explanation": "Con cuándo: past simple."
+        },
+        {
+          "id": "a2_present_perfect_ever.009",
+          "sentence": "I've never ___ a book in English. (write)",
+          "answers": [
+            [
+              "written"
+            ]
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.010",
+          "sentence": "Has Sam ever ___ sushi? (eat)",
+          "answers": [
+            [
+              "eaten"
+            ]
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.011",
+          "sentence": "We ___ to Paris in 2019. (go)",
+          "answers": [
+            [
+              "went"
+            ]
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.012",
+          "sentence": "Helen isn't here. She's ___ to the bank. (go)",
+          "answers": [
+            [
+              "gone"
+            ]
+          ],
+          "explanation": "Sigue allí: «gone»."
+        },
+        {
+          "id": "a2_present_perfect_ever.013",
+          "sentence": "I ___ never been to Scotland.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.014",
+          "sentence": "Have you ever ___ a famous person? (meet)",
+          "answers": [
+            [
+              "met"
+            ]
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.015",
+          "sentence": "When ___ you visit Rome? — Two years ago.",
+          "answers": [
+            [
+              "did"
+            ]
+          ],
+          "explanation": "Con cuándo: past simple."
+        },
+        {
+          "id": "a2_present_perfect_ever.016",
+          "sentence": "She's ___ to Galway three times. (be)",
+          "answers": [
+            [
+              "been"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_present_perfect_ever.101",
+          "question": "¿Has estado alguna vez en Londres?",
+          "options": [
+            "Have you ever been to London?",
+            "Did you ever be in London?"
+          ],
+          "answer": 0,
+          "explanation": "Experiencia: present perfect."
+        },
+        {
+          "id": "a2_present_perfect_ever.102",
+          "question": "Nunca he probado el sushi.",
+          "options": [
+            "I've never tried sushi.",
+            "I've tried never sushi."
+          ],
+          "answer": 0,
+          "explanation": "«never» va entre «have» y el participio."
+        },
+        {
+          "id": "a2_present_perfect_ever.103",
+          "question": "Fui el año pasado.",
+          "options": [
+            "I went last year.",
+            "I've been last year."
+          ],
+          "answer": 0,
+          "explanation": "Con cuándo: past simple."
+        },
+        {
+          "id": "a2_present_perfect_ever.104",
+          "question": "Ha ido al banco (y sigue allí).",
+          "options": [
+            "She's gone to the bank.",
+            "She's been to the bank."
+          ],
+          "answer": 0,
+          "explanation": "Sigue allí: «gone»."
+        },
+        {
+          "id": "a2_present_perfect_ever.105",
+          "question": "¿Has visto la Torre? — Sí.",
+          "options": [
+            "Have you seen the Tower? — Yes, I have.",
+            "Have you seen the Tower? — Yes, I've."
+          ],
+          "answer": 0,
+          "explanation": "En la respuesta corta no se contrae."
+        },
+        {
+          "id": "a2_present_perfect_ever.106",
+          "question": "He hecho muchas fotos.",
+          "options": [
+            "I've taken a lot of photos.",
+            "I've took a lot of photos."
+          ],
+          "answer": 0,
+          "explanation": "Participio: «taken»."
+        },
+        {
+          "id": "a2_present_perfect_ever.107",
+          "question": "¿Cuándo fuiste a Roma?",
+          "options": [
+            "When did you go to Rome?",
+            "When have you been to Rome?"
+          ],
+          "answer": 0,
+          "explanation": "Con «when»: past simple."
+        },
+        {
+          "id": "a2_present_perfect_ever.108",
+          "question": "Ella ha estado aquí muchas veces.",
+          "options": [
+            "She's been here many times.",
+            "She was here many times ever."
+          ],
+          "answer": 0,
+          "explanation": "Experiencia: present perfect."
+        },
+        {
+          "id": "a2_present_perfect_ever.109",
+          "question": "Nunca he escrito un libro.",
+          "options": [
+            "I've never written a book.",
+            "I've never wrote a book."
+          ],
+          "answer": 0,
+          "explanation": "Participio: «written»."
+        },
+        {
+          "id": "a2_present_perfect_ever.110",
+          "question": "¿Has comido alguna vez pie and mash?",
+          "options": [
+            "Have you ever eaten pie and mash?",
+            "Have you ever ate pie and mash?"
+          ],
+          "answer": 0,
+          "explanation": "Participio: «eaten»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Transforma o corrige la frase como se indica.",
+      "items": [
+        {
+          "id": "a2_present_perfect_ever.201",
+          "prompt": "Pregunta con «ever»",
+          "source": "You've been to Scotland.",
+          "answers": [
+            "Have you ever been to Scotland"
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.202",
+          "prompt": "Con «never»",
+          "source": "I've tried pie and mash.",
+          "answers": [
+            "I've never tried pie and mash"
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.203",
+          "prompt": "Negativa",
+          "source": "She's seen the film.",
+          "answers": [
+            "She hasn't seen the film"
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.204",
+          "prompt": "Corrige",
+          "source": "I've been to London last year.",
+          "answers": [
+            "I went to London last year"
+          ],
+          "explanation": "Con cuándo: past simple."
+        },
+        {
+          "id": "a2_present_perfect_ever.205",
+          "prompt": "Corrige",
+          "source": "Have you ever eat sushi?",
+          "answers": [
+            "Have you ever eaten sushi"
+          ],
+          "explanation": "Participio: «eaten»."
+        },
+        {
+          "id": "a2_present_perfect_ever.206",
+          "prompt": "Corrige",
+          "source": "Did you ever be to Ireland?",
+          "answers": [
+            "Have you ever been to Ireland"
+          ],
+          "explanation": "Experiencia: present perfect."
+        },
+        {
+          "id": "a2_present_perfect_ever.207",
+          "prompt": "Corrige",
+          "source": "I've saw that film three times.",
+          "answers": [
+            "I've seen that film three times"
+          ],
+          "explanation": "Participio: «seen»."
+        },
+        {
+          "id": "a2_present_perfect_ever.208",
+          "prompt": "Corrige",
+          "source": "When have you arrived?",
+          "answers": [
+            "When did you arrive"
+          ],
+          "explanation": "Con «when»: past simple."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_present_perfect_ever.301",
+          "source": "¿Has estado alguna vez en Londres?",
+          "answers": [
+            "Have you ever been to London"
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.302",
+          "source": "Nunca he probado el pie and mash.",
+          "answers": [
+            "I've never tried pie and mash"
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.303",
+          "source": "He hecho cien fotos.",
+          "answers": [
+            "I've taken a hundred photos",
+            "I've taken one hundred photos"
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.304",
+          "source": "Ella ha estado aquí muchas veces.",
+          "answers": [
+            "She's been here many times",
+            "She has been here many times"
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.305",
+          "source": "El año pasado fui a Londres.",
+          "answers": [
+            "Last year I went to London",
+            "I went to London last year"
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.306",
+          "source": "Nunca he visto la Torre de Londres.",
+          "answers": [
+            "I've never seen the Tower of London"
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.307",
+          "source": "Helen ha ido al banco.",
+          "answers": [
+            "Helen has gone to the bank",
+            "Helen's gone to the bank"
+          ]
+        },
+        {
+          "id": "a2_present_perfect_ever.308",
+          "source": "¿Cuándo llegaste?",
+          "answers": [
+            "When did you arrive",
+            "When did you get here"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_present_perfect_ever.401",
+          "answer": "Have you ever been to London?"
+        },
+        {
+          "id": "a2_present_perfect_ever.402",
+          "answer": "I've never tried pie and mash"
+        },
+        {
+          "id": "a2_present_perfect_ever.403",
+          "answer": "I went on the London Eye last year"
+        },
+        {
+          "id": "a2_present_perfect_ever.404",
+          "answer": "She's been here many times"
+        },
+        {
+          "id": "a2_present_perfect_ever.405",
+          "answer": "Has Sam ever eaten sushi?"
+        }
+      ]
+    }
+  ]
+}

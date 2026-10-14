@@ -1,0 +1,454 @@
+{
+  "topic_id": "a2_going_to",
+  "level_id": "A2",
+  "title": "be going to: planes y predicciones con pruebas",
+  "tags": [
+    "future_plans"
+  ],
+  "units": [
+    "london_plans"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "be going to",
+    "explanation": "«Be going to» + verbo expresa planes e intenciones que ya hemos decidido:\n- «I'm going to book the tickets tonight.»\n- «We're going to stay at Ciarán's flat.»\n\nTambién sirve para predicciones cuando vemos una prueba de lo que va a pasar:\n- «Look at those clouds! It's going to rain.»\n- «Be careful! You're going to fall.»\n\nSe forma con «am» / «is» / «are» + «going to» + verbo en forma base. Negativa y pregunta:\n- «I'm not going to walk all day.»\n- «Are we going to stay at Ciarán's flat? — Yes, we are. / No, we aren't.»\n- «What are you going to do on Saturday?»\n\nExpresiones de futuro: «tonight», «tomorrow», «next weekend», «on Saturday», «this summer».\n\nOjo: con «go» se puede decir «going to go» o, más natural, simplemente «going»: «We're going to London» (= «We're going to go to London»).",
+    "table": {
+      "headers": [
+        "",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Plan",
+          "I'm going to book the tickets tonight."
+        ],
+        [
+          "Predicción con prueba",
+          "Look at those clouds! It's going to rain."
+        ],
+        [
+          "Negativa",
+          "I'm not going to walk all day."
+        ],
+        [
+          "Pregunta",
+          "What are you going to do?"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la forma correcta de «be going to» y el verbo entre paréntesis.",
+      "items": [
+        {
+          "id": "a2_going_to.001",
+          "sentence": "I'm going ___ book the tickets tonight.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_going_to.002",
+          "sentence": "Where ___ we going to stay?",
+          "answers": [
+            [
+              "are"
+            ]
+          ]
+        },
+        {
+          "id": "a2_going_to.003",
+          "sentence": "We're going to ___ at Ciarán's flat. (sleep)",
+          "answers": [
+            [
+              "sleep"
+            ]
+          ]
+        },
+        {
+          "id": "a2_going_to.004",
+          "sentence": "Priya ___ going to walk all day.",
+          "answers": [
+            [
+              "isn't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_going_to.005",
+          "sentence": "___ Sam going to come?",
+          "answers": [
+            [
+              "Is"
+            ]
+          ]
+        },
+        {
+          "id": "a2_going_to.006",
+          "sentence": "Look at those clouds! It's going to ___.",
+          "answers": [
+            [
+              "rain"
+            ]
+          ]
+        },
+        {
+          "id": "a2_going_to.007",
+          "sentence": "What are you going to ___ on Saturday?",
+          "answers": [
+            [
+              "do"
+            ]
+          ]
+        },
+        {
+          "id": "a2_going_to.008",
+          "sentence": "I ___ the British Museum. (visit)",
+          "answers": [
+            [
+              "'m going to visit",
+              "am going to visit"
+            ]
+          ]
+        },
+        {
+          "id": "a2_going_to.009",
+          "sentence": "They ___ a car. They're going by train. (not / rent)",
+          "answers": [
+            [
+              "aren't going to rent",
+              "'re not going to rent",
+              "are not going to rent"
+            ]
+          ]
+        },
+        {
+          "id": "a2_going_to.010",
+          "sentence": "Be careful! You ___! (fall)",
+          "answers": [
+            [
+              "'re going to fall",
+              "are going to fall"
+            ]
+          ],
+          "explanation": "Predicción con prueba."
+        },
+        {
+          "id": "a2_going_to.011",
+          "sentence": "___ you going to buy anything in Camden?",
+          "answers": [
+            [
+              "Are"
+            ]
+          ]
+        },
+        {
+          "id": "a2_going_to.012",
+          "sentence": "Daniel ___ his cousin in London. (meet)",
+          "answers": [
+            [
+              "'s going to meet",
+              "is going to meet"
+            ]
+          ]
+        },
+        {
+          "id": "a2_going_to.013",
+          "sentence": "We're ___ to London next weekend.",
+          "answers": [
+            [
+              "going"
+            ]
+          ],
+          "explanation": "Con «go»: «going to London»."
+        },
+        {
+          "id": "a2_going_to.014",
+          "sentence": "I'm not going ___ take a taxi. It's too expensive.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_going_to.101",
+          "question": "Voy a reservar los billetes.",
+          "options": [
+            "I'm going to book the tickets.",
+            "I going to book the tickets."
+          ],
+          "answer": 0,
+          "explanation": "Falta «am»."
+        },
+        {
+          "id": "a2_going_to.102",
+          "question": "¡Mira esas nubes! Va a llover.",
+          "options": [
+            "Look at those clouds! It's going to rain.",
+            "Look at those clouds! It rains."
+          ],
+          "answer": 0,
+          "explanation": "Predicción con prueba: «going to»."
+        },
+        {
+          "id": "a2_going_to.103",
+          "question": "¿Dónde vamos a dormir?",
+          "options": [
+            "Where are we going to sleep?",
+            "Where we are going to sleep?"
+          ],
+          "answer": 0,
+          "explanation": "En la pregunta, «are» va delante del sujeto."
+        },
+        {
+          "id": "a2_going_to.104",
+          "question": "No voy a caminar todo el día.",
+          "options": [
+            "I'm not going to walk all day.",
+            "I don't going to walk all day."
+          ],
+          "answer": 0,
+          "explanation": "Negativa: «I'm not going to»."
+        },
+        {
+          "id": "a2_going_to.105",
+          "question": "Vamos a Londres el fin de semana que viene.",
+          "options": [
+            "We're going to London next weekend.",
+            "We're going to London the next weekend."
+          ],
+          "answer": 0,
+          "explanation": "«next weekend», sin «the»."
+        },
+        {
+          "id": "a2_going_to.106",
+          "question": "¿Va a venir Sam? — No.",
+          "options": [
+            "Is Sam going to come? — No, he isn't.",
+            "Is Sam going to come? — No, he doesn't."
+          ],
+          "answer": 0,
+          "explanation": "Respuesta corta con «be»."
+        },
+        {
+          "id": "a2_going_to.107",
+          "question": "Va a visitar a su prima.",
+          "options": [
+            "She's going to visit her cousin.",
+            "She's going to visits her cousin."
+          ],
+          "answer": 0,
+          "explanation": "Verbo en forma base."
+        },
+        {
+          "id": "a2_going_to.108",
+          "question": "¡Cuidado! Te vas a caer.",
+          "options": [
+            "Careful! You're going to fall.",
+            "Careful! You fall."
+          ],
+          "answer": 0,
+          "explanation": "Predicción con prueba."
+        },
+        {
+          "id": "a2_going_to.109",
+          "question": "¿Qué vais a hacer el sábado?",
+          "options": [
+            "What are you going to do on Saturday?",
+            "What are you going to do in Saturday?"
+          ],
+          "answer": 0,
+          "explanation": "Días: «on»."
+        },
+        {
+          "id": "a2_going_to.110",
+          "question": "Vamos a quedarnos en casa de Ciarán.",
+          "options": [
+            "We're going to stay at Ciarán's flat.",
+            "We're going stay at Ciarán's flat."
+          ],
+          "answer": 0,
+          "explanation": "Falta «to»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Transforma o corrige la frase como se indica.",
+      "items": [
+        {
+          "id": "a2_going_to.201",
+          "prompt": "Negativa",
+          "source": "We're going to take the Tube.",
+          "answers": [
+            "We aren't going to take the Tube",
+            "We're not going to take the Tube"
+          ]
+        },
+        {
+          "id": "a2_going_to.202",
+          "prompt": "Pregunta",
+          "source": "Sam is going to play at a wedding.",
+          "answers": [
+            "Is Sam going to play at a wedding"
+          ]
+        },
+        {
+          "id": "a2_going_to.203",
+          "prompt": "Pregunta",
+          "source": "They're going to stay in a hotel.",
+          "answers": [
+            "Are they going to stay in a hotel"
+          ]
+        },
+        {
+          "id": "a2_going_to.204",
+          "prompt": "Negativa",
+          "source": "I'm going to buy a souvenir.",
+          "answers": [
+            "I'm not going to buy a souvenir"
+          ]
+        },
+        {
+          "id": "a2_going_to.205",
+          "prompt": "Corrige",
+          "source": "I going to visit the museum.",
+          "answers": [
+            "I'm going to visit the museum"
+          ],
+          "explanation": "Falta «am»."
+        },
+        {
+          "id": "a2_going_to.206",
+          "prompt": "Corrige",
+          "source": "Look at the sky! It will rain.",
+          "answers": [
+            "Look at the sky! It's going to rain"
+          ],
+          "explanation": "Predicción con prueba: «going to»."
+        },
+        {
+          "id": "a2_going_to.207",
+          "prompt": "Corrige",
+          "source": "What you are going to do?",
+          "answers": [
+            "What are you going to do"
+          ],
+          "explanation": "En la pregunta, «are» va delante del sujeto."
+        },
+        {
+          "id": "a2_going_to.208",
+          "prompt": "Corrige",
+          "source": "She's going to visits London.",
+          "answers": [
+            "She's going to visit London"
+          ],
+          "explanation": "Verbo en forma base."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_going_to.301",
+          "source": "Voy a reservar los billetes esta noche.",
+          "answers": [
+            "I'm going to book the tickets tonight"
+          ]
+        },
+        {
+          "id": "a2_going_to.302",
+          "source": "¿Qué vais a hacer el sábado?",
+          "answers": [
+            "What are you going to do on Saturday"
+          ]
+        },
+        {
+          "id": "a2_going_to.303",
+          "source": "No voy a caminar todo el día.",
+          "answers": [
+            "I'm not going to walk all day"
+          ]
+        },
+        {
+          "id": "a2_going_to.304",
+          "source": "Vamos a dormir en casa de un amigo.",
+          "answers": [
+            "We're going to sleep at a friend's flat",
+            "We're going to sleep at a friend's house",
+            "We're going to stay at a friend's flat",
+            "We're going to stay at a friend's house"
+          ]
+        },
+        {
+          "id": "a2_going_to.305",
+          "source": "Va a llover.",
+          "answers": [
+            "It's going to rain"
+          ]
+        },
+        {
+          "id": "a2_going_to.306",
+          "source": "¿Va a venir Sam?",
+          "answers": [
+            "Is Sam going to come"
+          ]
+        },
+        {
+          "id": "a2_going_to.307",
+          "source": "¡Cuidado! Te vas a caer.",
+          "answers": [
+            "Careful! You're going to fall",
+            "Be careful! You're going to fall"
+          ]
+        },
+        {
+          "id": "a2_going_to.308",
+          "source": "Vamos a visitar el Museo Británico.",
+          "answers": [
+            "We're going to visit the British Museum"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_going_to.401",
+          "answer": "I'm going to book the tickets tonight"
+        },
+        {
+          "id": "a2_going_to.402",
+          "answer": "Where are we going to stay?"
+        },
+        {
+          "id": "a2_going_to.403",
+          "answer": "It's going to rain"
+        },
+        {
+          "id": "a2_going_to.404",
+          "answer": "Is Sam going to come?"
+        },
+        {
+          "id": "a2_going_to.405",
+          "answer": "We aren't going to take a taxi"
+        }
+      ]
+    }
+  ]
+}

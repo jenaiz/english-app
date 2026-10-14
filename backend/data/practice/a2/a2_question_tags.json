@@ -1,0 +1,478 @@
+{
+  "topic_id": "a2_question_tags",
+  "level_id": "A2",
+  "title": "Question tags: isn't it?, don't you?",
+  "tags": [
+    "question_tags"
+  ],
+  "units": [
+    "the_best_pub"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Question tags",
+    "explanation": "Las question tags son preguntas cortas al final de una frase para pedir confirmación, como «¿verdad?» o «¿no?» en español:\n- «Dublin is the biggest city, isn't it?»\n\nSe forman con el mismo auxiliar de la frase y el pronombre del sujeto. Si la frase es afirmativa, la tag es negativa, y al revés:\n- «It's easy, isn't it?»\n- «You can swim, can't you?»\n- «It isn't true, is it?»\n- «Sam doesn't drink tea, does he?»\n\nSi no hay auxiliar (present simple o past simple), se usa «do», «does» o «did»:\n- «You live in Clifton, don't you?»\n- «Priya works at night, doesn't she?»\n- «We won, didn't we?»\n\nEl sujeto de la tag es siempre un pronombre: «Daniel is from Galway, isn't he?» (nunca «isn't Daniel?»).\n\nCon «I am» la tag es «aren't I?»:\n- «I'm right, aren't I?»",
+    "table": {
+      "headers": [
+        "Frase",
+        "Tag"
+      ],
+      "rows": [
+        [
+          "It's cold,",
+          "isn't it?"
+        ],
+        [
+          "You like tea,",
+          "don't you?"
+        ],
+        [
+          "She works here,",
+          "doesn't she?"
+        ],
+        [
+          "We won,",
+          "didn't we?"
+        ],
+        [
+          "You can come,",
+          "can't you?"
+        ],
+        [
+          "It isn't true,",
+          "is it?"
+        ],
+        [
+          "He doesn't drink,",
+          "does he?"
+        ],
+        [
+          "I'm right,",
+          "aren't I?"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa la question tag.",
+      "items": [
+        {
+          "id": "a2_question_tags.001",
+          "sentence": "Dublin is the biggest city in Ireland, ___ it?",
+          "answers": [
+            [
+              "isn't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_question_tags.002",
+          "sentence": "You like quiz nights, ___ you?",
+          "answers": [
+            [
+              "don't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_question_tags.003",
+          "sentence": "Sam doesn't drink tea, ___ he?",
+          "answers": [
+            [
+              "does"
+            ]
+          ]
+        },
+        {
+          "id": "a2_question_tags.004",
+          "sentence": "We won the quiz, ___ we?",
+          "answers": [
+            [
+              "didn't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_question_tags.005",
+          "sentence": "Daniel is from Galway, ___ he?",
+          "answers": [
+            [
+              "isn't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_question_tags.006",
+          "sentence": "That question wasn't easy, ___ it?",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        },
+        {
+          "id": "a2_question_tags.007",
+          "sentence": "You can come next week, ___ you?",
+          "answers": [
+            [
+              "can't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_question_tags.008",
+          "sentence": "Priya works at night, ___ she?",
+          "answers": [
+            [
+              "doesn't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_question_tags.009",
+          "sentence": "They're your friends, ___ they?",
+          "answers": [
+            [
+              "aren't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_question_tags.010",
+          "sentence": "You didn't see Helen, ___ you?",
+          "answers": [
+            [
+              "did"
+            ]
+          ]
+        },
+        {
+          "id": "a2_question_tags.011",
+          "sentence": "I'm right, ___ I?",
+          "answers": [
+            [
+              "aren't"
+            ]
+          ],
+          "explanation": "Con «I am»: «aren't I?»."
+        },
+        {
+          "id": "a2_question_tags.012",
+          "sentence": "It was a great night, ___ it?",
+          "answers": [
+            [
+              "wasn't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_question_tags.013",
+          "sentence": "Lucía can't drive, ___ she?",
+          "answers": [
+            [
+              "can"
+            ]
+          ]
+        },
+        {
+          "id": "a2_question_tags.014",
+          "sentence": "You've been to London, ___ you?",
+          "answers": [
+            [
+              "haven't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_question_tags.015",
+          "sentence": "It's going to rain, ___ it?",
+          "answers": [
+            [
+              "isn't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_question_tags.016",
+          "sentence": "Javi lives with his parents, ___ he?",
+          "answers": [
+            [
+              "doesn't"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué question tag es correcta?",
+      "items": [
+        {
+          "id": "a2_question_tags.101",
+          "question": "Hace frío, ¿verdad?",
+          "options": [
+            "It's cold, isn't it?",
+            "It's cold, is it?"
+          ],
+          "answer": 0,
+          "explanation": "Afirmativa → tag negativa."
+        },
+        {
+          "id": "a2_question_tags.102",
+          "question": "Te gusta el té, ¿no?",
+          "options": [
+            "You like tea, don't you?",
+            "You like tea, aren't you?"
+          ],
+          "answer": 0,
+          "explanation": "Sin auxiliar: «do»."
+        },
+        {
+          "id": "a2_question_tags.103",
+          "question": "Sam no bebe café, ¿verdad?",
+          "options": [
+            "Sam doesn't drink coffee, does he?",
+            "Sam doesn't drink coffee, doesn't he?"
+          ],
+          "answer": 0,
+          "explanation": "Negativa → tag afirmativa."
+        },
+        {
+          "id": "a2_question_tags.104",
+          "question": "Ganamos, ¿no?",
+          "options": [
+            "We won, didn't we?",
+            "We won, wasn't we?"
+          ],
+          "answer": 0,
+          "explanation": "Past simple: «did»."
+        },
+        {
+          "id": "a2_question_tags.105",
+          "question": "Daniel es irlandés, ¿verdad?",
+          "options": [
+            "Daniel is Irish, isn't he?",
+            "Daniel is Irish, isn't Daniel?"
+          ],
+          "answer": 0,
+          "explanation": "En la tag, pronombre."
+        },
+        {
+          "id": "a2_question_tags.106",
+          "question": "Tengo razón, ¿no?",
+          "options": [
+            "I'm right, aren't I?",
+            "I'm right, amn't I?"
+          ],
+          "answer": 0,
+          "explanation": "«aren't I?»."
+        },
+        {
+          "id": "a2_question_tags.107",
+          "question": "Sabes nadar, ¿no?",
+          "options": [
+            "You can swim, can't you?",
+            "You can swim, don't you?"
+          ],
+          "answer": 0,
+          "explanation": "Mismo auxiliar: «can»."
+        },
+        {
+          "id": "a2_question_tags.108",
+          "question": "No fue fácil, ¿verdad?",
+          "options": [
+            "It wasn't easy, was it?",
+            "It wasn't easy, wasn't it?"
+          ],
+          "answer": 0,
+          "explanation": "Negativa → tag afirmativa."
+        },
+        {
+          "id": "a2_question_tags.109",
+          "question": "Priya trabaja de noche, ¿no?",
+          "options": [
+            "Priya works at night, doesn't she?",
+            "Priya works at night, isn't she?"
+          ],
+          "answer": 0,
+          "explanation": "Present simple con «she»: «doesn't»."
+        },
+        {
+          "id": "a2_question_tags.110",
+          "question": "Has estado en Londres, ¿verdad?",
+          "options": [
+            "You've been to London, haven't you?",
+            "You've been to London, didn't you?"
+          ],
+          "answer": 0,
+          "explanation": "Mismo auxiliar: «have»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Añade la question tag a la frase.",
+      "items": [
+        {
+          "id": "a2_question_tags.201",
+          "prompt": "Añade la tag",
+          "source": "You're from Valencia.",
+          "answers": [
+            "You're from Valencia, aren't you"
+          ]
+        },
+        {
+          "id": "a2_question_tags.202",
+          "prompt": "Añade la tag",
+          "source": "Sam plays the guitar.",
+          "answers": [
+            "Sam plays the guitar, doesn't he"
+          ]
+        },
+        {
+          "id": "a2_question_tags.203",
+          "prompt": "Añade la tag",
+          "source": "They didn't come.",
+          "answers": [
+            "They didn't come, did they"
+          ]
+        },
+        {
+          "id": "a2_question_tags.204",
+          "prompt": "Añade la tag",
+          "source": "It isn't far.",
+          "answers": [
+            "It isn't far, is it"
+          ]
+        },
+        {
+          "id": "a2_question_tags.205",
+          "prompt": "Añade la tag",
+          "source": "You can speak French.",
+          "answers": [
+            "You can speak French, can't you"
+          ]
+        },
+        {
+          "id": "a2_question_tags.206",
+          "prompt": "Corrige",
+          "source": "Helen is your boss, isn't Helen?",
+          "answers": [
+            "Helen is your boss, isn't she"
+          ],
+          "explanation": "En la tag, pronombre."
+        },
+        {
+          "id": "a2_question_tags.207",
+          "prompt": "Corrige",
+          "source": "You live here, aren't you?",
+          "answers": [
+            "You live here, don't you"
+          ],
+          "explanation": "Present simple: «do»."
+        },
+        {
+          "id": "a2_question_tags.208",
+          "prompt": "Corrige",
+          "source": "We had fun, hadn't we?",
+          "answers": [
+            "We had fun, didn't we"
+          ],
+          "explanation": "Past simple: «did»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_question_tags.301",
+          "source": "Hace frío, ¿verdad?",
+          "answers": [
+            "It's cold, isn't it"
+          ]
+        },
+        {
+          "id": "a2_question_tags.302",
+          "source": "Te gusta el té, ¿no?",
+          "answers": [
+            "You like tea, don't you"
+          ]
+        },
+        {
+          "id": "a2_question_tags.303",
+          "source": "Ganamos, ¿no?",
+          "answers": [
+            "We won, didn't we"
+          ]
+        },
+        {
+          "id": "a2_question_tags.304",
+          "source": "No es verdad, ¿verdad?",
+          "answers": [
+            "It isn't true, is it",
+            "It's not true, is it"
+          ]
+        },
+        {
+          "id": "a2_question_tags.305",
+          "source": "Daniel es de Galway, ¿no?",
+          "answers": [
+            "Daniel is from Galway, isn't he",
+            "Daniel's from Galway, isn't he"
+          ]
+        },
+        {
+          "id": "a2_question_tags.306",
+          "source": "Tengo razón, ¿no?",
+          "answers": [
+            "I'm right, aren't I"
+          ]
+        },
+        {
+          "id": "a2_question_tags.307",
+          "source": "Puedes venir, ¿verdad?",
+          "answers": [
+            "You can come, can't you"
+          ]
+        },
+        {
+          "id": "a2_question_tags.308",
+          "source": "Sam no bebe té, ¿verdad?",
+          "answers": [
+            "Sam doesn't drink tea, does he"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_question_tags.401",
+          "answer": "It's a great pub, isn't it?"
+        },
+        {
+          "id": "a2_question_tags.402",
+          "answer": "You like quiz nights, don't you?"
+        },
+        {
+          "id": "a2_question_tags.403",
+          "answer": "We won the quiz, didn't we?"
+        },
+        {
+          "id": "a2_question_tags.404",
+          "answer": "Sam doesn't drink tea, does he?"
+        },
+        {
+          "id": "a2_question_tags.405",
+          "answer": "I'm right, aren't I?"
+        }
+      ]
+    }
+  ]
+}

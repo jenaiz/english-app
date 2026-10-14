@@ -1,0 +1,484 @@
+{
+  "topic_id": "a2_a1_review",
+  "level_id": "A2",
+  "title": "Repaso de A1: lo que hay que dominar antes de seguir",
+  "tags": [
+    "a1_review"
+  ],
+  "units": [
+    "daily_routine"
+  ],
+  "rule": {
+    "title": "A1 review",
+    "explanation": "Antes de avanzar en A2 conviene tener firmes estos puntos de A1, porque el examen de A2 los vuelve a preguntar.\n\nEl posesivo «'s» (de una persona) y «s'» (de un plural en «-s»), y los pronombres posesivos, que van sin nombre detrás:\n- «Sam's guitar», «my parents' house»\n- «Is this yours? — Yes, it's mine.»\n\n«In», «on» y «at» para el tiempo: «at» con horas, «on» con días y fechas, «in» con meses, años y partes del día:\n- «at seven», «on Monday», «in June», «in the morning»\n\n«Can» / «could» para la habilidad, presente y pasada:\n- «I can swim.» / «I could swim when I was six.»\n\nEl imperativo para dar instrucciones, en negativo con «don't»:\n- «Turn left.» / «Don't cross here.»\n\nLos adverbios de frecuencia van delante del verbo principal, pero detrás de «be»:\n- «I always get up early.» / «Sam is never late.»\n\nDespués de «like», «love» y «hate», una actividad va en «-ing»:\n- «I love dancing.»",
+    "table": {
+      "headers": [
+        "Punto",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Posesivo",
+          "my sister's car, my parents' house"
+        ],
+        [
+          "Pronombre posesivo",
+          "It's mine."
+        ],
+        [
+          "in / on / at",
+          "at six, on Friday, in May"
+        ],
+        [
+          "can / could",
+          "I could read when I was five."
+        ],
+        [
+          "Imperativo",
+          "Don't turn right."
+        ],
+        [
+          "Frecuencia",
+          "She usually walks to work."
+        ],
+        [
+          "like + -ing",
+          "He hates shopping."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la palabra que falta.",
+      "items": [
+        {
+          "id": "a2_a1_review.001",
+          "sentence": "This is my ___ car. (sister)",
+          "answers": [
+            [
+              "sister's"
+            ]
+          ]
+        },
+        {
+          "id": "a2_a1_review.002",
+          "sentence": "My ___ house is near the beach. (parents)",
+          "answers": [
+            [
+              "parents'"
+            ]
+          ],
+          "explanation": "Plural en «-s»: solo el apóstrofo."
+        },
+        {
+          "id": "a2_a1_review.003",
+          "sentence": "Is this coffee yours? — No, it isn't ___. (yo)",
+          "answers": [
+            [
+              "mine"
+            ]
+          ]
+        },
+        {
+          "id": "a2_a1_review.004",
+          "sentence": "The meeting is ___ half past nine.",
+          "answers": [
+            [
+              "at"
+            ]
+          ]
+        },
+        {
+          "id": "a2_a1_review.005",
+          "sentence": "We have pizza ___ Fridays.",
+          "answers": [
+            [
+              "on"
+            ]
+          ]
+        },
+        {
+          "id": "a2_a1_review.006",
+          "sentence": "My birthday is ___ March.",
+          "answers": [
+            [
+              "in"
+            ]
+          ]
+        },
+        {
+          "id": "a2_a1_review.007",
+          "sentence": "I don't work ___ night.",
+          "answers": [
+            [
+              "at"
+            ]
+          ]
+        },
+        {
+          "id": "a2_a1_review.008",
+          "sentence": "I ___ swim when I was five, but I can't swim very well now.",
+          "answers": [
+            [
+              "could"
+            ]
+          ]
+        },
+        {
+          "id": "a2_a1_review.009",
+          "sentence": "___ you play the piano? — No, I can't.",
+          "answers": [
+            [
+              "Can"
+            ]
+          ]
+        },
+        {
+          "id": "a2_a1_review.010",
+          "sentence": "___ left at the traffic lights. (girar)",
+          "answers": [
+            [
+              "Turn"
+            ]
+          ]
+        },
+        {
+          "id": "a2_a1_review.011",
+          "sentence": "___ touch that! It's hot.",
+          "answers": [
+            [
+              "Don't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_a1_review.012",
+          "sentence": "Priya ___ gets up at half past five. (siempre)",
+          "answers": [
+            [
+              "always"
+            ]
+          ]
+        },
+        {
+          "id": "a2_a1_review.013",
+          "sentence": "Sam is ___ on time. (nunca)",
+          "answers": [
+            [
+              "never"
+            ]
+          ]
+        },
+        {
+          "id": "a2_a1_review.014",
+          "sentence": "I love ___ in the sea. (swim)",
+          "answers": [
+            [
+              "swimming"
+            ]
+          ]
+        },
+        {
+          "id": "a2_a1_review.015",
+          "sentence": "Daniel hates ___. (shop)",
+          "answers": [
+            [
+              "shopping"
+            ]
+          ]
+        },
+        {
+          "id": "a2_a1_review.016",
+          "sentence": "Do you like ___? (cook)",
+          "answers": [
+            [
+              "cooking"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_a1_review.101",
+          "question": "La casa de mis padres.",
+          "options": [
+            "my parents's house",
+            "my parents' house"
+          ],
+          "answer": 1,
+          "explanation": "Plural en «-s»: solo el apóstrofo."
+        },
+        {
+          "id": "a2_a1_review.102",
+          "question": "Es mío.",
+          "options": [
+            "It's mine.",
+            "It's my."
+          ],
+          "answer": 0,
+          "explanation": "Sin nombre detrás: «mine»."
+        },
+        {
+          "id": "a2_a1_review.103",
+          "question": "La reunión es el lunes.",
+          "options": [
+            "The meeting is on Monday.",
+            "The meeting is in Monday."
+          ],
+          "answer": 0,
+          "explanation": "Días: «on»."
+        },
+        {
+          "id": "a2_a1_review.104",
+          "question": "Con seis años sabía leer.",
+          "options": [
+            "I could read when I was six.",
+            "I can read when I was six."
+          ],
+          "answer": 0,
+          "explanation": "Pasado: «could»."
+        },
+        {
+          "id": "a2_a1_review.105",
+          "question": "No gires a la derecha.",
+          "options": [
+            "Don't turn right.",
+            "No turn right."
+          ],
+          "answer": 0,
+          "explanation": "Imperativo negativo: «Don't»."
+        },
+        {
+          "id": "a2_a1_review.106",
+          "question": "Sam nunca llega tarde.",
+          "options": [
+            "Sam never is late.",
+            "Sam is never late."
+          ],
+          "answer": 1,
+          "explanation": "Con «be», el adverbio va detrás."
+        },
+        {
+          "id": "a2_a1_review.107",
+          "question": "Me encanta bailar.",
+          "options": [
+            "I love dancing.",
+            "I love dance."
+          ],
+          "answer": 0,
+          "explanation": "Actividad después de «love»: «-ing»."
+        },
+        {
+          "id": "a2_a1_review.108",
+          "question": "Normalmente voy andando.",
+          "options": [
+            "I usually walk.",
+            "I walk usually."
+          ],
+          "answer": 0,
+          "explanation": "Delante del verbo principal."
+        },
+        {
+          "id": "a2_a1_review.109",
+          "question": "¿De quién es? — De Sam.",
+          "options": [
+            "Whose is it? — It's Sam's.",
+            "Whose is it? — It's of Sam."
+          ],
+          "answer": 0,
+          "explanation": "«It's Sam's»."
+        },
+        {
+          "id": "a2_a1_review.110",
+          "question": "Por la mañana estudio.",
+          "options": [
+            "I study in the morning.",
+            "I study on the morning."
+          ],
+          "answer": 0,
+          "explanation": "Partes del día: «in»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "strict": true,
+      "items": [
+        {
+          "id": "a2_a1_review.201",
+          "prompt": "Corrige",
+          "source": "This is the car of my brother.",
+          "answers": [
+            "This is my brother's car"
+          ],
+          "explanation": "Con personas: «my brother's car»."
+        },
+        {
+          "id": "a2_a1_review.202",
+          "prompt": "Corrige",
+          "source": "Is this book your's?",
+          "answers": [
+            "Is this book yours"
+          ],
+          "explanation": "«yours» nunca lleva apóstrofo."
+        },
+        {
+          "id": "a2_a1_review.203",
+          "prompt": "Corrige",
+          "source": "I was born on 1998.",
+          "answers": [
+            "I was born in 1998"
+          ],
+          "explanation": "Años: «in»."
+        },
+        {
+          "id": "a2_a1_review.204",
+          "prompt": "Corrige",
+          "source": "She cans speak French.",
+          "answers": [
+            "She can speak French"
+          ],
+          "explanation": "«can» no lleva «-s»."
+        },
+        {
+          "id": "a2_a1_review.205",
+          "prompt": "Corrige",
+          "source": "You don't cross here!",
+          "answers": [
+            "Don't cross here"
+          ],
+          "explanation": "Imperativo: sin sujeto."
+        },
+        {
+          "id": "a2_a1_review.206",
+          "prompt": "Corrige",
+          "source": "I go always to work by bus.",
+          "answers": [
+            "I always go to work by bus"
+          ],
+          "explanation": "El adverbio va delante del verbo principal."
+        },
+        {
+          "id": "a2_a1_review.207",
+          "prompt": "Corrige",
+          "source": "Do you like swim?",
+          "answers": [
+            "Do you like swimming"
+          ],
+          "explanation": "Actividad después de «like»: «-ing»."
+        },
+        {
+          "id": "a2_a1_review.208",
+          "prompt": "Corrige",
+          "source": "We're going to the party in Saturday.",
+          "answers": [
+            "We're going to the party on Saturday"
+          ],
+          "explanation": "Días: «on»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "strict": true,
+      "items": [
+        {
+          "id": "a2_a1_review.301",
+          "source": "El coche de mi hermana es rojo.",
+          "answers": [
+            "My sister's car is red"
+          ]
+        },
+        {
+          "id": "a2_a1_review.302",
+          "source": "No es mío, es tuyo.",
+          "answers": [
+            "It isn't mine, it's yours",
+            "It's not mine, it's yours"
+          ]
+        },
+        {
+          "id": "a2_a1_review.303",
+          "source": "La clase es a las diez.",
+          "answers": [
+            "The class is at ten",
+            "The lesson is at ten"
+          ]
+        },
+        {
+          "id": "a2_a1_review.304",
+          "source": "No sabía nadar.",
+          "answers": [
+            "I couldn't swim"
+          ]
+        },
+        {
+          "id": "a2_a1_review.305",
+          "source": "Gira a la izquierda en el banco.",
+          "answers": [
+            "Turn left at the bank"
+          ]
+        },
+        {
+          "id": "a2_a1_review.306",
+          "source": "Siempre desayuno a las ocho.",
+          "answers": [
+            "I always have breakfast at eight"
+          ]
+        },
+        {
+          "id": "a2_a1_review.307",
+          "source": "Odio levantarme temprano.",
+          "answers": [
+            "I hate getting up early"
+          ]
+        },
+        {
+          "id": "a2_a1_review.308",
+          "source": "Mi cumpleaños es en mayo.",
+          "answers": [
+            "My birthday is in May"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_a1_review.401",
+          "answer": "Is this your brother's bike?"
+        },
+        {
+          "id": "a2_a1_review.402",
+          "answer": "The film starts at nine"
+        },
+        {
+          "id": "a2_a1_review.403",
+          "answer": "I could ride a bike when I was four"
+        },
+        {
+          "id": "a2_a1_review.404",
+          "answer": "Don't turn right here"
+        },
+        {
+          "id": "a2_a1_review.405",
+          "answer": "We usually have lunch at one"
+        },
+        {
+          "id": "a2_a1_review.406",
+          "answer": "Priya loves cooking for her friends"
+        }
+      ]
+    }
+  ]
+}

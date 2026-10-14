@@ -1,0 +1,495 @@
+{
+  "topic_id": "a2_simple_continuous",
+  "level_id": "A2",
+  "title": "Present simple o continuous: rutinas, ahora y situaciones temporales",
+  "tags": [
+    "present_simple_continuous"
+  ],
+  "units": [
+    "daily_routine"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Present simple vs present continuous",
+    "explanation": "El present simple habla de hábitos, rutinas y cosas que siempre son verdad:\n- «You usually leave your keys on the table.»\n- «Priya works at the hospital.»\n\nEl present continuous habla de lo que pasa ahora mismo y de situaciones temporales, que duran un tiempo pero no son lo normal:\n- «I'm making toast.»\n- «This week I'm starting at eight.»\n- «I'm reading a great book at the moment.»\n\nCompara:\n- «I live in Bristol.» (es mi casa) / «I'm living with my cousin this month.» (de momento)\n- «Daniel works in the office.» / «Daniel is working from home this week.»\n\nAlgunos verbos casi nunca van en continuous porque expresan estados, no acciones: «need», «want», «like», «love», «hate», «know», «understand», «believe», «remember», «mean». Se dice «I need a coffee», nunca «I'm needing a coffee».\n\nOjo: «think» va en simple cuando es opinar y en continuous cuando es pensar en algo ahora:\n- «I think it's a good idea.» (opino)\n- «I'm thinking about my holiday.» (estoy pensando en)",
+    "table": {
+      "headers": [
+        "",
+        "Present simple",
+        "Present continuous"
+      ],
+      "rows": [
+        [
+          "Uso",
+          "hábitos, verdades generales",
+          "ahora, situaciones temporales"
+        ],
+        [
+          "Ejemplo",
+          "I usually start at nine.",
+          "This week I'm starting at eight."
+        ],
+        [
+          "Pistas",
+          "usually, every day, always",
+          "now, this week, at the moment"
+        ],
+        [
+          "Verbos de estado",
+          "I need, I know, I like",
+          "—"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el present simple o el present continuous del verbo entre paréntesis.",
+      "items": [
+        {
+          "id": "a2_simple_continuous.001",
+          "sentence": "Sam usually ___ toast for breakfast. (make)",
+          "answers": [
+            [
+              "makes"
+            ]
+          ]
+        },
+        {
+          "id": "a2_simple_continuous.002",
+          "sentence": "Look! Sam ___ toast. (make)",
+          "answers": [
+            [
+              "is making",
+              "'s making"
+            ]
+          ]
+        },
+        {
+          "id": "a2_simple_continuous.003",
+          "sentence": "This week Lucía ___ at eight. (start)",
+          "answers": [
+            [
+              "is starting",
+              "'s starting"
+            ]
+          ],
+          "explanation": "Situación temporal: continuous."
+        },
+        {
+          "id": "a2_simple_continuous.004",
+          "sentence": "I ___ a coffee right now. (need)",
+          "answers": [
+            [
+              "need"
+            ]
+          ],
+          "explanation": "«need» es un verbo de estado."
+        },
+        {
+          "id": "a2_simple_continuous.005",
+          "sentence": "Daniel ___ the answer. (know)",
+          "answers": [
+            [
+              "knows"
+            ]
+          ],
+          "explanation": "«know» es un verbo de estado."
+        },
+        {
+          "id": "a2_simple_continuous.006",
+          "sentence": "We ___ on a big project at the moment. (work)",
+          "answers": [
+            [
+              "are working",
+              "'re working"
+            ]
+          ]
+        },
+        {
+          "id": "a2_simple_continuous.007",
+          "sentence": "My parents ___ in Valencia. (live)",
+          "answers": [
+            [
+              "live"
+            ]
+          ],
+          "explanation": "Situación permanente: simple."
+        },
+        {
+          "id": "a2_simple_continuous.008",
+          "sentence": "I ___ with my cousin until I find a flat. (stay)",
+          "answers": [
+            [
+              "am staying",
+              "'m staying"
+            ]
+          ],
+          "explanation": "Temporal: continuous."
+        },
+        {
+          "id": "a2_simple_continuous.009",
+          "sentence": "I ___ what you mean. (understand)",
+          "answers": [
+            [
+              "understand"
+            ]
+          ],
+          "explanation": "Verbo de estado."
+        },
+        {
+          "id": "a2_simple_continuous.010",
+          "sentence": "Priya ___ at night this month. (work)",
+          "answers": [
+            [
+              "is working",
+              "'s working"
+            ]
+          ]
+        },
+        {
+          "id": "a2_simple_continuous.011",
+          "sentence": "It ___ a lot in Bristol in winter. (rain)",
+          "answers": [
+            [
+              "rains"
+            ]
+          ]
+        },
+        {
+          "id": "a2_simple_continuous.012",
+          "sentence": "Javi ___ this film. He's laughing a lot. (love)",
+          "answers": [
+            [
+              "loves"
+            ]
+          ],
+          "explanation": "Verbo de estado."
+        },
+        {
+          "id": "a2_simple_continuous.013",
+          "sentence": "I ___ it's a good idea. (think)",
+          "answers": [
+            [
+              "think"
+            ]
+          ],
+          "explanation": "Opinar: simple."
+        },
+        {
+          "id": "a2_simple_continuous.014",
+          "sentence": "Shh! I ___ about my answer. (think)",
+          "answers": [
+            [
+              "am thinking",
+              "'m thinking"
+            ]
+          ],
+          "explanation": "Pensar en algo ahora: continuous."
+        },
+        {
+          "id": "a2_simple_continuous.015",
+          "sentence": "How often ___ you ___ your parents? (call)",
+          "answers": [
+            [
+              "do"
+            ],
+            [
+              "call"
+            ]
+          ]
+        },
+        {
+          "id": "a2_simple_continuous.016",
+          "sentence": "What ___ you ___ these days? — I'm learning to cook. (do)",
+          "answers": [
+            [
+              "are"
+            ],
+            [
+              "doing"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_simple_continuous.101",
+          "question": "Necesito un café.",
+          "options": [
+            "I need a coffee.",
+            "I'm needing a coffee."
+          ],
+          "answer": 0,
+          "explanation": "«need» es un verbo de estado."
+        },
+        {
+          "id": "a2_simple_continuous.102",
+          "question": "Esta semana empiezo a las ocho.",
+          "options": [
+            "This week I start at eight.",
+            "This week I'm starting at eight."
+          ],
+          "answer": 1,
+          "explanation": "Situación temporal: continuous."
+        },
+        {
+          "id": "a2_simple_continuous.103",
+          "question": "Vivo en Bristol.",
+          "options": [
+            "I live in Bristol.",
+            "I'm living in Bristol always."
+          ],
+          "answer": 0,
+          "explanation": "Situación permanente: simple."
+        },
+        {
+          "id": "a2_simple_continuous.104",
+          "question": "Creo que es buena idea.",
+          "options": [
+            "I think it's a good idea.",
+            "I'm thinking it's a good idea."
+          ],
+          "answer": 0,
+          "explanation": "Opinar: simple."
+        },
+        {
+          "id": "a2_simple_continuous.105",
+          "question": "¿Qué haces estos días?",
+          "options": [
+            "What are you doing these days?",
+            "What do you do these days?"
+          ],
+          "answer": 0,
+          "explanation": "Algo temporal, estos días: continuous."
+        },
+        {
+          "id": "a2_simple_continuous.106",
+          "question": "No entiendo.",
+          "options": [
+            "I don't understand.",
+            "I'm not understanding."
+          ],
+          "answer": 0,
+          "explanation": "Verbo de estado."
+        },
+        {
+          "id": "a2_simple_continuous.107",
+          "question": "Normalmente dejas las llaves en la mesa.",
+          "options": [
+            "You usually leave your keys on the table.",
+            "You're usually leaving your keys on the table."
+          ],
+          "answer": 0,
+          "explanation": "Hábito: simple."
+        },
+        {
+          "id": "a2_simple_continuous.108",
+          "question": "Ahora mismo estoy buscando mis llaves.",
+          "options": [
+            "I'm looking for my keys right now.",
+            "I look for my keys right now."
+          ],
+          "answer": 0,
+          "explanation": "Ahora: continuous."
+        },
+        {
+          "id": "a2_simple_continuous.109",
+          "question": "¿Recuerdas su nombre?",
+          "options": [
+            "Do you remember her name?",
+            "Are you remembering her name?"
+          ],
+          "answer": 0,
+          "explanation": "Verbo de estado."
+        },
+        {
+          "id": "a2_simple_continuous.110",
+          "question": "Este mes Daniel trabaja desde casa.",
+          "options": [
+            "Daniel is working from home this month.",
+            "Daniel works from home this month always."
+          ],
+          "answer": 0,
+          "explanation": "Temporal: continuous."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "a2_simple_continuous.201",
+          "prompt": "Corrige",
+          "source": "I'm knowing the answer.",
+          "answers": [
+            "I know the answer"
+          ],
+          "explanation": "«know» es un verbo de estado."
+        },
+        {
+          "id": "a2_simple_continuous.202",
+          "prompt": "Corrige",
+          "source": "She is wanting a new phone.",
+          "answers": [
+            "She wants a new phone"
+          ],
+          "explanation": "«want» es un verbo de estado."
+        },
+        {
+          "id": "a2_simple_continuous.203",
+          "prompt": "Corrige",
+          "source": "Look! The cat sleeps on my bed.",
+          "answers": [
+            "Look! The cat is sleeping on my bed"
+          ],
+          "explanation": "Ahora: continuous."
+        },
+        {
+          "id": "a2_simple_continuous.204",
+          "prompt": "Corrige",
+          "source": "I'm usually getting up at seven.",
+          "answers": [
+            "I usually get up at seven"
+          ],
+          "explanation": "Hábito: simple."
+        },
+        {
+          "id": "a2_simple_continuous.205",
+          "prompt": "Corrige",
+          "source": "This week I work from home.",
+          "answers": [
+            "This week I'm working from home"
+          ],
+          "explanation": "Temporal: continuous."
+        },
+        {
+          "id": "a2_simple_continuous.206",
+          "prompt": "Corrige",
+          "source": "Are you understanding me?",
+          "answers": [
+            "Do you understand me"
+          ],
+          "explanation": "Verbo de estado."
+        },
+        {
+          "id": "a2_simple_continuous.207",
+          "prompt": "Corrige",
+          "source": "I'm thinking it's too expensive.",
+          "answers": [
+            "I think it's too expensive"
+          ],
+          "explanation": "Opinar: simple."
+        },
+        {
+          "id": "a2_simple_continuous.208",
+          "prompt": "Corrige",
+          "source": "What do you do now? — I'm cooking.",
+          "answers": [
+            "What are you doing now? I'm cooking",
+            "What are you doing now"
+          ],
+          "explanation": "Ahora: continuous."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_simple_continuous.301",
+          "source": "Normalmente me levanto a las siete.",
+          "answers": [
+            "I usually get up at seven"
+          ]
+        },
+        {
+          "id": "a2_simple_continuous.302",
+          "source": "Esta semana estoy trabajando en un proyecto grande.",
+          "answers": [
+            "This week I'm working on a big project"
+          ]
+        },
+        {
+          "id": "a2_simple_continuous.303",
+          "source": "No entiendo la pregunta.",
+          "answers": [
+            "I don't understand the question"
+          ]
+        },
+        {
+          "id": "a2_simple_continuous.304",
+          "source": "Necesito dormir más.",
+          "answers": [
+            "I need more sleep",
+            "I need to sleep more"
+          ]
+        },
+        {
+          "id": "a2_simple_continuous.305",
+          "source": "¿Qué estás haciendo ahora?",
+          "answers": [
+            "What are you doing now"
+          ]
+        },
+        {
+          "id": "a2_simple_continuous.306",
+          "source": "Creo que tienes razón.",
+          "answers": [
+            "I think you're right"
+          ]
+        },
+        {
+          "id": "a2_simple_continuous.307",
+          "source": "Me estoy quedando en casa de mi prima.",
+          "answers": [
+            "I'm staying at my cousin's",
+            "I'm staying at my cousin's house",
+            "I'm staying at my cousin's flat"
+          ]
+        },
+        {
+          "id": "a2_simple_continuous.308",
+          "source": "Priya trabaja en el hospital.",
+          "answers": [
+            "Priya works at the hospital",
+            "Priya works in the hospital"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_simple_continuous.401",
+          "answer": "I'm looking for my keys"
+        },
+        {
+          "id": "a2_simple_continuous.402",
+          "answer": "This week I'm starting at eight"
+        },
+        {
+          "id": "a2_simple_continuous.403",
+          "answer": "I don't understand the question"
+        },
+        {
+          "id": "a2_simple_continuous.404",
+          "answer": "Do you know the answer?"
+        },
+        {
+          "id": "a2_simple_continuous.405",
+          "answer": "We're working on a new project"
+        }
+      ]
+    }
+  ]
+}

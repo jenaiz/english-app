@@ -1,0 +1,473 @@
+{
+  "topic_id": "a2_same_similar_different",
+  "level_id": "A2",
+  "title": "the same as, similar to, different from, like",
+  "tags": [
+    "comparatives"
+  ],
+  "units": [
+    "comparing_cities"
+  ],
+  "order": 3,
+  "rule": {
+    "title": "the same as, similar to, different from, like",
+    "explanation": "Para comparar sin «-er» ni «more»:\n- «the same as» (igual que): «Lucía's flat is the same as Priya's.» Con nombre: «She's the same age as me.»\n- «similar to» (parecido a): «Bristol is similar to Valencia in some ways.»\n- «different from» (diferente de): «The food here is very different from the food in Spain.» (nunca «different of»)\n- «like» (como): «Daniel's accent is like my teacher's.»\n- «look like» (parecerse físicamente): «You look like your brother.»\n- «alike» (iguales, parecidos) va al final, sin objeto: «Javi and Lucía look alike.»\n\nOjo: «igual que» con un verbo es «as»; con un nombre o un pronombre, «like»:\n- «She works in design, as I do.»\n- «She's like me.»\n\nY fíjate en la preposición de cada uno: «the same as», «similar to», «different from». Es justo ahí donde más se falla.",
+    "table": {
+      "headers": [
+        "Expresión",
+        "Significado",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "the same as",
+          "igual que",
+          "My phone is the same as yours."
+        ],
+        [
+          "similar to",
+          "parecido a",
+          "Bristol is similar to Madrid."
+        ],
+        [
+          "different from",
+          "diferente de",
+          "It's different from Spain."
+        ],
+        [
+          "like",
+          "como",
+          "She's like her mum."
+        ],
+        [
+          "look like",
+          "parecerse",
+          "You look like your dad."
+        ],
+        [
+          "alike",
+          "parecidos",
+          "They look alike."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «as», «to», «from», «like» o «alike».",
+      "bank": [
+        "as",
+        "to",
+        "from",
+        "like",
+        "alike"
+      ],
+      "items": [
+        {
+          "id": "a2_same_similar_different.001",
+          "sentence": "Bristol is very different ___ Valencia.",
+          "answers": [
+            [
+              "from"
+            ]
+          ]
+        },
+        {
+          "id": "a2_same_similar_different.002",
+          "sentence": "My phone is the same ___ yours!",
+          "answers": [
+            [
+              "as"
+            ]
+          ]
+        },
+        {
+          "id": "a2_same_similar_different.003",
+          "sentence": "In some ways, Bristol is similar ___ Madrid.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_same_similar_different.004",
+          "sentence": "Javi looks ___ his dad. They've got the same nose.",
+          "answers": [
+            [
+              "like"
+            ]
+          ]
+        },
+        {
+          "id": "a2_same_similar_different.005",
+          "sentence": "Lucía and Javi look ___. Everyone knows they're brother and sister.",
+          "answers": [
+            [
+              "alike"
+            ]
+          ]
+        },
+        {
+          "id": "a2_same_similar_different.006",
+          "sentence": "Sam is the same age ___ Priya.",
+          "answers": [
+            [
+              "as"
+            ]
+          ]
+        },
+        {
+          "id": "a2_same_similar_different.007",
+          "sentence": "Your jacket is similar ___ mine.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_same_similar_different.008",
+          "sentence": "British breakfast is very different ___ Spanish breakfast.",
+          "answers": [
+            [
+              "from"
+            ]
+          ]
+        },
+        {
+          "id": "a2_same_similar_different.009",
+          "sentence": "She sings ___ a professional.",
+          "answers": [
+            [
+              "like"
+            ]
+          ]
+        },
+        {
+          "id": "a2_same_similar_different.010",
+          "sentence": "Daniel works in IT, ___ I do.",
+          "answers": [
+            [
+              "as"
+            ]
+          ],
+          "explanation": "Con un verbo: «as»."
+        },
+        {
+          "id": "a2_same_similar_different.011",
+          "sentence": "We've got the same teacher ___ last year.",
+          "answers": [
+            [
+              "as"
+            ]
+          ]
+        },
+        {
+          "id": "a2_same_similar_different.012",
+          "sentence": "The twins don't look ___ at all.",
+          "answers": [
+            [
+              "alike"
+            ]
+          ]
+        },
+        {
+          "id": "a2_same_similar_different.013",
+          "sentence": "What's the weather ___ in Galway?",
+          "answers": [
+            [
+              "like"
+            ]
+          ]
+        },
+        {
+          "id": "a2_same_similar_different.014",
+          "sentence": "Is your flat the same ___ Priya's?",
+          "answers": [
+            [
+              "as"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_same_similar_different.101",
+          "question": "Es diferente de España.",
+          "options": [
+            "It's different from Spain.",
+            "It's different of Spain."
+          ],
+          "answer": 0,
+          "explanation": "«different from»."
+        },
+        {
+          "id": "a2_same_similar_different.102",
+          "question": "Mi móvil es igual que el tuyo.",
+          "options": [
+            "My phone is the same as yours.",
+            "My phone is the same that yours."
+          ],
+          "answer": 0,
+          "explanation": "«the same as»."
+        },
+        {
+          "id": "a2_same_similar_different.103",
+          "question": "Bristol se parece a Madrid.",
+          "options": [
+            "Bristol is similar to Madrid.",
+            "Bristol is similar than Madrid."
+          ],
+          "answer": 0,
+          "explanation": "«similar to»."
+        },
+        {
+          "id": "a2_same_similar_different.104",
+          "question": "Te pareces a tu hermano.",
+          "options": [
+            "You look like your brother.",
+            "You look your brother."
+          ],
+          "answer": 0,
+          "explanation": "Parecerse: «look like»."
+        },
+        {
+          "id": "a2_same_similar_different.105",
+          "question": "Se parecen.",
+          "options": [
+            "They look alike.",
+            "They look like."
+          ],
+          "answer": 0,
+          "explanation": "Sin objeto: «alike»."
+        },
+        {
+          "id": "a2_same_similar_different.106",
+          "question": "Trabaja en diseño, como yo.",
+          "options": [
+            "She works in design, as I do.",
+            "She works in design, like I do it."
+          ],
+          "answer": 0,
+          "explanation": "Con un verbo: «as»."
+        },
+        {
+          "id": "a2_same_similar_different.107",
+          "question": "Es como yo.",
+          "options": [
+            "She's like me.",
+            "She's as me."
+          ],
+          "answer": 0,
+          "explanation": "Con un pronombre: «like»."
+        },
+        {
+          "id": "a2_same_similar_different.108",
+          "question": "Tiene la misma edad que yo.",
+          "options": [
+            "She's the same age as me.",
+            "She's the same age like me."
+          ],
+          "answer": 0,
+          "explanation": "«the same… as»."
+        },
+        {
+          "id": "a2_same_similar_different.109",
+          "question": "¿Cómo es el tiempo en Galway?",
+          "options": [
+            "What's the weather like in Galway?",
+            "How is the weather like in Galway?"
+          ],
+          "answer": 0,
+          "explanation": "«What's… like?»."
+        },
+        {
+          "id": "a2_same_similar_different.110",
+          "question": "No se parecen nada.",
+          "options": [
+            "They don't look alike at all.",
+            "They don't look like at all."
+          ],
+          "answer": 0,
+          "explanation": "Sin objeto: «alike»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "a2_same_similar_different.201",
+          "prompt": "Corrige",
+          "source": "The food here is different of the food in Spain.",
+          "answers": [
+            "The food here is different from the food in Spain"
+          ],
+          "explanation": "«different from»."
+        },
+        {
+          "id": "a2_same_similar_different.202",
+          "prompt": "Corrige",
+          "source": "Your bag is the same that mine.",
+          "answers": [
+            "Your bag is the same as mine"
+          ],
+          "explanation": "«the same as»."
+        },
+        {
+          "id": "a2_same_similar_different.203",
+          "prompt": "Corrige",
+          "source": "Bath is similar than Bristol.",
+          "answers": [
+            "Bath is similar to Bristol"
+          ],
+          "explanation": "«similar to»."
+        },
+        {
+          "id": "a2_same_similar_different.204",
+          "prompt": "Corrige",
+          "source": "You look your mother.",
+          "answers": [
+            "You look like your mother"
+          ],
+          "explanation": "Parecerse: «look like»."
+        },
+        {
+          "id": "a2_same_similar_different.205",
+          "prompt": "Corrige",
+          "source": "Lucía and Javi look like.",
+          "answers": [
+            "Lucía and Javi look alike"
+          ],
+          "explanation": "Sin objeto: «alike»."
+        },
+        {
+          "id": "a2_same_similar_different.206",
+          "prompt": "Corrige",
+          "source": "He's the same age than me.",
+          "answers": [
+            "He's the same age as me"
+          ],
+          "explanation": "«the same… as»."
+        },
+        {
+          "id": "a2_same_similar_different.207",
+          "prompt": "Corrige",
+          "source": "She works hard, like I do it.",
+          "answers": [
+            "She works hard, as I do",
+            "She works hard as I do"
+          ],
+          "explanation": "Con un verbo: «as»."
+        },
+        {
+          "id": "a2_same_similar_different.208",
+          "prompt": "Corrige",
+          "source": "How is the weather like?",
+          "answers": [
+            "What's the weather like"
+          ],
+          "explanation": "«What's… like?»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_same_similar_different.301",
+          "source": "Bristol es muy diferente de Valencia.",
+          "answers": [
+            "Bristol is very different from Valencia"
+          ]
+        },
+        {
+          "id": "a2_same_similar_different.302",
+          "source": "Mi móvil es igual que el tuyo.",
+          "answers": [
+            "My phone is the same as yours"
+          ]
+        },
+        {
+          "id": "a2_same_similar_different.303",
+          "source": "Te pareces a tu padre.",
+          "answers": [
+            "You look like your father",
+            "You look like your dad"
+          ]
+        },
+        {
+          "id": "a2_same_similar_different.304",
+          "source": "Se parecen mucho.",
+          "answers": [
+            "They look very alike",
+            "They look alike"
+          ]
+        },
+        {
+          "id": "a2_same_similar_different.305",
+          "source": "Bath es parecida a Bristol.",
+          "answers": [
+            "Bath is similar to Bristol"
+          ]
+        },
+        {
+          "id": "a2_same_similar_different.306",
+          "source": "Tenemos la misma edad.",
+          "answers": [
+            "We're the same age"
+          ]
+        },
+        {
+          "id": "a2_same_similar_different.307",
+          "source": "Ella es como su madre.",
+          "answers": [
+            "She's like her mother",
+            "She's like her mum"
+          ]
+        },
+        {
+          "id": "a2_same_similar_different.308",
+          "source": "¿Cómo es tu nuevo piso?",
+          "answers": [
+            "What's your new flat like"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_same_similar_different.401",
+          "answer": "Bristol is different from Valencia"
+        },
+        {
+          "id": "a2_same_similar_different.402",
+          "answer": "My phone is the same as yours"
+        },
+        {
+          "id": "a2_same_similar_different.403",
+          "answer": "You look like your brother"
+        },
+        {
+          "id": "a2_same_similar_different.404",
+          "answer": "Bath is similar to Bristol"
+        },
+        {
+          "id": "a2_same_similar_different.405",
+          "answer": "They look very alike"
+        }
+      ]
+    }
+  ]
+}

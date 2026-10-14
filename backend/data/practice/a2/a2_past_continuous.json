@@ -1,0 +1,478 @@
+{
+  "topic_id": "a2_past_continuous",
+  "level_id": "A2",
+  "title": "Past continuous y past simple: when / while",
+  "tags": [
+    "past_continuous"
+  ],
+  "units": [
+    "a_bad_day"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Past continuous vs past simple",
+    "explanation": "El past continuous («was» / «were» + «-ing») describe una acción que estaba en curso en un momento del pasado:\n- «At nine I was sitting on the bus.»\n- «What were you doing at eight? — I was having breakfast.»\n\nLo combinamos con el past simple para contar que algo interrumpió esa acción. La acción larga va en continuous y la corta, en simple. «When» suele ir con la corta:\n- «I was walking to the bus stop when it started to rain.»\n- «When Helen called, I was cooking.»\n\nCon «while» solemos usar el continuous:\n- «While I was opening it, the wind broke it.»\n\nDos acciones largas a la vez van las dos en continuous:\n- «I was cooking while Sam was watching TV.»\n\nPara una serie de acciones cortas, una detrás de otra, se usa solo el past simple:\n- «I got up, had a shower and went to work.»\n\nOjo: los verbos de estado («know», «want», «like», «need»…) no van en continuous tampoco en pasado: «I knew the answer» (nunca «I was knowing»).",
+    "table": {
+      "headers": [
+        "Sujeto",
+        "Afirmativa",
+        "Negativa",
+        "Pregunta"
+      ],
+      "rows": [
+        [
+          "I / he / she / it",
+          "was working",
+          "wasn't working",
+          "Was she working?"
+        ],
+        [
+          "you / we / they",
+          "were working",
+          "weren't working",
+          "Were they working?"
+        ],
+        [
+          "Con past simple",
+          "I was walking when it started to rain.",
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el past continuous o el past simple del verbo entre paréntesis.",
+      "items": [
+        {
+          "id": "a2_past_continuous.001",
+          "sentence": "I ___ to the bus stop when it started to rain. (walk)",
+          "answers": [
+            [
+              "was walking"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_continuous.002",
+          "sentence": "While I was ___ my umbrella, the wind broke it. (open)",
+          "answers": [
+            [
+              "opening"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_continuous.003",
+          "sentence": "When I was getting on the bus, a man ___ into me. (run)",
+          "answers": [
+            [
+              "ran"
+            ]
+          ],
+          "explanation": "La acción corta: past simple."
+        },
+        {
+          "id": "a2_past_continuous.004",
+          "sentence": "What ___ you doing when Helen called?",
+          "answers": [
+            [
+              "were"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_continuous.005",
+          "sentence": "Helen ___ talking to a client all morning.",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_continuous.006",
+          "sentence": "They ___ working when I arrived. They were having coffee.",
+          "answers": [
+            [
+              "weren't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_continuous.007",
+          "sentence": "It was ___ when I left home. (rain)",
+          "answers": [
+            [
+              "raining"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_continuous.008",
+          "sentence": "My coffee ___ everywhere. (go)",
+          "answers": [
+            [
+              "went"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_continuous.009",
+          "sentence": "When the phone ___, I was in the shower. (ring)",
+          "answers": [
+            [
+              "rang"
+            ]
+          ],
+          "explanation": "La acción corta: past simple."
+        },
+        {
+          "id": "a2_past_continuous.010",
+          "sentence": "I ___ TV when the lights went out. (watch)",
+          "answers": [
+            [
+              "was watching"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_continuous.011",
+          "sentence": "Sam was cooking while Priya ___ a book. (read)",
+          "answers": [
+            [
+              "was reading"
+            ]
+          ],
+          "explanation": "Dos acciones largas: las dos en continuous."
+        },
+        {
+          "id": "a2_past_continuous.012",
+          "sentence": "What were you doing at ten? — I ___. (sleep)",
+          "answers": [
+            [
+              "was sleeping"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_continuous.013",
+          "sentence": "We ___ dinner when Daniel arrived. (have)",
+          "answers": [
+            [
+              "were having"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_continuous.014",
+          "sentence": "I got up, ___ a shower and went to work. (have)",
+          "answers": [
+            [
+              "had"
+            ]
+          ],
+          "explanation": "Serie de acciones cortas: past simple."
+        },
+        {
+          "id": "a2_past_continuous.015",
+          "sentence": "She ___ the answer, so she said it quickly. (know)",
+          "answers": [
+            [
+              "knew"
+            ]
+          ],
+          "explanation": "«know» es un verbo de estado."
+        },
+        {
+          "id": "a2_past_continuous.016",
+          "sentence": "Were you sleeping when I called? — No, I ___.",
+          "answers": [
+            [
+              "wasn't"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_past_continuous.101",
+          "question": "Estaba caminando cuando empezó a llover.",
+          "options": [
+            "I was walking when it started to rain.",
+            "I walked when it was starting to rain."
+          ],
+          "answer": 0,
+          "explanation": "Acción larga en continuous, corta en simple."
+        },
+        {
+          "id": "a2_past_continuous.102",
+          "question": "¿Qué estabas haciendo a las nueve?",
+          "options": [
+            "What were you doing at nine?",
+            "What did you doing at nine?"
+          ],
+          "answer": 0,
+          "explanation": "«were» + «-ing»."
+        },
+        {
+          "id": "a2_past_continuous.103",
+          "question": "Mientras cocinaba, llegó Sam.",
+          "options": [
+            "While I was cooking, Sam arrived.",
+            "While I cooked, Sam was arriving."
+          ],
+          "answer": 0,
+          "explanation": "«while» con la acción larga."
+        },
+        {
+          "id": "a2_past_continuous.104",
+          "question": "Sabía la respuesta.",
+          "options": [
+            "I knew the answer.",
+            "I was knowing the answer."
+          ],
+          "answer": 0,
+          "explanation": "«know» es un verbo de estado."
+        },
+        {
+          "id": "a2_past_continuous.105",
+          "question": "No estaban trabajando.",
+          "options": [
+            "They weren't working.",
+            "They wasn't working."
+          ],
+          "answer": 0,
+          "explanation": "Con «they»: «weren't»."
+        },
+        {
+          "id": "a2_past_continuous.106",
+          "question": "Me levanté, desayuné y salí.",
+          "options": [
+            "I got up, had breakfast and left.",
+            "I was getting up, having breakfast and leaving."
+          ],
+          "answer": 0,
+          "explanation": "Serie de acciones cortas: past simple."
+        },
+        {
+          "id": "a2_past_continuous.107",
+          "question": "Cuando sonó el teléfono, estaba en la ducha.",
+          "options": [
+            "When the phone rang, I was in the shower.",
+            "When the phone was ringing, I was in the shower."
+          ],
+          "answer": 0,
+          "explanation": "La interrupción, en simple."
+        },
+        {
+          "id": "a2_past_continuous.108",
+          "question": "Llovía cuando salí de casa.",
+          "options": [
+            "It was raining when I left home.",
+            "It rained when I was leaving home."
+          ],
+          "answer": 0,
+          "explanation": "La situación de fondo: continuous."
+        },
+        {
+          "id": "a2_past_continuous.109",
+          "question": "¿Estabas durmiendo? — Sí.",
+          "options": [
+            "Were you sleeping? — Yes, I was.",
+            "Were you sleeping? — Yes, I were."
+          ],
+          "answer": 0,
+          "explanation": "Con «I»: «was»."
+        },
+        {
+          "id": "a2_past_continuous.110",
+          "question": "Yo cocinaba mientras Sam veía la tele.",
+          "options": [
+            "I was cooking while Sam was watching TV.",
+            "I cooked while Sam watched TV was."
+          ],
+          "answer": 0,
+          "explanation": "Dos acciones largas: continuous."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Une las dos frases con «when» o «while», o corrige el error.",
+      "items": [
+        {
+          "id": "a2_past_continuous.201",
+          "prompt": "when",
+          "source": "I was having a shower. The phone rang.",
+          "answers": [
+            "I was having a shower when the phone rang",
+            "When the phone rang, I was having a shower"
+          ]
+        },
+        {
+          "id": "a2_past_continuous.202",
+          "prompt": "while",
+          "source": "Sam was sleeping. Priya was working.",
+          "answers": [
+            "Sam was sleeping while Priya was working",
+            "While Sam was sleeping, Priya was working"
+          ]
+        },
+        {
+          "id": "a2_past_continuous.203",
+          "prompt": "when",
+          "source": "We were walking home. It started to snow.",
+          "answers": [
+            "We were walking home when it started to snow",
+            "When it started to snow, we were walking home"
+          ]
+        },
+        {
+          "id": "a2_past_continuous.204",
+          "prompt": "Corrige",
+          "source": "I was knowing her name.",
+          "answers": [
+            "I knew her name"
+          ],
+          "explanation": "«know» es un verbo de estado."
+        },
+        {
+          "id": "a2_past_continuous.205",
+          "prompt": "Corrige",
+          "source": "What did you doing at eight?",
+          "answers": [
+            "What were you doing at eight"
+          ],
+          "explanation": "«were» + «-ing»."
+        },
+        {
+          "id": "a2_past_continuous.206",
+          "prompt": "Corrige",
+          "source": "They was watching a film.",
+          "answers": [
+            "They were watching a film"
+          ],
+          "explanation": "Con «they»: «were»."
+        },
+        {
+          "id": "a2_past_continuous.207",
+          "prompt": "Corrige",
+          "source": "While I walked home, I was seeing an accident.",
+          "answers": [
+            "While I was walking home, I saw an accident"
+          ],
+          "explanation": "Acción larga en continuous, corta en simple."
+        },
+        {
+          "id": "a2_past_continuous.208",
+          "prompt": "Corrige",
+          "source": "When I arrived, Helen talked on the phone.",
+          "answers": [
+            "When I arrived, Helen was talking on the phone"
+          ],
+          "explanation": "La acción en curso: continuous."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_past_continuous.301",
+          "source": "Estaba esperando el autobús cuando empezó a llover.",
+          "answers": [
+            "I was waiting for the bus when it started to rain"
+          ]
+        },
+        {
+          "id": "a2_past_continuous.302",
+          "source": "¿Qué estabas haciendo?",
+          "answers": [
+            "What were you doing"
+          ]
+        },
+        {
+          "id": "a2_past_continuous.303",
+          "source": "Mientras yo cocinaba, Sam llegó a casa.",
+          "answers": [
+            "While I was cooking, Sam arrived home",
+            "While I was cooking, Sam got home",
+            "While I was cooking, Sam came home"
+          ]
+        },
+        {
+          "id": "a2_past_continuous.304",
+          "source": "No estábamos trabajando.",
+          "answers": [
+            "We weren't working"
+          ]
+        },
+        {
+          "id": "a2_past_continuous.305",
+          "source": "Cuando llamaste, estaba en la ducha.",
+          "answers": [
+            "When you called, I was in the shower",
+            "When you phoned, I was in the shower"
+          ]
+        },
+        {
+          "id": "a2_past_continuous.306",
+          "source": "Llovía mucho.",
+          "answers": [
+            "It was raining a lot",
+            "It was raining hard"
+          ]
+        },
+        {
+          "id": "a2_past_continuous.307",
+          "source": "Estaba leyendo cuando se fue la luz.",
+          "answers": [
+            "I was reading when the lights went out",
+            "I was reading when the power went out"
+          ]
+        },
+        {
+          "id": "a2_past_continuous.308",
+          "source": "El viento rompió mi paraguas.",
+          "answers": [
+            "The wind broke my umbrella"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_past_continuous.401",
+          "answer": "I was walking to the bus stop"
+        },
+        {
+          "id": "a2_past_continuous.402",
+          "answer": "What were you doing at nine?"
+        },
+        {
+          "id": "a2_past_continuous.403",
+          "answer": "It started to rain"
+        },
+        {
+          "id": "a2_past_continuous.404",
+          "answer": "She was talking to a client"
+        },
+        {
+          "id": "a2_past_continuous.405",
+          "answer": "While I was cooking, the phone rang"
+        }
+      ]
+    }
+  ]
+}

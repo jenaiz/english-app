@@ -1,0 +1,493 @@
+{
+  "topic_id": "a2_movement_prepositions",
+  "level_id": "A2",
+  "title": "Preposiciones de movimiento: into, across, through…",
+  "tags": [
+    "movement_prepositions"
+  ],
+  "units": [
+    "at_the_station"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Prepositions of movement",
+    "explanation": "Las preposiciones de movimiento dicen hacia dónde va algo o alguien. Suelen ir con verbos como «go», «walk», «run», «get» o «come».\n\n«Into» / «out of»: entrar en / salir de un espacio:\n- «We went into the station.»\n- «She got out of the taxi.»\n\n«On» / «off» con transportes grandes (autobús, tren, avión); con coches y taxis, «get into» / «get out of»:\n- «get on the train», «get off the bus»\n- «get into the car», «get out of the taxi»\n\n«Across» (de un lado al otro, cruzando una superficie) y «through» (a través de, por dentro de algo):\n- «Walk across the bridge.»\n- «Go through the gate.»\n- «We drove through the tunnel.»\n\nOtras:\n- «up» / «down» (subir / bajar): «Go up the stairs.»\n- «along» (a lo largo de): «Walk along the river.»\n- «past» (por delante de, dejando atrás): «Go past the café.»\n- «towards» (hacia): «He ran towards the platform.»\n- «from… to…» (de… a…): «The train goes from Bristol to London.»\n\nOjo: «in» y «on» dicen dónde está algo; «into» y «onto», adónde se mueve: «I'm in the station» / «I walked into the station».",
+    "table": {
+      "headers": [
+        "Preposición",
+        "Significado",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "into / out of",
+          "entrar / salir",
+          "She got out of the taxi."
+        ],
+        [
+          "on / off",
+          "subir / bajar (bus, tren)",
+          "Get off at the next stop."
+        ],
+        [
+          "across",
+          "cruzando",
+          "Walk across the bridge."
+        ],
+        [
+          "through",
+          "a través de",
+          "Go through the gate."
+        ],
+        [
+          "up / down",
+          "subir / bajar",
+          "Go down the stairs."
+        ],
+        [
+          "along",
+          "a lo largo de",
+          "Walk along the river."
+        ],
+        [
+          "past",
+          "por delante de",
+          "Go past the café."
+        ],
+        [
+          "towards",
+          "hacia",
+          "He ran towards me."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la preposición de movimiento correcta.",
+      "bank": [
+        "into",
+        "out of",
+        "on",
+        "off",
+        "across",
+        "through",
+        "up",
+        "down",
+        "along",
+        "past",
+        "towards",
+        "from"
+      ],
+      "items": [
+        {
+          "id": "a2_movement_prepositions.001",
+          "sentence": "We ran ___ the station because we were late.",
+          "answers": [
+            [
+              "into"
+            ]
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.002",
+          "sentence": "Get ___ the train at London Paddington.",
+          "answers": [
+            [
+              "off"
+            ]
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.003",
+          "sentence": "Walk ___ the bridge to platform five.",
+          "answers": [
+            [
+              "across"
+            ]
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.004",
+          "sentence": "Go ___ the ticket barrier with your ticket.",
+          "answers": [
+            [
+              "through"
+            ]
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.005",
+          "sentence": "Daniel got ___ the taxi and paid the driver.",
+          "answers": [
+            [
+              "out of"
+            ]
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.006",
+          "sentence": "Go ___ the stairs. The café is on the ground floor.",
+          "answers": [
+            [
+              "down"
+            ]
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.007",
+          "sentence": "Quick! Get ___ the train. It's leaving!",
+          "answers": [
+            [
+              "on"
+            ]
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.008",
+          "sentence": "We walked ___ the river for an hour.",
+          "answers": [
+            [
+              "along"
+            ]
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.009",
+          "sentence": "Go ___ the bank and turn left at the church.",
+          "answers": [
+            [
+              "past"
+            ]
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.010",
+          "sentence": "The dog ran ___ me, very happy to see me.",
+          "answers": [
+            [
+              "towards"
+            ]
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.011",
+          "sentence": "The train goes ___ Bristol to London.",
+          "answers": [
+            [
+              "from"
+            ]
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.012",
+          "sentence": "Get ___ the car! We're late.",
+          "answers": [
+            [
+              "into"
+            ]
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.013",
+          "sentence": "We drove ___ a long tunnel.",
+          "answers": [
+            [
+              "through"
+            ]
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.014",
+          "sentence": "Go ___ the stairs to the first floor.",
+          "answers": [
+            [
+              "up"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_movement_prepositions.101",
+          "question": "Entramos en la estación.",
+          "options": [
+            "We went into the station.",
+            "We went in to the station by."
+          ],
+          "answer": 0,
+          "explanation": "Entrar: «into»."
+        },
+        {
+          "id": "a2_movement_prepositions.102",
+          "question": "Bájate del autobús en la próxima parada.",
+          "options": [
+            "Get off the bus at the next stop.",
+            "Get out the bus at the next stop."
+          ],
+          "answer": 0,
+          "explanation": "Autobús: «get off»."
+        },
+        {
+          "id": "a2_movement_prepositions.103",
+          "question": "Salió del taxi.",
+          "options": [
+            "She got out of the taxi.",
+            "She got off the taxi."
+          ],
+          "answer": 0,
+          "explanation": "Coches y taxis: «get out of»."
+        },
+        {
+          "id": "a2_movement_prepositions.104",
+          "question": "Cruza el puente.",
+          "options": [
+            "Walk across the bridge.",
+            "Walk through the bridge."
+          ],
+          "answer": 0,
+          "explanation": "De un lado al otro: «across»."
+        },
+        {
+          "id": "a2_movement_prepositions.105",
+          "question": "Pasa por la puerta.",
+          "options": [
+            "Go through the gate.",
+            "Go across the gate."
+          ],
+          "answer": 0,
+          "explanation": "Por dentro de algo: «through»."
+        },
+        {
+          "id": "a2_movement_prepositions.106",
+          "question": "Sube al tren.",
+          "options": [
+            "Get on the train.",
+            "Get in the train on."
+          ],
+          "answer": 0,
+          "explanation": "Tren: «get on»."
+        },
+        {
+          "id": "a2_movement_prepositions.107",
+          "question": "Paseamos a lo largo del río.",
+          "options": [
+            "We walked along the river.",
+            "We walked across the river along."
+          ],
+          "answer": 0,
+          "explanation": "A lo largo: «along»."
+        },
+        {
+          "id": "a2_movement_prepositions.108",
+          "question": "Pasa por delante del banco.",
+          "options": [
+            "Go past the bank.",
+            "Go towards the bank past."
+          ],
+          "answer": 0,
+          "explanation": "Por delante: «past»."
+        },
+        {
+          "id": "a2_movement_prepositions.109",
+          "question": "Estoy en la estación (no me muevo).",
+          "options": [
+            "I'm in the station.",
+            "I'm into the station."
+          ],
+          "answer": 0,
+          "explanation": "Lugar, sin movimiento: «in»."
+        },
+        {
+          "id": "a2_movement_prepositions.110",
+          "question": "Corrió hacia el andén.",
+          "options": [
+            "He ran towards the platform.",
+            "He ran along to the platform."
+          ],
+          "answer": 0,
+          "explanation": "Hacia: «towards»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "a2_movement_prepositions.201",
+          "prompt": "Corrige",
+          "source": "She got off the taxi.",
+          "answers": [
+            "She got out of the taxi"
+          ],
+          "explanation": "Coches y taxis: «get out of»."
+        },
+        {
+          "id": "a2_movement_prepositions.202",
+          "prompt": "Corrige",
+          "source": "We got out the bus at the station.",
+          "answers": [
+            "We got off the bus at the station"
+          ],
+          "explanation": "Autobús: «get off»."
+        },
+        {
+          "id": "a2_movement_prepositions.203",
+          "prompt": "Corrige",
+          "source": "Walk through the street at the lights.",
+          "answers": [
+            "Walk across the street at the lights"
+          ],
+          "explanation": "Cruzar: «across»."
+        },
+        {
+          "id": "a2_movement_prepositions.204",
+          "prompt": "Corrige",
+          "source": "He walked in the room.",
+          "answers": [
+            "He walked into the room"
+          ],
+          "explanation": "Movimiento hacia dentro: «into»."
+        },
+        {
+          "id": "a2_movement_prepositions.205",
+          "prompt": "Corrige",
+          "source": "The train goes from Bristol until London.",
+          "answers": [
+            "The train goes from Bristol to London"
+          ],
+          "explanation": "«from… to…»."
+        },
+        {
+          "id": "a2_movement_prepositions.206",
+          "prompt": "Corrige",
+          "source": "Get in the train, quick!",
+          "answers": [
+            "Get on the train, quick",
+            "Get on the train quick"
+          ],
+          "explanation": "Tren: «get on»."
+        },
+        {
+          "id": "a2_movement_prepositions.207",
+          "prompt": "Corrige",
+          "source": "I'm into the café. Where are you?",
+          "answers": [
+            "I'm in the café. Where are you"
+          ],
+          "explanation": "Lugar, sin movimiento: «in»."
+        },
+        {
+          "id": "a2_movement_prepositions.208",
+          "prompt": "Corrige",
+          "source": "Go across the tunnel.",
+          "answers": [
+            "Go through the tunnel"
+          ],
+          "explanation": "Por dentro: «through»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_movement_prepositions.301",
+          "source": "Entramos en la estación.",
+          "answers": [
+            "We went into the station",
+            "We walked into the station"
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.302",
+          "source": "Bájate en la próxima parada.",
+          "answers": [
+            "Get off at the next stop"
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.303",
+          "source": "Salió del taxi.",
+          "answers": [
+            "She got out of the taxi",
+            "He got out of the taxi"
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.304",
+          "source": "Cruza el puente.",
+          "answers": [
+            "Cross the bridge",
+            "Walk across the bridge",
+            "Go across the bridge"
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.305",
+          "source": "Sube las escaleras.",
+          "answers": [
+            "Go up the stairs"
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.306",
+          "source": "Paseamos por el río.",
+          "answers": [
+            "We walked along the river"
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.307",
+          "source": "Pasa por delante de la iglesia.",
+          "answers": [
+            "Go past the church",
+            "Walk past the church"
+          ]
+        },
+        {
+          "id": "a2_movement_prepositions.308",
+          "source": "Sube al tren, ¡rápido!",
+          "answers": [
+            "Get on the train, quick",
+            "Get on the train quickly",
+            "Quick, get on the train"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_movement_prepositions.401",
+          "answer": "We ran into the station"
+        },
+        {
+          "id": "a2_movement_prepositions.402",
+          "answer": "Get off the train at Paddington"
+        },
+        {
+          "id": "a2_movement_prepositions.403",
+          "answer": "Walk across the bridge"
+        },
+        {
+          "id": "a2_movement_prepositions.404",
+          "answer": "She got out of the taxi"
+        },
+        {
+          "id": "a2_movement_prepositions.405",
+          "answer": "Go through the ticket barrier"
+        }
+      ]
+    }
+  ]
+}

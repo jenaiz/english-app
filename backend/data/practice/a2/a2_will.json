@@ -1,0 +1,461 @@
+{
+  "topic_id": "a2_will",
+  "level_id": "A2",
+  "title": "will: decisiones, ofrecimientos, promesas y predicciones",
+  "tags": [
+    "will"
+  ],
+  "units": [
+    "at_the_station"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "will: decisions, offers and predictions",
+    "explanation": "«Will» («'ll») + verbo en forma base se usa para:\n- decisiones que tomamos en el momento: «I'll go and ask.»\n- ofrecimientos: «I'll pay for the coffees.»\n- promesas: «I won't forget the tickets again!»\n- predicciones u opiniones sobre el futuro, a menudo con «I think»: «I think it will be busy.»\n\nLa negativa es «won't» («will not») y la pregunta, «Will…?»:\n- «It won't take long.»\n- «Will it be busy? — Yes, it will. / No, it won't.»\n\nCompáralo con «be going to», que expresa un plan ya decidido:\n- «I'm going to book the tickets tonight.» (lo pensé antes)\n- «I'll pay.» (lo decido ahora)\n\nOjo: con «think» la negación va en «think», no en «will»: «I don't think it will rain» (mejor que «I think it won't rain»). Y después de «will», el verbo siempre en forma base, sin «to»: «I'll call you» (nunca «I'll to call»).",
+    "table": {
+      "headers": [
+        "Uso",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Decisión en el momento",
+          "I'll go and ask."
+        ],
+        [
+          "Ofrecimiento",
+          "I'll carry your bag."
+        ],
+        [
+          "Promesa",
+          "I won't forget."
+        ],
+        [
+          "Predicción",
+          "I think it will be busy."
+        ],
+        [
+          "Plan ya decidido",
+          "I'm going to book the tickets tonight."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «will», «won't», «'ll» o «going».",
+      "items": [
+        {
+          "id": "a2_will.001",
+          "sentence": "Don't panic. I ___ ask at the ticket office.",
+          "answers": [
+            [
+              "will",
+              "'ll"
+            ]
+          ]
+        },
+        {
+          "id": "a2_will.002",
+          "sentence": "It ___ cost ten pounds each.",
+          "answers": [
+            [
+              "will"
+            ]
+          ]
+        },
+        {
+          "id": "a2_will.003",
+          "sentence": "I think it ___ be quite busy.",
+          "answers": [
+            [
+              "will"
+            ]
+          ]
+        },
+        {
+          "id": "a2_will.004",
+          "sentence": "We ___ find three seats together. The train is full.",
+          "answers": [
+            [
+              "won't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_will.005",
+          "sentence": "___ it be cold in London?",
+          "answers": [
+            [
+              "Will"
+            ]
+          ]
+        },
+        {
+          "id": "a2_will.006",
+          "sentence": "Thanks! I ___ forget. (promesa)",
+          "answers": [
+            [
+              "won't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_will.007",
+          "sentence": "We booked the hotel last week. We're ___ to stay two nights.",
+          "answers": [
+            [
+              "going"
+            ]
+          ],
+          "explanation": "Plan ya decidido: «going to»."
+        },
+        {
+          "id": "a2_will.008",
+          "sentence": "Your bag looks heavy. I ___ carry it.",
+          "answers": [
+            [
+              "'ll",
+              "will"
+            ]
+          ],
+          "explanation": "Ofrecimiento: «will»."
+        },
+        {
+          "id": "a2_will.009",
+          "sentence": "I don't think it ___ rain today.",
+          "answers": [
+            [
+              "will"
+            ]
+          ]
+        },
+        {
+          "id": "a2_will.010",
+          "sentence": "Will you be home late? — No, I ___.",
+          "answers": [
+            [
+              "won't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_will.011",
+          "sentence": "The phone's ringing. — I ___ get it!",
+          "answers": [
+            [
+              "'ll",
+              "will"
+            ]
+          ],
+          "explanation": "Decisión en el momento."
+        },
+        {
+          "id": "a2_will.012",
+          "sentence": "I promise I ___ be late again.",
+          "answers": [
+            [
+              "won't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_will.013",
+          "sentence": "Look, I've got the tickets. We're ___ to see a show tonight.",
+          "answers": [
+            [
+              "going"
+            ]
+          ]
+        },
+        {
+          "id": "a2_will.014",
+          "sentence": "___ you help me with this suitcase?",
+          "answers": [
+            [
+              "Will"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_will.101",
+          "question": "Yo pago. (lo decides ahora)",
+          "options": [
+            "I'll pay.",
+            "I'm going to pay."
+          ],
+          "answer": 0,
+          "explanation": "Decisión en el momento: «will»."
+        },
+        {
+          "id": "a2_will.102",
+          "question": "No lo olvidaré.",
+          "options": [
+            "I won't forget.",
+            "I don't forget."
+          ],
+          "answer": 0,
+          "explanation": "Promesa: «won't»."
+        },
+        {
+          "id": "a2_will.103",
+          "question": "Creo que habrá mucha gente.",
+          "options": [
+            "I think it will be busy.",
+            "I think it is being busy."
+          ],
+          "answer": 0,
+          "explanation": "Predicción: «will»."
+        },
+        {
+          "id": "a2_will.104",
+          "question": "No creo que llueva.",
+          "options": [
+            "I don't think it will rain.",
+            "I think it doesn't will rain."
+          ],
+          "answer": 0,
+          "explanation": "La negación va en «think»."
+        },
+        {
+          "id": "a2_will.105",
+          "question": "¿Estará lleno el tren?",
+          "options": [
+            "Will the train be full?",
+            "Will be the train full?"
+          ],
+          "answer": 0,
+          "explanation": "«Will» + sujeto + verbo."
+        },
+        {
+          "id": "a2_will.106",
+          "question": "Te llamo luego.",
+          "options": [
+            "I'll call you later.",
+            "I'll to call you later."
+          ],
+          "answer": 0,
+          "explanation": "Sin «to»."
+        },
+        {
+          "id": "a2_will.107",
+          "question": "Ya hemos reservado: vamos a quedarnos dos noches.",
+          "options": [
+            "We're going to stay two nights.",
+            "We'll stay two nights, I decide now."
+          ],
+          "answer": 0,
+          "explanation": "Plan ya decidido: «going to»."
+        },
+        {
+          "id": "a2_will.108",
+          "question": "Te ayudo con la maleta.",
+          "options": [
+            "I'll help you with your suitcase.",
+            "I help you with your suitcase."
+          ],
+          "answer": 0,
+          "explanation": "Ofrecimiento: «will»."
+        },
+        {
+          "id": "a2_will.109",
+          "question": "No tardará mucho.",
+          "options": [
+            "It won't take long.",
+            "It doesn't will take long."
+          ],
+          "answer": 0,
+          "explanation": "Negativa: «won't»."
+        },
+        {
+          "id": "a2_will.110",
+          "question": "¿Me ayudas? — Sí.",
+          "options": [
+            "Will you help me? — Yes, I will.",
+            "Will you help me? — Yes, I'll."
+          ],
+          "answer": 0,
+          "explanation": "En la respuesta corta no se contrae."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Transforma o corrige la frase como se indica.",
+      "items": [
+        {
+          "id": "a2_will.201",
+          "prompt": "Negativa",
+          "source": "It will be expensive.",
+          "answers": [
+            "It won't be expensive",
+            "It will not be expensive"
+          ]
+        },
+        {
+          "id": "a2_will.202",
+          "prompt": "Pregunta",
+          "source": "The train will be late.",
+          "answers": [
+            "Will the train be late"
+          ]
+        },
+        {
+          "id": "a2_will.203",
+          "prompt": "Ofrécete",
+          "source": "Do you want help with the bags?",
+          "answers": [
+            "I'll help you with the bags",
+            "I'll help you"
+          ]
+        },
+        {
+          "id": "a2_will.204",
+          "prompt": "Corrige",
+          "source": "I'll to pay for the tickets.",
+          "answers": [
+            "I'll pay for the tickets"
+          ],
+          "explanation": "Sin «to»."
+        },
+        {
+          "id": "a2_will.205",
+          "prompt": "Corrige",
+          "source": "I think it won't rain.",
+          "answers": [
+            "I don't think it will rain"
+          ],
+          "explanation": "La negación va en «think»."
+        },
+        {
+          "id": "a2_will.206",
+          "prompt": "Corrige",
+          "source": "Will be the museum open on Monday?",
+          "answers": [
+            "Will the museum be open on Monday"
+          ],
+          "explanation": "«Will» + sujeto + verbo."
+        },
+        {
+          "id": "a2_will.207",
+          "prompt": "Corrige",
+          "source": "The phone is ringing. — I answer it!",
+          "answers": [
+            "I'll answer it"
+          ],
+          "explanation": "Decisión en el momento: «will»."
+        },
+        {
+          "id": "a2_will.208",
+          "prompt": "Corrige",
+          "source": "I promise I don't forget.",
+          "answers": [
+            "I promise I won't forget"
+          ],
+          "explanation": "Promesa: «won't»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_will.301",
+          "source": "Yo pago.",
+          "answers": [
+            "I'll pay"
+          ]
+        },
+        {
+          "id": "a2_will.302",
+          "source": "Creo que habrá mucha gente.",
+          "answers": [
+            "I think it will be busy",
+            "I think it'll be busy"
+          ]
+        },
+        {
+          "id": "a2_will.303",
+          "source": "No lo olvidaré.",
+          "answers": [
+            "I won't forget",
+            "I won't forget it"
+          ]
+        },
+        {
+          "id": "a2_will.304",
+          "source": "¿Estará lleno el tren?",
+          "answers": [
+            "Will the train be full"
+          ]
+        },
+        {
+          "id": "a2_will.305",
+          "source": "Te ayudo con la maleta.",
+          "answers": [
+            "I'll help you with your suitcase",
+            "I'll help you with the suitcase"
+          ]
+        },
+        {
+          "id": "a2_will.306",
+          "source": "No creo que llueva.",
+          "answers": [
+            "I don't think it will rain",
+            "I don't think it'll rain"
+          ]
+        },
+        {
+          "id": "a2_will.307",
+          "source": "Voy a preguntar.",
+          "answers": [
+            "I'll go and ask",
+            "I'll ask"
+          ]
+        },
+        {
+          "id": "a2_will.308",
+          "source": "Te llamo esta noche.",
+          "answers": [
+            "I'll call you tonight",
+            "I'll phone you tonight"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_will.401",
+          "answer": "I'll go and ask"
+        },
+        {
+          "id": "a2_will.402",
+          "answer": "I think it will be busy"
+        },
+        {
+          "id": "a2_will.403",
+          "answer": "Will the train be full?"
+        },
+        {
+          "id": "a2_will.404",
+          "answer": "I won't forget the tickets"
+        },
+        {
+          "id": "a2_will.405",
+          "answer": "I don't think it will rain"
+        }
+      ]
+    }
+  ]
+}

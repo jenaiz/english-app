@@ -1,0 +1,483 @@
+{
+  "topic_id": "a2_much_many_too_enough",
+  "level_id": "A2",
+  "title": "much, many, a lot of, too y enough",
+  "tags": [
+    "quantifiers"
+  ],
+  "units": [
+    "at_the_shop"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "much, many, a lot of, too, enough",
+    "explanation": "Los nombres contables tienen plural («a coat», «two coats»); los incontables, no («money», «milk», «bread», «time», «information»).\n\n«How many» va con plural y «How much», con incontables. «How much» también pregunta el precio:\n- «How many coats?» / «How much money?»\n- «How much is this coat?» / «How much are these shoes?»\n\n«A lot of» (mucho, muchos) sirve para los dos en frases afirmativas. En negativas y preguntas se usan mucho «much» y «many»:\n- «There are a lot of coats in the sale.»\n- «I don't have much money.»\n- «Are there many people?»\n\n«Too» + adjetivo significa demasiado (más de lo que quieres). «Too much» y «too many» van con nombres:\n- «It's too big.»\n- «I spent too much money.»\n- «There are too many people.»\n\n«Enough» (suficiente) va después del adjetivo y antes del nombre:\n- «This coat isn't warm enough.»\n- «I haven't got enough money.»\n\nOjo: «too» es negativo (sobra). Para algo positivo se usa «very»: «It's very nice», nunca «It's too nice».",
+    "table": {
+      "headers": [
+        "",
+        "Contables",
+        "Incontables"
+      ],
+      "rows": [
+        [
+          "Pregunta",
+          "How many coats?",
+          "How much money?"
+        ],
+        [
+          "Mucho",
+          "a lot of coats / many coats",
+          "a lot of money / much money"
+        ],
+        [
+          "Demasiado",
+          "too many coats",
+          "too much money"
+        ],
+        [
+          "Suficiente",
+          "enough coats",
+          "enough money"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «much», «many», «a lot», «too» o «enough».",
+      "bank": [
+        "much",
+        "many",
+        "lot",
+        "too",
+        "enough"
+      ],
+      "items": [
+        {
+          "id": "a2_much_many_too_enough.001",
+          "sentence": "How ___ money do you want to spend?",
+          "answers": [
+            [
+              "much"
+            ]
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.002",
+          "sentence": "How ___ coats do you want to try?",
+          "answers": [
+            [
+              "many"
+            ]
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.003",
+          "sentence": "I don't have ___ money this month.",
+          "answers": [
+            [
+              "much"
+            ]
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.004",
+          "sentence": "There are a ___ of coats in the sale.",
+          "answers": [
+            [
+              "lot"
+            ]
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.005",
+          "sentence": "This coat is ___ big. I need a small.",
+          "answers": [
+            [
+              "too"
+            ]
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.006",
+          "sentence": "I haven't got ___ money for this coat.",
+          "answers": [
+            [
+              "enough"
+            ]
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.007",
+          "sentence": "This jumper isn't warm ___ for the winter.",
+          "answers": [
+            [
+              "enough"
+            ]
+          ],
+          "explanation": "«enough» va después del adjetivo."
+        },
+        {
+          "id": "a2_much_many_too_enough.008",
+          "sentence": "There were too ___ people in the shop.",
+          "answers": [
+            [
+              "many"
+            ]
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.009",
+          "sentence": "I ate too ___ chocolate yesterday.",
+          "answers": [
+            [
+              "much"
+            ]
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.010",
+          "sentence": "Are there ___ shops in your street?",
+          "answers": [
+            [
+              "many"
+            ]
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.011",
+          "sentence": "These jeans are ___ short. I need longer ones.",
+          "answers": [
+            [
+              "too"
+            ]
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.012",
+          "sentence": "We've got ___ time. The train leaves in an hour.",
+          "answers": [
+            [
+              "enough"
+            ]
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.013",
+          "sentence": "How ___ are these shoes? — Fifty pounds.",
+          "answers": [
+            [
+              "much"
+            ]
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.014",
+          "sentence": "I don't eat ___ meat.",
+          "answers": [
+            [
+              "much"
+            ]
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.015",
+          "sentence": "The coffee is ___ hot. I can't drink it.",
+          "answers": [
+            [
+              "too"
+            ]
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.016",
+          "sentence": "Is the room big ___ for four people?",
+          "answers": [
+            [
+              "enough"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_much_many_too_enough.101",
+          "question": "¿Cuánto dinero tienes?",
+          "options": [
+            "How much money have you got?",
+            "How many money have you got?"
+          ],
+          "answer": 0,
+          "explanation": "«money» es incontable."
+        },
+        {
+          "id": "a2_much_many_too_enough.102",
+          "question": "No tengo suficiente dinero.",
+          "options": [
+            "I haven't got money enough.",
+            "I haven't got enough money."
+          ],
+          "answer": 1,
+          "explanation": "«enough» va antes del nombre."
+        },
+        {
+          "id": "a2_much_many_too_enough.103",
+          "question": "No es lo bastante grande.",
+          "options": [
+            "It isn't big enough.",
+            "It isn't enough big."
+          ],
+          "answer": 0,
+          "explanation": "«enough» va después del adjetivo."
+        },
+        {
+          "id": "a2_much_many_too_enough.104",
+          "question": "Es demasiado caro.",
+          "options": [
+            "It's too expensive.",
+            "It's too much expensive."
+          ],
+          "answer": 0,
+          "explanation": "«too» + adjetivo."
+        },
+        {
+          "id": "a2_much_many_too_enough.105",
+          "question": "Hay demasiada gente.",
+          "options": [
+            "There are too much people.",
+            "There are too many people."
+          ],
+          "answer": 1,
+          "explanation": "«people» es plural: «too many»."
+        },
+        {
+          "id": "a2_much_many_too_enough.106",
+          "question": "Es muy bonito. (te gusta)",
+          "options": [
+            "It's too nice.",
+            "It's very nice."
+          ],
+          "answer": 1,
+          "explanation": "«too» es negativo; para algo bueno, «very»."
+        },
+        {
+          "id": "a2_much_many_too_enough.107",
+          "question": "Hay muchos abrigos en las rebajas.",
+          "options": [
+            "There are a lot of coats in the sale.",
+            "There are much coats in the sale."
+          ],
+          "answer": 0,
+          "explanation": "En afirmativa: «a lot of»."
+        },
+        {
+          "id": "a2_much_many_too_enough.108",
+          "question": "¿Cuánto cuestan estos zapatos?",
+          "options": [
+            "How much are these shoes?",
+            "How many are these shoes?"
+          ],
+          "answer": 0,
+          "explanation": "El precio: «How much»."
+        },
+        {
+          "id": "a2_much_many_too_enough.109",
+          "question": "No tengo mucho tiempo.",
+          "options": [
+            "I don't have much time.",
+            "I don't have many time."
+          ],
+          "answer": 0,
+          "explanation": "«time» es incontable."
+        },
+        {
+          "id": "a2_much_many_too_enough.110",
+          "question": "¿Me lo puedo probar?",
+          "options": [
+            "Can I try it on?",
+            "Can I try on it?"
+          ],
+          "answer": 0,
+          "explanation": "Con pronombre, en medio."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "a2_much_many_too_enough.201",
+          "prompt": "Corrige",
+          "source": "How many money do you need?",
+          "answers": [
+            "How much money do you need"
+          ],
+          "explanation": "«money» es incontable."
+        },
+        {
+          "id": "a2_much_many_too_enough.202",
+          "prompt": "Corrige",
+          "source": "This coat isn't enough warm.",
+          "answers": [
+            "This coat isn't warm enough"
+          ],
+          "explanation": "«enough» va después del adjetivo."
+        },
+        {
+          "id": "a2_much_many_too_enough.203",
+          "prompt": "Corrige",
+          "source": "I haven't got time enough.",
+          "answers": [
+            "I haven't got enough time"
+          ],
+          "explanation": "«enough» va antes del nombre."
+        },
+        {
+          "id": "a2_much_many_too_enough.204",
+          "prompt": "Corrige",
+          "source": "There are too much cars in the city.",
+          "answers": [
+            "There are too many cars in the city"
+          ],
+          "explanation": "«cars» es plural."
+        },
+        {
+          "id": "a2_much_many_too_enough.205",
+          "prompt": "Corrige",
+          "source": "This dress is too much big.",
+          "answers": [
+            "This dress is too big"
+          ],
+          "explanation": "«too» + adjetivo."
+        },
+        {
+          "id": "a2_much_many_too_enough.206",
+          "prompt": "Corrige",
+          "source": "The food was too delicious!",
+          "answers": [
+            "The food was very delicious",
+            "The food was really delicious",
+            "The food was delicious"
+          ],
+          "explanation": "«too» es negativo."
+        },
+        {
+          "id": "a2_much_many_too_enough.207",
+          "prompt": "Corrige",
+          "source": "I don't have many money.",
+          "answers": [
+            "I don't have much money"
+          ],
+          "explanation": "«money» es incontable."
+        },
+        {
+          "id": "a2_much_many_too_enough.208",
+          "prompt": "Corrige",
+          "source": "How much are this coat?",
+          "answers": [
+            "How much is this coat"
+          ],
+          "explanation": "Un abrigo: «is»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_much_many_too_enough.301",
+          "source": "¿Cuánto cuesta este abrigo?",
+          "answers": [
+            "How much is this coat"
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.302",
+          "source": "Es demasiado grande.",
+          "answers": [
+            "It's too big"
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.303",
+          "source": "No tengo mucho dinero.",
+          "answers": [
+            "I don't have much money",
+            "I haven't got much money"
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.304",
+          "source": "¿Cuántas tiendas hay?",
+          "answers": [
+            "How many shops are there"
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.305",
+          "source": "No es lo bastante caliente.",
+          "answers": [
+            "It isn't warm enough",
+            "It's not warm enough"
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.306",
+          "source": "Hay demasiada gente aquí.",
+          "answers": [
+            "There are too many people here"
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.307",
+          "source": "No tenemos suficiente tiempo.",
+          "answers": [
+            "We haven't got enough time",
+            "We don't have enough time"
+          ]
+        },
+        {
+          "id": "a2_much_many_too_enough.308",
+          "source": "Hay muchos abrigos en las rebajas.",
+          "answers": [
+            "There are a lot of coats in the sale",
+            "There are lots of coats in the sale"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_much_many_too_enough.401",
+          "answer": "How much is this coat?"
+        },
+        {
+          "id": "a2_much_many_too_enough.402",
+          "answer": "This jumper is too small"
+        },
+        {
+          "id": "a2_much_many_too_enough.403",
+          "answer": "I haven't got enough money"
+        },
+        {
+          "id": "a2_much_many_too_enough.404",
+          "answer": "There are a lot of people here"
+        },
+        {
+          "id": "a2_much_many_too_enough.405",
+          "answer": "It isn't warm enough"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "topic_id": "a2_phrasal_verbs",
+  "level_id": "A2",
+  "title": "Phrasal verbs de la rutina: get up, put on, look for…",
+  "tags": [
+    "phrasal_verbs"
+  ],
+  "units": [
+    "daily_routine"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Everyday phrasal verbs",
+    "explanation": "Un phrasal verb es un verbo + una partícula («up», «on», «off», «for», «out», «back»…) que juntos tienen un significado propio: «look» (mirar) → «look for» (buscar).\n\nLos más usados en la rutina:\n- «wake up» (despertarse), «get up» (levantarse)\n- «put on» (ponerse ropa), «take off» (quitarse)\n- «turn on» / «turn off» (encender / apagar)\n- «look for» (buscar), «go out» (salir), «come back» (volver)\n- «sit down» (sentarse), «stand up» (ponerse de pie), «turn up» / «turn down» (subir / bajar el volumen)\n\nSe conjugan como el verbo normal; la partícula no cambia:\n- «I get up at seven.»\n- «She gets up at six.»\n- «I got up late yesterday.»\n\nCon «put on», «take off», «turn on», «turn off», «turn up» y «turn down» el objeto puede ir en medio o detrás. Si es un pronombre («it», «them»…), va siempre en medio (nunca «put on it»):\n- «Put your coat on.» / «Put on your coat.»\n- «Put it on.»\n- «Turn the TV off.» / «Turn it off.»\n\nEn cambio, con «look for» el objeto va siempre detrás:\n- «I'm looking for my keys.» / «I'm looking for them.»",
+    "table": {
+      "headers": [
+        "Phrasal verb",
+        "Significado",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "wake up",
+          "despertarse",
+          "I wake up at seven."
+        ],
+        [
+          "get up",
+          "levantarse",
+          "She gets up early."
+        ],
+        [
+          "put on",
+          "ponerse",
+          "Put your coat on."
+        ],
+        [
+          "take off",
+          "quitarse",
+          "Take your shoes off."
+        ],
+        [
+          "turn on / off",
+          "encender / apagar",
+          "Turn off the light."
+        ],
+        [
+          "look for",
+          "buscar",
+          "I'm looking for my keys."
+        ],
+        [
+          "go out",
+          "salir",
+          "We're going out tonight."
+        ],
+        [
+          "come back",
+          "volver",
+          "What time do you come back?"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la partícula: «up», «on», «off», «for», «out», «back» o «down».",
+      "bank": [
+        "up",
+        "on",
+        "off",
+        "for",
+        "out",
+        "back",
+        "down"
+      ],
+      "items": [
+        {
+          "id": "a2_phrasal_verbs.001",
+          "sentence": "I always wake ___ before my alarm.",
+          "answers": [
+            [
+              "up"
+            ]
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.002",
+          "sentence": "Lucía is looking ___ her keys.",
+          "answers": [
+            [
+              "for"
+            ]
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.003",
+          "sentence": "It's cold. Put ___ your coat.",
+          "answers": [
+            [
+              "on"
+            ]
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.004",
+          "sentence": "Please turn ___ the TV. I'm trying to sleep.",
+          "answers": [
+            [
+              "off"
+            ]
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.005",
+          "sentence": "We're going ___ for dinner tonight.",
+          "answers": [
+            [
+              "out"
+            ]
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.006",
+          "sentence": "What time do you come ___ from work?",
+          "answers": [
+            [
+              "back"
+            ]
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.007",
+          "sentence": "Take your shoes ___, please. The floor is clean.",
+          "answers": [
+            [
+              "off"
+            ]
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.008",
+          "sentence": "Sam gets ___ at eleven at the weekend.",
+          "answers": [
+            [
+              "up"
+            ]
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.009",
+          "sentence": "It's dark in here. Can you turn the light ___?",
+          "answers": [
+            [
+              "on"
+            ]
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.010",
+          "sentence": "Please sit ___. The doctor will see you soon.",
+          "answers": [
+            [
+              "down"
+            ]
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.011",
+          "sentence": "I can't hear the music. Can you turn it ___?",
+          "answers": [
+            [
+              "up"
+            ]
+          ],
+          "explanation": "Subir el volumen: «turn up»."
+        },
+        {
+          "id": "a2_phrasal_verbs.012",
+          "sentence": "The music is too loud! Turn it ___.",
+          "answers": [
+            [
+              "down"
+            ]
+          ],
+          "explanation": "Bajar el volumen: «turn down»."
+        },
+        {
+          "id": "a2_phrasal_verbs.013",
+          "sentence": "I'm looking ___ a new flat.",
+          "answers": [
+            [
+              "for"
+            ]
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.014",
+          "sentence": "Priya went ___ with her friends last night.",
+          "answers": [
+            [
+              "out"
+            ]
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.015",
+          "sentence": "When are you coming ___ from Spain?",
+          "answers": [
+            [
+              "back"
+            ]
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.016",
+          "sentence": "Put your jumper ___. It's freezing.",
+          "answers": [
+            [
+              "on"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_phrasal_verbs.101",
+          "question": "Póntelo.",
+          "options": [
+            "Put on it.",
+            "Put it on."
+          ],
+          "answer": 1,
+          "explanation": "Con pronombre, va en medio."
+        },
+        {
+          "id": "a2_phrasal_verbs.102",
+          "question": "Estoy buscando mis gafas.",
+          "options": [
+            "I'm looking for my glasses.",
+            "I'm looking my glasses for."
+          ],
+          "answer": 0,
+          "explanation": "Con «look for», el objeto va detrás."
+        },
+        {
+          "id": "a2_phrasal_verbs.103",
+          "question": "Me levanté tarde.",
+          "options": [
+            "I got up late.",
+            "I got late up."
+          ],
+          "answer": 0,
+          "explanation": "La partícula no se separa del verbo aquí."
+        },
+        {
+          "id": "a2_phrasal_verbs.104",
+          "question": "Apágala (la tele).",
+          "options": [
+            "Turn off it.",
+            "Turn it off."
+          ],
+          "answer": 1,
+          "explanation": "Con pronombre, va en medio."
+        },
+        {
+          "id": "a2_phrasal_verbs.105",
+          "question": "Ella se levanta a las seis.",
+          "options": [
+            "She gets up at six.",
+            "She get ups at six."
+          ],
+          "answer": 0,
+          "explanation": "La «-s» va en el verbo, no en la partícula."
+        },
+        {
+          "id": "a2_phrasal_verbs.106",
+          "question": "Quítate el abrigo.",
+          "options": [
+            "Take off your coat.",
+            "Take your coat out."
+          ],
+          "answer": 0,
+          "explanation": "Quitarse: «take off»."
+        },
+        {
+          "id": "a2_phrasal_verbs.107",
+          "question": "¿A qué hora vuelves?",
+          "options": [
+            "What time do you come back?",
+            "What time do you come out?"
+          ],
+          "answer": 0,
+          "explanation": "Volver: «come back»."
+        },
+        {
+          "id": "a2_phrasal_verbs.108",
+          "question": "Esta noche salimos.",
+          "options": [
+            "We're going out tonight.",
+            "We're going off tonight."
+          ],
+          "answer": 0,
+          "explanation": "Salir: «go out»."
+        },
+        {
+          "id": "a2_phrasal_verbs.109",
+          "question": "Sube el volumen.",
+          "options": [
+            "Turn it up.",
+            "Turn it on."
+          ],
+          "answer": 0,
+          "explanation": "Subir el volumen: «turn up»."
+        },
+        {
+          "id": "a2_phrasal_verbs.110",
+          "question": "Siéntate, por favor.",
+          "options": [
+            "Sit down, please.",
+            "Sit up, please."
+          ],
+          "answer": 0,
+          "explanation": "Sentarse: «sit down»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Sustituye el objeto por un pronombre o corrige el error.",
+      "items": [
+        {
+          "id": "a2_phrasal_verbs.201",
+          "prompt": "Con «it»",
+          "source": "Put your coat on.",
+          "answers": [
+            "Put it on"
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.202",
+          "prompt": "Con «them»",
+          "source": "Take your shoes off.",
+          "answers": [
+            "Take them off"
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.203",
+          "prompt": "Con «it»",
+          "source": "Turn off the TV.",
+          "answers": [
+            "Turn it off",
+            "Turn the TV off"
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.204",
+          "prompt": "Con «them»",
+          "source": "I'm looking for my keys.",
+          "answers": [
+            "I'm looking for them"
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.205",
+          "prompt": "Corrige",
+          "source": "Turn on it, please.",
+          "answers": [
+            "Turn it on, please",
+            "Turn it on please"
+          ],
+          "explanation": "Con pronombre, va en medio."
+        },
+        {
+          "id": "a2_phrasal_verbs.206",
+          "prompt": "Corrige",
+          "source": "She wake up at six every day.",
+          "answers": [
+            "She wakes up at six every day"
+          ],
+          "explanation": "Con «she»: «wakes up»."
+        },
+        {
+          "id": "a2_phrasal_verbs.207",
+          "prompt": "Corrige",
+          "source": "I'm looking my phone for.",
+          "answers": [
+            "I'm looking for my phone"
+          ],
+          "explanation": "Con «look for», el objeto va detrás."
+        },
+        {
+          "id": "a2_phrasal_verbs.208",
+          "prompt": "Corrige",
+          "source": "Yesterday I get up at ten.",
+          "answers": [
+            "Yesterday I got up at ten"
+          ],
+          "explanation": "Pasado: «got up»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_phrasal_verbs.301",
+          "source": "Me levanto a las siete.",
+          "answers": [
+            "I get up at seven"
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.302",
+          "source": "Estoy buscando mis llaves.",
+          "answers": [
+            "I'm looking for my keys"
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.303",
+          "source": "Ponte el abrigo.",
+          "answers": [
+            "Put your coat on",
+            "Put on your coat"
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.304",
+          "source": "Apaga la luz, por favor.",
+          "answers": [
+            "Turn off the light, please",
+            "Turn the light off, please",
+            "Please turn off the light"
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.305",
+          "source": "Salimos esta noche.",
+          "answers": [
+            "We're going out tonight"
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.306",
+          "source": "¿Cuándo vuelves?",
+          "answers": [
+            "When are you coming back",
+            "When do you come back"
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.307",
+          "source": "Quítatelos. (los zapatos)",
+          "answers": [
+            "Take them off"
+          ]
+        },
+        {
+          "id": "a2_phrasal_verbs.308",
+          "source": "Me desperté a las seis.",
+          "answers": [
+            "I woke up at six"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_phrasal_verbs.401",
+          "answer": "I always wake up before my alarm"
+        },
+        {
+          "id": "a2_phrasal_verbs.402",
+          "answer": "Put your coat on"
+        },
+        {
+          "id": "a2_phrasal_verbs.403",
+          "answer": "Can you turn it off?"
+        },
+        {
+          "id": "a2_phrasal_verbs.404",
+          "answer": "She's looking for her keys"
+        },
+        {
+          "id": "a2_phrasal_verbs.405",
+          "answer": "What time do you come back?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "topic_id": "a2_all_both_most_none",
+  "level_id": "A2",
+  "title": "all, both, most, none",
+  "tags": [
+    "quantifiers"
+  ],
+  "units": [
+    "at_the_shop"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "all, both, most, none",
+    "explanation": "Para hablar de cantidades de un grupo:\n- «all» (todos): «All the coats are in the sale.»\n- «most» (la mayoría): «Most shops close at six.»\n- «none» (ninguno): «None of the coats fits me.»\n- «both» (los dos, de dos cosas): «Both coats are nice.»\n\nCon «of» + «the», «my», «these»…:\n- «all of the coats», «most of my friends», «both of these shirts»\n\nCon pronombres siempre va «of»:\n- «all of us», «both of them», «none of them»\n\nSin «the» hablan de algo en general:\n- «Most people like music.» (la gente en general)\n- «Most of the people at the party were students.» (de un grupo concreto)\n\n«None» ya es negativo, así que el verbo va en afirmativa (nunca «None of them didn't come»):\n- «None of my friends came.»\n\nOjo: «both» es solo para dos cosas. Para más de dos se usa «all».",
+    "table": {
+      "headers": [
+        "Palabra",
+        "Significado",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "all",
+          "todos",
+          "All the shops close at eight."
+        ],
+        [
+          "most",
+          "la mayoría",
+          "Most of my friends live in Clifton."
+        ],
+        [
+          "both",
+          "los dos",
+          "Both coats are nice."
+        ],
+        [
+          "none",
+          "ninguno",
+          "None of them fits me."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «all», «both», «most» o «none».",
+      "bank": [
+        "all",
+        "both",
+        "most",
+        "none"
+      ],
+      "items": [
+        {
+          "id": "a2_all_both_most_none.001",
+          "sentence": "I tried two coats, and ___ of them were too big.",
+          "answers": [
+            [
+              "both"
+            ]
+          ]
+        },
+        {
+          "id": "a2_all_both_most_none.002",
+          "sentence": "___ the shops in Cabot Circus close at eight. Every one!",
+          "answers": [
+            [
+              "All"
+            ]
+          ]
+        },
+        {
+          "id": "a2_all_both_most_none.003",
+          "sentence": "___ of the coats were my size, so I bought nothing.",
+          "answers": [
+            [
+              "None"
+            ]
+          ]
+        },
+        {
+          "id": "a2_all_both_most_none.004",
+          "sentence": "___ of my friends live in Clifton, but a few live in Bedminster.",
+          "answers": [
+            [
+              "Most"
+            ]
+          ]
+        },
+        {
+          "id": "a2_all_both_most_none.005",
+          "sentence": "Sam and Priya are ___ nurses. — No! Only Priya is a nurse.",
+          "answers": [
+            [
+              "both"
+            ]
+          ]
+        },
+        {
+          "id": "a2_all_both_most_none.006",
+          "sentence": "___ people like chocolate.",
+          "answers": [
+            [
+              "Most"
+            ]
+          ],
+          "explanation": "En general, sin «of the»."
+        },
+        {
+          "id": "a2_all_both_most_none.007",
+          "sentence": "I've got two brothers. ___ of them live in Madrid.",
+          "answers": [
+            [
+              "Both"
+            ]
+          ]
+        },
+        {
+          "id": "a2_all_both_most_none.008",
+          "sentence": "___ of us were tired after the walk. Everybody!",
+          "answers": [
+            [
+              "All"
+            ]
+          ]
+        },
+        {
+          "id": "a2_all_both_most_none.009",
+          "sentence": "I asked five shops, but ___ of them had my size.",
+          "answers": [
+            [
+              "none"
+            ]
+          ]
+        },
+        {
+          "id": "a2_all_both_most_none.010",
+          "sentence": "___ of the students passed the exam. Only two failed.",
+          "answers": [
+            [
+              "Most"
+            ]
+          ]
+        },
+        {
+          "id": "a2_all_both_most_none.011",
+          "sentence": "I like ___ these shirts. I can't choose!",
+          "answers": [
+            [
+              "both"
+            ]
+          ]
+        },
+        {
+          "id": "a2_all_both_most_none.012",
+          "sentence": "___ the food was delicious.",
+          "answers": [
+            [
+              "All"
+            ]
+          ]
+        },
+        {
+          "id": "a2_all_both_most_none.013",
+          "sentence": "___ of my friends came to the party. I was sad.",
+          "answers": [
+            [
+              "None"
+            ]
+          ]
+        },
+        {
+          "id": "a2_all_both_most_none.014",
+          "sentence": "Daniel ate ___ of the cake. There's nothing left!",
+          "answers": [
+            [
+              "all"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_all_both_most_none.101",
+          "question": "Los dos abrigos son bonitos.",
+          "options": [
+            "Both coats are nice.",
+            "All coats are nice."
+          ],
+          "answer": 0,
+          "explanation": "Dos cosas: «both»."
+        },
+        {
+          "id": "a2_all_both_most_none.102",
+          "question": "Ninguno me queda bien.",
+          "options": [
+            "None of them fits me.",
+            "None of them doesn't fit me."
+          ],
+          "answer": 0,
+          "explanation": "«None» ya es negativo."
+        },
+        {
+          "id": "a2_all_both_most_none.103",
+          "question": "La mayoría de mis amigos.",
+          "options": [
+            "Most of my friends",
+            "Most my friends"
+          ],
+          "answer": 0,
+          "explanation": "Con «my»: «most of»."
+        },
+        {
+          "id": "a2_all_both_most_none.104",
+          "question": "Todos nosotros.",
+          "options": [
+            "All of us",
+            "All us"
+          ],
+          "answer": 0,
+          "explanation": "Con pronombre: «of»."
+        },
+        {
+          "id": "a2_all_both_most_none.105",
+          "question": "A la mayoría de la gente le gusta la música.",
+          "options": [
+            "Most people like music.",
+            "The most people like music."
+          ],
+          "answer": 0,
+          "explanation": "En general: «Most people»."
+        },
+        {
+          "id": "a2_all_both_most_none.106",
+          "question": "Los dos (de ellos).",
+          "options": [
+            "both of them",
+            "both them"
+          ],
+          "answer": 0,
+          "explanation": "Con pronombre: «of»."
+        },
+        {
+          "id": "a2_all_both_most_none.107",
+          "question": "Todas las tiendas cierran a las ocho.",
+          "options": [
+            "All the shops close at eight.",
+            "Both the shops close at eight."
+          ],
+          "answer": 0,
+          "explanation": "Más de dos: «all»."
+        },
+        {
+          "id": "a2_all_both_most_none.108",
+          "question": "No vino ninguno de mis amigos.",
+          "options": [
+            "None of my friends came.",
+            "None of my friends didn't come."
+          ],
+          "answer": 0,
+          "explanation": "«None» ya es negativo."
+        },
+        {
+          "id": "a2_all_both_most_none.109",
+          "question": "Me comí toda la tarta.",
+          "options": [
+            "I ate all the cake.",
+            "I ate most the cake."
+          ],
+          "answer": 0,
+          "explanation": "Todo: «all»."
+        },
+        {
+          "id": "a2_all_both_most_none.110",
+          "question": "La mayoría de los estudiantes aprobó.",
+          "options": [
+            "Most of the students passed.",
+            "Most of students passed."
+          ],
+          "answer": 0,
+          "explanation": "«Most of the…»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "a2_all_both_most_none.201",
+          "prompt": "Corrige",
+          "source": "None of them didn't like the film.",
+          "answers": [
+            "None of them liked the film"
+          ],
+          "explanation": "«None» ya es negativo."
+        },
+        {
+          "id": "a2_all_both_most_none.202",
+          "prompt": "Corrige",
+          "source": "Most of people here are students.",
+          "answers": [
+            "Most people here are students",
+            "Most of the people here are students"
+          ],
+          "explanation": "«Most people» o «most of the people»."
+        },
+        {
+          "id": "a2_all_both_most_none.203",
+          "prompt": "Corrige",
+          "source": "Both them are from Galway.",
+          "answers": [
+            "Both of them are from Galway"
+          ],
+          "explanation": "Con pronombre: «of»."
+        },
+        {
+          "id": "a2_all_both_most_none.204",
+          "prompt": "Corrige",
+          "source": "I've got three sisters and both of them live in Spain.",
+          "answers": [
+            "I've got three sisters and all of them live in Spain"
+          ],
+          "explanation": "Más de dos: «all»."
+        },
+        {
+          "id": "a2_all_both_most_none.205",
+          "prompt": "Corrige",
+          "source": "All us were very happy.",
+          "answers": [
+            "All of us were very happy"
+          ],
+          "explanation": "Con pronombre: «of»."
+        },
+        {
+          "id": "a2_all_both_most_none.206",
+          "prompt": "Corrige",
+          "source": "The most shops close at six.",
+          "answers": [
+            "Most shops close at six"
+          ],
+          "explanation": "En general: «Most shops»."
+        },
+        {
+          "id": "a2_all_both_most_none.207",
+          "prompt": "Corrige",
+          "source": "Most my friends live near here.",
+          "answers": [
+            "Most of my friends live near here"
+          ],
+          "explanation": "Con «my»: «most of»."
+        },
+        {
+          "id": "a2_all_both_most_none.208",
+          "prompt": "Corrige",
+          "source": "None the coats fit me.",
+          "answers": [
+            "None of the coats fit me",
+            "None of the coats fits me"
+          ],
+          "explanation": "«None of the…»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_all_both_most_none.301",
+          "source": "Los dos abrigos son bonitos.",
+          "answers": [
+            "Both coats are nice",
+            "Both of the coats are nice"
+          ]
+        },
+        {
+          "id": "a2_all_both_most_none.302",
+          "source": "Ninguno de ellos es de mi talla.",
+          "answers": [
+            "None of them is my size",
+            "None of them are my size"
+          ]
+        },
+        {
+          "id": "a2_all_both_most_none.303",
+          "source": "La mayoría de mis amigos viven en Clifton.",
+          "answers": [
+            "Most of my friends live in Clifton"
+          ]
+        },
+        {
+          "id": "a2_all_both_most_none.304",
+          "source": "Todos nosotros estábamos cansados.",
+          "answers": [
+            "All of us were tired",
+            "We were all tired"
+          ]
+        },
+        {
+          "id": "a2_all_both_most_none.305",
+          "source": "A la mayoría de la gente le gusta el chocolate.",
+          "answers": [
+            "Most people like chocolate"
+          ]
+        },
+        {
+          "id": "a2_all_both_most_none.306",
+          "source": "Me gustan los dos.",
+          "answers": [
+            "I like both of them",
+            "I like them both",
+            "I like both"
+          ]
+        },
+        {
+          "id": "a2_all_both_most_none.307",
+          "source": "Todas las tiendas están cerradas.",
+          "answers": [
+            "All the shops are closed",
+            "All of the shops are closed"
+          ]
+        },
+        {
+          "id": "a2_all_both_most_none.308",
+          "source": "No vino ninguno.",
+          "answers": [
+            "None of them came",
+            "Nobody came"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_all_both_most_none.401",
+          "answer": "Both of them are from Galway"
+        },
+        {
+          "id": "a2_all_both_most_none.402",
+          "answer": "Most of my friends live in Clifton"
+        },
+        {
+          "id": "a2_all_both_most_none.403",
+          "answer": "None of the coats fit me"
+        },
+        {
+          "id": "a2_all_both_most_none.404",
+          "answer": "All the shops close at eight"
+        },
+        {
+          "id": "a2_all_both_most_none.405",
+          "answer": "Most people like music"
+        }
+      ]
+    }
+  ]
+}

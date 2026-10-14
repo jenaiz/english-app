@@ -1,0 +1,468 @@
+{
+  "topic_id": "a2_past_simple",
+  "level_id": "A2",
+  "title": "Past simple: negativas, preguntas e irregulares",
+  "tags": [
+    "past_simple"
+  ],
+  "units": [
+    "past_memories"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Past simple: negatives and questions",
+    "explanation": "El past simple cuenta cosas terminadas en el pasado. Los regulares añaden «-ed» y los irregulares tienen forma propia («go» → «went», «grow» → «grew», «give» → «gave», «leave» → «left», «buy» → «bought», «take» → «took», «write» → «wrote»).\n\nEn negativa usamos «didn't» + verbo en forma base (nunca «I didn't went»):\n- «I didn't go to university.»\n- «We didn't see the sea very often.»\n\nEn preguntas: «Did» + sujeto + verbo en forma base. Con palabras interrogativas, igual:\n- «Did you live near the sea? — Yes, I did. / No, I didn't.»\n- «Why did you leave Spain?»\n- «Where did you grow up?»\n\nOjo: cuando la pregunta es por el sujeto (quién hizo algo), no se usa «did»:\n- «Who gave you the guitar?» (nunca «Who did give»)\n\nExpresiones útiles: «when I was six», «three years ago», «last summer», «in 2015», «yesterday».",
+    "table": {
+      "headers": [
+        "",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Afirmativa",
+          "I grew up in Valencia."
+        ],
+        [
+          "Negativa",
+          "I didn't go to university."
+        ],
+        [
+          "Pregunta",
+          "Did you live near the sea?"
+        ],
+        [
+          "Respuesta corta",
+          "Yes, I did. / No, I didn't."
+        ],
+        [
+          "Con palabra interrogativa",
+          "Why did you leave Spain?"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el past simple, «did» o «didn't».",
+      "items": [
+        {
+          "id": "a2_past_simple.001",
+          "sentence": "We ___ to the beach every summer. (go)",
+          "answers": [
+            [
+              "went"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_simple.002",
+          "sentence": "I ___ see the sea very often.",
+          "answers": [
+            [
+              "didn't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_simple.003",
+          "sentence": "___ you live near the sea?",
+          "answers": [
+            [
+              "Did"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_simple.004",
+          "sentence": "My dad ___ me a guitar. (give)",
+          "answers": [
+            [
+              "gave"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_simple.005",
+          "sentence": "Why did you ___ Spain? (leave)",
+          "answers": [
+            [
+              "leave"
+            ]
+          ],
+          "explanation": "Después de «did», forma base."
+        },
+        {
+          "id": "a2_past_simple.006",
+          "sentence": "Did Sam go to university? — No, he ___.",
+          "answers": [
+            [
+              "didn't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_simple.007",
+          "sentence": "Where ___ you grow up?",
+          "answers": [
+            [
+              "did"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_simple.008",
+          "sentence": "I ___ up in a small town near Valencia. (grow)",
+          "answers": [
+            [
+              "grew"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_simple.009",
+          "sentence": "Lucía ___ Spain three years ago. (leave)",
+          "answers": [
+            [
+              "left"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_simple.010",
+          "sentence": "We didn't ___ a car when I was a child. (have)",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_simple.011",
+          "sentence": "What did you ___ for your birthday? (get)",
+          "answers": [
+            [
+              "get"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_simple.012",
+          "sentence": "I ___ my first email when I was ten. (write)",
+          "answers": [
+            [
+              "wrote"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_simple.013",
+          "sentence": "Who ___ you this present? (give)",
+          "answers": [
+            [
+              "gave"
+            ]
+          ],
+          "explanation": "Pregunta por el sujeto: sin «did»."
+        },
+        {
+          "id": "a2_past_simple.014",
+          "sentence": "They ___ a taxi to the airport. (take)",
+          "answers": [
+            [
+              "took"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_simple.015",
+          "sentence": "Did you like the film? — Yes, I ___.",
+          "answers": [
+            [
+              "did"
+            ]
+          ]
+        },
+        {
+          "id": "a2_past_simple.016",
+          "sentence": "I ___ understand the question, so I asked again.",
+          "answers": [
+            [
+              "didn't"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_past_simple.101",
+          "question": "No fui a la universidad.",
+          "options": [
+            "I didn't go to university.",
+            "I didn't went to university."
+          ],
+          "answer": 0,
+          "explanation": "Después de «didn't», forma base."
+        },
+        {
+          "id": "a2_past_simple.102",
+          "question": "¿Dónde creciste?",
+          "options": [
+            "Where did you grow up?",
+            "Where did you grew up?"
+          ],
+          "answer": 0,
+          "explanation": "Después de «did», forma base."
+        },
+        {
+          "id": "a2_past_simple.103",
+          "question": "¿Quién te dio la guitarra?",
+          "options": [
+            "Who gave you the guitar?",
+            "Who did give you the guitar?"
+          ],
+          "answer": 0,
+          "explanation": "Pregunta por el sujeto: sin «did»."
+        },
+        {
+          "id": "a2_past_simple.104",
+          "question": "¿Vivías cerca del mar? — Sí.",
+          "options": [
+            "Did you live near the sea? — Yes, I did.",
+            "Did you live near the sea? — Yes, I lived."
+          ],
+          "answer": 0,
+          "explanation": "Respuesta corta: «Yes, I did»."
+        },
+        {
+          "id": "a2_past_simple.105",
+          "question": "Se fue de España hace tres años.",
+          "options": [
+            "She left Spain three years ago.",
+            "She leaved Spain three years ago."
+          ],
+          "answer": 0,
+          "explanation": "«leave» es irregular: «left»."
+        },
+        {
+          "id": "a2_past_simple.106",
+          "question": "¿Por qué te fuiste?",
+          "options": [
+            "Why did you leave?",
+            "Why you left?"
+          ],
+          "answer": 0,
+          "explanation": "Pregunta: «did» + sujeto + forma base."
+        },
+        {
+          "id": "a2_past_simple.107",
+          "question": "No lo vimos.",
+          "options": [
+            "We didn't see it.",
+            "We not saw it."
+          ],
+          "answer": 0,
+          "explanation": "Negativa: «didn't» + forma base."
+        },
+        {
+          "id": "a2_past_simple.108",
+          "question": "Crecí en Valencia.",
+          "options": [
+            "I grew up in Valencia.",
+            "I growed up in Valencia."
+          ],
+          "answer": 0,
+          "explanation": "«grow» es irregular: «grew»."
+        },
+        {
+          "id": "a2_past_simple.109",
+          "question": "¿Qué hiciste ayer?",
+          "options": [
+            "What did you do yesterday?",
+            "What you did yesterday?"
+          ],
+          "answer": 0,
+          "explanation": "Falta «did»."
+        },
+        {
+          "id": "a2_past_simple.110",
+          "question": "Hace dos años.",
+          "options": [
+            "two years ago",
+            "since two years"
+          ],
+          "answer": 0,
+          "explanation": "«ago» va detrás."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Transforma o corrige la frase como se indica.",
+      "items": [
+        {
+          "id": "a2_past_simple.201",
+          "prompt": "Negativa",
+          "source": "I went to university.",
+          "answers": [
+            "I didn't go to university"
+          ]
+        },
+        {
+          "id": "a2_past_simple.202",
+          "prompt": "Pregunta",
+          "source": "You lived near the sea.",
+          "answers": [
+            "Did you live near the sea"
+          ]
+        },
+        {
+          "id": "a2_past_simple.203",
+          "prompt": "Negativa",
+          "source": "Sam took the bus.",
+          "answers": [
+            "Sam didn't take the bus"
+          ]
+        },
+        {
+          "id": "a2_past_simple.204",
+          "prompt": "Pregunta",
+          "source": "She left Spain in 2020.",
+          "answers": [
+            "Did she leave Spain in 2020"
+          ]
+        },
+        {
+          "id": "a2_past_simple.205",
+          "prompt": "Corrige",
+          "source": "Where did you went on holiday?",
+          "answers": [
+            "Where did you go on holiday"
+          ],
+          "explanation": "Después de «did», forma base."
+        },
+        {
+          "id": "a2_past_simple.206",
+          "prompt": "Corrige",
+          "source": "I didn't knew the answer.",
+          "answers": [
+            "I didn't know the answer"
+          ],
+          "explanation": "Después de «didn't», forma base."
+        },
+        {
+          "id": "a2_past_simple.207",
+          "prompt": "Corrige",
+          "source": "Who did call you last night?",
+          "answers": [
+            "Who called you last night"
+          ],
+          "explanation": "Pregunta por el sujeto: sin «did»."
+        },
+        {
+          "id": "a2_past_simple.208",
+          "prompt": "Corrige",
+          "source": "We buyed a new car last year.",
+          "answers": [
+            "We bought a new car last year"
+          ],
+          "explanation": "«buy» es irregular: «bought»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_past_simple.301",
+          "source": "No fui a la universidad.",
+          "answers": [
+            "I didn't go to university"
+          ]
+        },
+        {
+          "id": "a2_past_simple.302",
+          "source": "¿Dónde creciste?",
+          "answers": [
+            "Where did you grow up"
+          ]
+        },
+        {
+          "id": "a2_past_simple.303",
+          "source": "Viví en Madrid tres años.",
+          "answers": [
+            "I lived in Madrid for three years"
+          ]
+        },
+        {
+          "id": "a2_past_simple.304",
+          "source": "¿Por qué te fuiste de España?",
+          "answers": [
+            "Why did you leave Spain"
+          ]
+        },
+        {
+          "id": "a2_past_simple.305",
+          "source": "Mi padre me regaló una guitarra.",
+          "answers": [
+            "My dad gave me a guitar",
+            "My father gave me a guitar"
+          ]
+        },
+        {
+          "id": "a2_past_simple.306",
+          "source": "No vimos el mar.",
+          "answers": [
+            "We didn't see the sea"
+          ]
+        },
+        {
+          "id": "a2_past_simple.307",
+          "source": "¿Quién te llamó?",
+          "answers": [
+            "Who called you",
+            "Who phoned you"
+          ]
+        },
+        {
+          "id": "a2_past_simple.308",
+          "source": "Me fui hace tres años.",
+          "answers": [
+            "I left three years ago"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_past_simple.401",
+          "answer": "Did you live near the sea?"
+        },
+        {
+          "id": "a2_past_simple.402",
+          "answer": "I didn't go to university"
+        },
+        {
+          "id": "a2_past_simple.403",
+          "answer": "Why did you leave Spain?"
+        },
+        {
+          "id": "a2_past_simple.404",
+          "answer": "Who gave you the guitar?"
+        },
+        {
+          "id": "a2_past_simple.405",
+          "answer": "I grew up in a small town"
+        }
+      ]
+    }
+  ]
+}

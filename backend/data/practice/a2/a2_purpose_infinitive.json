@@ -1,0 +1,456 @@
+{
+  "topic_id": "a2_purpose_infinitive",
+  "level_id": "A2",
+  "title": "Para qué: to + verbo (y for + nombre)",
+  "tags": [
+    "purpose_infinitive"
+  ],
+  "units": [
+    "home_for_christmas"
+  ],
+  "order": 3,
+  "rule": {
+    "title": "Infinitive of purpose: to + verb",
+    "explanation": "Para decir para qué hacemos algo, en inglés se usa «to» + verbo, sin «for»:\n- «I'm going to the airport to catch a flight.» (para coger un vuelo)\n- «She called a taxi to get to the airport.»\n\nEl error típico de los hispanohablantes es decir «for catch» o «for to catch». Con un verbo, siempre «to»:\n- «I went to the shop to buy a present.»\n- «I'm learning English to get a better job.»\n\n«For» va con un nombre:\n- «I went to the shop for some milk.»\n- «This present is for you.»\n\nPara preguntar el propósito, «Why…?» — «To…»:\n- «Why are you going to Valencia? — To see my family.»\n\nOjo: la frase de propósito también puede ir al principio, con coma: «To get to the airport, she called a taxi».",
+    "table": {
+      "headers": [
+        "Con…",
+        "Se usa",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "un verbo",
+          "to",
+          "I went out to buy bread."
+        ],
+        [
+          "un nombre",
+          "for",
+          "I went out for some bread."
+        ],
+        [
+          "Pregunta",
+          "Why…? — To…",
+          "Why did you call? — To say hello."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «to» o «for».",
+      "bank": [
+        "to",
+        "for"
+      ],
+      "items": [
+        {
+          "id": "a2_purpose_infinitive.001",
+          "sentence": "I'm going to Valencia ___ see my family.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.002",
+          "sentence": "Lucía ordered a taxi ___ go to the airport.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.003",
+          "sentence": "This umbrella is ___ you. Merry Christmas!",
+          "answers": [
+            [
+              "for"
+            ]
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.004",
+          "sentence": "Why did Daniel call? — ___ say goodbye.",
+          "answers": [
+            [
+              "To"
+            ]
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.005",
+          "sentence": "I went to the shop ___ some chocolate.",
+          "answers": [
+            [
+              "for"
+            ]
+          ],
+          "explanation": "Con un nombre: «for»."
+        },
+        {
+          "id": "a2_purpose_infinitive.006",
+          "sentence": "She checked in online ___ save time.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.007",
+          "sentence": "I'm learning English ___ get a better job.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.008",
+          "sentence": "We went to the café ___ a coffee.",
+          "answers": [
+            [
+              "for"
+            ]
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.009",
+          "sentence": "He went to the bank ___ get some money.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.010",
+          "sentence": "I called Helen ___ ask about the meeting.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.011",
+          "sentence": "Let's go out ___ dinner tonight.",
+          "answers": [
+            [
+              "for"
+            ]
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.012",
+          "sentence": "Sam practises every day ___ play better.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.013",
+          "sentence": "I came to Bristol ___ work.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.014",
+          "sentence": "We're saving money ___ a new car.",
+          "answers": [
+            [
+              "for"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_purpose_infinitive.101",
+          "question": "Fui a la tienda a comprar pan.",
+          "options": [
+            "I went to the shop to buy bread.",
+            "I went to the shop for buy bread."
+          ],
+          "answer": 0,
+          "explanation": "Con un verbo: «to»."
+        },
+        {
+          "id": "a2_purpose_infinitive.102",
+          "question": "Fui a la tienda a por leche.",
+          "options": [
+            "I went to the shop for some milk.",
+            "I went to the shop to some milk."
+          ],
+          "answer": 0,
+          "explanation": "Con un nombre: «for»."
+        },
+        {
+          "id": "a2_purpose_infinitive.103",
+          "question": "¿Por qué vas a Valencia? — Para ver a mi familia.",
+          "options": [
+            "Why are you going to Valencia? — To see my family.",
+            "Why are you going to Valencia? — For see my family."
+          ],
+          "answer": 0,
+          "explanation": "«To» + verbo."
+        },
+        {
+          "id": "a2_purpose_infinitive.104",
+          "question": "Este regalo es para ti.",
+          "options": [
+            "This present is for you.",
+            "This present is to you."
+          ],
+          "answer": 0,
+          "explanation": "Con un nombre o pronombre: «for»."
+        },
+        {
+          "id": "a2_purpose_infinitive.105",
+          "question": "Estudio inglés para encontrar trabajo.",
+          "options": [
+            "I study English to find a job.",
+            "I study English for to find a job."
+          ],
+          "answer": 0,
+          "explanation": "Nunca «for to»."
+        },
+        {
+          "id": "a2_purpose_infinitive.106",
+          "question": "Llamó un taxi para ir al aeropuerto.",
+          "options": [
+            "She called a taxi to get to the airport.",
+            "She called a taxi for getting to the airport."
+          ],
+          "answer": 0,
+          "explanation": "Propósito: «to»."
+        },
+        {
+          "id": "a2_purpose_infinitive.107",
+          "question": "Salimos a cenar.",
+          "options": [
+            "We went out for dinner.",
+            "We went out to dinner for."
+          ],
+          "answer": 0,
+          "explanation": "Con un nombre: «for»."
+        },
+        {
+          "id": "a2_purpose_infinitive.108",
+          "question": "Ahorro para un coche nuevo.",
+          "options": [
+            "I'm saving for a new car.",
+            "I'm saving to a new car."
+          ],
+          "answer": 0,
+          "explanation": "Con un nombre: «for»."
+        },
+        {
+          "id": "a2_purpose_infinitive.109",
+          "question": "Te llamé para darte las gracias.",
+          "options": [
+            "I called you to say thank you.",
+            "I called you for saying thank you."
+          ],
+          "answer": 0,
+          "explanation": "Propósito: «to»."
+        },
+        {
+          "id": "a2_purpose_infinitive.110",
+          "question": "Fue al banco a sacar dinero.",
+          "options": [
+            "He went to the bank to get some money.",
+            "He went to the bank for get some money."
+          ],
+          "answer": 0,
+          "explanation": "Con un verbo: «to»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Une las frases con «to» o corrige el error.",
+      "items": [
+        {
+          "id": "a2_purpose_infinitive.201",
+          "prompt": "Une con «to»",
+          "source": "I went to the airport. I wanted to catch a flight.",
+          "answers": [
+            "I went to the airport to catch a flight"
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.202",
+          "prompt": "Une con «to»",
+          "source": "She called Helen. She wanted to say goodbye.",
+          "answers": [
+            "She called Helen to say goodbye"
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.203",
+          "prompt": "Une con «to»",
+          "source": "We're saving money. We want to buy a flat.",
+          "answers": [
+            "We're saving money to buy a flat"
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.204",
+          "prompt": "Corrige",
+          "source": "I went out for buy some bread.",
+          "answers": [
+            "I went out to buy some bread"
+          ],
+          "explanation": "Con un verbo: «to»."
+        },
+        {
+          "id": "a2_purpose_infinitive.205",
+          "prompt": "Corrige",
+          "source": "She's learning Spanish for to talk to her friends.",
+          "answers": [
+            "She's learning Spanish to talk to her friends"
+          ],
+          "explanation": "Nunca «for to»."
+        },
+        {
+          "id": "a2_purpose_infinitive.206",
+          "prompt": "Corrige",
+          "source": "This is to you.",
+          "answers": [
+            "This is for you"
+          ],
+          "explanation": "Con un pronombre: «for»."
+        },
+        {
+          "id": "a2_purpose_infinitive.207",
+          "prompt": "Corrige",
+          "source": "Let's go out to a pizza.",
+          "answers": [
+            "Let's go out for a pizza"
+          ],
+          "explanation": "Con un nombre: «for»."
+        },
+        {
+          "id": "a2_purpose_infinitive.208",
+          "prompt": "Corrige",
+          "source": "Why did you call? — For ask a question.",
+          "answers": [
+            "Why did you call? To ask a question",
+            "To ask a question"
+          ],
+          "explanation": "«To» + verbo."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_purpose_infinitive.301",
+          "source": "Voy a Valencia a ver a mi familia.",
+          "answers": [
+            "I'm going to Valencia to see my family"
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.302",
+          "source": "Fui a la tienda a comprar un regalo.",
+          "answers": [
+            "I went to the shop to buy a present"
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.303",
+          "source": "Este paraguas es para ti.",
+          "answers": [
+            "This umbrella is for you"
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.304",
+          "source": "Estudio inglés para encontrar un trabajo mejor.",
+          "answers": [
+            "I study English to find a better job",
+            "I'm studying English to get a better job",
+            "I study English to get a better job"
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.305",
+          "source": "¿Por qué llamó? — Para despedirse.",
+          "answers": [
+            "Why did he call? To say goodbye",
+            "Why did she call? To say goodbye"
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.306",
+          "source": "Salimos a cenar.",
+          "answers": [
+            "We went out for dinner",
+            "We're going out for dinner"
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.307",
+          "source": "Pidió un taxi para ir al aeropuerto.",
+          "answers": [
+            "She ordered a taxi to go to the airport",
+            "She called a taxi to get to the airport",
+            "She ordered a taxi to get to the airport"
+          ]
+        },
+        {
+          "id": "a2_purpose_infinitive.308",
+          "source": "Fui al banco a sacar dinero.",
+          "answers": [
+            "I went to the bank to get some money",
+            "I went to the bank to get money"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_purpose_infinitive.401",
+          "answer": "I'm going to Valencia to see my family"
+        },
+        {
+          "id": "a2_purpose_infinitive.402",
+          "answer": "She called a taxi to get to the airport"
+        },
+        {
+          "id": "a2_purpose_infinitive.403",
+          "answer": "This present is for you"
+        },
+        {
+          "id": "a2_purpose_infinitive.404",
+          "answer": "I went to the shop for some milk"
+        },
+        {
+          "id": "a2_purpose_infinitive.405",
+          "answer": "Why did you call?"
+        }
+      ]
+    }
+  ]
+}

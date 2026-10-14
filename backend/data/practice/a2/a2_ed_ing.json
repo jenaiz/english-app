@@ -1,0 +1,477 @@
+{
+  "topic_id": "a2_ed_ing",
+  "level_id": "A2",
+  "title": "Adjetivos en -ed y en -ing: bored o boring",
+  "tags": [
+    "ed_ing"
+  ],
+  "units": [
+    "comparing_cities"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Adjectives with -ed and -ing",
+    "explanation": "Muchos adjetivos tienen dos formas.\n\nCon «-ing» describen la cosa o la persona que produce el sentimiento:\n- «Bristol is interesting.» (Bristol es interesante)\n- «The film was boring.» (la película era aburrida)\n\nCon «-ed» describen cómo se siente alguien:\n- «I'm interested in art.» (me interesa el arte)\n- «I was bored.» (estaba aburrido)\n\nPuedes pensarlo así: algo «boring» hace que alguien se sienta «bored».\n- «The journey was tiring, so I was very tired.»\n\nOjo con el error típico: «I'm boring» significa «soy aburrido», no «estoy aburrido» («I'm bored»). Y «interested» va con «in»: «I'm interested in music».\n\nLos más comunes: «interesting» / «interested», «boring» / «bored», «tiring» / «tired», «exciting» / «excited», «surprising» / «surprised», «relaxing» / «relaxed», «worrying» / «worried», «amazing» / «amazed», «confusing» / «confused», «embarrassing» / «embarrassed».",
+    "table": {
+      "headers": [
+        "-ing (la causa)",
+        "-ed (cómo te sientes)",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "boring",
+          "bored",
+          "The film was boring. I was bored."
+        ],
+        [
+          "interesting",
+          "interested",
+          "History is interesting. I'm interested in history."
+        ],
+        [
+          "tiring",
+          "tired",
+          "Work was tiring. I'm tired."
+        ],
+        [
+          "exciting",
+          "excited",
+          "The trip is exciting. We're excited."
+        ],
+        [
+          "relaxing",
+          "relaxed",
+          "The spa was relaxing. I feel relaxed."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Escribe el adjetivo en «-ed» o en «-ing» de la palabra entre paréntesis.",
+      "items": [
+        {
+          "id": "a2_ed_ing.001",
+          "sentence": "Bristol is a very ___ city. (interest)",
+          "answers": [
+            [
+              "interesting"
+            ]
+          ]
+        },
+        {
+          "id": "a2_ed_ing.002",
+          "sentence": "I'm ___ in modern art. (interest)",
+          "answers": [
+            [
+              "interested"
+            ]
+          ]
+        },
+        {
+          "id": "a2_ed_ing.003",
+          "sentence": "The film was so ___ that I fell asleep. (bore)",
+          "answers": [
+            [
+              "boring"
+            ]
+          ]
+        },
+        {
+          "id": "a2_ed_ing.004",
+          "sentence": "After ten hours at work, Priya is always ___. (tire)",
+          "answers": [
+            [
+              "tired"
+            ]
+          ]
+        },
+        {
+          "id": "a2_ed_ing.005",
+          "sentence": "Javi was very ___ about his trip to Bristol. (excite)",
+          "answers": [
+            [
+              "excited"
+            ]
+          ]
+        },
+        {
+          "id": "a2_ed_ing.006",
+          "sentence": "The price of the rent was really ___. (surprise)",
+          "answers": [
+            [
+              "surprising"
+            ]
+          ]
+        },
+        {
+          "id": "a2_ed_ing.007",
+          "sentence": "I'm ___. There's nothing to do here. (bore)",
+          "answers": [
+            [
+              "bored"
+            ]
+          ]
+        },
+        {
+          "id": "a2_ed_ing.008",
+          "sentence": "A day at the beach is very ___. (relax)",
+          "answers": [
+            [
+              "relaxing"
+            ]
+          ]
+        },
+        {
+          "id": "a2_ed_ing.009",
+          "sentence": "We were ___ when we saw the view. It was beautiful. (amaze)",
+          "answers": [
+            [
+              "amazed"
+            ]
+          ]
+        },
+        {
+          "id": "a2_ed_ing.010",
+          "sentence": "The instructions are very ___. I don't understand them. (confuse)",
+          "answers": [
+            [
+              "confusing"
+            ]
+          ]
+        },
+        {
+          "id": "a2_ed_ing.011",
+          "sentence": "I felt really ___ when I fell in the street. (embarrass)",
+          "answers": [
+            [
+              "embarrassed"
+            ]
+          ]
+        },
+        {
+          "id": "a2_ed_ing.012",
+          "sentence": "My mum is ___ because I didn't call her. (worry)",
+          "answers": [
+            [
+              "worried"
+            ]
+          ]
+        },
+        {
+          "id": "a2_ed_ing.013",
+          "sentence": "The news was ___. Is everything OK? (worry)",
+          "answers": [
+            [
+              "worrying"
+            ]
+          ]
+        },
+        {
+          "id": "a2_ed_ing.014",
+          "sentence": "It was a long, ___ day. I'm going to bed. (tire)",
+          "answers": [
+            [
+              "tiring"
+            ]
+          ]
+        },
+        {
+          "id": "a2_ed_ing.015",
+          "sentence": "After the holiday I felt very ___. (relax)",
+          "answers": [
+            [
+              "relaxed"
+            ]
+          ]
+        },
+        {
+          "id": "a2_ed_ing.016",
+          "sentence": "The match was really ___! We won in the last minute. (excite)",
+          "answers": [
+            [
+              "exciting"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_ed_ing.101",
+          "question": "Estoy aburrido.",
+          "options": [
+            "I'm bored.",
+            "I'm boring."
+          ],
+          "answer": 0,
+          "explanation": "Cómo te sientes: «-ed»."
+        },
+        {
+          "id": "a2_ed_ing.102",
+          "question": "La película era aburrida.",
+          "options": [
+            "The film was bored.",
+            "The film was boring."
+          ],
+          "answer": 1,
+          "explanation": "La causa: «-ing»."
+        },
+        {
+          "id": "a2_ed_ing.103",
+          "question": "Me interesa el arte.",
+          "options": [
+            "I'm interesting in art.",
+            "I'm interested in art."
+          ],
+          "answer": 1,
+          "explanation": "Cómo te sientes: «interested in»."
+        },
+        {
+          "id": "a2_ed_ing.104",
+          "question": "Un viaje agotador.",
+          "options": [
+            "a tiring journey",
+            "a tired journey"
+          ],
+          "answer": 0,
+          "explanation": "La causa: «-ing»."
+        },
+        {
+          "id": "a2_ed_ing.105",
+          "question": "Estábamos emocionados.",
+          "options": [
+            "We were exciting.",
+            "We were excited."
+          ],
+          "answer": 1,
+          "explanation": "Cómo os sentíais: «-ed»."
+        },
+        {
+          "id": "a2_ed_ing.106",
+          "question": "Fue una noticia sorprendente.",
+          "options": [
+            "It was surprising news.",
+            "It was surprised news."
+          ],
+          "answer": 0,
+          "explanation": "La causa: «-ing»."
+        },
+        {
+          "id": "a2_ed_ing.107",
+          "question": "Estoy confundida.",
+          "options": [
+            "I'm confused.",
+            "I'm confusing."
+          ],
+          "answer": 0,
+          "explanation": "Cómo te sientes: «-ed»."
+        },
+        {
+          "id": "a2_ed_ing.108",
+          "question": "Me siento relajado.",
+          "options": [
+            "I feel relaxed.",
+            "I feel relaxing."
+          ],
+          "answer": 0,
+          "explanation": "Cómo te sientes: «-ed»."
+        },
+        {
+          "id": "a2_ed_ing.109",
+          "question": "Fue un momento muy vergonzoso.",
+          "options": [
+            "It was a very embarrassing moment.",
+            "It was a very embarrassed moment."
+          ],
+          "answer": 0,
+          "explanation": "La causa: «-ing»."
+        },
+        {
+          "id": "a2_ed_ing.110",
+          "question": "Mi madre está preocupada.",
+          "options": [
+            "My mum is worried.",
+            "My mum is worrying."
+          ],
+          "answer": 0,
+          "explanation": "Cómo se siente: «-ed»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "a2_ed_ing.201",
+          "prompt": "Corrige",
+          "source": "I'm very boring today. Let's go out!",
+          "answers": [
+            "I'm very bored today. Let's go out"
+          ],
+          "explanation": "Cómo te sientes: «bored»."
+        },
+        {
+          "id": "a2_ed_ing.202",
+          "prompt": "Corrige",
+          "source": "The museum was very interested.",
+          "answers": [
+            "The museum was very interesting"
+          ],
+          "explanation": "La causa: «-ing»."
+        },
+        {
+          "id": "a2_ed_ing.203",
+          "prompt": "Corrige",
+          "source": "I'm interesting in history.",
+          "answers": [
+            "I'm interested in history"
+          ],
+          "explanation": "Cómo te sientes: «interested in»."
+        },
+        {
+          "id": "a2_ed_ing.204",
+          "prompt": "Corrige",
+          "source": "It was a very tired day.",
+          "answers": [
+            "It was a very tiring day"
+          ],
+          "explanation": "La causa: «-ing»."
+        },
+        {
+          "id": "a2_ed_ing.205",
+          "prompt": "Corrige",
+          "source": "We're so exciting about the holiday!",
+          "answers": [
+            "We're so excited about the holiday"
+          ],
+          "explanation": "Cómo os sentís: «-ed»."
+        },
+        {
+          "id": "a2_ed_ing.206",
+          "prompt": "Corrige",
+          "source": "The exam results were very surprised.",
+          "answers": [
+            "The exam results were very surprising"
+          ],
+          "explanation": "La causa: «-ing»."
+        },
+        {
+          "id": "a2_ed_ing.207",
+          "prompt": "Corrige",
+          "source": "I was embarrassing when I fell.",
+          "answers": [
+            "I was embarrassed when I fell"
+          ],
+          "explanation": "Cómo te sentías: «-ed»."
+        },
+        {
+          "id": "a2_ed_ing.208",
+          "prompt": "Corrige",
+          "source": "This map is very confused.",
+          "answers": [
+            "This map is very confusing"
+          ],
+          "explanation": "La causa: «-ing»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_ed_ing.301",
+          "source": "Estoy aburrida.",
+          "answers": [
+            "I'm bored"
+          ]
+        },
+        {
+          "id": "a2_ed_ing.302",
+          "source": "La película fue muy aburrida.",
+          "answers": [
+            "The film was very boring",
+            "The movie was very boring"
+          ]
+        },
+        {
+          "id": "a2_ed_ing.303",
+          "source": "Me interesa la historia.",
+          "answers": [
+            "I'm interested in history"
+          ]
+        },
+        {
+          "id": "a2_ed_ing.304",
+          "source": "Bristol es una ciudad muy interesante.",
+          "answers": [
+            "Bristol is a very interesting city"
+          ]
+        },
+        {
+          "id": "a2_ed_ing.305",
+          "source": "Estoy muy cansado después del viaje.",
+          "answers": [
+            "I'm very tired after the journey",
+            "I'm very tired after the trip"
+          ]
+        },
+        {
+          "id": "a2_ed_ing.306",
+          "source": "Estamos emocionados.",
+          "answers": [
+            "We're excited"
+          ]
+        },
+        {
+          "id": "a2_ed_ing.307",
+          "source": "Fue un día muy relajante.",
+          "answers": [
+            "It was a very relaxing day"
+          ]
+        },
+        {
+          "id": "a2_ed_ing.308",
+          "source": "Mi madre está preocupada.",
+          "answers": [
+            "My mum is worried",
+            "My mother is worried"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_ed_ing.401",
+          "answer": "I'm very interested in art"
+        },
+        {
+          "id": "a2_ed_ing.402",
+          "answer": "The film was really boring"
+        },
+        {
+          "id": "a2_ed_ing.403",
+          "answer": "We were very excited"
+        },
+        {
+          "id": "a2_ed_ing.404",
+          "answer": "It was a tiring journey"
+        },
+        {
+          "id": "a2_ed_ing.405",
+          "answer": "Are you bored?"
+        }
+      ]
+    }
+  ]
+}

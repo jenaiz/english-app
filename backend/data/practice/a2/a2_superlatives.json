@@ -1,0 +1,484 @@
+{
+  "topic_id": "a2_superlatives",
+  "level_id": "A2",
+  "title": "Superlativos: the biggest, the most popular",
+  "tags": [
+    "superlatives"
+  ],
+  "units": [
+    "the_best_pub"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Superlatives",
+    "explanation": "El superlativo dice que algo es el más… de un grupo:\n- «The Nile is the longest river in the world.»\n\nAdjetivos cortos: «the» + «-est» («long» → «the longest», «big» → «the biggest», «funny» → «the funniest», «nice» → «the nicest»). Adjetivos largos: «the most» + adjetivo («the most beautiful», «the most popular»). Para lo contrario, «the least»: «the least expensive».\n\nIrregulares: «good» → «the best», «bad» → «the worst», «far» → «the furthest».\n\nDetrás del superlativo solemos usar «in» con lugares y grupos, y «of» con periodos:\n- «the biggest city in Ireland»\n- «the best night of the year»\n\nCon el present perfect y «ever» decimos que algo es lo más… que hemos vivido:\n- «It's the best film I've ever seen.»\n\nOjo: el superlativo siempre lleva «the» (nunca «It's biggest city») y nunca se mezclan las formas («the most biggest»).",
+    "table": {
+      "headers": [
+        "Adjetivo",
+        "Superlativo",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "long",
+          "the longest",
+          "the longest river in the world"
+        ],
+        [
+          "big",
+          "the biggest",
+          "the biggest city in Ireland"
+        ],
+        [
+          "funny",
+          "the funniest",
+          "the funniest person here"
+        ],
+        [
+          "popular",
+          "the most popular",
+          "the most popular drink"
+        ],
+        [
+          "good",
+          "the best",
+          "the best night of the year"
+        ],
+        [
+          "bad",
+          "the worst",
+          "the worst day of my life"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Escribe el superlativo de la palabra entre paréntesis, o «in» / «of».",
+      "items": [
+        {
+          "id": "a2_superlatives.001",
+          "sentence": "The Nile is the ___ river in the world. (long)",
+          "answers": [
+            [
+              "longest"
+            ]
+          ]
+        },
+        {
+          "id": "a2_superlatives.002",
+          "sentence": "Dublin is the ___ city in Ireland. (big)",
+          "answers": [
+            [
+              "biggest"
+            ]
+          ]
+        },
+        {
+          "id": "a2_superlatives.003",
+          "sentence": "Galway is the most beautiful place ___ the world!",
+          "answers": [
+            [
+              "in"
+            ]
+          ]
+        },
+        {
+          "id": "a2_superlatives.004",
+          "sentence": "Tea is the ___ hot drink in Britain. (popular)",
+          "answers": [
+            [
+              "most popular"
+            ]
+          ]
+        },
+        {
+          "id": "a2_superlatives.005",
+          "sentence": "This is the ___ night of the year! (good)",
+          "answers": [
+            [
+              "best"
+            ]
+          ]
+        },
+        {
+          "id": "a2_superlatives.006",
+          "sentence": "It was the ___ day of my life. (bad)",
+          "answers": [
+            [
+              "worst"
+            ]
+          ]
+        },
+        {
+          "id": "a2_superlatives.007",
+          "sentence": "Sam is the ___ person in the house. (funny)",
+          "answers": [
+            [
+              "funniest"
+            ]
+          ]
+        },
+        {
+          "id": "a2_superlatives.008",
+          "sentence": "Which is the ___ expensive city in Europe?",
+          "answers": [
+            [
+              "most"
+            ]
+          ]
+        },
+        {
+          "id": "a2_superlatives.009",
+          "sentence": "It was the best day ___ the holiday.",
+          "answers": [
+            [
+              "of"
+            ]
+          ],
+          "explanation": "Con periodos: «of»."
+        },
+        {
+          "id": "a2_superlatives.010",
+          "sentence": "This is the ___ café in Clifton. (nice)",
+          "answers": [
+            [
+              "nicest"
+            ]
+          ]
+        },
+        {
+          "id": "a2_superlatives.011",
+          "sentence": "It's the ___ film I've ever seen. (good)",
+          "answers": [
+            [
+              "best"
+            ]
+          ]
+        },
+        {
+          "id": "a2_superlatives.012",
+          "sentence": "Who is the ___ student in the class? (young)",
+          "answers": [
+            [
+              "youngest"
+            ]
+          ]
+        },
+        {
+          "id": "a2_superlatives.013",
+          "sentence": "That's the ___ question in the quiz! (easy)",
+          "answers": [
+            [
+              "easiest"
+            ]
+          ]
+        },
+        {
+          "id": "a2_superlatives.014",
+          "sentence": "This is the ___ comfortable chair in the house. (menos)",
+          "answers": [
+            [
+              "least"
+            ]
+          ]
+        },
+        {
+          "id": "a2_superlatives.015",
+          "sentence": "Cork is the ___ city from Dublin on our trip. (far)",
+          "answers": [
+            [
+              "furthest"
+            ]
+          ]
+        },
+        {
+          "id": "a2_superlatives.016",
+          "sentence": "She's the ___ person I know. (interesting)",
+          "answers": [
+            [
+              "most interesting"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_superlatives.101",
+          "question": "Es la ciudad más grande de Irlanda.",
+          "options": [
+            "It's the biggest city in Ireland.",
+            "It's the biggest city of Ireland."
+          ],
+          "answer": 0,
+          "explanation": "Con lugares: «in»."
+        },
+        {
+          "id": "a2_superlatives.102",
+          "question": "La mejor noche del año.",
+          "options": [
+            "the best night of the year",
+            "the best night in the year"
+          ],
+          "answer": 0,
+          "explanation": "Con periodos: «of»."
+        },
+        {
+          "id": "a2_superlatives.103",
+          "question": "El más popular.",
+          "options": [
+            "the most popular",
+            "the popularest"
+          ],
+          "answer": 0,
+          "explanation": "Adjetivo largo: «the most»."
+        },
+        {
+          "id": "a2_superlatives.104",
+          "question": "Es la peor película.",
+          "options": [
+            "It's the worst film.",
+            "It's the baddest film."
+          ],
+          "answer": 0,
+          "explanation": "«bad» → «the worst»."
+        },
+        {
+          "id": "a2_superlatives.105",
+          "question": "Es el lugar más bonito.",
+          "options": [
+            "It's the most beautiful place.",
+            "It's most beautiful place."
+          ],
+          "answer": 0,
+          "explanation": "Siempre con «the»."
+        },
+        {
+          "id": "a2_superlatives.106",
+          "question": "La persona más divertida.",
+          "options": [
+            "the funniest person",
+            "the most funny person"
+          ],
+          "answer": 0,
+          "explanation": "Y → «-iest»."
+        },
+        {
+          "id": "a2_superlatives.107",
+          "question": "Es la mejor película que he visto.",
+          "options": [
+            "It's the best film I've ever seen.",
+            "It's the best film I ever saw."
+          ],
+          "answer": 0,
+          "explanation": "«the best… I've ever…»."
+        },
+        {
+          "id": "a2_superlatives.108",
+          "question": "El río más largo.",
+          "options": [
+            "the longest river",
+            "the most longest river"
+          ],
+          "answer": 0,
+          "explanation": "Nunca se mezclan las formas."
+        },
+        {
+          "id": "a2_superlatives.109",
+          "question": "La ciudad más lejana.",
+          "options": [
+            "the furthest city",
+            "the farest city"
+          ],
+          "answer": 0,
+          "explanation": "«far» → «the furthest»."
+        },
+        {
+          "id": "a2_superlatives.110",
+          "question": "El menos caro.",
+          "options": [
+            "the least expensive",
+            "the less expensive"
+          ],
+          "answer": 0,
+          "explanation": "Superlativo: «the least»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "a2_superlatives.201",
+          "prompt": "Corrige",
+          "source": "It's the most big park in the city.",
+          "answers": [
+            "It's the biggest park in the city"
+          ],
+          "explanation": "Adjetivo corto: «the biggest»."
+        },
+        {
+          "id": "a2_superlatives.202",
+          "prompt": "Corrige",
+          "source": "This is the better pub in Bristol.",
+          "answers": [
+            "This is the best pub in Bristol"
+          ],
+          "explanation": "Superlativo: «the best»."
+        },
+        {
+          "id": "a2_superlatives.203",
+          "prompt": "Corrige",
+          "source": "Dublin is the biggest city of Ireland.",
+          "answers": [
+            "Dublin is the biggest city in Ireland"
+          ],
+          "explanation": "Con lugares: «in»."
+        },
+        {
+          "id": "a2_superlatives.204",
+          "prompt": "Corrige",
+          "source": "It was the happiest day in my life.",
+          "answers": [
+            "It was the happiest day of my life"
+          ],
+          "explanation": "Con periodos: «of»."
+        },
+        {
+          "id": "a2_superlatives.205",
+          "prompt": "Corrige",
+          "source": "She's most intelligent person in the class.",
+          "answers": [
+            "She's the most intelligent person in the class"
+          ],
+          "explanation": "Siempre con «the»."
+        },
+        {
+          "id": "a2_superlatives.206",
+          "prompt": "Corrige",
+          "source": "It's the funnyest film.",
+          "answers": [
+            "It's the funniest film"
+          ],
+          "explanation": "Y → «-iest»."
+        },
+        {
+          "id": "a2_superlatives.207",
+          "prompt": "Corrige",
+          "source": "It's the best book I ever read.",
+          "answers": [
+            "It's the best book I've ever read"
+          ],
+          "explanation": "«the best… I've ever…»."
+        },
+        {
+          "id": "a2_superlatives.208",
+          "prompt": "Corrige",
+          "source": "That was the baddest meal of the trip.",
+          "answers": [
+            "That was the worst meal of the trip"
+          ],
+          "explanation": "«bad» → «the worst»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_superlatives.301",
+          "source": "Es el mejor pub de Bristol.",
+          "answers": [
+            "It's the best pub in Bristol"
+          ]
+        },
+        {
+          "id": "a2_superlatives.302",
+          "source": "¿Cuál es la ciudad más grande de Irlanda?",
+          "answers": [
+            "What is the biggest city in Ireland",
+            "Which is the biggest city in Ireland"
+          ]
+        },
+        {
+          "id": "a2_superlatives.303",
+          "source": "Fue el peor día de mi vida.",
+          "answers": [
+            "It was the worst day of my life"
+          ]
+        },
+        {
+          "id": "a2_superlatives.304",
+          "source": "Galway es el lugar más bonito.",
+          "answers": [
+            "Galway is the most beautiful place"
+          ]
+        },
+        {
+          "id": "a2_superlatives.305",
+          "source": "Sam es el más divertido.",
+          "answers": [
+            "Sam's the funniest",
+            "Sam is the funniest"
+          ]
+        },
+        {
+          "id": "a2_superlatives.306",
+          "source": "Es la mejor película que he visto nunca.",
+          "answers": [
+            "It's the best film I've ever seen",
+            "It's the best movie I've ever seen"
+          ]
+        },
+        {
+          "id": "a2_superlatives.307",
+          "source": "Es la persona más joven de la oficina.",
+          "answers": [
+            "She's the youngest person in the office",
+            "He's the youngest person in the office"
+          ]
+        },
+        {
+          "id": "a2_superlatives.308",
+          "source": "El té es la bebida más popular.",
+          "answers": [
+            "Tea is the most popular drink"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_superlatives.401",
+          "answer": "The Nile is the longest river"
+        },
+        {
+          "id": "a2_superlatives.402",
+          "answer": "Dublin is the biggest city in Ireland"
+        },
+        {
+          "id": "a2_superlatives.403",
+          "answer": "This is the best night of the year"
+        },
+        {
+          "id": "a2_superlatives.404",
+          "answer": "Who is the funniest person here?"
+        },
+        {
+          "id": "a2_superlatives.405",
+          "answer": "It's the best film I've ever seen"
+        }
+      ]
+    }
+  ]
+}

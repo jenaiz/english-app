@@ -1,0 +1,464 @@
+{
+  "topic_id": "a2_indefinite_pronouns",
+  "level_id": "A2",
+  "title": "something, anything, nothing, everything (y -body, -where)",
+  "tags": [
+    "indefinite_pronouns"
+  ],
+  "units": [
+    "home_for_christmas"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "something, anything, nothing, everything",
+    "explanation": "«Some-», «any-», «no-» y «every-» se combinan con «-thing» (cosa), «-body» / «-one» (persona) y «-where» (lugar).\n\n«Something», «somebody» y «somewhere» van en frases afirmativas y en ofrecimientos:\n- «We've got something for you.»\n- «Would you like something to drink?»\n- «Somebody called you.»\n\n«Anything», «anybody» y «anywhere» van en negativas y preguntas:\n- «I can't find my passport anywhere.»\n- «Have you forgotten anything?»\n- «Is anybody there?»\n\n«Nothing», «nobody» y «nowhere» ya son negativos, así que el verbo va en afirmativa (nunca «There isn't nothing»):\n- «There's nothing in the fridge.»\n- «Nobody knows.»\n\n«Everything», «everybody» y «everywhere» son todo, todos, en todas partes. Van con el verbo en singular:\n- «I've packed everything.»\n- «Everybody is here.» (nunca «Everybody are»)\n\nOjo: «nothing» = «not… anything»: «I've got nothing» = «I haven't got anything».",
+    "table": {
+      "headers": [
+        "",
+        "-thing (cosa)",
+        "-body (persona)",
+        "-where (lugar)"
+      ],
+      "rows": [
+        [
+          "some- (afirmativa)",
+          "something",
+          "somebody",
+          "somewhere"
+        ],
+        [
+          "any- (negativa, pregunta)",
+          "anything",
+          "anybody",
+          "anywhere"
+        ],
+        [
+          "no- (ya negativo)",
+          "nothing",
+          "nobody",
+          "nowhere"
+        ],
+        [
+          "every- (todo)",
+          "everything",
+          "everybody",
+          "everywhere"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «something», «anything», «nothing», «everything», «somebody», «anybody», «nobody», «everybody», «somewhere» o «anywhere».",
+      "items": [
+        {
+          "id": "a2_indefinite_pronouns.001",
+          "sentence": "We've got ___ for you. Open it!",
+          "answers": [
+            [
+              "something"
+            ]
+          ]
+        },
+        {
+          "id": "a2_indefinite_pronouns.002",
+          "sentence": "I can't find my passport ___!",
+          "answers": [
+            [
+              "anywhere"
+            ]
+          ]
+        },
+        {
+          "id": "a2_indefinite_pronouns.003",
+          "sentence": "Have you forgotten ___? — No, I don't think so.",
+          "answers": [
+            [
+              "anything"
+            ]
+          ]
+        },
+        {
+          "id": "a2_indefinite_pronouns.004",
+          "sentence": "I've packed ___: clothes, presents, passport…",
+          "answers": [
+            [
+              "everything"
+            ]
+          ]
+        },
+        {
+          "id": "a2_indefinite_pronouns.005",
+          "sentence": "There's ___ in the fridge. It's empty!",
+          "answers": [
+            [
+              "nothing"
+            ]
+          ]
+        },
+        {
+          "id": "a2_indefinite_pronouns.006",
+          "sentence": "It must be ___ in this flat. Look in your coat!",
+          "answers": [
+            [
+              "somewhere"
+            ]
+          ]
+        },
+        {
+          "id": "a2_indefinite_pronouns.007",
+          "sentence": "___ called you while you were out.",
+          "answers": [
+            [
+              "Somebody"
+            ]
+          ]
+        },
+        {
+          "id": "a2_indefinite_pronouns.008",
+          "sentence": "Is ___ there? Hello?",
+          "answers": [
+            [
+              "anybody"
+            ]
+          ]
+        },
+        {
+          "id": "a2_indefinite_pronouns.009",
+          "sentence": "___ knows the answer. It's too difficult.",
+          "answers": [
+            [
+              "Nobody"
+            ]
+          ]
+        },
+        {
+          "id": "a2_indefinite_pronouns.010",
+          "sentence": "___ is here. Let's start the party!",
+          "answers": [
+            [
+              "Everybody"
+            ]
+          ]
+        },
+        {
+          "id": "a2_indefinite_pronouns.011",
+          "sentence": "Would you like ___ to eat?",
+          "answers": [
+            [
+              "something"
+            ]
+          ],
+          "explanation": "Ofrecer: «something»."
+        },
+        {
+          "id": "a2_indefinite_pronouns.012",
+          "sentence": "I didn't buy ___ at the market.",
+          "answers": [
+            [
+              "anything"
+            ]
+          ]
+        },
+        {
+          "id": "a2_indefinite_pronouns.013",
+          "sentence": "I looked ___, but I couldn't find my keys.",
+          "answers": [
+            [
+              "everywhere"
+            ]
+          ]
+        },
+        {
+          "id": "a2_indefinite_pronouns.014",
+          "sentence": "There's ___ at the door. Can you open it?",
+          "answers": [
+            [
+              "somebody"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_indefinite_pronouns.101",
+          "question": "No hay nada en la nevera.",
+          "options": [
+            "There's nothing in the fridge.",
+            "There isn't nothing in the fridge."
+          ],
+          "answer": 0,
+          "explanation": "«nothing» ya es negativo."
+        },
+        {
+          "id": "a2_indefinite_pronouns.102",
+          "question": "¿Has olvidado algo?",
+          "options": [
+            "Have you forgotten anything?",
+            "Have you forgotten nothing?"
+          ],
+          "answer": 0,
+          "explanation": "Pregunta: «anything»."
+        },
+        {
+          "id": "a2_indefinite_pronouns.103",
+          "question": "¿Quieres algo de beber?",
+          "options": [
+            "Would you like something to drink?",
+            "Would you like anything to drink nothing?"
+          ],
+          "answer": 0,
+          "explanation": "Ofrecer: «something»."
+        },
+        {
+          "id": "a2_indefinite_pronouns.104",
+          "question": "Todos están aquí.",
+          "options": [
+            "Everybody is here.",
+            "Everybody are here."
+          ],
+          "answer": 0,
+          "explanation": "«Everybody» va en singular."
+        },
+        {
+          "id": "a2_indefinite_pronouns.105",
+          "question": "No encuentro mis llaves por ninguna parte.",
+          "options": [
+            "I can't find my keys anywhere.",
+            "I can't find my keys nowhere."
+          ],
+          "answer": 0,
+          "explanation": "Negativa: «anywhere»."
+        },
+        {
+          "id": "a2_indefinite_pronouns.106",
+          "question": "Nadie lo sabe.",
+          "options": [
+            "Nobody knows.",
+            "Nobody doesn't know."
+          ],
+          "answer": 0,
+          "explanation": "«Nobody» ya es negativo."
+        },
+        {
+          "id": "a2_indefinite_pronouns.107",
+          "question": "Alguien te ha llamado.",
+          "options": [
+            "Somebody called you.",
+            "Anybody called you."
+          ],
+          "answer": 0,
+          "explanation": "Afirmativa: «somebody»."
+        },
+        {
+          "id": "a2_indefinite_pronouns.108",
+          "question": "No compré nada.",
+          "options": [
+            "I didn't buy anything.",
+            "I didn't buy nothing."
+          ],
+          "answer": 0,
+          "explanation": "Negativa: «anything»."
+        },
+        {
+          "id": "a2_indefinite_pronouns.109",
+          "question": "Lo he guardado todo.",
+          "options": [
+            "I've packed everything.",
+            "I've packed all thing."
+          ],
+          "answer": 0,
+          "explanation": "Todo: «everything»."
+        },
+        {
+          "id": "a2_indefinite_pronouns.110",
+          "question": "¿Hay alguien en casa?",
+          "options": [
+            "Is anybody at home?",
+            "Is somebody nobody at home?"
+          ],
+          "answer": 0,
+          "explanation": "Pregunta: «anybody»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "a2_indefinite_pronouns.201",
+          "prompt": "Corrige",
+          "source": "There isn't nothing to eat.",
+          "answers": [
+            "There's nothing to eat",
+            "There isn't anything to eat"
+          ],
+          "explanation": "Doble negación."
+        },
+        {
+          "id": "a2_indefinite_pronouns.202",
+          "prompt": "Corrige",
+          "source": "I can't find it nowhere.",
+          "answers": [
+            "I can't find it anywhere"
+          ],
+          "explanation": "Negativa: «anywhere»."
+        },
+        {
+          "id": "a2_indefinite_pronouns.203",
+          "prompt": "Corrige",
+          "source": "Everybody are very happy.",
+          "answers": [
+            "Everybody is very happy"
+          ],
+          "explanation": "«Everybody» va en singular."
+        },
+        {
+          "id": "a2_indefinite_pronouns.204",
+          "prompt": "Corrige",
+          "source": "Have you got something to say? (pregunta normal)",
+          "answers": [
+            "Have you got anything to say"
+          ],
+          "explanation": "Pregunta: «anything»."
+        },
+        {
+          "id": "a2_indefinite_pronouns.205",
+          "prompt": "Corrige",
+          "source": "Nobody didn't come.",
+          "answers": [
+            "Nobody came"
+          ],
+          "explanation": "«Nobody» ya es negativo."
+        },
+        {
+          "id": "a2_indefinite_pronouns.206",
+          "prompt": "Corrige",
+          "source": "I've got anything for you!",
+          "answers": [
+            "I've got something for you"
+          ],
+          "explanation": "Afirmativa: «something»."
+        },
+        {
+          "id": "a2_indefinite_pronouns.207",
+          "prompt": "Corrige",
+          "source": "I don't know nobody here.",
+          "answers": [
+            "I don't know anybody here",
+            "I know nobody here"
+          ],
+          "explanation": "Doble negación."
+        },
+        {
+          "id": "a2_indefinite_pronouns.208",
+          "prompt": "Corrige",
+          "source": "I looked all places for my keys.",
+          "answers": [
+            "I looked everywhere for my keys"
+          ],
+          "explanation": "En todas partes: «everywhere»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_indefinite_pronouns.301",
+          "source": "Tenemos algo para ti.",
+          "answers": [
+            "We've got something for you",
+            "We have something for you"
+          ]
+        },
+        {
+          "id": "a2_indefinite_pronouns.302",
+          "source": "No encuentro mi pasaporte por ninguna parte.",
+          "answers": [
+            "I can't find my passport anywhere"
+          ]
+        },
+        {
+          "id": "a2_indefinite_pronouns.303",
+          "source": "¿Has olvidado algo?",
+          "answers": [
+            "Have you forgotten anything"
+          ]
+        },
+        {
+          "id": "a2_indefinite_pronouns.304",
+          "source": "No hay nada en la nevera.",
+          "answers": [
+            "There's nothing in the fridge",
+            "There isn't anything in the fridge"
+          ]
+        },
+        {
+          "id": "a2_indefinite_pronouns.305",
+          "source": "Lo he metido todo en la maleta.",
+          "answers": [
+            "I've packed everything",
+            "I've put everything in the suitcase"
+          ]
+        },
+        {
+          "id": "a2_indefinite_pronouns.306",
+          "source": "Nadie lo sabe.",
+          "answers": [
+            "Nobody knows",
+            "No one knows"
+          ]
+        },
+        {
+          "id": "a2_indefinite_pronouns.307",
+          "source": "¿Quieres algo de beber?",
+          "answers": [
+            "Would you like something to drink"
+          ]
+        },
+        {
+          "id": "a2_indefinite_pronouns.308",
+          "source": "Todos están aquí.",
+          "answers": [
+            "Everybody is here",
+            "Everyone is here"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_indefinite_pronouns.401",
+          "answer": "We've got something for you"
+        },
+        {
+          "id": "a2_indefinite_pronouns.402",
+          "answer": "I can't find my passport anywhere"
+        },
+        {
+          "id": "a2_indefinite_pronouns.403",
+          "answer": "Have you forgotten anything?"
+        },
+        {
+          "id": "a2_indefinite_pronouns.404",
+          "answer": "There's nothing in the fridge"
+        },
+        {
+          "id": "a2_indefinite_pronouns.405",
+          "answer": "Everybody is here"
+        }
+      ]
+    }
+  ]
+}

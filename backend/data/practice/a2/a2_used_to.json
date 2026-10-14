@@ -1,0 +1,456 @@
+{
+  "topic_id": "a2_used_to",
+  "level_id": "A2",
+  "title": "used to: hábitos del pasado",
+  "tags": [
+    "used_to"
+  ],
+  "units": [
+    "past_memories"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "used to: past habits",
+    "explanation": "«Used to» + verbo describe hábitos o situaciones del pasado que ya no son así. Es igual para todas las personas:\n- «We used to go to the beach every summer.» (íbamos a la playa todos los veranos; ahora no)\n- «I / she / they used to live in Valencia.»\n- «I used to have long hair.»\n\nLa negativa es «didn't use to» (sin d) y la pregunta, «Did you use to…?»:\n- «I didn't use to like coffee.»\n- «Did you use to play the guitar?»\n\nPara algo que pasó una sola vez se usa el past simple, no «used to»:\n- «My dad gave me a guitar when I was eight.»\n\nOjo: «used to» solo habla del pasado. Para un hábito de ahora se usa el present simple con «usually»: «I usually walk to work» (nunca «I use to walk»).",
+    "table": {
+      "headers": [
+        "",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Afirmativa",
+          "I used to live by the sea."
+        ],
+        [
+          "Negativa",
+          "I didn't use to like coffee."
+        ],
+        [
+          "Pregunta",
+          "Did you use to play the guitar?"
+        ],
+        [
+          "Una sola vez",
+          "My dad gave me a guitar."
+        ],
+        [
+          "Hábito actual",
+          "I usually walk to work."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «used to», «use to» o la forma correcta del verbo.",
+      "items": [
+        {
+          "id": "a2_used_to.001",
+          "sentence": "When I was a child, we ___ go to the beach every summer.",
+          "answers": [
+            [
+              "used to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_used_to.002",
+          "sentence": "Sam didn't ___ practise the guitar very much.",
+          "answers": [
+            [
+              "use to"
+            ]
+          ],
+          "explanation": "Negativa: «didn't use to»."
+        },
+        {
+          "id": "a2_used_to.003",
+          "sentence": "Did you ___ live near the sea?",
+          "answers": [
+            [
+              "use to"
+            ]
+          ],
+          "explanation": "Pregunta: «Did you use to…?»."
+        },
+        {
+          "id": "a2_used_to.004",
+          "sentence": "My dad ___ me a guitar when I was eight. (give, una vez)",
+          "answers": [
+            [
+              "gave"
+            ]
+          ],
+          "explanation": "Una sola vez: past simple."
+        },
+        {
+          "id": "a2_used_to.005",
+          "sentence": "I ___ to have long hair, but now it's short.",
+          "answers": [
+            [
+              "used"
+            ]
+          ]
+        },
+        {
+          "id": "a2_used_to.006",
+          "sentence": "Priya ___ to play tennis, but she doesn't play now.",
+          "answers": [
+            [
+              "used"
+            ]
+          ]
+        },
+        {
+          "id": "a2_used_to.007",
+          "sentence": "I didn't use ___ like vegetables. Now I love them!",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_used_to.008",
+          "sentence": "Where did you use to ___? (live)",
+          "answers": [
+            [
+              "live"
+            ]
+          ]
+        },
+        {
+          "id": "a2_used_to.009",
+          "sentence": "We ___ to a concert last Saturday. (go, una vez)",
+          "answers": [
+            [
+              "went"
+            ]
+          ],
+          "explanation": "Una sola vez: past simple."
+        },
+        {
+          "id": "a2_used_to.010",
+          "sentence": "Daniel used to ___ in a band. (sing)",
+          "answers": [
+            [
+              "sing"
+            ]
+          ]
+        },
+        {
+          "id": "a2_used_to.011",
+          "sentence": "There ___ to be a cinema here. Now it's a supermarket.",
+          "answers": [
+            [
+              "used"
+            ]
+          ]
+        },
+        {
+          "id": "a2_used_to.012",
+          "sentence": "I ___ walk to work. I take the bus every day. (ahora, nunca)",
+          "answers": [
+            [
+              "never"
+            ]
+          ],
+          "explanation": "Hábito actual: present simple."
+        },
+        {
+          "id": "a2_used_to.013",
+          "sentence": "Did your parents ___ to work in Madrid?",
+          "answers": [
+            [
+              "use"
+            ]
+          ]
+        },
+        {
+          "id": "a2_used_to.014",
+          "sentence": "When she was young, Helen ___ to ride a horse every weekend.",
+          "answers": [
+            [
+              "used"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_used_to.101",
+          "question": "Antes vivía en Valencia.",
+          "options": [
+            "I used to live in Valencia.",
+            "I use to live in Valencia."
+          ],
+          "answer": 0,
+          "explanation": "Pasado: «used to»."
+        },
+        {
+          "id": "a2_used_to.102",
+          "question": "Antes no me gustaba el café.",
+          "options": [
+            "I didn't use to like coffee.",
+            "I didn't used to like coffee."
+          ],
+          "answer": 0,
+          "explanation": "Negativa: «didn't use to»."
+        },
+        {
+          "id": "a2_used_to.103",
+          "question": "¿Tocabas la guitarra (de pequeño)?",
+          "options": [
+            "Did you use to play the guitar?",
+            "Did you used to play the guitar?"
+          ],
+          "answer": 0,
+          "explanation": "Pregunta: «Did you use to…?»."
+        },
+        {
+          "id": "a2_used_to.104",
+          "question": "Mi padre me regaló una guitarra cuando tenía ocho años.",
+          "options": [
+            "My dad used to give me a guitar when I was eight.",
+            "My dad gave me a guitar when I was eight."
+          ],
+          "answer": 1,
+          "explanation": "Una sola vez: past simple."
+        },
+        {
+          "id": "a2_used_to.105",
+          "question": "Normalmente voy andando al trabajo.",
+          "options": [
+            "I usually walk to work.",
+            "I use to walk to work."
+          ],
+          "answer": 0,
+          "explanation": "Hábito actual: present simple."
+        },
+        {
+          "id": "a2_used_to.106",
+          "question": "Aquí había un cine.",
+          "options": [
+            "There used to be a cinema here.",
+            "There use to be a cinema here."
+          ],
+          "answer": 0,
+          "explanation": "«There used to be…»."
+        },
+        {
+          "id": "a2_used_to.107",
+          "question": "Antes tenía el pelo largo.",
+          "options": [
+            "I used to have long hair.",
+            "I was used to have long hair."
+          ],
+          "answer": 0,
+          "explanation": "«used to» + verbo."
+        },
+        {
+          "id": "a2_used_to.108",
+          "question": "Ella antes trabajaba de noche.",
+          "options": [
+            "She used to work at night.",
+            "She used to works at night."
+          ],
+          "answer": 0,
+          "explanation": "Después de «used to», forma base."
+        },
+        {
+          "id": "a2_used_to.109",
+          "question": "¿Dónde vivías antes?",
+          "options": [
+            "Where did you use to live?",
+            "Where you used to live?"
+          ],
+          "answer": 0,
+          "explanation": "Pregunta: «did» + «use to»."
+        },
+        {
+          "id": "a2_used_to.110",
+          "question": "Fuimos a París en 2019.",
+          "options": [
+            "We went to Paris in 2019.",
+            "We used to go to Paris in 2019."
+          ],
+          "answer": 0,
+          "explanation": "Una sola vez: past simple."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Transforma o corrige la frase como se indica.",
+      "items": [
+        {
+          "id": "a2_used_to.201",
+          "prompt": "Con «used to»",
+          "source": "When I was a child, I played football every day.",
+          "answers": [
+            "When I was a child, I used to play football every day"
+          ]
+        },
+        {
+          "id": "a2_used_to.202",
+          "prompt": "Negativa",
+          "source": "I used to like fish.",
+          "answers": [
+            "I didn't use to like fish"
+          ]
+        },
+        {
+          "id": "a2_used_to.203",
+          "prompt": "Pregunta",
+          "source": "You used to live in Madrid.",
+          "answers": [
+            "Did you use to live in Madrid"
+          ]
+        },
+        {
+          "id": "a2_used_to.204",
+          "prompt": "Corrige",
+          "source": "I didn't used to drink coffee.",
+          "answers": [
+            "I didn't use to drink coffee"
+          ],
+          "explanation": "Negativa: «use to», sin d."
+        },
+        {
+          "id": "a2_used_to.205",
+          "prompt": "Corrige",
+          "source": "I use to go to the gym every day.",
+          "answers": [
+            "I usually go to the gym every day",
+            "I go to the gym every day"
+          ],
+          "explanation": "Hábito actual: present simple."
+        },
+        {
+          "id": "a2_used_to.206",
+          "prompt": "Corrige",
+          "source": "She used to works in a bank.",
+          "answers": [
+            "She used to work in a bank"
+          ],
+          "explanation": "Después de «used to», forma base."
+        },
+        {
+          "id": "a2_used_to.207",
+          "prompt": "Corrige",
+          "source": "Last summer we used to visit Rome.",
+          "answers": [
+            "Last summer we visited Rome"
+          ],
+          "explanation": "Una sola vez: past simple."
+        },
+        {
+          "id": "a2_used_to.208",
+          "prompt": "Corrige",
+          "source": "Did you used to play an instrument?",
+          "answers": [
+            "Did you use to play an instrument"
+          ],
+          "explanation": "Pregunta: «use to», sin d."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_used_to.301",
+          "source": "Íbamos a la playa todos los veranos.",
+          "answers": [
+            "We used to go to the beach every summer"
+          ]
+        },
+        {
+          "id": "a2_used_to.302",
+          "source": "Antes no me gustaba el café.",
+          "answers": [
+            "I didn't use to like coffee"
+          ]
+        },
+        {
+          "id": "a2_used_to.303",
+          "source": "¿Tocabas la guitarra de pequeño?",
+          "answers": [
+            "Did you use to play the guitar when you were a child",
+            "Did you use to play the guitar when you were young"
+          ]
+        },
+        {
+          "id": "a2_used_to.304",
+          "source": "Antes tenía el pelo largo.",
+          "answers": [
+            "I used to have long hair"
+          ]
+        },
+        {
+          "id": "a2_used_to.305",
+          "source": "Aquí había un cine.",
+          "answers": [
+            "There used to be a cinema here"
+          ]
+        },
+        {
+          "id": "a2_used_to.306",
+          "source": "Mi padre me regaló una guitarra.",
+          "answers": [
+            "My dad gave me a guitar",
+            "My father gave me a guitar"
+          ]
+        },
+        {
+          "id": "a2_used_to.307",
+          "source": "Ella antes vivía en Londres.",
+          "answers": [
+            "She used to live in London"
+          ]
+        },
+        {
+          "id": "a2_used_to.308",
+          "source": "Normalmente voy al trabajo en autobús.",
+          "answers": [
+            "I usually go to work by bus",
+            "I usually take the bus to work"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_used_to.401",
+          "answer": "We used to go to the beach every summer"
+        },
+        {
+          "id": "a2_used_to.402",
+          "answer": "I didn't use to like coffee"
+        },
+        {
+          "id": "a2_used_to.403",
+          "answer": "Did you use to play the guitar?"
+        },
+        {
+          "id": "a2_used_to.404",
+          "answer": "There used to be a cinema here"
+        },
+        {
+          "id": "a2_used_to.405",
+          "answer": "My dad gave me a guitar"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "topic_id": "a2_should_have_to",
+  "level_id": "A2",
+  "title": "should, have to, must y mustn't",
+  "tags": [
+    "should_have_to"
+  ],
+  "units": [
+    "feeling_ill"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "should, have to, must",
+    "explanation": "«Should» / «shouldn't» + verbo en forma base sirve para dar consejos y para pedirlos:\n- «You should go back to bed.»\n- «You shouldn't go to work today.»\n- «Should I take something?»\n\n«Have to» / «has to» + verbo expresa obligación, normalmente porque lo exige una norma o la situación:\n- «I have to finish the designs.»\n- «Priya has to work tonight.»\n- «Do I have to see a doctor? — No, you don't.»\n\n«Must» también expresa obligación, sobre todo una que siente quien habla, y aparece mucho en normas escritas. «Mustn't» es prohibición:\n- «I must call my mum.»\n- «You mustn't smoke here.»\n\n«Don't have to» significa que algo no es necesario. Ojo: no significa «no debes»; la prohibición es «mustn't»:\n- «You don't have to come.» (no hace falta)\n- «You mustn't come.» (está prohibido)\n\nOjo: «should», «must» y «mustn't» no llevan «-s» ni «to» («She should rest», nunca «She shoulds» ni «should to rest»), pero «have to» sí cambia: «she has to», «does she have to?».",
+    "table": {
+      "headers": [
+        "Expresión",
+        "Significado",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "should",
+          "consejo",
+          "You should rest."
+        ],
+        [
+          "shouldn't",
+          "consejo negativo",
+          "You shouldn't go to work."
+        ],
+        [
+          "have to / must",
+          "obligación",
+          "I have to work tonight."
+        ],
+        [
+          "don't have to",
+          "no es necesario",
+          "You don't have to come."
+        ],
+        [
+          "mustn't",
+          "prohibición",
+          "You mustn't smoke here."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «should», «shouldn't», «have to», «has to», «don't have to», «doesn't have to», «must» o «mustn't».",
+      "bank": [
+        "should",
+        "shouldn't",
+        "have to",
+        "has to",
+        "don't have to",
+        "doesn't have to",
+        "must",
+        "mustn't"
+      ],
+      "items": [
+        {
+          "id": "a2_should_have_to.001",
+          "sentence": "You ___ go back to bed. (consejo)",
+          "answers": [
+            [
+              "should"
+            ]
+          ]
+        },
+        {
+          "id": "a2_should_have_to.002",
+          "sentence": "You ___ go to work today. (consejo negativo)",
+          "answers": [
+            [
+              "shouldn't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_should_have_to.003",
+          "sentence": "I ___ finish the designs today. Helen needs them.",
+          "answers": [
+            [
+              "have to",
+              "must"
+            ]
+          ]
+        },
+        {
+          "id": "a2_should_have_to.004",
+          "sentence": "Priya ___ work tonight. It's her shift.",
+          "answers": [
+            [
+              "has to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_should_have_to.005",
+          "sentence": "You ___ see a doctor. It's just a cold. (no es necesario)",
+          "answers": [
+            [
+              "don't have to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_should_have_to.006",
+          "sentence": "You ___ smoke in the hospital. (prohibido)",
+          "answers": [
+            [
+              "mustn't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_should_have_to.007",
+          "sentence": "Helen ___ know today. Tomorrow is fine. (no es necesario)",
+          "answers": [
+            [
+              "doesn't have to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_should_have_to.008",
+          "sentence": "___ I take some paracetamol?",
+          "answers": [
+            [
+              "Should"
+            ]
+          ]
+        },
+        {
+          "id": "a2_should_have_to.009",
+          "sentence": "You ___ eat so much chocolate. It's bad for you.",
+          "answers": [
+            [
+              "shouldn't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_should_have_to.010",
+          "sentence": "Passengers ___ show their ticket. (norma)",
+          "answers": [
+            [
+              "must",
+              "have to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_should_have_to.011",
+          "sentence": "We ___ wear a uniform at school. It's the rule.",
+          "answers": [
+            [
+              "have to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_should_have_to.012",
+          "sentence": "You ___ tell anyone. It's a secret!",
+          "answers": [
+            [
+              "mustn't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_should_have_to.013",
+          "sentence": "It's Sunday tomorrow. I ___ get up early!",
+          "answers": [
+            [
+              "don't have to"
+            ]
+          ]
+        },
+        {
+          "id": "a2_should_have_to.014",
+          "sentence": "You look tired. You ___ go to bed early.",
+          "answers": [
+            [
+              "should"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_should_have_to.101",
+          "question": "Deberías descansar.",
+          "options": [
+            "You should rest.",
+            "You should to rest."
+          ],
+          "answer": 0,
+          "explanation": "Sin «to»."
+        },
+        {
+          "id": "a2_should_have_to.102",
+          "question": "No hace falta que vengas.",
+          "options": [
+            "You don't have to come.",
+            "You mustn't come."
+          ],
+          "answer": 0,
+          "explanation": "No es necesario: «don't have to»."
+        },
+        {
+          "id": "a2_should_have_to.103",
+          "question": "Está prohibido fumar aquí.",
+          "options": [
+            "You mustn't smoke here.",
+            "You don't have to smoke here."
+          ],
+          "answer": 0,
+          "explanation": "Prohibición: «mustn't»."
+        },
+        {
+          "id": "a2_should_have_to.104",
+          "question": "Priya tiene que trabajar esta noche.",
+          "options": [
+            "Priya has to work tonight.",
+            "Priya have to work tonight."
+          ],
+          "answer": 0,
+          "explanation": "Con «she»: «has to»."
+        },
+        {
+          "id": "a2_should_have_to.105",
+          "question": "¿Debería ir al médico?",
+          "options": [
+            "Should I go to the doctor?",
+            "Do I should go to the doctor?"
+          ],
+          "answer": 0,
+          "explanation": "Pregunta: «Should I…?»."
+        },
+        {
+          "id": "a2_should_have_to.106",
+          "question": "¿Tengo que quedarme en la cama?",
+          "options": [
+            "Do I have to stay in bed?",
+            "Have I to stay in bed?"
+          ],
+          "answer": 0,
+          "explanation": "Pregunta: «Do I have to…?»."
+        },
+        {
+          "id": "a2_should_have_to.107",
+          "question": "Ella debería ir al dentista.",
+          "options": [
+            "She should go to the dentist.",
+            "She shoulds go to the dentist."
+          ],
+          "answer": 0,
+          "explanation": "«should» no lleva «-s»."
+        },
+        {
+          "id": "a2_should_have_to.108",
+          "question": "No tiene que trabajar mañana.",
+          "options": [
+            "He doesn't have to work tomorrow.",
+            "He doesn't has to work tomorrow."
+          ],
+          "answer": 0,
+          "explanation": "Después de «doesn't», «have»."
+        },
+        {
+          "id": "a2_should_have_to.109",
+          "question": "No deberías conducir tan rápido.",
+          "options": [
+            "You shouldn't drive so fast.",
+            "You don't should drive so fast."
+          ],
+          "answer": 0,
+          "explanation": "Negativa: «shouldn't»."
+        },
+        {
+          "id": "a2_should_have_to.110",
+          "question": "Tengo que llamar a mi madre.",
+          "options": [
+            "I must call my mum.",
+            "I must to call my mum."
+          ],
+          "answer": 0,
+          "explanation": "Sin «to»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "a2_should_have_to.201",
+          "prompt": "Corrige",
+          "source": "You should to drink more water.",
+          "answers": [
+            "You should drink more water"
+          ],
+          "explanation": "Sin «to»."
+        },
+        {
+          "id": "a2_should_have_to.202",
+          "prompt": "Corrige",
+          "source": "She have to work on Saturday.",
+          "answers": [
+            "She has to work on Saturday"
+          ],
+          "explanation": "Con «she»: «has to»."
+        },
+        {
+          "id": "a2_should_have_to.203",
+          "prompt": "Corrige",
+          "source": "You mustn't come if you're busy. It's not necessary.",
+          "answers": [
+            "You don't have to come if you're busy. It's not necessary"
+          ],
+          "explanation": "No es necesario: «don't have to»."
+        },
+        {
+          "id": "a2_should_have_to.204",
+          "prompt": "Corrige",
+          "source": "Do I should take a pill?",
+          "answers": [
+            "Should I take a pill"
+          ],
+          "explanation": "Pregunta: «Should I…?»."
+        },
+        {
+          "id": "a2_should_have_to.205",
+          "prompt": "Corrige",
+          "source": "He doesn't has to come.",
+          "answers": [
+            "He doesn't have to come"
+          ],
+          "explanation": "Después de «doesn't», «have»."
+        },
+        {
+          "id": "a2_should_have_to.206",
+          "prompt": "Corrige",
+          "source": "You don't have to smoke in the hospital. It's forbidden.",
+          "answers": [
+            "You mustn't smoke in the hospital. It's forbidden"
+          ],
+          "explanation": "Prohibición: «mustn't»."
+        },
+        {
+          "id": "a2_should_have_to.207",
+          "prompt": "Corrige",
+          "source": "She musts finish today.",
+          "answers": [
+            "She must finish today",
+            "She has to finish today"
+          ],
+          "explanation": "«must» no lleva «-s»."
+        },
+        {
+          "id": "a2_should_have_to.208",
+          "prompt": "Corrige",
+          "source": "Have I to stay at home?",
+          "answers": [
+            "Do I have to stay at home"
+          ],
+          "explanation": "Pregunta: «Do I have to…?»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_should_have_to.301",
+          "source": "Deberías beber mucha agua.",
+          "answers": [
+            "You should drink a lot of water",
+            "You should drink lots of water"
+          ]
+        },
+        {
+          "id": "a2_should_have_to.302",
+          "source": "Tengo que trabajar mañana.",
+          "answers": [
+            "I have to work tomorrow"
+          ]
+        },
+        {
+          "id": "a2_should_have_to.303",
+          "source": "No tienes que venir.",
+          "answers": [
+            "You don't have to come"
+          ]
+        },
+        {
+          "id": "a2_should_have_to.304",
+          "source": "¿Debería ir al médico?",
+          "answers": [
+            "Should I go to the doctor",
+            "Should I see a doctor"
+          ]
+        },
+        {
+          "id": "a2_should_have_to.305",
+          "source": "No debes fumar aquí.",
+          "answers": [
+            "You mustn't smoke here",
+            "You can't smoke here"
+          ]
+        },
+        {
+          "id": "a2_should_have_to.306",
+          "source": "Priya tiene que trabajar esta noche.",
+          "answers": [
+            "Priya has to work tonight"
+          ]
+        },
+        {
+          "id": "a2_should_have_to.307",
+          "source": "No deberías ir a trabajar hoy.",
+          "answers": [
+            "You shouldn't go to work today"
+          ]
+        },
+        {
+          "id": "a2_should_have_to.308",
+          "source": "¿Tengo que quedarme en la cama?",
+          "answers": [
+            "Do I have to stay in bed"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_should_have_to.401",
+          "answer": "You should go back to bed"
+        },
+        {
+          "id": "a2_should_have_to.402",
+          "answer": "I have to finish the designs"
+        },
+        {
+          "id": "a2_should_have_to.403",
+          "answer": "You don't have to see a doctor"
+        },
+        {
+          "id": "a2_should_have_to.404",
+          "answer": "Should I take something?"
+        },
+        {
+          "id": "a2_should_have_to.405",
+          "answer": "You mustn't smoke here"
+        }
+      ]
+    }
+  ]
+}

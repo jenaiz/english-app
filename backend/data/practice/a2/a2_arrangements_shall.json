@@ -1,0 +1,455 @@
+{
+  "topic_id": "a2_arrangements_shall",
+  "level_id": "A2",
+  "title": "Planes organizados (present continuous) y Shall we…?",
+  "tags": [
+    "future_plans"
+  ],
+  "units": [
+    "london_plans"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Arrangements: present continuous · Shall we…?",
+    "explanation": "Para planes ya organizados (con día, hora, billetes o con otra persona) se usa mucho el present continuous con una expresión de futuro:\n- «We're going to London next weekend.»\n- «Sam's band is playing at a wedding on Saturday.»\n- «I'm meeting Ciarán at the station at six.»\n\nCompáralo con «be going to», que expresa una intención. Muchas veces valen los dos:\n- «I'm going to visit the British Museum.» (quiero, tengo pensado)\n- «I'm visiting the British Museum on Sunday. I've got the tickets.» (ya está organizado)\n\nPara preguntar por los planes de alguien:\n- «What are you doing this weekend?»\n- «Are you doing anything tonight?»\n\nPara hacer sugerencias u ofrecerse se usa «Shall I» / «Shall we» + verbo en forma base. Para contestar: «Good idea!», «Yes, please.», «No, thanks.»\n- «Shall we take the train?» (¿cogemos el tren?)\n- «Shall I book the tickets?» (¿reservo yo los billetes?)\n\nOjo: sin la expresión de futuro, el present continuous habla de ahora: «I'm meeting Ciarán» puede ser ahora mismo; «I'm meeting Ciarán tomorrow» es un plan.",
+    "table": {
+      "headers": [
+        "Uso",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Plan organizado",
+          "We're going to London next weekend."
+        ],
+        [
+          "Intención",
+          "I'm going to visit the museum."
+        ],
+        [
+          "Preguntar por planes",
+          "What are you doing on Saturday?"
+        ],
+        [
+          "Sugerencia",
+          "Shall we take the train?"
+        ],
+        [
+          "Ofrecerse",
+          "Shall I book the tickets?"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el present continuous del verbo entre paréntesis o con «Shall».",
+      "items": [
+        {
+          "id": "a2_arrangements_shall.001",
+          "sentence": "We ___ going to London next weekend. The tickets are booked!",
+          "answers": [
+            [
+              "are"
+            ]
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.002",
+          "sentence": "Sam's band is ___ at a wedding on Saturday. (play)",
+          "answers": [
+            [
+              "playing"
+            ]
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.003",
+          "sentence": "What are you ___ on Sunday? (do)",
+          "answers": [
+            [
+              "doing"
+            ]
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.004",
+          "sentence": "___ we go to Camden Market on Saturday?",
+          "answers": [
+            [
+              "Shall"
+            ]
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.005",
+          "sentence": "Shall I ___ the tickets tonight? (book)",
+          "answers": [
+            [
+              "book"
+            ]
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.006",
+          "sentence": "I'm ___ Ciarán at the station at six. (meet)",
+          "answers": [
+            [
+              "meeting"
+            ]
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.007",
+          "sentence": "Priya ___ to Leicester tomorrow. She's got her train ticket. (go)",
+          "answers": [
+            [
+              "is going",
+              "'s going"
+            ]
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.008",
+          "sentence": "___ I call a taxi? — Yes, please.",
+          "answers": [
+            [
+              "Shall"
+            ]
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.009",
+          "sentence": "Are you ___ anything tonight? — No, nothing. (do)",
+          "answers": [
+            [
+              "doing"
+            ]
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.010",
+          "sentence": "We ___ dinner with Helen on Friday. (have)",
+          "answers": [
+            [
+              "are having",
+              "'re having"
+            ]
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.011",
+          "sentence": "___ we meet at the café at ten? — Good idea!",
+          "answers": [
+            [
+              "Shall"
+            ]
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.012",
+          "sentence": "Daniel ___ back from Galway on Monday. (come)",
+          "answers": [
+            [
+              "is coming",
+              "'s coming"
+            ]
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.013",
+          "sentence": "I ___ the dentist at four tomorrow. (see)",
+          "answers": [
+            [
+              "am seeing",
+              "'m seeing"
+            ]
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.014",
+          "sentence": "Shall we ___ the bus or walk? (take)",
+          "answers": [
+            [
+              "take"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_arrangements_shall.101",
+          "question": "¿Cogemos el tren?",
+          "options": [
+            "Shall we take the train?",
+            "Shall we to take the train?"
+          ],
+          "answer": 0,
+          "explanation": "«Shall we» + forma base."
+        },
+        {
+          "id": "a2_arrangements_shall.102",
+          "question": "¿Reservo yo los billetes?",
+          "options": [
+            "Shall I book the tickets?",
+            "Do I book the tickets?"
+          ],
+          "answer": 0,
+          "explanation": "Ofrecerse: «Shall I…?»."
+        },
+        {
+          "id": "a2_arrangements_shall.103",
+          "question": "¿Qué haces este fin de semana?",
+          "options": [
+            "What are you doing this weekend?",
+            "What do you do this weekend?"
+          ],
+          "answer": 0,
+          "explanation": "Planes: present continuous."
+        },
+        {
+          "id": "a2_arrangements_shall.104",
+          "question": "Quedo con Ciarán a las seis (ya está acordado).",
+          "options": [
+            "I'm meeting Ciarán at six.",
+            "I meet Ciarán at six."
+          ],
+          "answer": 0,
+          "explanation": "Plan organizado: continuous."
+        },
+        {
+          "id": "a2_arrangements_shall.105",
+          "question": "El grupo de Sam toca en una boda el sábado.",
+          "options": [
+            "Sam's band is playing at a wedding on Saturday.",
+            "Sam's band plays at a wedding on Saturday now."
+          ],
+          "answer": 0,
+          "explanation": "Plan organizado: continuous."
+        },
+        {
+          "id": "a2_arrangements_shall.106",
+          "question": "¿Vamos a Camden? — ¡Buena idea!",
+          "options": [
+            "Shall we go to Camden? — Good idea!",
+            "Shall we going to Camden? — Good idea!"
+          ],
+          "answer": 0,
+          "explanation": "«Shall we» + forma base."
+        },
+        {
+          "id": "a2_arrangements_shall.107",
+          "question": "¿Haces algo esta noche?",
+          "options": [
+            "Are you doing anything tonight?",
+            "Do you do anything tonight?"
+          ],
+          "answer": 0,
+          "explanation": "Planes: present continuous."
+        },
+        {
+          "id": "a2_arrangements_shall.108",
+          "question": "Mañana vuelve Daniel.",
+          "options": [
+            "Daniel is coming back tomorrow.",
+            "Daniel comes back tomorrow always."
+          ],
+          "answer": 0,
+          "explanation": "Plan: continuous."
+        },
+        {
+          "id": "a2_arrangements_shall.109",
+          "question": "¿Llamo a un taxi?",
+          "options": [
+            "Shall I call a taxi?",
+            "Shall I calling a taxi?"
+          ],
+          "answer": 0,
+          "explanation": "«Shall I» + forma base."
+        },
+        {
+          "id": "a2_arrangements_shall.110",
+          "question": "Cenamos con Helen el viernes.",
+          "options": [
+            "We're having dinner with Helen on Friday.",
+            "We have dinner with Helen on Friday now."
+          ],
+          "answer": 0,
+          "explanation": "Plan organizado: continuous."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Transforma o corrige la frase como se indica.",
+      "items": [
+        {
+          "id": "a2_arrangements_shall.201",
+          "prompt": "Sugerencia",
+          "source": "Let's take the train.",
+          "answers": [
+            "Shall we take the train"
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.202",
+          "prompt": "Ofrécete",
+          "source": "I can book the tickets.",
+          "answers": [
+            "Shall I book the tickets"
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.203",
+          "prompt": "Pregunta",
+          "source": "You're doing something tonight.",
+          "answers": [
+            "Are you doing anything tonight",
+            "Are you doing something tonight"
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.204",
+          "prompt": "Corrige",
+          "source": "Shall we to go to the cinema?",
+          "answers": [
+            "Shall we go to the cinema"
+          ],
+          "explanation": "«Shall we» + forma base."
+        },
+        {
+          "id": "a2_arrangements_shall.205",
+          "prompt": "Corrige",
+          "source": "What do you do this weekend? — I'm going to Bath.",
+          "answers": [
+            "What are you doing this weekend? I'm going to Bath",
+            "What are you doing this weekend"
+          ],
+          "explanation": "Planes: present continuous."
+        },
+        {
+          "id": "a2_arrangements_shall.206",
+          "prompt": "Corrige",
+          "source": "I meet Helen tomorrow at ten. It's in my diary.",
+          "answers": [
+            "I'm meeting Helen tomorrow at ten. It's in my diary"
+          ],
+          "explanation": "Plan organizado: continuous."
+        },
+        {
+          "id": "a2_arrangements_shall.207",
+          "prompt": "Corrige",
+          "source": "Shall I opening the window?",
+          "answers": [
+            "Shall I open the window"
+          ],
+          "explanation": "«Shall I» + forma base."
+        },
+        {
+          "id": "a2_arrangements_shall.208",
+          "prompt": "Corrige",
+          "source": "Sam's band play at a wedding on Saturday.",
+          "answers": [
+            "Sam's band is playing at a wedding on Saturday"
+          ],
+          "explanation": "Plan organizado: continuous."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_arrangements_shall.301",
+          "source": "¿Qué haces el sábado?",
+          "answers": [
+            "What are you doing on Saturday"
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.302",
+          "source": "Vamos a Londres el fin de semana que viene.",
+          "answers": [
+            "We're going to London next weekend"
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.303",
+          "source": "¿Cogemos el tren?",
+          "answers": [
+            "Shall we take the train",
+            "Shall we get the train"
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.304",
+          "source": "¿Reservo los billetes?",
+          "answers": [
+            "Shall I book the tickets"
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.305",
+          "source": "Quedo con Ciarán a las seis.",
+          "answers": [
+            "I'm meeting Ciarán at six"
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.306",
+          "source": "¿Haces algo esta noche?",
+          "answers": [
+            "Are you doing anything tonight"
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.307",
+          "source": "El grupo de Sam toca en una boda.",
+          "answers": [
+            "Sam's band is playing at a wedding"
+          ]
+        },
+        {
+          "id": "a2_arrangements_shall.308",
+          "source": "¿Quedamos en el café?",
+          "answers": [
+            "Shall we meet at the café",
+            "Shall we meet in the café"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_arrangements_shall.401",
+          "answer": "We're going to London next weekend"
+        },
+        {
+          "id": "a2_arrangements_shall.402",
+          "answer": "Shall we take the train?"
+        },
+        {
+          "id": "a2_arrangements_shall.403",
+          "answer": "What are you doing on Saturday?"
+        },
+        {
+          "id": "a2_arrangements_shall.404",
+          "answer": "Shall I book the tickets?"
+        },
+        {
+          "id": "a2_arrangements_shall.405",
+          "answer": "I'm meeting Ciarán at six"
+        }
+      ]
+    }
+  ]
+}

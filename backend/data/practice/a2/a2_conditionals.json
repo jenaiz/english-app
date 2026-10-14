@@ -1,0 +1,457 @@
+{
+  "topic_id": "a2_conditionals",
+  "level_id": "A2",
+  "title": "Condicionales cero y primero; unless",
+  "tags": [
+    "conditionals"
+  ],
+  "units": [
+    "feeling_ill"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Zero and first conditional",
+    "explanation": "Zero conditional («If» + present, present) para cosas que siempre son verdad:\n- «If you don't sleep, you feel tired.»\n- «If you heat water to 100 degrees, it boils.»\n\nFirst conditional («If» + present, «will» + verbo) para una situación posible en el futuro y su resultado:\n- «If you rest today, you'll feel better tomorrow.»\n- «If it rains, I'll take a taxi.»\n- «If you don't hurry, you'll miss the bus.»\n\nOjo: después de «if» nunca va «will»: «If I see Helen, I'll tell her» (nunca «If I will see»). Lo mismo con «when», «as soon as» y «unless».\n\n«Unless» significa «if… not»:\n- «You won't get better unless you rest.» (= «if you don't rest»)\n\nLa frase con «if» puede ir primero (con coma) o después (sin coma):\n- «If you feel worse, I'll call the doctor.»\n- «I'll call the doctor if you feel worse.»\n\nEn la otra parte también pueden ir «can», «might» o el imperativo:\n- «If you're tired, go to bed.»\n- «If it's sunny, we might go to the beach.»",
+    "table": {
+      "headers": [
+        "Tipo",
+        "Estructura",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Zero",
+          "If + present, present",
+          "If you heat ice, it melts."
+        ],
+        [
+          "First",
+          "If + present, will + verbo",
+          "If it rains, I'll stay at home."
+        ],
+        [
+          "Unless",
+          "unless = if… not",
+          "I won't go unless you come."
+        ],
+        [
+          "Imperativo",
+          "If + present, imperativo",
+          "If you're tired, rest."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la forma correcta del verbo entre paréntesis o con «unless».",
+      "items": [
+        {
+          "id": "a2_conditionals.001",
+          "sentence": "If you don't sleep, you ___ tired. (feel, siempre)",
+          "answers": [
+            [
+              "feel"
+            ]
+          ],
+          "explanation": "Zero conditional: present."
+        },
+        {
+          "id": "a2_conditionals.002",
+          "sentence": "If you rest today, you ___ better tomorrow. (feel)",
+          "answers": [
+            [
+              "will feel",
+              "'ll feel"
+            ]
+          ]
+        },
+        {
+          "id": "a2_conditionals.003",
+          "sentence": "If Helen ___, I'll tell her you're ill. (call)",
+          "answers": [
+            [
+              "calls"
+            ]
+          ],
+          "explanation": "Después de «if», present."
+        },
+        {
+          "id": "a2_conditionals.004",
+          "sentence": "I'll make you some soup if you ___ hungry. (be)",
+          "answers": [
+            [
+              "are"
+            ]
+          ]
+        },
+        {
+          "id": "a2_conditionals.005",
+          "sentence": "You won't get better ___ you rest.",
+          "answers": [
+            [
+              "unless"
+            ]
+          ]
+        },
+        {
+          "id": "a2_conditionals.006",
+          "sentence": "If you ___ go to work today, Helen will understand. (not)",
+          "answers": [
+            [
+              "don't"
+            ]
+          ]
+        },
+        {
+          "id": "a2_conditionals.007",
+          "sentence": "If you heat water to 100 degrees, it ___. (boil)",
+          "answers": [
+            [
+              "boils"
+            ]
+          ]
+        },
+        {
+          "id": "a2_conditionals.008",
+          "sentence": "If it ___ tomorrow, we'll stay at home. (rain)",
+          "answers": [
+            [
+              "rains"
+            ]
+          ]
+        },
+        {
+          "id": "a2_conditionals.009",
+          "sentence": "If you don't hurry, you ___ the bus. (miss)",
+          "answers": [
+            [
+              "will miss",
+              "'ll miss"
+            ]
+          ]
+        },
+        {
+          "id": "a2_conditionals.010",
+          "sentence": "I won't go ___ you come with me.",
+          "answers": [
+            [
+              "unless"
+            ]
+          ]
+        },
+        {
+          "id": "a2_conditionals.011",
+          "sentence": "If you mix red and white, you ___ pink. (get)",
+          "answers": [
+            [
+              "get"
+            ]
+          ]
+        },
+        {
+          "id": "a2_conditionals.012",
+          "sentence": "If I ___ time, I'll visit you. (have)",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "a2_conditionals.013",
+          "sentence": "We ___ late if we don't leave now. (be)",
+          "answers": [
+            [
+              "will be",
+              "'ll be"
+            ]
+          ]
+        },
+        {
+          "id": "a2_conditionals.014",
+          "sentence": "If you're cold, ___ your jumper on. (put)",
+          "answers": [
+            [
+              "put"
+            ]
+          ],
+          "explanation": "Imperativo."
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_conditionals.101",
+          "question": "Si llueve, cogeré un taxi.",
+          "options": [
+            "If it rains, I'll take a taxi.",
+            "If it will rain, I'll take a taxi."
+          ],
+          "answer": 0,
+          "explanation": "Después de «if», present."
+        },
+        {
+          "id": "a2_conditionals.102",
+          "question": "Si no duermes, te sientes cansado.",
+          "options": [
+            "If you don't sleep, you feel tired.",
+            "If you won't sleep, you feel tired."
+          ],
+          "answer": 0,
+          "explanation": "Zero conditional."
+        },
+        {
+          "id": "a2_conditionals.103",
+          "question": "No mejorarás si no descansas.",
+          "options": [
+            "You won't get better unless you rest.",
+            "You won't get better unless you don't rest."
+          ],
+          "answer": 0,
+          "explanation": "«unless» ya es negativo."
+        },
+        {
+          "id": "a2_conditionals.104",
+          "question": "Si veo a Helen, se lo diré.",
+          "options": [
+            "If I see Helen, I'll tell her.",
+            "If I'll see Helen, I tell her."
+          ],
+          "answer": 0,
+          "explanation": "«If» + present, «will»."
+        },
+        {
+          "id": "a2_conditionals.105",
+          "question": "Llamaré al médico si te encuentras peor.",
+          "options": [
+            "I'll call the doctor if you feel worse.",
+            "I'll call the doctor, if you will feel worse."
+          ],
+          "answer": 0,
+          "explanation": "Sin coma si «if» va detrás."
+        },
+        {
+          "id": "a2_conditionals.106",
+          "question": "Si calientas hielo, se derrite.",
+          "options": [
+            "If you heat ice, it melts.",
+            "If you heat ice, it will melted."
+          ],
+          "answer": 0,
+          "explanation": "Zero conditional: present."
+        },
+        {
+          "id": "a2_conditionals.107",
+          "question": "Si estás cansado, acuéstate.",
+          "options": [
+            "If you're tired, go to bed.",
+            "If you're tired, you go to bed will."
+          ],
+          "answer": 0,
+          "explanation": "Imperativo."
+        },
+        {
+          "id": "a2_conditionals.108",
+          "question": "Si no te das prisa, perderás el tren.",
+          "options": [
+            "If you don't hurry, you'll miss the train.",
+            "If you don't hurry, you miss the train tomorrow."
+          ],
+          "answer": 0,
+          "explanation": "First conditional."
+        },
+        {
+          "id": "a2_conditionals.109",
+          "question": "Si hace sol, puede que vayamos a la playa.",
+          "options": [
+            "If it's sunny, we might go to the beach.",
+            "If it will be sunny, we might go to the beach."
+          ],
+          "answer": 0,
+          "explanation": "Después de «if», present."
+        },
+        {
+          "id": "a2_conditionals.110",
+          "question": "Iré solo si vienes tú.",
+          "options": [
+            "I won't go unless you come.",
+            "I won't go unless you will come."
+          ],
+          "answer": 0,
+          "explanation": "Después de «unless», present."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Transforma o corrige la frase como se indica.",
+      "items": [
+        {
+          "id": "a2_conditionals.201",
+          "prompt": "Con «unless»",
+          "source": "You won't pass if you don't study.",
+          "answers": [
+            "You won't pass unless you study"
+          ]
+        },
+        {
+          "id": "a2_conditionals.202",
+          "prompt": "Con «unless»",
+          "source": "I'll go if you don't come with me.",
+          "answers": [
+            "I'll go unless you come with me"
+          ]
+        },
+        {
+          "id": "a2_conditionals.203",
+          "prompt": "Corrige",
+          "source": "If it will rain, I'll take an umbrella.",
+          "answers": [
+            "If it rains, I'll take an umbrella"
+          ],
+          "explanation": "Después de «if», present."
+        },
+        {
+          "id": "a2_conditionals.204",
+          "prompt": "Corrige",
+          "source": "If you heat water, it will boils.",
+          "answers": [
+            "If you heat water, it boils"
+          ],
+          "explanation": "Zero conditional: present."
+        },
+        {
+          "id": "a2_conditionals.205",
+          "prompt": "Corrige",
+          "source": "If I see him, I tell him tomorrow.",
+          "answers": [
+            "If I see him, I'll tell him tomorrow"
+          ],
+          "explanation": "First conditional: «will»."
+        },
+        {
+          "id": "a2_conditionals.206",
+          "prompt": "Corrige",
+          "source": "You won't feel better unless you don't rest.",
+          "answers": [
+            "You won't feel better unless you rest"
+          ],
+          "explanation": "«unless» ya es negativo."
+        },
+        {
+          "id": "a2_conditionals.207",
+          "prompt": "Corrige",
+          "source": "If you will need help, call me.",
+          "answers": [
+            "If you need help, call me"
+          ],
+          "explanation": "Después de «if», present."
+        },
+        {
+          "id": "a2_conditionals.208",
+          "prompt": "Corrige",
+          "source": "We'll be late if we won't leave now.",
+          "answers": [
+            "We'll be late if we don't leave now"
+          ],
+          "explanation": "Después de «if», present."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_conditionals.301",
+          "source": "Si descansas hoy, mañana te encontrarás mejor.",
+          "answers": [
+            "If you rest today, you'll feel better tomorrow"
+          ]
+        },
+        {
+          "id": "a2_conditionals.302",
+          "source": "Si llueve, cogeré un taxi.",
+          "answers": [
+            "If it rains, I'll take a taxi",
+            "If it rains, I'll get a taxi"
+          ]
+        },
+        {
+          "id": "a2_conditionals.303",
+          "source": "Si no duermes, te sientes cansado.",
+          "answers": [
+            "If you don't sleep, you feel tired"
+          ]
+        },
+        {
+          "id": "a2_conditionals.304",
+          "source": "No mejorarás si no descansas.",
+          "answers": [
+            "You won't get better unless you rest",
+            "You won't get better if you don't rest"
+          ]
+        },
+        {
+          "id": "a2_conditionals.305",
+          "source": "Si veo a Helen, se lo diré.",
+          "answers": [
+            "If I see Helen, I'll tell her"
+          ]
+        },
+        {
+          "id": "a2_conditionals.306",
+          "source": "Si estás cansado, vete a la cama.",
+          "answers": [
+            "If you're tired, go to bed"
+          ]
+        },
+        {
+          "id": "a2_conditionals.307",
+          "source": "Si no nos damos prisa, perderemos el autobús.",
+          "answers": [
+            "If we don't hurry, we'll miss the bus"
+          ]
+        },
+        {
+          "id": "a2_conditionals.308",
+          "source": "Llamaré al médico si te encuentras peor.",
+          "answers": [
+            "I'll call the doctor if you feel worse"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_conditionals.401",
+          "answer": "If it rains, I'll take a taxi"
+        },
+        {
+          "id": "a2_conditionals.402",
+          "answer": "You won't get better unless you rest"
+        },
+        {
+          "id": "a2_conditionals.403",
+          "answer": "If you don't sleep, you feel tired"
+        },
+        {
+          "id": "a2_conditionals.404",
+          "answer": "I'll call the doctor if you feel worse"
+        },
+        {
+          "id": "a2_conditionals.405",
+          "answer": "If you're tired, go to bed"
+        }
+      ]
+    }
+  ]
+}

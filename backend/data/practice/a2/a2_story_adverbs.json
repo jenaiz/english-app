@@ -1,0 +1,551 @@
+{
+  "topic_id": "a2_story_adverbs",
+  "level_id": "A2",
+  "title": "Contar una historia: first, then, finally y adverbios en -ly",
+  "tags": [
+    "sequencing_adverbs"
+  ],
+  "units": [
+    "a_bad_day"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Telling a story: first, then, finally · adverbs of manner",
+    "explanation": "Para ordenar lo que pasó usamos conectores de secuencia: «First» (primero), «Then» / «After that» (luego, después), «Later» (más tarde), «Finally» / «In the end» (al final). Van al principio de la frase:\n- «First, it started to rain. Then the wind broke my umbrella. Finally, I arrived at the office.»\n\n«Finally» cierra una lista de cosas; «In the end» cuenta cómo acabó algo después de problemas:\n- «We waited for two hours. In the end, we took a taxi.»\n\nLos adverbios de modo dicen cómo pasa algo. Se forman con adjetivo + «-ly»:\n- «quick» → «quickly», «slow» → «slowly», «careful» → «carefully», «quiet» → «quietly»\n- Si acaba en y, cambia a «-ily»: «happy» → «happily», «angry» → «angrily», «easy» → «easily»\n\nIrregulares: «good» → «well», «fast» → «fast», «hard» → «hard», «late» → «late».\n\nVan después del verbo o del objeto, nunca entre los dos:\n- «She ran quickly.»\n- «He drives his car carefully.» (nunca «drives carefully his car»)\n\nOjo: el adjetivo describe un nombre y el adverbio, un verbo: «She's a good singer» / «She sings well» (nunca «sings good»).",
+    "table": {
+      "headers": [
+        "Adjetivo",
+        "Adverbio",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "quick",
+          "quickly",
+          "I ran quickly to the bus stop."
+        ],
+        [
+          "careful",
+          "carefully",
+          "Drive carefully!"
+        ],
+        [
+          "happy",
+          "happily",
+          "They smiled happily."
+        ],
+        [
+          "good",
+          "well",
+          "She speaks English well."
+        ],
+        [
+          "fast",
+          "fast",
+          "He walks fast."
+        ],
+        [
+          "hard",
+          "hard",
+          "It was raining hard."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con un conector («First», «Then», «After that», «Finally», «In the end»).",
+      "bank": [
+        "First",
+        "Then",
+        "After that",
+        "Finally",
+        "In the end"
+      ],
+      "items": [
+        {
+          "id": "a2_story_adverbs.001",
+          "sentence": "___, I got up late. Then I couldn't find my keys.",
+          "answers": [
+            [
+              "First"
+            ]
+          ]
+        },
+        {
+          "id": "a2_story_adverbs.002",
+          "sentence": "I missed the first bus. ___, I lost my umbrella.",
+          "answers": [
+            [
+              "Then",
+              "After that"
+            ]
+          ]
+        },
+        {
+          "id": "a2_story_adverbs.003",
+          "sentence": "___, at half past nine, I arrived at the office.",
+          "answers": [
+            [
+              "Finally",
+              "In the end"
+            ]
+          ]
+        },
+        {
+          "id": "a2_story_adverbs.004",
+          "sentence": "We waited for the bus for an hour. ___, we took a taxi.",
+          "answers": [
+            [
+              "In the end",
+              "Finally"
+            ]
+          ]
+        },
+        {
+          "id": "a2_story_adverbs.005",
+          "sentence": "___, open the box. Then take out the phone.",
+          "answers": [
+            [
+              "First"
+            ]
+          ]
+        },
+        {
+          "id": "a2_story_adverbs.006",
+          "sentence": "We had dinner. ___, we went to a bar.",
+          "answers": [
+            [
+              "After that",
+              "Then"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill_blanks",
+      "instructions": "Escribe el adverbio del adjetivo entre paréntesis.",
+      "items": [
+        {
+          "id": "a2_story_adverbs.101",
+          "sentence": "I ran ___ to the bus stop. (quick)",
+          "answers": [
+            [
+              "quickly"
+            ]
+          ]
+        },
+        {
+          "id": "a2_story_adverbs.102",
+          "sentence": "Please drive ___. The roads are wet. (careful)",
+          "answers": [
+            [
+              "carefully"
+            ]
+          ]
+        },
+        {
+          "id": "a2_story_adverbs.103",
+          "sentence": "Lucía speaks English very ___ now. (good)",
+          "answers": [
+            [
+              "well"
+            ]
+          ],
+          "explanation": "«good» → «well»."
+        },
+        {
+          "id": "a2_story_adverbs.104",
+          "sentence": "It was raining ___ all morning. (hard)",
+          "answers": [
+            [
+              "hard"
+            ]
+          ],
+          "explanation": "«hard» no cambia."
+        },
+        {
+          "id": "a2_story_adverbs.105",
+          "sentence": "The children were playing ___ in the garden. (happy)",
+          "answers": [
+            [
+              "happily"
+            ]
+          ],
+          "explanation": "Y → «-ily»."
+        },
+        {
+          "id": "a2_story_adverbs.106",
+          "sentence": "Can you speak more ___, please? (slow)",
+          "answers": [
+            [
+              "slowly"
+            ]
+          ]
+        },
+        {
+          "id": "a2_story_adverbs.107",
+          "sentence": "Sam walks very ___. I can't follow him! (fast)",
+          "answers": [
+            [
+              "fast"
+            ]
+          ],
+          "explanation": "«fast» no cambia."
+        },
+        {
+          "id": "a2_story_adverbs.108",
+          "sentence": "She closed the door ___. The baby was sleeping. (quiet)",
+          "answers": [
+            [
+              "quietly"
+            ]
+          ]
+        },
+        {
+          "id": "a2_story_adverbs.109",
+          "sentence": "Helen answered ___. She wasn't happy. (angry)",
+          "answers": [
+            [
+              "angrily"
+            ]
+          ],
+          "explanation": "Y → «-ily»."
+        },
+        {
+          "id": "a2_story_adverbs.110",
+          "sentence": "I passed the exam ___. (easy)",
+          "answers": [
+            [
+              "easily"
+            ]
+          ],
+          "explanation": "Y → «-ily»."
+        },
+        {
+          "id": "a2_story_adverbs.111",
+          "sentence": "He arrived ___ again. (late)",
+          "answers": [
+            [
+              "late"
+            ]
+          ],
+          "explanation": "«late» no cambia."
+        },
+        {
+          "id": "a2_story_adverbs.112",
+          "sentence": "Priya works very ___. (hard)",
+          "answers": [
+            [
+              "hard"
+            ]
+          ]
+        },
+        {
+          "id": "a2_story_adverbs.113",
+          "sentence": "Javi plays the piano ___. (beautiful)",
+          "answers": [
+            [
+              "beautifully"
+            ]
+          ]
+        },
+        {
+          "id": "a2_story_adverbs.114",
+          "sentence": "Read the instructions ___. (careful)",
+          "answers": [
+            [
+              "carefully"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a2_story_adverbs.201",
+          "question": "Habla inglés muy bien.",
+          "options": [
+            "She speaks English very good.",
+            "She speaks English very well."
+          ],
+          "answer": 1,
+          "explanation": "Con un verbo: «well»."
+        },
+        {
+          "id": "a2_story_adverbs.202",
+          "question": "Conduce su coche con cuidado.",
+          "options": [
+            "He drives carefully his car.",
+            "He drives his car carefully."
+          ],
+          "answer": 1,
+          "explanation": "Después del objeto."
+        },
+        {
+          "id": "a2_story_adverbs.203",
+          "question": "Trabaja mucho.",
+          "options": [
+            "She works hard.",
+            "She works hardly."
+          ],
+          "answer": 0,
+          "explanation": "«hard» no cambia; «hardly» significa casi no."
+        },
+        {
+          "id": "a2_story_adverbs.204",
+          "question": "Corrió rápido.",
+          "options": [
+            "He ran fastly.",
+            "He ran fast."
+          ],
+          "answer": 1,
+          "explanation": "«fast» no cambia."
+        },
+        {
+          "id": "a2_story_adverbs.205",
+          "question": "Primero, me levanté tarde.",
+          "options": [
+            "First, I got up late.",
+            "Firstly I late got up."
+          ],
+          "answer": 0,
+          "explanation": "El conector va al principio."
+        },
+        {
+          "id": "a2_story_adverbs.206",
+          "question": "Al final, cogimos un taxi.",
+          "options": [
+            "In the end, we took a taxi.",
+            "At the end, we took a taxi."
+          ],
+          "answer": 0,
+          "explanation": "Cómo acabó algo: «In the end»."
+        },
+        {
+          "id": "a2_story_adverbs.207",
+          "question": "Sonrieron felices.",
+          "options": [
+            "They smiled happily.",
+            "They smiled happy."
+          ],
+          "answer": 0,
+          "explanation": "Con un verbo: adverbio."
+        },
+        {
+          "id": "a2_story_adverbs.208",
+          "question": "Es una buena cantante.",
+          "options": [
+            "She's a good singer.",
+            "She's a well singer."
+          ],
+          "answer": 0,
+          "explanation": "Con un nombre: adjetivo."
+        },
+        {
+          "id": "a2_story_adverbs.209",
+          "question": "Habla más despacio, por favor.",
+          "options": [
+            "Speak more slowly, please.",
+            "Speak more slow, please."
+          ],
+          "answer": 0,
+          "explanation": "Con un verbo: adverbio."
+        },
+        {
+          "id": "a2_story_adverbs.210",
+          "question": "Llegó tarde.",
+          "options": [
+            "He arrived late.",
+            "He arrived lately."
+          ],
+          "answer": 0,
+          "explanation": "«late» no cambia; «lately» significa últimamente."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "a2_story_adverbs.301",
+          "prompt": "Corrige",
+          "source": "She sings very good.",
+          "answers": [
+            "She sings very well"
+          ],
+          "explanation": "Con un verbo: «well»."
+        },
+        {
+          "id": "a2_story_adverbs.302",
+          "prompt": "Corrige",
+          "source": "He drives very careful.",
+          "answers": [
+            "He drives very carefully"
+          ],
+          "explanation": "Con un verbo: adverbio."
+        },
+        {
+          "id": "a2_story_adverbs.303",
+          "prompt": "Corrige",
+          "source": "I closed quietly the door.",
+          "answers": [
+            "I closed the door quietly"
+          ],
+          "explanation": "Después del objeto."
+        },
+        {
+          "id": "a2_story_adverbs.304",
+          "prompt": "Corrige",
+          "source": "They were playing happyly.",
+          "answers": [
+            "They were playing happily"
+          ],
+          "explanation": "Y → «-ily»."
+        },
+        {
+          "id": "a2_story_adverbs.305",
+          "prompt": "Corrige",
+          "source": "Sam runs very fastly.",
+          "answers": [
+            "Sam runs very fast"
+          ],
+          "explanation": "«fast» no cambia."
+        },
+        {
+          "id": "a2_story_adverbs.306",
+          "prompt": "Corrige",
+          "source": "At the end, we went home.",
+          "answers": [
+            "In the end, we went home",
+            "In the end we went home"
+          ],
+          "explanation": "Cómo acabó: «In the end»."
+        },
+        {
+          "id": "a2_story_adverbs.307",
+          "prompt": "Corrige",
+          "source": "Priya works very hardly.",
+          "answers": [
+            "Priya works very hard"
+          ],
+          "explanation": "«hard» no cambia."
+        },
+        {
+          "id": "a2_story_adverbs.308",
+          "prompt": "Corrige",
+          "source": "She's a very well cook.",
+          "answers": [
+            "She's a very good cook"
+          ],
+          "explanation": "Con un nombre: adjetivo."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a2_story_adverbs.401",
+          "source": "Primero, me levanté tarde.",
+          "answers": [
+            "First, I got up late",
+            "First I got up late"
+          ]
+        },
+        {
+          "id": "a2_story_adverbs.402",
+          "source": "Luego perdí el autobús.",
+          "answers": [
+            "Then I missed the bus",
+            "After that I missed the bus"
+          ]
+        },
+        {
+          "id": "a2_story_adverbs.403",
+          "source": "Al final, cogimos un taxi.",
+          "answers": [
+            "In the end, we took a taxi",
+            "In the end we took a taxi",
+            "Finally, we took a taxi",
+            "Finally we took a taxi"
+          ]
+        },
+        {
+          "id": "a2_story_adverbs.404",
+          "source": "Conduce con cuidado.",
+          "answers": [
+            "Drive carefully"
+          ]
+        },
+        {
+          "id": "a2_story_adverbs.405",
+          "source": "Habla inglés muy bien.",
+          "answers": [
+            "She speaks English very well",
+            "He speaks English very well"
+          ]
+        },
+        {
+          "id": "a2_story_adverbs.406",
+          "source": "Llovía mucho.",
+          "answers": [
+            "It was raining hard",
+            "It was raining a lot"
+          ]
+        },
+        {
+          "id": "a2_story_adverbs.407",
+          "source": "Habla más despacio, por favor.",
+          "answers": [
+            "Speak more slowly, please",
+            "Please speak more slowly",
+            "Speak more slowly please"
+          ]
+        },
+        {
+          "id": "a2_story_adverbs.408",
+          "source": "Corrí rápido a la parada.",
+          "answers": [
+            "I ran quickly to the bus stop",
+            "I ran fast to the bus stop",
+            "I ran to the bus stop quickly"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a2_story_adverbs.501",
+          "answer": "First, I got up late"
+        },
+        {
+          "id": "a2_story_adverbs.502",
+          "answer": "He drives his car carefully"
+        },
+        {
+          "id": "a2_story_adverbs.503",
+          "answer": "She speaks English very well"
+        },
+        {
+          "id": "a2_story_adverbs.504",
+          "answer": "In the end, we took a taxi"
+        },
+        {
+          "id": "a2_story_adverbs.505",
+          "answer": "It was raining hard all morning"
+        }
+      ]
+    }
+  ]
+}
