@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "participle_clauses",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -112,7 +113,8 @@
                           "Harbour Studio",
                           "Martín Design"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -224,6 +226,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "participle_clauses",
                     "instructions": "Completa con la forma participial.",
                     "items": [
                       {
@@ -297,6 +300,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
+                    "tag": "participle_clauses",
                     "instructions": "Reescribe con una participle clause.",
                     "items": [
                       {
@@ -334,6 +338,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "phrasal_verbs",
                     "instructions": "Completa con la partícula o la palabra que falta.",
                     "items": [
                       {
@@ -399,6 +404,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "participle_clauses",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -628,7 +634,8 @@
                           "What",
                           "That"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "cleft"
                       },
                       {
                         "question": "It was Daniel ___ found the office.",
@@ -636,7 +643,8 @@
                           "who",
                           "which"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "cleft"
                       },
                       {
                         "question": "All I want ___ a quiet weekend.",
@@ -644,7 +652,8 @@
                           "is",
                           "are"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "cleft"
                       },
                       {
                         "question": "Never ___ seen such a talented team.",
@@ -652,7 +661,8 @@
                           "have I",
                           "I have"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "inversion"
                       },
                       {
                         "question": "Rarely ___ she complain.",
@@ -660,7 +670,8 @@
                           "does",
                           "do"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "inversion"
                       },
                       {
                         "question": "No sooner had we arrived ___ it started to rain.",
@@ -668,7 +679,8 @@
                           "than",
                           "when"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "inversion"
                       },
                       {
                         "question": "___ the contract, she called the agent.",
@@ -676,7 +688,8 @@
                           "Having read",
                           "Read"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "participle_clauses"
                       },
                       {
                         "question": "___ in 1890, the building is beautiful.",
@@ -684,7 +697,8 @@
                           "Built",
                           "Building"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "participle_clauses"
                       }
                     ]
                   }
@@ -701,7 +715,8 @@
                           [
                             "was"
                           ]
-                        ]
+                        ],
+                        "tag": "cleft"
                       },
                       {
                         "sentence": "The reason I'm calm is ___ you have a plan.",
@@ -709,7 +724,8 @@
                           [
                             "that"
                           ]
-                        ]
+                        ],
+                        "tag": "cleft"
                       },
                       {
                         "sentence": "Little ___ I know how far it would go.",
@@ -717,7 +733,8 @@
                           [
                             "did"
                           ]
-                        ]
+                        ],
+                        "tag": "inversion"
                       },
                       {
                         "sentence": "Under no circumstances ___ you to cry.",
@@ -725,7 +742,8 @@
                           [
                             "are"
                           ]
-                        ]
+                        ],
+                        "tag": "inversion"
                       },
                       {
                         "sentence": "Not ___ an expert, I'd like to read it. (be)",
@@ -733,7 +751,8 @@
                           [
                             "being"
                           ]
-                        ]
+                        ],
+                        "tag": "participle_clauses"
                       },
                       {
                         "sentence": "___ by Mrs Green, we chose the name. (inspire)",
@@ -741,7 +760,8 @@
                           [
                             "Inspired"
                           ]
-                        ]
+                        ],
+                        "tag": "participle_clauses"
                       }
                     ]
                   }
@@ -756,27 +776,31 @@
                         "source": "Lo que necesito es un socio.",
                         "answers": [
                           "What I need is a partner"
-                        ]
+                        ],
+                        "tag": "cleft"
                       },
                       {
                         "source": "Nunca he trabajado con un equipo tan bueno.",
                         "answers": [
                           "Never have I worked with such a good team",
                           "I have never worked with such a good team"
-                        ]
+                        ],
+                        "tag": "inversion"
                       },
                       {
                         "source": "Poco sabía yo lo lejos que llegaría.",
                         "answers": [
                           "Little did I know how far it would go"
-                        ]
+                        ],
+                        "tag": "inversion"
                       },
                       {
                         "source": "Después de ver seis oficinas, elegimos esta.",
                         "answers": [
                           "Having seen six offices, we chose this one",
                           "Having seen six offices we chose this one"
-                        ]
+                        ],
+                        "tag": "participle_clauses"
                       }
                     ]
                   }

@@ -95,6 +95,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "ellipsis",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -228,6 +229,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "ellipsis",
                     "instructions": "Completa con la palabra que evita repetir.",
                     "items": [
                       {
@@ -301,6 +303,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
+                    "tag": "ellipsis",
                     "instructions": "Responde de forma natural, sin repetir.",
                     "items": [
                       {
@@ -337,6 +340,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "vague_language",
                     "instructions": "Completa con «so», «ish», «kind», «stuff», «something» u «odd».",
                     "items": [
                       {
@@ -396,6 +400,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "ellipsis",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

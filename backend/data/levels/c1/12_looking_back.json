@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "narrative_tenses",
                     "instructions": "Fíjate en el discurso y responde.",
                     "items": [
                       {
@@ -112,7 +113,8 @@
                           "Will you move to Madrid?",
                           "Will you dance with me?"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -217,6 +219,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "narrative_tenses",
                     "instructions": "Completa con la forma narrativa correcta.",
                     "items": [
                       {
@@ -291,6 +294,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
+                    "tag": "narrative_tenses",
                     "instructions": "Reescribe con la estructura indicada.",
                     "items": [
                       {
@@ -328,6 +332,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "passive_all",
                     "instructions": "Completa con «been», «being», «having» o «be».",
                     "items": [
                       {
@@ -385,6 +390,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "narrative_tenses",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -414,7 +420,8 @@
                         "answers": [
                           "Little did I know that this city would become my home",
                           "Little did I know this city would become my home"
-                        ]
+                        ],
+                        "tag": "inversion"
                       },
                       {
                         "source": "¿Quieres casarte conmigo?",
@@ -613,7 +620,8 @@
                           "so",
                           "yes"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "ellipsis"
                       },
                       {
                         "question": "I'd love to go. — So ___ I.",
@@ -621,7 +629,8 @@
                           "would",
                           "do"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "ellipsis"
                       },
                       {
                         "question": "I haven't seen it. — Neither ___ I.",
@@ -629,7 +638,8 @@
                           "have",
                           "do"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "ellipsis"
                       },
                       {
                         "question": "The film is ___ to start at nine.",
@@ -637,7 +647,8 @@
                           "due",
                           "bound"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "likelihood"
                       },
                       {
                         "question": "She's so good she's ___ to win.",
@@ -645,7 +656,8 @@
                           "bound",
                           "due"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "likelihood"
                       },
                       {
                         "question": "He had been ___ for hours when she arrived.",
@@ -653,7 +665,8 @@
                           "waiting",
                           "waited"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "narrative_tenses"
                       },
                       {
                         "question": "Every summer we ___ visit my grandparents.",
@@ -661,7 +674,8 @@
                           "would",
                           "had"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "narrative_tenses"
                       },
                       {
                         "question": "I ___ to think London was always foggy.",
@@ -669,7 +683,8 @@
                           "used",
                           "would"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "narrative_tenses"
                       }
                     ]
                   }
@@ -686,7 +701,8 @@
                           [
                             "not"
                           ]
-                        ]
+                        ],
+                        "tag": "ellipsis"
                       },
                       {
                         "sentence": "If you'd like ___.",
@@ -694,7 +710,8 @@
                           [
                             "to"
                           ]
-                        ]
+                        ],
+                        "tag": "ellipsis"
                       },
                       {
                         "sentence": "We're ___ to hire four people. (previsto)",
@@ -702,7 +719,8 @@
                           [
                             "set"
                           ]
-                        ]
+                        ],
+                        "tag": "likelihood"
                       },
                       {
                         "sentence": "They're on the ___ of closing.",
@@ -710,7 +728,8 @@
                           [
                             "verge"
                           ]
-                        ]
+                        ],
+                        "tag": "likelihood"
                       },
                       {
                         "sentence": "I had been ___ English for months. (study)",
@@ -718,7 +737,8 @@
                           [
                             "studying"
                           ]
-                        ]
+                        ],
+                        "tag": "narrative_tenses"
                       },
                       {
                         "sentence": "I ___ get lost every Saturday. (hábito)",
@@ -726,7 +746,8 @@
                           [
                             "would"
                           ]
-                        ]
+                        ],
+                        "tag": "narrative_tenses"
                       }
                     ]
                   }
@@ -741,28 +762,32 @@
                         "source": "Espero que no.",
                         "answers": [
                           "I hope not"
-                        ]
+                        ],
+                        "tag": "ellipsis"
                       },
                       {
                         "source": "Es casi seguro que llueva.",
                         "answers": [
                           "It's bound to rain",
                           "It is bound to rain"
-                        ]
+                        ],
+                        "tag": "likelihood"
                       },
                       {
                         "source": "Llevaba meses estudiando.",
                         "answers": [
                           "I had been studying for months",
                           "I'd been studying for months"
-                        ]
+                        ],
+                        "tag": "narrative_tenses"
                       },
                       {
                         "source": "Antes pensaba que era fácil.",
                         "answers": [
                           "I used to think it was easy",
                           "I used to think that it was easy"
-                        ]
+                        ],
+                        "tag": "narrative_tenses"
                       }
                     ]
                   }

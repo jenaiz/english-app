@@ -75,6 +75,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "nominalisation",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -108,7 +109,8 @@
                           "cancelling the pitch",
                           "going to bed"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -225,6 +227,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "nominalisation",
                     "instructions": "Completa con el nombre o la preposición.",
                     "items": [
                       {
@@ -298,6 +301,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
+                    "tag": "nominalisation",
                     "instructions": "Reescribe en registro formal.",
                     "items": [
                       {
@@ -332,6 +336,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "discourse_markers",
                     "instructions": "Completa con «nevertheless», «admittedly», «whereas», «that said», «mind you» u «on top of that».",
                     "items": [
                       {
@@ -391,6 +396,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "nominalisation",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

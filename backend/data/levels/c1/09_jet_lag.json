@@ -75,6 +75,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "future_in_past",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -231,6 +232,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "future_in_past",
                     "instructions": "Completa con la forma de futuro en pasado.",
                     "items": [
                       {
@@ -304,6 +306,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
+                    "tag": "future_in_past",
                     "instructions": "Reescribe con la estructura indicada.",
                     "items": [
                       {
@@ -338,6 +341,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "false_friends",
                     "instructions": "Escribe la palabra inglesa correcta.",
                     "items": [
                       {
@@ -401,6 +405,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "future_in_past",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -630,7 +635,8 @@
                           "decision",
                           "decidement"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "nominalisation"
                       },
                       {
                         "question": "There was a significant increase ___ bookings.",
@@ -638,7 +644,8 @@
                           "in",
                           "of"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "nominalisation"
                       },
                       {
                         "question": "Improved usability led ___ more sales.",
@@ -646,7 +653,8 @@
                           "to",
                           "in"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "nominalisation"
                       },
                       {
                         "question": "I ___ know that market well.",
@@ -654,7 +662,8 @@
                           "do",
                           "am"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "emphasis"
                       },
                       {
                         "question": "It was ___ an interesting day.",
@@ -662,7 +671,8 @@
                           "such",
                           "so"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "emphasis"
                       },
                       {
                         "question": "So impressive ___ the results that they signed.",
@@ -670,7 +680,8 @@
                           "were",
                           "did"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "emphasis"
                       },
                       {
                         "question": "I was ___ to call you when you rang.",
@@ -678,7 +689,8 @@
                           "about",
                           "going"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "future_in_past"
                       },
                       {
                         "question": "I was sure she ___ say yes.",
@@ -686,7 +698,8 @@
                           "would",
                           "will"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "future_in_past"
                       }
                     ]
                   }
@@ -703,7 +716,8 @@
                           [
                             "intention"
                           ]
-                        ]
+                        ],
+                        "tag": "nominalisation"
                       },
                       {
                         "sentence": "The studio experienced rapid ___. (grow)",
@@ -711,7 +725,8 @@
                           [
                             "growth"
                           ]
-                        ]
+                        ],
+                        "tag": "nominalisation"
                       },
                       {
                         "sentence": "We ___ prepare carefully. (did enfático)",
@@ -719,7 +734,8 @@
                           [
                             "did"
                           ]
-                        ]
+                        ],
+                        "tag": "emphasis"
                       },
                       {
                         "sentence": "I've heard ___ good things about her.",
@@ -727,7 +743,8 @@
                           [
                             "such"
                           ]
-                        ]
+                        ],
+                        "tag": "emphasis"
                       },
                       {
                         "sentence": "We were ___ to have a short meeting.",
@@ -735,7 +752,8 @@
                           [
                             "supposed"
                           ]
-                        ]
+                        ],
+                        "tag": "future_in_past"
                       },
                       {
                         "sentence": "You were going ___ call me!",
@@ -743,7 +761,8 @@
                           [
                             "to"
                           ]
-                        ]
+                        ],
+                        "tag": "future_in_past"
                       }
                     ]
                   }
@@ -758,20 +777,23 @@
                         "source": "Hubo un aumento significativo de las reservas.",
                         "answers": [
                           "There was a significant increase in bookings"
-                        ]
+                        ],
+                        "tag": "nominalisation"
                       },
                       {
                         "source": "Sí que conozco bien ese mercado.",
                         "answers": [
                           "I do know that market well",
                           "I do know that market very well"
-                        ]
+                        ],
+                        "tag": "emphasis"
                       },
                       {
                         "source": "Estaba a punto de llamarte.",
                         "answers": [
                           "I was about to call you"
-                        ]
+                        ],
+                        "tag": "future_in_past"
                       },
                       {
                         "source": "Estaba segura de que diría que no.",
@@ -779,7 +801,8 @@
                           "I was sure he would say no",
                           "I was sure that he would say no",
                           "I was sure he'd say no"
-                        ]
+                        ],
+                        "tag": "future_in_past"
                       }
                     ]
                   }

@@ -71,6 +71,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "preference_advice",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -79,7 +80,8 @@
                           "Yes, but it wasn't necessary",
                           "No"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "past_modals"
                       },
                       {
                         "question": "\"I'd rather we hired a designer first.\" After would rather + another subject, the verb is in…",
@@ -104,7 +106,8 @@
                           "Grace",
                           "Priya"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -167,6 +170,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "preference_advice",
                     "instructions": "Completa con la estructura correcta.",
                     "items": [
                       {
@@ -176,7 +180,8 @@
                             "needn't",
                             "need not"
                           ]
-                        ]
+                        ],
+                        "tag": "past_modals"
                       },
                       {
                         "sentence": "Who would you ___ hire?",
@@ -216,7 +221,8 @@
                           [
                             "come"
                           ]
-                        ]
+                        ],
+                        "tag": "past_modals"
                       },
                       {
                         "sentence": "I'd rather ___ there. (be)",
@@ -232,7 +238,8 @@
                           [
                             "need"
                           ]
-                        ]
+                        ],
+                        "tag": "past_modals"
                       }
                     ]
                   }
@@ -241,6 +248,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
+                    "tag": "preference_advice",
                     "instructions": "Reescribe con la estructura indicada.",
                     "items": [
                       {
@@ -248,7 +256,8 @@
                         "answers": [
                           "We needn't have brought food",
                           "We need not have brought food"
-                        ]
+                        ],
+                        "tag": "past_modals"
                       },
                       {
                         "source": "I prefer to stay at home. (would rather)",
@@ -278,6 +287,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "preference_advice",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -285,7 +295,8 @@
                         "answers": [
                           "You needn't have brought wine",
                           "You didn't need to bring wine"
-                        ]
+                        ],
+                        "tag": "past_modals"
                       },
                       {
                         "source": "Prefiero estar allí.",

@@ -75,6 +75,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "inversion",
                     "instructions": "Fíjate en el discurso y responde.",
                     "items": [
                       {
@@ -107,7 +108,8 @@
                           "un problema evidente del que nadie habla",
                           "un regalo enorme"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "vocab_idioms"
                       }
                     ]
                   }
@@ -175,6 +177,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "inversion",
                     "instructions": "Completa con el auxiliar o la palabra que falta.",
                     "items": [
                       {
@@ -248,6 +251,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
+                    "tag": "inversion",
                     "instructions": "Reescribe con inversión.",
                     "items": [
                       {
@@ -284,6 +288,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "inversion",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

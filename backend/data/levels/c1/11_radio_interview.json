@@ -75,6 +75,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "likelihood",
                     "instructions": "Fíjate en la entrevista y responde.",
                     "items": [
                       {
@@ -108,7 +109,8 @@
                           "say yes to everything",
                           "carry an umbrella"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -176,6 +178,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "likelihood",
                     "instructions": "Completa con la expresión de probabilidad.",
                     "items": [
                       {
@@ -249,6 +252,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
+                    "tag": "likelihood",
                     "instructions": "Reescribe con la expresión indicada.",
                     "items": [
                       {
@@ -284,6 +288,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "likelihood",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

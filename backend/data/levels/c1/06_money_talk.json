@@ -71,6 +71,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "conditionals_without_if",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -104,7 +105,8 @@
                           "half of the company",
                           "a free website"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -172,6 +174,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "conditionals_without_if",
                     "instructions": "Completa la expresión condicional.",
                     "items": [
                       {
@@ -248,6 +251,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
+                    "tag": "conditionals_without_if",
                     "instructions": "Reescribe sin «if».",
                     "items": [
                       {
@@ -285,6 +289,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "conditionals_without_if",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -518,7 +523,8 @@
                           "appear",
                           "seem"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "hedging"
                       },
                       {
                         "question": "Students ___ to prefer cheaper options.",
@@ -526,7 +532,8 @@
                           "tend",
                           "are tending"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "hedging"
                       },
                       {
                         "question": "I'm not ___ convinced.",
@@ -534,7 +541,8 @@
                           "entirely",
                           "entire"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "hedging"
                       },
                       {
                         "question": "You ___ have bought a cake. We had one.",
@@ -542,7 +550,8 @@
                           "needn't",
                           "mustn't"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "past_modals"
                       },
                       {
                         "question": "I'd rather you ___ tell anyone.",
@@ -550,7 +559,8 @@
                           "didn't",
                           "don't"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "preference_advice"
                       },
                       {
                         "question": "We'd ___ leave now.",
@@ -558,7 +568,8 @@
                           "better",
                           "rather"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "preference_advice"
                       },
                       {
                         "question": "I'll sign, ___ that you keep the price.",
@@ -566,7 +577,8 @@
                           "provided",
                           "unless"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "conditionals_without_if"
                       },
                       {
                         "question": "___ your help, we would have failed.",
@@ -574,7 +586,8 @@
                           "But for",
                           "Unless"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "conditionals_without_if"
                       }
                     ]
                   }
@@ -591,7 +604,8 @@
                           [
                             "well"
                           ]
-                        ]
+                        ],
+                        "tag": "hedging"
                       },
                       {
                         "sentence": "There ___ to be a problem.",
@@ -599,7 +613,8 @@
                           [
                             "seems"
                           ]
-                        ]
+                        ],
+                        "tag": "hedging"
                       },
                       {
                         "sentence": "I'd rather ___ there. (be)",
@@ -607,7 +622,8 @@
                           [
                             "be"
                           ]
-                        ]
+                        ],
+                        "tag": "preference_advice"
                       },
                       {
                         "sentence": "We'd better ___ waste time.",
@@ -615,7 +631,8 @@
                           [
                             "not"
                           ]
-                        ]
+                        ],
+                        "tag": "preference_advice"
                       },
                       {
                         "sentence": "As ___ as we keep control, it's fine.",
@@ -623,7 +640,8 @@
                           [
                             "long"
                           ]
-                        ]
+                        ],
+                        "tag": "conditionals_without_if"
                       },
                       {
                         "sentence": "___ he call, tell him I'm out.",
@@ -631,7 +649,8 @@
                           [
                             "Should"
                           ]
-                        ]
+                        ],
+                        "tag": "conditionals_without_if"
                       }
                     ]
                   }
@@ -647,21 +666,24 @@
                         "answers": [
                           "I'm not entirely convinced",
                           "I am not entirely convinced"
-                        ]
+                        ],
+                        "tag": "hedging"
                       },
                       {
                         "source": "Más vale que decidamos pronto.",
                         "answers": [
                           "We'd better decide soon",
                           "We had better decide soon"
-                        ]
+                        ],
+                        "tag": "preference_advice"
                       },
                       {
                         "source": "No hacía falta que vinieras.",
                         "answers": [
                           "You needn't have come",
                           "You didn't need to come"
-                        ]
+                        ],
+                        "tag": "past_modals"
                       },
                       {
                         "source": "De no ser por ti, no habríamos llegado tan lejos.",
@@ -669,7 +691,8 @@
                           "But for you, we would never have got this far",
                           "But for you, we wouldn't have got this far",
                           "If it hadn't been for you, we wouldn't have got this far"
-                        ]
+                        ],
+                        "tag": "conditionals_without_if"
                       }
                     ]
                   }

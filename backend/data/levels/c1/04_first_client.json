@@ -71,6 +71,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "hedging",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -104,7 +105,8 @@
                           "a discount",
                           "a free website"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -172,6 +174,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "hedging",
                     "instructions": "Completa con la expresión atenuada.",
                     "items": [
                       {
@@ -247,6 +250,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
+                    "tag": "hedging",
                     "instructions": "Suaviza la frase.",
                     "items": [
                       {
@@ -283,6 +287,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "hedging",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
