@@ -1,0 +1,519 @@
+{
+  "topic_id": "a1_a_an_the",
+  "level_id": "A1",
+  "title": "a / an o the (y sin artículo)",
+  "tags": [
+    "articles_demonstratives"
+  ],
+  "units": [
+    "shift_work"
+  ],
+  "order": 3,
+  "rule": {
+    "title": "Articles: a / an, the or no article",
+    "explanation": "«A» / «an» (un, una) presenta algo por primera vez, o algo cualquiera de su clase. También dice qué es alguien, por ejemplo su profesión:\n- «There's a new pub in Clifton.»\n- «I need a pen.» (uno cualquiera)\n- «She's a nurse.»\n\n«The» (el, la, los, las) habla de algo concreto: porque ya lo hemos dicho, porque está claro cuál es o porque solo hay uno:\n- «There's a new pub. The pub is great.»\n- «Can you close the door?» (la de esta habitación)\n- «the sun», «the moon», «the station» (la de la ciudad)\n\nSin artículo se usan las cosas en general, en plural o incontables, y expresiones fijas como «at home», «at work», «by bus», «on Monday» o «at night»:\n- «I love music.»\n- «Nurses work very hard.»\n- «I go to work by bus.»\n\nOjo: en español decimos «es enfermera», pero en inglés las profesiones llevan «a» / «an»: «She's a nurse», «He's an engineer». Y al revés: «Me encanta la música» es «I love music», sin «the».",
+    "table": {
+      "headers": [
+        "",
+        "Ejemplo",
+        "Por qué"
+      ],
+      "rows": [
+        [
+          "a / an",
+          "Sam is a musician.",
+          "profesión, primera vez"
+        ],
+        [
+          "the",
+          "He works at the pub.",
+          "un sitio concreto que conocemos"
+        ],
+        [
+          "a → the",
+          "I've got a cat. The cat is black.",
+          "primero a, después the"
+        ],
+        [
+          "sin artículo",
+          "I love music.",
+          "en general"
+        ],
+        [
+          "sin artículo",
+          "I go to work by bus.",
+          "expresiones fijas"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «a», «an» o «the».",
+      "bank": [
+        "a",
+        "an",
+        "the"
+      ],
+      "items": [
+        {
+          "id": "a1_a_an_the.001",
+          "sentence": "Priya is ___ nurse.",
+          "answers": [
+            [
+              "a"
+            ]
+          ],
+          "explanation": "Profesión: «a»."
+        },
+        {
+          "id": "a1_a_an_the.002",
+          "sentence": "Daniel is ___ engineer.",
+          "answers": [
+            [
+              "an"
+            ]
+          ],
+          "explanation": "Profesión, y «engineer» empieza por vocal."
+        },
+        {
+          "id": "a1_a_an_the.003",
+          "sentence": "I've got a dog. ___ dog's name is Rocky.",
+          "answers": [
+            [
+              "The"
+            ]
+          ],
+          "explanation": "Ya lo hemos dicho: «the»."
+        },
+        {
+          "id": "a1_a_an_the.004",
+          "sentence": "Look at ___ moon! It's beautiful.",
+          "answers": [
+            [
+              "the"
+            ]
+          ],
+          "explanation": "Solo hay una: «the»."
+        },
+        {
+          "id": "a1_a_an_the.005",
+          "sentence": "There's ___ new student in my class.",
+          "answers": [
+            [
+              "a"
+            ]
+          ],
+          "explanation": "Primera vez: «a»."
+        },
+        {
+          "id": "a1_a_an_the.006",
+          "sentence": "Can you open ___ window, please? It's hot.",
+          "answers": [
+            [
+              "the"
+            ]
+          ],
+          "explanation": "Está claro cuál: «the»."
+        },
+        {
+          "id": "a1_a_an_the.007",
+          "sentence": "There's ___ café near the station.",
+          "answers": [
+            [
+              "a"
+            ]
+          ],
+          "explanation": "Primera vez: «a»."
+        },
+        {
+          "id": "a1_a_an_the.008",
+          "sentence": "Where's ___ remote control? I can't find it.",
+          "answers": [
+            [
+              "the"
+            ]
+          ],
+          "explanation": "El de casa, está claro cuál: «the»."
+        },
+        {
+          "id": "a1_a_an_the.009",
+          "sentence": "Sam works at ___ pub on Park Street.",
+          "answers": [
+            [
+              "the"
+            ]
+          ]
+        },
+        {
+          "id": "a1_a_an_the.010",
+          "sentence": "I need ___ umbrella. It's raining!",
+          "answers": [
+            [
+              "an"
+            ]
+          ],
+          "explanation": "Uno cualquiera, empieza por vocal."
+        },
+        {
+          "id": "a1_a_an_the.011",
+          "sentence": "Can I have ___ glass of water, please?",
+          "answers": [
+            [
+              "a"
+            ]
+          ],
+          "explanation": "Uno cualquiera: «a»."
+        },
+        {
+          "id": "a1_a_an_the.012",
+          "sentence": "We live in ___ old house. ___ house is very cold in winter.",
+          "answers": [
+            [
+              "an"
+            ],
+            [
+              "The"
+            ]
+          ],
+          "explanation": "Primero «an», después «the»."
+        },
+        {
+          "id": "a1_a_an_the.013",
+          "sentence": "What time does ___ station open?",
+          "answers": [
+            [
+              "the"
+            ]
+          ]
+        },
+        {
+          "id": "a1_a_an_the.014",
+          "sentence": "Lucía has got ___ brother and a sister. ___ brother lives in Madrid.",
+          "answers": [
+            [
+              "a"
+            ],
+            [
+              "The"
+            ]
+          ],
+          "explanation": "Primero «a», después «the»."
+        },
+        {
+          "id": "a1_a_an_the.015",
+          "sentence": "Is there ___ bank near here?",
+          "answers": [
+            [
+              "a"
+            ]
+          ]
+        },
+        {
+          "id": "a1_a_an_the.016",
+          "sentence": "My brother is ___ actor.",
+          "answers": [
+            [
+              "an"
+            ]
+          ]
+        },
+        {
+          "id": "a1_a_an_the.017",
+          "sentence": "Let's go to ___ cinema tonight.",
+          "answers": [
+            [
+              "the"
+            ]
+          ],
+          "explanation": "Expresión habitual: «go to the cinema»."
+        },
+        {
+          "id": "a1_a_an_the.018",
+          "sentence": "Can you pass me ___ salt, please?",
+          "answers": [
+            [
+              "the"
+            ]
+          ],
+          "explanation": "Está claro cuál: la de la mesa."
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a1_a_an_the.101",
+          "question": "Mi hermana es médica.",
+          "options": [
+            "My sister is doctor.",
+            "My sister is a doctor."
+          ],
+          "answer": 1,
+          "explanation": "Las profesiones llevan «a» / «an»."
+        },
+        {
+          "id": "a1_a_an_the.102",
+          "question": "Me encanta la música.",
+          "options": [
+            "I love music.",
+            "I love the music."
+          ],
+          "answer": 0,
+          "explanation": "En general, sin artículo."
+        },
+        {
+          "id": "a1_a_an_the.103",
+          "question": "Tengo un gato. El gato es negro.",
+          "options": [
+            "I've got a cat. A cat is black.",
+            "I've got a cat. The cat is black."
+          ],
+          "answer": 1,
+          "explanation": "La segunda vez: «the»."
+        },
+        {
+          "id": "a1_a_an_the.104",
+          "question": "Voy al trabajo en autobús.",
+          "options": [
+            "I go to work by bus.",
+            "I go to the work by the bus."
+          ],
+          "answer": 0,
+          "explanation": "Expresiones fijas: «to work», «by bus»."
+        },
+        {
+          "id": "a1_a_an_the.105",
+          "question": "¿Puedes cerrar la puerta?",
+          "options": [
+            "Can you close the door?",
+            "Can you close a door?"
+          ],
+          "answer": 0,
+          "explanation": "Está claro cuál: «the»."
+        },
+        {
+          "id": "a1_a_an_the.106",
+          "question": "El sol brilla.",
+          "options": [
+            "The sun is shining.",
+            "Sun is shining."
+          ],
+          "answer": 0,
+          "explanation": "Solo hay uno: «the»."
+        },
+        {
+          "id": "a1_a_an_the.107",
+          "question": "Los perros son simpáticos.",
+          "options": [
+            "The dogs are friendly.",
+            "Dogs are friendly."
+          ],
+          "answer": 1,
+          "explanation": "En general: sin artículo."
+        },
+        {
+          "id": "a1_a_an_the.108",
+          "question": "Estoy en casa.",
+          "options": [
+            "I'm at home.",
+            "I'm at the home."
+          ],
+          "answer": 0,
+          "explanation": "Expresión fija: «at home»."
+        },
+        {
+          "id": "a1_a_an_the.109",
+          "question": "Necesito un bolígrafo.",
+          "options": [
+            "I need a pen.",
+            "I need the pen."
+          ],
+          "answer": 0,
+          "explanation": "Uno cualquiera: «a»."
+        },
+        {
+          "id": "a1_a_an_the.110",
+          "question": "Sam trabaja en el pub de la esquina.",
+          "options": [
+            "Sam works at the pub on the corner.",
+            "Sam works at a pub on the corner."
+          ],
+          "answer": 0,
+          "explanation": "Un pub concreto: «the»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Cada frase tiene un error con los artículos. Escríbela bien.",
+      "items": [
+        {
+          "id": "a1_a_an_the.201",
+          "prompt": "Corrige",
+          "source": "Helen is teacher.",
+          "answers": [
+            "Helen is a teacher"
+          ],
+          "explanation": "Profesión: «a»."
+        },
+        {
+          "id": "a1_a_an_the.202",
+          "prompt": "Corrige",
+          "source": "I love the football.",
+          "answers": [
+            "I love football"
+          ],
+          "explanation": "En general: sin artículo."
+        },
+        {
+          "id": "a1_a_an_the.203",
+          "prompt": "Corrige",
+          "source": "There's a bank near here. A bank opens at nine.",
+          "answers": [
+            "There's a bank near here. The bank opens at nine"
+          ],
+          "explanation": "La segunda vez: «the»."
+        },
+        {
+          "id": "a1_a_an_the.204",
+          "prompt": "Corrige",
+          "source": "I go to work by the car.",
+          "answers": [
+            "I go to work by car"
+          ],
+          "explanation": "Expresión fija: «by car»."
+        },
+        {
+          "id": "a1_a_an_the.205",
+          "prompt": "Corrige",
+          "source": "Look at a sky! It's so blue.",
+          "answers": [
+            "Look at the sky! It's so blue"
+          ],
+          "explanation": "Solo hay uno: «the»."
+        },
+        {
+          "id": "a1_a_an_the.206",
+          "prompt": "Corrige",
+          "source": "He's a engineer.",
+          "answers": [
+            "He's an engineer"
+          ],
+          "explanation": "«engineer» empieza por vocal: «an»."
+        },
+        {
+          "id": "a1_a_an_the.207",
+          "prompt": "Corrige",
+          "source": "The cats are independent animals.",
+          "answers": [
+            "Cats are independent animals"
+          ],
+          "explanation": "En general: sin artículo."
+        },
+        {
+          "id": "a1_a_an_the.208",
+          "prompt": "Corrige",
+          "source": "I'm at the home tonight.",
+          "answers": [
+            "I'm at home tonight"
+          ],
+          "explanation": "Expresión fija: «at home»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_a_an_the.301",
+          "source": "Es enfermera.",
+          "answers": [
+            "She's a nurse"
+          ]
+        },
+        {
+          "id": "a1_a_an_the.302",
+          "source": "Me encanta el chocolate.",
+          "answers": [
+            "I love chocolate"
+          ]
+        },
+        {
+          "id": "a1_a_an_the.303",
+          "source": "Hay un pub nuevo. El pub es genial.",
+          "answers": [
+            "There's a new pub. The pub is great"
+          ]
+        },
+        {
+          "id": "a1_a_an_the.304",
+          "source": "Voy al trabajo en bici.",
+          "answers": [
+            "I go to work by bike",
+            "I cycle to work"
+          ]
+        },
+        {
+          "id": "a1_a_an_the.305",
+          "source": "¿Puedes abrir la ventana?",
+          "answers": [
+            "Can you open the window"
+          ]
+        },
+        {
+          "id": "a1_a_an_the.306",
+          "source": "Mi padre es ingeniero.",
+          "answers": [
+            "My father is an engineer",
+            "My dad is an engineer"
+          ]
+        },
+        {
+          "id": "a1_a_an_the.307",
+          "source": "Los gatos duermen mucho.",
+          "answers": [
+            "Cats sleep a lot"
+          ]
+        },
+        {
+          "id": "a1_a_an_the.308",
+          "source": "Estoy en casa.",
+          "answers": [
+            "I'm at home"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_a_an_the.401",
+          "answer": "My brother is an actor"
+        },
+        {
+          "id": "a1_a_an_the.402",
+          "answer": "I love music and dogs"
+        },
+        {
+          "id": "a1_a_an_the.403",
+          "answer": "Can you close the door?"
+        },
+        {
+          "id": "a1_a_an_the.404",
+          "answer": "Sam works at the pub on Fridays"
+        },
+        {
+          "id": "a1_a_an_the.405",
+          "answer": "I go to work by bus"
+        }
+      ]
+    }
+  ]
+}

@@ -59,8 +59,11 @@ func TestPracticeOrder(t *testing.T) {
 		}
 	}
 	want := []string{"a1_to_be", "a1_possessives", "a1_a_some_any", "a1_plurals", "a1_this_that", "a1_possessive_s",
-		"a1_questions", "a1_in_on_at", "a1_there_is_are", "a1_how_much_many"}
-	if strings.Join(got[:len(want)], " ") != strings.Join(want, " ") {
+		"a1_questions", "a1_in_on_at", "a1_there_is_are", "a1_how_much_many", "a1_present_simple", "a1_linking_words",
+		"a1_present_simple_he_she", "a1_frequency_adverbs", "a1_a_an_the", "a1_place_imperatives", "a1_comparatives",
+		"a1_like_ing", "a1_object_pronouns", "a1_can_could", "a1_present_continuous", "a1_simple_vs_continuous",
+		"a1_going_to", "a1_was_were", "a1_past_simple"}
+	if strings.Join(got, " ") != strings.Join(want, " ") {
 		t.Errorf("A1 order:\n got %v\nwant %v", got, want)
 	}
 }
@@ -127,6 +130,26 @@ func TestPracticeValidation(t *testing.T) {
 		err := topic.validate(c, x)
 		if err == nil || !strings.Contains(err.Error(), tc.want) {
 			t.Errorf("%s: got %v, want an error with %q", tc.name, err, tc.want)
+		}
+	}
+}
+
+// A level with a practice bank covers its whole grammar syllabus: every grammar topic of its
+// exam (vocabulary topics aside) has at least one practice topic, so any mistake leads somewhere.
+func TestPracticeCoversSyllabus(t *testing.T) {
+	_, x, p := loadBundledPractice(t)
+	for level := range p.Levels() {
+		e, ok := x.ForLevel(level)
+		if !ok {
+			t.Fatalf("no exam for %s", level)
+		}
+		for _, topic := range e.Syllabus {
+			if strings.HasPrefix(topic.Tag, "vocab_") {
+				continue
+			}
+			if len(p.ForTag(topic.Tag)) == 0 {
+				t.Errorf("%s: syllabus topic %q (%s) has no practice topic", level, topic.Tag, topic.Label)
+			}
 		}
 	}
 }

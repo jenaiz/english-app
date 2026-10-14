@@ -1,0 +1,560 @@
+{
+  "topic_id": "a1_comparatives",
+  "level_id": "A1",
+  "title": "Comparativos y superlativos: bigger, the biggest",
+  "tags": [
+    "comparatives"
+  ],
+  "units": [
+    "around_town"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Comparatives and superlatives",
+    "explanation": "Para comparar dos cosas usamos el adjetivo + «-er» + «than». Con los adjetivos largos (de tres sílabas o más) se pone «more» delante:\n- «The supermarket is bigger than the corner shop.»\n- «The park is more beautiful than the square.»\n\nPara decir que algo es el más… de un grupo usamos «the» + adjetivo + «-est». Con los adjetivos largos, «the most»:\n- «It's the biggest supermarket in Bristol.»\n- «It's the most beautiful park in the city.»\n\nCambios de ortografía:\n- Consonante-vocal-consonante: se dobla la última: «big» → «bigger» → «the biggest», «hot» → «hotter»\n- Acabados en e: solo «-r» / «-st»: «nice» → «nicer» → «the nicest»\n- Consonante + y: «-ier» / «-iest»: «easy» → «easier», «happy» → «the happiest»\n\nIrregulares:\n- «good» → «better» → «the best»\n- «bad» → «worse» → «the worst»\n- «far» → «further» → «the furthest»\n\nOjo: nunca se mezclan las dos formas: «bigger» o «more beautiful», pero nunca «more bigger». Y detrás del superlativo, para un lugar, se usa «in»: «the best café in Bristol» (no «of Bristol»).",
+    "table": {
+      "headers": [
+        "Adjetivo",
+        "Comparativo",
+        "Superlativo"
+      ],
+      "rows": [
+        [
+          "cheap",
+          "cheaper than",
+          "the cheapest"
+        ],
+        [
+          "big",
+          "bigger than",
+          "the biggest"
+        ],
+        [
+          "easy",
+          "easier than",
+          "the easiest"
+        ],
+        [
+          "beautiful",
+          "more beautiful than",
+          "the most beautiful"
+        ],
+        [
+          "good",
+          "better than",
+          "the best"
+        ],
+        [
+          "bad",
+          "worse than",
+          "the worst"
+        ],
+        [
+          "far",
+          "further than",
+          "the furthest"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Escribe el comparativo del adjetivo entre paréntesis.",
+      "items": [
+        {
+          "id": "a1_comparatives.001",
+          "sentence": "The bus is ___ than a taxi. (cheap)",
+          "answers": [
+            [
+              "cheaper"
+            ]
+          ]
+        },
+        {
+          "id": "a1_comparatives.002",
+          "sentence": "My flat is ___ than your flat. (big)",
+          "answers": [
+            [
+              "bigger"
+            ]
+          ],
+          "explanation": "Se dobla la g."
+        },
+        {
+          "id": "a1_comparatives.003",
+          "sentence": "This café is ___ than the café on Park Street. (good)",
+          "answers": [
+            [
+              "better"
+            ]
+          ],
+          "explanation": "Irregular."
+        },
+        {
+          "id": "a1_comparatives.004",
+          "sentence": "Bristol is ___ than Bath. (expensive)",
+          "answers": [
+            [
+              "more expensive"
+            ]
+          ],
+          "explanation": "Adjetivo largo: «more»."
+        },
+        {
+          "id": "a1_comparatives.005",
+          "sentence": "Today is ___ than yesterday. (hot)",
+          "answers": [
+            [
+              "hotter"
+            ]
+          ],
+          "explanation": "Se dobla la t."
+        },
+        {
+          "id": "a1_comparatives.006",
+          "sentence": "English is ___ than German for me. (easy)",
+          "answers": [
+            [
+              "easier"
+            ]
+          ],
+          "explanation": "Consonante + y: «-ier»."
+        },
+        {
+          "id": "a1_comparatives.007",
+          "sentence": "The weather is ___ than last week. (bad)",
+          "answers": [
+            [
+              "worse"
+            ]
+          ],
+          "explanation": "Irregular."
+        },
+        {
+          "id": "a1_comparatives.008",
+          "sentence": "The station is ___ than the park. (far)",
+          "answers": [
+            [
+              "further"
+            ]
+          ],
+          "explanation": "Irregular."
+        },
+        {
+          "id": "a1_comparatives.009",
+          "sentence": "This street is ___ than the main road. (quiet)",
+          "answers": [
+            [
+              "quieter"
+            ]
+          ]
+        },
+        {
+          "id": "a1_comparatives.010",
+          "sentence": "The new pub is ___ than the old one. (nice)",
+          "answers": [
+            [
+              "nicer"
+            ]
+          ],
+          "explanation": "Acaba en e: solo «-r»."
+        },
+        {
+          "id": "a1_comparatives.011",
+          "sentence": "This film is ___ than the book. (interesting)",
+          "answers": [
+            [
+              "more interesting"
+            ]
+          ],
+          "explanation": "Adjetivo largo: «more»."
+        },
+        {
+          "id": "a1_comparatives.012",
+          "sentence": "Sam is ___ than Javi. (happy)",
+          "answers": [
+            [
+              "happier"
+            ]
+          ],
+          "explanation": "Consonante + y: «-ier»."
+        }
+      ]
+    },
+    {
+      "type": "fill_blanks",
+      "instructions": "Escribe el superlativo del adjetivo entre paréntesis.",
+      "items": [
+        {
+          "id": "a1_comparatives.101",
+          "sentence": "It's the ___ shop in town. (cheap)",
+          "answers": [
+            [
+              "cheapest"
+            ]
+          ]
+        },
+        {
+          "id": "a1_comparatives.102",
+          "sentence": "It's the ___ supermarket in Bristol. (big)",
+          "answers": [
+            [
+              "biggest"
+            ]
+          ]
+        },
+        {
+          "id": "a1_comparatives.103",
+          "sentence": "This is the ___ café in Clifton. (good)",
+          "answers": [
+            [
+              "best"
+            ]
+          ]
+        },
+        {
+          "id": "a1_comparatives.104",
+          "sentence": "It's the ___ park in the city. (beautiful)",
+          "answers": [
+            [
+              "most beautiful"
+            ]
+          ]
+        },
+        {
+          "id": "a1_comparatives.105",
+          "sentence": "Today is the ___ day of the year. (hot)",
+          "answers": [
+            [
+              "hottest"
+            ]
+          ]
+        },
+        {
+          "id": "a1_comparatives.106",
+          "sentence": "That was the ___ film of the year. (bad)",
+          "answers": [
+            [
+              "worst"
+            ]
+          ]
+        },
+        {
+          "id": "a1_comparatives.107",
+          "sentence": "This is the ___ exercise in the book. (easy)",
+          "answers": [
+            [
+              "easiest"
+            ]
+          ]
+        },
+        {
+          "id": "a1_comparatives.108",
+          "sentence": "Helen is the ___ person in the office. (busy)",
+          "answers": [
+            [
+              "busiest"
+            ]
+          ]
+        },
+        {
+          "id": "a1_comparatives.109",
+          "sentence": "It's the ___ restaurant in town. (expensive)",
+          "answers": [
+            [
+              "most expensive"
+            ]
+          ]
+        },
+        {
+          "id": "a1_comparatives.110",
+          "sentence": "Which is the ___ station from here? (far)",
+          "answers": [
+            [
+              "furthest"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a1_comparatives.201",
+          "question": "El tren es más rápido que el autobús.",
+          "options": [
+            "The train is faster than the bus.",
+            "The train is more fast than the bus."
+          ],
+          "answer": 0,
+          "explanation": "Adjetivo corto: «-er»."
+        },
+        {
+          "id": "a1_comparatives.202",
+          "question": "Es el mejor café de Bristol.",
+          "options": [
+            "It's the best café in Bristol.",
+            "It's the best café of Bristol."
+          ],
+          "answer": 0,
+          "explanation": "Lugar: «in»."
+        },
+        {
+          "id": "a1_comparatives.203",
+          "question": "Mi piso es más grande que el tuyo.",
+          "options": [
+            "My flat is more bigger than yours.",
+            "My flat is bigger than yours."
+          ],
+          "answer": 1,
+          "explanation": "Nunca «more bigger»."
+        },
+        {
+          "id": "a1_comparatives.204",
+          "question": "Este libro es más interesante.",
+          "options": [
+            "This book is interestinger.",
+            "This book is more interesting."
+          ],
+          "answer": 1,
+          "explanation": "Adjetivo largo: «more»."
+        },
+        {
+          "id": "a1_comparatives.205",
+          "question": "Hoy hace peor tiempo que ayer.",
+          "options": [
+            "The weather is worse than yesterday.",
+            "The weather is badder than yesterday."
+          ],
+          "answer": 0,
+          "explanation": "«bad» → «worse»."
+        },
+        {
+          "id": "a1_comparatives.206",
+          "question": "Es la ciudad más bonita de Inglaterra.",
+          "options": [
+            "It's the most beautiful city in England.",
+            "It's the beautifulest city in England."
+          ],
+          "answer": 0,
+          "explanation": "Adjetivo largo: «the most»."
+        },
+        {
+          "id": "a1_comparatives.207",
+          "question": "Sam es más alto que Javi.",
+          "options": [
+            "Sam is taller than Javi.",
+            "Sam is taller that Javi."
+          ],
+          "answer": 0,
+          "explanation": "Para comparar: «than»."
+        },
+        {
+          "id": "a1_comparatives.208",
+          "question": "El inglés es más fácil que el alemán.",
+          "options": [
+            "English is easier than German.",
+            "English is easyer than German."
+          ],
+          "answer": 0,
+          "explanation": "Consonante + y: «-ier»."
+        },
+        {
+          "id": "a1_comparatives.209",
+          "question": "La estación está más lejos.",
+          "options": [
+            "The station is further.",
+            "The station is farer."
+          ],
+          "answer": 0,
+          "explanation": "«far» → «further»."
+        },
+        {
+          "id": "a1_comparatives.210",
+          "question": "Es el día más caluroso.",
+          "options": [
+            "It's the hotest day.",
+            "It's the hottest day."
+          ],
+          "answer": 1,
+          "explanation": "Se dobla la t: «hottest»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "a1_comparatives.301",
+          "prompt": "Corrige",
+          "source": "The bus is more cheap than the train.",
+          "answers": [
+            "The bus is cheaper than the train"
+          ],
+          "explanation": "Adjetivo corto: «-er»."
+        },
+        {
+          "id": "a1_comparatives.302",
+          "prompt": "Corrige",
+          "source": "My room is biger than your room.",
+          "answers": [
+            "My room is bigger than your room"
+          ],
+          "explanation": "Se dobla la g."
+        },
+        {
+          "id": "a1_comparatives.303",
+          "prompt": "Corrige",
+          "source": "This is the better pizza in town.",
+          "answers": [
+            "This is the best pizza in town"
+          ],
+          "explanation": "Superlativo: «the best»."
+        },
+        {
+          "id": "a1_comparatives.304",
+          "prompt": "Corrige",
+          "source": "London is more expensive that Bristol.",
+          "answers": [
+            "London is more expensive than Bristol"
+          ],
+          "explanation": "«than», no «that»."
+        },
+        {
+          "id": "a1_comparatives.305",
+          "prompt": "Corrige",
+          "source": "It's the most big park in the city.",
+          "answers": [
+            "It's the biggest park in the city"
+          ],
+          "explanation": "Adjetivo corto: «the biggest»."
+        },
+        {
+          "id": "a1_comparatives.306",
+          "prompt": "Corrige",
+          "source": "Today is gooder than yesterday.",
+          "answers": [
+            "Today is better than yesterday"
+          ],
+          "explanation": "«good» → «better»."
+        },
+        {
+          "id": "a1_comparatives.307",
+          "prompt": "Corrige",
+          "source": "It's the oldest pub of Bristol.",
+          "answers": [
+            "It's the oldest pub in Bristol"
+          ],
+          "explanation": "Lugar: «in»."
+        },
+        {
+          "id": "a1_comparatives.308",
+          "prompt": "Corrige",
+          "source": "This exercise is more easy.",
+          "answers": [
+            "This exercise is easier"
+          ],
+          "explanation": "Consonante + y: «-ier»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_comparatives.401",
+          "source": "El autobús es más barato que el taxi.",
+          "answers": [
+            "The bus is cheaper than the taxi",
+            "The bus is cheaper than a taxi"
+          ]
+        },
+        {
+          "id": "a1_comparatives.402",
+          "source": "Es el supermercado más grande de Bristol.",
+          "answers": [
+            "It's the biggest supermarket in Bristol"
+          ]
+        },
+        {
+          "id": "a1_comparatives.403",
+          "source": "Este café es mejor.",
+          "answers": [
+            "This café is better",
+            "This coffee is better"
+          ]
+        },
+        {
+          "id": "a1_comparatives.404",
+          "source": "Bath es más bonita que Bristol.",
+          "answers": [
+            "Bath is more beautiful than Bristol",
+            "Bath is prettier than Bristol"
+          ]
+        },
+        {
+          "id": "a1_comparatives.405",
+          "source": "Es el peor día de la semana.",
+          "answers": [
+            "It's the worst day of the week"
+          ]
+        },
+        {
+          "id": "a1_comparatives.406",
+          "source": "Mi hermano es más alto que yo.",
+          "answers": [
+            "My brother is taller than me",
+            "My brother is taller than I am"
+          ]
+        },
+        {
+          "id": "a1_comparatives.407",
+          "source": "Es el restaurante más caro de la ciudad.",
+          "answers": [
+            "It's the most expensive restaurant in the city",
+            "It's the most expensive restaurant in town"
+          ]
+        },
+        {
+          "id": "a1_comparatives.408",
+          "source": "La estación está más lejos que el parque.",
+          "answers": [
+            "The station is further than the park",
+            "The station is farther than the park"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_comparatives.501",
+          "answer": "The bus is cheaper than a taxi"
+        },
+        {
+          "id": "a1_comparatives.502",
+          "answer": "It's the best café in Clifton"
+        },
+        {
+          "id": "a1_comparatives.503",
+          "answer": "My flat is bigger than yours"
+        },
+        {
+          "id": "a1_comparatives.504",
+          "answer": "Bath is more beautiful than Bristol"
+        },
+        {
+          "id": "a1_comparatives.505",
+          "answer": "This is the worst film of the year"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,562 @@
+{
+  "topic_id": "a1_present_simple",
+  "level_id": "A1",
+  "title": "Present simple: I, you, we, they",
+  "tags": [
+    "present_simple"
+  ],
+  "units": [
+    "my_week"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Present simple: I, you, we, they",
+    "explanation": "El present simple describe rutinas, hábitos y cosas que son verdad en general. Con «I», «you», «we» y «they» el verbo va en su forma base, sin cambios:\n- «I get up at seven.»\n- «We have dinner together on Fridays.»\n- «They live in Bristol.»\n\nLa negativa es «don't» («do not») + verbo:\n- «I don't work on Sundays.»\n- «We don't watch TV in the morning.»\n\nLa pregunta es «do» + sujeto + verbo, y la respuesta corta repite «do» o «don't»:\n- «Do you like Bristol? — Yes, I do. / No, I don't.»\n- «Do they speak Spanish? — Yes, they do.»\n\nCon palabras interrogativas, «do» va detrás de ellas:\n- «What do you do in the evenings?»\n- «Where do you live?»\n- «What time do you finish work?»\n\nOjo: en la pregunta y en la negativa el verbo principal nunca cambia: «Do you work?» (nunca «Do you works?» ni «You work?» sin «do»).",
+    "table": {
+      "headers": [
+        "",
+        "Afirmativa",
+        "Negativa",
+        "Pregunta"
+      ],
+      "rows": [
+        [
+          "I",
+          "I work",
+          "I don't work",
+          "Do I work?"
+        ],
+        [
+          "you",
+          "you work",
+          "you don't work",
+          "Do you work?"
+        ],
+        [
+          "we",
+          "we work",
+          "we don't work",
+          "Do we work?"
+        ],
+        [
+          "they",
+          "they work",
+          "they don't work",
+          "Do they work?"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el verbo entre paréntesis, en afirmativa o negativa.",
+      "items": [
+        {
+          "id": "a1_present_simple.001",
+          "sentence": "I ___ up at half past six. (get)",
+          "answers": [
+            [
+              "get"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple.002",
+          "sentence": "We ___ lunch at the office. (have)",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple.003",
+          "sentence": "They ___ in a small flat near the station. (live)",
+          "answers": [
+            [
+              "live"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple.004",
+          "sentence": "I ___ coffee. I prefer tea. (not / drink)",
+          "answers": [
+            [
+              "don't drink"
+            ]
+          ],
+          "explanation": "Negativa: «don't» + verbo."
+        },
+        {
+          "id": "a1_present_simple.005",
+          "sentence": "You ___ very fast! (walk)",
+          "answers": [
+            [
+              "walk"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple.006",
+          "sentence": "We ___ to work on Saturdays. (not / go)",
+          "answers": [
+            [
+              "don't go"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple.007",
+          "sentence": "My parents ___ Spanish and a little English. (speak)",
+          "answers": [
+            [
+              "speak"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple.008",
+          "sentence": "I ___ the bus to work every day. (take)",
+          "answers": [
+            [
+              "take"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple.009",
+          "sentence": "We ___ TV in the morning. (not / watch)",
+          "answers": [
+            [
+              "don't watch"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple.010",
+          "sentence": "You ___ a lot of books! (read)",
+          "answers": [
+            [
+              "read"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple.011",
+          "sentence": "They ___ meat. They're vegetarian. (not / eat)",
+          "answers": [
+            [
+              "don't eat"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple.012",
+          "sentence": "I ___ my mum every Sunday. (phone)",
+          "answers": [
+            [
+              "phone"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple.013",
+          "sentence": "Javi and Sam ___ video games at night. (play)",
+          "answers": [
+            [
+              "play"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple.014",
+          "sentence": "I ___ Mondays. (not / like)",
+          "answers": [
+            [
+              "don't like"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple.015",
+          "sentence": "We ___ at nine and we finish at five. (start)",
+          "answers": [
+            [
+              "start"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple.016",
+          "sentence": "You ___ the answer. I'm sure! (know)",
+          "answers": [
+            [
+              "know"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa la pregunta o la respuesta con «do» o «don't».",
+      "bank": [
+        "do",
+        "don't"
+      ],
+      "items": [
+        {
+          "id": "a1_present_simple.101",
+          "sentence": "___ you live near here? — Yes, I do.",
+          "answers": [
+            [
+              "Do"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple.102",
+          "sentence": "What time ___ you get up?",
+          "answers": [
+            [
+              "do"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple.103",
+          "sentence": "Do you like jazz? — No, I ___.",
+          "answers": [
+            [
+              "don't"
+            ]
+          ],
+          "explanation": "Respuesta corta negativa: «No, I don't»."
+        },
+        {
+          "id": "a1_present_simple.104",
+          "sentence": "Where ___ your parents live?",
+          "answers": [
+            [
+              "do"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple.105",
+          "sentence": "___ they work at the hospital? — Yes, they do.",
+          "answers": [
+            [
+              "Do"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple.106",
+          "sentence": "Do you speak French? — Yes, I ___. A little.",
+          "answers": [
+            [
+              "do"
+            ]
+          ],
+          "explanation": "Respuesta corta afirmativa: «Yes, I do»."
+        },
+        {
+          "id": "a1_present_simple.107",
+          "sentence": "What ___ you do in the evenings?",
+          "answers": [
+            [
+              "do"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple.108",
+          "sentence": "Do we need milk? — No, we ___. There's some in the fridge.",
+          "answers": [
+            [
+              "don't"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a1_present_simple.201",
+          "question": "¿Trabajas los sábados?",
+          "options": [
+            "Do you work on Saturdays?",
+            "You work on Saturdays?"
+          ],
+          "answer": 0,
+          "explanation": "La pregunta necesita «do»."
+        },
+        {
+          "id": "a1_present_simple.202",
+          "question": "No vivimos en el centro.",
+          "options": [
+            "We don't live in the centre.",
+            "We not live in the centre."
+          ],
+          "answer": 0,
+          "explanation": "Negativa: «don't» + verbo."
+        },
+        {
+          "id": "a1_present_simple.203",
+          "question": "¿Dónde viven tus padres?",
+          "options": [
+            "Where your parents live?",
+            "Where do your parents live?"
+          ],
+          "answer": 1,
+          "explanation": "Palabra interrogativa + «do» + sujeto + verbo."
+        },
+        {
+          "id": "a1_present_simple.204",
+          "question": "¿Te gusta el té? — Sí.",
+          "options": [
+            "Do you like tea? — Yes, I like.",
+            "Do you like tea? — Yes, I do."
+          ],
+          "answer": 1,
+          "explanation": "Respuesta corta: «Yes, I do»."
+        },
+        {
+          "id": "a1_present_simple.205",
+          "question": "No hablo alemán.",
+          "options": [
+            "I don't speak German.",
+            "I don't speaks German."
+          ],
+          "answer": 0,
+          "explanation": "Después de «don't», el verbo en forma base."
+        },
+        {
+          "id": "a1_present_simple.206",
+          "question": "Cenamos juntos los viernes.",
+          "options": [
+            "We have dinner together on Fridays.",
+            "We are have dinner together on Fridays."
+          ],
+          "answer": 0,
+          "explanation": "No se añade «are»: «We have»."
+        },
+        {
+          "id": "a1_present_simple.207",
+          "question": "¿Qué haces por la noche?",
+          "options": [
+            "What do you do in the evening?",
+            "What you do in the evening?"
+          ],
+          "answer": 0,
+          "explanation": "Falta «do» en la pregunta."
+        },
+        {
+          "id": "a1_present_simple.208",
+          "question": "Mis amigos no comen carne.",
+          "options": [
+            "My friends don't eat meat.",
+            "My friends doesn't eat meat."
+          ],
+          "answer": 0,
+          "explanation": "«My friends» = «they»: «don't»."
+        },
+        {
+          "id": "a1_present_simple.209",
+          "question": "¿A qué hora empiezas?",
+          "options": [
+            "What time do you start?",
+            "What time you start?"
+          ],
+          "answer": 0,
+          "explanation": "Palabra interrogativa + «do»."
+        },
+        {
+          "id": "a1_present_simple.210",
+          "question": "Siempre voy en autobús.",
+          "options": [
+            "I always go by bus.",
+            "I always going by bus."
+          ],
+          "answer": 0,
+          "explanation": "Rutina: present simple, «I go»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Transforma la frase como se indica.",
+      "items": [
+        {
+          "id": "a1_present_simple.301",
+          "prompt": "Negativa",
+          "source": "I work on Sundays.",
+          "answers": [
+            "I don't work on Sundays"
+          ]
+        },
+        {
+          "id": "a1_present_simple.302",
+          "prompt": "Pregunta",
+          "source": "You live in Bristol.",
+          "answers": [
+            "Do you live in Bristol"
+          ]
+        },
+        {
+          "id": "a1_present_simple.303",
+          "prompt": "Negativa",
+          "source": "We have a car.",
+          "answers": [
+            "We don't have a car"
+          ]
+        },
+        {
+          "id": "a1_present_simple.304",
+          "prompt": "Pregunta",
+          "source": "They speak English.",
+          "answers": [
+            "Do they speak English"
+          ]
+        },
+        {
+          "id": "a1_present_simple.305",
+          "prompt": "Corrige",
+          "source": "Do you works here?",
+          "answers": [
+            "Do you work here"
+          ],
+          "explanation": "Después de «do», el verbo en forma base."
+        },
+        {
+          "id": "a1_present_simple.306",
+          "prompt": "Corrige",
+          "source": "I not like coffee.",
+          "answers": [
+            "I don't like coffee"
+          ],
+          "explanation": "Negativa: «don't» + verbo."
+        },
+        {
+          "id": "a1_present_simple.307",
+          "prompt": "Corrige",
+          "source": "Where you live?",
+          "answers": [
+            "Where do you live"
+          ],
+          "explanation": "Falta «do»."
+        },
+        {
+          "id": "a1_present_simple.308",
+          "prompt": "Negativa",
+          "source": "My friends play football.",
+          "answers": [
+            "My friends don't play football"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_present_simple.401",
+          "source": "Me levanto a las siete.",
+          "answers": [
+            "I get up at seven",
+            "I get up at seven o'clock"
+          ]
+        },
+        {
+          "id": "a1_present_simple.402",
+          "source": "No trabajamos los domingos.",
+          "answers": [
+            "We don't work on Sundays",
+            "We don't work on Sunday"
+          ]
+        },
+        {
+          "id": "a1_present_simple.403",
+          "source": "¿Dónde vives?",
+          "answers": [
+            "Where do you live"
+          ]
+        },
+        {
+          "id": "a1_present_simple.404",
+          "source": "¿Hablas inglés? — Sí.",
+          "answers": [
+            "Do you speak English? Yes, I do",
+            "Do you speak English? Yes I do"
+          ]
+        },
+        {
+          "id": "a1_present_simple.405",
+          "source": "Mis padres viven en Valencia.",
+          "answers": [
+            "My parents live in Valencia"
+          ]
+        },
+        {
+          "id": "a1_present_simple.406",
+          "source": "No me gusta el café.",
+          "answers": [
+            "I don't like coffee"
+          ]
+        },
+        {
+          "id": "a1_present_simple.407",
+          "source": "¿A qué hora terminas?",
+          "answers": [
+            "What time do you finish"
+          ]
+        },
+        {
+          "id": "a1_present_simple.408",
+          "source": "Vemos la tele por la noche.",
+          "answers": [
+            "We watch TV in the evening",
+            "We watch TV at night"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_present_simple.501",
+          "answer": "I get up at seven"
+        },
+        {
+          "id": "a1_present_simple.502",
+          "answer": "Do you like your job?"
+        },
+        {
+          "id": "a1_present_simple.503",
+          "answer": "We don't work on Sundays"
+        },
+        {
+          "id": "a1_present_simple.504",
+          "answer": "Where do your parents live?"
+        },
+        {
+          "id": "a1_present_simple.505",
+          "answer": "They play tennis on Fridays"
+        },
+        {
+          "id": "a1_present_simple.506",
+          "answer": "What time do you start?"
+        }
+      ]
+    }
+  ]
+}

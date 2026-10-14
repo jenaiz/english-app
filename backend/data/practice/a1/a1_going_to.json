@@ -1,0 +1,452 @@
+{
+  "topic_id": "a1_going_to",
+  "level_id": "A1",
+  "title": "be going to: planes",
+  "tags": [
+    "going_to"
+  ],
+  "units": [
+    "rainy_day"
+  ],
+  "order": 3,
+  "rule": {
+    "title": "be going to: plans",
+    "explanation": "«Be going to» + verbo sirve para hablar de planes e intenciones, cosas que ya has decidido hacer:\n- «I'm going to watch a film tonight.» (voy a ver una película)\n- «Sam is going to play his guitar this afternoon.»\n\nSe forma con «am» / «is» / «are» + «going to» + verbo en forma base. La negativa lleva «not» y la pregunta pone «am» / «is» / «are» delante:\n- «We aren't going to go to the park.»\n- «What are you going to do tomorrow?»\n- «Are you going to stay at home? — Yes, I am. / No, I'm not.»\n\nSuele ir con expresiones de futuro, que van al principio o al final de la frase: «tonight», «tomorrow», «this afternoon», «next week», «at the weekend», «on Saturday».\n\nOjo: no olvides «am» / «is» / «are» ni «to»: «I'm going to buy…», nunca «I going to buy» ni «I'm going buy».",
+    "table": {
+      "headers": [
+        "",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Afirmativa",
+          "I'm going to watch a film tonight."
+        ],
+        [
+          "Negativa",
+          "We aren't going to go to the park."
+        ],
+        [
+          "Pregunta",
+          "What are you going to do tomorrow?"
+        ],
+        [
+          "Respuesta corta",
+          "Are you going to stay at home? — Yes, I am. / No, I'm not."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la forma correcta de «be going to» y el verbo entre paréntesis.",
+      "items": [
+        {
+          "id": "a1_going_to.001",
+          "sentence": "I ___ a film tonight. (watch)",
+          "answers": [
+            [
+              "'m going to watch",
+              "am going to watch"
+            ]
+          ]
+        },
+        {
+          "id": "a1_going_to.002",
+          "sentence": "Sam ___ his guitar this afternoon. (play)",
+          "answers": [
+            [
+              "'s going to play",
+              "is going to play"
+            ]
+          ]
+        },
+        {
+          "id": "a1_going_to.003",
+          "sentence": "We ___ to the park. It's raining! (not / go)",
+          "answers": [
+            [
+              "aren't going to go",
+              "'re not going to go",
+              "are not going to go"
+            ]
+          ]
+        },
+        {
+          "id": "a1_going_to.004",
+          "sentence": "What ___ you ___ tomorrow? (do)",
+          "answers": [
+            [
+              "are"
+            ],
+            [
+              "going to do"
+            ]
+          ]
+        },
+        {
+          "id": "a1_going_to.005",
+          "sentence": "Priya ___ her parents next week. (visit)",
+          "answers": [
+            [
+              "'s going to visit",
+              "is going to visit"
+            ]
+          ]
+        },
+        {
+          "id": "a1_going_to.006",
+          "sentence": "___ you ___ at home tonight? (stay)",
+          "answers": [
+            [
+              "Are"
+            ],
+            [
+              "going to stay"
+            ]
+          ]
+        },
+        {
+          "id": "a1_going_to.007",
+          "sentence": "They ___ a new car. (buy)",
+          "answers": [
+            [
+              "'re going to buy",
+              "are going to buy"
+            ]
+          ]
+        },
+        {
+          "id": "a1_going_to.008",
+          "sentence": "I ___ late tonight. I'm tired. (not / go out)",
+          "answers": [
+            [
+              "'m not going to go out",
+              "am not going to go out"
+            ]
+          ]
+        },
+        {
+          "id": "a1_going_to.009",
+          "sentence": "Daniel ___ English at the weekend. (study)",
+          "answers": [
+            [
+              "'s going to study",
+              "is going to study"
+            ]
+          ]
+        },
+        {
+          "id": "a1_going_to.010",
+          "sentence": "___ it ___ today? Look at the sky! (rain)",
+          "answers": [
+            [
+              "Is"
+            ],
+            [
+              "going to rain"
+            ]
+          ]
+        },
+        {
+          "id": "a1_going_to.011",
+          "sentence": "We ___ a party on Saturday. (have)",
+          "answers": [
+            [
+              "'re going to have",
+              "are going to have"
+            ]
+          ]
+        },
+        {
+          "id": "a1_going_to.012",
+          "sentence": "Are you going to call Helen? — Yes, I ___.",
+          "answers": [
+            [
+              "am"
+            ]
+          ],
+          "explanation": "Respuesta corta: «Yes, I am»."
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a1_going_to.101",
+          "question": "Voy a ver una película esta noche.",
+          "options": [
+            "I'm going to watch a film tonight.",
+            "I going to watch a film tonight."
+          ],
+          "answer": 0,
+          "explanation": "Falta «am»: «I'm going to…»."
+        },
+        {
+          "id": "a1_going_to.102",
+          "question": "¿Qué vas a hacer mañana?",
+          "options": [
+            "What are you going to do tomorrow?",
+            "What you are going to do tomorrow?"
+          ],
+          "answer": 0,
+          "explanation": "En la pregunta, «are» va delante del sujeto."
+        },
+        {
+          "id": "a1_going_to.103",
+          "question": "No vamos a salir.",
+          "options": [
+            "We aren't going to go out.",
+            "We don't going to go out."
+          ],
+          "answer": 0,
+          "explanation": "Negativa: «aren't going to»."
+        },
+        {
+          "id": "a1_going_to.104",
+          "question": "Sam va a tocar la guitarra.",
+          "options": [
+            "Sam is going to play the guitar.",
+            "Sam is going play the guitar."
+          ],
+          "answer": 0,
+          "explanation": "Falta «to»."
+        },
+        {
+          "id": "a1_going_to.105",
+          "question": "¿Vas a quedarte en casa? — Sí.",
+          "options": [
+            "Are you going to stay at home? — Yes, I am.",
+            "Are you going to stay at home? — Yes, I'm."
+          ],
+          "answer": 0,
+          "explanation": "Respuesta corta: «Yes, I am»."
+        },
+        {
+          "id": "a1_going_to.106",
+          "question": "Priya va a visitar a sus padres.",
+          "options": [
+            "Priya is going to visit her parents.",
+            "Priya is going to visits her parents."
+          ],
+          "answer": 0,
+          "explanation": "Verbo en forma base."
+        },
+        {
+          "id": "a1_going_to.107",
+          "question": "Vamos a tener una fiesta el sábado.",
+          "options": [
+            "We're going to have a party on Saturday.",
+            "We're going to have a party the Saturday."
+          ],
+          "answer": 0,
+          "explanation": "Días: «on Saturday»."
+        },
+        {
+          "id": "a1_going_to.108",
+          "question": "Va a llover.",
+          "options": [
+            "It's going to rain.",
+            "It's going to raining."
+          ],
+          "answer": 0,
+          "explanation": "Verbo en forma base."
+        },
+        {
+          "id": "a1_going_to.109",
+          "question": "Voy a comprar pan.",
+          "options": [
+            "I'm going to buy some bread.",
+            "I'm go to buy some bread."
+          ],
+          "answer": 0,
+          "explanation": "«going to», no «go to»."
+        },
+        {
+          "id": "a1_going_to.110",
+          "question": "No voy a trabajar mañana.",
+          "options": [
+            "I'm not going to work tomorrow.",
+            "I'm not going to work on tomorrow."
+          ],
+          "answer": 0,
+          "explanation": "Con «tomorrow», sin preposición."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Transforma o corrige la frase como se indica.",
+      "items": [
+        {
+          "id": "a1_going_to.201",
+          "prompt": "Negativa",
+          "source": "I'm going to cook tonight.",
+          "answers": [
+            "I'm not going to cook tonight"
+          ]
+        },
+        {
+          "id": "a1_going_to.202",
+          "prompt": "Pregunta",
+          "source": "Sam is going to play tonight.",
+          "answers": [
+            "Is Sam going to play tonight"
+          ]
+        },
+        {
+          "id": "a1_going_to.203",
+          "prompt": "Negativa",
+          "source": "We're going to buy a car.",
+          "answers": [
+            "We aren't going to buy a car",
+            "We're not going to buy a car"
+          ]
+        },
+        {
+          "id": "a1_going_to.204",
+          "prompt": "Pregunta",
+          "source": "They're going to stay at home.",
+          "answers": [
+            "Are they going to stay at home"
+          ]
+        },
+        {
+          "id": "a1_going_to.205",
+          "prompt": "Corrige",
+          "source": "I going to visit my parents.",
+          "answers": [
+            "I'm going to visit my parents"
+          ],
+          "explanation": "Falta «am»."
+        },
+        {
+          "id": "a1_going_to.206",
+          "prompt": "Corrige",
+          "source": "She's going visit Bath.",
+          "answers": [
+            "She's going to visit Bath"
+          ],
+          "explanation": "Falta «to»."
+        },
+        {
+          "id": "a1_going_to.207",
+          "prompt": "Corrige",
+          "source": "What you are going to do?",
+          "answers": [
+            "What are you going to do"
+          ],
+          "explanation": "En la pregunta, «are» va delante del sujeto."
+        },
+        {
+          "id": "a1_going_to.208",
+          "prompt": "Corrige",
+          "source": "We're going to watching a film.",
+          "answers": [
+            "We're going to watch a film"
+          ],
+          "explanation": "Verbo en forma base."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_going_to.301",
+          "source": "Voy a ver una película esta noche.",
+          "answers": [
+            "I'm going to watch a film tonight",
+            "I'm going to see a film tonight",
+            "I'm going to watch a movie tonight"
+          ]
+        },
+        {
+          "id": "a1_going_to.302",
+          "source": "¿Qué vas a hacer mañana?",
+          "answers": [
+            "What are you going to do tomorrow"
+          ]
+        },
+        {
+          "id": "a1_going_to.303",
+          "source": "No vamos a ir al parque.",
+          "answers": [
+            "We aren't going to go to the park",
+            "We're not going to go to the park"
+          ]
+        },
+        {
+          "id": "a1_going_to.304",
+          "source": "Priya va a visitar a su familia.",
+          "answers": [
+            "Priya is going to visit her family"
+          ]
+        },
+        {
+          "id": "a1_going_to.305",
+          "source": "¿Vas a quedarte en casa?",
+          "answers": [
+            "Are you going to stay at home"
+          ]
+        },
+        {
+          "id": "a1_going_to.306",
+          "source": "Va a llover.",
+          "answers": [
+            "It's going to rain"
+          ]
+        },
+        {
+          "id": "a1_going_to.307",
+          "source": "Sam va a tocar la guitarra esta tarde.",
+          "answers": [
+            "Sam is going to play the guitar this afternoon",
+            "Sam is going to play his guitar this afternoon"
+          ]
+        },
+        {
+          "id": "a1_going_to.308",
+          "source": "Vamos a hacer una fiesta el sábado.",
+          "answers": [
+            "We're going to have a party on Saturday"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_going_to.401",
+          "answer": "I'm going to watch a film tonight"
+        },
+        {
+          "id": "a1_going_to.402",
+          "answer": "What are you going to do tomorrow?"
+        },
+        {
+          "id": "a1_going_to.403",
+          "answer": "We aren't going to go out"
+        },
+        {
+          "id": "a1_going_to.404",
+          "answer": "Is it going to rain?"
+        },
+        {
+          "id": "a1_going_to.405",
+          "answer": "Sam is going to play his guitar"
+        },
+        {
+          "id": "a1_going_to.406",
+          "answer": "They're going to buy a new car"
+        }
+      ]
+    }
+  ]
+}

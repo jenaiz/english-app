@@ -1,0 +1,559 @@
+{
+  "topic_id": "a1_place_imperatives",
+  "level_id": "A1",
+  "title": "Preposiciones de lugar e imperativos",
+  "tags": [
+    "place_imperatives"
+  ],
+  "units": [
+    "around_town"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Prepositions of place and the imperative",
+    "explanation": "Las preposiciones de lugar dicen dónde está algo:\n- «next to» (al lado de), «opposite» (enfrente de), «between» (entre), «behind» (detrás de), «in front of» (delante de), «near» (cerca de)\n- «in» (dentro de, en una ciudad o un país), «on» (encima de, en una calle), «under» (debajo de)\n\nEjemplos:\n- «The bank is next to the café.»\n- «The chemist's is between the bank and the post office.»\n- «My keys are on the table.»\n- «It's on Park Street, in Bristol.»\n\nPara dar indicaciones usamos el imperativo, es decir, el verbo sin sujeto. En negativo, con «don't»:\n- «Go straight on.»\n- «Turn left at the bank.»\n- «Take the second right.»\n- «Don't cross here.»\n\nPara preguntar por un sitio:\n- «Excuse me, is there a bank near here?»\n- «Where's the station, please?»\n\nOjo: «in front of» es delante de, no enfrente de. Enfrente de (al otro lado de la calle) es «opposite».",
+    "table": {
+      "headers": [
+        "Preposición",
+        "Significado",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "next to",
+          "al lado de",
+          "The bank is next to the café."
+        ],
+        [
+          "opposite",
+          "enfrente de",
+          "It's opposite the cinema."
+        ],
+        [
+          "between",
+          "entre",
+          "It's between the bank and the bookshop."
+        ],
+        [
+          "behind",
+          "detrás de",
+          "The car park is behind the station."
+        ],
+        [
+          "in front of",
+          "delante de",
+          "The bus stop is in front of the library."
+        ],
+        [
+          "under",
+          "debajo de",
+          "The cat is under the bed."
+        ],
+        [
+          "on",
+          "en (una calle), encima de",
+          "It's on Park Street."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la preposición correcta.",
+      "items": [
+        {
+          "id": "a1_place_imperatives.001",
+          "sentence": "The bank is ___ ___ the café.",
+          "answers": [
+            [
+              "next"
+            ],
+            [
+              "to"
+            ]
+          ],
+          "hint": "al lado de"
+        },
+        {
+          "id": "a1_place_imperatives.002",
+          "sentence": "The cinema is ___ the supermarket, on the other side of the street.",
+          "answers": [
+            [
+              "opposite"
+            ]
+          ],
+          "hint": "enfrente de"
+        },
+        {
+          "id": "a1_place_imperatives.003",
+          "sentence": "The chemist's is ___ the bank and the bookshop.",
+          "answers": [
+            [
+              "between"
+            ]
+          ],
+          "hint": "entre"
+        },
+        {
+          "id": "a1_place_imperatives.004",
+          "sentence": "The car park is ___ the station.",
+          "answers": [
+            [
+              "behind"
+            ]
+          ],
+          "hint": "detrás de"
+        },
+        {
+          "id": "a1_place_imperatives.005",
+          "sentence": "The bus stop is ___ ___ ___ the library.",
+          "answers": [
+            [
+              "in"
+            ],
+            [
+              "front"
+            ],
+            [
+              "of"
+            ]
+          ],
+          "hint": "delante de"
+        },
+        {
+          "id": "a1_place_imperatives.006",
+          "sentence": "The cat is ___ the bed.",
+          "answers": [
+            [
+              "under"
+            ]
+          ],
+          "hint": "debajo de"
+        },
+        {
+          "id": "a1_place_imperatives.007",
+          "sentence": "My keys are ___ the table.",
+          "answers": [
+            [
+              "on"
+            ]
+          ],
+          "hint": "encima de"
+        },
+        {
+          "id": "a1_place_imperatives.008",
+          "sentence": "The museum is ___ Park Street.",
+          "answers": [
+            [
+              "on"
+            ]
+          ],
+          "explanation": "Con calles: «on»."
+        },
+        {
+          "id": "a1_place_imperatives.009",
+          "sentence": "Lucía lives ___ Bristol.",
+          "answers": [
+            [
+              "in"
+            ]
+          ],
+          "explanation": "Con ciudades: «in»."
+        },
+        {
+          "id": "a1_place_imperatives.010",
+          "sentence": "Is there a supermarket ___ here?",
+          "answers": [
+            [
+              "near"
+            ]
+          ],
+          "hint": "cerca de"
+        },
+        {
+          "id": "a1_place_imperatives.011",
+          "sentence": "The milk is ___ the fridge.",
+          "answers": [
+            [
+              "in"
+            ]
+          ],
+          "hint": "dentro de"
+        },
+        {
+          "id": "a1_place_imperatives.012",
+          "sentence": "There's a park ___ my house. I can see it from my window.",
+          "answers": [
+            [
+              "opposite"
+            ]
+          ],
+          "hint": "enfrente de"
+        }
+      ]
+    },
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa las indicaciones con «go», «turn», «take», «cross» o «don't».",
+      "bank": [
+        "go",
+        "turn",
+        "take",
+        "cross",
+        "don't"
+      ],
+      "items": [
+        {
+          "id": "a1_place_imperatives.101",
+          "sentence": "___ straight on.",
+          "answers": [
+            [
+              "Go"
+            ]
+          ]
+        },
+        {
+          "id": "a1_place_imperatives.102",
+          "sentence": "___ left at the bank.",
+          "answers": [
+            [
+              "Turn"
+            ]
+          ]
+        },
+        {
+          "id": "a1_place_imperatives.103",
+          "sentence": "___ the second street on the right.",
+          "answers": [
+            [
+              "Take"
+            ]
+          ]
+        },
+        {
+          "id": "a1_place_imperatives.104",
+          "sentence": "___ the road at the traffic lights.",
+          "answers": [
+            [
+              "Cross"
+            ]
+          ]
+        },
+        {
+          "id": "a1_place_imperatives.105",
+          "sentence": "___ turn right. Turn left!",
+          "answers": [
+            [
+              "Don't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_place_imperatives.106",
+          "sentence": "___ right after the bridge.",
+          "answers": [
+            [
+              "Turn"
+            ]
+          ]
+        },
+        {
+          "id": "a1_place_imperatives.107",
+          "sentence": "___ the number 8 bus.",
+          "answers": [
+            [
+              "Take"
+            ]
+          ]
+        },
+        {
+          "id": "a1_place_imperatives.108",
+          "sentence": "___ walk on the grass, please.",
+          "answers": [
+            [
+              "Don't"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a1_place_imperatives.201",
+          "question": "El cine está enfrente del banco.",
+          "options": [
+            "The cinema is in front of the bank.",
+            "The cinema is opposite the bank."
+          ],
+          "answer": 1,
+          "explanation": "Enfrente de (al otro lado): «opposite»."
+        },
+        {
+          "id": "a1_place_imperatives.202",
+          "question": "Gira a la izquierda.",
+          "options": [
+            "Turn left.",
+            "You turn left, please."
+          ],
+          "answer": 0,
+          "explanation": "Imperativo: el verbo sin sujeto."
+        },
+        {
+          "id": "a1_place_imperatives.203",
+          "question": "No cruces aquí.",
+          "options": [
+            "Don't cross here.",
+            "No cross here."
+          ],
+          "answer": 0,
+          "explanation": "Imperativo negativo: «Don't»."
+        },
+        {
+          "id": "a1_place_imperatives.204",
+          "question": "Está en Park Street.",
+          "options": [
+            "It's in Park Street.",
+            "It's on Park Street."
+          ],
+          "answer": 1,
+          "explanation": "Con calles: «on»."
+        },
+        {
+          "id": "a1_place_imperatives.205",
+          "question": "La farmacia está entre el banco y la librería.",
+          "options": [
+            "The chemist's is between the bank and the bookshop.",
+            "The chemist's is next the bank and the bookshop."
+          ],
+          "answer": 0,
+          "explanation": "Entre: «between… and…»."
+        },
+        {
+          "id": "a1_place_imperatives.206",
+          "question": "¿Hay un banco cerca?",
+          "options": [
+            "Is there a bank near here?",
+            "Is there a bank near of here?"
+          ],
+          "answer": 0,
+          "explanation": "«near», sin «of»."
+        },
+        {
+          "id": "a1_place_imperatives.207",
+          "question": "Las llaves están debajo del libro.",
+          "options": [
+            "The keys are under the book.",
+            "The keys are on the book."
+          ],
+          "answer": 0,
+          "explanation": "Debajo: «under»."
+        },
+        {
+          "id": "a1_place_imperatives.208",
+          "question": "Sigue recto.",
+          "options": [
+            "Go straight on.",
+            "Go straight in."
+          ],
+          "answer": 0,
+          "explanation": "Expresión fija: «Go straight on»."
+        },
+        {
+          "id": "a1_place_imperatives.209",
+          "question": "El parque está al lado de la estación.",
+          "options": [
+            "The park is next to the station.",
+            "The park is next the station."
+          ],
+          "answer": 0,
+          "explanation": "«next to», con «to»."
+        },
+        {
+          "id": "a1_place_imperatives.210",
+          "question": "Coge la segunda a la derecha.",
+          "options": [
+            "Take the second right.",
+            "Take the second on right."
+          ],
+          "answer": 0,
+          "explanation": "«Take the second right»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "a1_place_imperatives.301",
+          "prompt": "Corrige",
+          "source": "The bank is next the café.",
+          "answers": [
+            "The bank is next to the café"
+          ],
+          "explanation": "«next to», con «to»."
+        },
+        {
+          "id": "a1_place_imperatives.302",
+          "prompt": "Corrige",
+          "source": "You turn left at the bank.",
+          "answers": [
+            "Turn left at the bank"
+          ],
+          "explanation": "Imperativo: sin sujeto."
+        },
+        {
+          "id": "a1_place_imperatives.303",
+          "prompt": "Corrige",
+          "source": "No turn right here.",
+          "answers": [
+            "Don't turn right here"
+          ],
+          "explanation": "Imperativo negativo: «Don't»."
+        },
+        {
+          "id": "a1_place_imperatives.304",
+          "prompt": "Corrige",
+          "source": "The shop is in Park Street.",
+          "answers": [
+            "The shop is on Park Street"
+          ],
+          "explanation": "Con calles: «on»."
+        },
+        {
+          "id": "a1_place_imperatives.305",
+          "prompt": "Corrige",
+          "source": "The cinema is between the bank or the pub.",
+          "answers": [
+            "The cinema is between the bank and the pub"
+          ],
+          "explanation": "«between… and…»."
+        },
+        {
+          "id": "a1_place_imperatives.306",
+          "prompt": "Corrige",
+          "source": "Is there a chemist's near of here?",
+          "answers": [
+            "Is there a chemist's near here"
+          ],
+          "explanation": "«near», sin «of»."
+        },
+        {
+          "id": "a1_place_imperatives.307",
+          "prompt": "Corrige",
+          "source": "Go straight in and turn right.",
+          "answers": [
+            "Go straight on and turn right"
+          ],
+          "explanation": "«Go straight on»."
+        },
+        {
+          "id": "a1_place_imperatives.308",
+          "prompt": "Corrige",
+          "source": "The cat is in under the table.",
+          "answers": [
+            "The cat is under the table"
+          ],
+          "explanation": "Sobra «in»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_place_imperatives.401",
+          "source": "Está al lado del supermercado.",
+          "answers": [
+            "It's next to the supermarket"
+          ]
+        },
+        {
+          "id": "a1_place_imperatives.402",
+          "source": "Gira a la derecha en el banco.",
+          "answers": [
+            "Turn right at the bank"
+          ]
+        },
+        {
+          "id": "a1_place_imperatives.403",
+          "source": "Sigue recto.",
+          "answers": [
+            "Go straight on"
+          ]
+        },
+        {
+          "id": "a1_place_imperatives.404",
+          "source": "El cine está enfrente de la estación.",
+          "answers": [
+            "The cinema is opposite the station"
+          ]
+        },
+        {
+          "id": "a1_place_imperatives.405",
+          "source": "¿Hay una farmacia cerca de aquí?",
+          "answers": [
+            "Is there a chemist's near here",
+            "Is there a pharmacy near here"
+          ]
+        },
+        {
+          "id": "a1_place_imperatives.406",
+          "source": "No gires a la izquierda.",
+          "answers": [
+            "Don't turn left"
+          ]
+        },
+        {
+          "id": "a1_place_imperatives.407",
+          "source": "Mis llaves están encima de la mesa.",
+          "answers": [
+            "My keys are on the table"
+          ]
+        },
+        {
+          "id": "a1_place_imperatives.408",
+          "source": "La parada de autobús está delante de la biblioteca.",
+          "answers": [
+            "The bus stop is in front of the library"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_place_imperatives.501",
+          "answer": "The bank is next to the café"
+        },
+        {
+          "id": "a1_place_imperatives.502",
+          "answer": "Turn left at the traffic lights"
+        },
+        {
+          "id": "a1_place_imperatives.503",
+          "answer": "Is there a chemist's near here?"
+        },
+        {
+          "id": "a1_place_imperatives.504",
+          "answer": "Don't cross the road here"
+        },
+        {
+          "id": "a1_place_imperatives.505",
+          "answer": "It's opposite the cinema"
+        },
+        {
+          "id": "a1_place_imperatives.506",
+          "answer": "Take the second street on the right"
+        }
+      ]
+    }
+  ]
+}

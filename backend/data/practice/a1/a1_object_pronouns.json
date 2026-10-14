@@ -1,0 +1,491 @@
+{
+  "topic_id": "a1_object_pronouns",
+  "level_id": "A1",
+  "title": "Pronombres objeto: me, you, him, her, us, them",
+  "tags": [
+    "pronouns_possessives"
+  ],
+  "units": [
+    "free_time"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Object pronouns",
+    "explanation": "Los pronombres sujeto («I», «he», «she»…) hacen la acción y van delante del verbo. Los pronombres objeto la reciben y van detrás del verbo o de una preposición:\n- «I», «you», «he», «she», «it», «we», «they» (sujeto)\n- «me», «you», «him», «her», «it», «us», «them» (objeto)\n\nEjemplos:\n- «I love it.»\n- «She talks about you.»\n- «Come with me.»\n- «Do you like Sam? — Yes, I like him a lot.»\n\nEn español el pronombre va delante del verbo («la quiero»), pero en inglés va detrás: «I love her». Nunca «I her love».\n\nOjo: después de una preposición («with», «for», «about», «to»…) va siempre el pronombre objeto: «for me», «with them», «about us» (nunca «for I» ni «with they»).",
+    "table": {
+      "headers": [
+        "Sujeto",
+        "Objeto",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "I",
+          "me",
+          "Come with me!"
+        ],
+        [
+          "you",
+          "you",
+          "She talks about you."
+        ],
+        [
+          "he",
+          "him",
+          "Do you like him?"
+        ],
+        [
+          "she",
+          "her",
+          "I like her."
+        ],
+        [
+          "it",
+          "it",
+          "We love it!"
+        ],
+        [
+          "we",
+          "us",
+          "Sam plays for us."
+        ],
+        [
+          "they",
+          "them",
+          "I love them."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el pronombre objeto que corresponde a lo que va entre paréntesis.",
+      "bank": [
+        "me",
+        "you",
+        "him",
+        "her",
+        "it",
+        "us",
+        "them"
+      ],
+      "items": [
+        {
+          "id": "a1_object_pronouns.001",
+          "sentence": "Sam is brilliant. I like ___. (Sam)",
+          "answers": [
+            [
+              "him"
+            ]
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.002",
+          "sentence": "Priya is very kind. We love ___. (Priya)",
+          "answers": [
+            [
+              "her"
+            ]
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.003",
+          "sentence": "The band? We love ___! (the band)",
+          "answers": [
+            [
+              "it"
+            ]
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.004",
+          "sentence": "Lucía talks about Daniel and Sam. She talks about ___ a lot. (Daniel and Sam)",
+          "answers": [
+            [
+              "them"
+            ]
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.005",
+          "sentence": "Can you help ___, please? (I)",
+          "answers": [
+            [
+              "me"
+            ]
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.006",
+          "sentence": "Sam plays the guitar for ___. (we)",
+          "answers": [
+            [
+              "us"
+            ]
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.007",
+          "sentence": "I don't like this song. Do you like ___? (the song)",
+          "answers": [
+            [
+              "it"
+            ]
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.008",
+          "sentence": "Javi, can I go with ___? (you)",
+          "answers": [
+            [
+              "you"
+            ]
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.009",
+          "sentence": "My parents are in Spain. I phone ___ every Sunday. (my parents)",
+          "answers": [
+            [
+              "them"
+            ]
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.010",
+          "sentence": "Helen is our boss. We work for ___. (Helen)",
+          "answers": [
+            [
+              "her"
+            ]
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.011",
+          "sentence": "Where's Daniel? I need to talk to ___. (Daniel)",
+          "answers": [
+            [
+              "him"
+            ]
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.012",
+          "sentence": "This present is for ___, Lucía! (you)",
+          "answers": [
+            [
+              "you"
+            ]
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.013",
+          "sentence": "Come and have dinner with ___ tonight! (we)",
+          "answers": [
+            [
+              "us"
+            ]
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.014",
+          "sentence": "Where are my keys? I can't find ___. (my keys)",
+          "answers": [
+            [
+              "them"
+            ]
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.015",
+          "sentence": "Priya sends ___ a message every morning. (I)",
+          "answers": [
+            [
+              "me"
+            ]
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.016",
+          "sentence": "These shoes are great. I love ___. (these shoes)",
+          "answers": [
+            [
+              "them"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a1_object_pronouns.101",
+          "question": "La quiero mucho.",
+          "options": [
+            "I love her a lot.",
+            "I her love a lot."
+          ],
+          "answer": 0,
+          "explanation": "El pronombre objeto va detrás del verbo."
+        },
+        {
+          "id": "a1_object_pronouns.102",
+          "question": "Ven conmigo.",
+          "options": [
+            "Come with I.",
+            "Come with me."
+          ],
+          "answer": 1,
+          "explanation": "Después de una preposición: «me»."
+        },
+        {
+          "id": "a1_object_pronouns.103",
+          "question": "¿Te gusta Sam? — Sí, me gusta.",
+          "options": [
+            "Do you like Sam? — Yes, I like him.",
+            "Do you like Sam? — Yes, I like he."
+          ],
+          "answer": 0,
+          "explanation": "Objeto: «him»."
+        },
+        {
+          "id": "a1_object_pronouns.104",
+          "question": "Este regalo es para nosotros.",
+          "options": [
+            "This present is for we.",
+            "This present is for us."
+          ],
+          "answer": 1,
+          "explanation": "Objeto: «us»."
+        },
+        {
+          "id": "a1_object_pronouns.105",
+          "question": "Hablo con ellos.",
+          "options": [
+            "I talk to them.",
+            "I talk to they."
+          ],
+          "answer": 0,
+          "explanation": "Objeto: «them»."
+        },
+        {
+          "id": "a1_object_pronouns.106",
+          "question": "Nos encanta (la película).",
+          "options": [
+            "We love it.",
+            "We love."
+          ],
+          "answer": 0,
+          "explanation": "En inglés hace falta el objeto: «it»."
+        },
+        {
+          "id": "a1_object_pronouns.107",
+          "question": "Ella me llama todos los días.",
+          "options": [
+            "She phones me every day.",
+            "She me phones every day."
+          ],
+          "answer": 0,
+          "explanation": "El objeto va detrás del verbo."
+        },
+        {
+          "id": "a1_object_pronouns.108",
+          "question": "¿Puedes ayudarnos?",
+          "options": [
+            "Can you help us?",
+            "Can you help we?"
+          ],
+          "answer": 0,
+          "explanation": "Objeto: «us»."
+        },
+        {
+          "id": "a1_object_pronouns.109",
+          "question": "Habla de ti.",
+          "options": [
+            "He talks about you.",
+            "He talks about your."
+          ],
+          "answer": 0,
+          "explanation": "Objeto: «you»."
+        },
+        {
+          "id": "a1_object_pronouns.110",
+          "question": "Los veo los viernes.",
+          "options": [
+            "I see them on Fridays.",
+            "I them see on Fridays."
+          ],
+          "answer": 0,
+          "explanation": "El objeto va detrás del verbo."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Sustituye por un pronombre las palabras que van entre paréntesis.",
+      "items": [
+        {
+          "id": "a1_object_pronouns.201",
+          "prompt": "(Sam)",
+          "source": "I like Sam.",
+          "answers": [
+            "I like him"
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.202",
+          "prompt": "(Priya)",
+          "source": "We often see Priya at the pub.",
+          "answers": [
+            "We often see her at the pub"
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.203",
+          "prompt": "(my parents)",
+          "source": "I phone my parents on Sundays.",
+          "answers": [
+            "I phone them on Sundays"
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.204",
+          "prompt": "(the film)",
+          "source": "Do you like the film?",
+          "answers": [
+            "Do you like it"
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.205",
+          "prompt": "(Lucía and me)",
+          "source": "Sam plays for Lucía and me.",
+          "answers": [
+            "Sam plays for us"
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.206",
+          "prompt": "Corrige",
+          "source": "Come with I to the party!",
+          "answers": [
+            "Come with me to the party"
+          ],
+          "explanation": "Después de una preposición: «me»."
+        },
+        {
+          "id": "a1_object_pronouns.207",
+          "prompt": "Corrige",
+          "source": "I don't know she.",
+          "answers": [
+            "I don't know her"
+          ],
+          "explanation": "Objeto: «her»."
+        },
+        {
+          "id": "a1_object_pronouns.208",
+          "prompt": "Corrige",
+          "source": "This is for they.",
+          "answers": [
+            "This is for them"
+          ],
+          "explanation": "Objeto: «them»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_object_pronouns.301",
+          "source": "Ven conmigo.",
+          "answers": [
+            "Come with me"
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.302",
+          "source": "Me gusta mucho.",
+          "answers": [
+            "I like it a lot",
+            "I like him a lot",
+            "I like her a lot"
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.303",
+          "source": "Ella habla de ti.",
+          "answers": [
+            "She talks about you"
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.304",
+          "source": "¿Puedes ayudarme?",
+          "answers": [
+            "Can you help me"
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.305",
+          "source": "Los llamo los domingos.",
+          "answers": [
+            "I phone them on Sundays",
+            "I call them on Sundays"
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.306",
+          "source": "Es para nosotros.",
+          "answers": [
+            "It's for us"
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.307",
+          "source": "No la conozco.",
+          "answers": [
+            "I don't know her"
+          ]
+        },
+        {
+          "id": "a1_object_pronouns.308",
+          "source": "Nos encanta.",
+          "answers": [
+            "We love it"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_object_pronouns.401",
+          "answer": "She talks about you a lot"
+        },
+        {
+          "id": "a1_object_pronouns.402",
+          "answer": "Come with me"
+        },
+        {
+          "id": "a1_object_pronouns.403",
+          "answer": "Do you like him?"
+        },
+        {
+          "id": "a1_object_pronouns.404",
+          "answer": "I phone them every Sunday"
+        },
+        {
+          "id": "a1_object_pronouns.405",
+          "answer": "Sam plays for us on Fridays"
+        }
+      ]
+    }
+  ]
+}

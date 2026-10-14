@@ -1,0 +1,445 @@
+{
+  "topic_id": "a1_frequency_adverbs",
+  "level_id": "A1",
+  "title": "Adverbios de frecuencia: always, usually, never…",
+  "tags": [
+    "frequency_adverbs"
+  ],
+  "units": [
+    "shift_work"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Adverbs of frequency",
+    "explanation": "Los adverbios de frecuencia dicen con qué frecuencia pasa algo. De más a menos:\n- «always» (siempre), «usually» (normalmente), «often» (a menudo), «sometimes» (a veces), «never» (nunca)\n\nVan delante del verbo principal:\n- «Priya always gets up at half past five.»\n- «I usually walk to work.»\n- «We never eat meat.»\n\nPero van detrás del verbo «be»:\n- «Sam is never early.»\n- «I'm often tired on Fridays.»\n\nEn la negativa y en la pregunta van entre el auxiliar y el verbo:\n- «I don't usually work on Saturdays.»\n- «Do you often go to the cinema?»\n\nPara preguntar con qué frecuencia se usa «How often…?», y se responde con expresiones como «every day», «once a week» o «twice a month», que van al final:\n- «How often do you go to the gym? — Twice a week.»\n\nOjo: «never» ya es negativo; no se usa con «don't» (nunca «I don't never…»).",
+    "table": {
+      "headers": [
+        "Adverbio",
+        "Frecuencia",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "always",
+          "100%",
+          "Priya always gets up at half past five."
+        ],
+        [
+          "usually",
+          "80%",
+          "She usually works four days a week."
+        ],
+        [
+          "often",
+          "60%",
+          "Sam often plays on Fridays."
+        ],
+        [
+          "sometimes",
+          "40%",
+          "Priya sometimes works at night."
+        ],
+        [
+          "never",
+          "0%",
+          "Sam never gets up before ten."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el adverbio que corresponde al porcentaje.",
+      "bank": [
+        "always",
+        "usually",
+        "often",
+        "sometimes",
+        "never"
+      ],
+      "items": [
+        {
+          "id": "a1_frequency_adverbs.001",
+          "sentence": "I ___ have coffee in the morning. (100%)",
+          "answers": [
+            [
+              "always"
+            ]
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.002",
+          "sentence": "Sam ___ gets up before ten. (0%)",
+          "answers": [
+            [
+              "never"
+            ]
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.003",
+          "sentence": "We ___ eat out on Fridays. (80%)",
+          "answers": [
+            [
+              "usually"
+            ]
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.004",
+          "sentence": "Priya ___ works at night. (40%)",
+          "answers": [
+            [
+              "sometimes"
+            ]
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.005",
+          "sentence": "Daniel ___ plays football at the weekend. (60%)",
+          "answers": [
+            [
+              "often"
+            ]
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.006",
+          "sentence": "Lucía is ___ late. She's very punctual. (0%)",
+          "answers": [
+            [
+              "never"
+            ]
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.007",
+          "sentence": "It ___ rains in Bristol in November. (80%)",
+          "answers": [
+            [
+              "usually"
+            ]
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.008",
+          "sentence": "Javi ___ forgets his keys! (60%)",
+          "answers": [
+            [
+              "often"
+            ]
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.009",
+          "sentence": "My parents ___ phone me on Sundays. (100%)",
+          "answers": [
+            [
+              "always"
+            ]
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.010",
+          "sentence": "I ___ go to the gym after work. (40%)",
+          "answers": [
+            [
+              "sometimes"
+            ]
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.011",
+          "sentence": "Helen is ___ in the office before eight. (100%)",
+          "answers": [
+            [
+              "always"
+            ]
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.012",
+          "sentence": "We ___ watch TV in the morning. (0%)",
+          "answers": [
+            [
+              "never"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a1_frequency_adverbs.101",
+          "question": "Siempre me levanto temprano.",
+          "options": [
+            "I always get up early.",
+            "I get up always early."
+          ],
+          "answer": 0,
+          "explanation": "El adverbio va delante del verbo principal."
+        },
+        {
+          "id": "a1_frequency_adverbs.102",
+          "question": "Sam nunca llega pronto.",
+          "options": [
+            "Sam never is early.",
+            "Sam is never early."
+          ],
+          "answer": 1,
+          "explanation": "Con «be», el adverbio va detrás."
+        },
+        {
+          "id": "a1_frequency_adverbs.103",
+          "question": "Normalmente no trabajo los sábados.",
+          "options": [
+            "I don't usually work on Saturdays.",
+            "I usually don't work on Saturdays on."
+          ],
+          "answer": 0,
+          "explanation": "Entre «don't» y el verbo."
+        },
+        {
+          "id": "a1_frequency_adverbs.104",
+          "question": "¿Vas a menudo al cine?",
+          "options": [
+            "Do you often go to the cinema?",
+            "Do you go often to the cinema?"
+          ],
+          "answer": 0,
+          "explanation": "Entre el sujeto y el verbo principal."
+        },
+        {
+          "id": "a1_frequency_adverbs.105",
+          "question": "Nunca como carne.",
+          "options": [
+            "I don't never eat meat.",
+            "I never eat meat."
+          ],
+          "answer": 1,
+          "explanation": "«never» ya es negativo."
+        },
+        {
+          "id": "a1_frequency_adverbs.106",
+          "question": "¿Con qué frecuencia vas al gimnasio?",
+          "options": [
+            "How often do you go to the gym?",
+            "How many do you go to the gym?"
+          ],
+          "answer": 0,
+          "explanation": "Frecuencia: «How often…?»."
+        },
+        {
+          "id": "a1_frequency_adverbs.107",
+          "question": "Voy al gimnasio dos veces por semana.",
+          "options": [
+            "I go to the gym twice a week.",
+            "I twice a week go to the gym."
+          ],
+          "answer": 0,
+          "explanation": "«twice a week» va al final."
+        },
+        {
+          "id": "a1_frequency_adverbs.108",
+          "question": "A veces estoy cansada.",
+          "options": [
+            "I'm sometimes tired.",
+            "I sometimes am tired."
+          ],
+          "answer": 0,
+          "explanation": "Con «be», el adverbio va detrás."
+        },
+        {
+          "id": "a1_frequency_adverbs.109",
+          "question": "Priya siempre trabaja los lunes.",
+          "options": [
+            "Priya always works on Mondays.",
+            "Priya works always on Mondays."
+          ],
+          "answer": 0,
+          "explanation": "Delante del verbo principal."
+        },
+        {
+          "id": "a1_frequency_adverbs.110",
+          "question": "Llueve todos los días.",
+          "options": [
+            "It rains every day.",
+            "It every day rains."
+          ],
+          "answer": 0,
+          "explanation": "«every day» va al final."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Añade el adverbio en el lugar correcto.",
+      "items": [
+        {
+          "id": "a1_frequency_adverbs.201",
+          "prompt": "always",
+          "source": "I have breakfast at eight.",
+          "answers": [
+            "I always have breakfast at eight"
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.202",
+          "prompt": "never",
+          "source": "Sam is on time.",
+          "answers": [
+            "Sam is never on time"
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.203",
+          "prompt": "usually",
+          "source": "We go to the park on Sundays.",
+          "answers": [
+            "We usually go to the park on Sundays"
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.204",
+          "prompt": "often",
+          "source": "Priya is tired after work.",
+          "answers": [
+            "Priya is often tired after work"
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.205",
+          "prompt": "sometimes",
+          "source": "Daniel walks to work.",
+          "answers": [
+            "Daniel sometimes walks to work"
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.206",
+          "prompt": "usually",
+          "source": "I don't drink coffee.",
+          "answers": [
+            "I don't usually drink coffee"
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.207",
+          "prompt": "often",
+          "source": "Do you go out at the weekend?",
+          "answers": [
+            "Do you often go out at the weekend"
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.208",
+          "prompt": "Corrige",
+          "source": "I don't never watch TV.",
+          "answers": [
+            "I never watch TV"
+          ],
+          "explanation": "«never» ya es negativo."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_frequency_adverbs.301",
+          "source": "Siempre me levanto a las siete.",
+          "answers": [
+            "I always get up at seven"
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.302",
+          "source": "Sam nunca llega pronto.",
+          "answers": [
+            "Sam is never early"
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.303",
+          "source": "Normalmente voy en autobús.",
+          "answers": [
+            "I usually go by bus",
+            "I usually take the bus"
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.304",
+          "source": "A veces trabajo los sábados.",
+          "answers": [
+            "I sometimes work on Saturdays",
+            "Sometimes I work on Saturdays"
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.305",
+          "source": "¿Con qué frecuencia ves a tus padres?",
+          "answers": [
+            "How often do you see your parents"
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.306",
+          "source": "Nunca bebo café por la noche.",
+          "answers": [
+            "I never drink coffee at night",
+            "I never drink coffee in the evening"
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.307",
+          "source": "Priya está a menudo cansada.",
+          "answers": [
+            "Priya is often tired"
+          ]
+        },
+        {
+          "id": "a1_frequency_adverbs.308",
+          "source": "Voy al gimnasio dos veces por semana.",
+          "answers": [
+            "I go to the gym twice a week"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_frequency_adverbs.401",
+          "answer": "I always get up at seven"
+        },
+        {
+          "id": "a1_frequency_adverbs.402",
+          "answer": "Sam is never early"
+        },
+        {
+          "id": "a1_frequency_adverbs.403",
+          "answer": "Do you often go to the cinema?"
+        },
+        {
+          "id": "a1_frequency_adverbs.404",
+          "answer": "We usually have lunch at one"
+        },
+        {
+          "id": "a1_frequency_adverbs.405",
+          "answer": "How often do you play tennis?"
+        },
+        {
+          "id": "a1_frequency_adverbs.406",
+          "answer": "I don't usually work on Saturdays"
+        }
+      ]
+    }
+  ]
+}

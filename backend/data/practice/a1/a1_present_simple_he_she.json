@@ -1,0 +1,568 @@
+{
+  "topic_id": "a1_present_simple_he_she",
+  "level_id": "A1",
+  "title": "Present simple: he, she, it (works, does, doesn't)",
+  "tags": [
+    "present_simple"
+  ],
+  "units": [
+    "shift_work"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Present simple: he, she, it",
+    "explanation": "Con «he», «she» e «it» (y con un nombre como «Priya» o «my brother») el verbo lleva «-s» en afirmativa:\n- «She works at the hospital.»\n- «Sam sleeps until ten.»\n\nAlgunos verbos llevan «-es»: los que acaban en s, sh, ch, x u o. Los que acaban en consonante + y cambian a «-ies». «Have» es irregular:\n- «go» → «goes», «do» → «does», «watch» → «watches», «finish» → «finishes»\n- «study» → «studies», «carry» → «carries» (pero «play» → «plays»)\n- «have» → «has»\n\nEn la negativa y en la pregunta se usa «doesn't» / «does», y el verbo vuelve a su forma base, sin «-s»:\n- «He doesn't work on Mondays.» (nunca «doesn't works»)\n- «Does she live near here? — Yes, she does. / No, she doesn't.»\n- «What time does Sam finish?»\n\nOjo: la «-s» solo va con una persona (él, ella, eso). Con «I», «you», «we» y «they», nunca: «I work», «they work».",
+    "table": {
+      "headers": [
+        "",
+        "Afirmativa",
+        "Negativa",
+        "Pregunta"
+      ],
+      "rows": [
+        [
+          "he / she / it",
+          "she works",
+          "she doesn't work",
+          "Does she work?"
+        ],
+        [
+          "-es",
+          "he goes, she watches",
+          "he doesn't go",
+          "Does he go?"
+        ],
+        [
+          "-ies",
+          "she studies",
+          "she doesn't study",
+          "Does she study?"
+        ],
+        [
+          "have",
+          "he has",
+          "he doesn't have",
+          "Does he have…?"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Escribe el verbo entre paréntesis en la forma correcta.",
+      "items": [
+        {
+          "id": "a1_present_simple_he_she.001",
+          "sentence": "Priya ___ at the hospital. (work)",
+          "answers": [
+            [
+              "works"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.002",
+          "sentence": "Sam ___ at midnight. (finish)",
+          "answers": [
+            [
+              "finishes"
+            ]
+          ],
+          "explanation": "Tras sh: «-es»."
+        },
+        {
+          "id": "a1_present_simple_he_she.003",
+          "sentence": "Javi ___ English on Tuesdays. (study)",
+          "answers": [
+            [
+              "studies"
+            ]
+          ],
+          "explanation": "Consonante + y: «-ies»."
+        },
+        {
+          "id": "a1_present_simple_he_she.004",
+          "sentence": "Lucía ___ to work by bus. (go)",
+          "answers": [
+            [
+              "goes"
+            ]
+          ],
+          "explanation": "«go» → «goes»."
+        },
+        {
+          "id": "a1_present_simple_he_she.005",
+          "sentence": "My brother ___ two children. (have)",
+          "answers": [
+            [
+              "has"
+            ]
+          ],
+          "explanation": "«have» → «has»."
+        },
+        {
+          "id": "a1_present_simple_he_she.006",
+          "sentence": "Helen ___ football on TV every Saturday. (watch)",
+          "answers": [
+            [
+              "watches"
+            ]
+          ],
+          "explanation": "Tras ch: «-es»."
+        },
+        {
+          "id": "a1_present_simple_he_she.007",
+          "sentence": "Daniel ___ the guitar very well. (play)",
+          "answers": [
+            [
+              "plays"
+            ]
+          ],
+          "explanation": "Vocal + y: solo «-s»."
+        },
+        {
+          "id": "a1_present_simple_he_she.008",
+          "sentence": "The shop ___ at nine. (open)",
+          "answers": [
+            [
+              "opens"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.009",
+          "sentence": "She ___ her homework in the evening. (do)",
+          "answers": [
+            [
+              "does"
+            ]
+          ],
+          "explanation": "«do» → «does»."
+        },
+        {
+          "id": "a1_present_simple_he_she.010",
+          "sentence": "My dad ___ the newspaper every morning. (read)",
+          "answers": [
+            [
+              "reads"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.011",
+          "sentence": "Priya ___ a big bag to work. (carry)",
+          "answers": [
+            [
+              "carries"
+            ]
+          ],
+          "explanation": "Consonante + y: «-ies»."
+        },
+        {
+          "id": "a1_present_simple_he_she.012",
+          "sentence": "It ___ a lot in Bristol in winter. (rain)",
+          "answers": [
+            [
+              "rains"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.013",
+          "sentence": "Sam ___ the dishes after dinner. (wash)",
+          "answers": [
+            [
+              "washes"
+            ]
+          ],
+          "explanation": "Tras sh: «-es»."
+        },
+        {
+          "id": "a1_present_simple_he_she.014",
+          "sentence": "Helen ___ three languages. (speak)",
+          "answers": [
+            [
+              "speaks"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «does» o «doesn't» y el verbo en forma base.",
+      "items": [
+        {
+          "id": "a1_present_simple_he_she.101",
+          "sentence": "Sam ___ get up early. He sleeps until ten. (no)",
+          "answers": [
+            [
+              "doesn't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.102",
+          "sentence": "___ Priya work at night? — Yes, she does.",
+          "answers": [
+            [
+              "Does"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.103",
+          "sentence": "Daniel ___ like shopping.",
+          "answers": [
+            [
+              "doesn't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.104",
+          "sentence": "What time ___ the film start?",
+          "answers": [
+            [
+              "does"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.105",
+          "sentence": "Does he live in Clifton? — No, he ___.",
+          "answers": [
+            [
+              "doesn't"
+            ]
+          ],
+          "explanation": "Respuesta corta negativa: «No, he doesn't»."
+        },
+        {
+          "id": "a1_present_simple_he_she.106",
+          "sentence": "Where ___ your sister work?",
+          "answers": [
+            [
+              "does"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.107",
+          "sentence": "Lucía doesn't ___ meat. She's vegetarian. (eat)",
+          "answers": [
+            [
+              "eat"
+            ]
+          ],
+          "explanation": "Después de «doesn't», el verbo sin «-s»."
+        },
+        {
+          "id": "a1_present_simple_he_she.108",
+          "sentence": "Does Javi ___ in the evenings? (study)",
+          "answers": [
+            [
+              "study"
+            ]
+          ],
+          "explanation": "Después de «does», el verbo sin «-s»."
+        },
+        {
+          "id": "a1_present_simple_he_she.109",
+          "sentence": "Does it rain a lot here? — Yes, it ___.",
+          "answers": [
+            [
+              "does"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.110",
+          "sentence": "Helen ___ have a car. She goes by bike.",
+          "answers": [
+            [
+              "doesn't"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a1_present_simple_he_she.201",
+          "question": "Ella trabaja en un hospital.",
+          "options": [
+            "She work in a hospital.",
+            "She works in a hospital."
+          ],
+          "answer": 1,
+          "explanation": "Con «she»: «works»."
+        },
+        {
+          "id": "a1_present_simple_he_she.202",
+          "question": "Él no trabaja los lunes.",
+          "options": [
+            "He doesn't work on Mondays.",
+            "He doesn't works on Mondays."
+          ],
+          "answer": 0,
+          "explanation": "Después de «doesn't», sin «-s»."
+        },
+        {
+          "id": "a1_present_simple_he_she.203",
+          "question": "¿Vive Sam cerca?",
+          "options": [
+            "Does Sam live near here?",
+            "Does Sam lives near here?"
+          ],
+          "answer": 0,
+          "explanation": "Después de «does», sin «-s»."
+        },
+        {
+          "id": "a1_present_simple_he_she.204",
+          "question": "Javi estudia mucho.",
+          "options": [
+            "Javi studys a lot.",
+            "Javi studies a lot."
+          ],
+          "answer": 1,
+          "explanation": "Consonante + y: «-ies»."
+        },
+        {
+          "id": "a1_present_simple_he_she.205",
+          "question": "Mi madre tiene un perro.",
+          "options": [
+            "My mum has a dog.",
+            "My mum haves a dog."
+          ],
+          "answer": 0,
+          "explanation": "«have» → «has»."
+        },
+        {
+          "id": "a1_present_simple_he_she.206",
+          "question": "¿A qué hora termina Priya?",
+          "options": [
+            "What time does Priya finish?",
+            "What time Priya finishes?"
+          ],
+          "answer": 0,
+          "explanation": "Palabra interrogativa + «does» + sujeto + verbo."
+        },
+        {
+          "id": "a1_present_simple_he_she.207",
+          "question": "Ellos trabajan en Bath.",
+          "options": [
+            "They works in Bath.",
+            "They work in Bath."
+          ],
+          "answer": 1,
+          "explanation": "Con «they», sin «-s»."
+        },
+        {
+          "id": "a1_present_simple_he_she.208",
+          "question": "Mi hermano ve la tele por la noche.",
+          "options": [
+            "My brother watches TV at night.",
+            "My brother watchs TV at night."
+          ],
+          "answer": 0,
+          "explanation": "Tras ch: «-es»."
+        },
+        {
+          "id": "a1_present_simple_he_she.209",
+          "question": "¿Habla Daniel español? — No.",
+          "options": [
+            "Does Daniel speak Spanish? — No, he doesn't.",
+            "Does Daniel speak Spanish? — No, he don't."
+          ],
+          "answer": 0,
+          "explanation": "Con «he»: «doesn't»."
+        },
+        {
+          "id": "a1_present_simple_he_she.210",
+          "question": "Sam juega al fútbol.",
+          "options": [
+            "Sam plaies football.",
+            "Sam plays football."
+          ],
+          "answer": 1,
+          "explanation": "Vocal + y: solo «-s»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Transforma la frase como se indica.",
+      "items": [
+        {
+          "id": "a1_present_simple_he_she.301",
+          "prompt": "Con «she»",
+          "source": "I work at night.",
+          "answers": [
+            "She works at night"
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.302",
+          "prompt": "Con «he»",
+          "source": "I watch TV in the evening.",
+          "answers": [
+            "He watches TV in the evening"
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.303",
+          "prompt": "Con «she»",
+          "source": "I study English.",
+          "answers": [
+            "She studies English"
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.304",
+          "prompt": "Negativa",
+          "source": "Sam gets up early.",
+          "answers": [
+            "Sam doesn't get up early"
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.305",
+          "prompt": "Pregunta",
+          "source": "Priya works on Saturdays.",
+          "answers": [
+            "Does Priya work on Saturdays"
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.306",
+          "prompt": "Negativa",
+          "source": "Helen has a car.",
+          "answers": [
+            "Helen doesn't have a car"
+          ],
+          "explanation": "Después de «doesn't»: «have», no «has»."
+        },
+        {
+          "id": "a1_present_simple_he_she.307",
+          "prompt": "Corrige",
+          "source": "Does he lives here?",
+          "answers": [
+            "Does he live here"
+          ],
+          "explanation": "Después de «does», sin «-s»."
+        },
+        {
+          "id": "a1_present_simple_he_she.308",
+          "prompt": "Corrige",
+          "source": "My sister don't like coffee.",
+          "answers": [
+            "My sister doesn't like coffee"
+          ],
+          "explanation": "Con «she»: «doesn't»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_present_simple_he_she.401",
+          "source": "Priya trabaja en el hospital.",
+          "answers": [
+            "Priya works at the hospital",
+            "Priya works in the hospital"
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.402",
+          "source": "Sam no se levanta temprano.",
+          "answers": [
+            "Sam doesn't get up early"
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.403",
+          "source": "¿Trabaja ella los sábados?",
+          "answers": [
+            "Does she work on Saturdays",
+            "Does she work on Saturday"
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.404",
+          "source": "Mi hermano vive en Londres.",
+          "answers": [
+            "My brother lives in London"
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.405",
+          "source": "Javi estudia por la noche.",
+          "answers": [
+            "Javi studies at night",
+            "Javi studies in the evening"
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.406",
+          "source": "¿Dónde trabaja tu padre?",
+          "answers": [
+            "Where does your father work",
+            "Where does your dad work"
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.407",
+          "source": "Ella no tiene coche.",
+          "answers": [
+            "She doesn't have a car",
+            "She hasn't got a car"
+          ]
+        },
+        {
+          "id": "a1_present_simple_he_she.408",
+          "source": "Lucía va al trabajo en autobús.",
+          "answers": [
+            "Lucía goes to work by bus"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_present_simple_he_she.501",
+          "answer": "Priya works at the hospital"
+        },
+        {
+          "id": "a1_present_simple_he_she.502",
+          "answer": "Does Sam play the guitar?"
+        },
+        {
+          "id": "a1_present_simple_he_she.503",
+          "answer": "He doesn't work on Mondays"
+        },
+        {
+          "id": "a1_present_simple_he_she.504",
+          "answer": "What time does the shop open?"
+        },
+        {
+          "id": "a1_present_simple_he_she.505",
+          "answer": "My sister studies in Madrid"
+        },
+        {
+          "id": "a1_present_simple_he_she.506",
+          "answer": "Daniel goes to work by bike"
+        }
+      ]
+    }
+  ]
+}

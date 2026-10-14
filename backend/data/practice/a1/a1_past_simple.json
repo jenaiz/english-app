@@ -1,0 +1,587 @@
+{
+  "topic_id": "a1_past_simple",
+  "level_id": "A1",
+  "title": "Past simple: worked, went, did you…?",
+  "tags": [
+    "past_simple"
+  ],
+  "units": [
+    "last_weekend"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Past simple: regular and irregular verbs",
+    "explanation": "El past simple cuenta cosas terminadas en el pasado. Es igual para todas las personas.\n\nLos verbos regulares añaden «-ed». Si acaban en e, solo «-d»; si acaban en consonante + y, «-ied»; y algunos doblan la consonante:\n- «walk» → «walked», «watch» → «watched»\n- «like» → «liked», «dance» → «danced»\n- «study» → «studied», «try» → «tried»\n- «stop» → «stopped», «plan» → «planned»\n\nMuchos verbos frecuentes son irregulares y hay que aprenderlos (los tienes todos en la lista de verbos irregulares):\n- «go» → «went», «have» → «had», «buy» → «bought», «see» → «saw», «eat» → «ate», «meet» → «met», «get» → «got», «make» → «made», «take» → «took»\n\nLa negativa es «didn't» («did not») + verbo en forma base, y la pregunta, «did» + sujeto + verbo en forma base:\n- «I didn't go out.»\n- «Did you like the film? — Yes, I did. / No, I didn't.»\n- «What did you do on Saturday?»\n\nOjo: después de «did» y «didn't», el verbo vuelve a su forma base: «Did you go?» (nunca «Did you went?»), «I didn't buy» (nunca «I didn't bought»).",
+    "table": {
+      "headers": [
+        "Base",
+        "Pasado",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "walk",
+          "walked",
+          "We walked for three hours."
+        ],
+        [
+          "study",
+          "studied",
+          "I studied all day."
+        ],
+        [
+          "stop",
+          "stopped",
+          "The rain stopped."
+        ],
+        [
+          "go",
+          "went",
+          "I went to the market."
+        ],
+        [
+          "buy",
+          "bought",
+          "I bought some cheese."
+        ],
+        [
+          "have",
+          "had",
+          "We had a big lunch."
+        ],
+        [
+          "see",
+          "saw",
+          "I saw the bridge."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Escribe el verbo entre paréntesis en past simple.",
+      "items": [
+        {
+          "id": "a1_past_simple.001",
+          "sentence": "We ___ for three hours. (walk)",
+          "answers": [
+            [
+              "walked"
+            ]
+          ]
+        },
+        {
+          "id": "a1_past_simple.002",
+          "sentence": "On Saturday I ___ to the market. (go)",
+          "answers": [
+            [
+              "went"
+            ]
+          ],
+          "explanation": "Irregular."
+        },
+        {
+          "id": "a1_past_simple.003",
+          "sentence": "I ___ some flowers for my mum. (buy)",
+          "answers": [
+            [
+              "bought"
+            ]
+          ],
+          "explanation": "Irregular."
+        },
+        {
+          "id": "a1_past_simple.004",
+          "sentence": "Daniel ___ the rugby on TV. (watch)",
+          "answers": [
+            [
+              "watched"
+            ]
+          ]
+        },
+        {
+          "id": "a1_past_simple.005",
+          "sentence": "We ___ a big lunch on Sunday. (have)",
+          "answers": [
+            [
+              "had"
+            ]
+          ],
+          "explanation": "Irregular."
+        },
+        {
+          "id": "a1_past_simple.006",
+          "sentence": "Javi ___ all day for his exam. (study)",
+          "answers": [
+            [
+              "studied"
+            ]
+          ],
+          "explanation": "Consonante + y: «-ied»."
+        },
+        {
+          "id": "a1_past_simple.007",
+          "sentence": "Priya ___ her parents last weekend. (visit)",
+          "answers": [
+            [
+              "visited"
+            ]
+          ]
+        },
+        {
+          "id": "a1_past_simple.008",
+          "sentence": "I ___ Sam at the pub. (see)",
+          "answers": [
+            [
+              "saw"
+            ]
+          ],
+          "explanation": "Irregular."
+        },
+        {
+          "id": "a1_past_simple.009",
+          "sentence": "The rain ___ at five o'clock. (stop)",
+          "answers": [
+            [
+              "stopped"
+            ]
+          ],
+          "explanation": "Se dobla la p."
+        },
+        {
+          "id": "a1_past_simple.010",
+          "sentence": "We ___ a lot of pizza at the party. (eat)",
+          "answers": [
+            [
+              "ate"
+            ]
+          ],
+          "explanation": "Irregular."
+        },
+        {
+          "id": "a1_past_simple.011",
+          "sentence": "Lucía ___ a new friend at work. (meet)",
+          "answers": [
+            [
+              "met"
+            ]
+          ],
+          "explanation": "Irregular."
+        },
+        {
+          "id": "a1_past_simple.012",
+          "sentence": "I ___ the film. It was great! (like)",
+          "answers": [
+            [
+              "liked"
+            ]
+          ],
+          "explanation": "Acaba en e: solo «-d»."
+        },
+        {
+          "id": "a1_past_simple.013",
+          "sentence": "Sam ___ up at eleven on Sunday. (get)",
+          "answers": [
+            [
+              "got"
+            ]
+          ],
+          "explanation": "Irregular."
+        },
+        {
+          "id": "a1_past_simple.014",
+          "sentence": "We ___ a cake for Helen's birthday. (make)",
+          "answers": [
+            [
+              "made"
+            ]
+          ],
+          "explanation": "Irregular."
+        },
+        {
+          "id": "a1_past_simple.015",
+          "sentence": "They ___ a taxi home. (take)",
+          "answers": [
+            [
+              "took"
+            ]
+          ],
+          "explanation": "Irregular."
+        },
+        {
+          "id": "a1_past_simple.016",
+          "sentence": "I ___ my mum last night. (phone)",
+          "answers": [
+            [
+              "phoned"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «did» o «didn't» y, si hace falta, el verbo en forma base.",
+      "bank": [
+        "did",
+        "didn't",
+        "go",
+        "buy"
+      ],
+      "items": [
+        {
+          "id": "a1_past_simple.101",
+          "sentence": "___ you go out last night? — No, I didn't.",
+          "answers": [
+            [
+              "Did"
+            ]
+          ]
+        },
+        {
+          "id": "a1_past_simple.102",
+          "sentence": "I ___ like the film. It was boring.",
+          "answers": [
+            [
+              "didn't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_past_simple.103",
+          "sentence": "What ___ you do at the weekend?",
+          "answers": [
+            [
+              "did"
+            ]
+          ]
+        },
+        {
+          "id": "a1_past_simple.104",
+          "sentence": "We didn't ___ to the beach. It was cold. (go)",
+          "answers": [
+            [
+              "go"
+            ]
+          ],
+          "explanation": "Después de «didn't», el verbo en forma base."
+        },
+        {
+          "id": "a1_past_simple.105",
+          "sentence": "Did you ___ anything at the market? (buy)",
+          "answers": [
+            [
+              "buy"
+            ]
+          ],
+          "explanation": "Después de «did», el verbo en forma base."
+        },
+        {
+          "id": "a1_past_simple.106",
+          "sentence": "Did Sam play on Friday? — Yes, he ___.",
+          "answers": [
+            [
+              "did"
+            ]
+          ],
+          "explanation": "Respuesta corta: «Yes, he did»."
+        },
+        {
+          "id": "a1_past_simple.107",
+          "sentence": "Priya ___ work on Sunday. She stayed at home.",
+          "answers": [
+            [
+              "didn't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_past_simple.108",
+          "sentence": "Where ___ you meet Daniel?",
+          "answers": [
+            [
+              "did"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a1_past_simple.201",
+          "question": "Fui al mercado.",
+          "options": [
+            "I goed to the market.",
+            "I went to the market."
+          ],
+          "answer": 1,
+          "explanation": "«go» es irregular: «went»."
+        },
+        {
+          "id": "a1_past_simple.202",
+          "question": "¿Qué hiciste?",
+          "options": [
+            "What did you do?",
+            "What did you did?"
+          ],
+          "answer": 0,
+          "explanation": "Después de «did», forma base."
+        },
+        {
+          "id": "a1_past_simple.203",
+          "question": "No compré nada.",
+          "options": [
+            "I didn't buy anything.",
+            "I didn't bought anything."
+          ],
+          "answer": 0,
+          "explanation": "Después de «didn't», forma base."
+        },
+        {
+          "id": "a1_past_simple.204",
+          "question": "¿Fuiste a la fiesta? — Sí.",
+          "options": [
+            "Did you go to the party? — Yes, I did.",
+            "Did you go to the party? — Yes, I went."
+          ],
+          "answer": 0,
+          "explanation": "Respuesta corta: «Yes, I did»."
+        },
+        {
+          "id": "a1_past_simple.205",
+          "question": "Estudié mucho.",
+          "options": [
+            "I studied a lot.",
+            "I studyed a lot."
+          ],
+          "answer": 0,
+          "explanation": "Consonante + y: «-ied»."
+        },
+        {
+          "id": "a1_past_simple.206",
+          "question": "La lluvia paró.",
+          "options": [
+            "The rain stoped.",
+            "The rain stopped."
+          ],
+          "answer": 1,
+          "explanation": "Se dobla la p."
+        },
+        {
+          "id": "a1_past_simple.207",
+          "question": "Vimos a Sam.",
+          "options": [
+            "We saw Sam.",
+            "We seed Sam."
+          ],
+          "answer": 0,
+          "explanation": "«see» es irregular: «saw»."
+        },
+        {
+          "id": "a1_past_simple.208",
+          "question": "¿Te gustó? — No.",
+          "options": [
+            "Did you like it? — No, I didn't.",
+            "Did you liked it? — No, I didn't."
+          ],
+          "answer": 0,
+          "explanation": "Después de «did», forma base."
+        },
+        {
+          "id": "a1_past_simple.209",
+          "question": "Comimos paella.",
+          "options": [
+            "We ate paella.",
+            "We eated paella."
+          ],
+          "answer": 0,
+          "explanation": "«eat» es irregular: «ate»."
+        },
+        {
+          "id": "a1_past_simple.210",
+          "question": "Ella llamó a su madre.",
+          "options": [
+            "She phoned her mum.",
+            "She phone her mum yesterday."
+          ],
+          "answer": 0,
+          "explanation": "Pasado regular: «-ed»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Transforma o corrige la frase como se indica.",
+      "items": [
+        {
+          "id": "a1_past_simple.301",
+          "prompt": "Pasado",
+          "source": "I walk to work.",
+          "answers": [
+            "I walked to work"
+          ]
+        },
+        {
+          "id": "a1_past_simple.302",
+          "prompt": "Pasado",
+          "source": "We go to the cinema.",
+          "answers": [
+            "We went to the cinema"
+          ]
+        },
+        {
+          "id": "a1_past_simple.303",
+          "prompt": "Negativa",
+          "source": "I liked the concert.",
+          "answers": [
+            "I didn't like the concert"
+          ]
+        },
+        {
+          "id": "a1_past_simple.304",
+          "prompt": "Pregunta",
+          "source": "You saw the bridge.",
+          "answers": [
+            "Did you see the bridge"
+          ]
+        },
+        {
+          "id": "a1_past_simple.305",
+          "prompt": "Negativa",
+          "source": "Sam bought a new guitar.",
+          "answers": [
+            "Sam didn't buy a new guitar"
+          ]
+        },
+        {
+          "id": "a1_past_simple.306",
+          "prompt": "Corrige",
+          "source": "Did you went to the party?",
+          "answers": [
+            "Did you go to the party"
+          ],
+          "explanation": "Después de «did», forma base."
+        },
+        {
+          "id": "a1_past_simple.307",
+          "prompt": "Corrige",
+          "source": "I didn't saw Helen.",
+          "answers": [
+            "I didn't see Helen"
+          ],
+          "explanation": "Después de «didn't», forma base."
+        },
+        {
+          "id": "a1_past_simple.308",
+          "prompt": "Corrige",
+          "source": "We eated a lot of cake.",
+          "answers": [
+            "We ate a lot of cake"
+          ],
+          "explanation": "«eat» es irregular: «ate»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_past_simple.401",
+          "source": "El sábado fui al mercado.",
+          "answers": [
+            "On Saturday I went to the market",
+            "I went to the market on Saturday"
+          ]
+        },
+        {
+          "id": "a1_past_simple.402",
+          "source": "Compré queso.",
+          "answers": [
+            "I bought some cheese",
+            "I bought cheese"
+          ]
+        },
+        {
+          "id": "a1_past_simple.403",
+          "source": "Caminamos tres horas.",
+          "answers": [
+            "We walked for three hours"
+          ]
+        },
+        {
+          "id": "a1_past_simple.404",
+          "source": "¿Qué hiciste el fin de semana?",
+          "answers": [
+            "What did you do at the weekend",
+            "What did you do on the weekend"
+          ]
+        },
+        {
+          "id": "a1_past_simple.405",
+          "source": "No vi la película.",
+          "answers": [
+            "I didn't see the film",
+            "I didn't watch the film",
+            "I didn't see the movie"
+          ]
+        },
+        {
+          "id": "a1_past_simple.406",
+          "source": "¿Te gustó el concierto?",
+          "answers": [
+            "Did you like the concert"
+          ]
+        },
+        {
+          "id": "a1_past_simple.407",
+          "source": "Conocí a Daniel en el trabajo.",
+          "answers": [
+            "I met Daniel at work"
+          ]
+        },
+        {
+          "id": "a1_past_simple.408",
+          "source": "Estudié toda la noche.",
+          "answers": [
+            "I studied all night"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_past_simple.501",
+          "answer": "I went to the market on Saturday"
+        },
+        {
+          "id": "a1_past_simple.502",
+          "answer": "What did you do yesterday?"
+        },
+        {
+          "id": "a1_past_simple.503",
+          "answer": "We didn't go to the beach"
+        },
+        {
+          "id": "a1_past_simple.504",
+          "answer": "Did you like the film?"
+        },
+        {
+          "id": "a1_past_simple.505",
+          "answer": "Sam bought a new guitar"
+        },
+        {
+          "id": "a1_past_simple.506",
+          "answer": "We had a big lunch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "topic_id": "a1_simple_vs_continuous",
+  "level_id": "A1",
+  "title": "Present simple o present continuous",
+  "tags": [
+    "present_continuous",
+    "present_simple"
+  ],
+  "units": [
+    "rainy_day"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Present simple or present continuous?",
+    "explanation": "El present simple habla de rutinas, hábitos y cosas que son siempre verdad. El present continuous, de lo que está pasando ahora:\n- «Sam always sleeps on Saturdays.» (rutina)\n- «Sam is sleeping now.» (ahora)\n\nCompara:\n- «I work in an office.» (es mi trabajo) / «I'm working at home today.» (hoy, algo distinto)\n- «It rains a lot in Bristol.» (en general) / «It's raining.» (ahora mismo)\n- «What do you do?» (¿a qué te dedicas?) / «What are you doing?» (¿qué estás haciendo?)\n\nPistas que ayudan:\n- present simple: «always», «usually», «often», «sometimes», «never», «every day», «on Mondays»\n- present continuous: «now», «right now», «at the moment», «today», «Look!», «Listen!»\n\nOjo: verbos como «like», «love», «want», «know» o «need» van casi siempre en present simple, aunque hables de ahora: «I want a coffee now» (nunca «I'm wanting»).",
+    "table": {
+      "headers": [
+        "",
+        "Present simple",
+        "Present continuous"
+      ],
+      "rows": [
+        [
+          "Uso",
+          "rutinas y verdades generales",
+          "lo que pasa ahora"
+        ],
+        [
+          "Ejemplo",
+          "I usually walk to work.",
+          "I'm walking to work now."
+        ],
+        [
+          "Pregunta",
+          "What do you do?",
+          "What are you doing?"
+        ],
+        [
+          "Pistas",
+          "always, every day, on Mondays",
+          "now, at the moment, Look!"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el present simple o el present continuous del verbo entre paréntesis.",
+      "items": [
+        {
+          "id": "a1_simple_vs_continuous.001",
+          "sentence": "Sam usually ___ on Saturday mornings. (sleep)",
+          "answers": [
+            [
+              "sleeps"
+            ]
+          ],
+          "explanation": "Rutina: present simple."
+        },
+        {
+          "id": "a1_simple_vs_continuous.002",
+          "sentence": "Look! Sam ___ on the sofa. (sleep)",
+          "answers": [
+            [
+              "'s sleeping",
+              "is sleeping"
+            ]
+          ],
+          "explanation": "Ahora: continuous."
+        },
+        {
+          "id": "a1_simple_vs_continuous.003",
+          "sentence": "It ___ a lot in Bristol. (rain)",
+          "answers": [
+            [
+              "rains"
+            ]
+          ],
+          "explanation": "En general: present simple."
+        },
+        {
+          "id": "a1_simple_vs_continuous.004",
+          "sentence": "Take an umbrella. It ___. (rain)",
+          "answers": [
+            [
+              "'s raining",
+              "is raining"
+            ]
+          ],
+          "explanation": "Ahora: continuous."
+        },
+        {
+          "id": "a1_simple_vs_continuous.005",
+          "sentence": "I ___ to work every day. (walk)",
+          "answers": [
+            [
+              "walk"
+            ]
+          ]
+        },
+        {
+          "id": "a1_simple_vs_continuous.006",
+          "sentence": "I ___ to work right now. I'll be there in five minutes. (walk)",
+          "answers": [
+            [
+              "'m walking",
+              "am walking"
+            ]
+          ]
+        },
+        {
+          "id": "a1_simple_vs_continuous.007",
+          "sentence": "Priya ___ at the hospital. She's a nurse. (work)",
+          "answers": [
+            [
+              "works"
+            ]
+          ],
+          "explanation": "Su trabajo, en general."
+        },
+        {
+          "id": "a1_simple_vs_continuous.008",
+          "sentence": "Priya ___ at home today because she's ill. (work)",
+          "answers": [
+            [
+              "'s working",
+              "is working"
+            ]
+          ],
+          "explanation": "Hoy, algo distinto."
+        },
+        {
+          "id": "a1_simple_vs_continuous.009",
+          "sentence": "What ___ you ___? — I'm a teacher. (do)",
+          "answers": [
+            [
+              "do"
+            ],
+            [
+              "do"
+            ]
+          ],
+          "explanation": "A qué te dedicas: present simple."
+        },
+        {
+          "id": "a1_simple_vs_continuous.010",
+          "sentence": "What ___ you ___? — I'm cooking. (do)",
+          "answers": [
+            [
+              "are"
+            ],
+            [
+              "doing"
+            ]
+          ],
+          "explanation": "Ahora: continuous."
+        },
+        {
+          "id": "a1_simple_vs_continuous.011",
+          "sentence": "I ___ a coffee now, please. (want)",
+          "answers": [
+            [
+              "want"
+            ]
+          ],
+          "explanation": "«want» casi nunca va en continuous."
+        },
+        {
+          "id": "a1_simple_vs_continuous.012",
+          "sentence": "Daniel never ___ TV in the morning. (watch)",
+          "answers": [
+            [
+              "watches"
+            ]
+          ]
+        },
+        {
+          "id": "a1_simple_vs_continuous.013",
+          "sentence": "Listen! Someone ___ the piano. (play)",
+          "answers": [
+            [
+              "'s playing",
+              "is playing"
+            ]
+          ]
+        },
+        {
+          "id": "a1_simple_vs_continuous.014",
+          "sentence": "We often ___ to the beach in summer. (go)",
+          "answers": [
+            [
+              "go"
+            ]
+          ]
+        },
+        {
+          "id": "a1_simple_vs_continuous.015",
+          "sentence": "Javi ___ the answer. He's very clever. (know)",
+          "answers": [
+            [
+              "knows"
+            ]
+          ],
+          "explanation": "«know» casi nunca va en continuous."
+        },
+        {
+          "id": "a1_simple_vs_continuous.016",
+          "sentence": "At the moment I ___ a book about Bristol. (read)",
+          "answers": [
+            [
+              "'m reading",
+              "am reading"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a1_simple_vs_continuous.101",
+          "question": "Normalmente voy en autobús.",
+          "options": [
+            "I usually go by bus.",
+            "I'm usually going by bus."
+          ],
+          "answer": 0,
+          "explanation": "Rutina: present simple."
+        },
+        {
+          "id": "a1_simple_vs_continuous.102",
+          "question": "¡Mira! Está lloviendo.",
+          "options": [
+            "Look! It rains.",
+            "Look! It's raining."
+          ],
+          "answer": 1,
+          "explanation": "Ahora: continuous."
+        },
+        {
+          "id": "a1_simple_vs_continuous.103",
+          "question": "¿A qué te dedicas?",
+          "options": [
+            "What do you do?",
+            "What are you doing?"
+          ],
+          "answer": 0,
+          "explanation": "Profesión: «What do you do?»."
+        },
+        {
+          "id": "a1_simple_vs_continuous.104",
+          "question": "¿Qué estás haciendo?",
+          "options": [
+            "What do you do?",
+            "What are you doing?"
+          ],
+          "answer": 1,
+          "explanation": "Ahora: «What are you doing?»."
+        },
+        {
+          "id": "a1_simple_vs_continuous.105",
+          "question": "Quiero un té.",
+          "options": [
+            "I want a tea.",
+            "I'm wanting a tea."
+          ],
+          "answer": 0,
+          "explanation": "«want» casi nunca va en continuous."
+        },
+        {
+          "id": "a1_simple_vs_continuous.106",
+          "question": "Hoy trabajo desde casa.",
+          "options": [
+            "I'm working from home today.",
+            "I work from home today."
+          ],
+          "answer": 0,
+          "explanation": "Hoy, algo distinto: continuous."
+        },
+        {
+          "id": "a1_simple_vs_continuous.107",
+          "question": "Priya trabaja de noche (es su horario).",
+          "options": [
+            "Priya works at night.",
+            "Priya is working at night."
+          ],
+          "answer": 0,
+          "explanation": "Rutina: present simple."
+        },
+        {
+          "id": "a1_simple_vs_continuous.108",
+          "question": "Escucha, alguien está cantando.",
+          "options": [
+            "Listen! Someone sings.",
+            "Listen! Someone is singing."
+          ],
+          "answer": 1,
+          "explanation": "Ahora: continuous."
+        },
+        {
+          "id": "a1_simple_vs_continuous.109",
+          "question": "Nunca veo la tele por la mañana.",
+          "options": [
+            "I never watch TV in the morning.",
+            "I'm never watching TV in the morning."
+          ],
+          "answer": 0,
+          "explanation": "Hábito: present simple."
+        },
+        {
+          "id": "a1_simple_vs_continuous.110",
+          "question": "Sé la respuesta.",
+          "options": [
+            "I know the answer.",
+            "I'm knowing the answer."
+          ],
+          "answer": 0,
+          "explanation": "«know» casi nunca va en continuous."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "a1_simple_vs_continuous.201",
+          "prompt": "Corrige",
+          "source": "I'm usually getting up at seven.",
+          "answers": [
+            "I usually get up at seven"
+          ],
+          "explanation": "Rutina: present simple."
+        },
+        {
+          "id": "a1_simple_vs_continuous.202",
+          "prompt": "Corrige",
+          "source": "Look! The baby cries.",
+          "answers": [
+            "Look! The baby is crying"
+          ],
+          "explanation": "Ahora: continuous."
+        },
+        {
+          "id": "a1_simple_vs_continuous.203",
+          "prompt": "Corrige",
+          "source": "What do you do now? — I'm cooking.",
+          "answers": [
+            "What are you doing now? I'm cooking",
+            "What are you doing now"
+          ],
+          "explanation": "Ahora: «What are you doing?»."
+        },
+        {
+          "id": "a1_simple_vs_continuous.204",
+          "prompt": "Corrige",
+          "source": "I'm liking this song.",
+          "answers": [
+            "I like this song"
+          ],
+          "explanation": "«like» casi nunca va en continuous."
+        },
+        {
+          "id": "a1_simple_vs_continuous.205",
+          "prompt": "Corrige",
+          "source": "It's raining a lot in Bristol in winter.",
+          "answers": [
+            "It rains a lot in Bristol in winter"
+          ],
+          "explanation": "En general: present simple."
+        },
+        {
+          "id": "a1_simple_vs_continuous.206",
+          "prompt": "Corrige",
+          "source": "Sam plays the guitar right now.",
+          "answers": [
+            "Sam is playing the guitar right now"
+          ],
+          "explanation": "Ahora: continuous."
+        },
+        {
+          "id": "a1_simple_vs_continuous.207",
+          "prompt": "Corrige",
+          "source": "Priya is working at the hospital every day.",
+          "answers": [
+            "Priya works at the hospital every day"
+          ],
+          "explanation": "Rutina: present simple."
+        },
+        {
+          "id": "a1_simple_vs_continuous.208",
+          "prompt": "Corrige",
+          "source": "I'm wanting a sandwich.",
+          "answers": [
+            "I want a sandwich"
+          ],
+          "explanation": "«want» casi nunca va en continuous."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_simple_vs_continuous.301",
+          "source": "Normalmente me levanto a las siete.",
+          "answers": [
+            "I usually get up at seven"
+          ]
+        },
+        {
+          "id": "a1_simple_vs_continuous.302",
+          "source": "Ahora estoy comiendo.",
+          "answers": [
+            "I'm eating now",
+            "I'm having lunch now",
+            "I'm eating right now"
+          ]
+        },
+        {
+          "id": "a1_simple_vs_continuous.303",
+          "source": "¿A qué te dedicas?",
+          "answers": [
+            "What do you do"
+          ]
+        },
+        {
+          "id": "a1_simple_vs_continuous.304",
+          "source": "¿Qué estás haciendo?",
+          "answers": [
+            "What are you doing"
+          ]
+        },
+        {
+          "id": "a1_simple_vs_continuous.305",
+          "source": "Llueve mucho en Bristol.",
+          "answers": [
+            "It rains a lot in Bristol"
+          ]
+        },
+        {
+          "id": "a1_simple_vs_continuous.306",
+          "source": "Hoy trabajo en casa.",
+          "answers": [
+            "I'm working at home today",
+            "I'm working from home today"
+          ]
+        },
+        {
+          "id": "a1_simple_vs_continuous.307",
+          "source": "Quiero un café.",
+          "answers": [
+            "I want a coffee",
+            "I'd like a coffee"
+          ]
+        },
+        {
+          "id": "a1_simple_vs_continuous.308",
+          "source": "Sam siempre duerme los sábados, y ahora está durmiendo.",
+          "answers": [
+            "Sam always sleeps on Saturdays, and now he's sleeping",
+            "Sam always sleeps on Saturdays and he's sleeping now"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_simple_vs_continuous.401",
+          "answer": "I usually walk to work"
+        },
+        {
+          "id": "a1_simple_vs_continuous.402",
+          "answer": "Today I'm working at home"
+        },
+        {
+          "id": "a1_simple_vs_continuous.403",
+          "answer": "What do you do?"
+        },
+        {
+          "id": "a1_simple_vs_continuous.404",
+          "answer": "What are you doing now?"
+        },
+        {
+          "id": "a1_simple_vs_continuous.405",
+          "answer": "It rains a lot in winter"
+        }
+      ]
+    }
+  ]
+}

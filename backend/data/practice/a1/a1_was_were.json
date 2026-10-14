@@ -1,0 +1,467 @@
+{
+  "topic_id": "a1_was_were",
+  "level_id": "A1",
+  "title": "Past simple de «to be»: was / were",
+  "tags": [
+    "past_simple"
+  ],
+  "units": [
+    "last_weekend"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Past simple of 'to be': was, were",
+    "explanation": "El pasado de «to be» tiene dos formas: «was» con «I», «he», «she» e «it», y «were» con «you», «we» y «they»:\n- «I was at home.»\n- «It was great!»\n- «We were very tired.»\n\nLa negativa es «wasn't» («was not») / «weren't» («were not»), y en la pregunta «was» o «were» va delante del sujeto:\n- «The film wasn't very good.»\n- «Were you there alone? — No, I wasn't.»\n- «Where were you yesterday?»\n\nSuele ir con expresiones de tiempo pasado: «yesterday», «last night», «last week», «on Saturday», «two days ago».\n\nPara preguntar cómo fue algo:\n- «How was your weekend? — It was great!»\n\nOjo: «nacer» es «be born» y va en pasado: «I was born in 1998» (nací en 1998). Y la edad en el pasado también va con «be»: «I was ten» (tenía diez años).",
+    "table": {
+      "headers": [
+        "Sujeto",
+        "Afirmativa",
+        "Negativa",
+        "Pregunta"
+      ],
+      "rows": [
+        [
+          "I / he / she / it",
+          "was",
+          "wasn't",
+          "Was I…? Was she…?"
+        ],
+        [
+          "you / we / they",
+          "were",
+          "weren't",
+          "Were you…? Were they…?"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «was», «were», «wasn't» o «weren't».",
+      "bank": [
+        "was",
+        "were",
+        "wasn't",
+        "weren't"
+      ],
+      "items": [
+        {
+          "id": "a1_was_were.001",
+          "sentence": "My weekend ___ great.",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        },
+        {
+          "id": "a1_was_were.002",
+          "sentence": "We ___ very tired after the walk.",
+          "answers": [
+            [
+              "were"
+            ]
+          ]
+        },
+        {
+          "id": "a1_was_were.003",
+          "sentence": "___ you at home yesterday? — Yes, I was.",
+          "answers": [
+            [
+              "Were"
+            ]
+          ]
+        },
+        {
+          "id": "a1_was_were.004",
+          "sentence": "The film ___ very good. I didn't like it.",
+          "answers": [
+            [
+              "wasn't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_was_were.005",
+          "sentence": "Sam and Priya ___ at the party. They were at work.",
+          "answers": [
+            [
+              "weren't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_was_were.006",
+          "sentence": "I ___ born in Valencia.",
+          "answers": [
+            [
+              "was"
+            ]
+          ],
+          "explanation": "Nacer: «be born»."
+        },
+        {
+          "id": "a1_was_were.007",
+          "sentence": "Where ___ you last night?",
+          "answers": [
+            [
+              "were"
+            ]
+          ]
+        },
+        {
+          "id": "a1_was_were.008",
+          "sentence": "It ___ very windy on Sunday.",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        },
+        {
+          "id": "a1_was_were.009",
+          "sentence": "___ Daniel at the meeting? — No, he wasn't.",
+          "answers": [
+            [
+              "Was"
+            ]
+          ]
+        },
+        {
+          "id": "a1_was_were.010",
+          "sentence": "The shops ___ open. It was a holiday.",
+          "answers": [
+            [
+              "weren't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_was_were.011",
+          "sentence": "How ___ your holiday? — Fantastic!",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        },
+        {
+          "id": "a1_was_were.012",
+          "sentence": "I ___ ten when we moved to Valencia.",
+          "answers": [
+            [
+              "was"
+            ]
+          ],
+          "explanation": "La edad en pasado: «was»."
+        },
+        {
+          "id": "a1_was_were.013",
+          "sentence": "Were you tired? — No, we ___.",
+          "answers": [
+            [
+              "weren't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_was_were.014",
+          "sentence": "My grandparents ___ teachers.",
+          "answers": [
+            [
+              "were"
+            ]
+          ]
+        },
+        {
+          "id": "a1_was_were.015",
+          "sentence": "The restaurant ___ expensive. It was very cheap!",
+          "answers": [
+            [
+              "wasn't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_was_were.016",
+          "sentence": "Was it cold in Galway? — Yes, it ___.",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a1_was_were.101",
+          "question": "Estábamos cansados.",
+          "options": [
+            "We was tired.",
+            "We were tired."
+          ],
+          "answer": 1,
+          "explanation": "Con «we»: «were»."
+        },
+        {
+          "id": "a1_was_were.102",
+          "question": "¿Dónde estabas ayer?",
+          "options": [
+            "Where were you yesterday?",
+            "Where you were yesterday?"
+          ],
+          "answer": 0,
+          "explanation": "En la pregunta, «were» va delante del sujeto."
+        },
+        {
+          "id": "a1_was_were.103",
+          "question": "Nací en 1998.",
+          "options": [
+            "I born in 1998.",
+            "I was born in 1998."
+          ],
+          "answer": 1,
+          "explanation": "Nacer: «be born»."
+        },
+        {
+          "id": "a1_was_were.104",
+          "question": "La película no fue buena.",
+          "options": [
+            "The film wasn't good.",
+            "The film didn't be good."
+          ],
+          "answer": 0,
+          "explanation": "Negativa: «wasn't»."
+        },
+        {
+          "id": "a1_was_were.105",
+          "question": "¿Qué tal tu fin de semana?",
+          "options": [
+            "How was your weekend?",
+            "How were your weekend?"
+          ],
+          "answer": 0,
+          "explanation": "«weekend» es singular: «was»."
+        },
+        {
+          "id": "a1_was_were.106",
+          "question": "Tenía diez años.",
+          "options": [
+            "I had ten years.",
+            "I was ten."
+          ],
+          "answer": 1,
+          "explanation": "La edad va con «be»."
+        },
+        {
+          "id": "a1_was_were.107",
+          "question": "¿Estuviste solo? — No.",
+          "options": [
+            "Were you alone? — No, I wasn't.",
+            "Were you alone? — No, I weren't."
+          ],
+          "answer": 0,
+          "explanation": "Con «I»: «wasn't»."
+        },
+        {
+          "id": "a1_was_were.108",
+          "question": "Hacía mucho viento.",
+          "options": [
+            "It was very windy.",
+            "It were very windy."
+          ],
+          "answer": 0,
+          "explanation": "Con «it»: «was»."
+        },
+        {
+          "id": "a1_was_were.109",
+          "question": "Mis padres estaban en casa.",
+          "options": [
+            "My parents was at home.",
+            "My parents were at home."
+          ],
+          "answer": 1,
+          "explanation": "Plural: «were»."
+        },
+        {
+          "id": "a1_was_were.110",
+          "question": "Ayer estaba enferma.",
+          "options": [
+            "I was ill yesterday.",
+            "I am ill yesterday."
+          ],
+          "answer": 0,
+          "explanation": "Pasado: «was»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Transforma o corrige la frase como se indica.",
+      "items": [
+        {
+          "id": "a1_was_were.201",
+          "prompt": "Pasado",
+          "source": "I'm at home.",
+          "answers": [
+            "I was at home"
+          ]
+        },
+        {
+          "id": "a1_was_were.202",
+          "prompt": "Pasado",
+          "source": "They're very happy.",
+          "answers": [
+            "They were very happy"
+          ]
+        },
+        {
+          "id": "a1_was_were.203",
+          "prompt": "Negativa",
+          "source": "The museum was open.",
+          "answers": [
+            "The museum wasn't open"
+          ]
+        },
+        {
+          "id": "a1_was_were.204",
+          "prompt": "Pregunta",
+          "source": "You were at the party.",
+          "answers": [
+            "Were you at the party"
+          ]
+        },
+        {
+          "id": "a1_was_were.205",
+          "prompt": "Corrige",
+          "source": "We was in Bath on Saturday.",
+          "answers": [
+            "We were in Bath on Saturday"
+          ],
+          "explanation": "Con «we»: «were»."
+        },
+        {
+          "id": "a1_was_were.206",
+          "prompt": "Corrige",
+          "source": "I born in Spain.",
+          "answers": [
+            "I was born in Spain"
+          ],
+          "explanation": "Nacer: «be born»."
+        },
+        {
+          "id": "a1_was_were.207",
+          "prompt": "Corrige",
+          "source": "Where you were last night?",
+          "answers": [
+            "Where were you last night"
+          ],
+          "explanation": "En la pregunta, «were» va delante del sujeto."
+        },
+        {
+          "id": "a1_was_were.208",
+          "prompt": "Corrige",
+          "source": "The concert were amazing.",
+          "answers": [
+            "The concert was amazing"
+          ],
+          "explanation": "Singular: «was»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_was_were.301",
+          "source": "Fue genial.",
+          "answers": [
+            "It was great"
+          ]
+        },
+        {
+          "id": "a1_was_were.302",
+          "source": "¿Dónde estabas ayer?",
+          "answers": [
+            "Where were you yesterday"
+          ]
+        },
+        {
+          "id": "a1_was_were.303",
+          "source": "Estábamos muy cansados.",
+          "answers": [
+            "We were very tired"
+          ]
+        },
+        {
+          "id": "a1_was_were.304",
+          "source": "Nací en Valencia.",
+          "answers": [
+            "I was born in Valencia"
+          ]
+        },
+        {
+          "id": "a1_was_were.305",
+          "source": "La película no fue buena.",
+          "answers": [
+            "The film wasn't good",
+            "The film wasn't very good"
+          ]
+        },
+        {
+          "id": "a1_was_were.306",
+          "source": "¿Qué tal tu fin de semana?",
+          "answers": [
+            "How was your weekend"
+          ]
+        },
+        {
+          "id": "a1_was_were.307",
+          "source": "Mis padres no estaban en casa.",
+          "answers": [
+            "My parents weren't at home"
+          ]
+        },
+        {
+          "id": "a1_was_were.308",
+          "source": "Hacía frío en Galway.",
+          "answers": [
+            "It was cold in Galway"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_was_were.401",
+          "answer": "How was your weekend?"
+        },
+        {
+          "id": "a1_was_were.402",
+          "answer": "We were very tired"
+        },
+        {
+          "id": "a1_was_were.403",
+          "answer": "I was born in Valencia"
+        },
+        {
+          "id": "a1_was_were.404",
+          "answer": "Where were you last night?"
+        },
+        {
+          "id": "a1_was_were.405",
+          "answer": "The film wasn't very good"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,540 @@
+{
+  "topic_id": "a1_can_could",
+  "level_id": "A1",
+  "title": "can / can't y could / couldn't",
+  "tags": [
+    "can_could"
+  ],
+  "units": [
+    "in_the_park"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "can, can't, could, couldn't",
+    "explanation": "«Can» expresa habilidad (saber, poder) y también sirve para pedir permiso o un favor:\n- «I can swim.» (sé nadar)\n- «Can I open the window?» (¿puedo…?)\n- «Can you help me?» (¿puedes…?)\n\nEs igual para todas las personas (nunca «he cans») y va seguido del verbo sin «to» (nunca «can to swim»). La negativa es «can't» («cannot») y en la pregunta «can» va delante:\n- «Sam can't kick the ball very well.»\n- «Can you play the guitar? — Yes, I can. / No, I can't.»\n\n«Could» es el pasado de «can» para la habilidad, y «couldn't», su negativa:\n- «I could swim when I was six.»\n- «I couldn't sleep last night.»\n\n«Could» también sirve para pedir algo con más educación que «can»:\n- «Could you help me, please?»\n- «Could I have some water?»\n\n«Very» y «really» refuerzan un adjetivo o un adverbio y van delante: «very fast», «really well». «Not very» suaviza: «I can't run very fast».\n\nOjo: «saber» con habilidades es «can» («Sé nadar» = «I can swim»), no «know».",
+    "table": {
+      "headers": [
+        "",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Habilidad",
+          "Lucía can play football."
+        ],
+        [
+          "Negativa",
+          "Sam can't sing."
+        ],
+        [
+          "Pregunta",
+          "Can you swim?"
+        ],
+        [
+          "Respuesta corta",
+          "Yes, I can. / No, I can't."
+        ],
+        [
+          "Pasado",
+          "I could read when I was five."
+        ],
+        [
+          "Petición educada",
+          "Could you help me, please?"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «can», «can't», «could» o «couldn't».",
+      "bank": [
+        "can",
+        "can't",
+        "could",
+        "couldn't"
+      ],
+      "items": [
+        {
+          "id": "a1_can_could.001",
+          "sentence": "Lucía ___ play football. She's very good.",
+          "answers": [
+            [
+              "can"
+            ]
+          ]
+        },
+        {
+          "id": "a1_can_could.002",
+          "sentence": "Sam ___ sing. He's terrible!",
+          "answers": [
+            [
+              "can't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_can_could.003",
+          "sentence": "___ you swim? — Yes, I can.",
+          "answers": [
+            [
+              "Can"
+            ]
+          ]
+        },
+        {
+          "id": "a1_can_could.004",
+          "sentence": "I ___ swim when I was five, but I can now.",
+          "answers": [
+            [
+              "couldn't"
+            ]
+          ],
+          "explanation": "Pasado, negativa: «couldn't»."
+        },
+        {
+          "id": "a1_can_could.005",
+          "sentence": "___ you help me, please?",
+          "answers": [
+            [
+              "Can",
+              "Could"
+            ]
+          ],
+          "explanation": "Para pedir un favor: «Can» o, más educado, «Could»."
+        },
+        {
+          "id": "a1_can_could.006",
+          "sentence": "My grandma ___ read when she was four. She was very clever!",
+          "answers": [
+            [
+              "could"
+            ]
+          ]
+        },
+        {
+          "id": "a1_can_could.007",
+          "sentence": "Can Daniel cook? — No, he ___.",
+          "answers": [
+            [
+              "can't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_can_could.008",
+          "sentence": "I'm sorry, I ___ come to the party tomorrow. I'm working.",
+          "answers": [
+            [
+              "can't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_can_could.009",
+          "sentence": "___ I open the window? It's very hot.",
+          "answers": [
+            [
+              "Can"
+            ]
+          ],
+          "explanation": "Pedir permiso: «Can I…?»."
+        },
+        {
+          "id": "a1_can_could.010",
+          "sentence": "Priya ___ speak three languages.",
+          "answers": [
+            [
+              "can"
+            ]
+          ]
+        },
+        {
+          "id": "a1_can_could.011",
+          "sentence": "We ___ find a taxi last night, so we walked.",
+          "answers": [
+            [
+              "couldn't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_can_could.012",
+          "sentence": "Can you play the piano? — Yes, I ___.",
+          "answers": [
+            [
+              "can"
+            ]
+          ]
+        },
+        {
+          "id": "a1_can_could.013",
+          "sentence": "When I was a child, I ___ climb trees very fast.",
+          "answers": [
+            [
+              "could"
+            ]
+          ]
+        },
+        {
+          "id": "a1_can_could.014",
+          "sentence": "I ___ hear you. Can you speak louder?",
+          "answers": [
+            [
+              "can't"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «very» o «really».",
+      "bank": [
+        "very",
+        "really"
+      ],
+      "items": [
+        {
+          "id": "a1_can_could.101",
+          "sentence": "Lucía plays ___ well.",
+          "answers": [
+            [
+              "really",
+              "very"
+            ]
+          ],
+          "explanation": "Los dos refuerzan: «really well», «very well»."
+        },
+        {
+          "id": "a1_can_could.102",
+          "sentence": "I can't run ___ fast.",
+          "answers": [
+            [
+              "very"
+            ]
+          ],
+          "explanation": "«not very» suaviza."
+        },
+        {
+          "id": "a1_can_could.103",
+          "sentence": "This park is ___ beautiful.",
+          "answers": [
+            [
+              "really",
+              "very"
+            ]
+          ]
+        },
+        {
+          "id": "a1_can_could.104",
+          "sentence": "Sam can sing ___ well!",
+          "answers": [
+            [
+              "really",
+              "very"
+            ]
+          ]
+        },
+        {
+          "id": "a1_can_could.105",
+          "sentence": "It isn't ___ far. We can walk.",
+          "answers": [
+            [
+              "very"
+            ]
+          ],
+          "explanation": "«not very» suaviza."
+        },
+        {
+          "id": "a1_can_could.106",
+          "sentence": "The water is ___ cold today.",
+          "answers": [
+            [
+              "really",
+              "very"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a1_can_could.201",
+          "question": "Sé nadar.",
+          "options": [
+            "I know swim.",
+            "I can swim."
+          ],
+          "answer": 1,
+          "explanation": "Habilidad: «can»."
+        },
+        {
+          "id": "a1_can_could.202",
+          "question": "Él sabe cocinar.",
+          "options": [
+            "He cans cook.",
+            "He can cook."
+          ],
+          "answer": 1,
+          "explanation": "«can» no lleva «-s»."
+        },
+        {
+          "id": "a1_can_could.203",
+          "question": "Ella puede venir.",
+          "options": [
+            "She can come.",
+            "She can to come."
+          ],
+          "answer": 0,
+          "explanation": "Después de «can», sin «to»."
+        },
+        {
+          "id": "a1_can_could.204",
+          "question": "¿Sabes tocar la guitarra? — No.",
+          "options": [
+            "Can you play the guitar? — No, I can't.",
+            "Can you play the guitar? — No, I don't."
+          ],
+          "answer": 0,
+          "explanation": "Respuesta corta: «No, I can't»."
+        },
+        {
+          "id": "a1_can_could.205",
+          "question": "Anoche no pude dormir.",
+          "options": [
+            "I couldn't sleep last night.",
+            "I can't sleep last night."
+          ],
+          "answer": 0,
+          "explanation": "Pasado: «couldn't»."
+        },
+        {
+          "id": "a1_can_could.206",
+          "question": "¿Podría tomar un poco de agua?",
+          "options": [
+            "Could I have some water?",
+            "Could I to have some water?"
+          ],
+          "answer": 0,
+          "explanation": "Después de «could», sin «to»."
+        },
+        {
+          "id": "a1_can_could.207",
+          "question": "¿Puedo sentarme aquí?",
+          "options": [
+            "Can I sit here?",
+            "Do I can sit here?"
+          ],
+          "answer": 0,
+          "explanation": "Pregunta: «Can I…?»."
+        },
+        {
+          "id": "a1_can_could.208",
+          "question": "No corro muy rápido.",
+          "options": [
+            "I can't run very fast.",
+            "I can't run fast very."
+          ],
+          "answer": 0,
+          "explanation": "«very» va delante de «fast»."
+        },
+        {
+          "id": "a1_can_could.209",
+          "question": "Con seis años sabía leer.",
+          "options": [
+            "I could read when I was six.",
+            "I can read when I was six."
+          ],
+          "answer": 0,
+          "explanation": "Pasado: «could»."
+        },
+        {
+          "id": "a1_can_could.210",
+          "question": "Juegas muy bien.",
+          "options": [
+            "You play really well.",
+            "You play really good."
+          ],
+          "answer": 0,
+          "explanation": "Con un verbo: «well»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Transforma o corrige la frase como se indica.",
+      "items": [
+        {
+          "id": "a1_can_could.301",
+          "prompt": "Negativa",
+          "source": "I can drive.",
+          "answers": [
+            "I can't drive",
+            "I cannot drive"
+          ]
+        },
+        {
+          "id": "a1_can_could.302",
+          "prompt": "Pregunta",
+          "source": "Priya can speak French.",
+          "answers": [
+            "Can Priya speak French"
+          ]
+        },
+        {
+          "id": "a1_can_could.303",
+          "prompt": "Pasado",
+          "source": "I can't sleep.",
+          "answers": [
+            "I couldn't sleep"
+          ]
+        },
+        {
+          "id": "a1_can_could.304",
+          "prompt": "Más educado",
+          "source": "Can you open the door?",
+          "answers": [
+            "Could you open the door"
+          ]
+        },
+        {
+          "id": "a1_can_could.305",
+          "prompt": "Corrige",
+          "source": "She cans play the piano.",
+          "answers": [
+            "She can play the piano"
+          ],
+          "explanation": "«can» no lleva «-s»."
+        },
+        {
+          "id": "a1_can_could.306",
+          "prompt": "Corrige",
+          "source": "I can to swim.",
+          "answers": [
+            "I can swim"
+          ],
+          "explanation": "Después de «can», sin «to»."
+        },
+        {
+          "id": "a1_can_could.307",
+          "prompt": "Corrige",
+          "source": "Do you can help me?",
+          "answers": [
+            "Can you help me"
+          ],
+          "explanation": "Pregunta: «Can you…?»."
+        },
+        {
+          "id": "a1_can_could.308",
+          "prompt": "Corrige",
+          "source": "When I was five I can ride a bike.",
+          "answers": [
+            "When I was five I could ride a bike"
+          ],
+          "explanation": "Pasado: «could»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_can_could.401",
+          "source": "¿Sabes jugar al fútbol?",
+          "answers": [
+            "Can you play football"
+          ]
+        },
+        {
+          "id": "a1_can_could.402",
+          "source": "No sé nadar.",
+          "answers": [
+            "I can't swim",
+            "I cannot swim"
+          ]
+        },
+        {
+          "id": "a1_can_could.403",
+          "source": "¿Puedo abrir la ventana?",
+          "answers": [
+            "Can I open the window",
+            "Could I open the window"
+          ]
+        },
+        {
+          "id": "a1_can_could.404",
+          "source": "¿Podrías ayudarme, por favor?",
+          "answers": [
+            "Could you help me please"
+          ]
+        },
+        {
+          "id": "a1_can_could.405",
+          "source": "Ella sabe cocinar muy bien.",
+          "answers": [
+            "She can cook very well",
+            "She can cook really well"
+          ]
+        },
+        {
+          "id": "a1_can_could.406",
+          "source": "Anoche no pude dormir.",
+          "answers": [
+            "I couldn't sleep last night"
+          ]
+        },
+        {
+          "id": "a1_can_could.407",
+          "source": "Con cinco años sabía leer.",
+          "answers": [
+            "I could read when I was five"
+          ]
+        },
+        {
+          "id": "a1_can_could.408",
+          "source": "Sam no canta muy bien.",
+          "answers": [
+            "Sam can't sing very well",
+            "Sam doesn't sing very well"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_can_could.501",
+          "answer": "Can you play the guitar?"
+        },
+        {
+          "id": "a1_can_could.502",
+          "answer": "I can't run very fast"
+        },
+        {
+          "id": "a1_can_could.503",
+          "answer": "Could you help me, please?"
+        },
+        {
+          "id": "a1_can_could.504",
+          "answer": "She can speak three languages"
+        },
+        {
+          "id": "a1_can_could.505",
+          "answer": "I couldn't sleep last night"
+        },
+        {
+          "id": "a1_can_could.506",
+          "answer": "Can I open the window?"
+        }
+      ]
+    }
+  ]
+}

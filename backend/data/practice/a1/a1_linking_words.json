@@ -1,0 +1,495 @@
+{
+  "topic_id": "a1_linking_words",
+  "level_id": "A1",
+  "title": "Conectores: and, but, or, because",
+  "tags": [
+    "linking_words"
+  ],
+  "units": [
+    "my_week"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Linking words: and, but, or, because",
+    "explanation": "Para unir dos ideas en una frase usamos conectores.\n\n«And» (y) añade información:\n- «I study English and I watch TV.»\n\n«But» (pero) presenta un contraste. Delante suele ir una coma:\n- «I like Bristol, but it rains a lot.»\n\n«Or» (o) da opciones. En negativas, «or» sustituye a «and» (ni… ni…):\n- «Do you go by bus or on foot?»\n- «I don't drink tea or coffee.»\n\n«Because» (porque) da la razón. Para preguntarla usamos «Why…?»:\n- «I go by bus because the office is far.»\n- «Why do you go by bus? — Because the office is far.»\n\nOjo: «because» va delante de la razón, no de la consecuencia: «I'm tired because I work at night» (estoy cansada porque trabajo de noche).",
+    "table": {
+      "headers": [
+        "Conector",
+        "Sirve para",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "and",
+          "añadir",
+          "I get up at seven and I go to work."
+        ],
+        [
+          "but",
+          "contrastar",
+          "I love my job, but it's far."
+        ],
+        [
+          "or",
+          "dar opciones",
+          "Tea or coffee?"
+        ],
+        [
+          "because",
+          "explicar la razón",
+          "I don't walk because the office is far."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «and», «but», «or» o «because».",
+      "bank": [
+        "and",
+        "but",
+        "or",
+        "because"
+      ],
+      "items": [
+        {
+          "id": "a1_linking_words.001",
+          "sentence": "I get up at seven ___ I have breakfast at half past seven.",
+          "answers": [
+            [
+              "and"
+            ]
+          ]
+        },
+        {
+          "id": "a1_linking_words.002",
+          "sentence": "I like my flat, ___ it's very small.",
+          "answers": [
+            [
+              "but"
+            ]
+          ]
+        },
+        {
+          "id": "a1_linking_words.003",
+          "sentence": "Do you want tea ___ coffee?",
+          "answers": [
+            [
+              "or"
+            ]
+          ]
+        },
+        {
+          "id": "a1_linking_words.004",
+          "sentence": "I'm happy ___ it's Friday!",
+          "answers": [
+            [
+              "because"
+            ]
+          ]
+        },
+        {
+          "id": "a1_linking_words.005",
+          "sentence": "Sam plays the guitar ___ he sings.",
+          "answers": [
+            [
+              "and"
+            ]
+          ]
+        },
+        {
+          "id": "a1_linking_words.006",
+          "sentence": "Priya works at night, ___ she isn't tired.",
+          "answers": [
+            [
+              "but"
+            ]
+          ]
+        },
+        {
+          "id": "a1_linking_words.007",
+          "sentence": "We go to the park ___ it's sunny.",
+          "answers": [
+            [
+              "because"
+            ]
+          ]
+        },
+        {
+          "id": "a1_linking_words.008",
+          "sentence": "Is your birthday in May ___ in June?",
+          "answers": [
+            [
+              "or"
+            ]
+          ]
+        },
+        {
+          "id": "a1_linking_words.009",
+          "sentence": "I don't eat meat ___ fish.",
+          "answers": [
+            [
+              "or"
+            ]
+          ],
+          "explanation": "En negativas: «or», no «and»."
+        },
+        {
+          "id": "a1_linking_words.010",
+          "sentence": "Javi doesn't study ___ he plays video games all day.",
+          "answers": [
+            [
+              "because"
+            ]
+          ],
+          "explanation": "La razón: «because»."
+        },
+        {
+          "id": "a1_linking_words.011",
+          "sentence": "Daniel is Irish, ___ he lives in Bristol.",
+          "answers": [
+            [
+              "but"
+            ]
+          ]
+        },
+        {
+          "id": "a1_linking_words.012",
+          "sentence": "I go to the gym on Mondays ___ Thursdays.",
+          "answers": [
+            [
+              "and"
+            ]
+          ]
+        },
+        {
+          "id": "a1_linking_words.013",
+          "sentence": "Why do you study English? — ___ I work in Bristol.",
+          "answers": [
+            [
+              "Because"
+            ]
+          ]
+        },
+        {
+          "id": "a1_linking_words.014",
+          "sentence": "We can walk ___ take the bus.",
+          "answers": [
+            [
+              "or"
+            ]
+          ]
+        },
+        {
+          "id": "a1_linking_words.015",
+          "sentence": "The café is small, ___ the coffee is great.",
+          "answers": [
+            [
+              "but"
+            ]
+          ]
+        },
+        {
+          "id": "a1_linking_words.016",
+          "sentence": "I don't go out ___ I'm very tired.",
+          "answers": [
+            [
+              "because"
+            ]
+          ]
+        },
+        {
+          "id": "a1_linking_words.017",
+          "sentence": "My sister lives in Madrid ___ my brother lives in London.",
+          "answers": [
+            [
+              "and"
+            ]
+          ]
+        },
+        {
+          "id": "a1_linking_words.018",
+          "sentence": "Do you go to work by car ___ by bike?",
+          "answers": [
+            [
+              "or"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase tiene sentido?",
+      "items": [
+        {
+          "id": "a1_linking_words.101",
+          "question": "Estoy cansada porque trabajo de noche.",
+          "options": [
+            "I'm tired because I work at night.",
+            "I work at night because I'm tired."
+          ],
+          "answer": 0,
+          "explanation": "«because» va delante de la razón."
+        },
+        {
+          "id": "a1_linking_words.102",
+          "question": "No bebo té ni café.",
+          "options": [
+            "I don't drink tea and coffee.",
+            "I don't drink tea or coffee."
+          ],
+          "answer": 1,
+          "explanation": "En negativas: «or»."
+        },
+        {
+          "id": "a1_linking_words.103",
+          "question": "Me gusta Bristol, pero llueve mucho.",
+          "options": [
+            "I like Bristol, but it rains a lot.",
+            "I like Bristol, because it rains a lot."
+          ],
+          "answer": 0,
+          "explanation": "Contraste: «but»."
+        },
+        {
+          "id": "a1_linking_words.104",
+          "question": "¿Por qué vas en autobús?",
+          "options": [
+            "Because do you go by bus?",
+            "Why do you go by bus?"
+          ],
+          "answer": 1,
+          "explanation": "Para preguntar la razón: «Why…?»."
+        },
+        {
+          "id": "a1_linking_words.105",
+          "question": "¿Vino o cerveza?",
+          "options": [
+            "Wine or beer?",
+            "Wine and beer?"
+          ],
+          "answer": 0,
+          "explanation": "Opciones: «or»."
+        },
+        {
+          "id": "a1_linking_words.106",
+          "question": "Trabajo y estudio.",
+          "options": [
+            "I work and I study.",
+            "I work but I study."
+          ],
+          "answer": 0,
+          "explanation": "Añadir información: «and»."
+        },
+        {
+          "id": "a1_linking_words.107",
+          "question": "El piso es bonito, pero caro.",
+          "options": [
+            "The flat is nice, and it's expensive.",
+            "The flat is nice, but it's expensive."
+          ],
+          "answer": 1,
+          "explanation": "Contraste: «but»."
+        },
+        {
+          "id": "a1_linking_words.108",
+          "question": "Me quedo en casa porque llueve.",
+          "options": [
+            "I stay at home because it's raining.",
+            "I stay at home or it's raining."
+          ],
+          "answer": 0,
+          "explanation": "La razón: «because»."
+        },
+        {
+          "id": "a1_linking_words.109",
+          "question": "Sam toca la guitarra y Priya canta.",
+          "options": [
+            "Sam plays the guitar and Priya sings.",
+            "Sam plays the guitar or Priya sings."
+          ],
+          "answer": 0,
+          "explanation": "Añadir: «and»."
+        },
+        {
+          "id": "a1_linking_words.110",
+          "question": "¿Por qué? — Porque es tarde.",
+          "options": [
+            "Why? — Because it's late.",
+            "Why? — Why it's late."
+          ],
+          "answer": 0,
+          "explanation": "La respuesta empieza por «Because»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Une las dos frases con el conector indicado.",
+      "items": [
+        {
+          "id": "a1_linking_words.201",
+          "prompt": "and",
+          "source": "I get up. I have a shower.",
+          "answers": [
+            "I get up and I have a shower",
+            "I get up and have a shower"
+          ]
+        },
+        {
+          "id": "a1_linking_words.202",
+          "prompt": "but",
+          "source": "I like my job. It's very far.",
+          "answers": [
+            "I like my job, but it's very far",
+            "I like my job but it's very far"
+          ]
+        },
+        {
+          "id": "a1_linking_words.203",
+          "prompt": "because",
+          "source": "I'm hungry. I don't have breakfast.",
+          "answers": [
+            "I'm hungry because I don't have breakfast"
+          ]
+        },
+        {
+          "id": "a1_linking_words.204",
+          "prompt": "or",
+          "source": "Do you want pasta? Do you want pizza?",
+          "answers": [
+            "Do you want pasta or pizza"
+          ]
+        },
+        {
+          "id": "a1_linking_words.205",
+          "prompt": "but",
+          "source": "Sam is a musician. He works at a pub.",
+          "answers": [
+            "Sam is a musician, but he works at a pub",
+            "Sam is a musician but he works at a pub"
+          ]
+        },
+        {
+          "id": "a1_linking_words.206",
+          "prompt": "because",
+          "source": "We take a taxi. It's raining.",
+          "answers": [
+            "We take a taxi because it's raining"
+          ]
+        },
+        {
+          "id": "a1_linking_words.207",
+          "prompt": "and",
+          "source": "Priya is a nurse. She works at night.",
+          "answers": [
+            "Priya is a nurse and she works at night",
+            "Priya is a nurse and works at night"
+          ]
+        },
+        {
+          "id": "a1_linking_words.208",
+          "prompt": "Corrige",
+          "source": "I don't like football and tennis.",
+          "answers": [
+            "I don't like football or tennis"
+          ],
+          "explanation": "En negativas: «or»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_linking_words.301",
+          "source": "Estudio inglés y veo la tele.",
+          "answers": [
+            "I study English and I watch TV",
+            "I study English and watch TV"
+          ]
+        },
+        {
+          "id": "a1_linking_words.302",
+          "source": "Me gusta mi trabajo, pero está lejos.",
+          "answers": [
+            "I like my job, but it's far",
+            "I like my job but it's far"
+          ]
+        },
+        {
+          "id": "a1_linking_words.303",
+          "source": "¿Té o café?",
+          "answers": [
+            "Tea or coffee"
+          ]
+        },
+        {
+          "id": "a1_linking_words.304",
+          "source": "Voy en bici porque es barato.",
+          "answers": [
+            "I go by bike because it's cheap"
+          ]
+        },
+        {
+          "id": "a1_linking_words.305",
+          "source": "No bebo leche ni zumo.",
+          "answers": [
+            "I don't drink milk or juice"
+          ]
+        },
+        {
+          "id": "a1_linking_words.306",
+          "source": "¿Por qué estudias inglés?",
+          "answers": [
+            "Why do you study English"
+          ]
+        },
+        {
+          "id": "a1_linking_words.307",
+          "source": "Trabajo en Bristol, pero vivo en Bath.",
+          "answers": [
+            "I work in Bristol, but I live in Bath",
+            "I work in Bristol but I live in Bath"
+          ]
+        },
+        {
+          "id": "a1_linking_words.308",
+          "source": "Estoy contenta porque es viernes.",
+          "answers": [
+            "I'm happy because it's Friday"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_linking_words.401",
+          "answer": "I like tea but I don't like coffee"
+        },
+        {
+          "id": "a1_linking_words.402",
+          "answer": "Do you go by bus or by bike?"
+        },
+        {
+          "id": "a1_linking_words.403",
+          "answer": "I'm tired because I work at night"
+        },
+        {
+          "id": "a1_linking_words.404",
+          "answer": "Sam sings and Priya plays the piano"
+        },
+        {
+          "id": "a1_linking_words.405",
+          "answer": "Why do you study English?"
+        }
+      ]
+    }
+  ]
+}

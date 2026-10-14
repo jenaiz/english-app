@@ -1,0 +1,479 @@
+{
+  "topic_id": "a1_present_continuous",
+  "level_id": "A1",
+  "title": "Present continuous: I'm working",
+  "tags": [
+    "present_continuous"
+  ],
+  "units": [
+    "rainy_day"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Present continuous",
+    "explanation": "El present continuous describe lo que está pasando ahora, en este momento. Se forma con «am» / «is» / «are» + verbo en «-ing»:\n- «It's raining.»\n- «I'm wearing a jumper.»\n- «Sam is sleeping.»\n\nLa negativa lleva «not» y la pregunta pone «am» / «is» / «are» delante del sujeto:\n- «I'm not working today.»\n- «What are you doing?»\n- «Is Priya working? — Yes, she is. / No, she isn't.»\n\nOrtografía del «-ing» (como en «like» + «-ing»): «make» → «making» (pierde la e); «sit» → «sitting», «run» → «running» (se dobla la consonante).\n\nSuele ir con «now», «right now», «at the moment», «today» o con «Look!» y «Listen!»:\n- «Look! It's snowing.»\n- «I'm reading a great book at the moment.»\n\nOjo: no olvides «am» / «is» / «are»: «I'm working», nunca «I working». Y algunos verbos casi nunca van en continuous, como «like», «love», «want» o «know»: «I like this song» (nunca «I'm liking»).",
+    "table": {
+      "headers": [
+        "Sujeto",
+        "Afirmativa",
+        "Negativa",
+        "Pregunta"
+      ],
+      "rows": [
+        [
+          "I",
+          "I'm working",
+          "I'm not working",
+          "Am I working?"
+        ],
+        [
+          "he / she / it",
+          "she's working",
+          "she isn't working",
+          "Is she working?"
+        ],
+        [
+          "you / we / they",
+          "they're working",
+          "they aren't working",
+          "Are they working?"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el present continuous del verbo entre paréntesis.",
+      "items": [
+        {
+          "id": "a1_present_continuous.001",
+          "sentence": "It ___ again. Take an umbrella! (rain)",
+          "answers": [
+            [
+              "is raining",
+              "'s raining"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_continuous.002",
+          "sentence": "I ___ a jumper because it's cold. (wear)",
+          "answers": [
+            [
+              "am wearing",
+              "'m wearing"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_continuous.003",
+          "sentence": "Shh! The baby ___. (sleep)",
+          "answers": [
+            [
+              "'s sleeping",
+              "is sleeping"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_continuous.004",
+          "sentence": "What ___ you ___? (do)",
+          "answers": [
+            [
+              "are"
+            ],
+            [
+              "doing"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_continuous.005",
+          "sentence": "Priya ___ today. She's at home. (not / work)",
+          "answers": [
+            [
+              "isn't working",
+              "'s not working",
+              "is not working"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_continuous.006",
+          "sentence": "Look! Javi ___ in the sun. (sit)",
+          "answers": [
+            [
+              "'s sitting",
+              "is sitting"
+            ]
+          ],
+          "explanation": "Se dobla la t."
+        },
+        {
+          "id": "a1_present_continuous.007",
+          "sentence": "We ___ a film. Do you want to watch it with us? (watch)",
+          "answers": [
+            [
+              "'re watching",
+              "are watching"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_continuous.008",
+          "sentence": "___ Sam ___ the guitar? I can hear music. (play)",
+          "answers": [
+            [
+              "Is"
+            ],
+            [
+              "playing"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_continuous.009",
+          "sentence": "I ___ dinner right now. Can I call you later? (make)",
+          "answers": [
+            [
+              "'m making",
+              "am making"
+            ]
+          ],
+          "explanation": "Pierde la e."
+        },
+        {
+          "id": "a1_present_continuous.010",
+          "sentence": "They ___ to the park. It's raining! (not / go)",
+          "answers": [
+            [
+              "aren't going",
+              "'re not going",
+              "are not going"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_continuous.011",
+          "sentence": "Listen! Someone ___ at the door. (knock)",
+          "answers": [
+            [
+              "'s knocking",
+              "is knocking"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_continuous.012",
+          "sentence": "Why ___ you ___? (laugh)",
+          "answers": [
+            [
+              "are"
+            ],
+            [
+              "laughing"
+            ]
+          ]
+        },
+        {
+          "id": "a1_present_continuous.013",
+          "sentence": "Daniel ___ in the park at the moment. (run)",
+          "answers": [
+            [
+              "'s running",
+              "is running"
+            ]
+          ],
+          "explanation": "Se dobla la n."
+        },
+        {
+          "id": "a1_present_continuous.014",
+          "sentence": "I ___ a great book at the moment. (read)",
+          "answers": [
+            [
+              "'m reading",
+              "am reading"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a1_present_continuous.101",
+          "question": "Está lloviendo.",
+          "options": [
+            "It's raining.",
+            "It raining."
+          ],
+          "answer": 0,
+          "explanation": "Falta «is»: «It's raining»."
+        },
+        {
+          "id": "a1_present_continuous.102",
+          "question": "¿Qué estás haciendo?",
+          "options": [
+            "What are you doing?",
+            "What do you doing?"
+          ],
+          "answer": 0,
+          "explanation": "Pregunta: «are» + sujeto + «-ing»."
+        },
+        {
+          "id": "a1_present_continuous.103",
+          "question": "No estoy trabajando hoy.",
+          "options": [
+            "I'm not working today.",
+            "I don't working today."
+          ],
+          "answer": 0,
+          "explanation": "Negativa: «I'm not» + «-ing»."
+        },
+        {
+          "id": "a1_present_continuous.104",
+          "question": "Sam está durmiendo.",
+          "options": [
+            "Sam is sleeping.",
+            "Sam sleeping."
+          ],
+          "answer": 0,
+          "explanation": "Falta «is»."
+        },
+        {
+          "id": "a1_present_continuous.105",
+          "question": "¿Está Priya trabajando? — No.",
+          "options": [
+            "Is Priya working? — No, she isn't.",
+            "Is Priya working? — No, she doesn't."
+          ],
+          "answer": 0,
+          "explanation": "Respuesta corta: «No, she isn't»."
+        },
+        {
+          "id": "a1_present_continuous.106",
+          "question": "Mira, está nevando.",
+          "options": [
+            "Look! It's snowing.",
+            "Look! It snows."
+          ],
+          "answer": 0,
+          "explanation": "Lo que pasa ahora: continuous."
+        },
+        {
+          "id": "a1_present_continuous.107",
+          "question": "Me gusta esta canción.",
+          "options": [
+            "I like this song.",
+            "I'm liking this song."
+          ],
+          "answer": 0,
+          "explanation": "«like» casi nunca va en continuous."
+        },
+        {
+          "id": "a1_present_continuous.108",
+          "question": "Estamos esperando el autobús.",
+          "options": [
+            "We're waiting for the bus.",
+            "We waiting for the bus."
+          ],
+          "answer": 0,
+          "explanation": "Falta «are»."
+        },
+        {
+          "id": "a1_present_continuous.109",
+          "question": "Está sentado en el jardín.",
+          "options": [
+            "He's siting in the garden.",
+            "He's sitting in the garden."
+          ],
+          "answer": 1,
+          "explanation": "Se dobla la t: «sitting»."
+        },
+        {
+          "id": "a1_present_continuous.110",
+          "question": "¿Por qué llevas abrigo?",
+          "options": [
+            "Why are you wearing a coat?",
+            "Why you are wearing a coat?"
+          ],
+          "answer": 0,
+          "explanation": "En la pregunta, «are» va delante del sujeto."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Transforma o corrige la frase como se indica.",
+      "items": [
+        {
+          "id": "a1_present_continuous.201",
+          "prompt": "Negativa",
+          "source": "I'm working today.",
+          "answers": [
+            "I'm not working today"
+          ]
+        },
+        {
+          "id": "a1_present_continuous.202",
+          "prompt": "Pregunta",
+          "source": "Sam is playing the guitar.",
+          "answers": [
+            "Is Sam playing the guitar"
+          ]
+        },
+        {
+          "id": "a1_present_continuous.203",
+          "prompt": "Negativa",
+          "source": "They're watching TV.",
+          "answers": [
+            "They aren't watching TV",
+            "They're not watching TV"
+          ]
+        },
+        {
+          "id": "a1_present_continuous.204",
+          "prompt": "Pregunta",
+          "source": "You're wearing my jumper.",
+          "answers": [
+            "Are you wearing my jumper"
+          ]
+        },
+        {
+          "id": "a1_present_continuous.205",
+          "prompt": "Corrige",
+          "source": "She cooking dinner.",
+          "answers": [
+            "She's cooking dinner",
+            "She is cooking dinner"
+          ],
+          "explanation": "Falta «is»."
+        },
+        {
+          "id": "a1_present_continuous.206",
+          "prompt": "Corrige",
+          "source": "What you are doing?",
+          "answers": [
+            "What are you doing"
+          ],
+          "explanation": "En la pregunta, «are» va delante del sujeto."
+        },
+        {
+          "id": "a1_present_continuous.207",
+          "prompt": "Corrige",
+          "source": "I'm makeing a cake.",
+          "answers": [
+            "I'm making a cake"
+          ],
+          "explanation": "Pierde la e: «making»."
+        },
+        {
+          "id": "a1_present_continuous.208",
+          "prompt": "Corrige",
+          "source": "Look! It snows.",
+          "answers": [
+            "Look! It's snowing"
+          ],
+          "explanation": "Lo que pasa ahora: continuous."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_present_continuous.301",
+          "source": "Está lloviendo.",
+          "answers": [
+            "It's raining"
+          ]
+        },
+        {
+          "id": "a1_present_continuous.302",
+          "source": "¿Qué estás haciendo?",
+          "answers": [
+            "What are you doing"
+          ]
+        },
+        {
+          "id": "a1_present_continuous.303",
+          "source": "Llevo vaqueros y un jersey.",
+          "answers": [
+            "I'm wearing jeans and a jumper"
+          ]
+        },
+        {
+          "id": "a1_present_continuous.304",
+          "source": "Priya está trabajando hoy.",
+          "answers": [
+            "Priya is working today"
+          ]
+        },
+        {
+          "id": "a1_present_continuous.305",
+          "source": "No estamos viendo la tele.",
+          "answers": [
+            "We aren't watching TV",
+            "We're not watching TV"
+          ]
+        },
+        {
+          "id": "a1_present_continuous.306",
+          "source": "¿Está durmiendo Sam?",
+          "answers": [
+            "Is Sam sleeping"
+          ]
+        },
+        {
+          "id": "a1_present_continuous.307",
+          "source": "Estoy leyendo un libro muy bueno.",
+          "answers": [
+            "I'm reading a very good book",
+            "I'm reading a really good book"
+          ]
+        },
+        {
+          "id": "a1_present_continuous.308",
+          "source": "¡Mira! Está nevando.",
+          "answers": [
+            "Look! It's snowing"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_present_continuous.401",
+          "answer": "It's raining again"
+        },
+        {
+          "id": "a1_present_continuous.402",
+          "answer": "What are you doing?"
+        },
+        {
+          "id": "a1_present_continuous.403",
+          "answer": "Priya isn't working today"
+        },
+        {
+          "id": "a1_present_continuous.404",
+          "answer": "Is Sam sleeping?"
+        },
+        {
+          "id": "a1_present_continuous.405",
+          "answer": "We're waiting for the bus"
+        },
+        {
+          "id": "a1_present_continuous.406",
+          "answer": "I'm wearing a warm jumper"
+        }
+      ]
+    }
+  ]
+}

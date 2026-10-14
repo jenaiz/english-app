@@ -1,0 +1,552 @@
+{
+  "topic_id": "a1_like_ing",
+  "level_id": "A1",
+  "title": "like / love / hate + -ing",
+  "tags": [
+    "like_ing"
+  ],
+  "units": [
+    "free_time"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "like / love / hate + -ing",
+    "explanation": "Para hablar de gustos usamos, de más a menos: «love» (encantar), «like» (gustar), «don't like» (no gustar) y «hate» (odiar). Si detrás viene una actividad, el verbo va en «-ing»:\n- «I love dancing.»\n- «Priya likes cooking.»\n- «Daniel hates shopping.»\n\nOrtografía del «-ing»:\n- La mayoría añade «-ing»: «read» → «reading», «play» → «playing»\n- Si acaba en e, la pierde: «dance» → «dancing», «ride» → «riding»\n- Consonante-vocal-consonante con el acento al final: se dobla la última: «run» → «running», «swim» → «swimming», «shop» → «shopping»\n\nCon «he», «she» e «it», el verbo de gusto lleva «-s» y la pregunta y la negativa usan «does» / «doesn't»:\n- «She loves swimming.»\n- «Does he like cooking? — No, he doesn't.»\n\nOjo: en español el sujeto va detrás («Me gusta bailar»), pero en inglés va delante y es quien siente el gusto: «I like dancing». Y «A Priya le gusta cocinar» es «Priya likes cooking».",
+    "table": {
+      "headers": [
+        "Verbo",
+        "Significado",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "love",
+          "encantar",
+          "I love dancing."
+        ],
+        [
+          "like",
+          "gustar",
+          "Priya likes cooking."
+        ],
+        [
+          "don't like",
+          "no gustar",
+          "I don't like running."
+        ],
+        [
+          "hate",
+          "odiar",
+          "Daniel hates shopping."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Escribe el verbo entre paréntesis en «-ing».",
+      "items": [
+        {
+          "id": "a1_like_ing.001",
+          "sentence": "I love ___. (dance)",
+          "answers": [
+            [
+              "dancing"
+            ]
+          ],
+          "explanation": "Pierde la e."
+        },
+        {
+          "id": "a1_like_ing.002",
+          "sentence": "Daniel likes ___. (run)",
+          "answers": [
+            [
+              "running"
+            ]
+          ],
+          "explanation": "Se dobla la n."
+        },
+        {
+          "id": "a1_like_ing.003",
+          "sentence": "Priya loves ___. (cook)",
+          "answers": [
+            [
+              "cooking"
+            ]
+          ]
+        },
+        {
+          "id": "a1_like_ing.004",
+          "sentence": "He hates ___. (shop)",
+          "answers": [
+            [
+              "shopping"
+            ]
+          ],
+          "explanation": "Se dobla la p."
+        },
+        {
+          "id": "a1_like_ing.005",
+          "sentence": "Do you like ___? (swim)",
+          "answers": [
+            [
+              "swimming"
+            ]
+          ],
+          "explanation": "Se dobla la m."
+        },
+        {
+          "id": "a1_like_ing.006",
+          "sentence": "I don't like ___ early. (get up)",
+          "answers": [
+            [
+              "getting up"
+            ]
+          ],
+          "explanation": "Se dobla la t."
+        },
+        {
+          "id": "a1_like_ing.007",
+          "sentence": "Sam loves ___ the guitar. (play)",
+          "answers": [
+            [
+              "playing"
+            ]
+          ]
+        },
+        {
+          "id": "a1_like_ing.008",
+          "sentence": "My mum hates ___. (drive)",
+          "answers": [
+            [
+              "driving"
+            ]
+          ],
+          "explanation": "Pierde la e."
+        },
+        {
+          "id": "a1_like_ing.009",
+          "sentence": "We like ___ in the park. (walk)",
+          "answers": [
+            [
+              "walking"
+            ]
+          ]
+        },
+        {
+          "id": "a1_like_ing.010",
+          "sentence": "Javi doesn't like ___. (study)",
+          "answers": [
+            [
+              "studying"
+            ]
+          ]
+        },
+        {
+          "id": "a1_like_ing.011",
+          "sentence": "Lucía loves ___ books in bed. (read)",
+          "answers": [
+            [
+              "reading"
+            ]
+          ]
+        },
+        {
+          "id": "a1_like_ing.012",
+          "sentence": "I hate ___ the dishes. (wash)",
+          "answers": [
+            [
+              "washing"
+            ]
+          ]
+        },
+        {
+          "id": "a1_like_ing.013",
+          "sentence": "Do you like ___ photos? (take)",
+          "answers": [
+            [
+              "taking"
+            ]
+          ],
+          "explanation": "Pierde la e."
+        },
+        {
+          "id": "a1_like_ing.014",
+          "sentence": "Helen loves ___ in the sea. (sit)",
+          "answers": [
+            [
+              "sitting"
+            ]
+          ],
+          "explanation": "Se dobla la t."
+        }
+      ]
+    },
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «like», «likes», «love», «loves», «hate», «hates», «do», «does», «don't» o «doesn't».",
+      "bank": [
+        "like",
+        "likes",
+        "love",
+        "loves",
+        "hate",
+        "hates",
+        "don't",
+        "doesn't",
+        "Do",
+        "Does"
+      ],
+      "items": [
+        {
+          "id": "a1_like_ing.101",
+          "sentence": "Priya ___ cooking. She cooks every day.",
+          "answers": [
+            [
+              "loves"
+            ]
+          ],
+          "explanation": "Con «she», el verbo lleva «-s»."
+        },
+        {
+          "id": "a1_like_ing.102",
+          "sentence": "I ___ running. It's boring!",
+          "answers": [
+            [
+              "hate"
+            ]
+          ]
+        },
+        {
+          "id": "a1_like_ing.103",
+          "sentence": "Daniel ___ like shopping.",
+          "answers": [
+            [
+              "doesn't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_like_ing.104",
+          "sentence": "___ you like dancing? — Yes, I love it!",
+          "answers": [
+            [
+              "Do"
+            ]
+          ]
+        },
+        {
+          "id": "a1_like_ing.105",
+          "sentence": "Sam ___ playing football, but he isn't very good.",
+          "answers": [
+            [
+              "likes"
+            ]
+          ]
+        },
+        {
+          "id": "a1_like_ing.106",
+          "sentence": "We ___ like getting up early.",
+          "answers": [
+            [
+              "don't"
+            ]
+          ]
+        },
+        {
+          "id": "a1_like_ing.107",
+          "sentence": "___ Priya like swimming? — Yes, she does.",
+          "answers": [
+            [
+              "Does"
+            ]
+          ]
+        },
+        {
+          "id": "a1_like_ing.108",
+          "sentence": "My brothers ___ watching football on TV.",
+          "answers": [
+            [
+              "love"
+            ]
+          ],
+          "explanation": "«My brothers» = «they»: sin «-s»."
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "a1_like_ing.201",
+          "question": "Me encanta bailar.",
+          "options": [
+            "I love dancing.",
+            "Me love dance."
+          ],
+          "answer": 0,
+          "explanation": "El sujeto va delante: «I love…»."
+        },
+        {
+          "id": "a1_like_ing.202",
+          "question": "A Priya le gusta cocinar.",
+          "options": [
+            "Priya likes cooking.",
+            "To Priya likes cooking."
+          ],
+          "answer": 0,
+          "explanation": "El sujeto es Priya: «Priya likes…»."
+        },
+        {
+          "id": "a1_like_ing.203",
+          "question": "Odio ir de compras.",
+          "options": [
+            "I hate shoping.",
+            "I hate shopping."
+          ],
+          "answer": 1,
+          "explanation": "Se dobla la p: «shopping»."
+        },
+        {
+          "id": "a1_like_ing.204",
+          "question": "¿Te gusta nadar?",
+          "options": [
+            "Do you like swimming?",
+            "Do you like swiming?"
+          ],
+          "answer": 0,
+          "explanation": "Se dobla la m: «swimming»."
+        },
+        {
+          "id": "a1_like_ing.205",
+          "question": "A Sam no le gusta correr.",
+          "options": [
+            "Sam doesn't like running.",
+            "Sam don't like running."
+          ],
+          "answer": 0,
+          "explanation": "Con «he»: «doesn't»."
+        },
+        {
+          "id": "a1_like_ing.206",
+          "question": "Le encanta leer.",
+          "options": [
+            "She loves reading.",
+            "She love reading."
+          ],
+          "answer": 0,
+          "explanation": "Con «she»: «loves»."
+        },
+        {
+          "id": "a1_like_ing.207",
+          "question": "Me gusta conducir.",
+          "options": [
+            "I like driveing.",
+            "I like driving."
+          ],
+          "answer": 1,
+          "explanation": "Pierde la e: «driving»."
+        },
+        {
+          "id": "a1_like_ing.208",
+          "question": "¿A Daniel le gusta el fútbol? — Sí.",
+          "options": [
+            "Does Daniel like football? — Yes, he does.",
+            "Does Daniel like football? — Yes, he likes."
+          ],
+          "answer": 0,
+          "explanation": "Respuesta corta: «Yes, he does»."
+        },
+        {
+          "id": "a1_like_ing.209",
+          "question": "No nos gusta levantarnos pronto.",
+          "options": [
+            "We don't like getting up early.",
+            "We don't like get up early."
+          ],
+          "answer": 0,
+          "explanation": "Actividad después de «like»: «-ing»."
+        },
+        {
+          "id": "a1_like_ing.210",
+          "question": "Odian esperar.",
+          "options": [
+            "They hate waiting.",
+            "They hates waiting."
+          ],
+          "answer": 0,
+          "explanation": "Con «they», sin «-s»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "a1_like_ing.301",
+          "prompt": "Corrige",
+          "source": "I love dance.",
+          "answers": [
+            "I love dancing"
+          ],
+          "explanation": "Actividad: «-ing»."
+        },
+        {
+          "id": "a1_like_ing.302",
+          "prompt": "Corrige",
+          "source": "Priya like cooking.",
+          "answers": [
+            "Priya likes cooking"
+          ],
+          "explanation": "Con «she»: «likes»."
+        },
+        {
+          "id": "a1_like_ing.303",
+          "prompt": "Corrige",
+          "source": "He hates runing.",
+          "answers": [
+            "He hates running"
+          ],
+          "explanation": "Se dobla la n."
+        },
+        {
+          "id": "a1_like_ing.304",
+          "prompt": "Corrige",
+          "source": "Do you like swiming?",
+          "answers": [
+            "Do you like swimming"
+          ],
+          "explanation": "Se dobla la m."
+        },
+        {
+          "id": "a1_like_ing.305",
+          "prompt": "Corrige",
+          "source": "Sam doesn't likes shopping.",
+          "answers": [
+            "Sam doesn't like shopping"
+          ],
+          "explanation": "Después de «doesn't», sin «-s»."
+        },
+        {
+          "id": "a1_like_ing.306",
+          "prompt": "Corrige",
+          "source": "I like writeing emails.",
+          "answers": [
+            "I like writing emails"
+          ],
+          "explanation": "Pierde la e."
+        },
+        {
+          "id": "a1_like_ing.307",
+          "prompt": "Con «she»",
+          "source": "I love playing tennis.",
+          "answers": [
+            "She loves playing tennis"
+          ]
+        },
+        {
+          "id": "a1_like_ing.308",
+          "prompt": "Negativa",
+          "source": "Daniel likes dancing.",
+          "answers": [
+            "Daniel doesn't like dancing"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "a1_like_ing.401",
+          "source": "Me encanta bailar.",
+          "answers": [
+            "I love dancing"
+          ]
+        },
+        {
+          "id": "a1_like_ing.402",
+          "source": "Odio ir de compras.",
+          "answers": [
+            "I hate shopping",
+            "I hate going shopping"
+          ]
+        },
+        {
+          "id": "a1_like_ing.403",
+          "source": "A Priya le gusta cocinar.",
+          "answers": [
+            "Priya likes cooking"
+          ]
+        },
+        {
+          "id": "a1_like_ing.404",
+          "source": "¿Te gusta nadar?",
+          "answers": [
+            "Do you like swimming"
+          ]
+        },
+        {
+          "id": "a1_like_ing.405",
+          "source": "A Sam no le gusta correr.",
+          "answers": [
+            "Sam doesn't like running"
+          ]
+        },
+        {
+          "id": "a1_like_ing.406",
+          "source": "Nos encanta ver películas.",
+          "answers": [
+            "We love watching films",
+            "We love watching movies"
+          ]
+        },
+        {
+          "id": "a1_like_ing.407",
+          "source": "A mi madre le encanta leer.",
+          "answers": [
+            "My mother loves reading",
+            "My mum loves reading"
+          ]
+        },
+        {
+          "id": "a1_like_ing.408",
+          "source": "No me gusta levantarme temprano.",
+          "answers": [
+            "I don't like getting up early"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "a1_like_ing.501",
+          "answer": "I love dancing at the weekend"
+        },
+        {
+          "id": "a1_like_ing.502",
+          "answer": "Does Priya like cooking?"
+        },
+        {
+          "id": "a1_like_ing.503",
+          "answer": "Daniel hates shopping"
+        },
+        {
+          "id": "a1_like_ing.504",
+          "answer": "We don't like getting up early"
+        },
+        {
+          "id": "a1_like_ing.505",
+          "answer": "Sam loves playing the guitar"
+        }
+      ]
+    }
+  ]
+}
