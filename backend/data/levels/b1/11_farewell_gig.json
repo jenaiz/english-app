@@ -75,6 +75,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "narrative_tenses",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -108,7 +109,8 @@
                           "Sam broke his guitar.",
                           "The producer left."
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -210,6 +212,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "narrative_tenses",
                     "instructions": "Completa con el past perfect u otro tiempo pasado.",
                     "items": [
                       {
@@ -284,6 +287,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "narrative_tenses",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -308,6 +312,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "should_have",
                     "instructions": "Completa con «have», «had» o «been».",
                     "items": [
                       {
@@ -340,7 +345,8 @@
                           [
                             "been"
                           ]
-                        ]
+                        ],
+                        "tag": "narrative_tenses"
                       },
                       {
                         "sentence": "Sam was tired because he ___ been practising all day.",
@@ -349,7 +355,8 @@
                             "had",
                             "'d"
                           ]
-                        ]
+                        ],
+                        "tag": "narrative_tenses"
                       },
                       {
                         "sentence": "We ___ have taken a taxi. We were so late! (consejo sobre el pasado)",
@@ -366,6 +373,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "narrative_tenses",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "perfect_vs_past",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -111,7 +112,8 @@
                           "aprender cómo funciona todo",
                           "aprender a escalar"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "vocab_work"
                       }
                     ]
                   }
@@ -208,6 +210,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "perfect_vs_past",
                     "instructions": "Elige present perfect o past simple.",
                     "items": [
                       {
@@ -273,7 +276,8 @@
                           [
                             "waiting"
                           ]
-                        ]
+                        ],
+                        "tag": "present_perfect_continuous"
                       }
                     ]
                   }
@@ -282,6 +286,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "perfect_vs_past",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -306,6 +311,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "linkers",
                     "instructions": "Completa con «however», «although», «therefore» o «because of» (o la palabra que falte).",
                     "items": [
                       {
@@ -366,6 +372,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "perfect_vs_past",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -596,7 +603,8 @@
                           "used",
                           "use"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "used_to_would"
                       },
                       {
                         "question": "I didn't ___ to like vegetables.",
@@ -604,7 +612,8 @@
                           "use",
                           "used"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "used_to_would"
                       },
                       {
                         "question": "I've been studying ___ six o'clock.",
@@ -612,7 +621,8 @@
                           "since",
                           "for"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "present_perfect_continuous"
                       },
                       {
                         "question": "We've been friends ___ years.",
@@ -620,7 +630,8 @@
                           "for",
                           "since"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "present_perfect_continuous"
                       },
                       {
                         "question": "How long have you ___ waiting?",
@@ -628,7 +639,8 @@
                           "been",
                           "be"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "present_perfect_continuous"
                       },
                       {
                         "question": "I've ___ him since September.",
@@ -636,7 +648,8 @@
                           "known",
                           "been knowing"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "present_perfect_continuous"
                       },
                       {
                         "question": "When ___ you leave Madrid?",
@@ -644,7 +657,8 @@
                           "did",
                           "have"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "perfect_vs_past"
                       },
                       {
                         "question": "I ___ here for six months, and I love it.",
@@ -652,7 +666,8 @@
                           "'ve worked",
                           "worked"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "perfect_vs_past"
                       }
                     ]
                   }
@@ -669,7 +684,8 @@
                           [
                             "to"
                           ]
-                        ]
+                        ],
+                        "tag": "used_to_would"
                       },
                       {
                         "sentence": "I ___ get sick on planes. (todavía)",
@@ -677,7 +693,8 @@
                           [
                             "still"
                           ]
-                        ]
+                        ],
+                        "tag": "used_to_would"
                       },
                       {
                         "sentence": "Sam has been practising ___ lunchtime.",
@@ -685,7 +702,8 @@
                           [
                             "since"
                           ]
-                        ]
+                        ],
+                        "tag": "present_perfect_continuous"
                       },
                       {
                         "sentence": "We've been out three ___.",
@@ -693,7 +711,8 @@
                           [
                             "times"
                           ]
-                        ]
+                        ],
+                        "tag": "present_perfect_continuous"
                       },
                       {
                         "sentence": "In Madrid I ___ a team. (manage)",
@@ -701,7 +720,8 @@
                           [
                             "managed"
                           ]
-                        ]
+                        ],
+                        "tag": "perfect_vs_past"
                       },
                       {
                         "sentence": "___ you ever worked abroad?",
@@ -709,7 +729,8 @@
                           [
                             "Have"
                           ]
-                        ]
+                        ],
+                        "tag": "perfect_vs_past"
                       }
                     ]
                   }
@@ -724,27 +745,31 @@
                         "source": "Antes vivía en Madrid.",
                         "answers": [
                           "I used to live in Madrid"
-                        ]
+                        ],
+                        "tag": "used_to_would"
                       },
                       {
                         "source": "Llevo dos horas esperando.",
                         "answers": [
                           "I've been waiting for two hours",
                           "I have been waiting for two hours"
-                        ]
+                        ],
+                        "tag": "present_perfect_continuous"
                       },
                       {
                         "source": "Dejé ese trabajo el año pasado.",
                         "answers": [
                           "I left that job last year"
-                        ]
+                        ],
+                        "tag": "perfect_vs_past"
                       },
                       {
                         "source": "¿Alguna vez has dirigido un equipo?",
                         "answers": [
                           "Have you ever managed a team",
                           "Have you ever led a team"
-                        ]
+                        ],
+                        "tag": "perfect_vs_past"
                       }
                     ]
                   }

@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "obligation",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -112,7 +113,8 @@
                           "Sam's friend",
                           "Priya's brother"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -224,6 +226,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "obligation",
                     "instructions": "Completa con el modal correcto.",
                     "items": [
                       {
@@ -302,6 +305,7 @@
                   "phase": "practice",
                   "type": "match_pairs",
                   "content": {
+                    "tag": "obligation",
                     "instructions": "Une cada modal con su significado.",
                     "pairs": [
                       {
@@ -335,6 +339,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "obligation",
                     "instructions": "Completa con «ought to», «should», «must» o «need».",
                     "items": [
                       {
@@ -392,6 +397,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "obligation",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

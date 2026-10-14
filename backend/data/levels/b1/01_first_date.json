@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "used_to_would",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -114,7 +115,8 @@
                           "a dancer",
                           "a designer"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -209,6 +211,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "used_to_would",
                     "instructions": "Completa con «used to» / «use to» o el past simple.",
                     "items": [
                       {
@@ -283,6 +286,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "used_to_would",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -307,6 +311,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "used_to_would",
                     "instructions": "Completa con «would» o «used to». Si valen los dos, escribe «would».",
                     "items": [
                       {
@@ -367,6 +372,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "used_to_would",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "relative_clauses",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -215,6 +216,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "relative_clauses",
                     "instructions": "Completa con «who», «which», «that», «where» o «whose».",
                     "items": [
                       {
@@ -293,6 +295,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "relative_clauses",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -317,6 +320,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "deduction",
                     "instructions": "Completa con «must», «might» o «can't».",
                     "items": [
                       {
@@ -378,6 +382,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "relative_clauses",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -614,7 +619,8 @@
                           "am",
                           "will be"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "second_conditional"
                       },
                       {
                         "question": "If I had more time, I ___ learn Italian.",
@@ -622,7 +628,8 @@
                           "would",
                           "will"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "second_conditional"
                       },
                       {
                         "question": "What would you do if you ___ a million pounds?",
@@ -630,7 +637,8 @@
                           "won",
                           "win"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "second_conditional"
                       },
                       {
                         "question": "You ___ smoke here. (prohibido)",
@@ -638,7 +646,8 @@
                           "mustn't",
                           "don't have to"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "obligation"
                       },
                       {
                         "question": "You ___ bring anything. (no es necesario)",
@@ -646,7 +655,8 @@
                           "don't need to",
                           "mustn't"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "obligation"
                       },
                       {
                         "question": "Yesterday I ___ to stay late.",
@@ -654,7 +664,8 @@
                           "had",
                           "must"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "obligation"
                       },
                       {
                         "question": "The man ___ lives next door is a chef.",
@@ -663,7 +674,8 @@
                           "which",
                           "where"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "relative_clauses"
                       },
                       {
                         "question": "That's the restaurant ___ we had dinner.",
@@ -672,7 +684,8 @@
                           "which",
                           "who"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "relative_clauses"
                       }
                     ]
                   }
@@ -690,7 +703,8 @@
                             "would",
                             "'d"
                           ]
-                        ]
+                        ],
+                        "tag": "second_conditional"
                       },
                       {
                         "sentence": "If I ___ the lottery, I'd travel. (win)",
@@ -698,7 +712,8 @@
                           [
                             "won"
                           ]
-                        ]
+                        ],
+                        "tag": "second_conditional"
                       },
                       {
                         "sentence": "Everyone ___ to pay a deposit.",
@@ -706,7 +721,8 @@
                           [
                             "has"
                           ]
-                        ]
+                        ],
+                        "tag": "obligation"
                       },
                       {
                         "sentence": "___ we have a cat? (permiso)",
@@ -714,7 +730,8 @@
                           [
                             "Can"
                           ]
-                        ]
+                        ],
+                        "tag": "obligation"
                       },
                       {
                         "sentence": "It's the room ___ looks over the garden.",
@@ -723,7 +740,8 @@
                             "which",
                             "that"
                           ]
-                        ]
+                        ],
+                        "tag": "relative_clauses"
                       },
                       {
                         "sentence": "He's the man ___ aunt is Mrs Green.",
@@ -731,7 +749,8 @@
                           [
                             "whose"
                           ]
-                        ]
+                        ],
+                        "tag": "relative_clauses"
                       }
                     ]
                   }
@@ -749,7 +768,8 @@
                           "If I were you I'd go",
                           "If I were you, I would go",
                           "If I were you I would go"
-                        ]
+                        ],
+                        "tag": "second_conditional"
                       },
                       {
                         "source": "No hace falta que vengas.",
@@ -758,21 +778,24 @@
                           "You don't have to come",
                           "You do not need to come",
                           "You do not have to come"
-                        ]
+                        ],
+                        "tag": "obligation"
                       },
                       {
                         "source": "Es el parque donde jugamos al fútbol.",
                         "answers": [
                           "It's the park where we play football",
                           "It is the park where we play football"
-                        ]
+                        ],
+                        "tag": "relative_clauses"
                       },
                       {
                         "source": "Te echaríamos de menos.",
                         "answers": [
                           "We would miss you",
                           "We'd miss you"
-                        ]
+                        ],
+                        "tag": "second_conditional"
                       }
                     ]
                   }

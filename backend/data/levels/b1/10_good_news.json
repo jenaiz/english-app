@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "reported_speech",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -214,6 +215,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "reported_speech",
                     "instructions": "Completa con el estilo indirecto.",
                     "items": [
                       {
@@ -288,6 +290,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
+                    "tag": "reported_speech",
                     "instructions": "Pásalo a estilo indirecto.",
                     "items": [
                       {
@@ -327,6 +330,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "adverbs_intensifiers",
                     "instructions": "Completa con la forma correcta o con un intensificador («much», «so», «such», «extremely»).",
                     "items": [
                       {
@@ -397,6 +401,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "reported_speech",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

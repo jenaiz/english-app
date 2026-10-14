@@ -71,6 +71,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "phrasal_verbs",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -104,7 +105,8 @@
                           "at ten",
                           "at three"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -167,6 +169,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "phrasal_verbs",
                     "instructions": "Completa con la partícula o el pronombre correcto.",
                     "items": [
                       {
@@ -240,6 +243,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "phrasal_verbs",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -264,6 +268,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "phrasal_verbs",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -541,6 +546,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "polite_requests",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -573,7 +579,8 @@
                           "fue la gota que colmó el vaso",
                           "fue la última pajita"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "vocab_collocations"
                       }
                     ]
                   }
@@ -636,6 +643,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "polite_requests",
                     "instructions": "Completa con la expresión educada.",
                     "items": [
                       {
@@ -692,7 +700,8 @@
                           [
                             "straw"
                           ]
-                        ]
+                        ],
+                        "tag": "vocab_collocations"
                       },
                       {
                         "sentence": "Would you mind ___ the window? (open)",
@@ -709,6 +718,7 @@
                   "phase": "practice",
                   "type": "transformation",
                   "content": {
+                    "tag": "polite_requests",
                     "instructions": "Hazlo más educado.",
                     "items": [
                       {
@@ -746,6 +756,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "polite_requests",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -784,7 +795,8 @@
                         "answers": [
                           "It was the last straw",
                           "That was the last straw"
-                        ]
+                        ],
+                        "tag": "vocab_collocations"
                       }
                     ]
                   }

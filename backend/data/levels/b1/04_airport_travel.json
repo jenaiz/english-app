@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "passive",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -111,7 +112,8 @@
                           "salir, ponerse en camino",
                           "apagar"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "phrasal_verbs"
                       }
                     ]
                   }
@@ -203,6 +205,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "passive",
                     "instructions": "Completa con la pasiva.",
                     "items": [
                       {
@@ -276,6 +279,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "passive",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -291,7 +295,8 @@
                         "answer": "Breakfast is served from seven"
                       },
                       {
-                        "answer": "We set off late"
+                        "answer": "We set off late",
+                        "tag": "phrasal_verbs"
                       }
                     ]
                   }
@@ -300,6 +305,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "future_continuous",
                     "instructions": "Completa con el future continuous («will be» + «-ing»).",
                     "items": [
                       {
@@ -358,6 +364,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "passive",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -392,7 +399,8 @@
                         "answers": [
                           "I'm looking forward to seeing you",
                           "I am looking forward to seeing you"
-                        ]
+                        ],
+                        "tag": "vocab_collocations"
                       }
                     ]
                   }

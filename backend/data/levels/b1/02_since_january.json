@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "present_perfect_continuous",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -216,6 +217,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "present_perfect_continuous",
                     "instructions": "Completa con «been», «for», «since» o la forma correcta.",
                     "items": [
                       {
@@ -290,6 +292,7 @@
                   "phase": "practice",
                   "type": "match_pairs",
                   "content": {
+                    "tag": "present_perfect_continuous",
                     "instructions": "Une cada expresión con su traducción.",
                     "pairs": [
                       {
@@ -323,6 +326,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "be_able_gerund",
                     "instructions": "Completa con la forma correcta de «be able to» o con el verbo en «-ing».",
                     "items": [
                       {
@@ -380,6 +384,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "present_perfect_continuous",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

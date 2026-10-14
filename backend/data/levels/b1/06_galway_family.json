@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "first_conditional_time",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -210,6 +211,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "first_conditional_time",
                     "instructions": "Completa con el primer condicional.",
                     "items": [
                       {
@@ -286,6 +288,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "first_conditional_time",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -310,6 +313,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "question_tags",
                     "instructions": "Completa la question tag.",
                     "items": [
                       {
@@ -377,6 +381,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "first_conditional_time",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -613,7 +618,8 @@
                           "has been",
                           "has"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "passive"
                       },
                       {
                         "question": "Your bags ___ be sent to Dublin.",
@@ -621,7 +627,8 @@
                           "will",
                           "are"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "passive"
                       },
                       {
                         "question": "Breakfast is ___ from seven.",
@@ -629,7 +636,8 @@
                           "served",
                           "serving"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "passive"
                       },
                       {
                         "question": "Pick ___ up before you leave.",
@@ -637,7 +645,8 @@
                           "them",
                           "up them"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "phrasal_verbs"
                       },
                       {
                         "question": "We'll look ___ your bags.",
@@ -645,7 +654,8 @@
                           "after",
                           "for"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "phrasal_verbs"
                       },
                       {
                         "question": "Would you mind ___ the window?",
@@ -653,7 +663,8 @@
                           "opening",
                           "to open"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "polite_requests"
                       },
                       {
                         "question": "If it ___, we'll stay inside.",
@@ -661,7 +672,8 @@
                           "rains",
                           "will rain"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "first_conditional_time"
                       },
                       {
                         "question": "As soon as we ___ back, I'll call you.",
@@ -669,7 +681,8 @@
                           "get",
                           "'ll get"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "first_conditional_time"
                       }
                     ]
                   }
@@ -686,7 +699,8 @@
                           [
                             "asked"
                           ]
-                        ]
+                        ],
+                        "tag": "passive"
                       },
                       {
                         "sentence": "Could you fill ___ this form?",
@@ -694,7 +708,8 @@
                           [
                             "in"
                           ]
-                        ]
+                        ],
+                        "tag": "phrasal_verbs"
                       },
                       {
                         "sentence": "We can put up ___ the noise.",
@@ -702,7 +717,8 @@
                           [
                             "with"
                           ]
-                        ]
+                        ],
+                        "tag": "phrasal_verbs"
                       },
                       {
                         "sentence": "I'm ___ the shower doesn't work.",
@@ -710,7 +726,8 @@
                           [
                             "afraid"
                           ]
-                        ]
+                        ],
+                        "tag": "polite_requests"
                       },
                       {
                         "sentence": "If you don't eat, I ___ be offended.",
@@ -719,7 +736,8 @@
                             "will",
                             "'ll"
                           ]
-                        ]
+                        ],
+                        "tag": "first_conditional_time"
                       },
                       {
                         "sentence": "We'll go ___ it rains. (a menos que)",
@@ -727,7 +745,8 @@
                           [
                             "unless"
                           ]
-                        ]
+                        ],
+                        "tag": "first_conditional_time"
                       }
                     ]
                   }
@@ -743,14 +762,16 @@
                         "answers": [
                           "The flight has been delayed",
                           "The flight's been delayed"
-                        ]
+                        ],
+                        "tag": "passive"
                       },
                       {
                         "source": "¿Le importaría cambiarnos de habitación?",
                         "answers": [
                           "Would you mind changing our room",
                           "Would you mind moving us to another room"
-                        ]
+                        ],
+                        "tag": "polite_requests"
                       },
                       {
                         "source": "Si llueve, nos mojaremos.",
@@ -759,14 +780,16 @@
                           "If it rains we'll get wet",
                           "If it rains, we will get wet",
                           "We'll get wet if it rains"
-                        ]
+                        ],
+                        "tag": "first_conditional_time"
                       },
                       {
                         "source": "Tengo muchas ganas de verte.",
                         "answers": [
                           "I'm looking forward to seeing you",
                           "I am looking forward to seeing you"
-                        ]
+                        ],
+                        "tag": "vocab_collocations"
                       }
                     ]
                   }

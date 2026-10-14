@@ -83,6 +83,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "future_forms",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -116,7 +117,8 @@
                           "at Christmas",
                           "on Monday"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -223,6 +225,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "future_forms",
                     "instructions": "Completa con la forma de futuro adecuada.",
                     "items": [
                       {
@@ -297,6 +300,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "future_forms",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -321,6 +325,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "discourse_markers",
                     "instructions": "Completa con «right», «anyway», «by the way», «actually» o «I mean».",
                     "items": [
                       {
@@ -380,6 +385,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "future_forms",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -611,7 +617,8 @@
                           "told",
                           "said"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "reported_speech"
                       },
                       {
                         "question": "\"I can help.\" → He said he ___ help.",
@@ -619,7 +626,8 @@
                           "could",
                           "can"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "reported_speech"
                       },
                       {
                         "question": "She asked if I ___ ready.",
@@ -627,7 +635,8 @@
                           "was",
                           "am"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "reported_speech"
                       },
                       {
                         "question": "When we arrived, the film ___ started.",
@@ -635,7 +644,8 @@
                           "had already",
                           "has already"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "narrative_tenses"
                       },
                       {
                         "question": "I ___ never been there before that day.",
@@ -643,7 +653,8 @@
                           "had",
                           "have"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "narrative_tenses"
                       },
                       {
                         "question": "We ___ at seven tomorrow. It's arranged.",
@@ -651,7 +662,8 @@
                           "'re meeting",
                           "might meet"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "future_forms"
                       },
                       {
                         "question": "I ___ go out tonight. I'm not sure.",
@@ -659,7 +671,8 @@
                           "might",
                           "am going to"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "future_forms"
                       },
                       {
                         "question": "I'll be there, I ___.",
@@ -667,7 +680,8 @@
                           "promise",
                           "might"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "future_forms"
                       }
                     ]
                   }
@@ -684,7 +698,8 @@
                           [
                             "had"
                           ]
-                        ]
+                        ],
+                        "tag": "reported_speech"
                       },
                       {
                         "sentence": "She ___ that she was happy. (say)",
@@ -692,7 +707,8 @@
                           [
                             "said"
                           ]
-                        ]
+                        ],
+                        "tag": "reported_speech"
                       },
                       {
                         "sentence": "Daniel had ___ the tickets at home. (leave)",
@@ -700,7 +716,8 @@
                           [
                             "left"
                           ]
-                        ]
+                        ],
+                        "tag": "narrative_tenses"
                       },
                       {
                         "sentence": "Everyone ___ singing. (past continuous)",
@@ -708,7 +725,8 @@
                           [
                             "was"
                           ]
-                        ]
+                        ],
+                        "tag": "narrative_tenses"
                       },
                       {
                         "sentence": "We're flying ___ the fifteenth.",
@@ -716,7 +734,8 @@
                           [
                             "on"
                           ]
-                        ]
+                        ],
+                        "tag": "future_forms"
                       },
                       {
                         "sentence": "I ___ go to Cornwall. (quizá)",
@@ -724,7 +743,8 @@
                           [
                             "might"
                           ]
-                        ]
+                        ],
+                        "tag": "future_forms"
                       }
                     ]
                   }
@@ -740,21 +760,24 @@
                         "answers": [
                           "She told me she was nervous",
                           "She told me that she was nervous"
-                        ]
+                        ],
+                        "tag": "reported_speech"
                       },
                       {
                         "source": "El concierto ya había empezado.",
                         "answers": [
                           "The concert had already started",
                           "The gig had already started"
-                        ]
+                        ],
+                        "tag": "narrative_tenses"
                       },
                       {
                         "source": "Puede que vaya a Cornualles.",
                         "answers": [
                           "I might go to Cornwall",
                           "I may go to Cornwall"
-                        ]
+                        ],
+                        "tag": "future_forms"
                       },
                       {
                         "source": "Volamos a Valencia el día quince.",
@@ -762,7 +785,8 @@
                           "We're flying to Valencia on the fifteenth",
                           "We are flying to Valencia on the fifteenth",
                           "We're flying to Valencia on the 15th"
-                        ]
+                        ],
+                        "tag": "future_forms"
                       }
                     ]
                   }
