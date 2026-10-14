@@ -1,0 +1,458 @@
+{
+  "topic_id": "b2_causative",
+  "level_id": "B2",
+  "title": "Causativa: have / get something done",
+  "tags": [
+    "causative"
+  ],
+  "units": [
+    "get_it_fixed"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Causative have and get",
+    "explanation": "«Have» / «get» + objeto + participio indica que otra persona hace algo por nosotros, normalmente un servicio. «Get» es más informal:\n- «I'm having the boiler repaired.» (no lo arreglo yo)\n- «I got my hair cut yesterday.»\n\nSe usa en cualquier tiempo; lo que cambia es «have» / «get»:\n- «I had my car serviced last week.»\n- «I'm getting the kitchen repainted.»\n- «Could you have the oven checked?»\n- «We need to get the windows cleaned.»\n\nPara decir a quién le encargas algo: «get» + persona + «to» + verbo, o «have» + persona + verbo (sin «to»):\n- «I'll get someone to look at it.»\n- «I'll have the engineer call you.»\n\nTambién sirve para algo malo que nos pasa (no lo elegimos):\n- «She had her bag stolen on the train.» (le robaron el bolso)\n\nEn español solemos decir «me voy a cortar el pelo», pero en inglés es «I'm going to get my hair cut», porque te lo corta otra persona.",
+    "table": {
+      "headers": [
+        "Estructura",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "have + objeto + participio",
+          "I had my car serviced."
+        ],
+        [
+          "get + objeto + participio",
+          "I'm getting my hair cut."
+        ],
+        [
+          "get + persona + to + verbo",
+          "I'll get someone to fix it."
+        ],
+        [
+          "have + persona + verbo",
+          "I'll have him call you."
+        ],
+        [
+          "algo malo",
+          "He had his phone stolen."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la forma causativa.",
+      "items": [
+        {
+          "id": "b2_causative.001",
+          "sentence": "I'm having the boiler ___. (repair)",
+          "answers": [
+            [
+              "repaired"
+            ]
+          ]
+        },
+        {
+          "id": "b2_causative.002",
+          "sentence": "I'm getting the kitchen ___ next month. (repaint)",
+          "answers": [
+            [
+              "repainted"
+            ]
+          ]
+        },
+        {
+          "id": "b2_causative.003",
+          "sentence": "Could you have the oven ___ too? (check)",
+          "answers": [
+            [
+              "checked"
+            ]
+          ]
+        },
+        {
+          "id": "b2_causative.004",
+          "sentence": "I'll get someone ___ look at it.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_causative.005",
+          "sentence": "I might get my hair ___. (cut)",
+          "answers": [
+            [
+              "cut"
+            ]
+          ]
+        },
+        {
+          "id": "b2_causative.006",
+          "sentence": "I had my car ___ last week. (service)",
+          "answers": [
+            [
+              "serviced"
+            ]
+          ]
+        },
+        {
+          "id": "b2_causative.007",
+          "sentence": "Where do you ___ your hair cut?",
+          "answers": [
+            [
+              "have",
+              "get"
+            ]
+          ]
+        },
+        {
+          "id": "b2_causative.008",
+          "sentence": "She had her bag ___ on the train. (steal)",
+          "answers": [
+            [
+              "stolen"
+            ]
+          ]
+        },
+        {
+          "id": "b2_causative.009",
+          "sentence": "We need to get the windows ___. (clean)",
+          "answers": [
+            [
+              "cleaned"
+            ]
+          ]
+        },
+        {
+          "id": "b2_causative.010",
+          "sentence": "I'll have the engineer ___ you tomorrow. (call)",
+          "answers": [
+            [
+              "call"
+            ]
+          ],
+          "explanation": "«have» + persona + verbo sin «to»."
+        },
+        {
+          "id": "b2_causative.011",
+          "sentence": "They're having a new kitchen ___. (fit)",
+          "answers": [
+            [
+              "fitted"
+            ]
+          ]
+        },
+        {
+          "id": "b2_causative.012",
+          "sentence": "He got his phone ___ after he dropped it. (fix)",
+          "answers": [
+            [
+              "fixed"
+            ]
+          ]
+        },
+        {
+          "id": "b2_causative.013",
+          "sentence": "Can you get Sam ___ help us with the boxes?",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_causative.014",
+          "sentence": "We had the house ___ before we moved in. (paint)",
+          "answers": [
+            [
+              "painted"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_causative.101",
+          "question": "Me voy a cortar el pelo (en la peluquería).",
+          "options": [
+            "I'm going to get my hair cut.",
+            "I'm going to cut my hair."
+          ],
+          "answer": 0,
+          "explanation": "Lo hace otra persona: causativa."
+        },
+        {
+          "id": "b2_causative.102",
+          "question": "Llevé el coche a revisar.",
+          "options": [
+            "I had my car serviced.",
+            "I had serviced my car."
+          ],
+          "answer": 0,
+          "explanation": "«have» + objeto + participio."
+        },
+        {
+          "id": "b2_causative.103",
+          "question": "Pediré a alguien que lo mire.",
+          "options": [
+            "I'll get someone to look at it.",
+            "I'll get someone look at it."
+          ],
+          "answer": 0,
+          "explanation": "«get» + persona + «to»."
+        },
+        {
+          "id": "b2_causative.104",
+          "question": "Le diré al técnico que te llame.",
+          "options": [
+            "I'll have the engineer call you.",
+            "I'll have the engineer to call you."
+          ],
+          "answer": 0,
+          "explanation": "«have» + persona + verbo sin «to»."
+        },
+        {
+          "id": "b2_causative.105",
+          "question": "Le robaron el bolso.",
+          "options": [
+            "She had her bag stolen.",
+            "She stole her bag."
+          ],
+          "answer": 0,
+          "explanation": "Algo malo: causativa."
+        },
+        {
+          "id": "b2_causative.106",
+          "question": "Nos están arreglando la caldera.",
+          "options": [
+            "We're having the boiler repaired.",
+            "We're repairing the boiler by someone."
+          ],
+          "answer": 0,
+          "explanation": "Causativa en continuous."
+        },
+        {
+          "id": "b2_causative.107",
+          "question": "¿Dónde te cortas el pelo?",
+          "options": [
+            "Where do you have your hair cut?",
+            "Where do you cut your hair by?"
+          ],
+          "answer": 0,
+          "explanation": "Causativa."
+        },
+        {
+          "id": "b2_causative.108",
+          "question": "Tenemos que limpiar las ventanas (que nos las limpien).",
+          "options": [
+            "We need to get the windows cleaned.",
+            "We need to get cleaned the windows."
+          ],
+          "answer": 0,
+          "explanation": "Objeto antes del participio."
+        },
+        {
+          "id": "b2_causative.109",
+          "question": "Le arreglaron el móvil.",
+          "options": [
+            "He got his phone fixed.",
+            "He got fixed his phone."
+          ],
+          "answer": 0,
+          "explanation": "Objeto antes del participio."
+        },
+        {
+          "id": "b2_causative.110",
+          "question": "Pintamos la casa (unos pintores).",
+          "options": [
+            "We had the house painted.",
+            "We had painted the house by painters."
+          ],
+          "answer": 0,
+          "explanation": "Causativa."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con «have» / «get something done».",
+      "items": [
+        {
+          "id": "b2_causative.201",
+          "prompt": "I had…",
+          "source": "A mechanic serviced my car.",
+          "answers": [
+            "I had my car serviced"
+          ]
+        },
+        {
+          "id": "b2_causative.202",
+          "prompt": "We're having…",
+          "source": "Someone is going to paint our kitchen.",
+          "answers": [
+            "We're having our kitchen painted"
+          ]
+        },
+        {
+          "id": "b2_causative.203",
+          "prompt": "I got…",
+          "source": "A hairdresser cut my hair yesterday.",
+          "answers": [
+            "I got my hair cut yesterday"
+          ]
+        },
+        {
+          "id": "b2_causative.204",
+          "prompt": "We'll get…",
+          "source": "An engineer will check the oven.",
+          "answers": [
+            "We'll get the oven checked"
+          ]
+        },
+        {
+          "id": "b2_causative.205",
+          "prompt": "She had…",
+          "source": "Someone stole her bag on the train.",
+          "answers": [
+            "She had her bag stolen on the train"
+          ]
+        },
+        {
+          "id": "b2_causative.206",
+          "prompt": "I'll get…",
+          "source": "I'll ask someone to fix it.",
+          "answers": [
+            "I'll get someone to fix it"
+          ]
+        },
+        {
+          "id": "b2_causative.207",
+          "prompt": "Corrige",
+          "source": "I'm going to cut my hair tomorrow at the hairdresser's.",
+          "answers": [
+            "I'm going to get my hair cut tomorrow at the hairdresser's",
+            "I'm going to have my hair cut tomorrow at the hairdresser's"
+          ],
+          "explanation": "Lo hace otra persona: causativa."
+        },
+        {
+          "id": "b2_causative.208",
+          "prompt": "Corrige",
+          "source": "We had repaired the roof last year.",
+          "answers": [
+            "We had the roof repaired last year"
+          ],
+          "explanation": "Objeto antes del participio."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_causative.301",
+          "source": "Me voy a cortar el pelo.",
+          "answers": [
+            "I'm going to get my hair cut",
+            "I'm going to have my hair cut"
+          ]
+        },
+        {
+          "id": "b2_causative.302",
+          "source": "Nos van a arreglar la caldera.",
+          "answers": [
+            "We're having the boiler repaired",
+            "We're going to have the boiler repaired",
+            "We're getting the boiler repaired"
+          ]
+        },
+        {
+          "id": "b2_causative.303",
+          "source": "La semana pasada llevé el coche a revisar.",
+          "answers": [
+            "I had my car serviced last week",
+            "Last week I had my car serviced",
+            "I got my car serviced last week"
+          ]
+        },
+        {
+          "id": "b2_causative.304",
+          "source": "Pediré a alguien que lo mire.",
+          "answers": [
+            "I'll get someone to look at it"
+          ]
+        },
+        {
+          "id": "b2_causative.305",
+          "source": "¿Dónde te cortas el pelo?",
+          "answers": [
+            "Where do you have your hair cut",
+            "Where do you get your hair cut"
+          ]
+        },
+        {
+          "id": "b2_causative.306",
+          "source": "Le robaron el móvil.",
+          "answers": [
+            "He had his phone stolen",
+            "She had her phone stolen"
+          ]
+        },
+        {
+          "id": "b2_causative.307",
+          "source": "Tenemos que limpiar las ventanas. (que nos las limpien)",
+          "answers": [
+            "We need to get the windows cleaned",
+            "We need to have the windows cleaned"
+          ]
+        },
+        {
+          "id": "b2_causative.308",
+          "source": "Le diré que te llame.",
+          "answers": [
+            "I'll have him call you",
+            "I'll get him to call you",
+            "I'll have her call you",
+            "I'll get her to call you"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_causative.401",
+          "answer": "I'm having the boiler repaired"
+        },
+        {
+          "id": "b2_causative.402",
+          "answer": "I got my hair cut yesterday"
+        },
+        {
+          "id": "b2_causative.403",
+          "answer": "I'll get someone to look at it"
+        },
+        {
+          "id": "b2_causative.404",
+          "answer": "She had her bag stolen"
+        },
+        {
+          "id": "b2_causative.405",
+          "answer": "We need to get the windows cleaned"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "topic_id": "b2_mixed_conditionals",
+  "level_id": "B2",
+  "title": "Condicionales mixtos",
+  "tags": [
+    "mixed_conditionals"
+  ],
+  "units": [
+    "what_if"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Mixed conditionals",
+    "explanation": "Los condicionales mixtos combinan tiempos cuando la causa y la consecuencia están en momentos distintos:\n- Pasado → presente: «If» + past perfect, «would» + verbo. Algo que pasó (o no) tiene una consecuencia ahora: «If I hadn't taken that job, I wouldn't be here now.»\n- Presente (rasgo general) → pasado: «If» + past simple, «would have» + participio. Cómo somos explica algo que pasó: «If I weren't so lazy, I would have passed the first time.»\n\nMás ejemplos:\n- «If we hadn't met, I wouldn't be so happy now.»\n- «If she spoke Spanish, she would have understood the joke.»\n\nRecuerda los tipos puros para compararlos: el segundo condicional va de presente a presente («If I had money, I'd buy it») y el tercero, de pasado a pasado («If I had had money, I would have bought it»).\n\nOjo: la contracción «'d» después de «if» es «had»; delante de un verbo, «would»: «If I'd stayed (had), I'd be (would) bored now».",
+    "table": {
+      "headers": [
+        "Tipo",
+        "Estructura",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Pasado → presente",
+          "If + past perfect, would + verbo",
+          "If I'd studied, I'd have a better job now."
+        ],
+        [
+          "Presente → pasado",
+          "If + past simple, would have + participio",
+          "If I were braver, I'd have asked her."
+        ],
+        [
+          "2.º (presente)",
+          "If + past simple, would + verbo",
+          "If I had time, I'd help."
+        ],
+        [
+          "3.º (pasado)",
+          "If + past perfect, would have + participio",
+          "If I'd known, I'd have come."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el condicional mixto.",
+      "items": [
+        {
+          "id": "b2_mixed_conditionals.001",
+          "sentence": "If I hadn't taken that job, I ___ be here now.",
+          "answers": [
+            [
+              "wouldn't"
+            ]
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.002",
+          "sentence": "If you hadn't passed your exam, you wouldn't ___ working in Dublin.",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.003",
+          "sentence": "If I ___ so lazy, I would have passed it.",
+          "answers": [
+            [
+              "weren't"
+            ]
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.004",
+          "sentence": "If you weren't so brave, you would never ___ left Spain.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.005",
+          "sentence": "If I ___ stayed in Madrid, I'd be bored now.",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.006",
+          "sentence": "If she spoke Spanish, she ___ have understood the joke.",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.007",
+          "sentence": "If we hadn't met, I ___ be so happy now.",
+          "answers": [
+            [
+              "wouldn't"
+            ]
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.008",
+          "sentence": "Do you ever wonder what would ___ happened?",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.009",
+          "sentence": "If I had studied medicine, I ___ be a doctor now.",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.010",
+          "sentence": "If he ___ more organised, he wouldn't have missed the deadline. (be)",
+          "answers": [
+            [
+              "were"
+            ]
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.011",
+          "sentence": "If they hadn't moved to Bristol, they ___ know each other.",
+          "answers": [
+            [
+              "wouldn't"
+            ]
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.012",
+          "sentence": "If I ___ afraid of flying, I would have visited you. (not, be)",
+          "answers": [
+            [
+              "weren't"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_mixed_conditionals.101",
+          "question": "Si no hubiera aceptado ese trabajo, no estaría aquí.",
+          "options": [
+            "If I hadn't taken that job, I wouldn't be here.",
+            "If I didn't take that job, I wouldn't have been here."
+          ],
+          "answer": 0,
+          "explanation": "Pasado → presente."
+        },
+        {
+          "id": "b2_mixed_conditionals.102",
+          "question": "Si no fuera tan vago, habría aprobado.",
+          "options": [
+            "If I weren't so lazy, I would have passed.",
+            "If I hadn't been so lazy, I would pass."
+          ],
+          "answer": 0,
+          "explanation": "Presente → pasado."
+        },
+        {
+          "id": "b2_mixed_conditionals.103",
+          "question": "Si hubiera estudiado medicina, ahora sería médico.",
+          "options": [
+            "If I had studied medicine, I would be a doctor now.",
+            "If I studied medicine, I would have been a doctor now."
+          ],
+          "answer": 0,
+          "explanation": "Pasado → presente."
+        },
+        {
+          "id": "b2_mixed_conditionals.104",
+          "question": "Si hablara español, habría entendido el chiste.",
+          "options": [
+            "If she spoke Spanish, she would have understood the joke.",
+            "If she had spoken Spanish, she would understand the joke yesterday."
+          ],
+          "answer": 0,
+          "explanation": "Presente → pasado."
+        },
+        {
+          "id": "b2_mixed_conditionals.105",
+          "question": "Si no nos hubiéramos conocido, no sería tan feliz.",
+          "options": [
+            "If we hadn't met, I wouldn't be so happy.",
+            "If we didn't meet, I wouldn't have been so happy."
+          ],
+          "answer": 0,
+          "explanation": "Pasado → presente."
+        },
+        {
+          "id": "b2_mixed_conditionals.106",
+          "question": "¿Qué habría pasado?",
+          "options": [
+            "What would have happened?",
+            "What would happened?"
+          ],
+          "answer": 0,
+          "explanation": "«would have» + participio."
+        },
+        {
+          "id": "b2_mixed_conditionals.107",
+          "question": "«If I'd stayed…»: aquí «'d» es…",
+          "options": [
+            "had",
+            "would"
+          ],
+          "answer": 0,
+          "explanation": "Tras «if», «had»."
+        },
+        {
+          "id": "b2_mixed_conditionals.108",
+          "question": "«…I'd be bored now»: aquí «'d» es…",
+          "options": [
+            "would",
+            "had"
+          ],
+          "answer": 0,
+          "explanation": "Delante de un verbo, «would»."
+        },
+        {
+          "id": "b2_mixed_conditionals.109",
+          "question": "Si fuera más organizado, no habría perdido el plazo.",
+          "options": [
+            "If he were more organised, he wouldn't have missed the deadline.",
+            "If he was organised, he won't miss the deadline."
+          ],
+          "answer": 0,
+          "explanation": "Presente → pasado."
+        },
+        {
+          "id": "b2_mixed_conditionals.110",
+          "question": "Si no se hubieran mudado, no se conocerían.",
+          "options": [
+            "If they hadn't moved, they wouldn't know each other.",
+            "If they didn't move, they wouldn't knew each other."
+          ],
+          "answer": 0,
+          "explanation": "Pasado → presente."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con un condicional mixto.",
+      "items": [
+        {
+          "id": "b2_mixed_conditionals.201",
+          "prompt": "If I hadn't…",
+          "source": "I took the job, so I'm here now.",
+          "answers": [
+            "If I hadn't taken the job, I wouldn't be here now"
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.202",
+          "prompt": "If he were…",
+          "source": "He's not organised, so he missed the deadline.",
+          "answers": [
+            "If he were organised, he wouldn't have missed the deadline",
+            "If he was organised, he wouldn't have missed the deadline"
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.203",
+          "prompt": "If I had…",
+          "source": "I didn't study medicine, so I'm not a doctor now.",
+          "answers": [
+            "If I had studied medicine, I would be a doctor now",
+            "If I had studied medicine, I'd be a doctor now"
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.204",
+          "prompt": "If we hadn't…",
+          "source": "We met, so I'm happy now.",
+          "answers": [
+            "If we hadn't met, I wouldn't be happy now"
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.205",
+          "prompt": "If she spoke…",
+          "source": "She doesn't speak Spanish, so she didn't understand the joke.",
+          "answers": [
+            "If she spoke Spanish, she would have understood the joke"
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.206",
+          "prompt": "If I weren't…",
+          "source": "I'm afraid of flying, so I didn't visit you.",
+          "answers": [
+            "If I weren't afraid of flying, I would have visited you"
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.207",
+          "prompt": "Corrige",
+          "source": "If I didn't take that job, I wouldn't be here now.",
+          "answers": [
+            "If I hadn't taken that job, I wouldn't be here now"
+          ],
+          "explanation": "Causa pasada: past perfect."
+        },
+        {
+          "id": "b2_mixed_conditionals.208",
+          "prompt": "Corrige",
+          "source": "If I wasn't so shy, I would ask her out last night.",
+          "answers": [
+            "If I wasn't so shy, I would have asked her out last night",
+            "If I weren't so shy, I would have asked her out last night"
+          ],
+          "explanation": "Consecuencia pasada: «would have»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_mixed_conditionals.301",
+          "source": "Si no hubiera aceptado ese trabajo, no estaría aquí.",
+          "answers": [
+            "If I hadn't taken that job, I wouldn't be here",
+            "If I hadn't accepted that job, I wouldn't be here"
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.302",
+          "source": "Si no fuera tan vago, habría aprobado.",
+          "answers": [
+            "If I weren't so lazy, I would have passed",
+            "If I wasn't so lazy, I would have passed"
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.303",
+          "source": "Si me hubiera quedado en Madrid, ahora estaría aburrida.",
+          "answers": [
+            "If I had stayed in Madrid, I would be bored now",
+            "If I'd stayed in Madrid, I'd be bored now"
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.304",
+          "source": "Si fueras más valiente, lo habrías hecho.",
+          "answers": [
+            "If you were braver, you would have done it",
+            "If you were braver, you'd have done it"
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.305",
+          "source": "¿Qué habría pasado?",
+          "answers": [
+            "What would have happened"
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.306",
+          "source": "Si no nos hubiéramos conocido, no sería tan feliz.",
+          "answers": [
+            "If we hadn't met, I wouldn't be so happy"
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.307",
+          "source": "Si hubiera estudiado medicina, ahora sería médico.",
+          "answers": [
+            "If I had studied medicine, I would be a doctor now",
+            "If I'd studied medicine, I'd be a doctor now"
+          ]
+        },
+        {
+          "id": "b2_mixed_conditionals.308",
+          "source": "Si hablara español, habría entendido el chiste.",
+          "answers": [
+            "If she spoke Spanish, she would have understood the joke",
+            "If he spoke Spanish, he would have understood the joke"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_mixed_conditionals.401",
+          "answer": "If I hadn't taken that job, I wouldn't be here"
+        },
+        {
+          "id": "b2_mixed_conditionals.402",
+          "answer": "If I weren't so lazy, I would have passed"
+        },
+        {
+          "id": "b2_mixed_conditionals.403",
+          "answer": "If we hadn't met, I wouldn't be so happy"
+        },
+        {
+          "id": "b2_mixed_conditionals.404",
+          "answer": "What would have happened?"
+        },
+        {
+          "id": "b2_mixed_conditionals.405",
+          "answer": "I would be a doctor now"
+        }
+      ]
+    }
+  ]
+}

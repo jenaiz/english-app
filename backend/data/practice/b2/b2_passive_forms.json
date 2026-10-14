@@ -1,0 +1,461 @@
+{
+  "topic_id": "b2_passive_forms",
+  "level_id": "B2",
+  "title": "La pasiva en todas sus formas: is being done, should be done",
+  "tags": [
+    "passive_forms"
+  ],
+  "units": [
+    "get_it_fixed"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "More passive forms",
+    "explanation": "La pasiva existe en todos los tiempos. Además de las formas básicas («is repaired», «was repaired», «has been repaired», «will be repaired»):\n- Continua («being» + participio), algo que se está haciendo: «The boiler is being repaired right now.», «The kitchen was being repainted when I arrived.»\n- Con modales (modal + «be» + participio): «It should be fixed by Thursday.», «The oven must be checked.», «It can't be done today.»\n- Con «going to»: «The kitchen is going to be repainted next month.»\n- Infinitivo pasivo («to be» + participio): «The boiler needs to be replaced.», «I want to be told the truth.»\n- Gerundio pasivo («being» + participio): «I don't like being told what to do.»\n- Modal en pasado («have been» + participio): «It should have been done yesterday.»\n\nSi importa quién lo hace, se añade «by»:\n- «It's being repaired by an engineer from Bath.»\n\nOjo: «been» va después de «have» («has been fixed»); «being», en las formas continuas y como gerundio («is being fixed», «hate being told»); «be», después de modales y «to» («must be fixed», «needs to be fixed»).",
+    "table": {
+      "headers": [
+        "Forma",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Present continuous",
+          "It's being repaired."
+        ],
+        [
+          "Past continuous",
+          "It was being painted."
+        ],
+        [
+          "Modal",
+          "It should be fixed."
+        ],
+        [
+          "going to",
+          "It's going to be replaced."
+        ],
+        [
+          "Infinitivo",
+          "It needs to be checked."
+        ],
+        [
+          "Gerundio",
+          "I hate being woken up."
+        ],
+        [
+          "Modal en pasado",
+          "It should have been done."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «be», «being» o «been».",
+      "bank": [
+        "be",
+        "being",
+        "been"
+      ],
+      "items": [
+        {
+          "id": "b2_passive_forms.001",
+          "sentence": "Sorry, you can't shower. The boiler is ___ repaired right now.",
+          "answers": [
+            [
+              "being"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_forms.002",
+          "sentence": "The heating should ___ fixed by Thursday.",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_forms.003",
+          "sentence": "The kitchen is going to ___ repainted next month.",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_forms.004",
+          "sentence": "When I got home, the kitchen was ___ painted.",
+          "answers": [
+            [
+              "being"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_forms.005",
+          "sentence": "The oven needs to ___ checked.",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_forms.006",
+          "sentence": "The boiler has ___ broken since Sunday.",
+          "answers": [
+            [
+              "been"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_forms.007",
+          "sentence": "I hate ___ woken up at six by the engineer.",
+          "answers": [
+            [
+              "being"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_forms.008",
+          "sentence": "This report should have ___ finished yesterday.",
+          "answers": [
+            [
+              "been"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_forms.009",
+          "sentence": "The road can't ___ used until the repairs are done.",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_forms.010",
+          "sentence": "A new hospital is ___ built near the station.",
+          "answers": [
+            [
+              "being"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_forms.011",
+          "sentence": "All the tickets have ___ sold.",
+          "answers": [
+            [
+              "been"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_forms.012",
+          "sentence": "I don't like ___ told what to do.",
+          "answers": [
+            [
+              "being"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_forms.013",
+          "sentence": "The results will ___ published next week.",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_forms.014",
+          "sentence": "The letter must have ___ sent to the wrong address.",
+          "answers": [
+            [
+              "been"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_passive_forms.101",
+          "question": "Están arreglando la caldera ahora.",
+          "options": [
+            "The boiler is being repaired now.",
+            "The boiler is been repaired now."
+          ],
+          "answer": 0,
+          "explanation": "Continua: «being»."
+        },
+        {
+          "id": "b2_passive_forms.102",
+          "question": "Debería estar arreglado el jueves.",
+          "options": [
+            "It should be fixed by Thursday.",
+            "It should been fixed by Thursday."
+          ],
+          "answer": 0,
+          "explanation": "Modal + «be»."
+        },
+        {
+          "id": "b2_passive_forms.103",
+          "question": "Hay que cambiar la caldera.",
+          "options": [
+            "The boiler needs to be replaced.",
+            "The boiler needs to replaced."
+          ],
+          "answer": 0,
+          "explanation": "Infinitivo pasivo: «to be»."
+        },
+        {
+          "id": "b2_passive_forms.104",
+          "question": "Odio que me digan lo que tengo que hacer.",
+          "options": [
+            "I hate being told what to do.",
+            "I hate to tell what to do."
+          ],
+          "answer": 0,
+          "explanation": "Gerundio pasivo."
+        },
+        {
+          "id": "b2_passive_forms.105",
+          "question": "Debería haberse hecho ayer.",
+          "options": [
+            "It should have been done yesterday.",
+            "It should have done yesterday."
+          ],
+          "answer": 0,
+          "explanation": "Modal en pasado: «have been»."
+        },
+        {
+          "id": "b2_passive_forms.106",
+          "question": "Van a pintar la cocina.",
+          "options": [
+            "The kitchen is going to be painted.",
+            "The kitchen is going to painted."
+          ],
+          "answer": 0,
+          "explanation": "«going to be» + participio."
+        },
+        {
+          "id": "b2_passive_forms.107",
+          "question": "Están construyendo un hospital.",
+          "options": [
+            "A hospital is being built.",
+            "A hospital is building."
+          ],
+          "answer": 0,
+          "explanation": "Pasiva continua."
+        },
+        {
+          "id": "b2_passive_forms.108",
+          "question": "No se puede hacer hoy.",
+          "options": [
+            "It can't be done today.",
+            "It can't done today."
+          ],
+          "answer": 0,
+          "explanation": "Modal + «be»."
+        },
+        {
+          "id": "b2_passive_forms.109",
+          "question": "La estaban pintando cuando llegué.",
+          "options": [
+            "It was being painted when I arrived.",
+            "It was been painted when I arrived."
+          ],
+          "answer": 0,
+          "explanation": "Past continuous pasivo."
+        },
+        {
+          "id": "b2_passive_forms.110",
+          "question": "Lo está arreglando un técnico de Bath.",
+          "options": [
+            "It's being repaired by an engineer from Bath.",
+            "It's being repaired from an engineer from Bath."
+          ],
+          "answer": 0,
+          "explanation": "Quién: «by»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Pasa la frase a pasiva.",
+      "items": [
+        {
+          "id": "b2_passive_forms.201",
+          "prompt": "Pasiva",
+          "source": "They are repairing the boiler.",
+          "answers": [
+            "The boiler is being repaired"
+          ]
+        },
+        {
+          "id": "b2_passive_forms.202",
+          "prompt": "Pasiva",
+          "source": "They should fix it by Thursday.",
+          "answers": [
+            "It should be fixed by Thursday"
+          ]
+        },
+        {
+          "id": "b2_passive_forms.203",
+          "prompt": "Pasiva",
+          "source": "They are going to repaint the kitchen.",
+          "answers": [
+            "The kitchen is going to be repainted"
+          ]
+        },
+        {
+          "id": "b2_passive_forms.204",
+          "prompt": "Pasiva",
+          "source": "Someone needs to check the oven.",
+          "answers": [
+            "The oven needs to be checked"
+          ]
+        },
+        {
+          "id": "b2_passive_forms.205",
+          "prompt": "Pasiva",
+          "source": "They were painting the house when we arrived.",
+          "answers": [
+            "The house was being painted when we arrived"
+          ]
+        },
+        {
+          "id": "b2_passive_forms.206",
+          "prompt": "Pasiva",
+          "source": "They should have sent the letter yesterday.",
+          "answers": [
+            "The letter should have been sent yesterday"
+          ]
+        },
+        {
+          "id": "b2_passive_forms.207",
+          "prompt": "Corrige",
+          "source": "The road is been repaired.",
+          "answers": [
+            "The road is being repaired"
+          ],
+          "explanation": "Continua: «being»."
+        },
+        {
+          "id": "b2_passive_forms.208",
+          "prompt": "Corrige",
+          "source": "It must fixed today.",
+          "answers": [
+            "It must be fixed today"
+          ],
+          "explanation": "Modal + «be»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_passive_forms.301",
+          "source": "Están arreglando la caldera.",
+          "answers": [
+            "The boiler is being repaired"
+          ]
+        },
+        {
+          "id": "b2_passive_forms.302",
+          "source": "Debería estar arreglado el jueves.",
+          "answers": [
+            "It should be fixed by Thursday",
+            "It should be fixed on Thursday"
+          ]
+        },
+        {
+          "id": "b2_passive_forms.303",
+          "source": "Van a pintar la cocina el mes que viene.",
+          "answers": [
+            "The kitchen is going to be painted next month",
+            "The kitchen is going to be repainted next month"
+          ]
+        },
+        {
+          "id": "b2_passive_forms.304",
+          "source": "Hay que revisar el horno.",
+          "answers": [
+            "The oven needs to be checked",
+            "The oven must be checked"
+          ]
+        },
+        {
+          "id": "b2_passive_forms.305",
+          "source": "No me gusta que me despierten temprano.",
+          "answers": [
+            "I don't like being woken up early"
+          ]
+        },
+        {
+          "id": "b2_passive_forms.306",
+          "source": "Debería haberse hecho ayer.",
+          "answers": [
+            "It should have been done yesterday"
+          ]
+        },
+        {
+          "id": "b2_passive_forms.307",
+          "source": "Se están vendiendo muy rápido.",
+          "answers": [
+            "They're being sold very quickly",
+            "They are being sold very fast"
+          ]
+        },
+        {
+          "id": "b2_passive_forms.308",
+          "source": "Se han vendido todas las entradas.",
+          "answers": [
+            "All the tickets have been sold"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_passive_forms.401",
+          "answer": "The boiler is being repaired"
+        },
+        {
+          "id": "b2_passive_forms.402",
+          "answer": "It should be fixed by Thursday"
+        },
+        {
+          "id": "b2_passive_forms.403",
+          "answer": "The oven needs to be checked"
+        },
+        {
+          "id": "b2_passive_forms.404",
+          "answer": "I hate being woken up early"
+        },
+        {
+          "id": "b2_passive_forms.405",
+          "answer": "It should have been done yesterday"
+        }
+      ]
+    }
+  ]
+}

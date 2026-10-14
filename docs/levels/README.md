@@ -82,7 +82,7 @@ Las reglas y los ejercicios de las unidades usan los mismos temas (`tag`) que el
 
 - **Reglas:** cada `grammar_rule` lleva `"tag"` en su `content`. Es obligatorio en todos los niveles.
 - **Ejercicios:** el `"tag"` del `content` de un paso es el tema por defecto de sus ítems. Un ítem puede poner el suyo. En el descubrimiento (`discovery`), una pregunta de comprensión del diálogo puede llevar `"tag": ""` para quedar fuera.
-- **Qué niveles tienen todos los ítems etiquetados:** los que ya tienen banco de práctica en `backend/data/practice/<nivel>/`. Por ahora, A1, A2 y B1. Speaking y el speed quiz no cuentan.
+- **Qué niveles tienen todos los ítems etiquetados:** los que ya tienen banco de práctica en `backend/data/practice/<nivel>/`. Por ahora, A1, A2, B1 y B2. Speaking y el speed quiz no cuentan.
 - **`TestCourseTags`** comprueba que cada tema existe en el syllabus del nivel de la unidad o de uno anterior, y que en los niveles con banco de práctica no queda ningún ítem sin tema.
 
 ## Banco de práctica (Repaso → Gramática)

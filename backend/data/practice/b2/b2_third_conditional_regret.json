@@ -1,0 +1,440 @@
+{
+  "topic_id": "b2_third_conditional_regret",
+  "level_id": "B2",
+  "title": "Tercer condicional y wish + past perfect",
+  "tags": [
+    "third_conditional_regret"
+  ],
+  "units": [
+    "wrong_version"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Third conditional and regrets",
+    "explanation": "El tercer condicional imagina un pasado diferente y su consecuencia, que tampoco pasó: «If» + past perfect, «would have» + participio:\n- «If we had checked the files, this wouldn't have happened.»\n\nEn la consecuencia también podemos usar «could have» o «might have»:\n- «If you'd told me, I could have helped.»\n- «If we'd left earlier, we might have caught the train.»\n\nPara lamentar algo del pasado, «wish» o «if only» + past perfect:\n- «I wish I had stayed later.»\n- «I wish I hadn't uploaded it in such a hurry.»\n- «If only I'd listened to you!»\n\nCuidado con la contracción «'d»: en la parte del «if» y después de «wish» es «had» («If we'd known», «I wish I'd known»); en la consecuencia es «would» («we'd have stayed»).\n\nOjo: nunca «would» en la parte del «if» ni después de «wish» para el pasado: «If I had known» (no «If I would have known»), «I wish I had known» (no «I wish I would have known»).",
+    "table": {
+      "headers": [
+        "Estructura",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "If + past perfect, would have + participio",
+          "If I had known, I would have come."
+        ],
+        [
+          "… could / might have + participio",
+          "If you'd asked, I could have helped."
+        ],
+        [
+          "wish + past perfect",
+          "I wish I had stayed."
+        ],
+        [
+          "If only + past perfect",
+          "If only I'd listened!"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el tercer condicional o «wish».",
+      "items": [
+        {
+          "id": "b2_third_conditional_regret.001",
+          "sentence": "If we had ___ the files, this wouldn't have happened. (check)",
+          "answers": [
+            [
+              "checked"
+            ]
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.002",
+          "sentence": "If I hadn't been so tired, I ___ have noticed.",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.003",
+          "sentence": "If Mark had seen it, he would ___ called us.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.004",
+          "sentence": "I wish I ___ stayed later yesterday.",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.005",
+          "sentence": "I wish I ___ uploaded it in such a hurry.",
+          "answers": [
+            [
+              "hadn't"
+            ]
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.006",
+          "sentence": "If you ___ spotted it, we'd have been in trouble.",
+          "answers": [
+            [
+              "hadn't"
+            ]
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.007",
+          "sentence": "If I had known, I ___ have helped you. (podría)",
+          "answers": [
+            [
+              "could"
+            ]
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.008",
+          "sentence": "If she had left earlier, she ___ have missed the train.",
+          "answers": [
+            [
+              "wouldn't"
+            ]
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.009",
+          "sentence": "If ___ I'd listened to you!",
+          "answers": [
+            [
+              "only"
+            ]
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.010",
+          "sentence": "I wish you ___ told me the truth.",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.011",
+          "sentence": "If we'd taken a taxi, we might ___ arrived on time.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.012",
+          "sentence": "If they ___ invited me, I would have gone.",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_third_conditional_regret.101",
+          "question": "Si lo hubiéramos revisado, no habría pasado.",
+          "options": [
+            "If we had checked it, it wouldn't have happened.",
+            "If we would have checked it, it hadn't happened."
+          ],
+          "answer": 0,
+          "explanation": "If + past perfect, «would have»."
+        },
+        {
+          "id": "b2_third_conditional_regret.102",
+          "question": "Ojalá me hubiera quedado.",
+          "options": [
+            "I wish I had stayed.",
+            "I wish I would have stayed."
+          ],
+          "answer": 0,
+          "explanation": "«wish» + past perfect."
+        },
+        {
+          "id": "b2_third_conditional_regret.103",
+          "question": "Si me lo hubieras dicho, te podría haber ayudado.",
+          "options": [
+            "If you'd told me, I could have helped.",
+            "If you told me, I could help yesterday."
+          ],
+          "answer": 0,
+          "explanation": "«could have» en la consecuencia."
+        },
+        {
+          "id": "b2_third_conditional_regret.104",
+          "question": "Ojalá no lo hubiera subido.",
+          "options": [
+            "I wish I hadn't uploaded it.",
+            "I wish I didn't upload it."
+          ],
+          "answer": 0,
+          "explanation": "Pasado: past perfect."
+        },
+        {
+          "id": "b2_third_conditional_regret.105",
+          "question": "¡Si te hubiera hecho caso!",
+          "options": [
+            "If only I'd listened to you!",
+            "If only I listened to you yesterday!"
+          ],
+          "answer": 0,
+          "explanation": "«If only» + past perfect."
+        },
+        {
+          "id": "b2_third_conditional_regret.106",
+          "question": "Si hubiéramos salido antes, quizá habríamos cogido el tren.",
+          "options": [
+            "If we'd left earlier, we might have caught the train.",
+            "If we'd left earlier, we might caught the train."
+          ],
+          "answer": 0,
+          "explanation": "«might have» + participio."
+        },
+        {
+          "id": "b2_third_conditional_regret.107",
+          "question": "Habríamos tenido problemas.",
+          "options": [
+            "We would have been in trouble.",
+            "We would had been in trouble."
+          ],
+          "answer": 0,
+          "explanation": "«would have been»."
+        },
+        {
+          "id": "b2_third_conditional_regret.108",
+          "question": "«If we'd known…»: aquí «'d» es…",
+          "options": [
+            "had",
+            "would"
+          ],
+          "answer": 0,
+          "explanation": "En la parte del «if», «had»."
+        },
+        {
+          "id": "b2_third_conditional_regret.109",
+          "question": "«…we'd have stayed»: aquí «'d» es…",
+          "options": [
+            "would",
+            "had"
+          ],
+          "answer": 0,
+          "explanation": "En la consecuencia, «would»."
+        },
+        {
+          "id": "b2_third_conditional_regret.110",
+          "question": "Ojalá me hubieras dicho la verdad.",
+          "options": [
+            "I wish you had told me the truth.",
+            "I wish you would have told me the truth."
+          ],
+          "answer": 0,
+          "explanation": "«wish» + past perfect."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con el tercer condicional o con «wish».",
+      "items": [
+        {
+          "id": "b2_third_conditional_regret.201",
+          "prompt": "3.er condicional",
+          "source": "We didn't check the files, so this happened.",
+          "answers": [
+            "If we had checked the files, this wouldn't have happened",
+            "If we'd checked the files, this wouldn't have happened"
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.202",
+          "prompt": "3.er condicional",
+          "source": "I was tired, so I didn't notice.",
+          "answers": [
+            "If I hadn't been tired, I would have noticed",
+            "If I hadn't been so tired, I would have noticed"
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.203",
+          "prompt": "wish",
+          "source": "I didn't stay later. I regret it.",
+          "answers": [
+            "I wish I had stayed later",
+            "I wish I'd stayed later"
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.204",
+          "prompt": "wish",
+          "source": "I uploaded it in a hurry. I regret it.",
+          "answers": [
+            "I wish I hadn't uploaded it in a hurry",
+            "I wish I hadn't uploaded it in such a hurry"
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.205",
+          "prompt": "If only",
+          "source": "I didn't listen to you.",
+          "answers": [
+            "If only I had listened to you",
+            "If only I'd listened to you"
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.206",
+          "prompt": "could have",
+          "source": "You didn't tell me, so I couldn't help.",
+          "answers": [
+            "If you had told me, I could have helped",
+            "If you'd told me, I could have helped"
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.207",
+          "prompt": "Corrige",
+          "source": "If I would have known, I would have come.",
+          "answers": [
+            "If I had known, I would have come",
+            "If I'd known, I would have come"
+          ],
+          "explanation": "Tras «if», past perfect."
+        },
+        {
+          "id": "b2_third_conditional_regret.208",
+          "prompt": "Corrige",
+          "source": "I wish I would have studied more.",
+          "answers": [
+            "I wish I had studied more",
+            "I wish I'd studied more"
+          ],
+          "explanation": "«wish» + past perfect."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_third_conditional_regret.301",
+          "source": "Si lo hubiéramos revisado, no habría pasado.",
+          "answers": [
+            "If we had checked it, it wouldn't have happened",
+            "If we'd checked it, it wouldn't have happened"
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.302",
+          "source": "Ojalá me hubiera quedado.",
+          "answers": [
+            "I wish I had stayed",
+            "I wish I'd stayed"
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.303",
+          "source": "Si me lo hubieras dicho, te habría ayudado.",
+          "answers": [
+            "If you had told me, I would have helped you",
+            "If you'd told me, I would have helped you",
+            "If you'd told me, I'd have helped you"
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.304",
+          "source": "Habríamos tenido problemas.",
+          "answers": [
+            "We would have been in trouble",
+            "We'd have been in trouble",
+            "We would have had problems"
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.305",
+          "source": "Ojalá no lo hubiera subido.",
+          "answers": [
+            "I wish I hadn't uploaded it"
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.306",
+          "source": "¡Si te hubiera hecho caso!",
+          "answers": [
+            "If only I had listened to you",
+            "If only I'd listened to you"
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.307",
+          "source": "Si hubiéramos salido antes, habríamos cogido el tren.",
+          "answers": [
+            "If we had left earlier, we would have caught the train",
+            "If we'd left earlier, we'd have caught the train",
+            "If we'd left earlier, we would have caught the train"
+          ]
+        },
+        {
+          "id": "b2_third_conditional_regret.308",
+          "source": "Ojalá me hubieras dicho la verdad.",
+          "answers": [
+            "I wish you had told me the truth",
+            "I wish you'd told me the truth"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_third_conditional_regret.401",
+          "answer": "If we had checked the files"
+        },
+        {
+          "id": "b2_third_conditional_regret.402",
+          "answer": "It wouldn't have happened"
+        },
+        {
+          "id": "b2_third_conditional_regret.403",
+          "answer": "I wish I had stayed later"
+        },
+        {
+          "id": "b2_third_conditional_regret.404",
+          "answer": "If only I'd listened to you"
+        },
+        {
+          "id": "b2_third_conditional_regret.405",
+          "answer": "We could have caught the train"
+        }
+      ]
+    }
+  ]
+}

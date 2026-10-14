@@ -1,0 +1,446 @@
+{
+  "topic_id": "b2_deduction_present",
+  "level_id": "B2",
+  "title": "Deducción en presente: must, might, could, can't",
+  "tags": [
+    "deduction_present"
+  ],
+  "units": [
+    "the_talk"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Modals of deduction: present",
+    "explanation": "Usamos modales para hacer deducciones sobre el presente:\n- «must» + verbo = estamos casi seguros de que es verdad (debe de): «He must be important.»\n- «can't» + verbo = estamos casi seguros de que no es verdad: «That can't be the same company.»\n- «might», «may» o «could» + verbo = es posible: «It might be.», «She could be in a meeting.»\n\nOjo: para la deducción negativa se usa «can't», no «mustn't» (que significa prohibición). Y «couldn't» también vale para lo imposible: «It couldn't be him».\n\nCon acciones en curso, modal + «be» + «-ing»:\n- «She must be waiting for news.»\n- «They might be having lunch.»\n\nOjo: en español usamos a menudo el futuro para suponer («estará en casa», «tendrá treinta años»); en inglés: «He must be at home», «She must be about thirty».",
+    "table": {
+      "headers": [
+        "Modal",
+        "Seguridad",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "must",
+          "casi seguro que sí",
+          "He must be rich."
+        ],
+        [
+          "might / may / could",
+          "posible",
+          "She might be at home."
+        ],
+        [
+          "can't / couldn't",
+          "casi seguro que no",
+          "It can't be true."
+        ],
+        [
+          "modal + be + -ing",
+          "acción en curso",
+          "They must be sleeping."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «must», «might», «could» o «can't».",
+      "bank": [
+        "must",
+        "might",
+        "could",
+        "can't"
+      ],
+      "items": [
+        {
+          "id": "b2_deduction_present.001",
+          "sentence": "He ___ be important. Look at his watch!",
+          "answers": [
+            [
+              "must"
+            ]
+          ]
+        },
+        {
+          "id": "b2_deduction_present.002",
+          "sentence": "That ___ be the same company. They're enormous.",
+          "answers": [
+            [
+              "can't"
+            ]
+          ]
+        },
+        {
+          "id": "b2_deduction_present.003",
+          "sentence": "It ___ be. He said forty-two hotels.",
+          "answers": [
+            [
+              "might",
+              "could",
+              "may"
+            ]
+          ]
+        },
+        {
+          "id": "b2_deduction_present.004",
+          "sentence": "She must be ___ for news. (wait)",
+          "answers": [
+            [
+              "waiting"
+            ]
+          ]
+        },
+        {
+          "id": "b2_deduction_present.005",
+          "sentence": "This ___ be the biggest contract we've ever had. (posible)",
+          "answers": [
+            [
+              "could",
+              "might",
+              "may"
+            ]
+          ]
+        },
+        {
+          "id": "b2_deduction_present.006",
+          "sentence": "You've been travelling all day. You ___ be exhausted.",
+          "answers": [
+            [
+              "must"
+            ]
+          ]
+        },
+        {
+          "id": "b2_deduction_present.007",
+          "sentence": "He ___ be at home. I've just seen him at the office.",
+          "answers": [
+            [
+              "can't"
+            ]
+          ]
+        },
+        {
+          "id": "b2_deduction_present.008",
+          "sentence": "I'm not sure where Daniel is. He ___ be in the kitchen.",
+          "answers": [
+            [
+              "might",
+              "could",
+              "may"
+            ]
+          ]
+        },
+        {
+          "id": "b2_deduction_present.009",
+          "sentence": "The lights are off. They ___ be sleeping.",
+          "answers": [
+            [
+              "must"
+            ]
+          ]
+        },
+        {
+          "id": "b2_deduction_present.010",
+          "sentence": "She ___ be thirty! She looks about eighteen.",
+          "answers": [
+            [
+              "can't"
+            ]
+          ]
+        },
+        {
+          "id": "b2_deduction_present.011",
+          "sentence": "Don't call now. They might be ___ lunch. (have)",
+          "answers": [
+            [
+              "having"
+            ]
+          ]
+        },
+        {
+          "id": "b2_deduction_present.012",
+          "sentence": "He ___ be Irish. Listen to his accent!",
+          "answers": [
+            [
+              "must"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_deduction_present.101",
+          "question": "Debe de ser importante.",
+          "options": [
+            "He must be important.",
+            "He must to be important."
+          ],
+          "answer": 0,
+          "explanation": "«must» + forma base."
+        },
+        {
+          "id": "b2_deduction_present.102",
+          "question": "No puede ser la misma empresa.",
+          "options": [
+            "That can't be the same company.",
+            "That mustn't be the same company."
+          ],
+          "answer": 0,
+          "explanation": "Deducción negativa: «can't»."
+        },
+        {
+          "id": "b2_deduction_present.103",
+          "question": "Debe de estar esperando noticias.",
+          "options": [
+            "She must be waiting for news.",
+            "She must wait for news now."
+          ],
+          "answer": 0,
+          "explanation": "En curso: «must be» + «-ing»."
+        },
+        {
+          "id": "b2_deduction_present.104",
+          "question": "Estará en casa (supongo).",
+          "options": [
+            "He must be at home.",
+            "He will be at home, I suppose must."
+          ],
+          "answer": 0,
+          "explanation": "Deducir: «must»."
+        },
+        {
+          "id": "b2_deduction_present.105",
+          "question": "Puede que esté en una reunión.",
+          "options": [
+            "She could be in a meeting.",
+            "She could being in a meeting."
+          ],
+          "answer": 0,
+          "explanation": "«could be»."
+        },
+        {
+          "id": "b2_deduction_present.106",
+          "question": "Tendrá unos treinta años.",
+          "options": [
+            "She must be about thirty.",
+            "She must have about thirty years."
+          ],
+          "answer": 0,
+          "explanation": "La edad con «be»."
+        },
+        {
+          "id": "b2_deduction_present.107",
+          "question": "No puede tener treinta años.",
+          "options": [
+            "She can't be thirty.",
+            "She mustn't be thirty."
+          ],
+          "answer": 0,
+          "explanation": "Deducción negativa: «can't»."
+        },
+        {
+          "id": "b2_deduction_present.108",
+          "question": "Quizá estén comiendo.",
+          "options": [
+            "They might be having lunch.",
+            "They might having lunch."
+          ],
+          "answer": 0,
+          "explanation": "«might be» + «-ing»."
+        },
+        {
+          "id": "b2_deduction_present.109",
+          "question": "Debes de estar agotado.",
+          "options": [
+            "You must be exhausted.",
+            "You can be exhausted."
+          ],
+          "answer": 0,
+          "explanation": "Casi seguro: «must»."
+        },
+        {
+          "id": "b2_deduction_present.110",
+          "question": "No podía ser él.",
+          "options": [
+            "It couldn't be him.",
+            "It mustn't be him."
+          ],
+          "answer": 0,
+          "explanation": "Imposible: «couldn't»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con un modal de deducción o corrige el error.",
+      "items": [
+        {
+          "id": "b2_deduction_present.201",
+          "prompt": "must",
+          "source": "I'm sure he's important.",
+          "answers": [
+            "He must be important"
+          ]
+        },
+        {
+          "id": "b2_deduction_present.202",
+          "prompt": "can't",
+          "source": "I'm sure it isn't true.",
+          "answers": [
+            "It can't be true"
+          ]
+        },
+        {
+          "id": "b2_deduction_present.203",
+          "prompt": "might",
+          "source": "Perhaps she's in a meeting.",
+          "answers": [
+            "She might be in a meeting"
+          ]
+        },
+        {
+          "id": "b2_deduction_present.204",
+          "prompt": "must",
+          "source": "I'm sure they're sleeping.",
+          "answers": [
+            "They must be sleeping"
+          ]
+        },
+        {
+          "id": "b2_deduction_present.205",
+          "prompt": "can't",
+          "source": "It's impossible that he's the boss.",
+          "answers": [
+            "He can't be the boss"
+          ]
+        },
+        {
+          "id": "b2_deduction_present.206",
+          "prompt": "Corrige",
+          "source": "That mustn't be Daniel. He's in Galway.",
+          "answers": [
+            "That can't be Daniel. He's in Galway"
+          ],
+          "explanation": "Deducción negativa: «can't»."
+        },
+        {
+          "id": "b2_deduction_present.207",
+          "prompt": "Corrige",
+          "source": "She must waiting for us.",
+          "answers": [
+            "She must be waiting for us"
+          ],
+          "explanation": "En curso: «must be» + «-ing»."
+        },
+        {
+          "id": "b2_deduction_present.208",
+          "prompt": "Corrige",
+          "source": "He might to be busy.",
+          "answers": [
+            "He might be busy"
+          ],
+          "explanation": "Sin «to»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_deduction_present.301",
+          "source": "Debe de ser importante.",
+          "answers": [
+            "He must be important"
+          ]
+        },
+        {
+          "id": "b2_deduction_present.302",
+          "source": "No puede ser verdad.",
+          "answers": [
+            "It can't be true"
+          ]
+        },
+        {
+          "id": "b2_deduction_present.303",
+          "source": "Puede que esté en casa.",
+          "answers": [
+            "He might be at home",
+            "She might be at home",
+            "He may be at home",
+            "He could be at home"
+          ]
+        },
+        {
+          "id": "b2_deduction_present.304",
+          "source": "Debe de estar esperando noticias.",
+          "answers": [
+            "She must be waiting for news",
+            "He must be waiting for news"
+          ]
+        },
+        {
+          "id": "b2_deduction_present.305",
+          "source": "Debes de estar cansada.",
+          "answers": [
+            "You must be tired"
+          ]
+        },
+        {
+          "id": "b2_deduction_present.306",
+          "source": "No puede tener treinta años.",
+          "answers": [
+            "She can't be thirty",
+            "He can't be thirty"
+          ]
+        },
+        {
+          "id": "b2_deduction_present.307",
+          "source": "Estarán durmiendo.",
+          "answers": [
+            "They must be sleeping",
+            "They must be asleep"
+          ]
+        },
+        {
+          "id": "b2_deduction_present.308",
+          "source": "Debe de ser irlandés.",
+          "answers": [
+            "He must be Irish"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_deduction_present.401",
+          "answer": "He must be very important"
+        },
+        {
+          "id": "b2_deduction_present.402",
+          "answer": "That can't be the same company"
+        },
+        {
+          "id": "b2_deduction_present.403",
+          "answer": "She must be waiting for news"
+        },
+        {
+          "id": "b2_deduction_present.404",
+          "answer": "They might be having lunch"
+        },
+        {
+          "id": "b2_deduction_present.405",
+          "answer": "You must be exhausted"
+        }
+      ]
+    }
+  ]
+}

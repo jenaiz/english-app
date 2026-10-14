@@ -1,0 +1,466 @@
+{
+  "topic_id": "b2_reporting_verbs",
+  "level_id": "B2",
+  "title": "Verbos introductorios: suggest, insist on, refuse, apologise for…",
+  "tags": [
+    "reporting_verbs"
+  ],
+  "units": [
+    "reporting_verbs"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Reporting verbs",
+    "explanation": "En lugar de repetir «said» una y otra vez, resumimos con verbos más precisos. Cada uno tiene su patrón:\n- verbo + «to»: «agree», «refuse», «promise», «offer», «threaten»: «He refused to listen.»\n- verbo + persona + «to»: «warn», «invite», «ask», «tell», «advise», «remind», «persuade»: «He invited us to go to New York.»\n- verbo + «-ing»: «suggest», «admit», «deny», «recommend»: «Daniel suggested testing both versions.»\n- verbo + preposición + «-ing»: «insist on», «apologise for», «accuse someone of», «blame someone for»: «He apologised for being so difficult.»\n- verbo + «that»: «admit», «warn», «explain», «promise», «agree», «suggest»: «He admitted that it was slow.»\n\nOjo: «suggest» nunca va con persona + «to» («he suggested me to…» es incorrecto):\n- «He suggested testing…»\n- «He suggested that we test…»\n\nY «explain» no lleva persona directamente: «He explained the problem to me» (nunca «explained me the problem»).",
+    "table": {
+      "headers": [
+        "Patrón",
+        "Verbos",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "+ to",
+          "agree, refuse, promise, offer",
+          "She refused to sign."
+        ],
+        [
+          "+ persona + to",
+          "warn, invite, advise, remind",
+          "He reminded me to call."
+        ],
+        [
+          "+ -ing",
+          "suggest, admit, deny, recommend",
+          "He denied taking it."
+        ],
+        [
+          "+ prep. + -ing",
+          "insist on, apologise for, accuse of",
+          "She apologised for being late."
+        ],
+        [
+          "+ that",
+          "admit, explain, agree",
+          "He admitted that he was wrong."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la forma correcta.",
+      "items": [
+        {
+          "id": "b2_reporting_verbs.001",
+          "sentence": "He insisted on ___ a video to every page. (add)",
+          "answers": [
+            [
+              "adding"
+            ]
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.002",
+          "sentence": "He refused ___ listen at first.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.003",
+          "sentence": "Daniel suggested ___ both versions. (test)",
+          "answers": [
+            [
+              "testing"
+            ]
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.004",
+          "sentence": "He promised ___ send us the results.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.005",
+          "sentence": "He invited us ___ go to New York.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.006",
+          "sentence": "He offered ___ pay for everything.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.007",
+          "sentence": "He apologised ___ being so difficult.",
+          "answers": [
+            [
+              "for"
+            ]
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.008",
+          "sentence": "She denied ___ the money. (take)",
+          "answers": [
+            [
+              "taking"
+            ]
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.009",
+          "sentence": "They accused him ___ lying.",
+          "answers": [
+            [
+              "of"
+            ]
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.010",
+          "sentence": "My doctor advised me ___ rest for a week.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.011",
+          "sentence": "He admitted ___ the wrong file. (send)",
+          "answers": [
+            [
+              "sending"
+            ]
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.012",
+          "sentence": "Can you remind me ___ call Helen tomorrow?",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.013",
+          "sentence": "She warned us ___ the road was dangerous.",
+          "answers": [
+            [
+              "that"
+            ]
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.014",
+          "sentence": "I recommend ___ the train. It's quicker. (take)",
+          "answers": [
+            [
+              "taking"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_reporting_verbs.101",
+          "question": "Sugirió probar las dos versiones.",
+          "options": [
+            "He suggested testing both versions.",
+            "He suggested to test both versions."
+          ],
+          "answer": 0,
+          "explanation": "«suggest» + «-ing»."
+        },
+        {
+          "id": "b2_reporting_verbs.102",
+          "question": "Me sugirió que llamara.",
+          "options": [
+            "He suggested that I call.",
+            "He suggested me to call."
+          ],
+          "answer": 0,
+          "explanation": "Nunca «suggested me to»."
+        },
+        {
+          "id": "b2_reporting_verbs.103",
+          "question": "Se negó a escuchar.",
+          "options": [
+            "He refused to listen.",
+            "He refused listening."
+          ],
+          "answer": 0,
+          "explanation": "«refuse» + «to»."
+        },
+        {
+          "id": "b2_reporting_verbs.104",
+          "question": "Se disculpó por llegar tarde.",
+          "options": [
+            "She apologised for being late.",
+            "She apologised to be late."
+          ],
+          "answer": 0,
+          "explanation": "«apologise for» + «-ing»."
+        },
+        {
+          "id": "b2_reporting_verbs.105",
+          "question": "Insistió en pagar.",
+          "options": [
+            "He insisted on paying.",
+            "He insisted to pay."
+          ],
+          "answer": 0,
+          "explanation": "«insist on» + «-ing»."
+        },
+        {
+          "id": "b2_reporting_verbs.106",
+          "question": "Me recordó que llamara a Helen.",
+          "options": [
+            "She reminded me to call Helen.",
+            "She reminded to me call Helen."
+          ],
+          "answer": 0,
+          "explanation": "«remind» + persona + «to»."
+        },
+        {
+          "id": "b2_reporting_verbs.107",
+          "question": "Negó haberlo cogido.",
+          "options": [
+            "He denied taking it.",
+            "He denied to take it."
+          ],
+          "answer": 0,
+          "explanation": "«deny» + «-ing»."
+        },
+        {
+          "id": "b2_reporting_verbs.108",
+          "question": "Me explicó el problema.",
+          "options": [
+            "He explained the problem to me.",
+            "He explained me the problem."
+          ],
+          "answer": 0,
+          "explanation": "«explain something to someone»."
+        },
+        {
+          "id": "b2_reporting_verbs.109",
+          "question": "Nos invitó a ir a Nueva York.",
+          "options": [
+            "He invited us to go to New York.",
+            "He invited us going to New York."
+          ],
+          "answer": 0,
+          "explanation": "«invite» + persona + «to»."
+        },
+        {
+          "id": "b2_reporting_verbs.110",
+          "question": "Le acusaron de mentir.",
+          "options": [
+            "They accused him of lying.",
+            "They accused him to lie."
+          ],
+          "answer": 0,
+          "explanation": "«accuse… of» + «-ing»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Resume con el verbo indicado.",
+      "items": [
+        {
+          "id": "b2_reporting_verbs.201",
+          "prompt": "admit",
+          "source": "Mark: \"OK, the simple version is better.\"",
+          "answers": [
+            "Mark admitted that the simple version was better",
+            "Mark admitted the simple version was better"
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.202",
+          "prompt": "suggest",
+          "source": "Daniel: \"Let's test both versions.\"",
+          "answers": [
+            "Daniel suggested testing both versions",
+            "Daniel suggested that we test both versions"
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.203",
+          "prompt": "promise",
+          "source": "Mark: \"I'll send the results by Friday.\"",
+          "answers": [
+            "Mark promised to send the results by Friday"
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.204",
+          "prompt": "apologise",
+          "source": "Mark: \"I'm sorry I was so difficult.\"",
+          "answers": [
+            "Mark apologised for being so difficult"
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.205",
+          "prompt": "refuse",
+          "source": "Sam: \"No, I won't sign it.\"",
+          "answers": [
+            "Sam refused to sign it"
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.206",
+          "prompt": "remind",
+          "source": "Priya to me: \"Don't forget to buy milk.\"",
+          "answers": [
+            "Priya reminded me to buy milk"
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.207",
+          "prompt": "deny",
+          "source": "Javi: \"I didn't eat the cake!\"",
+          "answers": [
+            "Javi denied eating the cake",
+            "Javi denied having eaten the cake"
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.208",
+          "prompt": "Corrige",
+          "source": "He suggested me to take a break.",
+          "answers": [
+            "He suggested that I take a break",
+            "He suggested taking a break",
+            "He suggested that I should take a break"
+          ],
+          "explanation": "Nunca «suggested me to»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_reporting_verbs.301",
+          "source": "Se negó a escuchar.",
+          "answers": [
+            "He refused to listen",
+            "She refused to listen"
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.302",
+          "source": "Sugirió probar las dos versiones.",
+          "answers": [
+            "He suggested testing both versions",
+            "She suggested testing both versions"
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.303",
+          "source": "Prometió enviarnos los resultados.",
+          "answers": [
+            "He promised to send us the results",
+            "She promised to send us the results"
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.304",
+          "source": "Nos invitó a ir a Nueva York.",
+          "answers": [
+            "He invited us to go to New York",
+            "She invited us to go to New York"
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.305",
+          "source": "Se disculpó por llegar tarde.",
+          "answers": [
+            "He apologised for being late",
+            "She apologised for being late",
+            "He apologised for arriving late"
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.306",
+          "source": "Negó haber cogido el dinero.",
+          "answers": [
+            "He denied taking the money",
+            "She denied taking the money",
+            "He denied having taken the money"
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.307",
+          "source": "Insistió en pagar la cena.",
+          "answers": [
+            "He insisted on paying for dinner",
+            "She insisted on paying for dinner",
+            "He insisted on paying for the dinner"
+          ]
+        },
+        {
+          "id": "b2_reporting_verbs.308",
+          "source": "Me recordó que llamara a mi madre.",
+          "answers": [
+            "She reminded me to call my mum",
+            "He reminded me to call my mum",
+            "She reminded me to call my mother"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_reporting_verbs.401",
+          "answer": "He suggested testing both versions"
+        },
+        {
+          "id": "b2_reporting_verbs.402",
+          "answer": "She refused to sign the contract"
+        },
+        {
+          "id": "b2_reporting_verbs.403",
+          "answer": "He apologised for being late"
+        },
+        {
+          "id": "b2_reporting_verbs.404",
+          "answer": "They invited us to go to New York"
+        },
+        {
+          "id": "b2_reporting_verbs.405",
+          "answer": "She insisted on paying"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "topic_id": "b2_verb_patterns",
+  "level_id": "B2",
+  "title": "Verbo + -ing o + to: remember, stop, try, regret…",
+  "tags": [
+    "verb_patterns"
+  ],
+  "units": [
+    "moving_in"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Verb patterns: -ing or to-infinitive",
+    "explanation": "Algunos verbos van seguidos de «-ing» y otros de «to» + verbo:\n- + «-ing»: «consider», «imagine», «miss», «suggest», «enjoy», «avoid», «mind», «finish», «keep», «can't stand»: «Would you consider moving in with me?»\n- + «to»: «agree», «decide», «promise», «need», «hope», «mean», «manage», «refuse», «afford», «seem»: «We decided to rent a bigger flat.»\n\nUnos pocos cambian de significado según la forma:\n- «remember» / «forget» + «-ing» = recordar / olvidar algo que pasó; + «to» = acordarse / olvidarse de hacer algo: «I remember meeting you.» / «Remember to lock the door.»\n- «stop» + «-ing» = dejar de; + «to» = pararse para: «Stop leaving your socks everywhere.» / «Shall we stop to get a coffee?»\n- «try» + «to» = intentar; + «-ing» = probar a: «I'll try to be tidier.» / «Try restarting the router.»\n- «regret» + «-ing» = arrepentirse de; + «to» = lamentar (al comunicar algo): «I regret not telling her.» / «We regret to inform you…»\n\nOjo: después de una preposición siempre va «-ing»: «I'm thinking of moving», «She's good at cooking».",
+    "table": {
+      "headers": [
+        "Verbo",
+        "+ -ing",
+        "+ to"
+      ],
+      "rows": [
+        [
+          "remember",
+          "recordar algo pasado",
+          "acordarse de hacer"
+        ],
+        [
+          "forget",
+          "olvidar algo pasado",
+          "olvidarse de hacer"
+        ],
+        [
+          "stop",
+          "dejar de",
+          "pararse para"
+        ],
+        [
+          "try",
+          "probar a",
+          "intentar"
+        ],
+        [
+          "regret",
+          "arrepentirse de",
+          "lamentar comunicar"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «-ing» o «to» + verbo.",
+      "items": [
+        {
+          "id": "b2_verb_patterns.001",
+          "sentence": "Would you consider ___ in with me? (move)",
+          "answers": [
+            [
+              "moving"
+            ]
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.002",
+          "sentence": "I'd miss ___ with Priya. (live)",
+          "answers": [
+            [
+              "living"
+            ]
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.003",
+          "sentence": "I remember you ___ the house was the best thing. (say)",
+          "answers": [
+            [
+              "saying"
+            ]
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.004",
+          "sentence": "You'll have to stop ___ your socks everywhere. (leave)",
+          "answers": [
+            [
+              "leaving"
+            ]
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.005",
+          "sentence": "I'll try ___ be tidier.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.006",
+          "sentence": "I regret not ___ her. (tell)",
+          "answers": [
+            [
+              "telling"
+            ]
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.007",
+          "sentence": "She suggested ___ for flats together. (look)",
+          "answers": [
+            [
+              "looking"
+            ]
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.008",
+          "sentence": "Shall we stop ___ get a coffee?",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.009",
+          "sentence": "We decided ___ a bigger flat. (rent)",
+          "answers": [
+            [
+              "to rent"
+            ]
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.010",
+          "sentence": "Don't forget ___ the door when you leave. (lock)",
+          "answers": [
+            [
+              "to lock"
+            ]
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.011",
+          "sentence": "The internet isn't working. Try ___ the router. (restart)",
+          "answers": [
+            [
+              "restarting"
+            ]
+          ],
+          "explanation": "Probar a: «-ing»."
+        },
+        {
+          "id": "b2_verb_patterns.012",
+          "sentence": "I can't afford ___ in the city centre. (live)",
+          "answers": [
+            [
+              "to live"
+            ]
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.013",
+          "sentence": "Do you mind ___ the window? (open)",
+          "answers": [
+            [
+              "opening"
+            ]
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.014",
+          "sentence": "I'll never forget ___ the sea for the first time. (see)",
+          "answers": [
+            [
+              "seeing"
+            ]
+          ],
+          "explanation": "Algo que pasó: «-ing»."
+        },
+        {
+          "id": "b2_verb_patterns.015",
+          "sentence": "We managed ___ the sofa up the stairs. (get)",
+          "answers": [
+            [
+              "to get"
+            ]
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.016",
+          "sentence": "I'm thinking of ___ to Dublin. (move)",
+          "answers": [
+            [
+              "moving"
+            ]
+          ],
+          "explanation": "Tras preposición: «-ing»."
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_verb_patterns.101",
+          "question": "¿Te plantearías vivir conmigo?",
+          "options": [
+            "Would you consider living with me?",
+            "Would you consider to live with me?"
+          ],
+          "answer": 0,
+          "explanation": "«consider» + «-ing»."
+        },
+        {
+          "id": "b2_verb_patterns.102",
+          "question": "Acuérdate de llamar a Priya.",
+          "options": [
+            "Remember to call Priya.",
+            "Remember calling Priya."
+          ],
+          "answer": 0,
+          "explanation": "Algo que hacer: «to»."
+        },
+        {
+          "id": "b2_verb_patterns.103",
+          "question": "Recuerdo haberlo dicho.",
+          "options": [
+            "I remember saying it.",
+            "I remember to say it."
+          ],
+          "answer": 0,
+          "explanation": "Algo que pasó: «-ing»."
+        },
+        {
+          "id": "b2_verb_patterns.104",
+          "question": "Deja de dejar los calcetines por todas partes.",
+          "options": [
+            "Stop leaving your socks everywhere.",
+            "Stop to leave your socks everywhere."
+          ],
+          "answer": 0,
+          "explanation": "Dejar de: «stop» + «-ing»."
+        },
+        {
+          "id": "b2_verb_patterns.105",
+          "question": "Paramos a tomar un café.",
+          "options": [
+            "We stopped to have a coffee.",
+            "We stopped having a coffee."
+          ],
+          "answer": 0,
+          "explanation": "Pararse para: «stop» + «to»."
+        },
+        {
+          "id": "b2_verb_patterns.106",
+          "question": "Intentaré ser más ordenado.",
+          "options": [
+            "I'll try to be tidier.",
+            "I'll try being tidier never."
+          ],
+          "answer": 0,
+          "explanation": "Intentar: «try» + «to»."
+        },
+        {
+          "id": "b2_verb_patterns.107",
+          "question": "Prueba a reiniciar el router.",
+          "options": [
+            "Try restarting the router.",
+            "Try to restart the router, test."
+          ],
+          "answer": 0,
+          "explanation": "Probar a: «try» + «-ing»."
+        },
+        {
+          "id": "b2_verb_patterns.108",
+          "question": "Me arrepiento de no habérselo dicho.",
+          "options": [
+            "I regret not telling her.",
+            "I regret not to tell her."
+          ],
+          "answer": 0,
+          "explanation": "Arrepentirse: «regret» + «-ing»."
+        },
+        {
+          "id": "b2_verb_patterns.109",
+          "question": "Decidimos alquilar un piso más grande.",
+          "options": [
+            "We decided to rent a bigger flat.",
+            "We decided renting a bigger flat."
+          ],
+          "answer": 0,
+          "explanation": "«decide» + «to»."
+        },
+        {
+          "id": "b2_verb_patterns.110",
+          "question": "¿Te importa abrir la ventana?",
+          "options": [
+            "Do you mind opening the window?",
+            "Do you mind to open the window?"
+          ],
+          "answer": 0,
+          "explanation": "«mind» + «-ing»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "b2_verb_patterns.201",
+          "prompt": "Corrige",
+          "source": "Would you consider to move abroad?",
+          "answers": [
+            "Would you consider moving abroad"
+          ],
+          "explanation": "«consider» + «-ing»."
+        },
+        {
+          "id": "b2_verb_patterns.202",
+          "prompt": "Corrige",
+          "source": "Don't forget locking the door.",
+          "answers": [
+            "Don't forget to lock the door"
+          ],
+          "explanation": "Algo que hacer: «to»."
+        },
+        {
+          "id": "b2_verb_patterns.203",
+          "prompt": "Corrige",
+          "source": "I enjoy to cook for friends.",
+          "answers": [
+            "I enjoy cooking for friends"
+          ],
+          "explanation": "«enjoy» + «-ing»."
+        },
+        {
+          "id": "b2_verb_patterns.204",
+          "prompt": "Corrige",
+          "source": "We decided moving to Bristol.",
+          "answers": [
+            "We decided to move to Bristol"
+          ],
+          "explanation": "«decide» + «to»."
+        },
+        {
+          "id": "b2_verb_patterns.205",
+          "prompt": "Corrige",
+          "source": "I'm thinking of buy a car.",
+          "answers": [
+            "I'm thinking of buying a car"
+          ],
+          "explanation": "Tras preposición: «-ing»."
+        },
+        {
+          "id": "b2_verb_patterns.206",
+          "prompt": "Corrige",
+          "source": "He suggested to go out for dinner.",
+          "answers": [
+            "He suggested going out for dinner"
+          ],
+          "explanation": "«suggest» + «-ing»."
+        },
+        {
+          "id": "b2_verb_patterns.207",
+          "prompt": "Corrige",
+          "source": "I can't afford going on holiday this year.",
+          "answers": [
+            "I can't afford to go on holiday this year"
+          ],
+          "explanation": "«afford» + «to»."
+        },
+        {
+          "id": "b2_verb_patterns.208",
+          "prompt": "Corrige",
+          "source": "I'll never forget to meet you in Valencia. (fue un recuerdo)",
+          "answers": [
+            "I'll never forget meeting you in Valencia"
+          ],
+          "explanation": "Algo que pasó: «-ing»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_verb_patterns.301",
+          "source": "¿Te plantearías vivir conmigo?",
+          "answers": [
+            "Would you consider living with me",
+            "Would you consider moving in with me"
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.302",
+          "source": "Recuerdo haberlo dicho.",
+          "answers": [
+            "I remember saying it",
+            "I remember saying that"
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.303",
+          "source": "Acuérdate de llamar a Priya.",
+          "answers": [
+            "Remember to call Priya"
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.304",
+          "source": "Deja de dejar los calcetines por todas partes.",
+          "answers": [
+            "Stop leaving your socks everywhere"
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.305",
+          "source": "Me arrepiento de no habérselo dicho.",
+          "answers": [
+            "I regret not telling her",
+            "I regret not telling him",
+            "I regret not having told her"
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.306",
+          "source": "Paramos a tomar un café.",
+          "answers": [
+            "We stopped to have a coffee",
+            "We stopped to get a coffee"
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.307",
+          "source": "Intenté abrir la puerta.",
+          "answers": [
+            "I tried to open the door"
+          ]
+        },
+        {
+          "id": "b2_verb_patterns.308",
+          "source": "No me puedo permitir vivir en el centro.",
+          "answers": [
+            "I can't afford to live in the centre",
+            "I can't afford to live in the city centre"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_verb_patterns.401",
+          "answer": "Would you consider moving in with me?"
+        },
+        {
+          "id": "b2_verb_patterns.402",
+          "answer": "Remember to lock the door"
+        },
+        {
+          "id": "b2_verb_patterns.403",
+          "answer": "Stop leaving your socks everywhere"
+        },
+        {
+          "id": "b2_verb_patterns.404",
+          "answer": "I regret not telling her"
+        },
+        {
+          "id": "b2_verb_patterns.405",
+          "answer": "We stopped to get a coffee"
+        }
+      ]
+    }
+  ]
+}

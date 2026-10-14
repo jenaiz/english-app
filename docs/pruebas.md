@@ -246,3 +246,63 @@ Haz al menos una ronda de cada tema. Marca la casilla si las frases y las respue
 
 - [ ] Formas de futuro: present continuous, going to, will, might (`b1_future_forms`, 45 ejercicios)
 - [ ] Marcadores de conversación: anyway, by the way, actually… (`b1_discourse_markers`, 43 ejercicios)
+
+### B2
+
+**The Night Train**
+
+- [ ] Repaso de B1: used to y would para hábitos del pasado (`b2_past_habits`, 43 ejercicios)
+- [ ] Future continuous, future perfect y in case (`b2_future_perfect`, 45 ejercicios)
+
+**After the Talk**
+
+- [ ] Deducción en presente: must, might, could, can't (`b2_deduction_present`, 43 ejercicios)
+- [ ] had better y would rather (`b2_had_better_rather`, 43 ejercicios)
+
+**The Missing Laptop**
+
+- [ ] Modales en pasado: must have, can't have, needn't have… (`b2_past_modals`, 45 ejercicios)
+
+**The First Meeting**
+
+- [ ] Conectores de contraste: although, despite, however, whereas (`b2_contrast_linkers`, 43 ejercicios)
+- [ ] Marcadores formales: furthermore, consequently, in conclusion (`b2_formal_markers`, 43 ejercicios)
+
+**The Phone Call**
+
+- [ ] Verbos introductorios: suggest, insist on, refuse, apologise for… (`b2_reporting_verbs`, 45 ejercicios)
+
+**The Wrong Version**
+
+- [ ] Tercer condicional y wish + past perfect (`b2_third_conditional_regret`, 43 ejercicios)
+- [ ] Past perfect continuous: had been working (`b2_past_perfect_continuous`, 43 ejercicios)
+
+**Night Shifts**
+
+- [ ] wish / if only + past, could, would (`b2_wish_if_only`, 43 ejercicios)
+- [ ] always + -ing para quejas; So do I / Neither do I (`b2_always_so_neither`, 43 ejercicios)
+
+**The Boiler**
+
+- [ ] Causativa: have / get something done (`b2_causative`, 45 ejercicios)
+- [ ] La pasiva en todas sus formas: is being done, should be done (`b2_passive_forms`, 45 ejercicios)
+
+**The Reviews**
+
+- [ ] Pasiva de opinión: it is said that…, he is believed to… (`b2_passive_reporting`, 43 ejercicios)
+- [ ] Adverbios de actitud: apparently, clearly, fortunately… (`b2_attitudinal_adverbs`, 43 ejercicios)
+
+**A Question at the Harbour**
+
+- [ ] Verbo + -ing o + to: remember, stop, try, regret… (`b2_verb_patterns`, 47 ejercicios)
+- [ ] be used to, get used to, look forward to + -ing (`b2_used_to_forms`, 43 ejercicios)
+
+**On the Bridge**
+
+- [ ] Condicionales mixtos (`b2_mixed_conditionals`, 43 ejercicios)
+- [ ] Artículos con nombres abstractos: life o the life (`b2_abstract_articles`, 45 ejercicios)
+
+**Big News**
+
+- [ ] Oraciones de relativo explicativas: which, who, whose, whom (`b2_relative_non_defining`, 45 ejercicios)
+- [ ] Intensificadores y colocaciones: absolutely delighted, highly unlikely (`b2_intensifier_collocations`, 43 ejercicios)

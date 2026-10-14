@@ -1,0 +1,444 @@
+{
+  "topic_id": "b2_wish_if_only",
+  "level_id": "B2",
+  "title": "wish / if only + past, could, would",
+  "tags": [
+    "wish_if_only"
+  ],
+  "units": [
+    "house_tensions"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "wish and if only",
+    "explanation": "«Wish» expresa que algo fuera distinto. El tiempo verbal da un paso atrás:\n- «wish» + past simple: una situación presente que nos gustaría cambiar: «I wish I had more time.», «I wish it wasn't so cold.»\n- «wish» + «could»: una habilidad que no tenemos: «I wish I could cook like him.»\n- «wish» + «would»: un hábito o comportamiento de otra persona que nos molesta y queremos que cambie: «I wish he wouldn't cook at two a.m.» (no se usa con «I»)\n- «wish» + past perfect: arrepentimiento por el pasado: «I wish I'd known earlier.»\n\n«If only» funciona igual, pero es más enfático:\n- «If only all problems were this easy.»\n- «If only I had listened!»\n\nEn registro cuidado se usa «were» con todas las personas: «I wish I were taller», «If only it were true» (también se oye «was»).\n\nOjo: para un deseo sobre el futuro que sí puede pasar se usa «hope», no «wish»: «I hope you pass the exam» (nunca «I wish you pass»).",
+    "table": {
+      "headers": [
+        "Estructura",
+        "Para…",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "wish + past simple",
+          "presente que quieres cambiar",
+          "I wish I had a car."
+        ],
+        [
+          "wish + could",
+          "habilidad que no tienes",
+          "I wish I could swim."
+        ],
+        [
+          "wish + would",
+          "hábito molesto de otro",
+          "I wish you wouldn't shout."
+        ],
+        [
+          "wish + past perfect",
+          "arrepentimiento",
+          "I wish I'd gone."
+        ],
+        [
+          "hope + presente",
+          "deseo posible",
+          "I hope it's sunny."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la forma correcta.",
+      "items": [
+        {
+          "id": "b2_wish_if_only.001",
+          "sentence": "I wish Ollie ___ cook at two in the morning.",
+          "answers": [
+            [
+              "wouldn't"
+            ]
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.002",
+          "sentence": "I wish he ___ clean up afterwards.",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.003",
+          "sentence": "I wish I ___ cook like him.",
+          "answers": [
+            [
+              "could"
+            ]
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.004",
+          "sentence": "I wish I ___ known earlier!",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.005",
+          "sentence": "If ___ all problems were this easy.",
+          "answers": [
+            [
+              "only"
+            ]
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.006",
+          "sentence": "I wish I ___ more time. (have)",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.007",
+          "sentence": "I wish it ___ so cold. (be, negativa)",
+          "answers": [
+            [
+              "wasn't",
+              "weren't"
+            ]
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.008",
+          "sentence": "I wish you'd ___ a bit quieter.",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.009",
+          "sentence": "I wish I ___ speak Italian. (habilidad)",
+          "answers": [
+            [
+              "could"
+            ]
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.010",
+          "sentence": "If only I ___ listened to you! (pasado)",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.011",
+          "sentence": "I ___ you pass the exam tomorrow. (deseo posible)",
+          "answers": [
+            [
+              "hope"
+            ]
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.012",
+          "sentence": "I wish I ___ taller. (be)",
+          "answers": [
+            [
+              "were",
+              "was"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_wish_if_only.101",
+          "question": "Ojalá tuviera más tiempo.",
+          "options": [
+            "I wish I had more time.",
+            "I wish I have more time."
+          ],
+          "answer": 0,
+          "explanation": "Presente: «wish» + past simple."
+        },
+        {
+          "id": "b2_wish_if_only.102",
+          "question": "Ojalá supiera cocinar como él.",
+          "options": [
+            "I wish I could cook like him.",
+            "I wish I can cook like him."
+          ],
+          "answer": 0,
+          "explanation": "Habilidad: «could»."
+        },
+        {
+          "id": "b2_wish_if_only.103",
+          "question": "Ojalá dejara de hacer ruido.",
+          "options": [
+            "I wish he wouldn't make so much noise.",
+            "I wish he doesn't make so much noise."
+          ],
+          "answer": 0,
+          "explanation": "Hábito molesto: «would»."
+        },
+        {
+          "id": "b2_wish_if_only.104",
+          "question": "Ojalá lo hubiera sabido antes.",
+          "options": [
+            "I wish I had known earlier.",
+            "I wish I knew earlier yesterday."
+          ],
+          "answer": 0,
+          "explanation": "Pasado: past perfect."
+        },
+        {
+          "id": "b2_wish_if_only.105",
+          "question": "Espero que apruebes.",
+          "options": [
+            "I hope you pass.",
+            "I wish you pass."
+          ],
+          "answer": 0,
+          "explanation": "Deseo posible: «hope»."
+        },
+        {
+          "id": "b2_wish_if_only.106",
+          "question": "Si al menos fuera fácil…",
+          "options": [
+            "If only it were easy…",
+            "If only it is easy…"
+          ],
+          "answer": 0,
+          "explanation": "«If only» + past simple."
+        },
+        {
+          "id": "b2_wish_if_only.107",
+          "question": "Ojalá no hiciera tanto frío.",
+          "options": [
+            "I wish it wasn't so cold.",
+            "I wish it isn't so cold."
+          ],
+          "answer": 0,
+          "explanation": "Presente: past simple."
+        },
+        {
+          "id": "b2_wish_if_only.108",
+          "question": "Ojalá fuera más alto.",
+          "options": [
+            "I wish I were taller.",
+            "I wish I am taller."
+          ],
+          "answer": 0,
+          "explanation": "«were» con todas las personas."
+        },
+        {
+          "id": "b2_wish_if_only.109",
+          "question": "¡Si te hubiera escuchado!",
+          "options": [
+            "If only I had listened to you!",
+            "If only I would listen to you!"
+          ],
+          "answer": 0,
+          "explanation": "Pasado: past perfect."
+        },
+        {
+          "id": "b2_wish_if_only.110",
+          "question": "Ojalá dejaras de interrumpirme.",
+          "options": [
+            "I wish you would stop interrupting me.",
+            "I wish you stop interrupting me."
+          ],
+          "answer": 0,
+          "explanation": "Comportamiento molesto: «would»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con «wish».",
+      "items": [
+        {
+          "id": "b2_wish_if_only.201",
+          "prompt": "wish",
+          "source": "I can't cook like Ollie.",
+          "answers": [
+            "I wish I could cook like Ollie"
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.202",
+          "prompt": "wish… wouldn't",
+          "source": "He always leaves the kitchen dirty.",
+          "answers": [
+            "I wish he wouldn't leave the kitchen dirty"
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.203",
+          "prompt": "wish",
+          "source": "I didn't know earlier.",
+          "answers": [
+            "I wish I had known earlier",
+            "I wish I'd known earlier"
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.204",
+          "prompt": "wish",
+          "source": "I don't have a car.",
+          "answers": [
+            "I wish I had a car"
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.205",
+          "prompt": "wish",
+          "source": "It's very cold today.",
+          "answers": [
+            "I wish it wasn't so cold today",
+            "I wish it weren't so cold today",
+            "I wish it wasn't very cold today"
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.206",
+          "prompt": "If only",
+          "source": "I didn't go to the party.",
+          "answers": [
+            "If only I had gone to the party",
+            "If only I'd gone to the party"
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.207",
+          "prompt": "Corrige",
+          "source": "I wish you pass your exam.",
+          "answers": [
+            "I hope you pass your exam"
+          ],
+          "explanation": "Deseo posible: «hope»."
+        },
+        {
+          "id": "b2_wish_if_only.208",
+          "prompt": "Corrige",
+          "source": "I wish I can swim.",
+          "answers": [
+            "I wish I could swim"
+          ],
+          "explanation": "Habilidad: «could»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_wish_if_only.301",
+          "source": "Ojalá supiera cocinar como él.",
+          "answers": [
+            "I wish I could cook like him"
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.302",
+          "source": "Ojalá no hiciera tanto ruido.",
+          "answers": [
+            "I wish he wouldn't make so much noise",
+            "I wish he didn't make so much noise"
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.303",
+          "source": "Ojalá lo hubiera sabido antes.",
+          "answers": [
+            "I wish I had known earlier",
+            "I wish I'd known earlier",
+            "I wish I had known before"
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.304",
+          "source": "Ojalá tuviera más tiempo.",
+          "answers": [
+            "I wish I had more time"
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.305",
+          "source": "Si al menos fuera fácil.",
+          "answers": [
+            "If only it were easy",
+            "If only it was easy"
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.306",
+          "source": "Espero que haga sol mañana.",
+          "answers": [
+            "I hope it's sunny tomorrow",
+            "I hope it will be sunny tomorrow"
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.307",
+          "source": "Ojalá no hubiera dicho eso.",
+          "answers": [
+            "I wish I hadn't said that"
+          ]
+        },
+        {
+          "id": "b2_wish_if_only.308",
+          "source": "Ojalá dejaras de quejarte.",
+          "answers": [
+            "I wish you would stop complaining",
+            "I wish you'd stop complaining"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_wish_if_only.401",
+          "answer": "I wish I could cook like him"
+        },
+        {
+          "id": "b2_wish_if_only.402",
+          "answer": "I wish he wouldn't make so much noise"
+        },
+        {
+          "id": "b2_wish_if_only.403",
+          "answer": "I wish I had known earlier"
+        },
+        {
+          "id": "b2_wish_if_only.404",
+          "answer": "If only it were that easy"
+        },
+        {
+          "id": "b2_wish_if_only.405",
+          "answer": "I hope you pass the exam"
+        }
+      ]
+    }
+  ]
+}

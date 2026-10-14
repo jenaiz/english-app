@@ -1,0 +1,443 @@
+{
+  "topic_id": "b2_had_better_rather",
+  "level_id": "B2",
+  "title": "had better y would rather",
+  "tags": [
+    "had_better_rather"
+  ],
+  "units": [
+    "the_talk"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "had better, would rather",
+    "explanation": "«Had better» + verbo (sin «to») es un consejo fuerte o un aviso, para una situación concreta. Suele implicar que, si no, habrá un problema. La negativa es «had better not»:\n- «You'd better call Helen now.» (será mejor que la llames ya)\n- «We'd better not be late.»\n\nAunque «had» parece pasado, habla del presente o del futuro. Casi siempre se contrae: «you'd better», «we'd better».\n\n«Would rather» + verbo (sin «to») expresa preferencia:\n- «I'd rather wait until Monday.» (prefiero esperar)\n- «I'd rather work late than miss the deadline.»\n- «Would you rather call him or email him?»\n- «I'd rather not talk about it.»\n\nPara preferir que otra persona haga algo: «would rather» + sujeto + past simple:\n- «I'd rather you didn't tell anyone.» (preferiría que no se lo dijeras a nadie)\n\nOjo: las dos van con el verbo sin «to» (nunca «you'd better to call» ni «I'd rather to wait»), y la negativa va detrás: «had better not», «would rather not».",
+    "table": {
+      "headers": [
+        "Forma",
+        "Uso",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "had better + verbo",
+          "consejo fuerte, aviso",
+          "You'd better hurry."
+        ],
+        [
+          "had better not + verbo",
+          "aviso negativo",
+          "We'd better not be late."
+        ],
+        [
+          "would rather + verbo",
+          "preferencia",
+          "I'd rather stay in."
+        ],
+        [
+          "would rather… than…",
+          "comparar",
+          "I'd rather walk than drive."
+        ],
+        [
+          "would rather + sujeto + pasado",
+          "preferir que otro…",
+          "I'd rather you stayed."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «better», «rather», «not», «than» o el verbo correcto.",
+      "items": [
+        {
+          "id": "b2_had_better_rather.001",
+          "sentence": "You'd ___ call Helen now. She's waiting for news.",
+          "answers": [
+            [
+              "better"
+            ]
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.002",
+          "sentence": "I'd ___ wait until Monday. I need to think about it.",
+          "answers": [
+            [
+              "rather"
+            ]
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.003",
+          "sentence": "We'd better ___ tell anyone yet.",
+          "answers": [
+            [
+              "not"
+            ]
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.004",
+          "sentence": "Would you rather ___ him in London or in Bristol? (meet)",
+          "answers": [
+            [
+              "meet"
+            ]
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.005",
+          "sentence": "I'd rather work late ___ lose this client.",
+          "answers": [
+            [
+              "than"
+            ]
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.006",
+          "sentence": "It's late. We'd better ___ a taxi to the station. (take)",
+          "answers": [
+            [
+              "take"
+            ]
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.007",
+          "sentence": "I'd rather ___ talk about it, if you don't mind.",
+          "answers": [
+            [
+              "not"
+            ]
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.008",
+          "sentence": "You'd better ___ late for the interview. (be, negativa)",
+          "answers": [
+            [
+              "not be"
+            ]
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.009",
+          "sentence": "I'd rather you ___ tell anyone. (not, pasado)",
+          "answers": [
+            [
+              "didn't"
+            ]
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.010",
+          "sentence": "We'd ___ hurry. The train leaves in five minutes.",
+          "answers": [
+            [
+              "better"
+            ]
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.011",
+          "sentence": "Would you ___ have tea or coffee?",
+          "answers": [
+            [
+              "rather"
+            ]
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.012",
+          "sentence": "I'd rather walk ___ take the bus.",
+          "answers": [
+            [
+              "than"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_had_better_rather.101",
+          "question": "Será mejor que llames a Helen.",
+          "options": [
+            "You'd better call Helen.",
+            "You'd better to call Helen."
+          ],
+          "answer": 0,
+          "explanation": "Sin «to»."
+        },
+        {
+          "id": "b2_had_better_rather.102",
+          "question": "Prefiero esperar.",
+          "options": [
+            "I'd rather wait.",
+            "I'd rather to wait."
+          ],
+          "answer": 0,
+          "explanation": "Sin «to»."
+        },
+        {
+          "id": "b2_had_better_rather.103",
+          "question": "Será mejor que no lleguemos tarde.",
+          "options": [
+            "We'd better not be late.",
+            "We'd not better be late."
+          ],
+          "answer": 0,
+          "explanation": "Negativa: «had better not»."
+        },
+        {
+          "id": "b2_had_better_rather.104",
+          "question": "Prefiero no hablar de ello.",
+          "options": [
+            "I'd rather not talk about it.",
+            "I wouldn't rather talk about it."
+          ],
+          "answer": 0,
+          "explanation": "Negativa: «would rather not»."
+        },
+        {
+          "id": "b2_had_better_rather.105",
+          "question": "Prefiero trabajar hasta tarde que perder el cliente.",
+          "options": [
+            "I'd rather work late than lose the client.",
+            "I'd rather work late that lose the client."
+          ],
+          "answer": 0,
+          "explanation": "«would rather… than…»."
+        },
+        {
+          "id": "b2_had_better_rather.106",
+          "question": "Preferiría que no se lo dijeras a nadie.",
+          "options": [
+            "I'd rather you didn't tell anyone.",
+            "I'd rather you don't tell anyone."
+          ],
+          "answer": 0,
+          "explanation": "Sujeto + past simple."
+        },
+        {
+          "id": "b2_had_better_rather.107",
+          "question": "¿Prefieres llamarle o mandarle un correo?",
+          "options": [
+            "Would you rather call him or email him?",
+            "Do you rather call him or email him?"
+          ],
+          "answer": 0,
+          "explanation": "«Would you rather…?»."
+        },
+        {
+          "id": "b2_had_better_rather.108",
+          "question": "Más vale que te des prisa.",
+          "options": [
+            "You'd better hurry.",
+            "You'd better hurrying."
+          ],
+          "answer": 0,
+          "explanation": "Forma base."
+        },
+        {
+          "id": "b2_had_better_rather.109",
+          "question": "Preferiría ir andando.",
+          "options": [
+            "I'd rather walk.",
+            "I'd better walk, I prefer."
+          ],
+          "answer": 0,
+          "explanation": "Preferencia: «would rather»."
+        },
+        {
+          "id": "b2_had_better_rather.110",
+          "question": "Será mejor que cojamos un taxi.",
+          "options": [
+            "We'd better take a taxi.",
+            "We had better to take a taxi."
+          ],
+          "answer": 0,
+          "explanation": "Sin «to»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con «had better» o «would rather», o corrige el error.",
+      "items": [
+        {
+          "id": "b2_had_better_rather.201",
+          "prompt": "had better",
+          "source": "It's a good idea for you to call her now.",
+          "answers": [
+            "You'd better call her now",
+            "You had better call her now"
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.202",
+          "prompt": "had better not",
+          "source": "It's not a good idea for us to be late.",
+          "answers": [
+            "We'd better not be late",
+            "We had better not be late"
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.203",
+          "prompt": "would rather",
+          "source": "I prefer to stay at home tonight.",
+          "answers": [
+            "I'd rather stay at home tonight",
+            "I would rather stay at home tonight"
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.204",
+          "prompt": "would rather… than",
+          "source": "I prefer walking to driving.",
+          "answers": [
+            "I'd rather walk than drive",
+            "I would rather walk than drive"
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.205",
+          "prompt": "Corrige",
+          "source": "You'd better to leave now.",
+          "answers": [
+            "You'd better leave now"
+          ],
+          "explanation": "Sin «to»."
+        },
+        {
+          "id": "b2_had_better_rather.206",
+          "prompt": "Corrige",
+          "source": "I'd rather to have tea.",
+          "answers": [
+            "I'd rather have tea"
+          ],
+          "explanation": "Sin «to»."
+        },
+        {
+          "id": "b2_had_better_rather.207",
+          "prompt": "Corrige",
+          "source": "We'd not better wait.",
+          "answers": [
+            "We'd better not wait"
+          ],
+          "explanation": "Negativa: «had better not»."
+        },
+        {
+          "id": "b2_had_better_rather.208",
+          "prompt": "Corrige",
+          "source": "I'd rather you don't smoke here.",
+          "answers": [
+            "I'd rather you didn't smoke here"
+          ],
+          "explanation": "Sujeto + past simple."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_had_better_rather.301",
+          "source": "Será mejor que llames a Helen ahora.",
+          "answers": [
+            "You'd better call Helen now",
+            "You had better call Helen now"
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.302",
+          "source": "Prefiero esperar hasta el lunes.",
+          "answers": [
+            "I'd rather wait until Monday",
+            "I would rather wait until Monday"
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.303",
+          "source": "Será mejor que no se lo digamos a nadie.",
+          "answers": [
+            "We'd better not tell anyone",
+            "We'd better not tell anybody"
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.304",
+          "source": "Prefiero ir andando que coger el autobús.",
+          "answers": [
+            "I'd rather walk than take the bus",
+            "I'd rather walk than get the bus"
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.305",
+          "source": "Prefiero no hablar de ello.",
+          "answers": [
+            "I'd rather not talk about it"
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.306",
+          "source": "Más vale que te des prisa.",
+          "answers": [
+            "You'd better hurry",
+            "You'd better hurry up"
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.307",
+          "source": "Preferiría que no fumaras aquí.",
+          "answers": [
+            "I'd rather you didn't smoke here"
+          ]
+        },
+        {
+          "id": "b2_had_better_rather.308",
+          "source": "¿Prefieres té o café?",
+          "answers": [
+            "Would you rather have tea or coffee"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_had_better_rather.401",
+          "answer": "You'd better call Helen now"
+        },
+        {
+          "id": "b2_had_better_rather.402",
+          "answer": "I'd rather wait until Monday"
+        },
+        {
+          "id": "b2_had_better_rather.403",
+          "answer": "We'd better not be late"
+        },
+        {
+          "id": "b2_had_better_rather.404",
+          "answer": "I'd rather walk than drive"
+        },
+        {
+          "id": "b2_had_better_rather.405",
+          "answer": "I'd rather you didn't tell anyone"
+        }
+      ]
+    }
+  ]
+}

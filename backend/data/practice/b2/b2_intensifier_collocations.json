@@ -1,0 +1,467 @@
+{
+  "topic_id": "b2_intensifier_collocations",
+  "level_id": "B2",
+  "title": "Intensificadores y colocaciones: absolutely delighted, highly unlikely",
+  "tags": [
+    "intensifier_collocations"
+  ],
+  "units": [
+    "big_news"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Intensifiers and collocations",
+    "explanation": "Los adjetivos extremos («delighted», «exhausted», «amazing», «terrified», «furious», «impossible», «starving», «freezing», «boiling», «huge») no admiten «very»: se refuerzan con «absolutely», «totally» o «completely»:\n- «I'm absolutely delighted.» (nunca «very delighted»)\n- «It's absolutely freezing today.»\n\nLos adjetivos normales («happy», «tired», «good», «surprised», «cold», «big») van con «very», «really», «extremely» o «incredibly»:\n- «I'm extremely happy.»\n- «It's very cold.»\n\nAlgunas parejas (colocaciones) suenan naturales y otras no:\n- «highly» + «likely» / «unlikely» / «recommended» / «successful»: «It's highly unlikely.»\n- «deeply» + «moved» / «grateful» / «disappointed» / «concerned»: «I'm deeply grateful.»\n- «bitterly» + «disappointed» / «cold»: «It was bitterly cold.»\n- «completely» / «totally» + «different» / «wrong» / «exhausted»: «You're completely wrong.»\n- «fully» + «aware» / «booked»: «The hotel is fully booked.»\n\n«Really» vale para los dos tipos: «really happy», «really delighted».\n\nOjo: «absolutely» no va con adjetivos normales («absolutely tired» suena raro; se dice «extremely tired» o «absolutely exhausted»).",
+    "table": {
+      "headers": [
+        "Tipo",
+        "Intensificador",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Adjetivo extremo",
+          "absolutely, totally, completely",
+          "absolutely delighted, totally exhausted"
+        ],
+        [
+          "Adjetivo normal",
+          "very, extremely, incredibly",
+          "extremely happy, very tired"
+        ],
+        [
+          "Los dos",
+          "really",
+          "really happy, really amazing"
+        ],
+        [
+          "Colocación",
+          "highly likely, deeply grateful",
+          "It's highly recommended."
+        ],
+        [
+          "Colocación",
+          "bitterly cold, fully booked",
+          "The hotel is fully booked."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «absolutely», «very», «highly», «deeply», «bitterly» o «fully».",
+      "bank": [
+        "absolutely",
+        "very",
+        "highly",
+        "deeply",
+        "bitterly",
+        "fully",
+        "really",
+        "extremely"
+      ],
+      "items": [
+        {
+          "id": "b2_intensifier_collocations.001",
+          "sentence": "I'm ___ delighted for you, Helen! (extremo)",
+          "answers": [
+            [
+              "absolutely"
+            ]
+          ]
+        },
+        {
+          "id": "b2_intensifier_collocations.002",
+          "sentence": "It's ___ unlikely that Mark will give up.",
+          "answers": [
+            [
+              "highly"
+            ]
+          ]
+        },
+        {
+          "id": "b2_intensifier_collocations.003",
+          "sentence": "I'm ___ grateful for everything you've taught me.",
+          "answers": [
+            [
+              "deeply"
+            ]
+          ]
+        },
+        {
+          "id": "b2_intensifier_collocations.004",
+          "sentence": "After the meeting, Lucía was ___ tired. (normal)",
+          "answers": [
+            [
+              "very",
+              "really",
+              "extremely"
+            ]
+          ]
+        },
+        {
+          "id": "b2_intensifier_collocations.005",
+          "sentence": "The news was ___ amazing. Nobody expected it! (extremo)",
+          "answers": [
+            [
+              "absolutely",
+              "really"
+            ]
+          ]
+        },
+        {
+          "id": "b2_intensifier_collocations.006",
+          "sentence": "Helen's clients ___ recommend Lucía's work.",
+          "answers": [
+            [
+              "highly"
+            ]
+          ]
+        },
+        {
+          "id": "b2_intensifier_collocations.007",
+          "sentence": "It was ___ cold on the beach. We went home. (muy, colocación)",
+          "answers": [
+            [
+              "bitterly"
+            ]
+          ]
+        },
+        {
+          "id": "b2_intensifier_collocations.008",
+          "sentence": "Sorry, the hotel is ___ booked this weekend.",
+          "answers": [
+            [
+              "fully"
+            ]
+          ]
+        },
+        {
+          "id": "b2_intensifier_collocations.009",
+          "sentence": "I'm ___ starving! Let's eat. (extremo)",
+          "answers": [
+            [
+              "absolutely"
+            ]
+          ]
+        },
+        {
+          "id": "b2_intensifier_collocations.010",
+          "sentence": "We were ___ disappointed with the result. (colocación)",
+          "answers": [
+            [
+              "deeply",
+              "bitterly"
+            ]
+          ]
+        },
+        {
+          "id": "b2_intensifier_collocations.011",
+          "sentence": "This restaurant is ___ recommended.",
+          "answers": [
+            [
+              "highly"
+            ]
+          ]
+        },
+        {
+          "id": "b2_intensifier_collocations.012",
+          "sentence": "The film was ___ good. (normal)",
+          "answers": [
+            [
+              "very",
+              "really",
+              "extremely"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_intensifier_collocations.101",
+          "question": "Estoy encantadísima.",
+          "options": [
+            "I'm absolutely delighted.",
+            "I'm very delighted."
+          ],
+          "answer": 0,
+          "explanation": "Extremo: «absolutely»."
+        },
+        {
+          "id": "b2_intensifier_collocations.102",
+          "question": "Es muy poco probable.",
+          "options": [
+            "It's highly unlikely.",
+            "It's deeply unlikely."
+          ],
+          "answer": 0,
+          "explanation": "Colocación: «highly unlikely»."
+        },
+        {
+          "id": "b2_intensifier_collocations.103",
+          "question": "Te estoy profundamente agradecido.",
+          "options": [
+            "I'm deeply grateful.",
+            "I'm highly grateful."
+          ],
+          "answer": 0,
+          "explanation": "Colocación: «deeply grateful»."
+        },
+        {
+          "id": "b2_intensifier_collocations.104",
+          "question": "Hace un frío terrible.",
+          "options": [
+            "It's absolutely freezing.",
+            "It's very freezing."
+          ],
+          "answer": 0,
+          "explanation": "Extremo: «absolutely»."
+        },
+        {
+          "id": "b2_intensifier_collocations.105",
+          "question": "Estoy muy cansado.",
+          "options": [
+            "I'm extremely tired.",
+            "I'm absolutely tired."
+          ],
+          "answer": 0,
+          "explanation": "Normal: «extremely»."
+        },
+        {
+          "id": "b2_intensifier_collocations.106",
+          "question": "El hotel está completo.",
+          "options": [
+            "The hotel is fully booked.",
+            "The hotel is highly booked."
+          ],
+          "answer": 0,
+          "explanation": "Colocación: «fully booked»."
+        },
+        {
+          "id": "b2_intensifier_collocations.107",
+          "question": "Es muy recomendable.",
+          "options": [
+            "It's highly recommended.",
+            "It's bitterly recommended."
+          ],
+          "answer": 0,
+          "explanation": "Colocación: «highly recommended»."
+        },
+        {
+          "id": "b2_intensifier_collocations.108",
+          "question": "Estás completamente equivocado.",
+          "options": [
+            "You're completely wrong.",
+            "You're highly wrong."
+          ],
+          "answer": 0,
+          "explanation": "Colocación: «completely wrong»."
+        },
+        {
+          "id": "b2_intensifier_collocations.109",
+          "question": "Fue increíble.",
+          "options": [
+            "It was really amazing.",
+            "It was very amazing."
+          ],
+          "answer": 0,
+          "explanation": "Con extremo: «really» sí, «very» no."
+        },
+        {
+          "id": "b2_intensifier_collocations.110",
+          "question": "Estábamos muy decepcionados.",
+          "options": [
+            "We were bitterly disappointed.",
+            "We were bitterly happy."
+          ],
+          "answer": 0,
+          "explanation": "Colocación: «bitterly disappointed»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "b2_intensifier_collocations.201",
+          "prompt": "Corrige",
+          "source": "I'm very delighted with the news.",
+          "answers": [
+            "I'm absolutely delighted with the news",
+            "I'm really delighted with the news"
+          ],
+          "explanation": "Extremo: «absolutely» o «really»."
+        },
+        {
+          "id": "b2_intensifier_collocations.202",
+          "prompt": "Corrige",
+          "source": "It's very freezing outside.",
+          "answers": [
+            "It's absolutely freezing outside",
+            "It's really freezing outside"
+          ],
+          "explanation": "Extremo: no admite «very»."
+        },
+        {
+          "id": "b2_intensifier_collocations.203",
+          "prompt": "Corrige",
+          "source": "I'm absolutely tired.",
+          "answers": [
+            "I'm extremely tired",
+            "I'm very tired",
+            "I'm really tired",
+            "I'm absolutely exhausted"
+          ],
+          "explanation": "Normal: «very», «extremely»."
+        },
+        {
+          "id": "b2_intensifier_collocations.204",
+          "prompt": "Corrige",
+          "source": "It's deeply unlikely.",
+          "answers": [
+            "It's highly unlikely"
+          ],
+          "explanation": "Colocación: «highly unlikely»."
+        },
+        {
+          "id": "b2_intensifier_collocations.205",
+          "prompt": "Corrige",
+          "source": "I'm highly grateful for your help.",
+          "answers": [
+            "I'm deeply grateful for your help"
+          ],
+          "explanation": "Colocación: «deeply grateful»."
+        },
+        {
+          "id": "b2_intensifier_collocations.206",
+          "prompt": "Corrige",
+          "source": "The hotel is completely booked.",
+          "answers": [
+            "The hotel is fully booked"
+          ],
+          "explanation": "Colocación: «fully booked»."
+        },
+        {
+          "id": "b2_intensifier_collocations.207",
+          "prompt": "Corrige",
+          "source": "The film was very amazing.",
+          "answers": [
+            "The film was absolutely amazing",
+            "The film was really amazing"
+          ],
+          "explanation": "Extremo: no admite «very»."
+        },
+        {
+          "id": "b2_intensifier_collocations.208",
+          "prompt": "Corrige",
+          "source": "I'm very starving.",
+          "answers": [
+            "I'm absolutely starving",
+            "I'm really starving"
+          ],
+          "explanation": "Extremo: no admite «very»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_intensifier_collocations.301",
+          "source": "Estoy encantadísima por ti.",
+          "answers": [
+            "I'm absolutely delighted for you",
+            "I'm really delighted for you"
+          ]
+        },
+        {
+          "id": "b2_intensifier_collocations.302",
+          "source": "Es muy poco probable.",
+          "answers": [
+            "It's highly unlikely"
+          ]
+        },
+        {
+          "id": "b2_intensifier_collocations.303",
+          "source": "Te estoy profundamente agradecido.",
+          "answers": [
+            "I'm deeply grateful to you",
+            "I'm deeply grateful"
+          ]
+        },
+        {
+          "id": "b2_intensifier_collocations.304",
+          "source": "Hace un frío horrible.",
+          "answers": [
+            "It's absolutely freezing",
+            "It's bitterly cold",
+            "It's freezing"
+          ]
+        },
+        {
+          "id": "b2_intensifier_collocations.305",
+          "source": "El hotel está completo.",
+          "answers": [
+            "The hotel is fully booked"
+          ]
+        },
+        {
+          "id": "b2_intensifier_collocations.306",
+          "source": "Estoy muerto de hambre.",
+          "answers": [
+            "I'm absolutely starving",
+            "I'm starving"
+          ]
+        },
+        {
+          "id": "b2_intensifier_collocations.307",
+          "source": "Es muy recomendable.",
+          "answers": [
+            "It's highly recommended"
+          ]
+        },
+        {
+          "id": "b2_intensifier_collocations.308",
+          "source": "Estás completamente equivocado.",
+          "answers": [
+            "You're completely wrong",
+            "You're totally wrong"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_intensifier_collocations.401",
+          "answer": "I'm absolutely delighted for you"
+        },
+        {
+          "id": "b2_intensifier_collocations.402",
+          "answer": "It's highly unlikely"
+        },
+        {
+          "id": "b2_intensifier_collocations.403",
+          "answer": "I'm deeply grateful"
+        },
+        {
+          "id": "b2_intensifier_collocations.404",
+          "answer": "The hotel is fully booked"
+        },
+        {
+          "id": "b2_intensifier_collocations.405",
+          "answer": "It was bitterly cold"
+        }
+      ]
+    }
+  ]
+}

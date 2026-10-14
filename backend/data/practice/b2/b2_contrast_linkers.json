@@ -1,0 +1,467 @@
+{
+  "topic_id": "b2_contrast_linkers",
+  "level_id": "B2",
+  "title": "Conectores de contraste: although, despite, however, whereas",
+  "tags": [
+    "contrast_linkers"
+  ],
+  "units": [
+    "expressing_opinions"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Linkers of contrast",
+    "explanation": "Para contraponer ideas:\n- «although» / «even though» + sujeto + verbo («even though» es más enfático): «Although I like the colours, it feels too simple.»\n- «despite» / «in spite of» + nombre o «-ing»: «In spite of being simple, it's faster.», «Despite the rain, we went out.»\n- «despite the fact that» + frase: «Despite the fact that it was raining, we went out.»\n- «however» / «nevertheless» empiezan una frase nueva y van seguidos de coma («nevertheless» es más formal): «However, our research shows…»\n- «whereas» / «while» contrastan dos hechos en la misma frase: «Your site takes ten seconds, whereas this one takes two.»\n\nOjo con los errores típicos:\n- «despite» nunca lleva «of» («despite of» está mal), pero «in spite of» sí.\n- «although» y «but» no van juntos («Although it was late, but…» está mal).\n- «despite» no va con una frase directamente («despite it was raining» está mal): «despite the rain» o «despite the fact that it was raining».",
+    "table": {
+      "headers": [
+        "Conector",
+        "Va con",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "although / even though",
+          "frase",
+          "Although it was late, we stayed."
+        ],
+        [
+          "despite / in spite of",
+          "nombre o -ing",
+          "Despite being tired, she went."
+        ],
+        [
+          "despite the fact that",
+          "frase",
+          "Despite the fact that it rained, …"
+        ],
+        [
+          "however / nevertheless",
+          "frase nueva + coma",
+          "However, it worked."
+        ],
+        [
+          "whereas / while",
+          "dos hechos",
+          "I like tea, whereas he likes coffee."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el conector correcto.",
+      "bank": [
+        "although",
+        "even though",
+        "though",
+        "despite",
+        "in spite of",
+        "however",
+        "nevertheless",
+        "whereas",
+        "of",
+        "that",
+        "being"
+      ],
+      "items": [
+        {
+          "id": "b2_contrast_linkers.001",
+          "sentence": "___ I like the colours, the homepage feels too simple.",
+          "answers": [
+            [
+              "Although",
+              "Even though"
+            ]
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.002",
+          "sentence": "___ that, I think luxury needs more photos.",
+          "answers": [
+            [
+              "Despite"
+            ]
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.003",
+          "sentence": "In spite ___ being simple, the design is faster.",
+          "answers": [
+            [
+              "of"
+            ]
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.004",
+          "sentence": "I understand. ___, our research shows that guests want to book quickly.",
+          "answers": [
+            [
+              "However",
+              "Nevertheless"
+            ]
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.005",
+          "sentence": "Your site takes ten seconds, ___ this one takes two.",
+          "answers": [
+            [
+              "whereas",
+              "while"
+            ]
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.006",
+          "sentence": "I agree with Lucía, even ___ you're paying the bill.",
+          "answers": [
+            [
+              "though"
+            ]
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.007",
+          "sentence": "Despite ___ tired, she finished the slides. (be)",
+          "answers": [
+            [
+              "being"
+            ]
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.008",
+          "sentence": "Despite the fact ___ it was raining, we went out.",
+          "answers": [
+            [
+              "that"
+            ]
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.009",
+          "sentence": "___ the rain, the concert went ahead.",
+          "answers": [
+            [
+              "Despite",
+              "In spite of"
+            ]
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.010",
+          "sentence": "The plan is risky. ___, I think we should try.",
+          "answers": [
+            [
+              "However",
+              "Nevertheless"
+            ]
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.011",
+          "sentence": "I prefer the city, ___ my partner loves the countryside.",
+          "answers": [
+            [
+              "whereas",
+              "while"
+            ]
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.012",
+          "sentence": "___ he's very experienced, he made a basic mistake.",
+          "answers": [
+            [
+              "Although",
+              "Even though"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_contrast_linkers.101",
+          "question": "A pesar de la lluvia, salimos.",
+          "options": [
+            "Despite the rain, we went out.",
+            "Despite of the rain, we went out."
+          ],
+          "answer": 0,
+          "explanation": "«despite» sin «of»."
+        },
+        {
+          "id": "b2_contrast_linkers.102",
+          "question": "Aunque era tarde, nos quedamos.",
+          "options": [
+            "Although it was late, we stayed.",
+            "Although it was late, but we stayed."
+          ],
+          "answer": 0,
+          "explanation": "«although» y «but» no van juntos."
+        },
+        {
+          "id": "b2_contrast_linkers.103",
+          "question": "A pesar de que llovía…",
+          "options": [
+            "Despite the fact that it was raining…",
+            "Despite it was raining…"
+          ],
+          "answer": 0,
+          "explanation": "Con frase: «despite the fact that»."
+        },
+        {
+          "id": "b2_contrast_linkers.104",
+          "question": "Sin embargo, funcionó.",
+          "options": [
+            "However, it worked.",
+            "Although, it worked."
+          ],
+          "answer": 0,
+          "explanation": "Frase nueva: «However»."
+        },
+        {
+          "id": "b2_contrast_linkers.105",
+          "question": "Yo prefiero el té, mientras que él prefiere el café.",
+          "options": [
+            "I prefer tea, whereas he prefers coffee.",
+            "I prefer tea, despite he prefers coffee."
+          ],
+          "answer": 0,
+          "explanation": "Dos hechos: «whereas»."
+        },
+        {
+          "id": "b2_contrast_linkers.106",
+          "question": "A pesar de estar cansada, terminó.",
+          "options": [
+            "Despite being tired, she finished.",
+            "Despite she was tired, she finished."
+          ],
+          "answer": 0,
+          "explanation": "«despite» + «-ing»."
+        },
+        {
+          "id": "b2_contrast_linkers.107",
+          "question": "Aun así, deberíamos intentarlo.",
+          "options": [
+            "Nevertheless, we should try.",
+            "Despite, we should try."
+          ],
+          "answer": 0,
+          "explanation": "Frase nueva: «Nevertheless»."
+        },
+        {
+          "id": "b2_contrast_linkers.108",
+          "question": "Aunque me gusta, es caro.",
+          "options": [
+            "Even though I like it, it's expensive.",
+            "Even I like it, it's expensive."
+          ],
+          "answer": 0,
+          "explanation": "«even though»."
+        },
+        {
+          "id": "b2_contrast_linkers.109",
+          "question": "A pesar de eso…",
+          "options": [
+            "In spite of that…",
+            "In spite that…"
+          ],
+          "answer": 0,
+          "explanation": "«in spite of»."
+        },
+        {
+          "id": "b2_contrast_linkers.110",
+          "question": "Tu web tarda diez segundos, mientras que esta tarda dos.",
+          "options": [
+            "Your site takes ten seconds, whereas this one takes two.",
+            "Your site takes ten seconds, however this one takes two."
+          ],
+          "answer": 0,
+          "explanation": "En la misma frase: «whereas»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Une las frases con el conector indicado.",
+      "items": [
+        {
+          "id": "b2_contrast_linkers.201",
+          "prompt": "although",
+          "source": "I like the colours. The homepage is too simple.",
+          "answers": [
+            "Although I like the colours, the homepage is too simple"
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.202",
+          "prompt": "in spite of",
+          "source": "It's simple. It's faster.",
+          "answers": [
+            "In spite of being simple, it's faster"
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.203",
+          "prompt": "despite",
+          "source": "It was raining. We went out.",
+          "answers": [
+            "Despite the rain, we went out",
+            "Despite the fact that it was raining, we went out"
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.204",
+          "prompt": "whereas",
+          "source": "Our site is slow. Theirs is fast.",
+          "answers": [
+            "Our site is slow, whereas theirs is fast"
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.205",
+          "prompt": "however",
+          "source": "The plan is risky. We should try it.",
+          "answers": [
+            "The plan is risky. However, we should try it",
+            "The plan is risky. However we should try it"
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.206",
+          "prompt": "Corrige",
+          "source": "Despite of the cost, they bought it.",
+          "answers": [
+            "Despite the cost, they bought it",
+            "In spite of the cost, they bought it"
+          ],
+          "explanation": "«despite» sin «of»."
+        },
+        {
+          "id": "b2_contrast_linkers.207",
+          "prompt": "Corrige",
+          "source": "Although it was cold, but we swam.",
+          "answers": [
+            "Although it was cold, we swam"
+          ],
+          "explanation": "«although» y «but» no van juntos."
+        },
+        {
+          "id": "b2_contrast_linkers.208",
+          "prompt": "Corrige",
+          "source": "Despite she was ill, she came to work.",
+          "answers": [
+            "Despite being ill, she came to work",
+            "Despite the fact that she was ill, she came to work",
+            "Although she was ill, she came to work"
+          ],
+          "explanation": "«despite» no va con una frase."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_contrast_linkers.301",
+          "source": "Aunque me gustan los colores, es demasiado simple.",
+          "answers": [
+            "Although I like the colours, it's too simple",
+            "Even though I like the colours, it's too simple"
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.302",
+          "source": "A pesar de la lluvia, salimos.",
+          "answers": [
+            "Despite the rain, we went out",
+            "In spite of the rain, we went out"
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.303",
+          "source": "Sin embargo, necesito dos versiones.",
+          "answers": [
+            "However, I need two versions",
+            "However I need two versions"
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.304",
+          "source": "A pesar de estar cansada, terminó las diapositivas.",
+          "answers": [
+            "Despite being tired, she finished the slides",
+            "In spite of being tired, she finished the slides"
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.305",
+          "source": "Yo prefiero la ciudad, mientras que él prefiere el campo.",
+          "answers": [
+            "I prefer the city, whereas he prefers the countryside",
+            "I prefer the city, while he prefers the countryside"
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.306",
+          "source": "A pesar de que llovía, el concierto siguió.",
+          "answers": [
+            "Despite the fact that it was raining, the concert went ahead",
+            "Although it was raining, the concert went ahead"
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.307",
+          "source": "Aun así, deberíamos intentarlo.",
+          "answers": [
+            "Nevertheless, we should try",
+            "Nevertheless we should try",
+            "Even so, we should try"
+          ]
+        },
+        {
+          "id": "b2_contrast_linkers.308",
+          "source": "Aunque es muy experto, cometió un error.",
+          "answers": [
+            "Although he's very experienced, he made a mistake",
+            "Even though he's very experienced, he made a mistake"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_contrast_linkers.401",
+          "answer": "Although I like it, it's too simple"
+        },
+        {
+          "id": "b2_contrast_linkers.402",
+          "answer": "Despite the rain, we went out"
+        },
+        {
+          "id": "b2_contrast_linkers.403",
+          "answer": "However, our research shows the opposite"
+        },
+        {
+          "id": "b2_contrast_linkers.404",
+          "answer": "In spite of being tired, she finished"
+        },
+        {
+          "id": "b2_contrast_linkers.405",
+          "answer": "I like tea, whereas he likes coffee"
+        }
+      ]
+    }
+  ]
+}

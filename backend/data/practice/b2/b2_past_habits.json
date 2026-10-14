@@ -1,0 +1,441 @@
+{
+  "topic_id": "b2_past_habits",
+  "level_id": "B2",
+  "title": "Repaso de B1: used to y would para hábitos del pasado",
+  "tags": [
+    "past_habits"
+  ],
+  "units": [
+    "conference_nerves"
+  ],
+  "rule": {
+    "title": "Past habits: used to and would",
+    "explanation": "El examen de B2 vuelve a preguntar cómo hablar de hábitos del pasado.\n\n«Used to» + verbo sirve para hábitos y estados del pasado que ya no son así. En negativa y pregunta, «use to» sin d:\n- «I used to live in Madrid.»\n- «I didn't use to like coffee.»\n- «Did you use to play an instrument?»\n\n«Would» + verbo sirve solo para acciones repetidas, sobre todo al contar recuerdos; no para estados:\n- «Every summer my grandad would take me fishing.»\n- «I used to have long hair.» (estado: nunca «I would have long hair» con este sentido)\n\nPara una sola vez, el past simple: «I moved to Bristol in 2023».\n\nNo los confundas con «be used to» / «get used to» + «-ing» (estar acostumbrado / acostumbrarse):\n- «I'm used to working late.»\n- «I'm getting used to the weather.»",
+    "table": {
+      "headers": [
+        "Forma",
+        "Uso",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "used to",
+          "hábitos y estados pasados",
+          "I used to be shy."
+        ],
+        [
+          "would",
+          "acciones repetidas pasadas",
+          "We would go fishing."
+        ],
+        [
+          "past simple",
+          "una sola vez",
+          "I moved in 2023."
+        ],
+        [
+          "be / get used to + -ing",
+          "estar acostumbrado / acostumbrarse",
+          "I'm used to it."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «used to», «use to», «would» o la forma correcta.",
+      "items": [
+        {
+          "id": "b2_past_habits.001",
+          "sentence": "When I was a student, I ___ share a flat with five people.",
+          "answers": [
+            [
+              "used to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_habits.002",
+          "sentence": "Did you ___ have a pet when you were a child?",
+          "answers": [
+            [
+              "use to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_habits.003",
+          "sentence": "Every Sunday my grandmother ___ make a huge lunch.",
+          "answers": [
+            [
+              "would",
+              "used to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_habits.004",
+          "sentence": "I ___ be very shy, but now I love speaking in public.",
+          "answers": [
+            [
+              "used to"
+            ]
+          ],
+          "explanation": "Estado: «used to»."
+        },
+        {
+          "id": "b2_past_habits.005",
+          "sentence": "We didn't ___ have a car, so we walked everywhere.",
+          "answers": [
+            [
+              "use to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_habits.006",
+          "sentence": "After school we ___ play football until it got dark.",
+          "answers": [
+            [
+              "would",
+              "used to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_habits.007",
+          "sentence": "She ___ live in Paris before she moved to London.",
+          "answers": [
+            [
+              "used to"
+            ]
+          ],
+          "explanation": "Estado: «used to»."
+        },
+        {
+          "id": "b2_past_habits.008",
+          "sentence": "I ___ to Bristol in 2023. (move, una sola vez)",
+          "answers": [
+            [
+              "moved"
+            ]
+          ],
+          "explanation": "Una sola vez: past simple."
+        },
+        {
+          "id": "b2_past_habits.009",
+          "sentence": "I'm used to ___ late. It's normal in my job. (work)",
+          "answers": [
+            [
+              "working"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_habits.010",
+          "sentence": "It took me a year to get used ___ driving on the left.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_habits.011",
+          "sentence": "There ___ to be a cinema on this street.",
+          "answers": [
+            [
+              "used"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_habits.012",
+          "sentence": "My dad ___ read to us every night before bed.",
+          "answers": [
+            [
+              "would",
+              "used to"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_past_habits.101",
+          "question": "Antes tenía el pelo largo.",
+          "options": [
+            "I used to have long hair.",
+            "I would have long hair."
+          ],
+          "answer": 0,
+          "explanation": "Estado: «used to»."
+        },
+        {
+          "id": "b2_past_habits.102",
+          "question": "No solía gustarme el café.",
+          "options": [
+            "I didn't use to like coffee.",
+            "I didn't used to like coffee."
+          ],
+          "answer": 0,
+          "explanation": "Negativa: «use to»."
+        },
+        {
+          "id": "b2_past_habits.103",
+          "question": "Mi abuelo me llevaba a pescar.",
+          "options": [
+            "My grandad would take me fishing.",
+            "My grandad would to take me fishing."
+          ],
+          "answer": 0,
+          "explanation": "«would» + forma base."
+        },
+        {
+          "id": "b2_past_habits.104",
+          "question": "Estoy acostumbrado a trabajar hasta tarde.",
+          "options": [
+            "I'm used to working late.",
+            "I used to work late."
+          ],
+          "answer": 0,
+          "explanation": "Estar acostumbrado: «be used to» + «-ing»."
+        },
+        {
+          "id": "b2_past_habits.105",
+          "question": "Me mudé a Bristol en 2023.",
+          "options": [
+            "I moved to Bristol in 2023.",
+            "I used to move to Bristol in 2023."
+          ],
+          "answer": 0,
+          "explanation": "Una sola vez: past simple."
+        },
+        {
+          "id": "b2_past_habits.106",
+          "question": "¿Tocabas algún instrumento?",
+          "options": [
+            "Did you use to play an instrument?",
+            "Did you used to play an instrument?"
+          ],
+          "answer": 0,
+          "explanation": "Pregunta: «use to»."
+        },
+        {
+          "id": "b2_past_habits.107",
+          "question": "Aquí había un cine.",
+          "options": [
+            "There used to be a cinema here.",
+            "There would be a cinema here."
+          ],
+          "answer": 0,
+          "explanation": "Estado: «used to»."
+        },
+        {
+          "id": "b2_past_habits.108",
+          "question": "Me estoy acostumbrando al tiempo.",
+          "options": [
+            "I'm getting used to the weather.",
+            "I'm getting use to the weather."
+          ],
+          "answer": 0,
+          "explanation": "«get used to»."
+        },
+        {
+          "id": "b2_past_habits.109",
+          "question": "Antes era tímido.",
+          "options": [
+            "I used to be shy.",
+            "I was used to be shy."
+          ],
+          "answer": 0,
+          "explanation": "«used to» + verbo."
+        },
+        {
+          "id": "b2_past_habits.110",
+          "question": "Todos los veranos íbamos a la playa.",
+          "options": [
+            "Every summer we would go to the beach.",
+            "Every summer we were used to go to the beach."
+          ],
+          "answer": 0,
+          "explanation": "Acción repetida: «would» o «used to»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "b2_past_habits.201",
+          "prompt": "Corrige",
+          "source": "I would have a dog called Max.",
+          "answers": [
+            "I used to have a dog called Max"
+          ],
+          "explanation": "Posesión, estado: «used to»."
+        },
+        {
+          "id": "b2_past_habits.202",
+          "prompt": "Corrige",
+          "source": "Did you used to live here?",
+          "answers": [
+            "Did you use to live here"
+          ],
+          "explanation": "Pregunta: «use to»."
+        },
+        {
+          "id": "b2_past_habits.203",
+          "prompt": "Corrige",
+          "source": "I'm used to get up early.",
+          "answers": [
+            "I'm used to getting up early"
+          ],
+          "explanation": "«be used to» + «-ing»."
+        },
+        {
+          "id": "b2_past_habits.204",
+          "prompt": "Corrige",
+          "source": "I used to move to London in 2020.",
+          "answers": [
+            "I moved to London in 2020"
+          ],
+          "explanation": "Una sola vez: past simple."
+        },
+        {
+          "id": "b2_past_habits.205",
+          "prompt": "Corrige",
+          "source": "She didn't used to eat fish.",
+          "answers": [
+            "She didn't use to eat fish"
+          ],
+          "explanation": "Negativa: «use to»."
+        },
+        {
+          "id": "b2_past_habits.206",
+          "prompt": "Corrige",
+          "source": "I can't get used to live here.",
+          "answers": [
+            "I can't get used to living here"
+          ],
+          "explanation": "«get used to» + «-ing»."
+        },
+        {
+          "id": "b2_past_habits.207",
+          "prompt": "Corrige",
+          "source": "There would be a park here.",
+          "answers": [
+            "There used to be a park here"
+          ],
+          "explanation": "Estado: «used to»."
+        },
+        {
+          "id": "b2_past_habits.208",
+          "prompt": "Corrige",
+          "source": "My mum would to sing to us.",
+          "answers": [
+            "My mum would sing to us",
+            "My mum used to sing to us"
+          ],
+          "explanation": "«would» + forma base."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_past_habits.301",
+          "source": "Antes vivía en Madrid.",
+          "answers": [
+            "I used to live in Madrid"
+          ]
+        },
+        {
+          "id": "b2_past_habits.302",
+          "source": "No solía gustarme el café.",
+          "answers": [
+            "I didn't use to like coffee"
+          ]
+        },
+        {
+          "id": "b2_past_habits.303",
+          "source": "Mi abuelo me llevaba a pescar todos los veranos.",
+          "answers": [
+            "My grandad would take me fishing every summer",
+            "My grandad used to take me fishing every summer"
+          ]
+        },
+        {
+          "id": "b2_past_habits.304",
+          "source": "Estoy acostumbrada a trabajar hasta tarde.",
+          "answers": [
+            "I'm used to working late"
+          ]
+        },
+        {
+          "id": "b2_past_habits.305",
+          "source": "Me estoy acostumbrando a vivir aquí.",
+          "answers": [
+            "I'm getting used to living here"
+          ]
+        },
+        {
+          "id": "b2_past_habits.306",
+          "source": "Aquí había un cine.",
+          "answers": [
+            "There used to be a cinema here"
+          ]
+        },
+        {
+          "id": "b2_past_habits.307",
+          "source": "¿Tenías mascota de pequeño?",
+          "answers": [
+            "Did you use to have a pet when you were a child",
+            "Did you use to have a pet when you were little"
+          ]
+        },
+        {
+          "id": "b2_past_habits.308",
+          "source": "Me mudé a Bristol en 2023.",
+          "answers": [
+            "I moved to Bristol in 2023"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_past_habits.401",
+          "answer": "I used to live in Madrid"
+        },
+        {
+          "id": "b2_past_habits.402",
+          "answer": "My grandad would take me fishing"
+        },
+        {
+          "id": "b2_past_habits.403",
+          "answer": "I didn't use to like coffee"
+        },
+        {
+          "id": "b2_past_habits.404",
+          "answer": "I'm used to working late"
+        },
+        {
+          "id": "b2_past_habits.405",
+          "answer": "There used to be a cinema here"
+        }
+      ]
+    }
+  ]
+}

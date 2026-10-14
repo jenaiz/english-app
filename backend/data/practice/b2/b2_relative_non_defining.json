@@ -1,0 +1,468 @@
+{
+  "topic_id": "b2_relative_non_defining",
+  "level_id": "B2",
+  "title": "Oraciones de relativo explicativas: which, who, whose, whom",
+  "tags": [
+    "relative_non_defining"
+  ],
+  "units": [
+    "big_news"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Non-defining relative clauses",
+    "explanation": "Las oraciones de relativo explicativas añaden información extra sobre algo que ya está identificado. Si las quitas, la frase sigue teniendo sentido. Van entre comas y:\n- no admiten «that»: «Harbour Studio, which I started…» (nunca «, that I started»)\n- no se puede omitir el pronombre.\n\nPronombres: «who» (personas), «which» (cosas), «whose» (posesión), «where» (lugares), «when» (momentos), «whom» (personas como objeto, formal):\n- «My husband, who has been very patient, wants to travel.»\n- «Mark Reed, whose company wants to buy us, made an offer.»\n- «Bristol, where I live, is in the south-west.»\n\n«Which» puede referirse a toda la frase anterior (lo cual):\n- «You want your own studio, which doesn't surprise me.»\n\nCon cuantificadores: «most of whom» (personas), «some of which» (cosas), «all of whom», «none of which»:\n- «our clients, most of whom ask for you by name»\n\nCompara con las especificativas, sin comas, que dicen de cuál hablamos: «The man who lives upstairs is a chef» (de los hombres, el que vive arriba). Son muy frecuentes en registro formal y escrito.",
+    "table": {
+      "headers": [
+        "Pronombre",
+        "Para",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "who",
+          "personas",
+          "Helen, who started the studio, is retiring."
+        ],
+        [
+          "which",
+          "cosas / toda la frase",
+          "He lost his keys, which was a disaster."
+        ],
+        [
+          "whose",
+          "posesión",
+          "Mark, whose company is huge, called."
+        ],
+        [
+          "where",
+          "lugares",
+          "Galway, where Daniel grew up, is beautiful."
+        ],
+        [
+          "most of whom",
+          "personas (cuantificador)",
+          "the clients, most of whom know you"
+        ],
+        [
+          "some of which",
+          "cosas (cuantificador)",
+          "the photos, some of which are old"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «who», «which», «whose», «where» o «whom».",
+      "bank": [
+        "who",
+        "which",
+        "whose",
+        "where",
+        "whom"
+      ],
+      "items": [
+        {
+          "id": "b2_relative_non_defining.001",
+          "sentence": "Harbour Studio, ___ I started twenty years ago, is going to change.",
+          "answers": [
+            [
+              "which"
+            ]
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.002",
+          "sentence": "My husband, ___ has been very patient, wants to travel.",
+          "answers": [
+            [
+              "who"
+            ]
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.003",
+          "sentence": "Mark Reed, ___ company wants to buy us, made an offer.",
+          "answers": [
+            [
+              "whose"
+            ]
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.004",
+          "sentence": "There's another option, ___ I prefer.",
+          "answers": [
+            [
+              "which"
+            ]
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.005",
+          "sentence": "You've been thinking about your own studio, ___ doesn't surprise me.",
+          "answers": [
+            [
+              "which"
+            ]
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.006",
+          "sentence": "our clients, most of ___ already ask for you",
+          "answers": [
+            [
+              "whom"
+            ]
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.007",
+          "sentence": "Bristol, ___ is in the south-west of England, is a great city.",
+          "answers": [
+            [
+              "which"
+            ]
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.008",
+          "sentence": "Daniel, ___ is from Galway, works with Lucía.",
+          "answers": [
+            [
+              "who"
+            ]
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.009",
+          "sentence": "Galway, ___ Daniel grew up, is on the west coast.",
+          "answers": [
+            [
+              "where"
+            ]
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.010",
+          "sentence": "He lost his passport, ___ was a disaster.",
+          "answers": [
+            [
+              "which"
+            ]
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.011",
+          "sentence": "I've got two brothers, both of ___ live in Madrid.",
+          "answers": [
+            [
+              "whom"
+            ]
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.012",
+          "sentence": "The photos, some of ___ are very old, are in the box.",
+          "answers": [
+            [
+              "which"
+            ]
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.013",
+          "sentence": "Priya, ___ sister is a doctor, works at the hospital too.",
+          "answers": [
+            [
+              "whose"
+            ]
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.014",
+          "sentence": "The meeting, ___ lasted three hours, was very useful.",
+          "answers": [
+            [
+              "which"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_relative_non_defining.101",
+          "question": "El estudio, que fundé hace veinte años, va a cambiar.",
+          "options": [
+            "The studio, which I founded twenty years ago, is going to change.",
+            "The studio, that I founded twenty years ago, is going to change."
+          ],
+          "answer": 0,
+          "explanation": "Explicativa: nunca «that»."
+        },
+        {
+          "id": "b2_relative_non_defining.102",
+          "question": "Mi marido, que es muy paciente, quiere viajar.",
+          "options": [
+            "My husband, who is very patient, wants to travel.",
+            "My husband, is very patient, wants to travel."
+          ],
+          "answer": 0,
+          "explanation": "No se omite el pronombre."
+        },
+        {
+          "id": "b2_relative_non_defining.103",
+          "question": "Mark, cuya empresa es enorme, llamó.",
+          "options": [
+            "Mark, whose company is huge, called.",
+            "Mark, who's company is huge, called."
+          ],
+          "answer": 0,
+          "explanation": "Posesión: «whose»."
+        },
+        {
+          "id": "b2_relative_non_defining.104",
+          "question": "Perdió las llaves, lo cual fue un desastre.",
+          "options": [
+            "He lost his keys, which was a disaster.",
+            "He lost his keys, what was a disaster."
+          ],
+          "answer": 0,
+          "explanation": "Toda la frase: «which»."
+        },
+        {
+          "id": "b2_relative_non_defining.105",
+          "question": "Nuestros clientes, la mayoría de los cuales te conocen…",
+          "options": [
+            "our clients, most of whom know you…",
+            "our clients, most of who know you…"
+          ],
+          "answer": 0,
+          "explanation": "Tras preposición: «whom»."
+        },
+        {
+          "id": "b2_relative_non_defining.106",
+          "question": "Las fotos, algunas de las cuales son viejas…",
+          "options": [
+            "the photos, some of which are old…",
+            "the photos, some of them which are old…"
+          ],
+          "answer": 0,
+          "explanation": "«some of which»."
+        },
+        {
+          "id": "b2_relative_non_defining.107",
+          "question": "Galway, donde creció Daniel, es preciosa.",
+          "options": [
+            "Galway, where Daniel grew up, is beautiful.",
+            "Galway, which Daniel grew up, is beautiful."
+          ],
+          "answer": 0,
+          "explanation": "Lugar: «where»."
+        },
+        {
+          "id": "b2_relative_non_defining.108",
+          "question": "Tengo dos hermanos, los dos viven en Madrid.",
+          "options": [
+            "I have two brothers, both of whom live in Madrid.",
+            "I have two brothers, both of them who live in Madrid."
+          ],
+          "answer": 0,
+          "explanation": "«both of whom»."
+        },
+        {
+          "id": "b2_relative_non_defining.109",
+          "question": "Daniel, que es de Galway, trabaja con Lucía.",
+          "options": [
+            "Daniel, who is from Galway, works with Lucía.",
+            "Daniel who is from Galway works with Lucía, ."
+          ],
+          "answer": 0,
+          "explanation": "Explicativa: entre comas."
+        },
+        {
+          "id": "b2_relative_non_defining.110",
+          "question": "La reunión, que duró tres horas, fue útil.",
+          "options": [
+            "The meeting, which lasted three hours, was useful.",
+            "The meeting, who lasted three hours, was useful."
+          ],
+          "answer": 0,
+          "explanation": "Cosas: «which»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Une las frases con una oración explicativa.",
+      "items": [
+        {
+          "id": "b2_relative_non_defining.201",
+          "prompt": "who",
+          "source": "Helen started the studio. She is retiring.",
+          "answers": [
+            "Helen, who started the studio, is retiring"
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.202",
+          "prompt": "whose",
+          "source": "Mark Reed made an offer. His company is huge.",
+          "answers": [
+            "Mark Reed, whose company is huge, made an offer"
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.203",
+          "prompt": "which",
+          "source": "Lucía wants her own studio. This doesn't surprise Helen.",
+          "answers": [
+            "Lucía wants her own studio, which doesn't surprise Helen"
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.204",
+          "prompt": "most of whom",
+          "source": "We have twenty clients. Most of them know Lucía.",
+          "answers": [
+            "We have twenty clients, most of whom know Lucía"
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.205",
+          "prompt": "where",
+          "source": "Galway is on the west coast. Daniel grew up there.",
+          "answers": [
+            "Galway, where Daniel grew up, is on the west coast"
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.206",
+          "prompt": "some of which",
+          "source": "I found some photos. Some of them are very old.",
+          "answers": [
+            "I found some photos, some of which are very old"
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.207",
+          "prompt": "Corrige",
+          "source": "The studio, that I founded in 2005, is closing.",
+          "answers": [
+            "The studio, which I founded in 2005, is closing"
+          ],
+          "explanation": "Explicativa: nunca «that»."
+        },
+        {
+          "id": "b2_relative_non_defining.208",
+          "prompt": "Corrige",
+          "source": "I have two sisters, both of who are teachers.",
+          "answers": [
+            "I have two sisters, both of whom are teachers"
+          ],
+          "explanation": "Tras preposición: «whom»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_relative_non_defining.301",
+          "source": "Mi marido, que ha sido muy paciente, quiere viajar.",
+          "answers": [
+            "My husband, who has been very patient, wants to travel"
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.302",
+          "source": "El estudio, que fundé hace veinte años, va a cambiar.",
+          "answers": [
+            "The studio, which I founded twenty years ago, is going to change",
+            "The studio, which I started twenty years ago, is going to change"
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.303",
+          "source": "Mark, cuya empresa quiere comprarnos, ha hecho una oferta.",
+          "answers": [
+            "Mark, whose company wants to buy us, has made an offer",
+            "Mark, whose company wants to buy us, made an offer"
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.304",
+          "source": "Quiere su propio estudio, lo cual no me sorprende.",
+          "answers": [
+            "She wants her own studio, which doesn't surprise me",
+            "She wants her own studio, which does not surprise me"
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.305",
+          "source": "Tenemos muchos clientes, la mayoría de los cuales te conocen.",
+          "answers": [
+            "We have a lot of clients, most of whom know you",
+            "We have many clients, most of whom know you"
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.306",
+          "source": "Galway, donde creció Daniel, está en la costa oeste.",
+          "answers": [
+            "Galway, where Daniel grew up, is on the west coast"
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.307",
+          "source": "Perdió el pasaporte, lo cual fue un desastre.",
+          "answers": [
+            "He lost his passport, which was a disaster",
+            "She lost her passport, which was a disaster"
+          ]
+        },
+        {
+          "id": "b2_relative_non_defining.308",
+          "source": "Tengo dos hermanos, los dos viven en Madrid.",
+          "answers": [
+            "I have two brothers, both of whom live in Madrid",
+            "I've got two brothers, both of whom live in Madrid"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_relative_non_defining.401",
+          "answer": "Helen, who started the studio, is retiring"
+        },
+        {
+          "id": "b2_relative_non_defining.402",
+          "answer": "He lost his keys, which was a disaster"
+        },
+        {
+          "id": "b2_relative_non_defining.403",
+          "answer": "Mark, whose company is huge, called"
+        },
+        {
+          "id": "b2_relative_non_defining.404",
+          "answer": "our clients, most of whom know you"
+        },
+        {
+          "id": "b2_relative_non_defining.405",
+          "answer": "Galway, where Daniel grew up, is beautiful"
+        }
+      ]
+    }
+  ]
+}

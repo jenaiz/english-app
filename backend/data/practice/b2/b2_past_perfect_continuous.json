@@ -1,0 +1,432 @@
+{
+  "topic_id": "b2_past_perfect_continuous",
+  "level_id": "B2",
+  "title": "Past perfect continuous: had been working",
+  "tags": [
+    "past_perfect_continuous"
+  ],
+  "units": [
+    "wrong_version"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Past perfect continuous",
+    "explanation": "El past perfect continuous («had been» + «-ing») describe una actividad que duró hasta un momento del pasado, o justo antes. Sirve mucho para explicar causas:\n- «Daniel was exhausted because he had been working until midnight.»\n- «Her eyes were red. She had been crying.»\n\nCon «for» / «since» dice cuánto tiempo llevaba pasando:\n- «We had been testing the site for three weeks when we launched it.»\n- «How long had you been waiting when the bus came?»\n\nCompáralo con el past perfect simple, que mira el resultado o el número de veces:\n- «I had checked the files twice.» (resultado)\n- «I had been checking the files all morning.» (actividad, duración)\n\nLos verbos de estado («know», «be», «have» como posesión, «want», «believe») van en past perfect simple (nunca «had been knowing»):\n- «I had known Helen for years.»\n\nOjo: es el pasado del present perfect continuous: «I've been waiting for an hour» (ahora) → «I had been waiting for an hour» (cuando pasó algo).",
+    "table": {
+      "headers": [
+        "",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Causa",
+          "He was tired because he had been running."
+        ],
+        [
+          "Duración (for / since)",
+          "We had been living there for years."
+        ],
+        [
+          "Simple: resultado",
+          "I had read three chapters."
+        ],
+        [
+          "Simple: estado",
+          "I had known her since school."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «had been» + «-ing» o con el past perfect simple.",
+      "items": [
+        {
+          "id": "b2_past_perfect_continuous.001",
+          "sentence": "Daniel was exhausted because he had ___ working until midnight.",
+          "answers": [
+            [
+              "been"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_perfect_continuous.002",
+          "sentence": "We ___ been testing the site for three weeks when it went live.",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_perfect_continuous.003",
+          "sentence": "Lucía's eyes were red. She had been ___ at the screen all night. (look)",
+          "answers": [
+            [
+              "looking"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_perfect_continuous.004",
+          "sentence": "Helen had ___ Mark for years before the project. (know)",
+          "answers": [
+            [
+              "known"
+            ]
+          ],
+          "explanation": "Verbo de estado: simple."
+        },
+        {
+          "id": "b2_past_perfect_continuous.005",
+          "sentence": "How long had you been ___ before you noticed the mistake? (work)",
+          "answers": [
+            [
+              "working"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_perfect_continuous.006",
+          "sentence": "Daniel had ___ the wrong version by mistake. (upload)",
+          "answers": [
+            [
+              "uploaded"
+            ]
+          ],
+          "explanation": "Resultado: simple."
+        },
+        {
+          "id": "b2_past_perfect_continuous.007",
+          "sentence": "The ground was wet. It had been ___. (rain)",
+          "answers": [
+            [
+              "raining"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_perfect_continuous.008",
+          "sentence": "She had ___ three cups of coffee by ten o'clock. (drink)",
+          "answers": [
+            [
+              "drunk"
+            ]
+          ],
+          "explanation": "Número de veces: simple."
+        },
+        {
+          "id": "b2_past_perfect_continuous.009",
+          "sentence": "They had been ___ for an hour when the bus finally came. (wait)",
+          "answers": [
+            [
+              "waiting"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_perfect_continuous.010",
+          "sentence": "I was out of breath because I ___ been running.",
+          "answers": [
+            [
+              "had"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_perfect_continuous.011",
+          "sentence": "We had ___ in that flat since 2015. (live)",
+          "answers": [
+            [
+              "been living",
+              "lived"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_perfect_continuous.012",
+          "sentence": "He had ___ the car for ten years before he sold it. (have)",
+          "answers": [
+            [
+              "had"
+            ]
+          ],
+          "explanation": "«have» de posesión: simple."
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_past_perfect_continuous.101",
+          "question": "Estaba agotado porque había estado trabajando hasta medianoche.",
+          "options": [
+            "He was exhausted because he had been working until midnight.",
+            "He was exhausted because he has been working until midnight."
+          ],
+          "answer": 0,
+          "explanation": "Pasado: «had been» + «-ing»."
+        },
+        {
+          "id": "b2_past_perfect_continuous.102",
+          "question": "Conocía a Helen desde hacía años.",
+          "options": [
+            "I had known Helen for years.",
+            "I had been knowing Helen for years."
+          ],
+          "answer": 0,
+          "explanation": "Verbo de estado: simple."
+        },
+        {
+          "id": "b2_past_perfect_continuous.103",
+          "question": "Había revisado los archivos dos veces.",
+          "options": [
+            "I had checked the files twice.",
+            "I had been checking the files twice."
+          ],
+          "answer": 0,
+          "explanation": "Número de veces: simple."
+        },
+        {
+          "id": "b2_past_perfect_continuous.104",
+          "question": "El suelo estaba mojado. Había estado lloviendo.",
+          "options": [
+            "The ground was wet. It had been raining.",
+            "The ground was wet. It has rained."
+          ],
+          "answer": 0,
+          "explanation": "Causa: past perfect continuous."
+        },
+        {
+          "id": "b2_past_perfect_continuous.105",
+          "question": "Llevábamos una hora esperando cuando llegó.",
+          "options": [
+            "We had been waiting for an hour when he arrived.",
+            "We were waiting since an hour when he arrived."
+          ],
+          "answer": 0,
+          "explanation": "Duración hasta un momento pasado."
+        },
+        {
+          "id": "b2_past_perfect_continuous.106",
+          "question": "¿Cuánto tiempo llevabas trabajando allí?",
+          "options": [
+            "How long had you been working there?",
+            "How long were you working there since?"
+          ],
+          "answer": 0,
+          "explanation": "«How long had you been…?»."
+        },
+        {
+          "id": "b2_past_perfect_continuous.107",
+          "question": "Tenía el coche desde hacía diez años.",
+          "options": [
+            "He had had the car for ten years.",
+            "He had been having the car for ten years."
+          ],
+          "answer": 0,
+          "explanation": "Posesión: simple."
+        },
+        {
+          "id": "b2_past_perfect_continuous.108",
+          "question": "Tenía los ojos rojos: había estado llorando.",
+          "options": [
+            "Her eyes were red: she had been crying.",
+            "Her eyes were red: she was crying since."
+          ],
+          "answer": 0,
+          "explanation": "Causa: past perfect continuous."
+        },
+        {
+          "id": "b2_past_perfect_continuous.109",
+          "question": "Se había bebido tres cafés.",
+          "options": [
+            "She had drunk three coffees.",
+            "She had been drinking three coffees."
+          ],
+          "answer": 0,
+          "explanation": "Cantidad: simple."
+        },
+        {
+          "id": "b2_past_perfect_continuous.110",
+          "question": "Estaba sin aliento porque había estado corriendo.",
+          "options": [
+            "I was out of breath because I had been running.",
+            "I was out of breath because I ran since."
+          ],
+          "answer": 0,
+          "explanation": "Causa: past perfect continuous."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Une las frases con el past perfect continuous o corrige el error.",
+      "items": [
+        {
+          "id": "b2_past_perfect_continuous.201",
+          "prompt": "Past perfect continuous",
+          "source": "Daniel worked until midnight. He was exhausted.",
+          "answers": [
+            "Daniel was exhausted because he had been working until midnight"
+          ]
+        },
+        {
+          "id": "b2_past_perfect_continuous.202",
+          "prompt": "Past perfect continuous",
+          "source": "It rained all night. The streets were wet.",
+          "answers": [
+            "The streets were wet because it had been raining all night"
+          ]
+        },
+        {
+          "id": "b2_past_perfect_continuous.203",
+          "prompt": "Past perfect continuous",
+          "source": "We waited for an hour. Then the bus came.",
+          "answers": [
+            "We had been waiting for an hour when the bus came"
+          ]
+        },
+        {
+          "id": "b2_past_perfect_continuous.204",
+          "prompt": "Corrige",
+          "source": "I had been knowing him since school.",
+          "answers": [
+            "I had known him since school"
+          ],
+          "explanation": "Verbo de estado: simple."
+        },
+        {
+          "id": "b2_past_perfect_continuous.205",
+          "prompt": "Corrige",
+          "source": "She was tired because she has been studying.",
+          "answers": [
+            "She was tired because she had been studying"
+          ],
+          "explanation": "Pasado: «had been»."
+        },
+        {
+          "id": "b2_past_perfect_continuous.206",
+          "prompt": "Corrige",
+          "source": "I had been reading three books that week.",
+          "answers": [
+            "I had read three books that week"
+          ],
+          "explanation": "Cantidad: simple."
+        },
+        {
+          "id": "b2_past_perfect_continuous.207",
+          "prompt": "Corrige",
+          "source": "How long have you been waiting when he arrived?",
+          "answers": [
+            "How long had you been waiting when he arrived"
+          ],
+          "explanation": "Pasado: «had been»."
+        },
+        {
+          "id": "b2_past_perfect_continuous.208",
+          "prompt": "Corrige",
+          "source": "They had been work there for years.",
+          "answers": [
+            "They had been working there for years"
+          ],
+          "explanation": "«had been» + «-ing»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_past_perfect_continuous.301",
+          "source": "Estaba agotado porque había estado trabajando hasta medianoche.",
+          "answers": [
+            "He was exhausted because he had been working until midnight"
+          ]
+        },
+        {
+          "id": "b2_past_perfect_continuous.302",
+          "source": "Llevábamos tres semanas probando la web.",
+          "answers": [
+            "We had been testing the website for three weeks",
+            "We had been testing the site for three weeks"
+          ]
+        },
+        {
+          "id": "b2_past_perfect_continuous.303",
+          "source": "Había estado lloviendo toda la noche.",
+          "answers": [
+            "It had been raining all night"
+          ]
+        },
+        {
+          "id": "b2_past_perfect_continuous.304",
+          "source": "Conocía a Helen desde hacía años.",
+          "answers": [
+            "I had known Helen for years"
+          ]
+        },
+        {
+          "id": "b2_past_perfect_continuous.305",
+          "source": "¿Cuánto tiempo llevabas esperando?",
+          "answers": [
+            "How long had you been waiting"
+          ]
+        },
+        {
+          "id": "b2_past_perfect_continuous.306",
+          "source": "Tenía los ojos rojos porque había estado llorando.",
+          "answers": [
+            "Her eyes were red because she had been crying"
+          ]
+        },
+        {
+          "id": "b2_past_perfect_continuous.307",
+          "source": "Había revisado los archivos dos veces.",
+          "answers": [
+            "I had checked the files twice"
+          ]
+        },
+        {
+          "id": "b2_past_perfect_continuous.308",
+          "source": "Llevaban una hora hablando cuando se fue la luz.",
+          "answers": [
+            "They had been talking for an hour when the lights went off",
+            "They had been talking for an hour when the electricity went off"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_past_perfect_continuous.401",
+          "answer": "He had been working until midnight"
+        },
+        {
+          "id": "b2_past_perfect_continuous.402",
+          "answer": "We had been testing the site for weeks"
+        },
+        {
+          "id": "b2_past_perfect_continuous.403",
+          "answer": "It had been raining all night"
+        },
+        {
+          "id": "b2_past_perfect_continuous.404",
+          "answer": "I had known Helen for years"
+        },
+        {
+          "id": "b2_past_perfect_continuous.405",
+          "answer": "How long had you been waiting?"
+        }
+      ]
+    }
+  ]
+}

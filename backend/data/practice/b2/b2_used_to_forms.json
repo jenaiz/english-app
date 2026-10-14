@@ -1,0 +1,441 @@
+{
+  "topic_id": "b2_used_to_forms",
+  "level_id": "B2",
+  "title": "be used to, get used to, look forward to + -ing",
+  "tags": [
+    "used_to_forms"
+  ],
+  "units": [
+    "moving_in"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "be used to, get used to, look forward to + -ing",
+    "explanation": "«Be used to» + «-ing» o nombre: estar acostumbrado a algo:\n- «I'm used to living with Priya.»\n- «She isn't used to the noise.»\n\n«Get used to» + «-ing» o nombre: acostumbrarse (el proceso):\n- «You'll get used to my socks!»\n- «It took me months to get used to the weather.»\n\nNo los confundas con «used to» + verbo (hábito pasado):\n- «I used to live in Madrid.» (antes vivía)\n- «I'm used to living in Bristol.» (estoy acostumbrado)\n\nEn estas expresiones «to» es una preposición, así que va seguida de «-ing», no del infinitivo. Lo mismo pasa con «look forward to» (tener ganas de), «object to» (oponerse a) y «be» / «get accustomed to»:\n- «I'm used to working late.» (nunca «used to work» con este sentido)\n- «I'm looking forward to living with you.»\n- «I object to paying more.»\n\nOjo: «be used to» cambia de tiempo como cualquier «be»: «I wasn't used to the cold», «Will you get used to it?».",
+    "table": {
+      "headers": [
+        "Expresión",
+        "Significado",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "be used to + -ing",
+          "estar acostumbrado",
+          "I'm used to getting up early."
+        ],
+        [
+          "get used to + -ing",
+          "acostumbrarse",
+          "I'm getting used to it."
+        ],
+        [
+          "used to + verbo",
+          "hábito pasado",
+          "I used to smoke."
+        ],
+        [
+          "look forward to + -ing",
+          "tener ganas de",
+          "I look forward to hearing from you."
+        ],
+        [
+          "object to + -ing",
+          "oponerse a",
+          "I object to paying more."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con la forma correcta («used», «get», «-ing»…).",
+      "items": [
+        {
+          "id": "b2_used_to_forms.001",
+          "sentence": "I'm used to ___ with Priya. We've shared a house for years. (live)",
+          "answers": [
+            [
+              "living"
+            ]
+          ]
+        },
+        {
+          "id": "b2_used_to_forms.002",
+          "sentence": "Don't worry, you'll ___ used to my socks!",
+          "answers": [
+            [
+              "get"
+            ]
+          ]
+        },
+        {
+          "id": "b2_used_to_forms.003",
+          "sentence": "Daniel isn't ___ to sharing a bathroom.",
+          "answers": [
+            [
+              "used"
+            ]
+          ]
+        },
+        {
+          "id": "b2_used_to_forms.004",
+          "sentence": "I'm really looking forward to ___ together. (live)",
+          "answers": [
+            [
+              "living"
+            ]
+          ]
+        },
+        {
+          "id": "b2_used_to_forms.005",
+          "sentence": "It took Lucía months to get used to ___ weather in Bristol.",
+          "answers": [
+            [
+              "the"
+            ]
+          ]
+        },
+        {
+          "id": "b2_used_to_forms.006",
+          "sentence": "When I was a student, I ___ to share a flat with five people.",
+          "answers": [
+            [
+              "used"
+            ]
+          ]
+        },
+        {
+          "id": "b2_used_to_forms.007",
+          "sentence": "Are you used to ___ on the left yet? (drive)",
+          "answers": [
+            [
+              "driving"
+            ]
+          ]
+        },
+        {
+          "id": "b2_used_to_forms.008",
+          "sentence": "I wasn't used ___ the cold when I arrived.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_used_to_forms.009",
+          "sentence": "We look forward to ___ from you. (hear)",
+          "answers": [
+            [
+              "hearing"
+            ]
+          ]
+        },
+        {
+          "id": "b2_used_to_forms.010",
+          "sentence": "I'm slowly getting used to ___ up at six. (get)",
+          "answers": [
+            [
+              "getting"
+            ]
+          ]
+        },
+        {
+          "id": "b2_used_to_forms.011",
+          "sentence": "I object to ___ for something I didn't order. (pay)",
+          "answers": [
+            [
+              "paying"
+            ]
+          ]
+        },
+        {
+          "id": "b2_used_to_forms.012",
+          "sentence": "She ___ used to live in Madrid, but now she lives in Bristol.",
+          "answers": [
+            [
+              "used"
+            ]
+          ],
+          "explanation": "Hábito pasado: «used to» + verbo."
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_used_to_forms.101",
+          "question": "Estoy acostumbrado a trabajar hasta tarde.",
+          "options": [
+            "I'm used to working late.",
+            "I'm used to work late."
+          ],
+          "answer": 0,
+          "explanation": "«be used to» + «-ing»."
+        },
+        {
+          "id": "b2_used_to_forms.102",
+          "question": "Te acostumbrarás.",
+          "options": [
+            "You'll get used to it.",
+            "You'll used to it."
+          ],
+          "answer": 0,
+          "explanation": "Acostumbrarse: «get used to»."
+        },
+        {
+          "id": "b2_used_to_forms.103",
+          "question": "Antes vivía en Madrid.",
+          "options": [
+            "I used to live in Madrid.",
+            "I'm used to live in Madrid."
+          ],
+          "answer": 0,
+          "explanation": "Hábito pasado: «used to» + verbo."
+        },
+        {
+          "id": "b2_used_to_forms.104",
+          "question": "Tengo ganas de verte.",
+          "options": [
+            "I'm looking forward to seeing you.",
+            "I'm looking forward to see you."
+          ],
+          "answer": 0,
+          "explanation": "«look forward to» + «-ing»."
+        },
+        {
+          "id": "b2_used_to_forms.105",
+          "question": "No estaba acostumbrada al frío.",
+          "options": [
+            "I wasn't used to the cold.",
+            "I didn't use to the cold."
+          ],
+          "answer": 0,
+          "explanation": "«be used to» + nombre."
+        },
+        {
+          "id": "b2_used_to_forms.106",
+          "question": "Me estoy acostumbrando a conducir por la izquierda.",
+          "options": [
+            "I'm getting used to driving on the left.",
+            "I'm getting used to drive on the left."
+          ],
+          "answer": 0,
+          "explanation": "«get used to» + «-ing»."
+        },
+        {
+          "id": "b2_used_to_forms.107",
+          "question": "Quedamos a la espera de su respuesta.",
+          "options": [
+            "We look forward to hearing from you.",
+            "We look forward to hear from you."
+          ],
+          "answer": 0,
+          "explanation": "«look forward to» + «-ing»."
+        },
+        {
+          "id": "b2_used_to_forms.108",
+          "question": "Me opongo a pagar más.",
+          "options": [
+            "I object to paying more.",
+            "I object to pay more."
+          ],
+          "answer": 0,
+          "explanation": "«object to» + «-ing»."
+        },
+        {
+          "id": "b2_used_to_forms.109",
+          "question": "¿Te has acostumbrado ya?",
+          "options": [
+            "Have you got used to it yet?",
+            "Have you used to it yet?"
+          ],
+          "answer": 0,
+          "explanation": "«get used to»."
+        },
+        {
+          "id": "b2_used_to_forms.110",
+          "question": "Ella no está acostumbrada a compartir baño.",
+          "options": [
+            "She isn't used to sharing a bathroom.",
+            "She doesn't used to share a bathroom."
+          ],
+          "answer": 0,
+          "explanation": "«be used to» + «-ing»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "b2_used_to_forms.201",
+          "prompt": "Corrige",
+          "source": "I'm used to get up early.",
+          "answers": [
+            "I'm used to getting up early"
+          ],
+          "explanation": "«be used to» + «-ing»."
+        },
+        {
+          "id": "b2_used_to_forms.202",
+          "prompt": "Corrige",
+          "source": "I look forward to meet you.",
+          "answers": [
+            "I look forward to meeting you"
+          ],
+          "explanation": "«look forward to» + «-ing»."
+        },
+        {
+          "id": "b2_used_to_forms.203",
+          "prompt": "Corrige",
+          "source": "You'll soon used to it.",
+          "answers": [
+            "You'll soon get used to it"
+          ],
+          "explanation": "Acostumbrarse: «get used to»."
+        },
+        {
+          "id": "b2_used_to_forms.204",
+          "prompt": "Corrige",
+          "source": "I'm used to live in Madrid, but now I live in Bristol.",
+          "answers": [
+            "I used to live in Madrid, but now I live in Bristol"
+          ],
+          "explanation": "Hábito pasado: «used to» + verbo."
+        },
+        {
+          "id": "b2_used_to_forms.205",
+          "prompt": "Corrige",
+          "source": "She isn't used to share a flat.",
+          "answers": [
+            "She isn't used to sharing a flat"
+          ],
+          "explanation": "«be used to» + «-ing»."
+        },
+        {
+          "id": "b2_used_to_forms.206",
+          "prompt": "Corrige",
+          "source": "It took me a year to get used to drive here.",
+          "answers": [
+            "It took me a year to get used to driving here"
+          ],
+          "explanation": "«get used to» + «-ing»."
+        },
+        {
+          "id": "b2_used_to_forms.207",
+          "prompt": "Corrige",
+          "source": "I object to pay for this.",
+          "answers": [
+            "I object to paying for this"
+          ],
+          "explanation": "«object to» + «-ing»."
+        },
+        {
+          "id": "b2_used_to_forms.208",
+          "prompt": "Corrige",
+          "source": "Are you getting use to the noise?",
+          "answers": [
+            "Are you getting used to the noise"
+          ],
+          "explanation": "«used», con d."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_used_to_forms.301",
+          "source": "Estoy acostumbrada a vivir con Priya.",
+          "answers": [
+            "I'm used to living with Priya"
+          ]
+        },
+        {
+          "id": "b2_used_to_forms.302",
+          "source": "Te acostumbrarás a mis calcetines.",
+          "answers": [
+            "You'll get used to my socks"
+          ]
+        },
+        {
+          "id": "b2_used_to_forms.303",
+          "source": "Tengo muchas ganas de vivir contigo.",
+          "answers": [
+            "I'm really looking forward to living with you",
+            "I'm looking forward to living with you"
+          ]
+        },
+        {
+          "id": "b2_used_to_forms.304",
+          "source": "No estoy acostumbrado al ruido.",
+          "answers": [
+            "I'm not used to the noise",
+            "I am not used to the noise"
+          ]
+        },
+        {
+          "id": "b2_used_to_forms.305",
+          "source": "Me costó meses acostumbrarme al tiempo.",
+          "answers": [
+            "It took me months to get used to the weather"
+          ]
+        },
+        {
+          "id": "b2_used_to_forms.306",
+          "source": "Antes vivía en Madrid.",
+          "answers": [
+            "I used to live in Madrid"
+          ]
+        },
+        {
+          "id": "b2_used_to_forms.307",
+          "source": "Quedamos a la espera de su respuesta.",
+          "answers": [
+            "We look forward to hearing from you"
+          ]
+        },
+        {
+          "id": "b2_used_to_forms.308",
+          "source": "Me estoy acostumbrando a levantarme temprano.",
+          "answers": [
+            "I'm getting used to getting up early"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_used_to_forms.401",
+          "answer": "I'm used to living with Priya"
+        },
+        {
+          "id": "b2_used_to_forms.402",
+          "answer": "You'll get used to my socks"
+        },
+        {
+          "id": "b2_used_to_forms.403",
+          "answer": "I'm looking forward to living with you"
+        },
+        {
+          "id": "b2_used_to_forms.404",
+          "answer": "It took me months to get used to it"
+        },
+        {
+          "id": "b2_used_to_forms.405",
+          "answer": "I used to live in Madrid"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "topic_id": "b2_formal_markers",
+  "level_id": "B2",
+  "title": "Marcadores formales: furthermore, consequently, in conclusion",
+  "tags": [
+    "formal_markers"
+  ],
+  "units": [
+    "expressing_opinions"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Formal discourse markers",
+    "explanation": "En reuniones, presentaciones y textos formales organizamos las ideas con marcadores:\n- Para empezar y ordenar: «To begin with», «Firstly», «Secondly», «Finally».\n- Para añadir: «Furthermore», «Moreover», «In addition» (además), «Additionally».\n- Para la consecuencia: «Consequently», «As a result», «Therefore» (por consiguiente).\n- Para introducir un tema: «Regarding» / «As regards» / «With regard to» (en cuanto a).\n- Para contrastar dos puntos de vista: «On the one hand…», «On the other hand…»\n- Para poner un ejemplo: «For instance», «For example».\n- Para cerrar: «In conclusion», «To sum up» (en resumen).\n\nVan al principio de la frase, seguidos de coma:\n- «The site is simple. Furthermore, it loads in two seconds.»\n- «Regarding the photos, we'll add a gallery.»\n\nEn una conversación informal suenan demasiado formales: con amigos se dice «also», «so» o «anyway».\n\nOjo: «In addition to» y «As well as» van con nombre o «-ing»: «In addition to being cheaper, it's faster».",
+    "table": {
+      "headers": [
+        "Función",
+        "Marcadores"
+      ],
+      "rows": [
+        [
+          "Ordenar",
+          "To begin with, Firstly, Secondly, Finally"
+        ],
+        [
+          "Añadir",
+          "Furthermore, Moreover, In addition"
+        ],
+        [
+          "Consecuencia",
+          "Consequently, As a result, Therefore"
+        ],
+        [
+          "Tema",
+          "Regarding, As regards, With regard to"
+        ],
+        [
+          "Contraste",
+          "On the one hand… On the other hand…"
+        ],
+        [
+          "Cerrar",
+          "In conclusion, To sum up"
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el marcador adecuado.",
+      "items": [
+        {
+          "id": "b2_formal_markers.001",
+          "sentence": "___, I'd like to thank you all for coming. (para empezar)",
+          "answers": [
+            [
+              "To begin with"
+            ]
+          ]
+        },
+        {
+          "id": "b2_formal_markers.002",
+          "sentence": "The site is simple. ___, it loads in two seconds. (además)",
+          "answers": [
+            [
+              "Furthermore",
+              "Moreover",
+              "In addition"
+            ]
+          ]
+        },
+        {
+          "id": "b2_formal_markers.003",
+          "sentence": "Booking is faster. ___, we expect more reservations. (consecuencia)",
+          "answers": [
+            [
+              "Consequently",
+              "As a result",
+              "Therefore"
+            ]
+          ]
+        },
+        {
+          "id": "b2_formal_markers.004",
+          "sentence": "___ the photos, we'll add a gallery to every hotel page. (en cuanto a)",
+          "answers": [
+            [
+              "Regarding",
+              "As regards"
+            ]
+          ]
+        },
+        {
+          "id": "b2_formal_markers.005",
+          "sentence": "On the ___ hand, it's simple. On the other hand, it might look cheap.",
+          "answers": [
+            [
+              "one"
+            ]
+          ]
+        },
+        {
+          "id": "b2_formal_markers.006",
+          "sentence": "In ___, we recommend the simple version.",
+          "answers": [
+            [
+              "conclusion"
+            ]
+          ]
+        },
+        {
+          "id": "b2_formal_markers.007",
+          "sentence": "To sum ___, the new design is faster and cheaper.",
+          "answers": [
+            [
+              "up"
+            ]
+          ]
+        },
+        {
+          "id": "b2_formal_markers.008",
+          "sentence": "Some hotels, for ___, have no photos at all.",
+          "answers": [
+            [
+              "instance"
+            ]
+          ]
+        },
+        {
+          "id": "b2_formal_markers.009",
+          "sentence": "In addition ___ being cheaper, it's easier to use.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_formal_markers.010",
+          "sentence": "___, we'll look at the budget. Secondly, the timeline. (primero)",
+          "answers": [
+            [
+              "Firstly"
+            ]
+          ]
+        },
+        {
+          "id": "b2_formal_markers.011",
+          "sentence": "Prices went up. As a ___, sales fell.",
+          "answers": [
+            [
+              "result"
+            ]
+          ]
+        },
+        {
+          "id": "b2_formal_markers.012",
+          "sentence": "With ___ to the budget, we need more information.",
+          "answers": [
+            [
+              "regard"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_formal_markers.101",
+          "question": "Además, es más rápido.",
+          "options": [
+            "Furthermore, it's faster.",
+            "Furthermore it's more fast."
+          ],
+          "answer": 0,
+          "explanation": "Marcador + coma."
+        },
+        {
+          "id": "b2_formal_markers.102",
+          "question": "En cuanto al presupuesto…",
+          "options": [
+            "Regarding the budget…",
+            "Regarding to the budget…"
+          ],
+          "answer": 0,
+          "explanation": "«Regarding» sin «to»."
+        },
+        {
+          "id": "b2_formal_markers.103",
+          "question": "En resumen…",
+          "options": [
+            "To sum up…",
+            "To sum…"
+          ],
+          "answer": 0,
+          "explanation": "«To sum up»."
+        },
+        {
+          "id": "b2_formal_markers.104",
+          "question": "Por un lado… por otro…",
+          "options": [
+            "On the one hand… On the other hand…",
+            "In one hand… In other hand…"
+          ],
+          "answer": 0,
+          "explanation": "«On the one hand… On the other hand»."
+        },
+        {
+          "id": "b2_formal_markers.105",
+          "question": "Como resultado, bajaron las ventas.",
+          "options": [
+            "As a result, sales fell.",
+            "As result, sales fell."
+          ],
+          "answer": 0,
+          "explanation": "«As a result»."
+        },
+        {
+          "id": "b2_formal_markers.106",
+          "question": "Además de ser más barato…",
+          "options": [
+            "In addition to being cheaper…",
+            "In addition to be cheaper…"
+          ],
+          "answer": 0,
+          "explanation": "«In addition to» + «-ing»."
+        },
+        {
+          "id": "b2_formal_markers.107",
+          "question": "Con amigos: además, quiero…",
+          "options": [
+            "Also, I want…",
+            "Moreover, I want…"
+          ],
+          "answer": 0,
+          "explanation": "Informal: «also»."
+        },
+        {
+          "id": "b2_formal_markers.108",
+          "question": "Por ejemplo…",
+          "options": [
+            "For instance…",
+            "For instant…"
+          ],
+          "answer": 0,
+          "explanation": "«For instance»."
+        },
+        {
+          "id": "b2_formal_markers.109",
+          "question": "En conclusión, recomendamos…",
+          "options": [
+            "In conclusion, we recommend…",
+            "In conclusions, we recommend…"
+          ],
+          "answer": 0,
+          "explanation": "«In conclusion»."
+        },
+        {
+          "id": "b2_formal_markers.110",
+          "question": "Por consiguiente, esperamos más reservas.",
+          "options": [
+            "Consequently, we expect more bookings.",
+            "Consequent, we expect more bookings."
+          ],
+          "answer": 0,
+          "explanation": "«Consequently»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Une las frases con el marcador indicado o corrige el error.",
+      "items": [
+        {
+          "id": "b2_formal_markers.201",
+          "prompt": "Furthermore",
+          "source": "The design is simple. It's very fast.",
+          "answers": [
+            "The design is simple. Furthermore, it's very fast",
+            "The design is simple. Furthermore it's very fast"
+          ]
+        },
+        {
+          "id": "b2_formal_markers.202",
+          "prompt": "Consequently",
+          "source": "The site was slow. We lost customers.",
+          "answers": [
+            "The site was slow. Consequently, we lost customers",
+            "The site was slow. Consequently we lost customers"
+          ]
+        },
+        {
+          "id": "b2_formal_markers.203",
+          "prompt": "Regarding",
+          "source": "About the photos: we'll add more.",
+          "answers": [
+            "Regarding the photos, we'll add more"
+          ]
+        },
+        {
+          "id": "b2_formal_markers.204",
+          "prompt": "In addition to",
+          "source": "It's cheaper. It's faster too.",
+          "answers": [
+            "In addition to being cheaper, it's faster"
+          ]
+        },
+        {
+          "id": "b2_formal_markers.205",
+          "prompt": "Corrige",
+          "source": "Regarding to the budget, we need more time.",
+          "answers": [
+            "Regarding the budget, we need more time"
+          ],
+          "explanation": "«Regarding» sin «to»."
+        },
+        {
+          "id": "b2_formal_markers.206",
+          "prompt": "Corrige",
+          "source": "In other hand, it might look cheap.",
+          "answers": [
+            "On the other hand, it might look cheap"
+          ],
+          "explanation": "«On the other hand»."
+        },
+        {
+          "id": "b2_formal_markers.207",
+          "prompt": "Corrige",
+          "source": "As result, we changed the plan.",
+          "answers": [
+            "As a result, we changed the plan"
+          ],
+          "explanation": "«As a result»."
+        },
+        {
+          "id": "b2_formal_markers.208",
+          "prompt": "Corrige",
+          "source": "In addition to be faster, it's cheaper.",
+          "answers": [
+            "In addition to being faster, it's cheaper"
+          ],
+          "explanation": "«In addition to» + «-ing»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_formal_markers.301",
+          "source": "Para empezar, quiero daros las gracias.",
+          "answers": [
+            "To begin with, I'd like to thank you",
+            "To begin with, I want to thank you"
+          ]
+        },
+        {
+          "id": "b2_formal_markers.302",
+          "source": "Además, carga en dos segundos.",
+          "answers": [
+            "Furthermore, it loads in two seconds",
+            "Moreover, it loads in two seconds",
+            "In addition, it loads in two seconds"
+          ]
+        },
+        {
+          "id": "b2_formal_markers.303",
+          "source": "En cuanto a las fotos, añadiremos una galería.",
+          "answers": [
+            "Regarding the photos, we'll add a gallery",
+            "As regards the photos, we'll add a gallery"
+          ]
+        },
+        {
+          "id": "b2_formal_markers.304",
+          "source": "Como resultado, bajaron las ventas.",
+          "answers": [
+            "As a result, sales fell",
+            "As a result, sales went down"
+          ]
+        },
+        {
+          "id": "b2_formal_markers.305",
+          "source": "En conclusión, recomendamos la versión simple.",
+          "answers": [
+            "In conclusion, we recommend the simple version"
+          ]
+        },
+        {
+          "id": "b2_formal_markers.306",
+          "source": "Por un lado es simple; por otro, puede parecer barato.",
+          "answers": [
+            "On the one hand it's simple; on the other hand, it might look cheap",
+            "On the one hand, it's simple. On the other hand, it might look cheap"
+          ]
+        },
+        {
+          "id": "b2_formal_markers.307",
+          "source": "En resumen, es más rápido y más barato.",
+          "answers": [
+            "To sum up, it's faster and cheaper"
+          ]
+        },
+        {
+          "id": "b2_formal_markers.308",
+          "source": "Por ejemplo, algunos hoteles no tienen fotos.",
+          "answers": [
+            "For instance, some hotels have no photos",
+            "For example, some hotels have no photos",
+            "For example, some hotels don't have any photos"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_formal_markers.401",
+          "answer": "To begin with, thank you for coming"
+        },
+        {
+          "id": "b2_formal_markers.402",
+          "answer": "Furthermore, it loads in two seconds"
+        },
+        {
+          "id": "b2_formal_markers.403",
+          "answer": "Regarding the photos, we'll add a gallery"
+        },
+        {
+          "id": "b2_formal_markers.404",
+          "answer": "As a result, sales fell"
+        },
+        {
+          "id": "b2_formal_markers.405",
+          "answer": "In conclusion, we recommend the simple version"
+        }
+      ]
+    }
+  ]
+}

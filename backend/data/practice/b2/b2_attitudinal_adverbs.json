@@ -1,0 +1,461 @@
+{
+  "topic_id": "b2_attitudinal_adverbs",
+  "level_id": "B2",
+  "title": "Adverbios de actitud: apparently, clearly, fortunately…",
+  "tags": [
+    "attitudinal_adverbs"
+  ],
+  "units": [
+    "the_reviews"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Attitudinal adverbs",
+    "explanation": "Algunos adverbios no dicen cómo se hace algo, sino qué opinamos de toda la frase. Suelen ir al principio, seguidos de coma:\n- «Apparently» (según parece, por lo visto): «Apparently, they're playing in Madrid.» Ojo: no significa «aparentemente» en el sentido de «a simple vista»; se usa para información que nos han contado.\n- «Clearly» / «Obviously» (está claro que): «Clearly, the critics love the album.»\n- «Surprisingly» / «Not surprisingly»: «Surprisingly, it was recorded in six weeks.»\n- «Fortunately» / «Luckily» ≠ «Unfortunately»: «Unfortunately, the tour doesn't come to Bristol.»\n- «Honestly» / «Frankly» (sinceramente): «Frankly, I never liked their old songs.»\n- «Hopefully» (ojalá, con suerte): «Hopefully, we'll get tickets.»\n- «Personally» (personalmente): «Personally, I prefer the first album.»\n- «Basically» (básicamente, en resumen): «Basically, it's a love story.»\n\nTambién pueden ir en medio, normalmente antes del verbo principal o después de «be»:\n- «The band has clearly worked very hard.»\n- «It was obviously a mistake.»",
+    "table": {
+      "headers": [
+        "Adverbio",
+        "Significado",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "apparently",
+          "por lo visto",
+          "Apparently, they've split up."
+        ],
+        [
+          "clearly / obviously",
+          "está claro que",
+          "Clearly, it worked."
+        ],
+        [
+          "surprisingly",
+          "sorprendentemente",
+          "Surprisingly, nobody came."
+        ],
+        [
+          "fortunately / luckily",
+          "por suerte",
+          "Luckily, it didn't rain."
+        ],
+        [
+          "unfortunately",
+          "por desgracia",
+          "Unfortunately, it's sold out."
+        ],
+        [
+          "hopefully",
+          "con suerte, ojalá",
+          "Hopefully, we'll win."
+        ],
+        [
+          "frankly / honestly",
+          "sinceramente",
+          "Frankly, I don't care."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el adverbio adecuado.",
+      "items": [
+        {
+          "id": "b2_attitudinal_adverbs.001",
+          "sentence": "___, they're playing in Madrid in June. That's what the article says.",
+          "answers": [
+            [
+              "Apparently"
+            ]
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.002",
+          "sentence": "___, we'll get tickets before they sell out. (con suerte)",
+          "answers": [
+            [
+              "Hopefully"
+            ]
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.003",
+          "sentence": "___, the Madrid concert is already sold out. (por desgracia)",
+          "answers": [
+            [
+              "Unfortunately"
+            ]
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.004",
+          "sentence": "___, the album was recorded in only six weeks. Nobody expected that.",
+          "answers": [
+            [
+              "Surprisingly"
+            ]
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.005",
+          "sentence": "Every review gives it five stars. ___, the critics love it.",
+          "answers": [
+            [
+              "Clearly",
+              "Obviously"
+            ]
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.006",
+          "sentence": "___, nobody was hurt when the stage lights fell. (por suerte)",
+          "answers": [
+            [
+              "Fortunately",
+              "Luckily"
+            ]
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.007",
+          "sentence": "___, I never liked their old songs. (sinceramente)",
+          "answers": [
+            [
+              "Frankly",
+              "Honestly"
+            ]
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.008",
+          "sentence": "___, I prefer the first album. (en mi opinión)",
+          "answers": [
+            [
+              "Personally"
+            ]
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.009",
+          "sentence": "___, it's a story about two brothers. (en resumen)",
+          "answers": [
+            [
+              "Basically"
+            ]
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.010",
+          "sentence": "The band has ___ worked very hard. (está claro)",
+          "answers": [
+            [
+              "clearly",
+              "obviously"
+            ]
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.011",
+          "sentence": "Not ___, the tickets sold out in minutes. Everyone expected it.",
+          "answers": [
+            [
+              "surprisingly"
+            ]
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.012",
+          "sentence": "___, the singer has a cold, so the concert is cancelled. (según dicen)",
+          "answers": [
+            [
+              "Apparently"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué adverbio encaja?",
+      "items": [
+        {
+          "id": "b2_attitudinal_adverbs.101",
+          "question": "Por lo visto, se han separado.",
+          "options": [
+            "Apparently, they've split up.",
+            "Obviously, they've split up."
+          ],
+          "answer": 0,
+          "explanation": "Lo que nos han contado: «Apparently»."
+        },
+        {
+          "id": "b2_attitudinal_adverbs.102",
+          "question": "Con suerte, conseguiremos entradas.",
+          "options": [
+            "Hopefully, we'll get tickets.",
+            "Hopeful, we'll get tickets."
+          ],
+          "answer": 0,
+          "explanation": "«Hopefully»."
+        },
+        {
+          "id": "b2_attitudinal_adverbs.103",
+          "question": "Por desgracia, está agotado.",
+          "options": [
+            "Unfortunately, it's sold out.",
+            "Unfortunate, it's sold out."
+          ],
+          "answer": 0,
+          "explanation": "«Unfortunately»."
+        },
+        {
+          "id": "b2_attitudinal_adverbs.104",
+          "question": "Por suerte, no llovió.",
+          "options": [
+            "Luckily, it didn't rain.",
+            "Lucky, it didn't rain."
+          ],
+          "answer": 0,
+          "explanation": "«Luckily»."
+        },
+        {
+          "id": "b2_attitudinal_adverbs.105",
+          "question": "Sinceramente, no me importa.",
+          "options": [
+            "Frankly, I don't care.",
+            "Frank, I don't care."
+          ],
+          "answer": 0,
+          "explanation": "«Frankly»."
+        },
+        {
+          "id": "b2_attitudinal_adverbs.106",
+          "question": "Está claro que funcionó.",
+          "options": [
+            "Clearly, it worked.",
+            "Clear, it worked."
+          ],
+          "answer": 0,
+          "explanation": "«Clearly»."
+        },
+        {
+          "id": "b2_attitudinal_adverbs.107",
+          "question": "Sorprendentemente, no vino nadie.",
+          "options": [
+            "Surprisingly, nobody came.",
+            "Surprising, nobody came."
+          ],
+          "answer": 0,
+          "explanation": "«Surprisingly»."
+        },
+        {
+          "id": "b2_attitudinal_adverbs.108",
+          "question": "Personalmente, prefiero el primero.",
+          "options": [
+            "Personally, I prefer the first one.",
+            "Personal, I prefer the first one."
+          ],
+          "answer": 0,
+          "explanation": "«Personally»."
+        },
+        {
+          "id": "b2_attitudinal_adverbs.109",
+          "question": "A simple vista parece fácil.",
+          "options": [
+            "It looks easy at first sight.",
+            "Apparently it looks easy at first sight."
+          ],
+          "answer": 0,
+          "explanation": "«apparently» no es «a simple vista»."
+        },
+        {
+          "id": "b2_attitudinal_adverbs.110",
+          "question": "Obviamente fue un error.",
+          "options": [
+            "It was obviously a mistake.",
+            "It obviously was mistake a."
+          ],
+          "answer": 0,
+          "explanation": "Después de «be»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con el adverbio indicado.",
+      "items": [
+        {
+          "id": "b2_attitudinal_adverbs.201",
+          "prompt": "Apparently",
+          "source": "People say they're playing in Madrid.",
+          "answers": [
+            "Apparently, they're playing in Madrid",
+            "Apparently they're playing in Madrid"
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.202",
+          "prompt": "Hopefully",
+          "source": "I hope we'll get tickets.",
+          "answers": [
+            "Hopefully, we'll get tickets",
+            "Hopefully we'll get tickets"
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.203",
+          "prompt": "Unfortunately",
+          "source": "It's a pity, but the tour doesn't come to Bristol.",
+          "answers": [
+            "Unfortunately, the tour doesn't come to Bristol",
+            "Unfortunately the tour doesn't come to Bristol"
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.204",
+          "prompt": "Clearly",
+          "source": "It's clear that the critics love it.",
+          "answers": [
+            "Clearly, the critics love it",
+            "Clearly the critics love it"
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.205",
+          "prompt": "Surprisingly",
+          "source": "It's surprising, but it was recorded in six weeks.",
+          "answers": [
+            "Surprisingly, it was recorded in six weeks",
+            "Surprisingly it was recorded in six weeks"
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.206",
+          "prompt": "Luckily",
+          "source": "We were lucky: nobody was hurt.",
+          "answers": [
+            "Luckily, nobody was hurt",
+            "Luckily nobody was hurt"
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.207",
+          "prompt": "Frankly",
+          "source": "To be honest, I don't like their music.",
+          "answers": [
+            "Frankly, I don't like their music",
+            "Frankly I don't like their music"
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.208",
+          "prompt": "Corrige",
+          "source": "Unfortunate, the concert was cancelled.",
+          "answers": [
+            "Unfortunately, the concert was cancelled",
+            "Unfortunately the concert was cancelled"
+          ],
+          "explanation": "Adverbio: «-ly»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_attitudinal_adverbs.301",
+          "source": "Por lo visto, tocan en Madrid en junio.",
+          "answers": [
+            "Apparently, they're playing in Madrid in June",
+            "Apparently they're playing in Madrid in June"
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.302",
+          "source": "Con suerte, conseguiremos entradas.",
+          "answers": [
+            "Hopefully, we'll get tickets",
+            "Hopefully we'll get tickets"
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.303",
+          "source": "Por desgracia, está agotado.",
+          "answers": [
+            "Unfortunately, it's sold out",
+            "Unfortunately it's sold out"
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.304",
+          "source": "Está claro que a los críticos les encanta.",
+          "answers": [
+            "Clearly, the critics love it",
+            "Obviously, the critics love it"
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.305",
+          "source": "Por suerte, nadie se hizo daño.",
+          "answers": [
+            "Luckily, nobody was hurt",
+            "Fortunately, nobody was hurt",
+            "Luckily, no one was hurt"
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.306",
+          "source": "Sinceramente, nunca me gustaron.",
+          "answers": [
+            "Frankly, I never liked them",
+            "Honestly, I never liked them"
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.307",
+          "source": "Sorprendentemente, lo grabaron en seis semanas.",
+          "answers": [
+            "Surprisingly, they recorded it in six weeks",
+            "Surprisingly, it was recorded in six weeks"
+          ]
+        },
+        {
+          "id": "b2_attitudinal_adverbs.308",
+          "source": "Personalmente, prefiero el primer disco.",
+          "answers": [
+            "Personally, I prefer the first album"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_attitudinal_adverbs.401",
+          "answer": "Apparently, they're playing in Madrid"
+        },
+        {
+          "id": "b2_attitudinal_adverbs.402",
+          "answer": "Hopefully, we'll get tickets"
+        },
+        {
+          "id": "b2_attitudinal_adverbs.403",
+          "answer": "Unfortunately, it's sold out"
+        },
+        {
+          "id": "b2_attitudinal_adverbs.404",
+          "answer": "The band has clearly worked very hard"
+        },
+        {
+          "id": "b2_attitudinal_adverbs.405",
+          "answer": "Frankly, I never liked their songs"
+        }
+      ]
+    }
+  ]
+}

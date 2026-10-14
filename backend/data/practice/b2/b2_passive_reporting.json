@@ -1,0 +1,432 @@
+{
+  "topic_id": "b2_passive_reporting",
+  "level_id": "B2",
+  "title": "Pasiva de opinión: it is said that…, he is believed to…",
+  "tags": [
+    "passive_reporting"
+  ],
+  "units": [
+    "the_reviews"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Passive reporting structures",
+    "explanation": "En noticias y textos formales contamos lo que dice la gente sin decir quién. Hay dos estructuras:\n- «It is said» / «believed» / «thought» / «expected» / «reported that» + frase: «It is said that the album is the surprise of the year.»\n- Sujeto + «is said» / «believed» / «thought» / «expected» + «to» + verbo: «The album is said to be the surprise of the year.»\n\nSi lo que se dice se refiere al pasado, «to have» + participio:\n- «The band is believed to have signed a deal.»\n- «Sam is thought to have written most of the songs.»\n\nSi se refiere a algo que está pasando, «to be» + «-ing»:\n- «They are reported to be recording a new album.»\n\n«Be supposed to» significa «se supone que» (lo que se espera o lo que dicen):\n- «He's supposed to be in London this week.»\n- «You're supposed to check in two hours before.»\n\nOjo: con la estructura de sujeto, el verbo de la frase va en infinitivo: «He is said to be rich» (nunca «He is said that he is rich»).",
+    "table": {
+      "headers": [
+        "Estructura",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "It is said that…",
+          "It is said that he is rich."
+        ],
+        [
+          "Sujeto + is said to + verbo",
+          "He is said to be rich."
+        ],
+        [
+          "… to have + participio (pasado)",
+          "He is said to have left."
+        ],
+        [
+          "… to be + -ing (en curso)",
+          "They are said to be recording."
+        ],
+        [
+          "be supposed to",
+          "He's supposed to be here."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa la estructura impersonal.",
+      "items": [
+        {
+          "id": "b2_passive_reporting.001",
+          "sentence": "The album is said ___ be the surprise of the year.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.002",
+          "sentence": "The band is believed to ___ signed a deal.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.003",
+          "sentence": "It's ___ reported everywhere.",
+          "answers": [
+            [
+              "being"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.004",
+          "sentence": "They're ___ to play in Madrid in June. (expect)",
+          "answers": [
+            [
+              "expected"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.005",
+          "sentence": "Sam is thought to have ___ most of the songs. (write)",
+          "answers": [
+            [
+              "written"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.006",
+          "sentence": "It ___ said that he never cleaned the kitchen.",
+          "answers": [
+            [
+              "is"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.007",
+          "sentence": "He's ___ to be in London this week.",
+          "answers": [
+            [
+              "supposed"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.008",
+          "sentence": "The album ___ recorded in just six weeks.",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.009",
+          "sentence": "They are reported to be ___ a new album. (record)",
+          "answers": [
+            [
+              "recording"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.010",
+          "sentence": "It is ___ that the singer will retire. (believe)",
+          "answers": [
+            [
+              "believed"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.011",
+          "sentence": "You're supposed ___ check in two hours before.",
+          "answers": [
+            [
+              "to"
+            ]
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.012",
+          "sentence": "The castle is said to ___ been built in 1200.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_passive_reporting.101",
+          "question": "Se dice que es el mejor disco del año.",
+          "options": [
+            "It is said to be the best album of the year.",
+            "It is said be the best album of the year."
+          ],
+          "answer": 0,
+          "explanation": "«is said to be»."
+        },
+        {
+          "id": "b2_passive_reporting.102",
+          "question": "Se cree que firmaron un contrato.",
+          "options": [
+            "They are believed to have signed a deal.",
+            "They are believed to signed a deal."
+          ],
+          "answer": 0,
+          "explanation": "Pasado: «to have» + participio."
+        },
+        {
+          "id": "b2_passive_reporting.103",
+          "question": "Se dice que es rico.",
+          "options": [
+            "He is said to be rich.",
+            "He is said that he is rich."
+          ],
+          "answer": 0,
+          "explanation": "Con sujeto: infinitivo."
+        },
+        {
+          "id": "b2_passive_reporting.104",
+          "question": "Se espera que toquen en Madrid.",
+          "options": [
+            "They are expected to play in Madrid.",
+            "They are expected playing in Madrid."
+          ],
+          "answer": 0,
+          "explanation": "«are expected to»."
+        },
+        {
+          "id": "b2_passive_reporting.105",
+          "question": "Se supone que está en Londres.",
+          "options": [
+            "He's supposed to be in London.",
+            "He supposes to be in London."
+          ],
+          "answer": 0,
+          "explanation": "«be supposed to»."
+        },
+        {
+          "id": "b2_passive_reporting.106",
+          "question": "Se dice que están grabando un disco.",
+          "options": [
+            "They are said to be recording an album.",
+            "They are said to recording an album."
+          ],
+          "answer": 0,
+          "explanation": "En curso: «to be» + «-ing»."
+        },
+        {
+          "id": "b2_passive_reporting.107",
+          "question": "Se cree que el castillo se construyó en 1200.",
+          "options": [
+            "The castle is believed to have been built in 1200.",
+            "The castle is believed to be built in 1200 ago."
+          ],
+          "answer": 0,
+          "explanation": "Pasado pasivo: «to have been»."
+        },
+        {
+          "id": "b2_passive_reporting.108",
+          "question": "Se rumorea que…",
+          "options": [
+            "It is rumoured that…",
+            "It rumours that…"
+          ],
+          "answer": 0,
+          "explanation": "«It is rumoured that»."
+        },
+        {
+          "id": "b2_passive_reporting.109",
+          "question": "Se supone que hay que llegar dos horas antes.",
+          "options": [
+            "You're supposed to arrive two hours before.",
+            "You're supposed arrive two hours before."
+          ],
+          "answer": 0,
+          "explanation": "«supposed to»."
+        },
+        {
+          "id": "b2_passive_reporting.110",
+          "question": "Se está informando en todas partes.",
+          "options": [
+            "It's being reported everywhere.",
+            "It's reporting everywhere."
+          ],
+          "answer": 0,
+          "explanation": "Pasiva continua."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe empezando por el sujeto indicado.",
+      "items": [
+        {
+          "id": "b2_passive_reporting.201",
+          "prompt": "The album…",
+          "source": "People say the album is brilliant.",
+          "answers": [
+            "The album is said to be brilliant"
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.202",
+          "prompt": "The band…",
+          "source": "People believe the band signed a deal.",
+          "answers": [
+            "The band is believed to have signed a deal"
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.203",
+          "prompt": "The tour…",
+          "source": "Experts expect the tour to be a success.",
+          "answers": [
+            "The tour is expected to be a success"
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.204",
+          "prompt": "Sam…",
+          "source": "People think Sam wrote the songs.",
+          "answers": [
+            "Sam is thought to have written the songs"
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.205",
+          "prompt": "It…",
+          "source": "People say that the singer is ill.",
+          "answers": [
+            "It is said that the singer is ill"
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.206",
+          "prompt": "They…",
+          "source": "People report that they are recording a new album.",
+          "answers": [
+            "They are reported to be recording a new album"
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.207",
+          "prompt": "The castle…",
+          "source": "People believe the castle was built in 1200.",
+          "answers": [
+            "The castle is believed to have been built in 1200"
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.208",
+          "prompt": "Corrige",
+          "source": "He is said that he is very rich.",
+          "answers": [
+            "He is said to be very rich",
+            "It is said that he is very rich"
+          ],
+          "explanation": "Con sujeto: infinitivo."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_passive_reporting.301",
+          "source": "Se dice que es el mejor disco del año.",
+          "answers": [
+            "It is said to be the best album of the year",
+            "It's said to be the best album of the year",
+            "It is said that it is the best album of the year"
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.302",
+          "source": "Se cree que firmaron un contrato.",
+          "answers": [
+            "They are believed to have signed a contract",
+            "They are believed to have signed a deal"
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.303",
+          "source": "Se espera que toquen en Madrid.",
+          "answers": [
+            "They are expected to play in Madrid"
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.304",
+          "source": "Se supone que está en Londres.",
+          "answers": [
+            "He's supposed to be in London",
+            "She's supposed to be in London"
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.305",
+          "source": "Se está informando en todas partes.",
+          "answers": [
+            "It's being reported everywhere"
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.306",
+          "source": "Se cree que escribió la mayoría de las canciones.",
+          "answers": [
+            "He is thought to have written most of the songs",
+            "He is believed to have written most of the songs"
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.307",
+          "source": "Se dice que están grabando un disco nuevo.",
+          "answers": [
+            "They are said to be recording a new album"
+          ]
+        },
+        {
+          "id": "b2_passive_reporting.308",
+          "source": "Se supone que hay que llegar dos horas antes.",
+          "answers": [
+            "You're supposed to arrive two hours before",
+            "You're supposed to arrive two hours early"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_passive_reporting.401",
+          "answer": "The album is said to be brilliant"
+        },
+        {
+          "id": "b2_passive_reporting.402",
+          "answer": "The band is believed to have signed a deal"
+        },
+        {
+          "id": "b2_passive_reporting.403",
+          "answer": "They are expected to play in Madrid"
+        },
+        {
+          "id": "b2_passive_reporting.404",
+          "answer": "He's supposed to be in London"
+        },
+        {
+          "id": "b2_passive_reporting.405",
+          "answer": "It is said that he never cleaned"
+        }
+      ]
+    }
+  ]
+}

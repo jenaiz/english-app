@@ -1,0 +1,457 @@
+{
+  "topic_id": "b2_future_perfect",
+  "level_id": "B2",
+  "title": "Future continuous, future perfect y in case",
+  "tags": [
+    "future_forms"
+  ],
+  "units": [
+    "conference_nerves"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Future continuous, future perfect (simple and continuous), in case",
+    "explanation": "Future continuous («will be» + «-ing»): una acción que estará en curso en un momento del futuro:\n- «This time tomorrow, I'll be standing on stage.»\n\nFuture perfect («will have» + participio): una acción que ya estará terminada antes de un momento del futuro:\n- «By eleven o'clock, you'll have finished.»\n- «By June, we'll have moved.»\n\nFuture perfect continuous («will have been» + «-ing»): cuánto tiempo llevará pasando algo en un momento del futuro:\n- «By the time we arrive, we'll have been travelling for six hours.»\n\n«By» + momento = para, antes de («by Friday», «by then»). «By the time» + presente = para cuando:\n- «By the time we check in, it'll be dark.»\n\n«In case» (por si acaso) + presente, aunque hable del futuro. No es lo mismo que «if»:\n- «Take an umbrella in case it rains.» (llévatelo ya, por si llueve)\n- «Take a taxi if it rains.» (solo si llueve)",
+    "table": {
+      "headers": [
+        "Forma",
+        "Uso",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "will be + -ing",
+          "en curso en un momento futuro",
+          "At ten I'll be flying."
+        ],
+        [
+          "will have + participio",
+          "terminado antes de un momento",
+          "By ten I'll have arrived."
+        ],
+        [
+          "will have been + -ing",
+          "cuánto tiempo llevará",
+          "I'll have been working here for a year."
+        ],
+        [
+          "in case + presente",
+          "por si acaso",
+          "Take a coat in case it's cold."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con «be», «have», «been», «by», «in case» o el participio.",
+      "items": [
+        {
+          "id": "b2_future_perfect.001",
+          "sentence": "This time tomorrow, I'll ___ standing in front of 400 designers.",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "b2_future_perfect.002",
+          "sentence": "By eleven o'clock, you'll have ___. (finish)",
+          "answers": [
+            [
+              "finished"
+            ]
+          ]
+        },
+        {
+          "id": "b2_future_perfect.003",
+          "sentence": "I'll have ___ the demo by then. (send)",
+          "answers": [
+            [
+              "sent"
+            ]
+          ]
+        },
+        {
+          "id": "b2_future_perfect.004",
+          "sentence": "___ the time we check in, it'll be dark.",
+          "answers": [
+            [
+              "By"
+            ]
+          ]
+        },
+        {
+          "id": "b2_future_perfect.005",
+          "sentence": "By six o'clock, we'll have ___ travelling for five hours.",
+          "answers": [
+            [
+              "been"
+            ]
+          ]
+        },
+        {
+          "id": "b2_future_perfect.006",
+          "sentence": "In June, Lucía will ___ been living in Bristol for three years.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "b2_future_perfect.007",
+          "sentence": "Take a printed copy ___ the laptop fails.",
+          "answers": [
+            [
+              "in case"
+            ]
+          ]
+        },
+        {
+          "id": "b2_future_perfect.008",
+          "sentence": "___ the train is late, we'll take a taxi. (solo si pasa)",
+          "answers": [
+            [
+              "If"
+            ]
+          ]
+        },
+        {
+          "id": "b2_future_perfect.009",
+          "sentence": "Will you ___ using the car tonight?",
+          "answers": [
+            [
+              "be"
+            ]
+          ]
+        },
+        {
+          "id": "b2_future_perfect.010",
+          "sentence": "We'll have ___ the project by June. (finish)",
+          "answers": [
+            [
+              "finished"
+            ]
+          ]
+        },
+        {
+          "id": "b2_future_perfect.011",
+          "sentence": "I'll set two alarms in ___ I don't hear the first one.",
+          "answers": [
+            [
+              "case"
+            ]
+          ]
+        },
+        {
+          "id": "b2_future_perfect.012",
+          "sentence": "By next year, he'll have been ___ here for a decade. (work)",
+          "answers": [
+            [
+              "working"
+            ]
+          ]
+        },
+        {
+          "id": "b2_future_perfect.013",
+          "sentence": "Don't call at nine. I'll be ___ dinner. (have)",
+          "answers": [
+            [
+              "having"
+            ]
+          ]
+        },
+        {
+          "id": "b2_future_perfect.014",
+          "sentence": "By the end of the week, I'll have ___ all the reports. (read)",
+          "answers": [
+            [
+              "read"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_future_perfect.101",
+          "question": "Para las once habré terminado.",
+          "options": [
+            "By eleven I'll have finished.",
+            "By eleven I'll be finishing."
+          ],
+          "answer": 0,
+          "explanation": "Terminado antes: future perfect."
+        },
+        {
+          "id": "b2_future_perfect.102",
+          "question": "Mañana a esta hora estaré volando.",
+          "options": [
+            "This time tomorrow I'll be flying.",
+            "This time tomorrow I'll have flown."
+          ],
+          "answer": 0,
+          "explanation": "En curso: future continuous."
+        },
+        {
+          "id": "b2_future_perfect.103",
+          "question": "Para cuando llegues, me habré ido.",
+          "options": [
+            "By the time you arrive, I'll have left.",
+            "By the time you'll arrive, I'll have left."
+          ],
+          "answer": 0,
+          "explanation": "Tras «by the time», presente."
+        },
+        {
+          "id": "b2_future_perfect.104",
+          "question": "Llévate un paraguas por si llueve.",
+          "options": [
+            "Take an umbrella in case it rains.",
+            "Take an umbrella in case it will rain."
+          ],
+          "answer": 0,
+          "explanation": "Tras «in case», presente."
+        },
+        {
+          "id": "b2_future_perfect.105",
+          "question": "En junio llevaré tres años viviendo aquí.",
+          "options": [
+            "In June I'll have been living here for three years.",
+            "In June I'll be living here for three years."
+          ],
+          "answer": 0,
+          "explanation": "Cuánto tiempo: future perfect continuous."
+        },
+        {
+          "id": "b2_future_perfect.106",
+          "question": "Coge un taxi si llueve (solo entonces).",
+          "options": [
+            "Take a taxi if it rains.",
+            "Take a taxi in case it rains."
+          ],
+          "answer": 0,
+          "explanation": "Solo si pasa: «if»."
+        },
+        {
+          "id": "b2_future_perfect.107",
+          "question": "Para el viernes habremos acabado.",
+          "options": [
+            "We'll have finished by Friday.",
+            "We'll have finished until Friday."
+          ],
+          "answer": 0,
+          "explanation": "Antes de: «by»."
+        },
+        {
+          "id": "b2_future_perfect.108",
+          "question": "¿Estarás en la oficina mañana?",
+          "options": [
+            "Will you be in the office tomorrow?",
+            "Will you have been in the office tomorrow?"
+          ],
+          "answer": 0,
+          "explanation": "Simple pregunta de futuro con «be»."
+        },
+        {
+          "id": "b2_future_perfect.109",
+          "question": "Habremos viajado seis horas.",
+          "options": [
+            "We'll have been travelling for six hours.",
+            "We'll be travelled for six hours."
+          ],
+          "answer": 0,
+          "explanation": "«will have been» + «-ing»."
+        },
+        {
+          "id": "b2_future_perfect.110",
+          "question": "Te habré enviado el informe para entonces.",
+          "options": [
+            "I'll have sent you the report by then.",
+            "I'll have send you the report by then."
+          ],
+          "answer": 0,
+          "explanation": "Participio: «sent»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "b2_future_perfect.201",
+          "prompt": "Corrige",
+          "source": "By the time we'll arrive, it'll be dark.",
+          "answers": [
+            "By the time we arrive, it'll be dark"
+          ],
+          "explanation": "Tras «by the time», presente."
+        },
+        {
+          "id": "b2_future_perfect.202",
+          "prompt": "Corrige",
+          "source": "Take a jumper in case it will be cold.",
+          "answers": [
+            "Take a jumper in case it's cold",
+            "Take a jumper in case it is cold"
+          ],
+          "explanation": "Tras «in case», presente."
+        },
+        {
+          "id": "b2_future_perfect.203",
+          "prompt": "Corrige",
+          "source": "By Friday I'll finish the report. (antes del viernes, ya terminado)",
+          "answers": [
+            "By Friday I'll have finished the report"
+          ],
+          "explanation": "Terminado antes: future perfect."
+        },
+        {
+          "id": "b2_future_perfect.204",
+          "prompt": "Corrige",
+          "source": "This time tomorrow I'll lie on a beach.",
+          "answers": [
+            "This time tomorrow I'll be lying on a beach"
+          ],
+          "explanation": "En curso: future continuous."
+        },
+        {
+          "id": "b2_future_perfect.205",
+          "prompt": "Corrige",
+          "source": "In May I'll have been work here for a year.",
+          "answers": [
+            "In May I'll have been working here for a year"
+          ],
+          "explanation": "«will have been» + «-ing»."
+        },
+        {
+          "id": "b2_future_perfect.206",
+          "prompt": "Corrige",
+          "source": "We'll have finished until June.",
+          "answers": [
+            "We'll have finished by June"
+          ],
+          "explanation": "Antes de: «by»."
+        },
+        {
+          "id": "b2_future_perfect.207",
+          "prompt": "Corrige",
+          "source": "I'll have wrote the email by then.",
+          "answers": [
+            "I'll have written the email by then"
+          ],
+          "explanation": "Participio: «written»."
+        },
+        {
+          "id": "b2_future_perfect.208",
+          "prompt": "Corrige",
+          "source": "Will you using the printer later?",
+          "answers": [
+            "Will you be using the printer later"
+          ],
+          "explanation": "«will be» + «-ing»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_future_perfect.301",
+          "source": "Mañana a esta hora estaré dando mi charla.",
+          "answers": [
+            "This time tomorrow I'll be giving my talk"
+          ]
+        },
+        {
+          "id": "b2_future_perfect.302",
+          "source": "Para las once habré terminado.",
+          "answers": [
+            "By eleven I'll have finished",
+            "I'll have finished by eleven"
+          ]
+        },
+        {
+          "id": "b2_future_perfect.303",
+          "source": "Para cuando lleguemos, será de noche.",
+          "answers": [
+            "By the time we arrive, it'll be dark",
+            "By the time we get there, it'll be dark"
+          ]
+        },
+        {
+          "id": "b2_future_perfect.304",
+          "source": "Habremos acabado el proyecto para junio.",
+          "answers": [
+            "We'll have finished the project by June"
+          ]
+        },
+        {
+          "id": "b2_future_perfect.305",
+          "source": "Llévate una copia por si falla el portátil.",
+          "answers": [
+            "Take a copy in case the laptop fails",
+            "Take a printed copy in case the laptop fails"
+          ]
+        },
+        {
+          "id": "b2_future_perfect.306",
+          "source": "En junio llevaré tres años en Bristol.",
+          "answers": [
+            "In June I'll have been living in Bristol for three years",
+            "In June I'll have been in Bristol for three years"
+          ]
+        },
+        {
+          "id": "b2_future_perfect.307",
+          "source": "No me llames a las nueve; estaré cenando.",
+          "answers": [
+            "Don't call me at nine; I'll be having dinner",
+            "Don't call me at nine. I'll be having dinner"
+          ]
+        },
+        {
+          "id": "b2_future_perfect.308",
+          "source": "Para entonces ya habré leído el informe.",
+          "answers": [
+            "By then I'll have read the report"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_future_perfect.401",
+          "answer": "This time tomorrow I'll be standing on stage"
+        },
+        {
+          "id": "b2_future_perfect.402",
+          "answer": "By eleven you'll have finished"
+        },
+        {
+          "id": "b2_future_perfect.403",
+          "answer": "Take an umbrella in case it rains"
+        },
+        {
+          "id": "b2_future_perfect.404",
+          "answer": "By the time we arrive it'll be dark"
+        },
+        {
+          "id": "b2_future_perfect.405",
+          "answer": "We'll have been travelling for six hours"
+        }
+      ]
+    }
+  ]
+}

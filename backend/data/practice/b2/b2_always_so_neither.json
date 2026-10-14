@@ -1,0 +1,444 @@
+{
+  "topic_id": "b2_always_so_neither",
+  "level_id": "B2",
+  "title": "always + -ing para quejas; So do I / Neither do I",
+  "tags": [
+    "always_so_neither"
+  ],
+  "units": [
+    "house_tensions"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "always + -ing · So do I, Neither do I",
+    "explanation": "El present continuous con «always» (o «constantly», «forever») expresa un hábito que nos molesta. En past continuous, un hábito molesto del pasado:\n- «Ollie is always cooking at two in the morning!»\n- «He's constantly leaving pans in the sink.»\n- «Sam was always playing the guitar at midnight.»\n\nPara decir que a nosotros nos pasa lo mismo, usamos el auxiliar de la frase. Si no hay auxiliar, «do», «does» o «did»:\n- Frase afirmativa → «So» + auxiliar + sujeto: «I'm tired. — So am I.», «I love his food. — So do I.», «I've finished. — So have I.»\n- Frase negativa → «Neither» / «Nor» + auxiliar + sujeto: «I can't sleep. — Neither can I.», «I didn't hear him. — Neither did I.»\n\nSi no estamos de acuerdo, se dice lo contrario con el auxiliar:\n- «I love his food. — I don't!»\n- «I can't cook. — I can!»\n\nOjo: en «So do I» el orden es auxiliar + sujeto (nunca «So I do» con este sentido), y «Neither» ya es negativo: «Neither do I» (nunca «Neither don't I»). En el habla informal también se oye «Me too» y «Me neither».",
+    "table": {
+      "headers": [
+        "Frase",
+        "Yo también",
+        "Yo tampoco / Yo no / Yo sí"
+      ],
+      "rows": [
+        [
+          "I'm tired.",
+          "So am I.",
+          "I'm not."
+        ],
+        [
+          "I love it.",
+          "So do I.",
+          "I don't."
+        ],
+        [
+          "I can't sleep.",
+          "—",
+          "Neither can I. / I can."
+        ],
+        [
+          "I didn't go.",
+          "—",
+          "Neither did I. / I did."
+        ],
+        [
+          "I've finished.",
+          "So have I.",
+          "I haven't."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa la respuesta o la queja.",
+      "items": [
+        {
+          "id": "b2_always_so_neither.001",
+          "sentence": "I'm exhausted. — So ___ I.",
+          "answers": [
+            [
+              "am"
+            ]
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.002",
+          "sentence": "I love Ollie's food. — So ___ I.",
+          "answers": [
+            [
+              "do"
+            ]
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.003",
+          "sentence": "I didn't hear him come in. — Neither ___ I.",
+          "answers": [
+            [
+              "did"
+            ]
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.004",
+          "sentence": "I can't sleep with that noise. — ___ can I.",
+          "answers": [
+            [
+              "Neither",
+              "Nor"
+            ]
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.005",
+          "sentence": "Ollie is ___ leaving pans in the sink! It drives me crazy.",
+          "answers": [
+            [
+              "always",
+              "constantly",
+              "forever"
+            ]
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.006",
+          "sentence": "I've been awake since two. — So ___ I.",
+          "answers": [
+            [
+              "have"
+            ]
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.007",
+          "sentence": "I'd love a holiday. — So ___ I.",
+          "answers": [
+            [
+              "would"
+            ]
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.008",
+          "sentence": "I wasn't invited. — Neither ___ I.",
+          "answers": [
+            [
+              "was"
+            ]
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.009",
+          "sentence": "You're always ___ my phone without asking! (take)",
+          "answers": [
+            [
+              "taking"
+            ]
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.010",
+          "sentence": "I don't like horror films. — Neither ___ I.",
+          "answers": [
+            [
+              "do"
+            ]
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.011",
+          "sentence": "I can't cook. — I ___! I'm a great cook.",
+          "answers": [
+            [
+              "can"
+            ]
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.012",
+          "sentence": "She was always ___ late when we were at school. (arrive)",
+          "answers": [
+            [
+              "arriving"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué respuesta es correcta?",
+      "items": [
+        {
+          "id": "b2_always_so_neither.101",
+          "question": "I'm tired. — Yo también.",
+          "options": [
+            "So am I.",
+            "So I am."
+          ],
+          "answer": 0,
+          "explanation": "Auxiliar + sujeto."
+        },
+        {
+          "id": "b2_always_so_neither.102",
+          "question": "I love it. — Yo también.",
+          "options": [
+            "So do I.",
+            "So love I."
+          ],
+          "answer": 0,
+          "explanation": "Sin auxiliar: «do»."
+        },
+        {
+          "id": "b2_always_so_neither.103",
+          "question": "I can't swim. — Yo tampoco.",
+          "options": [
+            "Neither can I.",
+            "Neither can't I."
+          ],
+          "answer": 0,
+          "explanation": "«Neither» ya es negativo."
+        },
+        {
+          "id": "b2_always_so_neither.104",
+          "question": "I didn't go. — Yo tampoco.",
+          "options": [
+            "Neither did I.",
+            "Neither went I."
+          ],
+          "answer": 0,
+          "explanation": "Pasado: «did»."
+        },
+        {
+          "id": "b2_always_so_neither.105",
+          "question": "I've finished. — Yo también.",
+          "options": [
+            "So have I.",
+            "So did I."
+          ],
+          "answer": 0,
+          "explanation": "Present perfect: «have»."
+        },
+        {
+          "id": "b2_always_so_neither.106",
+          "question": "I don't like coffee. — A mí sí.",
+          "options": [
+            "I do.",
+            "I don't."
+          ],
+          "answer": 0,
+          "explanation": "Desacuerdo: lo contrario."
+        },
+        {
+          "id": "b2_always_so_neither.107",
+          "question": "¡Siempre está dejando la puerta abierta! (queja)",
+          "options": [
+            "He's always leaving the door open!",
+            "He always is leave the door open!"
+          ],
+          "answer": 0,
+          "explanation": "Queja: «always» + «-ing»."
+        },
+        {
+          "id": "b2_always_so_neither.108",
+          "question": "I'd like a coffee. — Yo también.",
+          "options": [
+            "So would I.",
+            "So do I."
+          ],
+          "answer": 0,
+          "explanation": "Con «would»: «So would I»."
+        },
+        {
+          "id": "b2_always_so_neither.109",
+          "question": "I wasn't there. — Yo tampoco.",
+          "options": [
+            "Neither was I.",
+            "Neither were I."
+          ],
+          "answer": 0,
+          "explanation": "Con «I»: «was»."
+        },
+        {
+          "id": "b2_always_so_neither.110",
+          "question": "Siempre estaba tocando la guitarra a medianoche.",
+          "options": [
+            "He was always playing the guitar at midnight.",
+            "He always played was the guitar at midnight."
+          ],
+          "answer": 0,
+          "explanation": "Hábito molesto pasado: past continuous."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Responde «yo también» o «yo tampoco», o corrige el error.",
+      "items": [
+        {
+          "id": "b2_always_so_neither.201",
+          "prompt": "Yo también",
+          "source": "I'm hungry.",
+          "answers": [
+            "So am I"
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.202",
+          "prompt": "Yo también",
+          "source": "I live near here.",
+          "answers": [
+            "So do I"
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.203",
+          "prompt": "Yo tampoco",
+          "source": "I can't drive.",
+          "answers": [
+            "Neither can I",
+            "Nor can I"
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.204",
+          "prompt": "Yo tampoco",
+          "source": "I didn't see the film.",
+          "answers": [
+            "Neither did I",
+            "Nor did I"
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.205",
+          "prompt": "Yo también",
+          "source": "I've been to Dublin.",
+          "answers": [
+            "So have I"
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.206",
+          "prompt": "Queja",
+          "source": "He leaves his socks on the floor. (always)",
+          "answers": [
+            "He's always leaving his socks on the floor",
+            "He is always leaving his socks on the floor"
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.207",
+          "prompt": "Corrige",
+          "source": "I'm tired. — So I am.",
+          "answers": [
+            "So am I"
+          ],
+          "explanation": "Auxiliar + sujeto."
+        },
+        {
+          "id": "b2_always_so_neither.208",
+          "prompt": "Corrige",
+          "source": "I don't like it. — Neither don't I.",
+          "answers": [
+            "Neither do I"
+          ],
+          "explanation": "«Neither» ya es negativo."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_always_so_neither.301",
+          "source": "Estoy agotada. — Yo también.",
+          "answers": [
+            "I'm exhausted. So am I",
+            "I'm exhausted. Me too"
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.302",
+          "source": "No puedo dormir. — Yo tampoco.",
+          "answers": [
+            "I can't sleep. Neither can I",
+            "I can't sleep. Nor can I",
+            "I can't sleep. Me neither"
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.303",
+          "source": "Me encanta su comida. — A mí también.",
+          "answers": [
+            "I love his food. So do I",
+            "I love her food. So do I"
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.304",
+          "source": "No le oí entrar. — Yo tampoco.",
+          "answers": [
+            "I didn't hear him come in. Neither did I",
+            "I didn't hear him come in. Nor did I"
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.305",
+          "source": "¡Siempre está dejando sartenes en el fregadero!",
+          "answers": [
+            "He's always leaving pans in the sink",
+            "He is always leaving pans in the sink"
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.306",
+          "source": "No me gusta el café. — A mí sí.",
+          "answers": [
+            "I don't like coffee. I do"
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.307",
+          "source": "He terminado. — Yo también.",
+          "answers": [
+            "I've finished. So have I"
+          ]
+        },
+        {
+          "id": "b2_always_so_neither.308",
+          "source": "Me encantaría ir. — A mí también.",
+          "answers": [
+            "I'd love to go. So would I"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_always_so_neither.401",
+          "answer": "He's always leaving pans in the sink"
+        },
+        {
+          "id": "b2_always_so_neither.402",
+          "answer": "I'm exhausted. So am I"
+        },
+        {
+          "id": "b2_always_so_neither.403",
+          "answer": "I can't sleep. Neither can I"
+        },
+        {
+          "id": "b2_always_so_neither.404",
+          "answer": "I didn't hear him. Neither did I"
+        },
+        {
+          "id": "b2_always_so_neither.405",
+          "answer": "She was always arriving late"
+        }
+      ]
+    }
+  ]
+}

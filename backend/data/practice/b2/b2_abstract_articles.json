@@ -1,0 +1,452 @@
+{
+  "topic_id": "b2_abstract_articles",
+  "level_id": "B2",
+  "title": "Artículos con nombres abstractos: life o the life",
+  "tags": [
+    "abstract_articles"
+  ],
+  "units": [
+    "what_if"
+  ],
+  "order": 2,
+  "rule": {
+    "title": "Articles with abstract nouns: life or the life?",
+    "explanation": "Con nombres abstractos («life», «love», «happiness», «success», «time», «nature», «education», «history», «music»…) y con nombres en plural o incontables usados en general, el inglés no usa artículo, al contrario que el español:\n- «Life is full of surprises.» (la vida está llena de sorpresas)\n- «Happiness is more important than money.»\n- «History was my favourite subject.»\n- «People are friendly here.» (la gente en general)\n\nSe usa «the» cuando el nombre se refiere a algo concreto, normalmente con algo que lo define detrás («of…», una oración de relativo):\n- «The life I have now is very different.»\n- «The history of Bristol is fascinating.»\n- «The people in my building are very friendly.»\n- «The music they play is too loud.»\n\nComo regla práctica: en general, sin artículo; algo concreto, definido, «the».\n\nOjo: también sin artículo las asignaturas, los idiomas, las comidas y los deportes: «I study history», «Spanish is easy», «We have lunch at one», «I play tennis».",
+    "table": {
+      "headers": [
+        "En general (sin artículo)",
+        "Concreto (the)"
+      ],
+      "rows": [
+        [
+          "Life is short.",
+          "The life of a nurse is hard."
+        ],
+        [
+          "Love is blind.",
+          "The love she felt was real."
+        ],
+        [
+          "History is interesting.",
+          "The history of Bristol is fascinating."
+        ],
+        [
+          "People are kind.",
+          "The people next door are kind."
+        ],
+        [
+          "Music relaxes me.",
+          "The music at the party was great."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Escribe «the» si hace falta. Si no hace falta artículo, escribe «x».",
+      "items": [
+        {
+          "id": "b2_abstract_articles.001",
+          "sentence": "___ life is full of surprises.",
+          "answers": [
+            [
+              "x"
+            ]
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.002",
+          "sentence": "___ life I have now is very different from my old life.",
+          "answers": [
+            [
+              "The"
+            ]
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.003",
+          "sentence": "I think ___ happiness is more important than money.",
+          "answers": [
+            [
+              "x"
+            ]
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.004",
+          "sentence": "___ history of the bridge is fascinating.",
+          "answers": [
+            [
+              "The"
+            ]
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.005",
+          "sentence": "At school, ___ history was my favourite subject.",
+          "answers": [
+            [
+              "x"
+            ]
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.006",
+          "sentence": "___ people in Bristol are very friendly. (los de aquí)",
+          "answers": [
+            [
+              "The"
+            ]
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.007",
+          "sentence": "___ love is the most important thing in the world.",
+          "answers": [
+            [
+              "x"
+            ]
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.008",
+          "sentence": "___ music at the party was terrible.",
+          "answers": [
+            [
+              "The"
+            ]
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.009",
+          "sentence": "I love ___ nature. I go walking every weekend.",
+          "answers": [
+            [
+              "x"
+            ]
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.010",
+          "sentence": "___ education should be free for everyone.",
+          "answers": [
+            [
+              "x"
+            ]
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.011",
+          "sentence": "___ success of the project surprised everyone.",
+          "answers": [
+            [
+              "The"
+            ]
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.012",
+          "sentence": "___ time flies when you're having fun.",
+          "answers": [
+            [
+              "x"
+            ]
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.013",
+          "sentence": "___ time we spent in Galway was wonderful.",
+          "answers": [
+            [
+              "The"
+            ]
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.014",
+          "sentence": "___ people are generally kind. (en general)",
+          "answers": [
+            [
+              "x"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_abstract_articles.101",
+          "question": "La vida está llena de sorpresas.",
+          "options": [
+            "Life is full of surprises.",
+            "The life is full of surprises."
+          ],
+          "answer": 0,
+          "explanation": "En general: sin artículo."
+        },
+        {
+          "id": "b2_abstract_articles.102",
+          "question": "La vida que tengo ahora es distinta.",
+          "options": [
+            "The life I have now is different.",
+            "Life I have now is different."
+          ],
+          "answer": 0,
+          "explanation": "Concreta: «the»."
+        },
+        {
+          "id": "b2_abstract_articles.103",
+          "question": "La felicidad es más importante que el dinero.",
+          "options": [
+            "Happiness is more important than money.",
+            "The happiness is more important than the money."
+          ],
+          "answer": 0,
+          "explanation": "En general: sin artículo."
+        },
+        {
+          "id": "b2_abstract_articles.104",
+          "question": "La historia de Bristol es fascinante.",
+          "options": [
+            "The history of Bristol is fascinating.",
+            "History of Bristol is fascinating."
+          ],
+          "answer": 0,
+          "explanation": "Concreta, con «of»: «the»."
+        },
+        {
+          "id": "b2_abstract_articles.105",
+          "question": "Me encanta la música.",
+          "options": [
+            "I love music.",
+            "I love the music."
+          ],
+          "answer": 0,
+          "explanation": "En general: sin artículo."
+        },
+        {
+          "id": "b2_abstract_articles.106",
+          "question": "La gente de mi edificio es simpática.",
+          "options": [
+            "The people in my building are friendly.",
+            "People in my building is friendly."
+          ],
+          "answer": 0,
+          "explanation": "Concreta: «the»."
+        },
+        {
+          "id": "b2_abstract_articles.107",
+          "question": "Estudio historia.",
+          "options": [
+            "I study history.",
+            "I study the history."
+          ],
+          "answer": 0,
+          "explanation": "Asignatura: sin artículo."
+        },
+        {
+          "id": "b2_abstract_articles.108",
+          "question": "El amor es ciego.",
+          "options": [
+            "Love is blind.",
+            "The love is blind."
+          ],
+          "answer": 0,
+          "explanation": "En general: sin artículo."
+        },
+        {
+          "id": "b2_abstract_articles.109",
+          "question": "El tiempo que pasamos juntos fue genial.",
+          "options": [
+            "The time we spent together was great.",
+            "Time we spent together was great."
+          ],
+          "answer": 0,
+          "explanation": "Concreto: «the»."
+        },
+        {
+          "id": "b2_abstract_articles.110",
+          "question": "El español es fácil.",
+          "options": [
+            "Spanish is easy.",
+            "The Spanish is easy."
+          ],
+          "answer": 0,
+          "explanation": "Idioma: sin artículo."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Corrige el error.",
+      "items": [
+        {
+          "id": "b2_abstract_articles.201",
+          "prompt": "Corrige",
+          "source": "The life is too short.",
+          "answers": [
+            "Life is too short"
+          ],
+          "explanation": "En general: sin artículo."
+        },
+        {
+          "id": "b2_abstract_articles.202",
+          "prompt": "Corrige",
+          "source": "The happiness is the most important thing.",
+          "answers": [
+            "Happiness is the most important thing"
+          ],
+          "explanation": "En general: sin artículo."
+        },
+        {
+          "id": "b2_abstract_articles.203",
+          "prompt": "Corrige",
+          "source": "History of this city is amazing.",
+          "answers": [
+            "The history of this city is amazing"
+          ],
+          "explanation": "Concreta: «the»."
+        },
+        {
+          "id": "b2_abstract_articles.204",
+          "prompt": "Corrige",
+          "source": "I love the nature.",
+          "answers": [
+            "I love nature"
+          ],
+          "explanation": "En general: sin artículo."
+        },
+        {
+          "id": "b2_abstract_articles.205",
+          "prompt": "Corrige",
+          "source": "People in this office are very friendly. (los de esta oficina)",
+          "answers": [
+            "The people in this office are very friendly"
+          ],
+          "explanation": "Concreta: «the»."
+        },
+        {
+          "id": "b2_abstract_articles.206",
+          "prompt": "Corrige",
+          "source": "The education is very important.",
+          "answers": [
+            "Education is very important"
+          ],
+          "explanation": "En general: sin artículo."
+        },
+        {
+          "id": "b2_abstract_articles.207",
+          "prompt": "Corrige",
+          "source": "I study the English at university.",
+          "answers": [
+            "I study English at university"
+          ],
+          "explanation": "Idioma: sin artículo."
+        },
+        {
+          "id": "b2_abstract_articles.208",
+          "prompt": "Corrige",
+          "source": "Life of a nurse is hard.",
+          "answers": [
+            "The life of a nurse is hard"
+          ],
+          "explanation": "Concreta, con «of»: «the»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_abstract_articles.301",
+          "source": "La vida está llena de sorpresas.",
+          "answers": [
+            "Life is full of surprises"
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.302",
+          "source": "La vida que tengo ahora es muy distinta.",
+          "answers": [
+            "The life I have now is very different"
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.303",
+          "source": "Creo que la felicidad es más importante que el dinero.",
+          "answers": [
+            "I think happiness is more important than money"
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.304",
+          "source": "La historia del puente es fascinante.",
+          "answers": [
+            "The history of the bridge is fascinating"
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.305",
+          "source": "En el colegio, mi asignatura favorita era historia.",
+          "answers": [
+            "At school, my favourite subject was history",
+            "At school, history was my favourite subject"
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.306",
+          "source": "Me encanta la naturaleza.",
+          "answers": [
+            "I love nature"
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.307",
+          "source": "La gente de Bristol es muy simpática.",
+          "answers": [
+            "The people in Bristol are very friendly",
+            "The people of Bristol are very friendly"
+          ]
+        },
+        {
+          "id": "b2_abstract_articles.308",
+          "source": "El tiempo vuela.",
+          "answers": [
+            "Time flies"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_abstract_articles.401",
+          "answer": "Life is full of surprises"
+        },
+        {
+          "id": "b2_abstract_articles.402",
+          "answer": "The history of Bristol is fascinating"
+        },
+        {
+          "id": "b2_abstract_articles.403",
+          "answer": "Happiness is more important than money"
+        },
+        {
+          "id": "b2_abstract_articles.404",
+          "answer": "The people in my building are friendly"
+        },
+        {
+          "id": "b2_abstract_articles.405",
+          "answer": "I love music and nature"
+        }
+      ]
+    }
+  ]
+}

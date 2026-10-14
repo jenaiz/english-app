@@ -1,0 +1,463 @@
+{
+  "topic_id": "b2_past_modals",
+  "level_id": "B2",
+  "title": "Modales en pasado: must have, can't have, needn't have…",
+  "tags": [
+    "past_modals"
+  ],
+  "units": [
+    "missing_laptop"
+  ],
+  "order": 1,
+  "rule": {
+    "title": "Modals in the past",
+    "explanation": "Para deducir qué pasó usamos modal + «have» + participio:\n- «must have» = seguro que pasó: «You must have left it somewhere.»\n- «can't have» / «couldn't have» = seguro que no pasó: «I can't have left it in the taxi.»\n- «might», «may» o «could have» = quizá pasó: «You might have left it in the taxi.»\n\nOtros usos muy frecuentes:\n- «could have» = era posible, pero no pasó: «I could have lost the whole demo.»\n- «could have» = reproche: «You could have told me!»\n- «should have» / «shouldn't have» = crítica o arrepentimiento: «You should have kept it in your bag.»\n\n«Needn't have» + participio: hiciste algo que al final no hacía falta. «Didn't need to» + verbo: no era necesario, y normalmente no se hizo:\n- «You needn't have worried. The laptop was safe.»\n- «We didn't need to call the police.»\n\n«Should have» + participio también es lo que esperábamos y no ha pasado:\n- «The parcel should have arrived by now.»\n\nOjo: siempre «have» + participio, nunca «had» ni el pasado simple («must have gone», no «must have went»).",
+    "table": {
+      "headers": [
+        "Modal + have",
+        "Significado",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "must have",
+          "seguro que pasó",
+          "He must have forgotten."
+        ],
+        [
+          "can't have",
+          "seguro que no pasó",
+          "She can't have seen it."
+        ],
+        [
+          "might / could have",
+          "quizá pasó",
+          "They might have left."
+        ],
+        [
+          "could have",
+          "pudo pasar y no pasó",
+          "I could have fallen."
+        ],
+        [
+          "should have",
+          "crítica, arrepentimiento",
+          "You should have asked."
+        ],
+        [
+          "needn't have",
+          "no hacía falta (y se hizo)",
+          "You needn't have come."
+        ]
+      ]
+    }
+  },
+  "sets": [
+    {
+      "type": "fill_blanks",
+      "instructions": "Completa con el modal + «have» correcto o el participio.",
+      "items": [
+        {
+          "id": "b2_past_modals.001",
+          "sentence": "You must have ___ it somewhere. (leave)",
+          "answers": [
+            [
+              "left"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_modals.002",
+          "sentence": "I ___ have left it in the taxi. I remember holding it.",
+          "answers": [
+            [
+              "can't"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_modals.003",
+          "sentence": "You ___ have left it in the taxi. (quizá)",
+          "answers": [
+            [
+              "might",
+              "may",
+              "could"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_modals.004",
+          "sentence": "Someone must have ___ it up by mistake. (pick)",
+          "answers": [
+            [
+              "picked"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_modals.005",
+          "sentence": "You ___ have kept it in your bag. (crítica)",
+          "answers": [
+            [
+              "should"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_modals.006",
+          "sentence": "I could have ___ the whole demo. (lose)",
+          "answers": [
+            [
+              "lost"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_modals.007",
+          "sentence": "He's not answering. He must have ___ asleep. (fall)",
+          "answers": [
+            [
+              "fallen"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_modals.008",
+          "sentence": "I ___ have eaten so much. I feel sick.",
+          "answers": [
+            [
+              "shouldn't"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_modals.009",
+          "sentence": "You ___ have worried. The laptop was under a chair all the time.",
+          "answers": [
+            [
+              "needn't"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_modals.010",
+          "sentence": "We didn't ___ to call the police, because the receptionist had it.",
+          "answers": [
+            [
+              "need"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_modals.011",
+          "sentence": "You ___ have told me earlier! I was so worried. (reproche)",
+          "answers": [
+            [
+              "could"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_modals.012",
+          "sentence": "We ___ have brought so much food. Nobody was hungry.",
+          "answers": [
+            [
+              "needn't"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_modals.013",
+          "sentence": "The parcel ___ have arrived by now. Where is it? (expectativa)",
+          "answers": [
+            [
+              "should"
+            ]
+          ]
+        },
+        {
+          "id": "b2_past_modals.014",
+          "sentence": "She can't have ___ the email. She never replies so fast. (read)",
+          "answers": [
+            [
+              "read"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instructions": "¿Qué frase es correcta?",
+      "items": [
+        {
+          "id": "b2_past_modals.101",
+          "question": "Debes de haberlo dejado en algún sitio.",
+          "options": [
+            "You must have left it somewhere.",
+            "You must had left it somewhere."
+          ],
+          "answer": 0,
+          "explanation": "«must have» + participio."
+        },
+        {
+          "id": "b2_past_modals.102",
+          "question": "No puede haberlo cogido.",
+          "options": [
+            "He can't have taken it.",
+            "He mustn't have taken it."
+          ],
+          "answer": 0,
+          "explanation": "Seguro que no: «can't have»."
+        },
+        {
+          "id": "b2_past_modals.103",
+          "question": "Puede que se haya olvidado.",
+          "options": [
+            "She might have forgotten.",
+            "She might have forgot."
+          ],
+          "answer": 0,
+          "explanation": "Participio: «forgotten»."
+        },
+        {
+          "id": "b2_past_modals.104",
+          "question": "No hacía falta que te preocuparas (y te preocupaste).",
+          "options": [
+            "You needn't have worried.",
+            "You didn't need to worry, and you didn't."
+          ],
+          "answer": 0,
+          "explanation": "«needn't have»."
+        },
+        {
+          "id": "b2_past_modals.105",
+          "question": "Deberías haberme llamado.",
+          "options": [
+            "You should have called me.",
+            "You should called me."
+          ],
+          "answer": 0,
+          "explanation": "Falta «have»."
+        },
+        {
+          "id": "b2_past_modals.106",
+          "question": "Podría haberlo perdido todo.",
+          "options": [
+            "I could have lost everything.",
+            "I could lose everything yesterday."
+          ],
+          "answer": 0,
+          "explanation": "Pudo pasar y no pasó."
+        },
+        {
+          "id": "b2_past_modals.107",
+          "question": "El paquete debería haber llegado ya.",
+          "options": [
+            "The parcel should have arrived by now.",
+            "The parcel must arrive by now."
+          ],
+          "answer": 0,
+          "explanation": "Lo esperado que no ha pasado."
+        },
+        {
+          "id": "b2_past_modals.108",
+          "question": "Se habrá ido a casa (seguro).",
+          "options": [
+            "He must have gone home.",
+            "He must have went home."
+          ],
+          "answer": 0,
+          "explanation": "Participio: «gone»."
+        },
+        {
+          "id": "b2_past_modals.109",
+          "question": "No hizo falta llamar a la policía.",
+          "options": [
+            "We didn't need to call the police.",
+            "We needn't to call the police."
+          ],
+          "answer": 0,
+          "explanation": "No se hizo: «didn't need to»."
+        },
+        {
+          "id": "b2_past_modals.110",
+          "question": "¡Podrías habérmelo dicho!",
+          "options": [
+            "You could have told me!",
+            "You could told me!"
+          ],
+          "answer": 0,
+          "explanation": "Reproche: «could have»."
+        }
+      ]
+    },
+    {
+      "type": "transformation",
+      "instructions": "Reescribe con un modal + «have».",
+      "items": [
+        {
+          "id": "b2_past_modals.201",
+          "prompt": "must have",
+          "source": "I'm sure you left it at the conference.",
+          "answers": [
+            "You must have left it at the conference"
+          ]
+        },
+        {
+          "id": "b2_past_modals.202",
+          "prompt": "can't have",
+          "source": "It's impossible that he took it.",
+          "answers": [
+            "He can't have taken it",
+            "He couldn't have taken it"
+          ]
+        },
+        {
+          "id": "b2_past_modals.203",
+          "prompt": "might have",
+          "source": "Maybe she forgot.",
+          "answers": [
+            "She might have forgotten",
+            "She may have forgotten"
+          ]
+        },
+        {
+          "id": "b2_past_modals.204",
+          "prompt": "should have",
+          "source": "It was a mistake not to keep it in your bag.",
+          "answers": [
+            "You should have kept it in your bag"
+          ]
+        },
+        {
+          "id": "b2_past_modals.205",
+          "prompt": "needn't have",
+          "source": "You brought food, but it wasn't necessary.",
+          "answers": [
+            "You needn't have brought food"
+          ]
+        },
+        {
+          "id": "b2_past_modals.206",
+          "prompt": "could have",
+          "source": "It was possible for me to lose everything, but I didn't.",
+          "answers": [
+            "I could have lost everything"
+          ]
+        },
+        {
+          "id": "b2_past_modals.207",
+          "prompt": "Corrige",
+          "source": "He must have went home early.",
+          "answers": [
+            "He must have gone home early"
+          ],
+          "explanation": "Participio: «gone»."
+        },
+        {
+          "id": "b2_past_modals.208",
+          "prompt": "Corrige",
+          "source": "You should had asked me.",
+          "answers": [
+            "You should have asked me"
+          ],
+          "explanation": "Siempre «have»."
+        }
+      ]
+    },
+    {
+      "type": "translation",
+      "instructions": "Traduce al inglés.",
+      "items": [
+        {
+          "id": "b2_past_modals.301",
+          "source": "Debes de haberlo dejado en algún sitio.",
+          "answers": [
+            "You must have left it somewhere"
+          ]
+        },
+        {
+          "id": "b2_past_modals.302",
+          "source": "No puede haber desaparecido.",
+          "answers": [
+            "It can't have disappeared"
+          ]
+        },
+        {
+          "id": "b2_past_modals.303",
+          "source": "Puede que se lo haya llevado alguien.",
+          "answers": [
+            "Someone might have taken it",
+            "Somebody might have taken it",
+            "Someone may have taken it"
+          ]
+        },
+        {
+          "id": "b2_past_modals.304",
+          "source": "Deberías haberme llamado.",
+          "answers": [
+            "You should have called me",
+            "You should have phoned me"
+          ]
+        },
+        {
+          "id": "b2_past_modals.305",
+          "source": "Podría haberlo perdido todo.",
+          "answers": [
+            "I could have lost everything"
+          ]
+        },
+        {
+          "id": "b2_past_modals.306",
+          "source": "No hacía falta que trajeras nada.",
+          "answers": [
+            "You needn't have brought anything"
+          ]
+        },
+        {
+          "id": "b2_past_modals.307",
+          "source": "El paquete debería haber llegado ya.",
+          "answers": [
+            "The parcel should have arrived by now",
+            "The parcel should have arrived already"
+          ]
+        },
+        {
+          "id": "b2_past_modals.308",
+          "source": "¡Podrías habérmelo dicho!",
+          "answers": [
+            "You could have told me"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "word_order",
+      "instructions": "Ordena las palabras.",
+      "items": [
+        {
+          "id": "b2_past_modals.401",
+          "answer": "You must have left it somewhere"
+        },
+        {
+          "id": "b2_past_modals.402",
+          "answer": "I can't have left it in the taxi"
+        },
+        {
+          "id": "b2_past_modals.403",
+          "answer": "You needn't have worried"
+        },
+        {
+          "id": "b2_past_modals.404",
+          "answer": "You should have kept it in your bag"
+        },
+        {
+          "id": "b2_past_modals.405",
+          "answer": "The parcel should have arrived by now"
+        }
+      ]
+    }
+  ]
+}
