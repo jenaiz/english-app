@@ -23,5 +23,6 @@ Las explicaciones (reglas, instrucciones, `explanation` y `hint` de los ítems) 
 Los libros de `assets/` (Grammar in Use y otros, en `.gitignore`) son solo referencia de temas y formatos. No se copia ningún ejemplo ni ejercicio.
 
 ## Trabajo
+- `docs/pruebas.md` es el checklist de beta tester del usuario: al añadir una función o temas de práctica, añade sus casillas ahí sin tocar las que ya estén marcadas ni sus notas.
 - Al terminar cada parte: revisarla, reiniciar el backend de desarrollo (`docker compose -f docker-compose.dev.yml restart backend`; el frontend recarga solo) y hacer commit si todo funciona.
 - Tests: `cd backend && go test ./...`; frontend: `cd frontend && npx tsc -b` (o `npm run build`).
