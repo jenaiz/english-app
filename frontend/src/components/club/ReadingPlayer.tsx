@@ -23,7 +23,7 @@ export default function ReadingPlayer({ content, onFinish }: Props) {
   const [testing, setTesting] = useState(false)
   // 0 is the comprehension test; 1… are the exam practice parts.
   const [stage, setStage] = useState(0)
-  const total = useRef<Required<ExerciseResult>>({ correct: 0, total: 0, byTag: {} })
+  const total = useRef<Required<ExerciseResult>>({ correct: 0, total: 0, byTag: {}, items: [] })
   const [progress, setProgress] = useState(0)
   const [term, setTerm] = useState<string | null>(null)
   const articleRef = useRef<HTMLElement>(null)

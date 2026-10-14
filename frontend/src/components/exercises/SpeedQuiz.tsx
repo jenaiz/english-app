@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Timer, Zap } from 'lucide-react'
-import type { ExerciseResult, SpeedQuizContent } from '../../types'
+import type { ExerciseResult, ItemOutcome, SpeedQuizContent } from '../../types'
 import { ExerciseDone } from './ExerciseShell'
 
 /** Timed multiple choice: one global countdown, instant feedback, auto-advance. Unanswered items count as wrong. */
@@ -13,6 +13,7 @@ export default function SpeedQuiz({ content, onComplete }: { content: SpeedQuizC
   const [picked, setPicked] = useState<number | null>(null)
   const [result, setResult] = useState<ExerciseResult | null>(null)
   const correctRef = useRef(0)
+  const itemsRef = useRef<ItemOutcome[]>([])
   // Keys 1-9 answer, like a tap. Set during render once the question is known.
   const chooseRef = useRef<((i: number) => void) | null>(null)
   useEffect(() => {
@@ -28,7 +29,10 @@ export default function SpeedQuiz({ content, onComplete }: { content: SpeedQuizC
 
   const finish = () => {
     if (result) return
-    const r = { correct: correctRef.current, total }
+    // Items the clock ran out on count as wrong but are marked, so they are not taken for mistakes.
+    const items = [...itemsRef.current]
+    for (let i = items.length; i < total; i++) items.push({ i, ok: false, timeout: true })
+    const r = { correct: correctRef.current, total, items }
     setResult(r)
     onComplete(r)
   }
@@ -74,6 +78,7 @@ export default function SpeedQuiz({ content, onComplete }: { content: SpeedQuizC
     if (picked !== null) return
     setPicked(i)
     if (i === item.answer) correctRef.current += 1
+    itemsRef.current.push({ i: index, ok: i === item.answer, answer: item.options[i] })
     setTimeout(() => {
       setPicked(null)
       if (index + 1 >= total) finish()

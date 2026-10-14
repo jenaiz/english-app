@@ -22,7 +22,7 @@ export default function FillBlanks({ content, onComplete }: { content: ItemsCont
       status={ex.status}
       isLast={ex.isLast}
       canCheck={item.answers.every((_, i) => (values[i] ?? '').trim() !== '')}
-      onCheck={() => ex.grade(item.answers.every((_, i) => blankOk(i)))}
+      onCheck={() => ex.grade(item.answers.every((_, i) => blankOk(i)), item.answers.map((_, i) => values[i] ?? '').join(' | '))}
       onNext={() => {
         setValues([])
         ex.next()

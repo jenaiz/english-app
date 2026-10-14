@@ -36,13 +36,28 @@ func (s *Store) ListProgress(ctx context.Context, userID string) ([]Progress, er
 	return out, rows.Err()
 }
 
-// CompleteLessons marks lessons as completed, keeping the best score.
-func (s *Store) CompleteLessons(ctx context.Context, userID, unitID string, lessonIDs []string, score int) error {
+// AttemptStep is one graded exercise of a finished lesson.
+type AttemptStep struct {
+	Step int    `json:"step"`
+	Type string `json:"type"`
+	StepResult
+}
+
+// CompleteLessons marks lessons as completed, keeping the best score. With steps (one lesson
+// finished step by step, not a whole unit marked done), it also records the attempt.
+func (s *Store) CompleteLessons(ctx context.Context, userID, unitID string, lessonIDs []string, score int, steps []AttemptStep) error {
 	tx, err := s.pool.Begin(ctx)
 	if err != nil {
 		return err
 	}
 	defer tx.Rollback(ctx)
+	if steps != nil && len(lessonIDs) == 1 {
+		if _, err := tx.Exec(ctx,
+			`INSERT INTO lesson_attempts (user_id, unit_id, lesson_id, score, steps) VALUES ($1, $2, $3, $4, $5)`,
+			userID, unitID, lessonIDs[0], score, steps); err != nil {
+			return err
+		}
+	}
 	for _, lessonID := range lessonIDs {
 		if _, err := tx.Exec(ctx, `
 			INSERT INTO user_progress (user_id, unit_id, lesson_id, status, score, updated_at)
@@ -58,10 +73,21 @@ func (s *Store) CompleteLessons(ctx context.Context, userID, unitID string, less
 	return tx.Commit(ctx)
 }
 
-// StepResult is the grade of one exercise step: correct items out of total.
+// StepResult is the grade of one exercise step: correct items out of total, and how each
+// item went (absent in positions saved before items were recorded).
 type StepResult struct {
-	Correct int `json:"correct"`
-	Total   int `json:"total"`
+	Correct int           `json:"correct"`
+	Total   int           `json:"total"`
+	Items   []ItemOutcome `json:"items,omitempty"`
+}
+
+// ItemOutcome is one item of an exercise: its index, whether it was right and the learner's
+// answer. Timeout marks speed-quiz items the clock ran out on.
+type ItemOutcome struct {
+	I       int    `json:"i"`
+	OK      bool   `json:"ok"`
+	Answer  string `json:"answer,omitempty"`
+	Timeout bool   `json:"timeout,omitempty"`
 }
 
 // Position is where a learner left a unit: a step of one of its lessons, with the
@@ -128,4 +154,34 @@ func (s *Store) ClearPosition(ctx context.Context, userID, unitID string, lesson
 		`DELETE FROM user_unit_position WHERE user_id = $1 AND unit_id = $2 AND lesson_id = ANY($3)`,
 		userID, unitID, lessonIDs)
 	return err
+}
+
+// LessonAttempt is one finished lesson with how each exercise went.
+type LessonAttempt struct {
+	UnitID     string        `json:"unit_id"`
+	LessonID   string        `json:"lesson_id"`
+	Score      int           `json:"score"`
+	Steps      []AttemptStep `json:"steps"`
+	FinishedAt time.Time     `json:"finished_at"`
+}
+
+// ListLessonAttempts returns the learner's lesson attempts, newest first; unitID narrows them
+// to one unit when not empty.
+func (s *Store) ListLessonAttempts(ctx context.Context, userID, unitID string) ([]LessonAttempt, error) {
+	rows, err := s.pool.Query(ctx,
+		`SELECT unit_id, lesson_id, score, steps, finished_at FROM lesson_attempts
+		 WHERE user_id = $1 AND ($2 = '' OR unit_id = $2) ORDER BY finished_at DESC`, userID, unitID)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+	out := []LessonAttempt{}
+	for rows.Next() {
+		var a LessonAttempt
+		if err := rows.Scan(&a.UnitID, &a.LessonID, &a.Score, &a.Steps, &a.FinishedAt); err != nil {
+			return nil, err
+		}
+		out = append(out, a)
+	}
+	return out, rows.Err()
 }

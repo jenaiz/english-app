@@ -194,7 +194,7 @@ export default function WordOrder({ content, onComplete }: { content: ItemsConte
       status={ex.status}
       isLast={ex.isLast}
       canCheck={picked.length > 0}
-      onCheck={() => ex.grade(isCorrect(built, [item.answer]))}
+      onCheck={() => ex.grade(isCorrect(built, [item.answer]), built)}
       onNext={() => {
         setPicked([])
         ex.next()

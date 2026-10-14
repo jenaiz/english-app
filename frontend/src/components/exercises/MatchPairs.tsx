@@ -94,7 +94,7 @@ export default function MatchPairs({ content, onComplete }: { content: MatchPair
       setWrong(null)
       if (m.length === total) {
         setDone(true)
-        onComplete({ correct: total - missed.size, total })
+        onComplete({ correct: total - missed.size, total, items: content.pairs.map((p, i) => ({ i, ok: !missed.has(p.left) })) })
       }
       return
     }

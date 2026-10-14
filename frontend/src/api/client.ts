@@ -1,4 +1,4 @@
-import type { Activity, AdminStats, AdminUser, AdminUserDetail, ActivityCard, CardKind, ClubSummary, ExamAttempt, ExamAttemptSummary, ExamSummary, UnlockedActivity, ExpressionKind, ExpressionsCatalog, Grade, LevelStudy, LevelSummary, ProgressResponse, ReviewCard, UnitPosition, SavedExpression, SrsSummary, UnitResponse, User } from '../types'
+import type { Activity, AdminStats, AdminUser, AdminUserDetail, ActivityCard, CardKind, ClubSummary, ExamAttempt, ExamAttemptSummary, ExamSummary, ExerciseResult, UnlockedActivity, ExpressionKind, ExpressionsCatalog, Grade, LevelStudy, LevelSummary, ProgressResponse, ReviewCard, UnitPosition, SavedExpression, SrsSummary, UnitResponse, User } from '../types'
 
 export class ApiError extends Error {
   constructor(
@@ -70,11 +70,13 @@ export const api = {
   unit: (levelId: string | null, unitId: string) =>
     request<UnitResponse>(`/levels/${encodeURIComponent(levelId || '-')}/units/${encodeURIComponent(unitId)}`),
   progress: () => request<ProgressResponse>('/progress'),
-  complete: (unitId: string, lessonId?: string, score?: number) =>
+  /** steps: the lesson's exercise results keyed by step index in the lesson, saved as an attempt. */
+  complete: (unitId: string, lessonId?: string, score?: number, steps?: Record<string, ExerciseResult>) =>
     post<{ unit_id: string; completed_lessons: string[]; cards_added: number; unlocked_activities?: UnlockedActivity[] }>('/progress/complete', {
       unit_id: unitId,
       ...(lessonId ? { lesson_id: lessonId } : {}),
       ...(score !== undefined ? { score } : {}),
+      ...(steps ? { steps } : {}),
     }),
   /** Where the learner left a unit half done (null if nowhere). */
   position: (unitId: string) => request<{ position: UnitPosition | null }>(`/progress/position/${encodeURIComponent(unitId)}`),

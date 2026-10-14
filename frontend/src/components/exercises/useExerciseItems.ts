@@ -1,5 +1,5 @@
 import { useCallback, useRef, useState } from 'react'
-import type { ExerciseResult } from '../../types'
+import type { ExerciseResult, ItemOutcome } from '../../types'
 
 export type ItemStatus = 'answering' | 'correct' | 'wrong'
 
@@ -10,19 +10,22 @@ export function useExerciseItems(total: number, onComplete: (r: ExerciseResult) 
   const [done, setDone] = useState(false)
   const correctRef = useRef(0)
   const [correct, setCorrect] = useState(0)
+  const itemsRef = useRef<ItemOutcome[]>([])
 
-  const grade = useCallback((ok: boolean) => {
+  /** Grades the current item; `answer` is what the learner gave, kept for their history. */
+  const grade = useCallback((ok: boolean, answer?: string) => {
+    itemsRef.current.push({ i: index, ok, ...(answer !== undefined && { answer }) })
     if (ok) {
       correctRef.current += 1
       setCorrect(correctRef.current)
     }
     setStatus(ok ? 'correct' : 'wrong')
-  }, [])
+  }, [index])
 
   const next = useCallback(() => {
     if (index + 1 >= total) {
       setDone(true)
-      onComplete({ correct: correctRef.current, total })
+      onComplete({ correct: correctRef.current, total, items: itemsRef.current })
     } else {
       setIndex((i) => i + 1)
       setStatus('answering')

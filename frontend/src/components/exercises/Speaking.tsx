@@ -28,7 +28,7 @@ export default function Speaking({ content, onComplete }: { content: ItemsConten
       status={ex.status}
       isLast={ex.isLast}
       canCheck={answer.trim() !== '' && !rec.listening}
-      onCheck={() => ex.grade(typing ? isCorrect(typed, [item.text]) : score >= PASS)}
+      onCheck={() => ex.grade(typing ? isCorrect(typed, [item.text]) : score >= PASS, answer)}
       onNext={() => {
         rec.reset()
         setTyped('')

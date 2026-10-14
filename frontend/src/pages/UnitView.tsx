@@ -7,6 +7,7 @@ import UnitExpressions from '../components/expressions/UnitExpressions'
 import { LessonFlowContext } from '../components/exercises/LessonFlow'
 import StepRenderer, { EXERCISE_TYPES } from '../components/steps/StepRenderer'
 import { flattenUnits, type UnitEntry } from '../lib/levels'
+import { stepMistakes, type Mistake } from '../lib/mistakes'
 import { PHASES } from '../lib/phases'
 import type { ExerciseResult, Phase, Step, Unit, UnitResponse, UnitSummary, UnlockedActivity, VocabularyTableContent } from '../types'
 import CompletionHeader from '../components/ui/CompletionHeader'
@@ -48,6 +49,8 @@ interface LessonSummary {
   /** Club activities this lesson unlocked (finishing a unit or passing a checkpoint). */
   unlocked: UnlockedActivity[]
   isTest: boolean
+  /** Items the learner got wrong in this lesson, in order. */
+  mistakes: Mistake[]
   /** Every lesson of the unit is completed (not just this one, which may be the last). */
   unitDone: boolean
   /** The next lesson not completed yet, in course order; null when the whole course is done. */
@@ -304,15 +307,17 @@ export default function UnitView() {
     let correct = 0
     let total = 0
     // From the ref: the last exercise may have reported its result in this same click.
-    for (const s of lessonSteps) {
+    const attempt: Record<string, ExerciseResult> = {}
+    lessonSteps.forEach((s, k) => {
       const r = resultsRef.current[s.i]
       if (r) {
         correct += r.correct
         total += r.total
+        attempt[k] = r
       }
-    }
+    })
     const score = total ? Math.round((correct / total) * 100) : 100
-    const res = await api.complete(unit.unit_id, current.lessonId, score)
+    const res = await api.complete(unit.unit_id, current.lessonId, score, attempt)
     if (res.cards_added > 0) window.dispatchEvent(new Event('srs-changed'))
     if (res.unlocked_activities?.length) window.dispatchEvent(new Event('club-changed'))
     // Lessons completed in the whole course, to skip them when proposing the next one.
@@ -331,6 +336,7 @@ export default function UnitView() {
       cardsAdded: res.cards_added,
       unlocked: res.unlocked_activities ?? [],
       isTest: current.isTest,
+      mistakes: lessonSteps.flatMap((s) => (resultsRef.current[s.i] ? stepMistakes(s.step, resultsRef.current[s.i]) : [])),
       unitDone: unit.lessons.every((l) => completed.has(l.lesson_id)),
       // If the course list failed to load, at least look in this unit.
       next: nextIncomplete(course.length ? course : [{ unit: summaryOf(unit), levelId: data.level_id, themeTitle: '' }], current.lessonId, completed),
@@ -536,6 +542,8 @@ function LessonComplete({
         </div>
       </div>
 
+      <MistakeList mistakes={summary.mistakes} />
+
       <UnlockReveal activities={summary.unlocked} />
 
       <div className="mt-8 space-y-3">
@@ -565,6 +573,31 @@ function LessonComplete({
         </div>
       </div>
     </div>
+  )
+}
+
+/** What went wrong in the lesson, so the learner sees it before moving on. */
+function MistakeList({ mistakes }: { mistakes: Mistake[] }) {
+  if (!mistakes.length) return null
+  return (
+    <details className="mt-6 rounded-2xl border border-slate-200 bg-white text-left" open={mistakes.length <= 5}>
+      <summary className="cursor-pointer px-5 py-4 font-semibold text-slate-800">
+        {mistakes.length === 1 ? '1 fallo para repasar' : `${mistakes.length} fallos para repasar`}
+      </summary>
+      <ul className="divide-y divide-slate-100 border-t border-slate-100">
+        {mistakes.map((m, i) => (
+          <li key={i} className="px-5 py-3 text-sm">
+            <p className="text-slate-500">{m.prompt}</p>
+            {m.answer && (
+              <p className="mt-1 text-red-600">
+                <span className="line-through">{m.answer}</span>
+              </p>
+            )}
+            <p className="mt-0.5 font-semibold text-emerald-700">{m.correct}</p>
+          </li>
+        ))}
+      </ul>
+    </details>
   )
 }
 

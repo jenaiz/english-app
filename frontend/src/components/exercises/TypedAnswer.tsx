@@ -33,7 +33,7 @@ export default function TypedAnswer<T extends ItemBase>({ content, onComplete, a
       status={ex.status}
       isLast={ex.isLast}
       canCheck={value.trim() !== ''}
-      onCheck={() => ex.grade(isCorrect(value, accepted(item)))}
+      onCheck={() => ex.grade(isCorrect(value, accepted(item)), value)}
       onNext={() => {
         setValue('')
         ex.next()

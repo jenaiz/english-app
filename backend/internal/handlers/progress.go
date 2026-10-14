@@ -63,6 +63,8 @@ type completeRequest struct {
 	UnitID   string `json:"unit_id"`
 	LessonID string `json:"lesson_id,omitempty"`
 	Score    int    `json:"score,omitempty"`
+	// Steps are the lesson's graded exercises keyed by step index, saved as an attempt.
+	Steps map[string]store.StepResult `json:"steps,omitempty"`
 }
 
 func (h *ProgressHandler) Complete(w http.ResponseWriter, r *http.Request) {
@@ -82,19 +84,28 @@ func (h *ProgressHandler) Complete(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var lessonIDs []string
+	var attempt []store.AttemptStep
 	if in.LessonID != "" {
-		if !ref.Unit.HasLesson(in.LessonID) {
+		lesson, ok := h.Catalog.Lesson(in.LessonID)
+		if !ok || lesson.Unit.UnitID != in.UnitID {
 			writeError(w, http.StatusNotFound, "lesson not found in unit")
 			return
 		}
 		lessonIDs = []string{in.LessonID}
+		if in.Steps != nil {
+			if !validResults(in.Steps, lesson.Lesson.Steps) {
+				writeError(w, http.StatusBadRequest, "invalid steps")
+				return
+			}
+			attempt = attemptSteps(in.Steps, lesson.Lesson.Steps)
+		}
 	} else {
 		for _, l := range ref.Unit.Lessons {
 			lessonIDs = append(lessonIDs, l.LessonID)
 		}
 	}
 
-	if err := h.Store.CompleteLessons(r.Context(), auth.UserID(r.Context()), in.UnitID, lessonIDs, in.Score); err != nil {
+	if err := h.Store.CompleteLessons(r.Context(), auth.UserID(r.Context()), in.UnitID, lessonIDs, in.Score, attempt); err != nil {
 		log.Printf("complete lessons: %v", err)
 		writeError(w, http.StatusInternalServerError, "internal error")
 		return
@@ -170,12 +181,9 @@ func (h *ProgressHandler) SavePosition(w http.ResponseWriter, r *http.Request) {
 		writeError(w, http.StatusBadRequest, "step out of range")
 		return
 	}
-	for k, res := range in.Results {
-		i, err := strconv.Atoi(k)
-		if err != nil || i < 0 || i >= steps || res.Correct < 0 || res.Total < res.Correct {
-			writeError(w, http.StatusBadRequest, "invalid results")
-			return
-		}
+	if !validResults(in.Results, ref.Lesson.Steps) {
+		writeError(w, http.StatusBadRequest, "invalid results")
+		return
 	}
 	p := store.Position{LessonID: in.LessonID, Step: in.Step, Results: in.Results}
 	if err := h.Store.SavePosition(r.Context(), auth.UserID(r.Context()), in.UnitID, p); err != nil {
@@ -184,4 +192,38 @@ func (h *ProgressHandler) SavePosition(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	w.WriteHeader(http.StatusNoContent)
+}
+
+// maxAnswer caps a saved answer: enough for any sentence, not a place to store anything else.
+const maxAnswer = 300
+
+// validResults checks exercise results keyed by step index within a lesson, and cuts answers
+// longer than maxAnswer (a long answer is no reason to lose the lesson).
+func validResults(results map[string]store.StepResult, steps []content.Step) bool {
+	for k, res := range results {
+		i, err := strconv.Atoi(k)
+		if err != nil || i < 0 || i >= len(steps) || res.Correct < 0 || res.Total < res.Correct || len(res.Items) > res.Total {
+			return false
+		}
+		for j, it := range res.Items {
+			if it.I < 0 || it.I >= res.Total {
+				return false
+			}
+			if r := []rune(it.Answer); len(r) > maxAnswer {
+				res.Items[j].Answer = string(r[:maxAnswer])
+			}
+		}
+	}
+	return true
+}
+
+// attemptSteps lists a lesson's results in step order, with each step's exercise type.
+func attemptSteps(results map[string]store.StepResult, steps []content.Step) []store.AttemptStep {
+	out := []store.AttemptStep{}
+	for i, step := range steps {
+		if res, ok := results[strconv.Itoa(i)]; ok {
+			out = append(out, store.AttemptStep{Step: i, Type: step.Type, StepResult: res})
+		}
+	}
+	return out
 }

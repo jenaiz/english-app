@@ -216,9 +216,20 @@ export interface GrammarTable {
   rows: string[][]
 }
 
+/** How one item of an exercise went: its index, whether it was right and what the learner gave. */
+export interface ItemOutcome {
+  i: number
+  ok: boolean
+  answer?: string
+  /** Speed quiz: the time ran out before this item was answered. */
+  timeout?: boolean
+}
+
 export interface ExerciseResult {
   correct: number
   total: number
+  /** Each item's outcome, saved with the lesson attempt so mistakes can be reviewed and practised. */
+  items?: ItemOutcome[]
   /** Per exam topic, for exercises whose blanks are tagged (Club games). */
   byTag?: Record<string, { correct: number; total: number }>
 }

@@ -37,7 +37,7 @@ export default function MultipleChoice({ content, onComplete }: { content: Items
       status={ex.status}
       isLast={ex.isLast}
       canCheck={selected !== null}
-      onCheck={() => ex.grade(selected === item.answer)}
+      onCheck={() => ex.grade(selected === item.answer, item.options[selected!])}
       onNext={() => {
         setSelected(null)
         ex.next()

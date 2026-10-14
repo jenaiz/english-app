@@ -17,7 +17,7 @@ export default function VerbCloze({ content, onComplete }: { content: VerbClozeC
   const [status, setStatus] = useState<ItemStatus>('answering')
   const [values, setValues] = useState<string[]>([])
   const [done, setDone] = useState(false)
-  const score = useRef<Required<ExerciseResult>>({ correct: 0, total: 0, byTag: {} })
+  const score = useRef<Required<ExerciseResult>>({ correct: 0, total: 0, byTag: {}, items: [] })
 
   if (done) return <ExerciseDone correct={score.current.correct} total={score.current.total} />
 
@@ -31,6 +31,7 @@ export default function VerbCloze({ content, onComplete }: { content: VerbClozeC
     const right = item.answers.filter((_, i) => blankOk(i)).length
     score.current.correct += right
     score.current.total += item.answers.length
+    score.current.items.push({ i: index, ok: right === item.answers.length, answer: item.answers.map((_, i) => values[i] ?? '').join(' | ') })
     item.tags?.forEach((tag, i) => {
       const t = (score.current.byTag[tag] ??= { correct: 0, total: 0 })
       t.total++
