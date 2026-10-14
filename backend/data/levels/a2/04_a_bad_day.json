@@ -71,6 +71,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "past_continuous",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -104,7 +105,8 @@
                           "a man on the bus",
                           "Sam"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -199,6 +201,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "past_continuous",
                     "instructions": "Completa con past continuous o past simple.",
                     "items": [
                       {
@@ -273,6 +276,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "past_continuous",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -297,6 +301,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "sequencing_adverbs",
                     "instructions": "Completa con un conector («first», «then», «finally») o con el adverbio de la palabra entre paréntesis.",
                     "items": [
                       {
@@ -365,6 +370,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "past_continuous",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

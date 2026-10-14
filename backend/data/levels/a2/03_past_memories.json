@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "past_simple",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -113,7 +114,8 @@
                           "Lucía",
                           "Sam"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -208,6 +210,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "past_simple",
                     "instructions": "Completa con el verbo en past simple.",
                     "items": [
                       {
@@ -283,6 +286,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "past_simple",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -307,6 +311,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "used_to",
                     "instructions": "Completa con «used to», «use to» o la forma correcta.",
                     "items": [
                       {
@@ -339,7 +344,8 @@
                           [
                             "gave"
                           ]
-                        ]
+                        ],
+                        "tag": "past_simple"
                       },
                       {
                         "sentence": "I ___ to have long hair, but now it's short.",
@@ -356,7 +362,8 @@
                             "worked",
                             "used to work"
                           ]
-                        ]
+                        ],
+                        "tag": "past_simple"
                       }
                     ]
                   }
@@ -365,6 +372,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "past_simple",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -597,7 +605,8 @@
                           "makes",
                           "is making"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "present_simple_continuous"
                       },
                       {
                         "question": "Priya usually ___ at six.",
@@ -605,7 +614,8 @@
                           "gets up",
                           "is getting up"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "present_simple_continuous"
                       },
                       {
                         "question": "I ___ more sleep.",
@@ -613,7 +623,8 @@
                           "need",
                           "am needing"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "present_simple_continuous"
                       },
                       {
                         "question": "How ___ money do you want to spend?",
@@ -621,7 +632,8 @@
                           "much",
                           "many"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "quantifiers"
                       },
                       {
                         "question": "How much ___ these jeans?",
@@ -629,7 +641,8 @@
                           "is",
                           "are"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "quantifiers"
                       },
                       {
                         "question": "It's ___ big for me.",
@@ -637,7 +650,8 @@
                           "too",
                           "very"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "quantifiers"
                       },
                       {
                         "question": "I ___ go to university.",
@@ -645,7 +659,8 @@
                           "didn't",
                           "wasn't"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "past_simple"
                       },
                       {
                         "question": "Why did you ___ Spain?",
@@ -653,7 +668,8 @@
                           "left",
                           "leave"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "past_simple"
                       }
                     ]
                   }
@@ -670,7 +686,8 @@
                           [
                             "am"
                           ]
-                        ]
+                        ],
+                        "tag": "present_simple_continuous"
                       },
                       {
                         "sentence": "How ___ coats are there?",
@@ -678,7 +695,8 @@
                           [
                             "many"
                           ]
-                        ]
+                        ],
+                        "tag": "quantifiers"
                       },
                       {
                         "sentence": "There are a ___ of coats in the sale.",
@@ -686,7 +704,8 @@
                           [
                             "lot"
                           ]
-                        ]
+                        ],
+                        "tag": "quantifiers"
                       },
                       {
                         "sentence": "Can I try it ___?",
@@ -694,7 +713,8 @@
                           [
                             "on"
                           ]
-                        ]
+                        ],
+                        "tag": "phrasal_verbs"
                       },
                       {
                         "sentence": "___ you live near the sea?",
@@ -702,7 +722,8 @@
                           [
                             "Did"
                           ]
-                        ]
+                        ],
+                        "tag": "past_simple"
                       },
                       {
                         "sentence": "My dad ___ me a guitar. (give)",
@@ -710,7 +731,8 @@
                           [
                             "gave"
                           ]
-                        ]
+                        ],
+                        "tag": "past_simple"
                       }
                     ]
                   }
@@ -726,27 +748,31 @@
                         "answers": [
                           "I'm looking for my keys",
                           "I am looking for my keys"
-                        ]
+                        ],
+                        "tag": "present_simple_continuous"
                       },
                       {
                         "source": "¿Cuánto cuesta este abrigo?",
                         "answers": [
                           "How much is this coat",
                           "How much does this coat cost"
-                        ]
+                        ],
+                        "tag": "quantifiers"
                       },
                       {
                         "source": "No vi el mar.",
                         "answers": [
                           "I didn't see the sea",
                           "I did not see the sea"
-                        ]
+                        ],
+                        "tag": "past_simple"
                       },
                       {
                         "source": "¿Dónde creciste?",
                         "answers": [
                           "Where did you grow up"
-                        ]
+                        ],
+                        "tag": "past_simple"
                       }
                     ]
                   }

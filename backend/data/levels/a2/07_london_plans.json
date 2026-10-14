@@ -75,6 +75,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "future_plans",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -108,7 +109,8 @@
                           "He's working at the pub.",
                           "He's ill."
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -199,6 +201,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "future_plans",
                     "instructions": "Completa con «be going to».",
                     "items": [
                       {
@@ -273,6 +276,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "future_plans",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -297,6 +301,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "future_plans",
                     "instructions": "Completa con la forma del present continuous o con «shall».",
                     "items": [
                       {
@@ -355,6 +360,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "future_plans",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

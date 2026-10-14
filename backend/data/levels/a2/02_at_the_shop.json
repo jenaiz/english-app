@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "quantifiers",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -114,7 +115,8 @@
                           "£85",
                           "£14"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -226,6 +228,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "quantifiers",
                     "instructions": "Completa la frase.",
                     "items": [
                       {
@@ -290,7 +293,8 @@
                           [
                             "on"
                           ]
-                        ]
+                        ],
+                        "tag": "phrasal_verbs"
                       }
                     ]
                   }
@@ -299,6 +303,7 @@
                   "phase": "practice",
                   "type": "match_pairs",
                   "content": {
+                    "tag": "vocab_shopping",
                     "instructions": "Une cada palabra con su traducción.",
                     "pairs": [
                       {
@@ -336,6 +341,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "quantifiers",
                     "instructions": "Completa con «all», «both», «most», «none» o «enough».",
                     "items": [
                       {
@@ -393,6 +399,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "quantifiers",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -406,7 +413,8 @@
                         "source": "¿Me lo puedo probar?",
                         "answers": [
                           "Can I try it on"
-                        ]
+                        ],
+                        "tag": "phrasal_verbs"
                       },
                       {
                         "source": "Es demasiado grande.",

@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "present_perfect",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -112,7 +113,8 @@
                           "a coat",
                           "a book"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -258,6 +260,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "present_perfect",
                     "instructions": "Completa con «just», «already», «yet» o el participio.",
                     "items": [
                       {
@@ -331,6 +334,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "present_perfect",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -355,6 +359,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "indefinite_pronouns",
                     "instructions": "Completa con «something», «anything», «nothing», «everything», «somewhere» o «anywhere».",
                     "items": [
                       {
@@ -412,6 +417,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "purpose_infinitive",
                     "instructions": "Completa con «to» o «for».",
                     "items": [
                       {
@@ -469,6 +475,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "present_perfect",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -506,7 +513,8 @@
                         "answers": [
                           "Merry Christmas",
                           "Happy Christmas"
-                        ]
+                        ],
+                        "tag": "vocab_leisure"
                       }
                     ]
                   }
@@ -701,7 +709,8 @@
                           "should",
                           "have"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "should_have_to"
                       },
                       {
                         "question": "I ___ to work on Saturday.",
@@ -709,7 +718,8 @@
                           "have",
                           "should"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "should_have_to"
                       },
                       {
                         "question": "You ___ have to come. It's not necessary.",
@@ -717,7 +727,8 @@
                           "don't",
                           "shouldn't"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "should_have_to"
                       },
                       {
                         "question": "I'd ___ a glass of water, please.",
@@ -725,7 +736,8 @@
                           "like",
                           "love to"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "would_like_verb_to"
                       },
                       {
                         "question": "I decided ___ fly home.",
@@ -733,7 +745,8 @@
                           "to",
                           "flying"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "would_like_verb_to"
                       },
                       {
                         "question": "Would you like to come? — I'd love ___.",
@@ -741,7 +754,8 @@
                           "to",
                           "it"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "would_like_verb_to"
                       },
                       {
                         "question": "I haven't finished ___.",
@@ -749,7 +763,8 @@
                           "yet",
                           "already"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "present_perfect"
                       },
                       {
                         "question": "The taxi has ___ arrived.",
@@ -757,7 +772,8 @@
                           "just",
                           "yet"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "present_perfect"
                       }
                     ]
                   }
@@ -774,7 +790,8 @@
                           [
                             "Should"
                           ]
-                        ]
+                        ],
+                        "tag": "should_have_to"
                       },
                       {
                         "sentence": "Priya ___ to work tonight.",
@@ -782,7 +799,8 @@
                           [
                             "has"
                           ]
-                        ]
+                        ],
+                        "tag": "should_have_to"
                       },
                       {
                         "sentence": "Would you ___ a drink?",
@@ -790,7 +808,8 @@
                           [
                             "like"
                           ]
-                        ]
+                        ],
+                        "tag": "would_like_verb_to"
                       },
                       {
                         "sentence": "I want ___ see my family.",
@@ -798,7 +817,8 @@
                           [
                             "to"
                           ]
-                        ]
+                        ],
+                        "tag": "would_like_verb_to"
                       },
                       {
                         "sentence": "I've ___ packed my clothes. (ya)",
@@ -806,7 +826,8 @@
                           [
                             "already"
                           ]
-                        ]
+                        ],
+                        "tag": "present_perfect"
                       },
                       {
                         "sentence": "Have you checked in ___?",
@@ -814,7 +835,8 @@
                           [
                             "yet"
                           ]
-                        ]
+                        ],
+                        "tag": "present_perfect"
                       }
                     ]
                   }
@@ -829,28 +851,32 @@
                         "source": "Deberías descansar.",
                         "answers": [
                           "You should rest"
-                        ]
+                        ],
+                        "tag": "should_have_to"
                       },
                       {
                         "source": "Me gustaría cenar contigo.",
                         "answers": [
                           "I'd like to have dinner with you",
                           "I would like to have dinner with you"
-                        ]
+                        ],
+                        "tag": "would_like_verb_to"
                       },
                       {
                         "source": "El taxi acaba de llegar.",
                         "answers": [
                           "The taxi has just arrived",
                           "The taxi's just arrived"
-                        ]
+                        ],
+                        "tag": "present_perfect"
                       },
                       {
                         "source": "Todavía no he hecho la maleta.",
                         "answers": [
                           "I haven't packed yet",
                           "I have not packed yet"
-                        ]
+                        ],
+                        "tag": "present_perfect"
                       }
                     ]
                   }

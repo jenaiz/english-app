@@ -71,6 +71,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "should_have_to",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -104,7 +105,8 @@
                           "coffee",
                           "cider"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -211,6 +213,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "should_have_to",
                     "instructions": "Completa con «should», «have to» o sus negativas.",
                     "items": [
                       {
@@ -286,6 +289,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "should_have_to",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -301,7 +305,8 @@
                         "answer": "Should I take something?"
                       },
                       {
-                        "answer": "My throat hurts"
+                        "answer": "My throat hurts",
+                        "tag": "vocab_health"
                       }
                     ]
                   }
@@ -310,6 +315,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "conditionals",
                     "instructions": "Completa la frase condicional.",
                     "items": [
                       {
@@ -378,6 +384,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "should_have_to",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -406,7 +413,8 @@
                           "I've got a headache",
                           "I have a headache",
                           "My head hurts"
-                        ]
+                        ],
+                        "tag": "vocab_health"
                       },
                       {
                         "source": "¿Debería ir al médico?",

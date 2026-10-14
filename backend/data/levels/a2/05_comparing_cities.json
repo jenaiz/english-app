@@ -75,6 +75,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "comparatives",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -107,7 +108,8 @@
                           "Bristol",
                           "Valencia"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -267,6 +269,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "comparatives",
                     "instructions": "Completa con el comparativo.",
                     "items": [
                       {
@@ -340,6 +343,7 @@
                   "phase": "practice",
                   "type": "match_pairs",
                   "content": {
+                    "tag": "comparatives",
                     "instructions": "Une cada adjetivo con su comparativo.",
                     "pairs": [
                       {
@@ -377,6 +381,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "ed_ing",
                     "instructions": "Elige la forma correcta: escribe el adjetivo terminado en «-ed» o «-ing».",
                     "items": [
                       {
@@ -434,6 +439,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "comparatives",
                     "instructions": "Completa con «as», «to», «from», «like» o «alike».",
                     "items": [
                       {
@@ -491,6 +497,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "comparatives",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

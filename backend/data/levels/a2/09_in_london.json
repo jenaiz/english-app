@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "present_perfect",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -111,7 +112,8 @@
                           "Daniel",
                           "Lucía"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -196,6 +198,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "present_perfect",
                     "instructions": "Completa con el present perfect o el past simple.",
                     "items": [
                       {
@@ -270,6 +273,7 @@
                   "phase": "practice",
                   "type": "match_pairs",
                   "content": {
+                    "tag": "present_perfect",
                     "instructions": "Une cada verbo con su participio.",
                     "pairs": [
                       {
@@ -307,6 +311,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "might_probably",
                     "instructions": "Completa con «might», «probably», «perhaps» o «not».",
                     "items": [
                       {
@@ -367,6 +372,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "present_perfect",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -600,7 +606,8 @@
                           "for",
                           "-"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "future_plans"
                       },
                       {
                         "question": "___ Sam going to come?",
@@ -609,7 +616,8 @@
                           "Does",
                           "Will"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "future_plans"
                       },
                       {
                         "question": "\"I'm thirsty.\" — \"I ___ get you some water.\"",
@@ -617,7 +625,8 @@
                           "'ll",
                           "'m going to"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "will"
                       },
                       {
                         "question": "I think it ___ be busy.",
@@ -625,7 +634,8 @@
                           "will",
                           "is"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "will"
                       },
                       {
                         "question": "We ___ find a seat.",
@@ -633,7 +643,8 @@
                           "won't",
                           "don't"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "will"
                       },
                       {
                         "question": "Have you ever ___ to London?",
@@ -641,7 +652,8 @@
                           "been",
                           "went"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "present_perfect"
                       },
                       {
                         "question": "I've never ___ pie and mash.",
@@ -649,7 +661,8 @@
                           "tried",
                           "try"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "present_perfect"
                       },
                       {
                         "question": "I ___ on the London Eye last year.",
@@ -657,7 +670,8 @@
                           "went",
                           "have been"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "present_perfect"
                       }
                     ]
                   }
@@ -674,7 +688,8 @@
                           [
                             "are"
                           ]
-                        ]
+                        ],
+                        "tag": "future_plans"
                       },
                       {
                         "sentence": "Look at those clouds! It's going to ___.",
@@ -682,7 +697,8 @@
                           [
                             "rain"
                           ]
-                        ]
+                        ],
+                        "tag": "future_plans"
                       },
                       {
                         "sentence": "I ___ pay. It was my mistake.",
@@ -691,7 +707,8 @@
                             "will",
                             "'ll"
                           ]
-                        ]
+                        ],
+                        "tag": "will"
                       },
                       {
                         "sentence": "___ it be cold tomorrow?",
@@ -699,7 +716,8 @@
                           [
                             "Will"
                           ]
-                        ]
+                        ],
+                        "tag": "will"
                       },
                       {
                         "sentence": "Priya ___ been here many times.",
@@ -707,7 +725,8 @@
                           [
                             "has"
                           ]
-                        ]
+                        ],
+                        "tag": "present_perfect"
                       },
                       {
                         "sentence": "I've ___ a hundred photos. (take)",
@@ -715,7 +734,8 @@
                           [
                             "taken"
                           ]
-                        ]
+                        ],
+                        "tag": "present_perfect"
                       }
                     ]
                   }
@@ -731,27 +751,31 @@
                         "answers": [
                           "I'm going to book the tickets tonight",
                           "I am going to book the tickets tonight"
-                        ]
+                        ],
+                        "tag": "future_plans"
                       },
                       {
                         "source": "Yo pago.",
                         "answers": [
                           "I'll pay",
                           "I will pay"
-                        ]
+                        ],
+                        "tag": "will"
                       },
                       {
                         "source": "¿Has estado alguna vez en Londres?",
                         "answers": [
                           "Have you ever been to London"
-                        ]
+                        ],
+                        "tag": "present_perfect"
                       },
                       {
                         "source": "Nunca he estado aquí.",
                         "answers": [
                           "I've never been here",
                           "I have never been here"
-                        ]
+                        ],
+                        "tag": "present_perfect"
                       }
                     ]
                   }

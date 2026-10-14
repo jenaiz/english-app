@@ -75,6 +75,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "will",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -108,7 +109,8 @@
                           "They're for the wrong city.",
                           "They're too expensive."
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -222,6 +224,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "will",
                     "instructions": "Completa con «will», «won't» o «going».",
                     "items": [
                       {
@@ -298,6 +301,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "will",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -322,6 +326,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "movement_prepositions",
                     "instructions": "Completa con «into», «out of», «on», «off», «across», «through» o «down».",
                     "items": [
                       {
@@ -388,6 +393,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "will",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

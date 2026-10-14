@@ -75,6 +75,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "would_like_verb_to",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -108,7 +109,8 @@
                           "No, thanks.",
                           "Yes, I love dancing."
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -218,6 +220,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "would_like_verb_to",
                     "instructions": "Completa la frase.",
                     "items": [
                       {
@@ -291,6 +294,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "would_like_verb_to",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -315,6 +319,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "reflexives",
                     "instructions": "Completa con el pronombre reflexivo.",
                     "items": [
                       {
@@ -372,6 +377,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "would_like_verb_to",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

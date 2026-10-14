@@ -71,6 +71,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "present_simple_continuous",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -105,7 +106,8 @@
                           "on the table",
                           "in Sam's room"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -212,6 +214,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "present_simple_continuous",
                     "instructions": "Elige entre present simple y present continuous.",
                     "items": [
                       {
@@ -288,6 +291,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "present_simple_continuous",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -312,6 +316,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "phrasal_verbs",
                     "instructions": "Completa con la partícula: «up», «on», «off», «for», «out» o «back».",
                     "items": [
                       {
@@ -377,6 +382,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "present_simple_continuous",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {

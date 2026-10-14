@@ -79,6 +79,7 @@
                   "phase": "discovery",
                   "type": "multiple_choice",
                   "content": {
+                    "tag": "superlatives",
                     "instructions": "Fíjate en el diálogo y responde.",
                     "items": [
                       {
@@ -112,7 +113,8 @@
                           "Daniel alone",
                           "another team"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": ""
                       }
                     ]
                   }
@@ -222,6 +224,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "superlatives",
                     "instructions": "Completa con el superlativo.",
                     "items": [
                       {
@@ -295,6 +298,7 @@
                   "phase": "practice",
                   "type": "word_order",
                   "content": {
+                    "tag": "superlatives",
                     "instructions": "Ordena las palabras.",
                     "items": [
                       {
@@ -319,6 +323,7 @@
                   "phase": "practice",
                   "type": "fill_blanks",
                   "content": {
+                    "tag": "question_tags",
                     "instructions": "Completa la question tag.",
                     "items": [
                       {
@@ -389,6 +394,7 @@
                   "phase": "production",
                   "type": "translation",
                   "content": {
+                    "tag": "superlatives",
                     "instructions": "Traduce al inglés.",
                     "items": [
                       {
@@ -622,7 +628,8 @@
                           "were",
                           "did"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "past_continuous"
                       },
                       {
                         "question": "What ___ you doing at nine?",
@@ -631,7 +638,8 @@
                           "were",
                           "did"
                         ],
-                        "answer": 1
+                        "answer": 1,
+                        "tag": "past_continuous"
                       },
                       {
                         "question": "While I was opening the door, the phone ___.",
@@ -639,7 +647,8 @@
                           "rang",
                           "was ringing"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "past_continuous"
                       },
                       {
                         "question": "Valencia is ___ than Bristol.",
@@ -648,7 +657,8 @@
                           "more sunny",
                           "sunnyer"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "comparatives"
                       },
                       {
                         "question": "Bristol is ___ expensive than Valencia.",
@@ -657,7 +667,8 @@
                           "much",
                           "most"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "comparatives"
                       },
                       {
                         "question": "The weather is ___ here.",
@@ -666,7 +677,8 @@
                           "badder",
                           "worst"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "comparatives"
                       },
                       {
                         "question": "Dublin is the ___ city in Ireland.",
@@ -675,7 +687,8 @@
                           "bigger",
                           "most big"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "superlatives"
                       },
                       {
                         "question": "It's the ___ night of the year!",
@@ -684,7 +697,8 @@
                           "better",
                           "goodest"
                         ],
-                        "answer": 0
+                        "answer": 0,
+                        "tag": "superlatives"
                       }
                     ]
                   }
@@ -701,7 +715,8 @@
                           [
                             "was"
                           ]
-                        ]
+                        ],
+                        "tag": "past_continuous"
                       },
                       {
                         "sentence": "A man ___ into me. (run)",
@@ -709,7 +724,8 @@
                           [
                             "ran"
                           ]
-                        ]
+                        ],
+                        "tag": "past_continuous"
                       },
                       {
                         "sentence": "Daniel is ___ than Javi. (funny)",
@@ -717,7 +733,8 @@
                           [
                             "funnier"
                           ]
-                        ]
+                        ],
+                        "tag": "comparatives"
                       },
                       {
                         "sentence": "Bristol isn't as sunny ___ Valencia.",
@@ -725,7 +742,8 @@
                           [
                             "as"
                           ]
-                        ]
+                        ],
+                        "tag": "comparatives"
                       },
                       {
                         "sentence": "The Nile is the ___ river in the world. (long)",
@@ -733,7 +751,8 @@
                           [
                             "longest"
                           ]
-                        ]
+                        ],
+                        "tag": "superlatives"
                       },
                       {
                         "sentence": "Galway is the ___ beautiful place.",
@@ -741,7 +760,8 @@
                           [
                             "most"
                           ]
-                        ]
+                        ],
+                        "tag": "superlatives"
                       }
                     ]
                   }
@@ -756,25 +776,29 @@
                         "source": "¿Qué estabas haciendo?",
                         "answers": [
                           "What were you doing"
-                        ]
+                        ],
+                        "tag": "past_continuous"
                       },
                       {
                         "source": "Valencia es más grande que Bristol.",
                         "answers": [
                           "Valencia is bigger than Bristol"
-                        ]
+                        ],
+                        "tag": "comparatives"
                       },
                       {
                         "source": "Fue el peor día de mi vida.",
                         "answers": [
                           "It was the worst day of my life"
-                        ]
+                        ],
+                        "tag": "superlatives"
                       },
                       {
                         "source": "Estaba esperando el autobús.",
                         "answers": [
                           "I was waiting for the bus"
-                        ]
+                        ],
+                        "tag": "past_continuous"
                       }
                     ]
                   }
